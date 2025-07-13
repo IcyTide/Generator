@@ -1,0 +1,154 @@
+from enum import IntEnum, auto
+
+
+class GLOBAL(IntEnum):
+    GAME_FPS = 16
+
+
+class RELATION_FORCE(IntEnum):
+    CHUNYANG = auto()
+    PLAYER_CHUNYANG = auto()
+    WANHUA = auto()
+    PLAYER_WANHUA = auto()
+    QIXIU = auto()
+    PLAYER_QIXIU = auto()
+    TIANCE = auto()
+    PLAYER_TIANCE = auto()
+    SHAOLIN = auto()
+    PLAYER_SHAOLIN = auto()
+    CANGJIAN = auto()
+    PLAYER_CANGJIAN = auto()
+    WUDU = auto()
+    PLAYER_WUDU = auto()
+    TANGMEN = auto()
+    PLAYER_TANGMEN = auto()
+
+
+class PLAYER_ARENA_TYPE(IntEnum):
+    DPS = auto()
+
+
+class SKILL_KIND_TYPE(IntEnum):
+    PHYSICS = auto()
+    SOLAR_MAGIC = auto()
+    LUNAR_MAGIC = auto()
+
+
+class ABSORB_ATTRIBUTE_SHIELD_TYPE(IntEnum):
+    GLOBAL = auto()
+    PHYSICS = auto()
+    SOLAR = auto()
+    LUNAR = auto()
+    NEUTRAL = auto()
+    POISON = auto()
+
+
+class ATTRIBUTE_EFFECT_MODE(IntEnum):
+    EFFECT_TO_SELF_AND_ROLLBACK = auto()
+    EFFECT_TO_DEST_AND_ROLLBACK = auto()
+    EFFECT_TO_SELF_NOT_ROLLBACK = auto()
+    EFFECT_TO_DEST_NOT_ROLLBACK = auto()
+
+
+class ATTRIBUTE_TYPE(IntEnum):
+    USELESS = 0
+    KUNGFU_TYPE = 0
+
+    MAX_SUN_ENERGY = 0
+    MAX_MOON_ENERGY = 0
+
+    MAX_LIFE_PERCENT_ADD = 0
+    MANA_REPLENISH_EXT = 0
+    MANA_REPLENISH_PERCENT = 0
+
+    EXECUTE_SCRIPT = 0
+    EXECUTE_SCRIPT_WITH_PARAM = 0
+    EXECUTE_SCRIPT_SETUP = 0
+    EXECUTE_SCRIPT_BULLET_TO_DEST = 0
+    EXECUTE_SCRIPT_BULLET_TO_DEST_AND_ROLLBACK = 0
+    CAST_SKILL = 0
+    CAST_SKILL_TARGET_DST = 0
+    CALL_BUFF = 0
+    DEL_SINGLE_BUFF_BY_ID_AND_LEVEL = 0
+    SET_TALENT_RECIPE = 0
+    SKILL_EVENT_HANDLER = 0
+    SET_ADAPTIVE_SKILL_TYPE = 0
+
+    # Useless Attribute
+    ACTIVE_THREAT_COEFFICIENT = 0
+    DROP_DEFENCE = 0
+    BEAT_BACK_RATE = 0
+    DECRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = 0
+
+    # Damage Attribute
+    SKILL_PHYSICS_DAMAGE = auto()
+    SKILL_SOLAR_DAMAGE = auto()
+    SKILL_LUNAR_DAMAGE = auto()
+    SKILL_NEUTRAL_DAMAGE = auto()
+    SKILL_POISON_DAMAGE = auto()
+
+    SKILL_PHYSICS_DAMAGE_RAND = auto()
+    SKILL_SOLAR_DAMAGE_RAND = auto()
+    SKILL_LUNAR_DAMAGE_RAND = auto()
+    SKILL_NEUTRAL_DAMAGE_RAND = auto()
+    SKILL_POISON_DAMAGE_RAND = auto()
+
+    CALL_PHYSICS_DAMAGE = auto()
+    CALL_SOLAR_DAMAGE = auto()
+    CALL_LUNAR_DAMAGE = auto()
+    CALL_NEUTRAL_DAMAGE = auto()
+    CALL_POISON_DAMAGE = auto()
+
+    CALL_SURPLUS_PHYSICS_DAMAGE = auto()
+    CALL_SURPLUS_SOLAR_DAMAGE = auto()
+    CALL_SURPLUS_LUNAR_DAMAGE = auto()
+    CALL_SURPLUS_NEUTRAL_DAMAGE = auto()
+    CALL_SURPLUS_POISON_DAMAGE = auto()
+
+    # Attack Attribute
+    PHYSICS_ATTACK_POWER_BASE = auto()
+    SOLAR_ATTACK_POWER_BASE = auto()
+    LUNAR_ATTACK_POWER_BASE = auto()
+
+    PHYSICS_ATTACK_POWER_PERCENT = auto()
+
+    LUNAR_CRITICAL_STRIKE_BASE_RATE = auto()
+
+    # Defense Attribute
+    MAGIC_SHIELD = auto()
+    PHYSICS_SHIELD_BASE = auto()
+
+    # Cof Attribute
+    STRENGTH_TO_PHYSICS_ATTACK_POWER_COF = auto()
+    STRENGTH_TO_PHYSICS_OVERCOME_COF = auto()
+    SPUNK_TO_SOLAR_AND_LUNAR_ATTACK_POWER_COF = auto()
+    SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF = auto()
+
+    # Other Attribute
+    ALL_SHIELD_IGNORE_PERCENT = auto()
+    DST_NPC_DAMAGE_COEFFICIENT = auto()
+    GLOBAL_DAMGAGE_FACTOR = auto()
+
+
+class BUFF_COMPARE_FLAG(IntEnum):
+    EQUAL = auto()
+    NOT_EQUAL = auto()
+    GREATER_EQUAL = auto()
+    LESS_EQUAL = auto()
+    GREATER = auto()
+    LESS = auto()
+
+
+class SKILL_COMPARE_FLAG(IntEnum):
+    EQUAL = auto()
+    NOT_EQUAL = auto()
+    GREATER_EQUAL = auto()
+    LESS_EQUAL = auto()
+    GREATER = auto()
+    LESS = auto()
+
+
+ENV_VARIABLES = [
+    GLOBAL, RELATION_FORCE, PLAYER_ARENA_TYPE, SKILL_KIND_TYPE, ABSORB_ATTRIBUTE_SHIELD_TYPE,
+    ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE, BUFF_COMPARE_FLAG, SKILL_COMPARE_FLAG
+]

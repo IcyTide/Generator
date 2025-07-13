@@ -1,0 +1,1 @@
+from kungfus.first.skills import SKILLS
