@@ -1,81 +1,79 @@
 SKILLS = {
     32816: {
-        "skill_id": 32816,
         "skill_name": "明教_焚影阳性破招子技能",
         "max_level": 5,
         "kind_type": "SolarMagic",
-        "skill_event_mask1": 0,
-        "skill_event_mask2": 0,
-        "recipe_type": 0,
-        "weapon_request": 0,
-        "use_skill_coefficient": 0,
-        "name": "破",
-        "attributes": [
+        "name": [
+            "破"
+        ],
+        "dest_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_DEST_AND_ROLLBACK",
                     "GLOBAL_DAMGAGE_FACTOR",
                     -574755.2813056,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SURPLUS_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_DEST_AND_ROLLBACK",
                     "GLOBAL_DAMGAGE_FACTOR",
                     -574755.2813056,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SURPLUS_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_DEST_AND_ROLLBACK",
                     "GLOBAL_DAMGAGE_FACTOR",
                     -574755.2813056,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SURPLUS_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_DEST_AND_ROLLBACK",
                     "GLOBAL_DAMGAGE_FACTOR",
                     -574755.2813056,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SURPLUS_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_DEST_AND_ROLLBACK",
                     "GLOBAL_DAMGAGE_FACTOR",
                     -100934.56261119992,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
+                    "CALL_SURPLUS_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    "CALL_SURPLUS_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    "CALL_SURPLUS_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    "CALL_SURPLUS_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
                     "CALL_SURPLUS_SOLAR_DAMAGE",
                     0,
                     0
@@ -84,12 +82,9 @@ SKILLS = {
         ]
     },
     19055: {
-        "skill_id": 19055,
         "skill_name": "明教通用外功武器伤害实际效果",
         "max_level": 11,
         "kind_type": "Physics",
-        "skill_event_mask1": 0,
-        "skill_event_mask2": 0,
         "recipe_type": 19055,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
@@ -119,43 +114,48 @@ SKILLS = {
             1024,
             1024
         ],
-        "attributes": [
+        "self_rollback_attributes": [
             [
-                "EFFECT_TO_SELF_AND_ROLLBACK",
-                "PHYSICS_ATTACK_POWER_PERCENT",
-                -1024,
-                0
-            ],
+                [
+                    "PHYSICS_ATTACK_POWER_PERCENT",
+                    -1024,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
             [
-                "EFFECT_TO_DEST_NOT_ROLLBACK",
-                "CALL_PHYSICS_DAMAGE",
-                0,
-                0
+                [
+                    "CALL_PHYSICS_DAMAGE",
+                    0,
+                    0
+                ]
             ]
         ]
     },
     4326: {
-        "skill_id": 4326,
         "skill_name": "普通攻击-双刀攻击",
         "max_level": 1,
         "kind_type": "Physics",
         "skill_event_mask1": 131075,
-        "skill_event_mask2": 0,
         "recipe_type": 11,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "大漠刀法",
-        "attributes": [
+        "name": [
+            "大漠刀法"
+        ],
+        "dest_attributes": [
             [
-                "EFFECT_TO_DEST_NOT_ROLLBACK",
-                "CALL_PHYSICS_DAMAGE",
-                0,
-                0
+                [
+                    "CALL_PHYSICS_DAMAGE",
+                    0,
+                    0
+                ]
             ]
-        ]
+        ],
+        "channel_interval": 16
     },
     14701: {
-        "skill_id": 14701,
         "skill_name": "净世破魔击·日直接打单目标最大AOE",
         "max_level": 32,
         "kind_type": "SolarMagic",
@@ -164,7 +164,9 @@ SKILLS = {
         "recipe_type": 3967,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "净世破魔击·日",
+        "name": [
+            "净世破魔击·日"
+        ],
         "channel_interval": [
             269.38109145361835,
             269.38109145361835,
@@ -199,642 +201,395 @@ SKILLS = {
             607.3319152772489,
             734.6757039644136
         ],
-        "attributes": [
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     30.400000000000002,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     1.72,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     36.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     2,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     41.800000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     2.2800000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     43.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     2.5600000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     45.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     2.8400000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     47.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     3.1200000000000006,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     49.400000000000006,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     3.4000000000000004,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     51.300000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     3.6800000000000006,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     53.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     3.9600000000000004,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     55.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     4.240000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     57,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     4.5200000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     58.900000000000006,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     4.800000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     60.800000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.080000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     62.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.36,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     64.60000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.640000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     66.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.920000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     68.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6.2,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     70.3,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6.48,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     72.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6.760000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     74.10000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     7.040000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     76,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     7.32,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     77.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     7.6000000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     79.80000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     7.880000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     81.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     8.160000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     83.60000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     8.440000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     85.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     8.72,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     87.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     9,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     89.30000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     9.280000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     90.82,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     9.56,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     93.48,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     9.840000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     96.14,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10.120000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     98.80000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10.4,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_SOLAR_DAMAGE",
                     0,
                     0
@@ -843,7 +598,6 @@ SKILLS = {
         ]
     },
     4476: {
-        "skill_id": 4476,
         "skill_name": "明教_净世破魔击_月_伤害",
         "max_level": 32,
         "kind_type": "LunarMagic",
@@ -852,7 +606,9 @@ SKILLS = {
         "recipe_type": 3967,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "净世破魔击·月",
+        "name": [
+            "净世破魔击·月"
+        ],
         "channel_interval": [
             106.11982390597089,
             106.11982390597089,
@@ -887,642 +643,395 @@ SKILLS = {
             195.913521057177,
             244.8919013214713
         ],
-        "attributes": [
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     23.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.44571428571428573,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     25.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.5257142857142857,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     26.599999999999998,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.6057142857142858,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     28,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.6857142857142857,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     29.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.7771428571428572,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     30.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.8571428571428571,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     32.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.9371428571428572,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     33.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.0171428571428571,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     35,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.0971428571428572,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     36.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.1885714285714286,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     37.800000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.2685714285714287,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     39.199999999999996,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.3485714285714285,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     40.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.4285714285714286,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     42,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.5085714285714287,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     43.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     44.800000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.68,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     46.199999999999996,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.76,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     47.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.84,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     49,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.92,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     50.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.0114285714285716,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     51.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.0914285714285716,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     53.199999999999996,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.1714285714285717,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     55.160000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.2514285714285713,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     57.12,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.3314285714285714,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     59.36,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.422857142857143,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     61.32,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.5028571428571427,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     63.279999999999994,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.582857142857143,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     65.24,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.662857142857143,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     67.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.742857142857143,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     69.44,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.834285714285714,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     71.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.9142857142857146,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     73.36,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.994285714285714,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
@@ -1531,7 +1040,6 @@ SKILLS = {
         ]
     },
     40088: {
-        "skill_id": 40088,
         "skill_name": "明教_烈日斩_子技能",
         "max_level": 32,
         "kind_type": "SolarMagic",
@@ -1540,7 +1048,9 @@ SKILLS = {
         "recipe_type": 3963,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "烈日斩",
+        "name": [
+            "烈日斩"
+        ],
         "channel_interval": [
             259.71865920000005,
             259.71865920000005,
@@ -1575,642 +1085,395 @@ SKILLS = {
             527.5535265000001,
             572.1926710500002
         ],
-        "attributes": [
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     39.583333333333336,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     2.2333333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     45.916666666666664,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     2.6666666666666665,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     52.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     3.1333333333333333,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     58.583333333333336,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     3.566666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     64.91666666666667,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     4.033333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     71.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     4.466666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     77.58333333333333,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     4.933333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     83.91666666666667,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.366666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     90.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.833333333333333,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     96.58333333333333,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6.266666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     102.91666666666667,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6.733333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     109.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     7.166666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     115.58333333333333,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     7.633333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     118.75,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     8.066666666666668,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     121.91666666666667,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     8.533333333333333,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     125.08333333333333,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     8.966666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     128.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     9.433333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     131.41666666666666,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     9.866666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     134.58333333333334,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10.333333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     136.16666666666666,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10.766666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     137.75,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11.233333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     139.33333333333334,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11.666666666666666,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     140.91666666666666,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12.133333333333333,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     142.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12.566666666666668,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     144.08333333333334,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     13.033333333333333,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     145.66666666666666,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     13.466666666666669,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     147.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     13.933333333333335,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     148.83333333333334,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     14.366666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     150.41666666666666,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     14.833333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     152,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15.266666666666667,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     153.58333333333334,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15.733333333333334,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     155.16666666666666,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.166666666666668,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_SOLAR_DAMAGE",
                     0,
                     0
@@ -2219,7 +1482,6 @@ SKILLS = {
         ]
     },
     40089: {
-        "skill_id": 40089,
         "skill_name": "明教_银月斩_子技能",
         "max_level": 18,
         "kind_type": "LunarMagic",
@@ -2228,7 +1490,9 @@ SKILLS = {
         "recipe_type": 3960,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "银月斩",
+        "name": [
+            "银月斩"
+        ],
         "channel_interval": [
             151.08633540000005,
             151.08633540000005,
@@ -2249,362 +1513,227 @@ SKILLS = {
             271.95540372000005,
             287.06403726000013
         ],
-        "attributes": [
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     38,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.8250000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     42.75,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.325,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     47.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.825,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     52.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.325,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     57,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.825,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     61.75,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.325,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     66.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.825,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     71.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.325,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     73.625,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.825,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     76,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.325,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     78.375,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.825,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     80.75,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.325,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     83.125,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.825,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     85.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.325000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     87.875,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.825000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     90.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.325000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     93.8125,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.825000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     98.08749999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     10.325000000000001,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
@@ -2613,7 +1742,6 @@ SKILLS = {
         ]
     },
     6257: {
-        "skill_id": 6257,
         "skill_name": "明教_生死劫_日_子技能",
         "max_level": 1,
         "kind_type": "SolarMagic",
@@ -2622,31 +1750,37 @@ SKILLS = {
         "recipe_type": 3966,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "生死劫·日",
-        "channel_interval": 67.2,
-        "attributes": [
+        "name": [
+            "生死劫·日"
+        ],
+        "channel_interval": [
+            67.2
+        ],
+        "self_rollback_attributes": [
             [
-                "EFFECT_TO_SELF_AND_ROLLBACK",
-                "SKILL_SOLAR_DAMAGE",
-                70,
-                0
-            ],
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    70,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    10,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
             [
-                "EFFECT_TO_SELF_AND_ROLLBACK",
-                "SKILL_SOLAR_DAMAGE_RAND",
-                10,
-                0
-            ],
-            [
-                "EFFECT_TO_DEST_NOT_ROLLBACK",
-                "CALL_SOLAR_DAMAGE",
-                0,
-                0
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
             ]
         ]
     },
     6258: {
-        "skill_id": 6258,
         "skill_name": "明教_生死劫_月_子技能",
         "max_level": 1,
         "kind_type": "LunarMagic",
@@ -2655,40 +1789,46 @@ SKILLS = {
         "recipe_type": 3966,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "生死劫·月",
-        "channel_interval": 67.2,
-        "attributes": [
+        "name": [
+            "生死劫·月"
+        ],
+        "channel_interval": [
+            67.2
+        ],
+        "self_rollback_attributes": [
             [
-                "EFFECT_TO_SELF_AND_ROLLBACK",
-                "SKILL_LUNAR_DAMAGE",
-                70,
-                0
-            ],
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    70,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    10,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
             [
-                "EFFECT_TO_SELF_AND_ROLLBACK",
-                "SKILL_LUNAR_DAMAGE_RAND",
-                10,
-                0
-            ],
-            [
-                "EFFECT_TO_DEST_NOT_ROLLBACK",
-                "CALL_LUNAR_DAMAGE",
-                0,
-                0
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
             ]
         ]
     },
     13359: {
-        "skill_id": 13359,
         "skill_name": "明教_银月斩_dot",
         "max_level": 18,
         "kind_type": "LunarMagic",
-        "skill_event_mask1": 0,
-        "skill_event_mask2": 0,
         "recipe_type": 3960,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "银月斩",
+        "name": [
+            "银月斩"
+        ],
         "channel_interval": [
             181.30360248000008,
             181.30360248000008,
@@ -2711,7 +1851,6 @@ SKILLS = {
         ]
     },
     4024: {
-        "skill_id": 4024,
         "skill_name": "明教_幽月轮_第一下",
         "max_level": 24,
         "kind_type": "LunarMagic",
@@ -2720,7 +1859,9 @@ SKILLS = {
         "recipe_type": 3959,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "幽月轮",
+        "name": [
+            "幽月轮"
+        ],
         "channel_interval": [
             138.13607808000003,
             138.13607808000003,
@@ -2747,483 +1888,302 @@ SKILLS = {
             259.00514640000006,
             302.1726708000001
         ],
-        "weapon_damage_percent": 1024,
-        "attributes": [
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     19,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     20.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.8,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     22.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     24.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.4200000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     26.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.7400000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     28.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.04,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     30.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.3600000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     32.3,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.66,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     34.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.98,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     36.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.2800000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     38,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     39.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.9,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     41.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.220000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     43.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.5200000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     45.98,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.840000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     48.83,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.140000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     51.86999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.46,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     54.71999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.76,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     57.760000000000005,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.08,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     60.61,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.380000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     63.65,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     66.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     69.53999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.32,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     72.39,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.62,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
@@ -3232,7 +2192,6 @@ SKILLS = {
         ]
     },
     4025: {
-        "skill_id": 4025,
         "skill_name": "明教_幽月轮_第二下",
         "max_level": 24,
         "kind_type": "LunarMagic",
@@ -3241,7 +2200,9 @@ SKILLS = {
         "recipe_type": 3959,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "幽月轮",
+        "name": [
+            "幽月轮"
+        ],
         "channel_interval": [
             138.13607808000003,
             138.13607808000003,
@@ -3268,627 +2229,422 @@ SKILLS = {
             259.00514640000006,
             302.1726708000001
         ],
-        "weapon_damage_percent": 1024,
-        "attributes": [
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     19,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     20.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.8,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     22.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     24.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.4200000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     26.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.7400000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     28.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.04,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     30.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.3600000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     32.3,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.66,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     34.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.98,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     36.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.2800000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     38,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     39.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.9,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     41.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.220000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     43.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.5200000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     45.98,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.840000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     48.83,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.140000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     51.86999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.46,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     54.71999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.76,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     57.760000000000005,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.08,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     60.61,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.380000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     63.65,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     66.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     69.53999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.32,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     500,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     72.39,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.62,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
@@ -3897,7 +2653,6 @@ SKILLS = {
         ]
     },
     4026: {
-        "skill_id": 4026,
         "skill_name": "明教_幽月轮_第三下",
         "max_level": 24,
         "kind_type": "LunarMagic",
@@ -3906,7 +2661,9 @@ SKILLS = {
         "recipe_type": 3959,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "幽月轮",
+        "name": [
+            "幽月轮"
+        ],
         "channel_interval": [
             172.67009760000005,
             172.67009760000005,
@@ -3933,627 +2690,422 @@ SKILLS = {
             353.97370008000007,
             345.3401952000001
         ],
-        "weapon_damage_percent": 1024,
-        "attributes": [
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     19,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     20.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     0.8,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     22.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     24.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.4200000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     26.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     1.7400000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     28.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.04,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     30.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.3600000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     32.3,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.66,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     34.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.98,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     36.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.2800000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     38,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     39.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.9,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     41.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.220000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     43.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.5200000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     45.98,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.840000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     48.83,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.140000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     51.86999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.46,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     54.71999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.76,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     57.760000000000005,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.08,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     60.61,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.380000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     63.65,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     66.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     69.53999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.32,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "LUNAR_CRITICAL_STRIKE_BASE_RATE",
                     1000,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     72.39,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.62,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
@@ -4562,7 +3114,6 @@ SKILLS = {
         ]
     },
     4028: {
-        "skill_id": 4028,
         "skill_name": "明教_赤日轮_第一下",
         "max_level": 33,
         "kind_type": "SolarMagic",
@@ -4571,7 +3122,9 @@ SKILLS = {
         "recipe_type": 3962,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "赤日轮",
+        "name": [
+            "赤日轮"
+        ],
         "channel_interval": [
             132.64202952000002,
             132.64202952000002,
@@ -4607,663 +3160,410 @@ SKILLS = {
             308.64779946000004,
             392.8244720400001
         ],
-        "weapon_damage_percent": 1024,
-        "attributes": [
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     37,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     40,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     43,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     46,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     49,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     52,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     55,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     58,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     61,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     64,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     67,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     70,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     73,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     76,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     79,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     82,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     85,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     88,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     91,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     94,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     97,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     100,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     10,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     103,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     106,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     109,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     112,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     115,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     118,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     15,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     121,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     20,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     124,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     20,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     127,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     20,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     130,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     20,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     135,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     20,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_SOLAR_DAMAGE",
                     0,
                     0
@@ -5272,7 +3572,6 @@ SKILLS = {
         ]
     },
     4029: {
-        "skill_id": 4029,
         "skill_name": "明教_赤日轮_第二下",
         "max_level": 33,
         "kind_type": "SolarMagic",
@@ -5281,7 +3580,9 @@ SKILLS = {
         "recipe_type": 3962,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "赤日轮",
+        "name": [
+            "赤日轮"
+        ],
         "channel_interval": [
             127.54041300000004,
             127.54041300000004,
@@ -5317,663 +3618,410 @@ SKILLS = {
             303.54618294,
             392.8244720400001
         ],
-        "weapon_damage_percent": 1024,
-        "attributes": [
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     40.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     44,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     47.300000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     50.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     53.900000000000006,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     57.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     60.50000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     63.800000000000004,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     67.10000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     70.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     5.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     73.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     77,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     80.30000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     83.60000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     86.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     90.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     93.50000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     96.80000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     100.10000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     103.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     106.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     110.00000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     11,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     113.30000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     116.60000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     119.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     123.20000000000002,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     126.50000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     129.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     16.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     133.10000000000002,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     22,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     136.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     22,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     139.70000000000002,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     22,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     143,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     22,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     148.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     22,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_SOLAR_DAMAGE",
                     0,
                     0
@@ -5982,7 +4030,6 @@ SKILLS = {
         ]
     },
     4030: {
-        "skill_id": 4030,
         "skill_name": "明教_赤日轮_第三下",
         "max_level": 33,
         "kind_type": "SolarMagic",
@@ -5991,7 +4038,9 @@ SKILLS = {
         "recipe_type": 3962,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "赤日轮",
+        "name": [
+            "赤日轮"
+        ],
         "channel_interval": [
             163.25172864000004,
             163.25172864000004,
@@ -6027,663 +4076,410 @@ SKILLS = {
             444.860960544,
             489.75518592
         ],
-        "weapon_damage_percent": 1024,
-        "attributes": [
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     44.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     48,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     51.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     55.199999999999996,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     58.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     62.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     66,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     69.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     73.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     76.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     6,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     80.39999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     84,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     87.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     91.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     94.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     98.39999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     102,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     105.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     109.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     112.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     116.39999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     120,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     12,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     123.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     18,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     127.19999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     18,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     130.79999999999998,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     18,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     134.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     18,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     138,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     18,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     141.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     18,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     145.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     24,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     148.79999999999998,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     24,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     152.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     24,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     156,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     24,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_SOLAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE",
                     162,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_SOLAR_DAMAGE_RAND",
                     24,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_SOLAR_DAMAGE",
                     0,
                     0
@@ -6692,16 +4488,16 @@ SKILLS = {
         ]
     },
     4480: {
-        "skill_id": 4480,
         "skill_name": "明教_驱夜断愁_子技能",
         "max_level": 58,
         "kind_type": "LunarMagic",
         "skill_event_mask1": 81,
-        "skill_event_mask2": 0,
         "recipe_type": 3979,
         "weapon_request": 12,
         "use_skill_coefficient": 1,
-        "name": "驱夜断愁",
+        "name": [
+            "驱夜断愁"
+        ],
         "channel_interval": [
             203.74200000000008,
             203.74200000000008,
@@ -6762,1142 +4558,828 @@ SKILLS = {
             491.8914000000001,
             529.7292000000001
         ],
-        "attributes": [
+        "self_rollback_attributes": [
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     57,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.74,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     58.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     2.98,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     60.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.22,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     62.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.46,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     64.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.7,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     66.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.9400000000000004,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     68.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.180000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     70.3,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.42,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     72.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.66,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     74.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.9,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     76,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.140000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     77.9,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.380000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     79.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.62,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     80.75,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.86,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     81.7,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.1,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     82.65,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.340000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     83.6,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.58,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     84.55,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.82,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     85.5,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.0600000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     86.45,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.3,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     87.4,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.540000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     88.35,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.780000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     89.3,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.02,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     90.25,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.260000000000002,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     91.2,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.5,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     92.15,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.74,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     93.1,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.98,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     94.05,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.22,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     95,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.46,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     74.10000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.5620000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     76.57000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     3.874,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     79.03999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.186000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     81.51,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.498,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     83.97999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     4.8100000000000005,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     86.45,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.122000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     88.92000000000002,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.434000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     91.39,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     5.746,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     93.86000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.058000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     96.33,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.370000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     98.8,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.682000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     101.27000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     6.9940000000000015,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     103.74,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.306,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     104.97500000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.618,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     106.21000000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     7.93,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     107.44500000000001,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.242,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     108.67999999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.554,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     109.915,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     8.866000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     111.15,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.178,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     112.385,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.49,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     113.62,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     9.802000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     114.85499999999999,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     10.114000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     116.09,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     10.426,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     117.325,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     10.738000000000003,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     118.56,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     11.05,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     119.79500000000002,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     11.362,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     121.03,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     11.674000000000001,
-                    0
-                ],
-                [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
-                    "CALL_LUNAR_DAMAGE",
-                    0,
                     0
                 ]
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE",
                     122.265,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
                     11.986,
                     0
+                ]
+            ],
+            [
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    123.5,
+                    0
                 ],
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    12.298000000000002,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    40931: {
+        "skill_name": "明教_净身明礼_日斩AOE_子技能",
+        "max_level": 1,
+        "kind_type": "SolarMagic",
+        "use_skill_coefficient": 1,
+        "name": [
+            "净身明礼·日"
+        ],
+        "channel_interval": [
+            179
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    39.583333333333336,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    2.2333333333333334,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    40932: {
+        "skill_name": "明教_净身明礼_月斩AOE_子技能",
+        "max_level": 1,
+        "kind_type": "LunarMagic",
+        "use_skill_coefficient": 1,
+        "name": [
+            "净身明礼·月"
+        ],
+        "channel_interval": [
+            101
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    38,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    1.8250000000000002,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    26916: {
+        "skill_name": "诛邪伤害子技能",
+        "max_level": 4,
+        "kind_type": "SolarMagic",
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "诛邪镇魔"
+        ],
+        "channel_interval": [
+            415.85847187499996
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    209,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    240,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    209,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    240,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ],
+                [
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
@@ -7905,24 +5387,1203 @@ SKILLS = {
             ],
             [
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ],
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -952664,
+                    0
+                ],
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ],
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    952664,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -952664,
+                    0
+                ],
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ],
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    952664,
+                    0
+                ],
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -952664,
+                    0
+                ],
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ],
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    952664,
+                    0
+                ],
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -952664,
+                    0
+                ],
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ],
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    952664,
+                    0
+                ]
+            ]
+        ]
+    },
+    26708: {
+        "skill_name": "净体不畏·日",
+        "max_level": 1,
+        "kind_type": "SolarMagic",
+        "use_skill_coefficient": 1,
+        "name": [
+            "净体不畏·日"
+        ],
+        "channel_interval": [
+            267.29999999999995
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "DST_NPC_DAMAGE_COEFFICIENT",
+                    768,
+                    1
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    100,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    20,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    26709: {
+        "skill_name": "净体不畏·月",
+        "max_level": 1,
+        "kind_type": "LunarMagic",
+        "use_skill_coefficient": 1,
+        "name": [
+            "净体不畏·月"
+        ],
+        "channel_interval": [
+            267.29999999999995
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "DST_NPC_DAMAGE_COEFFICIENT",
+                    768,
+                    1
+                ],
+                [
                     "SKILL_LUNAR_DAMAGE",
-                    123.5,
+                    100,
                     0
                 ],
                 [
-                    "EFFECT_TO_SELF_AND_ROLLBACK",
                     "SKILL_LUNAR_DAMAGE_RAND",
-                    12.298000000000002,
+                    20,
                     0
-                ],
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
                 [
-                    "EFFECT_TO_DEST_NOT_ROLLBACK",
                     "CALL_LUNAR_DAMAGE",
                     0,
                     0
                 ]
             ]
+        ]
+    },
+    34373: {
+        "skill_name": "明教_生死劫上dot技能_日",
+        "max_level": 4,
+        "kind_type": "SolarMagic",
+        "recipe_type": 3966,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "channel_interval": [
+            2654.0800000000004
+        ]
+    },
+    34374: {
+        "skill_name": "明教_生死劫上dot技能_月",
+        "max_level": 4,
+        "kind_type": "LunarMagic",
+        "recipe_type": 3966,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "channel_interval": [
+            2654.0800000000004
+        ]
+    },
+    34985: {
+        "skill_name": "明教_降灵尊本体伤害",
+        "max_level": 1,
+        "kind_type": "SolarMagic",
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "降灵尊"
+        ],
+        "channel_interval": [
+            1062.7848000000001
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    70,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    10,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34348: {
+        "skill_name": "明教_明赦尊谕_日",
+        "max_level": 1,
+        "kind_type": "SolarMagic",
+        "skill_event_mask1": 536871473,
+        "skill_event_mask2": 4227076,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "channel_interval": [
+            67.2
+        ]
+    },
+    34349: {
+        "skill_name": "明教_明赦尊谕_月",
+        "max_level": 1,
+        "kind_type": "LunarMagic",
+        "skill_event_mask1": 134234705,
+        "skill_event_mask2": 4227076,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "channel_interval": [
+            67.2
+        ]
+    },
+    34353: {
+        "skill_name": "明教_影子幽月轮",
+        "max_level": 6,
+        "kind_type": "LunarMagic",
+        "skill_event_mask1": 593,
+        "skill_event_mask2": 2151677952,
+        "recipe_type": 3959,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "幽月轮·悬象"
+        ],
+        "channel_interval": [
+            302.1726708000001
+        ],
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    72.39,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    7.62,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34354: {
+        "skill_name": "明教_影子赤日轮",
+        "max_level": 6,
+        "kind_type": "SolarMagic",
+        "skill_event_mask1": 545,
+        "skill_event_mask2": 2151677952,
+        "recipe_type": 3962,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "赤日轮·悬象"
+        ],
+        "channel_interval": [
+            392.8244720400001
+        ],
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    135,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    20,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34355: {
+        "skill_name": "明教_影子银月斩",
+        "max_level": 6,
+        "kind_type": "LunarMagic",
+        "skill_event_mask2": 4784130,
+        "recipe_type": 3960,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "银月斩·悬象"
+        ],
+        "channel_interval": [
+            287.06403726000013
+        ],
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    98.08749999999999,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    10.325000000000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34356: {
+        "skill_name": "明教_影子烈日斩",
+        "max_level": 6,
+        "kind_type": "SolarMagic",
+        "skill_event_mask1": 561,
+        "skill_event_mask2": 4784132,
+        "recipe_type": 3963,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "烈日斩·悬象"
+        ],
+        "channel_interval": [
+            572.1926710500002
+        ],
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    155.16666666666666,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    16.166666666666668,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34357: {
+        "skill_name": "明教_影子月破魔",
+        "max_level": 6,
+        "kind_type": "LunarMagic",
+        "skill_event_mask2": 2,
+        "use_skill_coefficient": 1,
+        "name": [
+            "净世破魔击·月悬象"
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ]
+    },
+    34359: {
+        "skill_name": "明教_影子月破魔伤害",
+        "max_level": 6,
+        "kind_type": "LunarMagic",
+        "skill_event_mask1": 134218321,
+        "skill_event_mask2": 4194304,
+        "recipe_type": 3967,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "净世破魔击·月悬象"
+        ],
+        "channel_interval": [
+            244.8919013214713
+        ],
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    73.36,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    2.994285714285714,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34360: {
+        "skill_name": "明教_影子日破魔",
+        "max_level": 6,
+        "kind_type": "SolarMagic",
+        "skill_event_mask2": 4,
+        "use_skill_coefficient": 1,
+        "name": [
+            "净世破魔击·日悬象"
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ]
+    },
+    34361: {
+        "skill_name": "明教_影子日破魔伤害",
+        "max_level": 6,
+        "kind_type": "SolarMagic",
+        "skill_event_mask1": 536871473,
+        "skill_event_mask2": 4259840,
+        "recipe_type": 3967,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "净世破魔击·日悬象"
+        ],
+        "channel_interval": [
+            734.6757039644136
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    98.80000000000001,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    10.4,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34362: {
+        "skill_name": "明教_影子月生死劫",
+        "max_level": 6,
+        "kind_type": "LunarMagic",
+        "skill_event_mask1": 134234705,
+        "skill_event_mask2": 4194306,
+        "recipe_type": 3966,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "生死劫·月悬象"
+        ],
+        "channel_interval": [
+            67.2
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_LUNAR_DAMAGE",
+                    70,
+                    0
+                ],
+                [
+                    "SKILL_LUNAR_DAMAGE_RAND",
+                    10,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_LUNAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    34363: {
+        "skill_name": "明教_影子日生死劫",
+        "max_level": 6,
+        "kind_type": "SolarMagic",
+        "skill_event_mask1": 536871473,
+        "skill_event_mask2": 4227076,
+        "recipe_type": 3966,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "生死劫·日悬象"
+        ],
+        "channel_interval": [
+            67.2
+        ],
+        "weapon_damage_percent": [
+            1024
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    70,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    10,
+                    0
+                ]
+            ]
+        ],
+        "dest_rollback_attributes": [
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -985661.44,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -796917.76,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -482344.95999999996,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    -41943.04000000004,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    524288,
+                    0
+                ]
+            ],
+            [
+                [
+                    "GLOBAL_DAMGAGE_FACTOR",
+                    1216348.1600000001,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    37336: {
+        "skill_name": "崇光斩恶子技能",
+        "max_level": 6,
+        "kind_type": "SolarMagic",
+        "skill_event_mask1": 33,
+        "weapon_request": 12,
+        "use_skill_coefficient": 1,
+        "name": [
+            "崇光斩恶"
+        ],
+        "channel_interval": [
+            763.2,
+            938.1,
+            1290.02,
+            2098.8,
+            2579.775,
+            3547.555
+        ],
+        "self_rollback_attributes": [
+            [
+                [
+                    "SKILL_SOLAR_DAMAGE",
+                    209,
+                    0
+                ],
+                [
+                    "SKILL_SOLAR_DAMAGE_RAND",
+                    240,
+                    0
+                ]
+            ]
+        ],
+        "dest_attributes": [
+            [
+                [
+                    "CALL_SOLAR_DAMAGE",
+                    0,
+                    0
+                ]
+            ]
+        ]
+    },
+    5972: {
+        "skill_name": "明教_焚影_崇骨3_日月斩加会心",
+        "name": [
+            "腾焰飞芒"
+        ],
+        "recipes": [
+            [
+                [
+                    1314,
+                    1
+                ],
+                [
+                    1315,
+                    1
+                ]
+            ]
+        ]
+    },
+    18279: {
+        "skill_name": "斩系技能附带AOE效果",
+        "name": [
+            "净身明礼"
+        ],
+        "recipes": [
+            [
+                [
+                    5149,
+                    1
+                ],
+                [
+                    5150,
+                    1
+                ]
+            ]
+        ]
+    },
+    22888: {
+        "skill_name": "日月循环破魔高爆发",
+        "name": [
+            "诛邪镇魔"
+        ]
+    },
+    6717: {
+        "skill_name": "明教_无明业火_背后加会心",
+        "name": [
+            "无明业火"
+        ]
+    },
+    34383: {
+        "skill_name": "焚影_终结技加另一系终结技伤害",
+        "name": [
+            "明光恒照"
+        ]
+    },
+    34395: {
+        "skill_name": "焚影_多次使用不同终结技触发爆发",
+        "name": [
+            "日月同辉"
+        ]
+    },
+    25166: {
+        "skill_name": "明教_净体不畏",
+        "name": [
+            "净体不畏"
+        ],
+        "recipes": [
+            [
+                [
+                    5507,
+                    1
+                ],
+                [
+                    5508,
+                    1
+                ]
+            ]
+        ]
+    },
+    34372: {
+        "skill_name": "焚影_生死劫带dot",
+        "name": [
+            "靡业报劫"
+        ],
+        "recipes": [
+            [
+                [
+                    3221,
+                    1
+                ]
+            ]
+        ]
+    },
+    17567: {
+        "skill_name": "明教_用晦而明",
+        "name": [
+            "用晦而明"
+        ],
+        "recipes": [
+            [
+                [
+                    5921,
+                    1
+                ]
+            ]
+        ]
+    },
+    5979: {
+        "skill_name": "明教_天地诛戮",
+        "name": [
+            "天地诛戮"
+        ]
+    },
+    38526: {
+        "skill_name": "降灵尊",
+        "name": [
+            "降灵尊"
+        ]
+    },
+    34347: {
+        "skill_name": "焚影_影子终结技",
+        "name": [
+            "明赦尊谕"
+        ]
+    },
+    37337: {
+        "skill_name": "崇光斩恶_光明相变技能",
+        "name": [
+            "崇光斩恶"
         ]
     }
 }

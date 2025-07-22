@@ -37,7 +37,8 @@ class DotEditorDialog(QDialog):
         layout.addWidget(LabelRow("ID:", self.id_combo))
         layout.addWidget(LabelRow("Level:", self.level_combo))
         layout.addWidget(LabelRow("Source:", self.source_button))
-        layout.addWidget(LabelRow("Consume:", self.consume_button))
+        self.consume_row = LabelRow("Consume:", self.consume_button)
+        layout.addWidget(self.consume_row)
         layout.addWidget(LabelRow("Count:", self.count_spin))
 
         layout.addLayout((btn_layout := QHBoxLayout()))
@@ -69,7 +70,11 @@ class DotEditorDialog(QDialog):
         self.dot = Dot(int(dot_id))
         self.level_combo.set_items([str(level + 1) for level in range(self.dot.max_level)])
         self.source_button.setText("Select")
-        self.consume_button.setText("Select")
+        if self.dot.consume_list:
+            self.consume_row.show()
+            self.consume_button.setText("Select")
+        else:
+            self.consume_row.hide()
 
     def select_level(self, level: str):
         if not self.dot or not level:
@@ -79,7 +84,7 @@ class DotEditorDialog(QDialog):
     def select_source(self):
         if not self.dot:
             return
-        dialog = SourceSkillEditorDialog(max_stack=3, items=[123, 456], parent=self)
+        dialog = SourceSkillEditorDialog(max_stack=3, items=self.dot.source_list, parent=self)
         if dialog.exec() == QDialog.DialogCode.Accepted and (skill := dialog.skill):
             self.dot.source = skill
             self.source_button.setText(str(skill))
@@ -87,7 +92,7 @@ class DotEditorDialog(QDialog):
     def select_consume(self):
         if not self.dot:
             return
-        dialog = ConsumeSkillEditorDialog(max_tick=5, items=[123, 456], parent=self)
+        dialog = ConsumeSkillEditorDialog(max_tick=5, items=self.dot.consume_list, parent=self)
         if dialog.exec() == QDialog.DialogCode.Accepted and (skill := dialog.skill):
             self.dot.consume = skill
             self.consume_button.setText(str(skill))

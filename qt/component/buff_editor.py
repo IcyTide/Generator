@@ -50,7 +50,7 @@ class BuffEditorDialog(QDialog):
     def select_id(self, buff_id: str):
         if not buff_id:
             return
-        self.buff = Buff(int(buff_id), type=BuffType(self.type_combo.currentText()))
+        self.buff = Buff(int(buff_id), buff_type=BuffType(self.type_combo.currentText()))
         self.level_combo.set_items([str(level + 1) for level in range(self.buff.max_level)])
         self.stack_combo.set_items([str(stack + 1) for stack in range(self.buff.max_stack)])
 

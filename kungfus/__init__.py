@@ -1,28 +1,17 @@
-from typing import Dict
-
-from base.skill import Skill
 from kungfus import first
 
-class Kungfu:
-    skills: Dict[int, Skill]
 
+class Kungfu:
     def __init__(self, kungfu_id, name, kungfu):
         self.kungfu_id = kungfu_id
         self.name = name
 
-        self.build_skills(kungfu)
-
-    def build_skills(self, kungfu):
-        self.skills = {}
-        for category, params in kungfu.SKILLS.items():
-            for param in params:
-                if isinstance(param, tuple):
-                    skill_id, attrs = param
-                else:
-                    skill_id = param
-                self.skills[skill_id] = skill = Skill(skill_id)
+        self.buffs = kungfu.BUFFS
+        self.skills = kungfu.SKILLS
+        self.dots = kungfu.DOTS
+        self.talents = kungfu.TALENTS
 
 
-SUPPORT_KUNGFUS = {
+SUPPORT_KUNGFUS: dict[int, Kungfu] = {
     1: Kungfu(1, "first", first),
 }
