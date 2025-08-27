@@ -24,22 +24,11 @@ class Expression:
     def __rtruediv__(self, other):
         return Div(other, self)
 
-    def __pow__(self, other):
-        return Pow(self, other)
-
-    def __rpow__(self, other):
-        return Pow(other, self)
-
     def __neg__(self):
         return Neg(self)
 
-    @property
-    def terms(self):
-        return {}
-
-    @property
-    def simplify(self):
-        return sum(v * k for k, v in self.terms.items())
+    def __eq__(self, other):
+        return str(other) == str(self)
 
     def evaluate(self, values=None):
         raise NotImplementedError("evaluate must be implemented by subclasses")
@@ -47,17 +36,17 @@ class Expression:
     def derivative(self, var):
         raise NotImplementedError("derivative must be implemented by subclasses")
 
+    @property
+    def terms(self):
+        return set()
+
 
 class Variable(Expression):
     def __init__(self, name):
         self.name = name
 
-    def __repr__(self):
+    def __str__(self):
         return self.name
-
-    @property
-    def terms(self):
-        return {self: 1}
 
     def evaluate(self, values=None):
         if values is None or self.name not in values:
@@ -67,20 +56,19 @@ class Variable(Expression):
     def derivative(self, var):
         return Constant(1) if self == var else Constant(0)
 
+    @property
+    def terms(self):
+        return {self.name}
 
 class Constant(Expression):
     def __init__(self, value):
         self.value = value
 
-    def __repr__(self):
+    def __str__(self):
         return str(self.value)
 
     def __eq__(self, other):
         return other == self.value
-
-    @property
-    def terms(self):
-        return {1: self.value}
 
     def evaluate(self, values=None):
         return self.value
@@ -90,8 +78,15 @@ class Constant(Expression):
 
 
 class UnaryOperator(Expression):
-    def __init__(self, operand):
+    operand: Expression
+
+    def init(self, operand):
         self.operand = operand if isinstance(operand, Expression) else Constant(operand)
+        return self
+
+    @property
+    def terms(self):
+        return self.operand.terms
 
 
 class Neg(UnaryOperator):
@@ -100,14 +95,12 @@ class Neg(UnaryOperator):
             return operand.operand
         if operand == 0:
             return operand
-        return super().__new__(cls, operand)
+        if isinstance(operand, Constant):
+            return Constant(-operand.value)
+        return super().__new__(cls).init(operand)
 
-    def __repr__(self):
+    def __str__(self):
         return f"-{self.operand}"
-
-    @property
-    def terms(self):
-        return {k: -v for k, v in self.operand.terms.items()}
 
     def evaluate(self, values=None):
         return -self.operand.evaluate(values)
@@ -116,10 +109,34 @@ class Neg(UnaryOperator):
         return -self.operand.derivative(var)
 
 
+class Int(UnaryOperator):
+    def __new__(cls, operand):
+        if isinstance(operand, Constant):
+            return Constant(int(operand.value))
+        return super().__new__(cls).init(operand)
+
+    def __str__(self):
+        return f"int({self.operand})"
+
+    def evaluate(self, values=None):
+        return int(self.operand.evaluate(values))
+
+    def derivative(self, var):
+        return self.operand.derivative(var)
+
+
 class BinaryOperator(Expression):
-    def __init__(self, left, right):
+    left: Expression
+    right: Expression
+
+    def init(self, left, right):
         self.left = left if isinstance(left, Expression) else Constant(left)
         self.right = right if isinstance(right, Expression) else Constant(right)
+        return self
+
+    @property
+    def terms(self):
+        return self.left.terms | self.right.terms
 
 
 class Add(BinaryOperator):
@@ -130,19 +147,12 @@ class Add(BinaryOperator):
             return left
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value + right.value)
-        return super().__new__(cls)
+        if isinstance(right, Neg):
+            return Sub(left, right.operand)
+        return super().__new__(cls).init(left, right)
 
-    def __repr__(self):
-        return f"({self.left} + {self.right})"
-
-    @property
-    def terms(self):
-        terms = {**self.left.terms}
-        for k, v in self.right.terms.items():
-            if k not in terms:
-                terms[k] = 0
-            terms[k] += v
-        return terms
+    def __str__(self):
+        return f"{self.left} + {self.right}"
 
     def evaluate(self, values=None):
         return self.left.evaluate(values) + self.right.evaluate(values)
@@ -161,19 +171,12 @@ class Sub(BinaryOperator):
             return Constant(0)
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value - right.value)
-        return super().__new__(cls)
+        if isinstance(right, Neg):
+            return Add(left, right.operand)
+        return super().__new__(cls).init(left, right)
 
-    def __repr__(self):
-        return f"({self.left} - {self.right})"
-
-    @property
-    def terms(self):
-        terms = {**self.left.terms}
-        for k, v in self.right.terms.items():
-            if k not in terms:
-                terms[k] = 0
-            terms[k] -= v
-        return terms
+    def __str__(self):
+        return f"{self.left} - {self.right}"
 
     def evaluate(self, values=None):
         return self.left.evaluate(values) - self.right.evaluate(values)
@@ -192,20 +195,17 @@ class Mul(BinaryOperator):
             return left
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value * right.value)
-        return super().__new__(cls)
-    def __repr__(self):
-        return f"({self.left} * {self.right})"
+        if isinstance(left, Neg) and isinstance(right, Neg):
+            left, right = left.operand, right.operand
+        return super().__new__(cls).init(left, right)
 
-    @property
-    def terms(self):
-        terms = {}
-        for left_k, left_v in self.left.terms.items():
-            for right_k, right_v in self.right.terms.items():
-                k, v = left_k * right_k, left_v * right_v
-                if k not in terms:
-                    terms[k] = 0
-                terms[k] += v
-        return terms
+    def __str__(self):
+        left, right = self.left, self.right
+        if isinstance(left, (Add, Sub)):
+            left = f"({left})"
+        if isinstance(right, (Add, Sub)):
+            right = f"({right})"
+        return f"{left} * {right}"
 
     def evaluate(self, values=None):
         return self.left.evaluate(values) * self.right.evaluate(values)
@@ -224,21 +224,17 @@ class Div(BinaryOperator):
             return Constant(1)
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value / right.value)
-        return super().__new__(cls)
+        if isinstance(left, Neg) and isinstance(right, Neg):
+            left, right = left.operand, right.operand
+        return super().__new__(cls).init(left, right)
 
-    def __repr__(self):
-        return f"({self.left} / {self.right})"
-
-    @property
-    def terms(self):
-        terms = {}
-        for left_k, left_v in self.left.terms.items():
-            for right_k, right_v in self.right.terms.items():
-                k, v = left_k / right_k, left_v / right_v
-                if k not in terms:
-                    terms[k] = 0
-                terms[k] += v
-        return terms
+    def __str__(self):
+        left, right = self.left, self.right
+        if isinstance(left, (Add, Sub)):
+            left = f"({left})"
+        if isinstance(right, BinaryOperator):
+            right = f"({right})"
+        return f"{left} / {right}"
 
     def evaluate(self, values=None):
         right = self.right.evaluate(values)
@@ -252,34 +248,39 @@ class Div(BinaryOperator):
         return numerator / denominator
 
 
-class Pow(BinaryOperator):
-    def __new__(cls, left, right):
-        if left == 0:
-            return Constant(0)
-        if left == 1:
-            return Constant(1)
-        if right == 0:
-            return Constant(1)
-        if right == 1:
-            return left
-        if isinstance(left, Constant) and isinstance(right, Constant):
-            return Constant(left.value ** right.value)
-        return super().__new__(cls)
+def get_variables(formula: str) -> dict[str, Variable | type[UnaryOperator]]:
+    variable = ""
+    variables = {}
 
-    def __repr__(self):
-        return f"({self.left} ** {self.right})"
+    for c in formula:
+        if c.isalpha() or c == "_":
+            variable += c
+        elif variable:
+            if c.isnumeric():
+                variable += c
+            else:
+                variables[variable] = Variable(variable)
+                variable = ""
+    variables["int"] = Int
+    return variables
 
-    def evaluate(self, values=None):
-        return self.left.evaluate(values) ** self.right.evaluate(values)
 
-    def derivative(self, var):
-        return self.right * self.left.derivative(var) * self.left ** (self.right - 1)
-
+def parse_expr(formula: str):
+    variables = get_variables(formula)
+    expr = eval(formula, variables)
+    return expr
 
 if __name__ == '__main__':
     x = Variable('x')
     y = Variable('y')
+    z = Variable('z')
+    r = Variable('_1334_1')
 
-    f = x * 2 + 3 * y + 4 * x * y + 5 * (x + y) * y # + 6 * (x + y) * x
+    f = -z + Int(x * (1 + y)) - Int(x * (1 + y + 0.5)) + r * x
+
+    #f = "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int(int((solar_attack_power_base + int(int(spunk_base * (1 + spunk_gain)) * 0.181)) * (1 + (solar_attack_power_gain + 246 * _3223_1 + 246 * _3224_1) / 1024)) * 5.535337500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int(int((solar_overcome_base + int(int(spunk_base * (1 + spunk_gain)) * 0.3)) * (1 + solar_overcome_gain / 1024)) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))"
+
     print(f)
-    print(f.simplify)
+    print(f.terms)
+    g = parse_expr(str(f))
+    print(g)

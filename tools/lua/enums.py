@@ -1,4 +1,4 @@
-from enum import IntEnum, auto
+from enum import IntEnum, StrEnum, auto
 
 
 class GLOBAL(IntEnum):
@@ -34,10 +34,12 @@ class PLAYER_ARENA_TYPE(IntEnum):
     DPS = auto()
 
 
-class SKILL_KIND_TYPE(IntEnum):
-    PHYSICS = auto()
-    SOLAR_MAGIC = auto()
-    LUNAR_MAGIC = auto()
+class SKILL_KIND_TYPE(StrEnum):
+    PHYSICS = "physical"
+    SOLAR_MAGIC = "solar"
+    LUNAR_MAGIC = "lunar"
+    NEUTRAL_MAGIC = "neutral"
+    POISON = "poison"
 
 
 class ABSORB_ATTRIBUTE_SHIELD_TYPE(IntEnum):
@@ -56,97 +58,132 @@ class ATTRIBUTE_EFFECT_MODE(IntEnum):
     EFFECT_TO_DEST_NOT_ROLLBACK = auto()
 
 
-class ATTRIBUTE_TYPE(IntEnum):
-    USELESS = 0
-    KUNGFU_TYPE = 0
-
-    MAX_SUN_ENERGY = 0
-    MAX_MOON_ENERGY = 0
-
-    MAX_LIFE_PERCENT_ADD = 0
-    MANA_REPLENISH_EXT = 0
-    MANA_REPLENISH_PERCENT = 0
-
-    EXECUTE_SCRIPT = 0
-    EXECUTE_SCRIPT_WITH_PARAM = 0
-    EXECUTE_SCRIPT_SETUP = 0
-    EXECUTE_SCRIPT_BULLET_TO_DEST = 0
-    EXECUTE_SCRIPT_BULLET_TO_DEST_AND_ROLLBACK = 0
-    CAST_SKILL = 0
-    CAST_SKILL_TARGET_SELF = 0
-    CAST_SKILL_TARGET_DST = 0
-    CALL_BUFF = 0
-    DEL_SINGLE_BUFF_BY_ID_AND_LEVEL = 0
-    SET_TALENT_RECIPE = auto()
-    SKILL_EVENT_HANDLER = 0
-    SET_ADAPTIVE_SKILL_TYPE = 0
-
+class ATTRIBUTE_TYPE(StrEnum):
     # Useless Attribute
-    ACTIVE_THREAT_COEFFICIENT = 0
-    DROP_DEFENCE = 0
-    BEAT_BACK_RATE = 0
-    DECRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = 0
+    USELESS = ""
+    KUNGFU_TYPE = ""
 
+    ACTIVE_THREAT_COEFFICIENT = ""
+    DROP_DEFENCE = ""
+    BEAT_BACK_RATE = ""
+    DECRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = ""
+
+    # Resource Attribute
+    ACCUMULATE = ""
+    MAX_RAGE = ""
+    MAX_SUN_ENERGY = ""
+    MAX_MOON_ENERGY = ""
+
+    MAX_LIFE_PERCENT_ADD = ""
+    MAX_MANA_BASE = ""
+    MANA_REPLENISH = ""
+    MANA_REPLENISH_EXT = ""
+    MANA_REPLENISH_PERCENT = ""
+    MOVE_SPEED_PERCENT = ""
+
+    # Script Attribute
+    EXECUTE_SCRIPT = ""
+    EXECUTE_SCRIPT_WITH_PARAM = ""
+    EXECUTE_SCRIPT_SETUP = ""
+    EXECUTE_SCRIPT_BULLET_TO_DEST = ""
+    EXECUTE_SCRIPT_BULLET_TO_DEST_AND_ROLLBACK = ""
+    CAST_SKILL = ""
+    CAST_SKILL_TARGET_SELF = ""
+    CAST_SKILL_TARGET_DST = ""
+    CALL_BUFF = ""
+    DEL_SINGLE_BUFF_BY_ID_AND_LEVEL = ""
+    SKILL_EVENT_HANDLER = ""
+    SET_ADAPTIVE_SKILL_TYPE = ""
+    CALL_KNOCKED_DOWN = ""
+
+    SET_TALENT_RECIPE = "recipe"
     # Damage Attribute
-    SKILL_PHYSICS_DAMAGE = auto()
-    SKILL_SOLAR_DAMAGE = auto()
-    SKILL_LUNAR_DAMAGE = auto()
-    SKILL_NEUTRAL_DAMAGE = auto()
-    SKILL_POISON_DAMAGE = auto()
+    SKILL_PHYSICS_DAMAGE = "physical_damage_base"
+    SKILL_SOLAR_DAMAGE = "solar_damage_base"
+    SKILL_LUNAR_DAMAGE = "lunar_damage_base"
+    SKILL_NEUTRAL_DAMAGE = "neutral_damage_base"
+    SKILL_POISON_DAMAGE = "poison_damage_base"
 
-    SKILL_PHYSICS_DAMAGE_RAND = auto()
-    SKILL_SOLAR_DAMAGE_RAND = auto()
-    SKILL_LUNAR_DAMAGE_RAND = auto()
-    SKILL_NEUTRAL_DAMAGE_RAND = auto()
-    SKILL_POISON_DAMAGE_RAND = auto()
+    SKILL_PHYSICS_DAMAGE_RAND = "physical_damage_rand"
+    SKILL_SOLAR_DAMAGE_RAND = "solar_damage_rand"
+    SKILL_LUNAR_DAMAGE_RAND = "lunar_damage_rand"
+    SKILL_NEUTRAL_DAMAGE_RAND = "neutral_damage_rand"
+    SKILL_POISON_DAMAGE_RAND = "poison_damage_rand"
 
-    CALL_PHYSICS_DAMAGE = auto()
-    CALL_SOLAR_DAMAGE = auto()
-    CALL_LUNAR_DAMAGE = auto()
-    CALL_NEUTRAL_DAMAGE = auto()
-    CALL_POISON_DAMAGE = auto()
+    CALL_PHYSICS_DAMAGE = "call_physical_damage"
+    CALL_SOLAR_DAMAGE = "call_solar_damage"
+    CALL_LUNAR_DAMAGE = "call_lunar_damage"
+    CALL_NEUTRAL_DAMAGE = "call_neutral_damage"
+    CALL_POISON_DAMAGE = "call_poison_damage"
 
-    CALL_SURPLUS_PHYSICS_DAMAGE = auto()
-    CALL_SURPLUS_SOLAR_DAMAGE = auto()
-    CALL_SURPLUS_LUNAR_DAMAGE = auto()
-    CALL_SURPLUS_NEUTRAL_DAMAGE = auto()
-    CALL_SURPLUS_POISON_DAMAGE = auto()
-
-    # Attack Attribute
-    PHYSICS_ATTACK_POWER_BASE = auto()
-    SOLAR_ATTACK_POWER_BASE = auto()
-    LUNAR_ATTACK_POWER_BASE = auto()
-
-    PHYSICS_ATTACK_POWER_PERCENT = auto()
-    SOLAR_ATTACK_POWER_PERCENT = auto()
-    LUNAR_ATTACK_POWER_PERCENT = auto()
+    CALL_SURPLUS_PHYSICS_DAMAGE = "call_physical_surplus"
+    CALL_SURPLUS_SOLAR_DAMAGE = "call_solar_surplus"
+    CALL_SURPLUS_LUNAR_DAMAGE = "call_lunar_surplus"
+    CALL_SURPLUS_NEUTRAL_DAMAGE = "call_neutral_surplus"
+    CALL_SURPLUS_POISON_DAMAGE = "call_poison_surplus"
 
     # Major Attribute
 
-    # Critical Attribute
-    PHYSICS_CRITICAL_STRIKE_BASE_RATE = auto()
-    SOLAR_CRITICAL_STRIKE_BASE_RATE = auto()
-    LUNAR_CRITICAL_STRIKE_BASE_RATE = auto()
+    # Attack Attribute
+    PHYSICS_ATTACK_POWER_BASE = "physical_attack_power_base"
+    SOLAR_ATTACK_POWER_BASE = "solar_attack_power_base"
+    LUNAR_ATTACK_POWER_BASE = "lunar_attack_power_base"
+    NEUTRAL_ATTACK_POWER_BASE = "neutral_attack_power_base"
+    POISON_ATTACK_POWER_BASE = "poison_attack_power_base"
 
-    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = auto()
+    PHYSICS_ATTACK_POWER_PERCENT = "physical_attack_power_gain"
+    SOLAR_ATTACK_POWER_PERCENT = "solar_attack_power_gain"
+    LUNAR_ATTACK_POWER_PERCENT = "lunar_attack_power_gain"
+    NEUTRAL_ATTACK_POWER_PERCENT = "neutral_attack_power_gain"
+    POISON_ATTACK_POWER_PERCENT = "poison_attack_power_gain"
+
+    # Overcome Attribute
+    PHYSICS_OVERCOME_PERCENT = "physical_overcome_gain"
+
+    # Critical Attribute
+    PHYSICS_CRITICAL_STRIKE_BASE_RATE = "physical_critical_strike_rate"
+    SOLAR_CRITICAL_STRIKE_BASE_RATE = "solar_critical_strike_rate"
+    LUNAR_CRITICAL_STRIKE_BASE_RATE = "lunar_critical_strike_rate"
+    NEUTRAL_CRITICAL_STRIKE_BASE_RATE = "neutral_critical_strike_rate"
+    POISON_CRITICAL_STRIKE_BASE_RATE = "poison_critical_strike_rate"
+
+    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "physical_critical_power_rate"
+    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "solar_critical_power_rate"
+    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "lunar_critical_power_rate"
+    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "neutral_critical_power_rate"
+    POISON_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "poison_critical_power_rate"
+    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "magical_critical_power_rate"
+    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "magical_critical_power_rate"
 
     # Minor Attribute
-    STRAIN_PERCENT = auto()
+    SURPLUS_VALUE_ADD_PERCENT = "surplus_gain"
+    STRAIN_PERCENT = "strain_gain"
 
     # Defense Attribute
-    PHYSICS_SHIELD_BASE = auto()
-    MAGIC_SHIELD = auto()
+    PHYSICS_SHIELD_BASE = "physical_shield_base"
+    MAGIC_SHIELD = "magical_shield_base"
+
+    # Damage Cof Attribute
+    PHYSICS_DAMAGE_COEFFICIENT = "physical_damage_cof"
+    SOLAR_DAMAGE_COEFFICIENT = "solar_damage_cof"
+    LUNAR_DAMAGE_COEFFICIENT = "lunar_damage_cof"
+    NEUTRAL_DAMAGE_COEFFICIENT = "neutral_damage_cof"
+    POISON_DAMAGE_COEFFICIENT = "poison_damage_cof"
 
     # Cof Attribute
-    STRENGTH_TO_PHYSICS_ATTACK_POWER_COF = auto()
-    STRENGTH_TO_PHYSICS_OVERCOME_COF = auto()
-    SPUNK_TO_SOLAR_AND_LUNAR_ATTACK_POWER_COF = auto()
-    SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF = auto()
+    VITALITY_TO_MAX_MANA_COF = ""
+
+    STRENGTH_TO_PHYSICS_ATTACK_POWER_COF = "strength_to_physical_attack_power"
+    STRENGTH_TO_PHYSICS_OVERCOME_COF = "strength_to_physical_overcome"
+
+    SPUNK_TO_SOLAR_AND_LUNAR_ATTACK_POWER_COF = "spunk_to_solar_and_lunar_attack_power"
+    SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF = "spunk_to_solar_and_lunar_critical_strike"
 
     # Other Attribute
-    ALL_SHIELD_IGNORE_PERCENT = auto()
-    DST_NPC_DAMAGE_COEFFICIENT = auto()
-    GLOBAL_DAMGAGE_FACTOR = auto()
+    ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"
+    ALL_DAMAGE_ADD_PERCENT = "all_damage_addition"
+    DST_NPC_DAMAGE_COEFFICIENT = "pve_addition"
+    GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
 
 
 class BUFF_COMPARE_FLAG(IntEnum):

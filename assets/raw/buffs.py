@@ -1,72 +1,50 @@
 BUFFS = {
     28886: {
-        "name": [
-            "诛邪"
-        ],
-        "interval": [
-            160
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "attributes": [
-            [
+        1: {
+            "name": "诛邪",
+            "interval": 160,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
                 [
-                    "STRAIN_PERCENT",
-                    205,
-                    0
+                    "strain_gain",
+                    205
                 ]
-            ]
-        ]
+            ],
+            "recipes": []
+        }
     },
     6277: {
-        "name": [
-            "无明业火"
-        ],
-        "interval": [
-            24
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "attributes": [
-            [
+        1: {
+            "name": "无明业火",
+            "interval": 24,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
                 [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
+                    "lunar_critical_strike_rate",
+                    1000
                 ],
                 [
-                    "SOLAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
+                    "solar_critical_strike_rate",
+                    1000
                 ],
                 [
-                    "MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE",
-                    52,
-                    0
+                    "magical_critical_power_rate",
+                    52
                 ]
-            ]
-        ]
+            ],
+            "recipes": []
+        }
     },
     25758: {
-        "interval": [
-            960
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "recipes": [
-            [
+        1: {
+            "name": "",
+            "interval": 960,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
                 [
                     3225,
                     1
@@ -80,21 +58,16 @@ BUFFS = {
                     1
                 ]
             ]
-        ],
-        "name": "明光·月"
+        }
     },
     25759: {
-        "interval": [
-            960
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "recipes": [
-            [
+        1: {
+            "name": "",
+            "interval": 960,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
                 [
                     3222,
                     1
@@ -108,301 +81,196 @@ BUFFS = {
                     1
                 ]
             ]
-        ],
-        "name": "明光·日"
+        }
     },
     30644: {
-        "interval": [
-            1
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "recipes": [
-            [
+        1: {
+            "name": "",
+            "interval": 1,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
                 [
                     5930,
                     1
                 ]
-            ],
-            [
+            ]
+        },
+        2: {
+            "name": "",
+            "interval": 1,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
                 [
                     5931,
                     1
                 ]
             ]
-        ]
+        }
     },
     12575: {
-        "interval": [
-            1
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "attributes": [
-            [
+        1: {
+            "name": "",
+            "interval": 1,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
                 [
-                    "ALL_SHIELD_IGNORE_PERCENT",
-                    410,
-                    0
+                    "all_shield_ignore",
+                    410
                 ]
             ],
-            [
+            "recipes": []
+        },
+        2: {
+            "name": "",
+            "interval": 1,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
                 [
-                    "ALL_SHIELD_IGNORE_PERCENT",
-                    922,
-                    0
+                    "all_shield_ignore",
+                    922
                 ]
-            ]
-        ],
-        "name": "用晦而明"
+            ],
+            "recipes": []
+        }
     },
     4754: {
-        "name": [
-            "诛戮"
-        ],
-        "interval": [
-            240,
-            320
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            1
-        ],
-        "attributes": [
-            [
+        1: {
+            "name": "诛戮",
+            "interval": 240,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
                 [
-                    "LUNAR_ATTACK_POWER_PERCENT",
-                    154,
-                    0
+                    "lunar_attack_power_gain",
+                    154
                 ],
                 [
-                    "SOLAR_ATTACK_POWER_PERCENT",
-                    154,
-                    0
+                    "solar_attack_power_gain",
+                    154
                 ]
             ],
-            [
+            "recipes": []
+        },
+        2: {
+            "name": "诛戮",
+            "interval": 320,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
                 [
-                    "LUNAR_ATTACK_POWER_PERCENT",
-                    102,
-                    0
+                    "lunar_attack_power_gain",
+                    102
                 ],
                 [
-                    "SOLAR_ATTACK_POWER_PERCENT",
-                    102,
-                    0
+                    "solar_attack_power_gain",
+                    102
                 ]
-            ]
-        ]
+            ],
+            "recipes": []
+        }
     },
-    4202: {
-        "name": [
-            "银月斩"
-        ],
-        "interval": [
-            32
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            9
-        ],
-        "attributes": [
-            [
+    6363: {
+        1: {
+            "name": "激雷",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 6,
+            "attributes": [
                 [
-                    "CALL_LUNAR_DAMAGE",
-                    12,
-                    0
+                    "physical_overcome_gain",
+                    256
+                ],
+                [
+                    "physical_attack_power_gain",
+                    307
                 ]
             ],
-            [
+            "recipes": []
+        },
+        2: {
+            "name": "激雷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 24,
+            "attributes": [
                 [
-                    "CALL_LUNAR_DAMAGE",
-                    14,
-                    0
+                    "physical_critical_strike_rate",
+                    3000
                 ]
             ],
-            [
+            "recipes": []
+        },
+        3: {
+            "name": "激雷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 24,
+            "attributes": [
                 [
-                    "CALL_LUNAR_DAMAGE",
-                    16,
-                    0
+                    "physical_overcome_gain",
+                    256
+                ],
+                [
+                    "physical_attack_power_gain",
+                    307
+                ],
+                [
+                    "physical_critical_strike_rate",
+                    3000
                 ]
             ],
-            [
+            "recipes": []
+        },
+        4: {
+            "name": "激雷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 72,
+            "attributes": [
                 [
-                    "CALL_LUNAR_DAMAGE",
-                    18,
-                    0
+                    "all_shield_ignore",
+                    717
+                ],
+                [
+                    "physical_critical_strike_rate",
+                    3000
                 ]
             ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    20,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    24,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    27,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    30,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    33,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    36,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    39,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    42,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    45,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    48,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    51,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    53,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    55,
-                    0
-                ]
-            ]
-        ],
-        "source_list": [
-            13359
-        ],
-        "consume_list": []
+            "recipes": []
+        }
     },
-    25725: {
-        "name": [
-            "靡业报劫·日"
-        ],
-        "interval": [
-            32
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            10
-        ],
-        "attributes": [
-            [
+    6121: {
+        1: {
+            "name": "驰骋",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 3,
+            "attributes": [
                 [
-                    "CALL_SOLAR_DAMAGE",
-                    30,
-                    0
+                    "physical_attack_power_gain",
+                    154
                 ]
-            ]
-        ],
-        "source_list": [
-            34373
-        ],
-        "consume_list": []
-    },
-    25726: {
-        "name": [
-            "靡业报劫·月"
-        ],
-        "interval": [
-            32
-        ],
-        "max_stack": [
-            1
-        ],
-        "max_tick": [
-            10
-        ],
-        "attributes": [
-            [
+            ],
+            "recipes": []
+        },
+        2: {
+            "name": "驰骋",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 3,
+            "attributes": [
                 [
-                    "CALL_LUNAR_DAMAGE",
-                    30,
-                    0
+                    "physical_attack_power_gain",
+                    307
                 ]
-            ]
-        ],
-        "source_list": [
-            34374
-        ],
-        "consume_list": []
+            ],
+            "recipes": []
+        }
     }
 }
