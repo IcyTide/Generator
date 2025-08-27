@@ -1,47 +1,62 @@
-import os
+import random
+from pathlib import Path
 
 import lupa.lua51 as lupa
 
+from tools.classes.skill import Skill
 from tools.lua.enums import ENV_VARIABLES
-from tools.utils import BASE_DIR
 
-class Engine:
-    include_packages: list
 
-    def __init__(self):
-        self.engine = lupa.LuaRuntime(encoding="gbk")
-        self.include_packages = []
-        for enum_class in ENV_VARIABLES:
-            setattr(self.engine.globals(), enum_class.__name__, enum_class)
+class BaseEngine:
+    base_path = Path("../jx3_hd_src")
+
+    def __init__(self, lua_path: str | Path = None):
+        self.engine = lupa.LuaRuntime(unpack_returned_tuples=True, encoding="gbk")
+        self.prepare_engine()
+        if lua_path:
+            self.lua_path = str(lua_path)
+            if not self.lua_path.startswith("scripts"):
+                self.lua_path = Path("scripts") / self.lua_path
+            self.execute(self.lua_path)
+
+    def prepare_engine(self):
         self.engine.globals().GetEditorString = self.get_editor_string
         self.engine.globals().IsClient = self.is_client
         self.engine.globals().Include = self.include
-        self.execute("scripts/include/skill.lh")
-        self.execute("scripts/include/newskill.lh")
 
-    @staticmethod
-    def get_editor_string(*params):
+        for enum_class in ENV_VARIABLES:
+            setattr(self.engine.globals(), enum_class.__name__, enum_class)
+
+    def include(self, file):
+        self.execute(file)
+
+    def get_editor_string(self, *params):
         return "\t".join(str(e) for e in params)
 
-    @staticmethod
-    def is_client():
+    def is_client(self):
         return True
 
-    def include(self, script_path):
-        if script_path in self.include_packages:
+    def execute(self, lua_path):
+        lua_path = self.base_path / lua_path
+        if not lua_path.exists():
             return
-        # self.engine.execute(script_path)
-        self.include_packages.append(script_path)
-
-    def execute(self, script_file):
         try:
-            with open(os.path.join(BASE_DIR, script_file), encoding="utf-8") as f:
+            with open(lua_path, encoding="utf-8") as f:
                 lua_code = f.read()
             self.engine.execute(lua_code)
         except:
-            with open(os.path.join(BASE_DIR, script_file), "rb") as f:
+            with open(lua_path, "rb") as f:
                 lua_code = f.read()
             self.engine.execute(lua_code)
 
-    def run(self, func, *args):
-        return self.engine.globals()[func](*args)
+
+class Engine(BaseEngine):
+    def get_skill_level_data(self, skill: Skill):
+        if func := self.engine.globals().GetSkillLevelData:
+            return func(skill)
+        return None
+
+    def get_skill_recipe_data(self, skill: Skill, recipe_id: int, recipe_level: int):
+        if func := self.engine.globals().GetSkillRecipeData:
+            return func(skill, recipe_id, recipe_level)
+        return None

@@ -22,16 +22,25 @@ class Buff(AliasBase):
     max_tick: int
     interval: int
 
-    def __init__(self, buff_id: int):
+    attributes: list[tuple[ATTRIBUTE_TYPE, int, int]] = []
+    recipes: list[tuple[int, int]] = []
+
+    attributes_prefix: str = "begin"
+
+    def __init__(self, buff_id: int, buff_level: int = 0):
         self.buff_id = buff_id
         self.setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
         self.max_level = self.setting_rows["Level"].max()
-
-        # self.active_attributes = self.get_attributes('active')
-        # self.end_attributes = self.get_attributes('end_time')
+        self.attributes = []
+        self.recipes = []
+        if buff_level:
+            self.buff_level = buff_level
+            setting_row = self.setting_rows[self.setting_rows["Level"] == self.buff_level].iloc[0]
+            for k, v in setting_row.items():
+                setattr(self, k, v)
+            self.get_attributes(self.attributes_prefix)
 
     def get_attributes(self, prefix):
-        result = {"attributes": [], "recipes": []}
         i = 0
         while hasattr(self, f'{prefix}_attrib{i + 1}'):
             i += 1
@@ -39,27 +48,27 @@ class Buff(AliasBase):
             if not attr:
                 break
             param_1, param_2 = getattr(self, f'{prefix}_value{i}_a'), getattr(self, f'{prefix}_value{i}_b')
-            attr_type = ATTRIBUTE_TYPE[camel_to_capital(attr[2:])]
+            param_1 = 0 if not param_1 else int(param_1)
+            param_2 = 0 if not param_2 else int(param_2)
+            attr = camel_to_capital(attr[2:])
+            attr_type = ATTRIBUTE_TYPE[attr] # noqa
             if not attr_type:
                 continue
             if attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
-                result["recipes"].append([int(param_1), int(param_2)])
+                self.recipes.append((param_1, param_2))
             else:
-                result["attributes"].append((attr_type.name, int(param_1), int(param_2)))
-        return {k: v for k, v in result.items() if v}
+                self.attributes.append((attr_type, param_1, param_2))
 
 
-    def to_asset(self):
+    def to_dict(self):
         if self.buff_level:
-            setting_row = self.setting_rows[self.setting_rows["Level"] == self.buff_level].iloc[0]
-            for k, v in setting_row.items():
-                setattr(self, k, v)
             return {
                 "name": self.get_name(buff_txts, "BuffID", self.buff_id, self.buff_level),
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
-                **self.get_attributes("begin")
+                "attributes": [(attr, param_1 or param_2) for attr, param_1, param_2 in self.attributes],
+                "recipes": self.recipes
             }
         else:
             return {}

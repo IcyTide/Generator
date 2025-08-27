@@ -1,82 +1,100 @@
 RECIPES = {
+    1711: {
+        1: {
+            "recipe_name": "普通攻击提高伤害"
+        }
+    },
+    4892: {
+        1: {
+            "recipe_name": "心法提高沧月威胁值"
+        }
+    },
+    1110: {
+        1: {
+            "recipe_name": "日影_疾眩晕1"
+        },
+        2: {
+            "recipe_name": "日影_疾眩晕2"
+        }
+    },
     3225: {
-        "recipe_id": 3225,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "新明光_月终结加伤害_生死"
+        }
     },
     3226: {
-        "recipe_id": 3226,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "新明光_月终结加伤害_破魔"
+        }
     },
     3227: {
-        "recipe_id": 3227,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "新明光_月终结加伤害_影子"
+        }
     },
     3222: {
-        "recipe_id": 3222,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "新明光_日终结加伤害_生死"
+        }
     },
     3223: {
-        "recipe_id": 3223,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "新明光_日终结加伤害_破魔"
+        }
     },
     3224: {
-        "recipe_id": 3224,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "新明光_日终结加伤害_影子"
+        }
     },
     5930: {
-        "recipe_id": 5930,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "净体日斩加伤害"
+        }
     },
     5931: {
-        "recipe_id": 5931,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "净体月斩加伤害"
+        }
     },
     1314: {
-        "recipe_id": 1314,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "烈日斩的会心几率提高10%"
+        }
     },
     1315: {
-        "recipe_id": 1315,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "银月斩的会心几率提高10%"
+        }
     },
     5149: {
-        "recipe_id": 5149,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "日斩伤害提高"
+        }
     },
     5150: {
-        "recipe_id": 5150,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "月斩伤害提高"
+        }
     },
     5507: {
-        "recipe_id": 5507,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "净体日斩减CD"
+        }
     },
     5508: {
-        "recipe_id": 5508,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "净体月斩减CD"
+        }
     },
     3221: {
-        "recipe_id": 3221,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "生死劫加cd和dot(已置空)"
+        }
     },
     5921: {
-        "recipe_id": 5921,
-        "max_level": 1,
-        1: {}
+        1: {
+            "recipe_name": "用晦而明_生死劫加CD"
+        }
     }
 }

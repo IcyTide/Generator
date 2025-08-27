@@ -1,6589 +1,3728 @@
 SKILLS = {
     32816: {
-        "skill_name": "明教_焚影阳性破招子技能",
-        "max_level": 5,
-        "kind_type": "SolarMagic",
-        "name": [
-            "破"
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -574755.2813056,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -574755.2813056,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -574755.2813056,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -574755.2813056,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -100934.56261119992,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SURPLUS_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_SURPLUS_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_SURPLUS_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_SURPLUS_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_SURPLUS_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 0.4518709182739258) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 0.4518709182739258) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 0.4518709182739258) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 0.4518709182739258) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 0.9037418365478516) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     19055: {
-        "skill_name": "明教通用外功武器伤害实际效果",
-        "max_level": 11,
-        "kind_type": "Physics",
-        "recipe_type": 19055,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "武伤·赤日轮",
-            "武伤·烈日斩",
-            "武伤·生死劫·日",
-            "武伤·生死劫·月",
-            "武伤·净世破魔击·日",
-            "武伤·净世破魔击·月",
-            "武伤·幽月轮",
-            "武伤·银月斩",
-            "武伤·驱夜断愁",
-            "武伤·悬象著明·日",
-            "武伤·悬象著明·月"
-        ],
-        "weapon_damage_percent": [
-            1024,
-            1024,
-            1024,
-            1024,
-            2048,
-            1024,
-            1024,
-            1024,
-            2048,
-            1024,
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "PHYSICS_ATTACK_POWER_PERCENT",
-                    -1024,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_PHYSICS_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "武伤·赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "武伤·烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "武伤·生死劫·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "武伤·生死劫·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "武伤·净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 2048)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "武伤·净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "武伤·幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "武伤·银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "武伤·驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 2048)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "武伤·悬象著明·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "武伤·悬象著明·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
     4326: {
-        "skill_name": "普通攻击-双刀攻击",
-        "max_level": 1,
-        "kind_type": "Physics",
-        "skill_event_mask1": 131075,
-        "recipe_type": 11,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "大漠刀法"
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_PHYSICS_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ],
-        "channel_interval": 16
+        1: {
+            "name": "大漠刀法",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + (physical_damage_addition + 205 * _1711_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
     14701: {
-        "skill_name": "净世破魔击·日直接打单目标最大AOE",
-        "max_level": 32,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 536871473,
-        "skill_event_mask2": 4784192,
-        "recipe_type": 3967,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "净世破魔击·日"
-        ],
-        "channel_interval": [
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            269.38109145361835,
-            401.62271816721284,
-            411.4183942200718,
-            421.21407027293054,
-            431.0097463257894,
-            440.80542237864825,
-            450.60109843150724,
-            460.39677448436595,
-            470.1924505372249,
-            479.9881265900836,
-            489.7838026429426,
-            499.57947869580147,
-            509.3751547486601,
-            519.1708308015191,
-            528.966506854378,
-            538.7621829072367,
-            548.5578589600957,
-            558.3535350129545,
-            568.1492110658132,
-            577.9448871186721,
-            587.740563171531,
-            597.5362392243899,
-            607.3319152772489,
-            734.6757039644136
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    30.400000000000002,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    1.72,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    36.1,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    41.800000000000004,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2.2800000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    43.7,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2.5600000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    45.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2.8400000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    47.5,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    3.1200000000000006,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    49.400000000000006,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    3.4000000000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    51.300000000000004,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    3.6800000000000006,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    53.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    3.9600000000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    55.1,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    4.240000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    57,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    4.5200000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    58.900000000000006,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    4.800000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    60.800000000000004,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.080000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    62.7,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.36,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    64.60000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.640000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    66.5,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.920000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    68.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6.2,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    70.3,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6.48,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    72.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6.760000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    74.10000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    7.040000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    76,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    7.32,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    77.9,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    7.6000000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    79.80000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    7.880000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    81.7,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    8.160000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    83.60000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    8.440000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    85.5,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    8.72,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    87.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    9,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    89.30000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    9.280000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    90.82,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    9.56,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    93.48,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    9.840000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    96.14,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10.120000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    98.80000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10.4,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(30 + rand) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(36 + rand * 2) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(41 + rand * 2) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(43 + rand * 2) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 2) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(47 + rand * 3) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(49 + rand * 3) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(51 + rand * 3) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(53 + rand * 3) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 1.4030265179875956)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 4) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.0917849904542334)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 4) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.142804136562874)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 4) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.1938232826715134)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 5) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.2448424287801534)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(62 + rand * 5) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.295861574888793)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(64 + rand * 5) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.3468807209974334)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 5) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.3978998671060725)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(68 + rand * 6) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.448919013214713)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 6) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.499938159323352)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 6) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.5509573054319925)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(74 + rand * 7) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.6019764515406325)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 7) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.6529955976492716)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(77 + rand * 7) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.7040147437579116)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(79 + rand * 7) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.7550338898665525)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(81 + rand * 8) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.806053035975191)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(83 + rand * 8) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.8570721820838316)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(85 + rand * 8) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.908091328192471)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(87 + rand * 9) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 2.9591104743011107)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(89 + rand * 9) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 3.0101296204097507)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 9) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 3.0611487665183907)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(93 + rand * 9) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 3.1121679126270307)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        31: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 3.163187058735671)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        32: {
+            "name": "净世破魔击·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3223_1) / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     4476: {
-        "skill_name": "明教_净世破魔击_月_伤害",
-        "max_level": 32,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 134218321,
-        "skill_event_mask2": 4194304,
-        "recipe_type": 3967,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "净世破魔击·月"
-        ],
-        "channel_interval": [
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            106.11982390597089,
-            110.20135559466206,
-            114.28288728335325,
-            118.36441897204442,
-            122.44595066073565,
-            126.52748234942682,
-            130.609014038118,
-            134.69054572680918,
-            138.77207741550038,
-            142.85360910419158,
-            146.93514079288275,
-            151.01667248157395,
-            155.09820417026515,
-            159.1797358589563,
-            163.2612675476475,
-            167.34279923633866,
-            171.4243309250299,
-            175.50586261372106,
-            179.58739430241224,
-            183.6689259911034,
-            187.7504576797947,
-            191.83198936848584,
-            195.913521057177,
-            244.8919013214713
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    23.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.44571428571428573,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    25.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.5257142857142857,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    26.599999999999998,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.6057142857142858,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    28,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.6857142857142857,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    29.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.7771428571428572,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    30.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.8571428571428571,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    32.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.9371428571428572,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    33.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.0171428571428571,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    35,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.0971428571428572,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    36.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.1885714285714286,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    37.800000000000004,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.2685714285714287,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    39.199999999999996,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.3485714285714285,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    40.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.4285714285714286,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    42,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.5085714285714287,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    43.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    44.800000000000004,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.68,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    46.199999999999996,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    47.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.84,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    49,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.92,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    50.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.0114285714285716,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    51.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.0914285714285716,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    53.199999999999996,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.1714285714285717,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    55.160000000000004,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.2514285714285713,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    57.12,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.3314285714285714,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    59.36,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.422857142857143,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    61.32,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.5028571428571427,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    63.279999999999994,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.582857142857143,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    65.24,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.662857142857143,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    67.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.742857142857143,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    69.44,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.834285714285714,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    71.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.9142857142857146,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    73.36,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.994285714285714,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(23) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(25) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(28) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(29) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(30) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(32) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(33 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(35 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5527074161769318)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(36 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5739653937221982)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(37 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.5952233712674648)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.6164813488127313)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(40 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.6377393263579981)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(42 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.6589973039032647)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(43 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.6802552814485313)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(44 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.7015132589937978)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(46 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.7227712365390645)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(47 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.7440292140843311)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(49 + rand) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.7652871916295977)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(50 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.7865451691748643)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(51 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.807803146720131)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(53 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.8290611242653974)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.8503191018106641)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.8715770793559305)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(59 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.8928350569011974)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(61 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.9140930344464638)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(63 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.9353510119917304)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(65 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.9566089895369969)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(67 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.9778669670822641)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(69 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 0.9991249446275304)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        31: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(71 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 1.020382922172797)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        32: {
+            "name": "净世破魔击·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3226_1) / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     40088: {
-        "skill_name": "明教_烈日斩_子技能",
-        "max_level": 32,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 561,
-        "skill_event_mask2": 4784132,
-        "recipe_type": 3963,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "烈日斩"
-        ],
-        "channel_interval": [
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            259.71865920000005,
-            271.89297135000004,
-            284.06728350000003,
-            296.2415956500001,
-            308.41590780000007,
-            320.59021995000006,
-            332.76453210000005,
-            344.9388442500001,
-            357.1131564000001,
-            369.2874685500001,
-            381.4617807,
-            393.6360928500001,
-            405.8104050000002,
-            417.98471715000017,
-            430.1590293000001,
-            442.3333414500001,
-            454.50765360000014,
-            466.6819657500001,
-            478.8562779000001,
-            491.03059005000017,
-            503.20490220000016,
-            515.3792143500001,
-            527.5535265000001,
-            572.1926710500002
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    39.583333333333336,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2.2333333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    45.916666666666664,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2.6666666666666665,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    52.25,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    3.1333333333333333,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    58.583333333333336,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    3.566666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    64.91666666666667,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    4.033333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    71.25,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    4.466666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    77.58333333333333,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    4.933333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    83.91666666666667,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.366666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    90.25,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.833333333333333,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    96.58333333333333,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6.266666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    102.91666666666667,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6.733333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    109.25,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    7.166666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    115.58333333333333,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    7.633333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    118.75,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    8.066666666666668,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    121.91666666666667,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    8.533333333333333,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    125.08333333333333,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    8.966666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    128.25,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    9.433333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    131.41666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    9.866666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    134.58333333333334,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10.333333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    136.16666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10.766666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    137.75,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11.233333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    139.33333333333334,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11.666666666666666,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    140.91666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12.133333333333333,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    142.5,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12.566666666666668,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    144.08333333333334,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    13.033333333333333,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    145.66666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    13.466666666666669,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    147.25,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    13.933333333333335,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    148.83333333333334,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    14.366666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    150.41666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    14.833333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    152,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15.266666666666667,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    153.58333333333334,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15.733333333333334,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    155.16666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.166666666666668,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 2) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        2: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 2) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        3: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 3) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        4: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 3) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        5: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(64 + rand * 4) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        6: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(71 + rand * 4) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        7: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(77 + rand * 4) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        8: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(83 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        9: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3527013500000002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        10: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4161092257812502)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        11: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(102 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4795171015625002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        12: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(109 + rand * 7) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5429249773437503)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        13: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(115 + rand * 7) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.6063328531250003)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        14: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(118 + rand * 8) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.6697407289062502)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        15: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(121 + rand * 8) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.7331486046875002)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        16: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(125 + rand * 8) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.7965564804687506)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        17: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(128 + rand * 9) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.8599643562500006)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        18: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(131 + rand * 9) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.9233722320312505)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        19: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(134 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.9867801078125)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        20: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(136 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0501879835937507)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        21: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(137 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.113595859375001)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        22: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(139 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.177003735156251)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        23: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(140 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.2404116109375005)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        24: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(142 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.3038194867187505)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        25: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(144 + rand * 13) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.367227362500001)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        26: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(145 + rand * 13) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.4306352382812504)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        27: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(147 + rand * 13) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.494043114062501)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        28: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(148 + rand * 14) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.5574509898437507)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        29: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(150 + rand * 14) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.6208588656250007)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        30: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(152 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.6842667414062507)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        31: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(153 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.7476746171875006)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        32: {
+            "name": "烈日斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        }
     },
     40089: {
-        "skill_name": "明教_银月斩_子技能",
-        "max_level": 18,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 593,
-        "skill_event_mask2": 4784130,
-        "recipe_type": 3960,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "银月斩"
-        ],
-        "channel_interval": [
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            151.08633540000005,
-            166.19496894000005,
-            181.30360248000008,
-            196.41223602000008,
-            211.5208695600001,
-            226.62950310000005,
-            241.7381366400001,
-            256.8467701800001,
-            271.95540372000005,
-            287.06403726000013
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    38,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.8250000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    42.75,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.325,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    47.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.825,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    52.25,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.325,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    57,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.825,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    61.75,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.325,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    66.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.825,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    71.25,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.325,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    73.625,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.825,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    76,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.325,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    78.375,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.825,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    80.75,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.325,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    83.125,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.825,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    85.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.325000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    87.875,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.825000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    90.25,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.325000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    93.8125,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.825000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    98.08749999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10.325000000000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(38 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        2: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(42 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        3: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(47 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        4: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        5: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        6: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(61 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        7: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        8: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(71 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        9: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(73 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7869079968750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        10: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8655987965625003)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        11: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(78 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.9442895962500004)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        12: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0229803959375003)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        13: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(83 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1016711956250005)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        14: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(85 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1803619953125002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        15: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(87 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2590527950000006)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        16: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3377435946875005)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        17: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(93 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4164343943750002)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        18: {
+            "name": "银月斩",
+            "damage": "int(int(int(int(int(int(int(int(int(int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        }
     },
     6257: {
-        "skill_name": "明教_生死劫_日_子技能",
-        "max_level": 1,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 536871473,
-        "skill_event_mask2": 4227076,
-        "recipe_type": 3966,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "生死劫·日"
-        ],
-        "channel_interval": [
-            67.2
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    70,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "生死劫·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     6258: {
-        "skill_name": "明教_生死劫_月_子技能",
-        "max_level": 1,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 134234705,
-        "skill_event_mask2": 4194306,
-        "recipe_type": 3966,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "生死劫·月"
-        ],
-        "channel_interval": [
-            67.2
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    70,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
-    },
-    13359: {
-        "skill_name": "明教_银月斩_dot",
-        "max_level": 18,
-        "kind_type": "LunarMagic",
-        "recipe_type": 3960,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "银月斩"
-        ],
-        "channel_interval": [
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            181.30360248000008,
-            199.43396272800004,
-            217.56432297600008,
-            235.69468322400007,
-            253.82504347200006,
-            271.95540372000005,
-            290.0857639680001,
-            308.21612421600014,
-            326.346484464,
-            344.4768447120001
-        ]
+        1: {
+            "name": "生死劫·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     4024: {
-        "skill_name": "明教_幽月轮_第一下",
-        "max_level": 24,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 593,
-        "skill_event_mask2": 2152726656,
-        "recipe_type": 3959,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "幽月轮"
-        ],
-        "channel_interval": [
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            146.76958296000006,
-            155.40308784,
-            164.03659272000004,
-            172.67009760000005,
-            181.30360248000008,
-            189.93710736000006,
-            198.57061224000006,
-            207.20411712,
-            215.83762200000007,
-            224.47112688000004,
-            233.10463176000002,
-            241.7381366400001,
-            250.37164152000008,
-            259.00514640000006,
-            302.1726708000001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    19,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    20.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.8,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    22.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    24.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.4200000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    26.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.7400000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    28.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.04,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    30.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.3600000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    32.3,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.66,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    34.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.98,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    36.1,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.2800000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    38,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    39.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.9,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    41.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.220000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    43.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.5200000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    45.98,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.840000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    48.83,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.140000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    51.86999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.46,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    54.71999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    57.760000000000005,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.08,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    60.61,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.380000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    63.65,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    66.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    69.53999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.32,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    72.39,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.62,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(19) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(20) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(22 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(24 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(28 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(30 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(32 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(34 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(36 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7644249112500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(38 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8093910825)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8543572537500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(41 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(43 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.9442895962500004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.9892557675000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(48 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0342219387500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(51 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.07918811)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(54 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1241542812500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1691204525000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.21408662375)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(63 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2590527950000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3040189662500004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(69 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3489851375000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     4025: {
-        "skill_name": "明教_幽月轮_第二下",
-        "max_level": 24,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 593,
-        "skill_event_mask2": 2152726656,
-        "recipe_type": 3959,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "幽月轮"
-        ],
-        "channel_interval": [
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            138.13607808000003,
-            146.76958296000006,
-            155.40308784,
-            164.03659272000004,
-            172.67009760000005,
-            181.30360248000008,
-            189.93710736000006,
-            198.57061224000006,
-            207.20411712,
-            215.83762200000007,
-            224.47112688000004,
-            233.10463176000002,
-            241.7381366400001,
-            250.37164152000008,
-            259.00514640000006,
-            302.1726708000001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    19,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    20.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.8,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    22.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    24.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.4200000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    26.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.7400000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    28.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.04,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    30.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.3600000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    32.3,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.66,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    34.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.98,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    36.1,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.2800000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    38,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    39.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.9,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    41.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.220000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    43.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.5200000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    45.98,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.840000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    48.83,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.140000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    51.86999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.46,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    54.71999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    57.760000000000005,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.08,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    60.61,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.380000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    63.65,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    66.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    69.53999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.32,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    500,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    72.39,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.62,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(19) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        2: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(20) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        3: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(22 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        4: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(24 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        5: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        6: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(28 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        7: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(30 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        8: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(32 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        9: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(34 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7194587400000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        10: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(36 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.7644249112500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        11: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(38 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8093910825)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        12: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8543572537500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        13: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(41 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        14: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(43 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.9442895962500004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        15: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.9892557675000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        16: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(48 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0342219387500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        17: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(51 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.07918811)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        18: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(54 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1241542812500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        19: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1691204525000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        20: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.21408662375)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        21: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(63 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2590527950000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        22: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3040189662500004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        23: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(69 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3489851375000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        },
+        24: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 500) / 10000"
+        }
     },
     4026: {
-        "skill_name": "明教_幽月轮_第三下",
-        "max_level": 24,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 593,
-        "skill_event_mask2": 2152726656,
-        "recipe_type": 3959,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "幽月轮"
-        ],
-        "channel_interval": [
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            172.67009760000005,
-            185.62035492000007,
-            198.57061224000006,
-            211.52086956000002,
-            224.47112688000004,
-            237.42138420000006,
-            250.37164152000008,
-            263.3218988400001,
-            276.27215616000007,
-            289.22241348000006,
-            302.1726708000001,
-            315.12292812000004,
-            328.0731854400001,
-            341.0234427600001,
-            353.97370008000007,
-            345.3401952000001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    19,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    20.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    0.8,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    22.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    24.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.4200000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    26.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.7400000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    28.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.04,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    30.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.3600000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    32.3,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.66,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    34.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.98,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    36.1,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.2800000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    38,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    39.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.9,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    41.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.220000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    43.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.5200000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    45.98,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.840000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    48.83,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.140000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    51.86999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.46,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    54.71999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    57.760000000000005,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.08,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    60.61,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.380000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    63.65,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    66.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    69.53999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.32,
-                    0
-                ]
-            ],
-            [
-                [
-                    "LUNAR_CRITICAL_STRIKE_BASE_RATE",
-                    1000,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    72.39,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.62,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(19) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        2: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(20) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        3: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(22 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        4: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(24 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        5: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        6: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(28 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        7: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(30 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        8: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(32 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        9: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(34 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.8993234250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        10: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(36 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.9667726818750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        11: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(38 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0342219387500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        12: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.101671195625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        13: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(41 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1691204525000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        14: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(43 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2365697093750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        15: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3040189662500004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        16: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(48 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3714682231250004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        17: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(51 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4389174800000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        18: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(54 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5063667368750002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        19: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        20: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.6412652506250003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        21: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(63 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.7087145075000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        22: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.7761637643750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        23: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(69 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.8436130212500004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        },
+        24: {
+            "name": "幽月轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.7986468500000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000) / 10000"
+        }
     },
     4028: {
-        "skill_name": "明教_赤日轮_第一下",
-        "max_level": 33,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 545,
-        "skill_event_mask2": 2152726656,
-        "recipe_type": 3962,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "赤日轮"
-        ],
-        "channel_interval": [
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            132.64202952000002,
-            140.2944543,
-            147.94687908000003,
-            155.59930386000002,
-            163.25172864000004,
-            170.90415342,
-            178.55657820000005,
-            186.20900298000004,
-            193.86142776000003,
-            201.51385254000004,
-            209.16627732000003,
-            216.81870210000005,
-            224.47112688000004,
-            232.12355166000012,
-            239.77597644000008,
-            247.42840122,
-            255.0808260000001,
-            262.73325078,
-            270.38567556000004,
-            278.03810034,
-            285.69052512000013,
-            293.34294990000006,
-            300.9953746800001,
-            308.64779946000004,
-            392.8244720400001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    37,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    40,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    43,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    46,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    49,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    52,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    55,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    58,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    61,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    64,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    67,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    70,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    73,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    76,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    79,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    82,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    85,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    88,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    91,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    94,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    97,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    100,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    103,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    106,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    109,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    112,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    115,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    118,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    15,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    121,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    124,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    127,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    130,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    135,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(37 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(40 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(43 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(46 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(49 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(61 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6908439037500002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(64 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.7307002828125001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(67 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.7705566618750002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8104130409375001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(73 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8901257990625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(79 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9299821781250003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(82 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9698385571875002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(85 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.00969493625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(88 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.0495513153125002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(91 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.0894076943750002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(94 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1292640734375003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(97 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1691204525000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2089768315625007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(103 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2488332106250004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(106 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2886895896875001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(109 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3285459687500005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(112 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3684023478125)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(115 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4082587268750002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(118 + rand * 15) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4481151059375001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(121 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4879714850000008)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(124 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5278278640625003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        31: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(127 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5676842431250007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        32: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(130 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.6075406221875002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        33: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     4029: {
-        "skill_name": "明教_赤日轮_第二下",
-        "max_level": 33,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 545,
-        "skill_event_mask2": 2152726656,
-        "recipe_type": 3962,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "赤日轮"
-        ],
-        "channel_interval": [
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            127.54041300000004,
-            135.19283778000002,
-            142.84526256000007,
-            150.49768734000006,
-            158.15011212000005,
-            165.8025369000001,
-            173.45496168000005,
-            181.10738646000007,
-            188.7598112400001,
-            196.41223602000005,
-            204.06466080000007,
-            211.71708558000006,
-            219.36951036000008,
-            227.02193514000007,
-            234.67435992000006,
-            242.32678470000008,
-            249.97920948,
-            257.6316342600001,
-            265.28405904000005,
-            272.9364838200001,
-            280.5889086,
-            288.24133338000007,
-            295.89375816000006,
-            303.54618294,
-            392.8244720400001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    40.7,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    44,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    47.300000000000004,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    50.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    53.900000000000006,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    57.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    60.50000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    63.800000000000004,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    67.10000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    70.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    5.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    73.7,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    77,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    80.30000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    83.60000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    86.9,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    90.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    93.50000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    96.80000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    100.10000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    103.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    106.7,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    110.00000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    11,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    113.30000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    116.60000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    119.9,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    123.20000000000002,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    126.50000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    129.8,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    133.10000000000002,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    136.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    139.70000000000002,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    143,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    148.5,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    22,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(40 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(44 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(47 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(50 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(53 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(63 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(67 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6642729843750003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 5) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.7041293634375001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(73 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.7439857425000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(77 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.7838421215625003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8236985006250003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(83 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8635548796875004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(86 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9034112587500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9432676378125003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(93 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9831240168750005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.0229803959375003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.0628367750000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(103 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1026931540625002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(106 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1425495331250004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(110 + rand * 11) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1824059121875004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(113 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2222622912500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(116 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2621186703125005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(119 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.301975049375)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(123 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3418314284375006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(126 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3816878075000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(129 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4215441865625005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(133 + rand * 22) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4614005656250002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(136 + rand * 22) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5012569446875004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        31: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(139 + rand * 22) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5411133237500003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        32: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(143 + rand * 22) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5809697028125)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        33: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(148 + rand * 22) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     4030: {
-        "skill_name": "明教_赤日轮_第三下",
-        "max_level": 33,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 545,
-        "skill_event_mask2": 2152726656,
-        "recipe_type": 3962,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "赤日轮"
-        ],
-        "channel_interval": [
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            163.25172864000004,
-            175.495608288,
-            187.73948793600002,
-            199.98336758400004,
-            212.22724723200005,
-            224.47112688000004,
-            236.7150065280001,
-            248.95888617600005,
-            261.20276582400004,
-            273.44664547200006,
-            285.69052512000013,
-            297.9344047680001,
-            310.17828441600005,
-            322.4221640640001,
-            334.66604371200003,
-            346.9099233600001,
-            359.15380300800007,
-            371.39768265600014,
-            383.641562304,
-            395.88544195200006,
-            408.12932160000014,
-            420.37320124800016,
-            432.61708089600006,
-            444.860960544,
-            489.75518592
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    44.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    48,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    51.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    55.199999999999996,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    58.8,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    62.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    66,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    69.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    73.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    76.8,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    6,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    80.39999999999999,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    84,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    87.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    91.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    94.8,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    98.39999999999999,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    102,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    105.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    109.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    112.8,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    116.39999999999999,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    120,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    12,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    123.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    18,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    127.19999999999999,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    18,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    130.79999999999998,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    18,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    134.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    18,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    138,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    18,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    141.6,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    18,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    145.2,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    24,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    148.79999999999998,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    24,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    152.4,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    24,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    156,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    24,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    162,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    24,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(44 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(48 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(51 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(62 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(69 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(73 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.8502694200000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 6) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9140396265)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9778098330000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(84 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.0415800395)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(87 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1053502460000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(91 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.1691204525000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(94 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2328906590000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(98 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.2966608655000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(102 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3604310720000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(105 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4242012785000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(109 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.4879714850000008)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(112 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.5517416915000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(116 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.6155118980000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(120 + rand * 12) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.6792821045000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(123 + rand * 18) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.7430523110000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(127 + rand * 18) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.8068225175000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(130 + rand * 18) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.8705927240000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(134 + rand * 18) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.9343629305000007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(138 + rand * 18) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.998133137)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(141 + rand * 18) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0619033435000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(145 + rand * 24) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.1256735500000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(148 + rand * 24) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.1894437565000007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        31: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(152 + rand * 24) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.2532139630000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        32: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(156 + rand * 24) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.3169841695)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        33: {
+            "name": "赤日轮",
+            "damage": "int(int(int(int(int(int(int(int(int(int(162 + rand * 24) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.5508082599999997)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     4480: {
-        "skill_name": "明教_驱夜断愁_子技能",
-        "max_level": 58,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 81,
-        "recipe_type": 3979,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "驱夜断愁"
-        ],
-        "channel_interval": [
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            203.74200000000008,
-            213.44400000000007,
-            223.14600000000007,
-            232.848,
-            242.55,
-            252.252,
-            261.95400000000006,
-            271.65600000000006,
-            281.358,
-            291.06,
-            300.76200000000006,
-            310.46400000000006,
-            320.1660000000001,
-            329.86800000000017,
-            339.5700000000001,
-            349.2720000000001,
-            358.9740000000001,
-            368.67600000000016,
-            378.37800000000016,
-            407.48400000000015,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            264.86460000000005,
-            277.47720000000004,
-            290.0898,
-            302.70240000000007,
-            315.31500000000005,
-            327.92760000000004,
-            340.5402000000001,
-            353.15280000000007,
-            365.76540000000006,
-            378.37800000000016,
-            390.9906000000001,
-            403.6032,
-            416.21580000000006,
-            428.8284000000001,
-            441.4410000000001,
-            454.05360000000013,
-            466.6662000000001,
-            479.27880000000016,
-            491.8914000000001,
-            529.7292000000001
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    57,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.74,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    58.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.98,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    60.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    62.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.46,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    64.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.7,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    66.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.9400000000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    68.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.180000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    70.3,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.42,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    72.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.66,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    74.1,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.9,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    76,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.140000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    77.9,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.380000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    79.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.62,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    80.75,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.86,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    81.7,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.1,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    82.65,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.340000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    83.6,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.58,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    84.55,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.82,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    85.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.0600000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    86.45,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.3,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    87.4,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.540000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    88.35,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.780000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    89.3,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.02,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    90.25,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.260000000000002,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    91.2,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.5,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    92.15,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.74,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    93.1,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.98,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    94.05,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.22,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    95,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.46,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    74.10000000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.5620000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    76.57000000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    3.874,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    79.03999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.186000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    81.51,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.498,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    83.97999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    4.8100000000000005,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    86.45,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.122000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    88.92000000000002,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.434000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    91.39,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    5.746,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    93.86000000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.058000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    96.33,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.370000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    98.8,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.682000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    101.27000000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    6.9940000000000015,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    103.74,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.306,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    104.97500000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.618,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    106.21000000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.93,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    107.44500000000001,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.242,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    108.67999999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.554,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    109.915,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    8.866000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    111.15,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.178,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    112.385,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.49,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    113.62,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    9.802000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    114.85499999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10.114000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    116.09,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10.426,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    117.325,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10.738000000000003,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    118.56,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    11.05,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    119.79500000000002,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    11.362,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    121.03,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    11.674000000000001,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    122.265,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    11.986,
-                    0
-                ]
-            ],
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    123.5,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    12.298000000000002,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(57 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(62 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(64 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(66 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(68 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(74 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.0611562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1116875000000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(77 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.1622187500000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(79 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.21275)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2632812500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(81 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3138125)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(82 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3643437500000004)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(83 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4148750000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(84 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.46540625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(85 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5159375)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(86 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5664687500000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(87 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.6170000000000002)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(88 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.6675312500000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(89 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.718062500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.7685937500000006)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(91 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.8191250000000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(92 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.8696562500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(93 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.9201875000000008)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(94 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.9707187500000007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(95 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.122312500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(74 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        31: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 3) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        32: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(79 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        33: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(81 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        34: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(83 + rand * 4) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        35: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(86 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        36: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(88 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        37: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(91 + rand * 5) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        38: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(93 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        39: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3795031250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        40: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(98 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4451937500000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        41: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(101 + rand * 6) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.510884375)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        42: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(103 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5765750000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        43: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(104 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.6422656250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        44: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(106 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.7079562500000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        45: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(107 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.7736468750000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        46: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(108 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.8393375000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        47: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(109 + rand * 8) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.9050281250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        48: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(111 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.9707187500000007)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        49: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(112 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.0364093750000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        50: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(113 + rand * 9) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.1021)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        51: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(114 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.1677906250000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        52: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(116 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.2334812500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        53: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(117 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.2991718750000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        54: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(118 + rand * 11) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.3648625000000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        55: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(119 + rand * 11) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.4305531250000008)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        56: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(121 + rand * 11) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.496243750000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        57: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(122 + rand * 11) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.5619343750000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        58: {
+            "name": "驱夜断愁",
+            "damage": "int(int(int(int(int(int(int(int(int(int(123 + rand * 12) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.7590062500000005)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
+    },
+    25777: {
+        1: {
+            "name": "驱夜断愁·神兵",
+            "damage": "int(int(int(int(int(int(int(int(int(int(rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.2604166666666667)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
+    },
+    35065: {
+        1: {
+            "name": "愿火长燃",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.3333333333333335)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "愿火长燃",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.6666666666666667)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     40931: {
-        "skill_name": "明教_净身明礼_日斩AOE_子技能",
-        "max_level": 1,
-        "kind_type": "SolarMagic",
-        "use_skill_coefficient": 1,
-        "name": [
-            "净身明礼·日"
-        ],
-        "channel_interval": [
-            179
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    39.583333333333336,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    2.2333333333333334,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净身明礼·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 2) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.9322916666666666)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     40932: {
-        "skill_name": "明教_净身明礼_月斩AOE_子技能",
-        "max_level": 1,
-        "kind_type": "LunarMagic",
-        "use_skill_coefficient": 1,
-        "name": [
-            "净身明礼·月"
-        ],
-        "channel_interval": [
-            101
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    38,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    1.8250000000000002,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净身明礼·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(38 + rand) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.5260416666666666)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     26916: {
-        "skill_name": "诛邪伤害子技能",
-        "max_level": 4,
-        "kind_type": "SolarMagic",
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "诛邪镇魔"
-        ],
-        "channel_interval": [
-            415.85847187499996
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    209,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    240,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    209,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    240,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ],
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ],
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ],
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -952664,
-                    0
-                ],
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ],
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    952664,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -952664,
-                    0
-                ],
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ],
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    952664,
-                    0
-                ],
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -952664,
-                    0
-                ],
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ],
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    952664,
-                    0
-                ],
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -952664,
-                    0
-                ],
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ],
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    952664,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "诛邪镇魔",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.165929541015625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024)) + int(209 + rand * 240) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.165929541015625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "诛邪镇魔",
+            "damage": "int(int(int(int(int(int(int(int(int((int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.165929541015625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024)) + int(209 + rand * 240) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.165929541015625)) * 0.09146881103515625) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "诛邪镇魔",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int(int((int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.165929541015625)) * 0.09146881103515625) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024)) + int(209 + rand * 240) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.165929541015625)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "诛邪镇魔",
+            "damage": "int(int(int(int(int(int(int(int(int((int(int(int(int(int(int(int(int(int((int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.165929541015625)) * 0.09146881103515625) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024)) + int(209 + rand * 240) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 2.165929541015625)) * 0.09146881103515625) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     26708: {
-        "skill_name": "净体不畏·日",
-        "max_level": 1,
-        "kind_type": "SolarMagic",
-        "use_skill_coefficient": 1,
-        "name": [
-            "净体不畏·日"
-        ],
-        "channel_interval": [
-            267.29999999999995
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "DST_NPC_DAMAGE_COEFFICIENT",
-                    768,
-                    1
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    100,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净体不畏·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 1.3921874999999997)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + (pve_addition + 768) / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     26709: {
-        "skill_name": "净体不畏·月",
-        "max_level": 1,
-        "kind_type": "LunarMagic",
-        "use_skill_coefficient": 1,
-        "name": [
-            "净体不畏·月"
-        ],
-        "channel_interval": [
-            267.29999999999995
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "DST_NPC_DAMAGE_COEFFICIENT",
-                    768,
-                    1
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    100,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
-    },
-    34373: {
-        "skill_name": "明教_生死劫上dot技能_日",
-        "max_level": 4,
-        "kind_type": "SolarMagic",
-        "recipe_type": 3966,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "channel_interval": [
-            2654.0800000000004
-        ]
-    },
-    34374: {
-        "skill_name": "明教_生死劫上dot技能_月",
-        "max_level": 4,
-        "kind_type": "LunarMagic",
-        "recipe_type": 3966,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "channel_interval": [
-            2654.0800000000004
-        ]
+        1: {
+            "name": "净体不畏·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 20) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.3921874999999997)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + (pve_addition + 768) / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     34985: {
-        "skill_name": "明教_降灵尊本体伤害",
-        "max_level": 1,
-        "kind_type": "SolarMagic",
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "降灵尊"
-        ],
-        "channel_interval": [
-            1062.7848000000001
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    70,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "降灵尊",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 5.535337500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
-    34348: {
-        "skill_name": "明教_明赦尊谕_日",
-        "max_level": 1,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 536871473,
-        "skill_event_mask2": 4227076,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "channel_interval": [
-            67.2
-        ]
+    35056: {
+        1: {
+            "name": "明赦尊谕·日",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
-    34349: {
-        "skill_name": "明教_明赦尊谕_月",
-        "max_level": 1,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 134234705,
-        "skill_event_mask2": 4227076,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "channel_interval": [
-            67.2
-        ]
+    35057: {
+        1: {
+            "name": "明赦尊谕·月",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     34353: {
-        "skill_name": "明教_影子幽月轮",
-        "max_level": 6,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 593,
-        "skill_event_mask2": 2151677952,
-        "recipe_type": 3959,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "幽月轮·悬象"
-        ],
-        "channel_interval": [
-            302.1726708000001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    72.39,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    7.62,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "幽月轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * 0.06000041961669922) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "幽月轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * 0.24000072479248047) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "幽月轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * 0.5400009155273438) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "幽月轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * 0.9600000381469727) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "幽月轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * 1.5) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "幽月轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(72 + rand * 7) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.5738159937500005)) * 2.1599998474121094) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     34354: {
-        "skill_name": "明教_影子赤日轮",
-        "max_level": 6,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 545,
-        "skill_event_mask2": 2151677952,
-        "recipe_type": 3962,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "赤日轮·悬象"
-        ],
-        "channel_interval": [
-            392.8244720400001
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    135,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    20,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "赤日轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * 0.06000041961669922) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "赤日轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * 0.24000072479248047) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "赤日轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * 0.5400009155273438) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "赤日轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * 0.9600000381469727) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "赤日轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * 1.5) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "赤日轮·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(135 + rand * 20) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.0459607918750007)) * 2.1599998474121094) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     34355: {
-        "skill_name": "明教_影子银月斩",
-        "max_level": 6,
-        "kind_type": "LunarMagic",
-        "skill_event_mask2": 4784130,
-        "recipe_type": 3960,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "银月斩·悬象"
-        ],
-        "channel_interval": [
-            287.06403726000013
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    98.08749999999999,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10.325000000000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "银月斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * 0.06000041961669922) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        2: {
+            "name": "银月斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * 0.24000072479248047) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        3: {
+            "name": "银月斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * 0.5400009155273438) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        4: {
+            "name": "银月斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * 0.9600000381469727) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        5: {
+            "name": "银月斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * 1.5) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        },
+        6: {
+            "name": "银月斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.4951251940625008)) * 2.1599998474121094) * (1 + (magical_damage_addition + 512 * _5931_1 + 256 * _5150_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate + 102 * _1315_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + (lunar_critical_strike_rate + 1000 * _1315_1) / 10000"
+        }
     },
     34356: {
-        "skill_name": "明教_影子烈日斩",
-        "max_level": 6,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 561,
-        "skill_event_mask2": 4784132,
-        "recipe_type": 3963,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "烈日斩·悬象"
-        ],
-        "channel_interval": [
-            572.1926710500002
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    155.16666666666666,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    16.166666666666668,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
-    },
-    34357: {
-        "skill_name": "明教_影子月破魔",
-        "max_level": 6,
-        "kind_type": "LunarMagic",
-        "skill_event_mask2": 2,
-        "use_skill_coefficient": 1,
-        "name": [
-            "净世破魔击·月悬象"
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "烈日斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * 0.06000041961669922) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        2: {
+            "name": "烈日斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * 0.24000072479248047) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        3: {
+            "name": "烈日斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * 0.5400009155273438) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        4: {
+            "name": "烈日斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * 0.9600000381469727) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        5: {
+            "name": "烈日斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * 1.5) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        },
+        6: {
+            "name": "烈日斩·悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(155 + rand * 16) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 2.980170161718751)) * 2.1599998474121094) * (1 + (magical_damage_addition + 512 * _5930_1 + 256 * _5149_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate + 102 * _1314_1) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + (solar_critical_strike_rate + 1000 * _1314_1) / 10000"
+        }
     },
     34359: {
-        "skill_name": "明教_影子月破魔伤害",
-        "max_level": 6,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 134218321,
-        "skill_event_mask2": 4194304,
-        "recipe_type": 3967,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "净世破魔击·月悬象"
-        ],
-        "channel_interval": [
-            244.8919013214713
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    73.36,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    2.994285714285714,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
-    },
-    34360: {
-        "skill_name": "明教_影子日破魔",
-        "max_level": 6,
-        "kind_type": "SolarMagic",
-        "skill_event_mask2": 4,
-        "use_skill_coefficient": 1,
-        "name": [
-            "净世破魔击·日悬象"
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净世破魔击·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * 0.06000041961669922) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "净世破魔击·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * 0.24000072479248047) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "净世破魔击·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * 0.5400009155273438) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "净世破魔击·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * 0.9600000381469727) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "净世破魔击·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * 1.5) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "净世破魔击·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(73 + rand * 2) + int((int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 1.2754786527159963)) * 2.1599998474121094) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     34361: {
-        "skill_name": "明教_影子日破魔伤害",
-        "max_level": 6,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 536871473,
-        "skill_event_mask2": 4259840,
-        "recipe_type": 3967,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "净世破魔击·日悬象"
-        ],
-        "channel_interval": [
-            734.6757039644136
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    98.80000000000001,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10.4,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "净世破魔击·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * 0.06000041961669922) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "净世破魔击·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * 0.24000072479248047) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "净世破魔击·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * 0.5400009155273438) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "净世破魔击·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * 0.9600000381469727) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "净世破魔击·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * 1.5) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "净世破魔击·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(98 + rand * 10) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.8264359581479876)) * 2.1599998474121094) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     34362: {
-        "skill_name": "明教_影子月生死劫",
-        "max_level": 6,
-        "kind_type": "LunarMagic",
-        "skill_event_mask1": 134234705,
-        "skill_event_mask2": 4194306,
-        "recipe_type": 3966,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "生死劫·月悬象"
-        ],
-        "channel_interval": [
-            67.2
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_LUNAR_DAMAGE",
-                    70,
-                    0
-                ],
-                [
-                    "SKILL_LUNAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_LUNAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "生死劫·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * 0.06000041961669922) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "生死劫·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * 0.24000072479248047) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "生死劫·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * 0.5400009155273438) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "生死劫·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * 0.9600000381469727) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "生死劫·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * 1.5) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "生死劫·月悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_lunar_attack_power * (1 + (lunar_attack_power_gain + 246 * _3225_1) / 1024)) + extra_lunar_attack_power) * 0.35000000000000003)) * 2.1599998474121094) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + lunar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+        }
     },
     34363: {
-        "skill_name": "明教_影子日生死劫",
-        "max_level": 6,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 536871473,
-        "skill_event_mask2": 4227076,
-        "recipe_type": 3966,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "生死劫·日悬象"
-        ],
-        "channel_interval": [
-            67.2
-        ],
-        "weapon_damage_percent": [
-            1024
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    70,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    10,
-                    0
-                ]
-            ]
-        ],
-        "dest_rollback_attributes": [
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -985661.44,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -796917.76,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -482344.95999999996,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    -41943.04000000004,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    524288,
-                    0
-                ]
-            ],
-            [
-                [
-                    "GLOBAL_DAMGAGE_FACTOR",
-                    1216348.1600000001,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "生死劫·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * 0.06000041961669922) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "生死劫·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * 0.24000072479248047) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "生死劫·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * 0.5400009155273438) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "生死劫·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * 0.9600000381469727) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "生死劫·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * 1.5) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "生死劫·日悬象",
+            "damage": "int(int(int(int(int(int(int(int(int((int(70 + rand * 10) + int((int(base_solar_attack_power * (1 + (solar_attack_power_gain + 246 * _3222_1) / 1024)) + extra_solar_attack_power) * 0.35000000000000003)) * 2.1599998474121094) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
     37336: {
-        "skill_name": "崇光斩恶子技能",
-        "max_level": 6,
-        "kind_type": "SolarMagic",
-        "skill_event_mask1": 33,
-        "weapon_request": 12,
-        "use_skill_coefficient": 1,
-        "name": [
-            "崇光斩恶"
-        ],
-        "channel_interval": [
-            763.2,
-            938.1,
-            1290.02,
-            2098.8,
-            2579.775,
-            3547.555
-        ],
-        "self_rollback_attributes": [
-            [
-                [
-                    "SKILL_SOLAR_DAMAGE",
-                    209,
-                    0
-                ],
-                [
-                    "SKILL_SOLAR_DAMAGE_RAND",
-                    240,
-                    0
-                ]
-            ]
-        ],
-        "dest_attributes": [
-            [
-                [
-                    "CALL_SOLAR_DAMAGE",
-                    0,
-                    0
-                ]
-            ]
-        ]
+        1: {
+            "name": "崇光斩恶",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 3.975)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "崇光斩恶",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 4.8859375)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "崇光斩恶",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 6.718854166666667)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "崇光斩恶",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 10.93125)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "崇光斩恶",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 13.436328125000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "崇光斩恶",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 240) + int((int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 18.47684895833333)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(solar_overcome_base * (1 + solar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((solar_critical_power_base / 72844.2 + (1792 + solar_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_solar_critical_strike / 197703.0 + solar_critical_strike_rate / 10000"
+        }
     },
-    5972: {
-        "skill_name": "明教_焚影_崇骨3_日月斩加会心",
-        "name": [
-            "腾焰飞芒"
-        ],
-        "recipes": [
-            [
-                [
-                    1314,
-                    1
-                ],
-                [
-                    1315,
-                    1
-                ]
-            ]
-        ]
+    12: {
+        1: {
+            "name": "梅花枪法",
+            "damage": "int(int(int(int(int(int(int(int(int(int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + (physical_damage_addition + 205 * _1711_1) / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    18279: {
-        "skill_name": "斩系技能附带AOE效果",
-        "name": [
-            "净身明礼"
-        ],
-        "recipes": [
-            [
-                [
-                    5149,
-                    1
-                ],
-                [
-                    5150,
-                    1
-                ]
-            ]
-        ]
+    32820: {
+        1: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 0.5791501998901367) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "破",
+            "damage": "int(int(int(int(int(int(int(int(int(int(int(surplus_base * (1 + surplus_gain / 1024)) * 7.421) * 2.0) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    22888: {
-        "skill_name": "日月循环破魔高爆发",
-        "name": [
-            "诛邪镇魔"
-        ]
+    18207: {
+        1: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(35 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(42 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(50 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(56 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(62 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.6309253450500004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(64 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.7078674603000004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(68 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.7848095755500004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.8617516908000005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.9386938060500002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.0156359213000006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(84 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.0925780365500004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(88 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.1695201518000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(92 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.2464622670500005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3234043823000006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.4003464975500006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(104 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.477288612800001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(109 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.5542307280500012) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(115 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.631172843300001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(120 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.7081149585500008) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(130 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.7850570738000016) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(140 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.861999189050001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(150 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.9389413043000014) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(160 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.4313708419000015) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    6717: {
-        "skill_name": "明教_无明业火_背后加会心",
-        "name": [
-            "无明业火"
-        ]
+    18208: {
+        1: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(35 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(42 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(50 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(56 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(60 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.5539832298000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(62 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.6309253450500004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(64 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.7078674603000004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(68 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.7848095755500004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.8617516908000005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(76 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.9386938060500002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.0156359213000006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(84 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.0925780365500004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(88 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.1695201518000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(92 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.2464622670500005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3234043823000006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.4003464975500006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(104 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.477288612800001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(109 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.5542307280500012) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(115 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.631172843300001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(120 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.7081149585500008) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(130 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.7850570738000016) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(140 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.861999189050001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(150 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.9389413043000014) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "穿云",
+            "damage": "int(int(int(int(int(int(int(int(int(int(160 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.4313708419000015) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    34383: {
-        "skill_name": "焚影_终结技加另一系终结技伤害",
-        "name": [
-            "明光恒照"
-        ]
+    18603: {
+        1: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(50 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(55 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(65 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(72 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(73 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(75 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(77 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3177225030200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.411845538950001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(85 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.505968574880001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6000916108100012) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(95 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6942146467400008) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.7883376826700013) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(105 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.8824607186000013) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(110 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.976583754530001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(115 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.070706790460001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(123 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.164829826390002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(129 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.2589528623200006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(135 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.35307589825) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(141 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.4471989341800002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(146 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.5413219701100016) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(152 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.635445006040001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(158 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.7295680419700017) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(164 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.823691077900002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(170 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.9178141138300018) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(176 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.011937149760002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(182 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.106060185690002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(187 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.4637277222240015) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        30: {
+            "name": "龙吟",
+            "damage": "int(int(int(int(int(int(int(int(int(int(193 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.6331491868980024) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    34395: {
-        "skill_name": "焚影_多次使用不同终结技触发爆发",
-        "name": [
-            "日月同辉"
-        ]
+    18773: {
+        1: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(70 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(75 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(80 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(85 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(90 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(92 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(94 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(96 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(98 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.250340604532407) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(100 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.362857634759027) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(105 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.475374664985647) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(112 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.587891695212268) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(118 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.7004087254388875) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(125 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.812925755665508) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(131 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.9254427858921286) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(138 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.0379598161187493) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(144 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.1504768463453696) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(151 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.26299387657199) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(157 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.3755109067986098) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        20: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(164 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.4880279370252296) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        21: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(170 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.600544967251851) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        22: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(177 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.7130619974784707) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        23: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(183 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.8255790277050914) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        24: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(190 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.9380960579317117) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        25: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(196 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 4.050613088158332) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        26: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(203 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 4.163130118384953) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        27: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(209 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 4.275647148611572) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        28: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(216 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 4.388164178838193) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        29: {
+            "name": "龙牙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(222 + rand * 15) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 4.433170990928841) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    25166: {
-        "skill_name": "明教_净体不畏",
-        "name": [
-            "净体不畏"
-        ],
-        "recipes": [
-            [
-                [
-                    5507,
-                    1
-                ],
-                [
-                    5508,
-                    1
-                ]
-            ]
-        ]
+    431: {
+        1: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(17 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(21 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(25 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(30 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(35 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(37 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    34372: {
-        "skill_name": "焚影_生死劫带dot",
-        "name": [
-            "靡业报劫"
-        ],
-        "recipes": [
-            [
-                [
-                    3221,
-                    1
-                ]
-            ]
-        ]
+    14882: {
+        1: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(10 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(14 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(18 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "突",
+            "damage": "int(int(int(int(int(int(int(int(int(int(22 + rand * 3) + int((int(base_physical_attack_power * (1 + (physical_attack_power_gain + -1024) / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    17567: {
-        "skill_name": "明教_用晦而明",
-        "name": [
-            "用晦而明"
-        ],
-        "recipes": [
-            [
-                [
-                    5921,
-                    1
-                ]
-            ]
-        ]
+    701: {
+        1: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(32 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(65 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(71 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(78 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6170000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(91 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.8480000000000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(104 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.079) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(117 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.3100000000000005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(130 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.5410000000000004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(143 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.7720000000000007) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(156 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.003000000000001) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(169 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.2340000000000004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(182 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.4650000000000007) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(195 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.6960000000000006) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(208 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 3.9270000000000005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    5979: {
-        "skill_name": "明教_天地诛戮",
-        "name": [
-            "天地诛戮"
-        ]
+    702: {
+        1: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(32 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(45 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(52 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(58 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(65 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        8: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(71 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        9: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(78 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.078) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        10: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(91 + rand * 5) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.2320000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        11: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(104 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.3860000000000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        12: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(117 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.5400000000000005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        13: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(130 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.6940000000000004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        14: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(143 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.8480000000000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        15: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(156 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.0020000000000002) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        16: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(169 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.156) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        17: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(182 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.3100000000000005) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        18: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(195 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.4640000000000004) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        19: {
+            "name": "灭",
+            "damage": "int(int(int(int(int(int(int(int(int(int(208 + rand * 10) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.6180000000000003) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    38526: {
-        "skill_name": "降灵尊",
-        "name": [
-            "降灵尊"
-        ]
+    409: {
+        1: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(26 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        2: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(28 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        3: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(33 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        4: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(35 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        5: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(36 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        6: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(38 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        },
+        7: {
+            "name": "断魂刺",
+            "damage": "int(int(int(int(int(int(int(int(int(int(39 + rand * 3) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.1) + int((int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * 1024)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    34347: {
-        "skill_name": "焚影_影子终结技",
-        "name": [
-            "明赦尊谕"
-        ]
+    25772: {
+        1: {
+            "name": "龙牙·神兵",
+            "damage": "int(int(int(int(int(int(int(int(int(int(rand * 2) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.3125)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     },
-    37337: {
-        "skill_name": "崇光斩恶_光明相变技能",
-        "name": [
-            "崇光斩恶"
-        ]
+    31031: {
+        1: {
+            "name": "画角闻龙",
+            "damage": "int(int(int(int(int(int(int(int(int(int(496 + rand * 52) + int((int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.28125)) * (1 + physical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int((int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + physical_damage_cof / 1024))",
+            "critical_damage": "int(damage * int((physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024) * 1024) / 1024)",
+            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+        }
     }
 }

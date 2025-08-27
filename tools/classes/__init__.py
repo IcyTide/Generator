@@ -28,6 +28,10 @@ class AliasBase:
         setattr(self, key, value)
 
     @staticmethod
+    def empty_func(*args):
+        return
+
+    @staticmethod
     def get_name(txt, id_column, id_value, level):
         txt_rows = txt[txt[id_column] == id_value]
         default_row = txt_rows[txt_rows['Level'] == 0]
@@ -35,3 +39,6 @@ class AliasBase:
         txt_row = txt_rows[txt_rows['Level'] == level]
         name = txt_row.iloc[0]['Name'] if not txt_row.empty else default_name
         return name
+
+    def to_dict(self):
+        return {}
