@@ -2,6 +2,8 @@ import pandas as pd
 
 from tools.utils import read_tab
 
+kungfus = read_tab("settings/skill/platformkungfu.tab")
+
 buff_settings = read_tab("settings/skill/buff.tab", "settings/skill_mobile/buff.tab")
 skill_settings = read_tab("settings/skill/skills.tab")
 skill_mobile_settings = read_tab("settings/skill_mobile/skills.tab")

@@ -3,6 +3,7 @@ import os
 import re
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 
 
@@ -29,13 +30,13 @@ def path_to_function(s):
     return s1
 
 
-BASE_DIR = "../jx3_hd_src"
+BASE_DIR = "../jx3-package"
 SAVE_DIR = "assets/raw"
 
 
 def fill_na(series):
     if pd.to_numeric(series.dropna(), errors="coerce").notna().all():
-        return pd.to_numeric(series, errors="coerce").fillna(0)
+        return pd.to_numeric(series, errors="coerce").fillna(0).astype(object)
     else:
         return series.fillna("")
 
@@ -45,11 +46,11 @@ def read_tab(*files):
     for file in files:
         file_path = os.path.join(BASE_DIR, file)
         if df is None:
-            df = pd.read_csv(file_path, sep="\t", low_memory=False, encoding="utf-8", dtype=str, on_bad_lines="skip")
+            df = pd.read_csv(file_path, sep="\t", low_memory=False, encoding="gbk", dtype=str, on_bad_lines="skip")
         else:
             df = pd.concat([
                 df,
-                pd.read_csv(file_path, sep="\t", low_memory=False, encoding="utf-8", dtype=str, on_bad_lines="skip")
+                pd.read_csv(file_path, sep="\t", low_memory=False, encoding="gbk", dtype=str, on_bad_lines="skip")
             ])
     df = df.apply(fill_na)
     return df

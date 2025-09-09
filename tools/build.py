@@ -22,11 +22,12 @@ class Builder:
         self.skills = {}
         self.talents = {}
         self.recipes = {}
-        for  kungfu in SUPPORT_KUNGFUS:
+        for kungfu in SUPPORT_KUNGFUS:
             self.build_attribute(kungfu.attribute)
             self.build_buffs(kungfu.buffs)
-            self.build_skills(kungfu.skills)
             self.build_dots(kungfu.dots)
+            self.build_recipes(kungfu.recipes)
+            self.build_skills(kungfu.skills)
             self.build_talents(kungfu.talents)
 
     def build_attribute(self, attribute_id):
@@ -56,25 +57,35 @@ class Builder:
                 self.build_dots(dict(talents=talent.dots))
                 self.build_skills(dict(talents=talent.skills))
 
-    def build_recipes(self):
-        for attribute in self.attributes.values():
-            for recipe_id, _ in attribute.recipes:
+    def build_recipes(self, recipes: dict[str, list[int]]):
+        for category, recipe_ids in recipes.items():
+            for recipe_id in recipe_ids:
                 self.recipes[recipe_id] = Recipe(recipe_id)
-        for buff_id, buffs in self.buffs.items():
-            for buff_level, buff in buffs.items():
-                for recipe_id, _ in buff.recipes:
-                    self.recipes[recipe_id] = Recipe(recipe_id)
-        for talent in self.talents.values():
-            for recipe_id, _ in talent.recipes:
-                self.recipes[recipe_id] = Recipe(recipe_id)
+
+    # def build_recipes(self):
+    #     for attribute in self.attributes.values():
+    #         for recipe_id, _ in attribute.recipes:
+    #             self.recipes[recipe_id] = Recipe(recipe_id)
+    #     for buff_id, buffs in self.buffs.items():
+    #         for buff_level, buff in buffs.items():
+    #             for recipe_id, _ in buff.recipes:
+    #                 self.recipes[recipe_id] = Recipe(recipe_id)
+    #     for talent in self.talents.values():
+    #         for recipe_id, _ in talent.recipes:
+    #             self.recipes[recipe_id] = Recipe(recipe_id)
+    #     for recipe in self.recipes.values():
+    #         recipe.parse_attribute()
 
     def parse_attribute(self):
         for attribute_id, attribute in tqdm(self.attributes.items()):
-            self.attributes[attribute_id] = parse_talent(attribute)
+            attribute = self.attributes[attribute_id] = parse_talent(attribute)
+            self.build_recipes(dict(attribute=[recipe_id for recipe_id, _ in attribute.recipes]))
 
     def parse_buffs(self):
         for buff_id, buff in tqdm(self.buffs.items()):
-            self.buffs[buff_id] = parse_buff(buff)
+            buffs = self.buffs[buff_id] = parse_buff(buff)
+            for buff_level, item in buffs.items():
+                self.build_recipes(dict(buffs=[recipe_id for recipe_id, _ in item.recipes]))
 
     def parse_dots(self):
         for dot_id, dot in tqdm(self.dots.items()):
@@ -86,7 +97,8 @@ class Builder:
 
     def parse_talents(self):
         for talent_id, talent in tqdm(self.talents.items()):
-            self.talents[talent_id] = parse_talent(talent)
+            talent = self.talents[talent_id] = parse_talent(talent)
+            self.build_recipes(dict(talent=[recipe_id for recipe_id, _ in talent.recipes]))
 
     def parse_recipes(self):
         for recipe_id, params in tqdm(self.recipes.items()):
@@ -98,7 +110,6 @@ class Builder:
         self.parse_dots()
         self.parse_skills()
         self.parse_talents()
-        self.build_recipes()
         self.parse_recipes()
         save_code("attributes", self.attributes)
         save_code("buffs", self.buffs)

@@ -111,15 +111,15 @@ class Skill(AliasBase):
         source, target = Attribute(), Target()
         damage_chain = target.damage_chain = DamageChain(source, target, self)
         for attr, param_1, param_2 in self.self_rollback_attributes:
-            source[attr] += param_1 if param_1 else param_2
+            source[attr] += param_2 if param_2 else param_1
         for attr, param_1, param_2 in self.dest_rollback_attributes:
-            target[attr] += param_1 if param_1 else param_2
+            target[attr] += param_2 if param_2 else param_1
         # self not rollback attributes no meaning
         for attr, param_1, param_2 in self.dest_attributes:
             if callable(target[attr]):
                 target[attr](param_1, param_2)
             else:
-                target[attr] += param_1 if param_1 else param_2
+                target[attr] += param_2 if param_2 else param_1
         return damage_chain.to_dict()
 
     def to_dict(self):

@@ -1,47 +1,4 @@
 ATTRIBUTES = {
-    10242: {
-        "name": "焚影圣诀",
-        "attributes": [
-            [
-                "pve_addition",
-                82
-            ],
-            [
-                "magical_shield_base",
-                2850
-            ],
-            [
-                "physical_shield_base",
-                2850
-            ],
-            [
-                "spunk_to_solar_and_lunar_attack_power",
-                2038
-            ],
-            [
-                "spunk_to_solar_and_lunar_critical_strike",
-                307
-            ],
-            [
-                "lunar_attack_power_base",
-                7604
-            ],
-            [
-                "solar_attack_power_base",
-                7604
-            ],
-            [
-                "magical_shield_base",
-                3314
-            ]
-        ],
-        "recipes": [
-            [
-                1711,
-                1
-            ]
-        ]
-    },
     10026: {
         "name": "傲血战意",
         "attributes": [
@@ -88,5 +45,82 @@ ATTRIBUTES = {
                 1
             ]
         ]
+    },
+    10242: {
+        "name": "焚影圣诀",
+        "attributes": [
+            [
+                "pve_addition",
+                82
+            ],
+            [
+                "magical_shield_base",
+                2850
+            ],
+            [
+                "physical_shield_base",
+                2850
+            ],
+            [
+                "spunk_to_solar_and_lunar_attack_power",
+                2038
+            ],
+            [
+                "spunk_to_solar_and_lunar_critical_strike",
+                307
+            ],
+            [
+                "lunar_attack_power_base",
+                7604
+            ],
+            [
+                "solar_attack_power_base",
+                7604
+            ],
+            [
+                "magical_shield_base",
+                3314
+            ]
+        ],
+        "recipes": [
+            [
+                1711,
+                1
+            ]
+        ]
+    },
+    10821: {
+        "name": "幽罗引",
+        "attributes": [
+            [
+                "magical_shield_base",
+                2850
+            ],
+            [
+                "physical_shield_base",
+                2850
+            ],
+            [
+                "magical_attack_power_base",
+                6518
+            ],
+            [
+                "spirit_to_lunar_attack_power",
+                1974
+            ],
+            [
+                "spirit_to_lunar_critical_strike",
+                512
+            ],
+            [
+                "magical_shield_base",
+                2347
+            ],
+            [
+                "pve_addition",
+                512
+            ]
+        ],
+        "recipes": []
     }
 }
