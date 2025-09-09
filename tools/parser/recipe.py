@@ -16,6 +16,7 @@ def set_recipe_to_skill(engine: Engine, recipe, skills: dict[int, dict[int, Skil
             skill.prepare_frames += int(recipe.prepare_frames_add) * skill.recipe_key
             engine.get_skill_recipe_data(skill, recipe.recipe_id, recipe.recipe_level)
 
+
 def parse_recipe(recipe_id, skills: dict[int, dict[int, Skill]], dots: dict[int, dict[int, Dot]]):
     result = {}
     recipe = Recipe(recipe_id)

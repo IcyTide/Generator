@@ -1,14 +1,14 @@
-import random
 from pathlib import Path
 
 import lupa.lua51 as lupa
 
 from tools.classes.skill import Skill
 from tools.lua.enums import ENV_VARIABLES
+from tools.utils import BASE_DIR
 
 
 class BaseEngine:
-    base_path = Path("../jx3_hd_src")
+    base_path = Path(BASE_DIR)
 
     def __init__(self, lua_path: str | Path = None):
         self.engine = lupa.LuaRuntime(unpack_returned_tuples=True, encoding="gbk")
@@ -41,7 +41,7 @@ class BaseEngine:
         if not lua_path.exists():
             return
         try:
-            with open(lua_path, encoding="utf-8") as f:
+            with open(lua_path, encoding="gbk") as f:
                 lua_code = f.read()
             self.engine.execute(lua_code)
         except:

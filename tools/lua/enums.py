@@ -63,6 +63,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     USELESS = ""
     KUNGFU_TYPE = ""
 
+    ADAPT_ATTRIBUTE_TYPE = ""
     ACTIVE_THREAT_COEFFICIENT = ""
     DROP_DEFENCE = ""
     BEAT_BACK_RATE = ""
@@ -71,11 +72,13 @@ class ATTRIBUTE_TYPE(StrEnum):
     # Resource Attribute
     ACCUMULATE = ""
     MAX_RAGE = ""
+    MAX_ENERGY = ""
     MAX_SUN_ENERGY = ""
     MAX_MOON_ENERGY = ""
-
     MAX_LIFE_PERCENT_ADD = ""
     MAX_MANA_BASE = ""
+
+    ENERGY_REPLENISH = ""
     MANA_REPLENISH = ""
     MANA_REPLENISH_EXT = ""
     MANA_REPLENISH_PERCENT = ""
@@ -130,6 +133,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     LUNAR_ATTACK_POWER_BASE = "lunar_attack_power_base"
     NEUTRAL_ATTACK_POWER_BASE = "neutral_attack_power_base"
     POISON_ATTACK_POWER_BASE = "poison_attack_power_base"
+    MAGIC_ATTACK_POWER_BASE = "magical_attack_power_base"
 
     PHYSICS_ATTACK_POWER_PERCENT = "physical_attack_power_gain"
     SOLAR_ATTACK_POWER_PERCENT = "solar_attack_power_gain"
@@ -178,10 +182,13 @@ class ATTRIBUTE_TYPE(StrEnum):
 
     SPUNK_TO_SOLAR_AND_LUNAR_ATTACK_POWER_COF = "spunk_to_solar_and_lunar_attack_power"
     SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF = "spunk_to_solar_and_lunar_critical_strike"
+    SPIRIT_TO_LUNAR_ATTACK_POWER_COF = "spirit_to_lunar_attack_power"
+    SPIRIT_TO_LUNAR_CRITICAL_STRIKE_COF = "spirit_to_lunar_critical_strike"
 
     # Other Attribute
     ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"
     ALL_DAMAGE_ADD_PERCENT = "all_damage_addition"
+    ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_addition"
     DST_NPC_DAMAGE_COEFFICIENT = "pve_addition"
     GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
 

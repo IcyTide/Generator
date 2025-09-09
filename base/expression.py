@@ -76,6 +76,9 @@ class Constant(Expression):
     def derivative(self, var):
         return Constant(0)
 
+    def __bool__(self):
+        return bool(self.value)
+
 
 class UnaryOperator(Expression):
     operand: Expression

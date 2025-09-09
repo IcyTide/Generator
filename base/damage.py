@@ -86,7 +86,7 @@ class DamageChain:
 
     def chain(self, damage_addition, overcome, shield, damage_cof):
         self.cal_global_damage()
-        self.cal_damage_add(damage_addition, self.source.move_state_damage_addition)
+        self.cal_damage_add(damage_addition + self.source.all_damage_addition, self.source.move_state_damage_addition)
         self.cal_overcome(overcome)
         self.cal_defense(shield)
         self.cal_level_reduction()
