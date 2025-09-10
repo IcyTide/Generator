@@ -1,1 +1,3 @@
-TALENTS: list[dict[int, dict]] = []
+TALENTS: list[dict[int, dict]] = [
+
+]

@@ -47,13 +47,13 @@ class Buff(AliasBase):
             attr = getattr(self, f'{prefix}_attrib{i}')
             if not attr:
                 break
-            param_1, param_2 = getattr(self, f'{prefix}_value{i}_a'), getattr(self, f'{prefix}_value{i}_b')
-            param_1 = 0 if not param_1 else int(param_1)
-            param_2 = 0 if not param_2 else int(param_2)
             attr = camel_to_capital(attr[2:])
             attr_type = ATTRIBUTE_TYPE[attr] # noqa
             if not attr_type:
                 continue
+            param_1, param_2 = getattr(self, f'{prefix}_value{i}_a'), getattr(self, f'{prefix}_value{i}_b')
+            param_1 = 0 if not param_1 else int(param_1)
+            param_2 = 0 if not param_2 else int(param_2)
             if attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
                 self.recipes.append((param_1, param_2))
             else:

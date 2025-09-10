@@ -114,6 +114,8 @@ class Neg(UnaryOperator):
 
 class Int(UnaryOperator):
     def __new__(cls, operand):
+        if isinstance(operand, (int, float)):
+            return int(operand)
         if isinstance(operand, Constant):
             return Constant(int(operand.value))
         return super().__new__(cls).init(operand)

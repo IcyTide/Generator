@@ -32,6 +32,7 @@ def path_to_function(s):
 
 BASE_DIR = "../jx3-package"
 SAVE_DIR = "assets/raw"
+JSON_DIR = "assets/json"
 
 
 def fill_na(series):
@@ -58,6 +59,8 @@ def read_tab(*files):
 
 def save_code(prefix, data):
     code = json.dumps(data, indent=4, ensure_ascii=False, default=lambda x: x.to_dict())
+    with open(os.path.join(JSON_DIR, f"{prefix.lower()}.json"), "w", encoding="utf-8") as f:
+        f.write(code)
     code = f"{prefix.upper()} = " + re.sub(r'"(-?\d+)":', r'\1:', code) + "\n"
     with open(os.path.join(SAVE_DIR, f"{prefix.lower()}.py"), "w", encoding="utf-8") as f:
         f.write(code)

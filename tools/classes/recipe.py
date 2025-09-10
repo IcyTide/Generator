@@ -3,8 +3,10 @@ from pathlib import Path
 from tools.classes import AliasBase
 from tools.classes.skill import Skill
 from tools.settings import recipe_settings
-from tools.utils import path_to_function
 
+RECIPE_COPY = {
+    16598: 16629
+}
 
 class Recipe(AliasBase):
     recipe_id: int
@@ -25,7 +27,7 @@ class Recipe(AliasBase):
     def __init__(self, recipe_id: int, recipe_level: int = 0):
         self.recipe_id = recipe_id
         self.setting_rows = recipe_settings[recipe_settings['RecipeID'] == self.recipe_id]
-        self.max_level = self.setting_rows["RecipeLevel"].max()
+        self.levels = self.setting_rows["RecipeLevel"].tolist()
         if recipe_level:
             self.recipe_level = recipe_level
             setting_row = self.setting_rows[self.setting_rows["RecipeLevel"] == self.recipe_level].iloc[0]
@@ -39,6 +41,8 @@ class Recipe(AliasBase):
         return f"_{self.recipe_id}_{self.recipe_level}"
 
     def check_skill(self, skill: Skill):
+        if skill.skill_id == RECIPE_COPY.get(self.skill_id):
+            return True
         if self.skill_recipe_type and skill.recipe_type == self.skill_recipe_type:
             return True
         if self.skill_id and skill.skill_id == self.skill_id:

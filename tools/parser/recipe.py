@@ -20,7 +20,7 @@ def set_recipe_to_skill(engine: Engine, recipe, skills: dict[int, dict[int, Skil
 def parse_recipe(recipe_id, skills: dict[int, dict[int, Skill]], dots: dict[int, dict[int, Dot]]):
     result = {}
     recipe = Recipe(recipe_id)
-    for recipe_level in range(1, int(recipe.max_level) + 1):
+    for recipe_level in recipe.levels:
         recipe = result[recipe_level] = Recipe(recipe_id, recipe_level)
         engine = Engine(recipe.script_path)
         set_recipe_to_skill(engine, recipe, skills)
