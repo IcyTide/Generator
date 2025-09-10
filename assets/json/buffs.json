@@ -1,0 +1,1239 @@
+{
+    "6363": {
+        "1": {
+            "name": "激雷",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 6,
+            "attributes": [
+                [
+                    "physical_overcome_gain",
+                    256
+                ],
+                [
+                    "physical_attack_power_gain",
+                    307
+                ]
+            ],
+            "recipes": []
+        },
+        "2": {
+            "name": "激雷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 24,
+            "attributes": [
+                [
+                    "physical_critical_strike_rate",
+                    3000
+                ]
+            ],
+            "recipes": []
+        },
+        "3": {
+            "name": "激雷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 24,
+            "attributes": [
+                [
+                    "physical_overcome_gain",
+                    256
+                ],
+                [
+                    "physical_attack_power_gain",
+                    307
+                ],
+                [
+                    "physical_critical_strike_rate",
+                    3000
+                ]
+            ],
+            "recipes": []
+        },
+        "4": {
+            "name": "激雷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 72,
+            "attributes": [
+                [
+                    "all_shield_ignore",
+                    717
+                ],
+                [
+                    "physical_critical_strike_rate",
+                    3000
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "6121": {
+        "1": {
+            "name": "驰骋",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 3,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    154
+                ]
+            ],
+            "recipes": []
+        },
+        "2": {
+            "name": "驰骋",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 3,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    307
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "409": {
+        "1": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    15
+                ]
+            ],
+            "recipes": []
+        },
+        "2": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    16
+                ]
+            ],
+            "recipes": []
+        },
+        "3": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    17
+                ]
+            ],
+            "recipes": []
+        },
+        "4": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    18
+                ]
+            ],
+            "recipes": []
+        },
+        "5": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    19
+                ]
+            ],
+            "recipes": []
+        },
+        "6": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    20
+                ]
+            ],
+            "recipes": []
+        },
+        "7": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    21
+                ]
+            ],
+            "recipes": []
+        },
+        "8": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    19
+                ]
+            ],
+            "recipes": []
+        },
+        "9": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    20
+                ]
+            ],
+            "recipes": []
+        },
+        "10": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    21
+                ]
+            ],
+            "recipes": []
+        },
+        "11": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    23
+                ]
+            ],
+            "recipes": []
+        },
+        "12": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    24
+                ]
+            ],
+            "recipes": []
+        },
+        "13": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    25
+                ]
+            ],
+            "recipes": []
+        },
+        "14": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    26
+                ]
+            ],
+            "recipes": []
+        },
+        "15": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    23
+                ]
+            ],
+            "recipes": []
+        },
+        "16": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    24
+                ]
+            ],
+            "recipes": []
+        },
+        "17": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    26
+                ]
+            ],
+            "recipes": []
+        },
+        "18": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    27
+                ]
+            ],
+            "recipes": []
+        },
+        "19": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    29
+                ]
+            ],
+            "recipes": []
+        },
+        "20": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 10,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    30
+                ]
+            ],
+            "recipes": []
+        },
+        "21": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    154
+                ]
+            ],
+            "recipes": []
+        },
+        "22": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    204
+                ]
+            ],
+            "recipes": []
+        },
+        "23": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    306
+                ]
+            ],
+            "recipes": []
+        },
+        "24": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 201600,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    408
+                ]
+            ],
+            "recipes": []
+        },
+        "25": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 201600,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    507
+                ]
+            ],
+            "recipes": []
+        },
+        "26": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    120
+                ]
+            ],
+            "recipes": []
+        },
+        "27": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    240
+                ]
+            ],
+            "recipes": []
+        },
+        "28": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    360
+                ]
+            ],
+            "recipes": []
+        },
+        "29": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 201600,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    480
+                ]
+            ],
+            "recipes": []
+        },
+        "30": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 201600,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    599
+                ]
+            ],
+            "recipes": []
+        },
+        "31": {
+            "name": "剑舞",
+            "interval": 0,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    139
+                ]
+            ],
+            "recipes": []
+        },
+        "32": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    278
+                ]
+            ],
+            "recipes": []
+        },
+        "33": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    417
+                ]
+            ],
+            "recipes": []
+        },
+        "34": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 201600,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    556
+                ]
+            ],
+            "recipes": []
+        },
+        "35": {
+            "name": "剑舞",
+            "interval": 48,
+            "max_stack": 1,
+            "max_tick": 201600,
+            "attributes": [
+                [
+                    "lunar_attack_power_base",
+                    691
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "538": {
+        "1": {
+            "name": "繁音急节",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    154
+                ],
+                [
+                    "neutral_attack_power_gain",
+                    154
+                ],
+                [
+                    "poison_attack_power_gain",
+                    154
+                ],
+                [
+                    "solar_attack_power_gain",
+                    154
+                ]
+            ],
+            "recipes": []
+        },
+        "2": {
+            "name": "繁音急节",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    205
+                ],
+                [
+                    "neutral_attack_power_gain",
+                    205
+                ],
+                [
+                    "poison_attack_power_gain",
+                    205
+                ],
+                [
+                    "solar_attack_power_gain",
+                    205
+                ]
+            ],
+            "recipes": []
+        },
+        "3": {
+            "name": "繁音急节",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    256
+                ],
+                [
+                    "neutral_attack_power_gain",
+                    256
+                ],
+                [
+                    "poison_attack_power_gain",
+                    256
+                ],
+                [
+                    "solar_attack_power_gain",
+                    256
+                ]
+            ],
+            "recipes": []
+        },
+        "4": {
+            "name": "繁音急节",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    461
+                ],
+                [
+                    "neutral_attack_power_gain",
+                    461
+                ],
+                [
+                    "poison_attack_power_gain",
+                    461
+                ],
+                [
+                    "solar_attack_power_gain",
+                    461
+                ]
+            ],
+            "recipes": []
+        },
+        "5": {
+            "name": "",
+            "interval": 16,
+            "max_stack": 5,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": []
+        },
+        "6": {
+            "name": "",
+            "interval": 16,
+            "max_stack": 6,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": []
+        },
+        "7": {
+            "name": "",
+            "interval": 16,
+            "max_stack": 7,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": []
+        },
+        "8": {
+            "name": "繁音急节",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_attack_power_gain",
+                    461
+                ],
+                [
+                    "neutral_attack_power_gain",
+                    461
+                ],
+                [
+                    "poison_attack_power_gain",
+                    461
+                ],
+                [
+                    "solar_attack_power_gain",
+                    461
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "10240": {
+        "1": {
+            "name": "满堂",
+            "interval": 240,
+            "max_stack": 5,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_critical_strike_rate",
+                    800
+                ],
+                [
+                    "lunar_critical_power_rate",
+                    21
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "2543": {
+        "1": {
+            "name": "灵蛇献祭",
+            "interval": 192,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "poison_attack_power_gain",
+                    512
+                ]
+            ],
+            "recipes": []
+        },
+        "2": {
+            "name": "灵蛇献祭",
+            "interval": 192,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "magical_attack_power_percent",
+                    205
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "9052": {
+        "1": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    2004,
+                    1
+                ]
+            ]
+        },
+        "2": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    2006,
+                    1
+                ]
+            ]
+        },
+        "3": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    2007,
+                    1
+                ]
+            ]
+        },
+        "4": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    2008,
+                    1
+                ]
+            ]
+        },
+        "5": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    4918,
+                    1
+                ]
+            ]
+        },
+        "6": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    4919,
+                    1
+                ]
+            ]
+        },
+        "7": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    4920,
+                    1
+                ]
+            ]
+        },
+        "8": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    4921,
+                    1
+                ]
+            ]
+        },
+        "9": {
+            "name": "",
+            "interval": 80,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    5725,
+                    1
+                ]
+            ]
+        }
+    },
+    "8244": {
+        "1": {
+            "name": "血怒",
+            "interval": 16,
+            "max_stack": 3,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    102
+                ]
+            ],
+            "recipes": []
+        },
+        "2": {
+            "name": "血怒",
+            "interval": 16,
+            "max_stack": 3,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    41
+                ]
+            ],
+            "recipes": []
+        },
+        "3": {
+            "name": "血怒",
+            "interval": 16,
+            "max_stack": 3,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    61
+                ]
+            ],
+            "recipes": []
+        },
+        "4": {
+            "name": "血怒",
+            "interval": 16,
+            "max_stack": 3,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    82
+                ]
+            ],
+            "recipes": []
+        },
+        "5": {
+            "name": "血怒",
+            "interval": 16,
+            "max_stack": 3,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "physical_attack_power_gain",
+                    102
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "8474": {
+        "1": {
+            "name": "血云",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "2": {
+            "name": "太初社稷",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "3": {
+            "name": "征天",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "4": {
+            "name": "题龙旐",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "5": {
+            "name": "千仞",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "6": {
+            "name": "旧嗜",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "7": {
+            "name": "朱轩怀雀",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "8": {
+            "name": "修罗鬼面",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "9": {
+            "name": "十律守心·猊焰",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "10": {
+            "name": "十律守心·犴魂",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "11": {
+            "name": "白狼河北",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "12": {
+            "name": "四面边声",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "13": {
+            "name": "孤焰",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "14": {
+            "name": "致远",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "15": {
+            "name": "天下宏愿",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "16": {
+            "name": "驭焰",
+            "interval": 4,
+            "max_stack": 1,
+            "max_tick": 16,
+            "attributes": [],
+            "recipes": [
+                [
+                    1941,
+                    1
+                ]
+            ]
+        },
+        "17": {
+            "name": "驭焰",
+            "interval": 16,
+            "max_stack": 1,
+            "max_tick": 10,
+            "attributes": [
+                [
+                    "physical_shield_gain",
+                    102
+                ],
+                [
+                    "lunar_shield_gain",
+                    102
+                ],
+                [
+                    "neutral_shield_gain",
+                    102
+                ],
+                [
+                    "poison_shield_gain",
+                    102
+                ],
+                [
+                    "solar_shield_gain",
+                    102
+                ]
+            ],
+            "recipes": []
+        }
+    },
+    "31755": {
+        "1": {
+            "name": "连环慢",
+            "interval": 240,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    6052,
+                    1
+                ],
+                [
+                    6053,
+                    1
+                ],
+                [
+                    6054,
+                    1
+                ]
+            ]
+        },
+        "2": {
+            "name": "连环慢",
+            "interval": 240,
+            "max_stack": 1,
+            "max_tick": 1,
+            "attributes": [],
+            "recipes": [
+                [
+                    6066,
+                    1
+                ],
+                [
+                    6067,
+                    1
+                ],
+                [
+                    6068,
+                    1
+                ]
+            ]
+        }
+    },
+    "31520": {
+        "1": {
+            "name": "",
+            "interval": 16,
+            "max_stack": 5,
+            "max_tick": 1,
+            "attributes": [
+                [
+                    "lunar_damage_cof",
+                    51
+                ]
+            ],
+            "recipes": []
+        }
+    }
+}

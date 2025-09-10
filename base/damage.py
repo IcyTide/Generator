@@ -45,6 +45,20 @@ class DamageChain:
         self.cal_attack_power_damage(self.source.lunar_attack_power, self.skill.magical_attack_power_cof)
         self.lunar_chain()
 
+    def neutral_damage_call(self, damage_base, damage_rand):
+        damage_base = damage_base or self.source.neutral_damage_base
+        damage_rand = damage_rand or self.source.neutral_damage_rand
+        self.cal_base_damage(damage_base, damage_rand)
+        self.cal_attack_power_damage(self.source.neutral_attack_power, self.skill.magical_attack_power_cof)
+        self.neutral_chain()
+
+    def poison_damage_call(self, damage_base, damage_rand):
+        damage_base = damage_base or self.source.poison_damage_base
+        damage_rand = damage_rand or self.source.poison_damage_rand
+        self.cal_base_damage(damage_base, damage_rand)
+        self.cal_attack_power_damage(self.source.poison_attack_power, self.skill.magical_attack_power_cof)
+        self.poison_chain()
+
     def physical_surplus_call(self, damage_base, damage_rand):
         damage_base = damage_base or self.source.physical_damage_base
         damage_rand = damage_rand or self.source.physical_damage_rand
@@ -66,6 +80,20 @@ class DamageChain:
         self.cal_surplus_damage()
         self.lunar_chain()
 
+    def neutral_surplus_call(self, damage_base, damage_rand):
+        damage_base = damage_base or self.source.neutral_damage_base
+        damage_rand = damage_rand or self.source.neutral_damage_rand
+        self.cal_base_damage(damage_base, damage_rand)
+        self.cal_surplus_damage()
+        self.neutral_chain()
+
+    def poison_surplus_call(self, damage_base, damage_rand):
+        damage_base = damage_base or self.source.physical_damage_base
+        damage_rand = damage_rand or self.source.physical_damage_rand
+        self.cal_base_damage(damage_base, damage_rand)
+        self.cal_surplus_damage()
+        self.poison_chain()
+
     def physical_chain(self):
         self.chain(
             self.source.physical_damage_addition, self.source.physical_overcome,
@@ -82,6 +110,18 @@ class DamageChain:
         self.chain(
             self.source.magical_damage_addition, self.source.lunar_overcome,
             self.target.lunar_shield, self.target.lunar_damage_cof
+        )
+
+    def neutral_chain(self):
+        self.chain(
+            self.source.magical_damage_addition, self.source.neutral_overcome,
+            self.target.neutral_shield, self.target.neutral_damage_cof
+        )
+
+    def poison_chain(self):
+        self.chain(
+            self.source.magical_damage_addition, self.source.poison_overcome,
+            self.target.poison_shield, self.target.poison_damage_cof
         )
 
     def chain(self, damage_addition, overcome, shield, damage_cof):

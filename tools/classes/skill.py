@@ -2,7 +2,7 @@ from pathlib import Path
 
 from base.constant import BINARY_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, PHYSICAL_DAMAGE_SCALE
 from base.damage import DamageChain
-from base.expression import Expression
+from base.expression import Constant, Expression, Int
 from tools.classes import AliasBase
 from tools.classes.attribute import Attribute, Target
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE, SKILL_KIND_TYPE
@@ -59,9 +59,18 @@ class Skill(AliasBase):
         if self.script_file:
             self.script_path = Path(self.path) / self.script_file
 
+    def __getattr__(self, item):
+        if self.recipe_key and item == "nChannelInterval":
+            return 1
+        else:
+            return super().__getattr__(item)
+
     def __setattr__(self, key, value):
-        if self.recipe_key and key in ("channel_interval",):
-            super().__setattr__(key, value * self.recipe_key + getattr(self, key) * (1 - self.recipe_key))
+        if self.recipe_key and key == "nChannelInterval":
+            if value < FRAME_PER_SECOND:
+                self.channel_interval *= 1 + (value - 1) * self.recipe_key
+            else:
+                self.channel_interval = self.channel_interval * (1 - self.recipe_key) + value * self.recipe_key
         else:
             super().__setattr__(key, value)
 
@@ -86,17 +95,19 @@ class Skill(AliasBase):
     def physical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        frames = self.prepare_frames + self.channel_interval
+        frames = Int(self.prepare_frames + self.channel_interval)
         interval = self.interval if self.interval > FRAME_PER_SECOND else FRAME_PER_SECOND
-        return frames * interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
+        scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
+        return frames * scale
 
     @property
     def magical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        frames = self.prepare_frames + self.channel_interval
+        frames = Int(self.prepare_frames + self.channel_interval)
         interval = self.interval if self.interval > FRAME_PER_SECOND else FRAME_PER_SECOND
-        return frames * interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
+        scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
+        return frames * scale
 
     @property
     def weapon_damage_cof(self):
@@ -104,7 +115,7 @@ class Skill(AliasBase):
             return 0
         if not self.weapon_request:
             return 0
-        return self.weapon_damage_percent
+        return Int(self.weapon_damage_percent) / BINARY_SCALE
 
     @property
     def formula(self):
