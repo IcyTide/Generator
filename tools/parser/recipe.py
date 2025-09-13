@@ -17,11 +17,10 @@ def set_recipe_to_skill(engine: Engine, recipe, skills: dict[int, dict[int, Skil
             engine.get_skill_recipe_data(skill, recipe.recipe_id, recipe.recipe_level)
 
 
-def parse_recipe(recipe_id, skills: dict[int, dict[int, Skill]], dots: dict[int, dict[int, Dot]]):
+def parse_recipe(recipe: Recipe, skills: dict[int, dict[int, Skill]], dots: dict[int, dict[int, Dot]]):
     result = {}
-    recipe = Recipe(recipe_id)
     for recipe_level in recipe.levels:
-        recipe = result[recipe_level] = Recipe(recipe_id, recipe_level)
+        recipe = result[recipe_level] = Recipe(recipe.recipe_id, recipe_level)
         engine = Engine(recipe.script_path)
         set_recipe_to_skill(engine, recipe, skills)
         for dot_id, dot_levels in dots.items():

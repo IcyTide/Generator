@@ -8,6 +8,7 @@ RECIPE_COPY = {
     16598: 16629
 }
 
+
 class Recipe(AliasBase):
     recipe_id: int
     recipe_level: int = 0
