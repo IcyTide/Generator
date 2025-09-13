@@ -3,7 +3,6 @@ import os
 import re
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 
 
@@ -30,6 +29,29 @@ def path_to_function(s):
     return s1
 
 
+def set_comment(instance):
+    max_level, comments = instance.max_level, instance.comments
+    if comments is None:
+        instance.levels = [max_level]
+        comments = {}
+    elif comments:
+        instance.levels = list(comments)
+    else:
+        instance.levels = list(range(1, max_level + 1))
+    comment = instance.comment
+    instance.comment = comments.get(instance.level, "") if not comment else comment
+
+
+def set_patches(instance, patch_map, key, sub_key):
+    for k, v in patch_map.get(key, {}).items():
+        if isinstance(k, int):
+            continue
+        instance[k] = v
+    for k, v in patch_map.get(key, {}).get(sub_key, {}).items():
+        instance[k] = v
+    set_comment(instance)
+
+
 BASE_DIR = "../jx3-package"
 SAVE_DIR = "assets/raw"
 JSON_DIR = "assets/json"
@@ -37,7 +59,7 @@ JSON_DIR = "assets/json"
 
 def fill_na(series):
     if pd.to_numeric(series.dropna(), errors="coerce").notna().all():
-        return pd.to_numeric(series, errors="coerce").fillna(0).astype(object)
+        return pd.to_numeric(series.fillna("0"), errors="coerce").astype(object)
     else:
         return series.fillna("")
 
@@ -58,6 +80,7 @@ def read_tab(*files):
 
 
 def save_code(prefix, data):
+    print(f"Saving {prefix} asset")
     code = json.dumps(data, indent=4, ensure_ascii=False, default=lambda x: x.to_dict())
     with open(os.path.join(JSON_DIR, f"{prefix.lower()}.json"), "w", encoding="utf-8") as f:
         f.write(code)

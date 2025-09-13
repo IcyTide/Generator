@@ -1,13 +1,14 @@
 from pathlib import Path
 
-from base.constant import BINARY_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, PHYSICAL_DAMAGE_SCALE
+from base.constant import BINARY_SCALE, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, PHYSICAL_DAMAGE_SCALE
 from base.damage import DamageChain
-from base.expression import Constant, Expression, Int
+from base.expression import Expression, Int
+from kungfus import SKILL_PATCHES
 from tools.classes import AliasBase
 from tools.classes.attribute import Attribute, Target
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE, SKILL_KIND_TYPE
 from tools.settings import skill_settings, skill_txts
-from tools.utils import camel_to_capital
+from tools.utils import camel_to_capital, set_patches
 
 
 class Skill(AliasBase):
@@ -45,7 +46,14 @@ class Skill(AliasBase):
     interval: int = 0
     tick: int = 1
 
+    levels: list[int]
     recipe_key: Expression = None
+    comments: dict[int, str] = None
+    comment: str = ""
+
+    @property
+    def level(self):
+        return self.skill_level
 
     def __init__(self, skill_id: int, skill_level: int = 0):
         self.skill_id = skill_id
@@ -58,6 +66,8 @@ class Skill(AliasBase):
         self.self_attributes, self.dest_attributes = [], []
         if self.script_file:
             self.script_path = Path(self.path) / self.script_file
+
+        set_patches(self, SKILL_PATCHES, skill_id, skill_level)
 
     def __getattr__(self, item):
         if self.recipe_key and item == "nChannelInterval":
@@ -96,7 +106,8 @@ class Skill(AliasBase):
         if not self.use_skill_coefficient:
             return 0
         frames = Int(self.prepare_frames + self.channel_interval)
-        interval = self.interval if self.interval > FRAME_PER_SECOND else FRAME_PER_SECOND
+        interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
+        interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
         return frames * scale
 
@@ -105,7 +116,8 @@ class Skill(AliasBase):
         if not self.use_skill_coefficient:
             return 0
         frames = Int(self.prepare_frames + self.channel_interval)
-        interval = self.interval if self.interval > FRAME_PER_SECOND else FRAME_PER_SECOND
+        interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
+        interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
         return frames * scale
 
@@ -137,6 +149,7 @@ class Skill(AliasBase):
         if self.skill_level:
             return {
                 "name": self.get_name(skill_txts, "SkillID", self.skill_id, self.skill_level),
+                "comment": self.comment,
                 **self.formula
             }
         else:
