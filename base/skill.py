@@ -1,6 +1,3 @@
-from assets.raw.skills import SKILLS
-
-
 class Skill:
     belong: str
     skill_id: int

@@ -79,12 +79,12 @@ class Buff(AliasBase):
             return {
                 "name": self.name or self.get_name(buff_txts, "BuffID", self.buff_id, self.buff_level),
                 "comment": self.comment,
-                "skills": self.skills,
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
                 "attributes": {attr: param_1 or param_2 for attr, param_1, param_2 in self.attributes},
-                "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes]
+                "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes],
+                "skills": self.skills
             }
         else:
             return {}

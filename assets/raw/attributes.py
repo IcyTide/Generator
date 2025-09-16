@@ -2,7 +2,7 @@ ATTRIBUTES = {
     10003: {
         "name": "易筋经",
         "attributes": {
-            "pve_addition": 307,
+            "pve_addition": 379,
             "magical_shield_base": 2113,
             "physical_shield_base": 1800,
             "spunk_to_solar_attack_power": 2007,
@@ -25,7 +25,7 @@ ATTRIBUTES = {
             "spirit_to_neutral_critical_strike": 625,
             "magical_attack_power_base": 6518,
             "neutral_critical_strike_base": 5527,
-            "pve_addition": 461
+            "pve_addition": 563
         },
         "recipes": [
             "_1711_1"
@@ -43,7 +43,7 @@ ATTRIBUTES = {
             "agility_to_physical_critical_strike": 696,
             "physical_critical_strike_base": 9025,
             "physical_attack_power_base": 6187,
-            "pve_addition": 399
+            "pve_addition": 512
         },
         "recipes": [
             "_1711_1",
@@ -95,7 +95,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2191,
             "physical_shield_base": 1721,
-            "pve_addition": 103,
+            "pve_addition": 143,
             "spirit_to_lunar_attack_power": 2048,
             "spirit_to_lunar_critical_strike": 297,
             "lunar_attack_power_base": 7387
@@ -220,7 +220,7 @@ ATTRIBUTES = {
     10242: {
         "name": "焚影圣诀",
         "attributes": {
-            "pve_addition": 82,
+            "pve_addition": 123,
             "magical_shield_base": 3314,
             "physical_shield_base": 2850,
             "spunk_to_solar_and_lunar_attack_power": 2038,
@@ -258,7 +258,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2850,
             "physical_shield_base": 2850,
-            "pve_addition": 399,
+            "pve_addition": 471,
             "agility_to_physical_attack_power": 1925,
             "physical_attack_power_base": 6513,
             "physical_overcome_base": 4696
@@ -289,7 +289,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2850,
             "physical_shield_base": 2955,
-            "pve_addition": 195,
+            "pve_addition": 163,
             "strength_to_physical_attack_power": 1802,
             "strength_to_physical_overcome": 420,
             "physical_attack_power_base": 7034
@@ -340,7 +340,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2850,
             "physical_shield_base": 2850,
-            "pve_addition": 348,
+            "pve_addition": 205,
             "spunk_to_neutral_attack_power": 1976,
             "spunk_to_neutral_critical_strike": 512,
             "magical_attack_power_base": 7387,
@@ -416,7 +416,7 @@ ATTRIBUTES = {
             "spunk_to_neutral_attack_power": 1997,
             "spunk_to_neutral_critical_strike": 461,
             "magical_attack_power_base": 6518,
-            "pve_addition": 410
+            "pve_addition": 451
         },
         "recipes": [
             "_1711_1"

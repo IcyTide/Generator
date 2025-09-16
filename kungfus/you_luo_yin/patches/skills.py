@@ -21,7 +21,7 @@ SKILLS = {
         i + 1: f"{i + 1}跳" for i in range(3)
     }),
     42267: dict(comments={
-        i + 1: f"{i + 1}层缠绞" for i in range(5)
+        **{i + 1: f"{i}层缠绞" for i in range(6)}
     }),
     42335: dict(comments={
         i + 1: f"{i}根丝线" for i in range(5)

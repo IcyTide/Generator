@@ -27,4 +27,22 @@ SKILLS = {
             7: "两仪化形16豆"
         }
     ),
+    40158: dict(
+        comments={i + 1: f"{11 + i}豆" for i in range(6)}
+    ),
+    **{
+        skill_id: dict(comment=f"{i + 1}豆")
+        for i, skill_id in enumerate([466, 467, 468, 469, 470, 471, 472, 473, 474, 475])
+    },
+    28590: dict(
+        comments={
+            1: "连续命中",
+            2: "首次"
+        }
+    ),
+    21860: dict(comment="自化"),
+    36102: dict(comments={
+        1: "原始",
+        2: "70%血量以上"
+    })
 }
