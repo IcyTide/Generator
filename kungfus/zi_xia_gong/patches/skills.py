@@ -9,6 +9,10 @@ SKILLS = {
     },
     18121: dict(channel_interval=21),
     **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([18649, 18650, 18651, 18652, 18653])},
+    22014: dict(comments={
+        1: "原始",
+        2: "万物"
+    }),
     **{
         skill_id: dict(comments={4: "30700品"}) for skill_id in [23104, 23107]
     },

@@ -2,7 +2,7 @@ from kungfus import BUFF_PATCHES
 from tools.classes import AliasBase
 from tools.lua.enums import ATTRIBUTE_TYPE
 from tools.settings import buff_settings, buff_txts
-from tools.utils import camel_to_capital, set_patches
+from tools.utils import camel_to_capital, get_variable, set_patches
 
 
 class Buff(AliasBase):
@@ -30,6 +30,7 @@ class Buff(AliasBase):
     attributes_prefix: str = "begin"
 
     levels: list[int]
+    skills: list[int]
     name: str = ""
     comments: dict[int, str] = None
     comment: str = ""
@@ -44,6 +45,7 @@ class Buff(AliasBase):
         self.max_level = self.setting_rows["Level"].max()
         self.attributes = []
         self.recipes = []
+        self.skills = []
         if buff_level:
             self.buff_level = buff_level
             setting_row = self.setting_rows[self.setting_rows["Level"] == self.buff_level].iloc[0]
@@ -77,11 +79,12 @@ class Buff(AliasBase):
             return {
                 "name": self.name or self.get_name(buff_txts, "BuffID", self.buff_id, self.buff_level),
                 "comment": self.comment,
+                "skills": self.skills,
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
-                "attributes": [(attr, param_1 or param_2) for attr, param_1, param_2 in self.attributes],
-                "recipes": self.recipes
+                "attributes": {attr: param_1 or param_2 for attr, param_1, param_2 in self.attributes},
+                "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes]
             }
         else:
             return {}

@@ -404,6 +404,8 @@ class DamageCof:
     neutral_damage_cof: Expression = Variable('neutral_damage_cof')
     poison_damage_cof: Expression = Variable('poison_damage_cof')
 
+    coming_damage_cof: int = 0
+
 
 class Target(Defense, DamageCof):
     damage_chain: DamageChain

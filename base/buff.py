@@ -1,7 +1,5 @@
 from enum import StrEnum
 
-from assets.raw.buffs import BUFFS
-
 
 class BuffType(StrEnum):
     Self = "Self"
@@ -10,47 +8,26 @@ class BuffType(StrEnum):
 
 
 class Buff:
-    buff_type: BuffType = BuffType.Self
+    belong: str
     buff_id: int
-    buff_level: int = 1
-    stack: int = 1
+    buff_level: int
+    buff_stack: int
+    buff_type: str
 
-    max_level: int = 1
-    max_stack: int = 1
+    name: str
+    comment: str
+    max_stack: int
+    max_tick: int
 
-    _attributes: list[list[tuple[str, int, int]]] = []
-    _recipes: list[list[tuple[int, int]]] = []
-
-    def __init__(self, buff_id, buff_type, buff_level: int = 1, stack: int = 1):
+    def __init__(self, belong: str, buff_id: int, buff_level: int, buff_type: str, **kwargs):
+        self.belong = belong
         self.buff_id = buff_id
-        self.buff_type = buff_type
         self.buff_level = buff_level
-        self.stack = stack
-        for k, v in BUFFS[self.buff_id].items():
+        self.buff_stack = 0
+        self.buff_type = buff_type
+        for k, v in kwargs.items():
             setattr(self, k, v)
 
-    @property
-    def attributes(self):
-        if self.buff_level > len(self._attributes):
-            return self._attributes[-1]
-        else:
-            return self._attributes[self.buff_level - 1]
-
-    @attributes.setter
-    def attributes(self, value):
-        self._attributes = value
-
-    @property
-    def recipes(self):
-        if self.buff_level > len(self._recipes):
-            return self._recipes[-1]
-        else:
-            return self._recipes[self.buff_level - 1]
-
-    @recipes.setter
-    def recipes(self, value):
-        self._recipes = value
-
     def __iter__(self):
-        for attr in ("buff_type", "buff_id", "buff_level", "stack",):
+        for attr in ("buff_id", "buff_level", "buff_stack", "buff_type"):
             yield str(getattr(self, attr))

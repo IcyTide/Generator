@@ -152,8 +152,10 @@ class Add(BinaryOperator):
             return left
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value + right.value)
-        if isinstance(right, Neg):
-            return Sub(left, right.operand)
+        if isinstance(right, (int, float)) and right < 0:
+            return Sub(left, -right)
+        if isinstance(right, Constant) and right.value < 0:
+            return Sub(left, -right.value)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -176,8 +178,8 @@ class Sub(BinaryOperator):
             return Constant(0)
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value - right.value)
-        if isinstance(right, Neg):
-            return Add(left, right.operand)
+        if isinstance(right, Constant) and right.value < 0:
+            return Add(left, -right.value)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):

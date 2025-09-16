@@ -28,6 +28,9 @@ def path_to_function(s):
         s1 = '_' + s1
     return s1
 
+def get_variable(key_id, level=0):
+    return f"_{key_id}_{level}"
+
 
 def set_comment(instance):
     max_level, comments = instance.max_level, instance.comments
@@ -38,17 +41,22 @@ def set_comment(instance):
         instance.levels = list(comments)
     else:
         instance.levels = list(range(1, max_level + 1))
-    comment = instance.comment
-    instance.comment = comments.get(instance.level, "") if not comment else comment
+    instance.comment += comments.get(instance.level, "")
 
 
 def set_patches(instance, patch_map, key, sub_key):
     for k, v in patch_map.get(key, {}).items():
         if isinstance(k, int):
             continue
-        instance[k] = v
+        if isinstance(v, dict):
+            instance[k] = v
+        else:
+            instance[k] += v
     for k, v in patch_map.get(key, {}).get(sub_key, {}).items():
-        instance[k] = v
+        if isinstance(v, dict):
+            instance[k] = v
+        else:
+            instance[k] += v
     set_comment(instance)
 
 

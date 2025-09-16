@@ -1,6 +1,6 @@
 from typing import List
 
-from PySide6.QtWidgets import QComboBox, QWidget, QHBoxLayout, QLabel, QTableWidget, QHeaderView
+from PySide6.QtWidgets import QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QWidget
 
 
 class LabelRow(QWidget):

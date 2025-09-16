@@ -15,11 +15,8 @@ SKILLS = {
     **{skill_id: dict(comment=f"{i + 1}豆") for i, skill_id in enumerate([3849, 3850, 3848])},
     **{skill_id: dict(comment=f"净果{i + 1}豆") for i, skill_id in enumerate([13681, 13683, 13685])},
     **{skill_id: dict(comment=f"原始{i + 1}豆") for i, skill_id in enumerate([13682, 13684, 13686])},
-    17641: dict(comment="1段"),
-    17642: dict(comment="2段"),
-    **{
-        skill_id: dict(comments={4: "30700品"}) for skill_id in [23366, 23367, 23368, 23369, 23370]
-    },
+    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([17641, 17642])},
+    **{skill_id: dict(comments={4: "30700品"}) for skill_id in [23366, 23367, 23368, 23369, 23370]},
     32887: dict(
         comments={
             1: "韦陀献杵",

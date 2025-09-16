@@ -1,9 +1,9 @@
-from PySide6.QtWidgets import QDialog, QWidget, QVBoxLayout, QPushButton, QSpinBox, QHBoxLayout
+from PySide6.QtWidgets import QDialog, QHBoxLayout, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
 from base.dot import Dot
 from base.skill import Skill
 from qt import ComboBox, LabelRow
-from qt.component.skill_editor import SkillEditorDialog
+from qt.component.loop_widget.skill_editor import SkillEditorDialog
 
 
 class SourceSkillEditorDialog(SkillEditorDialog):

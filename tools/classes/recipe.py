@@ -3,6 +3,7 @@ from pathlib import Path
 from tools.classes import AliasBase
 from tools.classes.skill import Skill
 from tools.settings import recipe_settings
+from tools.utils import get_variable
 
 RECIPE_COPY = {
     16598: 16629
@@ -39,7 +40,7 @@ class Recipe(AliasBase):
 
     @property
     def recipe_key(self):
-        return f"_{self.recipe_id}_{self.recipe_level}"
+        return get_variable(self.recipe_id, self.recipe_level)
 
     def check_skill(self, skill: Skill):
         if skill.skill_id == RECIPE_COPY.get(self.skill_id):

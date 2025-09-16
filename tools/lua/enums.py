@@ -117,6 +117,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     DAMAGE_TO_MANA_FOR_SELF = ""
 
     IMMUNITY = ""
+    ADD_TRANSPARENCY_VALUE = ""
 
     # Script Attribute
     EXECUTE_SCRIPT = ""
@@ -139,6 +140,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     CALL_KNOCKED_DOWN = ""
     CLEAR_COOL_DOWN = ""
     DASH_TO_POINT = ""
+    SKILL_MOVE = ""
     DIRECT_CAST_MASK = ""
 
     SET_TALENT_RECIPE = "recipe"
@@ -217,10 +219,15 @@ class ATTRIBUTE_TYPE(StrEnum):
     POISON_CRITICAL_STRIKE_BASE_RATE = "poison_critical_strike_rate"
 
     PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "physical_critical_power_rate"
+    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "physical_critical_power_rate"
     SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "solar_critical_power_rate"
+    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "solar_critical_power_rate"
     LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "lunar_critical_power_rate"
+    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "lunar_critical_power_rate"
     NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "neutral_critical_power_rate"
+    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "neutral_critical_power_rate"
     POISON_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "poison_critical_power_rate"
+    POISON_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "poison_critical_power_rate"
     MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "magical_critical_power_rate"
     MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "magical_critical_power_rate"
 

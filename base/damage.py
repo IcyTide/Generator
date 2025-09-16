@@ -132,7 +132,7 @@ class DamageChain:
         self.cal_level_reduction()
         self.cal_strain()
         self.cal_pve_add()
-        self.cal_damage_cof(damage_cof)
+        self.cal_damage_cof(damage_cof + self.target.coming_damage_cof)
 
     def cal_base_damage(self, damage_base, damage_rand):
         damage = damage_base + self.rand * damage_rand

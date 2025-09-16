@@ -1,12 +1,13 @@
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE
 from tools.settings import skill_txts
+from tools.utils import get_variable
 
 
 class Talent(Skill):
     buffs: list[int] = []
-    skills: list[int] = []
     dots: dict[int, list[int]] = {}
+    skills: list[int] = []
 
     recipes: list[tuple[int, int]]
 
@@ -26,8 +27,11 @@ class Talent(Skill):
         if self.skill_level:
             return {
                 "name": self.get_name(skill_txts, "SkillID", self.skill_id, self.skill_level),
-                "attributes": [(attr, param_1 or param_2) for attr, param_1, param_2 in self.self_rollback_attributes],
-                "recipes": self.recipes
+                "attributes": {attr: param_1 or param_2 for attr, param_1, param_2 in self.self_rollback_attributes},
+                "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes],
+                "buffs": self.buffs,
+                "dots": self.dots,
+                "skills": self.skills,
             }
         else:
             return {}

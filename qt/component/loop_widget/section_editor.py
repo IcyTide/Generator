@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QDialog, QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QSpinBox, QLineEdit
+from PySide6.QtWidgets import QDialog, QHBoxLayout, QLineEdit, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
 from base.section import Section
 from qt import LabelRow

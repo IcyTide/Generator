@@ -9,7 +9,6 @@ class Dot(Buff):
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.levels = [self.max_level] if not self.comments else list(self.comments)
 
     @property
     def formulas(self):
