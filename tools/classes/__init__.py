@@ -3,6 +3,7 @@ from tools.utils import camel_to_snake
 
 class AliasBase:
     _aliases = {}
+    zero: int = 0
 
     def __getattr__(self, item):
         if item in self._aliases:

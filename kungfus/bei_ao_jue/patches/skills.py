@@ -35,4 +35,18 @@ SKILLS = {
         for i, skill_id in enumerate(skill_ids)
     },
     16794: dict(comment="后续伤害"),
+    40210: dict(comment="一段"),
+    40188: dict(comment="三段"),
+    38537: dict(comments={3: ""}),
+    36311: dict(comments={i + 1: f"蓄力{i + 1}段({delay}帧)" for i, delay in enumerate([0, 8, 16, 21])}),
+    25262: dict(comments={
+        1: "一段",
+        2: "二段",
+        4: "击落"
+    }),
+    **{
+        skill_id: dict(comment=f"阳关{i}层") for i, skill_id in
+        enumerate([16803, 16802, 16801, 16800, 17043, 19423, 19424])
+    },
+
 }

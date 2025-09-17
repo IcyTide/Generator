@@ -17,3 +17,4 @@ recipe_settings = pd.concat([recipe_settings, recipe_mobile_settings])
 skill_txts = read_tab("ui/scheme/case/skill.txt")
 recipe_txts = read_tab("ui/scheme/case/skillrecipetable.txt")
 buff_txts = read_tab("ui/scheme/case/buff.txt")
+

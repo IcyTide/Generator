@@ -14,7 +14,8 @@ from tools.utils import camel_to_capital, set_patches
 class Skill(AliasBase):
     _aliases = {
         "dwSkillID": "skill_id",
-        "dwLevel": "skill_level"
+        "dwLevel": "skill_level",
+        "nAreaRadius": "zero"
     }
     skill_id: int
     skill_level: int = 0

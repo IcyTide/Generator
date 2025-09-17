@@ -11,7 +11,14 @@ SKILLS = {
     }),
     40828: dict(comment="击破破绽"),
     32235: dict(comment="原始"),
-    **{skill_id: dict(comment=f"{i + 1}层破绽") for i, skill_id in enumerate([32372, 32371, 32370, 32369])},
+    **{skill_id: dict(comment=f"{i + 1}层流血") for i, skill_id in enumerate([32372, 32371, 32370, 32369])},
     **{skill_id: dict(comment=f"{i + 1}层破绽") for i, skill_id in enumerate([32236, 33237, 33238, 33239])},
-    33146: dict(comment="孤锋破浪")
+    33146: dict(comment="孤锋破浪"),
+    **{skill_id: dict(comment=f"{i + 5}层破绽") for i, skill_id in enumerate([32891, 32892])},
+    34724: dict(comments={i + 1: f"{i + 1}层流血" for i in range(4)}),
+    36118: dict(comments={1: ""}),
+    32591: dict(comments={1: "初始", 2: "引爆"}),
+    32616: dict(comment="单持"), 33163: dict(comment="双持"),
+    38645: dict(comments={3: ""}),
+
 }

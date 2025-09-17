@@ -1,5 +1,4 @@
 TALENTS = {
-    10003: {},
     10014: {
         18679: {
             "name": "浮生",
@@ -120,7 +119,7 @@ TALENTS = {
         5802: {
             "name": "解牛",
             "attributes": {
-                "move_state_damage_addition": 28672
+                "move_state_damage_addition": 256
             },
             "recipes": [],
             "buffs": [],
@@ -368,28 +367,1427 @@ TALENTS = {
             "skills": []
         }
     },
-    10015: {},
-    10021: {},
-    10026: {},
-    10081: {},
-    10144: {},
-    10145: {},
-    10175: {},
-    0: {},
-    10224: {},
-    10225: {},
-    10242: {},
-    10268: {},
-    10390: {},
-    10447: {},
-    10464: {},
-    10533: {},
-    10585: {},
-    10615: {},
-    10627: {},
-    10756: {},
-    10698: {},
-    10786: {},
+    10464: {
+        28680: {
+            "name": "鸣震九霄",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        21858: {
+            "name": "斩狂枭",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        25639: {
+            "name": "渊冰",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        25095: {
+            "name": "横断山河",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16816: {
+            "name": "碎影",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        21753: {
+            "name": "空痕",
+            "attributes": {},
+            "recipes": [
+                "_3265_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16748: {
+            "name": "削霜",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        17047: {
+            "name": "分疆",
+            "attributes": {},
+            "recipes": [
+                "_2954_1",
+                "_5575_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16724: {
+            "name": "击瑕",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16726: {
+            "name": "吞楚",
+            "attributes": {},
+            "recipes": [
+                "_4230_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16977: {
+            "name": "冷川",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42461: {
+            "name": "烽河",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16733: {
+            "name": "斩纷",
+            "attributes": {},
+            "recipes": [
+                "_4231_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        17042: {
+            "name": "阳关",
+            "attributes": {},
+            "recipes": [
+                "_4298_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        18625: {
+            "name": "百战",
+            "attributes": {},
+            "recipes": [
+                "_2608_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42563: {
+            "name": "微尘",
+            "attributes": {},
+            "recipes": [
+                "_6088_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        30920: {
+            "name": "震霄",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        25254: {
+            "name": "霜轮",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        26904: {
+            "name": "冥鼔",
+            "attributes": {},
+            "recipes": [
+                "_2510_1",
+                "_2511_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        21264: {
+            "name": "照野",
+            "attributes": {},
+            "recipes": [
+                "_2881_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16779: {
+            "name": "化蛟",
+            "attributes": {},
+            "recipes": [
+                "_2512_1",
+                "_2474_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32857: {
+            "name": "见尘",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38541: {
+            "name": "掠关",
+            "attributes": {},
+            "recipes": [
+                "_5626_1",
+                "_5627_1",
+                "_5628_1",
+                "_5629_1",
+                "_5631_1",
+                "_5632_1",
+                "_5736_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42564: {
+            "name": "踏风",
+            "attributes": {},
+            "recipes": [
+                "_6089_1",
+                "_6089_2"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16847: {
+            "name": "归酣",
+            "attributes": {},
+            "recipes": [
+                "_4458_1",
+                "_4671_1",
+                "_3351_1",
+                "_5934_1",
+                "_5935_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16777: {
+            "name": "沧雪",
+            "attributes": {},
+            "recipes": [
+                "_5903_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        26735: {
+            "name": "砺锋",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42410: {
+            "name": "霜云",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16958: {
+            "name": "易水",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16739: {
+            "name": "秋瑟",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        37982: {
+            "name": "临江",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        34677: {
+            "name": "绝河",
+            "attributes": {},
+            "recipes": [
+                "_3251_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16691: {
+            "name": "龙息",
+            "attributes": {},
+            "recipes": [
+                "_3283_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16911: {
+            "name": "裁骨",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16893: {
+            "name": "重烟",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        17054: {
+            "name": "疏狂",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        17056: {
+            "name": "绝期",
+            "attributes": {},
+            "recipes": [
+                "_4319_1",
+                "_2833_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16957: {
+            "name": "曳鼎",
+            "attributes": {},
+            "recipes": [
+                "_4339_1",
+                "_4339_2"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        16781: {
+            "name": "行泽",
+            "attributes": {},
+            "recipes": [
+                "_4263_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        33123: {
+            "name": "扬刀激尘",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        }
+    },
+    10533: {
+        32476: {
+            "name": "风驰",
+            "attributes": {},
+            "recipes": [
+                "_5991_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32594: {
+            "name": "怒翼",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20837: {
+            "name": "澹然若海",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        41832: {
+            "name": "飞倾列缺",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38668: {
+            "name": "游仙",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20756: {
+            "name": "凌霄",
+            "attributes": {},
+            "recipes": [
+                "_4762_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20350: {
+            "name": "游心",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20700: {
+            "name": "征夷",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38670: {
+            "name": "鸿轨",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38868: {
+            "name": "海佑",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20729: {
+            "name": "奋翼",
+            "attributes": {
+                "move_state_damage_addition": 205
+            },
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20694: {
+            "name": "凝气",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        21293: {
+            "name": "溯徊",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20759: {
+            "name": "横绝",
+            "attributes": {},
+            "recipes": [
+                "_4895_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28985: {
+            "name": "驾澜",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38691: {
+            "name": "浪斥",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32488: {
+            "name": "海碧",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20753: {
+            "name": "崔嵬",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20351: {
+            "name": "藏锋",
+            "attributes": {},
+            "recipes": [
+                "_4704_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20718: {
+            "name": "乘龙",
+            "attributes": {},
+            "recipes": [
+                "_5995_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38667: {
+            "name": "驰行",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20641: {
+            "name": "空桑舞瑟",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20065: {
+            "name": "翔极碧落",
+            "attributes": {
+                "physical_damage_base": 0,
+                "physical_damage_rand": 0
+            },
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        25276: {
+            "name": "镜壁",
+            "attributes": {},
+            "recipes": [
+                "_5237_1",
+                "_5904_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20747: {
+            "name": "梦悠",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20741: {
+            "name": "穹庐",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20601: {
+            "name": "鸿渐于飞",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        25283: {
+            "name": "连涯",
+            "attributes": {},
+            "recipes": [
+                "_5238_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        41729: {
+            "name": "击浪",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20716: {
+            "name": "苍梧",
+            "attributes": {},
+            "recipes": [
+                "_4724_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        41731: {
+            "name": "九溟",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        25267: {
+            "name": "驾鸾",
+            "attributes": {},
+            "recipes": [
+                "_5230_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20348: {
+            "name": "清源",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20720: {
+            "name": "遥思",
+            "attributes": {},
+            "recipes": [
+                "_4725_1",
+                "_5976_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28987: {
+            "name": "澜升",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32592: {
+            "name": "倾波",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38669: {
+            "name": "青冥",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        26745: {
+            "name": "澄穆",
+            "attributes": {},
+            "recipes": [
+                "_2483_1",
+                "_2484_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20722: {
+            "name": "兰棹",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        20757: {
+            "name": "跃潮",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        }
+    },
+    10627: {
+        28443: {
+            "name": "甘遂",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28458: {
+            "name": "炮阳",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28415: {
+            "name": "荆障",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28461: {
+            "name": "荡襟",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28344: {
+            "name": "鸩羽",
+            "attributes": {},
+            "recipes": [
+                "_2549_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28376: {
+            "name": "断泽",
+            "attributes": {},
+            "recipes": [
+                "_2560_1",
+                "_5458_1",
+                "_5478_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28375: {
+            "name": "藏丛",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        30507: {
+            "name": "渌波",
+            "attributes": {},
+            "recipes": [
+                "_5392_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        40194: {
+            "name": "六微",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28406: {
+            "name": "遍休",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        29503: {
+            "name": "茎蹊",
+            "attributes": {},
+            "recipes": [
+                "_2889_1",
+                "_2890_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28405: {
+            "name": "蔓蕊",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28419: {
+            "name": "凄骨",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32882: {
+            "name": "肃羽",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28485: {
+            "name": "划云",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28370: {
+            "name": "逐鸿",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38965: {
+            "name": "紫伏",
+            "attributes": {},
+            "recipes": [
+                "_5773_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38633: {
+            "name": "沉绵",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28432: {
+            "name": "疾根",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42500: {
+            "name": "织翠",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        36067: {
+            "name": "香繁饮露",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        30016: {
+            "name": "南草",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28436: {
+            "name": "滞眠",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        30734: {
+            "name": "折枝拂露",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28426: {
+            "name": "养荣",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28583: {
+            "name": "并蒂夺株",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38640: {
+            "name": "息芷",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28533: {
+            "name": "青圃着尘",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        29498: {
+            "name": "灵荆",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28413: {
+            "name": "相使",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28420: {
+            "name": "熟地",
+            "attributes": {},
+            "recipes": [
+                "_2570_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28439: {
+            "name": "渐苞",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28365: {
+            "name": "岚因",
+            "attributes": {},
+            "recipes": [
+                "_2555_1",
+                "_2856_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        34796: {
+            "name": "蓬茸",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28731: {
+            "name": "燕徊",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        39661: {
+            "name": "逆势",
+            "attributes": {},
+            "recipes": [
+                "_5905_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28367: {
+            "name": "令芷",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        40192: {
+            "name": "沃雪",
+            "attributes": {},
+            "recipes": [
+                "_2562_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        28343: {
+            "name": "淮茵",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        38625: {
+            "name": "谢枝",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        }
+    },
+    10698: {
+        32458: {
+            "name": "簇尘",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32498: {
+            "name": "碣石",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42035: {
+            "name": "贯霆",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32500: {
+            "name": "承磊",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        33027: {
+            "name": "威声",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32492: {
+            "name": "电逝",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32577: {
+            "name": "殊际",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32588: {
+            "name": "颂阵",
+            "attributes": {},
+            "recipes": [
+                "_3219_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32502: {
+            "name": "滔天",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32582: {
+            "name": "摧朽",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32512: {
+            "name": "界破",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32457: {
+            "name": "镇机",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32508: {
+            "name": "长溯",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        34722: {
+            "name": "鸣锋",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42233: {
+            "name": "遏流",
+            "attributes": {},
+            "recipes": [
+                "_6032_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32587: {
+            "name": "识意",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32511: {
+            "name": "涣衍",
+            "attributes": {},
+            "recipes": [
+                "_3032_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32610: {
+            "name": "势钧",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32608: {
+            "name": "周流",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32609: {
+            "name": "驭耀",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32493: {
+            "name": "流岚",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32509: {
+            "name": "斩颓",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32611: {
+            "name": "泯息",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32613: {
+            "name": "亘绝",
+            "attributes": {},
+            "recipes": [
+                "_3035_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        36035: {
+            "name": "潋风",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32586: {
+            "name": "截辕",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32665: {
+            "name": "泽风同承",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32614: {
+            "name": "怒锋倾涛",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32499: {
+            "name": "观衅",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32452: {
+            "name": "聚疏",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32497: {
+            "name": "击懈",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32459: {
+            "name": "雾灭",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32578: {
+            "name": "强膂",
+            "attributes": {
+                "strength_gain": 102,
+                "strain_gain": 102
+            },
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        42060: {
+            "name": "飞云",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32491: {
+            "name": "急潮",
+            "attributes": {},
+            "recipes": [
+                "_3025_1",
+                "_3106_1",
+                "_3107_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32579: {
+            "name": "辞霈",
+            "attributes": {},
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32580: {
+            "name": "戗风",
+            "attributes": {},
+            "recipes": [
+                "_5584_1",
+                "_5585_1",
+                "_5586_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32454: {
+            "name": "袭伐",
+            "attributes": {},
+            "recipes": [
+                "_5943_1",
+                "_5944_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32494: {
+            "name": "靖步",
+            "attributes": {},
+            "recipes": [
+                "_3034_1"
+            ],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        },
+        32465: {
+            "name": "遏云势",
+            "attributes": {
+                "physical_damage_base": 35,
+                "physical_damage_rand": 5
+            },
+            "recipes": [],
+            "buffs": [],
+            "dots": {},
+            "skills": []
+        }
+    },
     10821: {
         42112: {
             "name": "迟桎",

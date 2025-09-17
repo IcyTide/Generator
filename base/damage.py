@@ -21,7 +21,7 @@ class DamageChain:
 
         self.damage, self.critical_damage, self.rand = 0, 0, Variable("rand")
 
-        self.need_int = True
+        self.need_int = False
 
     def physical_damage_call(self, damage_base, damage_rand):
         damage_base = damage_base or self.source.physical_damage_base
@@ -186,8 +186,10 @@ class DamageChain:
             self.damage *= 1 + overcome
 
     def cal_defense(self, shield):
-        shield_constant = SHIELD_SCALE * (LEVEL_SCALE * self.target.level - LEVEL_CONSTANT)
-        shield = Int(shield * (1 - self.source.all_shield_ignore / BINARY_SCALE))
+        shield_constant = SHIELD_SCALE * LEVEL_SCALE * self.target.level - SHIELD_SCALE * LEVEL_CONSTANT
+        shield = shield * (1 - self.source.all_shield_ignore / BINARY_SCALE)
+        if self.need_int:
+            shield = Int(shield)
         defense = shield / (shield + shield_constant)
         if self.need_int:
             rate = 1 - Int(defense * BINARY_SCALE) / BINARY_SCALE
@@ -196,7 +198,7 @@ class DamageChain:
             self.damage *= (1 - defense)
 
     def cal_level_reduction(self):
-        rate = (self.target.level - self.source.level) * LEVEL_REDUCTION
+        rate = 1 - (self.target.level - self.source.level) * LEVEL_REDUCTION
         self.damage *= rate
         if self.need_int:
             self.damage = Int(self.damage)
