@@ -24,6 +24,12 @@ class Expression:
     def __rtruediv__(self, other):
         return Div(other, self)
 
+    def __pow__(self, power, modulo=None):
+        return Pow(self, power)
+
+    def __rpow__(self, other):
+        return Pow(other, self)
+
     def __neg__(self):
         return Neg(self)
 
@@ -49,9 +55,9 @@ class Variable(Expression):
         return self.name
 
     def evaluate(self, values=None):
-        if values is None or self.name not in values:
-            raise ValueError(f"Value for variable '{self.name}' not provided.")
-        return values[self.name]
+        if values is None:
+            values = {}
+        return values.get(self.name, 0)
 
     def derivative(self, var):
         return Constant(1) if self == var else Constant(0)
@@ -59,6 +65,7 @@ class Variable(Expression):
     @property
     def terms(self):
         return {self.name}
+
 
 class Constant(Expression):
     def __init__(self, value):
@@ -145,7 +152,7 @@ class BinaryOperator(Expression):
 
 
 class Add(BinaryOperator):
-    def __new__(cls, left, right):
+    def __new__(cls, left, right: int | float | Expression):
         if left == 0:
             return right
         if right == 0:
@@ -169,7 +176,7 @@ class Add(BinaryOperator):
 
 
 class Sub(BinaryOperator):
-    def __new__(cls, left, right):
+    def __new__(cls, left, right: int | float | Expression):
         if left == 0:
             return -right
         if right == 0:
@@ -178,6 +185,8 @@ class Sub(BinaryOperator):
             return Constant(0)
         if isinstance(left, Constant) and isinstance(right, Constant):
             return Constant(left.value - right.value)
+        if isinstance(right, (int, float)) and right < 0:
+            return Add(left, -right)
         if isinstance(right, Constant) and right.value < 0:
             return Add(left, -right.value)
         return super().__new__(cls).init(left, right)
@@ -255,6 +264,31 @@ class Div(BinaryOperator):
         return numerator / denominator
 
 
+class Pow(BinaryOperator):
+    def __new__(cls, left, right):
+        if left == 0:
+            return Constant(0)
+        if left == 1:
+            return Constant(1)
+        if right == 0:
+            return Constant(1)
+        if right == 1:
+            return left
+        if isinstance(left, Constant) and isinstance(right, Constant):
+            return Constant(left.value ** right.value)
+        return super().__new__(cls).init(left, right)
+
+    def __str__(self):
+        left, right = self.left, self.right
+        return f"({left}) ** ({right})"
+
+    def evaluate(self, values=None):
+        return self.left.evaluate(values) ** self.right.evaluate(values)
+
+    def derivative(self, var):
+        return self.left.derivative(var) * self.right * Pow(self.left, self.right - 1)
+
+
 def get_variables(formula: str) -> dict[str, Variable | type[UnaryOperator]]:
     variable = ""
     variables = {}
@@ -277,6 +311,7 @@ def parse_expr(formula: str):
     expr = eval(formula, variables)
     return expr
 
+
 if __name__ == '__main__':
     x = Variable('x')
     y = Variable('y')
@@ -285,7 +320,7 @@ if __name__ == '__main__':
 
     f = -z + Int(x * (1 + y)) - Int(x * (1 + y + 0.5)) + r * x
 
-    #f = "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int(int((solar_attack_power_base + int(int(spunk_base * (1 + spunk_gain)) * 0.181)) * (1 + (solar_attack_power_gain + 246 * _3223_1 + 246 * _3224_1) / 1024)) * 5.535337500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int(int((solar_overcome_base + int(int(spunk_base * (1 + spunk_gain)) * 0.3)) * (1 + solar_overcome_gain / 1024)) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))"
+    # f = "int(int(int(int(int(int(int(int(int(int(70 + rand * 10) + int(int((solar_attack_power_base + int(int(spunk_base * (1 + spunk_gain)) * 0.181)) * (1 + (solar_attack_power_gain + 246 * _3223_1 + 246 * _3224_1) / 1024)) * 5.535337500000001)) * (1 + magical_damage_addition / 1024)) * (1 + move_state_damage_addition / 1024)) * (1 + int(int((solar_overcome_base + int(int(spunk_base * (1 + spunk_gain)) * 0.3)) * (1 + solar_overcome_gain / 1024)) / 225957.6 * 1024) / 1024)) * (1 - int(int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) / (int(int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024)) + 6.364 * (1155 * target_level - 130350)) * 1024) / 1024)) * (target_level - 130) * 0.05) * (1 + int((int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * 1024) / 1024)) * (1 + pve_addition / 1024)) * (1 + solar_damage_cof / 1024))"
 
     print(f)
     print(f.terms)

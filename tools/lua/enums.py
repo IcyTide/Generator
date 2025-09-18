@@ -74,6 +74,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     ACTIVE_THREAT_COEFFICIENT = ""
     DROP_DEFENCE = ""
     BEAT_BACK_RATE = ""
+    KNOCKED_DOWN_RATE = ""
     REPULSED_RATE = ""
     DECRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = ""
     DECRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = ""
@@ -102,7 +103,9 @@ class ATTRIBUTE_TYPE(StrEnum):
     MANA_REPLENISH = ""
     MANA_REPLENISH_EXT = ""
     MANA_REPLENISH_PERCENT = ""
+    MANA_REPLENISH_COEFFICIENT = ""
     MOVE_SPEED_PERCENT = ""
+    JUMP_SPEED_BASE = ""
 
     SET_USE_BIG_SWORD_FLAG = ""
     STOP_MAKE_SUN_POWER = ""
@@ -117,7 +120,10 @@ class ATTRIBUTE_TYPE(StrEnum):
 
     DAMAGE_TO_MANA_FOR_SELF = ""
 
+    SILENCE = ""
     IMMUNITY = ""
+    IMMUNITY_COMBO_ALL = ""
+    DISABLE_SPRINT_FLAG = ""
     ADD_TRANSPARENCY_VALUE = ""
 
     # Script Attribute
@@ -136,13 +142,17 @@ class ATTRIBUTE_TYPE(StrEnum):
     CONSUME_BUFF = ""
     DEL_SINGLE_BUFF_BY_ID_AND_LEVEL = ""
     DEL_SINGLE_GROUP_BUFF_BY_ID_AND_LEVEL = ""
+    DEL_SINGLE_BUFF_BY_FUNCTIONTYPE = ""
     DEL_MULTI_GROUP_BUFF_BY_ID = ""
+    DEL_MULTI_GROUP_BUFF_BY_FUNCTIONTYPE = ""
+    DETACH_SINGLE_BUFF = ""
     SKILL_EVENT_HANDLER = ""
     SET_ADAPTIVE_SKILL_TYPE = ""
     CALL_REPULSED = ""
     CALL_KNOCKED_DOWN = ""
     CLEAR_COOL_DOWN = ""
     DASH = ""
+    PULL = ""
     DASH_TO_POINT = ""
     SKILL_MOVE = ""
     DIRECT_CAST_MASK = ""
@@ -174,6 +184,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     CALL_SURPLUS_POISON_DAMAGE = "call_poison_surplus"
 
     # Major Attribute
+    AGILITY_BASE_PERCENT_ADD = "agility_gain"
     STRENGTH_BASE_PERCENT_ADD = "strength_gain"
     SPUNK_BASE_PERCENT_ADD = "spunk_gain"
 
@@ -242,6 +253,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     STRAIN_BASE = "strain_base"
     STRAIN_PERCENT = "strain_gain"
     HASTE_BASE_PERCENT_ADD = ""
+    UNLIMIT_HASTE_BASE_PERCENT_ADD = ""
 
     # Defense Attribute
     PARRY_BASE = ""
@@ -253,6 +265,12 @@ class ATTRIBUTE_TYPE(StrEnum):
     LUNAR_MAGIC_SHIELD_PERCENT = "lunar_shield_gain"
     NEUTRAL_MAGIC_SHIELD_PERCENT = "neutral_shield_gain"
     POISON_MAGIC_SHIELD_PERCENT = "poison_shield_gain"
+
+    PHYSICS_RESIST_PERCENT = ""
+    SOLAR_MAGIC_RESIST_PERCENT = ""
+    LUNAR_MAGIC_RESIST_PERCENT = ""
+    NEUTRAL_MAGIC_RESIST_PERCENT = ""
+    POISON_MAGIC_RESIST_PERCENT = ""
 
     # Damage/Therapy Cof Attribute
     PHYSICS_DAMAGE_COEFFICIENT = "physical_damage_cof"

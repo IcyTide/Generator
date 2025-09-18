@@ -1,3 +1,4 @@
+from base.expression import Variable
 from base.skill import Skill
 from tools.classes.dot import Dot
 from tools.parser.skill import parse_skill
@@ -13,5 +14,7 @@ def parse_dot(dot: Dot):
             for skill_level, skill in skill_levels.items():
                 skill.dest_rollback_attributes, skill.dest_attributes = [], dot.attributes
                 skill.interval, skill.tick = dot.interval, dot.max_tick
+                skill.tick_cof = dot.active_coefficient ** Variable("tick")
+
         result[buff_level] = dot
     return result

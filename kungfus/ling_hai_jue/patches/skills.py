@@ -20,6 +20,7 @@ SKILLS = {
     36417: dict(comment="3段", comments={
         1: "原始", 2: "击倒"
     }),
+    41836: dict(comment="九溟"),
     34728: dict(comments={
         1: "1段",
         **{i + 2: f"2段({height}尺以上)" for i, height in enumerate([0, 15, 20, 25])}

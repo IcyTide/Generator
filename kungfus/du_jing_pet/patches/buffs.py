@@ -1,2 +1,0 @@
-BUFFS: dict[int, dict] = {
-}

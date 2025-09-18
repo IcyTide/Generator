@@ -20,5 +20,10 @@ SKILLS = {
     38971: dict(comments={
         1: "原始盾舞",
         2: "惊涌盾舞"
-    })
+    }),
+    41738: dict(comment="崩血+登锋"),
+    36065: dict(comments={1: ""}),
+    13143: dict(comment="流血"), 13144: dict(comment="原始"),
+    41737: dict(comment="登锋"),
+    **{skill_id: dict(comment=f"{i + 1}段", comments={1: ""}) for i, skill_id in enumerate([30925, 30926, 30857])}
 }

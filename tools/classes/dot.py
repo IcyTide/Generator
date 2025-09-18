@@ -7,6 +7,8 @@ class Dot(Buff):
 
     attributes_prefix = "active"
 
+    active_coefficient = 0
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -22,7 +24,7 @@ class Dot(Buff):
     def to_dict(self):
         if self.buff_level:
             return {
-                "name": self.get_name(buff_txts, "BuffID", self.buff_id, self.buff_level),
+                "name": self.get_name(self.buff_id, self.buff_level),
                 "comment": self.comment,
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),

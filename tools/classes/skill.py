@@ -12,10 +12,14 @@ from tools.utils import camel_to_capital, set_patches
 
 
 class Skill(AliasBase):
+    txt = skill_txts
+    id_column = "SkillID"
     _aliases = {
         "dwSkillID": "skill_id",
         "dwLevel": "skill_level",
-        "nAreaRadius": "zero"
+        "nAreaRadius": "zero",
+        "nBeatBackRate": "zero",
+        "nTargetCountLimit": "zero"
     }
     skill_id: int
     skill_level: int = 0
@@ -46,6 +50,7 @@ class Skill(AliasBase):
 
     interval: int = 0
     tick: int = 1
+    tick_cof: float = 1.
 
     levels: list[int]
     recipe_key: Expression = None
@@ -106,7 +111,7 @@ class Skill(AliasBase):
     def physical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        frames = Int(self.prepare_frames + self.channel_interval)
+        frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
         interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
         interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
@@ -116,7 +121,7 @@ class Skill(AliasBase):
     def magical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        frames = Int(self.prepare_frames + self.channel_interval)
+        frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
         interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
         interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
@@ -149,7 +154,7 @@ class Skill(AliasBase):
     def to_dict(self):
         if self.skill_level:
             return {
-                "name": self.get_name(skill_txts, "SkillID", self.skill_id, self.skill_level),
+                "name": self.get_name(self.skill_id, self.skill_level),
                 "comment": self.comment,
                 **self.formula
             }

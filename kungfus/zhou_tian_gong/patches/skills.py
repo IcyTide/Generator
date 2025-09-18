@@ -8,5 +8,8 @@ SKILLS = {
         **{i + 1: f"{i}点任脉能量" for i in range(51)},
     }),
     37804: dict(comments={}),
-    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([38016, 38075, 38076, 38077])}
+    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([38016, 38075, 38076, 38077])},
+    38886: dict(comment="2段"),
+    38982: dict(comment="1段"), 38983: dict(comment="2段"),
+    38554: dict(comments={i + 1: f"连续释放{i}次" for i in range(7)})
 }

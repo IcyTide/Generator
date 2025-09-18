@@ -1,9 +1,13 @@
+import pandas as pd
+
 from tools.utils import camel_to_snake
 
 
 class AliasBase:
     _aliases = {}
     zero: int = 0
+    txt: pd.DataFrame
+    id_column: str
 
     def __getattr__(self, item):
         if item in self._aliases:
@@ -32,14 +36,20 @@ class AliasBase:
     def empty_func(*args):
         return
 
-    @staticmethod
-    def get_name(txt, id_column, id_value, level):
-        txt_rows = txt[txt[id_column] == id_value]
+
+    def get_name(self, id_value, level):
+        return self.get_txt_field(id_value, level, "Name")
+
+    def get_desc(self, id_value, level):
+        return self.get_txt_field(id_value, level, "Desc")
+
+    def get_txt_field(self, id_value, level, field):
+        txt_rows = self.txt[self.txt[self.id_column] == id_value]
         default_row = txt_rows[txt_rows['Level'] == 0]
-        default_name = default_row.iloc[0]['Name'] if not default_row.empty else ""
+        default_field = default_row.iloc[0][field] if not default_row.empty else ""
         txt_row = txt_rows[txt_rows['Level'] == level]
-        name = txt_row.iloc[0]['Name'] if not txt_row.empty else default_name
-        return name
+        field = txt_row.iloc[0][field] if not txt_row.empty else default_field
+        return field
 
     def to_dict(self):
         return {}

@@ -10,6 +10,7 @@ if TYPE_CHECKING:
 
 
 class DamageChain:
+    defense: int | Expression
     damage: int | Expression
     critical_damage: int | Expression
     critical_strike: Expression
@@ -19,7 +20,7 @@ class DamageChain:
         self.target = target
         self.skill = skill
 
-        self.damage, self.critical_damage, self.rand = 0, 0, Variable("rand")
+        self.defense, self.damage, self.critical_damage, self.rand = 0, 0, 0, Variable("rand")
 
         self.need_int = False
 
@@ -190,7 +191,8 @@ class DamageChain:
         shield = shield * (1 - self.source.all_shield_ignore / BINARY_SCALE)
         if self.need_int:
             shield = Int(shield)
-        defense = shield / (shield + shield_constant)
+        self.defense = shield / (shield + shield_constant)
+        defense = Variable("defense")
         if self.need_int:
             rate = 1 - Int(defense * BINARY_SCALE) / BINARY_SCALE
             self.damage = Int(self.damage * rate)
@@ -237,6 +239,6 @@ class DamageChain:
         # terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
         # recipes = sorted(term for term in terms if term.startswith("_"))
         return dict(
-            damage=str(self.damage), critical_damage=str(self.critical_damage),
-            critical_strike=str(self.critical_strike)
+            defense=str(self.defense), damage=str(self.damage),
+            critical_damage=str(self.critical_damage), critical_strike=str(self.critical_strike)
         )

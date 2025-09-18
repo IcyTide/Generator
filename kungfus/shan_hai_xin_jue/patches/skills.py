@@ -1,5 +1,9 @@
 SKILLS = {
     35894: dict(channel_interval=24),
+    **{
+        skill_id: dict(comment=f"{i + 1}段({delay})帧")
+        for i, (skill_id, delay) in enumerate(zip([36022, 36022], [6, 22]))
+    },
     36177: dict(comments={1: ""}),
     36111: dict(comment="狼(x3)"),
     36056: dict(comment="大象"),
@@ -7,4 +11,7 @@ SKILLS = {
     36112: dict(comment="虎"),
     36113: dict(comment="鹰"),
     36114: dict(comment="熊"),
+    36172: dict(comments={
+        i + 1:f"蓄力{i + 1}段({delay})帧" for i, delay in enumerate([0, 9, 17, 25])
+    }),
 }
