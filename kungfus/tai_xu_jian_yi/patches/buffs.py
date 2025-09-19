@@ -8,6 +8,10 @@ BUFFS: dict[int, dict] = {
             11: "负阴+故长"
         }
     ),
+    600: dict(comments={
+        1: "原始",
+        2: "裂云"
+    }),
     748: dict(
         comments={
             1: "原始",
@@ -23,4 +27,7 @@ BUFFS: dict[int, dict] = {
             5: "无欲"
         }
     ),
+29451: dict(attributes=[("coming_damage_cof", 512)], skills=[4954]),
+30766: dict(attributes=[("coming_damage_cof", 615)], skills=[4954]),
+21865: dict(name="合虚")
 }

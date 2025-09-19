@@ -2,7 +2,7 @@ from kungfus import BUFF_PATCHES
 from tools.classes import AliasBase
 from tools.lua.enums import ATTRIBUTE_TYPE
 from tools.settings import buff_settings, buff_txts
-from tools.utils import camel_to_capital, get_variable, set_patches
+from tools.utils import camel_to_capital, get_variable, process_attr_param, set_patches
 
 
 class Buff(AliasBase):
@@ -26,7 +26,7 @@ class Buff(AliasBase):
     max_tick: int
     interval: int
 
-    attributes: list[tuple[ATTRIBUTE_TYPE, int, int]] = []
+    attributes: list[tuple[ATTRIBUTE_TYPE, int]] = []
     recipes: list[tuple[int, int]] = []
 
     attributes_prefix: str = "begin"
@@ -69,12 +69,10 @@ class Buff(AliasBase):
             if not attr_type:
                 continue
             param_1, param_2 = getattr(self, f'{prefix}_value{i}_a'), getattr(self, f'{prefix}_value{i}_b')
-            param_1 = 0 if not param_1 else int(param_1)
-            param_2 = 0 if not param_2 else int(param_2)
             if attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
-                self.recipes.append((param_1, param_2))
-            else:
-                self.attributes.append((attr_type, param_1, param_2))
+                self.recipes.append((int(param_1), int(param_2)))
+            elif param := process_attr_param(attr_type, param_1, param_2):
+                self.attributes.append((attr_type, param))
 
     def to_dict(self):
         if self.buff_level:
@@ -84,7 +82,7 @@ class Buff(AliasBase):
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
-                "attributes": {attr: param_1 or param_2 for attr, param_1, param_2 in self.attributes},
+                "attributes": {attr: param for attr, param in self.attributes},
                 "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes],
                 "skills": self.skills
             }

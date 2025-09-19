@@ -5,7 +5,7 @@ SKILLS = {
         i + 1: f"{i}层缠绞" for i in range(5)
     }),
     42084: dict(comments={1: ""}),
-    42265: dict(dest_rollback_attributes=[("coming_damage_cof", 205 * Variable("_42128"), 0)]),
+    42265: dict(dest_rollback_attributes=[("coming_damage_cof", 205 * Variable("_42128"))]),
     41486: dict(comments={
         i + 1: f"递增{i}跳"
         for i in range(40)

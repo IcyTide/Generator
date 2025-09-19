@@ -280,7 +280,11 @@ class Pow(BinaryOperator):
 
     def __str__(self):
         left, right = self.left, self.right
-        return f"({left}) ** ({right})"
+        if isinstance(left, BinaryOperator):
+            left = f"({left})"
+        if isinstance(right, BinaryOperator):
+            right = f"({right})"
+        return f"{left} ** {right}"
 
     def evaluate(self, values=None):
         return self.left.evaluate(values) ** self.right.evaluate(values)

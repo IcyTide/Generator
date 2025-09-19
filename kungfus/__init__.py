@@ -35,12 +35,12 @@ class DisplayKungfu:
             for talent_id, params in talents.items():
                 talent = self.talents[talent_id] = TALENTS[self.kungfu_id][talent_id]
                 talent_name = talent["name"]
-                if talent["buffs"]:
-                    buffs[talent_name] = talent["buffs"]
-                if talent["dots"]:
-                    dots[talent_name] = talent["dots"]
-                if talent["skills"]:
-                    skills[talent_name] = talent["skills"]
+                if talent_buffs := talent.get("buffs"):
+                    buffs[talent_name] = talent_buffs
+                if talent_dots := talent.get("dots"):
+                    dots[talent_name] = talent_dots
+                if talent_skills := talent.get("skills"):
+                    skills[talent_name] = talent_skills
         self.buffs = {
             belong: {buff_id: BUFFS[self.kungfu_id][buff_id] for buff_id in buff_ids}
             for belong, buff_ids in buffs.items()
@@ -56,9 +56,9 @@ class DisplayKungfu:
 
 
 SUPPORT_KUNGFUS: list[Kungfu] = [
-    # Kungfu(yi_jin_jing),
+    Kungfu(yi_jin_jing),
     Kungfu(zi_xia_gong),
-    # Kungfu(tai_xu_jian_yi),
+    Kungfu(tai_xu_jian_yi),
     Kungfu(hua_jian_you),
     # Kungfu(ao_xue_zhan_yi),
     # Kungfu(bing_xin_jue),
@@ -74,7 +74,7 @@ SUPPORT_KUNGFUS: list[Kungfu] = [
     Kungfu(bei_ao_jue),
     Kungfu(ling_hai_jue),
     # Kungfu(yin_long_jue),
-    # Kungfu(tai_xuan_jing),
+    Kungfu(tai_xuan_jing),
     Kungfu(wu_fang),
     Kungfu(shan_hai_xin_jue),
     Kungfu(gu_feng_jue),

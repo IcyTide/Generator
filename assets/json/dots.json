@@ -1,5 +1,165 @@
 {
+    "10003": {
+        "743": {
+            "29": {
+                "name": "横扫六合",
+                "comment": "原始",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 6,
+                "skills": {
+                    "3808": {
+                        "29": {
+                            "name": "横扫六合",
+                            "comment": "原始",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        },
+                        "58": {
+                            "name": "横扫六合",
+                            "comment": "我闻",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        }
+                    },
+                    "28539": {
+                        "58": {
+                            "name": "",
+                            "comment": "无诤",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.1111111111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        }
+                    },
+                    "3810": {
+                        "58": {
+                            "name": "横扫六合",
+                            "comment": "幻身单目标",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6388888888888888) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        }
+                    }
+                }
+            },
+            "58": {
+                "name": "横扫六合",
+                "comment": "我闻",
+                "interval": 32,
+                "max_stack": 3,
+                "max_tick": 6,
+                "skills": {
+                    "3808": {
+                        "29": {
+                            "name": "横扫六合",
+                            "comment": "原始",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        },
+                        "58": {
+                            "name": "横扫六合",
+                            "comment": "我闻",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        }
+                    },
+                    "28539": {
+                        "58": {
+                            "name": "",
+                            "comment": "无诤",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.1111111111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        }
+                    },
+                    "3810": {
+                        "58": {
+                            "name": "横扫六合",
+                            "comment": "幻身单目标",
+                            "defense": "int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6388888888888888) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        }
+                    }
+                }
+            }
+        }
+    },
     "10014": {},
+    "10015": {
+        "748": {
+            "1": {
+                "name": "叠刃",
+                "comment": "原始",
+                "interval": 48,
+                "max_stack": 5,
+                "max_tick": 8,
+                "skills": {
+                    "600": {
+                        "3": {
+                            "name": "叠刃",
+                            "comment": "",
+                            "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(10 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(140 * (1 + 0.44999999999999996 * _4583_1)) * 0.0015625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
+                        }
+                    }
+                }
+            },
+            "2": {
+                "name": "叠刃",
+                "comment": "裂云",
+                "interval": 48,
+                "max_stack": 7,
+                "max_tick": 8,
+                "skills": {
+                    "600": {
+                        "3": {
+                            "name": "叠刃",
+                            "comment": "",
+                            "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(10 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(140 * (1 + 0.44999999999999996 * _4583_1)) * 0.0015625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
+                        }
+                    }
+                }
+            }
+        },
+        "889": {
+            "1": {
+                "name": "人剑合一",
+                "interval": 48,
+                "max_stack": 1,
+                "max_tick": 4,
+                "skills": {
+                    "37453": {
+                        "1": {
+                            "name": "",
+                            "comment": "",
+                            "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(16 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.703125) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
+                        }
+                    }
+                }
+            }
+        }
+    },
     "10021": {
         "666": {
             "29": {
@@ -8,15 +168,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "180": {
                         "29": {
                             "name": "商阳指",
                             "comment": "",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "6134": {
@@ -24,9 +184,9 @@
                             "name": "",
                             "comment": "芙蓉并蒂",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate + 154 * _2440_1) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + (neutral_critical_strike_rate + 1500 * _2440_1) / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate + 154 * _2440_1) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + (neutral_critical_strike_rate + 1500 * _2440_1) / 10000"
                         }
                     },
                     "34280": {
@@ -34,9 +194,9 @@
                             "name": "",
                             "comment": "飞白1段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "40085": {
@@ -44,9 +204,9 @@
                             "name": "",
                             "comment": "飞白2段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1068.1394067802685 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1068.1394067802685 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "13849": {
@@ -54,9 +214,9 @@
                             "name": "",
                             "comment": "风烟翠/随墨/流离",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -67,15 +227,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "180": {
                         "29": {
                             "name": "商阳指",
                             "comment": "",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "6134": {
@@ -83,9 +243,9 @@
                             "name": "",
                             "comment": "芙蓉并蒂",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate + 154 * _2440_1) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + (neutral_critical_strike_rate + 1500 * _2440_1) / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate + 154 * _2440_1) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + (neutral_critical_strike_rate + 1500 * _2440_1) / 10000"
                         }
                     },
                     "34280": {
@@ -93,9 +253,9 @@
                             "name": "",
                             "comment": "飞白1段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "40085": {
@@ -103,9 +263,9 @@
                             "name": "",
                             "comment": "飞白2段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1068.1394067802685 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1068.1394067802685 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "13849": {
@@ -113,9 +273,9 @@
                             "name": "",
                             "comment": "风烟翠/随墨/流离",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(485.51791217284926 * (1 + 1.2000000000000002 * _2941_1) * (1 + 0.050000000000000044 * _1301_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -128,15 +288,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "285": {
                         "24": {
                             "name": "钟林毓秀",
                             "comment": "",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "6135": {
@@ -144,9 +304,9 @@
                             "name": "",
                             "comment": "芙蓉并蒂",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate + 154 * _2442_1) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + (neutral_critical_strike_rate + 1500 * _2442_1) / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate + 154 * _2442_1) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + (neutral_critical_strike_rate + 1500 * _2442_1) / 10000"
                         }
                     },
                     "39907": {
@@ -154,17 +314,17 @@
                             "name": "",
                             "comment": "乱洒青荷原始",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(633.2842332689337 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(633.2842332689337 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         },
                         "2": {
                             "name": "",
                             "comment": "乱洒青荷渲青",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(580.5105471631894 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(580.5105471631894 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "34279": {
@@ -172,9 +332,9 @@
                             "name": "",
                             "comment": "飞白1段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "40086": {
@@ -182,9 +342,9 @@
                             "name": "",
                             "comment": "飞白2段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1161.0210943263787 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1161.0210943263787 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "13847": {
@@ -192,9 +352,9 @@
                             "name": "",
                             "comment": "风烟翠/随墨/流离",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -205,15 +365,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "285": {
                         "24": {
                             "name": "钟林毓秀",
                             "comment": "",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "6135": {
@@ -221,9 +381,9 @@
                             "name": "",
                             "comment": "芙蓉并蒂",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate + 154 * _2442_1) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + (neutral_critical_strike_rate + 1500 * _2442_1) / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate + 154 * _2442_1) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + (neutral_critical_strike_rate + 1500 * _2442_1) / 10000"
                         }
                     },
                     "39907": {
@@ -231,17 +391,17 @@
                             "name": "",
                             "comment": "乱洒青荷原始",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(633.2842332689337 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(633.2842332689337 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         },
                         "2": {
                             "name": "",
                             "comment": "乱洒青荷渲青",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(580.5105471631894 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(580.5105471631894 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "34279": {
@@ -249,9 +409,9 @@
                             "name": "",
                             "comment": "飞白1段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "40086": {
@@ -259,9 +419,9 @@
                             "name": "",
                             "comment": "飞白2段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1161.0210943263787 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1161.0210943263787 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "13847": {
@@ -269,9 +429,9 @@
                             "name": "",
                             "comment": "风烟翠/随墨/流离",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(38 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(527.7368610574448 * (1 + 0.1499999999999999 * _817_1) * (1 + 1.2000000000000002 * _2942_1) * (1 + 0.050000000000000044 * _1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -284,15 +444,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "18730": {
                         "19": {
                             "name": "兰摧玉折",
                             "comment": "",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "6136": {
@@ -300,9 +460,9 @@
                             "name": "",
                             "comment": "芙蓉并蒂",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate + 154 * _2441_1) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + (neutral_critical_strike_rate + 1500 * _2441_1) / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate + 154 * _2441_1) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + (neutral_critical_strike_rate + 1500 * _2441_1) / 10000"
                         }
                     },
                     "39906": {
@@ -310,17 +470,17 @@
                             "name": "",
                             "comment": "乱洒青荷原始",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(962.613323538015 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(962.613323538015 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         },
                         "2": {
                             "name": "",
                             "comment": "乱洒青荷渲青",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(882.395546576514 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(882.395546576514 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "34278": {
@@ -328,9 +488,9 @@
                             "name": "",
                             "comment": "飞白1段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "40084": {
@@ -338,9 +498,9 @@
                             "name": "",
                             "comment": "飞白2段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1764.791093153028 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1764.791093153028 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "13848": {
@@ -348,9 +508,9 @@
                             "name": "",
                             "comment": "风烟翠/随墨/流离",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -361,15 +521,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "18730": {
                         "19": {
                             "name": "兰摧玉折",
                             "comment": "",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "6136": {
@@ -377,9 +537,9 @@
                             "name": "",
                             "comment": "芙蓉并蒂",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate + 154 * _2441_1) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + (neutral_critical_strike_rate + 1500 * _2441_1) / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate + 154 * _2441_1) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + (neutral_critical_strike_rate + 1500 * _2441_1) / 10000"
                         }
                     },
                     "39906": {
@@ -387,17 +547,17 @@
                             "name": "",
                             "comment": "乱洒青荷原始",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(962.613323538015 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(962.613323538015 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         },
                         "2": {
                             "name": "",
                             "comment": "乱洒青荷渲青",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(882.395546576514 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(882.395546576514 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "34278": {
@@ -405,9 +565,9 @@
                             "name": "",
                             "comment": "飞白1段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "40084": {
@@ -415,9 +575,9 @@
                             "name": "",
                             "comment": "飞白2段",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1764.791093153028 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(1764.791093153028 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     },
                     "13848": {
@@ -425,9 +585,9 @@
                             "name": "",
                             "comment": "风烟翠/随墨/流离",
                             "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(neutral_overcome_base * (1 + neutral_overcome_gain / 1024)) + extra_neutral_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + neutral_damage_cof / 1024)",
-                            "critical_damage": "damage * (neutral_critical_power_base / 72844.2 + (1792 + neutral_critical_power_rate) / 1024)",
-                            "critical_strike": "base_neutral_critical_strike / 197703.0 + neutral_critical_strike_rate / 10000"
+                            "damage": "(30 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * int(802.1777696150126 * (1 + 1.2000000000000002 * _2940_1) * (1 + 0.050000000000000044 * _1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -441,15 +601,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "6238": {
                         "34": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(92 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(679.2133249440002 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * (1 + 0.25 * _1270_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(92 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(679.2133249440002 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * (1 + 0.25 * _1270_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -461,15 +621,15 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 7,
-                "formulas": {
+                "skills": {
                     "6236": {
                         "26": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(600.3148074000001 * (1 + 0.25 * _1271_1) * (1 + 0.6000000000000001 * _5901_1)) * 0.0008370535714285715) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(600.3148074000001 * (1 + 0.25 * _1271_1) * (1 + 0.6000000000000001 * _5901_1)) * 0.0008370535714285715) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -481,15 +641,15 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "6237": {
                         "32": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(55 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(477.56280000000004 * (1 + 0.040000000000000036 * _767_1) * (1 + 0.050000000000000044 * _768_1) * (1 + 0.10000000000000009 * _4678_1) * (1 + 0.25 * _1269_1) * (1 + 0.6000000000000001 * _5891_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + (poison_critical_strike_rate + 200 * _762_1 + 300 * _763_1 + 400 * _764_1) / 10000"
+                            "damage": "(55 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(477.56280000000004 * (1 + 0.040000000000000036 * _767_1) * (1 + 0.050000000000000044 * _768_1) * (1 + 0.10000000000000009 * _4678_1) * (1 + 0.25 * _1269_1) * (1 + 0.6000000000000001 * _5891_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + (poison_critical_strike_rate + 200 * _762_1 + 300 * _763_1 + 400 * _764_1) / 10000"
                         }
                     }
                 }
@@ -501,15 +661,15 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "13476": {
                         "31": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(80 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(741.416247 * (1 + 0.030000000000000027 * _796_1) * (1 + 0.040000000000000036 * _797_1) * (1 + 0.19999999999999996 * _818_7) * (1 + 0.050000000000000044 * _1528_1) * (1 + 0.25 * _1272_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + (poison_critical_strike_rate + 200 * _794_1 + 300 * _795_1) / 10000"
+                            "damage": "(80 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(741.416247 * (1 + 0.030000000000000027 * _796_1) * (1 + 0.040000000000000036 * _797_1) * (1 + 0.19999999999999996 * _818_7) * (1 + 0.050000000000000044 * _1528_1) * (1 + 0.25 * _1272_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + (poison_critical_strike_rate + 200 * _794_1 + 300 * _795_1) / 10000"
                         }
                     }
                 }
@@ -522,15 +682,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "30578": {
                         "34": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(92 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(1358.4266498880004 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * (0.94) ** (tick)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(92 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(1358.4266498880004 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * 0.94 ** (tick - 1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -543,15 +703,15 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 9,
-                "formulas": {
+                "skills": {
                     "30579": {
                         "34": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(55 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(2037.6399748320005 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * (0.94) ** (tick)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(55 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(2037.6399748320005 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * 0.94 ** (tick - 1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -564,15 +724,15 @@
                 "interval": 32,
                 "max_stack": 2,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "34643": {
                         "32": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(55 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(477.56280000000004 * (1 + 0.040000000000000036 * _767_1) * (1 + 0.050000000000000044 * _768_1) * (1 + 0.10000000000000009 * _4678_1) * (1 + 0.25 * _3263_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + (poison_critical_strike_rate + 200 * _762_1 + 300 * _763_1 + 400 * _764_1) / 10000"
+                            "damage": "(55 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(477.56280000000004 * (1 + 0.040000000000000036 * _767_1) * (1 + 0.050000000000000044 * _768_1) * (1 + 0.10000000000000009 * _4678_1) * (1 + 0.25 * _3263_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + (poison_critical_strike_rate + 200 * _762_1 + 300 * _763_1 + 400 * _764_1) / 10000"
                         }
                     }
                 }
@@ -584,15 +744,15 @@
                 "interval": 16,
                 "max_stack": 1,
                 "max_tick": 8,
-                "formulas": {
+                "skills": {
                     "37352": {
                         "1": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(180 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(693.3333333333334 * (1 + 0.25 * _5538_1)) * 0.0006510416666666666) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(180 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(693.3333333333334 * (1 + 0.25 * _5538_1)) * 0.0006510416666666666) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -605,15 +765,15 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 9,
-                "formulas": {
+                "skills": {
                     "18700": {
                         "34": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(92 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(1018.8199874160002 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * (1 + 0.25 * _4550_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(92 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * int(1018.8199874160002 * (1 + 0.10000000000000009 * _773_1) * (1 + 0.050000000000000044 * _774_1) * (1 + 0.10000000000000009 * _775_1) * (1 + 0.25 * _4550_1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -627,15 +787,15 @@
                 "interval": 48,
                 "max_stack": 5,
                 "max_tick": 5,
-                "formulas": {
+                "skills": {
                     "6853": {
                         "20": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(32 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.6531250000000001) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(32 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.6531250000000001) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -647,15 +807,15 @@
                 "interval": 48,
                 "max_stack": 10,
                 "max_tick": 10,
-                "formulas": {
+                "skills": {
                     "6867": {
                         "20": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(33 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.6515625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(33 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.6515625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -669,15 +829,15 @@
                 "interval": 16,
                 "max_stack": 1,
                 "max_tick": 26,
-                "formulas": {
+                "skills": {
                     "29188": {
                         "28": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.06231971153846154) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.06231971153846154) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -690,15 +850,15 @@
                 "interval": 32,
                 "max_stack": 3,
                 "max_tick": 13,
-                "formulas": {
+                "skills": {
                     "41738": {
                         "1": {
                             "name": "",
                             "comment": "崩血+登锋",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.12463942307692308) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.12463942307692308) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     },
                     "41737": {
@@ -706,9 +866,9 @@
                             "name": "",
                             "comment": "登锋",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(244.49039999999997 * (1 + 0.8 * _5562_1)) * 0.0010216346153846154) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(244.49039999999997 * (1 + 0.8 * _5562_1)) * 0.0010216346153846154) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -719,15 +879,15 @@
                 "interval": 16,
                 "max_stack": 3,
                 "max_tick": 26,
-                "formulas": {
+                "skills": {
                     "41738": {
                         "1": {
                             "name": "",
                             "comment": "崩血+登锋",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.06231971153846154) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.06231971153846154) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     },
                     "41737": {
@@ -735,9 +895,9 @@
                             "name": "",
                             "comment": "登锋",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(244.49039999999997 * (1 + 0.8 * _5562_1)) * 0.0005108173076923077) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(244.49039999999997 * (1 + 0.8 * _5562_1)) * 0.0005108173076923077) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -751,15 +911,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 8,
-                "formulas": {
+                "skills": {
                     "17058": {
                         "10": {
                             "name": "闹须弥",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(52 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(560 * (1 + 0.7 * _4319_1)) * 0.0015625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(52 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(560 * (1 + 0.7 * _4319_1)) * 0.0015625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     },
                     "17060": {
@@ -767,9 +927,9 @@
                             "name": "闹须弥",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(52 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.4875) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(52 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.4875) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -783,15 +943,15 @@
                 "interval": 48,
                 "max_stack": 3,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "26935": {
                         "1": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(25 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.0625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(25 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 1.0625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -803,15 +963,37 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "38675": {
                         "4": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(50 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.0625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(50 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 2.0625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "10615": {
+        "31796": {
+            "1": {
+                "name": "知微",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 15,
+                "skills": {
+                    "42432": {
+                        "1": {
+                            "name": "知微",
+                            "comment": "",
+                            "defense": "int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
+                            "damage": "(26 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * 2.4375) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + neutral_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
+                            "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -825,15 +1007,15 @@
                 "interval": 32,
                 "max_stack": 8,
                 "max_tick": 8,
-                "formulas": {
+                "skills": {
                     "27560": {
                         "10": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(95 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * 0.1546630859375) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (poison_critical_power_base / 72844.2 + (1792 + poison_critical_power_rate) / 1024)",
-                            "critical_strike": "base_poison_critical_strike / 197703.0 + poison_critical_strike_rate / 10000"
+                            "damage": "(95 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * 0.1546630859375) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (poison_critical_power_percent + (1792 + poison_critical_power_rate) / 1024)",
+                            "critical_strike": "poison_critical_strike_percent + poison_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -847,15 +1029,15 @@
                 "interval": 8,
                 "max_stack": 6,
                 "max_tick": 4,
-                "formulas": {
+                "skills": {
                     "35771": {
                         "6": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(32 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.215625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(32 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.215625) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -869,15 +1051,15 @@
                 "interval": 32,
                 "max_stack": 4,
                 "max_tick": 3,
-                "formulas": {
+                "skills": {
                     "32369": {
                         "17": {
                             "name": "",
                             "comment": "4层流血",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
+                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
                         }
                     },
                     "32370": {
@@ -885,9 +1067,9 @@
                             "name": "",
                             "comment": "3层流血",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
+                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
                         }
                     },
                     "32371": {
@@ -895,9 +1077,9 @@
                             "name": "",
                             "comment": "2层流血",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
+                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
                         }
                     },
                     "32372": {
@@ -905,9 +1087,9 @@
                             "name": "",
                             "comment": "1层流血",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + int(int(weapon_damage_base * (1 + weapon_damage_gain / 1024)) + weapon_damage_rand / 2) + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
+                            "damage": "(108 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + (physical_critical_strike_rate + 300 * _3055_1 + 400 * _3056_1) / 10000"
                         }
                     }
                 }
@@ -919,15 +1101,15 @@
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "33133": {
                         "1": {
                             "name": "",
                             "comment": "",
                             "defense": "int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(102 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(physical_overcome_base * (1 + physical_overcome_gain / 1024)) + extra_physical_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + physical_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(102 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.34375) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -941,15 +1123,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 8,
-                "formulas": {
+                "skills": {
                     "3126": {
                         "27": {
                             "name": "",
                             "comment": "",
                             "defense": "int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(100 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * 0.4505208333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(poison_overcome_base * (1 + poison_overcome_gain / 1024)) + extra_poison_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_base / 72844.2 + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "base_physical_critical_strike / 197703.0 + physical_critical_strike_rate / 10000"
+                            "damage": "(100 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * 0.4505208333333333) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + poison_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
                     }
                 }
@@ -963,15 +1145,15 @@
                 "interval": 48,
                 "max_stack": 1,
                 "max_tick": 6,
-                "formulas": {
+                "skills": {
                     "42275": {
                         "1": {
                             "name": "",
                             "comment": "",
                             "defense": "int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4)",
-                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.390625) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + (int(lunar_overcome_base * (1 + lunar_overcome_gain / 1024)) + extra_lunar_overcome) / 225957.6) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + int(strain_base * (1 + strain_gain / 1024)) / 133333.2 + strain_rate / 1024) * (1 + pve_addition / 1024) * (1 + lunar_damage_cof / 1024)",
-                            "critical_damage": "damage * (lunar_critical_power_base / 72844.2 + (1792 + lunar_critical_power_rate) / 1024)",
-                            "critical_strike": "base_lunar_critical_strike / 197703.0 + lunar_critical_strike_rate / 10000"
+                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.390625) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + lunar_overcome) * (1 - defense) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "critical_damage": "damage * (lunar_critical_power_percent + (1792 + lunar_critical_power_rate) / 1024)",
+                            "critical_strike": "lunar_critical_strike_percent + lunar_critical_strike_rate / 10000"
                         }
                     }
                 }

@@ -1,10 +1,8 @@
 from tools.classes.buff import Buff
-from tools.settings import buff_txts
 
 
 class Dot(Buff):
     skills: dict
-
     attributes_prefix = "active"
 
     active_coefficient = 0
@@ -13,13 +11,13 @@ class Dot(Buff):
         super().__init__(*args, **kwargs)
 
     @property
-    def formulas(self):
-        formulas = {}
+    def sources(self):
+        sources = {}
         for skill_id, skill_levels in self.skills.items():
-            formulas[skill_id] = {}
+            sources[skill_id] = {}
             for skill_level, skill in skill_levels.items():
-                formulas[skill_id][skill_level] = skill.to_dict()
-        return formulas
+                sources[skill_id][skill_level] = skill.to_dict()
+        return sources
 
     def to_dict(self):
         if self.buff_level:
@@ -29,7 +27,7 @@ class Dot(Buff):
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
-                "formulas": self.formulas
+                "skills": self.sources
             }
         else:
             return {}

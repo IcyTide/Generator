@@ -24,7 +24,7 @@ TALENTS: list[dict[int, dict]] = [
         14838: {}
     },
     {
-        22897: dict(skills=[14309]),
+        22897: dict(buffs=[14309]),
         13086: {},
         13111: dict(buffs=[20491]),
         39664: {}

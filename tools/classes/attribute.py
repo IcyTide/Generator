@@ -35,59 +35,7 @@ class DamageAdd:
     move_state_damage_addition: Expression = Variable("move_state_damage_addition")
 
 
-class Major:
-    agility_base: Expression = Variable('agility_base')
-    strength_base: Expression = Variable('strength_base')
-    spirit_base: Expression = Variable('spirit_base')
-    spunk_base: Expression = Variable('spunk_base')
-
-    agility_gain: Expression = Variable('agility_gain')
-    strength_gain: Expression = Variable('strength_gain')
-    spirit_gain: Expression = Variable('spirit_gain')
-    spunk_gain: Expression = Variable('spunk_gain')
-
-    @property
-    def agility(self) -> Expression:
-        return Int(self.agility_base * (1 + self.agility_gain))
-
-    @property
-    def strength(self) -> Expression:
-        return Int(self.strength_base * (1 + self.strength_gain))
-
-    @property
-    def spirit(self) -> Expression:
-        return Int(self.spirit_base * (1 + self.spirit_gain))
-
-    @property
-    def spunk(self) -> Expression:
-        return Int(self.spunk_base * (1 + self.spunk_gain))
-
-    @property
-    def agility_critical_strike_base(self) -> Expression:
-        return Int(self.agility * AGILITY_TO_CRITICAL_STRIKE)
-
-    @property
-    def strength_attack_power_base(self) -> Expression:
-        return Int(self.strength * STRENGTH_TO_ATTACK_POWER)
-
-    @property
-    def strength_overcome_base(self) -> Expression:
-        return Int(self.strength * STRENGTH_TO_OVERCOME)
-
-    @property
-    def spirit_critical_strike_base(self) -> Expression:
-        return Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
-
-    @property
-    def spunk_attack_power_base(self) -> Expression:
-        return Int(self.spunk * SPUNK_TO_ATTACK_POWER)
-
-    @property
-    def spunk_overcome_base(self) -> Expression:
-        return Int(self.spunk * SPUNK_TO_OVERCOME)
-
-
-class AttackPower(Major):
+class AttackPower:
     base_physical_attack_power: Expression = Variable('base_physical_attack_power')
     base_solar_attack_power: Expression = Variable('base_solar_attack_power')
     base_lunar_attack_power: Expression = Variable('base_lunar_attack_power')
@@ -133,11 +81,11 @@ class AttackPower(Major):
 
 
 class CriticalPower:
-    physical_critical_power_base: Expression = Variable('physical_critical_power_base')
-    solar_critical_power_base: Expression = Variable('solar_critical_power_base')
-    lunar_critical_power_base: Expression = Variable('lunar_critical_power_base')
-    neutral_critical_power_base: Expression = Variable('neutral_critical_power_base')
-    poison_critical_power_base: Expression = Variable('poison_critical_power_base')
+    physical_critical_power_percent: Expression = Variable('physical_critical_power_percent')
+    solar_critical_power_percent: Expression = Variable('solar_critical_power_percent')
+    lunar_critical_power_percent: Expression = Variable('lunar_critical_power_percent')
+    neutral_critical_power_percent: Expression = Variable('neutral_critical_power_percent')
+    poison_critical_power_percent: Expression = Variable('poison_critical_power_percent')
 
     physical_critical_power_rate: Expression = Variable('physical_critical_power_rate')
     solar_critical_power_rate: Expression = Variable('solar_critical_power_rate')
@@ -146,26 +94,6 @@ class CriticalPower:
     poison_critical_power_rate: Expression = Variable('poison_critical_power_rate')
 
     magical_critical_power_rate: int = 0
-
-    @property
-    def physical_critical_power_percent(self):
-        return self.physical_critical_power_base / CRITICAL_POWER_SCALE
-
-    @property
-    def solar_critical_power_percent(self):
-        return self.solar_critical_power_base / CRITICAL_POWER_SCALE
-
-    @property
-    def lunar_critical_power_percent(self):
-        return self.lunar_critical_power_base / CRITICAL_POWER_SCALE
-
-    @property
-    def neutral_critical_power_percent(self):
-        return self.neutral_critical_power_base / CRITICAL_POWER_SCALE
-
-    @property
-    def poison_critical_power_percent(self):
-        return self.poison_critical_power_base / CRITICAL_POWER_SCALE
 
     @property
     def physical_critical_power(self):
@@ -193,42 +121,18 @@ class CriticalPower:
         return self.poison_critical_power_percent + critical_power_rate / BINARY_SCALE
 
 
-class CriticalStrike(Major, CriticalPower):
-    base_physical_critical_strike: Expression = Variable('base_physical_critical_strike')
-    base_solar_critical_strike: Expression = Variable('base_solar_critical_strike')
-    base_lunar_critical_strike: Expression = Variable('base_lunar_critical_strike')
-    base_neutral_critical_strike: Expression = Variable('base_neutral_critical_strike')
-    base_poison_critical_strike: Expression = Variable('base_poison_critical_strike')
+class CriticalStrike(CriticalPower):
+    physical_critical_strike_percent: Expression = Variable('physical_critical_strike_percent')
+    solar_critical_strike_percent: Expression = Variable('solar_critical_strike_percent')
+    lunar_critical_strike_percent: Expression = Variable('lunar_critical_strike_percent')
+    neutral_critical_strike_percent: Expression = Variable('neutral_critical_strike_percent')
+    poison_critical_strike_percent: Expression = Variable('poison_critical_strike_percent')
 
     physical_critical_strike_rate: Expression = Variable('physical_critical_strike_rate')
     solar_critical_strike_rate: Expression = Variable('solar_critical_strike_rate')
     lunar_critical_strike_rate: Expression = Variable('lunar_critical_strike_rate')
     neutral_critical_strike_rate: Expression = Variable('neutral_critical_strike_rate')
     poison_critical_strike_rate: Expression = Variable('poison_critical_strike_rate')
-
-    @property
-    def physical_critical_strike_extra(self):
-        return 0
-
-    @property
-    def physical_critical_strike_percent(self):
-        return self.base_physical_critical_strike / CRITICAL_STRIKE_SCALE
-
-    @property
-    def solar_critical_strike_percent(self):
-        return self.base_solar_critical_strike / CRITICAL_STRIKE_SCALE
-
-    @property
-    def lunar_critical_strike_percent(self):
-        return self.base_lunar_critical_strike / CRITICAL_STRIKE_SCALE
-
-    @property
-    def neutral_critical_strike_percent(self):
-        return self.base_neutral_critical_strike / CRITICAL_STRIKE_SCALE
-
-    @property
-    def poison_critical_strike_percent(self):
-        return self.base_poison_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def physical_critical_strike(self):
@@ -257,110 +161,25 @@ class CriticalStrike(Major, CriticalPower):
         return getattr(self, kind_type.value + "_critical_power")
 
 
-class Overcome(Major):
-    base_physical_overcome: Expression = Variable('physical_overcome_base')
-    base_solar_overcome: Expression = Variable('solar_overcome_base')
-    base_lunar_overcome: Expression = Variable('lunar_overcome_base')
-    base_neutral_overcome: Expression = Variable('neutral_overcome_base')
-    base_poison_overcome: Expression = Variable('poison_overcome_base')
-
-    physical_overcome_gain: Expression = Variable('physical_overcome_gain')
-    solar_overcome_gain: Expression = Variable('solar_overcome_gain')
-    lunar_overcome_gain: Expression = Variable('lunar_overcome_gain')
-    neutral_overcome_gain: Expression = Variable('neutral_overcome_gain')
-    poison_overcome_gain: Expression = Variable('poison_overcome_gain')
-
-    extra_physical_overcome: Expression = Variable('extra_physical_overcome')
-    extra_solar_overcome: Expression = Variable('extra_solar_overcome')
-    extra_lunar_overcome: Expression = Variable('extra_lunar_overcome')
-    extra_neutral_overcome: Expression = Variable('extra_neutral_overcome')
-    extra_poison_overcome: Expression = Variable('extra_poison_overcome')
-
-    @property
-    def final_physical_overcome(self):
-        overcome = Int(self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE))
-        return overcome + self.extra_physical_overcome
-
-    @property
-    def final_solar_overcome(self):
-        overcome = Int(self.base_solar_overcome * (1 + self.solar_overcome_gain / BINARY_SCALE))
-        return overcome + self.extra_lunar_overcome
-
-    @property
-    def final_lunar_overcome(self):
-        overcome = Int(self.base_lunar_overcome * (1 + self.lunar_overcome_gain / BINARY_SCALE))
-        return overcome + self.extra_lunar_overcome
-
-    @property
-    def final_neutral_overcome(self):
-        overcome = Int(self.base_neutral_overcome * (1 + self.neutral_overcome_gain / BINARY_SCALE))
-        return overcome + self.extra_neutral_overcome
-
-    @property
-    def final_poison_overcome(self):
-        overcome = Int(self.base_poison_overcome * (1 + self.poison_overcome_gain / BINARY_SCALE))
-        return overcome + self.extra_poison_overcome
-
-    @property
-    def physical_overcome(self):
-        return self.final_physical_overcome / OVERCOME_SCALE
-
-    @property
-    def solar_overcome(self):
-        return self.final_solar_overcome / OVERCOME_SCALE
-
-    @property
-    def lunar_overcome(self):
-        return self.final_lunar_overcome / OVERCOME_SCALE
-
-    @property
-    def neutral_overcome(self):
-        return self.final_neutral_overcome / OVERCOME_SCALE
-
-    @property
-    def poison_overcome(self):
-        return self.final_poison_overcome / OVERCOME_SCALE
+class Overcome:
+    physical_overcome: Expression = Variable('physical_overcome')
+    solar_overcome: Expression = Variable('solar_overcome')
+    lunar_overcome: Expression = Variable('lunar_overcome')
+    neutral_overcome: Expression = Variable('neutral_overcome')
+    poison_overcome: Expression = Variable('poison_overcome')
 
 
 class Minor:
-    weapon_damage_base: Expression = Variable('weapon_damage_base')
+    weapon_damage: Expression = Variable('weapon_damage')
     weapon_damage_rand: Expression = Variable('weapon_damage_rand')
-    weapon_damage_gain: Expression = Variable('weapon_damage_gain')
 
-    surplus_base: Expression = Variable('surplus_base')
-    surplus_gain: Expression = Variable('surplus_gain')
+    surplus: Expression = Variable('surplus')
 
-    strain_base: Expression = Variable('strain_base')
-    strain_gain: Expression = Variable('strain_gain')
-    strain_rate: Expression = Variable('strain_rate')
+    strain: Expression = Variable('strain')
 
     all_shield_ignore: Expression = Variable('all_shield_ignore')
 
-    pve_addition: Expression = Variable('pve_addition')
-
-    @property
-    def base_weapon_damage(self):
-        return Int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
-
-    @property
-    def weapon_damage(self):
-        return Int(self.base_weapon_damage + self.weapon_damage_rand / 2)
-
-    @property
-    def surplus(self):
-        return Int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
-
-    @property
-    def base_strain(self):
-        return Int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
-
-    @property
-    def strain_percent(self):
-        return self.base_strain / STRAIN_SCALE
-
-    @property
-    def strain(self):
-        return self.strain_percent + self.strain_rate / BINARY_SCALE
+    pve_addition_base: Expression = Variable('pve_addition_base')
 
 
 class Defense:

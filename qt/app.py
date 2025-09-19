@@ -1,7 +1,7 @@
 import sys
 
 from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import (QApplication, QComboBox, QMainWindow, QTabWidget, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QApplication, QComboBox, QMainWindow, QSizePolicy, QTabWidget, QVBoxLayout, QWidget)
 
 from kungfus import DisplayKungfu, SUPPORT_KUNGFUS
 from qt.component.loop_widget.widget import LoopWidget
@@ -13,7 +13,6 @@ class MainWindow(QMainWindow):
         self.setWindowTitle("")
         self.icon = QIcon("assets/icon.ico")
         self.setWindowIcon(self.icon)
-        # self.setGeometry(100, 100, 1000, 600)
 
         self.kungfus = {str(kungfu.kungfu_id): DisplayKungfu(kungfu) for kungfu in SUPPORT_KUNGFUS}
         # 主体布局
@@ -35,6 +34,7 @@ class MainWindow(QMainWindow):
         if kungfu_id not in self.kungfus:
             return
         self.loop_widget.kungfu = self.kungfus[kungfu_id]
+        self.setGeometry(100, 100, 1200, 800)
         self.tabs.show()
 
 

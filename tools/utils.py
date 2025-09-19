@@ -5,6 +5,8 @@ from pathlib import Path
 
 import pandas as pd
 
+from tools.lua.enums import ATTRIBUTE_TYPE
+
 
 def camel_to_snake(s):
     s1 = re.sub(r'^[a-z0-9]+', '', s)
@@ -31,6 +33,18 @@ def path_to_function(s):
 def get_variable(key_id, level=0):
     return f"_{key_id}_{level}"
 
+
+def process_attr_param(attr, param_1, param_2):
+    param_1 = 0 if not param_1 else int(param_1)
+    param_2 = 0 if not param_2 else int(param_2)
+    if attr == ATTRIBUTE_TYPE.ADD_DAMAGE_BY_DST_MOVE_STATE:
+        if param_1 & 386:
+            return param_2
+        else:
+            return 0
+    if attr.startswith("call_"):
+        return param_1, param_2
+    return param_1 or param_2
 
 def set_comment(instance):
     max_level, comments = instance.max_level, instance.comments

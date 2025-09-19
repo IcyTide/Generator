@@ -120,6 +120,7 @@ class ATTRIBUTE_TYPE(StrEnum):
 
     DAMAGE_TO_MANA_FOR_SELF = ""
 
+    REVIVE = ""
     SILENCE = ""
     IMMUNITY = ""
     IMMUNITY_COMBO_ALL = ""
@@ -150,6 +151,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     SET_ADAPTIVE_SKILL_TYPE = ""
     CALL_REPULSED = ""
     CALL_KNOCKED_DOWN = ""
+    MODIFY_COOL_DOWN = ""
     CLEAR_COOL_DOWN = ""
     DASH = ""
     PULL = ""
@@ -316,7 +318,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     ALL_PHYSICS_DAMAGE_ADD_PERCENT = "physical_damage_addition"
     ALL_MAGIC_DAMAGE_ADD_PERCENT = "magical_damage_addition"
     ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_addition"
-    DST_NPC_DAMAGE_COEFFICIENT = "pve_addition"
+    DST_NPC_DAMAGE_COEFFICIENT = "pve_addition_base"
     GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
 
 

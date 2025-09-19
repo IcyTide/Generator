@@ -1,4 +1,5 @@
 import sys
+from copy import deepcopy
 
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (QApplication, QDialog, QHBoxLayout, QLabel, QPushButton, QSplitter, QTableWidgetItem,
@@ -33,6 +34,7 @@ class LoopWidget(QWidget):
         left_layout.addWidget(self.section_table)
         left_layout.addLayout((btn_layout := QHBoxLayout()))
         btn_layout.addWidget((add_section_btn := QPushButton("Add Section")))
+        btn_layout.addWidget((copy_section_btn := QPushButton("Copy Section")))
         btn_layout.addWidget((del_section_btn := QPushButton("Delete Section")))
 
         # Record Display
@@ -42,6 +44,7 @@ class LoopWidget(QWidget):
         left_layout.addWidget(self.record_table)
         left_layout.addLayout((btn_layout := QHBoxLayout()))
         btn_layout.addWidget((add_record_btn := QPushButton("Add Record")))
+        btn_layout.addWidget((copy_record_btn := QPushButton("Copy Record")))
         btn_layout.addWidget((del_record_btn := QPushButton("Delete Record")))
 
         # Right Panel - Buff and Skill and Dot
@@ -49,7 +52,7 @@ class LoopWidget(QWidget):
 
         # Buff Display
         right_layout.addWidget(QLabel("Buff List"))
-        self.buff_table = Table(["ID", "Level", "Stack", "Type"])
+        self.buff_table = Table(["Name", "ID", "Level", "Stack", "Type"])
         right_layout.addWidget(self.buff_table)
         right_layout.addLayout((btn_layout := QHBoxLayout()))
         btn_layout.addWidget((add_buff_btn := QPushButton("Add Buff")))
@@ -57,7 +60,7 @@ class LoopWidget(QWidget):
 
         # Skill Display
         right_layout.addWidget(QLabel("Skill List"))
-        self.skill_table = Table(["ID", "Level", "Count"])
+        self.skill_table = Table(["Name", "ID", "Level", "Count"])
         right_layout.addWidget(self.skill_table)
 
         right_layout.addLayout((btn_layout := QHBoxLayout()))
@@ -66,7 +69,7 @@ class LoopWidget(QWidget):
 
         # Dot Display
         right_layout.addWidget(QLabel("Dot List"))
-        self.dot_table = Table(["ID", "Level", "Source", "Consume", "Count"])
+        self.dot_table = Table(["Name", "ID", "Level", "Source", "Tick", "Count"])
         right_layout.addWidget(self.dot_table)
 
         right_layout.addLayout((btn_layout := QHBoxLayout()))
@@ -77,11 +80,13 @@ class LoopWidget(QWidget):
         add_section_btn.clicked.connect(self.add_section)
         self.section_table.itemClicked.connect(self.select_section)
         self.section_table.itemDoubleClicked.connect(self.edit_section)
+        copy_section_btn.clicked.connect(self.copy_section)
         del_section_btn.clicked.connect(self.delete_section)
 
         add_record_btn.clicked.connect(self.add_record)
         self.record_table.itemClicked.connect(self.select_record)
         self.record_table.itemDoubleClicked.connect(self.edit_record)
+        copy_record_btn.clicked.connect(self.copy_record)
         del_record_btn.clicked.connect(self.delete_record)
 
         add_buff_btn.clicked.connect(self.add_buff)
@@ -159,6 +164,16 @@ class LoopWidget(QWidget):
             self.refresh_table(self.section_table, self.sections, True)
             self.section_label.setText(dialog.section.name)
 
+    def copy_section(self):
+        if not (section := self.section):
+            return
+        copy_section = deepcopy(section)
+        copy_section.name = f"{copy_section.name} - Copy"
+        self.sections.append(copy_section)
+        self.refresh_table(self.section_table, self.sections, True)
+        self.section_table.selectRow(len(self.sections) - 1)
+        self.section_label.setText(copy_section.name)
+
     def delete_section(self):
         if not (section := self.section):
             return
@@ -190,6 +205,16 @@ class LoopWidget(QWidget):
             record.count = dialog.record.count
             self.refresh_table(self.record_table, self.records, True)
             self.record_label.setText(record.name)
+
+    def copy_record(self):
+        if not (record := self.record):
+            return
+        copy_record = deepcopy(record)
+        copy_record.name = f"{copy_record.name} - Copy"
+        self.records.append(copy_record)
+        self.refresh_table(self.record_table, self.records, True)
+        self.record_table.selectRow(len(self.records) - 1)
+        self.record_label.setText(copy_record.name)
 
     def delete_record(self):
         if not (record := self.record):
@@ -259,7 +284,7 @@ class LoopWidget(QWidget):
     def add_dot(self):
         if not (record := self.record):
             return
-        dialog = DotEditorDialog(items=[987, 654], parent=self)
+        dialog = DotEditorDialog(dots=self.kungfu.dots, parent=self)
         if dialog.exec() == QDialog.DialogCode.Accepted and (dot := dialog.dot):
             record.dots.append(dot)
             self.refresh_table(self.dot_table, record.dots)
@@ -271,7 +296,7 @@ class LoopWidget(QWidget):
         if dot_index < 0:
             return
         dot = record.dots[dot_index]
-        dialog = DotEditorDialog(value=dot, parent=self)
+        dialog = DotEditorDialog(dots=self.kungfu.dots, dot=dot, parent=self)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             record.dots[dot_index] = dialog.dot
             self.refresh_table(self.dot_table, record.dots)
@@ -284,10 +309,3 @@ class LoopWidget(QWidget):
             return
         del record.dots[dot_index]
         self.refresh_table(self.dot_table, record.dots)
-
-
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec())

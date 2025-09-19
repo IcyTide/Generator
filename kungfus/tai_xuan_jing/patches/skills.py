@@ -15,5 +15,19 @@ SKILLS = {
     33588: dict(comments={
         1: "兵主逆",
         2: "天斗旋"
-    })
+    }),
+    42423: dict(comments={
+        1: "",
+        2: "踏斗",
+        3: "踏斗12尺"
+    }),
+    42509: dict(comments={i + 1: f"{i + 1}段" for i in range(2)}),
+    42456: dict(comments={i + 1: f"{i + 1}层" for i in range(7)}),
+    28815: dict(comments={
+        1: "连极阵",
+        2: "踏斗连极阵",
+        3: "踏斗12尺连极阵"
+    }),
+25031: dict(comment="焚如")
+
 }

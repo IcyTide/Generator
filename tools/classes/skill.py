@@ -8,7 +8,7 @@ from tools.classes import AliasBase
 from tools.classes.attribute import Attribute, Target
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE, SKILL_KIND_TYPE
 from tools.settings import skill_settings, skill_txts
-from tools.utils import camel_to_capital, set_patches
+from tools.utils import camel_to_capital, process_attr_param, set_patches
 
 
 class Skill(AliasBase):
@@ -31,10 +31,10 @@ class Skill(AliasBase):
 
     recipe_type: int
 
-    self_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, int, int]]
-    dest_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, int, int]]
-    self_attributes: list[tuple[ATTRIBUTE_TYPE, int, int]]
-    dest_attributes: list[tuple[ATTRIBUTE_TYPE, int, int]]
+    self_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
+    dest_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
+    self_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
+    dest_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
 
     prepare_frames: int = 0
     channel_interval: int = FRAME_PER_SECOND
@@ -93,19 +93,19 @@ class Skill(AliasBase):
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
         if not attr_type:
             return
-        param_1 = 0 if not param_1 else int(param_1)
-        param_2 = 0 if not param_2 else int(param_2)
+        param = process_attr_param(attr_type, param_1, param_2)
+        if not param:
+            return
         if self.recipe_key:
-            param_1 *= self.recipe_key
-            param_2 *= self.recipe_key
+            param *= self.recipe_key
         if attr_effect_mode == ATTRIBUTE_EFFECT_MODE.EFFECT_TO_SELF_AND_ROLLBACK:
-            self.self_rollback_attributes.append((attr_type, param_1, param_2))
+            self.self_rollback_attributes.append((attr_type, param))
         elif attr_effect_mode == ATTRIBUTE_EFFECT_MODE.EFFECT_TO_DEST_AND_ROLLBACK:
-            self.dest_rollback_attributes.append((attr_type, param_1, param_2))
+            self.dest_rollback_attributes.append((attr_type, param))
         elif attr_effect_mode == ATTRIBUTE_EFFECT_MODE.EFFECT_TO_SELF_NOT_ROLLBACK:
-            self.self_attributes.append((attr_type, param_1, param_2))
+            self.self_attributes.append((attr_type, param))
         elif attr_effect_mode == ATTRIBUTE_EFFECT_MODE.EFFECT_TO_DEST_NOT_ROLLBACK:
-            self.dest_attributes.append((attr_type, param_1, param_2))
+            self.dest_attributes.append((attr_type, param))
 
     @property
     def physical_attack_power_cof(self):
@@ -139,16 +139,16 @@ class Skill(AliasBase):
     def formula(self):
         source, target = Attribute(), Target()
         damage_chain = target.damage_chain = DamageChain(source, target, self)
-        for attr, param_1, param_2 in self.self_rollback_attributes:
-            source[attr] += param_2 if param_2 else param_1
-        for attr, param_1, param_2 in self.dest_rollback_attributes:
-            target[attr] += param_2 if param_2 else param_1
+        for attr, param in self.self_rollback_attributes:
+            source[attr] += param
+        for attr, param in self.dest_rollback_attributes:
+            target[attr] += param
         # self not rollback attributes no meaning
-        for attr, param_1, param_2 in self.dest_attributes:
+        for attr, param in self.dest_attributes:
             if callable(target[attr]):
-                target[attr](param_1, param_2)
+                target[attr](*param)
             else:
-                target[attr] += param_2 if param_2 else param_1
+                target[attr] += param
         return damage_chain.to_dict()
 
     def to_dict(self):

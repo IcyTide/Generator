@@ -14,7 +14,7 @@ def parse_dot(dot: Dot):
             for skill_level, skill in skill_levels.items():
                 skill.dest_rollback_attributes, skill.dest_attributes = [], dot.attributes
                 skill.interval, skill.tick = dot.interval, dot.max_tick
-                skill.tick_cof = dot.active_coefficient ** Variable("tick")
+                skill.tick_cof = dot.active_coefficient ** (Variable("tick") - 1)
 
         result[buff_level] = dot
     return result

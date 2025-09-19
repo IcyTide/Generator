@@ -50,7 +50,7 @@ class BuffEditorDialog(QDialog):
             self.belong_combo.setCurrentText(buff.belong)
             self.id_combo.setCurrentText(str(buff.buff_id))
             self.level_combo.setCurrentText(str(buff.buff_level))
-            self.stack_combo.setCurrentText(str(buff.buff_stack))
+            self.stack_combo.setCurrentText(str(buff.stack))
             self.type_combo.setCurrentText(str(buff.buff_type))
 
     def select_belong(self, belong: str):
@@ -81,7 +81,7 @@ class BuffEditorDialog(QDialog):
     def select_stack(self, stack: str):
         if not self.buff or not stack:
             return
-        self.buff.buff_stack = int(stack)
+        self.buff.stack = int(stack)
 
     def select_type(self, buff_type: str):
         if not self.buff:

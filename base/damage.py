@@ -13,7 +13,7 @@ class DamageChain:
     defense: int | Expression
     damage: int | Expression
     critical_damage: int | Expression
-    critical_strike: Expression
+    critical_strike: int | Expression
 
     def __init__(self, source: "Attribute", target: "Target", skill: "Skill"):
         self.source = source
@@ -213,7 +213,7 @@ class DamageChain:
             self.damage *= 1 + self.source.strain
 
     def cal_pve_add(self):
-        rate = 1 + self.source.pve_addition / BINARY_SCALE
+        rate = 1 + self.source.pve_addition_base / BINARY_SCALE
         self.damage *= rate
         if self.need_int:
             self.damage = Int(self.damage)
@@ -226,13 +226,17 @@ class DamageChain:
 
     def cal_critical(self, kind_type: SKILL_KIND_TYPE):
         damage = Variable("damage")
-        if self.need_int:
-            rate = Int(self.source.critical_power(kind_type) * BINARY_SCALE) / BINARY_SCALE
-            self.critical_damage = Int(damage * rate)
+        if not kind_type:
+            self.critical_damage = damage
+            self.critical_strike = 0
         else:
-            rate = self.source.critical_power(kind_type)
-            self.critical_damage = damage * rate
-        self.critical_strike = self.source.critical_strike(kind_type)
+            if self.need_int:
+                rate = Int(self.source.critical_power(kind_type) * BINARY_SCALE) / BINARY_SCALE
+                self.critical_damage = Int(damage * rate)
+            else:
+                rate = self.source.critical_power(kind_type)
+                self.critical_damage = damage * rate
+            self.critical_strike = self.source.critical_strike(kind_type)
 
     def to_dict(self):
         self.cal_critical(self.skill.kind_type)

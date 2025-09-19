@@ -26,4 +26,8 @@ SKILLS = {
             3: "无我无剑9-10豆"
         }
     ),
+    40752: dict(comments={}),
+    42061: dict(comments={i + 1: f"{i + 1}层叠刃" for i in range(7)}),
+    30828: dict(comments={i + 1: f"{i + 1}层" for i in range(3)}),
+
 }
