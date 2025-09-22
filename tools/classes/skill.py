@@ -35,6 +35,7 @@ class Skill(AliasBase):
     dest_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
     self_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
     dest_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
+    buff_recipes: set[tuple[int, int]]
 
     prepare_frames: int = 0
     channel_interval: int = FRAME_PER_SECOND
@@ -67,9 +68,11 @@ class Skill(AliasBase):
         setting_row = skill_settings[skill_settings['SkillID'] == self.skill_id].iloc[0]
         for k, v in setting_row.items():
             setattr(self, k, v)
+        self.max_level = max(1, self.max_level)
         self.kind_type = SKILL_KIND_TYPE[camel_to_capital(self.kind_type)] if self.kind_type else None  # noqa
         self.self_rollback_attributes, self.dest_rollback_attributes = [], []
         self.self_attributes, self.dest_attributes = [], []
+        self.buff_recipes = set()
         if self.script_file:
             self.script_path = Path(self.path) / self.script_file
 
@@ -106,6 +109,9 @@ class Skill(AliasBase):
             self.self_attributes.append((attr_type, param))
         elif attr_effect_mode == ATTRIBUTE_EFFECT_MODE.EFFECT_TO_DEST_NOT_ROLLBACK:
             self.dest_attributes.append((attr_type, param))
+
+    def set_buff_recipe(self, index, recipe_id, recipe_level):
+        self.buff_recipes.add((recipe_id, recipe_level))
 
     @property
     def physical_attack_power_cof(self):

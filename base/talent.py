@@ -1,5 +1,3 @@
-
-
 class Talent:
     def __init__(
             self, skill_id: int,

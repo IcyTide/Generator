@@ -10,7 +10,6 @@ if TYPE_CHECKING:
 
 
 class DamageChain:
-    defense: int | Expression
     damage: int | Expression
     critical_damage: int | Expression
     critical_strike: int | Expression
@@ -20,7 +19,8 @@ class DamageChain:
         self.target = target
         self.skill = skill
 
-        self.defense, self.damage, self.critical_damage, self.rand = 0, 0, 0, Variable("rand")
+        self.damage, self.critical_damage, self.rand = 0, 0, Variable("rand")
+        self.final_damage = 0
 
         self.need_int = False
 
@@ -134,13 +134,14 @@ class DamageChain:
         self.cal_strain()
         self.cal_pve_add()
         self.cal_damage_cof(damage_cof + self.target.coming_damage_cof)
+        self.final_damage += self.damage
 
     def cal_base_damage(self, damage_base, damage_rand):
         damage = damage_base + self.rand * damage_rand
         if self.need_int:
-            self.damage += Int(damage)
+            self.damage = Int(damage)
         else:
-            self.damage += damage
+            self.damage = damage
 
     def cal_attack_power_damage(self, attack_power, attack_power_cof):
         damage = attack_power * attack_power_cof
@@ -157,6 +158,8 @@ class DamageChain:
             self.damage += damage
 
     def cal_weapon_damage(self):
+        if self.skill.interval:
+            return
         damage = (self.source.weapon_damage + self.rand * self.source.weapon_damage_rand) * self.skill.weapon_damage_cof
         if self.need_int:
             self.damage += Int(damage)
@@ -191,13 +194,12 @@ class DamageChain:
         shield = shield * (1 - self.source.all_shield_ignore / BINARY_SCALE)
         if self.need_int:
             shield = Int(shield)
-        self.defense = shield / (shield + shield_constant)
-        defense = Variable("defense")
         if self.need_int:
+            defense = shield / (shield + shield_constant)
             rate = 1 - Int(defense * BINARY_SCALE) / BINARY_SCALE
             self.damage = Int(self.damage * rate)
         else:
-            self.damage *= (1 - defense)
+            self.damage *= shield_constant / (shield + shield_constant)
 
     def cal_level_reduction(self):
         rate = 1 - (self.target.level - self.source.level) * LEVEL_REDUCTION
@@ -243,6 +245,6 @@ class DamageChain:
         # terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
         # recipes = sorted(term for term in terms if term.startswith("_"))
         return dict(
-            defense=str(self.defense), damage=str(self.damage),
+            damage=str(self.damage),
             critical_damage=str(self.critical_damage), critical_strike=str(self.critical_strike)
         )

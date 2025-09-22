@@ -60,7 +60,6 @@ SKILLS = {
     },
     13527: dict(comment="1帧"),
     13529: dict(comment="1帧"),
-    **{skill_id: dict(comments={4: "30700品"}) for skill_id in [22094, 22937, 22953, 23100]},
     32898: dict(comments={
         1: "原始",
         2: "酩酊",
@@ -73,7 +72,7 @@ SKILLS = {
     37397: dict(comments={1: ""}),
     40299: dict(comments={i + 1: f"{i + 1}目标" for i in range(20)}),
     25201: dict(comment="持续"), 25202: dict(comment="触发"),
-14927: dict(comment="1段"), 14928: dict(comment="2段"),
+    14927: dict(comment="1段"), 14928: dict(comment="2段"),
     28952: dict(comments=get_28952_comments()),
     36255: dict(comment="持续"),
     32770: dict(comment="结算", comments={i + 1: f"{i + 1}秒" for i in range(6)})

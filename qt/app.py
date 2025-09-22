@@ -1,7 +1,7 @@
 import sys
 
 from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import (QApplication, QComboBox, QMainWindow, QSizePolicy, QTabWidget, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import (QApplication, QComboBox, QMainWindow, QTabWidget, QVBoxLayout, QWidget)
 
 from kungfus import DisplayKungfu, SUPPORT_KUNGFUS
 from qt.component.loop_widget.widget import LoopWidget

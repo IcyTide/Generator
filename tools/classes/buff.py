@@ -22,16 +22,16 @@ class Buff(AliasBase):
     is_stackable: bool
     is_countable: bool
 
-    max_stack: int
-    max_tick: int
-    interval: int
-
-    attributes: list[tuple[ATTRIBUTE_TYPE, int]] = []
-    recipes: list[tuple[int, int]] = []
+    max_stack: int = 1
+    max_tick: int = 0
+    interval: int = 0
 
     attributes_prefix: str = "begin"
 
     levels: list[int]
+
+    attributes: list[tuple[ATTRIBUTE_TYPE, int]]
+    recipes: list[tuple[int, int]]
     skills: list[int]
     name: str = ""
     comments: dict[int, str] = None
@@ -43,17 +43,19 @@ class Buff(AliasBase):
 
     def __init__(self, buff_id: int, buff_level: int = 0):
         self.buff_id = buff_id
-        self.setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
-        self.max_level = self.setting_rows["Level"].max()
-        self.attributes = []
-        self.recipes = []
-        self.skills = []
-        if buff_level:
+        self.attributes, self.recipes, self.skills = [], [], []
+        if self.buff_id > 0:
+            setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
+            self.max_level = setting_rows["Level"].max()
+            if buff_level:
+                self.buff_level = buff_level
+                setting_row = setting_rows[setting_rows["Level"] == self.buff_level].iloc[0]
+                for k, v in setting_row.items():
+                    setattr(self, k, v)
+                self.get_attributes(self.attributes_prefix)
+        else:
             self.buff_level = buff_level
-            setting_row = self.setting_rows[self.setting_rows["Level"] == self.buff_level].iloc[0]
-            for k, v in setting_row.items():
-                setattr(self, k, v)
-            self.get_attributes(self.attributes_prefix)
+            self.max_level = 1
 
         set_patches(self, BUFF_PATCHES, buff_id, buff_level)
 

@@ -1043,6 +1043,813 @@ BUFFS = {
             }
         }
     },
+    10026: {
+        6363: {
+            1: {
+                "name": "激雷",
+                "comment": "激雷队友",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 6,
+                "attributes": {
+                    "physical_overcome_gain": 256,
+                    "physical_attack_power_gain": 307
+                }
+            },
+            2: {
+                "name": "激雷",
+                "comment": "原始",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 24,
+                "attributes": {
+                    "physical_critical_strike_rate": 3000
+                }
+            },
+            3: {
+                "name": "激雷",
+                "comment": "激雷自身",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 24,
+                "attributes": {
+                    "physical_overcome_gain": 256,
+                    "physical_attack_power_gain": 307,
+                    "physical_critical_strike_rate": 3000
+                }
+            },
+            4: {
+                "name": "激雷",
+                "comment": "夜征",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 72,
+                "attributes": {
+                    "all_shield_ignore": 717,
+                    "physical_critical_strike_rate": 3000
+                }
+            }
+        },
+        6121: {
+            1: {
+                "name": "驰骋",
+                "comment": "原始",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 3,
+                "attributes": {
+                    "physical_attack_power_gain": 154
+                }
+            },
+            2: {
+                "name": "驰骋",
+                "comment": "驰骋",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 3,
+                "attributes": {
+                    "physical_attack_power_gain": 307
+                }
+            }
+        },
+        2779: {
+            1: {
+                "name": "渊",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 358
+                }
+            }
+        },
+        21638: {
+            1: {
+                "name": "龙驭",
+                "interval": 9999,
+                "max_stack": 25,
+                "max_tick": 1,
+                "attributes": {
+                    "coming_damage_cof": 410
+                },
+                "skills": [
+                    18773
+                ]
+            }
+        },
+        7671: {
+            1: {
+                "name": "牧云",
+                "interval": 16,
+                "max_stack": 4,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 300,
+                    "physical_critical_power_rate": 102,
+                    "strain_gain": 51
+                }
+            },
+            2: {
+                "name": "牧云",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 300,
+                    "physical_critical_power_rate": 51
+                }
+            },
+            3: {
+                "name": "牧云",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 600,
+                    "physical_critical_power_rate": 102
+                }
+            },
+            4: {
+                "name": "牧云",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1200,
+                    "physical_critical_power_rate": 204
+                }
+            }
+        },
+        26008: {
+            1: {
+                "name": "战心",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3257_1"
+                ]
+            }
+        },
+        12608: {
+            1: {
+                "name": "风虎",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4504_1",
+                    "_4505_1",
+                    "_4506_1",
+                    "_4507_1"
+                ]
+            },
+            2: {
+                "name": "风虎",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4504_2",
+                    "_4505_2",
+                    "_4506_2",
+                    "_4507_2"
+                ]
+            },
+            3: {
+                "name": "风虎",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4504_3",
+                    "_4505_3",
+                    "_4506_3",
+                    "_4507_3"
+                ]
+            },
+            4: {
+                "name": "风虎",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4504_4",
+                    "_4505_4",
+                    "_4506_4",
+                    "_4507_4"
+                ]
+            },
+            5: {
+                "name": "风虎",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4504_5",
+                    "_4505_5",
+                    "_4506_5",
+                    "_4507_5"
+                ]
+            }
+        }
+    },
+    10081: {
+        409: {
+            21: {
+                "name": "剑舞",
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_attack_power_gain": 154
+                }
+            }
+        },
+        538: {
+            4: {
+                "name": "繁音急节",
+                "comment": "原始",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_attack_power_gain": 461,
+                    "neutral_attack_power_gain": 461,
+                    "poison_attack_power_gain": 461,
+                    "solar_attack_power_gain": 461
+                }
+            },
+            8: {
+                "name": "繁音急节",
+                "comment": "镜花",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_attack_power_gain": 461,
+                    "neutral_attack_power_gain": 461,
+                    "poison_attack_power_gain": 461,
+                    "solar_attack_power_gain": 461
+                }
+            }
+        },
+        10240: {
+            1: {
+                "name": "满堂",
+                "interval": 240,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 800,
+                    "lunar_critical_power_rate": 21
+                }
+            }
+        },
+        31862: {
+            1: {
+                "name": "梦鲤",
+                "interval": 16,
+                "max_stack": 20,
+                "max_tick": 5,
+                "attributes": {
+                    "coming_damage_cof": 102.4
+                },
+                "skills": [
+                    42519
+                ]
+            }
+        },
+        5788: {
+            2: {
+                "name": "枕上",
+                "interval": 160,
+                "max_stack": 5,
+                "max_tick": 1
+            }
+        },
+        15220: {
+            1: {
+                "name": "灼桃",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 1000,
+                    "magical_critical_power_rate": 102
+                }
+            },
+            2: {
+                "name": "灼桃",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 2000,
+                    "magical_critical_power_rate": 205
+                }
+            },
+            3: {
+                "name": "灼桃",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 3000,
+                    "magical_critical_power_rate": 307
+                }
+            },
+            4: {
+                "name": "灼桃",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 4000,
+                    "magical_critical_power_rate": 410
+                }
+            },
+            5: {
+                "name": "灼桃",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 5000,
+                    "magical_critical_power_rate": 512
+                }
+            },
+            6: {
+                "name": "灼桃",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 6000,
+                    "magical_critical_power_rate": 614
+                }
+            }
+        },
+        15912: {
+            1: {
+                "name": "成玉",
+                "interval": 48,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_cof": 102,
+                    "solar_damage_cof": 102,
+                    "neutral_damage_cof": 102,
+                    "lunar_damage_cof": 102,
+                    "poison_damage_cof": 102
+                }
+            }
+        },
+        17010: {
+            1: {
+                "name": "广陵月",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 20
+                }
+            }
+        },
+        25902: {
+            1: {
+                "name": "流玉",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3246_1"
+                ]
+            }
+        },
+        25435: {
+            2: {
+                "name": "剑舞长空",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_power_rate": 154,
+                    "lunar_critical_strike_rate": 500
+                }
+            }
+        },
+        30273: {
+            2: {
+                "name": "霜降",
+                "comment": "1层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5787_2"
+                ]
+            },
+            3: {
+                "name": "霜降",
+                "comment": "2层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5787_3"
+                ]
+            },
+            4: {
+                "name": "霜降",
+                "comment": "3层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5787_4"
+                ]
+            },
+            5: {
+                "name": "霜降",
+                "comment": "4层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5787_5"
+                ]
+            },
+            6: {
+                "name": "霜降",
+                "comment": "5层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5787_6"
+                ]
+            }
+        },
+        30274: {
+            2: {
+                "name": "新妆霜降",
+                "comment": "1层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5788_2"
+                ]
+            },
+            3: {
+                "name": "新妆霜降",
+                "comment": "2层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5788_3"
+                ]
+            },
+            4: {
+                "name": "新妆霜降",
+                "comment": "3层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5788_4"
+                ]
+            },
+            5: {
+                "name": "新妆霜降",
+                "comment": "4层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5788_5"
+                ]
+            },
+            6: {
+                "name": "新妆霜降",
+                "comment": "5层剑舞",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5788_6"
+                ]
+            }
+        },
+        17969: {
+            1: {
+                "name": "化冰",
+                "interval": 2880,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 307
+                }
+            }
+        },
+        12571: {
+            1: {
+                "name": "朝露",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_attack_power_gain": 102
+                }
+            }
+        },
+        29297: {
+            1: {
+                "name": "疾光",
+                "interval": 72,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5651_1"
+                ]
+            }
+        }
+    },
+    10144: {
+        1728: {
+            3: {
+                "name": "莺鸣",
+                "comment": "原始",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000
+                }
+            },
+            4: {
+                "name": "莺鸣",
+                "comment": "残雪",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000,
+                    "physical_attack_power_gain": 154
+                }
+            },
+            5: {
+                "name": "莺鸣",
+                "comment": "残雪+听晓",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000,
+                    "physical_attack_power_gain": 154,
+                    "strain_gain": 307
+                }
+            },
+            6: {
+                "name": "莺鸣",
+                "comment": "听晓",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000,
+                    "strain_gain": 307
+                }
+            },
+            7: {
+                "name": "莺鸣",
+                "comment": "叠锋意",
+                "interval": 16,
+                "max_stack": 3,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 1000,
+                    "physical_critical_power_rate": 256
+                }
+            },
+            8: {
+                "name": "莺鸣",
+                "comment": "残雪+叠锋意",
+                "interval": 16,
+                "max_stack": 3,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 1000,
+                    "physical_critical_power_rate": 256,
+                    "physical_attack_power_gain": 154
+                }
+            }
+        },
+        12317: {
+            1: {
+                "name": "怜光",
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 102
+                }
+            }
+        },
+        21640: {
+            1: {
+                "name": "层云",
+                "comment": "0次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1
+            },
+            2: {
+                "name": "层云",
+                "comment": "1次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2817_1"
+                ]
+            },
+            3: {
+                "name": "层云",
+                "comment": "2次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2818_1"
+                ]
+            },
+            4: {
+                "name": "层云",
+                "comment": "3次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2819_1"
+                ]
+            },
+            5: {
+                "name": "层云",
+                "comment": "4次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2820_1"
+                ]
+            },
+            6: {
+                "name": "层云",
+                "comment": "5次递增",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2821_1"
+                ]
+            }
+        },
+        26988: {
+            1: {
+                "name": "逍遥",
+                "interval": 160,
+                "max_stack": 2,
+                "max_tick": 1,
+                "attributes": {
+                    "weapon_damage_gain": 410,
+                    "physical_attack_power_gain": 102
+                }
+            }
+        },
+        29354: {
+            1: {
+                "name": "百锻",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 11298,
+                    "poison_overcome_base": 11298,
+                    "lunar_overcome_base": 11298,
+                    "neutral_overcome_base": 11298,
+                    "solar_overcome_base": 11298
+                }
+            },
+            2: {
+                "name": "百锻",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 22596,
+                    "poison_overcome_base": 22596,
+                    "lunar_overcome_base": 22596,
+                    "neutral_overcome_base": 22596,
+                    "solar_overcome_base": 22596
+                }
+            },
+            3: {
+                "name": "百锻",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 45192,
+                    "poison_overcome_base": 45192,
+                    "lunar_overcome_base": 45192,
+                    "neutral_overcome_base": 45192,
+                    "solar_overcome_base": 45192
+                }
+            }
+        },
+        2705: {
+            3: {
+                "name": "岱宗",
+                "interval": 480,
+                "max_stack": 4,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 100
+                }
+            }
+        },
+        17976: {
+            2: {
+                "name": "桂雨",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_gain": 307
+                }
+            }
+        },
+        19187: {
+            1: {
+                "name": "凤鸣",
+                "interval": 160,
+                "max_stack": 2,
+                "max_tick": 1,
+                "recipes": [
+                    "_2445_1",
+                    "_2446_1"
+                ]
+            }
+        },
+        20796: {
+            1: {
+                "name": "冰天",
+                "interval": 192,
+                "max_stack": 3,
+                "max_tick": 1,
+                "recipes": [
+                    "_2599_1"
+                ]
+            }
+        },
+        9903: {
+            2: {
+                "name": "造化",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 10,
+                "recipes": [
+                    "_2882_1",
+                    "_2883_1"
+                ]
+            }
+        },
+        9714: {
+            1: {
+                "name": "雾锁",
+                "interval": 112,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 461
+                }
+            }
+        },
+        26207: {
+            1: {
+                "name": "碧归",
+                "interval": 144,
+                "max_stack": 4,
+                "max_tick": 1,
+                "recipes": [
+                    "_3280_1",
+                    "_3281_1",
+                    "_3282_1"
+                ]
+            }
+        }
+    },
     10175: {
         2543: {
             1: {
@@ -1105,6 +1912,507 @@ BUFFS = {
                     "poison_shield_gain": 1024,
                     "poison_attack_power_gain": 512
                 }
+            }
+        }
+    },
+    10224: {
+        3254: {
+            1: {
+                "name": "气魄",
+                "interval": 480,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_gain": 20,
+                    "strength_gain": 20
+                }
+            }
+        },
+        17103: {
+            1: {
+                "name": "追命无声",
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5145_1"
+                ]
+            }
+        },
+        3468: {
+            1: {
+                "name": "心无旁骛",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1500,
+                    "physical_critical_power_rate": 300
+                }
+            }
+        },
+        28225: {
+            1: {
+                "name": "蹑景",
+                "comment": "1层",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5533_1",
+                    "_5945_1"
+                ]
+            }
+        },
+        28226: {
+            1: {
+                "name": "蹑景",
+                "comment": "2层",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5534_1",
+                    "_5946_1"
+                ]
+            }
+        },
+        28227: {
+            1: {
+                "name": "蹑景",
+                "comment": "3层",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5535_1",
+                    "_5947_1"
+                ]
+            }
+        },
+        18036: {
+            2: {
+                "name": "锋锐",
+                "interval": 480,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "weapon_damage_gain": 410
+                }
+            }
+        },
+        10169: {
+            1: {
+                "name": "空山独立",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 103
+                }
+            }
+        },
+        3223: {
+            3: {
+                "name": "雷震子",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_cof": 205,
+                    "poison_damage_cof": 205,
+                    "lunar_damage_cof": 205,
+                    "solar_damage_cof": 205,
+                    "neutral_damage_cof": 205
+                }
+            }
+        },
+        31825: {
+            1: {
+                "name": "追锋断念",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 10,
+                "recipes": [
+                    "_6083_1"
+                ]
+            }
+        },
+        7659: {
+            1: {
+                "name": "命陨",
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 307,
+                    "strain_gain": 154
+                }
+            }
+        },
+        8210: {
+            1: {
+                "name": "心无旁骛",
+                "comment": "聚精凝神",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1500,
+                    "physical_critical_power_rate": 300
+                }
+            }
+        },
+        9981: {
+            1: {
+                "name": "秋风散影",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1000,
+                    "physical_critical_power_rate": 102
+                }
+            }
+        }
+    },
+    10225: {
+        3316: {
+            1: {
+                "name": "扬威",
+                "comment": "神威穿彻",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_attack_power_gain": 512
+                }
+            },
+            2: {
+                "name": "扬威",
+                "comment": "原始",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_attack_power_gain": 512
+                }
+            },
+            3: {
+                "name": "扬威",
+                "comment": "天幕藏锋",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_attack_power_gain": 512
+                }
+            }
+        },
+        3254: {
+            1: {
+                "name": "气魄",
+                "interval": 480,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_gain": 20,
+                    "strength_gain": 20
+                }
+            }
+        },
+        3468: {
+            1: {
+                "name": "心无旁骛",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1500,
+                    "physical_critical_power_rate": 300
+                }
+            }
+        },
+        6105: {
+            1: {
+                "name": "弩心",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_overcome_gain": 154
+                }
+            }
+        },
+        6112: {
+            1: {
+                "name": "千机之威",
+                "interval": 1920,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 154,
+                    "poison_attack_power_gain": 154
+                }
+            }
+        },
+        10005: {
+            1: {
+                "name": "催寒",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 15,
+                "attributes": {
+                    "all_shield_ignore": 512
+                }
+            }
+        },
+        23081: {
+            1: {
+                "name": "擘两分星",
+                "comment": "低于80",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 205
+                }
+            }
+        },
+        23082: {
+            1: {
+                "name": "擘两分星",
+                "comment": "高于20",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2960_1",
+                    "_2961_1",
+                    "_2962_1"
+                ]
+            }
+        },
+        29361: {
+            1: {
+                "name": "易损",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "coming_damage_cof": 102.4
+                },
+                "skills": [
+                    3401,
+                    3404,
+                    31026,
+                    31027
+                ]
+            }
+        },
+        9981: {
+            1: {
+                "name": "秋风散影",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1000,
+                    "physical_critical_power_rate": 102
+                }
+            }
+        },
+        24668: {
+            1: {
+                "name": "杀机断魂",
+                "interval": 4,
+                "max_stack": 20,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 103
+                }
+            }
+        },
+        3281: {
+            1: {
+                "name": "击搏挽裂",
+                "interval": 320,
+                "max_stack": 3,
+                "max_tick": 1,
+                "recipes": [
+                    "_1943_1"
+                ]
+            }
+        },
+        31833: {
+            1: {
+                "name": "天风汲雨",
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 102
+                }
+            }
+        }
+    },
+    10242: {
+        28355: {
+            1: {
+                "name": "烈日",
+                "comment": "自身",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5557_1"
+                ]
+            }
+        },
+        4423: {
+            3: {
+                "interval": 160,
+                "max_stack": 3,
+                "max_tick": 1,
+                "recipes": [
+                    "_4545_1",
+                    "_4546_1"
+                ]
+            }
+        },
+        12487: {
+            1: {
+                "name": "日盈",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5366_1",
+                    "_5897_1"
+                ]
+            }
+        },
+        28142: {
+            1: {
+                "name": "无往不复",
+                "comment": "自身",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5494_1",
+                    "_5495_1"
+                ]
+            }
+        },
+        31456: {
+            1: {
+                "name": "无明业火",
+                "comment": "常驻",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 205
+                }
+            }
+        },
+        6277: {
+            1: {
+                "name": "无明业火",
+                "comment": "背后",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 1000,
+                    "solar_critical_strike_rate": 1000,
+                    "magical_critical_power_rate": 102
+                }
+            }
+        },
+        30644: {
+            1: {
+                "name": "净体不畏",
+                "comment": "列日斩增伤",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5930_1"
+                ]
+            },
+            2: {
+                "name": "净体不畏",
+                "comment": "银月斩增伤",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_5931_1"
+                ]
+            }
+        },
+        4754: {
+            2: {
+                "name": "诛戮",
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_attack_power_gain": 102,
+                    "solar_attack_power_gain": 102
+                }
+            }
+        },
+        12575: {
+            1: {
+                "name": "用晦而明",
+                "comment": "原始",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 410
+                }
+            },
+            2: {
+                "name": "用晦而明",
+                "comment": "强化",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 922
+                }
+            }
+        },
+        25758: {
+            1: {
+                "name": "明光恒照",
+                "comment": "日",
+                "interval": 960,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3225_1",
+                    "_3226_1",
+                    "_3227_1"
+                ]
+            }
+        },
+        25759: {
+            1: {
+                "name": "明光恒照",
+                "comment": "月",
+                "interval": 960,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3222_1",
+                    "_3223_1",
+                    "_3224_1"
+                ]
             }
         }
     },
@@ -1314,6 +2622,179 @@ BUFFS = {
             }
         }
     },
+    10447: {
+        9433: {
+            1: {
+                "name": "阳春白雪",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2136_1",
+                    "_2139_1"
+                ]
+            },
+            2: {
+                "name": "阳春白雪",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2137_1",
+                    "_2140_1"
+                ]
+            },
+            3: {
+                "name": "阳春白雪",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2138_1",
+                    "_2141_1"
+                ]
+            }
+        },
+        30474: {
+            1: {
+                "name": "绝弦",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 9999,
+                "attributes": {
+                    "all_damage_addition": 154
+                }
+            }
+        },
+        31444: {
+            1: {
+                "name": "入月",
+                "interval": 16,
+                "max_stack": 9,
+                "max_tick": 9999,
+                "attributes": {
+                    "all_damage_addition": 20
+                }
+            }
+        },
+        31477: {
+            1: {
+                "name": "鹿鸣",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 40,
+                "attributes": {
+                    "magical_critical_power_rate": 205
+                }
+            }
+        },
+        9570: {
+            1: {
+                "name": "凌冬",
+                "comment": "递增1次",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2203_1"
+                ]
+            },
+            2: {
+                "name": "凌冬",
+                "comment": "递增2次",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2204_1"
+                ]
+            },
+            3: {
+                "name": "凌冬",
+                "comment": "递增3次",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2205_1"
+                ]
+            },
+            4: {
+                "name": "凌冬",
+                "comment": "递增4次",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2206_1"
+                ]
+            },
+            5: {
+                "name": "凌冬",
+                "comment": "递增5次",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2207_1"
+                ]
+            },
+            6: {
+                "name": "凌冬",
+                "comment": "递增6次",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2208_1"
+                ]
+            }
+        },
+        12567: {
+            1: {
+                "name": "凝眉",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 204
+                }
+            }
+        },
+        31476: {
+            1: {
+                "name": "参连",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 102
+                }
+            }
+        },
+        19234: {
+            1: {
+                "name": "豪情",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2469_1"
+                ]
+            }
+        },
+        31543: {
+            1: {
+                "name": "青莲歌",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 9999,
+                "attributes": {
+                    "lunar_attack_power_gain": 205
+                }
+            }
+        }
+    },
     10464: {
         29219: {
             1: {
@@ -1371,6 +2852,17 @@ BUFFS = {
                 "max_tick": 1,
                 "recipes": [
                     "_4311_1"
+                ]
+            }
+        },
+        19499: {
+            1: {
+                "name": "砺锋",
+                "interval": 48,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2509_1"
                 ]
             }
         },
@@ -1584,6 +3076,237 @@ BUFFS = {
                     "_2490_1",
                     "_2493_1"
                 ]
+            }
+        }
+    },
+    10585: {
+        16596: {
+            1: {
+                "name": "崔嵬鬼步",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 6,
+                "attributes": {
+                    "physical_critical_strike_rate": 1500,
+                    "physical_critical_power_rate": 150,
+                    "physical_attack_power_gain": 154
+                }
+            }
+        },
+        15927: {
+            1: {
+                "name": "百节",
+                "comment": "1层",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4965_1",
+                    "_4966_1",
+                    "_4967_1",
+                    "_4968_1"
+                ]
+            }
+        },
+        15928: {
+            1: {
+                "name": "百节",
+                "comment": "2层",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4969_1",
+                    "_4970_1",
+                    "_4971_1",
+                    "_4972_1"
+                ]
+            }
+        },
+        15929: {
+            1: {
+                "name": "百节",
+                "comment": "3层",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4973_1",
+                    "_4974_1",
+                    "_4975_1",
+                    "_4976_1"
+                ]
+            }
+        },
+        15896: {
+            1: {
+                "name": "飞琼",
+                "interval": 960,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_4959_1"
+                ]
+            }
+        },
+        20866: {
+            1: {
+                "name": "星返",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_2612_1"
+                ]
+            }
+        },
+        -40173: {
+            1: {
+                "name": "劲拔",
+                "max_stack": 1,
+                "attributes": {
+                    "coming_damage_cof": 307.2
+                },
+                "skills": [
+                    22489,
+                    22490
+                ]
+            }
+        },
+        15845: {
+            1: {
+                "name": "天堑",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "weapon_damage_gain": 512
+                }
+            }
+        },
+        15893: {
+            1: {
+                "name": "忘断",
+                "interval": 400,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 154,
+                    "strain_gain": 102
+                }
+            }
+        },
+        21588: {
+            1: {
+                "name": "孤路",
+                "comment": "1次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3154_1"
+                ]
+            },
+            2: {
+                "name": "孤路",
+                "comment": "2次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3155_1"
+                ]
+            },
+            3: {
+                "name": "孤路",
+                "comment": "3次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3156_1"
+                ]
+            },
+            4: {
+                "name": "孤路",
+                "comment": "4次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3157_1"
+                ]
+            },
+            5: {
+                "name": "孤路",
+                "comment": "5次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3158_1"
+                ]
+            },
+            6: {
+                "name": "孤路",
+                "comment": "6次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3159_1"
+                ]
+            },
+            7: {
+                "name": "孤路",
+                "comment": "7次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3160_1"
+                ]
+            },
+            8: {
+                "name": "孤路",
+                "comment": "8次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3161_1"
+                ]
+            },
+            9: {
+                "name": "孤路",
+                "comment": "9次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3162_1"
+                ]
+            },
+            10: {
+                "name": "孤路",
+                "comment": "10次递增",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "_3163_1"
+                ]
+            }
+        },
+        15932: {
+            1: {
+                "name": "徵逐",
+                "interval": 208,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 614
+                }
             }
         }
     },

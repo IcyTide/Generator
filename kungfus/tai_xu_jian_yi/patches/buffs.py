@@ -27,7 +27,7 @@ BUFFS: dict[int, dict] = {
             5: "无欲"
         }
     ),
-29451: dict(attributes=[("coming_damage_cof", 512)], skills=[4954]),
-30766: dict(attributes=[("coming_damage_cof", 615)], skills=[4954]),
-21865: dict(name="合虚")
+    29451: dict(attributes=[("coming_damage_cof", 512)], skills=[4954]),
+    30766: dict(attributes=[("coming_damage_cof", 615)], skills=[4954]),
+    21865: dict(name="合虚")
 }

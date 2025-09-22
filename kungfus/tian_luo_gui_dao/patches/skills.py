@@ -1,15 +1,21 @@
 SKILLS = {
-    3480: dict(comment="橙武特效"),
-    3401: dict(comments={1: "原始", **{i + 1: f"激射{i}层" for i in range(1, 31)}}),
-    3404: dict(comments={1: "鬼斧弹药", **{i + 1: f"鬼斧弹药激射{i}层" for i in range(1, 31)}}),
-    3819: dict(comments={
+    3126: dict(comments={
         1: "原始",
-        2: "非侠士激射",
-        3: "侠士激射"
+        2: "千秋万劫",
+        3: "尽刑彻毒",
+        4: "千秋万劫+尽刑彻毒"
     }),
-    3824: dict(comments={
-        1: "鬼斧弹药",
-        2: "鬼斧弹药非侠士激射",
-        3: "鬼斧弹药侠士激射"
-    })
+    3480: dict(comment="橙武特效"),
+    3401: dict(comments={1: ""}),
+    3404: dict(comments={1: "鬼斧弹药"}),
+    3819: dict(comments={1: ""}),
+    3824: dict(comments={1: "鬼斧弹药"}),
+    38760: dict(comments={
+        1: "伤害",
+        2: "DOT"
+    }),
+    26900: dict(comment="连弩"), 26901: dict(comment="重弩"),
+    31026: dict(comment=""), 31027: dict(comment="鬼斧弹药"),
+    42664: {**dict(comments={}), 2: dict(dest_rollback_attributes=[("coming_damage_cof", 1024)])}
+
 }

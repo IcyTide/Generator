@@ -30,6 +30,7 @@ def path_to_function(s):
         s1 = '_' + s1
     return s1
 
+
 def get_variable(key_id, level=0):
     return f"_{key_id}_{level}"
 
@@ -45,6 +46,7 @@ def process_attr_param(attr, param_1, param_2):
     if attr.startswith("call_"):
         return param_1, param_2
     return param_1 or param_2
+
 
 def set_comment(instance):
     max_level, comments = instance.max_level, instance.comments

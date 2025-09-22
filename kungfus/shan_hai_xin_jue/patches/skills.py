@@ -12,6 +12,6 @@ SKILLS = {
     36113: dict(comment="鹰"),
     36114: dict(comment="熊"),
     36172: dict(comments={
-        i + 1:f"蓄力{i + 1}段({delay})帧" for i, delay in enumerate([0, 9, 17, 25])
+        i + 1: f"蓄力{i + 1}段({delay})帧" for i, delay in enumerate([0, 9, 17, 25])
     }),
 }

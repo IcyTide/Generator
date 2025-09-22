@@ -22,6 +22,6 @@ SKILLS: dict[str, list[int]] = dict(
         20323,
     ],
     装备=[
-        25783, 25457
+        25783
     ]
 )

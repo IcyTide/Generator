@@ -24,7 +24,7 @@ class Dot(Buff):
             return {
                 "name": self.get_name(self.buff_id, self.buff_level),
                 "comment": self.comment,
-                "interval": int(self.interval),
+                "interval": str(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
                 "skills": self.sources

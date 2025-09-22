@@ -1,10 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from base.buff import Buff
-from base.dot import Dot
 from base.record import Record
-from base.skill import Skill
 
 
 @dataclass

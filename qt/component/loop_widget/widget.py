@@ -1,8 +1,7 @@
-import sys
 from copy import deepcopy
 
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import (QApplication, QDialog, QHBoxLayout, QLabel, QPushButton, QSplitter, QTableWidgetItem,
+from PySide6.QtWidgets import (QDialog, QHBoxLayout, QLabel, QPushButton, QSplitter, QTableWidgetItem,
                                QVBoxLayout, QWidget)
 
 from base.section import Section

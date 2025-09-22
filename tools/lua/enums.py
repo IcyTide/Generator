@@ -119,7 +119,14 @@ class ATTRIBUTE_TYPE(StrEnum):
     POISON_MAGIC_REFLECTION_PERCENT = ""
 
     DAMAGE_TO_MANA_FOR_SELF = ""
+    DAMAGE_TO_LIFE_FOR_SELF = ""
+    REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""
+    SRC_CALL_COMMON_DETACH_BUFF_SCRIPT = ""
 
+    DASH = ""
+    PULL = ""
+    HALT = ""
+    SPOOF = ""
     REVIVE = ""
     SILENCE = ""
     IMMUNITY = ""
@@ -153,8 +160,6 @@ class ATTRIBUTE_TYPE(StrEnum):
     CALL_KNOCKED_DOWN = ""
     MODIFY_COOL_DOWN = ""
     CLEAR_COOL_DOWN = ""
-    DASH = ""
-    PULL = ""
     DASH_TO_POINT = ""
     SKILL_MOVE = ""
     DIRECT_CAST_MASK = ""
@@ -251,6 +256,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     UNLIMIT_CRITICAL_DAMAGE_POWER_KILO_NUM_RATE = "all_critical_power_rate"
 
     # Minor Attribute
+    MELEE_WEAPON_DAMAGE_PERCENT = "weapon_damage_gain"
     SURPLUS_VALUE_ADD_PERCENT = "surplus_gain"
     STRAIN_BASE = "strain_base"
     STRAIN_PERCENT = "strain_gain"
@@ -259,6 +265,7 @@ class ATTRIBUTE_TYPE(StrEnum):
 
     # Defense Attribute
     PARRY_BASE = ""
+    PARRY_BASE_RATE = ""
 
     PHYSICS_SHIELD_BASE = "physical_shield_base"
     MAGIC_SHIELD = "magical_shield_base"

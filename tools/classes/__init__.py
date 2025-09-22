@@ -36,7 +36,6 @@ class AliasBase:
     def empty_func(*args):
         return
 
-
     def get_name(self, id_value, level):
         return self.get_txt_field(id_value, level, "Name")
 

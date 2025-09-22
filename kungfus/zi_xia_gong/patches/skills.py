@@ -13,9 +13,6 @@ SKILLS = {
         1: "原始",
         2: "万物"
     }),
-    **{
-        skill_id: dict(comments={4: "30700品"}) for skill_id in [23104, 23107]
-    },
     32813: dict(
         comments={
             1: "两仪化形6-7豆",

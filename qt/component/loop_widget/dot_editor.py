@@ -3,7 +3,6 @@ from copy import deepcopy
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
 from base.dot import Dot
-from base.skill import Skill
 from qt import ComboBox, LabelRow
 from qt.component.loop_widget.skill_editor import SkillEditorDialog
 
