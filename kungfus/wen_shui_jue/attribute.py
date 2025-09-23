@@ -1,1 +1,4 @@
 ATTRIBUTE = 10144
+KIND = "外功"
+SCHOOL = "藏剑"
+MAJOR = "身法"

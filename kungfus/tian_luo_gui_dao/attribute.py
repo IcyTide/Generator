@@ -1,1 +1,4 @@
 ATTRIBUTE = 10225
+KIND = "内功"
+SCHOOL = "唐门"
+MAJOR = "元气"

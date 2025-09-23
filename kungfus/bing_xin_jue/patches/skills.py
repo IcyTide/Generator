@@ -5,7 +5,7 @@ SKILLS = {
     18716: dict(comment="剑气长江/琼霄/霜天剑泠/钗燕/镜花"),
     40182: dict(comments={
         1: "原始",
-        **{i + 2: f"步生花{i}层" for i in range(2)}
+        **{i + 2: f"步生花{i + 1}层" for i in range(2)}
     }),
     37308: dict(comments={i + 1: f"{i + 1}层急曲" for i in range(3)}),
     40289: dict(comments={i + 1: f"{i + 3}跳" for i in range(6)}),

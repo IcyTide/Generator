@@ -12,22 +12,29 @@ DOTS = {
                         29: {
                             "name": "横扫六合",
                             "comment": "",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.3689236111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4053819444444444) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         },
                         58: {
                             "name": "横扫六合",
                             "comment": "我闻",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.3689236111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4053819444444444) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         }
                     },
                     28539: {
-                        58: {
+                        29: {
                             "name": "",
                             "comment": "无诤",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.1111111111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        },
+                        58: {
+                            "name": "",
+                            "comment": "无诤(我闻)",
                             "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.1111111111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
@@ -37,14 +44,14 @@ DOTS = {
                         29: {
                             "name": "横扫六合",
                             "comment": "原始",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4253472222222222) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         },
                         58: {
                             "name": "横扫六合",
                             "comment": "我闻",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4253472222222222) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         }
@@ -53,14 +60,14 @@ DOTS = {
                         29: {
                             "name": "横扫六合",
                             "comment": "幻身单目标",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6388888888888888) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.703125) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         },
                         58: {
                             "name": "横扫六合",
                             "comment": "幻身单目标(我闻)",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6388888888888888) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.703125) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         }
@@ -78,22 +85,29 @@ DOTS = {
                         29: {
                             "name": "横扫六合",
                             "comment": "",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.3689236111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4053819444444444) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         },
                         58: {
                             "name": "横扫六合",
                             "comment": "我闻",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.3689236111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4053819444444444) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         }
                     },
                     28539: {
-                        58: {
+                        29: {
                             "name": "",
                             "comment": "无诤",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.1111111111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
+                            "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
+                        },
+                        58: {
+                            "name": "",
+                            "comment": "无诤(我闻)",
                             "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.1111111111111111) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
@@ -103,14 +117,14 @@ DOTS = {
                         29: {
                             "name": "横扫六合",
                             "comment": "原始",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4253472222222222) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         },
                         58: {
                             "name": "横扫六合",
                             "comment": "我闻",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.38715277777777773) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.4253472222222222) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         }
@@ -119,14 +133,14 @@ DOTS = {
                         29: {
                             "name": "横扫六合",
                             "comment": "幻身单目标",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6388888888888888) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.703125) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         },
                         58: {
                             "name": "横扫六合",
                             "comment": "幻身单目标(我闻)",
-                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.6388888888888888) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(45 + (int(base_solar_attack_power * (1 + solar_attack_power_gain / 1024)) + extra_solar_attack_power) * 0.703125) * (1 + magical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + solar_overcome) * (7350.42 * target_level - 829547.4) / (int(solar_shield_base * (1 + solar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power_percent + (1792 + solar_critical_power_rate + 205 * _5157_1) / 1024)",
                             "critical_strike": "solar_critical_strike_percent + (solar_critical_strike_rate + 1000 * _5157_1) / 10000"
                         }
@@ -603,7 +617,7 @@ DOTS = {
                         30: {
                             "name": "",
                             "comment": "",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(694.5747984224284 * (1 + 0.19999999999999996 * _3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(729.3035383435499 * (1 + 0.19999999999999996 * _3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
                             "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
@@ -623,7 +637,7 @@ DOTS = {
                         30: {
                             "name": "破风",
                             "comment": "",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(694.5747984224284 * (1 + 0.19999999999999996 * _3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(729.3035383435499 * (1 + 0.19999999999999996 * _3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
                             "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }
@@ -643,7 +657,7 @@ DOTS = {
                         30: {
                             "name": "",
                             "comment": "",
-                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(694.5747984224284 * (1 + 0.19999999999999996 * _3257_1)) * 0.0008928571428571428) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(60 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * int(729.3035383435499 * (1 + 0.19999999999999996 * _3257_1)) * 0.0008928571428571428) * (1 + physical_damage_addition / 1024) * (1 + move_state_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
                             "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
                         }

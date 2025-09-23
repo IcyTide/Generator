@@ -1,10 +1,5 @@
 BUFFS: dict[int, dict] = {
-    31624: dict(
-        name="落笼簿",
-        comments={
-            1: "原始",
-            2: "联套"
-        }),
+    31624: dict(name="落笼簿", comments={1: ""}),
     31755: dict(comments={
         1: "原始",
         2: "双音"

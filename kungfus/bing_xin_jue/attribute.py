@@ -1,1 +1,4 @@
 ATTRIBUTE = 10081
+KIND = "内功"
+SCHOOL = "七秀"
+MAJOR = "根骨"

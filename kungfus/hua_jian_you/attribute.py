@@ -1,1 +1,4 @@
 ATTRIBUTE = 10021
+KIND = "内功"
+SCHOOL = "万花"
+MAJOR = "元气"

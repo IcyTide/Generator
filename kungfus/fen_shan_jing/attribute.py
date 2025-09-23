@@ -1,1 +1,4 @@
 ATTRIBUTE = 10390
+KIND = "外功"
+SCHOOL = "苍云"
+MAJOR = "身法"

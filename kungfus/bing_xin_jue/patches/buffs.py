@@ -4,7 +4,6 @@ BUFFS: dict[int, dict] = {
         4: "原始",
         8: "镜花"
     }),
-    31862: dict(attributes=[("coming_damage_cof", 102.4)], skills=[42519]),
     15220: dict(name="灼桃", comments={}),
     15912: dict(comments={1: ""}),
     17010: dict(name="广陵月"),

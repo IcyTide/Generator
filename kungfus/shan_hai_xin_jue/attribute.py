@@ -1,1 +1,4 @@
 ATTRIBUTE = 10756
+KIND = "外功"
+SCHOOL = "万灵"
+MAJOR = "身法"

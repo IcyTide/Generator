@@ -1036,7 +1036,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 358,
+                    "magical_attack_power_percent": 205,
                     "strain_gain": 205,
                     "all_shield_ignore": 666
                 }
@@ -1303,20 +1303,6 @@ BUFFS = {
                     "lunar_critical_strike_rate": 800,
                     "lunar_critical_power_rate": 21
                 }
-            }
-        },
-        31862: {
-            1: {
-                "name": "梦鲤",
-                "interval": 16,
-                "max_stack": 20,
-                "max_tick": 5,
-                "attributes": {
-                    "coming_damage_cof": 102.4
-                },
-                "skills": [
-                    42519
-                ]
             }
         },
         5788: {
@@ -2025,17 +2011,6 @@ BUFFS = {
                     "solar_damage_cof": 205,
                     "neutral_damage_cof": 205
                 }
-            }
-        },
-        31825: {
-            1: {
-                "name": "追锋断念",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 10,
-                "recipes": [
-                    "_6083_1"
-                ]
             }
         },
         7659: {
@@ -3558,7 +3533,7 @@ BUFFS = {
                 "max_stack": 5,
                 "max_tick": 19,
                 "attributes": {
-                    "all_damage_addition": 62
+                    "all_damage_addition": 41
                 }
             }
         },
@@ -3824,24 +3799,12 @@ BUFFS = {
         31624: {
             1: {
                 "name": "落笼簿",
-                "comment": "原始",
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
                     "_6002_1",
                     "_6004_1",
                     "_6005_1"
-                ]
-            },
-            2: {
-                "name": "落笼簿",
-                "comment": "联套",
-                "max_stack": 1,
-                "max_tick": 1,
-                "recipes": [
-                    "_6010_1",
-                    "_6011_1",
-                    "_6012_1"
                 ]
             }
         },

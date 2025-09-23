@@ -1,1 +1,4 @@
 ATTRIBUTE = 10003
+KIND = "内功"
+SCHOOL = "少林"
+MAJOR = "元气"

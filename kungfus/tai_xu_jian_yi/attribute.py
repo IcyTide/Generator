@@ -1,1 +1,4 @@
 ATTRIBUTE = 10015
+KIND = "外功"
+SCHOOL = "纯阳"
+MAJOR = "身法"

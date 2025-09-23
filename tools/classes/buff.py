@@ -71,7 +71,9 @@ class Buff(AliasBase):
             if not attr_type:
                 continue
             param_1, param_2 = getattr(self, f'{prefix}_value{i}_a'), getattr(self, f'{prefix}_value{i}_b')
-            if attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
+            if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
+                pass
+            elif attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
                 self.recipes.append((int(param_1), int(param_2)))
             elif param := process_attr_param(attr_type, param_1, param_2):
                 self.attributes.append((attr_type, param))

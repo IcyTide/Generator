@@ -35,3 +35,56 @@ SHIELD_BASE_MAP = {
 }
 
 BASE_CRITICAL_POWER = 1792
+
+
+# Ui Constant
+QUALITY_COF = {
+    1: 1,
+    2: 1.4,
+    3: 1.6,
+    4: 1.8,
+    5: 2.5
+}
+POSITION_COF = {
+    0: 1.2,
+    1: 0.6,
+    2: 1,
+    3: 0.9,
+    4: 0.5,
+    5: 0.5,
+    6: 0.7,
+    7: 0.5,
+    8: 1,
+    9: 0.7,
+    10: 0.7,
+}
+POSITION_MAP = {
+    0: "primary_weapon",
+    1: "tertiary_weapon",
+    2: "jacket",
+    3: "hat",
+    4: "necklace",
+    5: "ring",
+    6: "belt",
+    7: "pendant",
+    8: "bottoms",
+    9: "shoes",
+    10: "wrist",
+}
+
+MAX_EMBED_LEVEL = 8
+
+EMBED_POSITIONS = {
+    "hat": 2,
+    "jacket": 2,
+    "belt": 2,
+    "wrist": 2,
+    "bottoms": 2,
+    "shoes": 2,
+    "necklace": 1,
+    "pendant": 1,
+    "ring": 0,
+    "tertiary_weapon": 1,
+    "primary_weapon": 3,
+    "secondary_weapon": 3
+}

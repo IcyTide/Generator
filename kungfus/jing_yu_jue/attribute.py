@@ -1,1 +1,4 @@
 ATTRIBUTE = 10224
+KIND = "外功"
+SCHOOL = "唐门"
+MAJOR = "力道"

@@ -1,1 +1,4 @@
 ATTRIBUTE = 10026
+KIND = "外功"
+SCHOOL = "天策"
+MAJOR = "力道"

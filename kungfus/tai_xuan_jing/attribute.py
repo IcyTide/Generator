@@ -1,1 +1,4 @@
 ATTRIBUTE = 10615
+KIND = "内功"
+SCHOOL = "衍天"
+MAJOR = "元气"

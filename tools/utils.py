@@ -31,8 +31,10 @@ def path_to_function(s):
     return s1
 
 
-def get_variable(key_id, level=0):
-    return f"_{key_id}_{level}"
+def get_variable(key_id, level=0, prefix="_"):
+    if not level:
+        return f"{prefix}{key_id}"
+    return f"{prefix}{key_id}{prefix}{level}"
 
 
 def process_attr_param(attr, param_1, param_2):

@@ -14,7 +14,10 @@ SKILLS = {
         2: "拿云式",
         3: "贪破"
     }),
-    28539: dict(comment="无诤"),
+    28539: dict(comment="无诤", comments={
+        29: "",
+        58: "(我闻)"
+    }),
     42407: dict(comments={i + 1: f"{i}层" for i in range(3)}),
     3814: dict(comment="众嗔"),
     37376: dict(comments={i + 1: f"{i * 3000}体质" for i in range(5)}),

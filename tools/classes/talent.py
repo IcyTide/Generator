@@ -18,7 +18,9 @@ class Talent(Skill):
             setattr(self, k, v)
 
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
-        if attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
+        if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
+            pass
+        elif attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
             self.recipes.append((int(param_1), int(param_2)))
         else:
             super().add_attribute(attr_effect_mode, attr_type, param_1, param_2)

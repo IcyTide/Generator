@@ -1,1 +1,4 @@
 ATTRIBUTE = 10698
+KIND = "外功"
+SCHOOL = "刀宗"
+MAJOR = "力道"

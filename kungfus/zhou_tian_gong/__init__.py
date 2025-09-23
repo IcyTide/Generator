@@ -1,4 +1,4 @@
-from kungfus.zhou_tian_gong.attribute import ATTRIBUTE
+from kungfus.zhou_tian_gong.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
 from kungfus.zhou_tian_gong.buffs import BUFFS
 from kungfus.zhou_tian_gong.dots import DOTS
 from kungfus.zhou_tian_gong.patches import BUFF_PATCHES, SKILL_PATCHES

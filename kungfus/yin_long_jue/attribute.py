@@ -1,1 +1,4 @@
 ATTRIBUTE = 10585
+KIND = "外功"
+SCHOOL = "凌雪"
+MAJOR = "身法"

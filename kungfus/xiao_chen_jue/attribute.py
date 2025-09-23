@@ -1,1 +1,4 @@
 ATTRIBUTE = 10268
+KIND = "外功"
+SCHOOL = "丐帮"
+MAJOR = "力道"

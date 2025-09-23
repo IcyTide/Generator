@@ -1,4 +1,4 @@
-from kungfus.ling_hai_jue.attribute import ATTRIBUTE
+from kungfus.ling_hai_jue.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
 from kungfus.ling_hai_jue.buffs import BUFFS
 from kungfus.ling_hai_jue.dots import DOTS
 from kungfus.ling_hai_jue.patches import BUFF_PATCHES, SKILL_PATCHES

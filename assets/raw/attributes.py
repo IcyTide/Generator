@@ -55,7 +55,7 @@ ATTRIBUTES = {
             "physical_shield_base": 2850,
             "spunk_to_neutral_attack_power": 2079,
             "spunk_to_neutral_overcome": 205,
-            "pve_addition_base": 338,
+            "pve_addition_base": 474,
             "magical_attack_power_base": 7242
         },
         "recipes": [
@@ -311,7 +311,7 @@ ATTRIBUTES = {
             "agility_to_physical_critical_strike": 696,
             "physical_critical_strike_base": 9025,
             "physical_attack_power_base": 6187,
-            "pve_addition_base": 103
+            "pve_addition_base": 215
         },
         "recipes": [
             "_1711_1",
@@ -358,7 +358,7 @@ ATTRIBUTES = {
             "spirit_to_lunar_attack_power": 1974,
             "spirit_to_lunar_critical_strike": 512,
             "lunar_critical_strike_base": 2412,
-            "pve_addition_base": 512
+            "pve_addition_base": 358
         },
         "desc": "无相楼秘传心法，化气凝丝，绕指无形。无相楼弟子以内力为引，凝气成丝，藏于掌中方寸，刚则化刃疾攻，柔可织罗缚敌；协以牵丝伶影同战，丝牵影动，形影变换，杀机暗藏。"
     }

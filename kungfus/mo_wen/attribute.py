@@ -1,1 +1,4 @@
 ATTRIBUTE = 10447
+KIND = "内功"
+SCHOOL = "长歌"
+MAJOR = "根骨"

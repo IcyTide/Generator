@@ -1,1 +1,4 @@
 ATTRIBUTE = 10786
+KIND = "内功"
+SCHOOL = "段氏"
+MAJOR = "元气"

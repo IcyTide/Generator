@@ -9,7 +9,7 @@ class SectionEditorDialog(QDialog):
 
     def __init__(self, value: Section = None, parent: QWidget = None):
         super().__init__(parent)
-        self.setWindowTitle("Edit Record")
+        self.setWindowTitle("Edit Section")
         layout = QVBoxLayout(self)
 
         if value:

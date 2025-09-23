@@ -1,1 +1,4 @@
 ATTRIBUTE = 10533
+KIND = "外功"
+SCHOOL = "蓬莱"
+MAJOR = "身法"

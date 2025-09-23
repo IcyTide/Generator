@@ -1,4 +1,4 @@
-from kungfus.tian_luo_gui_dao.attribute import ATTRIBUTE
+from kungfus.tian_luo_gui_dao.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
 from kungfus.tian_luo_gui_dao.buffs import BUFFS
 from kungfus.tian_luo_gui_dao.dots import DOTS
 from kungfus.tian_luo_gui_dao.patches import BUFF_PATCHES, SKILL_PATCHES

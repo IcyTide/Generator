@@ -1,1 +1,4 @@
 ATTRIBUTE = 10242
+KIND = "内功"
+SCHOOL = "明教"
+MAJOR = "元气"

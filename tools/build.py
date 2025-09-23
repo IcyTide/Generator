@@ -9,6 +9,7 @@ from tools.classes.dot import Dot
 from tools.classes.recipe import Recipe
 from tools.classes.skill import Skill
 from tools.classes.talent import Talent
+from tools.generate import generate
 from tools.parser.recipe import parse_recipe
 from tools.parser.talent import parse_talent
 from tools.utils import save_code

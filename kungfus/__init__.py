@@ -17,6 +17,9 @@ class Kungfu:
         BUFF_PATCHES.update(kungfu.BUFF_PATCHES)
         SKILL_PATCHES.update(kungfu.SKILL_PATCHES)
         self.kungfu_id = self.attribute = kungfu.ATTRIBUTE
+        self.kind = kungfu.KIND
+        self.major = kungfu.MAJOR
+        self.school = kungfu.SCHOOL
         self.buffs = kungfu.BUFFS
         self.dots = kungfu.DOTS
         self.recipes = kungfu.RECIPES
@@ -28,6 +31,9 @@ class DisplayKungfu:
     def __init__(self, kungfu: Kungfu):
         self.kungfu_id = kungfu.attribute
         self.attribute = ATTRIBUTES[self.kungfu_id]
+        self.kind = kungfu.kind
+        self.major = kungfu.major
+        self.school = kungfu.school
         buffs, dots, skills = kungfu.buffs, kungfu.dots, kungfu.skills
         self.talents = {}
         for talents in kungfu.talents:

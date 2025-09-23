@@ -1,1 +1,4 @@
 ATTRIBUTE = 10464
+KIND = "外功"
+SCHOOL = "霸刀"
+MAJOR = "力道"

@@ -1,1 +1,4 @@
 ATTRIBUTE = 10175
+KIND = "内功"
+SCHOOL = "五毒"
+MAJOR = "根骨"

@@ -1,1 +1,4 @@
 ATTRIBUTE = 10821
+KIND = "内功"
+SCHOOL = ""
+MAJOR = "根骨"
