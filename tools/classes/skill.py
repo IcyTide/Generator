@@ -1,6 +1,7 @@
 from pathlib import Path
 
-from base.constant import BINARY_SCALE, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, PHYSICAL_DAMAGE_SCALE
+from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, \
+    PHYSICAL_DAMAGE_SCALE
 from base.damage import DamageChain
 from base.expression import Expression, Int
 from kungfus import SKILL_PATCHES
@@ -44,6 +45,10 @@ class Skill(AliasBase):
     use_skill_coefficient: bool
 
     damage_addition: int = 0
+
+    skill_coefficient: int = 0
+    dot_coefficient: int = 0
+    surplus_coefficient: int = 0
 
     script_file: str
     path: str
@@ -117,7 +122,10 @@ class Skill(AliasBase):
     def physical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
+        if self.skill_coefficient:
+            frames = self.skill_coefficient
+        else:
+            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
         interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
         interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
@@ -127,7 +135,10 @@ class Skill(AliasBase):
     def magical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
+        if self.skill_coefficient:
+            frames = self.skill_coefficient
+        else:
+            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
         interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
         interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
@@ -140,6 +151,13 @@ class Skill(AliasBase):
         if not self.weapon_request:
             return 0
         return Int(self.weapon_damage_percent) / BINARY_SCALE
+
+    @property
+    def surplus_cof(self):
+        if self.surplus_coefficient:
+            return self.surplus_coefficient / BINARY_SCALE
+        else:
+            return DEFAULT_SURPLUS_COF
 
     @property
     def formula(self):

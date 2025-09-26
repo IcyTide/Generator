@@ -72,7 +72,13 @@ POSITION_MAP = {
     10: "wrist",
 }
 
+MAX_BASE_ATTR = 6
+MAX_MAGIC_ATTR = 16
+MAX_EMBED_ATTR = 3
+
+MAX_STRENGTH_LEVEL = 8
 MAX_EMBED_LEVEL = 8
+MAX_STONE_ATTR = 3
 
 EMBED_POSITIONS = {
     "hat": 2,
@@ -88,3 +94,17 @@ EMBED_POSITIONS = {
     "primary_weapon": 3,
     "secondary_weapon": 3
 }
+
+def ROUND(num):
+    return int(num + 0.5)
+
+def EMBED_COF(level):
+    if level > 6:
+        cof =  (level * 0.65 - 3.2) * 1.3
+    else:
+        cof =  level * 0.195
+    return cof / 27800 * 32000
+
+
+def STRENGTH_COF(level):
+    return level * (0.7 + 0.3 * level) / 200

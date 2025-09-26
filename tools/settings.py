@@ -22,6 +22,6 @@ item_settings = read_tab("ui/scheme/case/Item.txt")
 
 buff_recipe_settings = read_tab("settings/skill/buffrecipe.tab")
 
-skill_txts = read_tab("ui/scheme/case/skill.txt")
+skill_txts = read_tab("ui/scheme/case/skill.txt", "ui/scheme/case_mobile/skill.txt")
 recipe_txts = read_tab("ui/scheme/case/skillrecipetable.txt")
-buff_txts = read_tab("ui/scheme/case/buff.txt")
+buff_txts = read_tab("ui/scheme/case/buff.txt", "ui/scheme/case_mobile/buff.txt")

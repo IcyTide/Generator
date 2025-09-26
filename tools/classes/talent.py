@@ -10,6 +10,9 @@ class Talent(Skill):
 
     recipes: list[tuple[int, int]]
 
+    critical_type: str = ""
+    damage_type: str = ""
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args)
         self.recipes = []
@@ -20,6 +23,9 @@ class Talent(Skill):
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
             pass
+        elif attr_type == ATTRIBUTE_TYPE.SET_ADAPTIVE_SKILL_TYPE:
+            self.critical_type = param_1
+            self.damage_type = param_2
         elif attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
             self.recipes.append((int(param_1), int(param_2)))
         else:
@@ -34,7 +40,9 @@ class Talent(Skill):
                 "buffs": self.buffs,
                 "dots": self.dots,
                 "skills": self.skills,
-                "desc": self.get_desc(self.skill_id, self.skill_level)
+                "desc": self.get_desc(self.skill_id, self.skill_level),
+                "critical_type": self.critical_type,
+                "damage_type": self.damage_type
             }
         else:
             return {}

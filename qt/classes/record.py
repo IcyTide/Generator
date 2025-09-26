@@ -1,9 +1,9 @@
 from dataclasses import dataclass
 from typing import List
 
-from base.buff import Buff
-from base.dot import Dot
-from base.skill import Skill
+from qt.classes.buff import Buff
+from qt.classes.dot import Dot
+from qt.classes.skill import Skill
 
 
 @dataclass

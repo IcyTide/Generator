@@ -1,7 +1,7 @@
 from pandas import DataFrame
 from tqdm import tqdm
 
-from base.constant import POSITION_COF, POSITION_MAP, QUALITY_COF
+from base.constant import *
 from kungfus import SUPPORT_KUNGFUS
 from tools.lua.enums import ATTRIBUTE_TYPE
 from tools.settings import *
@@ -39,9 +39,6 @@ ATTR_ABBR = {
 }
 SECONDARY_WEAPON_DETAIL_TYPE = 9
 
-MAX_BASE_ATTR = 6
-MAX_MAGIC_ATTR = 16
-MAX_EMBED_ATTR = 3
 MAX_SET_COUNT = 4
 MAX_SET_ATTR = 4
 
@@ -122,7 +119,8 @@ def get_equip_detail(row):
                 attr_type = ATTRIBUTE_TYPE[attr]  # noqa
                 if not attr_type:
                     continue
-                sets[i + 1] = {}
+                if i + 1 not in sets:
+                    sets[i + 1] = {}
                 if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
                     if "gains" not in sets[i + 1]:
                         sets[i + 1]["gains"] = []
@@ -152,7 +150,12 @@ def get_equip_list(equip_tab):
         position = POSITION_MAP[row.SubType]  # noqa
         if position not in results:
             results[position] = {}
-        results[position][name] = detail
+        school, kind = detail['school'], detail['kind']
+        if school not in results[position]:
+            results[position][school] = {}
+        if kind not in results[position][school]:
+            results[position][school][kind] = {}
+        results[position][school][kind][name] = detail
     return results
 
 

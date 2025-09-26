@@ -1,18 +1,14 @@
-from collections.abc import Callable
-
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (QHBoxLayout, QLabel, QPushButton, QSplitter, QVBoxLayout, QWidget)
 
-from base.section import Section
-from kungfus import DisplayKungfu
+from qt.classes.kungfu import DisplayKungfu
+from qt.classes.section import Section
 from qt import LabelRow, Table
 
 
 class LoopWidget(QWidget):
     kungfu: DisplayKungfu
     sections: list[Section]
-
-    init_loop: Callable
 
     @property
     def section(self):

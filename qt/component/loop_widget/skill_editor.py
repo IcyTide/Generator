@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
-from base.skill import Skill
+from qt.classes.skill import Skill
 from qt import ComboBox, LabelRow
 
 

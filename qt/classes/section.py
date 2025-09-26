@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import List
 
-from base.record import Record
+from qt.classes.record import Record
 
 
 @dataclass

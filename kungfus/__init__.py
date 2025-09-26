@@ -1,12 +1,9 @@
-from assets.raw.attributes import ATTRIBUTES
-from assets.raw.buffs import BUFFS
-from assets.raw.dots import DOTS
-from assets.raw.skills import SKILLS
-from assets.raw.talents import TALENTS
 from kungfus import ao_xue_zhan_yi, bei_ao_jue, gu_feng_jue, jing_yu_jue, xiao_chen_jue
 from kungfus import bing_xin_jue, du_jing, mo_wen, wu_fang, you_luo_yin, zi_xia_gong
 from kungfus import fen_shan_jing, ling_hai_jue, shan_hai_xin_jue, tai_xu_jian_yi, wen_shui_jue, yin_long_jue
 from kungfus import fen_ying_sheng_jue, hua_jian_you, tai_xuan_jing, tian_luo_gui_dao, yi_jin_jing, zhou_tian_gong
+
+from kungfus import zhou_tian_gong_mobile
 
 BUFF_PATCHES = {}
 SKILL_PATCHES = {}
@@ -25,39 +22,6 @@ class Kungfu:
         self.recipes = kungfu.RECIPES
         self.skills = kungfu.SKILLS
         self.talents = kungfu.TALENTS
-
-
-class DisplayKungfu:
-    def __init__(self, kungfu: Kungfu):
-        self.kungfu_id = kungfu.attribute
-        self.attribute = ATTRIBUTES[self.kungfu_id]
-        self.kind = kungfu.kind
-        self.major = kungfu.major
-        self.school = kungfu.school
-        buffs, dots, skills = kungfu.buffs, kungfu.dots, kungfu.skills
-        self.talents = {}
-        for talents in kungfu.talents:
-            for talent_id, params in talents.items():
-                talent = self.talents[talent_id] = TALENTS[self.kungfu_id][talent_id]
-                talent_name = talent["name"]
-                if talent_buffs := talent.get("buffs"):
-                    buffs[talent_name] = talent_buffs
-                if talent_dots := talent.get("dots"):
-                    dots[talent_name] = talent_dots
-                if talent_skills := talent.get("skills"):
-                    skills[talent_name] = talent_skills
-        self.buffs = {
-            belong: {buff_id: BUFFS[self.kungfu_id][buff_id] for buff_id in buff_ids}
-            for belong, buff_ids in buffs.items()
-        }
-        self.skills = {
-            belong: {skill_id: SKILLS[self.kungfu_id][skill_id] for skill_id in skill_ids}
-            for belong, skill_ids in skills.items()
-        }
-        self.dots = {
-            belong: {dot_id: DOTS[self.kungfu_id][dot_id] for dot_id in dot_ids}
-            for belong, dot_ids in dots.items()
-        }
 
 
 SUPPORT_KUNGFUS: list[Kungfu] = [
@@ -83,5 +47,7 @@ SUPPORT_KUNGFUS: list[Kungfu] = [
     Kungfu(shan_hai_xin_jue),
     Kungfu(gu_feng_jue),
     Kungfu(zhou_tian_gong),
-    Kungfu(you_luo_yin)
+    Kungfu(you_luo_yin),
+
+    Kungfu(zhou_tian_gong_mobile)
 ]

@@ -1,13 +1,14 @@
 import sys
 
 from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import (QApplication, QMainWindow, QTabWidget, QVBoxLayout, QWidget)
+from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget, QVBoxLayout, QWidget
 
 from qt.component.gear_widget.widget import GearWidget
 from qt.component.loop_widget.widget import LoopWidget
 from qt.component.top_widget.widget import TopWidget
-from qt.script.loop import loop_script
-from qt.script.top import top_script
+from qt.script.gear import GearScript
+from qt.script.loop import LoopScript
+from qt.script.top import TopScript
 
 
 class MainWindow(QMainWindow):
@@ -30,8 +31,10 @@ class MainWindow(QMainWindow):
         self.tabs.addTab(self.loop_widget, "Loop")
         self.tabs.hide()
 
-        loop_script(self.loop_widget)
-        top_script(self.top_widget, self.tabs, self.loop_widget)
+        loop_script = LoopScript(self.loop_widget)
+        gear_script = GearScript(self.gear_widget)
+        # top_script(self.top_widget, self.tabs, loop_script, gear_script)
+        self.top_script = TopScript(self.top_widget, self.tabs, loop_script, gear_script)
 
 
 if __name__ == "__main__":

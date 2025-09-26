@@ -1,6 +1,6 @@
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
 
-from base.buff import Buff, BuffType
+from qt.classes.buff import Buff, BuffType
 from qt import ComboBox, LabelRow
 
 

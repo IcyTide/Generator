@@ -1,4 +1,4 @@
-from base.skill import Skill
+from qt.classes.skill import Skill
 
 
 class Dot:

@@ -3972,5 +3972,54 @@
                 }
             }
         }
+    },
+    "102278": {
+        "71395": {
+            "1": {
+                "name": "伤害提高",
+                "interval": 240,
+                "max_stack": 2,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 51
+                }
+            }
+        },
+        "71401": {
+            "1": {
+                "name": "佑风·悟",
+                "interval": 320,
+                "max_stack": 3,
+                "max_tick": 1,
+                "attributes": {
+                    "coming_damage_cof": 102.4
+                },
+                "skills": [
+                    102310,
+                    102316
+                ]
+            }
+        },
+        "71611": {
+            "1": {
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 410
+                }
+            }
+        },
+        "71612": {
+            "1": {
+                "name": "奇脉",
+                "interval": 192,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 205
+                }
+            }
+        }
     }
 }

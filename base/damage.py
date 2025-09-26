@@ -151,7 +151,7 @@ class DamageChain:
             self.damage += damage
 
     def cal_surplus_damage(self):
-        damage = self.source.surplus * DEFAULT_SURPLUS_COF
+        damage = self.source.surplus * self.skill.surplus_cof
         if self.need_int:
             self.damage += Int(damage)
         else:
@@ -245,6 +245,6 @@ class DamageChain:
         # terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
         # recipes = sorted(term for term in terms if term.startswith("_"))
         return dict(
-            damage=str(self.damage),
+            damage=str(self.final_damage),
             critical_damage=str(self.critical_damage), critical_strike=str(self.critical_strike)
         )
