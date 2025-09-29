@@ -10,10 +10,7 @@ SKILLS = {
         i + 1: f"递增{i}跳"
         for i in range(40)
     }),
-    41994: dict(comments={
-        1: "原始",
-        2: "协幽"
-    }),
+    41994: dict(comments={1: ""}),
     42098: dict(comments={
         i + 1: f"{i}层增伤" for i in range(5)
     }),

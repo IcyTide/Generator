@@ -23,6 +23,6 @@ SKILLS = {
     37364: dict(comment="不僵"),
     37365: dict(comment="不僵+固灵"),
     37358: dict(comment="腾影"),
-    **{skill_id: dict(comments={i + 1: f"{i + 1}层" for i in range(6)}) for skill_id in [42295, 42296]},
+    **{skill_id: dict(comments={i + 1: f"{i + 1}层" for i in range(8)}) for skill_id in [42295, 42296]},
     36044: dict(comments={i + 1: f"{i * 4}尺" for i in range(99)})
 }

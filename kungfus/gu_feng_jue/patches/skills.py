@@ -9,6 +9,7 @@ SKILLS = {
         1: "原始",
         **{i + 1: f"斩颓{i + 1}层破绽" for i in range(1, 6)}
     }),
+    32766: dict(comments={1: "原始", 2: "伏瀑"}),
     40828: dict(comment="击破破绽"),
     32235: dict(comment="原始"),
     **{skill_id: dict(comment=f"{i + 1}层流血") for i, skill_id in enumerate([32372, 32371, 32370, 32369])},

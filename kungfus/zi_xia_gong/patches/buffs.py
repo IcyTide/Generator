@@ -24,6 +24,5 @@ BUFFS: dict[int, dict] = {
     **{
         buff_id: dict(name="", comment=comment)
         for buff_id, comment in zip([12550, 12551, 31669], ["四象轮回", "两仪化形", "万世不竭"])
-    },
-    31701: dict(skills=[3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448, 40158])
+    }
 }

@@ -1128,32 +1128,6 @@
                     }
                 }
             }
-        },
-        "29549": {
-            "1": {
-                "name": "雀引",
-                "interval": "48",
-                "max_stack": 1,
-                "max_tick": 6,
-                "skills": {
-                    "38760": {
-                        "1": {
-                            "name": "雀引彀中",
-                            "comment": "伤害",
-                            "damage": "(180 + rand * 9 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * 0.390625) * (1 + magical_damage_addition / 1024) * (1 + poison_overcome) * (7350.42 * target_level - 829547.4) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
-                        },
-                        "2": {
-                            "name": "",
-                            "comment": "DOT",
-                            "damage": "(180 + (int(base_poison_attack_power * (1 + poison_attack_power_gain / 1024)) + extra_poison_attack_power) * 1.0703125) * (1 + magical_damage_addition / 1024) * (1 + poison_overcome) * (7350.42 * target_level - 829547.4) / (int(poison_shield_base * (1 + poison_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
-                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
-                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
-                        }
-                    }
-                }
-            }
         }
     },
     "10242": {
@@ -1253,6 +1227,25 @@
                     }
                 }
             }
+        },
+        "32041": {
+            "1": {
+                "name": "灼烧·御鸿于天",
+                "interval": "32",
+                "max_stack": 10,
+                "max_tick": 15,
+                "skills": {
+                    "42918": {
+                        "20": {
+                            "name": "",
+                            "comment": "",
+                            "damage": "(33 + (int(base_physical_attack_power * (1 + physical_attack_power_gain / 1024)) + extra_physical_attack_power) * 0.434375) * (1 + physical_damage_addition / 1024) * (1 + physical_overcome) * (7350.42 * target_level - 829547.4) / (int(physical_shield_base * (1 + physical_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * (physical_critical_power_percent + (1792 + physical_critical_power_rate) / 1024)",
+                            "critical_strike": "physical_critical_strike_percent + physical_critical_strike_rate / 10000"
+                        }
+                    }
+                }
+            }
         }
     },
     "10390": {
@@ -1344,7 +1337,7 @@
                         "25": {
                             "name": "商",
                             "comment": "",
-                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(415.5231336656402 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(477.8516037154862 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * (lunar_critical_power_percent + (1792 + lunar_critical_power_rate) / 1024)",
                             "critical_strike": "lunar_critical_strike_percent + (lunar_critical_strike_rate + 200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1) / 10000"
                         }
@@ -1363,7 +1356,7 @@
                         "25": {
                             "name": "角",
                             "comment": "",
-                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.5260416666666666) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * 0.60546875) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * (lunar_critical_power_percent + (1792 + lunar_critical_power_rate) / 1024)",
                             "critical_strike": "lunar_critical_strike_percent + lunar_critical_strike_rate / 10000"
                         }
@@ -1433,7 +1426,7 @@
                         "25": {
                             "name": "商",
                             "comment": "",
-                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(623.2847004984603 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1) * 1.12 ** (tick - 1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(716.7774055732293 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1) * 1.12 ** (tick - 1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * (lunar_critical_power_percent + (1792 + lunar_critical_power_rate) / 1024)",
                             "critical_strike": "lunar_critical_strike_percent + (lunar_critical_strike_rate + 200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1) / 10000"
                         }
@@ -1453,7 +1446,7 @@
                         "25": {
                             "name": "角",
                             "comment": "",
-                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(607.0954874985003 * 1.12 ** (tick - 1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(698.1598106232753 * 1.12 ** (tick - 1)) * 0.0008680555555555555) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * (lunar_critical_power_percent + (1792 + lunar_critical_power_rate) / 1024)",
                             "critical_strike": "lunar_critical_strike_percent + lunar_critical_strike_rate / 10000"
                         }
@@ -1641,7 +1634,7 @@
                         "1": {
                             "name": "知微",
                             "comment": "",
-                            "damage": "(26 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * 2.4375) * (1 + magical_damage_addition / 1024) * (1 + neutral_overcome) * (7350.42 * target_level - 829547.4) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                            "damage": "(26 + (int(base_neutral_attack_power * (1 + neutral_attack_power_gain / 1024)) + extra_neutral_attack_power) * 2.1961805555555554) * (1 + magical_damage_addition / 1024) * (1 + neutral_overcome) * (7350.42 * target_level - 829547.4) / (int(neutral_shield_base * (1 + neutral_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * (neutral_critical_power_percent + (1792 + neutral_critical_power_rate) / 1024)",
                             "critical_strike": "neutral_critical_strike_percent + neutral_critical_strike_rate / 10000"
                         }
@@ -1783,7 +1776,7 @@
         "31945": {
             "1": {
                 "name": "千里急",
-                "interval": "32",
+                "interval": "16",
                 "max_stack": 1,
                 "max_tick": 5,
                 "skills": {
@@ -1791,7 +1784,7 @@
                         "1": {
                             "name": "千里急",
                             "comment": "",
-                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(1200 * (1 + 0.030000000000000027 * recipe_6145_1) * (1 + 0.040000000000000036 * recipe_6146_1) * (1 + 1.2000000000000002 * recipe_6002_1) * (1 + 0.25 * recipe_6052_1) * (1 + 0.10000000000000009 * recipe_6066_1)) * 0.0010416666666666667) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + (int(base_lunar_attack_power * (1 + lunar_attack_power_gain / 1024)) + extra_lunar_attack_power) * int(1200 * (1 + 0.030000000000000027 * recipe_6145_1) * (1 + 0.040000000000000036 * recipe_6146_1) * (1 + 1.2000000000000002 * recipe_6002_1) * (1 + 0.25 * recipe_6052_1) * (1 + -0.6 * recipe_6182_1) * (1 + -0.8 * recipe_6182_2)) * 0.0010416666666666667) * (1 + magical_damage_addition / 1024) * (1 + lunar_overcome) * (7350.42 * target_level - 829547.4) / (int(lunar_shield_base * (1 + lunar_shield_gain / 1024)) * (1 - all_shield_ignore / 1024) + 7350.42 * target_level - 829547.4) * (1 - (target_level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * (lunar_critical_power_percent + (1792 + lunar_critical_power_rate + 157 * recipe_6087_1) / 1024)",
                             "critical_strike": "lunar_critical_strike_percent + (lunar_critical_strike_rate + 200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1) / 10000"
                         }

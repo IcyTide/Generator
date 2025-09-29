@@ -170,18 +170,6 @@ BUFFS = {
                 "buff_key": "buff_12590_3"
             }
         },
-        29547: {
-            1: {
-                "name": "华香",
-                "interval": 99999999,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_shield_ignore": 614
-                },
-                "buff_key": "buff_29547_1"
-            }
-        },
         11979: {
             1: {
                 "name": "罗汉金身",
@@ -191,7 +179,8 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "magical_attack_power_percent": 205,
-                    "solar_overcome_gain": 205
+                    "solar_overcome_gain": 205,
+                    "all_shield_ignore": 614
                 },
                 "buff_key": "buff_11979_1"
             }
@@ -205,7 +194,8 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "magical_attack_power_percent": 205,
-                    "solar_overcome_gain": 205
+                    "solar_overcome_gain": 205,
+                    "all_shield_ignore": 614
                 },
                 "buff_key": "buff_11981_1"
             }
@@ -686,28 +676,6 @@ BUFFS = {
                 ],
                 "buff_key": "buff_17918_1"
             }
-        },
-        31701: {
-            1: {
-                "name": "雨集",
-                "interval": 80,
-                "max_stack": 6,
-                "max_tick": 1,
-                "skills": [
-                    3439,
-                    3440,
-                    3441,
-                    3442,
-                    3443,
-                    3444,
-                    3445,
-                    3446,
-                    3447,
-                    3448,
-                    40158
-                ],
-                "buff_key": "buff_31701_1"
-            }
         }
     },
     10015: {
@@ -1038,6 +1006,18 @@ BUFFS = {
                 "buff_key": "buff_23065_3"
             }
         },
+        32022: {
+            1: {
+                "name": "青歌",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_percent": 154
+                },
+                "buff_key": "buff_32022_1"
+            }
+        },
         30444: {
             1: {
                 "comment": "沁逸",
@@ -1049,6 +1029,20 @@ BUFFS = {
                     "recipe_5831_1"
                 ],
                 "buff_key": "buff_30444_1"
+            }
+        },
+        28116: {
+            1: {
+                "name": "钟灵",
+                "interval": 288,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_percent": 205,
+                    "strain_gain": 205,
+                    "all_shield_ignore": 666
+                },
+                "buff_key": "buff_28116_1"
             }
         },
         25858: {
@@ -1109,20 +1103,6 @@ BUFFS = {
                     "magical_damage_addition": 72
                 },
                 "buff_key": "buff_25862_1"
-            }
-        },
-        28116: {
-            1: {
-                "name": "钟灵",
-                "interval": 288,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "magical_attack_power_percent": 205,
-                    "strain_gain": 205,
-                    "all_shield_ignore": 666
-                },
-                "buff_key": "buff_28116_1"
             }
         }
     },
@@ -1410,6 +1390,54 @@ BUFFS = {
                 "buff_key": "buff_10240_1"
             }
         },
+        28183: {
+            1: {
+                "name": "仙姿·剑破",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 25,
+                "attributes": {
+                    "all_damage_addition": 51
+                },
+                "buff_key": "buff_28183_1"
+            }
+        },
+        28184: {
+            1: {
+                "name": "仙姿·玳弦",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 25,
+                "attributes": {
+                    "all_damage_addition": 51
+                },
+                "buff_key": "buff_28184_1"
+            }
+        },
+        28185: {
+            1: {
+                "name": "仙姿·剑气",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 25,
+                "attributes": {
+                    "all_damage_addition": 51
+                },
+                "buff_key": "buff_28185_1"
+            }
+        },
+        28186: {
+            1: {
+                "name": "仙姿·剑影",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 25,
+                "attributes": {
+                    "all_damage_addition": 51
+                },
+                "buff_key": "buff_28186_1"
+            }
+        },
         5788: {
             2: {
                 "name": "枕上",
@@ -1519,7 +1547,7 @@ BUFFS = {
             1: {
                 "name": "流玉",
                 "interval": 128,
-                "max_stack": 1,
+                "max_stack": 2,
                 "max_tick": 1,
                 "recipes": [
                     "recipe_3246_1"
@@ -1965,7 +1993,7 @@ BUFFS = {
         9714: {
             1: {
                 "name": "雾锁",
-                "interval": 112,
+                "interval": 240,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
@@ -2073,6 +2101,31 @@ BUFFS = {
                 "buff_key": "buff_3254_1"
             }
         },
+        7659: {
+            1: {
+                "name": "命陨",
+                "comment": "千里无痕",
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 307,
+                    "strain_gain": 154
+                },
+                "buff_key": "buff_7659_1"
+            },
+            2: {
+                "name": "命陨",
+                "comment": "原始",
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 205
+                },
+                "buff_key": "buff_7659_2"
+            }
+        },
         17103: {
             1: {
                 "name": "追命无声",
@@ -2096,6 +2149,18 @@ BUFFS = {
                     "physical_critical_power_rate": 300
                 },
                 "buff_key": "buff_3468_1"
+            }
+        },
+        32054: {
+            1: {
+                "name": "寒江夜雨",
+                "interval": 630,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "skill_damage_final_cof": 102
+                },
+                "buff_key": "buff_32054_1"
             }
         },
         28225: {
@@ -2180,19 +2245,6 @@ BUFFS = {
                 "buff_key": "buff_3223_3"
             }
         },
-        7659: {
-            1: {
-                "name": "命陨",
-                "interval": 480,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_attack_power_gain": 307,
-                    "strain_gain": 154
-                },
-                "buff_key": "buff_7659_1"
-            }
-        },
         8210: {
             1: {
                 "name": "心无旁骛",
@@ -2207,6 +2259,23 @@ BUFFS = {
                 "buff_key": "buff_8210_1"
             }
         },
+        31816: {
+            1: {
+                "name": "穿杨贯柳",
+                "interval": 16,
+                "max_stack": 2,
+                "max_tick": 10,
+                "recipes": [
+                    "recipe_6075_1",
+                    "recipe_6076_1",
+                    "recipe_6077_1",
+                    "recipe_6078_1",
+                    "recipe_6079_1",
+                    "recipe_6080_1"
+                ],
+                "buff_key": "buff_31816_1"
+            }
+        },
         9981: {
             1: {
                 "name": "秋风散影",
@@ -2219,6 +2288,19 @@ BUFFS = {
                 },
                 "buff_key": "buff_9981_1"
             }
+        },
+        9844: {
+            1: {
+                "name": "夺魄之威",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 70,
+                    "physical_critical_strike_rate": 700
+                },
+                "buff_key": "buff_9844_1"
+            }
         }
     },
     10225: {
@@ -2226,7 +2308,7 @@ BUFFS = {
             1: {
                 "name": "扬威",
                 "comment": "神威穿彻",
-                "interval": 160,
+                "interval": 16,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
@@ -2597,7 +2679,8 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "physical_critical_strike_rate": 2000,
-                    "physical_critical_power_rate": 205
+                    "physical_critical_power_rate": 205,
+                    "physical_attack_power_gain": 154
                 },
                 "buff_key": "buff_30400_1"
             }
@@ -2747,19 +2830,17 @@ BUFFS = {
                 "buff_key": "buff_8474_17"
             }
         },
-        14309: {
+        27161: {
             1: {
-                "name": "锋鸣",
+                "name": "血怒·惊涌",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 30,
+                "max_tick": 1,
                 "attributes": {
-                    "physical_overcome_gain": 154
+                    "physical_attack_power_gain": 102,
+                    "strain_gain": 307
                 },
-                "recipes": [
-                    "recipe_5735_1"
-                ],
-                "buff_key": "buff_14309_1"
+                "buff_key": "buff_27161_1"
             }
         },
         20491: {
@@ -2798,17 +2879,19 @@ BUFFS = {
                 "buff_key": "buff_31536_1"
             }
         },
-        27161: {
+        14309: {
             1: {
-                "name": "血怒·惊涌",
+                "name": "锋鸣",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1,
+                "max_tick": 30,
                 "attributes": {
-                    "physical_attack_power_gain": 102,
-                    "strain_gain": 307
+                    "physical_overcome_gain": 154
                 },
-                "buff_key": "buff_27161_1"
+                "recipes": [
+                    "recipe_5735_1"
+                ],
+                "buff_key": "buff_14309_1"
             }
         }
     },
@@ -2867,7 +2950,7 @@ BUFFS = {
                 "max_stack": 9,
                 "max_tick": 9999,
                 "attributes": {
-                    "all_damage_addition": 20
+                    "all_damage_addition": 15
                 },
                 "buff_key": "buff_31444_1"
             }
@@ -3017,17 +3100,16 @@ BUFFS = {
                 "buff_key": "buff_29219_1"
             }
         },
-        19510: {
-            1: {
-                "name": "斩纷",
-                "interval": 16,
+        11221: {
+            7: {
+                "name": "化蛟",
+                "interval": 32,
                 "max_stack": 1,
                 "max_tick": 1,
-                "attributes": {
-                    "physical_attack_power_gain": 154,
-                    "strain_gain": 102
-                },
-                "buff_key": "buff_19510_1"
+                "recipes": [
+                    "recipe_4264_1"
+                ],
+                "buff_key": "buff_11221_7"
             }
         },
         29561: {
@@ -3042,16 +3124,17 @@ BUFFS = {
                 "buff_key": "buff_29561_1"
             }
         },
-        11221: {
-            7: {
-                "name": "化蛟",
-                "interval": 32,
+        19510: {
+            1: {
+                "name": "斩纷",
+                "interval": 16,
                 "max_stack": 1,
                 "max_tick": 1,
-                "recipes": [
-                    "recipe_4264_1"
-                ],
-                "buff_key": "buff_11221_7"
+                "attributes": {
+                    "physical_attack_power_gain": 154,
+                    "strain_gain": 102
+                },
+                "buff_key": "buff_19510_1"
             }
         },
         11222: {
@@ -3570,6 +3653,18 @@ BUFFS = {
                 "buff_key": "buff_31805_1"
             }
         },
+        18176: {
+            1: {
+                "name": "祝祷",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 82
+                },
+                "buff_key": "buff_18176_1"
+            }
+        },
         31907: {
             1: {
                 "name": "镇星",
@@ -3832,18 +3927,6 @@ BUFFS = {
                 "buff_key": "buff_27543_3"
             }
         },
-        27406: {
-            1: {
-                "name": "朱厌",
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_damage_addition": -307
-                },
-                "buff_key": "buff_27406_1"
-            }
-        },
         27116: {
             1: {
                 "name": "祝灵",
@@ -4104,6 +4187,7 @@ BUFFS = {
         31624: {
             1: {
                 "name": "落笼簿",
+                "interval": 320,
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
@@ -4117,7 +4201,6 @@ BUFFS = {
         31755: {
             1: {
                 "name": "连环慢",
-                "comment": "原始",
                 "interval": 240,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -4127,19 +4210,6 @@ BUFFS = {
                     "recipe_6054_1"
                 ],
                 "buff_key": "buff_31755_1"
-            },
-            2: {
-                "name": "连环慢",
-                "comment": "双音",
-                "interval": 240,
-                "max_stack": 1,
-                "max_tick": 1,
-                "recipes": [
-                    "recipe_6066_1",
-                    "recipe_6067_1",
-                    "recipe_6068_1"
-                ],
-                "buff_key": "buff_31755_2"
             }
         },
         31520: {
@@ -4193,10 +4263,10 @@ BUFFS = {
             1: {
                 "name": "联套",
                 "interval": 16,
-                "max_stack": 7,
+                "max_stack": 8,
                 "max_tick": 1,
                 "attributes": {
-                    "lunar_damage_cof": 205
+                    "lunar_damage_cof": 154
                 },
                 "skills": [
                     41471,
@@ -4224,6 +4294,35 @@ BUFFS = {
                 "buff_key": "buff_31699_1"
             }
         },
+        32050: {
+            1: {
+                "name": "缭乱·傀儡调",
+                "interval": 88,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6174_1",
+                    "recipe_6175_1",
+                    "recipe_6176_1"
+                ],
+                "buff_key": "buff_32050_1"
+            }
+        },
+        32051: {
+            1: {
+                "name": "缭乱·织心谣",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6177_1",
+                    "recipe_6178_1",
+                    "recipe_6179_1",
+                    "recipe_6180_1"
+                ],
+                "buff_key": "buff_32051_1"
+            }
+        },
         31870: {
             1: {
                 "name": "七撩",
@@ -4240,6 +4339,34 @@ BUFFS = {
                     42384
                 ],
                 "buff_key": "buff_31870_1"
+            }
+        },
+        31889: {
+            1: {
+                "name": "镜同",
+                "comment": "1次衰减",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6182_1",
+                    "recipe_6183_1",
+                    "recipe_6184_1"
+                ],
+                "buff_key": "buff_31889_1"
+            },
+            2: {
+                "name": "镜同",
+                "comment": "2次衰减",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6182_2",
+                    "recipe_6183_2",
+                    "recipe_6184_2"
+                ],
+                "buff_key": "buff_31889_2"
             }
         },
         31765: {
@@ -4263,30 +4390,6 @@ BUFFS = {
                     "recipe_6057_1"
                 ],
                 "buff_key": "buff_31767_1"
-            }
-        },
-        31780: {
-            1: {
-                "name": "谐调",
-                "interval": 720,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "magical_damage_addition": 72
-                },
-                "buff_key": "buff_31780_1"
-            }
-        },
-        31889: {
-            1: {
-                "name": "镜同",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_damage_addition": -614
-                },
-                "buff_key": "buff_31889_1"
             }
         }
     },

@@ -10,7 +10,7 @@ from tools.utils import camel_to_capital, get_variable, save_code
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))  # & {"治疗", "防御"}
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
-MIN_EQUIP_LEVEL = 25900
+MIN_EQUIP_LEVEL = 30200
 ENCHANT_START_ID = 15778
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()

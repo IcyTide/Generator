@@ -2,7 +2,7 @@ ATTRIBUTES = {
     10003: {
         "name": "易筋经",
         "attributes": {
-            "pve_addition_base": 379,
+            "pve_addition_base": 307,
             "magical_shield_base": 2113,
             "physical_shield_base": 1800,
             "spunk_to_solar_attack_power": 2007,
@@ -43,7 +43,7 @@ ATTRIBUTES = {
             "agility_to_physical_critical_strike": 696,
             "physical_critical_strike_base": 9025,
             "physical_attack_power_base": 6187,
-            "pve_addition_base": 512
+            "pve_addition_base": 461
         },
         "recipes": [
             "recipe_1711_1",
@@ -61,7 +61,7 @@ ATTRIBUTES = {
             "physical_shield_base": 2850,
             "spunk_to_neutral_attack_power": 2079,
             "spunk_to_neutral_overcome": 205,
-            "pve_addition_base": 474,
+            "pve_addition_base": 338,
             "magical_attack_power_base": 7242
         },
         "recipes": [
@@ -76,7 +76,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2850,
             "physical_shield_base": 2715,
-            "pve_addition_base": 317,
+            "pve_addition_base": 266,
             "strength_to_physical_attack_power": 1843,
             "strength_to_physical_overcome": 287,
             "physical_attack_power_base": 7164
@@ -95,7 +95,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2191,
             "physical_shield_base": 1721,
-            "pve_addition_base": 143,
+            "pve_addition_base": 123,
             "spirit_to_lunar_attack_power": 2048,
             "spirit_to_lunar_critical_strike": 297,
             "lunar_attack_power_base": 7387
@@ -230,7 +230,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2850,
             "physical_shield_base": 2850,
-            "pve_addition_base": 471,
+            "pve_addition_base": 266,
             "agility_to_physical_attack_power": 1925,
             "physical_attack_power_base": 6513,
             "physical_overcome_base": 4696
@@ -259,7 +259,7 @@ ATTRIBUTES = {
         "attributes": {
             "magical_shield_base": 2850,
             "physical_shield_base": 2955,
-            "pve_addition_base": 163,
+            "pve_addition_base": 307,
             "strength_to_physical_attack_power": 1802,
             "strength_to_physical_overcome": 420,
             "physical_attack_power_base": 7034
@@ -402,7 +402,7 @@ ATTRIBUTES = {
             "spirit_to_lunar_attack_power": 1974,
             "spirit_to_lunar_critical_strike": 512,
             "lunar_critical_strike_base": 2412,
-            "pve_addition_base": 358
+            "pve_addition_base": 307
         },
         "desc": "无相楼秘传心法，化气凝丝，绕指无形。无相楼弟子以内力为引，凝气成丝，藏于掌中方寸，刚则化刃疾攻，柔可织罗缚敌；协以牵丝伶影同战，丝牵影动，形影变换，杀机暗藏。",
         "critical_type": "lunar",

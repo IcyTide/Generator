@@ -11,7 +11,6 @@ SKILLS = {
     33870: dict(comments={i + 1: f"{i + 1}段蓄力" for i in range(4)}),
     29148: dict(comment="鹰扬虎视"), 29154: dict(comment="鹰扬虎视"),
     6921: dict(comments={
-        **{29 + i: f"{i + 1}层穷尽九泉" for i in range(4)},
-        29 + 5: "5层穷尽九泉"
+        **{29 + i: f"{i + 1}层穷尽九泉" for i in range(5)},
     })
 }

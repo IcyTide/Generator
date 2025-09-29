@@ -23,6 +23,7 @@ SKILLS = {
     }),
     42509: dict(comments={i + 1: f"{i + 1}段" for i in range(2)}),
     42456: dict(comments={i + 1: f"{i + 1}层" for i in range(7)}),
+    42520: dict(comments={1: "侠士", 2: "非侠士"}),
     28815: dict(comments={
         1: "连极阵",
         2: "踏斗连极阵",
