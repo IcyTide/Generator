@@ -19,6 +19,8 @@ class TopWidget(QWidget):
         self.kungfu_combo.set_items(list(self.kungfus), -1)
 
         self.load_btn = QPushButton("Load")
-        layout.addWidget(self.load_btn, 1)
+        layout.addWidget(self.load_btn)
         self.save_btn = QPushButton("Save")
-        layout.addWidget(self.save_btn, 1)
+        layout.addWidget(self.save_btn)
+        # self.attribute_btn = QPushButton("Attributes")
+        # layout.addWidget(self.attribute_btn)

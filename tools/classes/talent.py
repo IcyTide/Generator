@@ -1,3 +1,4 @@
+from base.expression import Variable
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE
 from tools.utils import get_variable
@@ -19,6 +20,7 @@ class Talent(Skill):
         self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
+        self.talent_key = Variable(get_variable("talent", self.skill_id, self.skill_level))
 
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
@@ -36,7 +38,7 @@ class Talent(Skill):
             return {
                 "name": self.get_name(self.skill_id, self.skill_level),
                 "attributes": {attr: param for attr, param in self.self_rollback_attributes},
-                "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes],
+                "recipes": [get_variable("recipe", *keys) for keys in self.recipes],
                 "buffs": self.buffs,
                 "dots": self.dots,
                 "skills": self.skills,

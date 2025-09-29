@@ -18,3 +18,11 @@ class Section:
     def __iter__(self):
         for attr in ("name", "count"):
             yield str(getattr(self, attr))
+
+    def to_dict(self):
+        return dict(name=self.name, count=self.count, records=[record.to_dict() for record in self.records])
+
+    @classmethod
+    def from_dict(cls, json):
+        section = cls(json["name"], json["count"], [Record.from_dict(record) for record in json["records"]])
+        return

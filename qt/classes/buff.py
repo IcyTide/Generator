@@ -2,8 +2,7 @@ from enum import StrEnum
 
 
 class BuffType(StrEnum):
-    Self = "Self"
-    Target = "Target"
+    Current = "Current"
     Snapshot = "Snapshot"
 
 
@@ -16,8 +15,11 @@ class Buff:
 
     name: str = ""
     comment: str = ""
-    max_stack: int
-    max_tick: int
+    attributes: dict[str, int] = {}
+    recipes: list[str] = []
+    buff_key: str = ""
+    max_stack: int = 1
+    max_tick: int = 1
 
     def __init__(self, belong: str, buff_id: int, buff_level: int, buff_type: str, stack: int = 1, **kwargs):
         self.belong = belong
@@ -25,6 +27,7 @@ class Buff:
         self.buff_level = buff_level
         self.stack = stack
         self.buff_type = buff_type
+        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -41,3 +44,24 @@ class Buff:
         elif self.comment:
             return self.comment
         return f"{self.buff_id}-{self.buff_level}"
+
+    def to_dict(self):
+        return dict(
+            belong=self.belong,
+            buff_id=self.buff_id,
+            buff_level=self.buff_level,
+            stack=self.stack,
+            buff_type=self.buff_type,
+            kwargs=self.kwargs
+        )
+
+    @classmethod
+    def from_dict(cls, json):
+        return cls(
+            belong=json["belong"],
+            buff_id=json["buff_id"],
+            buff_level=json["buff_level"],
+            stack=json["stack"],
+            buff_type=json["buff_type"],
+            **json["kwargs"]
+        )

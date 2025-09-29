@@ -26,3 +26,21 @@ class Record:
     def __iter__(self):
         for attr in ("name", "count"):
             yield str(getattr(self, attr))
+
+    def to_dict(self):
+        return dict(
+            name=self.name, count=self.count,
+            buffs=[buff.to_dict() for buff in self.buffs],
+            skills=[skill.to_dict() for skill in self.skills],
+            dots=[dot.to_dict() for dot in self.dots]
+        )
+
+    @classmethod
+    def from_dict(cls, json):
+        record = cls(
+            json["name"], json["count"],
+            [Buff.from_dict(buff) for buff in json["buffs"]],
+            [Skill.from_dict(skill) for skill in json["skills"]],
+            [Dot.from_dict(dot) for dot in json["dots"]]
+        )
+        return record

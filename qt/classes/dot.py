@@ -24,6 +24,7 @@ class Dot:
         self.dot_level = dot_level
         self.tick = tick
         self.count = count
+        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -43,3 +44,19 @@ class Dot:
         elif self.comment:
             return self.comment
         return f"{self.dot_id}-{self.dot_level}"
+
+    def to_dict(self):
+        return dict(
+            dot_id=self.dot_id, dot_level=self.dot_level,
+            source=self.source.to_dict(), tick=self.tick, count=self.count,
+            kwargs=self.kwargs
+        )
+
+    @classmethod
+    def from_dict(cls, json):
+        dot = cls(
+            json["belong"], json["dot_id"], json["dot_level"],
+            json["tick"], json["count"], **json["kwargs"]
+        )
+        dot.source = Skill.from_dict(json["source"])
+        return dot

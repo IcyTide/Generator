@@ -34,6 +34,7 @@ SHIELD_BASE_MAP = {
     131: 33338
 }
 
+BASE_MAJOR = 44
 BASE_CRITICAL_POWER = 1792
 
 
@@ -103,7 +104,7 @@ def EMBED_COF(level):
         cof =  (level * 0.65 - 3.2) * 1.3
     else:
         cof =  level * 0.195
-    return cof / 27800 * 32000
+    return cof * 1.35
 
 
 def STRENGTH_COF(level):

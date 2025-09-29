@@ -1,9 +1,10 @@
 from PySide6.QtWidgets import QDialog
 
-from qt.classes.gear import Enchant, Gear
+from qt.classes.gear import Enchant, Gear, Gears
 from qt.component.gear_widget.detail_dialog import DetailDialog
 from qt.component.gear_widget.stone_dialog import StoneDialog
 from qt.component.gear_widget.widget import GearWidget, SubGearWidget
+from qt.component.top_widget.attribute_dialog import AttributeDialog
 
 
 class SubGearScript:
@@ -19,8 +20,8 @@ class SubGearScript:
         self.widget.equipment_combo.currentTextChanged.connect(self.select_equipment)
         self.widget.enchant_combo.currentTextChanged.connect(self.select_enchant)
         self.widget.strength_combo.currentTextChanged.connect(self.select_strength)
-        for i, embed_widget in enumerate(self.widget.embed_widgets):
-            embed_widget.field.currentTextChanged.connect(self.select_embed(i))
+        for i, embed_combo in enumerate(self.widget.embed_combos):
+            embed_combo.currentTextChanged.connect(self.select_embed(i))
         self.widget.detail_btn.clicked.connect(self.show_detail)
 
     def select_school(self, school):
@@ -28,7 +29,7 @@ class SubGearScript:
             self.widget.kind_combo.clear()
             return
         kinds = list(self.widget.equip_data[school])
-        self.widget.kind_combo.set_items([""] + kinds)
+        self.widget.kind_combo.set_items(kinds, -1)
         if self.parent.kungfu.kind in kinds:
             self.widget.kind_combo.setCurrentText(self.parent.kungfu.kind)
         elif self.parent.kungfu.major in kinds:
@@ -44,15 +45,15 @@ class SubGearScript:
         self.widget.equipment_combo.set_items([""] + list(self.widget.equip_data[school][kind]))
 
     def select_equipment(self, equipment):
-        for i, embed_widget in enumerate(self.widget.embed_widgets):
-            embed_widget.set_label(f"Embed{i + 1}:")
         school, kind = self.widget.school_combo.currentText(), self.widget.kind_combo.currentText()
         if school not in self.widget.equip_data:
             return
         if kind not in self.widget.equip_data[school]:
             return
         if equipment not in self.widget.equip_data[school][kind]:
+            self.parent.gears.pop(self.widget.position)
             self.widget.gear = None
+            self.parent.update_kungfu()
             return
         detail = self.widget.equip_data[school][kind][equipment]
         gear = self.widget.gear = self.parent.gears[self.widget.position] = Gear(school, kind, equipment, detail)
@@ -69,30 +70,34 @@ class SubGearScript:
             gear.strength_level = gear.max_strength
 
         embed_levels = {}
-        for embed_attr, embed_widget in zip(gear.embed, self.widget.embed_widgets):
-            embed_widget.set_label(embed_attr)
-            embed_level = embed_widget.field.currentText()
+        for embed_attr, embed_combo in zip(gear.embed, self.widget.embed_combos):
+            embed_level = embed_combo.currentText()
             embed_levels[len(embed_levels)] = int(embed_level)
         gear.embed_levels = embed_levels
+        self.parent.update_kungfu()
 
     def select_enchant(self, enchant):
         if not self.widget.gear:
             return
         if enchant not in self.widget.enchant_data:
             self.widget.gear.enchant = None
+            self.parent.update_kungfu()
             return
         self.widget.gear.enchant = Enchant(enchant, self.widget.enchant_data[enchant])
+        self.parent.update_kungfu()
 
     def select_strength(self, strength):
         if not self.widget.gear:
             return
         self.widget.gear.strength_level = int(strength)
+        self.parent.update_kungfu()
 
     def select_embed(self, index):
         def inner(embed):
             if not self.widget.gear:
                 return
             self.widget.gear.embed_levels[index] = int(embed)
+            self.parent.update_kungfu()
 
         return inner
 
@@ -101,20 +106,17 @@ class SubGearScript:
             return
         DetailDialog(self.widget.gear, parent=self.parent).exec()
 
-    def refresh_attribute(self):
-        if not self.widget.gear:
-            return
-
-    def init(self, gear: Gear):
+    def init(self, gear: Gear = None):
         if gear:
+            self.widget.gear = gear
             self.widget.school_combo.setCurrentText(gear.school)
             self.widget.kind_combo.setCurrentText(gear.kind)
-            self.widget.equipment_combo.setCurrentText(gear.name)
+            self.widget.equipment_combo.setCurrentText(gear.equipment)
             if gear.enchant:
-                self.widget.enchant_combo.setCurrentText(gear.enchant.name)
+                self.widget.enchant_combo.setCurrentText(gear.enchant.enchant)
             self.widget.strength_combo.setCurrentText(str(gear.strength_level))
             for i, embed_attr in enumerate(gear.embed):
-                self.widget.embed_widgets[i].field.setCurrentText(str(gear.embed_levels[i]))
+                self.widget.embed_combos[i].setCurrentText(str(gear.embed_levels[i]))
         else:
             self.widget.gear = None
             if self.parent.kungfu.school in self.widget.equip_data:
@@ -123,12 +125,9 @@ class SubGearScript:
                 self.widget.school_combo.setCurrentText("通用")
             self.widget.equipment_combo.setCurrentText("")
             self.widget.enchant_combo.setCurrentText("")
-            for i, embed_widget in enumerate(self.widget.embed_widgets):
-                embed_widget.set_label(f"Embed{i + 1}:")
 
 
 class GearScript:
-
     def __init__(self, gear_widget: GearWidget):
         self.widget = gear_widget
         self.sub_scripts: dict[str, SubGearScript] = {}
@@ -140,11 +139,12 @@ class GearScript:
         self.widget.stone_btn.clicked.connect(self.select_stone)
         self.widget.strength_combo.currentTextChanged.connect(self.select_strength)
         self.widget.embed_combo.currentTextChanged.connect(self.select_embed)
+        self.widget.detail_btn.clicked.connect(self.show_detail)
 
     def select_stone(self):
-        dialog = StoneDialog(self.widget.stone, parent=self.widget)
+        dialog = StoneDialog(self.widget.gears.stone, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
-            self.widget.stone = dialog.stone
+            self.widget.gears.stone = dialog.stone
 
     def select_strength(self, strength):
         for sub_script in self.sub_scripts.values():
@@ -155,17 +155,19 @@ class GearScript:
     def select_embed(self, embed):
         for sub_script in self.sub_scripts.values():
             if sub_script.widget.gear:
-                for embed_widget in sub_script.widget.embed_widgets:
-                    embed_widget.field.setCurrentText(str(embed))
+                for embed_combo in sub_script.widget.embed_combos:
+                    embed_combo.setCurrentText(str(embed))
 
-    def display(self):
-        pass
+    def show_detail(self):
+        attributes, recipes, gains = self.widget.gears.attributes
+        if attributes:
+            AttributeDialog(attributes, recipes, gains, parent=self.widget).exec()
 
-    def init(self, gears: dict[str, Gear] = None):
-        if gears:
-            self.widget.gears = gears
+    def init(self, gears: Gears = None):
+        if not gears:
+            self.widget.gears = Gears()
         else:
-            self.widget.gears = {}
+            self.widget.gears = gears
         for position, sub_script in self.sub_scripts.items():
             sub_script.init(self.widget.gears.get(position))
         return self.widget.gears

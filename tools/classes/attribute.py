@@ -32,7 +32,7 @@ class DamageAdd:
     physical_damage_addition: Expression = Variable("physical_damage_addition")
     magical_damage_addition: Expression = Variable("magical_damage_addition")
 
-    move_state_damage_addition: Expression = Variable("move_state_damage_addition")
+    move_state_damage_addition: int = 0
 
 
 class AttackPower:

@@ -1,11 +1,5 @@
 SKILLS = {
     16: dict(channel_interval=16),
-    3808: dict(
-        comments={
-            29: "原始",
-            58: "我闻"
-        }
-    ),
     **{skill_id: dict(comment="芙蓉并蒂") for skill_id in [6134, 6135, 6136]},
     **{skill_id: dict(comment="乱洒青荷", comments={1: "原始", 2: "渲青"}) for skill_id in [39906, 39907]},
     32467: dict(

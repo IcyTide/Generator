@@ -29,7 +29,7 @@ class DetailDialog(QDialog):
             for attr, value in embeds.items():
                 layout.addWidget(LabelRow(attr, QLabel(str(value))))
 
-        if gear.enchant:
+        if enchant := gear.enchant:
             layout.addWidget(QLabel("Enchant:"))
-            for attr, value in gear.enchant.attributes.items():
+            for attr, value in enchant.attributes.items():
                 layout.addWidget(LabelRow(attr, QLabel(str(value))))

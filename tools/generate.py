@@ -10,7 +10,7 @@ from tools.utils import camel_to_capital, get_variable, save_code
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))  # & {"治疗", "防御"}
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
-MIN_EQUIP_LEVEL = 30200
+MIN_EQUIP_LEVEL = 25900
 ENCHANT_START_ID = 15778
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
@@ -88,12 +88,13 @@ def get_equip_detail(row):
         attr_type = ATTRIBUTE_TYPE[attr]  # noqa
         if not attr_type:
             continue
+        param_1, param_2 = int(attr_row.Param1Max), int(attr_row.Param2Max)
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
-            gains.append(get_variable(int(attr_row.Param1Max)))
+            gains.append(get_variable("gain", param_1))
         elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
-            recipes.append(get_variable(int(attr_row.Param1Max), int(attr_row.Param2Max)))
+            recipes.append(get_variable("recipe", param_1, param_2))
         else:
-            magic_attrs[attr_type] = int(attr_row.Param1Max)
+            magic_attrs[attr_type] = param_1
     for i in range(MAX_EMBED_ATTR):
         if not (attr_id := getattr(row, f'DiamondAttributeID{i + 1}')):
             break
@@ -105,7 +106,7 @@ def get_equip_detail(row):
         embed_attrs[attr_type] = int(attr_row.Param1Max)  # noqa
 
     if row.SkillID:
-        gains.append(get_variable(int(row.SkillID), int(row.SkillLevel), "__"))
+        gains.append(get_variable("gain", int(row.SkillID), int(row.SkillLevel)))
 
     if not row.SetID:
         return detail
@@ -121,18 +122,19 @@ def get_equip_detail(row):
                     continue
                 if i + 1 not in sets:
                     sets[i + 1] = {}
+                param_1, param_2 = int(attr_row.Param1Max), int(attr_row.Param2Max)
                 if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
                     if "gains" not in sets[i + 1]:
                         sets[i + 1]["gains"] = []
-                    sets[i + 1]["gains"].append(get_variable(int(attr_row.Param1Max)))
+                    sets[i + 1]["gains"].append(get_variable("gain", param_1))
                 elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
                     if "recipes" not in sets[i + 1]:
                         sets[i + 1]["recipes"] = []
-                    sets[i + 1]["recipes"].append(get_variable(int(attr_row.Param1Max), int(attr_row.Param2Max)))
+                    sets[i + 1]["recipes"].append(get_variable("recipe", param_1, param_2))
                 else:
                     if "attributes" not in sets[i + 1]:
                         sets[i + 1]["attributes"] = {}
-                    sets[i + 1]["attributes"][attr_type] = int(attr_row.Param1Max)  # noqa
+                    sets[i + 1]["attributes"][attr_type] = param_1
     return detail
 
 

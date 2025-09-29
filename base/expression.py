@@ -1,3 +1,6 @@
+import copy
+
+
 class Expression:
 
     def __add__(self, other):
@@ -98,6 +101,14 @@ class UnaryOperator(Expression):
     def terms(self):
         return self.operand.terms
 
+    def __deepcopy__(self, memo):
+        if id(self) in memo:
+            return memo[id(self)]
+        operand_copy = copy.deepcopy(self.operand, memo)
+        obj = self.__new__(self.__class__, operand_copy)  # noqa
+        memo[id(self)] = obj
+        return obj
+
 
 class Neg(UnaryOperator):
     def __new__(cls, operand):
@@ -131,7 +142,7 @@ class Int(UnaryOperator):
         return f"int({self.operand})"
 
     def evaluate(self, values=None):
-        return int(self.operand.evaluate(values))
+        return Int(self.operand.evaluate(values))
 
     def derivative(self, var):
         return self.operand.derivative(var)
@@ -149,6 +160,15 @@ class BinaryOperator(Expression):
     @property
     def terms(self):
         return self.left.terms | self.right.terms
+
+    def __deepcopy__(self, memo):
+        if id(self) in memo:
+            return memo[id(self)]
+        left_copy = copy.deepcopy(self.left, memo)
+        right_copy = copy.deepcopy(self.right, memo)
+        obj = self.__new__(self.__class__, left_copy, right_copy)  # noqa
+        memo[id(self)] = obj
+        return obj
 
 
 class Add(BinaryOperator):
@@ -293,7 +313,7 @@ class Pow(BinaryOperator):
         return self.left.derivative(var) * self.right * Pow(self.left, self.right - 1)
 
 
-def get_variables(formula: str) -> dict[str, Variable | type[UnaryOperator]]:
+def get_variables(formula: str) -> dict[str, Variable]:
     variable = ""
     variables = {}
 
@@ -306,13 +326,12 @@ def get_variables(formula: str) -> dict[str, Variable | type[UnaryOperator]]:
             else:
                 variables[variable] = Variable(variable)
                 variable = ""
-    variables["int"] = Int
     return variables
 
 
-def parse_expr(formula: str):
+def parse_expr(formula: str) -> Expression:
     variables = get_variables(formula)
-    expr = eval(formula, variables)
+    expr = eval(formula, {**variables, "int": Int})
     return expr
 
 

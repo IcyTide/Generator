@@ -11,6 +11,10 @@ class DisplayKungfu:
     source: Attribute
     target: Target
 
+    gear_attributes: dict[str, int]
+    gear_recipes: list[str]
+    gear_gains: list[str]
+
     def __init__(self, kungfu: Kungfu):
         self.kungfu_id = kungfu.attribute
         self.attribute = ATTRIBUTES[self.kungfu_id]
@@ -43,5 +47,33 @@ class DisplayKungfu:
             for belong, dot_ids in dots.items()
         }
 
-        self.source = Attribute()
-        self.target = Target()
+        self.gear_attributes = {}
+        self.gear_recipes = []
+
+    def create_attribute(self) -> Attribute:
+        attribute = Attribute(self.major)
+        for k, v in self.attributes.items():
+            attribute[k] += v
+        attribute.recipes += self.recipes
+        return attribute
+
+    @property
+    def attributes(self):
+        ret = {}
+        for k, v in self.attribute.get("attributes", {}).items():
+            if k not in ret:
+                ret[k] = 0
+            ret[k] += v
+        for k, v in self.gear_attributes.items():
+            if k not in ret:
+                ret[k] = 0
+            ret[k] += v
+        return ret
+
+    @property
+    def recipes(self):
+        return self.attribute.get("recipes", []) + self.gear_recipes
+
+    @property
+    def gains(self):
+        return self.gear_gains

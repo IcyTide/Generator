@@ -10,7 +10,7 @@
             "magical_attack_power_base": 7242
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "少林至高绝学，修炼同时调息五脏六腑，奇经八脉，使精神、形体和气息结合起来。",
         "critical_type": "solar",
@@ -28,7 +28,7 @@
             "pve_addition_base": 563
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "此乃道家内功无上心法，运功之时绵若云霞，更有紫气护体，故名紫霞。",
         "critical_type": "neutral",
@@ -46,9 +46,9 @@
             "pve_addition_base": 512
         },
         "recipes": [
-            "_1711_1",
-            "_716_2",
-            "_717_2"
+            "recipe_1711_1",
+            "recipe_716_2",
+            "recipe_717_2"
         ],
         "desc": "此乃纯阳秘传之御剑心法，运功之时真气充塞寰宇，心外无物，天人合一。",
         "critical_type": "physical",
@@ -65,7 +65,7 @@
             "magical_attack_power_base": 7242
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "万花点穴武学之根本。习之可通晓人体之经络穴位及要害之处。一可封经截脉，克敌制胜；二可助人疏通筋脉，祛病除邪。",
         "critical_type": "neutral",
@@ -82,9 +82,9 @@
             "physical_attack_power_base": 7164
         },
         "recipes": [
-            "_4892_1",
-            "_1110_2",
-            "_1711_1"
+            "recipe_4892_1",
+            "recipe_1110_2",
+            "recipe_1711_1"
         ],
         "desc": "令人周身血脉畅通，真气爆发，内力激增，所向披靡，无往不利。",
         "critical_type": "physical",
@@ -101,9 +101,9 @@
             "lunar_attack_power_base": 7387
         },
         "recipes": [
-            "_1711_1",
-            "_680_2",
-            "_681_2"
+            "recipe_1711_1",
+            "recipe_680_2",
+            "recipe_681_2"
         ],
         "desc": "七秀内功。此功飘逸轻盈，若九天飞仙。且攻势凌厉，厉害非常。据传乃是公孙大娘之师所创，旁人问及，大娘只是笑而不答。",
         "critical_type": "lunar",
@@ -121,8 +121,8 @@
             "physical_critical_strike_base": 7827
         },
         "recipes": [
-            "_1711_1",
-            "_4087_1"
+            "recipe_1711_1",
+            "recipe_4087_1"
         ],
         "desc": "轻灵飘逸，行云流水。",
         "critical_type": "physical",
@@ -139,8 +139,8 @@
             "magical_attack_power_base": 7242
         },
         "recipes": [
-            "_1711_1",
-            "_688_3"
+            "recipe_1711_1",
+            "recipe_688_3"
         ],
         "desc": "苗疆绝学，五仙教历代前辈传下的用毒之术精粹。",
         "critical_type": "poison",
@@ -158,14 +158,14 @@
             "physical_attack_power_base": 6187
         },
         "recipes": [
-            "_1711_1",
-            "_936_2",
-            "_937_2",
-            "_938_2",
-            "_939_2",
-            "_940_2",
-            "_941_2",
-            "_942_2"
+            "recipe_1711_1",
+            "recipe_936_2",
+            "recipe_937_2",
+            "recipe_938_2",
+            "recipe_939_2",
+            "recipe_940_2",
+            "recipe_941_2",
+            "recipe_942_2"
         ],
         "desc": "惊羽穿杨连百中，鹰视狼顾壮志雄。唐门无上心法，利用各种奇巧锐器远距离精准打击敌人，使其插翅难飞。",
         "critical_type": "physical",
@@ -183,7 +183,7 @@
             "physical_critical_strike_base": 3962
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "天罗地网困龙蛇，神惊魄悸向黄泉。唐家堡秘传心法，利用特制淬毒机关和武器杀敌，实乃波谲云诡、出奇制胜之道。",
         "critical_type": "physical",
@@ -201,7 +201,7 @@
             "solar_attack_power_base": 7604
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "光明妙火常辉耀，焚影驱暗恒如意。攻其所不备，却必救之处，寻觅机会，一击挫敌。明教功法之中，以此最擅于在对决中捕获那稍纵即逝之制胜良机。",
         "critical_type": "lunar",
@@ -217,9 +217,9 @@
             "physical_attack_power_base": 6839
         },
         "recipes": [
-            "_5844_1",
-            "_5661_1",
-            "_4872_1"
+            "recipe_5844_1",
+            "recipe_5661_1",
+            "recipe_4872_1"
         ],
         "desc": "降龙伏虎谈笑中，清风浊酒伴我行。至刚至猛亦灵动多变，丐帮武学易学难精，招式一气呵成，令敌人应接不暇。",
         "critical_type": "physical",
@@ -280,7 +280,7 @@
             "physical_attack_power_base": 6839
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "涛卷波扬击重浪，雕翔破云驰烈风。凌海诀灵动恣意，迅猛无俦。以驭雕之术纵横重溟、伞击之技傲视群豪。习至绝处，九霄四海，逍遥随心。",
         "critical_type": "physical",
@@ -298,7 +298,7 @@
             "physical_attack_power_base": 6904
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "隐雪藏峰从不语，潜龙出渊卫河山。凌雪阁绝密心法，配合链刃，攻守兼备，可取敌首于无声中，瞬息间颠覆战局。",
         "critical_type": "physical",
@@ -316,7 +316,7 @@
             "neutral_critical_strike_base": 7347
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "以阴阳五行之义，天文历法之识，解大道而知微，突破自身限制寻回先天之精气神。",
         "critical_type": "neutral",
@@ -334,7 +334,7 @@
             "poison_overcome_base": 5527
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "此功以无方为名，亦代指北天药宗至高典籍《无方制物经》，旨在娴熟使用药理制物，配方运毒。称得上是驱草为刃，毒药双生，足竞百兵之锋。",
         "critical_type": "poison",
@@ -352,9 +352,9 @@
             "pve_addition_base": 215
         },
         "recipes": [
-            "_1711_1",
-            "_716_2",
-            "_717_2"
+            "recipe_1711_1",
+            "recipe_716_2",
+            "recipe_717_2"
         ],
         "desc": "万灵山庄善使弓箭，精通射术，信奉万物有灵，人族应与万生万灵相互守望，习武的意义在于守护，守护自己、守护同伴、守护家园。",
         "critical_type": "physical",
@@ -387,7 +387,7 @@
             "pve_addition_base": 451
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "一门通过聚气丹田，从而打通人体经脉的气功修行之法。下分大、小周天，其中大多数段氏弟子修行的小周天主要以任督二脉为主，配以指法，则可凌空化气，号为一阳。配以扇法，则可御风为媒，劈刃飞光。",
         "critical_type": "neutral",
@@ -421,7 +421,7 @@
             "pve_addition_base": 614
         },
         "recipes": [
-            "_1711_1"
+            "recipe_1711_1"
         ],
         "desc": "测试文本",
         "critical_type": "neutral",

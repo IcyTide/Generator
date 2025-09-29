@@ -1,3 +1,5 @@
+from base.expression import Variable
+
 SKILLS = {
     22126: dict(channel_interval=24),
     **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([22170, 22550, 22551])},
@@ -8,5 +10,8 @@ SKILLS = {
     32822: dict(comments={1: "原始", 2: "双持"}),
     24165: dict(comments={1: "1段", 2: "2段", 3: "4段"}), 24166: dict(comment="3段"),
     25311: dict(comment="1段"), 25312: dict(comment="2段"),
-
+    **{
+        skill_id: dict(dest_rollback_attributes=[("coming_damage_cof", 205 * Variable("talent_42128"))])
+        for skill_id in [22489, 22490]
+    }
 }

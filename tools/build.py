@@ -112,9 +112,9 @@ class Builder:
 
     def parse_all(self):
         self.parse_attribute()
-        self.parse_buffs()
         self.parse_dots()
         self.parse_skills()
+        self.parse_buffs()
         self.parse_talents()
         self.parse_recipes()
 
@@ -124,7 +124,7 @@ class Builder:
 
     def parse_buffs(self):
         for buff_id, buff in tqdm(self.buffs.items()):
-            buffs = self.buffs[buff_id] = parse_buff(buff)
+            buffs = self.buffs[buff_id] = parse_buff(buff, self.skills)
             for buff_level, item in buffs.items():
                 self.build_recipes(dict(buffs=[recipe_id for recipe_id, _ in item.recipes]))
 
@@ -146,12 +146,12 @@ class Builder:
             self.recipes[recipe_id] = parse_recipe(recipe, self.skills, self.dots)
 
     def save(self):
-        # save_code("attributes", {k: v for attribute in self.all_attributes.values() for k, v in attribute.items()})
-        # save_code("buffs", {k: v for buff in self.all_buffs.values() for k, v in buff.items()})
-        # save_code("dots", {k: v for dot in self.all_dots.values() for k, v in dot.items()})
-        # save_code("skills", {k: v for skill in self.all_skills.values() for k, v in skill.items()})
-        # save_code("talents", {k: v for talent in self.all_talents.values() for k, v in talent.items()})
-        # save_code("recipes", {k: v for recipe in self.all_recipes.values() for k, v in recipe.items()})
+        # save_code("attributes", {k: v for sub in self.all_attributes.values() for k, v in sub.items()})
+        # save_code("buffs", {k: v for sub in self.all_buffs.values() for k, v in sub.items()})
+        # save_code("dots", {k: v for sub in self.all_dots.values() for k, v in sub.items()})
+        # save_code("skills", {k: v for sub in self.all_skills.values() for k, v in sub.items()})
+        # save_code("talents", {k: v for sub in self.all_talents.values() for k, v in sub.items()})
+        # save_code("recipes", {k: v for sub in self.all_recipes.values() for k, v in sub.items()})
         save_code("attributes", self.all_attributes),
         save_code("buffs", self.all_buffs),
         save_code("dots", self.all_dots),

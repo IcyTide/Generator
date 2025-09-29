@@ -1,5 +1,7 @@
+from base.expression import Variable
 from kungfus import BUFF_PATCHES
 from tools.classes import AliasBase
+from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_TYPE
 from tools.settings import buff_settings, buff_txts
 from tools.utils import camel_to_capital, get_variable, process_attr_param, set_patches
@@ -32,6 +34,7 @@ class Buff(AliasBase):
 
     attributes: list[tuple[ATTRIBUTE_TYPE, int]]
     recipes: list[tuple[int, int]]
+    coming_damage_cof: int = 0
     skills: list[int]
     name: str = ""
     comments: dict[int, str] = None
@@ -44,18 +47,15 @@ class Buff(AliasBase):
     def __init__(self, buff_id: int, buff_level: int = 0):
         self.buff_id = buff_id
         self.attributes, self.recipes, self.skills = [], [], []
-        if self.buff_id > 0:
-            setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
-            self.max_level = setting_rows["Level"].max()
-            if buff_level:
-                self.buff_level = buff_level
-                setting_row = setting_rows[setting_rows["Level"] == self.buff_level].iloc[0]
-                for k, v in setting_row.items():
-                    setattr(self, k, v)
-                self.get_attributes(self.attributes_prefix)
-        else:
+        setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
+        self.max_level = setting_rows["Level"].max()
+        if buff_level:
             self.buff_level = buff_level
-            self.max_level = 1
+            setting_row = setting_rows[setting_rows["Level"] == self.buff_level].iloc[0]
+            for k, v in setting_row.items():
+                setattr(self, k, v)
+            self.get_attributes(self.attributes_prefix)
+            self.buff_key = Variable(get_variable("buff", self.buff_id, self.buff_level))
 
         set_patches(self, BUFF_PATCHES, buff_id, buff_level)
 
@@ -78,6 +78,9 @@ class Buff(AliasBase):
             elif param := process_attr_param(attr_type, param_1, param_2):
                 self.attributes.append((attr_type, param))
 
+    def check_skill(self, skill: Skill):
+        return skill.skill_id in self.skills
+
     def to_dict(self):
         if self.buff_level:
             return {
@@ -87,8 +90,9 @@ class Buff(AliasBase):
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
                 "attributes": {attr: param for attr, param in self.attributes},
-                "recipes": [get_variable(recipe_id, recipe_level) for recipe_id, recipe_level in self.recipes],
-                "skills": self.skills
+                "recipes": [get_variable("recipe", *keys) for keys in self.recipes],
+                "skills": self.skills,
+                "buff_key": str(self.buff_key)
             }
         else:
             return {}

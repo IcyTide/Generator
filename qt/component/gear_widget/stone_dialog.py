@@ -45,6 +45,15 @@ class StoneDialog(QDialog):
         if stone:
             for attr, attr_combo in zip(stone.attributes, self.attr_combos):
                 attr_combo.setCurrentText(attr)
+            self.level_combo.setCurrentText(str(stone.level))
+
+
+    @staticmethod
+    def is_stone_node(node: dict):
+        for key in node:
+            if isinstance(key, int):
+                return True
+        return False
 
     def set_stone(self, stone: dict = None):
         if not stone:
@@ -55,64 +64,55 @@ class StoneDialog(QDialog):
             self.name_label.setText(self.stone.name)
 
     def select_attr_1(self, attr: str):
-        if attr not in self.stone_data:
-            self.attr_combo_2.clear()
-            self.set_stone()
-            return
-        self.attr_combo_2.set_items([""] + list(self.stone_data[attr]))
         self.set_stone()
+        if attr in self.stone_data:
+            self.attr_combo_2.set_items([""] + list(self.stone_data[attr]))
+        else:
+            self.attr_combo_2.clear()
+            self.attr_combo_3.clear()
+            self.level_combo.clear()
 
     def select_attr_2(self, attr: str):
+        self.set_stone()
         attr_1 = self.attr_combo_1.currentText()
         if attr_1 not in self.stone_data:
             return
-        if attr not in self.stone_data[attr_1]:
-            self.attr_combo_3.clear()
-            self.set_stone()
-            return
-        if any(isinstance(key, int) for key in self.stone_data[attr_1][attr]):
-            self.attr_combo_3.clear()
-            self.level_combo.set_items([""] + list(self.stone_data[attr_1][attr]))
-            level = self.level_combo.currentText()
-            if level and int(level) in self.stone_data[attr_1][attr]:
-                self.set_stone(self.stone_data[attr_1][attr][int(level)])
+        if attr in self.stone_data[attr_1]:
+            if self.is_stone_node(self.stone_data[attr_1][attr]):
+                self.attr_combo_3.clear()
+                self.level_combo.set_items([""] + list(self.stone_data[attr_1][attr]))
+            else:
+                self.attr_combo_3.set_items([""] + list(self.stone_data[attr_1][attr]))
         else:
-            self.attr_combo_3.set_items([""] + list(self.stone_data[attr_1][attr]))
-            self.set_stone()
+            self.attr_combo_3.clear()
+            self.level_combo.clear()
 
     def select_attr_3(self, attr: str):
+        self.set_stone()
         attr_1 = self.attr_combo_1.currentText()
         attr_2 = self.attr_combo_2.currentText()
         if attr_1 not in self.stone_data:
             return
         if attr_2 not in self.stone_data[attr_1]:
             return
-        if attr not in self.stone_data[attr_1][attr_2]:
-            self.set_stone()
-            return
-        self.level_combo.set_items([""] + list(self.stone_data[attr_1][attr_2][attr]))
-        self.set_stone()
-        level = self.level_combo.currentText()
-        if level and int(level) in self.stone_data[attr_1][attr_2][attr]:
-            self.set_stone(self.stone_data[attr_1][attr_2][attr][int(level)])
+        if attr in self.stone_data[attr_1][attr_2]:
+            self.level_combo.set_items([""] + list(self.stone_data[attr_1][attr_2][attr]))
+        else:
+            self.level_combo.clear()
 
     def select_level(self, level: str):
+        self.set_stone()
+        if not level:
+            return
         attr_1 = self.attr_combo_1.currentText()
         if attr_1 not in self.stone_data:
             return
         attr_2 = self.attr_combo_2.currentText()
         if attr_2 not in self.stone_data[attr_1]:
             return
-        if any(isinstance(key, int) for key in self.stone_data[attr_1][attr_2]):
-            if level and int(level) in self.stone_data[attr_1][attr_2][attr_2]:
-                self.set_stone(self.stone_data[attr_1][attr_2][int(level)])
-            else:
-                self.set_stone()
-        else:
-            attr_3 = self.attr_combo_3.currentText()
-            if attr_3 not in self.stone_data[attr_1][attr_2]:
-                return
-            if level and int(level) in self.stone_data[attr_1][attr_2][attr_3]:
-                self.set_stone(self.stone_data[attr_1][attr_2][attr_3][int(level)])
-            else:
-                self.set_stone()
+        attr_3 = self.attr_combo_3.currentText()
+        if attr_3 not in self.stone_data[attr_1][attr_2]:
+            return
+        if int(level) not in self.stone_data[attr_1][attr_2][attr_3]:
+            return
+        self.set_stone(self.stone_data[attr_1][attr_2][attr_3][int(level)])

@@ -36,6 +36,7 @@ class ComboBox(QComboBox):
         self.blockSignals(True)
         self.clear()
         self.addItems(items)
+        self.setCurrentIndex(-1)
         self.blockSignals(False)
         if index is not None:
             self.setCurrentIndex(index)

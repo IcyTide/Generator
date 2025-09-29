@@ -32,6 +32,21 @@ class LoopWidget(QWidget):
 
     def __init__(self):
         super().__init__()
+        layout = QVBoxLayout(self)
+        top_layout = QHBoxLayout()
+        self.all_damage_btn = QPushButton("All Damage")
+        top_layout.addWidget(self.all_damage_btn)
+        self.section_damage_btn = QPushButton("Section Damage")
+        top_layout.addWidget(self.section_damage_btn)
+        self.record_damage_btn = QPushButton("Record Damage")
+        top_layout.addWidget(self.record_damage_btn)
+        self.skill_damage_btn = QPushButton("Skill Damage")
+        top_layout.addWidget(self.skill_damage_btn)
+        self.dot_damage_btn = QPushButton("Dot Damage")
+        top_layout.addWidget(self.dot_damage_btn)
+        self.dot_damage_btn.hide()
+        layout.addLayout(top_layout)
+
         main_splitter = QSplitter(Qt.Orientation.Horizontal)
 
         # Left Panel - Sections and Records
@@ -108,5 +123,4 @@ class LoopWidget(QWidget):
         # Main Widget Set
         main_splitter.addWidget(left_panel)
         main_splitter.addWidget(right_panel)
-        layout = QVBoxLayout(self)
         layout.addWidget(main_splitter)

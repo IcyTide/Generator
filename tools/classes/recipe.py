@@ -38,7 +38,7 @@ class Recipe(AliasBase):
                 setattr(self, k, v)
             if self.script_file:
                 self.script_path = Path(self.path) / self.script_file
-            self.recipe_key = Variable(get_variable(self.recipe_id, self.recipe_level))
+            self.recipe_key = Variable(get_variable("recipe", self.recipe_id, self.recipe_level))
 
     def check_skill(self, skill: Skill):
         if skill.skill_id == RECIPE_COPY.get(self.skill_id):

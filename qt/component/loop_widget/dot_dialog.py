@@ -2,9 +2,12 @@ from copy import deepcopy
 
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
+from base.constant import SHIELD_BASE_MAP
+from base.expression import Variable
+from qt.classes.attribute import Attribute
 from qt.classes.dot import Dot
 from qt import ComboBox, LabelRow
-from qt.component.loop_widget.skill_editor import SkillEditorDialog
+from qt.component.loop_widget.skill_dialog import SkillEditorDialog
 
 
 class SourceSkillEditorDialog(SkillEditorDialog):
@@ -71,7 +74,7 @@ class DotEditorDialog(QDialog):
     def select_belong(self, belong: str):
         if belong not in self.dots:
             return
-        self.id_combo.set_items([str(dot_id) for dot_id in self.dots[belong]])
+        self.id_combo.set_items(list(self.dots[belong]))
 
     def select_id(self, dot_id: str):
         if not dot_id:
@@ -97,7 +100,7 @@ class DotEditorDialog(QDialog):
         if not self.dot:
             return
         skills = {self.dot.name: self.dot.skills}
-        dialog = SourceSkillEditorDialog(max_stack=self.dot.max_stack, skills=skills, parent=self)
+        dialog = SourceSkillEditorDialog(self.dot.max_stack, skill=self.dot.source, skills=skills, parent=self)
         if dialog.exec() == QDialog.DialogCode.Accepted and (skill := dialog.skill):
             self.dot.source = skill
             self.source_button.setText(str(skill))
@@ -111,3 +114,51 @@ class DotEditorDialog(QDialog):
         if not self.dot:
             return
         self.dot.count = count
+
+
+class DotDamageDialog(QDialog):
+
+    def __init__(
+            self, dot: Dot, current: Attribute, snapshot: Attribute,  parent: QWidget = None
+    ):
+        super().__init__(parent)
+        self.setWindowTitle("Damage Detail")
+
+        layout = QVBoxLayout(self)
+
+        variables = {
+            "rand": 0.5, "damage": Variable("damage"), **current.current, **snapshot.snapshot
+        }
+        self.damage = dot.source.damage.evaluate(variables) * dot.stack * dot.count
+        self.critical_damage = dot.source.critical_damage.evaluate(variables)
+        self.critical_strike = dot.source.critical_strike.evaluate(variables)
+
+        layout.addWidget(LabelRow("Name:", QLabel(dot.name)))
+        layout.addWidget(LabelRow("Dot ID:", QLabel(str(dot.dot_id))))
+        layout.addWidget(LabelRow("Dot Level:", QLabel(str(dot.dot_level))))
+        layout.addWidget(LabelRow("Stack:", QLabel(str(dot.stack))))
+        layout.addWidget(LabelRow("Tick:", QLabel(str(dot.tick))))
+        layout.addWidget(LabelRow("Count:", QLabel(str(dot.count))))
+        self.target_level = ComboBox()
+        layout.addWidget(LabelRow("Target Level:", self.target_level))
+        layout.addWidget(LabelRow("Critical Strike:", QLabel(f"{round(self.critical_strike * 100, 2)}%")))
+        self.damage_label = QLabel("")
+        layout.addWidget(LabelRow("Hit Damage:", self.damage_label))
+        self.critical_damage_label = QLabel("")
+        layout.addWidget(LabelRow("Critical Damage:", self.critical_damage_label))
+        self.expected_damage_label = QLabel("")
+        layout.addWidget(LabelRow("Expected Damage:", self.expected_damage_label))
+
+        self.target_level.currentTextChanged.connect(self.select_target_level)
+        self.target_level.set_items(SHIELD_BASE_MAP)
+
+    def select_target_level(self, level):
+        if not level:
+            return
+        level = int(level)
+        damage = int(self.damage.evaluate({"target_level": level, "shield_base": SHIELD_BASE_MAP[level]}))
+        self.damage_label.setText(str(damage))
+        critical_damage = int(self.critical_damage.evaluate({"damage": damage}))
+        self.critical_damage_label.setText(str(critical_damage))
+        expected_damage = int(damage * (1 - self.critical_strike) + critical_damage * self.critical_strike)
+        self.expected_damage_label.setText(str(expected_damage))

@@ -1,11 +1,18 @@
+import math
+
 from base.constant import *
+from base.expression import Expression, Variable
+from base.translate import ATTRIBUTE_TRANSLATE
+from qt.classes.buff import Buff
+from tools.lua.enums import SKILL_KIND_TYPE
 
 
 class Major:
-    agility_base: int = 0
-    strength_base: int = 0
-    spirit_base: int = 0
-    spunk_base: int = 0
+    vitality_base: int = BASE_MAJOR
+    agility_base: int = BASE_MAJOR
+    strength_base: int = BASE_MAJOR
+    spirit_base: int = BASE_MAJOR
+    spunk_base: int = BASE_MAJOR
 
     agility_gain: int = 0
     strength_gain: int = 0
@@ -610,6 +617,12 @@ class CriticalPower:
 
 
 class Minor:
+    weapon_damage_base: int = 0
+    weapon_damage_rand: int = 0
+    weapon_damage_gain: int = 0
+
+    haste_base: int = 0
+
     surplus_base: int = 0
     surplus_gain: int = 0
 
@@ -626,6 +639,10 @@ class Minor:
     move_state_damage_addition: int = 0
 
     pve_addition_base: int = 0
+
+    @property
+    def weapon_damage(self):
+        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
 
     @property
     def surplus(self):
@@ -656,11 +673,11 @@ class Minor:
 
 
 class Defense:
-    physical_shield_base: int = 0
-    solar_shield_base: int = 0
-    lunar_shield_base: int = 0
-    neutral_shield_base: int = 0
-    poison_shield_base: int = 0
+    physical_shield_base: Expression = Variable("shield_base")
+    solar_shield_base: Expression = Variable("shield_base")
+    lunar_shield_base: Expression = Variable("shield_base")
+    neutral_shield_base: Expression = Variable("shield_base")
+    poison_shield_base: Expression = Variable("shield_base")
     _magical_shield_base: int = 0
 
     physical_shield_gain: int = 0
@@ -712,8 +729,8 @@ class DamageCof:
 
 
 class Target(Defense, DamageCof):
-    level: int = 0
-    global_damage_factor: int = 0
+    TEMPLATE = ["{}_shield_base", "{}_shield_gain", "{}_damage_cof"]
+    level: Expression = Variable("target_level")
 
     def __getitem__(self, item):
         if item in dir(self):
@@ -726,4 +743,85 @@ class Target(Defense, DamageCof):
 
 
 class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Target):
+    CURRENT_VARIABLE_TEMPLATE = [
+        "{}_overcome",
+    ]
+    SNAPSHOT_VARIABLE_TEMPLATE = [
+        "base_{}_attack_power", "{}_attack_power_gain", "extra_{}_attack_power",
+        "{}_critical_strike_percent", "{}_critical_strike_rate", "{}_critical_power_percent", "{}_critical_power_rate"
+    ]
+    CURRENT_VARIABLE = [
+        "surplus", "weapon_damage", "weapon_damage_rand", "all_shield_ignore",
+    ]
+    SNAPSHOT_VARIABLE = [
+        "strain", "pve_addition_base", "physical_damage_addition", "magical_damage_addition"
+    ]
     level: int = LEVEL
+    critical_type: str
+    damage_type: str
+
+    recipes: list[str]
+    buffs: dict[str, int]
+
+    def __init__(self, major):
+        self.major = major
+        self.recipes = []
+        self.buffs = {}
+        self.target = Target()
+
+    @property
+    def current(self):
+        variables: dict = {**self.buffs}
+        for e in SKILL_KIND_TYPE:
+            for template in self.CURRENT_VARIABLE_TEMPLATE:
+                attr = template.format(e)
+                variables[attr] = self[attr]
+            for template in self.target.TEMPLATE:
+                attr = template.format(e)
+                variables[attr] = self.target[attr]
+        for attr in self.CURRENT_VARIABLE:
+            variables[attr] = self[attr]
+        variables["target_level"] = self.target.level
+        return variables
+
+    @property
+    def snapshot(self):
+        variables: dict = {recipe: 1. for recipe in self.recipes}
+        for e in SKILL_KIND_TYPE:
+            for template in self.SNAPSHOT_VARIABLE_TEMPLATE:
+                attr = template.format(e)
+                variables[attr] = self[attr]
+        for attr in self.SNAPSHOT_VARIABLE:
+            variables[attr] = self[attr]
+        return variables
+
+    def add_buff(self, buff: Buff):
+        for k, v in buff.attributes.items():
+            self[k] += math.ceil(v * buff.stack)
+        self.recipes += buff.recipes
+        self.buffs[buff.buff_key] = buff.stack
+
+    @property
+    def display_attributes(self) -> dict[str, int]:
+        ret = [
+                  template.format(ATTRIBUTE_TRANSLATE[self.major])
+                  for template in [
+                "{}_base", "{}"
+            ]
+              ] + [
+                  template.format(self.damage_type)
+                  for template in [
+                "base_{}_attack_power", "{}_attack_power",
+                "base_{}_overcome", "final_{}_overcome", "{}_overcome",
+            ]
+              ] + [
+                  template.format(self.critical_type)
+                  for template in [
+                "{}_critical_strike_percent", "{}_critical_strike",
+                "{}_critical_power_percent", "{}_critical_power",
+            ]
+              ] + [
+                  "surplus", "base_strain", "strain",
+                  "weapon_damage_base", "weapon_damage_rand"
+              ]
+        return {attr: self[attr] for attr in ret}

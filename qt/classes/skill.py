@@ -1,3 +1,6 @@
+from base.expression import Expression, Variable, parse_expr
+
+
 class Skill:
     belong: str
     skill_id: int
@@ -6,6 +9,9 @@ class Skill:
 
     name: str = ""
     comment: str = ""
+    damage: str | Expression
+    critical_damage: str | Expression
+    critical_strike: str | Expression
 
     def __init__(self, belong: str, skill_id: int, skill_level: int, count: int = 1, **kwargs):
         self.belong = belong
@@ -15,6 +21,9 @@ class Skill:
         self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
+        self.damage = parse_expr(self.damage)
+        self.critical_damage = parse_expr(self.critical_damage)
+        self.critical_strike = parse_expr(self.critical_strike)
 
     def __iter__(self):
         yield str(self)
@@ -29,3 +38,22 @@ class Skill:
         elif self.comment:
             return self.comment
         return f"{self.skill_id}-{self.skill_level}"
+
+    def to_dict(self):
+        return dict(
+            belong=self.belong,
+            skill_id=self.skill_id,
+            skill_level=self.skill_level,
+            count=self.count,
+            kwargs=self.kwargs
+        )
+
+    @classmethod
+    def from_dict(cls, json):
+        return cls(
+            belong=json["belong"],
+            skill_id=json["skill_id"],
+            skill_level=json["skill_level"],
+            count=json["count"],
+            kwargs=json["kwargs"]
+        )

@@ -56,14 +56,14 @@ class BuffEditorDialog(QDialog):
     def select_belong(self, belong: str):
         if belong not in self.buffs:
             return
-        self.id_combo.set_items([str(buff_id) for buff_id in self.buffs[belong]])
+        self.id_combo.set_items(list(self.buffs[belong]))
 
     def select_id(self, buff_id: str):
         if not buff_id:
             return
         belong = self.belong_combo.currentText()
         buff_id = int(buff_id)
-        self.level_combo.set_items([str(level) for level in self.buffs[belong][buff_id]])
+        self.level_combo.set_items(list(self.buffs[belong][buff_id]))
 
     def select_level(self, buff_level: str):
         if not buff_level:
@@ -74,7 +74,7 @@ class BuffEditorDialog(QDialog):
         buff_type = self.type_combo.currentText()
         self.buff = Buff(belong, buff_id, buff_level, buff_type, **self.buffs[belong][buff_id][buff_level])
 
-        self.stack_combo.set_items([str(i + 1) for i in range(self.buff.max_stack)])
+        self.stack_combo.set_items(range(1, self.buff.max_stack + 1))
         self.name_label.setText(self.buff.name)
         self.comment_label.setText(self.buff.comment)
 

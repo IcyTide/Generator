@@ -1,7 +1,10 @@
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
-from qt.classes.skill import Skill
+from base.constant import SHIELD_BASE_MAP
+from base.expression import Variable
 from qt import ComboBox, LabelRow
+from qt.classes.attribute import Attribute
+from qt.classes.skill import Skill
 
 
 class SkillEditorDialog(QDialog):
@@ -76,3 +79,49 @@ class SkillEditorDialog(QDialog):
         if not self.skill:
             return
         self.skill.count = count
+
+
+class SkillDamageDialog(QDialog):
+
+    def __init__(
+            self, skill: Skill, attribute: Attribute, parent: QWidget = None
+    ):
+        super().__init__(parent)
+        self.setWindowTitle("Damage Detail")
+
+        layout = QVBoxLayout(self)
+
+        variables = {
+            "rand": 0.5, "damage": Variable("damage"), **attribute.current, **attribute.snapshot
+        }
+        self.damage = skill.damage.evaluate(variables) * skill.count
+        self.critical_damage = skill.critical_damage.evaluate(variables)
+        self.critical_strike = skill.critical_strike.evaluate(variables)
+
+        layout.addWidget(LabelRow("Name:", QLabel(skill.name)))
+        layout.addWidget(LabelRow("Skill ID:", QLabel(str(skill.skill_id))))
+        layout.addWidget(LabelRow("Skill Level:", QLabel(str(skill.skill_level))))
+        layout.addWidget(LabelRow("Count:", QLabel(str(skill.count))))
+        self.target_level = ComboBox()
+        layout.addWidget(LabelRow("Target Level:", self.target_level))
+        layout.addWidget(LabelRow("Critical Strike:", QLabel(f"{round(self.critical_strike * 100, 2)}%")))
+        self.damage_label = QLabel("")
+        layout.addWidget(LabelRow("Hit Damage:", self.damage_label))
+        self.critical_damage_label = QLabel("")
+        layout.addWidget(LabelRow("Critical Damage:", self.critical_damage_label))
+        self.expected_damage_label = QLabel("")
+        layout.addWidget(LabelRow("Expected Damage:", self.expected_damage_label))
+
+        self.target_level.currentTextChanged.connect(self.select_target_level)
+        self.target_level.set_items(SHIELD_BASE_MAP)
+
+    def select_target_level(self, level):
+        if not level:
+            return
+        level = int(level)
+        damage = int(self.damage.evaluate({"target_level": level, "shield_base": SHIELD_BASE_MAP[level]}))
+        self.damage_label.setText(str(damage))
+        critical_damage = int(self.critical_damage.evaluate({"damage": damage}))
+        self.critical_damage_label.setText(str(critical_damage))
+        expected_damage = int(damage * (1 - self.critical_strike) + critical_damage * self.critical_strike)
+        self.expected_damage_label.setText(str(expected_damage))

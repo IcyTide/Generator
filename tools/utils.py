@@ -31,10 +31,11 @@ def path_to_function(s):
     return s1
 
 
-def get_variable(key_id, level=0, prefix="_"):
-    if not level:
-        return f"{prefix}{key_id}"
-    return f"{prefix}{key_id}{prefix}{level}"
+def get_variable(prefix: str="_", *keys):
+    ret = prefix
+    for key in keys:
+        ret += f"_{key}"
+    return ret
 
 
 def process_attr_param(attr, param_1, param_2):
@@ -46,6 +47,8 @@ def process_attr_param(attr, param_1, param_2):
         else:
             return 0
     if attr.startswith("call_"):
+        return param_1, param_2
+    if attr == ATTRIBUTE_TYPE.SET_TALENT_RECIPE or attr == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
         return param_1, param_2
     return param_1 or param_2
 
