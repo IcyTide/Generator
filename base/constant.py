@@ -109,3 +109,5 @@ def EMBED_COF(level):
 
 def STRENGTH_COF(level):
     return level * (0.7 + 0.3 * level) / 200
+
+MAX_TALENT_COUNT = 7

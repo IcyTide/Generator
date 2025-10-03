@@ -1,3 +1,4 @@
+from assets.raw.skills import SKILLS
 from base.expression import Expression, Variable, parse_expr
 
 
@@ -18,7 +19,6 @@ class Skill:
         self.skill_id = skill_id
         self.skill_level = skill_level
         self.count = count
-        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
         self.damage = parse_expr(self.damage)
@@ -44,16 +44,17 @@ class Skill:
             belong=self.belong,
             skill_id=self.skill_id,
             skill_level=self.skill_level,
-            count=self.count,
-            kwargs=self.kwargs
+            count=self.count
         )
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
+        if not kwargs:
+            kwargs = SKILLS[kungfu_id][json["buff_id"]][json["buff_level"]]
         return cls(
             belong=json["belong"],
             skill_id=json["skill_id"],
             skill_level=json["skill_level"],
             count=json["count"],
-            kwargs=json["kwargs"]
+            **kwargs
         )

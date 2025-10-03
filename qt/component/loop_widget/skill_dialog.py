@@ -5,17 +5,18 @@ from base.expression import Variable
 from qt import ComboBox, LabelRow
 from qt.classes.attribute import Attribute
 from qt.classes.skill import Skill
+from qt.component.loop_widget.widget import LoopWidget
 
 
 class SkillEditorDialog(QDialog):
     skills: dict[str, dict[int, dict[int, dict]]] = {}
     skill: Skill = None
 
-    def __init__(self, skills: dict = None, skill: Skill = None, parent: QWidget = None):
+    def __init__(self, skills: dict = None, skill: Skill = None, parent: LoopWidget = None):
         super().__init__(parent)
         self.setWindowTitle("Edit Skill")
         layout = QVBoxLayout(self)
-
+        self.kungfu = parent.kungfu
         self.skills = skills
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()

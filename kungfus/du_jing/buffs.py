@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    驭虫奇术=[2543],
-)
+BUFFS: dict[int, list[int]] = {
+    2226: [2543]
+}

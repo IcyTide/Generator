@@ -1,4 +1,4 @@
-BUFFS: dict[str, list[int]] = dict(
-    虎牙令=[6363],
-    游龙骑法=[6121]
-)
+BUFFS: dict[int, list[int]] = {
+    404: [6363],
+    433: [6121]
+}

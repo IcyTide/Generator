@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     阳明指=[490, 491, 492, 493],
     快雪时晴=[1677, 1678, 1679],
     芙蓉并蒂=[4904, 4905, 4906, 4907, 4908, 4909],

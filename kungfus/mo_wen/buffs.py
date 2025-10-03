@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    曲=[9433]
-)
+BUFFS: dict[int, list[int]] = {
+    14070: [9433]
+}

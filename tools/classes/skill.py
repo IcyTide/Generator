@@ -18,9 +18,11 @@ class Skill(AliasBase):
     _aliases = {
         "dwSkillID": "skill_id",
         "dwLevel": "skill_level",
+        "nHeight": "zero",
         "nAreaRadius": "zero",
         "nBeatBackRate": "zero",
-        "nTargetCountLimit": "zero"
+        "nTargetCountLimit": "zero",
+        "nChannelFrame": "zero"
     }
     skill_id: int
     skill_level: int = 0

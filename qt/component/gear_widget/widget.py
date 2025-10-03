@@ -6,7 +6,7 @@ from assets.raw.equipments import EQUIPMENTS
 from base.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STRENGTH_LEVEL, POSITION_MAP
 from qt import ComboBox, LabelColumn
 from qt.classes.gear import Gear, Gears, Stone
-from qt.classes.kungfu import DisplayKungfu
+from qt.classes.kungfu import Kungfu
 
 
 class SubGearWidget:
@@ -45,7 +45,7 @@ class SubGearWidget:
 
 
 class GearWidget(QWidget):
-    kungfu: DisplayKungfu
+    kungfu: Kungfu
     gears: Gears
     HEADERS = ["Position", "School", "Kind", "Equipment", "Enchant", "Strength", "Embed1", "Embed2", "Embed3", "Detail"]
 

@@ -1,5 +1,5 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    破浪三式={
+DOTS: dict[int, dict[int, list[int]]] = {
+    32144: {
         24132: [32369, 32370, 32371, 32372]
     }
-)
+}

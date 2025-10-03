@@ -1,5 +1,3 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    通用={
-        3442: [18591]
-    }
-)
+DOTS: dict[int, dict[int, list[int]]] = {
+    403: {3442: [18591]}
+}

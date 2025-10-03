@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    逍遥行=[30400],
-)
+BUFFS: dict[int, list[int]] = {
+    5268: [30400],
+}

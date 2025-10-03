@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    山河令=[16596]
-)
+BUFFS: dict[int, list[int]] = {
+    22360: [16596]
+}

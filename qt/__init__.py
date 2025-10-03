@@ -1,5 +1,6 @@
 from typing import List
 
+from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QVBoxLayout, QWidget
 
 
@@ -24,6 +25,7 @@ class LabelColumn(QWidget):
         self.field = field
         layout.addWidget(self.label)
         layout.addWidget(self.field)
+        layout.setAlignment(Qt.AlignmentFlag.AlignTop)
 
     def set_label(self, label):
         self.label.setText(label)

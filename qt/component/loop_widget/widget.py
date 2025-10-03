@@ -1,13 +1,13 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (QHBoxLayout, QLabel, QPushButton, QSplitter, QVBoxLayout, QWidget)
 
-from qt.classes.kungfu import DisplayKungfu
+from qt.classes.kungfu import Kungfu
 from qt.classes.section import Section
 from qt import LabelRow, Table
 
 
 class LoopWidget(QWidget):
-    kungfu: DisplayKungfu
+    kungfu: Kungfu
     sections: list[Section]
 
     @property

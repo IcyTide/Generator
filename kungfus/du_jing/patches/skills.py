@@ -1,9 +1,9 @@
 SKILLS = {
-    18590: dict(comment="灵蛊"),
     32818: dict(comments={
         1: "荒息",
         5: "虫魄"
     }),
+    18590: dict(comment="灵蛊"),
     **{
         skill_id: dict(comment=comment)
         for skill_id, comment in zip([2470, 2471, 2472, 2473, 2474], ["圣蝎", "玉蟾", "灵蛇", "风蜈", "天蛛"])

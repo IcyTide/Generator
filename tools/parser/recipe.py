@@ -32,15 +32,11 @@ def set_recipe_to_buffs(buff_recipe: BuffRecipe, dots: dict[int, dict[int, Dot]]
 
 
 def parse_recipe(recipe: Recipe, skills: dict[int, dict[int, Skill]], dots: dict[int, dict[int, Dot]]):
-    result = {}
-    for recipe_level in recipe.levels:
-        recipe = result[recipe_level] = Recipe(recipe.recipe_id, recipe_level)
-        engine = Engine(recipe.script_path)
-        buff_recipes = set_recipe_to_skill(engine, recipe, skills)
-        for dot_id, dot_levels in dots.items():
-            for dot_level, dot in dot_levels.items():
-                buff_recipes |= set_recipe_to_skill(engine, recipe, dot.skills)
-        for buff_recipe_id, buff_recipe_level in buff_recipes:
-            buff_recipe = BuffRecipe(recipe.recipe_key, buff_recipe_id, buff_recipe_level)
-            set_recipe_to_buffs(buff_recipe, dots)
-    return result
+    engine = Engine(recipe.script_path)
+    buff_recipes = set_recipe_to_skill(engine, recipe, skills)
+    for dot_id, dot_levels in dots.items():
+        for dot_level, dot in dot_levels.items():
+            buff_recipes |= set_recipe_to_skill(engine, recipe, dot.skills)
+    for buff_recipe_id, buff_recipe_level in buff_recipes:
+        buff_recipe = BuffRecipe(recipe.recipe_key, buff_recipe_id, buff_recipe_level)
+        set_recipe_to_buffs(buff_recipe, dots)

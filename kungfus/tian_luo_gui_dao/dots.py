@@ -1,5 +1,3 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    九宫飞星={
-        3221: [3126]
-    }
-)
+DOTS: dict[int, dict[int, list[int]]] = {
+    3106: {3221: [3126]}
+}

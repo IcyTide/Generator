@@ -1,4 +1,4 @@
-BUFFS: dict[str, list[int]] = dict(
-    山海同归契=[26857],
-    装备=[27543]
-)
+BUFFS: dict[int, list[int]] = {
+    10756: [27543],
+    35695: [26857]
+}

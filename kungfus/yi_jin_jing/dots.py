@@ -1,5 +1,3 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    罗汉棍法={
-        743: [3830]
-    }
-)
+DOTS: dict[int, dict[int, list[int]]] = {
+    235: {743: [3830]}
+}

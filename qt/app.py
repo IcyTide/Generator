@@ -3,6 +3,7 @@ import sys
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication, QMainWindow, QTabWidget, QVBoxLayout, QWidget
 
+from qt.component.build_widget.widget import BuildWidget
 from qt.component.gear_widget.widget import GearWidget
 from qt.component.loop_widget.widget import LoopWidget
 from qt.component.top_widget.widget import TopWidget
@@ -25,15 +26,16 @@ class MainWindow(QMainWindow):
         layout.addWidget(self.top_widget)
         self.tabs = QTabWidget()
         layout.addWidget(self.tabs)
-        self.loop_widget = LoopWidget()
         self.gear_widget = GearWidget()
+        self.loop_widget = LoopWidget()
+        self.build_widget = BuildWidget()
         self.tabs.addTab(self.gear_widget, "Gear")
         self.tabs.addTab(self.loop_widget, "Loop")
+        self.tabs.addTab(self.build_widget, "Build")
         self.tabs.hide()
 
         loop_script = LoopScript(self.loop_widget)
         gear_script = GearScript(self.gear_widget)
-        # top_script(self.top_widget, self.tabs, loop_script, gear_script)
         self.top_script = TopScript(self.top_widget, self.tabs, loop_script, gear_script)
 
 

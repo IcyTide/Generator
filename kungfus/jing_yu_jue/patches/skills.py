@@ -1,5 +1,5 @@
 SKILLS = {
-    32884: dict(comments={1: "", }),
+    32884: dict(comments={1: ""}),
     42439: dict(comments={
         1: "原始", 2: "牢甲利兵"
     }),

@@ -1,4 +1,4 @@
-BUFFS: dict[str, list[int]] = dict(
-    游风步=[24168],
-    装备=[24752]
-)
+BUFFS: dict[int, list[int]] = {
+    10698: [24752],
+    32419: [24168]
+}

@@ -1,3 +1,3 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    苍雪刀={8249: [29188]},
-)
+DOTS: dict[int, dict[int, list[int]]] = {
+    13054: {8249: [29188]},
+}

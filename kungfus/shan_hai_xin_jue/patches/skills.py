@@ -1,10 +1,10 @@
 SKILLS = {
     35894: dict(channel_interval=24),
+    36177: dict(comments={1: ""}),
     **{
         skill_id: dict(comment=f"{i + 1}段({delay})帧")
-        for i, (skill_id, delay) in enumerate(zip([36022, 36022], [6, 22]))
+        for i, (skill_id, delay) in enumerate(zip([36022, 36023], [6, 22]))
     },
-    36177: dict(comments={1: ""}),
     36111: dict(comment="狼(x3)"),
     36056: dict(comment="大象"),
     36057: dict(comment="野猪"),

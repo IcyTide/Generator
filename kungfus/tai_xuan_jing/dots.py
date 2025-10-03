@@ -1,1 +1,1 @@
-DOTS: dict[str, dict[int, list[int]]] = dict()
+DOTS: dict[int, dict[int, list[int]]] = {}

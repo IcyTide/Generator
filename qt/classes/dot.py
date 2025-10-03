@@ -1,3 +1,4 @@
+from assets.raw.dots import DOTS
 from qt.classes.skill import Skill
 
 
@@ -24,7 +25,6 @@ class Dot:
         self.dot_level = dot_level
         self.tick = tick
         self.count = count
-        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -47,16 +47,31 @@ class Dot:
 
     def to_dict(self):
         return dict(
-            dot_id=self.dot_id, dot_level=self.dot_level,
-            source=self.source.to_dict(), tick=self.tick, count=self.count,
-            kwargs=self.kwargs
+            belong=self.belong,
+            dot_id=self.dot_id,
+            dot_level=self.dot_level,
+            source=self.source.to_dict(),
+            tick=self.tick,
+            count=self.count
         )
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
+        if not kwargs:
+            kwargs = DOTS[kungfu_id][json["dot_id"]][json["dot_level"]]
         dot = cls(
-            json["belong"], json["dot_id"], json["dot_level"],
-            json["tick"], json["count"], **json["kwargs"]
+            belong=json["belong"],
+            dot_id=json["dot_id"],
+            dot_level=json["dot_level"],
+            tick=json["tick"],
+            count=json["count"],
+            **kwargs
         )
-        dot.source = Skill.from_dict(json["source"])
+        source = json["source"]
+        skill_kwargs = dot.skills[source["skill_id"]][source["skill_level"]]
+        dot.source = Skill.from_dict(
+            kungfu_id,
+            source,
+            **skill_kwargs
+        )
         return dot

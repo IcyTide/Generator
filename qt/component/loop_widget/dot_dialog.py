@@ -8,6 +8,7 @@ from qt.classes.attribute import Attribute
 from qt.classes.dot import Dot
 from qt import ComboBox, LabelRow
 from qt.component.loop_widget.skill_dialog import SkillEditorDialog
+from qt.component.loop_widget.widget import LoopWidget
 
 
 class SourceSkillEditorDialog(SkillEditorDialog):
@@ -21,11 +22,11 @@ class DotEditorDialog(QDialog):
     dots: dict[str, dict[int, dict[int, dict]]]
     dot: Dot = None
 
-    def __init__(self, dots: dict = None, dot: Dot = None, parent: QWidget = None):
+    def __init__(self, dots: dict = None, dot: Dot = None, parent: LoopWidget = None):
         super().__init__(parent)
         self.setWindowTitle("Edit Dot")
         layout = QVBoxLayout(self)
-
+        self.kungfu = parent.kungfu
         self.dots = dots
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()

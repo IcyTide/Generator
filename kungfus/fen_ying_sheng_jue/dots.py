@@ -1,5 +1,3 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    日月净世={
-        4202: [13359]
-    }
-)
+DOTS: dict[int, dict[int, list[int]]] = {
+    3960: {4202: [13359]}
+}

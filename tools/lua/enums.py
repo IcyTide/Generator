@@ -56,6 +56,7 @@ class SKILL_KIND_TYPE(StrEnum):
     LUNAR_MAGIC = "lunar"
     NEUTRAL_MAGIC = "neutral"
     POISON = "poison"
+    LEAP = "leap"
 
 
 class MOVE_STATE(IntEnum):
@@ -96,6 +97,8 @@ class ATTRIBUTE_TYPE(StrEnum):
     CURRENT_ENERGY = ""
 
     ACCUMULATE = ""
+    CURRENT_SUN_ENERGY = ""
+    CURRENT_MOON_ENERGY = ""
     MAX_ACCUMULATE_VALUE = ""
     MAX_RAGE = ""
     MAX_ENERGY = ""
@@ -177,6 +180,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     MODIFY_COOL_DOWN = ""
     CLEAR_COOL_DOWN = ""
     DASH_TO_POINT = ""
+    DASH_BACKWARD = ""
     SKILL_MOVE = ""
     DIRECT_CAST_MASK = ""
 
@@ -228,6 +232,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     THERAPY_POWER_BASE = ""
     THERAPY_POWER_PERCENT = ""
     THERAPY_COEFFICIENT = ""
+    MODIFY_THREAT = ""
 
     PHYSICS_ATTACK_POWER_BASE = "physical_attack_power_base"
     SOLAR_ATTACK_POWER_BASE = "solar_attack_power_base"
@@ -244,6 +249,13 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_ATTACK_POWER_PERCNET = "neutral_attack_power_gain"
     POISON_ATTACK_POWER_PERCENT = "poison_attack_power_gain"
     MAGIC_ATTACK_POWER_PERCENT = "magical_attack_power_percent"
+
+    # Hit
+    PHYSICS_HIT_BASE_RATE = ""
+    SOLAR_HIT_BASE_RATE = ""
+    LUNAR_HIT_BASE_RATE = ""
+    NEUTRAL_HIT_BASE_RATE = ""
+    POISON_HIT_BASE_RATE = ""
 
     # Overcome Attribute
     PHYSICS_OVERCOME_BASE = "physical_overcome_base"
@@ -309,6 +321,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     RANGE_WEAPON_DAMAGE_BASE = ""
     RANGE_WEAPON_DAMAGE_RAND = ""
     RANGE_WEAPON_ATTACK_SPEED_BASE = ""
+    NONE_WEAPON_ATTACK_SPEED_BASE = ""
     SURPLUS_VALUE_BASE = "surplus_base"
     SURPLUS_VALUE_ADD_PERCENT = "surplus_gain"
     STRAIN_BASE = "strain_base"
@@ -357,6 +370,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     THERAPY_POWER_TO_MAGIC_ATTACK_POWER_COF = ""
     AGILITY_TO_PARRY_COF = ""
     AGILITY_TO_PARRY_VALUE_COF = ""
+    POISON_ATTACK_POWER_TO_THERAPY_POWER_COF = ""
 
     AGILITY_TO_PHYSICS_ATTACK_POWER_COF = "agility_to_physical_attack_power"
     AGILITY_TO_PHYSICS_CRITICAL_STRIKE_COF = "agility_to_physical_critical_strike"

@@ -1,22 +1,15 @@
 BUFFS: dict[int, dict] = {
-    19635: dict(
-        name="明法",
-        comments={}
-    ),
-    2686: dict(
-        comments={
-            1: "原始",
-            2: "菩提身",
-            3: "系珠",
-            4: "菩提身+系珠"
-        }
-    ),
-    743: dict(
-        comments={
-            29: "原始",
-            58: "我闻"
-        }
-    ),
+    19635: dict(name="明法", comments={}),
+    2686: dict(comments={
+        1: "原始",
+        2: "菩提身",
+        3: "系珠",
+        4: "菩提身+系珠"
+    }),
+    743: dict(comments={
+        29: "原始",
+        58: "我闻"
+    }),
     12590: dict(name="三生", comments={}),
     29547: dict(name="华香"),
     11979: dict(comment="金刚怒目"),

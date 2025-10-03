@@ -1,5 +1,3 @@
-DOTS: dict[str, dict[int, list[int]]] = dict(
-    行忌制方={
-        20052: [27560]
-    }
-)
+DOTS: dict[int, dict[int, list[int]]] = {
+    27554: {20052: [27560]}
+}

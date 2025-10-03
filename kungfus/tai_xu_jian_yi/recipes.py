@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     人剑合一=[60, 61],
     三环套月=[65, 66, 67, 70, 71, 72],
     无我无剑=[100, 101, 102, 105, 106, 107],

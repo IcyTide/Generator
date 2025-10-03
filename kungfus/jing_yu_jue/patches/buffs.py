@@ -1,6 +1,6 @@
 BUFFS: dict[int, dict] = {
+    7659: dict(comments={1: "千里无痕", 2: "原始"}),
     17103: dict(name="追命无声"),
-7659: dict(comments={1: "千里无痕", 2: "原始"}),
     12663: dict(comment="摧心"),
     **{
         buff_id: dict(name=f"蹑景", comment=f"{i + 1}层")

@@ -5,8 +5,7 @@ SKILLS = {
         6: "木落雁归"
     }),
     **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([19766, 19767, 20014])},
-    20684: dict(comment="8尺内"),
-    20685: dict(comment="4尺内"),
+    20684: dict(comment="8尺内"), 20685: dict(comment="4尺内"),
     20840: dict(comment="水龙卷", comments={
         i + 1: f"{i}层增伤" for i in range(3)
     }),

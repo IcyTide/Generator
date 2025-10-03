@@ -1,14 +1,12 @@
 SKILLS = {
     16: dict(channel_interval=16),
+    32467: dict(comments={
+        **{i + 1: f"吞噬{i + 1}跳" for i in range(7)},
+        8: "墨海临源",
+        9: "快雪时晴"
+    }),
     **{skill_id: dict(comment="芙蓉并蒂") for skill_id in [6134, 6135, 6136]},
     **{skill_id: dict(comment="乱洒青荷", comments={1: "原始", 2: "渲青"}) for skill_id in [39906, 39907]},
-    32467: dict(
-        comments={
-            **{i + 1: f"吞噬{i + 1}跳" for i in range(7)},
-            8: "墨海临源",
-            9: "快雪时晴"
-        }
-    ),
     **{skill_id: dict(comment="飞白1段") for skill_id in [34280, 34278, 34279]},
     **{skill_id: dict(comment="飞白2段") for skill_id in [40085, 40084, 40086]},
     32501: dict(comments={

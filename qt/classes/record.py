@@ -36,11 +36,11 @@ class Record:
         )
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, kungfu_id: int, json: dict):
         record = cls(
             json["name"], json["count"],
-            [Buff.from_dict(buff) for buff in json["buffs"]],
-            [Skill.from_dict(skill) for skill in json["skills"]],
-            [Dot.from_dict(dot) for dot in json["dots"]]
+            [Buff.from_dict(kungfu_id, buff) for buff in json["buffs"]],
+            [Skill.from_dict(kungfu_id, skill) for skill in json["skills"]],
+            [Dot.from_dict(kungfu_id, dot) for dot in json["dots"]]
         )
         return record

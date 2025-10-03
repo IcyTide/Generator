@@ -1,13 +1,11 @@
-from assets.raw.attributes import ATTRIBUTES
 from assets.raw.buffs import BUFFS
 from assets.raw.dots import DOTS
 from assets.raw.skills import SKILLS
-from assets.raw.talents import TALENTS
-from kungfus import Kungfu
+from assets.raw.belongs import BELONGS
 from qt.classes.attribute import Attribute, Target
 
 
-class DisplayKungfu:
+class Kungfu:
     source: Attribute
     target: Target
 
@@ -15,65 +13,66 @@ class DisplayKungfu:
     gear_recipes: list[str]
     gear_gains: list[str]
 
-    def __init__(self, kungfu: Kungfu):
+    def __init__(self, kungfu):
         self.kungfu_id = kungfu.attribute
-        self.attribute = ATTRIBUTES[self.kungfu_id]
+        self.attribute = BELONGS[self.kungfu_id][self.kungfu_id]
         self.name = self.attribute["name"]
         self.kind = kungfu.kind
         self.major = kungfu.major
         self.school = kungfu.school
         buffs, dots, skills = kungfu.buffs, kungfu.dots, kungfu.skills
-        self.talents = {}
+        self.talents = []
         for talents in kungfu.talents:
+            self.talents.append({})
             for talent_id, params in talents.items():
-                talent = self.talents[talent_id] = TALENTS[self.kungfu_id][talent_id]
-                talent_name = talent["name"]
-                if talent_buffs := talent.get("buffs"):
-                    buffs[talent_name] = talent_buffs
-                if talent_dots := talent.get("dots"):
-                    dots[talent_name] = talent_dots
-                if talent_skills := talent.get("skills"):
-                    skills[talent_name] = talent_skills
+                self.talents[-1][talent_id] = BELONGS[self.kungfu_id][talent_id]
+                if talent_buffs := params.get("buffs"):
+                    buffs[talent_id] = talent_buffs
+                if talent_dots := params.get("dots"):
+                    dots[talent_id] = talent_dots
+                if talent_skills := params.get("skills"):
+                    skills[talent_id] = talent_skills
+
         self.buffs = {
-            belong: {buff_id: BUFFS[self.kungfu_id][buff_id] for buff_id in buff_ids}
-            for belong, buff_ids in buffs.items()
+            BELONGS[self.kungfu_id][belong]["name"]: {
+                buff_id: BUFFS[self.kungfu_id][buff_id] for buff_id in buff_ids
+            } for belong, buff_ids in buffs.items()
         }
         self.skills = {
-            belong: {skill_id: SKILLS[self.kungfu_id][skill_id] for skill_id in skill_ids}
-            for belong, skill_ids in skills.items()
+            BELONGS[self.kungfu_id][belong]["name"]: {
+                skill_id: SKILLS[self.kungfu_id][skill_id] for skill_id in skill_ids
+            } for belong, skill_ids in skills.items()
         }
         self.dots = {
-            belong: {dot_id: DOTS[self.kungfu_id][dot_id] for dot_id in dot_ids}
+            BELONGS[self.kungfu_id][belong]["name"]: {
+                dot_id: DOTS[self.kungfu_id][dot_id] for dot_id in dot_ids
+            }
             for belong, dot_ids in dots.items()
         }
 
         self.gear_attributes = {}
         self.gear_recipes = []
+        self.gear_gains = []
 
     def create_attribute(self) -> Attribute:
+        attributes, recipes, gains = self.attributes
         attribute = Attribute(self.major)
-        for k, v in self.attributes.items():
+        for k, v in attributes.items():
             attribute[k] += v
-        attribute.recipes += self.recipes
+        attribute.recipes += recipes
         return attribute
 
     @property
     def attributes(self):
-        ret = {}
+        attributes = {}
         for k, v in self.attribute.get("attributes", {}).items():
-            if k not in ret:
-                ret[k] = 0
-            ret[k] += v
+            if k not in attributes:
+                attributes[k] = 0
+            attributes[k] += v
         for k, v in self.gear_attributes.items():
-            if k not in ret:
-                ret[k] = 0
-            ret[k] += v
-        return ret
-
-    @property
-    def recipes(self):
-        return self.attribute.get("recipes", []) + self.gear_recipes
-
-    @property
-    def gains(self):
-        return self.gear_gains
+            if k not in attributes:
+                attributes[k] = 0
+            attributes[k] += v
+        recipes = self.attribute.get("recipes", []) + self.gear_recipes
+        gains = self.gear_gains
+        return attributes, recipes, gains

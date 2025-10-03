@@ -12,7 +12,6 @@ class BuffEditorDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("Edit Buff")
         layout = QVBoxLayout(self)
-
         self.buffs = buffs
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()

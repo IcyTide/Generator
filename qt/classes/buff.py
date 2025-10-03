@@ -1,5 +1,7 @@
 from enum import StrEnum
 
+from assets.raw.buffs import BUFFS
+
 
 class BuffType(StrEnum):
     Current = "Current"
@@ -27,7 +29,6 @@ class Buff:
         self.buff_level = buff_level
         self.stack = stack
         self.buff_type = buff_type
-        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -50,18 +51,19 @@ class Buff:
             belong=self.belong,
             buff_id=self.buff_id,
             buff_level=self.buff_level,
-            stack=self.stack,
             buff_type=self.buff_type,
-            kwargs=self.kwargs
+            stack=self.stack
         )
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
+        if not kwargs:
+            kwargs = BUFFS[kungfu_id][json["buff_id"]][json["buff_level"]]
         return cls(
             belong=json["belong"],
             buff_id=json["buff_id"],
             buff_level=json["buff_level"],
-            stack=json["stack"],
             buff_type=json["buff_type"],
-            **json["kwargs"]
+            stack=json["stack"],
+            **kwargs
         )

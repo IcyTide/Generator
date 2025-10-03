@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     障幕虚影=[6121, 6122],
     缚影=[6128, 6129, 6130, 6131],
     挑丝=[6134, 6135, 6136],

@@ -12,6 +12,23 @@ def get_28952_comments():
 
 
 SKILLS = {
+    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([6377, 6378])},
+    **{
+        skill_id: dict(comment=f"蓄力1段(0帧)伤害{i + 1}段({delay}帧)")
+        for i, (skill_id, delay) in enumerate(zip([13503, 6382], [1, 5]))
+    },
+    **{
+        skill_id: dict(comment=f"蓄力2段(12帧)伤害{i + 1}段({delay}帧)")
+        for i, (skill_id, delay) in enumerate(zip([13504, 6384, 6385, 6386], [1, 4, 8, 11]))
+    },
+    **{
+        skill_id: dict(comment=f"蓄力3段(24帧)伤害{i + 1}段({delay}帧)")
+        for i, (skill_id, delay) in enumerate(zip([13505, 6388, 6389, 6390, 6391], [0, 4, 7, 11, 15]))
+    },
+    **{
+        skill_id: dict(comment=f"{i + 1}段({delay}帧)")
+        for i, (skill_id, delay) in enumerate(zip([6379, 6380], [4, 6]))
+    },
     **{
         skill_id: dict(comment=f"{i + 1}段({delay}帧)")
         for i, (skill_id, delay) in enumerate(zip([6353, 6351, 6352, 6354], [1, 3, 6, 10]))
@@ -37,23 +54,7 @@ SKILLS = {
         skill_id: dict(comment=f"{i + 1}段")
         for i, skill_id in enumerate([6355, 6356, 6357])
     },
-    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([6377, 6378])},
-    **{
-        skill_id: dict(comment=f"{i + 1}段({delay}帧)")
-        for i, (skill_id, delay) in enumerate(zip([6379, 6380], [4, 6]))
-    },
-    **{
-        skill_id: dict(comment=f"蓄力1段(0帧)伤害{i + 1}段({delay}帧)")
-        for i, (skill_id, delay) in enumerate(zip([13503, 6382], [1, 5]))
-    },
-    **{
-        skill_id: dict(comment=f"蓄力2段(12帧)伤害{i + 1}段({delay}帧)")
-        for i, (skill_id, delay) in enumerate(zip([13504, 6384, 6385, 6386], [1, 4, 8, 11]))
-    },
-    **{
-        skill_id: dict(comment=f"蓄力3段(24帧)伤害{i + 1}段({delay}帧)")
-        for i, (skill_id, delay) in enumerate(zip([13505, 6388, 6389, 6390, 6391], [0, 4, 7, 11, 15]))
-    },
+
     **{
         skill_id: dict(comment=f"{i + 1}段({delay}帧)")
         for i, (skill_id, delay) in enumerate(zip([6582, 13512, 6584, 6585, ], [13, 16, 19, 22]))

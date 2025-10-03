@@ -1,4 +1,4 @@
-BUFFS: dict[str, list[int]] = dict(
-    西河剑器=[409],
-    剑器浑脱=[538, 10240]
-)
+BUFFS: dict[int, list[int]] = {
+    537: [409],
+    568: [538, 10240]
+}

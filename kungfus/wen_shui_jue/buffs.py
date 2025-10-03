@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    西子情=[1728]
-)
+BUFFS: dict[int, list[int]] = {
+    1663: [1728]
+}

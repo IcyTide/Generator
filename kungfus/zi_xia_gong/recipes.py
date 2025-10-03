@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     两仪化形=[19, 20, 21, 24, 25, 26],
     四象轮回=[84, 85, 86],
     太极无极=[92, 93, 94, 97, 98, 99],

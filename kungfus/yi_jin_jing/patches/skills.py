@@ -1,19 +1,19 @@
 SKILLS = {
     11: dict(channel_interval=27),
     19090: dict(comment="武伤", comments={}),
-    3830: dict(comments={
-        29: "",
-        58: "我闻"
-    }),
-    3816: dict(comment="原始"),
-    **{skill_id: dict(comment=f"{i + 1}豆") for i, skill_id in enumerate([3849, 3850, 3848])},
-    **{skill_id: dict(comment=f"原始{i + 1}豆") for i, skill_id in enumerate([13682, 13684, 13686])},
-    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([17641, 17642])},
     32887: dict(comments={
         1: "韦陀献杵",
         2: "拿云式",
         3: "贪破"
     }),
+    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([17641, 17642])},
+    3830: dict(comments={
+        29: "",
+        58: "我闻"
+    }),
+    **{skill_id: dict(comment=f"{i + 1}豆") for i, skill_id in enumerate([3849, 3850, 3848])},
+    3816: dict(comment=""),
+    **{skill_id: dict(comment=f"原始{i + 1}豆") for i, skill_id in enumerate([13682, 13684, 13686])},
     28539: dict(comment="无诤", comments={
         29: "",
         58: "(我闻)"
@@ -35,5 +35,4 @@ SKILLS = {
         1: "韦陀献杵",
         5: "拿云式",
     })
-
 }

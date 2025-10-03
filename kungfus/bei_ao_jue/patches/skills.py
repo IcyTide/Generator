@@ -8,10 +8,11 @@ SKILLS = {
         2: "刀啸风吟",
         3: "擒龙六斩",
         4: "化蛟",
-        5: "临江"
     }),
-    16097: dict(comment="双刀"),
-    **{skill_id: dict(comment=f"大刀{i + 1}段") for i, skill_id in enumerate([16774, 16775])},
+    **{
+        skill_id: dict(comment=comment)
+        for skill_id, comment in zip([16097, 16774, 16775], ["双刀", "大刀1段", "大刀2段"])
+    },
     16599: dict(comment="双刀"), 16600: dict(comment="双刀打断"),
     16631: dict(comment="大刀"), 16632: dict(comment="大刀打断"),
     17006: dict(comments={

@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     平湖断月=[545, 546, 547, 548],
     黄龙吐翠=[552, 553, 554, 555, 556, 557],
     九溪弥烟=[560, 561, 562, 563, 564],

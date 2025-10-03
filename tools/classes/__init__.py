@@ -7,7 +7,7 @@ class AliasBase:
     _aliases = {}
     zero: int = 0
     txt: pd.DataFrame
-    id_column: str
+    id_column: str = "ID"
 
     def __getattr__(self, item):
         if item in self._aliases:

@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     拨狗朝天=[],
     恶狗拦路=[],
     横打双獒=[],

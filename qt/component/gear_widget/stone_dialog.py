@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget, QSizePolicy
 
 from assets.raw.stones import STONES
 from qt import ComboBox, LabelRow
@@ -16,13 +16,18 @@ class StoneDialog(QDialog):
         layout = QVBoxLayout(self)
 
         self.attr_combo_1 = ComboBox()
+        self.attr_combo_1.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
         layout.addWidget(LabelRow("Attribute 1:", self.attr_combo_1))
         self.attr_combo_1.set_items([""] + list(self.stone_data))
 
         self.attr_combo_2 = ComboBox()
+        self.attr_combo_2.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
         layout.addWidget(LabelRow("Attribute 2:", self.attr_combo_2))
+
         self.attr_combo_3 = ComboBox()
+        self.attr_combo_3.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
         layout.addWidget(LabelRow("Attribute 3:", self.attr_combo_3))
+
         self.attr_combos = [self.attr_combo_1, self.attr_combo_2, self.attr_combo_3]
 
         self.level_combo = ComboBox()

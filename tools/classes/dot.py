@@ -1,14 +1,16 @@
 from tools.classes.buff import Buff
+from tools.classes.skill import Skill
 
 
 class Dot(Buff):
-    skills: dict
+    skills: dict[int, dict[int, Skill]]
     attributes_prefix = "active"
 
     active_coefficient = 0
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        self.skills = {}
 
     @property
     def sources(self):

@@ -3,15 +3,15 @@ from PySide6.QtWidgets import QHBoxLayout, QPushButton, QWidget
 from kungfus import SUPPORT_KUNGFUS
 
 from qt import ComboBox
-from qt.classes.kungfu import DisplayKungfu
+from qt.classes.kungfu import Kungfu
 
 
 class TopWidget(QWidget):
-    kungfu: DisplayKungfu
+    kungfu: Kungfu
 
     def __init__(self):
         super().__init__()
-        self.kungfus = {str(kungfu.kungfu_id): DisplayKungfu(kungfu) for kungfu in SUPPORT_KUNGFUS}
+        self.kungfus = {str(kungfu.kungfu_id): Kungfu(kungfu) for kungfu in SUPPORT_KUNGFUS}
         self.cache_content = {}
         self.setLayout(layout := QHBoxLayout())
         self.kungfu_combo = ComboBox()

@@ -8,22 +8,14 @@ from tools.classes.buff import Buff
 from tools.classes.dot import Dot
 from tools.classes.recipe import Recipe
 from tools.classes.skill import Skill
-from tools.classes.talent import Talent
+from tools.classes.belong import Belong
 from tools.generate import generate
 from tools.parser.recipe import parse_recipe
-from tools.parser.talent import parse_talent
+from tools.parser.belong import parse_belong
 from tools.utils import save_code
 
 
 class Builder:
-    @property
-    def attribute(self):
-        return self.all_attributes[self.kungfu.kungfu_id]
-
-    @attribute.setter
-    def attribute(self, value):
-        self.all_attributes[self.kungfu.kungfu_id] = value
-
     @property
     def buffs(self):
         return self.all_buffs[self.kungfu.kungfu_id]
@@ -37,20 +29,24 @@ class Builder:
         return self.all_skills[self.kungfu.kungfu_id]
 
     @property
-    def talents(self):
-        return self.all_talents[self.kungfu.kungfu_id]
+    def belongs(self):
+        return self.all_belongs[self.kungfu.kungfu_id]
 
     @property
     def recipes(self):
         return self.all_recipes[self.kungfu.kungfu_id]
 
+    @property
+    def skill_recipes(self):
+        return self.all_skill_recipes[self.kungfu.kungfu_id]
+
     def __init__(self):
-        self.all_attributes = {}
         self.all_buffs = {}
         self.all_dots = {}
         self.all_skills = {}
-        self.all_talents = {}
+        self.all_belongs = {}
         self.all_recipes = {}
+        self.all_skill_recipes = {}
         for kungfu in SUPPORT_KUNGFUS:
             self.kungfu: Kungfu = kungfu
             print(f"Start parsing {kungfu.kungfu_id}")
@@ -62,71 +58,70 @@ class Builder:
         self.all_buffs[self.kungfu.kungfu_id] = {}
         self.all_dots[self.kungfu.kungfu_id] = {}
         self.all_skills[self.kungfu.kungfu_id] = {}
-        self.all_talents[self.kungfu.kungfu_id] = {}
+        self.all_belongs[self.kungfu.kungfu_id] = {}
         self.all_recipes[self.kungfu.kungfu_id] = {}
+        self.all_skill_recipes[self.kungfu.kungfu_id] = {}
 
     def build_all(self):
-        self.build_attribute(self.kungfu.attribute)
         self.build_buffs(self.kungfu.buffs)
         self.build_dots(self.kungfu.dots)
-        self.build_recipes(self.kungfu.recipes)
         self.build_skills(self.kungfu.skills)
-        self.build_talents(self.kungfu.talents)
+        self.build_belongs(self.kungfu.talents)
+        # self.build_recipes(self.kungfu.recipes)
 
-    def build_attribute(self, attribute_id):
-        self.attribute = Talent(attribute_id)
-
-    def build_buffs(self, buffs: dict[str, list[int]]):
+    def build_buffs(self, buffs: dict[int, list[int]]):
         for category, buff_ids in buffs.items():
+            self.belongs[category] = Belong(category)
+            if category in self.kungfu.buffs:
+                self.skill_recipes[category] = self.belongs[category]
             for buff_id in buff_ids:
                 self.buffs[buff_id] = Buff(buff_id)
 
-    def build_dots(self, dots: dict[str, dict[int, list]]):
+    def build_dots(self, dots: dict[int, dict[int, list]]):
         for category, dot_ids in dots.items():
+            self.belongs[category] = Belong(category)
+            if category in self.kungfu.dots:
+                self.skill_recipes[category] = self.belongs[category]
             for dot_id, skill_ids in dot_ids.items():
                 skills = {skill_id: Skill(skill_id) for skill_id in skill_ids}
-                if dot_id in self.dots:
-                    dot = self.dots[dot_id]
-                    dot.skills.update(skills)
-                else:
-                    dot = self.dots[dot_id] = Dot(dot_id)
-                    dot.skills = skills
+                if dot_id not in self.dots:
+                    self.dots[dot_id] = Dot(dot_id)
+                self.dots[dot_id].skills.update(skills)
 
-    def build_skills(self, skills: dict[str, list[int]]):
+    def build_skills(self, skills: dict[int, list[int]]):
         for category, skill_ids in skills.items():
+            self.belongs[category] = Belong(category)
+            if category in self.kungfu.skills:
+                self.skill_recipes[category] = self.belongs[category]
             for skill_id in skill_ids:
                 self.skills[skill_id] = Skill(skill_id)
 
-    def build_talents(self, talents: list[dict[int, dict]]):
+    def build_belongs(self, talents: list[dict[int, dict]]):
+        self.belongs[self.kungfu.kungfu_id] = Belong(self.kungfu.kungfu_id)
         for talent_items in talents:
             for talent_id, params in talent_items.items():
-                talent = self.talents[talent_id] = Talent(talent_id, **params)
-                self.build_buffs(dict(talents=talent.buffs))
-                self.build_dots(dict(talents=talent.dots))
-                self.build_skills(dict(talents=talent.skills))
+                talent = self.belongs[talent_id] = Belong(talent_id, **params)
+                self.build_buffs({talent_id: talent.buffs})
+                self.build_dots({talent_id: talent.dots})
+                self.build_skills({talent_id: talent.skills})
 
-    def build_recipes(self, recipes: dict[str, list[int]]):
-        for category, recipe_ids in recipes.items():
-            for recipe_id in recipe_ids:
-                self.recipes[recipe_id] = Recipe(recipe_id)
+    def build_recipes(self, recipes: list[tuple[int, int]]):
+        for recipe_key in recipes:
+            self.recipes[recipe_key] = Recipe(*recipe_key)
 
     def parse_all(self):
-        self.parse_attribute()
         self.parse_dots()
         self.parse_skills()
         self.parse_buffs()
-        self.parse_talents()
+        self.parse_belongs()
         self.parse_recipes()
-
-    def parse_attribute(self):
-        self.attribute = parse_talent(self.attribute)
-        self.build_recipes(dict(attribute=[recipe_id for recipe_id, _ in self.attribute.recipes]))
+        self.parse_skill_recipes()
 
     def parse_buffs(self):
         for buff_id, buff in tqdm(self.buffs.items()):
             buffs = self.buffs[buff_id] = parse_buff(buff, self.skills)
-            for buff_level, item in buffs.items():
-                self.build_recipes(dict(buffs=[recipe_id for recipe_id, _ in item.recipes]))
+            for sub_buff in buffs.values():
+                self.build_recipes(sub_buff.recipes)
 
     def parse_dots(self):
         for dot_id, dot in tqdm(self.dots.items()):
@@ -136,28 +131,31 @@ class Builder:
         for skill_id, skill in tqdm(self.skills.items()):
             self.skills[skill_id] = parse_skill(skill)
 
-    def parse_talents(self):
-        for talent_id, talent in tqdm(self.talents.items()):
-            talent = self.talents[talent_id] = parse_talent(talent)
-            self.build_recipes(dict(talent=[recipe_id for recipe_id, _ in talent.recipes]))
+    def parse_belongs(self):
+        for belong_id, belong in tqdm(self.belongs.items()):
+            belong = self.belongs[belong_id] = parse_belong(belong)
+            self.build_recipes(belong.recipes)
 
     def parse_recipes(self):
-        for recipe_id, recipe in tqdm(self.recipes.items()):
-            self.recipes[recipe_id] = parse_recipe(recipe, self.skills, self.dots)
+        for recipe in tqdm(self.recipes.values()):
+            parse_recipe(recipe, self.skills, self.dots)
+
+    def parse_skill_recipes(self):
+        pop_skills = [self.kungfu.kungfu_id]
+        for skill_id, belong in tqdm(self.skill_recipes.items()):
+            if belong.recipes:
+                self.skill_recipes[skill_id] = [self.recipes[recipe_key] for recipe_key in belong.recipes]
+            else:
+                pop_skills.append(skill_id)
+        for skill_id in pop_skills:
+            self.skill_recipes.pop(skill_id, None)
 
     def save(self):
-        # save_code("attributes", {k: v for sub in self.all_attributes.values() for k, v in sub.items()})
-        # save_code("buffs", {k: v for sub in self.all_buffs.values() for k, v in sub.items()})
-        # save_code("dots", {k: v for sub in self.all_dots.values() for k, v in sub.items()})
-        # save_code("skills", {k: v for sub in self.all_skills.values() for k, v in sub.items()})
-        # save_code("talents", {k: v for sub in self.all_talents.values() for k, v in sub.items()})
-        # save_code("recipes", {k: v for sub in self.all_recipes.values() for k, v in sub.items()})
-        save_code("attributes", self.all_attributes),
         save_code("buffs", self.all_buffs),
         save_code("dots", self.all_dots),
         save_code("skills", self.all_skills),
-        save_code("talents", self.all_talents),
-        save_code("recipes", self.all_recipes)
+        save_code("belongs", self.all_belongs),
+        save_code("recipes", self.all_skill_recipes)
 
 
 if __name__ == '__main__':

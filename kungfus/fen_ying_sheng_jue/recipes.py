@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     幽月轮=[984, 985, 988, 989, 990],
     银月斩=[992, 993, 994],
     赤日轮=[999, 1000, 1001, 1004, 1005],

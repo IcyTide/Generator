@@ -1,4 +1,4 @@
-RECIPES: dict[str, list[int]] = dict(
+RECIPES: dict[int, list[int]] = dict(
     暴雨梨花针=[834, 835, 836, 837, 838],
     蚀肌弹=[868, 869, 870, 871, 872, 873, 874],
     天绝地灭=[884, 885, 886],

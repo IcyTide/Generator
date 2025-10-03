@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    养心诀=[1487],
-)
+BUFFS: dict[int, list[int]] = {
+    136: [1487]
+}

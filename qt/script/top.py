@@ -47,7 +47,7 @@ class TopScript:
     def load(self):
         for k, v in json.load(open("cache.json", "r", encoding="utf-8")).items():
             self.widget.cache_content[k] = dict(
-                loop=[Section.from_dict(e) for e in v["loop"]],
+                loop=[Section.from_dict(self.widget.kungfu.kungfu_id, e) for e in v["loop"]],
                 gear=Gears.from_dict(v["gear"]),
             )
         self.select_kungfu(self.widget.kungfu.kungfu_id)

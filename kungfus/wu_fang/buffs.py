@@ -1,3 +1,3 @@
-BUFFS: dict[str, list[int]] = dict(
-    神农百草诀=[21168],
-)
+BUFFS: dict[int, list[int]] = {
+    27652: [21168]
+}

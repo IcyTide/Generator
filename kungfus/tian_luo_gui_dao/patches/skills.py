@@ -10,10 +10,6 @@ SKILLS = {
     3404: dict(comments={1: "鬼斧弹药"}),
     3819: dict(comments={1: ""}),
     3824: dict(comments={1: "鬼斧弹药"}),
-    38760: dict(comments={
-        1: "伤害",
-        2: "DOT"
-    }),
     26900: dict(comment="连弩"), 26901: dict(comment="重弩"),
     31026: dict(comment=""), 31027: dict(comment="鬼斧弹药"),
     42664: {**dict(comments={}), 2: dict(dest_rollback_attributes=[("coming_damage_cof", 1024)])}

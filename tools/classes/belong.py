@@ -1,10 +1,11 @@
 from base.expression import Variable
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE
+from tools.settings import recipe_txts
 from tools.utils import get_variable
 
 
-class Talent(Skill):
+class Belong(Skill):
     buffs: list[int] = []
     dots: dict[int, list[int]] = {}
     skills: list[int] = []
@@ -21,6 +22,9 @@ class Talent(Skill):
         for k, v in kwargs.items():
             setattr(self, k, v)
         self.talent_key = Variable(get_variable("talent", self.skill_id, self.skill_level))
+        txt_rows = recipe_txts[recipe_txts.SkillID == self.skill_id]
+        for row in txt_rows.itertuples():
+            self.recipes.append((row.ID, row.Level))
 
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
