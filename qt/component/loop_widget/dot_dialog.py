@@ -26,7 +26,6 @@ class DotEditorDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("Edit Dot")
         layout = QVBoxLayout(self)
-        self.kungfu = parent.kungfu
         self.dots = dots
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
@@ -118,9 +117,8 @@ class DotEditorDialog(QDialog):
 
 
 class DotDamageDialog(QDialog):
-
     def __init__(
-            self, dot: Dot, current: Attribute, snapshot: Attribute,  parent: QWidget = None
+            self, dot: Dot, current: Attribute, snapshot: Attribute, parent: QWidget = None
     ):
         super().__init__(parent)
         self.setWindowTitle("Damage Detail")
@@ -128,7 +126,8 @@ class DotDamageDialog(QDialog):
         layout = QVBoxLayout(self)
 
         variables = {
-            "rand": 0.5, "damage": Variable("damage"), **current.current, **snapshot.snapshot
+            "rand": 0.5, "damage": Variable("damage"), "tick": dot.tick,
+            **current.current, **snapshot.snapshot
         }
         self.damage = dot.source.damage.evaluate(variables) * dot.stack * dot.count
         self.critical_damage = dot.source.critical_damage.evaluate(variables)

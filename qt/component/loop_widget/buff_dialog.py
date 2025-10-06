@@ -85,4 +85,4 @@ class BuffEditorDialog(QDialog):
     def select_type(self, buff_type: str):
         if not self.buff:
             return
-        self.buff.type = BuffType(buff_type)
+        self.buff.buff_type = BuffType(buff_type)

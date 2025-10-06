@@ -16,7 +16,6 @@ class SkillEditorDialog(QDialog):
         super().__init__(parent)
         self.setWindowTitle("Edit Skill")
         layout = QVBoxLayout(self)
-        self.kungfu = parent.kungfu
         self.skills = skills
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()

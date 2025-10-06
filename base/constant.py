@@ -111,3 +111,5 @@ def STRENGTH_COF(level):
     return level * (0.7 + 0.3 * level) / 200
 
 MAX_TALENT_COUNT = 7
+MAX_TALENT_IN_POOL = 3
+MAX_RECIPE = 4

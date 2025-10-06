@@ -7,6 +7,7 @@ from qt.component.build_widget.widget import BuildWidget
 from qt.component.gear_widget.widget import GearWidget
 from qt.component.loop_widget.widget import LoopWidget
 from qt.component.top_widget.widget import TopWidget
+from qt.script.build import BuildScript
 from qt.script.gear import GearScript
 from qt.script.loop import LoopScript
 from qt.script.top import TopScript
@@ -36,7 +37,8 @@ class MainWindow(QMainWindow):
 
         loop_script = LoopScript(self.loop_widget)
         gear_script = GearScript(self.gear_widget)
-        self.top_script = TopScript(self.top_widget, self.tabs, loop_script, gear_script)
+        build_script = BuildScript(self.build_widget)
+        self.top_script = TopScript(self.top_widget, self.tabs, loop_script, gear_script, build_script)
 
 
 if __name__ == "__main__":

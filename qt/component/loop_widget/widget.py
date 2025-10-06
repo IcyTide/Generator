@@ -2,34 +2,11 @@ from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (QHBoxLayout, QLabel, QPushButton, QSplitter, QVBoxLayout, QWidget)
 
 from qt.classes.kungfu import Kungfu
-from qt.classes.section import Section
+from qt.classes.section import Section, Sections
 from qt import LabelRow, Table
 
 
 class LoopWidget(QWidget):
-    kungfu: Kungfu
-    sections: list[Section]
-
-    @property
-    def section(self):
-        section_index = self.section_table.currentRow()
-        if section_index < 0:
-            return None
-        return self.sections[section_index]
-
-    @property
-    def records(self):
-        if not (section := self.section):
-            return []
-        return section.records
-
-    @property
-    def record(self):
-        record_index = self.record_table.currentRow()
-        if record_index < 0:
-            return None
-        return self.records[record_index]
-
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
@@ -54,7 +31,6 @@ class LoopWidget(QWidget):
 
         # Section Display
         self.section_table = Table(["ID", "Name", "Count"])
-        self.sections = []
         self.section_label = QLabel("")
         left_layout.addWidget(LabelRow("Current Section:", self.section_label))
         left_layout.addWidget(self.section_table)

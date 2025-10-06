@@ -1,32 +1,29 @@
-from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QTableWidget, QListWidget, QGridLayout, QLabel
 
 from base.constant import MAX_TALENT_COUNT
-from kungfus import Kungfu
 from qt import ComboBox, Table, LabelColumn
 
 
 class TalentWidget(QWidget):
-    kungfu: Kungfu
-
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
         layout.addWidget(QLabel("Talent:"))
         grid_layout = QGridLayout(grid_widget := QWidget())
-        self.talent_combos = []
+        self.talent_combos: list[ComboBox] = []
         for i in range(MAX_TALENT_COUNT):
             grid_layout.addWidget(LabelColumn(f"No. {i + 1}", talent_combo := ComboBox()), 0, i)
             self.talent_combos.append(talent_combo)
         self.talent_pool = QListWidget()
+        self.talent_pool.setSelectionMode(QListWidget.SelectionMode.MultiSelection)
         grid_layout.addWidget(LabelColumn("Pool", self.talent_pool), 0, MAX_TALENT_COUNT)
+        for i in range(MAX_TALENT_COUNT + 1):
+            grid_layout.setColumnStretch(i, 1)
         layout.addWidget(grid_widget)
         layout.addStretch()
 
 
 class RecipeWidget(QWidget):
-    kungfu: Kungfu
-
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
@@ -36,16 +33,18 @@ class RecipeWidget(QWidget):
 
         self.skill_combo = ComboBox()
         grid_layout.addWidget(LabelColumn("Skill", self.skill_combo), 0, 0)
-        self.recipe_table = Table(["Name", "Desc", "Selected"])
-        self.recipe_table.setSelectionMode(QTableWidget.SelectionMode.ExtendedSelection)
+        grid_layout.setColumnStretch(0, 1)
+        self.recipe_table = Table(["Name", "Desc"])
+        self.recipe_table.setSelectionMode(QTableWidget.SelectionMode.MultiSelection)
         grid_layout.addWidget(LabelColumn("Recipe List", self.recipe_table), 0, 1)
+        grid_layout.setColumnStretch(1, 2)
 
 
 class BuildWidget(QWidget):
-    kungfu: Kungfu
-
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
-        layout.addWidget(TalentWidget())
-        layout.addWidget(RecipeWidget())
+        self.talent_widget = TalentWidget()
+        layout.addWidget(self.talent_widget)
+        self.recipe_widget = RecipeWidget()
+        layout.addWidget(self.recipe_widget)

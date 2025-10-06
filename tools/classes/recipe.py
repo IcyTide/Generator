@@ -56,8 +56,7 @@ class Recipe(AliasBase):
             return {
                 "name": self.get_name(self.recipe_id, self.recipe_level) or self.recipe_name,
                 "desc": self.get_desc(self.recipe_id, self.recipe_level),
-                "skill_id": self.skill_id,
-                "skill_recipe_type": self.skill_recipe_type
+                "recipe_key": str(self.recipe_key)
             }
         else:
             return {}

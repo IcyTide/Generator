@@ -67,7 +67,7 @@ class Builder:
         self.build_dots(self.kungfu.dots)
         self.build_skills(self.kungfu.skills)
         self.build_belongs(self.kungfu.talents)
-        # self.build_recipes(self.kungfu.recipes)
+        self.build_recipes(self.kungfu.recipes)
 
     def build_buffs(self, buffs: dict[int, list[int]]):
         for category, buff_ids in buffs.items():

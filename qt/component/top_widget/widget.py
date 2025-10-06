@@ -7,16 +7,11 @@ from qt.classes.kungfu import Kungfu
 
 
 class TopWidget(QWidget):
-    kungfu: Kungfu
-
     def __init__(self):
         super().__init__()
-        self.kungfus = {str(kungfu.kungfu_id): Kungfu(kungfu) for kungfu in SUPPORT_KUNGFUS}
-        self.cache_content = {}
         self.setLayout(layout := QHBoxLayout())
         self.kungfu_combo = ComboBox()
         layout.addWidget(self.kungfu_combo, 2)
-        self.kungfu_combo.set_items(list(self.kungfus), -1)
 
         self.load_btn = QPushButton("Load")
         layout.addWidget(self.load_btn)

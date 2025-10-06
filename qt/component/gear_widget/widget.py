@@ -10,43 +10,39 @@ from qt.classes.kungfu import Kungfu
 
 
 class SubGearWidget:
-    gear: Gear | None = None
-
     def __init__(self, position: str, row: int, layout: QGridLayout):
         self.position = position
-        layout.addWidget(LabelColumn("", QLabel(position)), row, 0)
+        layout.addWidget(QLabel(position), row, 0)
         self.equip_data = EQUIPMENTS[position]
         self.enchant_data = ENCHANTS.get(position)
 
         self.school_combo = ComboBox()
-        layout.addWidget(LabelColumn("", self.school_combo), row, 1)
+        layout.addWidget(self.school_combo, row, 1)
         self.school_combo.set_items(list(self.equip_data), -1)
         self.kind_combo = ComboBox()
-        layout.addWidget(LabelColumn("", self.kind_combo), row, 2)
+        layout.addWidget(self.kind_combo, row, 2)
         self.equipment_combo = ComboBox()
-        layout.addWidget(LabelColumn("", self.equipment_combo), row, 3)
+        layout.addWidget(self.equipment_combo, row, 3)
 
         if self.enchant_data:
             self.enchant_combo = ComboBox()
-            layout.addWidget(LabelColumn("", self.enchant_combo), row, 4)
+            layout.addWidget(self.enchant_combo, row, 4)
             self.enchant_combo.set_items([""] + list(self.enchant_data))
         else:
             self.enchant_combo = None
 
         self.strength_combo = ComboBox()
-        layout.addWidget(LabelColumn("", self.strength_combo), row, 5)
+        layout.addWidget(self.strength_combo, row, 5)
         self.embed_combos: list[ComboBox] = []
         for i in range(EMBED_POSITIONS[position]):
             self.embed_combos.append(embed_combo := ComboBox())
             embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), MAX_EMBED_LEVEL)
-            layout.addWidget(LabelColumn("Embed:", embed_combo), row, 6 + i)
+            layout.addWidget(embed_combo, row, 6 + i)
         self.detail_btn = QPushButton("Detail")
-        layout.addWidget(LabelColumn("", self.detail_btn), row, 9)
+        layout.addWidget(self.detail_btn, row, 9)
 
 
 class GearWidget(QWidget):
-    kungfu: Kungfu
-    gears: Gears
     HEADERS = ["Position", "School", "Kind", "Equipment", "Enchant", "Strength", "Embed1", "Embed2", "Embed3", "Detail"]
 
     def __init__(self):
@@ -83,8 +79,3 @@ class GearWidget(QWidget):
 
         layout.addStretch()
 
-    def update_kungfu(self):
-        attributes, recipes, gains = self.gears.attributes
-        self.kungfu.gear_attributes = attributes
-        self.kungfu.gear_recipes = recipes
-        self.kungfu.gear_gains = gains

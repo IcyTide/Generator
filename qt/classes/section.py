@@ -34,3 +34,39 @@ class Section:
             [Record.from_dict(kungfu_id, record) for record in json["records"]]
         )
         return section
+
+
+class Sections:
+    def __init__(self, sections: list[Section] = None):
+        if not sections:
+            self.sections = []
+        else:
+            self.sections = sections
+
+    def __setitem__(self, key, value):
+        self.sections[key] = value
+
+    def __getitem__(self, key):
+        return self.sections[key]
+
+    def __iter__(self):
+        for section in self.sections:
+            yield section
+
+    def __len__(self):
+        return len(self.sections)
+
+    def append(self, item):
+        self.sections.append(item)
+
+    def remove(self, item):
+        self.sections.remove(item)
+
+    def to_dict(self):
+        return [section.to_dict() for section in self.sections]
+
+    @classmethod
+    def from_dict(cls, kungfu_id: int, json: list):
+        return cls([
+            Section.from_dict(kungfu_id, section) for section in json
+        ])

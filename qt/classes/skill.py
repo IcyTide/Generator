@@ -50,7 +50,7 @@ class Skill:
     @classmethod
     def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
         if not kwargs:
-            kwargs = SKILLS[kungfu_id][json["buff_id"]][json["buff_level"]]
+            kwargs = SKILLS[kungfu_id][json["skill_id"]][json["skill_level"]]
         return cls(
             belong=json["belong"],
             skill_id=json["skill_id"],

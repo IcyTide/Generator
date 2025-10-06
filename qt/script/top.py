@@ -2,52 +2,77 @@ import json
 
 from PySide6.QtWidgets import QTabWidget
 
+from kungfus import SUPPORT_KUNGFUS
 from qt.classes.gear import Gears
-from qt.classes.section import Section
+from qt.classes.kungfu import Kungfu
+from qt.classes.recipe import Recipes
+from qt.classes.section import Sections
+from qt.classes.talent import Talents
 from qt.component.top_widget.widget import TopWidget
+from qt.script.build import BuildScript
 from qt.script.gear import GearScript
 from qt.script.loop import LoopScript
 
 
 class TopScript:
-    def __init__(self, widget: TopWidget, tabs: QTabWidget, loop_script: LoopScript, gear_script: GearScript):
+    kungfu: Kungfu
+
+    def __init__(
+            self, widget: TopWidget, tabs: QTabWidget,
+            loop_script: LoopScript, gear_script: GearScript, build_script: BuildScript
+    ):
+
         self.widget = widget
         self.tabs = tabs
+
+        self.kungfus = {}
+        for kungfu in SUPPORT_KUNGFUS:
+            kungfu = Kungfu(kungfu)
+            self.kungfus[kungfu.name] = kungfu
+
+        self.cache_content = {}
         self.loop_script = loop_script
         self.gear_script = gear_script
+        self.build_script = build_script
 
         self.connect()
 
     def connect(self):
+        self.widget.kungfu_combo.set_items(self.kungfus, -1)
         self.widget.kungfu_combo.currentTextChanged.connect(self.select_kungfu)
         self.widget.save_btn.clicked.connect(self.save)
         self.widget.load_btn.clicked.connect(self.load)
 
-    def select_kungfu(self, kungfu_id):
-        if kungfu_id not in self.widget.kungfus:
+    def select_kungfu(self, kungfu):
+        if kungfu not in self.kungfus:
             return
-        kungfu = self.widget.kungfu = self.widget.kungfus[kungfu_id]
-        self.loop_script.widget.kungfu = self.gear_script.widget.kungfu = kungfu
-        if kungfu_id not in self.widget.cache_content:
-            self.widget.cache_content[kungfu_id] = dict(
-                loop=self.loop_script.init(),
-                gear=self.gear_script.init(),
+        self.kungfu = self.kungfus[kungfu]
+        if kungfu not in self.cache_content:
+            self.cache_content[kungfu] = dict(
+                gear=self.gear_script.init(self.kungfu),
+                loop=self.loop_script.init(self.kungfu),
+                **self.build_script.init(self.kungfu)
             )
         else:
-            self.loop_script.init(self.widget.cache_content[kungfu_id]["loop"])
-            self.gear_script.init(self.widget.cache_content[kungfu_id]["gear"])
+            cache = self.cache_content[kungfu]
+            self.gear_script.init(self.kungfu, cache["gear"])
+            self.loop_script.init(self.kungfu, cache["loop"])
+            self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
         self.tabs.show()
+        self.widget.load_btn.hide()
 
     def save(self):
         json.dump(
-            self.widget.cache_content, open("cache.json", "w", encoding="utf-8"),
+            self.cache_content, open("cache.json", "w", encoding="utf-8"),
             ensure_ascii=False, default=lambda x: x.to_dict()
         )
 
     def load(self):
         for k, v in json.load(open("cache.json", "r", encoding="utf-8")).items():
-            self.widget.cache_content[k] = dict(
-                loop=[Section.from_dict(self.widget.kungfu.kungfu_id, e) for e in v["loop"]],
+            kungfu = self.kungfus[k]
+            self.cache_content[k] = dict(
                 gear=Gears.from_dict(v["gear"]),
+                loop=Sections.from_dict(kungfu.kungfu_id, v["loop"]),
+                talents=Talents.from_dict(kungfu.kungfu_id, v["talents"]),
+                recipes=Recipes.from_dict(kungfu.kungfu_id, v["recipes"])
             )
-        self.select_kungfu(self.widget.kungfu.kungfu_id)

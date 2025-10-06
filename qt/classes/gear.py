@@ -1,3 +1,5 @@
+from assets.raw.enchants import ENCHANTS
+from assets.raw.equipments import EQUIPMENTS
 from base.constant import EMBED_COF, ROUND, STRENGTH_COF
 
 
@@ -33,13 +35,13 @@ class Enchant:
             setattr(self, k, v)
 
     def to_dict(self):
-        return dict(enchat=self.enchant, **self.detail)
+        return dict(enchant=self.enchant)
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, position: str, json: dict):
         if not json:
             return None
-        return cls(json["enchant"], json["detail"])
+        return cls(json["enchant"], ENCHANTS[position][json["enchant"]])
 
 
 class Gear:
@@ -117,16 +119,22 @@ class Gear:
             equipment=self.equipment,
             strength_level=self.strength_level,
             embed_levels=self.embed_levels,
-            enchant=self.enchant.to_dict() if self.enchant else None,
-            detail=self.detail
+            enchant=self.enchant.to_dict() if self.enchant else None
         )
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, position: str, json: dict):
         if not json:
             return None
-        instance = cls(**json)
-        instance.enchant = Enchant.from_dict(json["enchant"])
+        instance = cls(
+            json["school"],
+            json["kind"],
+            json["equipment"],
+            EQUIPMENTS[position][json["school"]][json["kind"]][json["equipment"]]
+        )
+        instance.enchant = Enchant.from_dict(position, json["enchant"])
+        instance.strength_level = json["strength_level"]
+        instance.embed_levels = {int(k): v for k, v in json["embed_levels"].items()}
         return instance
 
 
@@ -159,15 +167,21 @@ class Gears:
         return bool(self.gears)
 
     @property
-    def set_attributes(self):
+    def attributes(self):
         set_count, set_bonus = {}, {}
+        attributes, recipes, gains = {}, [], []
         for gear in self.gears.values():
+            for k, v in gear.attributes.items():
+                if k not in attributes:
+                    attributes[k] = 0
+                attributes[k] += v
+            recipes += gear.recipes
+            gains += gear.gains
             if set_id := gear.set_id:
                 if set_id not in set_count:
                     set_count[set_id] = 0
                     set_bonus[set_id] = gear.sets
                 set_count[set_id] += 1
-        attributes, recipes, gains = {}, [], []
         for set_id, count in set_count.items():
             for need_count, bonus in set_bonus[set_id].items():
                 if count >= need_count:
@@ -177,30 +191,12 @@ class Gears:
                         attributes[k] += v
                     recipes += bonus.get("recipes", [])
                     gains += bonus.get("gains", [])
-        return attributes, recipes, gains
-
-    @property
-    def attributes(self):
-        attributes, recipes, gains = {}, [], []
-        for gear in self.gears.values():
-            for k, v in gear.attributes.items():
-                if k not in attributes:
-                    attributes[k] = 0
-                attributes[k] += v
-            recipes += gear.recipes
-            gains += gear.gains
-        set_attributes, set_recipes, set_gains = self.set_attributes
-        for k, v in set_attributes.items():
-            if k not in attributes:
-                attributes[k] = 0
-            attributes[k] += v
-        recipes += set_recipes
-        gains += set_gains
         if self.stone:
             for k, v in self.stone.attributes.items():
                 if k not in attributes:
                     attributes[k] = 0
                 attributes[k] += v
+
         return attributes, recipes, gains
 
     def to_dict(self):
@@ -216,6 +212,9 @@ class Gears:
         if not json:
             return cls()
         stone = Stone.from_dict(json.pop("stone"))
-        instance = cls(json)
+        instance = cls({
+            position: Gear.from_dict(position, gear)
+            for position, gear in json.items()
+        })
         instance.stone = stone
         return instance

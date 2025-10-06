@@ -1,7 +1,8 @@
 from typing import List
 
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QVBoxLayout, QWidget, \
+    QTableWidgetItem
 
 
 class LabelRow(QWidget):
@@ -57,3 +58,15 @@ class Table(QTableWidget):
         self.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)  # 自动拉伸填充
         self.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)  # 禁止自动编辑
         self.verticalHeader().setVisible(False)
+
+
+def refresh_table(table, table_data, index=False, select=True):
+    table.setRowCount(0)
+    for i, row in enumerate(table_data):
+        table.insertRow(i)
+        if index:
+            table.setItem(i, 0, QTableWidgetItem(str(i + 1)))
+        for j, data in enumerate(row):
+            table.setItem(i, j + int(index), QTableWidgetItem(data))
+    if select and table_data:
+        table.setCurrentCell(len(table_data) - 1, 0)
