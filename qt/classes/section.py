@@ -19,6 +19,13 @@ class Section:
         for attr in ("name", "count"):
             yield str(getattr(self, attr))
 
+    @property
+    def is_empty(self):
+        for record in self.records:
+            if not record.is_empty:
+                return True
+        return False
+
     def to_dict(self):
         return dict(
             name=self.name,
@@ -61,6 +68,13 @@ class Sections:
 
     def remove(self, item):
         self.sections.remove(item)
+
+    @property
+    def is_empty(self):
+        for section in self.sections:
+            if not section.is_empty:
+                return True
+        return False
 
     def to_dict(self):
         return [section.to_dict() for section in self.sections]

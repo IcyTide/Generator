@@ -3,6 +3,7 @@ from assets.raw.dots import DOTS
 from assets.raw.recipes import RECIPES
 from assets.raw.skills import SKILLS
 from assets.raw.belongs import BELONGS
+from base.constant import MAJORS
 from qt.classes.attribute import Attribute, Target
 
 
@@ -57,7 +58,10 @@ class Kungfu:
 
     def create_attribute(self) -> Attribute:
         attributes, recipes, gains = self.attributes
-        attribute = Attribute(self.major)
+        attribute = Attribute()
+        attribute.major = MAJORS[self.major]
+        attribute.damage_type = self.attribute["damage_type"]
+        attribute.critical_type = self.attribute["critical_type"]
         for k, v in attributes.items():
             attribute[k] += v
         attribute.recipes += recipes

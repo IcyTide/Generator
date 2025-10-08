@@ -5,7 +5,7 @@ from qt.classes.kungfu import Kungfu
 from qt.component.gear_widget.detail_dialog import DetailDialog
 from qt.component.gear_widget.stone_dialog import StoneDialog
 from qt.component.gear_widget.widget import GearWidget, SubGearWidget
-from qt.component.top_widget.attribute_dialog import AttributeDialog
+from qt.component.gear_widget.attribute_dialog import AttributeDialog
 
 
 class SubGearScript:
@@ -54,12 +54,12 @@ class SubGearScript:
         if kind not in self.widget.equip_data[school]:
             return
         if equipment not in self.widget.equip_data[school][kind]:
-            self.parent.gears.pop(self.widget.position)
+            self.parent.gears.pop(self.widget.label)
             self.gear = None
             self.parent.update_kungfu()
             return
         detail = self.widget.equip_data[school][kind][equipment]
-        gear = self.gear = self.parent.gears[self.widget.position] = Gear(school, kind, equipment, detail)
+        gear = self.gear = self.parent.gears[self.widget.label] = Gear(school, kind, equipment, detail)
 
         enchant = self.widget.enchant_combo.currentText()
         if enchant_detail := self.widget.enchant_data.get(enchant):
@@ -138,7 +138,7 @@ class GearScript:
         self.widget = gear_widget
         self.sub_scripts: dict[str, SubGearScript] = {}
         for sub_widget in self.widget.sub_widgets.values():
-            self.sub_scripts[sub_widget.position] = SubGearScript(sub_widget, self)
+            self.sub_scripts[sub_widget.label] = SubGearScript(sub_widget, self)
         self.connect()
 
     def connect(self):
@@ -175,8 +175,8 @@ class GearScript:
             self.gears = Gears()
         else:
             self.gears = gears
-        for position, sub_script in self.sub_scripts.items():
-            sub_script.init(self.gears.get(position))
+        for label, sub_script in self.sub_scripts.items():
+            sub_script.init(self.gears.get(label))
         return self.gears
 
     def update_kungfu(self):

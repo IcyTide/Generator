@@ -3,18 +3,17 @@ from PySide6.QtWidgets import QGridLayout, QHBoxLayout, QLabel, QPushButton, QSi
 
 from assets.raw.enchants import ENCHANTS
 from assets.raw.equipments import EQUIPMENTS
-from base.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STRENGTH_LEVEL, POSITION_MAP
+from base.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STRENGTH_LEVEL, POSITIONS
 from qt import ComboBox, LabelColumn
-from qt.classes.gear import Gear, Gears, Stone
-from qt.classes.kungfu import Kungfu
 
 
 class SubGearWidget:
-    def __init__(self, position: str, row: int, layout: QGridLayout):
-        self.position = position
-        layout.addWidget(QLabel(position), row, 0)
-        self.equip_data = EQUIPMENTS[position]
-        self.enchant_data = ENCHANTS.get(position)
+    def __init__(self, label: str, row: int, layout: QGridLayout):
+        self.label = label
+        self.position = POSITIONS[label]
+        layout.addWidget(QLabel(self.label), row, 0)
+        self.equip_data = EQUIPMENTS[self.position]
+        self.enchant_data = ENCHANTS.get(self.position)
 
         self.school_combo = ComboBox()
         layout.addWidget(self.school_combo, row, 1)
@@ -34,7 +33,7 @@ class SubGearWidget:
         self.strength_combo = ComboBox()
         layout.addWidget(self.strength_combo, row, 5)
         self.embed_combos: list[ComboBox] = []
-        for i in range(EMBED_POSITIONS[position]):
+        for i in range(EMBED_POSITIONS[self.position]):
             self.embed_combos.append(embed_combo := ComboBox())
             embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), MAX_EMBED_LEVEL)
             layout.addWidget(embed_combo, row, 6 + i)
@@ -73,7 +72,7 @@ class GearWidget(QWidget):
             label.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Fixed)
             grid_layout.addWidget(label, 0, i)
             grid_layout.setColumnStretch(i, 0)
-        for i, position in enumerate(POSITION_MAP.values()):
+        for i, position in enumerate(POSITIONS):
             self.sub_widgets[position] = SubGearWidget(position, i + 1, grid_layout)
         grid_layout.setColumnStretch(self.HEADERS.index("Equipment"), 1)
 

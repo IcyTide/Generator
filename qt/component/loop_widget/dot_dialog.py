@@ -125,10 +125,7 @@ class DotDamageDialog(QDialog):
 
         layout = QVBoxLayout(self)
 
-        variables = {
-            "rand": 0.5, "damage": Variable("damage"), "tick": dot.tick,
-            **current.current, **snapshot.snapshot
-        }
+        variables = {"tick": dot.tick, **current.current, **snapshot.snapshot}
         self.damage = dot.source.damage.evaluate(variables) * dot.stack * dot.count
         self.critical_damage = dot.source.critical_damage.evaluate(variables)
         self.critical_strike = dot.source.critical_strike.evaluate(variables)

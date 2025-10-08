@@ -27,6 +27,12 @@ class Record:
         for attr in ("name", "count"):
             yield str(getattr(self, attr))
 
+    @property
+    def is_empty(self):
+        if self.skills or self.dots:
+            return True
+        return False
+
     def to_dict(self):
         return dict(
             name=self.name, count=self.count,

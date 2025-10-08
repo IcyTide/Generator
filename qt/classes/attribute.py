@@ -2,7 +2,6 @@ import math
 
 from base.constant import *
 from base.expression import Expression, Variable
-from base.translate import ATTRIBUTE_TRANSLATE
 from qt.classes.buff import Buff
 from tools.lua.enums import SKILL_KIND_TYPE
 
@@ -314,24 +313,44 @@ class CriticalStrike(Major):
         return self.poison_critical_strike_base + self.spirit_critical_strike_base
 
     @property
+    def final_physical_critical_strike(self):
+        return self.base_physical_critical_strike + self.extra_physical_critical_strike
+
+    @property
+    def final_solar_critical_strike(self):
+        return self.base_solar_critical_strike + self.extra_solar_critical_strike
+
+    @property
+    def final_lunar_critical_strike(self):
+        return self.base_lunar_critical_strike + self.extra_lunar_critical_strike
+
+    @property
+    def final_neutral_critical_strike(self):
+        return self.base_neutral_critical_strike + self.extra_neutral_critical_strike
+
+    @property
+    def final_poison_critical_strike(self):
+        return self.base_poison_critical_strike + self.extra_poison_critical_strike
+
+    @property
     def physical_critical_strike_percent(self) -> float:
-        return (self.base_physical_critical_strike + self.extra_physical_critical_strike) / CRITICAL_STRIKE_SCALE
+        return self.final_physical_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def solar_critical_strike_percent(self) -> float:
-        return (self.base_solar_critical_strike + self.extra_solar_critical_strike) / CRITICAL_STRIKE_SCALE
+        return self.final_solar_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def lunar_critical_strike_percent(self) -> float:
-        return (self.base_lunar_critical_strike + self.extra_lunar_critical_strike) / CRITICAL_STRIKE_SCALE
+        return self.final_lunar_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def neutral_critical_strike_percent(self) -> float:
-        return (self.base_neutral_critical_strike + self.extra_neutral_critical_strike) / CRITICAL_STRIKE_SCALE
+        return self.final_neutral_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def poison_critical_strike_percent(self) -> float:
-        return (self.base_poison_critical_strike + self.extra_poison_critical_strike) / CRITICAL_STRIKE_SCALE
+        return self.final_poison_critical_strike / CRITICAL_STRIKE_SCALE
 
     @property
     def physical_critical_strike(self) -> float:
@@ -577,23 +596,23 @@ class CriticalPower:
 
     @property
     def physical_critical_power_percent(self):
-        return self.physical_critical_power_base / CRITICAL_POWER_SCALE
+        return self.physical_critical_power_base / CRITICAL_POWER_SCALE + BASE_CRITICAL_POWER / BINARY_SCALE
 
     @property
     def solar_critical_power_percent(self):
-        return self.solar_critical_power_base / CRITICAL_POWER_SCALE
+        return self.solar_critical_power_base / CRITICAL_POWER_SCALE + BASE_CRITICAL_POWER / BINARY_SCALE
 
     @property
     def lunar_critical_power_percent(self):
-        return self.lunar_critical_power_base / CRITICAL_POWER_SCALE
+        return self.lunar_critical_power_base / CRITICAL_POWER_SCALE + BASE_CRITICAL_POWER / BINARY_SCALE
 
     @property
     def neutral_critical_power_percent(self):
-        return self.neutral_critical_power_base / CRITICAL_POWER_SCALE
+        return self.neutral_critical_power_base / CRITICAL_POWER_SCALE + BASE_CRITICAL_POWER / BINARY_SCALE
 
     @property
     def poison_critical_power_percent(self):
-        return self.poison_critical_power_base / CRITICAL_POWER_SCALE
+        return self.poison_critical_power_base / CRITICAL_POWER_SCALE + BASE_CRITICAL_POWER / BINARY_SCALE
 
     @property
     def physical_critical_power(self):
@@ -729,7 +748,6 @@ class DamageCof:
 
 
 class Target(Defense, DamageCof):
-    TEMPLATE = ["{}_shield_base", "{}_shield_gain", "{}_damage_cof"]
     level: Expression = Variable("target_level")
 
     def __getitem__(self, item):
@@ -743,55 +761,41 @@ class Target(Defense, DamageCof):
 
 
 class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Target):
-    CURRENT_VARIABLE_TEMPLATE = [
-        "{}_overcome",
-    ]
-    SNAPSHOT_VARIABLE_TEMPLATE = [
-        "base_{}_attack_power", "{}_attack_power_gain", "extra_{}_attack_power",
-        "{}_critical_strike_percent", "{}_critical_strike_rate", "{}_critical_power_percent", "{}_critical_power_rate"
-    ]
-    CURRENT_VARIABLE = [
-        "surplus", "weapon_damage", "weapon_damage_rand", "all_shield_ignore",
-    ]
-    SNAPSHOT_VARIABLE = [
-        "strain", "pve_addition_base", "physical_damage_addition", "magical_damage_addition"
-    ]
     level: int = LEVEL
+    major: str
     critical_type: str
     damage_type: str
 
     recipes: list[str]
     buffs: dict[str, int]
 
-    def __init__(self, major):
-        self.major = major
+    def __init__(self):
         self.recipes = []
         self.buffs = {}
         self.target = Target()
 
     @property
     def current(self):
-        variables: dict = {**self.buffs}
+        variables: dict = {**self.buffs, **EXTRA_VARIABLES}
         for e in SKILL_KIND_TYPE:
-            for template in self.CURRENT_VARIABLE_TEMPLATE:
+            for template in CURRENT_VARIABLE_TEMPLATE:
                 attr = template.format(e)
                 variables[attr] = self[attr]
-            for template in self.target.TEMPLATE:
+            for template in TARGET_VARIABLE_TEMPLATE:
                 attr = template.format(e)
                 variables[attr] = self.target[attr]
-        for attr in self.CURRENT_VARIABLE:
+        for attr in CURRENT_VARIABLE:
             variables[attr] = self[attr]
-        variables["target_level"] = self.target.level
         return variables
 
     @property
     def snapshot(self):
         variables: dict = {recipe: 1. for recipe in self.recipes}
         for e in SKILL_KIND_TYPE:
-            for template in self.SNAPSHOT_VARIABLE_TEMPLATE:
+            for template in SNAPSHOT_VARIABLE_TEMPLATE:
                 attr = template.format(e)
                 variables[attr] = self[attr]
-        for attr in self.SNAPSHOT_VARIABLE:
+        for attr in SNAPSHOT_VARIABLE:
             variables[attr] = self[attr]
         return variables
 
@@ -800,3 +804,55 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
             self[k] += math.ceil(v * buff.stack)
         self.recipes += buff.recipes
         self.buffs[buff.buff_key] = buff.stack
+
+    def sub_buff(self, buff: Buff):
+        for k, v in buff.attributes.items():
+            self[k] -= math.ceil(v * buff.stack)
+        for recipe in buff.recipes:
+            if recipe in self.recipes:
+                self.recipes.remove(recipe)
+        self.buffs.pop(buff.buff_key, None)
+
+    @property
+    def base_attack_power(self):
+        return self[f"base_{self.damage_type}_attack_power"]
+
+    @property
+    def attack_power(self):
+        return self[f"{self.damage_type}_attack_power"]
+
+    @property
+    def base_overcome(self):
+        return self[f"base_{self.damage_type}_overcome"]
+
+    @property
+    def final_overcome(self):
+        return self[f"final_{self.damage_type}_overcome"]
+
+    @property
+    def overcome(self):
+        return self[f"{self.damage_type}_overcome"]
+
+    @property
+    def final_critical_strike(self):
+        return self[f"final_{self.critical_type}_critical_strike"]
+
+    @property
+    def critical_strike_percent(self):
+        return self[f"{self.critical_type}_critical_strike_percent"]
+
+    @property
+    def critical_strike(self):
+        return self[f"{self.critical_type}_critical_strike"]
+
+    @property
+    def critical_power_base(self):
+        return self[f"{self.critical_type}_critical_power_base"]
+
+    @property
+    def critical_power_percent(self):
+        return self[f"{self.critical_type}_critical_power_percent"]
+
+    @property
+    def critical_power(self):
+        return self[f"{self.critical_type}_critical_power"]

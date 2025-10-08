@@ -97,27 +97,26 @@ class CriticalPower:
 
     @property
     def physical_critical_power(self):
-        critical_power_rate = BASE_CRITICAL_POWER + self.physical_critical_power_rate
-        return self.physical_critical_power_percent + critical_power_rate / BINARY_SCALE
+        return self.physical_critical_power_percent + self.physical_critical_power_rate / BINARY_SCALE
 
     @property
     def solar_critical_power(self):
-        critical_power_rate = BASE_CRITICAL_POWER + self.solar_critical_power_rate + self.magical_critical_power_rate
+        critical_power_rate = self.solar_critical_power_rate + self.magical_critical_power_rate
         return self.solar_critical_power_percent + critical_power_rate / BINARY_SCALE
 
     @property
     def lunar_critical_power(self):
-        critical_power_rate = BASE_CRITICAL_POWER + self.lunar_critical_power_rate + self.magical_critical_power_rate
+        critical_power_rate = self.lunar_critical_power_rate + self.magical_critical_power_rate
         return self.lunar_critical_power_percent + critical_power_rate / BINARY_SCALE
 
     @property
     def neutral_critical_power(self):
-        critical_power_rate = BASE_CRITICAL_POWER + self.neutral_critical_power_rate + self.magical_critical_power_rate
+        critical_power_rate = self.neutral_critical_power_rate + self.magical_critical_power_rate
         return self.neutral_critical_power_percent + critical_power_rate / BINARY_SCALE
 
     @property
     def poison_critical_power(self):
-        critical_power_rate = BASE_CRITICAL_POWER + self.poison_critical_power_rate + self.magical_critical_power_rate
+        critical_power_rate = self.poison_critical_power_rate + self.magical_critical_power_rate
         return self.poison_critical_power_percent + critical_power_rate / BINARY_SCALE
 
 

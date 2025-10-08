@@ -2106,6 +2106,36 @@
             }
         },
         "19513": {
+            "1": {
+                "name": "连缘蛊增伤",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2513_1"
+                ],
+                "buff_key": "buff_19513_1"
+            },
+            "2": {
+                "name": "连缘蛊增伤",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2514_1"
+                ],
+                "buff_key": "buff_19513_2"
+            },
+            "3": {
+                "name": "连缘蛊增伤",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2515_1"
+                ],
+                "buff_key": "buff_19513_3"
+            },
             "4": {
                 "name": "连缘蛊增伤",
                 "interval": 32,

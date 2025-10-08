@@ -1,3 +1,5 @@
+from base.expression import Variable
+
 BINARY_SCALE = 1024
 DECIMAL_SCALE = 10000
 
@@ -37,7 +39,6 @@ SHIELD_BASE_MAP = {
 BASE_MAJOR = 44
 BASE_CRITICAL_POWER = 1792
 
-
 # Ui Constant
 QUALITY_COF = {
     1: 1,
@@ -72,7 +73,20 @@ POSITION_MAP = {
     9: "shoes",
     10: "wrist",
 }
-
+POSITIONS = {
+    "hat": "hat",
+    "jacket": "jacket",
+    "belt": "belt",
+    "wrist": "wrist",
+    "bottoms": "bottoms",
+    "shoes": "shoes",
+    "necklace": "necklace",
+    "pendant": "pendant",
+    "ring_1": "ring",
+    "ring_2": "ring",
+    "tertiary_weapon": "tertiary_weapon",
+    "primary_weapon": "primary_weapon"
+}
 MAX_BASE_ATTR = 6
 MAX_MAGIC_ATTR = 16
 MAX_EMBED_ATTR = 3
@@ -96,20 +110,55 @@ EMBED_POSITIONS = {
     "secondary_weapon": 3
 }
 
+
 def ROUND(num):
     return int(num + 0.5)
 
+
 def EMBED_COF(level):
     if level > 6:
-        cof =  (level * 0.65 - 3.2) * 1.3
+        cof = (level * 0.65 - 3.2) * 1.3
     else:
-        cof =  level * 0.195
-    return cof * 1.35
+        cof = level * 0.195
+    return cof * 1.345
 
 
 def STRENGTH_COF(level):
     return level * (0.7 + 0.3 * level) / 200
 
+
 MAX_TALENT_COUNT = 7
 MAX_TALENT_IN_POOL = 3
 MAX_RECIPE = 4
+
+MAJORS = dict(
+    力道="strength",
+    身法="agility",
+    元气="spunk",
+    根骨="spirit"
+)
+CURRENT_VARIABLE_TEMPLATE = ["{}_overcome"]
+SNAPSHOT_VARIABLE_TEMPLATE = [
+    "base_{}_attack_power", "{}_attack_power_gain", "extra_{}_attack_power",
+    "{}_critical_strike_percent", "{}_critical_strike_rate",
+    "{}_critical_power_percent", "{}_critical_power_rate"
+]
+TARGET_VARIABLE_TEMPLATE = [
+    "{}_shield_base", "{}_shield_gain",
+    "{}_damage_cof"
+]
+CURRENT_VARIABLE = [
+    "surplus",
+    "weapon_damage", "weapon_damage_rand",
+    "all_shield_ignore",
+]
+SNAPSHOT_VARIABLE = [
+    "strain",
+    "pve_addition_base",
+    "physical_damage_addition", "magical_damage_addition"
+]
+EXTRA_VARIABLES = {
+    "rand": 0.5,
+    "damage": Variable("damage"),
+    "target_level": Variable("target_level")
+}

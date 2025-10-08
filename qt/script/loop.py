@@ -3,14 +3,14 @@ from copy import deepcopy
 from PySide6.QtWidgets import QDialog
 
 from qt import refresh_table
-from qt.classes.attribute import Attribute
 from qt.classes.buff import BuffType
 from qt.classes.kungfu import Kungfu
 from qt.classes.section import Sections, Section
+from qt.component.loop_widget.attribute_dialog import AttributeDialog
 from qt.component.loop_widget.buff_dialog import BuffEditorDialog
 from qt.component.loop_widget.dot_dialog import DotDamageDialog, DotEditorDialog
-from qt.component.loop_widget.record_dialog import RecordEditorDialog
-from qt.component.loop_widget.section_dialog import SectionEditorDialog
+from qt.component.loop_widget.record_dialog import RecordEditorDialog, RecordDamageDialog
+from qt.component.loop_widget.section_dialog import SectionEditorDialog, SectionDamageDialog, AllDamageDialog
 from qt.component.loop_widget.skill_dialog import SkillDamageDialog
 from qt.component.loop_widget.skill_dialog import SkillEditorDialog
 from qt.component.loop_widget.widget import LoopWidget
@@ -46,8 +46,12 @@ class LoopScript:
         return self.records[record_index]
 
     def connect(self):
-        self.widget.skill_damage_btn.clicked.connect(self.cal_skill_damage)
-        self.widget.dot_damage_btn.clicked.connect(self.cal_dot_damage)
+        self.widget.all_damage_btn.clicked.connect(self.show_a)
+        self.widget.section_damage_btn.clicked.connect(self.show_section_damage)
+        self.widget.record_damage_btn.clicked.connect(self.show_record_damage)
+        self.widget.skill_damage_btn.clicked.connect(self.show_skill_damage)
+        self.widget.dot_damage_btn.clicked.connect(self.show_dot_damage)
+        self.widget.attributes_btn.clicked.connect(self.show_attributes)
 
         self.widget.section_table.itemClicked.connect(self.select_section)
         self.widget.add_section_btn.clicked.connect(self.add_section)
@@ -78,13 +82,18 @@ class LoopScript:
         self.widget.copy_dot_btn.clicked.connect(self.copy_dot)
         self.widget.del_dot_btn.clicked.connect(self.delete_dot)
 
-    def add_buff_to_attribute(self, attribute: Attribute, buff_type: BuffType):
-        buffs = self.record.buffs
-        for buff in buffs:
-            if buff.buff_type == buff_type:
-                attribute.add_buff(buff)
+    def show_attributes(self):
+        if not (record := self.record):
+            return
+        current, snapshot  = self.kungfu.create_attribute(), self.kungfu.create_attribute()
+        for buff in record.buffs:
+            if buff.buff_type == BuffType.Current:
+                current.add_buff(buff)
+            elif buff.buff_type == BuffType.Snapshot:
+                snapshot.add_buff(buff)
+        AttributeDialog(current, snapshot, parent=self.widget).exec()
 
-    def cal_skill_damage(self):
+    def show_skill_damage(self):
         if not (record := self.record):
             return
         skill_index = self.widget.skill_table.currentRow()
@@ -92,36 +101,47 @@ class LoopScript:
             return
         skill = record.skills[skill_index]
         attribute = self.kungfu.create_attribute()
-        self.add_buff_to_attribute(attribute, BuffType.Current)
+        for buff in record.buffs:
+            if buff.buff_type == BuffType.Current:
+                attribute.add_buff(buff)
         SkillDamageDialog(skill, attribute, parent=self.widget).exec()
 
-    def cal_dot_damage(self):
+    def show_dot_damage(self):
         if not (record := self.record):
             return
         dot_index = self.widget.dot_table.currentRow()
         if dot_index < 0:
-             return
+            return
         dot = record.dots[dot_index]
-        current_attribute = self.kungfu.create_attribute()
-        self.add_buff_to_attribute(current_attribute, BuffType.Current)
-        snapshot_attribute = self.kungfu.create_attribute()
-        self.add_buff_to_attribute(snapshot_attribute, BuffType.Snapshot)
-        DotDamageDialog(dot, current_attribute, snapshot_attribute, parent=self.widget).exec()
+        current, snapshot  = self.kungfu.create_attribute(), self.kungfu.create_attribute()
+        for buff in record.buffs:
+            if buff.buff_type == BuffType.Current:
+                current.add_buff(buff)
+            elif buff.buff_type == BuffType.Snapshot:
+                snapshot.add_buff(buff)
+        DotDamageDialog(dot, current, snapshot, parent=self.widget).exec()
 
-    def cal_record_damage(self):
+    def show_record_damage(self):
         if not (record := self.record):
             return
-        current_attribute = self.kungfu.create_attribute()
-        self.add_buff_to_attribute(current_attribute, BuffType.Current)
-        snapshot_attribute = self.kungfu.create_attribute()
-        self.add_buff_to_attribute(snapshot_attribute, BuffType.Snapshot)
+        if record.is_empty:
+            return
+        current, snapshot  = self.kungfu.create_attribute(), self.kungfu.create_attribute()
+        RecordDamageDialog(record, current, snapshot, parent=self.widget).exec()
 
-    def cal_section_damage(self):
+    def show_section_damage(self):
         if not (section := self.section):
             return
+        if section.is_empty:
+            return
+        current, snapshot  = self.kungfu.create_attribute(), self.kungfu.create_attribute()
+        SectionDamageDialog(section, current, snapshot, parent=self.widget).exec()
 
-    def cal_all_damage(self):
-        return
+    def show_all_damage(self):
+        if self.sections.is_empty:
+            return
+        current, snapshot  = self.kungfu.create_attribute(), self.kungfu.create_attribute()
+        AllDamageDialog(self.sections, current, snapshot, parent=self.widget).exec()
 
     def show_skill_damage_btn(self):
         self.widget.skill_damage_btn.show()
@@ -131,12 +151,21 @@ class LoopScript:
         self.widget.skill_damage_btn.hide()
         self.widget.dot_damage_btn.show()
 
+    def show_section_damage_btn(self):
+        self.widget.section_damage_btn.show()
+        self.widget.record_damage_btn.hide()
+
+    def show_record_damage_btn(self):
+        self.widget.record_damage_btn.show()
+        self.widget.section_damage_btn.hide()
+
     def select_section(self):
         if not (section := self.section):
             return
         self.widget.section_label.setText(section.name)
         refresh_table(self.widget.record_table, self.records, True)
         self.select_record()
+        self.show_section_damage_btn()
 
     def add_section(self):
         dialog = SectionEditorDialog(parent=self.widget)
@@ -144,6 +173,7 @@ class LoopScript:
             self.sections.append(dialog.section)
             refresh_table(self.widget.section_table, self.sections, True)
             self.select_section()
+            self.show_section_damage_btn()
 
     def edit_section(self):
         if not (section := self.section):
@@ -153,6 +183,7 @@ class LoopScript:
             self.sections[self.widget.section_table.currentRow()] = dialog.section
             refresh_table(self.widget.section_table, self.sections, True)
             self.widget.section_label.setText(dialog.section.name)
+            self.show_section_damage_btn()
 
     def copy_section(self):
         if not (section := self.section):
@@ -163,6 +194,7 @@ class LoopScript:
         refresh_table(self.widget.section_table, self.sections, True)
         self.widget.section_table.selectRow(len(self.sections) - 1)
         self.widget.section_label.setText(section_copy.name)
+        self.show_section_damage_btn()
 
     def delete_section(self):
         if not (section := self.section):
@@ -170,6 +202,7 @@ class LoopScript:
         self.sections.remove(section)
         refresh_table(self.widget.section_table, self.sections, True)
         self.select_section()
+        self.show_section_damage_btn()
 
     def select_record(self):
         if not (record := self.record):
@@ -178,6 +211,7 @@ class LoopScript:
         refresh_table(self.widget.buff_table, self.record.buffs)
         refresh_table(self.widget.skill_table, self.record.skills)
         refresh_table(self.widget.dot_table, self.record.dots)
+        self.show_record_damage_btn()
 
     def add_record(self):
         dialog = RecordEditorDialog(parent=self.widget)
@@ -185,6 +219,7 @@ class LoopScript:
             self.records.append(dialog.record)
             refresh_table(self.widget.record_table, self.records, True)
             self.select_record()
+            self.show_record_damage_btn()
 
     def edit_record(self):
         if not (record := self.record):
@@ -195,6 +230,7 @@ class LoopScript:
             record.count = dialog.record.count
             refresh_table(self.widget.record_table, self.records, True)
             self.widget.record_label.setText(record.name)
+            self.show_record_damage_btn()
 
     def copy_record(self):
         if not (record := self.record):
@@ -205,6 +241,7 @@ class LoopScript:
         refresh_table(self.widget.record_table, self.records, True)
         self.widget.record_table.selectRow(len(self.records) - 1)
         self.widget.record_label.setText(record_copy.name)
+        self.show_record_damage_btn()
 
     def delete_record(self):
         if not (record := self.record):
@@ -212,6 +249,7 @@ class LoopScript:
         self.records.remove(record)
         refresh_table(self.widget.record_table, self.records, True)
         self.select_record()
+        self.show_record_damage_btn()
 
     def add_buff(self):
         if not (record := self.record):

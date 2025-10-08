@@ -91,9 +91,7 @@ class SkillDamageDialog(QDialog):
 
         layout = QVBoxLayout(self)
 
-        variables = {
-            "rand": 0.5, "damage": Variable("damage"), **attribute.current, **attribute.snapshot
-        }
+        variables = {**attribute.current, **attribute.snapshot}
         self.damage = skill.damage.evaluate(variables) * skill.count
         self.critical_damage = skill.critical_damage.evaluate(variables)
         self.critical_strike = skill.critical_strike.evaluate(variables)

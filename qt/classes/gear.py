@@ -1,6 +1,6 @@
 from assets.raw.enchants import ENCHANTS
 from assets.raw.equipments import EQUIPMENTS
-from base.constant import EMBED_COF, ROUND, STRENGTH_COF
+from base.constant import EMBED_COF, ROUND, STRENGTH_COF, POSITIONS
 
 
 class Stone:
@@ -41,7 +41,7 @@ class Enchant:
     def from_dict(cls, position: str, json: dict):
         if not json:
             return None
-        return cls(json["enchant"], ENCHANTS[position][json["enchant"]])
+        return cls(json["enchant"], ENCHANTS[POSITIONS[position]][json["enchant"]])
 
 
 class Gear:
@@ -130,7 +130,7 @@ class Gear:
             json["school"],
             json["kind"],
             json["equipment"],
-            EQUIPMENTS[position][json["school"]][json["kind"]][json["equipment"]]
+            EQUIPMENTS[POSITIONS[position]][json["school"]][json["kind"]][json["equipment"]]
         )
         instance.enchant = Enchant.from_dict(position, json["enchant"])
         instance.strength_level = json["strength_level"]
