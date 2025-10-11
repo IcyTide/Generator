@@ -145,7 +145,7 @@ CURRENT_VARIABLE_TEMPLATES = [
 ]
 SNAPSHOT_VARIABLE_TEMPLATES = [
     "base_{}_attack_power", "{}_attack_power",
-   # "{}_attack_power_gain", "extra_{}_attack_power", # need_int required
+    # "{}_attack_power_gain", "extra_{}_attack_power", # need_int required
     "{}_critical_strike",
     "{}_critical_power"
 ]
@@ -183,6 +183,7 @@ GRAD_VARIABLES = {
     "critical_strike_base": 2401,
     "critical_power_base": 2401
 }
+
 
 def LEVEL_VARIABLES(level):
     return {

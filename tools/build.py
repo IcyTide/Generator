@@ -4,14 +4,13 @@ from kungfus import Kungfu, SUPPORT_KUNGFUS
 from parser.buff import parse_buff
 from parser.dot import parse_dot
 from parser.skill import parse_skill
+from tools.classes.belong import Belong
 from tools.classes.buff import Buff
 from tools.classes.dot import Dot
 from tools.classes.recipe import Recipe
 from tools.classes.skill import Skill
-from tools.classes.belong import Belong
-from tools.generate import generate
-from tools.parser.recipe import parse_recipe
 from tools.parser.belong import parse_belong
+from tools.parser.recipe import parse_recipe
 from tools.utils import save_code
 
 

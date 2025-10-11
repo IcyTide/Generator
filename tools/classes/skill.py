@@ -2,11 +2,11 @@ from pathlib import Path
 
 from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, \
     PHYSICAL_DAMAGE_SCALE
-from tools.classes.damage import DamageChain
 from base.expression import Expression, Int
 from kungfus import SKILL_PATCHES
 from tools.classes import AliasBase
 from tools.classes.attribute import Attribute, Target
+from tools.classes.damage import DamageChain
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE, SKILL_KIND_TYPE
 from tools.settings import skill_settings, skill_txts
 from tools.utils import camel_to_capital, process_attr_param, set_patches

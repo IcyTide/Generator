@@ -1,5 +1,5 @@
 BUFFS: dict[int, dict] = {
-    31534: dict(name="风驰", comments={}),
+    31534: dict(comments={}),
     14083: dict(comments={2: ""}),
     29348: dict(name="鸿轨"),
     14321: dict(name="驰行"),

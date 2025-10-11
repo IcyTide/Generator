@@ -1,4 +1,4 @@
-from kungfus.bei_ao_jue.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.bei_ao_jue.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.bei_ao_jue.buffs import BUFFS
 from kungfus.bei_ao_jue.dots import DOTS
 from kungfus.bei_ao_jue.patches import BUFF_PATCHES, SKILL_PATCHES

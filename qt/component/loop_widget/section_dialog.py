@@ -5,7 +5,7 @@ from qt import LabelRow
 from qt.classes.attribute import Attribute
 from qt.classes.buff import BuffType
 from qt.classes.section import Section, Sections
-from qt.component.loop_widget.damage_dialog import DamageDialog
+from qt.component.loop_widget.damage_dialog import DamagesDialog
 from qt.utils import evaluate_dot, evaluate_skill
 
 
@@ -50,7 +50,7 @@ class SectionEditorDialog(QDialog):
         self.section.duration = duration
 
 
-class SectionDamageDialog(DamageDialog):
+class SectionDamageDialog(DamagesDialog):
     def __init__(self, section: Section, current: Attribute, snapshot: Attribute, parent: QWidget = None):
         self.damages, self.duration = {}, section.duration
         for record in section.records:
@@ -80,7 +80,7 @@ class SectionDamageDialog(DamageDialog):
         super().__init__(section.name, section.count, parent)
 
 
-class AllDamageDialog(DamageDialog):
+class AllDamageDialog(DamagesDialog):
     def __init__(self, sections: Sections, current: Attribute, snapshot: Attribute, parent: QWidget = None):
         self.damages, self.duration = {}, 0
         for section in sections:

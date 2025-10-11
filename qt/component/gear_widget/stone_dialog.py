@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget, QSizePolicy
+from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSizePolicy, QVBoxLayout, QWidget
 
 from assets.raw.stones import STONES
 from qt import ComboBox, LabelRow
@@ -51,7 +51,6 @@ class StoneDialog(QDialog):
             for attr, attr_combo in zip(stone.attributes, self.attr_combos):
                 attr_combo.setCurrentText(attr)
             self.level_combo.setCurrentText(str(stone.level))
-
 
     @staticmethod
     def is_stone_node(node: dict):

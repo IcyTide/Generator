@@ -1,7 +1,7 @@
-from PySide6.QtWidgets import QWidget, QVBoxLayout, QTableWidget, QListWidget, QGridLayout, QLabel
+from PySide6.QtWidgets import QGridLayout, QLabel, QListWidget, QTableWidget, QVBoxLayout, QWidget
 
 from base.constant import MAX_TALENT_COUNT
-from qt import ComboBox, Table, LabelColumn
+from qt import ComboBox, LabelColumn, Table
 
 
 class TalentWidget(QWidget):

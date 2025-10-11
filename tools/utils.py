@@ -31,7 +31,7 @@ def path_to_function(s):
     return s1
 
 
-def get_variable(prefix: str="_", *keys):
+def get_variable(prefix: str = "_", *keys):
     ret = prefix
     for key in keys:
         ret += f"_{key}"

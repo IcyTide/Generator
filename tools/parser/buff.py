@@ -1,6 +1,5 @@
 from tools.classes.buff import Buff
 from tools.classes.skill import Skill
-from tools.lua.enums import ATTRIBUTE_EFFECT_MODE
 
 
 def set_buff_to_skill(buff: Buff, skills: dict[int, dict[int, Skill]]):

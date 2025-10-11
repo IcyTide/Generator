@@ -1,4 +1,4 @@
-from kungfus.mo_wen.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.mo_wen.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.mo_wen.buffs import BUFFS
 from kungfus.mo_wen.dots import DOTS
 from kungfus.mo_wen.patches import BUFF_PATCHES, SKILL_PATCHES

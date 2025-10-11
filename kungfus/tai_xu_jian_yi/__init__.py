@@ -1,4 +1,4 @@
-from kungfus.tai_xu_jian_yi.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.tai_xu_jian_yi.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.tai_xu_jian_yi.buffs import BUFFS
 from kungfus.tai_xu_jian_yi.dots import DOTS
 from kungfus.tai_xu_jian_yi.patches import BUFF_PATCHES, SKILL_PATCHES

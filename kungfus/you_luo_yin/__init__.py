@@ -1,4 +1,4 @@
-from kungfus.you_luo_yin.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.you_luo_yin.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.you_luo_yin.buffs import BUFFS
 from kungfus.you_luo_yin.dots import DOTS
 from kungfus.you_luo_yin.patches import BUFF_PATCHES, SKILL_PATCHES

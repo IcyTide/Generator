@@ -1,8 +1,6 @@
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (QHBoxLayout, QLabel, QPushButton, QSplitter, QVBoxLayout, QWidget)
 
-from qt.classes.kungfu import Kungfu
-from qt.classes.section import Section, Sections
 from qt import LabelRow, Table
 
 

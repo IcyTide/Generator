@@ -1,4 +1,4 @@
-from kungfus.yin_long_jue.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.yin_long_jue.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.yin_long_jue.buffs import BUFFS
 from kungfus.yin_long_jue.dots import DOTS
 from kungfus.yin_long_jue.patches import BUFF_PATCHES, SKILL_PATCHES

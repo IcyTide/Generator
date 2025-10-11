@@ -41,6 +41,12 @@ class Talents:
     def __getitem__(self, key):
         return self.talents[key]
 
+    def __iter__(self):
+        for talent in self.talents.values():
+            yield talent
+        for talent in self.talent_pool:
+            yield talent
+
     def get(self, key):
         if key not in self.talents:
             return None
@@ -64,7 +70,7 @@ class Talents:
             for k, v in talent.attributes.items():
                 if k not in attributes:
                     attributes[k] = 0
-                attributes[k]+= v
+                attributes[k] += v
             recipes += talent.recipes
         return attributes, recipes, gains
 

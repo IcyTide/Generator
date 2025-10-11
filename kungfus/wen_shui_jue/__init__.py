@@ -1,4 +1,4 @@
-from kungfus.wen_shui_jue.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.wen_shui_jue.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.wen_shui_jue.buffs import BUFFS
 from kungfus.wen_shui_jue.dots import DOTS
 from kungfus.wen_shui_jue.patches import BUFF_PATCHES, SKILL_PATCHES

@@ -1,9 +1,9 @@
-from base.constant import MAX_TALENT_IN_POOL, MAX_TALENT_COUNT, MAX_RECIPE
+from base.constant import MAX_RECIPE, MAX_TALENT_IN_POOL
 from qt import refresh_table
 from qt.classes.kungfu import Kungfu
-from qt.classes.recipe import Recipes, Recipe
-from qt.classes.talent import Talents, Talent
-from qt.component.build_widget.widget import BuildWidget, TalentWidget, RecipeWidget
+from qt.classes.recipe import Recipe, Recipes
+from qt.classes.talent import Talent, Talents
+from qt.component.build_widget.widget import BuildWidget, RecipeWidget, TalentWidget
 
 
 class TalentScript:
@@ -145,4 +145,5 @@ class BuildScript:
         self.kungfu.build_attributes = attributes
         self.kungfu.build_recipes = recipes
         self.kungfu.build_gains = gains
+        self.kungfu.select_talents = [talent.name for talent in self.talents]
 

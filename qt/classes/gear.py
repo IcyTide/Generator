@@ -1,6 +1,6 @@
 from assets.raw.enchants import ENCHANTS
 from assets.raw.equipments import EQUIPMENTS
-from base.constant import EMBED_COF, ROUND, STRENGTH_COF, POSITIONS
+from base.constant import EMBED_COF, POSITIONS, ROUND, STRENGTH_COF
 
 
 class Stone:

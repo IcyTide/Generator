@@ -1,9 +1,6 @@
 from PySide6.QtWidgets import QHBoxLayout, QPushButton, QWidget
 
-from kungfus import SUPPORT_KUNGFUS
-
 from qt import ComboBox
-from qt.classes.kungfu import Kungfu
 
 
 class TopWidget(QWidget):

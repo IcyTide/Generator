@@ -11,14 +11,14 @@ class DamagesDialog(QDialog):
 
     damages: dict[str, int | Expression] = {}
 
-    def __init__(self, name: str, count:int, parent: QWidget = None):
+    def __init__(self, name: str, count: int, parent: QWidget = None):
         super().__init__(parent)
         self.setWindowTitle("Damage Detail")
         layout = QVBoxLayout(self)
         self.tool_box = QToolBox()
         layout.addWidget(self.tool_box)
         sub_layout = QVBoxLayout(sub_page := QWidget())
-        sub_layout.addWidget(LabelRow("Name:",  QLabel(name)))
+        sub_layout.addWidget(LabelRow("Name:", QLabel(name)))
         sub_layout.addWidget(LabelRow("Count:", QLabel(str(count))))
         sub_layout.addWidget(LabelRow("Duration:", QLabel(str(self.duration))))
         self.target_level = ComboBox()

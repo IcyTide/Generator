@@ -77,4 +77,3 @@ class GearWidget(QWidget):
         grid_layout.setColumnStretch(self.HEADERS.index("Equipment"), 1)
 
         layout.addStretch()
-

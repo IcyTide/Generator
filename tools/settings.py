@@ -20,6 +20,8 @@ attrib_settings = read_tab("settings/item/Attrib.tab")
 set_settings = read_tab("settings/item/Set.tab")
 item_settings = read_tab("ui/scheme/case/Item.txt")
 
+skill_event_settings = read_tab("settings/skill/skillevent.tab")
+
 buff_recipe_settings = read_tab("settings/skill/buffrecipe.tab")
 
 skill_txts = read_tab("ui/scheme/case/skill.txt", "ui/scheme/case_mobile/skill.txt")

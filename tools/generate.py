@@ -44,12 +44,11 @@ MAX_SET_ATTR = 4
 
 
 def get_equip_name(detail):
+    abbrs = []
     if detail['school'] == "精简":
-        abbrs = ["精简"]
-    elif detail["gains"]:
-        abbrs = ["特效"]
-    else:
-        abbrs = []
+        abbrs += ["精简"]
+    if detail["gains"]:
+        abbrs += ["特效"]
     for attr in detail['magic']:
         for k, v in ATTR_ABBR.items():
             if k in attr:
@@ -57,6 +56,12 @@ def get_equip_name(detail):
                 break
     return f"{detail['name']}#{detail['id']} ({detail['level']} {' '.join(abbrs)})"
 
+
+def get_gain_from_event(event_id):
+    event_row = skill_event_settings[skill_event_settings.ID == event_id].iloc[0]
+    if event_row.Odds == 0:
+        return None
+    return get_variable("gain", event_row.SkillID, event_row.SkillLevel)
 
 def get_equip_detail(row):
     detail = {
@@ -90,7 +95,8 @@ def get_equip_detail(row):
             continue
         param_1, param_2 = int(attr_row.Param1Max), int(attr_row.Param2Max)
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
-            gains.append(get_variable("gain", param_1))
+            if gain := get_gain_from_event(param_1):
+                gains.append(gain)
         elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
             recipes.append(get_variable("recipe", param_1, param_2))
         else:
@@ -126,7 +132,8 @@ def get_equip_detail(row):
                 if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
                     if "gains" not in sets[i + 1]:
                         sets[i + 1]["gains"] = []
-                    sets[i + 1]["gains"].append(get_variable("gain", param_1))
+                    if gain := get_gain_from_event(param_1):
+                        sets[i + 1]["gains"].append(gain)
                 elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
                     if "recipes" not in sets[i + 1]:
                         sets[i + 1]["recipes"] = []

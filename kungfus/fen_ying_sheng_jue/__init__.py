@@ -1,4 +1,4 @@
-from kungfus.fen_ying_sheng_jue.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.fen_ying_sheng_jue.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.fen_ying_sheng_jue.buffs import BUFFS
 from kungfus.fen_ying_sheng_jue.dots import DOTS
 from kungfus.fen_ying_sheng_jue.patches import BUFF_PATCHES, SKILL_PATCHES

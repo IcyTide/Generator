@@ -1,4 +1,4 @@
-from kungfus.zi_xia_gong.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.zi_xia_gong.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.zi_xia_gong.buffs import BUFFS
 from kungfus.zi_xia_gong.dots import DOTS
 from kungfus.zi_xia_gong.patches import BUFF_PATCHES, SKILL_PATCHES

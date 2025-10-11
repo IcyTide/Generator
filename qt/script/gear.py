@@ -2,10 +2,10 @@ from PySide6.QtWidgets import QDialog
 
 from qt.classes.gear import Enchant, Gear, Gears
 from qt.classes.kungfu import Kungfu
+from qt.component.gear_widget.attribute_dialog import AttributeDialog
 from qt.component.gear_widget.detail_dialog import DetailDialog
 from qt.component.gear_widget.stone_dialog import StoneDialog
 from qt.component.gear_widget.widget import GearWidget, SubGearWidget
-from qt.component.gear_widget.attribute_dialog import AttributeDialog
 
 
 class SubGearScript:

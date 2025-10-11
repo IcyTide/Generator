@@ -1,4 +1,4 @@
-from kungfus.yi_jin_jing.attribute import ATTRIBUTE, KIND, SCHOOL, MAJOR
+from kungfus.yi_jin_jing.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
 from kungfus.yi_jin_jing.buffs import BUFFS
 from kungfus.yi_jin_jing.dots import DOTS
 from kungfus.yi_jin_jing.patches import BUFF_PATCHES, SKILL_PATCHES
