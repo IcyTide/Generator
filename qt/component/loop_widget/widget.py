@@ -34,7 +34,7 @@ class LoopWidget(QWidget):
         left_layout = QVBoxLayout((left_panel := QWidget()))
 
         # Section Display
-        self.section_table = Table(["ID", "Name", "Count"])
+        self.section_table = Table(["ID", "Name", "Count", "Duration"])
         self.section_label = QLabel("")
         left_layout.addWidget(LabelRow("Current Section:", self.section_label))
         left_layout.addWidget(self.section_table)
@@ -49,7 +49,7 @@ class LoopWidget(QWidget):
         # Record Display
         self.record_label = QLabel("")
         left_layout.addWidget(LabelRow("Current Record:", self.record_label))
-        self.record_table = Table(["ID", "Name", "Count"])
+        self.record_table = Table(["ID", "Name", "Count", "Duration"])
         left_layout.addWidget(self.record_table)
         left_layout.addLayout((btn_layout := QHBoxLayout()))
         self.add_record_btn = QPushButton("Add Record")
@@ -89,7 +89,7 @@ class LoopWidget(QWidget):
 
         # Dot Display
         right_layout.addWidget(QLabel("Dot List"))
-        self.dot_table = Table(["Name", "ID", "Level", "Source", "Tick", "Count"])
+        self.dot_table = Table(["Name", "ID", "Level", "Stack", "Tick", "Count"])
         right_layout.addWidget(self.dot_table)
 
         right_layout.addLayout((btn_layout := QHBoxLayout()))

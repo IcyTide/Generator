@@ -4456,6 +4456,10 @@
             ],
             "desc": "对目标造成<SUB 14474 0>阴性内功伤害。<TALENT 25220 1 冻泉><TALENT 14870 1 入圣><TALENT 41796 1 入月><TALENT 14282 1 师襄>"
         },
+        "14066": {
+            "name": "角",
+            "desc": "对目标立刻造成<SUB 14312 1>阴性内功伤害，使目标<BUFF 9361 0 desc>(+<SKILLEx {D0} {TotalLunarAP 0.234}>)，持续<BUFF 9361 0 time>。<TALENT 14870 1 入圣><TALENT 25220 1 冻泉><TALENT 14285 1 疏曲><TALENT 41830 1 鹿鸣><TALENT 14441 1 流韵><TALENT 14313 1 井仪><TALENT 18711 1 别鹤><TALENT 41838 1 妙意>"
+        },
         "14068": {
             "name": "羽",
             "recipes": [
@@ -4469,10 +4473,6 @@
                 "recipe_2096_1"
             ],
             "desc": "3层充能技能，充能时间受加速率影响，对目标造成<SUB 14100 0>阴性内功伤害，使其下两跳自身“商”“角”持续伤害立刻生效。<TALENT 14870 1 入圣><TALENT 25220 1 冻泉><TALENT 14285 1 疏曲><TALENT 37287 1 凌冬><TALENT 32486 1 微萤><TALENT 14282 1 师襄>"
-        },
-        "14066": {
-            "name": "角",
-            "desc": "对目标立刻造成<SUB 14312 1>阴性内功伤害，使目标<BUFF 9361 0 desc>(+<SKILLEx {D0} {TotalLunarAP 0.234}>)，持续<BUFF 9361 0 time>。<TALENT 14870 1 入圣><TALENT 25220 1 冻泉><TALENT 14285 1 疏曲><TALENT 41830 1 鹿鸣><TALENT 14441 1 流韵><TALENT 14313 1 井仪><TALENT 18711 1 别鹤><TALENT 41838 1 妙意>"
         },
         "14082": {
             "name": "疏影横斜",

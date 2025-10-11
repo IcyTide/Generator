@@ -248,7 +248,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_ATTACK_POWER_PERCENT = "neutral_attack_power_gain"
     NEUTRAL_ATTACK_POWER_PERCNET = "neutral_attack_power_gain"
     POISON_ATTACK_POWER_PERCENT = "poison_attack_power_gain"
-    MAGIC_ATTACK_POWER_PERCENT = "magical_attack_power_percent"
+    MAGIC_ATTACK_POWER_PERCENT = "magical_attack_power_gain"
 
     # Hit
     PHYSICS_HIT_BASE_RATE = ""

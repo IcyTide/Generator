@@ -183,6 +183,11 @@ class Add(BinaryOperator):
             return Sub(left, -right)
         if isinstance(right, Constant) and right.value < 0:
             return Sub(left, -right.value)
+        if isinstance(left, (Add, Sub)) and isinstance(right, (int, float)):
+            if isinstance(left.left, Constant):
+                return left.__class__(left.left.value + right, left.right)
+            if isinstance(left.right, Constant):
+                return left.__class__(left.left, left.right.value + right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -209,6 +214,11 @@ class Sub(BinaryOperator):
             return Add(left, -right)
         if isinstance(right, Constant) and right.value < 0:
             return Add(left, -right.value)
+        if isinstance(left, (Add, Sub)) and isinstance(right, (int, float)):
+            if isinstance(left.left, Constant):
+                return left.__class__(left.left.value - right, left.right)
+            if isinstance(left.right, Constant):
+                return left.__class__(left.left, left.right.value - right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -326,6 +336,7 @@ def get_variables(formula: str) -> dict[str, Variable]:
             else:
                 variables[variable] = Variable(variable)
                 variable = ""
+    variables[variable] = Variable(variable)
     return variables
 
 

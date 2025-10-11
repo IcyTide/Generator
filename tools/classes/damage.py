@@ -19,7 +19,8 @@ class DamageChain:
         self.target = target
         self.skill = skill
 
-        self.damage, self.critical_damage, self.rand = 0, 0, Variable("rand")
+        self.damage, self.critical_damage = 0, 0
+        self.rand, self.shield_constant = Variable("rand"), Variable("shield_constant")
         self.final_damage = 0
 
         self.need_int = False
@@ -181,6 +182,10 @@ class DamageChain:
         self.damage *= rate
         if self.need_int:
             self.damage = Int(self.damage)
+        rate = 1 + self.source.skill_damage_final_cof / BINARY_SCALE
+        self.damage *= rate
+        if self.need_int:
+            self.damage = Int(self.damage * rate)
 
     def cal_overcome(self, overcome):
         if self.need_int:
@@ -190,16 +195,14 @@ class DamageChain:
             self.damage *= 1 + overcome
 
     def cal_defense(self, shield):
-        shield_constant = SHIELD_SCALE * LEVEL_SCALE * self.target.level - SHIELD_SCALE * LEVEL_CONSTANT
         shield = shield * (1 - self.source.all_shield_ignore / BINARY_SCALE)
         if self.need_int:
             shield = Int(shield)
-        if self.need_int:
-            defense = shield / (shield + shield_constant)
+            defense = shield / (shield + self.shield_constant)
             rate = 1 - Int(defense * BINARY_SCALE) / BINARY_SCALE
             self.damage = Int(self.damage * rate)
         else:
-            self.damage *= shield_constant / (shield + shield_constant)
+            self.damage *= self.shield_constant / (shield + self.shield_constant)
 
     def cal_level_reduction(self):
         rate = 1 - (self.target.level - self.source.level) * LEVEL_REDUCTION

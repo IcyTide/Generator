@@ -46,7 +46,7 @@ class LoopScript:
         return self.records[record_index]
 
     def connect(self):
-        self.widget.all_damage_btn.clicked.connect(self.show_a)
+        self.widget.all_damage_btn.clicked.connect(self.show_all_damage)
         self.widget.section_damage_btn.clicked.connect(self.show_section_damage)
         self.widget.record_damage_btn.clicked.connect(self.show_record_damage)
         self.widget.skill_damage_btn.clicked.connect(self.show_skill_damage)
@@ -226,8 +226,7 @@ class LoopScript:
             return
         dialog = RecordEditorDialog(record, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
-            record.name = dialog.record.name
-            record.count = dialog.record.count
+            self.records[self.widget.record_table.currentRow()] = dialog.record
             refresh_table(self.widget.record_table, self.records, True)
             self.widget.record_label.setText(record.name)
             self.show_record_damage_btn()

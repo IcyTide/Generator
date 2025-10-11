@@ -30,11 +30,8 @@ class Dot:
 
     def __iter__(self):
         yield str(self)
-        for attr in ("dot_id", "dot_level", "source", "tick", "count"):
-            if value := getattr(self, attr):
-                yield str(value)
-            else:
-                yield ""
+        for attr in ("dot_id", "dot_level", "stack", "tick", "count"):
+            yield str(getattr(self, attr))
 
     def __str__(self):
         if self.name and self.comment:

@@ -1,6 +1,6 @@
 import json
 
-from PySide6.QtWidgets import QTabWidget
+from PySide6.QtWidgets import QFileDialog, QTabWidget
 
 from kungfus import SUPPORT_KUNGFUS
 from qt.classes.gear import Gears
@@ -60,15 +60,32 @@ class TopScript:
             self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
         self.tabs.show()
         self.widget.load_btn.hide()
+        self.widget.save_btn.show()
 
     def save(self):
+        file_path, _ = QFileDialog.getSaveFileName(
+            self.widget,
+            "Save Cache",
+            "cache.json",
+            "JSON(*.json)"
+        )
+        if not file_path:
+            return
         json.dump(
-            self.cache_content, open("cache.json", "w", encoding="utf-8"),
+            self.cache_content, open(file_path, "w", encoding="utf-8"),
             ensure_ascii=False, default=lambda x: x.to_dict()
         )
 
     def load(self):
-        for k, v in json.load(open("cache.json", "r", encoding="utf-8")).items():
+        file_path, _ = QFileDialog.getOpenFileName(
+            self.widget,
+            "Load Cache",
+            "",
+            "JSON(*.json)"
+        )
+        if not file_path:
+            return
+        for k, v in json.load(open(file_path, "r", encoding="utf-8")).items():
             kungfu = self.kungfus[k]
             self.cache_content[k] = dict(
                 gear=Gears.from_dict(v["gear"]),

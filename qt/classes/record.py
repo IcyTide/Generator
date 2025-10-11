@@ -10,6 +10,7 @@ from qt.classes.skill import Skill
 class Record:
     name: str = "New Record"
     count: int = 1
+    duration: float = 0.
 
     buffs: List[Buff] = None
     skills: List[Skill] = None
@@ -24,18 +25,18 @@ class Record:
             self.dots = []
 
     def __iter__(self):
-        for attr in ("name", "count"):
+        for attr in ("name", "count", "duration"):
             yield str(getattr(self, attr))
 
     @property
     def is_empty(self):
         if self.skills or self.dots:
-            return True
-        return False
+            return False
+        return True
 
     def to_dict(self):
         return dict(
-            name=self.name, count=self.count,
+            name=self.name, count=self.count, duration=self.duration,
             buffs=[buff.to_dict() for buff in self.buffs],
             skills=[skill.to_dict() for skill in self.skills],
             dots=[dot.to_dict() for dot in self.dots]
@@ -44,7 +45,7 @@ class Record:
     @classmethod
     def from_dict(cls, kungfu_id: int, json: dict):
         record = cls(
-            json["name"], json["count"],
+            json["name"], json["count"], json["duration"],
             [Buff.from_dict(kungfu_id, buff) for buff in json["buffs"]],
             [Skill.from_dict(kungfu_id, skill) for skill in json["skills"]],
             [Dot.from_dict(kungfu_id, dot) for dot in json["dots"]]

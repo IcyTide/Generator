@@ -253,7 +253,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 205,
+                    "magical_attack_power_gain": 205,
                     "solar_overcome_gain": 205,
                     "all_shield_ignore": 614
                 },
@@ -268,7 +268,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 205,
+                    "magical_attack_power_gain": 205,
                     "solar_overcome_gain": 205,
                     "all_shield_ignore": 614
                 },
@@ -1088,7 +1088,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 154
+                    "magical_attack_power_gain": 154
                 },
                 "buff_key": "buff_32022_1"
             }
@@ -1113,7 +1113,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 205,
+                    "magical_attack_power_gain": 205,
                     "strain_gain": 205,
                     "all_shield_ignore": 666
                 },
@@ -3993,6 +3993,22 @@ BUFFS = {
                 "buff_key": "buff_20707_5"
             }
         },
+        20699: {
+            1: {
+                "name": "养荣",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_overcome_gain": 256,
+                    "strain_gain": 256
+                },
+                "recipes": [
+                    "recipe_5902_1"
+                ],
+                "buff_key": "buff_20699_1"
+            }
+        },
         20680: {
             1: {
                 "name": "相使",
@@ -4000,7 +4016,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 154
+                    "magical_attack_power_gain": 154
                 },
                 "buff_key": "buff_20680_1"
             }
@@ -4268,7 +4284,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 205,
+                    "magical_attack_power_gain": 205,
                     "strain_gain": 154
                 },
                 "buff_key": "buff_29254_1"
@@ -4392,7 +4408,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_percent": 154,
+                    "magical_attack_power_gain": 154,
                     "strain_gain": 307
                 },
                 "buff_key": "buff_31699_1"

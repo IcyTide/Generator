@@ -21,7 +21,7 @@ class Belong(Skill):
         self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
-        self.talent_key = Variable(get_variable("talent", self.skill_id, self.skill_level))
+        self.talent_key = Variable(get_variable("talent", self.skill_id))
         txt_rows = recipe_txts[recipe_txts.SkillID == self.skill_id]
         for row in txt_rows.itertuples():
             self.recipes.append((row.ID, row.Level))

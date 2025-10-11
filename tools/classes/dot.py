@@ -24,7 +24,7 @@ class Dot(Buff):
     def to_dict(self):
         if self.buff_level:
             return {
-                "name": self.get_name(self.buff_id, self.buff_level),
+                "name": f"{self.get_name(self.buff_id, self.buff_level)}(DOT)",
                 "comment": self.comment,
                 "interval": str(self.interval),
                 "max_stack": int(self.max_stack),

@@ -2,13 +2,13 @@ from copy import deepcopy
 
 from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
-from base.constant import SHIELD_BASE_MAP
-from base.expression import Variable
+from base.constant import LEVEL_VARIABLES, SHIELD_BASE_MAP
+from qt import ComboBox, LabelRow
 from qt.classes.attribute import Attribute
 from qt.classes.dot import Dot
-from qt import ComboBox, LabelRow
 from qt.component.loop_widget.skill_dialog import SkillEditorDialog
 from qt.component.loop_widget.widget import LoopWidget
+from qt.utils import evaluate_dot
 
 
 class SourceSkillEditorDialog(SkillEditorDialog):
@@ -125,10 +125,8 @@ class DotDamageDialog(QDialog):
 
         layout = QVBoxLayout(self)
 
-        variables = {"tick": dot.tick, **current.current, **snapshot.snapshot}
-        self.damage = dot.source.damage.evaluate(variables) * dot.stack * dot.count
-        self.critical_damage = dot.source.critical_damage.evaluate(variables)
-        self.critical_strike = dot.source.critical_strike.evaluate(variables)
+        variables = {**current.current, **snapshot.snapshot}
+        self.damage, self.critical_strike, self.critical_damage, self.expected_damage = evaluate_dot(dot, variables)
 
         layout.addWidget(LabelRow("Name:", QLabel(dot.name)))
         layout.addWidget(LabelRow("Dot ID:", QLabel(str(dot.dot_id))))
@@ -138,7 +136,8 @@ class DotDamageDialog(QDialog):
         layout.addWidget(LabelRow("Count:", QLabel(str(dot.count))))
         self.target_level = ComboBox()
         layout.addWidget(LabelRow("Target Level:", self.target_level))
-        layout.addWidget(LabelRow("Critical Strike:", QLabel(f"{round(self.critical_strike * 100, 2)}%")))
+        self.critical_strike_label = QLabel("")
+        layout.addWidget(LabelRow("Critical Strike:", self.critical_strike_label))
         self.damage_label = QLabel("")
         layout.addWidget(LabelRow("Hit Damage:", self.damage_label))
         self.critical_damage_label = QLabel("")
@@ -153,9 +152,12 @@ class DotDamageDialog(QDialog):
         if not level:
             return
         level = int(level)
-        damage = int(self.damage.evaluate({"target_level": level, "shield_base": SHIELD_BASE_MAP[level]}))
+        variables = LEVEL_VARIABLES(level)
+        critical_strike = self.critical_strike.evaluate(variables)
+        self.critical_strike_label.setText(f"{round(critical_strike * 100, 2)}%")
+        damage = int(self.damage.evaluate(variables))
         self.damage_label.setText(str(damage))
-        critical_damage = int(self.critical_damage.evaluate({"damage": damage}))
+        critical_damage = int(self.critical_damage.evaluate(variables))
         self.critical_damage_label.setText(str(critical_damage))
-        expected_damage = int(damage * (1 - self.critical_strike) + critical_damage * self.critical_strike)
+        expected_damage = int(self.expected_damage.evaluate(variables))
         self.expected_damage_label.setText(str(expected_damage))

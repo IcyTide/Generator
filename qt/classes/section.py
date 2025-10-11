@@ -8,6 +8,7 @@ from qt.classes.record import Record
 class Section:
     name: str = "New Section"
     count: int = 1
+    duration: float = 0.
 
     records: List[Record] = None
 
@@ -16,20 +17,21 @@ class Section:
             self.records = [Record()]
 
     def __iter__(self):
-        for attr in ("name", "count"):
+        for attr in ("name", "count", "duration"):
             yield str(getattr(self, attr))
 
     @property
     def is_empty(self):
         for record in self.records:
             if not record.is_empty:
-                return True
-        return False
+                return False
+        return True
 
     def to_dict(self):
         return dict(
             name=self.name,
             count=self.count,
+            duration=self.duration,
             records=[record.to_dict() for record in self.records]
         )
 
@@ -38,6 +40,7 @@ class Section:
         section = cls(
             json["name"],
             json["count"],
+            json["duration"],
             [Record.from_dict(kungfu_id, record) for record in json["records"]]
         )
         return section
@@ -73,8 +76,8 @@ class Sections:
     def is_empty(self):
         for section in self.sections:
             if not section.is_empty:
-                return True
-        return False
+                return False
+        return True
 
     def to_dict(self):
         return [section.to_dict() for section in self.sections]

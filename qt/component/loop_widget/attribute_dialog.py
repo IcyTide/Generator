@@ -2,10 +2,7 @@ from PySide6.QtWidgets import QDialog, QLabel, QToolBox, QVBoxLayout, QWidget
 
 from qt import LabelRow
 from qt.classes.attribute import Attribute
-
-
-def percent(num):
-    return round(num * 100, 2)
+from qt.utils import percent
 
 
 class AttributeDialog(QDialog):
@@ -37,7 +34,7 @@ class AttributeDialog(QDialog):
 
     @staticmethod
     def display_attribute(layout: QVBoxLayout, attribute: Attribute):
-        major = f"{attribute[f"{attribute.major}_base"]}/{attribute[attribute.major]}"
+        major = f"{attribute.major_base}/{attribute.major}"
         layout.addWidget(LabelRow("Major:", QLabel(major)))
         attack_power = f"{attribute.base_attack_power}/{attribute.attack_power}"
         layout.addWidget(LabelRow("AttackPower:", QLabel(attack_power)))

@@ -35,6 +35,9 @@ SHIELD_BASE_MAP = {
     132: 46901,
     131: 33338
 }
+SHIELD_CONSTANT_MAP = {
+    level: SHIELD_SCALE * (LEVEL_SCALE * level - LEVEL_CONSTANT) for level in SHIELD_BASE_MAP
+}
 
 BASE_MAJOR = 44
 BASE_CRITICAL_POWER = 1792
@@ -131,34 +134,59 @@ MAX_TALENT_COUNT = 7
 MAX_TALENT_IN_POOL = 3
 MAX_RECIPE = 4
 
-MAJORS = dict(
-    力道="strength",
-    身法="agility",
-    元气="spunk",
-    根骨="spirit"
-)
-CURRENT_VARIABLE_TEMPLATE = ["{}_overcome"]
-SNAPSHOT_VARIABLE_TEMPLATE = [
-    "base_{}_attack_power", "{}_attack_power_gain", "extra_{}_attack_power",
-    "{}_critical_strike_percent", "{}_critical_strike_rate",
-    "{}_critical_power_percent", "{}_critical_power_rate"
+MAJOR_TYPES = {
+    "力道": "strength",
+    "身法": "agility",
+    "元气": "spunk",
+    "根骨": "spirit"
+}
+CURRENT_VARIABLE_TEMPLATES = [
+    "{}_overcome"
 ]
-TARGET_VARIABLE_TEMPLATE = [
+SNAPSHOT_VARIABLE_TEMPLATES = [
+    "base_{}_attack_power", "{}_attack_power",
+   # "{}_attack_power_gain", "extra_{}_attack_power", # need_int required
+    "{}_critical_strike",
+    "{}_critical_power"
+]
+TARGET_VARIABLE_TEMPLATES = [
     "{}_shield_base", "{}_shield_gain",
     "{}_damage_cof"
 ]
-CURRENT_VARIABLE = [
+CURRENT_VARIABLES = [
     "surplus",
     "weapon_damage", "weapon_damage_rand",
     "all_shield_ignore",
 ]
-SNAPSHOT_VARIABLE = [
+SNAPSHOT_VARIABLES = [
     "strain",
-    "pve_addition_base",
     "physical_damage_addition", "magical_damage_addition"
+    "skill_damage_cof",
+    "pve_addition_base",
+]
+TARGET_VARIABLES = [
+    "level",
+    "shield_constant"
 ]
 EXTRA_VARIABLES = {
     "rand": 0.5,
     "damage": Variable("damage"),
-    "target_level": Variable("target_level")
 }
+GRAD_VARIABLES = {
+    "major_base": 308,
+    "physical_attack_power_base": 652,
+    "magical_attack_power_base": 728,
+    "weapon_damage_base": 984,
+    "surplus_base": 2401,
+    "strain_base": 2401,
+    "overcome_base": 2401,
+    "critical_strike_base": 2401,
+    "critical_power_base": 2401
+}
+
+def LEVEL_VARIABLES(level):
+    return {
+        "level": level,
+        "shield_base": SHIELD_BASE_MAP[level],
+        "shield_constant": SHIELD_CONSTANT_MAP[level]
+    }

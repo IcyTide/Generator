@@ -1,7 +1,15 @@
+from typing import TYPE_CHECKING
+
 from base.constant import *
-from base.damage import DamageChain
 from base.expression import Expression, Int, Variable
 from tools.lua.enums import SKILL_KIND_TYPE
+
+if TYPE_CHECKING:
+    from tools.classes.damage import DamageChain  # noqa
+
+
+class BaseType:
+    need_int: bool = True
 
 
 class DamageAdd:
@@ -34,124 +42,153 @@ class DamageAdd:
 
     move_state_damage_addition: int = 0
 
+    skill_damage_final_cof: Expression = Variable("skill_damage_final_cof")
 
-class AttackPower:
-    base_physical_attack_power: Expression = Variable('base_physical_attack_power')
-    base_solar_attack_power: Expression = Variable('base_solar_attack_power')
-    base_lunar_attack_power: Expression = Variable('base_lunar_attack_power')
-    base_neutral_attack_power: Expression = Variable('base_neutral_attack_power')
-    base_poison_attack_power: Expression = Variable('base_poison_attack_power')
 
-    physical_attack_power_gain: Expression = Variable('physical_attack_power_gain')
-    solar_attack_power_gain: Expression = Variable('solar_attack_power_gain')
-    lunar_attack_power_gain: Expression = Variable('lunar_attack_power_gain')
-    neutral_attack_power_gain: Expression = Variable('neutral_attack_power_gain')
-    poison_attack_power_gain: Expression = Variable('poison_attack_power_gain')
+class AttackPower(BaseType):
+    base_physical_attack_power: Expression = Variable("base_physical_attack_power")
+    base_solar_attack_power: Expression = Variable("base_solar_attack_power")
+    base_lunar_attack_power: Expression = Variable("base_lunar_attack_power")
+    base_neutral_attack_power: Expression = Variable("base_neutral_attack_power")
+    base_poison_attack_power: Expression = Variable("base_poison_attack_power")
 
-    extra_physical_attack_power: Expression = Variable('extra_physical_attack_power')
-    extra_solar_attack_power: Expression = Variable('extra_solar_attack_power')
-    extra_lunar_attack_power: Expression = Variable('extra_lunar_attack_power')
-    extra_neutral_attack_power: Expression = Variable('extra_neutral_attack_power')
-    extra_poison_attack_power: Expression = Variable('extra_poison_attack_power')
+    physical_attack_power_gain: int = 0
+    solar_attack_power_gain: int = 0
+    lunar_attack_power_gain: int = 0
+    neutral_attack_power_gain: int = 0
+    poison_attack_power_gain: int = 0
 
     @property
     def physical_attack_power(self) -> Expression:
-        attack_power = Int(self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE))
-        return attack_power + self.extra_physical_attack_power
+        if self.need_int:
+            physical_attack_power_gain = Variable("physical_attack_power_gain") + self.physical_attack_power_gain
+            attack_power = Int(self.base_physical_attack_power * (1 + physical_attack_power_gain / BINARY_SCALE))
+            extra_physical_attack_power = Variable("extra_physical_attack_power")
+            attack_power += extra_physical_attack_power
+        else:
+            attack_power = Variable("physical_attack_power")
+            attack_power += self.physical_attack_power_gain * self.base_physical_attack_power
+        return attack_power
 
     @property
     def solar_attack_power(self) -> Expression:
-        attack_power = Int(self.base_solar_attack_power * (1 + self.solar_attack_power_gain / BINARY_SCALE))
-        return attack_power + self.extra_solar_attack_power
+        if self.need_int:
+            solar_attack_power_gain = Variable("solar_attack_power_gain") + self.solar_attack_power_gain
+            attack_power = Int(self.base_solar_attack_power * (1 + solar_attack_power_gain / BINARY_SCALE))
+            extra_solar_attack_power = Variable("extra_solar_attack_power")
+            attack_power += extra_solar_attack_power
+        else:
+            attack_power = Variable("solar_attack_power")
+            attack_power += self.solar_attack_power_gain * self.base_solar_attack_power
+        return attack_power
 
     @property
     def lunar_attack_power(self) -> Expression:
-        attack_power = Int(self.base_lunar_attack_power * (1 + self.lunar_attack_power_gain / BINARY_SCALE))
-        return attack_power + self.extra_lunar_attack_power
+        if self.need_int:
+            lunar_attack_power_gain = Variable("lunar_attack_power_gain") + self.lunar_attack_power_gain
+            attack_power = Int(self.base_lunar_attack_power * (1 + lunar_attack_power_gain / BINARY_SCALE))
+            extra_lunar_attack_power = Variable("extra_lunar_attack_power")
+            attack_power += extra_lunar_attack_power
+        else:
+            attack_power = Variable("lunar_attack_power")
+            attack_power += self.lunar_attack_power_gain * self.base_lunar_attack_power
+        return attack_power
 
     @property
     def neutral_attack_power(self) -> Expression:
-        attack_power = Int(self.base_neutral_attack_power * (1 + self.neutral_attack_power_gain / BINARY_SCALE))
-        return attack_power + self.extra_neutral_attack_power
+        if self.need_int:
+            neutral_attack_power_gain = Variable("neutral_attack_power_gain") + self.neutral_attack_power_gain
+            attack_power = Int(self.base_neutral_attack_power * (1 + neutral_attack_power_gain / BINARY_SCALE))
+            extra_neutral_attack_power = Variable("extra_neutral_attack_power")
+            attack_power += extra_neutral_attack_power
+        else:
+            attack_power = Variable("neutral_attack_power")
+            attack_power += self.neutral_attack_power_gain * self.base_neutral_attack_power
+        return attack_power
 
     @property
     def poison_attack_power(self) -> Expression:
-        attack_power = Int(self.base_poison_attack_power * (1 + self.poison_attack_power_gain / BINARY_SCALE))
-        return attack_power + self.extra_poison_attack_power
+        if self.need_int:
+            poison_attack_power_gain = Variable("poison_attack_power_gain") + self.poison_attack_power_gain
+            attack_power = Int(self.base_poison_attack_power * (1 + poison_attack_power_gain / BINARY_SCALE))
+            extra_poison_attack_power = Variable("extra_poison_attack_power")
+            attack_power += extra_poison_attack_power
+        else:
+            attack_power = Variable("poison_attack_power")
+            attack_power += self.poison_attack_power_gain * self.base_poison_attack_power
+        return attack_power
 
 
 class CriticalPower:
-    physical_critical_power_percent: Expression = Variable('physical_critical_power_percent')
-    solar_critical_power_percent: Expression = Variable('solar_critical_power_percent')
-    lunar_critical_power_percent: Expression = Variable('lunar_critical_power_percent')
-    neutral_critical_power_percent: Expression = Variable('neutral_critical_power_percent')
-    poison_critical_power_percent: Expression = Variable('poison_critical_power_percent')
-
-    physical_critical_power_rate: Expression = Variable('physical_critical_power_rate')
-    solar_critical_power_rate: Expression = Variable('solar_critical_power_rate')
-    lunar_critical_power_rate: Expression = Variable('lunar_critical_power_rate')
-    neutral_critical_power_rate: Expression = Variable('neutral_critical_power_rate')
-    poison_critical_power_rate: Expression = Variable('poison_critical_power_rate')
+    physical_critical_power_rate: int = 0
+    solar_critical_power_rate: int = 0
+    lunar_critical_power_rate: int = 0
+    neutral_critical_power_rate: int = 0
+    poison_critical_power_rate: int = 0
 
     magical_critical_power_rate: int = 0
 
     @property
     def physical_critical_power(self):
-        return self.physical_critical_power_percent + self.physical_critical_power_rate / BINARY_SCALE
+        physical_critical_power = Variable("physical_critical_power")
+        return physical_critical_power + self.physical_critical_power_rate / BINARY_SCALE
 
     @property
     def solar_critical_power(self):
+        solar_critical_power = Variable("solar_critical_power")
         critical_power_rate = self.solar_critical_power_rate + self.magical_critical_power_rate
-        return self.solar_critical_power_percent + critical_power_rate / BINARY_SCALE
+        return solar_critical_power + critical_power_rate / BINARY_SCALE
 
     @property
     def lunar_critical_power(self):
+        lunar_critical_power = Variable("lunar_critical_power")
         critical_power_rate = self.lunar_critical_power_rate + self.magical_critical_power_rate
-        return self.lunar_critical_power_percent + critical_power_rate / BINARY_SCALE
+        return lunar_critical_power + critical_power_rate / BINARY_SCALE
 
     @property
     def neutral_critical_power(self):
+        neutral_critical_power = Variable("neutral_critical_power")
         critical_power_rate = self.neutral_critical_power_rate + self.magical_critical_power_rate
-        return self.neutral_critical_power_percent + critical_power_rate / BINARY_SCALE
+        return neutral_critical_power + critical_power_rate / BINARY_SCALE
 
     @property
     def poison_critical_power(self):
+        poison_critical_power = Variable("poison_critical_power")
         critical_power_rate = self.poison_critical_power_rate + self.magical_critical_power_rate
-        return self.poison_critical_power_percent + critical_power_rate / BINARY_SCALE
+        return poison_critical_power + critical_power_rate / BINARY_SCALE
 
 
 class CriticalStrike(CriticalPower):
-    physical_critical_strike_percent: Expression = Variable('physical_critical_strike_percent')
-    solar_critical_strike_percent: Expression = Variable('solar_critical_strike_percent')
-    lunar_critical_strike_percent: Expression = Variable('lunar_critical_strike_percent')
-    neutral_critical_strike_percent: Expression = Variable('neutral_critical_strike_percent')
-    poison_critical_strike_percent: Expression = Variable('poison_critical_strike_percent')
-
-    physical_critical_strike_rate: Expression = Variable('physical_critical_strike_rate')
-    solar_critical_strike_rate: Expression = Variable('solar_critical_strike_rate')
-    lunar_critical_strike_rate: Expression = Variable('lunar_critical_strike_rate')
-    neutral_critical_strike_rate: Expression = Variable('neutral_critical_strike_rate')
-    poison_critical_strike_rate: Expression = Variable('poison_critical_strike_rate')
+    physical_critical_strike_rate: int = 0
+    solar_critical_strike_rate: int = 0
+    lunar_critical_strike_rate: int = 0
+    neutral_critical_strike_rate: int = 0
+    poison_critical_strike_rate: int = 0
 
     @property
     def physical_critical_strike(self):
-        return self.physical_critical_strike_percent + self.physical_critical_strike_rate / DECIMAL_SCALE
+        physical_critical_strike = Variable("physical_critical_strike")
+        return physical_critical_strike + self.physical_critical_strike_rate / DECIMAL_SCALE
 
     @property
     def solar_critical_strike(self):
-        return self.solar_critical_strike_percent + self.solar_critical_strike_rate / DECIMAL_SCALE
+        solar_critical_strike = Variable("solar_critical_strike")
+        return solar_critical_strike + self.solar_critical_strike_rate / DECIMAL_SCALE
 
     @property
     def lunar_critical_strike(self):
-        return self.lunar_critical_strike_percent + self.lunar_critical_strike_rate / DECIMAL_SCALE
+        lunar_critical_strike = Variable("lunar_critical_strike")
+        return lunar_critical_strike + self.lunar_critical_strike_rate / DECIMAL_SCALE
 
     @property
     def neutral_critical_strike(self):
-        return self.neutral_critical_strike_percent + self.neutral_critical_strike_rate / DECIMAL_SCALE
+        neutral_critical_strike = Variable("neutral_critical_strike")
+        return neutral_critical_strike + self.neutral_critical_strike_rate / DECIMAL_SCALE
 
     @property
     def poison_critical_strike(self):
-        return self.poison_critical_strike_percent + self.poison_critical_strike_rate / DECIMAL_SCALE
+        poison_critical_strike = Variable("poison_critical_strike")
+        return poison_critical_strike + self.poison_critical_strike_rate / DECIMAL_SCALE
 
     def critical_strike(self, kind_type: SKILL_KIND_TYPE):
         return getattr(self, kind_type.value + "_critical_strike")
@@ -181,7 +218,7 @@ class Minor:
     pve_addition_base: Expression = Variable('pve_addition_base')
 
 
-class Defense:
+class Defense(BaseType):
     physical_shield_base: Expression = Variable('physical_shield_base')
     solar_shield_base: Expression = Variable('solar_shield_base')
     lunar_shield_base: Expression = Variable('lunar_shield_base')
@@ -196,23 +233,38 @@ class Defense:
 
     @property
     def physical_shield(self):
-        return Int(self.physical_shield_base * (1 + self.physical_shield_gain / BINARY_SCALE))
+        physical_shield = self.physical_shield_base * (1 + self.physical_shield_gain / BINARY_SCALE)
+        if self.need_int:
+            physical_shield = Int(physical_shield)
+        return physical_shield
 
     @property
     def solar_shield(self):
-        return Int(self.solar_shield_base * (1 + self.solar_shield_gain / BINARY_SCALE))
+        solar_shield = self.solar_shield_base * (1 + self.solar_shield_gain / BINARY_SCALE)
+        if self.need_int:
+            solar_shield = Int(solar_shield)
+        return solar_shield
 
     @property
     def lunar_shield(self):
-        return Int(self.lunar_shield_base * (1 + self.lunar_shield_gain / BINARY_SCALE))
+        lunar_shield = self.lunar_shield_base * (1 + self.lunar_shield_gain / BINARY_SCALE)
+        if self.need_int:
+            lunar_shield = Int(lunar_shield)
+        return lunar_shield
 
     @property
     def neutral_shield(self):
-        return Int(self.neutral_shield_base * (1 + self.neutral_shield_gain / BINARY_SCALE))
+        neutral_shield = self.neutral_shield_base * (1 + self.neutral_shield_gain / BINARY_SCALE)
+        if self.need_int:
+            neutral_shield = Int(neutral_shield)
+        return neutral_shield
 
     @property
     def poison_shield(self):
-        return Int(self.poison_shield_base * (1 + self.poison_shield_gain / BINARY_SCALE))
+        poison_shield = self.poison_shield_base * (1 + self.poison_shield_gain / BINARY_SCALE)
+        if self.need_int:
+            poison_shield = Int(poison_shield)
+        return poison_shield
 
 
 class DamageCof:
@@ -226,9 +278,9 @@ class DamageCof:
 
 
 class Target(Defense, DamageCof):
-    damage_chain: DamageChain
+    damage_chain: "DamageChain"
 
-    level: Expression = Variable('target_level')
+    level: Expression = Variable('level')
     global_damage_factor: int = 0
 
     def call_physical_damage(self, damage_base, damage_rand):

@@ -2,7 +2,7 @@ from pathlib import Path
 
 from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, \
     PHYSICAL_DAMAGE_SCALE
-from base.damage import DamageChain
+from tools.classes.damage import DamageChain
 from base.expression import Expression, Int
 from kungfus import SKILL_PATCHES
 from tools.classes import AliasBase
@@ -165,6 +165,7 @@ class Skill(AliasBase):
     def formula(self):
         source, target = Attribute(), Target()
         damage_chain = target.damage_chain = DamageChain(source, target, self)
+        source.need_int = target.need_int = damage_chain.need_int
         for attr, param in self.self_rollback_attributes:
             source[attr] += param
         for attr, param in self.dest_rollback_attributes:

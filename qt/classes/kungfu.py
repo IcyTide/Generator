@@ -1,9 +1,10 @@
+from assets.raw.belongs import BELONGS
 from assets.raw.buffs import BUFFS
 from assets.raw.dots import DOTS
 from assets.raw.recipes import RECIPES
 from assets.raw.skills import SKILLS
-from assets.raw.belongs import BELONGS
-from base.constant import MAJORS
+from base.constant import GRAD_VARIABLES, MAJOR_TYPES
+from base.expression import Variable
 from qt.classes.attribute import Attribute, Target
 
 
@@ -58,13 +59,11 @@ class Kungfu:
 
     def create_attribute(self) -> Attribute:
         attributes, recipes, gains = self.attributes
-        attribute = Attribute()
-        attribute.major = MAJORS[self.major]
-        attribute.damage_type = self.attribute["damage_type"]
-        attribute.critical_type = self.attribute["critical_type"]
+        attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])
         for k, v in attributes.items():
             attribute[k] += v
         attribute.recipes += recipes
+        attribute.require_grad()
         return attribute
 
     @property
