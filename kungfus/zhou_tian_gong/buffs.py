@@ -1,1 +1,3 @@
-BUFFS: dict[int, list[int]] = {}
+BUFFS: dict[int, list[int]] = {
+    10786: [29604]
+}

@@ -6,7 +6,14 @@ SKILLS = {
     },
     38438: dict(comment="{level-1}点任脉能量"),
     37804: dict(comment="{}"),
-    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([38016, 38075, 38076, 38077])},
+    38016: dict(comment="1段"),
+    **{
+        skill_id: {
+            1: dict(comment=f"{i + 2}段"),
+            2: dict(comment=f"滃从{i + 2}段"),
+        }
+        for i, skill_id in enumerate([38075, 38076, 38077])
+    },
     38886: dict(comment="2段"),
     38982: dict(comment="1段"), 38983: dict(comment="2段"),
     38554: dict(comment="连续释放{level-1}次")

@@ -12,13 +12,13 @@ recipe_mobile_settings = read_tab("settings/skill_mobile/recipeskill.tab")
 recipe_settings["Path"], recipe_mobile_settings["Path"] = "skill", "skill_mobile"
 recipe_settings = pd.concat([recipe_settings, recipe_mobile_settings])
 
-# weapon_settings = read_tab("settings/item/Custom_Weapon.tab")
-# armor_settings = read_tab("settings/item/Custom_Armor.tab")
-# trinket_settings = read_tab("settings/item/Custom_Trinket.tab")
-# enchant_settings = read_tab("settings/item/Enchant.tab")
-# attrib_settings = read_tab("settings/item/Attrib.tab")
-# set_settings = read_tab("settings/item/Set.tab")
-# item_settings = read_tab("ui/scheme/case/Item.txt")
+weapon_settings = read_tab("settings/item/Custom_Weapon.tab")
+armor_settings = read_tab("settings/item/Custom_Armor.tab")
+trinket_settings = read_tab("settings/item/Custom_Trinket.tab")
+enchant_settings = read_tab("settings/item/Enchant.tab")
+attrib_settings = read_tab("settings/item/Attrib.tab")
+set_settings = read_tab("settings/item/Set.tab")
+item_settings = read_tab("ui/scheme/case/Item.txt")
 
 skill_event_settings = read_tab("settings/skill/skillevent.tab")
 

@@ -1,1 +1,5 @@
-RECIPES: list[tuple[int, int]] = []
+RECIPES: list[tuple[int, int]] = [
+    (6102, 1), (6103, 1),
+    (6106, 1), (6107, 1),
+    (6108, 1)
+]

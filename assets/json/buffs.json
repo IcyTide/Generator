@@ -336,8 +336,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "solar_critical_strike_rate": 500,
-                    "solar_critical_power_rate": 52
+                    "solar_critical_strike_rate": 1000,
+                    "solar_critical_power_rate": 102
                 },
                 "buff_key": "buff_21859_1"
             }
@@ -743,6 +743,18 @@
                 "buff_key": "buff_31669_5"
             }
         },
+        "6103": {
+            "1": {
+                "name": "有涯",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 205
+                },
+                "buff_key": "buff_6103_1"
+            }
+        },
         "17918": {
             "1": {
                 "name": "破势",
@@ -948,6 +960,18 @@
                     "physical_critical_strike_rate": 200
                 },
                 "buff_key": "buff_27045_1"
+            }
+        },
+        "6093": {
+            "1": {
+                "name": "负阴",
+                "interval": 48,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 51
+                },
+                "buff_key": "buff_6093_1"
             }
         },
         "17933": {
@@ -1624,7 +1648,7 @@
         "25902": {
             "1": {
                 "name": "流玉",
-                "interval": 128,
+                "interval": 160,
                 "max_stack": 2,
                 "max_tick": 1,
                 "recipes": [
@@ -1640,7 +1664,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "lunar_critical_power_rate": 154,
+                    "lunar_critical_power_rate": 205,
                     "lunar_critical_strike_rate": 500
                 },
                 "buff_key": "buff_25435_2"
@@ -1853,7 +1877,7 @@
                 "attributes": {
                     "physical_critical_strike_rate": 2000,
                     "physical_attack_power_gain": 154,
-                    "strain_gain": 307
+                    "strain_gain": 410
                 },
                 "buff_key": "buff_1728_5"
             },
@@ -1865,7 +1889,7 @@
                 "max_tick": 8,
                 "attributes": {
                     "physical_critical_strike_rate": 2000,
-                    "strain_gain": 307
+                    "strain_gain": 410
                 },
                 "buff_key": "buff_1728_6"
             },
@@ -1877,7 +1901,7 @@
                 "max_tick": 8,
                 "attributes": {
                     "physical_critical_strike_rate": 1000,
-                    "physical_critical_power_rate": 256
+                    "all_critical_power_rate": 256
                 },
                 "buff_key": "buff_1728_7"
             },
@@ -1889,7 +1913,7 @@
                 "max_tick": 8,
                 "attributes": {
                     "physical_critical_strike_rate": 1000,
-                    "physical_critical_power_rate": 256,
+                    "all_critical_power_rate": 256,
                     "physical_attack_power_gain": 154
                 },
                 "buff_key": "buff_1728_8"
@@ -2573,7 +2597,8 @@
                     3401,
                     3404,
                     31026,
-                    31027
+                    31027,
+                    26900
                 ],
                 "buff_key": "buff_29361_1"
             }
@@ -2849,6 +2874,18 @@
                 ],
                 "buff_key": "buff_30473_1"
             }
+        },
+        "5994": {
+            "4": {
+                "name": "越渊",
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 512,
+                    "pve_addition_base": 61
+                },
+                "buff_key": "buff_5994_4"
+            }
         }
     },
     "10390": {
@@ -3081,9 +3118,9 @@
         "31477": {
             "1": {
                 "name": "鹿鸣",
-                "interval": 8,
+                "interval": 640,
                 "max_stack": 1,
-                "max_tick": 40,
+                "max_tick": 1,
                 "attributes": {
                     "magical_critical_power_rate": 205
                 },
@@ -3345,7 +3382,7 @@
                 "name": "风驰",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 10,
+                "max_tick": 15,
                 "recipes": [
                     "recipe_5992_1"
                 ],
@@ -3355,7 +3392,7 @@
                 "name": "风驰",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 10,
+                "max_tick": 15,
                 "recipes": [
                     "recipe_5993_1"
                 ],
@@ -3365,7 +3402,7 @@
                 "name": "风驰",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 10,
+                "max_tick": 15,
                 "recipes": [
                     "recipe_5994_1"
                 ],
@@ -3379,8 +3416,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_attack_power_gain": 205,
-                    "strain_gain": 102
+                    "physical_attack_power_gain": 205
                 },
                 "buff_key": "buff_14083_2"
             }
@@ -3810,7 +3846,7 @@
                 "name": "明灯",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 10,
+                "max_tick": 12,
                 "attributes": {
                     "magical_critical_power_rate": 205
                 },
@@ -4091,18 +4127,6 @@
         }
     },
     "10756": {
-        "27543": {
-            "3": {
-                "name": "金乌回首",
-                "interval": 128,
-                "max_stack": 1,
-                "max_tick": 1,
-                "recipes": [
-                    "recipe_5755_1"
-                ],
-                "buff_key": "buff_27543_3"
-            }
-        },
         "26857": {
             "1": {
                 "name": "承契",
@@ -4179,6 +4203,18 @@
                 },
                 "buff_key": "buff_27133_1"
             }
+        },
+        "32136": {
+            "1": {
+                "name": "随袭",
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 500,
+                    "physical_critical_power_rate": 51
+                },
+                "buff_key": "buff_32136_1"
+            }
         }
     },
     "10698": {
@@ -4243,7 +4279,7 @@
                 "max_stack": 1,
                 "max_tick": 6,
                 "attributes": {
-                    "physical_attack_power_gain": 512
+                    "physical_attack_power_gain": 614
                 },
                 "buff_key": "buff_24236_1"
             }
@@ -4352,6 +4388,46 @@
         }
     },
     "10786": {
+        "29604": {
+            "2": {
+                "name": "伏龙阳焰",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "coming_damage_cof": 409.6
+                },
+                "skills": [
+                    38438
+                ],
+                "buff_key": "buff_29604_2"
+            }
+        },
+        "29243": {
+            "1": {
+                "name": "玉枕",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 410
+                },
+                "buff_key": "buff_29243_1"
+            }
+        },
+        "30487": {
+            "1": {
+                "name": "玉枕",
+                "comment": "额外",
+                "interval": 1,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 5
+                },
+                "buff_key": "buff_30487_1"
+            }
+        },
         "29205": {
             "1": {
                 "name": "封枢",
@@ -4380,16 +4456,16 @@
                 "buff_key": "buff_29254_1"
             }
         },
-        "29243": {
+        "30667": {
             "1": {
-                "name": "玉枕",
+                "name": "滃从",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1,
+                "max_tick": 6,
                 "attributes": {
-                    "all_shield_ignore": 410
+                    "all_damage_addition": 82
                 },
-                "buff_key": "buff_29243_1"
+                "buff_key": "buff_30667_1"
             }
         }
     },
@@ -4467,6 +4543,21 @@
                     42381
                 ],
                 "buff_key": "buff_31673_1"
+            }
+        },
+        "31590": {
+            "1": {
+                "name": "悬微",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 6,
+                "attributes": {
+                    "coming_damage_cof": 157
+                },
+                "skills": [
+                    42098
+                ],
+                "buff_key": "buff_31590_1"
             }
         },
         "31882": {

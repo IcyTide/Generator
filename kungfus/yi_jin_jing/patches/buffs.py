@@ -14,6 +14,10 @@ BUFFS: dict[int, dict] = {
         0.5: dict(comment="原始"),
         0: dict(comment="我闻")
     },
+    32142: {
+        0.5: dict(comment="原始"),
+        0: dict(comment="我闻")
+    },
     12590: dict(name="三生", comment="{}"),
     29547: dict(name="华香"),
     11979: dict(comment="金刚怒目"),

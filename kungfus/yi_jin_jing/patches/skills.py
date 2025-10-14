@@ -11,6 +11,10 @@ SKILLS = {
         0.5: dict(comment="原始"),
         0: dict(comment="我闻")
     },
+    43073: {
+        0.5: dict(comment="原始"),
+        0: dict(comment="我闻")
+    },
     **{skill_id: dict(comment=f"{i + 1}豆") for i, skill_id in enumerate([3849, 3850, 3848])},
     **{skill_id: dict(comment=f"原始{i + 1}豆") for i, skill_id in enumerate([13682, 13684, 13686])},
     28539: {

@@ -3094,6 +3094,94 @@ EQUIPMENTS = {
                 }
             }
         },
+        "无相": {
+            "内功": {
+                "天极·云胜护手_测试用#106700 (35300 破招 无双)": {
+                    "id": 106700,
+                    "name": "天极·云胜护手_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 6494,
+                    "icon_id": 4614,
+                    "base": {
+                        "physical_shield_base": 809,
+                        "magical_shield_base": 1011
+                    },
+                    "magic": {
+                        "vitality_base": 13566,
+                        "spirit_base": 1107,
+                        "lunar_attack_power_base": 2795,
+                        "surplus_base": 9249,
+                        "strain_base": 7400
+                    },
+                    "embed": {
+                        "lunar_overcome_base": 321,
+                        "surplus_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                },
+                "天极·独明护手_测试用#108608 (30200 破招 无双)": {
+                    "id": 108608,
+                    "name": "天极·独明护手_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 6451,
+                    "icon_id": 4614,
+                    "base": {
+                        "physical_shield_base": 692,
+                        "magical_shield_base": 865
+                    },
+                    "magic": {
+                        "vitality_base": 11606,
+                        "spirit_base": 947,
+                        "lunar_attack_power_base": 2391,
+                        "surplus_base": 7913,
+                        "strain_base": 6330
+                    },
+                    "embed": {
+                        "lunar_overcome_base": 321,
+                        "surplus_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
         "段氏": {
             "内功": {
                 "天极·云胜护手_测试用#106699 (35300 破招 无双)": {
@@ -6271,7 +6359,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_5"
+                        "gain_38939_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6301,7 +6389,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6330,7 +6418,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6360,7 +6448,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_5"
+                        "gain_38939_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6390,7 +6478,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6419,7 +6507,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6449,7 +6537,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38939_6"
+                        "gain_38944_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6478,7 +6566,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6506,7 +6594,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6536,7 +6624,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38939_6"
+                        "gain_38944_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6565,7 +6653,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6593,7 +6681,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6803,7 +6891,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_5"
+                        "gain_38939_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6833,7 +6921,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6862,7 +6950,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6892,7 +6980,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_5"
+                        "gain_38939_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6922,7 +7010,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6951,7 +7039,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_5"
+                        "gain_38944_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -6981,7 +7069,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38939_6"
+                        "gain_38944_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -7010,7 +7098,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -7038,7 +7126,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -7068,7 +7156,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38939_6"
+                        "gain_38944_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -7097,7 +7185,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -7125,7 +7213,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38944_6"
+                        "gain_38939_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -7307,6 +7395,94 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                }
+            }
+        },
+        "无相": {
+            "内功": {
+                "天极·云胜靴_测试用#106764 (35300 破防 无双)": {
+                    "id": 106764,
+                    "name": "天极·云胜靴_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 6494,
+                    "icon_id": 4618,
+                    "base": {
+                        "physical_shield_base": 578,
+                        "magical_shield_base": 722
+                    },
+                    "magic": {
+                        "vitality_base": 13566,
+                        "spirit_base": 1107,
+                        "lunar_attack_power_base": 2795,
+                        "lunar_overcome_base": 9249,
+                        "strain_base": 7400
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                },
+                "天极·独明靴_测试用#108610 (30200 破防 无双)": {
+                    "id": 108610,
+                    "name": "天极·独明靴_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 6451,
+                    "icon_id": 4618,
+                    "base": {
+                        "physical_shield_base": 494,
+                        "magical_shield_base": 618
+                    },
+                    "magic": {
+                        "vitality_base": 11606,
+                        "spirit_base": 947,
+                        "lunar_attack_power_base": 2391,
+                        "lunar_overcome_base": 7913,
+                        "strain_base": 6330
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -15382,6 +15558,94 @@ EQUIPMENTS = {
                 }
             }
         },
+        "无相": {
+            "内功": {
+                "天极·云胜腰带_测试用#106732 (35300 会心 无双)": {
+                    "id": 106732,
+                    "name": "天极·云胜腰带_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 6494,
+                    "icon_id": 4616,
+                    "base": {
+                        "physical_shield_base": 578,
+                        "magical_shield_base": 722
+                    },
+                    "magic": {
+                        "vitality_base": 13566,
+                        "spirit_base": 1107,
+                        "lunar_attack_power_base": 2795,
+                        "lunar_critical_strike_base": 9249,
+                        "strain_base": 7400
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "lunar_attack_power_base": 97
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                },
+                "天极·独明腰带_测试用#108609 (30200 会心 无双)": {
+                    "id": 108609,
+                    "name": "天极·独明腰带_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 6451,
+                    "icon_id": 4616,
+                    "base": {
+                        "physical_shield_base": 494,
+                        "magical_shield_base": 618
+                    },
+                    "magic": {
+                        "vitality_base": 11606,
+                        "spirit_base": 947,
+                        "lunar_attack_power_base": 2391,
+                        "lunar_critical_strike_base": 7913,
+                        "strain_base": 6330
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "lunar_attack_power_base": 97
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
         "段氏": {
             "内功": {
                 "天极·云胜腰带_测试用#106731 (35300 会心 无双)": {
@@ -18783,7 +19047,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18813,7 +19077,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18842,7 +19106,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18872,7 +19136,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18902,7 +19166,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18931,7 +19195,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18961,7 +19225,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -18990,7 +19254,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19018,7 +19282,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19048,7 +19312,7 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 87
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19077,7 +19341,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19105,7 +19369,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19315,7 +19579,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19345,7 +19609,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19374,7 +19638,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19404,7 +19668,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19434,7 +19698,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19463,7 +19727,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38946_5"
+                        "gain_38934_6"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19493,7 +19757,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19522,7 +19786,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19550,7 +19814,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19580,7 +19844,7 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 97
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19609,7 +19873,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19637,7 +19901,7 @@ EQUIPMENTS = {
                         "strain_base": 321
                     },
                     "gains": [
-                        "gain_38934_6"
+                        "gain_38934_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -19819,6 +20083,94 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                }
+            }
+        },
+        "无相": {
+            "内功": {
+                "天极·云胜冠_测试用#106796 (35300 破防 无双)": {
+                    "id": 106796,
+                    "name": "天极·云胜冠_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 6494,
+                    "icon_id": 4613,
+                    "base": {
+                        "physical_shield_base": 924,
+                        "magical_shield_base": 1155
+                    },
+                    "magic": {
+                        "vitality_base": 17442,
+                        "spirit_base": 1423,
+                        "lunar_attack_power_base": 3593,
+                        "lunar_overcome_base": 11892,
+                        "strain_base": 9514
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                },
+                "天极·独明冠_测试用#108611 (30200 破防 无双)": {
+                    "id": 108611,
+                    "name": "天极·独明冠_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 6451,
+                    "icon_id": 4613,
+                    "base": {
+                        "physical_shield_base": 791,
+                        "magical_shield_base": 988
+                    },
+                    "magic": {
+                        "vitality_base": 14922,
+                        "spirit_base": 1217,
+                        "lunar_attack_power_base": 3074,
+                        "lunar_overcome_base": 10174,
+                        "strain_base": 8139
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
                 }
             }
         },
@@ -22972,6 +23324,94 @@ EQUIPMENTS = {
                 }
             }
         },
+        "无相": {
+            "内功": {
+                "天极·云胜衣_测试用#106828 (35300 会心 无双)": {
+                    "id": 106828,
+                    "name": "天极·云胜衣_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 6494,
+                    "icon_id": 4615,
+                    "base": {
+                        "physical_shield_base": 1155,
+                        "magical_shield_base": 1444
+                    },
+                    "magic": {
+                        "vitality_base": 19380,
+                        "spirit_base": 1581,
+                        "lunar_attack_power_base": 3993,
+                        "lunar_critical_strike_base": 13213,
+                        "strain_base": 10571
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "lunar_critical_power_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                },
+                "天极·独明衣_测试用#108612 (30200 会心 无双)": {
+                    "id": 108612,
+                    "name": "天极·独明衣_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 6451,
+                    "icon_id": 4615,
+                    "base": {
+                        "physical_shield_base": 988,
+                        "magical_shield_base": 1235
+                    },
+                    "magic": {
+                        "vitality_base": 16580,
+                        "spirit_base": 1353,
+                        "lunar_attack_power_base": 3416,
+                        "lunar_critical_strike_base": 11304,
+                        "strain_base": 9044
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "lunar_critical_power_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 7908,
+                                "all_critical_power_base": 2914
+                            }
+                        },
+                        4: {
+                            "recipes": [
+                                "recipe_6102_1",
+                                "recipe_6103_1",
+                                "recipe_17250_1"
+                            ]
+                        }
+                    }
+                }
+            }
+        },
         "段氏": {
             "内功": {
                 "天极·云胜衣_测试用#106827 (35300 会心 无双)": {
@@ -24914,9 +25354,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "sets": {}
                 },
-                "奉君命_测试用#44338 (35300 特效 破防 无双)": {
+                "九衢交驰#44338 (35300 特效 破防 无双)": {
                     "id": 44338,
-                    "name": "奉君命_测试用",
+                    "name": "九衢交驰",
                     "school": "通用",
                     "kind": "身法",
                     "level": 35300,
@@ -25160,9 +25600,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "sets": {}
                 },
-                "抚旌节_测试用#44337 (35300 特效 破防 无双)": {
+                "关河春到#44337 (35300 特效 破防 无双)": {
                     "id": 44337,
-                    "name": "抚旌节_测试用",
+                    "name": "关河春到",
                     "school": "通用",
                     "kind": "力道",
                     "level": 35300,
@@ -25406,9 +25846,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "sets": {}
                 },
-                "将相和_测试用#44336 (35300 特效 破防 无双)": {
+                "风雨阑乾#44336 (35300 特效 破防 无双)": {
                     "id": 44336,
-                    "name": "将相和_测试用",
+                    "name": "风雨阑乾",
                     "school": "通用",
                     "kind": "元气",
                     "level": 35300,
@@ -25652,9 +26092,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "sets": {}
                 },
-                "授琅钤_测试用#44335 (35300 特效 破防 无双)": {
+                "冷韵幽怀#44335 (35300 特效 破防 无双)": {
                     "id": 44335,
-                    "name": "授琅钤_测试用",
+                    "name": "冷韵幽怀",
                     "school": "通用",
                     "kind": "根骨",
                     "level": 35300,
@@ -26049,7 +26489,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38949_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26075,7 +26515,7 @@ EQUIPMENTS = {
                         "physical_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38949_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26099,7 +26539,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26125,7 +26565,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38949_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26151,7 +26591,7 @@ EQUIPMENTS = {
                         "physical_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38949_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26175,7 +26615,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26507,7 +26947,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38949_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26533,7 +26973,7 @@ EQUIPMENTS = {
                         "all_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38949_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26557,7 +26997,7 @@ EQUIPMENTS = {
                         "all_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26583,7 +27023,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38949_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26609,7 +27049,7 @@ EQUIPMENTS = {
                         "all_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38949_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -26633,7 +27073,7 @@ EQUIPMENTS = {
                         "all_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38948_6"
+                        "gain_38948_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30403,7 +30843,7 @@ EQUIPMENTS = {
                         "physical_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30429,7 +30869,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38945_6"
+                        "gain_38946_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30454,7 +30894,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30480,7 +30920,7 @@ EQUIPMENTS = {
                         "physical_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30506,7 +30946,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38945_6"
+                        "gain_38946_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30531,7 +30971,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30863,7 +31303,7 @@ EQUIPMENTS = {
                         "all_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30889,7 +31329,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38945_6"
+                        "gain_38946_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30914,7 +31354,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30940,7 +31380,7 @@ EQUIPMENTS = {
                         "all_critical_strike_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30966,7 +31406,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38945_6"
+                        "gain_38946_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -30991,7 +31431,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38946_6"
+                        "gain_38945_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32297,7 +32737,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32323,7 +32763,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32348,7 +32788,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32374,7 +32814,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32400,7 +32840,7 @@ EQUIPMENTS = {
                         "physical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32425,7 +32865,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32757,7 +33197,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32783,7 +33223,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32808,7 +33248,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32834,7 +33274,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32860,7 +33300,7 @@ EQUIPMENTS = {
                         "magical_overcome_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -32885,7 +33325,7 @@ EQUIPMENTS = {
                         "surplus_base": 321
                     },
                     "gains": [
-                        "gain_38950_6"
+                        "gain_38950_5"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -33046,6 +33486,516 @@ EQUIPMENTS = {
         }
     },
     "primary_weapon": {
+        "无相": {
+            "内功": {
+                "伏龙阳焰_测试用#43599 (29700 特效 会心 破防 加速)": {
+                    "id": 43599,
+                    "name": "伏龙阳焰_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 29700,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 27176,
+                        "spirit_base": 2217,
+                        "lunar_attack_power_base": 12330,
+                        "lunar_critical_strike_base": 12970,
+                        "lunar_overcome_base": 13588,
+                        "haste_base": 6794
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_43086_1",
+                        "gain_39088_3",
+                        "gain_43080_1"
+                    ],
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "伏龙阳焰_测试用#43566 (27500 特效 会心 破防 加速)": {
+                    "id": 43566,
+                    "name": "伏龙阳焰_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 27500,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 25163,
+                        "spirit_base": 2053,
+                        "lunar_attack_power_base": 11416,
+                        "lunar_critical_strike_base": 12009,
+                        "lunar_overcome_base": 12581,
+                        "haste_base": 6291
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_43086_1",
+                        "gain_39088_2",
+                        "gain_43080_1"
+                    ],
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "不见山_测试用#42779 (35900 会心 无双)": {
+                    "id": 42779,
+                    "name": "不见山_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35900,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23651,
+                        "spirit_base": 1930,
+                        "lunar_attack_power_base": 10731,
+                        "lunar_critical_strike_base": 16126,
+                        "strain_base": 15588
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "虚舟_测试用#42842 (35300 破招 无双)": {
+                    "id": 42842,
+                    "name": "虚舟_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23256,
+                        "spirit_base": 1897,
+                        "lunar_attack_power_base": 10551,
+                        "surplus_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "明雪望晴_测试用#42740 (35300 特效 破防 无双)": {
+                    "id": 42740,
+                    "name": "明雪望晴_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23256,
+                        "spirit_base": 1897,
+                        "lunar_attack_power_base": 10551,
+                        "lunar_overcome_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_4877_79"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "方想轮_测试用#42705 (35300 破招 无双)": {
+                    "id": 42705,
+                    "name": "方想轮_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23256,
+                        "spirit_base": 1897,
+                        "lunar_attack_power_base": 10551,
+                        "surplus_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "锦章轮_测试用#42664 (35300 会心 无双)": {
+                    "id": 42664,
+                    "name": "锦章轮_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 35300,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23256,
+                        "spirit_base": 1897,
+                        "lunar_attack_power_base": 10551,
+                        "lunar_critical_strike_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无相楼测试武器#43762 (25300 特效 会心 破防 加速)": {
+                    "id": 43762,
+                    "name": "无相楼测试武器",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 25300,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23150,
+                        "spirit_base": 1889,
+                        "lunar_attack_power_base": 10503,
+                        "lunar_critical_strike_base": 11049,
+                        "lunar_overcome_base": 11575,
+                        "haste_base": 5787
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_43086_1",
+                        "gain_39088_7",
+                        "gain_43080_1"
+                    ],
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "无相楼测试武器#43761 (23650 特效 会心 破防 加速)": {
+                    "id": 43761,
+                    "name": "无相楼测试武器",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 23650,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 21640,
+                        "spirit_base": 1765,
+                        "lunar_attack_power_base": 9818,
+                        "lunar_critical_strike_base": 10328,
+                        "lunar_overcome_base": 10820,
+                        "haste_base": 5410
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_43086_1",
+                        "gain_39088_6",
+                        "gain_43080_1"
+                    ],
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "玄壁轮_测试用#43803 (32500 会心 无双)": {
+                    "id": 43803,
+                    "name": "玄壁轮_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 32500,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 15245,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 21411,
+                        "spirit_base": 1747,
+                        "lunar_attack_power_base": 9714,
+                        "lunar_critical_strike_base": 14598,
+                        "strain_base": 14112
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "催芳_测试用#43740 (30700 会心 无双)": {
+                    "id": 43740,
+                    "name": "催芳_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30700,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 20225,
+                        "spirit_base": 1650,
+                        "lunar_attack_power_base": 9176,
+                        "lunar_critical_strike_base": 13790,
+                        "strain_base": 13330
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无相楼测试武器#43760 (22000 特效 会心 破防 加速)": {
+                    "id": 43760,
+                    "name": "无相楼测试武器",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 22000,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 20130,
+                        "spirit_base": 1642,
+                        "lunar_attack_power_base": 9133,
+                        "lunar_critical_strike_base": 9608,
+                        "lunar_overcome_base": 10065,
+                        "haste_base": 5033
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_43086_1",
+                        "gain_39088_7",
+                        "gain_43080_1"
+                    ],
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "惊鸿照水_测试用#43739 (30200 特效 破防 无双)": {
+                    "id": 43739,
+                    "name": "惊鸿照水_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19896,
+                        "spirit_base": 1623,
+                        "lunar_attack_power_base": 9027,
+                        "lunar_overcome_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_4877_75"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "琼玖轮_测试用#43738 (30200 破招 无双)": {
+                    "id": 43738,
+                    "name": "琼玖轮_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19896,
+                        "spirit_base": 1623,
+                        "lunar_attack_power_base": 9027,
+                        "surplus_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "柔嘉轮_测试用#43737 (30200 会心 无双)": {
+                    "id": 43737,
+                    "name": "柔嘉轮_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19896,
+                        "spirit_base": 1623,
+                        "lunar_attack_power_base": 9027,
+                        "lunar_critical_strike_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "塞上寒威·闲旷_测试用#43408 (30200 破防 无双)": {
+                    "id": 43408,
+                    "name": "塞上寒威·闲旷_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19896,
+                        "spirit_base": 1623,
+                        "lunar_attack_power_base": 9027,
+                        "lunar_overcome_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "寻踪觅宝·敏达轮_测试用#42625 (30200 破招 无双)": {
+                    "id": 42625,
+                    "name": "寻踪觅宝·敏达轮_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 30200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 0,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19896,
+                        "spirit_base": 1623,
+                        "lunar_attack_power_base": 9027,
+                        "surplus_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                }
+            }
+        },
         "段氏": {
             "内功": {
                 "伏龙阳焰_测试用#43598 (29700 特效 会心 破防 加速)": {
@@ -33076,7 +34026,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_39081_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_39078_2"
                     ],
                     "recipes": [
                         "recipe_5749_1",
@@ -33116,7 +34067,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_39081_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_39078_2"
                     ],
                     "recipes": [
                         "recipe_5749_1",
@@ -33693,7 +34645,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_36579_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_36578_3"
                     ],
                     "recipes": [
                         "recipe_5461_1",
@@ -33733,7 +34686,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_36579_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_36578_3"
                     ],
                     "recipes": [
                         "recipe_5461_1",
@@ -34281,7 +35235,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_33239_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_33238_3"
                     ],
                     "recipes": [
                         "recipe_3186_1",
@@ -34321,7 +35276,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_33239_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_33238_3"
                     ],
                     "recipes": [
                         "recipe_3186_1",
@@ -34869,7 +35825,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_29698_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_29694_8"
                     ],
                     "recipes": [
                         "recipe_2842_1",
@@ -34909,7 +35866,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_29698_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_29694_8"
                     ],
                     "recipes": [
                         "recipe_2842_1",
@@ -35457,7 +36415,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25837_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_25831_8"
                     ],
                     "recipes": [
                         "recipe_5325_1",
@@ -35497,7 +36456,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25837_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_25831_8"
                     ],
                     "recipes": [
                         "recipe_5325_1",
@@ -36045,7 +37005,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25784_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_23396_8"
                     ],
                     "recipes": [
                         "recipe_5091_1",
@@ -36085,7 +37046,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25784_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_23396_8"
                     ],
                     "recipes": [
                         "recipe_5091_1",
@@ -36667,7 +37629,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25783_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_21185_8"
                     ],
                     "recipes": [
                         "recipe_4818_1",
@@ -36707,7 +37670,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25783_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_21185_8"
                     ],
                     "recipes": [
                         "recipe_4818_1",
@@ -37289,7 +38253,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25782_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_16984_8"
                     ],
                     "recipes": [
                         "recipe_4294_1",
@@ -37329,7 +38294,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25782_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_16984_8"
                     ],
                     "recipes": [
                         "recipe_4294_1",
@@ -37911,7 +38877,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25781_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_15183_8"
                     ],
                     "recipes": [
                         "recipe_2401_1",
@@ -37951,7 +38918,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25781_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_15183_8"
                     ],
                     "recipes": [
                         "recipe_2401_1",
@@ -38533,7 +39501,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25780_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_13410_15"
                     ],
                     "recipes": [
                         "recipe_1937_1",
@@ -38573,7 +39542,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25780_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_13410_15"
                     ],
                     "recipes": [
                         "recipe_1937_1",
@@ -39155,7 +40125,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25777_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_4940_8"
                     ],
                     "recipes": [
                         "recipe_1542_1",
@@ -39195,7 +40166,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25777_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_4940_8"
                     ],
                     "recipes": [
                         "recipe_1542_1",
@@ -39776,7 +40748,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25779_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_6950_8"
                     ],
                     "recipes": [
                         "recipe_1540_1",
@@ -39815,7 +40788,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25779_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_6950_8"
                     ],
                     "recipes": [
                         "recipe_1540_1",
@@ -40394,7 +41368,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25785_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1881_8"
                     ],
                     "recipes": [
                         "recipe_1536_1",
@@ -40434,7 +41409,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25785_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1881_8"
                     ],
                     "recipes": [
                         "recipe_1536_1",
@@ -41127,7 +42103,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25775_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_3476_8"
                     ],
                     "recipes": [
                         "recipe_1534_1",
@@ -41167,7 +42144,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25775_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_3476_8"
                     ],
                     "recipes": [
                         "recipe_1534_1",
@@ -41747,7 +42725,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25774_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_3477_8"
                     ],
                     "recipes": [
                         "recipe_1532_1",
@@ -41787,7 +42766,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25774_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_3477_8"
                     ],
                     "recipes": [
                         "recipe_1532_1",
@@ -42369,7 +43349,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25773_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_3065_8"
                     ],
                     "recipes": [
                         "recipe_1528_1",
@@ -42409,7 +43390,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25773_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_3065_8"
                     ],
                     "recipes": [
                         "recipe_1528_1",
@@ -42991,7 +43973,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25769_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1858_8"
                     ],
                     "recipes": [
                         "recipe_1524_1",
@@ -43031,7 +44014,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25769_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1858_8"
                     ],
                     "recipes": [
                         "recipe_1524_1",
@@ -43613,7 +44597,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25771_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1852_8"
                     ],
                     "recipes": [
                         "recipe_1522_1",
@@ -43653,7 +44638,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25771_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1852_8"
                     ],
                     "recipes": [
                         "recipe_1522_1",
@@ -44233,7 +45219,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25770_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1853_8"
                     ],
                     "recipes": [
                         "recipe_1520_1",
@@ -44273,7 +45260,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25770_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1853_8"
                     ],
                     "recipes": [
                         "recipe_1520_1",
@@ -44855,7 +45843,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25772_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1850_8"
                     ],
                     "recipes": [
                         "recipe_1508_1",
@@ -44895,7 +45884,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25772_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1850_8"
                     ],
                     "recipes": [
                         "recipe_1508_1",
@@ -45477,7 +46467,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25768_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1856_8"
                     ],
                     "recipes": [
                         "recipe_1516_1",
@@ -45517,7 +46508,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25768_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1856_8"
                     ],
                     "recipes": [
                         "recipe_1516_1",
@@ -46099,7 +47091,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25766_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1854_8"
                     ],
                     "recipes": [
                         "recipe_1512_1",
@@ -46139,7 +47132,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25766_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1854_8"
                     ],
                     "recipes": [
                         "recipe_1512_1",
@@ -46723,7 +47717,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25776_1",
-                        "gain_39088_9"
+                        "gain_39088_9",
+                        "gain_1882_8"
                     ],
                     "recipes": [
                         "recipe_1538_1",
@@ -46763,7 +47758,8 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_25776_1",
-                        "gain_39088_8"
+                        "gain_39088_8",
+                        "gain_1882_8"
                     ],
                     "recipes": [
                         "recipe_1538_1",

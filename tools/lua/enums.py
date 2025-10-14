@@ -146,6 +146,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     REVIVE = ""
     SILENCE = ""
     IMMUNITY = ""
+    IMMUNITY_COMBO = ""
     IMMUNITY_COMBO_ALL = ""
     DISABLE_SPRINT_FLAG = ""
     ADD_TRANSPARENCY_VALUE = ""
