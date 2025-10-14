@@ -5,7 +5,7 @@ from qt import LabelRow
 from qt.classes.attribute import Attribute
 from qt.classes.buff import BuffType
 from qt.classes.section import Section, Sections
-from qt.component.loop_widget.damage_dialog import DamagesDialog
+from qt.component.loop_widget.damage_dialog import DamagesDialog, add_buffs_to_attributes, sub_buffs_to_attributes
 from qt.utils import evaluate_dot, evaluate_skill
 
 
@@ -55,11 +55,7 @@ class SectionDamageDialog(DamagesDialog):
         self.damages, self.duration = {}, section.duration
         for record in section.records:
             count = section.count * record.count
-            for buff in record.buffs:
-                if buff.buff_type == BuffType.Current:
-                    current.add_buff(buff)
-                elif buff.buff_type == BuffType.Snapshot:
-                    snapshot.add_buff(buff)
+            add_buffs_to_attributes(record.buffs, current, snapshot)
             variables = {**current.current, **current.snapshot}
             for skill in record.skills:
                 if skill.name not in self.damages:
@@ -72,11 +68,7 @@ class SectionDamageDialog(DamagesDialog):
                 if dot.name not in self.damages:
                     self.damages[dot.name] = 0
                 self.damages[f"{dot.name}"] += expected_damage * count
-            for buff in record.buffs:
-                if buff.buff_type == BuffType.Current:
-                    current.sub_buff(buff)
-                elif buff.buff_type == BuffType.Snapshot:
-                    snapshot.sub_buff(buff)
+            sub_buffs_to_attributes(record.buffs, current, snapshot)
         super().__init__(section.name, section.count, parent)
 
 
@@ -87,11 +79,7 @@ class AllDamageDialog(DamagesDialog):
             self.duration += section.duration
             for record in section.records:
                 count = section.count * record.count
-                for buff in record.buffs:
-                    if buff.buff_type == BuffType.Current:
-                        current.add_buff(buff)
-                    elif buff.buff_type == BuffType.Snapshot:
-                        snapshot.add_buff(buff)
+                add_buffs_to_attributes(record.buffs, current, snapshot)
                 variables = {**current.current, **current.snapshot}
                 for skill in record.skills:
                     if skill.name not in self.damages:
@@ -104,9 +92,5 @@ class AllDamageDialog(DamagesDialog):
                     if dot.name not in self.damages:
                         self.damages[dot.name] = 0
                     self.damages[f"{dot.name}"] += expected_damage * count
-                for buff in record.buffs:
-                    if buff.buff_type == BuffType.Current:
-                        current.sub_buff(buff)
-                    elif buff.buff_type == BuffType.Snapshot:
-                        snapshot.sub_buff(buff)
+                sub_buffs_to_attributes(record.buffs, current, snapshot)
         super().__init__("All", 1, parent)

@@ -11,7 +11,7 @@ DOTS = {
                     3830: {
                         29: {
                             "name": "横扫六合",
-                            "comment": "",
+                            "comment": "原始",
                             "damage": "(45 + solar_attack_power * 0.4053819444444444) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + solar_overcome) * shield_constant / (solar_shield_base * (1 + solar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                             "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000"
@@ -84,7 +84,7 @@ DOTS = {
                     3830: {
                         29: {
                             "name": "横扫六合",
-                            "comment": "",
+                            "comment": "原始",
                             "damage": "(45 + solar_attack_power * 0.4053819444444444) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + solar_overcome) * shield_constant / (solar_shield_base * (1 + solar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                             "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000"
@@ -363,14 +363,14 @@ DOTS = {
                     39907: {
                         1: {
                             "name": "",
-                            "comment": "乱洒青荷原始",
+                            "comment": "乱洒青荷",
                             "damage": "(38 + neutral_attack_power * int(633.2842332689337 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
                         },
                         2: {
                             "name": "",
-                            "comment": "乱洒青荷渲青",
+                            "comment": "渲青",
                             "damage": "(38 + neutral_attack_power * int(580.5105471631894 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
@@ -433,14 +433,14 @@ DOTS = {
                     39907: {
                         1: {
                             "name": "",
-                            "comment": "乱洒青荷原始",
+                            "comment": "乱洒青荷",
                             "damage": "(38 + neutral_attack_power * int(633.2842332689337 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
                         },
                         2: {
                             "name": "",
-                            "comment": "乱洒青荷渲青",
+                            "comment": "渲青",
                             "damage": "(38 + neutral_attack_power * int(580.5105471631894 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
@@ -505,14 +505,14 @@ DOTS = {
                     39906: {
                         1: {
                             "name": "",
-                            "comment": "乱洒青荷原始",
+                            "comment": "乱洒青荷",
                             "damage": "(30 + neutral_attack_power * int(962.613323538015 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
                         },
                         2: {
                             "name": "",
-                            "comment": "乱洒青荷渲青",
+                            "comment": "渲青",
                             "damage": "(30 + neutral_attack_power * int(882.395546576514 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
@@ -575,14 +575,14 @@ DOTS = {
                     39906: {
                         1: {
                             "name": "",
-                            "comment": "乱洒青荷原始",
+                            "comment": "乱洒青荷",
                             "damage": "(30 + neutral_attack_power * int(962.613323538015 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"
                         },
                         2: {
                             "name": "",
-                            "comment": "乱洒青荷渲青",
+                            "comment": "渲青",
                             "damage": "(30 + neutral_attack_power * int(882.395546576514 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1)) * 0.0013020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + neutral_overcome) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike"

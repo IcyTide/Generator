@@ -1,4 +1,4 @@
-def get_28952_comments():
+def get_comments():
     levels = [1, 5, 6, 7, 8, 9, 12]
     combos = [0, 3, 8, 12, 15, 18, 20]
     comments = {}
@@ -8,7 +8,7 @@ def get_28952_comments():
             if k not in comments:
                 comments[k] = []
             comments[k].append(f"{i + 1}段({combo}连击)")
-    return {k: "/".join(v) for k, v in comments.items()}
+    return {k: dict(comment="/".join(v)) for k, v in comments.items()}
 
 
 SKILLS = {
@@ -45,7 +45,7 @@ SKILLS = {
         skill_id: dict(comment=f"{i + 1}段")
         for i, skill_id in enumerate([6369, 6370, 6371, 6372, 6373])
     },
-    6374: dict(comments={1: "6段"}),
+    6374: {1: dict(comment="6段")},
     **{
         skill_id: dict(comment=f"{i + 1}段")
         for i, skill_id in enumerate([6366, 6367, 6368])
@@ -61,21 +61,23 @@ SKILLS = {
     },
     13527: dict(comment="1帧"),
     13529: dict(comment="1帧"),
-    32898: dict(comments={
-        1: "原始",
-        2: "酩酊",
-        3: "落水打狗",
-        4: "橙武特效",
-        5: "复征"
-    }),
+    32898: {
+        1: dict(comment="原始"),
+        2: dict(comment="酩酊"),
+        3: {},
+        4: {},
+        5: {}
+    },
     19435: dict(comment="1-2段"), 8491: dict(comment="3段"),
-    14633: dict(comments={i + 1: f"{i * 10}%内力" for i in range(6)}),
-    41057: dict(comments={i + 1: f"{i + 1}段({delay}帧)" for i, delay in enumerate([0, 9, 12, 23])}),
-    37397: dict(comments={1: ""}),
-    40299: dict(comments={i + 1: f"{i + 1}目标" for i in range(20)}),
+    14633: dict(comment="{}0%内力"),
+    41057: {
+        i + 1: dict(comment=f"{i + 1}段({delay}帧)") for i, delay in enumerate([0, 9, 12, 23])
+    },
+    37397: {1: {}},
+    40299: dict(comment="{}目标"),
     25201: dict(comment="持续"), 25202: dict(comment="触发"),
     14927: dict(comment="1段"), 14928: dict(comment="2段"),
-    28952: dict(comments=get_28952_comments()),
+    28952: get_comments(),
     36255: dict(comment="持续"),
-    32770: dict(comment="结算", comments={i + 1: f"{i + 1}秒" for i in range(6)})
+    32770: dict(comment="结算{}秒")
 }

@@ -1,11 +1,14 @@
 import json
 import os
 import re
+import string
 from pathlib import Path
 
 import pandas as pd
 
 from tools.lua.enums import ATTRIBUTE_TYPE
+
+formatter = string.Formatter()
 
 
 def camel_to_snake(s):
@@ -53,32 +56,46 @@ def process_attr_param(attr, param_1, param_2):
     return param_1 or param_2
 
 
-def set_comment(instance):
-    max_level, comments = instance.max_level, instance.comments
-    if comments is None:
-        instance.levels = [max_level]
-        comments = {}
-    elif comments:
-        instance.levels = list(comments)
-    else:
-        instance.levels = list(range(1, max_level + 1))
-    instance.comment += comments.get(instance.level, "")
-
-
 def set_patches(instance, patch_map, key, sub_key):
+    levels = []
+    sub_patch_map = {}
     for k, v in patch_map.get(key, {}).items():
         if isinstance(k, int):
+            if k <= 0:
+                k += instance.max_level
+            sub_patch_map[k] = v
+            levels.append(k)
             continue
+        elif isinstance(k, float):
+            k = int(instance.max_level * k)
+            sub_patch_map[k] = v
+            levels.append(k)
+            continue
+        elif isinstance(v, dict):
+            instance[k] = v
+        else:
+            instance[k] += v
+    for k, v in sub_patch_map.get(sub_key, {}).items():
         if isinstance(v, dict):
             instance[k] = v
         else:
             instance[k] += v
-    for k, v in patch_map.get(key, {}).get(sub_key, {}).items():
-        if isinstance(v, dict):
-            instance[k] = v
+    if "{" in instance.comment and "}" in instance.comment:
+        levels = range(1, instance.max_level + 1)
+        if instance.comment == "{}":
+            instance.comment = ""
+        args = {}
+        for _, field, _, _ in formatter.parse(instance.comment):
+            if not field:
+                continue
+            args[field] = eval(field, dict(level=sub_key))
+        if args:
+            instance.comment = instance.comment.format(**args)
         else:
-            instance[k] += v
-    set_comment(instance)
+            instance.comment = instance.comment.format(sub_key)
+    if not levels:
+        levels = [instance.max_level]
+    instance.levels = levels
 
 
 BASE_DIR = "../jx3-package"

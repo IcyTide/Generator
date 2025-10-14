@@ -4,6 +4,7 @@ from assets.raw.buffs import BUFFS
 
 
 class BuffType(StrEnum):
+    Both = "Both"
     Current = "Current"
     Snapshot = "Snapshot"
 

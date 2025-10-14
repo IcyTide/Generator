@@ -8,6 +8,7 @@ from qt.classes.kungfu import Kungfu
 from qt.classes.section import Section, Sections
 from qt.component.loop_widget.attribute_dialog import AttributeDialog
 from qt.component.loop_widget.buff_dialog import BuffEditorDialog
+from qt.component.loop_widget.damage_dialog import add_buffs_to_attributes
 from qt.component.loop_widget.dot_dialog import DotDamageDialog, DotEditorDialog
 from qt.component.loop_widget.record_dialog import RecordDamageDialog, RecordEditorDialog
 from qt.component.loop_widget.section_dialog import AllDamageDialog, SectionDamageDialog, SectionEditorDialog
@@ -86,11 +87,7 @@ class LoopScript:
         if not (record := self.record):
             return
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
-        for buff in record.buffs:
-            if buff.buff_type == BuffType.Current:
-                current.add_buff(buff)
-            elif buff.buff_type == BuffType.Snapshot:
-                snapshot.add_buff(buff)
+        add_buffs_to_attributes(record.buffs, current, snapshot)
         AttributeDialog(current, snapshot, parent=self.widget).exec()
 
     def show_skill_damage(self):
@@ -101,9 +98,7 @@ class LoopScript:
             return
         skill = record.skills[skill_index]
         attribute = self.kungfu.create_attribute()
-        for buff in record.buffs:
-            if buff.buff_type == BuffType.Current:
-                attribute.add_buff(buff)
+        add_buffs_to_attributes(record.buffs, attribute)
         SkillDamageDialog(skill, attribute, parent=self.widget).exec()
 
     def show_dot_damage(self):
@@ -114,11 +109,7 @@ class LoopScript:
             return
         dot = record.dots[dot_index]
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
-        for buff in record.buffs:
-            if buff.buff_type == BuffType.Current:
-                current.add_buff(buff)
-            elif buff.buff_type == BuffType.Snapshot:
-                snapshot.add_buff(buff)
+        add_buffs_to_attributes(record.buffs, current, snapshot)
         DotDamageDialog(dot, current, snapshot, parent=self.widget).exec()
 
     def show_record_damage(self):

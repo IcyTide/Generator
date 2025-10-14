@@ -3,9 +3,8 @@ from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLineEdit, Q
 
 from qt import LabelRow
 from qt.classes.attribute import Attribute
-from qt.classes.buff import BuffType
 from qt.classes.record import Record
-from qt.component.loop_widget.damage_dialog import DamagesDialog
+from qt.component.loop_widget.damage_dialog import DamagesDialog, add_buffs_to_attributes
 from qt.utils import evaluate_dot, evaluate_skill
 
 
@@ -54,11 +53,7 @@ class RecordDamageDialog(DamagesDialog):
     def __init__(
             self, record: Record, current: Attribute, snapshot: Attribute, parent: QWidget = None
     ):
-        for buff in record.buffs:
-            if buff.buff_type == BuffType.Current:
-                current.add_buff(buff)
-            elif buff.buff_type == BuffType.Snapshot:
-                snapshot.add_buff(buff)
+        add_buffs_to_attributes(record.buffs, current, snapshot)
         variables = {**current.current, **current.snapshot}
         self.damages, self.duration = {}, record.duration
         for skill in record.skills:

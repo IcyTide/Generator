@@ -1,38 +1,37 @@
 SKILLS = {
     11: dict(channel_interval=27),
-    19090: dict(comment="武伤", comments={}),
-    32887: dict(comments={
-        1: "韦陀献杵",
-        2: "拿云式",
-        3: "贪破"
-    }),
-    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([17641, 17642])},
-    3830: dict(comments={
-        29: "",
-        58: "我闻"
-    }),
+    19090: dict(comment="武伤{}"),
+    32887: {
+        1: dict(comment="韦陀献杵"),
+        2: dict(comment="拿云式"),
+        3: dict(comment="贪破")
+    },
+    17641: dict(comment="1段"), 17642: dict(comment="2段"),
+    3830: {
+        0.5: dict(comment="原始"),
+        0: dict(comment="我闻")
+    },
     **{skill_id: dict(comment=f"{i + 1}豆") for i, skill_id in enumerate([3849, 3850, 3848])},
-    3816: dict(comment=""),
     **{skill_id: dict(comment=f"原始{i + 1}豆") for i, skill_id in enumerate([13682, 13684, 13686])},
-    28539: dict(comment="无诤", comments={
-        29: "",
-        58: "(我闻)"
-    }),
-    42407: dict(comments={i + 1: f"{i}层" for i in range(3)}),
+    28539: {
+        0.5: dict(comment="无诤"),
+        0: dict(comment="无诤(我闻)")
+    },
+    42407: dict(comment="{level-1}层"),
     3814: dict(comment="众嗔"),
-    37376: dict(comments={i + 1: f"{i * 3000}体质" for i in range(5)}),
+    37376: dict(comment="{(level-1)*3000}体质"),
     **{skill_id: dict(comment=f"净果{i + 1}豆") for i, skill_id in enumerate([13681, 13683, 13685])},
     **{skill_id: dict(comment=f"净果{i + 1}豆斩杀") for i, skill_id in enumerate([36049, 36050, 36051])},
-    3808: dict(comment="幻身多目标", comments={
-        29: "",
-        58: "(我闻)"
-    }),
-    3810: dict(comment="幻身单目标", comments={
-        29: "",
-        58: "(我闻)"
-    }),
-    271: dict(comments={
-        1: "韦陀献杵",
-        5: "拿云式",
-    })
+    3808: {
+        0.5: dict(comment="幻身多目标"),
+        0: dict(comment="幻身多目标(我闻)")
+    },
+    3810: {
+        0.5: dict(comment="幻身单目标"),
+        0: dict(comment="幻身单目标(我闻)")
+    },
+    271: {
+        1: dict(comment="韦陀献杵"),
+        5: dict(comment="拿云式"),
+    }
 }

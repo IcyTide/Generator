@@ -3,7 +3,33 @@ from PySide6.QtWidgets import QDialog, QLabel, QToolBox, QVBoxLayout, QWidget
 from base.constant import GRAD_VARIABLES, LEVEL_VARIABLES, SHIELD_BASE_MAP
 from base.expression import Expression
 from qt import ComboBox, LabelRow
+from qt.classes.attribute import Attribute
+from qt.classes.buff import Buff, BuffType
 from qt.utils import percent
+
+
+def add_buffs_to_attributes(buffs: list[Buff], current: Attribute, snapshot: Attribute = None):
+    for buff in buffs:
+        if buff.buff_type == BuffType.Both:
+            current.add_buff(buff)
+            if snapshot:
+                snapshot.add_buff(buff)
+        elif buff.buff_type == BuffType.Current:
+            current.add_buff(buff)
+        elif snapshot and buff.buff_type == BuffType.Snapshot:
+            snapshot.add_buff(buff)
+
+
+def sub_buffs_to_attributes(buffs: list[Buff], current: Attribute, snapshot: Attribute = None):
+    for buff in buffs:
+        if buff.buff_type == BuffType.Both:
+            current.sub_buff(buff)
+            if snapshot:
+                snapshot.sub_buff(buff)
+        elif buff.buff_type == BuffType.Current:
+            current.sub_buff(buff)
+        elif snapshot and buff.buff_type == BuffType.Snapshot:
+            snapshot.sub_buff(buff)
 
 
 class DamagesDialog(QDialog):

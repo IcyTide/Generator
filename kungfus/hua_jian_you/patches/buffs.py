@@ -1,26 +1,26 @@
 BUFFS: dict[int, dict] = {
-    1487: dict(comments={
-        1: "原始",
-        2: "知寒",
-        3: "池月",
-        4: "知寒+池月"
-    }),
-    666: dict(comments={
-        29: "原始",
-        30: "飞白"
-    }),
-    714: dict(comments={
-        24: "原始",
-        25: "飞白"
-    }),
-    711: dict(comments={
-        19: "原始",
-        20: "飞白"
-    }),
-    23065: dict(comments={
-        1: "兰摧玉折",
-        2: "商阳指",
-        3: "钟林毓秀"
-    }),
+    1487: {
+        1: dict(comment="原始"),
+        2: dict(comment="知寒"),
+        3: dict(comment="池月"),
+        4: dict(comment="知寒+池月")
+    },
+    666: {
+        -1: dict(comment="原始"),
+        0: dict(comment="飞白")
+    },
+    714: {
+        -1: dict(comment="原始"),
+        0: dict(comment="飞白")
+    },
+    711: {
+        -1: dict(comment="原始"),
+        0: dict(comment="飞白")
+    },
+    23065: {
+        1: dict(comment="兰摧玉折"),
+        2: dict(comment="商阳指"),
+        3: dict(comment="钟林毓秀")
+    },
     30444: dict(comment="沁逸")
 }

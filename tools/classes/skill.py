@@ -60,9 +60,8 @@ class Skill(AliasBase):
     tick: int = 1
     tick_cof: float = 1.
 
-    levels: list[int]
+    levels: list[int] = None
     recipe_key: Expression = None
-    comments: dict[int, str] = None
     comment: str = ""
 
     @property

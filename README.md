@@ -15,6 +15,22 @@ Select Stone进行选择五彩石
 子选项中的Detail可查看当前装备属性，附加秘籍、附加特殊效果
 
 ## Loop界面
+Section > Record > Buffs, Skills, Dots
+
+- Section可以理解为循环中的小节概念，多个小节组成了一个完整循环；
+
+- Record是小节中由于buff覆盖不同产生的多个片段，多个片段组成一个小节；
+
+- Record由Buffs来表示片段的增益情况，Skills和Dots代表片段中造成伤害的种类
+
+- Buffs分为三类，Both Current Snapshot，Both代表后两者，会在后续Dot计算时进行区分
+
+- Skills会加载所有Current类型的Buff并获取属性进行计算
+
+- Dots会分别加载Current和Snapshot的Buff进行计算，从Current中获取实时属性，从Snapshot中获取快照属性
+
+## Build界面
+用于选择奇穴和秘籍相关
 
 # 对于开发者
 ## 公式组成
@@ -48,7 +64,7 @@ Select Stone进行选择五彩石
 形如something_rate，这部分值直接以百分比的形式加算到最后的计算结果，不会与基础属性进行互动
 
 ## 秘籍变量
-形状为 recipe_<ID>_LEVEL ，代表秘籍的存在与否，取值为0或者1，0代表不存在1代表存在。
+形状为 recipe_ID_LEVEL ，代表秘籍的存在与否，取值为0或者1，0代表不存在1代表存在。
 
 秘籍存在于自选秘籍、装备、buff和奇穴以及心法自带中
 可以从buffs.json(buff), belongs.json(心法和奇穴)，kungfus/<心法名>/recipes.json(自选秘籍和装备)进行查询
@@ -56,12 +72,12 @@ Select Stone进行选择五彩石
 秘籍会影响当前计算中的各个属性来对最后结果直接造成影响，因此会作为自变量的一部分出现在公式中
 
 ## 奇穴变量
-形状为 talent_<ID>，代表奇穴的存在与否，取值为0或者1，0代表不存在1代表存在。
+形状为 talent_ID，代表奇穴的存在与否，取值为0或者1，0代表不存在1代表存在。
 
 奇穴会影响当前计算中的易伤部分来对最后结果直接造成影响，因此会作为自变量的一部分出现在公式中
 
 ## Buff变量
-形状为 buff_<ID>_<LEVEL>，代表特定的buff层数，取值为[0, max_stack]。
+形状为 buff_ID_LEVEL，代表特定的buff层数，取值为[0, max_stack]。
 
 这部分通常用于处理部分专属于特定技能的易伤处理，作用域体现在buffs.json中对应buff的skills
 

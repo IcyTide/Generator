@@ -5,6 +5,5 @@ BUFFS: dict[int, dict] = {
         for i, buff_id in enumerate([15927, 15928, 15929])
     },
     15896: dict(name="飞琼"),
-    21588: dict(name="孤路", comments={i + 1: f"{i + 1}次递增" for i in range(10)})
-
+    21588: dict(name="孤路", comment="{}次递增")
 }

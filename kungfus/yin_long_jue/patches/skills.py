@@ -7,8 +7,16 @@ SKILLS = {
     22328: dict(comment="原始"), 22329: dict(comment="双持"),
     22489: dict(comment="原始"), 22490: dict(comment="双持"),
     22610: dict(comment="原始"), 22611: dict(comment="双持"),
-    32822: dict(comments={1: "原始", 2: "双持"}),
-    24165: dict(comments={1: "1段", 2: "2段", 3: "4段"}), 24166: dict(comment="3段"),
+    32822: {
+        1: dict(comment="原始"),
+        2: dict(comment="双持")
+    },
+    24165: {
+        1: dict(comment="1段"), 
+        2: dict(comment="2段"), 
+        3: dict(comment="4段")
+    },
+    24166: dict(comment="3段"),
     25311: dict(comment="1段"), 25312: dict(comment="2段"),
     **{
         skill_id: dict(dest_rollback_attributes=[("coming_damage_cof", 205 * Variable("talent_42128"))])
