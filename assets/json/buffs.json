@@ -2669,6 +2669,7 @@
         },
         "4423": {
             "3": {
+                "name": "光明相",
                 "interval": 160,
                 "max_stack": 3,
                 "max_tick": 1,
@@ -4567,7 +4568,7 @@
                 "max_stack": 8,
                 "max_tick": 1,
                 "attributes": {
-                    "lunar_damage_cof": 154
+                    "lunar_damage_cof": 169
                 },
                 "skills": [
                     41471,
@@ -4781,6 +4782,2826 @@
                     "all_damage_addition": 205
                 },
                 "buff_key": "buff_71612_1"
+            }
+        }
+    },
+    "0": {
+        "10100": {
+            "2": {
+                "name": "百炼水煮鱼",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 7200,
+                "attributes": {
+                    "surplus_base": 550,
+                    "strain_base": 550
+                },
+                "buff_key": "buff_10100_2"
+            }
+        },
+        "18428": {
+            "1": {
+                "name": "同泽宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 742,
+                    "strain_base": 742
+                },
+                "buff_key": "buff_18428_1"
+            }
+        },
+        "2563": {
+            "1": {
+                "name": "蒸鱼菜盘",
+                "interval": 960,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1334
+                },
+                "buff_key": "buff_2563_1"
+            }
+        },
+        "29274": {
+            "1": {
+                "name": "风语·皮蛋瘦肉粥",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 1816
+                },
+                "buff_key": "buff_29274_1"
+            },
+            "2": {
+                "name": "风语·杂锦鱼球粥",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 628
+                },
+                "buff_key": "buff_29274_2"
+            },
+            "3": {
+                "name": "风语·鱼片砂锅粥",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 628
+                },
+                "buff_key": "buff_29274_3"
+            },
+            "4": {
+                "name": "风语·三鲜粥",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 628
+                },
+                "buff_key": "buff_29274_4"
+            },
+            "5": {
+                "name": "风语·咸骨粥",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 628
+                },
+                "buff_key": "buff_29274_5"
+            },
+            "6": {
+                "name": "风语·贡丸汤",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 908
+                },
+                "buff_key": "buff_29274_6"
+            },
+            "7": {
+                "name": "风语·杂碎汤",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 314
+                },
+                "buff_key": "buff_29274_7"
+            },
+            "8": {
+                "name": "风语·鱼头豆腐汤",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 314
+                },
+                "buff_key": "buff_29274_8"
+            },
+            "9": {
+                "name": "风语·三鲜汤",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 314
+                },
+                "buff_key": "buff_29274_9"
+            },
+            "10": {
+                "name": "风语·老火骨汤",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 314
+                },
+                "buff_key": "buff_29274_10"
+            }
+        },
+        "29276": {
+            "1": {
+                "name": "风语·酸菜鱼",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4902
+                },
+                "buff_key": "buff_29276_1"
+            },
+            "2": {
+                "name": "风语·红烧排骨",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4902
+                },
+                "buff_key": "buff_29276_2"
+            },
+            "3": {
+                "name": "风语·白肉血肠",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 4902
+                },
+                "buff_key": "buff_29276_3"
+            },
+            "4": {
+                "name": "风语·红烧扣肉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 4902
+                },
+                "buff_key": "buff_29276_4"
+            },
+            "5": {
+                "name": "风语·太后饼",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 1332
+                },
+                "buff_key": "buff_29276_5"
+            },
+            "6": {
+                "name": "风语·灌汤包",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 1485
+                },
+                "buff_key": "buff_29276_6"
+            },
+            "7": {
+                "name": "风语·骨肉相连",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29276_7"
+            },
+            "8": {
+                "name": "风语·炸酱面",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29276_8"
+            },
+            "9": {
+                "name": "风语·鱼香肉丝",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2451
+                },
+                "buff_key": "buff_29276_9"
+            },
+            "10": {
+                "name": "风语·水煮肉片",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2451
+                },
+                "buff_key": "buff_29276_10"
+            },
+            "11": {
+                "name": "风语·毛血旺",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2451
+                },
+                "buff_key": "buff_29276_11"
+            },
+            "12": {
+                "name": "风语·栗子烧肉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 2451
+                },
+                "buff_key": "buff_29276_12"
+            },
+            "13": {
+                "name": "风语·煎饼果子",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 666
+                },
+                "buff_key": "buff_29276_13"
+            },
+            "14": {
+                "name": "风语·鲜肉包子",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 742
+                },
+                "buff_key": "buff_29276_14"
+            },
+            "15": {
+                "name": "风语·白汁芦筋",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29276_15"
+            },
+            "16": {
+                "name": "风语·杂碎面",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29276_16"
+            }
+        },
+        "29284": {
+            "1": {
+                "name": "风语·玉笛谁家听落梅",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 761,
+                    "all_critical_strike_base": 2801,
+                    "surplus_base": 2801
+                },
+                "buff_key": "buff_29284_1"
+            },
+            "2": {
+                "name": "风语·二十四桥明月夜",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 849,
+                    "all_critical_strike_base": 2801,
+                    "surplus_base": 2801
+                },
+                "buff_key": "buff_29284_2"
+            },
+            "3": {
+                "name": "风语·鸳鸯烩珍宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2801,
+                    "haste_base": 2801
+                },
+                "buff_key": "buff_29284_3"
+            },
+            "4": {
+                "name": "风语·蜀味烘焙宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 1037
+                },
+                "buff_key": "buff_29284_4"
+            },
+            "5": {
+                "name": "风语·鸿门宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 1037
+                },
+                "buff_key": "buff_29284_5"
+            },
+            "6": {
+                "name": "风语·团圆宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29284_6"
+            }
+        },
+        "29285": {
+            "1": {
+                "name": "风语·水晶芙蓉宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 2075
+                },
+                "buff_key": "buff_29285_1"
+            },
+            "2": {
+                "name": "风语·水晶芙蓉宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 718
+                },
+                "buff_key": "buff_29285_2"
+            },
+            "3": {
+                "name": "风语·水晶芙蓉宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 718
+                },
+                "buff_key": "buff_29285_3"
+            },
+            "4": {
+                "name": "风语·水晶芙蓉宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 718
+                },
+                "buff_key": "buff_29285_4"
+            },
+            "5": {
+                "name": "风语·水晶芙蓉宴",
+                "interval": 57600,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 718
+                },
+                "buff_key": "buff_29285_5"
+            }
+        },
+        "29288": {
+            "1": {
+                "name": "风语·上品健体丸",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 2334
+                },
+                "buff_key": "buff_29288_1"
+            },
+            "2": {
+                "name": "风语·上品轻身丹",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 808
+                },
+                "buff_key": "buff_29288_2"
+            },
+            "3": {
+                "name": "风语·上品聚魂丹",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 808
+                },
+                "buff_key": "buff_29288_3"
+            },
+            "4": {
+                "name": "风语·上品大力丸",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 808
+                },
+                "buff_key": "buff_29288_4"
+            },
+            "5": {
+                "name": "风语·上品静心丸",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 808
+                },
+                "buff_key": "buff_29288_5"
+            },
+            "6": {
+                "name": "风语·中品健体丸",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 1167
+                },
+                "buff_key": "buff_29288_6"
+            },
+            "7": {
+                "name": "风语·中品轻身丹",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 404
+                },
+                "buff_key": "buff_29288_7"
+            },
+            "8": {
+                "name": "风语·中品聚魂丹",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 404
+                },
+                "buff_key": "buff_29288_8"
+            },
+            "9": {
+                "name": "风语·中品大力丸",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 404
+                },
+                "buff_key": "buff_29288_9"
+            },
+            "10": {
+                "name": "风语·中品静心丸",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 404
+                },
+                "buff_key": "buff_29288_10"
+            }
+        },
+        "29289": {
+            "1": {
+                "name": "风语·上品玉璃散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 6303
+                },
+                "buff_key": "buff_29289_1"
+            },
+            "2": {
+                "name": "风语·上品破秽散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 6303
+                },
+                "buff_key": "buff_29289_2"
+            },
+            "3": {
+                "name": "风语·上品凝神散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 6303
+                },
+                "buff_key": "buff_29289_3"
+            },
+            "4": {
+                "name": "风语·上品活气散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 6303
+                },
+                "buff_key": "buff_29289_4"
+            },
+            "5": {
+                "name": "风语·上品亢龙散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 1713
+                },
+                "buff_key": "buff_29289_5"
+            },
+            "6": {
+                "name": "风语·上品展凤散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 1910
+                },
+                "buff_key": "buff_29289_6"
+            },
+            "7": {
+                "name": "风语·上品益气散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29289_7"
+            },
+            "8": {
+                "name": "风语·上品长恨散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29289_8"
+            },
+            "9": {
+                "name": "风语·中品玉璃散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 3151
+                },
+                "buff_key": "buff_29289_9"
+            },
+            "10": {
+                "name": "风语·中品破秽散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3151
+                },
+                "buff_key": "buff_29289_10"
+            },
+            "11": {
+                "name": "风语·中品凝神散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 3151
+                },
+                "buff_key": "buff_29289_11"
+            },
+            "12": {
+                "name": "风语·中品活气散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 3151
+                },
+                "buff_key": "buff_29289_12"
+            },
+            "13": {
+                "name": "风语·中品亢龙散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 856
+                },
+                "buff_key": "buff_29289_13"
+            },
+            "14": {
+                "name": "风语·中品展凤散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 955
+                },
+                "buff_key": "buff_29289_14"
+            },
+            "15": {
+                "name": "风语·中品益气散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29289_15"
+            },
+            "16": {
+                "name": "风语·中品长恨散",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29289_16"
+            }
+        },
+        "27784": {
+            "1": {
+                "name": "刚吃过风语·煎豆腐。",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 3409
+                },
+                "buff_key": "buff_27784_1"
+            }
+        },
+        "27785": {
+            "1": {
+                "name": "刚吃过风语·炖豆腐",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 3409
+                },
+                "buff_key": "buff_27785_1"
+            }
+        },
+        "27786": {
+            "1": {
+                "name": "刚吃过风语·小炒青菜",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 1029
+                },
+                "buff_key": "buff_27786_1"
+            }
+        },
+        "27787": {
+            "1": {
+                "name": "刚吃过风语·清蒸鲈鱼",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3409
+                },
+                "buff_key": "buff_27787_1"
+            }
+        },
+        "27788": {
+            "1": {
+                "name": "刚吃过断浪·炸鱼干",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 3409
+                },
+                "buff_key": "buff_27788_1"
+            }
+        },
+        "27789": {
+            "1": {
+                "name": "刚吃过风语·慈母游子羹",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_27789_1"
+            }
+        },
+        "27790": {
+            "1": {
+                "name": "刚吃过风语·农家小炒肉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_27790_1"
+            }
+        },
+        "27791": {
+            "1": {
+                "name": "刚吃过风语·油炸花生米",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_27791_1"
+            }
+        },
+        "27792": {
+            "1": {
+                "name": "刚吃过风语·葫芦叫花鸡",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 925
+                },
+                "buff_key": "buff_27792_1"
+            }
+        },
+        "17347": {
+            "1": {
+                "name": "汾酒",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 116
+                },
+                "buff_key": "buff_17347_1"
+            }
+        },
+        "17348": {
+            "1": {
+                "name": "汾酒·今朝醉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 232
+                },
+                "buff_key": "buff_17348_1"
+            }
+        },
+        "17349": {
+            "2": {
+                "name": "汾酒·旬又三",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_base": 464
+                },
+                "buff_key": "buff_17349_2"
+            }
+        },
+        "17350": {
+            "1": {
+                "name": "关外白酒",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 116
+                },
+                "buff_key": "buff_17350_1"
+            }
+        },
+        "17351": {
+            "1": {
+                "name": "关外白酒·今朝醉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 232
+                },
+                "buff_key": "buff_17351_1"
+            }
+        },
+        "17352": {
+            "2": {
+                "name": "关外白酒·旬又三",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_base": 464
+                },
+                "buff_key": "buff_17352_2"
+            }
+        },
+        "17353": {
+            "1": {
+                "name": "高粱酒",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 116
+                },
+                "buff_key": "buff_17353_1"
+            }
+        },
+        "17354": {
+            "1": {
+                "name": "高粱酒·今朝醉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 232
+                },
+                "buff_key": "buff_17354_1"
+            }
+        },
+        "17355": {
+            "2": {
+                "name": "高粱酒·旬又三",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 464
+                },
+                "buff_key": "buff_17355_2"
+            }
+        },
+        "17356": {
+            "1": {
+                "name": "状元红",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 116
+                },
+                "buff_key": "buff_17356_1"
+            }
+        },
+        "17357": {
+            "1": {
+                "name": "状元红·今朝醉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 232
+                },
+                "buff_key": "buff_17357_1"
+            }
+        },
+        "17358": {
+            "2": {
+                "name": "状元红·旬又三",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "spunk_base": 464
+                },
+                "buff_key": "buff_17358_2"
+            }
+        },
+        "17359": {
+            "1": {
+                "name": "女儿红",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 909
+                },
+                "buff_key": "buff_17359_1"
+            }
+        },
+        "17360": {
+            "1": {
+                "name": "女儿红·今朝醉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 1818
+                },
+                "buff_key": "buff_17360_1"
+            }
+        },
+        "17361": {
+            "2": {
+                "name": "女儿红·旬又三",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "haste_base": 3636
+                },
+                "buff_key": "buff_17361_2"
+            }
+        },
+        "17362": {
+            "1": {
+                "name": "玉露酒",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_17362_1"
+            }
+        },
+        "17363": {
+            "1": {
+                "name": "玉露酒·今朝醉",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_17363_1"
+            }
+        },
+        "17364": {
+            "2": {
+                "name": "玉露酒·旬又三",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_17364_2"
+            }
+        },
+        "17365": {
+            "56": {
+                "name": "创意料理·盛",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 6136
+                },
+                "buff_key": "buff_17365_56"
+            },
+            "57": {
+                "name": "创意料理·盛",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 1854
+                },
+                "buff_key": "buff_17365_57"
+            },
+            "58": {
+                "name": "创意料理·盛",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 1666
+                },
+                "buff_key": "buff_17365_58"
+            },
+            "59": {
+                "name": "创意料理·盛",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 6136
+                },
+                "buff_key": "buff_17365_59"
+            },
+            "60": {
+                "name": "创意料理·盛",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 6136
+                },
+                "buff_key": "buff_17365_60"
+            }
+        },
+        "673": {
+            "11": {
+                "name": "袖气",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_major_base": 317,
+                    "magical_shield_base": 1010
+                },
+                "buff_key": "buff_673_11"
+            }
+        },
+        "20938": {
+            "1": {
+                "name": "左旋右转",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 126
+                },
+                "buff_key": "buff_20938_1"
+            }
+        },
+        "23573": {
+            "1": {
+                "name": "泠风解怀",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 154
+                },
+                "buff_key": "buff_23573_1"
+            }
+        },
+        "362": {
+            "8": {
+                "name": "撼如雷",
+                "interval": 28800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 51
+                },
+                "buff_key": "buff_362_8"
+            }
+        },
+        "6363": {
+            "1": {
+                "name": "激雷",
+                "comment": "激雷队友",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 6,
+                "attributes": {
+                    "physical_overcome_gain": 256,
+                    "physical_attack_power_gain": 307
+                },
+                "buff_key": "buff_6363_1"
+            },
+            "2": {
+                "name": "激雷",
+                "comment": "原始",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 24,
+                "attributes": {
+                    "physical_critical_strike_rate": 3000
+                },
+                "buff_key": "buff_6363_2"
+            },
+            "3": {
+                "name": "激雷",
+                "comment": "激雷自身",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 24,
+                "attributes": {
+                    "physical_overcome_gain": 256,
+                    "physical_attack_power_gain": 307,
+                    "physical_critical_strike_rate": 3000
+                },
+                "buff_key": "buff_6363_3"
+            },
+            "4": {
+                "name": "激雷",
+                "comment": "夜征",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 72,
+                "attributes": {
+                    "all_shield_ignore": 717,
+                    "physical_critical_strike_rate": 3000
+                },
+                "buff_key": "buff_6363_4"
+            }
+        },
+        "661": {
+            "30": {
+                "name": "破风",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 7,
+                "attributes": {
+                    "physical_shield_base": -3500
+                },
+                "buff_key": "buff_661_30"
+            }
+        },
+        "12717": {
+            "30": {
+                "name": "破风",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 7,
+                "attributes": {
+                    "physical_shield_base": -4655,
+                    "all_damage_addition": -102
+                },
+                "buff_key": "buff_12717_30"
+            }
+        },
+        "3465": {
+            "1": {
+                "name": "破甲",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_shield_gain": -102
+                },
+                "buff_key": "buff_3465_1"
+            }
+        },
+        "23107": {
+            "1": {
+                "name": "号令三军",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 30,
+                "attributes": {
+                    "strain_base": 715
+                },
+                "buff_key": "buff_23107_1"
+            }
+        },
+        "566": {
+            "6": {
+                "name": "立地成佛",
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "solar_shield_gain": -154,
+                    "neutral_shield_gain": -154,
+                    "lunar_shield_gain": -154,
+                    "poison_shield_gain": -154
+                },
+                "buff_key": "buff_566_6"
+            }
+        },
+        "6214": {
+            "1": {
+                "name": "禅语",
+                "interval": 400,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 126
+                },
+                "buff_key": "buff_6214_1"
+            }
+        },
+        "29294": {
+            "1": {
+                "name": "秋肃",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 126
+                },
+                "buff_key": "buff_29294_1"
+            }
+        },
+        "24350": {
+            "1": {
+                "name": "皎素",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 51,
+                    "magical_critical_power_rate": 51
+                },
+                "buff_key": "buff_24350_1"
+            }
+        },
+        "378": {
+            "7": {
+                "name": "凭霄破云·碎星辰",
+                "comment": "小队",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 100
+                },
+                "buff_key": "buff_378_7"
+            },
+            "8": {
+                "name": "碎星辰",
+                "comment": "自身",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 100,
+                    "physical_critical_strike_rate": 500
+                },
+                "buff_key": "buff_378_8"
+            },
+            "9": {
+                "name": "碎星辰",
+                "comment": "负阴",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 204,
+                    "physical_critical_strike_rate": 1000
+                },
+                "buff_key": "buff_378_9"
+            },
+            "10": {
+                "name": "碎星辰",
+                "comment": "故长",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 100,
+                    "physical_critical_strike_rate": 500,
+                    "all_shield_ignore": 614
+                },
+                "recipes": [
+                    "recipe_5772_1"
+                ],
+                "buff_key": "buff_378_10"
+            },
+            "11": {
+                "name": "碎星辰",
+                "comment": "负阴+故长",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 204,
+                    "physical_critical_strike_rate": 1000,
+                    "all_shield_ignore": 614
+                },
+                "recipes": [
+                    "recipe_5772_1"
+                ],
+                "buff_key": "buff_378_11"
+            }
+        },
+        "375": {
+            "5": {
+                "name": "破苍穹",
+                "comment": "小队",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 100
+                },
+                "buff_key": "buff_375_5"
+            },
+            "11": {
+                "name": "破苍穹",
+                "comment": "自身",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "lunar_critical_strike_rate": 500,
+                    "magical_critical_power_rate": 100
+                },
+                "buff_key": "buff_375_11"
+            },
+            "12": {
+                "name": "破苍穹",
+                "comment": "抱阳",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_critical_strike_rate": 1000,
+                    "solar_critical_strike_rate": 1000,
+                    "neutral_critical_strike_rate": 1000,
+                    "lunar_critical_strike_rate": 1000,
+                    "magical_critical_power_rate": 204
+                },
+                "buff_key": "buff_375_12"
+            },
+            "13": {
+                "name": "破苍穹",
+                "comment": "归元",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "lunar_critical_strike_rate": 500,
+                    "magical_critical_power_rate": 100,
+                    "all_shield_ignore": 615
+                },
+                "buff_key": "buff_375_13"
+            },
+            "14": {
+                "name": "破苍穹",
+                "comment": "抱阳+归元",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_critical_strike_rate": 1000,
+                    "solar_critical_strike_rate": 1000,
+                    "neutral_critical_strike_rate": 1000,
+                    "lunar_critical_strike_rate": 1000,
+                    "magical_critical_power_rate": 204,
+                    "all_shield_ignore": 615
+                },
+                "buff_key": "buff_375_14"
+            }
+        },
+        "29354": {
+            "1": {
+                "name": "百锻",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 11298,
+                    "poison_overcome_base": 11298,
+                    "lunar_overcome_base": 11298,
+                    "neutral_overcome_base": 11298,
+                    "solar_overcome_base": 11298
+                },
+                "buff_key": "buff_29354_1"
+            },
+            "2": {
+                "name": "百锻",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 22596,
+                    "poison_overcome_base": 22596,
+                    "lunar_overcome_base": 22596,
+                    "neutral_overcome_base": 22596,
+                    "solar_overcome_base": 22596
+                },
+                "buff_key": "buff_29354_2"
+            },
+            "3": {
+                "name": "百锻",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 45192,
+                    "poison_overcome_base": 45192,
+                    "lunar_overcome_base": 45192,
+                    "neutral_overcome_base": 45192,
+                    "solar_overcome_base": 45192
+                },
+                "buff_key": "buff_29354_3"
+            }
+        },
+        "24742": {
+            "1": {
+                "name": "仙王蛊鼎",
+                "interval": 30,
+                "max_stack": 100,
+                "max_tick": 16,
+                "attributes": {
+                    "strain_base": 455
+                },
+                "buff_key": "buff_24742_1"
+            }
+        },
+        "4058": {
+            "2": {
+                "name": "戒火",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_cof": 51,
+                    "solar_damage_cof": 51,
+                    "neutral_damage_cof": 51,
+                    "lunar_damage_cof": 51,
+                    "poison_damage_cof": 51
+                },
+                "buff_key": "buff_4058_2"
+            }
+        },
+        "4246": {
+            "1": {
+                "name": "朝圣",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 556
+                },
+                "buff_key": "buff_4246_1"
+            },
+            "2": {
+                "name": "朝圣",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 835
+                },
+                "buff_key": "buff_4246_2"
+            }
+        },
+        "8248": {
+            "1": {
+                "name": "虚弱",
+                "interval": 400,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_shield_gain": -51
+                },
+                "buff_key": "buff_8248_1"
+            }
+        },
+        "8504": {
+            "1": {
+                "name": "振奋",
+                "interval": 480,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 101
+                },
+                "buff_key": "buff_8504_1"
+            }
+        },
+        "10031": {
+            "1": {
+                "name": "寒啸千军",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 51
+                },
+                "buff_key": "buff_10031_1"
+            }
+        },
+        "23543": {
+            "1": {
+                "name": "庄周梦",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 40,
+                "attributes": {
+                    "strain_base": 126
+                },
+                "buff_key": "buff_23543_1"
+            }
+        },
+        "16911": {
+            "1": {
+                "name": "弄梅",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 205,
+                    "physical_overcome_base": 700,
+                    "neutral_overcome_base": 700,
+                    "poison_overcome_base": 700,
+                    "solar_overcome_base": 700,
+                    "lunar_overcome_base": 700
+                },
+                "buff_key": "buff_16911_1"
+            }
+        },
+        "20854": {
+            "1": {
+                "name": "飘黄",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 30,
+                "attributes": {
+                    "strain_base": 148
+                },
+                "buff_key": "buff_20854_1"
+            }
+        },
+        "29524": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4218
+                },
+                "buff_key": "buff_29524_1"
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4391
+                },
+                "buff_key": "buff_29524_2"
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4072
+                },
+                "buff_key": "buff_29524_3"
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4393
+                },
+                "buff_key": "buff_29524_4"
+            },
+            "5": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4728
+                },
+                "buff_key": "buff_29524_5"
+            },
+            "6": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 5136
+                },
+                "buff_key": "buff_29524_6"
+            }
+        },
+        "29526": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4218
+                },
+                "buff_key": "buff_29526_1"
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4391
+                },
+                "buff_key": "buff_29526_2"
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4072
+                },
+                "buff_key": "buff_29526_3"
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4393
+                },
+                "buff_key": "buff_29526_4"
+            },
+            "5": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4728
+                },
+                "buff_key": "buff_29526_5"
+            },
+            "6": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 5136
+                },
+                "buff_key": "buff_29526_6"
+            }
+        },
+        "30748": {
+            "1": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 2824
+                },
+                "buff_key": "buff_30748_1"
+            },
+            "2": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 3301
+                },
+                "buff_key": "buff_30748_2"
+            }
+        },
+        "30749": {
+            "1": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 93
+                },
+                "buff_key": "buff_30749_1"
+            },
+            "2": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 12152
+                },
+                "buff_key": "buff_30749_2"
+            },
+            "3": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 135
+                },
+                "buff_key": "buff_30749_3"
+            },
+            "4": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 17507
+                },
+                "buff_key": "buff_30749_4"
+            }
+        },
+        "30743": {
+            "1": {
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 8506
+                },
+                "buff_key": "buff_30743_1"
+            },
+            "2": {
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 8506
+                },
+                "buff_key": "buff_30743_2"
+            },
+            "3": {
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 8506
+                },
+                "buff_key": "buff_30743_3"
+            },
+            "4": {
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 12254
+                },
+                "buff_key": "buff_30743_4"
+            },
+            "5": {
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 12254
+                },
+                "buff_key": "buff_30743_5"
+            },
+            "6": {
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 12254
+                },
+                "buff_key": "buff_30743_6"
+            }
+        },
+        "30742": {
+            "1": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 988,
+                    "all_overcome_base": 988
+                },
+                "buff_key": "buff_30742_1"
+            },
+            "2": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 1155,
+                    "all_overcome_base": 1155
+                },
+                "buff_key": "buff_30742_2"
+            }
+        },
+        "29519": {
+            "1": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2440
+                },
+                "buff_key": "buff_29519_1"
+            },
+            "2": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2440
+                },
+                "buff_key": "buff_29519_2"
+            },
+            "3": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2440
+                },
+                "buff_key": "buff_29519_3"
+            },
+            "4": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2540
+                },
+                "buff_key": "buff_29519_4"
+            },
+            "5": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2540
+                },
+                "buff_key": "buff_29519_5"
+            },
+            "6": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2540
+                },
+                "buff_key": "buff_29519_6"
+            },
+            "7": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2356
+                },
+                "buff_key": "buff_29519_7"
+            },
+            "8": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2356
+                },
+                "buff_key": "buff_29519_8"
+            },
+            "9": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2356
+                },
+                "buff_key": "buff_29519_9"
+            },
+            "10": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2542
+                },
+                "buff_key": "buff_29519_10"
+            },
+            "11": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2542
+                },
+                "buff_key": "buff_29519_11"
+            },
+            "12": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2542
+                },
+                "buff_key": "buff_29519_12"
+            },
+            "13": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2735
+                },
+                "buff_key": "buff_29519_13"
+            },
+            "14": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2735
+                },
+                "buff_key": "buff_29519_14"
+            },
+            "15": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2735
+                },
+                "buff_key": "buff_29519_15"
+            },
+            "16": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2971
+                },
+                "buff_key": "buff_29519_16"
+            },
+            "17": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2971
+                },
+                "buff_key": "buff_29519_17"
+            },
+            "18": {
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2971
+                },
+                "buff_key": "buff_29519_18"
+            }
+        },
+        "29537": {
+            "1": {
+                "name": "无修·会",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 270
+                },
+                "buff_key": "buff_29537_1"
+            },
+            "2": {
+                "name": "无修·会",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 282
+                },
+                "buff_key": "buff_29537_2"
+            },
+            "3": {
+                "name": "无修·会",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 261
+                },
+                "buff_key": "buff_29537_3"
+            },
+            "4": {
+                "name": "无修·会",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 282
+                },
+                "buff_key": "buff_29537_4"
+            },
+            "5": {
+                "name": "无修·会",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 303
+                },
+                "buff_key": "buff_29537_5"
+            },
+            "6": {
+                "name": "无修·会",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 330
+                },
+                "buff_key": "buff_29537_6"
+            }
+        },
+        "29536": {
+            "1": {
+                "name": "无修·破",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 270
+                },
+                "buff_key": "buff_29536_1"
+            },
+            "2": {
+                "name": "无修·破",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 282
+                },
+                "buff_key": "buff_29536_2"
+            },
+            "3": {
+                "name": "无修·破",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 261
+                },
+                "buff_key": "buff_29536_3"
+            },
+            "4": {
+                "name": "无修·破",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 282
+                },
+                "buff_key": "buff_29536_4"
+            },
+            "5": {
+                "name": "无修·破",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 303
+                },
+                "buff_key": "buff_29536_5"
+            },
+            "6": {
+                "name": "无修·破",
+                "interval": 192,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 330
+                },
+                "buff_key": "buff_29536_6"
+            }
+        },
+        "30950": {
+            "1": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1412
+                },
+                "buff_key": "buff_30950_1"
+            },
+            "2": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 2824
+                },
+                "buff_key": "buff_30950_2"
+            },
+            "3": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1650
+                },
+                "buff_key": "buff_30950_3"
+            },
+            "4": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 3300
+                },
+                "buff_key": "buff_30950_4"
+            }
+        },
+        "30757": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 1412
+                },
+                "buff_key": "buff_30757_1"
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2824
+                },
+                "buff_key": "buff_30757_2"
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 1650
+                },
+                "buff_key": "buff_30757_3"
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 3300
+                },
+                "buff_key": "buff_30757_4"
+            }
+        },
+        "30755": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 1412
+                },
+                "buff_key": "buff_30755_1"
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2824
+                },
+                "buff_key": "buff_30755_2"
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 1650
+                },
+                "buff_key": "buff_30755_3"
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3300
+                },
+                "buff_key": "buff_30755_4"
+            }
+        },
+        "30756": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 1412
+                },
+                "buff_key": "buff_30756_1"
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2824
+                },
+                "buff_key": "buff_30756_2"
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 1650
+                },
+                "buff_key": "buff_30756_3"
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 3300
+                },
+                "buff_key": "buff_30756_4"
+            }
+        },
+        "29529": {
+            "1": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 30,
+                    "magical_attack_power_base": 3
+                },
+                "buff_key": "buff_29529_1"
+            },
+            "2": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 32,
+                    "magical_attack_power_base": 3
+                },
+                "buff_key": "buff_29529_2"
+            },
+            "3": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 35,
+                    "magical_attack_power_base": 3
+                },
+                "buff_key": "buff_29529_3"
+            },
+            "4": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 38,
+                    "magical_attack_power_base": 4
+                },
+                "buff_key": "buff_29529_4"
+            },
+            "5": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 41,
+                    "magical_attack_power_base": 5
+                },
+                "buff_key": "buff_29529_5"
+            },
+            "6": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 45,
+                    "magical_attack_power_base": 5
+                },
+                "buff_key": "buff_29529_6"
+            }
+        },
+        "29528": {
+            "1": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 109
+                },
+                "buff_key": "buff_29528_1"
+            },
+            "2": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 114
+                },
+                "buff_key": "buff_29528_2"
+            },
+            "3": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 130
+                },
+                "buff_key": "buff_29528_3"
+            },
+            "4": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 141
+                },
+                "buff_key": "buff_29528_4"
+            },
+            "5": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 151
+                },
+                "buff_key": "buff_29528_5"
+            },
+            "6": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 165
+                },
+                "buff_key": "buff_29528_6"
+            }
+        },
+        "29608": {
+            "1": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 864
+                },
+                "buff_key": "buff_29608_1"
+            },
+            "2": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 671
+                },
+                "buff_key": "buff_29608_2"
+            },
+            "3": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 718
+                },
+                "buff_key": "buff_29608_3"
+            },
+            "4": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 765
+                },
+                "buff_key": "buff_29608_4"
+            },
+            "5": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 814
+                },
+                "buff_key": "buff_29608_5"
+            },
+            "6": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 930
+                },
+                "buff_key": "buff_29608_6"
+            },
+            "7": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 997
+                },
+                "buff_key": "buff_29608_7"
+            },
+            "8": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1080
+                },
+                "buff_key": "buff_29608_8"
+            },
+            "9": {
+                "name": "神兵·无双",
+                "interval": 96,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1166
+                },
+                "buff_key": "buff_29608_9"
+            }
+        },
+        "4761": {
+            "74": {
+                "name": "水·百川",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 21,
+                    "magical_critical_strike_base": 388
+                },
+                "buff_key": "buff_4761_74"
+            },
+            "75": {
+                "name": "水·灭虚",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 196
+                },
+                "buff_key": "buff_4761_75"
+            },
+            "76": {
+                "name": "水·斩流",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 176
+                },
+                "buff_key": "buff_4761_76"
+            },
+            "77": {
+                "name": "水·封山",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_shield_base": 324,
+                    "magical_shield_base": 324
+                },
+                "buff_key": "buff_4761_77"
+            },
+            "78": {
+                "name": "水·百川",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "spirit_base": 27,
+                    "magical_critical_strike_base": 508
+                },
+                "buff_key": "buff_4761_78"
+            },
+            "79": {
+                "name": "水·灭虚",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_base": 256
+                },
+                "buff_key": "buff_4761_79"
+            },
+            "80": {
+                "name": "水·斩流",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 230
+                },
+                "buff_key": "buff_4761_80"
+            },
+            "81": {
+                "name": "水·封山",
+                "interval": 96,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_base": 423
+                },
+                "buff_key": "buff_4761_81"
+            }
+        },
+        "29268": {
+            "12": {
+                "name": "风·灭虚",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_overcome_base": 27516
+                },
+                "buff_key": "buff_29268_12"
+            },
+            "13": {
+                "name": "风·斩流",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 27516
+                },
+                "buff_key": "buff_29268_13"
+            },
+            "14": {
+                "name": "风·百川",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29268_14"
+            },
+            "15": {
+                "name": "风·灭虚",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_overcome_base": 20174
+                },
+                "buff_key": "buff_29268_15"
+            },
+            "16": {
+                "name": "风·斩流",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 20174
+                },
+                "buff_key": "buff_29268_16"
+            },
+            "17": {
+                "name": "风·百川",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29268_17"
+            },
+            "18": {
+                "name": "风·灭虚",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_overcome_base": 30634
+                },
+                "buff_key": "buff_29268_18"
+            },
+            "19": {
+                "name": "风·斩流",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 30634
+                },
+                "buff_key": "buff_29268_19"
+            },
+            "20": {
+                "name": "风·灭虚",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_overcome_base": 35982
+                },
+                "buff_key": "buff_29268_20"
+            },
+            "21": {
+                "name": "风·斩流",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 35982
+                },
+                "buff_key": "buff_29268_21"
+            },
+            "22": {
+                "name": "风·百川",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29268_22"
+            },
+            "23": {
+                "name": "风·灭虚",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_overcome_base": 32129
+                },
+                "buff_key": "buff_29268_23"
+            },
+            "24": {
+                "name": "风·斩流",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 32129
+                },
+                "buff_key": "buff_29268_24"
+            },
+            "25": {
+                "name": "风·百川",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "buff_key": "buff_29268_25"
+            },
+            "26": {
+                "name": "风·灭虚",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_overcome_base": 38106
+                },
+                "buff_key": "buff_29268_26"
+            },
+            "27": {
+                "name": "风·斩流",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 38106
+                },
+                "buff_key": "buff_29268_27"
+            }
+        },
+        "15455": {
+            "1": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 10
+                },
+                "buff_key": "buff_15455_1"
+            },
+            "2": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 51
+                },
+                "buff_key": "buff_15455_2"
+            }
+        },
+        "15436": {
+            "1": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 207
+                },
+                "buff_key": "buff_15436_1"
+            },
+            "2": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 235
+                },
+                "buff_key": "buff_15436_2"
+            },
+            "3": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 261
+                },
+                "buff_key": "buff_15436_3"
+            },
+            "4": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 406
+                },
+                "buff_key": "buff_15436_4"
+            },
+            "5": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 496
+                },
+                "buff_key": "buff_15436_5"
+            },
+            "6": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 551
+                },
+                "buff_key": "buff_15436_6"
+            },
+            "7": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 614
+                },
+                "buff_key": "buff_15436_7"
+            },
+            "8": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 904
+                },
+                "buff_key": "buff_15436_8"
+            },
+            "9": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 822
+                },
+                "buff_key": "buff_15436_9"
+            },
+            "10": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 999
+                },
+                "buff_key": "buff_15436_10"
+            },
+            "11": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 1098
+                },
+                "buff_key": "buff_15436_11"
+            },
+            "12": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 1218
+                },
+                "buff_key": "buff_15436_12"
+            },
+            "13": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2376
+                },
+                "buff_key": "buff_15436_13"
+            },
+            "14": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2611
+                },
+                "buff_key": "buff_15436_14"
+            },
+            "15": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3001
+                },
+                "buff_key": "buff_15436_15"
+            },
+            "16": {
+                "interval": 480,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3501
+                },
+                "buff_key": "buff_15436_16"
             }
         }
     }

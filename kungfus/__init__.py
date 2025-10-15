@@ -18,8 +18,8 @@ class Kungfu:
         self.school = kungfu.SCHOOL
         self.buffs = kungfu.BUFFS
         self.dots = kungfu.DOTS
-        self.recipes = kungfu.RECIPES
         self.skills = kungfu.SKILLS
+        self.recipes = kungfu.RECIPES
         self.talents = kungfu.TALENTS
 
 

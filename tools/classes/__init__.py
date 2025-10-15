@@ -45,6 +45,8 @@ class AliasBase:
     def get_txt_field(self, id_value, level, field):
         txt_rows = self.txt[self.txt[self.id_column] == id_value]
         default_row = txt_rows[txt_rows['Level'] == 0]
+        if default_row.empty:
+            default_row = txt_rows[txt_rows['Level'] == 1]
         default_field = default_row.iloc[0][field] if not default_row.empty else ""
         txt_row = txt_rows[txt_rows['Level'] == level]
         field = txt_row.iloc[0][field] if not txt_row.empty else default_field

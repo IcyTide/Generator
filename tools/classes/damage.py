@@ -41,11 +41,14 @@ class DamageChain:
         self.solar_chain()
 
     def lunar_damage_call(self, damage_base, damage_rand):
-        damage_base = damage_base or self.source.lunar_damage_base
-        damage_rand = damage_rand or self.source.lunar_damage_rand
-        self.cal_base_damage(damage_base, damage_rand)
-        self.cal_attack_power_damage(self.source.lunar_attack_power, self.skill.magical_attack_power_cof)
-        self.lunar_chain()
+        if self.skill.custom_damage_base:
+            self.custom_damage_call()
+        else:
+            damage_base = damage_base or self.source.lunar_damage_base
+            damage_rand = damage_rand or self.source.lunar_damage_rand
+            self.cal_base_damage(damage_base, damage_rand)
+            self.cal_attack_power_damage(self.source.lunar_attack_power, self.skill.magical_attack_power_cof)
+            self.lunar_chain()
 
     def neutral_damage_call(self, damage_base, damage_rand):
         damage_base = damage_base or self.source.neutral_damage_base
@@ -60,6 +63,14 @@ class DamageChain:
         self.cal_base_damage(damage_base, damage_rand)
         self.cal_attack_power_damage(self.source.poison_attack_power, self.skill.magical_attack_power_cof)
         self.poison_chain()
+
+    def adaptive_damage_call(self, damage_base, damage_rand):
+        if self.skill.custom_damage_base:
+            self.custom_damage_call()
+
+    def custom_damage_call(self):
+        self.final_damage = self.damage = self.skill.custom_damage_base
+        self.cal_damage_cof(self.target.damage_cof(self.skill.custom_damage_type))
 
     def physical_surplus_call(self, damage_base, damage_rand):
         damage_base = damage_base or self.source.physical_damage_base
@@ -125,6 +136,9 @@ class DamageChain:
             self.source.magical_damage_addition, self.source.poison_overcome,
             self.target.poison_shield, self.target.poison_damage_cof
         )
+
+    def adaptive_chain(self):
+        ...
 
     def chain(self, damage_addition, overcome, shield, damage_cof):
         self.cal_global_damage()
@@ -244,6 +258,8 @@ class DamageChain:
             self.critical_strike = self.source.critical_strike(kind_type)
 
     def to_dict(self):
+        if not self.final_damage:
+            return {}
         self.cal_critical(self.skill.kind_type)
         # terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
         # recipes = sorted(term for term in terms if term.startswith("_"))

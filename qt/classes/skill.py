@@ -13,6 +13,7 @@ class Skill:
     damage: str | Expression
     critical_damage: str | Expression
     critical_strike: str | Expression
+    attributes: dict[str, int] = {}
 
     def __init__(self, belong: str, skill_id: int, skill_level: int, count: int = 1, **kwargs):
         self.belong = belong

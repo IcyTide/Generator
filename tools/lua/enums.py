@@ -33,6 +33,8 @@ class ROLE_TYPE(IntEnum):
 
 class PLAYER_ARENA_TYPE(IntEnum):
     DPS = auto()
+    T = auto()
+    THERAPY = auto()
 
 
 class CHARACTER_ENERGY_TYPE(IntEnum):
@@ -56,7 +58,8 @@ class SKILL_KIND_TYPE(StrEnum):
     LUNAR_MAGIC = "lunar"
     NEUTRAL_MAGIC = "neutral"
     POISON = "poison"
-    LEAP = "leap"
+    ADAPTIVE = ""
+    LEAP = ""
 
 
 class MOVE_STATE(IntEnum):
@@ -107,6 +110,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     MAX_LIFE_BASE = ""
     MAX_LIFE_ADDITIONAL = ""
     MAX_LIFE_PERCENT_ADD = ""
+    FINAL_MAX_LIFE_ADD_PERCENT = ""
     MAX_MANA_BASE = ""
     MAX_MANA_ADDITIONAL = ""
 
@@ -138,6 +142,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     DAMAGE_TO_LIFE_FOR_SELF = ""
     REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""
     SRC_CALL_COMMON_DETACH_BUFF_SCRIPT = ""
+    ADD_GLOBAL_ABSORB_SHIELD_RECORD_ONLY_BY_SELF_MAX_LIFE = ""
 
     DASH = ""
     PULL = ""
@@ -207,6 +212,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     CALL_LUNAR_DAMAGE = "call_lunar_damage"
     CALL_NEUTRAL_DAMAGE = "call_neutral_damage"
     CALL_POISON_DAMAGE = "call_poison_damage"
+    CALL_ADAPTIVE_DAMAGE = "call_adaptive_damage"
 
     CALL_SURPLUS_PHYSICS_DAMAGE = "call_physical_surplus"
     CALL_SURPLUS_SOLAR_DAMAGE = "call_solar_surplus"
@@ -242,6 +248,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_ATTACK_POWER_BASE = "neutral_attack_power_base"
     POISON_ATTACK_POWER_BASE = "poison_attack_power_base"
     MAGIC_ATTACK_POWER_BASE = "magical_attack_power_base"
+    ALL_TYPE_ATTACK_POWER_BASE = "all_attack_power_base"
 
     PHYSICS_ATTACK_POWER_PERCENT = "physical_attack_power_gain"
     SOLAR_ATTACK_POWER_PERCENT = "solar_attack_power_gain"
@@ -252,6 +259,8 @@ class ATTRIBUTE_TYPE(StrEnum):
     MAGIC_ATTACK_POWER_PERCENT = "magical_attack_power_gain"
 
     # Hit
+    ALL_TYPE_HIT_VALUE = ""
+
     PHYSICS_HIT_BASE_RATE = ""
     SOLAR_HIT_BASE_RATE = ""
     LUNAR_HIT_BASE_RATE = ""
@@ -266,6 +275,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_OVERCOME_BASE = "neutral_overcome_base"
     POISON_OVERCOME_BASE = "poison_overcome_base"
     MAGIC_OVERCOME = "magical_overcome_base"
+    ALL_TYPE_OVERCOME_BASE = "all_overcome_base"
 
     PHYSICS_OVERCOME_PERCENT = "physical_overcome_gain"
     SOLAR_OVERCOME_PERCENT = "solar_overcome_gain"
@@ -356,6 +366,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     POISON_MAGIC_RESIST_PERCENT = ""
 
     GLOBAL_RESIST_PERCENT = ""
+    GLOBAL_BLOCK = ""
 
     # Damage/Therapy Cof Attribute
     PHYSICS_DAMAGE_COEFFICIENT = "physical_damage_cof"

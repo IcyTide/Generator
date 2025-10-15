@@ -1,0 +1,29 @@
+BUFFS = {
+    # Gears
+    29524: dict(comment="{}"),
+    29526: dict(comment="{}"),
+    30748: dict(comment="{}"),
+    30749: dict(comment="{}"),
+    30743: dict(comment="{}"),
+    30742: dict(comment="{}"),
+    29519: dict(comment="{}"),
+    29537: dict(comment="{}"),
+    29536: dict(comment="{}"),
+    30950: dict(comment="{}"),
+    30757: dict(comment="{}"),
+    30755: dict(comment="{}"),
+    30756: dict(comment="{}"),
+    29529: dict(comment="{}"),
+    29528: dict(comment="{}"),
+    29608: dict(comment="{}"),
+    4761: {i - 7: {} for i in range(8)},
+    29268: {i - 15: {} for i in range(16)},
+    15455: dict(comment="{}"),
+    15436: dict(comment="{}"),
+    # Consumables
+    **{buff_id: dict(comment="{}") for buff_id in [29274, 29276, 29284, 29285, 29288, 29289]},
+    17365: {i - 4: {} for i in range(5)},
+    # Teams
+    23573: dict(name="泠风解怀"),
+    4246: dict(comment="{}")
+}

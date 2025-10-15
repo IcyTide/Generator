@@ -56,6 +56,9 @@ class Skill(AliasBase):
     path: str
     script_path: Path = None
 
+    custom_damage_base: int = 0
+    custom_damage_type: SKILL_KIND_TYPE = ""
+
     interval: int = 0
     tick: int = 1
     tick_cof: float = 1.
@@ -179,10 +182,17 @@ class Skill(AliasBase):
 
     def to_dict(self):
         if self.skill_level:
-            return {
-                "name": self.get_name(self.skill_id, self.skill_level),
-                "comment": self.comment,
-                **self.formula
-            }
+            if formula := self.formula:
+                return {
+                    "name": self.get_name(self.skill_id, self.skill_level),
+                    "comment": self.comment,
+                    **formula
+                }
+            else:
+                return {
+                    "name": self.get_name(self.skill_id, self.skill_level),
+                    "comment": self.comment,
+                    "attributes": {attr: param for attr, param in self.self_rollback_attributes}
+                }
         else:
             return {}

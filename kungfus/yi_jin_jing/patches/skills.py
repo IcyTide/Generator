@@ -34,6 +34,10 @@ SKILLS = {
         0.5: dict(comment="幻身单目标"),
         0: dict(comment="幻身单目标(我闻)")
     },
+    43136: {
+        0.5: dict(comment="幻身"),
+        0: dict(comment="幻身(我闻)")
+    },
     271: {
         1: dict(comment="韦陀献杵"),
         5: dict(comment="拿云式"),

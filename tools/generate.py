@@ -63,6 +63,7 @@ def get_gain_from_event(event_id):
         return None
     return get_variable("gain", event_row.SkillID, event_row.SkillLevel)
 
+
 def get_equip_detail(row):
     detail = {
         "id": row.ID, "name": row.Name, "school": row.BelongSchool, "kind": row.MagicKind, "level": int(row.Level),

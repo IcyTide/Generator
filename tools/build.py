@@ -1,16 +1,17 @@
 from tqdm import tqdm
 
+from gains import gain
 from kungfus import Kungfu, SUPPORT_KUNGFUS
-from parser.buff import parse_buff
-from parser.dot import parse_dot
-from parser.skill import parse_skill
 from tools.classes.belong import Belong
 from tools.classes.buff import Buff
 from tools.classes.dot import Dot
 from tools.classes.recipe import Recipe
 from tools.classes.skill import Skill
 from tools.parser.belong import parse_belong
+from tools.parser.buff import parse_buff
+from tools.parser.dot import parse_dot
 from tools.parser.recipe import parse_recipe
+from tools.parser.skill import parse_skill
 from tools.utils import save_code
 
 
@@ -46,7 +47,7 @@ class Builder:
         self.all_belongs = {}
         self.all_recipes = {}
         self.all_skill_recipes = {}
-        for kungfu in SUPPORT_KUNGFUS:
+        for kungfu in SUPPORT_KUNGFUS + [gain]:
             self.kungfu: Kungfu = kungfu
             print(f"Start parsing {kungfu.kungfu_id}")
             self.init_all()
@@ -96,7 +97,6 @@ class Builder:
                 self.skills[skill_id] = Skill(skill_id)
 
     def build_belongs(self, talents: list[dict[int, dict]]):
-        self.belongs[self.kungfu.kungfu_id] = Belong(self.kungfu.kungfu_id)
         for talent_items in talents:
             for talent_id, params in talent_items.items():
                 talent = self.belongs[talent_id] = Belong(talent_id, **params)

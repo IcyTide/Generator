@@ -29,12 +29,14 @@ class DamageAdd:
     lunar_damage_base: int = 0
     neutral_damage_base: int = 0
     poison_damage_base: int = 0
+    adaptive_damage_base: int = 0
 
     physical_damage_rand: int = 0
     solar_damage_rand: int = 0
     lunar_damage_rand: int = 0
     neutral_damage_rand: int = 0
     poison_damage_rand: int = 0
+    adaptive_damage_rand: int = 0
 
     all_damage_addition: int = 0
     physical_damage_addition: Expression = Variable("physical_damage_addition")
@@ -46,6 +48,10 @@ class DamageAdd:
 
 
 class AttackPower(BaseType):
+    physical_attack_power_base: int = 0
+    magical_attack_power_base: int = 0
+    all_attack_power_base: int = 0
+
     base_physical_attack_power: Expression = Variable("base_physical_attack_power")
     base_solar_attack_power: Expression = Variable("base_solar_attack_power")
     base_lunar_attack_power: Expression = Variable("base_lunar_attack_power")
@@ -191,10 +197,10 @@ class CriticalStrike(CriticalPower):
         return poison_critical_strike + self.poison_critical_strike_rate / DECIMAL_SCALE
 
     def critical_strike(self, kind_type: SKILL_KIND_TYPE):
-        return getattr(self, kind_type.value + "_critical_strike")
+        return getattr(self, f"{kind_type}_critical_strike")
 
     def critical_power(self, kind_type: SKILL_KIND_TYPE):
-        return getattr(self, kind_type.value + "_critical_power")
+        return getattr(self, f"{kind_type}_critical_power")
 
 
 class Overcome:
@@ -276,6 +282,12 @@ class DamageCof:
 
     coming_damage_cof: int = 0
 
+    def damage_cof(self, kind_type: SKILL_KIND_TYPE = ""):
+        if kind_type:
+            return getattr(self, f"{kind_type}_damage_cof")
+        else:
+            return Variable('damage_cof')
+
 
 class Target(Defense, DamageCof):
     damage_chain: "DamageChain"
@@ -297,6 +309,9 @@ class Target(Defense, DamageCof):
 
     def call_poison_damage(self, damage_base, damage_rand):
         self.damage_chain.poison_damage_call(damage_base, damage_rand)
+
+    def call_adaptive_damage(self, damage_base, damage_rand):
+        self.damage_chain.adaptive_damage_call(damage_base, damage_rand)
 
     def call_physical_surplus(self, damage_base, damage_rand):
         self.damage_chain.physical_surplus_call(damage_base, damage_rand)

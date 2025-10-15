@@ -165,6 +165,7 @@ SNAPSHOT_VARIABLES = [
     "pve_addition_base",
 ]
 TARGET_VARIABLES = [
+    "damage_cof"
     "level",
     "shield_constant"
 ]

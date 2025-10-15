@@ -94,6 +94,7 @@ class AttackPower(Major):
     neutral_attack_power_base: int = 0
     poison_attack_power_base: int = 0
     _magical_attack_power_base: int = 0
+    _all_attack_power_base: int = 0
 
     physical_attack_power_gain: int = 0
     solar_attack_power_gain: int = 0
@@ -135,6 +136,19 @@ class AttackPower(Major):
         self.neutral_attack_power_base += residual
         self.poison_attack_power_base += residual
         self._magical_attack_power_base = value
+
+    @property
+    def all_attack_power_base(self):
+        return self._all_attack_power_base
+
+    @all_attack_power_base.setter
+    def all_attack_power_base(self, value):
+        residual = value - self._all_attack_power_base
+        self.solar_attack_power_base += residual
+        self.lunar_attack_power_base += residual
+        self.neutral_attack_power_base += residual
+        self.poison_attack_power_base += residual
+        self._all_attack_power_base = value
 
     @property
     def magical_attack_power_gain(self):
@@ -450,6 +464,7 @@ class Overcome(Major):
     neutral_overcome_base: int = 0
     poison_overcome_base: int = 0
     _magical_overcome_base: int = 0
+    _all_overcome_base: int = 0
 
     physical_overcome_gain: int = 0
     solar_overcome_gain: int = 0
@@ -493,6 +508,20 @@ class Overcome(Major):
         self.neutral_overcome_base += residual
         self.poison_overcome_base += residual
         self._magical_overcome_base = value
+
+    @property
+    def all_overcome_base(self):
+        return self._all_overcome_base
+
+    @all_overcome_base.setter
+    def all_overcome_base(self, value):
+        residual = value - self.all_overcome_base
+        self.physical_overcome_base += residual
+        self.solar_overcome_base += residual
+        self.lunar_overcome_base += residual
+        self.neutral_overcome_base += residual
+        self.poison_overcome_base += residual
+        self._all_overcome_base = value
 
     @property
     def extra_physical_overcome(self):
@@ -852,6 +881,10 @@ class DamageCof(BaseType):
     lunar_damage_cof: int = 0
     neutral_damage_cof: int = 0
     poison_damage_cof: int = 0
+
+    @property
+    def damage_cof(self):
+        return self[f"{self.damage_type}_damage_cof"]
 
 
 class Target(Defense, DamageCof):
