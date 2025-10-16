@@ -17,12 +17,12 @@ class RecordEditorDialog(QDialog):
         layout = QVBoxLayout(self)
 
         if value:
-            self.record = Record(value.name, value.count)
+            self.record = Record(value.name, value.count, value.duration, value.buffs, value.skills, value.dots)
         else:
             self.record = Record()
         self.name_edit = QLineEdit(self.record.name)
         self.count_spin = QSpinBox(minimum=1, value=self.record.count)
-        self.duration_spin = QDoubleSpinBox(minimum=0, value=0, maximum=1000)
+        self.duration_spin = QDoubleSpinBox(minimum=0, value=self.record.duration, maximum=1000)
 
         layout.addWidget(LabelRow("Name:", self.name_edit))
         layout.addWidget(LabelRow("Count:", self.count_spin))

@@ -2,8 +2,6 @@ from copy import deepcopy
 
 from PySide6.QtWidgets import QDialog
 
-from qt import refresh_table
-from qt.classes.buff import BuffType
 from qt.classes.kungfu import Kungfu
 from qt.classes.section import Section, Sections
 from qt.component.loop_widget.attribute_dialog import AttributeDialog
@@ -86,7 +84,7 @@ class LoopScript:
     def show_attributes(self):
         if not (record := self.record):
             return
-        current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
+        current, snapshot = self.kungfu.create_attribute(False), self.kungfu.create_attribute(False)
         add_buffs_to_attributes(record.buffs, current, snapshot)
         AttributeDialog(current, snapshot, parent=self.widget).exec()
 
@@ -154,7 +152,8 @@ class LoopScript:
         if not (section := self.section):
             return
         self.widget.section_label.setText(section.name)
-        refresh_table(self.widget.record_table, self.records, True)
+        self.widget.record_table.refresh_table(self.records, True)
+        self.widget.record_table.set_current_row(0)
         self.select_record()
         self.show_section_damage_btn()
 
@@ -162,17 +161,20 @@ class LoopScript:
         dialog = SectionEditorDialog(parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             self.sections.append(dialog.section)
-            refresh_table(self.widget.section_table, self.sections, True)
+            self.widget.section_table.refresh_table(self.sections, True)
+            self.widget.section_table.set_current_row(-1)
             self.select_section()
             self.show_section_damage_btn()
 
     def edit_section(self):
         if not (section := self.section):
             return
+        index = self.widget.section_table.currentRow()
         dialog = SectionEditorDialog(section, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             self.sections[self.widget.section_table.currentRow()] = dialog.section
-            refresh_table(self.widget.section_table, self.sections, True)
+            self.widget.section_table.refresh_table(self.sections, True)
+            self.widget.section_table.set_current_row(index)
             self.widget.section_label.setText(dialog.section.name)
             self.show_section_damage_btn()
 
@@ -182,8 +184,8 @@ class LoopScript:
         section_copy = deepcopy(section)
         section_copy.name = f"{section_copy.name} - Copy"
         self.sections.append(section_copy)
-        refresh_table(self.widget.section_table, self.sections, True)
-        self.widget.section_table.selectRow(len(self.sections) - 1)
+        self.widget.section_table.refresh_table(self.sections, True)
+        self.widget.section_table.set_current_row(-1)
         self.widget.section_label.setText(section_copy.name)
         self.show_section_damage_btn()
 
@@ -191,7 +193,8 @@ class LoopScript:
         if not (section := self.section):
             return
         self.sections.remove(section)
-        refresh_table(self.widget.section_table, self.sections, True)
+        self.widget.section_table.refresh_table(self.sections, True)
+        self.widget.section_table.set_current_row(-1)
         self.select_section()
         self.show_section_damage_btn()
 
@@ -199,27 +202,30 @@ class LoopScript:
         if not (record := self.record):
             return
         self.widget.record_label.setText(record.name)
-        refresh_table(self.widget.buff_table, self.record.buffs)
-        refresh_table(self.widget.skill_table, self.record.skills)
-        refresh_table(self.widget.dot_table, self.record.dots)
+        self.widget.buff_table.refresh_table(self.record.buffs)
+        self.widget.skill_table.refresh_table(self.record.skills)
+        self.widget.dot_table.refresh_table(self.record.dots)
         self.show_record_damage_btn()
 
     def add_record(self):
         dialog = RecordEditorDialog(parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             self.records.append(dialog.record)
-            refresh_table(self.widget.record_table, self.records, True)
+            self.widget.record_table.refresh_table(self.records, True)
+            self.widget.record_table.set_current_row(-1)
             self.select_record()
             self.show_record_damage_btn()
 
     def edit_record(self):
         if not (record := self.record):
             return
+        index = self.widget.record_table.currentRow()
         dialog = RecordEditorDialog(record, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             self.records[self.widget.record_table.currentRow()] = dialog.record
-            refresh_table(self.widget.record_table, self.records, True)
-            self.widget.record_label.setText(record.name)
+            self.widget.record_table.refresh_table(self.records, True)
+            self.widget.record_table.set_current_row(index)
+            self.widget.record_label.setText(dialog.record.name)
             self.show_record_damage_btn()
 
     def copy_record(self):
@@ -228,8 +234,8 @@ class LoopScript:
         record_copy = deepcopy(record)
         record_copy.name = f"{record_copy.name} - Copy"
         self.records.append(record_copy)
-        refresh_table(self.widget.record_table, self.records, True)
-        self.widget.record_table.selectRow(len(self.records) - 1)
+        self.widget.record_table.refresh_table(self.records, True)
+        self.widget.record_table.set_current_row(-1)
         self.widget.record_label.setText(record_copy.name)
         self.show_record_damage_btn()
 
@@ -237,7 +243,8 @@ class LoopScript:
         if not (record := self.record):
             return
         self.records.remove(record)
-        refresh_table(self.widget.record_table, self.records, True)
+        self.widget.record_table.refresh_table(self.records, True)
+        self.widget.record_table.set_current_row(-1)
         self.select_record()
         self.show_record_damage_btn()
 
@@ -247,7 +254,7 @@ class LoopScript:
         dialog = BuffEditorDialog(buffs=self.kungfu.buffs, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and (buff := dialog.buff):
             record.buffs.append(buff)
-            refresh_table(self.widget.buff_table, record.buffs)
+            self.widget.buff_table.refresh_table(record.buffs)
 
     def edit_buff(self):
         if not (record := self.record):
@@ -259,7 +266,7 @@ class LoopScript:
         dialog = BuffEditorDialog(buffs=self.kungfu.buffs, buff=buff, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             record.buffs[buff_index] = dialog.buff
-            refresh_table(self.widget.buff_table, record.buffs)
+            self.widget.buff_table.refresh_table(record.buffs)
 
     def copy_buff(self):
         if not (record := self.record):
@@ -271,7 +278,7 @@ class LoopScript:
         buff_copy = deepcopy(buff)
         buff_copy.name = f"{buff_copy.name} - Copy"
         record.buffs.append(buff_copy)
-        refresh_table(self.widget.buff_table, record.buffs)
+        self.widget.buff_table.refresh_table(record.buffs)
 
     def delete_buff(self):
         if not (record := self.record):
@@ -280,7 +287,7 @@ class LoopScript:
         if buff_index < 0:
             return
         del record.buffs[buff_index]
-        refresh_table(self.widget.buff_table, record.buffs)
+        self.widget.buff_table.refresh_table(record.buffs)
 
     def select_skill(self):
         if not self.record:
@@ -293,7 +300,7 @@ class LoopScript:
         dialog = SkillEditorDialog(skills=self.kungfu.skills, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and (skill := dialog.skill):
             record.skills.append(skill)
-            refresh_table(self.widget.skill_table, record.skills)
+            self.widget.skill_table.refresh_table(record.skills)
             self.show_skill_damage_btn()
 
     def edit_skill(self):
@@ -306,7 +313,7 @@ class LoopScript:
         dialog = SkillEditorDialog(skills=self.kungfu.skills, skill=skill, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             record.skills[skill_index] = dialog.skill
-            refresh_table(self.widget.skill_table, record.skills)
+            self.widget.skill_table.refresh_table(record.skills)
             self.show_skill_damage_btn()
 
     def copy_skill(self):
@@ -319,7 +326,7 @@ class LoopScript:
         skill_copy = deepcopy(skill)
         skill_copy.name = f"{skill_copy.name} - Copy"
         record.skills.append(skill_copy)
-        refresh_table(self.widget.skill_table, record.skills)
+        self.widget.skill_table.refresh_table(record.skills)
         self.show_skill_damage_btn()
 
     def delete_skill(self):
@@ -329,7 +336,7 @@ class LoopScript:
         if skill_index < 0:
             return
         del record.skills[skill_index]
-        refresh_table(self.widget.skill_table, record.skills)
+        self.widget.skill_table.refresh_table(record.skills)
         self.show_skill_damage_btn()
 
     def select_dot(self):
@@ -343,7 +350,7 @@ class LoopScript:
         dialog = DotEditorDialog(dots=self.kungfu.dots, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and (dot := dialog.dot) and dot.source:
             record.dots.append(dot)
-            refresh_table(self.widget.dot_table, record.dots)
+            self.widget.dot_table.refresh_table(record.dots)
             self.show_dot_damage_btn()
 
     def edit_dot(self):
@@ -356,7 +363,7 @@ class LoopScript:
         dialog = DotEditorDialog(dots=self.kungfu.dots, dot=dot, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and dot.source:
             record.dots[dot_index] = dialog.dot
-            refresh_table(self.widget.dot_table, record.dots)
+            self.widget.dot_table.refresh_table(record.dots)
             self.show_dot_damage_btn()
 
     def copy_dot(self):
@@ -369,7 +376,7 @@ class LoopScript:
         dot_copy = deepcopy(dot)
         dot_copy.name = f"{dot_copy.name} - Copy"
         record.dots.append(dot_copy)
-        refresh_table(self.widget.dot_table, record.dots)
+        self.widget.dot_table.refresh_table(record.dots)
         self.show_dot_damage_btn()
 
     def delete_dot(self):
@@ -379,7 +386,7 @@ class LoopScript:
         if dot_index < 0:
             return
         del record.dots[dot_index]
-        refresh_table(self.widget.dot_table, record.dots)
+        self.widget.dot_table.refresh_table(record.dots)
         self.show_dot_damage_btn()
 
     def init(self, kungfu: Kungfu, sections: Sections = None):
@@ -388,6 +395,7 @@ class LoopScript:
             self.sections = sections
         else:
             self.sections = Sections([Section()])
-        refresh_table(self.widget.section_table, self.sections, True)
+        self.widget.section_table.refresh_table(self.sections, True)
+        self.widget.section_table.set_current_row(0)
         self.select_section()
         return self.sections

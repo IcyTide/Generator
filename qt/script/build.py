@@ -1,5 +1,4 @@
 from base.constant import MAX_RECIPE, MAX_TALENT_IN_POOL
-from qt import refresh_table
 from qt.classes.kungfu import Kungfu
 from qt.classes.recipe import Recipe, Recipes
 from qt.classes.talent import Talent, Talents
@@ -72,11 +71,11 @@ class RecipeScript:
 
     def select_skill(self, skill):
         if skill not in self.recipes:
-            refresh_table(self.widget.recipe_table, [])
+            self.widget.recipe_table.refresh_table([])
             return
         table_data = [[recipe["name"], recipe["desc"]] for recipe in self.recipes[skill]]
         select_rows = [recipe.index for recipe in self.parent.recipes.get(skill)]
-        refresh_table(self.widget.recipe_table, table_data, select=False)
+        self.widget.recipe_table.refresh_table(table_data, select=False)
         for i in range(self.widget.recipe_table.rowCount()):
             select = i in select_rows
             for j in range(self.widget.recipe_table.columnCount()):

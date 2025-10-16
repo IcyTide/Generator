@@ -1,3 +1,6 @@
+from base.expression import Variable
+
+
 def get_comments():
     levels = [1, 5, 6, 7, 8, 9, 12]
     combos = [0, 3, 8, 12, 15, 18, 20]
@@ -68,7 +71,11 @@ SKILLS = {
         4: {},
         5: {}
     },
-    19435: dict(comment="1-2段"), 8491: dict(comment="3段"),
+    **{
+        skill_id: dict(
+            comment=comment, dest_rollback_attributes=[("coming_damage_cof", 308 * Variable("talent_6824"))]
+        ) for skill_id, comment in zip([19435, 8491], ["1-2段", "3段"])
+    },
     14633: dict(comment="{}0%内力"),
     41057: {
         i + 1: dict(comment=f"{i + 1}段({delay}帧)") for i, delay in enumerate([0, 9, 12, 23])

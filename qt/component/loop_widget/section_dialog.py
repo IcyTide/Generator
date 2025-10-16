@@ -3,7 +3,6 @@ from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLineEdit, Q
 
 from qt import LabelRow
 from qt.classes.attribute import Attribute
-from qt.classes.buff import BuffType
 from qt.classes.section import Section, Sections
 from qt.component.loop_widget.damage_dialog import DamagesDialog, add_buffs_to_attributes, sub_buffs_to_attributes
 from qt.utils import evaluate_dot, evaluate_skill
@@ -18,12 +17,12 @@ class SectionEditorDialog(QDialog):
         layout = QVBoxLayout(self)
 
         if value:
-            self.section = Section(value.name, value.count)
+            self.section = Section(value.name, value.count, value.duration, value.records)
         else:
             self.section = Section()
         self.name_edit = QLineEdit(self.section.name)
         self.count_spin = QSpinBox(minimum=1, value=self.section.count)
-        self.duration_spin = QDoubleSpinBox(minimum=0, value=0, maximum=1000)
+        self.duration_spin = QDoubleSpinBox(minimum=0, value=self.section.duration, maximum=1000)
 
         layout.addWidget(LabelRow("Name:", self.name_edit))
         layout.addWidget(LabelRow("Count:", self.count_spin))
@@ -76,7 +75,7 @@ class AllDamageDialog(DamagesDialog):
     def __init__(self, sections: Sections, current: Attribute, snapshot: Attribute, parent: QWidget = None):
         self.damages, self.duration = {}, 0
         for section in sections:
-            self.duration += section.duration
+            self.duration += section.duration * section.count
             for record in section.records:
                 count = section.count * record.count
                 add_buffs_to_attributes(record.buffs, current, snapshot)

@@ -1,6 +1,6 @@
 BUFFS: dict[int, dict] = {
-    11221: dict(name="化蛟"),
-    11222: dict(name="沧雪"),
+    11221: dict(name="化蛟", comment="递增{}次"),
+    11222: dict(name="沧雪", comment="递增{}次"),
     19499: dict(name="砺锋"),
     31782: dict(
         attributes=[("coming_damage_cof", 512)],

@@ -59,13 +59,14 @@ class Kungfu:
             self.id2belong[belong_id]: recipes for belong_id, recipes in RECIPES[self.kungfu_id].items()
         }
 
-    def create_attribute(self) -> Attribute:
+    def create_attribute(self, require_grad: bool = True) -> Attribute:
         attributes, recipes, gains = self.attributes
         attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])
         for k, v in attributes.items():
             attribute[k] += v
         attribute.recipes += recipes
-        attribute.require_grad()
+        if require_grad:
+            attribute.require_grad()
         return attribute
 
     @property

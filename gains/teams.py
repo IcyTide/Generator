@@ -23,4 +23,20 @@ GAINS: dict[int, dict] = {
     15072: dict(buffs=[10031]),
     14071: dict(buffs=[23543, 16911]),
     28678: dict(buffs=[20854], skills=[29532]),
+
+    100460: dict(buffs=[70684]),
+    100424: dict(buffs=[70021]),
+    100431: dict(buffs=[70160]),
+    # 102319: dict(buffs=[70167]),
+    101766: dict(buffs=[71070]),
+    101759: dict(buffs=[71417]),
+    100120: dict(buffs=[71435]),
+    100687: dict(buffs=[71436]),
+    100935: dict(buffs=[71433]),
+    100874: dict(buffs=[71433]),
+    101339: dict(buffs=[70489]),
+    101344: dict(buffs=[70501]),
+    101144: dict(buffs=[71437]),
+    101401: dict(buffs=[71439]),
+    101413: dict(buffs=[71438])
 }

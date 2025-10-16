@@ -200,6 +200,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     SKILL_LUNAR_DAMAGE = "lunar_damage_base"
     SKILL_NEUTRAL_DAMAGE = "neutral_damage_base"
     SKILL_POISON_DAMAGE = "poison_damage_base"
+    SKILL_THERAPY = ""
 
     SKILL_PHYSICS_DAMAGE_RAND = "physical_damage_rand"
     SKILL_SOLAR_DAMAGE_RAND = "solar_damage_rand"
@@ -213,6 +214,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     CALL_NEUTRAL_DAMAGE = "call_neutral_damage"
     CALL_POISON_DAMAGE = "call_poison_damage"
     CALL_ADAPTIVE_DAMAGE = "call_adaptive_damage"
+    CALL_THERAPY = ""
 
     CALL_SURPLUS_PHYSICS_DAMAGE = "call_physical_surplus"
     CALL_SURPLUS_SOLAR_DAMAGE = "call_solar_surplus"

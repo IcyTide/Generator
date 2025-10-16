@@ -160,12 +160,12 @@ CURRENT_VARIABLES = [
 ]
 SNAPSHOT_VARIABLES = [
     "strain",
-    "physical_damage_addition", "magical_damage_addition"
+    "physical_damage_addition", "magical_damage_addition",
     "skill_damage_cof",
     "pve_addition_base",
 ]
 TARGET_VARIABLES = [
-    "damage_cof"
+    "damage_cof",
     "level",
     "shield_constant"
 ]

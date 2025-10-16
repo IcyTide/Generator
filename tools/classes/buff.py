@@ -88,10 +88,10 @@ class Buff(AliasBase):
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),
-                "attributes": {attr: param for attr, param in self.attributes},
+                "attributes": {} if self.skills else {attr: param for attr, param in self.attributes},
                 "recipes": [get_variable("recipe", *keys) for keys in self.recipes],
                 "skills": self.skills,
-                "buff_key": str(self.buff_key)
+                "buff_key": str(self.buff_key) if self.skills else ""
             }
         else:
             return {}

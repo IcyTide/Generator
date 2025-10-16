@@ -906,6 +906,7 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
         self.recipes = []
         self.buffs = {}
         self.target = Target()
+        self.target.damage_type = damage_type
 
     @property
     def current(self):
@@ -935,18 +936,22 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
         return variables
 
     def add_buff(self, buff: Buff):
-        for k, v in buff.attributes.items():
-            self[k] += math.ceil(v * buff.stack)
+        if buff.buff_key:
+            self.buffs[buff.buff_key] = buff.stack
+        else:
+            for k, v in buff.attributes.items():
+                self[k] += math.ceil(v * buff.stack)
         self.recipes += buff.recipes
-        self.buffs[buff.buff_key] = buff.stack
 
     def sub_buff(self, buff: Buff):
-        for k, v in buff.attributes.items():
-            self[k] -= math.ceil(v * buff.stack)
+        if buff.buff_key:
+            self.buffs.pop(buff.buff_key, None)
+        else:
+            for k, v in buff.attributes.items():
+                self[k] -= math.ceil(v * buff.stack)
         for recipe in buff.recipes:
             if recipe in self.recipes:
                 self.recipes.remove(recipe)
-        self.buffs.pop(buff.buff_key, None)
 
     def require_grad(self):
         for attr in GRAD_VARIABLES:

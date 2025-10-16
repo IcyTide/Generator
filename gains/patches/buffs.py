@@ -25,5 +25,7 @@ BUFFS = {
     17365: {i - 4: {} for i in range(5)},
     # Teams
     23573: dict(name="泠风解怀"),
-    4246: dict(comment="{}")
+    4246: dict(comment="{}"),
+    4058: {1: {}},
+    70021: {1: dict(comment="奇卷"), 2: dict(comment="战锋")},
 }
