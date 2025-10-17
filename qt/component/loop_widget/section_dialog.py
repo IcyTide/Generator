@@ -3,6 +3,7 @@ from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLineEdit, Q
 
 from qt import LabelRow
 from qt.classes.attribute import Attribute
+from qt.classes.damage import Damage
 from qt.classes.section import Section, Sections
 from qt.component.loop_widget.damage_dialog import DamagesDialog, add_buffs_to_attributes, sub_buffs_to_attributes
 from qt.utils import evaluate_dot, evaluate_skill
@@ -53,20 +54,27 @@ class SectionDamageDialog(DamagesDialog):
     def __init__(self, section: Section, current: Attribute, snapshot: Attribute, parent: QWidget = None):
         self.damages, self.duration = {}, section.duration
         for record in section.records:
-            count = section.count * record.count
             add_buffs_to_attributes(record.buffs, current, snapshot)
             variables = {**current.current, **current.snapshot}
             for skill in record.skills:
-                if skill.name not in self.damages:
-                    self.damages[skill.name] = 0
+                count = record.count * skill.count
+                if skill.name in self.damages:
+                    damage = self.damages[skill.name]
+                else:
+                    damage = self.damages[skill.name] = Damage(skill.name)
                 _, _, _, expected_damage = evaluate_skill(skill, variables)
-                self.damages[skill.name] += expected_damage * count
+                damage.formula += expected_damage * count
+                damage.count += count
             variables = {**current.current, **snapshot.snapshot}
             for dot in record.dots:
+                count = record.count * dot.count
+                if dot.name in self.damages:
+                    damage = self.damages[dot.name]
+                else:
+                    damage = self.damages[dot.name] = Damage(dot.name)
                 _, _, _, expected_damage = evaluate_dot(dot, variables)
-                if dot.name not in self.damages:
-                    self.damages[dot.name] = 0
-                self.damages[f"{dot.name}"] += expected_damage * count
+                damage.formula += expected_damage * count
+                damage.count += count
             sub_buffs_to_attributes(record.buffs, current, snapshot)
         super().__init__(section.name, section.count, parent)
 
@@ -77,19 +85,26 @@ class AllDamageDialog(DamagesDialog):
         for section in sections:
             self.duration += section.duration * section.count
             for record in section.records:
-                count = section.count * record.count
                 add_buffs_to_attributes(record.buffs, current, snapshot)
                 variables = {**current.current, **current.snapshot}
                 for skill in record.skills:
-                    if skill.name not in self.damages:
-                        self.damages[skill.name] = 0
+                    count = section.count * record.count * skill.count
+                    if skill.name in self.damages:
+                        damage = self.damages[skill.name]
+                    else:
+                        damage = self.damages[skill.name] = Damage(skill.name)
                     _, _, _, expected_damage = evaluate_skill(skill, variables)
-                    self.damages[skill.name] += expected_damage * count
+                    damage.formula += expected_damage * count
+                    damage.count += count
                 variables = {**current.current, **snapshot.snapshot}
                 for dot in record.dots:
+                    count = section.count * record.count * dot.count
+                    if dot.name in self.damages:
+                        damage = self.damages[dot.name]
+                    else:
+                        damage = self.damages[dot.name] = Damage(dot.name)
                     _, _, _, expected_damage = evaluate_dot(dot, variables)
-                    if dot.name not in self.damages:
-                        self.damages[dot.name] = 0
-                    self.damages[f"{dot.name}"] += expected_damage * count
+                    damage.formula += expected_damage * count
+                    damage.count += count
                 sub_buffs_to_attributes(record.buffs, current, snapshot)
         super().__init__("All", 1, parent)

@@ -59,14 +59,14 @@ class Table(QTableWidget):
         self.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)  # 禁止自动编辑
         self.verticalHeader().setVisible(False)
 
-    def refresh_table(self, data, index=False, select=True):
+    def refresh_table(self, data, index=False):
         self.setRowCount(0)
         for i, row in enumerate(data):
             self.insertRow(i)
             if index:
                 self.setItem(i, 0, QTableWidgetItem(str(i + 1)))
             for j, data in enumerate(row):
-                self.setItem(i, j + int(index), QTableWidgetItem(data))
+                self.setItem(i, j + int(index), QTableWidgetItem(str(data)))
 
     def set_current_row(self, row):
         if row < 0:

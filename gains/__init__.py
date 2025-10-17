@@ -16,4 +16,4 @@ class Gain:
     TALENTS: dict = [consumables.GAINS, teams.GAINS, gears.GAINS]
 
 
-gain = Kungfu(Gain)
+GAIN = Kungfu(Gain)

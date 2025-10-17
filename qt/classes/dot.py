@@ -5,9 +5,10 @@ from qt.classes.skill import Skill
 class Dot:
     dot_id: int
     dot_level: int
-    count: int
+    count: int | float
     source: Skill = None
-    tick: int
+    consume_tick: int = 1
+    current_tick: int = 1
 
     name: str
     comment: str = ""
@@ -19,18 +20,21 @@ class Dot:
     def stack(self):
         return self.source.count
 
-    def __init__(self, belong: str, dot_id: int, dot_level: int, tick: int = 1, count: int = 1, **kwargs):
+    @property
+    def total(self):
+        return f"{self.stack}/{self.consume_tick}"
+
+    def __init__(self, belong: str, dot_id: int, dot_level: int, count: int = 1, **kwargs):
         self.belong = belong
         self.dot_id = dot_id
         self.dot_level = dot_level
-        self.tick = tick
         self.count = count
         for k, v in kwargs.items():
             setattr(self, k, v)
 
     def __iter__(self):
         yield str(self)
-        for attr in ("dot_id", "dot_level", "stack", "tick", "count"):
+        for attr in ("dot_id", "dot_level", "total", "count"):
             yield str(getattr(self, attr))
 
     def __str__(self):
@@ -48,7 +52,8 @@ class Dot:
             dot_id=self.dot_id,
             dot_level=self.dot_level,
             source=self.source.to_dict(),
-            tick=self.tick,
+            consume_tick=self.consume_tick,
+            current_tick=self.current_tick,
             count=self.count
         )
 
@@ -60,7 +65,6 @@ class Dot:
             belong=json["belong"],
             dot_id=json["dot_id"],
             dot_level=json["dot_level"],
-            tick=json["tick"],
             count=json["count"],
             **kwargs
         )
@@ -71,4 +75,6 @@ class Dot:
             source,
             **skill_kwargs
         )
+        dot.consume_tick = json["consume_tick"]
+        dot.current_tick = json["current_tick"]
         return dot

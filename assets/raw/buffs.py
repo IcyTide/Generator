@@ -1515,7 +1515,7 @@ BUFFS = {
         25902: {
             1: {
                 "name": "流玉",
-                "interval": 160,
+                "interval": 240,
                 "max_stack": 2,
                 "max_tick": 1,
                 "recipes": [
@@ -2025,7 +2025,8 @@ BUFFS = {
                 "max_tick": 40,
                 "attributes": {
                     "all_shield_ignore": 614,
-                    "strain_gain": 307
+                    "strain_gain": 307,
+                    "poison_attack_power_gain": 51
                 }
             }
         },

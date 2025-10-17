@@ -8,7 +8,7 @@ SKILLS = {
     22605: dict(comment="远距离额外"),
     **{
         skill_id: dict(
-            comment=comment, dest_rollback_attributes=[("coming_damage_cof", 308 * Variable("talent_40173"))]
+            comment=comment, dest_rollback_attributes=[("coming_damage_cof", 308 * Variable("belong_40173"))]
         ) for skill_id, comment in zip([22489, 22490, 22553, 22554], ["", "远距离", "额外", "远距离额外"])
     },
     22610: dict(comment=""), 22611: dict(comment="远距离"), 22552: dict(comment="额外"),
@@ -23,9 +23,5 @@ SKILLS = {
         3: dict(comment="4段")
     },
     24166: dict(comment="3段"),
-    25311: dict(comment="1段"), 25312: dict(comment="2段"),
-    **{
-        skill_id: dict(dest_rollback_attributes=[("coming_damage_cof", 308 * Variable("talent_0.3 * 1024"))])
-        for skill_id in [22489, 22490]
-    }
+    25311: dict(comment="1段"), 25312: dict(comment="2段")
 }

@@ -73,7 +73,7 @@ SKILLS = {
     },
     **{
         skill_id: dict(
-            comment=comment, dest_rollback_attributes=[("coming_damage_cof", 308 * Variable("talent_6824"))]
+            comment=comment, dest_rollback_attributes=[("coming_damage_cof", 308 * Variable("belong_6824"))]
         ) for skill_id, comment in zip([19435, 8491], ["1-2段", "3段"])
     },
     14633: dict(comment="{}0%内力"),

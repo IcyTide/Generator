@@ -75,7 +75,7 @@ class RecipeScript:
             return
         table_data = [[recipe["name"], recipe["desc"]] for recipe in self.recipes[skill]]
         select_rows = [recipe.index for recipe in self.parent.recipes.get(skill)]
-        self.widget.recipe_table.refresh_table(table_data, select=False)
+        self.widget.recipe_table.refresh_table(table_data)
         for i in range(self.widget.recipe_table.rowCount()):
             select = i in select_rows
             for j in range(self.widget.recipe_table.columnCount()):

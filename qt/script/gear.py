@@ -151,6 +151,7 @@ class GearScript:
         dialog = StoneDialog(self.gears.stone, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             self.gears.stone = dialog.stone
+            self.update_kungfu()
 
     def select_strength(self, strength):
         for sub_script in self.sub_scripts.values():

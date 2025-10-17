@@ -1,6 +1,6 @@
 from tqdm import tqdm
 
-from gains import gain
+from gains import GAIN
 from kungfus import Kungfu, SUPPORT_KUNGFUS
 from tools.classes.belong import Belong
 from tools.classes.buff import Buff
@@ -47,7 +47,7 @@ class Builder:
         self.all_belongs = {}
         self.all_recipes = {}
         self.all_skill_recipes = {}
-        for kungfu in SUPPORT_KUNGFUS + [gain]:
+        for kungfu in SUPPORT_KUNGFUS + [GAIN]:
             self.kungfu: Kungfu = kungfu
             print(f"Start parsing {kungfu.kungfu_id}")
             self.init_all()

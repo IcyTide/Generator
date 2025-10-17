@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
 
 from base.constant import LEVEL_VARIABLES, SHIELD_BASE_MAP
 from qt import ComboBox, LabelRow
@@ -20,7 +20,7 @@ class SkillEditorDialog(QDialog):
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
         self.level_combo = ComboBox()
-        self.count_spin = QSpinBox(minimum=1, value=1)
+        self.count_spin = QDoubleSpinBox(minimum=0.01, value=1, singleStep=1)
         self.count_row = LabelRow("Count:", self.count_spin)
 
         layout.addWidget(LabelRow("Belong:", self.belong_combo))

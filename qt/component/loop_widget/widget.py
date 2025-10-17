@@ -87,7 +87,7 @@ class LoopWidget(QWidget):
 
         # Dot Display
         right_layout.addWidget(QLabel("Dot List"))
-        self.dot_table = Table(["Name", "ID", "Level", "Stack", "Tick", "Count"])
+        self.dot_table = Table(["Name", "ID", "Level", "Stack/Tick", "Count"])
         right_layout.addWidget(self.dot_table)
 
         right_layout.addLayout((btn_layout := QHBoxLayout()))

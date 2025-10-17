@@ -3,6 +3,7 @@ from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLineEdit, Q
 
 from qt import LabelRow
 from qt.classes.attribute import Attribute
+from qt.classes.damage import Damage
 from qt.classes.record import Record
 from qt.component.loop_widget.damage_dialog import DamagesDialog, add_buffs_to_attributes
 from qt.utils import evaluate_dot, evaluate_skill
@@ -57,14 +58,22 @@ class RecordDamageDialog(DamagesDialog):
         variables = {**current.current, **current.snapshot}
         self.damages, self.duration = {}, record.duration
         for skill in record.skills:
-            if skill.name not in self.damages:
-                self.damages[skill.name] = 0
+            count = skill.count
+            if skill.name in self.damages:
+                damage = self.damages[skill.name]
+            else:
+                damage = self.damages[skill.name] = Damage(skill.name)
             _, _, _, expected_damage = evaluate_skill(skill, variables)
-            self.damages[skill.name] += expected_damage * record.count
+            damage.formula += expected_damage * count
+            damage.count += count
         variables = {**current.current, **snapshot.snapshot}
         for dot in record.dots:
+            count = dot.count
+            if dot.name in self.damages:
+                damage = self.damages[dot.name]
+            else:
+                damage = self.damages[dot.name] = Damage(dot.name)
             _, _, _, expected_damage = evaluate_dot(dot, variables)
-            if dot.name not in self.damages:
-                self.damages[dot.name] = 0
-            self.damages[dot.name] += expected_damage * record.count
+            damage.formula += expected_damage * count
+            damage.count += count
         super().__init__(record.name, record.count, parent)

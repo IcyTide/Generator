@@ -1,10 +1,10 @@
-from PySide6.QtWidgets import QDialog, QLabel, QToolBox, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDialog, QLabel, QSizePolicy, QToolBox, QVBoxLayout, QWidget
 
 from base.constant import GRAD_VARIABLES, LEVEL_VARIABLES, SHIELD_BASE_MAP
-from base.expression import Expression
-from qt import ComboBox, LabelRow
+from qt import ComboBox, LabelRow, Table
 from qt.classes.attribute import Attribute
 from qt.classes.buff import Buff, BuffType
+from qt.classes.damage import Damage
 from qt.utils import percent
 
 
@@ -35,12 +35,13 @@ def sub_buffs_to_attributes(buffs: list[Buff], current: Attribute, snapshot: Att
 class DamagesDialog(QDialog):
     duration: float = 0.
 
-    damages: dict[str, int | Expression] = {}
+    damages: dict[str, Damage] = {}
 
     def __init__(self, name: str, count: int, parent: QWidget = None):
         super().__init__(parent)
         self.setWindowTitle("Damage Detail")
         layout = QVBoxLayout(self)
+        self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
         self.tool_box = QToolBox()
         layout.addWidget(self.tool_box)
         sub_layout = QVBoxLayout(sub_page := QWidget())
@@ -49,10 +50,10 @@ class DamagesDialog(QDialog):
         sub_layout.addWidget(LabelRow("Duration:", QLabel(str(self.duration))))
         self.target_level = ComboBox()
         sub_layout.addWidget(LabelRow("Target Level:", self.target_level))
-        self.expected_damage_label = QLabel("")
-        sub_layout.addWidget(LabelRow("Expected Damage:", self.expected_damage_label))
-        self.expected_dps_label = QLabel("")
-        sub_layout.addWidget(LabelRow("Expected DPS:", self.expected_dps_label))
+        self.total_damage_label = QLabel("")
+        sub_layout.addWidget(LabelRow("Expected Damage:", self.total_damage_label))
+        self.dps_label = QLabel("")
+        sub_layout.addWidget(LabelRow("Expected DPS:", self.dps_label))
         self.tool_box.addItem(sub_page, "Abstract")
 
         sub_layout = QVBoxLayout(sub_page := QWidget())
@@ -63,10 +64,8 @@ class DamagesDialog(QDialog):
         self.tool_box.addItem(sub_page, "Gradient")
 
         sub_layout = QVBoxLayout(sub_page := QWidget())
-        self.damage_labels: dict[str, QLabel] = {}
-        for name in self.damages:
-            self.damage_labels[name] = damage_label = QLabel("")
-            sub_layout.addWidget(LabelRow(name, damage_label))
+        self.damage_table = Table(["name", "count", "damage", "proportion"])
+        sub_layout.addWidget(self.damage_table)
         self.tool_box.addItem(sub_page, "Details")
 
         self.target_level.currentTextChanged.connect(self.select_target_level)
@@ -77,20 +76,22 @@ class DamagesDialog(QDialog):
             return
         level = int(level)
         variables = LEVEL_VARIABLES(level)
-        total_expected_damage = 0
-        grad_damages = {attr: 0 for attr in GRAD_VARIABLES}
+        damages, grad_damages = {}, {attr: 0 for attr in GRAD_VARIABLES}
         for name, damage in self.damages.items():
-            expected_damage = int(damage.evaluate(variables))
-            self.damage_labels[name].setText(str(expected_damage))
+            damages[name] = int(damage.formula.evaluate(variables))
             for attr, delta in GRAD_VARIABLES.items():
-                grad_damages[attr] += damage.evaluate({**variables, attr: delta})
-            total_expected_damage += expected_damage
-
+                grad_damages[attr] += damage.formula.evaluate({**variables, attr: delta})
+        total_damage = sum(damages.values())
         for attr, grad_damage in grad_damages.items():
-            gradient = percent(grad_damage / total_expected_damage - 1)
+            gradient = percent(grad_damage / total_damage - 1)
             self.grad_labels[attr].setText(str(gradient))
 
-        self.expected_damage_label.setText(str(total_expected_damage))
+        damages_data = [
+            (name, round(self.damages[name].count, 2), damage, percent(damage / total_damage))
+            for name, damage in sorted(damages.items(), key=lambda x: x[1], reverse=True)
+        ]
+        self.damage_table.refresh_table(damages_data)
+        self.total_damage_label.setText(str(total_damage))
         duration = self.duration if self.duration else 1
-        expected_dps = int(total_expected_damage / duration)
-        self.expected_dps_label.setText(str(expected_dps))
+        dps = int(total_damage / duration)
+        self.dps_label.setText(str(dps))
