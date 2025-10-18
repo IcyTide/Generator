@@ -27,6 +27,14 @@ class Section:
                 return False
         return True
 
+    def copy(self):
+        return Section(
+            self.name,
+            self.count,
+            self.duration,
+            [record.copy() for record in self.records]
+        )
+
     def to_dict(self):
         return dict(
             name=self.name,

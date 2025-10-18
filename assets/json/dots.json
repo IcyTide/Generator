@@ -713,7 +713,7 @@
                         "30": {
                             "name": "",
                             "comment": "",
-                            "damage": "(60 + physical_attack_power * int(729.3035383435499 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(60 + physical_attack_power * int(802.233892177905 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike"
                         }
@@ -733,7 +733,7 @@
                         "30": {
                             "name": "破风",
                             "comment": "",
-                            "damage": "(60 + physical_attack_power * int(729.3035383435499 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(60 + physical_attack_power * int(802.233892177905 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike"
                         }
@@ -753,7 +753,7 @@
                         "30": {
                             "name": "",
                             "comment": "",
-                            "damage": "(60 + physical_attack_power * int(729.3035383435499 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0008928571428571428) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(60 + physical_attack_power * int(802.233892177905 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0008928571428571428) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike"
                         }
@@ -1316,7 +1316,7 @@
                         "20": {
                             "name": "",
                             "comment": "",
-                            "damage": "(33 + physical_attack_power * 0.5875) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(33 + physical_attack_power * 0.5578125) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike"
                         }
@@ -1335,7 +1335,7 @@
                         "20": {
                             "name": "",
                             "comment": "",
-                            "damage": "(33 + physical_attack_power * 0.5875) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(33 + physical_attack_power * 0.5572916666666666) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * (1 + physical_overcome) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike"
                         }

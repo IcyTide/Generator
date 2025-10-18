@@ -1,5 +1,3 @@
-from copy import deepcopy
-
 from PySide6.QtWidgets import QDialog
 
 from qt.classes.kungfu import Kungfu
@@ -181,7 +179,7 @@ class LoopScript:
     def copy_section(self):
         if not (section := self.section):
             return
-        section_copy = deepcopy(section)
+        section_copy = section.copy()
         section_copy.name = f"{section_copy.name} - Copy"
         self.sections.append(section_copy)
         self.widget.section_table.refresh_table(self.sections, True)
@@ -231,7 +229,7 @@ class LoopScript:
     def copy_record(self):
         if not (record := self.record):
             return
-        record_copy = deepcopy(record)
+        record_copy = record.copy()
         record_copy.name = f"{record_copy.name} - Copy"
         self.records.append(record_copy)
         self.widget.record_table.refresh_table(self.records, True)
@@ -275,7 +273,7 @@ class LoopScript:
         if buff_index < 0:
             return
         buff = record.buffs[buff_index]
-        buff_copy = deepcopy(buff)
+        buff_copy = buff.copy()
         buff_copy.name = f"{buff_copy.name} - Copy"
         record.buffs.append(buff_copy)
         self.widget.buff_table.refresh_table(record.buffs)
@@ -323,7 +321,7 @@ class LoopScript:
         if skill_index < 0:
             return
         skill = record.skills[skill_index]
-        skill_copy = deepcopy(skill)
+        skill_copy = skill.copy()
         skill_copy.name = f"{skill_copy.name} - Copy"
         record.skills.append(skill_copy)
         self.widget.skill_table.refresh_table(record.skills)
@@ -373,7 +371,7 @@ class LoopScript:
         if dot_index < 0:
             return
         dot = record.dots[dot_index]
-        dot_copy = deepcopy(dot)
+        dot_copy = dot.copy()
         dot_copy.name = f"{dot_copy.name} - Copy"
         record.dots.append(dot_copy)
         self.widget.dot_table.refresh_table(record.dots)

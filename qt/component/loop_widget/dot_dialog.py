@@ -1,5 +1,3 @@
-from copy import deepcopy
-
 from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
 from base.constant import LEVEL_VARIABLES, SHIELD_BASE_MAP
@@ -70,7 +68,7 @@ class DotEditorDialog(QDialog):
             self.id_combo.setCurrentText(str(dot.dot_id))
             self.level_combo.setCurrentText(str(dot.dot_level))
             if dot.source:
-                self.dot.source = deepcopy(dot.source)
+                self.dot.source = dot.source.copy()
                 self.source_button.setText(str(self.dot.source))
             self.consume_tick_spin.setValue(dot.consume_tick)
             self.current_tick_spin.setValue(dot.current_tick)

@@ -30,6 +30,7 @@ class Buff:
         self.buff_level = buff_level
         self.stack = stack
         self.buff_type = buff_type
+        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -46,6 +47,9 @@ class Buff:
         elif self.comment:
             return self.comment
         return f"{self.buff_id}-{self.buff_level}"
+
+    def copy(self):
+        return Buff(self.belong, self.buff_id, self.buff_level, self.buff_type, self.stack, **self.kwargs)
 
     def to_dict(self):
         return dict(

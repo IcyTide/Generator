@@ -29,6 +29,7 @@ class Dot:
         self.dot_id = dot_id
         self.dot_level = dot_level
         self.count = count
+        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
 
@@ -45,6 +46,13 @@ class Dot:
         elif self.comment:
             return self.comment
         return f"{self.dot_id}-{self.dot_level}"
+
+    def copy(self):
+        dot = Dot(self.belong, self.dot_id,  self.dot_level, self.count, **self.kwargs)
+        dot.source = self.source.copy()
+        dot.consume_tick = self.consume_tick
+        dot.current_tick = self.current_tick
+        return dot
 
     def to_dict(self):
         return dict(

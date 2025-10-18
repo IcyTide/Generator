@@ -939,7 +939,7 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
 
     def add_buff(self, buff: Buff):
         if buff.buff_key:
-            self.buffs[buff.buff_key] = buff.stack
+            self.buffs[buff.buff_key] = buff.stack * buff.buff_level
         else:
             for k, v in buff.attributes.items():
                 self[k] += math.ceil(v * buff.stack)

@@ -34,6 +34,14 @@ class Record:
             return False
         return True
 
+    def copy(self):
+        return Record(
+            self.name, self.count, self.duration,
+            [buff.copy() for buff in self.buffs],
+            [skill.copy() for skill in self.skills],
+            [dot.copy() for dot in self.dots]
+        )
+
     def to_dict(self):
         return dict(
             name=self.name, count=self.count, duration=self.duration,

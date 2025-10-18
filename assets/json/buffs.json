@@ -1379,7 +1379,7 @@
                 "max_stack": 1,
                 "max_tick": 25,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "skill_damage_final_cof": 51
                 }
             }
         },
@@ -1390,7 +1390,7 @@
                 "max_stack": 1,
                 "max_tick": 25,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "skill_damage_final_cof": 51
                 }
             }
         },
@@ -1401,7 +1401,7 @@
                 "max_stack": 1,
                 "max_tick": 25,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "skill_damage_final_cof": 51
                 }
             }
         },
@@ -1412,7 +1412,7 @@
                 "max_stack": 1,
                 "max_tick": 25,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "skill_damage_final_cof": 51
                 }
             }
         },
@@ -1725,7 +1725,7 @@
                 "attributes": {
                     "physical_critical_strike_rate": 2000,
                     "physical_attack_power_gain": 154,
-                    "strain_gain": 410
+                    "strain_gain": 512
                 }
             },
             "6": {
@@ -1736,7 +1736,7 @@
                 "max_tick": 8,
                 "attributes": {
                     "physical_critical_strike_rate": 2000,
-                    "strain_gain": 410
+                    "strain_gain": 512
                 }
             },
             "7": {
@@ -4004,7 +4004,7 @@
                 "name": "连珠",
                 "interval": 16,
                 "max_stack": 2,
-                "max_tick": 18,
+                "max_tick": 19,
                 "skills": [
                     36157
                 ],
@@ -4254,7 +4254,7 @@
             "1": {
                 "name": "封枢",
                 "interval": 160,
-                "max_stack": 10,
+                "max_stack": 15,
                 "max_tick": 1,
                 "skills": [
                     38438

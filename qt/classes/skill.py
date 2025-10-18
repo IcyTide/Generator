@@ -20,6 +20,7 @@ class Skill:
         self.skill_id = skill_id
         self.skill_level = skill_level
         self.count = count
+        self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
         self.damage = parse_expr(self.damage)
@@ -39,6 +40,9 @@ class Skill:
         elif self.comment:
             return self.comment
         return f"{self.skill_id}-{self.skill_level}"
+
+    def copy(self):
+        return Skill(self.belong, self.skill_id, self.skill_level, self.count, **self.kwargs)
 
     def to_dict(self):
         return dict(
