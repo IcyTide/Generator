@@ -6,6 +6,7 @@ class Talent:
 
     attributes: dict[str, int] = {}
     recipes: list[str] = []
+    belong_key: str = ""
 
     def __init__(self, talent_id: int, **kwargs):
         self.talent_id = talent_id
@@ -58,21 +59,16 @@ class Talents:
         return self.talents.pop(key)
 
     @property
-    def attributes(self):
-        attributes, recipes, gains = {}, [], []
-        for talent in self.talents.values():
+    def content(self):
+        attributes, recipes, talents = {}, [], {}
+        for talent in self:
             for k, v in talent.attributes.items():
                 if k not in attributes:
                     attributes[k] = 0
                 attributes[k] += v
             recipes += talent.recipes
-        for talent in self.talent_pool:
-            for k, v in talent.attributes.items():
-                if k not in attributes:
-                    attributes[k] = 0
-                attributes[k] += v
-            recipes += talent.recipes
-        return attributes, recipes, gains
+            talents[talent.name] = talent.belong_key
+        return attributes, recipes, talents
 
     def to_dict(self):
         ret: dict = {index: talent.to_dict() for index, talent in self.talents.items()}

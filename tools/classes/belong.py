@@ -1,4 +1,3 @@
-from base.expression import Variable
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE
 from tools.settings import recipe_txts

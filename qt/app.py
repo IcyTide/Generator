@@ -16,7 +16,7 @@ from qt.script.top import TopScript
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("")
+        self.setWindowTitle("Generator")
         self.icon = QIcon("assets/icon.ico")
         self.setWindowIcon(self.icon)
 

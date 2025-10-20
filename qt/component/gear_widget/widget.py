@@ -1,9 +1,11 @@
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QGridLayout, QHBoxLayout, QLabel, QPushButton, QSizePolicy, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QCheckBox, QGridLayout, QHBoxLayout, QLabel, QPushButton, QSizePolicy, QVBoxLayout, \
+    QWidget
 
 from assets.raw.enchants import ENCHANTS
 from assets.raw.equipments import EQUIPMENTS
-from base.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STRENGTH_LEVEL, POSITIONS
+from base.constant import EMBED_POSITIONS, MAX_EMBED_LEVEL, MAX_STRENGTH_LEVEL, POSITIONS, SPECIAL_ENCHANT_MAP, \
+    STONE_POSITIONS
 from qt import ComboBox, LabelColumn
 
 
@@ -23,26 +25,37 @@ class SubGearWidget:
         self.equipment_combo = ComboBox()
         layout.addWidget(self.equipment_combo, row, 3)
 
-        if self.enchant_data:
-            self.enchant_combo = ComboBox()
-            layout.addWidget(self.enchant_combo, row, 4)
-            self.enchant_combo.set_items([""] + list(self.enchant_data))
+        self.enchant_combo = ComboBox()
+        layout.addWidget(self.enchant_combo, row, 4)
+        self.enchant_combo.set_items([""] + list(self.enchant_data))
+
+        if self.position in SPECIAL_ENCHANT_MAP:
+            self.special_enchant: QCheckBox | None = QCheckBox()
+            layout.addWidget(self.special_enchant, row, 5)
         else:
-            self.enchant_combo = None
+            self.special_enchant = None
 
         self.strength_combo = ComboBox()
-        layout.addWidget(self.strength_combo, row, 5)
+        layout.addWidget(self.strength_combo, row, 6)
         self.embed_combos: list[ComboBox] = []
         for i in range(EMBED_POSITIONS[self.position]):
             self.embed_combos.append(embed_combo := ComboBox())
             embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), MAX_EMBED_LEVEL)
-            layout.addWidget(embed_combo, row, 6 + i)
+            layout.addWidget(embed_combo, row, 7 + i)
+        if self.position in STONE_POSITIONS:
+            self.stone_btn = QPushButton("Select Stone")
+            layout.addWidget(self.stone_btn, row, 10)
+        else:
+            self.stone_btn = None
         self.detail_btn = QPushButton("Detail")
-        layout.addWidget(self.detail_btn, row, 9)
+        layout.addWidget(self.detail_btn, row, 11)
 
 
 class GearWidget(QWidget):
-    HEADERS = ["Position", "School", "Kind", "Equipment", "Enchant", "Strength", "Embed1", "Embed2", "Embed3", "Detail"]
+    HEADERS = [
+        "Position", "School", "Kind", "Equipment", "Enchant", "SpecialEnchant",
+        "Strength", "Embed1", "Embed2", "Embed3", "Stone", "Detail"
+    ]
 
     def __init__(self):
         super().__init__()
@@ -50,16 +63,19 @@ class GearWidget(QWidget):
 
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
-        self.stone_btn = QPushButton("Select Stone")
-        top_layout.addWidget(LabelColumn("", self.stone_btn))
+        self.gain_attribute = QCheckBox()
+        top_layout.addWidget(LabelColumn("Add Gain Attribute", self.gain_attribute), 1)
+        self.gain_attribute.setChecked(True)
+        self.special_enchant = QCheckBox()
+        top_layout.addWidget(LabelColumn("All SpecialEnchant", self.special_enchant), 1)
         self.strength_combo = ComboBox()
         self.strength_combo.set_items(range(MAX_STRENGTH_LEVEL + 1), -1)
-        top_layout.addWidget(LabelColumn("All Strength", self.strength_combo))
+        top_layout.addWidget(LabelColumn("All Strength", self.strength_combo), 2)
         self.embed_combo = ComboBox()
         self.embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), -1)
-        top_layout.addWidget(LabelColumn("All Embed", self.embed_combo))
+        top_layout.addWidget(LabelColumn("All Embed", self.embed_combo), 2)
         self.detail_btn = QPushButton("Detail")
-        top_layout.addWidget(LabelColumn("", self.detail_btn))
+        top_layout.addWidget(LabelColumn("", self.detail_btn), 2)
 
         grid_layout = QGridLayout()
         layout.addLayout(grid_layout)

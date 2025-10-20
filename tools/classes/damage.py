@@ -13,6 +13,7 @@ class DamageChain:
     damage: int | Expression
     critical_damage: int | Expression
     critical_strike: int | Expression
+    defense: Expression
 
     def __init__(self, source: "Attribute", target: "Target", skill: "Skill"):
         self.source = source
@@ -143,8 +144,8 @@ class DamageChain:
     def chain(self, damage_addition, overcome, shield, damage_cof):
         self.cal_global_damage()
         self.cal_damage_add(damage_addition + self.source.all_damage_addition, self.source.move_state_damage_addition)
-        self.cal_overcome(overcome)
         self.cal_defense(shield)
+        self.cal_overcome(overcome)
         self.cal_level_reduction()
         self.cal_strain()
         self.cal_pve_add()
@@ -199,24 +200,25 @@ class DamageChain:
         rate = 1 + self.source.skill_damage_final_cof / BINARY_SCALE
         self.damage *= rate
         if self.need_int:
-            self.damage = Int(self.damage * rate)
-
-    def cal_overcome(self, overcome):
-        if self.need_int:
-            rate = 1 + Int(overcome * BINARY_SCALE) / BINARY_SCALE
-            self.damage = Int(self.damage * rate)
-        else:
-            self.damage *= 1 + overcome
+            self.damage = Int(self.damage)
 
     def cal_defense(self, shield):
         shield = shield * (1 - self.source.all_shield_ignore / BINARY_SCALE)
         if self.need_int:
             shield = Int(shield)
             defense = shield / (shield + self.shield_constant)
-            rate = 1 - Int(defense * BINARY_SCALE) / BINARY_SCALE
-            self.damage = Int(self.damage * rate)
+            self.defense = defense
         else:
             self.damage *= self.shield_constant / (shield + self.shield_constant)
+
+    def cal_overcome(self, overcome):
+        if self.need_int:
+            overcome = Int(overcome * BINARY_SCALE)
+            defense = Int(self.defense * BINARY_SCALE)
+            rate = 1 + (overcome - Int(defense * (1 + overcome / BINARY_SCALE))) / BINARY_SCALE
+            self.damage = Int(self.damage * rate)
+        else:
+            self.damage *= 1 + overcome
 
     def cal_level_reduction(self):
         rate = 1 - (self.target.level - self.source.level) * LEVEL_REDUCTION

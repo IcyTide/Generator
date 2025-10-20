@@ -133,16 +133,16 @@ class BuildScript:
         else:
             self.recipes = recipes
 
-        self.talent_script.init(kungfu.talents)
-        self.recipe_script.init(kungfu.recipes)
+        self.talent_script.init(kungfu.talent_choices)
+        self.recipe_script.init(kungfu.recipe_choices)
 
         return dict(talents=self.talents, recipes=self.recipes)
 
     def update_kungfu(self):
-        attributes, recipes, gains = self.talents.attributes
+        attributes, recipes, talents = self.talents.content
         recipes += list(self.recipes)
         self.kungfu.build_attributes = attributes
         self.kungfu.build_recipes = recipes
-        self.kungfu.build_gains = gains
+        self.kungfu.talents = talents
         self.kungfu.select_talents = [talent.name for talent in self.talents]
 

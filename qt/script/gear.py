@@ -1,5 +1,6 @@
 from PySide6.QtWidgets import QDialog
 
+from base.constant import SPECIAL_ENCHANT_MAP
 from qt.classes.gear import Enchant, Gear, Gears
 from qt.classes.kungfu import Kungfu
 from qt.component.gear_widget.attribute_dialog import AttributeDialog
@@ -22,10 +23,22 @@ class SubGearScript:
         self.widget.kind_combo.currentTextChanged.connect(self.select_kind)
         self.widget.equipment_combo.currentTextChanged.connect(self.select_equipment)
         self.widget.enchant_combo.currentTextChanged.connect(self.select_enchant)
+        if self.widget.stone_btn:
+            self.widget.stone_btn.clicked.connect(self.select_stone)
+        if self.widget.special_enchant:
+            self.widget.special_enchant.stateChanged.connect(self.select_special_enchant)
         self.widget.strength_combo.currentTextChanged.connect(self.select_strength)
         for i, embed_combo in enumerate(self.widget.embed_combos):
             embed_combo.currentTextChanged.connect(self.select_embed(i))
         self.widget.detail_btn.clicked.connect(self.show_detail)
+
+    def get_special_enchant_gain(self):
+        special_enchant = None
+        for level, gain in SPECIAL_ENCHANT_MAP[self.widget.position].items():
+            if self.gear.level >= level:
+                special_enchant = gain
+                break
+        return special_enchant
 
     def select_school(self, school):
         if school not in self.widget.equip_data:
@@ -59,11 +72,16 @@ class SubGearScript:
             self.parent.update_kungfu()
             return
         detail = self.widget.equip_data[school][kind][equipment]
+        stone = self.gear.stone if self.gear else None
         gear = self.gear = self.parent.gears[self.widget.label] = Gear(school, kind, equipment, detail)
+        gear.stone = stone
 
         enchant = self.widget.enchant_combo.currentText()
         if enchant_detail := self.widget.enchant_data.get(enchant):
             gear.enchant = Enchant(enchant, enchant_detail)
+
+        if self.widget.special_enchant and self.widget.special_enchant.isChecked():
+            gear.special_enchant = self.get_special_enchant_gain()
 
         strength_level = self.widget.strength_combo.currentText()
         if strength_level and int(strength_level) <= gear.max_strength:
@@ -78,6 +96,24 @@ class SubGearScript:
             embed_levels[len(embed_levels)] = int(embed_level)
         gear.embed_levels = embed_levels
         self.parent.update_kungfu()
+
+    def select_special_enchant(self, state):
+        if not self.gear:
+            return
+        special_enchant = self.get_special_enchant_gain()
+        if state:
+            self.gear.special_enchant = special_enchant
+        else:
+            self.gear.special_enchant = None
+        self.parent.update_kungfu()
+
+    def select_stone(self):
+        if not self.gear:
+            return
+        dialog = StoneDialog(self.gear.stone, parent=self.parent.widget)
+        if dialog.exec() == QDialog.DialogCode.Accepted:
+            self.gear.stone = dialog.stone
+            self.parent.update_kungfu()
 
     def select_enchant(self, enchant):
         if not self.gear:
@@ -117,9 +153,12 @@ class SubGearScript:
             self.widget.equipment_combo.setCurrentText(gear.equipment)
             if gear.enchant:
                 self.widget.enchant_combo.setCurrentText(gear.enchant.enchant)
+            if gear.special_enchant:
+                self.widget.special_enchant.setChecked(True)
             self.widget.strength_combo.setCurrentText(str(gear.strength_level))
             for i, embed_attr in enumerate(gear.embed):
                 self.widget.embed_combos[i].setCurrentText(str(gear.embed_levels[i]))
+            self.gear.stone = gear.stone
         else:
             self.gear = None
             if self.parent.kungfu.school in self.widget.equip_data:
@@ -142,16 +181,18 @@ class GearScript:
         self.connect()
 
     def connect(self):
-        self.widget.stone_btn.clicked.connect(self.select_stone)
+        self.widget.special_enchant.stateChanged.connect(self.select_special_enchant)
         self.widget.strength_combo.currentTextChanged.connect(self.select_strength)
         self.widget.embed_combo.currentTextChanged.connect(self.select_embed)
         self.widget.detail_btn.clicked.connect(self.show_detail)
 
-    def select_stone(self):
-        dialog = StoneDialog(self.gears.stone, parent=self.widget)
-        if dialog.exec() == QDialog.DialogCode.Accepted:
-            self.gears.stone = dialog.stone
-            self.update_kungfu()
+    def select_special_enchant(self, state):
+        for sub_script in self.sub_scripts.values():
+            if sub_script.gear and sub_script.widget.special_enchant:
+                if state:
+                    sub_script.widget.special_enchant.setChecked(True)
+                else:
+                    sub_script.widget.special_enchant.setChecked(False)
 
     def select_strength(self, strength):
         for sub_script in self.sub_scripts.values():
@@ -166,9 +207,9 @@ class GearScript:
                     embed_combo.setCurrentText(str(embed))
 
     def show_detail(self):
-        attributes, recipes, gains = self.gears.attributes
+        attributes, recipes, gains = self.kungfu.gear_attributes, self.kungfu.gear_recipes, self.kungfu.gains
         if attributes:
-            AttributeDialog(attributes, recipes, gains, parent=self.widget).exec()
+            AttributeDialog(attributes, recipes, list(gains), parent=self.widget).exec()
 
     def init(self, kungfu: Kungfu, gears: Gears = None):
         self.kungfu = kungfu
@@ -181,7 +222,7 @@ class GearScript:
         return self.gears
 
     def update_kungfu(self):
-        attributes, recipes, gains = self.gears.attributes
+        attributes, recipes, gains = self.gears.content
         self.kungfu.gear_attributes = attributes
         self.kungfu.gear_recipes = recipes
-        self.kungfu.gear_gains = gains
+        self.kungfu.gains = gains

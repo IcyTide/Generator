@@ -443,10 +443,7 @@ BUFFS = {
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             },
             2: {
                 "name": "紫气东来",
@@ -461,10 +458,7 @@ BUFFS = {
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             },
             3: {
                 "name": "紫气东来",
@@ -478,12 +472,8 @@ BUFFS = {
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 256,
-                    "physical_critical_strike_rate": 2500,
-                    "strain_gain": 154
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                    "physical_critical_strike_rate": 2500
+                }
             },
             4: {
                 "name": "紫气东来",
@@ -498,10 +488,7 @@ BUFFS = {
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             },
             5: {
                 "name": "紫气东来",
@@ -517,10 +504,7 @@ BUFFS = {
                     "physical_critical_power_rate": 256,
                     "physical_critical_strike_rate": 2500,
                     "strain_gain": 307
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             }
         },
         30137: {
@@ -653,9 +637,45 @@ BUFFS = {
             }
         },
         12550: {
+            1: {
+                "name": "跬步",
+                "comment": "四象轮回1",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4467_1"
+                ]
+            },
+            2: {
+                "name": "跬步",
+                "comment": "四象轮回2",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4468_1"
+                ]
+            },
+            3: {
+                "name": "跬步",
+                "comment": "四象轮回3",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4469_1"
+                ]
+            },
+            4: {
+                "name": "跬步",
+                "comment": "四象轮回4",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4470_1"
+                ]
+            },
             5: {
                 "name": "跬步",
-                "comment": "四象轮回",
+                "comment": "四象轮回5",
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
@@ -664,9 +684,45 @@ BUFFS = {
             }
         },
         12551: {
+            1: {
+                "name": "跬步",
+                "comment": "两仪化形1",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4472_1"
+                ]
+            },
+            2: {
+                "name": "跬步",
+                "comment": "两仪化形2",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4473_1"
+                ]
+            },
+            3: {
+                "name": "跬步",
+                "comment": "两仪化形3",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4474_1"
+                ]
+            },
+            4: {
+                "name": "跬步",
+                "comment": "两仪化形4",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4475_1"
+                ]
+            },
             5: {
                 "name": "跬步",
-                "comment": "两仪化形",
+                "comment": "两仪化形5",
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
@@ -675,9 +731,45 @@ BUFFS = {
             }
         },
         31669: {
+            1: {
+                "name": "跬步",
+                "comment": "万世不竭1",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6026_1"
+                ]
+            },
+            2: {
+                "name": "跬步",
+                "comment": "万世不竭2",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6027_1"
+                ]
+            },
+            3: {
+                "name": "跬步",
+                "comment": "万世不竭3",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6028_1"
+                ]
+            },
+            4: {
+                "name": "跬步",
+                "comment": "万世不竭4",
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6029_1"
+                ]
+            },
             5: {
                 "name": "跬步",
-                "comment": "万世不竭",
+                "comment": "万世不竭5",
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
@@ -798,10 +890,7 @@ BUFFS = {
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             },
             2: {
                 "name": "紫气东来",
@@ -816,10 +905,7 @@ BUFFS = {
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             },
             3: {
                 "name": "紫气东来",
@@ -833,12 +919,8 @@ BUFFS = {
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 256,
-                    "physical_critical_strike_rate": 2500,
-                    "strain_gain": 154
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                    "physical_critical_strike_rate": 2500
+                }
             },
             4: {
                 "name": "紫气东来",
@@ -853,10 +935,7 @@ BUFFS = {
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             },
             5: {
                 "name": "紫气东来",
@@ -872,10 +951,7 @@ BUFFS = {
                     "physical_critical_power_rate": 256,
                     "physical_critical_strike_rate": 2500,
                     "strain_gain": 307
-                },
-                "recipes": [
-                    "recipe_3253_1"
-                ]
+                }
             }
         },
         27045: {
@@ -931,7 +1007,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "skills": [
-                    4954
+                    21979
                 ],
                 "buff_key": "buff_30766_1"
             }
@@ -4004,7 +4080,7 @@ BUFFS = {
                 "name": "连珠",
                 "interval": 16,
                 "max_stack": 2,
-                "max_tick": 19,
+                "max_tick": 18,
                 "skills": [
                     36157
                 ],
@@ -4368,21 +4444,12 @@ BUFFS = {
         },
         31882: {
             1: {
-                "name": "联套",
                 "interval": 16,
                 "max_stack": 8,
                 "max_tick": 1,
-                "skills": [
-                    41471,
-                    41472,
-                    41473,
-                    42021,
-                    42084,
-                    42033,
-                    42247,
-                    42384
-                ],
-                "buff_key": "buff_31882_1"
+                "attributes": {
+                    "lunar_damage_cof": 169
+                }
             }
         },
         31699: {

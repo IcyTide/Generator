@@ -113,6 +113,33 @@ EMBED_POSITIONS = {
     "secondary_weapon": 3
 }
 
+SPECIAL_ENCHANT_MAP = {
+    "hat": {
+        26600: "gain_10106_15",
+        30800: "gain_10106_16"
+    },
+    "jacket": {
+        26600: "gain_22151_15",
+        30800: "gain_22151_16"
+    },
+    "belt": {
+        26600: "gain_22169_1",
+        30800: "gain_22169_1"
+    },
+    "wrist": {
+        26600: "gain_38984_3",
+        30800: "gain_38984_4"
+    },
+    "shoes": {
+        26600: "gain_38985_3",
+        30800: "gain_38985_4"
+    }
+}
+
+STONE_POSITIONS = [
+    "primary_weapon",
+    "secondary_weapon"
+]
 
 def ROUND(num):
     return int(num + 0.5)

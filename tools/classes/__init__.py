@@ -7,6 +7,7 @@ class AliasBase:
     _aliases = {}
     zero: int = 0
     txt: pd.DataFrame
+    setting: pd.DataFrame
     id_column: str = "ID"
 
     def __getattr__(self, item):

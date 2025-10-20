@@ -36,5 +36,6 @@ GAINS: dict[int, dict] = {
     22169: dict(buffs=[15455]),
     38984: dict(skills=[37562]),
     38985: dict(skills=[37561]),
-    10106: dict(buffs=[15436], skills=[22151])
+    22151: dict(skills=[22151]),
+    10106: dict(buffs=[15436])
 }

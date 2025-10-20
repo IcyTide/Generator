@@ -897,7 +897,7 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
 
     buffs: dict[str, int]
     recipes: list[str]
-    talents: list[str]
+    belongs: list[str]
 
     def __init__(self, major_type: str, damage_type: str, critical_type: str):
         self.major_type = major_type
@@ -905,7 +905,7 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
         self.critical_type = critical_type
 
         self.buffs = {}
-        self.recipes, self.talents = [], []
+        self.recipes, self.belongs = [], []
 
         self.target = Target()
         self.target.damage_type = damage_type
@@ -928,7 +928,7 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
 
     @property
     def snapshot(self):
-        variables: dict = {recipe: 1. for recipe in self.recipes + self.talents}
+        variables: dict = {recipe: 1. for recipe in self.recipes + self.belongs}
         for e in SKILL_KIND_TYPE:
             for template in SNAPSHOT_VARIABLE_TEMPLATES:
                 attr = template.format(e)

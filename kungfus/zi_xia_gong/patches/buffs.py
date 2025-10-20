@@ -18,7 +18,7 @@ BUFFS: dict[int, dict] = {
     31729: dict(name="洞渊", comment="{}"),
     9966: dict(name="同尘", comment="{}"),
     **{
-        buff_id: dict(name="跬步", comment=comment)
+        buff_id: dict(name="跬步", comment=comment + "{}")
         for buff_id, comment in zip([12550, 12551, 31669], ["四象轮回", "两仪化形", "万世不竭"])
     }
 }
