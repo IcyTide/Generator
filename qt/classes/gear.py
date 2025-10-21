@@ -152,8 +152,6 @@ class Gear:
 
 
 class Gears:
-    add_gain_attribute: bool = True
-
     def __init__(self, gears: dict[str, Gear] = None):
         if not gears:
             self.gears = {}
@@ -189,10 +187,10 @@ class Gears:
                     attributes[k] = 0
                 attributes[k] += v
             recipes += gear.recipes
-            for k in gear.gains:
-                gains[k] = Gain(k)
             if gear.special_enchant:
                 gains[gear.special_enchant] = Gain(gear.special_enchant)
+            for k in gear.gains:
+                gains[k] = Gain(k)
             if set_id := gear.set_id:
                 if set_id not in set_count:
                     set_count[set_id] = 0
@@ -208,12 +206,6 @@ class Gears:
                     recipes += bonus.get("recipes", [])
                     for k in bonus.get("gains", []):
                         gains[k] = Gain(k)
-        if self.add_gain_attribute:
-            for gain in gains.values():
-                for k, v in gain.attributes.items():
-                    if k not in attributes:
-                        attributes[k] = 0
-                    attributes[k] += v
         return attributes, recipes, gains
 
     def to_dict(self):

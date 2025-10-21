@@ -8,7 +8,7 @@ GAINS: dict[int, dict] = {
     38944: dict(buffs=[29526]),
     # bottom
     40793: dict(buffs=[30748]),
-    40794: dict(buffs=[30749]),
+    40794: dict(buffs=[30749, 30770]),
     # belt
     40791: dict(buffs=[30743]),
     40790: dict(buffs=[30742]),

@@ -6330,6 +6330,15 @@
                 }
             }
         },
+        "30770": {
+            "4": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 17507
+                }
+            }
+        },
         "30743": {
             "1": {
                 "interval": 320,

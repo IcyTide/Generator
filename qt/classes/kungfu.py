@@ -21,7 +21,7 @@ class Kungfu:
     build_recipes: list[str] = []
     talents: dict[str, str] = {}
 
-    select_talents: list[str] = []
+    set_gain_attribute: bool = True
 
     def __init__(self, kungfu):
         self.kungfu_id = kungfu.attribute
@@ -75,6 +75,9 @@ class Kungfu:
         attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])
         for k, v in attributes.items():
             attribute[k] += v
+        if self.set_gain_attribute:
+            for gain in self.gains.values():
+                gain.set_attribute(attribute)
         attribute.recipes += self.recipes
         attribute.belongs += list(self.talents.values())
         if require_grad:

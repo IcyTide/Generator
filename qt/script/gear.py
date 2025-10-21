@@ -181,10 +181,14 @@ class GearScript:
         self.connect()
 
     def connect(self):
+        self.widget.gain_attribute.stateChanged.connect(self.select_gain_attribute)
         self.widget.special_enchant.stateChanged.connect(self.select_special_enchant)
         self.widget.strength_combo.currentTextChanged.connect(self.select_strength)
         self.widget.embed_combo.currentTextChanged.connect(self.select_embed)
         self.widget.detail_btn.clicked.connect(self.show_detail)
+
+    def select_gain_attribute(self, state):
+        self.kungfu.set_gain_attribute = state
 
     def select_special_enchant(self, state):
         for sub_script in self.sub_scripts.values():
