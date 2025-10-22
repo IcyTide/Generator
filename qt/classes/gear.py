@@ -126,11 +126,11 @@ class Gear:
             school=self.school,
             kind=self.kind,
             equipment=self.equipment,
-            stone=self.stone,
             strength_level=self.strength_level,
             embed_levels=self.embed_levels,
             enchant=self.enchant.to_dict() if self.enchant else None,
-            special_enchant=self.special_enchant
+            special_enchant=self.special_enchant,
+            stone=self.stone
         )
 
     @classmethod
@@ -143,11 +143,11 @@ class Gear:
             json["equipment"],
             EQUIPMENTS[POSITIONS[position]][json["school"]][json["kind"]][json["equipment"]]
         )
-        instance.enchant = Enchant.from_dict(position, json["enchant"])
-        instance.stone = Stone.from_dict(json["stone"])
-        instance.special_enchant = json["special_enchant"]
         instance.strength_level = json["strength_level"]
         instance.embed_levels = {int(k): v for k, v in json["embed_levels"].items()}
+        instance.enchant = Enchant.from_dict(position, json["enchant"])
+        instance.special_enchant = json["special_enchant"]
+        instance.stone = Stone.from_dict(json["stone"])
         return instance
 
 

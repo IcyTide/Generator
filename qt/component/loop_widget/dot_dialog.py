@@ -12,7 +12,7 @@ from qt.utils import evaluate_dot
 class SourceSkillEditorDialog(SkillEditorDialog):
     def __init__(self, max_stack: int, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        self.count_row.set_label("Stack:")
+        self.count_row.set_label("层数:")
         self.count_spin.setDecimals(0)
         self.count_spin.setMaximum(max_stack)
 
@@ -23,7 +23,7 @@ class DotEditorDialog(QDialog):
 
     def __init__(self, dots: dict = None, dot: Dot = None, parent: LoopWidget = None):
         super().__init__(parent)
-        self.setWindowTitle("Edit Dot")
+        self.setWindowTitle("编辑持续伤害")
         layout = QVBoxLayout(self)
         self.dots = dots
         self.belong_combo = ComboBox()
@@ -34,22 +34,22 @@ class DotEditorDialog(QDialog):
         self.current_tick_spin = QSpinBox(minimum=1, value=1)
         self.count_spin = QDoubleSpinBox(minimum=0.01, value=1, singleStep=1)
 
-        layout.addWidget(LabelRow("Belong:", self.belong_combo))
+        layout.addWidget(LabelRow("类别:", self.belong_combo))
         layout.addWidget(LabelRow("ID:", self.id_combo))
-        layout.addWidget(LabelRow("Level:", self.level_combo))
-        layout.addWidget(LabelRow("Source:", self.source_button))
-        layout.addWidget(LabelRow("Consume Tick:", self.consume_tick_spin))
-        layout.addWidget(LabelRow("Current Tick:", self.current_tick_spin))
-        layout.addWidget(LabelRow("Count:", self.count_spin))
+        layout.addWidget(LabelRow("等级:", self.level_combo))
+        layout.addWidget(LabelRow("技能来源:", self.source_button))
+        layout.addWidget(LabelRow("吞噬跳数:", self.consume_tick_spin))
+        layout.addWidget(LabelRow("当前跳数:", self.current_tick_spin))
+        layout.addWidget(LabelRow("数量:", self.count_spin))
 
         self.name_label = QLabel("")
         self.comment_label = QLabel("")
-        layout.addWidget(LabelRow("Name:", self.name_label))
-        layout.addWidget(LabelRow("Comment:", self.comment_label))
+        layout.addWidget(LabelRow("名称:", self.name_label))
+        layout.addWidget(LabelRow("注释:", self.comment_label))
 
         layout.addLayout((btn_layout := QHBoxLayout()))
-        btn_layout.addWidget((ok_button := QPushButton("OK")))
-        btn_layout.addWidget((cancel_button := QPushButton("Cancel")))
+        btn_layout.addWidget((ok_button := QPushButton("确定")))
+        btn_layout.addWidget((cancel_button := QPushButton("取消")))
 
         ok_button.clicked.connect(self.accept)
         cancel_button.clicked.connect(self.reject)
@@ -94,7 +94,7 @@ class DotEditorDialog(QDialog):
         dot_level = int(dot_level)
         self.dot = Dot(belong, dot_id, dot_level, **self.dots[belong][dot_id][dot_level])
 
-        self.source_button.setText("Select")
+        self.source_button.setText("选择来源")
         self.consume_tick_spin.setMaximum(self.dot.max_tick)
         self.current_tick_spin.setMaximum(self.dot.max_tick)
         self.name_label.setText(self.dot.name)
@@ -130,30 +130,30 @@ class DotDamageDialog(QDialog):
             self, dot: Dot, current: Attribute, snapshot: Attribute, parent: QWidget = None
     ):
         super().__init__(parent)
-        self.setWindowTitle("Damage Detail")
+        self.setWindowTitle("持续伤害细节")
 
         layout = QVBoxLayout(self)
 
         variables = {**current.current, **snapshot.snapshot}
         self.damage, self.critical_strike, self.critical_damage, self.expected_damage = evaluate_dot(dot, variables)
 
-        layout.addWidget(LabelRow("Name:", QLabel(dot.name)))
-        layout.addWidget(LabelRow("Dot ID:", QLabel(str(dot.dot_id))))
-        layout.addWidget(LabelRow("Dot Level:", QLabel(str(dot.dot_level))))
-        layout.addWidget(LabelRow("Stack:", QLabel(str(dot.stack))))
-        layout.addWidget(LabelRow("Consume Tick:", QLabel(str(dot.consume_tick))))
-        layout.addWidget(LabelRow("Current Tick:", QLabel(str(dot.current_tick))))
-        layout.addWidget(LabelRow("Count:", QLabel(str(dot.count))))
+        layout.addWidget(LabelRow("名称:", QLabel(dot.name)))
+        layout.addWidget(LabelRow("ID:", QLabel(str(dot.dot_id))))
+        layout.addWidget(LabelRow("等级:", QLabel(str(dot.dot_level))))
+        layout.addWidget(LabelRow("层数:", QLabel(str(dot.stack))))
+        layout.addWidget(LabelRow("吞噬跳数:", QLabel(str(dot.consume_tick))))
+        layout.addWidget(LabelRow("当前跳数:", QLabel(str(dot.current_tick))))
+        layout.addWidget(LabelRow("数量:", QLabel(str(dot.count))))
         self.target_level = ComboBox()
-        layout.addWidget(LabelRow("Target Level:", self.target_level))
+        layout.addWidget(LabelRow("目标等级:", self.target_level))
         self.critical_strike_label = QLabel("")
-        layout.addWidget(LabelRow("Critical Strike:", self.critical_strike_label))
+        layout.addWidget(LabelRow("期望会心:", self.critical_strike_label))
         self.damage_label = QLabel("")
-        layout.addWidget(LabelRow("Hit Damage:", self.damage_label))
+        layout.addWidget(LabelRow("命中伤害:", self.damage_label))
         self.critical_damage_label = QLabel("")
-        layout.addWidget(LabelRow("Critical Damage:", self.critical_damage_label))
+        layout.addWidget(LabelRow("会心伤害:", self.critical_damage_label))
         self.expected_damage_label = QLabel("")
-        layout.addWidget(LabelRow("Expected Damage:", self.expected_damage_label))
+        layout.addWidget(LabelRow("期望伤害:", self.expected_damage_label))
 
         self.target_level.currentTextChanged.connect(self.select_target_level)
         self.target_level.set_items(SHIELD_BASE_MAP)

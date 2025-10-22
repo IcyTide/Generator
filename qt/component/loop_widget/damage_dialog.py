@@ -1,6 +1,7 @@
 from PySide6.QtWidgets import QDialog, QLabel, QSizePolicy, QToolBox, QVBoxLayout, QWidget
 
 from base.constant import GRAD_VARIABLES, LEVEL_VARIABLES, SHIELD_BASE_MAP
+from base.translate import get_translates
 from qt import ComboBox, LabelRow, Table
 from qt.classes.attribute import Attribute
 from qt.classes.buff import Buff, BuffType
@@ -39,34 +40,35 @@ class DamagesDialog(QDialog):
 
     def __init__(self, name: str, count: int, parent: QWidget = None):
         super().__init__(parent)
-        self.setWindowTitle("Damage Detail")
+        self.setWindowTitle("伤害细节")
         layout = QVBoxLayout(self)
         self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
         self.tool_box = QToolBox()
         layout.addWidget(self.tool_box)
         sub_layout = QVBoxLayout(sub_page := QWidget())
-        sub_layout.addWidget(LabelRow("Name:", QLabel(name)))
-        sub_layout.addWidget(LabelRow("Count:", QLabel(str(count))))
-        sub_layout.addWidget(LabelRow("Duration:", QLabel(str(self.duration))))
+        sub_layout.addWidget(LabelRow("名称:", QLabel(name)))
+        sub_layout.addWidget(LabelRow("数量:", QLabel(str(count))))
+        sub_layout.addWidget(LabelRow("时长:", QLabel(str(self.duration))))
         self.target_level = ComboBox()
-        sub_layout.addWidget(LabelRow("Target Level:", self.target_level))
+        sub_layout.addWidget(LabelRow("目标等级:", self.target_level))
         self.total_damage_label = QLabel("")
-        sub_layout.addWidget(LabelRow("Expected Damage:", self.total_damage_label))
+        sub_layout.addWidget(LabelRow("期望总伤害:", self.total_damage_label))
         self.dps_label = QLabel("")
-        sub_layout.addWidget(LabelRow("Expected DPS:", self.dps_label))
-        self.tool_box.addItem(sub_page, "Abstract")
+        sub_layout.addWidget(LabelRow("期望DPS:", self.dps_label))
+        self.tool_box.addItem(sub_page, "概述")
 
         sub_layout = QVBoxLayout(sub_page := QWidget())
         self.grad_labels: dict[str, QLabel] = {}
+        translates, _ = get_translates(GRAD_VARIABLES)
         for attr in GRAD_VARIABLES:
             self.grad_labels[attr] = grad_label = QLabel("")
-            sub_layout.addWidget(LabelRow(f"{attr}:", grad_label))
-        self.tool_box.addItem(sub_page, "Gradient")
+            sub_layout.addWidget(LabelRow(f"{translates[attr]}:", grad_label))
+        self.tool_box.addItem(sub_page, "收益")
 
         sub_layout = QVBoxLayout(sub_page := QWidget())
-        self.damage_table = Table(["name", "count", "damage", "proportion"])
+        self.damage_table = Table(["名称", "次数", "伤害", "占比"])
         sub_layout.addWidget(self.damage_table)
-        self.tool_box.addItem(sub_page, "Details")
+        self.tool_box.addItem(sub_page, "统计")
 
         self.target_level.currentTextChanged.connect(self.select_target_level)
         self.target_level.set_items(SHIELD_BASE_MAP)

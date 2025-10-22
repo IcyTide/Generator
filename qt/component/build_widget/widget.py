@@ -8,15 +8,15 @@ class TalentWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
-        layout.addWidget(QLabel("Talent:"))
+        layout.addWidget(QLabel("奇穴:"))
         grid_layout = QGridLayout(grid_widget := QWidget())
         self.talent_combos: list[ComboBox] = []
         for i in range(MAX_TALENT_COUNT):
-            grid_layout.addWidget(LabelColumn(f"No. {i + 1}", talent_combo := ComboBox()), 0, i)
+            grid_layout.addWidget(LabelColumn(f"第{i + 1}层", talent_combo := ComboBox()), 0, i)
             self.talent_combos.append(talent_combo)
         self.talent_pool = QListWidget()
         self.talent_pool.setSelectionMode(QListWidget.SelectionMode.MultiSelection)
-        grid_layout.addWidget(LabelColumn("Pool", self.talent_pool), 0, MAX_TALENT_COUNT)
+        grid_layout.addWidget(LabelColumn("混选奇穴", self.talent_pool), 0, MAX_TALENT_COUNT)
         for i in range(MAX_TALENT_COUNT + 1):
             grid_layout.setColumnStretch(i, 1)
         layout.addWidget(grid_widget)
@@ -27,16 +27,16 @@ class RecipeWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
-        layout.addWidget(QLabel("Recipes:"))
+        layout.addWidget(QLabel("秘籍:"))
         grid_layout = QGridLayout()
         layout.addLayout(grid_layout)
 
         self.skill_combo = ComboBox()
-        grid_layout.addWidget(LabelColumn("Skill", self.skill_combo), 0, 0)
+        grid_layout.addWidget(LabelColumn("技能", self.skill_combo), 0, 0)
         grid_layout.setColumnStretch(0, 1)
-        self.recipe_table = Table(["Name", "Desc"])
+        self.recipe_table = Table(["名称", "描述"])
         self.recipe_table.setSelectionMode(QTableWidget.SelectionMode.MultiSelection)
-        grid_layout.addWidget(LabelColumn("Recipe List", self.recipe_table), 0, 1)
+        grid_layout.addWidget(LabelColumn("可选秘籍", self.recipe_table), 0, 1)
         grid_layout.setColumnStretch(1, 2)
 
 

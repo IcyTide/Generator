@@ -10,7 +10,7 @@ class BuffEditorDialog(QDialog):
 
     def __init__(self, buffs: dict = None, buff: Buff = None, parent: QWidget = None):
         super().__init__(parent)
-        self.setWindowTitle("Edit Buff")
+        self.setWindowTitle("编辑增益")
         layout = QVBoxLayout(self)
         self.buffs = buffs
         self.belong_combo = ComboBox()
@@ -20,20 +20,20 @@ class BuffEditorDialog(QDialog):
         self.type_combo = ComboBox()
         self.type_combo.set_items([str(e) for e in BuffType])
 
-        layout.addWidget(LabelRow("Belong:", self.belong_combo))
+        layout.addWidget(LabelRow("类别:", self.belong_combo))
         layout.addWidget(LabelRow("ID:", self.id_combo))
-        layout.addWidget(LabelRow("Level:", self.level_combo))
-        layout.addWidget(LabelRow("Stack:", self.stack_combo))
-        layout.addWidget(LabelRow("Type:", self.type_combo))
+        layout.addWidget(LabelRow("等级:", self.level_combo))
+        layout.addWidget(LabelRow("层数:", self.stack_combo))
+        layout.addWidget(LabelRow("类型:", self.type_combo))
 
         self.name_label = QLabel("")
         self.comment_label = QLabel("")
-        layout.addWidget(LabelRow("Name:", self.name_label))
-        layout.addWidget(LabelRow("Comment:", self.comment_label))
+        layout.addWidget(LabelRow("名称:", self.name_label))
+        layout.addWidget(LabelRow("注释:", self.comment_label))
 
         layout.addLayout((btn_layout := QHBoxLayout()))
-        btn_layout.addWidget((ok_button := QPushButton("OK")))
-        btn_layout.addWidget((cancel_button := QPushButton("Cancel")))
+        btn_layout.addWidget((ok_button := QPushButton("确定")))
+        btn_layout.addWidget((cancel_button := QPushButton("取消")))
 
         ok_button.clicked.connect(self.accept)
         cancel_button.clicked.connect(self.reject)

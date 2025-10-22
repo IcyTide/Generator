@@ -11,6 +11,20 @@ class BaseType:
     damage_type: str
     critical_type: str
 
+    physical_damage_base: int = 0
+    solar_damage_base: int = 0
+    lunar_damage_base: int = 0
+    neutral_damage_base: int = 0
+    poison_damage_base: int = 0
+    adaptive_damage_base: int = 0
+
+    physical_damage_rand: int = 0
+    solar_damage_rand: int = 0
+    lunar_damage_rand: int = 0
+    neutral_damage_rand: int = 0
+    poison_damage_rand: int = 0
+    adaptive_damage_rand: int = 0
+
     def __getitem__(self, item):
         if item in dir(self):
             return getattr(self, item)
@@ -32,6 +46,7 @@ class Major(BaseType):
     strength_gain: int = 0
     spirit_gain: int = 0
     spunk_gain: int = 0
+    vitality_gain: int = 0
 
     @property
     def major_base(self):
@@ -47,19 +62,19 @@ class Major(BaseType):
 
     @property
     def agility(self):
-        return Int(self.agility_base * (1 + self.agility_gain))
+        return Int(self.agility_base * (1 + self.agility_gain / BINARY_SCALE))
 
     @property
     def strength(self):
-        return Int(self.strength_base * (1 + self.strength_gain))
+        return Int(self.strength_base * (1 + self.strength_gain / BINARY_SCALE))
 
     @property
     def spirit(self):
-        return Int(self.spirit_base * (1 + self.spirit_gain))
+        return Int(self.spirit_base * (1 + self.spirit_gain / BINARY_SCALE))
 
     @property
     def spunk(self):
-        return Int(self.spunk_base * (1 + self.spunk_gain))
+        return Int(self.spunk_base * (1 + self.spunk_gain / BINARY_SCALE))
 
     @property
     def agility_critical_strike_base(self):
@@ -277,6 +292,7 @@ class CriticalStrike(Major):
     strength_to_physical_critical_strike: int = 0
     spunk_to_physical_critical_strike: int = 0
     spunk_to_solar_critical_strike: int = 0
+    spunk_to_neutral_critical_strike: int = 0
     spirit_to_lunar_critical_strike: int = 0
     spunk_to_solar_and_lunar_critical_strike: int = 0
     spirit_to_neutral_critical_strike: int = 0
@@ -357,6 +373,8 @@ class CriticalStrike(Major):
     def extra_neutral_critical_strike(self):
         if self.spirit_to_neutral_critical_strike:
             return Int(self.spirit * self.spirit_to_neutral_critical_strike / BINARY_SCALE)
+        if self.spunk_to_neutral_critical_strike:
+            return Int(self.spunk * self.spunk_to_neutral_critical_strike / BINARY_SCALE)
         return 0
 
     @property

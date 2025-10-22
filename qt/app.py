@@ -30,9 +30,9 @@ class MainWindow(QMainWindow):
         self.gear_widget = GearWidget()
         self.loop_widget = LoopWidget()
         self.build_widget = BuildWidget()
-        self.tabs.addTab(self.gear_widget, "Gear")
-        self.tabs.addTab(self.loop_widget, "Loop")
-        self.tabs.addTab(self.build_widget, "Build")
+        self.tabs.addTab(self.gear_widget, "配装")
+        self.tabs.addTab(self.loop_widget, "循环")
+        self.tabs.addTab(self.build_widget, "流派")
         self.tabs.hide()
 
         loop_script = LoopScript(self.loop_widget)

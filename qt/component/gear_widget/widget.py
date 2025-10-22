@@ -43,18 +43,18 @@ class SubGearWidget:
             embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), MAX_EMBED_LEVEL)
             layout.addWidget(embed_combo, row, 7 + i)
         if self.position in STONE_POSITIONS:
-            self.stone_btn = QPushButton("Select Stone")
+            self.stone_btn = QPushButton("五彩石")
             layout.addWidget(self.stone_btn, row, 10)
         else:
             self.stone_btn = None
-        self.detail_btn = QPushButton("Detail")
+        self.detail_btn = QPushButton("细节")
         layout.addWidget(self.detail_btn, row, 11)
 
 
 class GearWidget(QWidget):
     HEADERS = [
-        "Position", "School", "Kind", "Equipment", "Enchant", "SpecialEnchant",
-        "Strength", "Embed1", "Embed2", "Embed3", "Stone", "Detail"
+        "部位", "一级目录", "二级目录", "装备", "附魔", "大附魔",
+        "精炼", "镶嵌1", "镶嵌2", "镶嵌3", "五彩石", "细节"
     ]
 
     def __init__(self):
@@ -64,17 +64,17 @@ class GearWidget(QWidget):
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
         self.gain_attribute = QCheckBox()
-        top_layout.addWidget(LabelColumn("Add Gain Attribute", self.gain_attribute), 1)
+        top_layout.addWidget(LabelColumn("均摊特效属性", self.gain_attribute), 1)
         self.gain_attribute.setChecked(True)
         self.special_enchant = QCheckBox()
-        top_layout.addWidget(LabelColumn("All SpecialEnchant", self.special_enchant), 1)
+        top_layout.addWidget(LabelColumn("全部大附魔", self.special_enchant), 1)
         self.strength_combo = ComboBox()
         self.strength_combo.set_items(range(MAX_STRENGTH_LEVEL + 1), -1)
-        top_layout.addWidget(LabelColumn("All Strength", self.strength_combo), 2)
+        top_layout.addWidget(LabelColumn("全部精炼", self.strength_combo), 2)
         self.embed_combo = ComboBox()
         self.embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), -1)
-        top_layout.addWidget(LabelColumn("All Embed", self.embed_combo), 2)
-        self.detail_btn = QPushButton("Detail")
+        top_layout.addWidget(LabelColumn("全部精炼", self.embed_combo), 2)
+        self.detail_btn = QPushButton("总属性")
         top_layout.addWidget(LabelColumn("", self.detail_btn), 2)
 
         grid_layout = QGridLayout()
@@ -90,6 +90,6 @@ class GearWidget(QWidget):
             grid_layout.setColumnStretch(i, 0)
         for i, position in enumerate(POSITIONS):
             self.sub_widgets[position] = SubGearWidget(position, i + 1, grid_layout)
-        grid_layout.setColumnStretch(self.HEADERS.index("Equipment"), 1)
+        grid_layout.setColumnStretch(self.HEADERS.index("装备"), 1)
 
         layout.addStretch()

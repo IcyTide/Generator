@@ -14,7 +14,7 @@ class RecordEditorDialog(QDialog):
 
     def __init__(self, value: Record = None, parent: QWidget = None):
         super().__init__(parent)
-        self.setWindowTitle("Edit Record")
+        self.setWindowTitle("编辑片段")
         layout = QVBoxLayout(self)
 
         if value:
@@ -25,13 +25,13 @@ class RecordEditorDialog(QDialog):
         self.count_spin = QSpinBox(minimum=1, value=self.record.count)
         self.duration_spin = QDoubleSpinBox(minimum=0, value=self.record.duration, maximum=1000)
 
-        layout.addWidget(LabelRow("Name:", self.name_edit))
-        layout.addWidget(LabelRow("Count:", self.count_spin))
-        layout.addWidget(LabelRow("Duration:", self.duration_spin))
+        layout.addWidget(LabelRow("名称:", self.name_edit))
+        layout.addWidget(LabelRow("数量:", self.count_spin))
+        layout.addWidget(LabelRow("时长:", self.duration_spin))
 
         layout.addLayout((btn_layout := QHBoxLayout()))
-        btn_layout.addWidget((ok_button := QPushButton("OK")))
-        btn_layout.addWidget((cancel_button := QPushButton("Cancel")))
+        btn_layout.addWidget((ok_button := QPushButton("确定")))
+        btn_layout.addWidget((cancel_button := QPushButton("取消")))
 
         ok_button.clicked.connect(self.accept)
         cancel_button.clicked.connect(self.reject)

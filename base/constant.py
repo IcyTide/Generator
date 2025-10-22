@@ -77,18 +77,18 @@ POSITION_MAP = {
     10: "wrist",
 }
 POSITIONS = {
-    "hat": "hat",
-    "jacket": "jacket",
-    "belt": "belt",
-    "wrist": "wrist",
-    "bottoms": "bottoms",
-    "shoes": "shoes",
-    "necklace": "necklace",
-    "pendant": "pendant",
-    "ring_1": "ring",
-    "ring_2": "ring",
-    "tertiary_weapon": "tertiary_weapon",
-    "primary_weapon": "primary_weapon"
+    "帽子": "hat",
+    "上衣": "jacket",
+    "腰带": "belt",
+    "护腕": "wrist",
+    "下装": "bottoms",
+    "鞋子": "shoes",
+    "项链": "necklace",
+    "腰坠": "pendant",
+    "戒指1": "ring",
+    "戒指2": "ring",
+    "远程武器": "tertiary_weapon",
+    "近战武器": "primary_weapon"
 }
 MAX_BASE_ATTR = 6
 MAX_MAGIC_ATTR = 16
@@ -207,9 +207,9 @@ GRAD_VARIABLES = {
     "weapon_damage_base": 984,
     "surplus_base": 2401,
     "strain_base": 2401,
-    "overcome_base": 2401,
-    "critical_strike_base": 2401,
-    "critical_power_base": 2401
+    "all_overcome_base": 2401,
+    "all_critical_strike_base": 2401,
+    "all_critical_power_base": 2401
 }
 
 
