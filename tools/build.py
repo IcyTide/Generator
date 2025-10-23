@@ -66,43 +66,52 @@ class Builder:
         self.build_buffs(self.kungfu.buffs)
         self.build_dots(self.kungfu.dots)
         self.build_skills(self.kungfu.skills)
-        self.build_belongs(self.kungfu.talents)
+        self.build_talents(self.kungfu.talents)
         self.build_recipes(self.kungfu.recipes)
 
     def build_buffs(self, buffs: dict[int, list[int]]):
         for category, buff_ids in buffs.items():
-            self.belongs[category] = Belong(category)
+            if category not in self.belongs:
+                self.belongs[category] = Belong(category)
+            self.belongs[category].buffs += buff_ids
             if category in self.kungfu.buffs:
                 self.skill_recipes[category] = self.belongs[category]
             for buff_id in buff_ids:
-                self.buffs[buff_id] = Buff(buff_id)
+                self.buffs[buff_id] = Buff(buff_id, patches=self.kungfu.buff_patches)
 
     def build_dots(self, dots: dict[int, dict[int, list]]):
         for category, dot_ids in dots.items():
-            self.belongs[category] = Belong(category)
+            if category not in self.belongs:
+                self.belongs[category] = Belong(category)
+            self.belongs[category].dots.update(dot_ids)
             if category in self.kungfu.dots:
                 self.skill_recipes[category] = self.belongs[category]
             for dot_id, skill_ids in dot_ids.items():
-                skills = {skill_id: Skill(skill_id) for skill_id in skill_ids}
+                skills = {skill_id: Skill(skill_id, patches=self.kungfu.skill_patches) for skill_id in skill_ids}
                 if dot_id not in self.dots:
-                    self.dots[dot_id] = Dot(dot_id)
+                    self.dots[dot_id] = Dot(dot_id, patches=self.kungfu.buff_patches)
                 self.dots[dot_id].skills.update(skills)
 
     def build_skills(self, skills: dict[int, list[int]]):
         for category, skill_ids in skills.items():
-            self.belongs[category] = Belong(category)
+            if category not in self.belongs:
+                self.belongs[category] = Belong(category)
+            self.belongs[category].skills += skill_ids
             if category in self.kungfu.skills:
                 self.skill_recipes[category] = self.belongs[category]
             for skill_id in skill_ids:
-                self.skills[skill_id] = Skill(skill_id)
+                self.skills[skill_id] = Skill(skill_id, patches=self.kungfu.skill_patches)
 
-    def build_belongs(self, talents: list[dict[int, dict]]):
+    def build_talents(self, talents: list[dict[int, dict]]):
         for talent_items in talents:
             for talent_id, params in talent_items.items():
-                talent = self.belongs[talent_id] = Belong(talent_id, **params)
-                self.build_buffs({talent_id: talent.buffs})
-                self.build_dots({talent_id: talent.dots})
-                self.build_skills({talent_id: talent.skills})
+                self.belongs[talent_id] = Belong(talent_id, patches=self.kungfu.skill_patches)
+                if buffs := params.get("buffs"):
+                    self.build_buffs({talent_id: buffs})
+                if skills := params.get("skills"):
+                    self.build_skills({talent_id: skills})
+                if dots := params.get("dots"):
+                    self.build_dots({talent_id: dots})
 
     def build_recipes(self, recipes: list[tuple[int, int]]):
         for recipe_key in recipes:

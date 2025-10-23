@@ -15,11 +15,9 @@ class Belong(Skill):
     damage_type: str = ""
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args)
+        super().__init__(*args, **kwargs)
         self.recipes = []
-        self.kwargs = kwargs
-        for k, v in kwargs.items():
-            setattr(self, k, v)
+        self.buffs, self.skills, self.dots = [], [], {}
         self.belong_key = get_variable("belong", self.skill_id)
         txt_rows = recipe_txts[recipe_txts.SkillID == self.skill_id]
         for row in txt_rows.itertuples():

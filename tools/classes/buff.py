@@ -43,7 +43,7 @@ class Buff(AliasBase):
     def level(self):
         return self.buff_level
 
-    def __init__(self, buff_id: int, buff_level: int = 0):
+    def __init__(self, buff_id: int, buff_level: int = 0, patches: dict = None):
         self.buff_id = buff_id
         self.attributes, self.recipes, self.skills = [], [], []
         setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
@@ -56,7 +56,8 @@ class Buff(AliasBase):
             self.get_attributes(self.attributes_prefix)
             self.buff_key = Variable(get_variable("buff", self.buff_id, self.buff_level))
 
-        set_patches(self, BUFF_PATCHES, buff_id, buff_level)
+        self.patches = patches if patches else {}
+        set_patches(self, self.patches, buff_id, buff_level)
 
     def get_attributes(self, prefix):
         i = 0

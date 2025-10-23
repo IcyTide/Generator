@@ -64,12 +64,6 @@ class Kungfu:
             self.id2belong[belong_id]: recipes for belong_id, recipes in RECIPES[self.kungfu_id].items()
         }
 
-        self.gain_buffs, self.gain_skills, self.gain_dots = {}, {}, {}
-        for gains in GAIN.talents:
-            for gain_id, params in gains.items():
-                if buffs := params.get("buffs"):
-                    self.gain_buffs.update({buff_id: BUFFS[0][buff_id] for buff_id in buffs})
-
     def create_attribute(self, require_grad: bool = True) -> Attribute:
         attributes = self.attributes
         attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])

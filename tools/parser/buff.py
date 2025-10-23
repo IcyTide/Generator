@@ -16,7 +16,7 @@ def set_buff_to_skill(buff: Buff, skills: dict[int, dict[int, Skill]]):
 def parse_buff(buff: Buff, skills: dict[int, dict[int, Skill]]) -> dict[int, Buff]:
     result = {}
     for buff_level in buff.levels:
-        buff = Buff(buff.buff_id, buff_level)
+        buff = Buff(buff.buff_id, buff_level, patches=buff.patches)
         set_buff_to_skill(buff, skills)
         result[buff_level] = buff
     return result

@@ -3444,9 +3444,22 @@ BUFFS = {
                 ]
             }
         },
+        26166: {
+            1: {
+                "name": "梦悠",
+                "comment": "常驻",
+                "interval": 99999999,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 307
+                }
+            }
+        },
         13966: {
             1: {
                 "name": "梦悠",
+                "comment": "额外",
                 "interval": 16,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -4557,7 +4570,7 @@ BUFFS = {
     102278: {
         71388: {
             1: {
-                "name": "一阳指秘章",
+                "name": "《一阳指·悟》秘章",
                 "interval": 80,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -4629,6 +4642,112 @@ BUFFS = {
                 "attributes": {
                     "all_damage_addition": 205
                 }
+            }
+        }
+    },
+    102393: {
+        71590: {
+            1: {
+                "name": "缠绞",
+                "interval": 8,
+                "max_stack": 6,
+                "max_tick": 1,
+                "skills": [
+                    102401,
+                    102438,
+                    102409,
+                    102403,
+                    102413,
+                    102411,
+                    102415
+                ],
+                "buff_key": "buff_71590_1"
+            }
+        },
+        71559: {
+            1: {
+                "name": "《勾线·悟》秘章",
+                "interval": 160,
+                "max_stack": 5,
+                "max_tick": 1,
+                "skills": [
+                    102438
+                ],
+                "buff_key": "buff_71559_1"
+            }
+        },
+        71616: {
+            1: {
+                "name": "《连环慢·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 205,
+                    "magical_damage_addition": 205
+                }
+            }
+        },
+        70161: {
+            100: {
+                "name": "伤害提高",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 1024,
+                    "magical_damage_addition": 1024
+                }
+            }
+        },
+        71561: {
+            1: {
+                "name": "《夹线·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    102409,
+                    102403,
+                    102413,
+                    102411,
+                    102415
+                ],
+                "buff_key": "buff_71561_1"
+            }
+        },
+        71585: {
+            1: {
+                "name": "双音·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_damage_addition": 297
+                }
+            }
+        },
+        71587: {
+            1: {
+                "name": "谐调·悟",
+                "interval": 320,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_damage_addition": 102
+                }
+            }
+        },
+        71577: {
+            1: {
+                "name": "障幕虚影·悟",
+                "interval": 176,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    102435
+                ],
+                "buff_key": "buff_71577_1"
             }
         }
     },
@@ -5599,46 +5718,12 @@ BUFFS = {
         6363: {
             1: {
                 "name": "激雷",
-                "comment": "激雷队友",
                 "interval": 16,
                 "max_stack": 1,
                 "max_tick": 6,
                 "attributes": {
                     "physical_overcome_gain": 256,
                     "physical_attack_power_gain": 307
-                }
-            },
-            2: {
-                "name": "激雷",
-                "comment": "原始",
-                "interval": 4,
-                "max_stack": 1,
-                "max_tick": 24,
-                "attributes": {
-                    "physical_critical_strike_rate": 3000
-                }
-            },
-            3: {
-                "name": "激雷",
-                "comment": "激雷自身",
-                "interval": 4,
-                "max_stack": 1,
-                "max_tick": 24,
-                "attributes": {
-                    "physical_overcome_gain": 256,
-                    "physical_attack_power_gain": 307,
-                    "physical_critical_strike_rate": 3000
-                }
-            },
-            4: {
-                "name": "激雷",
-                "comment": "夜征",
-                "interval": 4,
-                "max_stack": 1,
-                "max_tick": 72,
-                "attributes": {
-                    "all_shield_ignore": 717,
-                    "physical_critical_strike_rate": 3000
                 }
             }
         },
@@ -5738,134 +5823,22 @@ BUFFS = {
         378: {
             7: {
                 "name": "凭霄破云·碎星辰",
-                "comment": "小队",
                 "interval": 64,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
                     "physical_critical_power_rate": 100
                 }
-            },
-            8: {
-                "name": "碎星辰",
-                "comment": "自身",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_power_rate": 100,
-                    "physical_critical_strike_rate": 500
-                }
-            },
-            9: {
-                "name": "碎星辰",
-                "comment": "负阴",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_power_rate": 204,
-                    "physical_critical_strike_rate": 1000
-                }
-            },
-            10: {
-                "name": "碎星辰",
-                "comment": "故长",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_power_rate": 100,
-                    "physical_critical_strike_rate": 500,
-                    "all_shield_ignore": 614
-                },
-                "recipes": [
-                    "recipe_5772_1"
-                ]
-            },
-            11: {
-                "name": "碎星辰",
-                "comment": "负阴+故长",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_power_rate": 204,
-                    "physical_critical_strike_rate": 1000,
-                    "all_shield_ignore": 614
-                },
-                "recipes": [
-                    "recipe_5772_1"
-                ]
             }
         },
         375: {
             5: {
                 "name": "破苍穹",
-                "comment": "小队",
                 "interval": 64,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
                     "magical_critical_power_rate": 100
-                }
-            },
-            11: {
-                "name": "破苍穹",
-                "comment": "自身",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "poison_critical_strike_rate": 500,
-                    "solar_critical_strike_rate": 500,
-                    "neutral_critical_strike_rate": 500,
-                    "lunar_critical_strike_rate": 500,
-                    "magical_critical_power_rate": 100
-                }
-            },
-            12: {
-                "name": "破苍穹",
-                "comment": "抱阳",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "poison_critical_strike_rate": 1000,
-                    "solar_critical_strike_rate": 1000,
-                    "neutral_critical_strike_rate": 1000,
-                    "lunar_critical_strike_rate": 1000,
-                    "magical_critical_power_rate": 204
-                }
-            },
-            13: {
-                "name": "破苍穹",
-                "comment": "归元",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "poison_critical_strike_rate": 500,
-                    "solar_critical_strike_rate": 500,
-                    "neutral_critical_strike_rate": 500,
-                    "lunar_critical_strike_rate": 500,
-                    "magical_critical_power_rate": 100,
-                    "all_shield_ignore": 615
-                }
-            },
-            14: {
-                "name": "破苍穹",
-                "comment": "抱阳+归元",
-                "interval": 64,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "poison_critical_strike_rate": 1000,
-                    "solar_critical_strike_rate": 1000,
-                    "neutral_critical_strike_rate": 1000,
-                    "lunar_critical_strike_rate": 1000,
-                    "magical_critical_power_rate": 204,
-                    "all_shield_ignore": 615
                 }
             }
         },

@@ -3,7 +3,6 @@ from pathlib import Path
 from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, \
     PHYSICAL_DAMAGE_SCALE
 from base.expression import Expression, Int
-from kungfus import SKILL_PATCHES
 from tools.classes import AliasBase
 from tools.classes.attribute import Attribute, Target
 from tools.classes.damage import DamageChain
@@ -71,7 +70,7 @@ class Skill(AliasBase):
     def level(self):
         return self.skill_level
 
-    def __init__(self, skill_id: int, skill_level: int = 0):
+    def __init__(self, skill_id: int, skill_level: int = 0, patches: dict = None):
         self.skill_id = skill_id
         self.skill_level = skill_level
         setting_row = skill_settings[skill_settings['SkillID'] == self.skill_id].iloc[0]
@@ -85,7 +84,8 @@ class Skill(AliasBase):
         if self.script_file:
             self.script_path = Path(self.path) / self.script_file
 
-        set_patches(self, SKILL_PATCHES, skill_id, skill_level)
+        self.patches = patches if patches else {}
+        set_patches(self, self.patches, skill_id, skill_level)
 
     def __getattr__(self, item):
         if self.recipe_key and item == "nChannelInterval":

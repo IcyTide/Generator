@@ -76,7 +76,7 @@ def special_enchant_belt(self: "Gain", attribute: Attribute):
 
 
 def special_enchant_jacket(self: "Gain", attribute: Attribute):
-    skill_id = self.skills[0]
+    skill_id = self.gain_id
     skill = SKILLS[0][skill_id][self.gain_level]
     for k, v in skill["attributes"].items():
         attribute[k] += v
@@ -132,6 +132,7 @@ class Gain:
             attrs = {}
         for k, v in attrs.items():
             setattr(self, k, v)
+        self.skills = [skill_id for skill_id in self.skills if skill_id != self.gain_id]
 
     def set_attribute(self, attribute: Attribute):
         ATTRIBUTE_FUNCS.get(self.gain_id, default)(self, attribute)

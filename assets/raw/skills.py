@@ -13205,19 +13205,150 @@ SKILLS = {
             }
         }
     },
+    102393: {
+        43087: {
+            1: {
+                "name": "牵丝",
+                "damage": "(20 + rand * 10) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102401: {
+            1: {
+                "name": "挑丝·悟",
+                "damage": "(1 + lunar_attack_power * 1.8645833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 256 * int(buff_71590_1 / 6) * recipe_17527_1) / 1024) + (1 + rand + surplus * 0.400390625) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 256 * int(buff_71590_1 / 6) * recipe_17527_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102438: {
+            1: {
+                "name": "勾线·悟",
+                "damage": "(1 + lunar_attack_power * 1.1041666666666665) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 122.88 * buff_71559_1) / 1024) + (1 + rand + surplus * 0.5) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 122.88 * buff_71559_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102409: {
+            1: {
+                "name": "四边静·悟",
+                "damage": "(1 + lunar_attack_power * 5.401041666666666) * (1 + (magical_damage_addition + 154 * recipe_17554_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024) + (1 + rand + surplus) * (1 + (magical_damage_addition + 154 * recipe_17554_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102443: {
+            1: {
+                "name": "《四边静·悟》断篇",
+                "damage": "(1 + lunar_attack_power * 1.5625) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 153.6 * buff_71590_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102403: {
+            1: {
+                "name": "连环慢·悟",
+                "damage": "(1 + lunar_attack_power * 2.8541666666666665) * (1 + (magical_damage_addition + 154 * recipe_17555_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024) + (1 + rand + surplus * 1.2998046875) * (1 + (magical_damage_addition + 154 * recipe_17555_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102413: {
+            1: {
+                "name": "生地狱·悟",
+                "damage": "(1 + lunar_attack_power * 3.302083333333333) * (1 + (magical_damage_addition + 154 * recipe_17551_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 153.6 * buff_71590_1 + 204.8 * buff_71561_1) / 1024) + (1 + rand + surplus * 1.4501953125) * (1 + (magical_damage_addition + 154 * recipe_17551_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 153.6 * buff_71590_1 + 204.8 * buff_71561_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102411: {
+            1: {
+                "name": "驻云飞·悟",
+                "damage": "(1 + lunar_attack_power * 4.651041666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024) + (1 + rand + surplus * 1.2998046875) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102422: {
+            1: {
+                "name": "驻云飞·悟",
+                "comment": "秘章",
+                "damage": "(1 + lunar_attack_power * 1.25) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024) + (1 + rand + surplus) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102412: {
+            1: {
+                "name": "夹线·悟",
+                "damage": "(1 + lunar_attack_power * 5.401041666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024) + (1 + rand + surplus * 0.849609375) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102415: {
+            1: {
+                "name": "缚影·悟",
+                "damage": "(1 + lunar_attack_power * 3.7447916666666665) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 10 * buff_71590_1 + 204.8 * buff_71561_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102444: {
+            1: {
+                "name": "协幽·悟",
+                "damage": "(1 + lunar_attack_power * 1.25) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024) + (1 + rand + surplus * 0.5498046875) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102435: {
+            1: {
+                "name": "千里急·悟",
+                "damage": "(1 + lunar_attack_power * 2.6041666666666665) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 2048 * buff_71577_1) / 1024) + (1 + rand + surplus * 0.9501953125) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 2048 * buff_71577_1) / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102436: {
+            1: {
+                "name": "障幕虚影·悟",
+                "damage": "(1 + lunar_attack_power * 2.484375) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102439: {
+            1: {
+                "name": "锁南枝·悟",
+                "damage": "(1 + lunar_attack_power * 1.6041666666666665) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        },
+        102441: {
+            1: {
+                "name": "锁南枝·悟·贰式",
+                "damage": "(1 + lunar_attack_power * 1.8020833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                "critical_damage": "damage * lunar_critical_power",
+                "critical_strike": "lunar_critical_strike"
+            }
+        }
+    },
     0: {
         29532: {
             1: {
                 "name": "逐云寒蕊",
-                "damage": "(equip_score * 0.0080170644 - 1388.323959) * buff_20854_1 * 1.25 * 1.3 * 1.15 * 0.5",
-                "critical_damage": "damage * lunar_critical_power",
-                "critical_strike": "lunar_critical_strike"
+                "damage": "(equip_score * 0.0080170644 - 1388.323959) * buff_20854_1 * 1.25 * 1.3 * 1.15 * 0.5 * (1 - (level - 130) * 0.05) * (1 + poison_damage_cof / 1024)",
+                "critical_damage": "damage",
+                "critical_strike": "0"
             }
         },
         42837: {
             1: {
                 "name": "速·震",
-                "damage": "123300",
+                "damage": "123300 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
@@ -13225,13 +13356,13 @@ SKILLS = {
         40789: {
             1: {
                 "name": "巽",
-                "damage": "403200",
+                "damage": "403200 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             2: {
                 "name": "巽",
-                "damage": "524160",
+                "damage": "524160 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
@@ -13239,37 +13370,37 @@ SKILLS = {
         38966: {
             1: {
                 "name": "无修·荒",
-                "damage": "86500",
+                "damage": "86500 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             2: {
                 "name": "无修·荒",
-                "damage": "90000",
+                "damage": "90000 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             3: {
                 "name": "无修·玄",
-                "damage": "320423",
+                "damage": "320423 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             4: {
                 "name": "无修·玄",
-                "damage": "345600",
+                "damage": "345600 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             5: {
                 "name": "无修·地",
-                "damage": "413600",
+                "damage": "413600 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             6: {
                 "name": "无修·地",
-                "damage": "449280",
+                "damage": "449280 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
@@ -13277,25 +13408,25 @@ SKILLS = {
         37562: {
             1: {
                 "name": "昆吾·弦刃",
-                "damage": "244355",
+                "damage": "244355 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             2: {
                 "name": "昆吾·弦刃",
-                "damage": "281280",
+                "damage": "281280 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             3: {
                 "name": "昆吾·弦刃",
-                "damage": "748100",
+                "damage": "748100 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             4: {
                 "name": "昆吾·弦刃",
-                "damage": "1021200",
+                "damage": "1021200 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
@@ -13303,25 +13434,25 @@ SKILLS = {
         37561: {
             1: {
                 "name": "刃凌",
-                "damage": "162903",
+                "damage": "162903 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             2: {
                 "name": "刃凌",
-                "damage": "187520",
+                "damage": "187520 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             3: {
                 "name": "刃凌",
-                "damage": "498800",
+                "damage": "498800 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             4: {
                 "name": "刃凌",
-                "damage": "680800",
+                "damage": "680800 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }

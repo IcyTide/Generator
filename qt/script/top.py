@@ -59,6 +59,7 @@ class TopScript:
             self.loop_script.init(self.kungfu, cache["loop"])
             self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
         self.tabs.show()
+        self.widget.window().showMaximized()
         self.widget.load_btn.hide()
         self.widget.save_btn.show()
 

@@ -1,0 +1,4 @@
+ATTRIBUTE = 102393
+KIND = "内功"
+SCHOOL = "无相"
+MAJOR = "根骨"

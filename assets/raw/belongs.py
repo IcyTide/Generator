@@ -8837,6 +8837,127 @@ BELONGS = {
             "belong_key": "belong_102291"
         }
     },
+    102393: {
+        102393: {
+            "name": "幽罗引·悟",
+            "attributes": {
+                "magical_shield_base": 2191,
+                "physical_shield_base": 1721,
+                "pve_addition_base": 717,
+                "all_shield_ignore": 614,
+                "spirit_to_lunar_attack_power": 2048,
+                "spirit_to_lunar_critical_strike": 297,
+                "lunar_attack_power_base": 7387
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "desc": "无相楼秘传心法，化气凝丝，绕指无形。",
+            "critical_type": "lunar",
+            "damage_type": "lunar",
+            "belong_key": "belong_102393"
+        },
+        102402: {
+            "name": "勾线·悟",
+            "desc": "每0.5秒对目标路径造成伤害，持续3秒。该招式施展期间，使用{伶影招式}时不会打断。每跳使目标获得1层{缠绞}。",
+            "belong_key": "belong_102402"
+        },
+        102403: {
+            "name": "连环慢·悟",
+            "attributes": {
+                "lunar_damage_base": 1
+            },
+            "desc": "充能2层，操控伶影冲向目标发起攻击，对目标范围4尺目标造成伤害并定身2秒。",
+            "belong_key": "belong_102403"
+        },
+        102404: {
+            "name": "生地狱·悟",
+            "desc": "立即消除伶影前方矩形范围目标身上最多6层{缠绞}效果，对范围内目标连续穿刺3次造成伤害。每消除1层{缠绞}，伤害提高15%。",
+            "belong_key": "belong_102404"
+        },
+        102412: {
+            "name": "夹线·悟",
+            "attributes": {
+                "lunar_damage_base": 1
+            },
+            "desc": "对敌方造成伤害。使目标定身5秒。",
+            "belong_key": "belong_102412"
+        },
+        102401: {
+            "name": "挑丝·悟",
+            "attributes": {
+                "lunar_damage_base": 1
+            },
+            "desc": "向目标位置发射丝线刺穿目标，对目标的路径上最多5个目标造成伤害，使目标获得2层{缠绞}。",
+            "belong_key": "belong_102401"
+        },
+        102400: {
+            "name": "四边静·悟",
+            "desc": "伶影对8尺范围内的目标造成伤害，并消耗目标身上至多6层{缠绞}，根据消耗层数造成眩晕（每层眩晕0.75秒）。",
+            "belong_key": "belong_102400"
+        },
+        102411: {
+            "name": "驻云飞·悟",
+            "attributes": {
+                "lunar_damage_base": 1
+            },
+            "desc": "对目标造成伤害，并操控伶影冲向目标，打断目标运功。",
+            "belong_key": "belong_102411"
+        },
+        102414: {
+            "name": "缚影·悟",
+            "attributes": {
+                "lunar_damage_base": 1
+            },
+            "desc": "对敌方造成伤害。",
+            "belong_key": "belong_102414"
+        },
+        102428: {
+            "name": "双音·悟",
+            "desc": "傍身招式施展后，使自身下一个{伶影招式}造成伤害提高30%。",
+            "belong_key": "belong_102428"
+        },
+        102429: {
+            "name": "偃卫·悟",
+            "desc": "在伶影20尺范围内，自身受到伤害降低15%。",
+            "belong_key": "belong_102429"
+        },
+        102430: {
+            "name": "谐调·悟",
+            "recipes": [
+                "recipe_17551_1",
+                "recipe_17554_1",
+                "recipe_17555_1"
+            ],
+            "desc": "{伶影招式}造成伤害提高15%。施展后使自身伤害提高10%，持续20秒。",
+            "belong_key": "belong_102430"
+        },
+        102431: {
+            "name": "歇拍·悟",
+            "desc": "“绝技”持续期间自身不受{外功沉默}{内功沉默}{轻功沉默}效果影响。",
+            "belong_key": "belong_102431"
+        },
+        102432: {
+            "name": "协幽·悟",
+            "desc": "傍身招式施展时若伶影在当前目标6尺内，则会触发一次伶影合击，造成内功伤害及破招伤害。每3.5秒至多触发一次，该触发间隔受到自身加速影响。",
+            "belong_key": "belong_102432"
+        },
+        102433: {
+            "name": "移宫·悟",
+            "desc": "“千丝落絮”施展时若伶影在场则不再飘荡，而是改为与自身伶影交换位置并返还15秒调息时间。",
+            "belong_key": "belong_102433"
+        },
+        102421: {
+            "name": "障幕虚影·悟",
+            "desc": "使目标范围6尺的目标陷入{障幕虚影}持续11秒，使其获得6层{缠绞}。期间自身傍身招式替换为{千里急·悟}，每次自身施展{伶影招式}时，使下一次“千里急·悟”造成的伤害提高200%。",
+            "belong_key": "belong_102421"
+        },
+        102434: {
+            "name": "锁南枝·悟",
+            "desc": "生成一个15尺的“锁南枝”，持续5秒。在范围内减速，每0.5秒受到1次伤害。并激活{锁南枝·贰式}。",
+            "belong_key": "belong_102434"
+        }
+    },
     0: {
         10438: {
             "belong_key": "belong_10438"

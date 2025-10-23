@@ -1,3 +1,6 @@
+from logging import critical
+
+from base.expression import Constant
 from qt.classes.dot import Dot
 from qt.classes.skill import Skill
 
@@ -8,7 +11,10 @@ def percent(num):
 
 def evaluate_skill(skill: Skill, variables: dict):
     damage = skill.damage.evaluate(variables)
-    critical_strike = skill.critical_strike.evaluate(variables)
+    if skill.critical_strike == 0:
+        critical_strike = Constant(0)
+    else:
+        critical_strike = skill.critical_strike.evaluate(variables)
     critical_damage = skill.critical_damage.evaluate({**variables, "damage": damage})
     expected_damage = damage * (1 - critical_strike) + critical_damage * critical_strike
     return damage, critical_strike, critical_damage, expected_damage

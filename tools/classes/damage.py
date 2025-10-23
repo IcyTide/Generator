@@ -20,26 +20,32 @@ class DamageChain:
         self.target = target
         self.skill = skill
 
-        self.damage, self.critical_damage = 0, 0
+        self.damage, self.critical_strike, self.critical_damage = 0, 0, Variable("damage")
         self.rand, self.shield_constant = Variable("rand"), Variable("shield_constant")
         self.final_damage = 0
 
         self.need_int = False
 
     def physical_damage_call(self, damage_base, damage_rand):
-        damage_base = damage_base or self.source.physical_damage_base
-        damage_rand = damage_rand or self.source.physical_damage_rand
-        self.cal_base_damage(damage_base, damage_rand)
-        self.cal_attack_power_damage(self.source.physical_attack_power, self.skill.physical_attack_power_cof)
-        self.cal_weapon_damage()
-        self.physical_chain()
+        if self.skill.custom_damage_base:
+            self.custom_damage_call()
+        else:
+            damage_base = damage_base or self.source.physical_damage_base
+            damage_rand = damage_rand or self.source.physical_damage_rand
+            self.cal_base_damage(damage_base, damage_rand)
+            self.cal_attack_power_damage(self.source.physical_attack_power, self.skill.physical_attack_power_cof)
+            self.cal_weapon_damage()
+            self.physical_chain()
 
     def solar_damage_call(self, damage_base, damage_rand):
-        damage_base = damage_base or self.source.solar_damage_base
-        damage_rand = damage_rand or self.source.solar_damage_rand
-        self.cal_base_damage(damage_base, damage_rand)
-        self.cal_attack_power_damage(self.source.solar_attack_power, self.skill.magical_attack_power_cof)
-        self.solar_chain()
+        if self.skill.custom_damage_base:
+            self.custom_damage_call()
+        else:
+            damage_base = damage_base or self.source.solar_damage_base
+            damage_rand = damage_rand or self.source.solar_damage_rand
+            self.cal_base_damage(damage_base, damage_rand)
+            self.cal_attack_power_damage(self.source.solar_attack_power, self.skill.magical_attack_power_cof)
+            self.solar_chain()
 
     def lunar_damage_call(self, damage_base, damage_rand):
         if self.skill.custom_damage_base:
@@ -52,26 +58,34 @@ class DamageChain:
             self.lunar_chain()
 
     def neutral_damage_call(self, damage_base, damage_rand):
-        damage_base = damage_base or self.source.neutral_damage_base
-        damage_rand = damage_rand or self.source.neutral_damage_rand
-        self.cal_base_damage(damage_base, damage_rand)
-        self.cal_attack_power_damage(self.source.neutral_attack_power, self.skill.magical_attack_power_cof)
-        self.neutral_chain()
+        if self.skill.custom_damage_base:
+            self.custom_damage_call()
+        else:
+            damage_base = damage_base or self.source.neutral_damage_base
+            damage_rand = damage_rand or self.source.neutral_damage_rand
+            self.cal_base_damage(damage_base, damage_rand)
+            self.cal_attack_power_damage(self.source.neutral_attack_power, self.skill.magical_attack_power_cof)
+            self.neutral_chain()
 
     def poison_damage_call(self, damage_base, damage_rand):
-        damage_base = damage_base or self.source.poison_damage_base
-        damage_rand = damage_rand or self.source.poison_damage_rand
-        self.cal_base_damage(damage_base, damage_rand)
-        self.cal_attack_power_damage(self.source.poison_attack_power, self.skill.magical_attack_power_cof)
-        self.poison_chain()
+        if self.skill.custom_damage_base:
+            self.custom_damage_call()
+        else:
+            damage_base = damage_base or self.source.poison_damage_base
+            damage_rand = damage_rand or self.source.poison_damage_rand
+            self.cal_base_damage(damage_base, damage_rand)
+            self.cal_attack_power_damage(self.source.poison_attack_power, self.skill.magical_attack_power_cof)
+            self.poison_chain()
 
     def adaptive_damage_call(self, damage_base, damage_rand):
         if self.skill.custom_damage_base:
             self.custom_damage_call()
 
     def custom_damage_call(self):
-        self.final_damage = self.damage = self.skill.custom_damage_base
+        self.damage = self.skill.custom_damage_base
+        self.cal_level_reduction()
         self.cal_damage_cof(self.target.damage_cof(self.skill.custom_damage_type))
+        self.final_damage = self.damage
 
     def physical_surplus_call(self, damage_base, damage_rand):
         damage_base = damage_base or self.source.physical_damage_base
@@ -246,23 +260,20 @@ class DamageChain:
             self.damage = Int(self.damage)
 
     def cal_critical(self, kind_type: SKILL_KIND_TYPE):
-        damage = Variable("damage")
-        if not kind_type:
-            self.critical_damage = damage
-            self.critical_strike = 0
-        else:
+        if kind_type:
             if self.need_int:
                 rate = Int(self.source.critical_power(kind_type) * BINARY_SCALE) / BINARY_SCALE
-                self.critical_damage = Int(damage * rate)
+                self.critical_damage = Int(self.critical_damage * rate)
             else:
                 rate = self.source.critical_power(kind_type)
-                self.critical_damage = damage * rate
+                self.critical_damage = self.critical_damage * rate
             self.critical_strike = self.source.critical_strike(kind_type)
 
     def to_dict(self):
         if not self.final_damage:
             return {}
-        self.cal_critical(self.skill.kind_type)
+        if not self.skill.custom_damage_base:
+            self.cal_critical(self.skill.kind_type)
         # terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
         # recipes = sorted(term for term in terms if term.startswith("_"))
         return dict(

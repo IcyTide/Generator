@@ -1,16 +1,14 @@
 from kungfus import SUPPORT_KUNGFUS
 from tools.utils import read_tab
 
-kungfu_info = read_tab("settings/skill/mainkungfuinfo.tab")
-talent_tab = read_tab("settings/skill/tenextrapoint.tab")
+kungfu_info = read_tab("settings/skill/mainkungfuinfo.tab", "settings/skill_mobile/mainkungfuinfo.tab")
+talent_tab = read_tab("settings/skill/tenextrapoint.tab", "settings/skill_mobile/tenextrapoint.tab")
 
 
 def main():
     for kungfu in SUPPORT_KUNGFUS:
-        if kungfu.kungfu_id > 100000:
-            continue
-        kungfu_id = kungfu_info[kungfu_info.KungfuID == kungfu.kungfu_id].iloc[0].KungfuIndex
-        talent_rows = talent_tab[talent_tab.KungFuID == kungfu_id]
+        talent_group = kungfu_info[kungfu_info.KungfuID == kungfu.kungfu_id].iloc[0].TalentGroup
+        talent_rows = talent_tab[talent_tab.KungFuID == talent_group]
         all_talents = []
         for row in talent_rows.itertuples():
             all_talents.append(talents := [])

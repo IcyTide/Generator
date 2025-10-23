@@ -3,7 +3,7 @@ from tools.classes.skill import Skill
 
 
 class Dot(Buff):
-    skills: dict[int, dict[int, Skill]]
+    skills: dict
     attributes_prefix = "active"
 
     active_coefficient = 0
