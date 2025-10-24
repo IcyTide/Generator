@@ -13,7 +13,7 @@ class Buff:
     belong: str
     buff_id: int
     buff_level: int
-    stack: int
+    stack: float
     buff_type: str
 
     name: str = ""
@@ -24,7 +24,7 @@ class Buff:
     max_stack: int = 1
     max_tick: int = 1
 
-    def __init__(self, belong: str, buff_id: int, buff_level: int, buff_type: str, stack: int = 1, **kwargs):
+    def __init__(self, belong: str, buff_id: int, buff_level: int, buff_type: str, stack: float = 1., **kwargs):
         self.belong = belong
         self.buff_id = buff_id
         self.buff_level = buff_level
@@ -36,8 +36,10 @@ class Buff:
 
     def __iter__(self):
         yield str(self)
-        for attr in ("buff_id", "buff_level", "stack", "buff_type"):
-            yield str(getattr(self, attr))
+        yield str(self.buff_id)
+        yield str(self.buff_level)
+        yield str(self.stack)
+        yield str(self.buff_type)
 
     def __str__(self):
         if self.name and self.comment:
@@ -63,7 +65,10 @@ class Buff:
     @classmethod
     def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
         if not kwargs:
-            kwargs = BUFFS[kungfu_id][json["buff_id"]][json["buff_level"]]
+            if json["buff_id"] in BUFFS[kungfu_id]:
+                kwargs = BUFFS[kungfu_id][json["buff_id"]][json["buff_level"]]
+            else:
+                kwargs = BUFFS[0][json["buff_id"]][json["buff_level"]]
         return cls(
             belong=json["belong"],
             buff_id=json["buff_id"],

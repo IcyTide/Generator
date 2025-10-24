@@ -46,7 +46,7 @@ class ComboBox(QComboBox):
         else:
             if current_text in items:
                 self.setCurrentText(current_text)
-            else:
+            elif items:
                 self.setCurrentText(items[0])
 
 

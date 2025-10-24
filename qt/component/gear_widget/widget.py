@@ -73,7 +73,7 @@ class GearWidget(QWidget):
         top_layout.addWidget(LabelColumn("全部精炼", self.strength_combo), 2)
         self.embed_combo = ComboBox()
         self.embed_combo.set_items(range(MAX_EMBED_LEVEL + 1), -1)
-        top_layout.addWidget(LabelColumn("全部精炼", self.embed_combo), 2)
+        top_layout.addWidget(LabelColumn("全部镶嵌", self.embed_combo), 2)
         self.detail_btn = QPushButton("总属性")
         top_layout.addWidget(LabelColumn("", self.detail_btn), 2)
 

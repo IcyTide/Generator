@@ -70,14 +70,17 @@ class SkillEditorDialog(QDialog):
         belong = self.belong_combo.currentText()
         skill_id = int(self.id_combo.currentText())
         skill_level = int(skill_level)
-        self.skill = Skill(belong, skill_id, skill_level, **self.skills[belong][skill_id][skill_level])
+        count = self.count_spin.value()
+        count = int(count) if int(count) == count else count
+        self.skill = Skill(belong, skill_id, skill_level, count, **self.skills[belong][skill_id][skill_level])
 
         self.name_label.setText(self.skill.name)
         self.comment_label.setText(self.skill.comment)
 
-    def select_count(self, count: int):
+    def select_count(self, count: float):
         if not self.skill:
             return
+        count = int(count) if int(count) == count else count
         self.skill.count = count
 
 

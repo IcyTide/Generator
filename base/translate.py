@@ -10,6 +10,7 @@ TRANSLATE_MAP = {
     "lunar": "阴性",
     "neutral": "混元",
     "poison": "毒性",
+    "all": "全",
 
     "major": "主属性",
     "agility": "身法",
@@ -18,6 +19,7 @@ TRANSLATE_MAP = {
     "spunk": "元气",
     "vitality": "体质",
 
+    "shield": "防御",
     "attack_power": "攻击",
     "weapon_damage": "武器伤害",
     "surplus": "破招",

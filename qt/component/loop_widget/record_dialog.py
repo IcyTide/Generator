@@ -22,7 +22,7 @@ class RecordEditorDialog(QDialog):
         else:
             self.record = Record()
         self.name_edit = QLineEdit(self.record.name)
-        self.count_spin = QSpinBox(minimum=1, value=self.record.count)
+        self.count_spin = QSpinBox(minimum=0, value=self.record.count)
         self.duration_spin = QDoubleSpinBox(minimum=0, value=self.record.duration, maximum=1000)
 
         layout.addWidget(LabelRow("名称:", self.name_edit))
@@ -47,6 +47,7 @@ class RecordEditorDialog(QDialog):
         self.record.count = count
 
     def select_duration(self, duration: float):
+        duration = int(duration) if int(duration) == duration else duration
         self.record.duration = duration
 
 

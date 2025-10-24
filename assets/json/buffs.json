@@ -6157,6 +6157,949 @@
                 }
             }
         },
+        "919": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "strain_rate": 20,
+                    "poison_overcome_gain": 102,
+                    "solar_overcome_gain": 102,
+                    "neutral_overcome_gain": 102,
+                    "lunar_overcome_gain": 102
+                }
+            }
+        },
+        "920": {
+            "1": {
+                "name": "天鼓雷音五阵",
+                "interval": 480,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 21
+                }
+            }
+        },
+        "940": {
+            "2": {
+                "name": "天鼓雷音六阵",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 10000,
+                    "solar_critical_strike_rate": 10000,
+                    "neutral_critical_strike_rate": 10000,
+                    "lunar_critical_strike_rate": 10000,
+                    "poison_critical_strike_rate": 10000
+                }
+            }
+        },
+        "938": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 300,
+                    "solar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300,
+                    "strain_rate": 20,
+                    "magical_critical_power_rate": 154
+                }
+            }
+        },
+        "943": {
+            "1": {
+                "name": "九宫八卦五阵",
+                "interval": 320,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 100,
+                    "neutral_critical_strike_rate": 100,
+                    "poison_critical_strike_rate": 100,
+                    "solar_critical_strike_rate": 100
+                }
+            }
+        },
+        "949": {
+            "1": {
+                "name": "九宫八卦六阵",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 205
+                }
+            }
+        },
+        "947": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 300,
+                    "strain_rate": 20,
+                    "physical_critical_power_rate": 150
+                }
+            }
+        },
+        "950": {
+            "1": {
+                "name": "北斗七星五阵",
+                "interval": 320,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 100
+                }
+            }
+        },
+        "953": {
+            "1": {
+                "name": "北斗七星六阵",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 205
+                }
+            }
+        },
+        "934": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "solar_overcome_gain": 300,
+                    "neutral_overcome_gain": 300,
+                    "lunar_overcome_gain": 300,
+                    "poison_overcome_gain": 300
+                }
+            }
+        },
+        "937": {
+            "1": {
+                "name": "七绝逍遥四阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_damage_addition": 154
+                }
+            }
+        },
+        "930": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 50,
+                    "physical_overcome_gain": 200
+                }
+            }
+        },
+        "935": {
+            "1": {
+                "name": "卫公折冲四阵",
+                "interval": 160,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_gain": 10
+                }
+            }
+        },
+        "936": {
+            "1": {
+                "name": "卫公折冲五阵",
+                "interval": 240,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 51
+                }
+            }
+        },
+        "952": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 50,
+                    "lunar_critical_strike_rate": 300,
+                    "solar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300,
+                    "magical_critical_power_rate": 51
+                }
+            }
+        },
+        "954": {
+            "1": {
+                "name": "九音惊弦四阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "solar_overcome_gain": 307,
+                    "neutral_overcome_gain": 307,
+                    "lunar_overcome_gain": 307,
+                    "poison_overcome_gain": 307
+                }
+            }
+        },
+        "955": {
+            "1": {
+                "name": "九音惊弦五阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51
+                }
+            }
+        },
+        "956": {
+            "1": {
+                "name": "九音惊弦六阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 2000,
+                    "solar_critical_strike_rate": 2000,
+                    "neutral_critical_strike_rate": 2000,
+                    "poison_critical_strike_rate": 2000
+                }
+            }
+        },
+        "1924": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "agility_gain": 30,
+                    "physical_attack_power_gain": 51,
+                    "physical_critical_power_rate": 204
+                }
+            }
+        },
+        "1925": {
+            "1": {
+                "name": "鸣速",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "weapon_damage_base": 2385
+                }
+            }
+        },
+        "1926": {
+            "1": {
+                "name": "获气",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000
+                }
+            }
+        },
+        "2512": {
+            "6": {
+                "name": "六重忘我",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "lunar_critical_strike_rate": 300,
+                    "solar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300,
+                    "magical_critical_power_rate": 102
+                }
+            }
+        },
+        "2513": {
+            "1": {
+                "name": "万蛊噬心四阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_attack_power_gain": 51
+                }
+            }
+        },
+        "2514": {
+            "1": {
+                "name": "万蛊噬心五阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "solar_overcome_gain": 102,
+                    "neutral_overcome_gain": 102,
+                    "lunar_overcome_gain": 102,
+                    "poison_overcome_gain": 102
+                }
+            }
+        },
+        "2510": {
+            "1": {
+                "name": "蚀心",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "poison_critical_strike_rate": 2000
+                }
+            }
+        },
+        "3306": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strength_gain": 30,
+                    "strain_rate": 20,
+                    "physical_overcome_gain": 205
+                }
+            }
+        },
+        "3308": {
+            "1": {
+                "name": "追命",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 500
+                }
+            }
+        },
+        "3309": {
+            "1": {
+                "name": "肃杀",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000
+                }
+            }
+        },
+        "3307": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "all_shield_ignore": 52,
+                    "physical_damage_cof": -51,
+                    "physical_critical_power_rate": 150,
+                    "magical_critical_power_rate": 150
+                }
+            }
+        },
+        "3310": {
+            "1": {
+                "name": "千机百变",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "poison_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500,
+                    "physical_critical_strike_rate": 500
+                }
+            }
+        },
+        "4579": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "solar_critical_strike_rate": 300,
+                    "lunar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300
+                }
+            }
+        },
+        "4584": {
+            "1": {
+                "name": "炎威",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "solar_critical_power_rate": 200,
+                    "lunar_critical_power_rate": 200
+                }
+            }
+        },
+        "4586": {
+            "1": {
+                "name": "破魔",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 1000,
+                    "solar_critical_strike_rate": 1000,
+                    "neutral_critical_strike_rate": 1000,
+                    "poison_critical_strike_rate": 1000
+                }
+            }
+        },
+        "6342": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 50,
+                    "physical_overcome_gain": 102
+                }
+            }
+        },
+        "6343": {
+            "1": {
+                "name": "降龙",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_gain": 306
+                }
+            }
+        },
+        "6345": {
+            "1": {
+                "name": "伏虎",
+                "interval": 480,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_base": 2980
+                }
+            }
+        },
+        "6362": {
+            "1": {
+                "name": "风和",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 205
+                }
+            }
+        },
+        "8402": {
+            "1": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 300,
+                    "strain_rate": 20
+                }
+            }
+        },
+        "8484": {
+            "1": {
+                "name": "锋绝",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_overcome_gain": 153
+                }
+            }
+        },
+        "8403": {
+            "1": {
+                "name": "锋凌",
+                "interval": 480,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 20
+                }
+            }
+        },
+        "8404": {
+            "1": {
+                "name": "横绝",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 102
+                }
+            }
+        },
+        "9485": {
+            "1": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 300,
+                    "solar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300,
+                    "strain_rate": 20,
+                    "magical_attack_power_gain": 102
+                }
+            }
+        },
+        "9486": {
+            "1": {
+                "name": "万籁金弦阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_power_rate": 205
+                }
+            }
+        },
+        "9492": {
+            "1": {
+                "name": "万籁金弦阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "poison_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500
+                }
+            }
+        },
+        "9489": {
+            "1": {
+                "name": "万籁金弦阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_overcome_gain": 102,
+                    "neutral_overcome_gain": 102,
+                    "poison_overcome_gain": 102,
+                    "solar_overcome_gain": 102
+                }
+            }
+        },
+        "10954": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 50,
+                    "strain_rate": 20,
+                    "physical_overcome_gain": 102
+                }
+            }
+        },
+        "11158": {
+            "1": {
+                "name": "霜岚洗锋阵",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "poison_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500,
+                    "physical_critical_strike_rate": 500
+                }
+            }
+        },
+        "11159": {
+            "1": {
+                "name": "霜岚洗锋阵",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 2000
+                }
+            }
+        },
+        "14074": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 133,
+                    "physical_critical_strike_rate": 300,
+                    "physical_overcome_gain": 102
+                }
+            }
+        },
+        "14092": {
+            "1": {
+                "name": "墟海引归阵",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 72
+                }
+            }
+        },
+        "14095": {
+            "1": {
+                "name": "墟海引归阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 205
+                }
+            }
+        },
+        "15957": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 300,
+                    "physical_attack_power_gain": 50,
+                    "physical_critical_power_rate": 154
+                }
+            }
+        },
+        "15960": {
+            "1": {
+                "name": "龙皇雪风四阵",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 100
+                }
+            }
+        },
+        "15961": {
+            "1": {
+                "name": "龙皇雪风五阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 102
+                }
+            }
+        },
+        "15963": {
+            "1": {
+                "name": "龙皇雪风六阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1000
+                }
+            }
+        },
+        "18335": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "strain_rate": 20,
+                    "magical_critical_power_rate": 100
+                }
+            }
+        },
+        "18336": {
+            "1": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 10
+                }
+            },
+            "2": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 20
+                }
+            },
+            "3": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 31
+                }
+            },
+            "4": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 41
+                }
+            },
+            "5": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 51
+                }
+            },
+            "6": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 61
+                }
+            },
+            "7": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 71
+                }
+            },
+            "8": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 82
+                }
+            },
+            "9": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 92
+                }
+            },
+            "10": {
+                "name": "九星游年阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_gain": 102
+                }
+            }
+        },
+        "18337": {
+            "1": {
+                "name": "九星游年阵",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 154
+                }
+            }
+        },
+        "21035": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 50,
+                    "all_damage_addition": 31,
+                    "lunar_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "poison_critical_strike_rate": 500,
+                    "physical_critical_strike_rate": 500
+                }
+            }
+        },
+        "24578": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 50,
+                    "surplus_base": 2667,
+                    "physical_overcome_gain": 256
+                }
+            }
+        },
+        "24581": {
+            "1": {
+                "name": "横云破锋阵",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 100
+                }
+            }
+        },
+        "27236": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 300,
+                    "solar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300,
+                    "physical_critical_strike_rate": 300,
+                    "strain_rate": 20,
+                    "all_damage_addition": 62
+                }
+            }
+        },
+        "27238": {
+            "1": {
+                "name": "苍梧引灵阵五重",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_power_rate": 150,
+                    "magical_critical_power_rate": 150
+                }
+            }
+        },
+        "29481": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51,
+                    "surplus_base": 2666,
+                    "lunar_critical_strike_rate": 500,
+                    "solar_critical_strike_rate": 500,
+                    "neutral_critical_strike_rate": 500,
+                    "poison_critical_strike_rate": 500
+                }
+            }
+        },
+        "29482": {
+            "1": {
+                "name": "含章挺秀阵四重",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 62
+                }
+            }
+        },
+        "31962": {
+            "6": {
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 51,
+                    "lunar_critical_strike_rate": 300,
+                    "solar_critical_strike_rate": 300,
+                    "neutral_critical_strike_rate": 300,
+                    "poison_critical_strike_rate": 300,
+                    "lunar_overcome_gain": 102,
+                    "neutral_overcome_gain": 102,
+                    "poison_overcome_gain": 102,
+                    "solar_overcome_gain": 102
+                }
+            }
+        },
+        "31968": {
+            "1": {
+                "name": "连丝织意五阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 51
+                }
+            }
+        },
+        "31969": {
+            "1": {
+                "name": "连丝织意六阵",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 1000
+                }
+            }
+        },
+        "71338": {
+            "1": {
+                "name": "江湖行侠阵",
+                "interval": 128,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 52,
+                    "magical_damage_addition": 52,
+                    "strain_rate": 104
+                }
+            }
+        },
         "29524": {
             "1": {
                 "interval": 160,

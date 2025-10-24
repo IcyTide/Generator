@@ -55,9 +55,10 @@ class TopScript:
             )
         else:
             cache = self.cache_content[kungfu]
-            self.gear_script.init(self.kungfu, cache["gear"])
-            self.loop_script.init(self.kungfu, cache["loop"])
-            self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
+            cache["gear"] = self.gear_script.init(self.kungfu, cache["gear"])
+            cache["loop"] = self.loop_script.init(self.kungfu, cache["loop"])
+            build = self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
+            cache["talents"], cache["recipes"] = build["talents"], build["recipes"]
         self.tabs.show()
         self.widget.window().showMaximized()
         self.widget.load_btn.hide()

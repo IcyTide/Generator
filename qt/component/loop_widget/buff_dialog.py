@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
 
 from qt import ComboBox, LabelRow
 from qt.classes.buff import Buff, BuffType
@@ -16,14 +16,14 @@ class BuffEditorDialog(QDialog):
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
         self.level_combo = ComboBox()
-        self.stack_combo = ComboBox()
+        self.stack_spin = QDoubleSpinBox(minimum=1, value=1, singleStep=1)
         self.type_combo = ComboBox()
         self.type_combo.set_items([str(e) for e in BuffType])
 
         layout.addWidget(LabelRow("类别:", self.belong_combo))
         layout.addWidget(LabelRow("ID:", self.id_combo))
         layout.addWidget(LabelRow("等级:", self.level_combo))
-        layout.addWidget(LabelRow("层数:", self.stack_combo))
+        layout.addWidget(LabelRow("层数:", self.stack_spin))
         layout.addWidget(LabelRow("类型:", self.type_combo))
 
         self.name_label = QLabel("")
@@ -40,7 +40,7 @@ class BuffEditorDialog(QDialog):
         self.belong_combo.currentTextChanged.connect(self.select_belong)
         self.id_combo.currentTextChanged.connect(self.select_id)
         self.level_combo.currentTextChanged.connect(self.select_level)
-        self.stack_combo.currentTextChanged.connect(self.select_stack)
+        self.stack_spin.valueChanged.connect(self.select_stack)
         self.type_combo.currentTextChanged.connect(self.select_type)
 
         if buffs:
@@ -49,7 +49,7 @@ class BuffEditorDialog(QDialog):
             self.belong_combo.setCurrentText(buff.belong)
             self.id_combo.setCurrentText(str(buff.buff_id))
             self.level_combo.setCurrentText(str(buff.buff_level))
-            self.stack_combo.setCurrentText(str(buff.stack))
+            self.stack_spin.setValue(buff.stack)
             self.type_combo.setCurrentText(str(buff.buff_type))
 
     def select_belong(self, belong: str):
@@ -71,16 +71,22 @@ class BuffEditorDialog(QDialog):
         buff_id = int(self.id_combo.currentText())
         buff_level = int(buff_level)
         buff_type = self.type_combo.currentText()
-        self.buff = Buff(belong, buff_id, buff_level, buff_type, **self.buffs[belong][buff_id][buff_level])
+        stack = self.stack_spin.value()
+        stack = int(stack) if int(stack) == stack else stack
 
-        self.stack_combo.set_items(range(1, self.buff.max_stack + 1))
+        self.buff = Buff(belong, buff_id, buff_level, buff_type, **self.buffs[belong][buff_id][buff_level])
+        self.buff.stack = min(stack, self.buff.max_stack)
+
+        self.stack_spin.setMaximum(self.buff.max_stack)
+        self.stack_spin.setValue(self.buff.stack)
         self.name_label.setText(self.buff.name)
         self.comment_label.setText(self.buff.comment)
 
-    def select_stack(self, stack: str):
+    def select_stack(self, stack: float):
         if not self.buff or not stack:
             return
-        self.buff.stack = int(stack)
+        stack = int(stack) if int(stack) == stack else stack
+        self.buff.stack = stack
 
     def select_type(self, buff_type: str):
         if not self.buff:

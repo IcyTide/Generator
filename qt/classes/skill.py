@@ -6,7 +6,7 @@ class Skill:
     belong: str
     skill_id: int
     skill_level: int
-    count: int
+    count: float
 
     name: str = ""
     comment: str = ""
@@ -15,7 +15,7 @@ class Skill:
     critical_strike: str | Expression = ""
     attributes: dict[str, int] = {}
 
-    def __init__(self, belong: str, skill_id: int, skill_level: int, count: int = 1, **kwargs):
+    def __init__(self, belong: str, skill_id: int, skill_level: int, count: float = 1., **kwargs):
         self.belong = belong
         self.skill_id = skill_id
         self.skill_level = skill_level
@@ -29,8 +29,9 @@ class Skill:
 
     def __iter__(self):
         yield str(self)
-        for attr in ("skill_id", "skill_level", "count"):
-            yield str(getattr(self, attr))
+        yield str(self.skill_id)
+        yield str(self.skill_level)
+        yield str(self.count)
 
     def __str__(self):
         if self.name and self.comment:
@@ -55,7 +56,10 @@ class Skill:
     @classmethod
     def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
         if not kwargs:
-            kwargs = SKILLS[kungfu_id][json["skill_id"]][json["skill_level"]]
+            if json["skill_id"] in SKILLS[kungfu_id]:
+                kwargs = SKILLS[kungfu_id][json["skill_id"]][json["skill_level"]]
+            else:
+                kwargs = SKILLS[0][json["skill_id"]][json["skill_level"]]
         return cls(
             belong=json["belong"],
             skill_id=json["skill_id"],

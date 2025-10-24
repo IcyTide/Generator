@@ -22,6 +22,8 @@ class Section:
 
     @property
     def is_empty(self):
+        if not self.count:
+            return True
         for record in self.records:
             if not record.is_empty:
                 return False

@@ -1,4 +1,4 @@
-from gains import consumables, gears, patches, teams
+from gains import consumables, formations, gears, patches, teams
 from kungfus import Kungfu
 
 
@@ -13,7 +13,7 @@ class Gain:
     DOTS: dict = {}
     SKILLS: dict = {}
     RECIPES: dict = {}
-    TALENTS: dict = [consumables.GAINS, teams.GAINS, gears.GAINS]
+    TALENTS: dict = [consumables.GAINS, teams.GAINS, formations.GAINS, gears.GAINS]
 
 
 GAIN = Kungfu(Gain)

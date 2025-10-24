@@ -1,6 +1,3 @@
-import copy
-
-
 class Expression:
 
     def __add__(self, other):
@@ -101,14 +98,6 @@ class UnaryOperator(Expression):
     def terms(self):
         return self.operand.terms
 
-    def __deepcopy__(self, memo):
-        if id(self) in memo:
-            return memo[id(self)]
-        operand_copy = copy.deepcopy(self.operand, memo)
-        obj = self.__new__(self.__class__, operand_copy)  # noqa
-        memo[id(self)] = obj
-        return obj
-
 
 class Neg(UnaryOperator):
     def __new__(cls, operand):
@@ -160,15 +149,6 @@ class BinaryOperator(Expression):
     @property
     def terms(self):
         return self.left.terms | self.right.terms
-
-    def __deepcopy__(self, memo):
-        if id(self) in memo:
-            return memo[id(self)]
-        left_copy = copy.deepcopy(self.left, memo)
-        right_copy = copy.deepcopy(self.right, memo)
-        obj = self.__new__(self.__class__, left_copy, right_copy)  # noqa
-        memo[id(self)] = obj
-        return obj
 
 
 class Add(BinaryOperator):

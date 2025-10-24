@@ -22,7 +22,7 @@ class SectionEditorDialog(QDialog):
         else:
             self.section = Section()
         self.name_edit = QLineEdit(self.section.name)
-        self.count_spin = QSpinBox(minimum=1, value=self.section.count)
+        self.count_spin = QSpinBox(minimum=0, value=self.section.count)
         self.duration_spin = QDoubleSpinBox(minimum=0, value=self.section.duration, maximum=1000)
 
         layout.addWidget(LabelRow("名称:", self.name_edit))
@@ -47,6 +47,7 @@ class SectionEditorDialog(QDialog):
         self.section.count = count
 
     def select_duration(self, duration: float):
+        duration = int(duration) if int(duration) == duration else duration
         self.section.duration = duration
 
 
@@ -54,6 +55,8 @@ class SectionDamageDialog(DamagesDialog):
     def __init__(self, section: Section, current: Attribute, snapshot: Attribute, parent: QWidget = None):
         self.damages, self.duration = {}, section.duration
         for record in section.records:
+            if not record.count:
+                continue
             add_buffs_to_attributes(record.buffs, current, snapshot)
             variables = {**current.current, **current.snapshot}
             for skill in record.skills:
@@ -83,8 +86,12 @@ class AllDamageDialog(DamagesDialog):
     def __init__(self, sections: Sections, current: Attribute, snapshot: Attribute, parent: QWidget = None):
         self.damages, self.duration = {}, 0
         for section in sections:
+            if not section.count:
+                continue
             self.duration += section.duration * section.count
             for record in section.records:
+                if not record.count:
+                    continue
                 add_buffs_to_attributes(record.buffs, current, snapshot)
                 variables = {**current.current, **current.snapshot}
                 for skill in record.skills:

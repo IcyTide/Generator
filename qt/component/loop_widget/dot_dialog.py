@@ -92,11 +92,19 @@ class DotEditorDialog(QDialog):
         belong = self.belong_combo.currentText()
         dot_id = int(self.id_combo.currentText())
         dot_level = int(dot_level)
-        self.dot = Dot(belong, dot_id, dot_level, **self.dots[belong][dot_id][dot_level])
+        count = self.count_spin.value()
+        consume_tick = self.consume_tick_spin.value()
+        current_tick = self.current_tick_spin.value()
+
+        self.dot = Dot(belong, dot_id, dot_level, count, **self.dots[belong][dot_id][dot_level])
+        self.dot.consume_tick = min(consume_tick, self.dot.max_tick)
+        self.dot.current_tick = min(current_tick, self.dot.max_tick)
 
         self.source_button.setText("选择来源")
         self.consume_tick_spin.setMaximum(self.dot.max_tick)
+        self.consume_tick_spin.setValue(self.dot.consume_tick)
         self.current_tick_spin.setMaximum(self.dot.max_tick)
+        self.current_tick_spin.setValue(self.dot.current_tick)
         self.name_label.setText(self.dot.name)
         self.comment_label.setText(self.dot.comment)
 
@@ -122,6 +130,7 @@ class DotEditorDialog(QDialog):
     def select_count(self, count: float):
         if not self.dot:
             return
+        count = int(count) if int(count) == count else count
         self.dot.count = count
 
 

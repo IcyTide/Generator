@@ -30,6 +30,8 @@ class Record:
 
     @property
     def is_empty(self):
+        if not self.count:
+            return True
         if self.skills or self.dots:
             return False
         return True

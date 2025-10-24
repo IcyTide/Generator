@@ -5,7 +5,7 @@ from qt.classes.skill import Skill
 class Dot:
     dot_id: int
     dot_level: int
-    count: int | float
+    count: float
     source: Skill = None
     consume_tick: int = 1
     current_tick: int = 1
@@ -24,7 +24,7 @@ class Dot:
     def total(self):
         return f"{self.stack}/{self.consume_tick}"
 
-    def __init__(self, belong: str, dot_id: int, dot_level: int, count: int = 1, **kwargs):
+    def __init__(self, belong: str, dot_id: int, dot_level: int, count: float = 1., **kwargs):
         self.belong = belong
         self.dot_id = dot_id
         self.dot_level = dot_level
@@ -68,7 +68,10 @@ class Dot:
     @classmethod
     def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
         if not kwargs:
-            kwargs = DOTS[kungfu_id][json["dot_id"]][json["dot_level"]]
+            if json["dot_id"] in DOTS[kungfu_id]:
+                kwargs = DOTS[kungfu_id][json["dot_id"]][json["dot_level"]]
+            else:
+                kwargs = DOTS[0][json["dot_id"]][json["dot_level"]]
         dot = cls(
             belong=json["belong"],
             dot_id=json["dot_id"],
