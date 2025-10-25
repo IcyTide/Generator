@@ -26,11 +26,16 @@ BUFFS = {
     # Teams
     23573: dict(name="泠风解怀"),
     6363: {1: {}},
+    661: dict(on_target=1),
+    12717: dict(on_target=1),
+    3465: dict(on_target=1),
+    566: dict(on_target=1),
     378: {7: {}},
     375: {5: {}},
     29354: dict(comment="{}"),
     4246: dict(comment="{}"),
-    4058: {1: {}},
+    4058: {1: dict(on_target=1)},
+    8248: dict(on_target=1),
     70021: {1: dict(comment="奇卷"), 2: dict(comment="战锋")},
     # formations
     **{

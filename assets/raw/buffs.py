@@ -4689,14 +4689,14 @@ BUFFS = {
             }
         },
         70161: {
-            100: {
+            10: {
                 "name": "伤害提高",
                 "interval": 8,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 1024,
-                    "magical_damage_addition": 1024
+                    "physical_damage_addition": 103,
+                    "magical_damage_addition": 103
                 }
             }
         },
@@ -5730,6 +5730,7 @@ BUFFS = {
         661: {
             30: {
                 "name": "破风",
+                "on_target": 1,
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 7,
@@ -5741,6 +5742,7 @@ BUFFS = {
         12717: {
             30: {
                 "name": "破风",
+                "on_target": 1,
                 "interval": 32,
                 "max_stack": 1,
                 "max_tick": 7,
@@ -5753,6 +5755,7 @@ BUFFS = {
         3465: {
             1: {
                 "name": "破甲",
+                "on_target": 1,
                 "interval": 160,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -5775,6 +5778,7 @@ BUFFS = {
         566: {
             6: {
                 "name": "立地成佛",
+                "on_target": 1,
                 "interval": 320,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -5897,6 +5901,7 @@ BUFFS = {
         4058: {
             1: {
                 "name": "戒火",
+                "on_target": 1,
                 "interval": 240,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -5932,6 +5937,7 @@ BUFFS = {
         8248: {
             1: {
                 "name": "虚弱",
+                "on_target": 1,
                 "interval": 400,
                 "max_stack": 1,
                 "max_tick": 1,

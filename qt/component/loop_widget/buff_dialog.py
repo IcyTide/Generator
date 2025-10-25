@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLabel, QPushButton, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, QWidget
 
 from qt import ComboBox, LabelRow
 from qt.classes.buff import Buff, BuffType
@@ -16,7 +16,7 @@ class BuffEditorDialog(QDialog):
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
         self.level_combo = ComboBox()
-        self.stack_spin = QDoubleSpinBox(minimum=1, value=1, singleStep=1)
+        self.stack_spin = QSpinBox(minimum=1, value=1, singleStep=1)
         self.type_combo = ComboBox()
         self.type_combo.set_items([str(e) for e in BuffType])
 
@@ -82,10 +82,9 @@ class BuffEditorDialog(QDialog):
         self.name_label.setText(self.buff.name)
         self.comment_label.setText(self.buff.comment)
 
-    def select_stack(self, stack: float):
+    def select_stack(self, stack: int):
         if not self.buff or not stack:
             return
-        stack = int(stack) if int(stack) == stack else stack
         self.buff.stack = stack
 
     def select_type(self, buff_type: str):

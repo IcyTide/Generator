@@ -959,16 +959,18 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
         if buff.buff_key:
             self.buffs[buff.buff_key] = buff.stack * buff.buff_level
         else:
+            attribute = self.target if buff.on_target else self
             for k, v in buff.attributes.items():
-                self[k] += math.ceil(v * buff.stack)
+                attribute[k] += math.ceil(v * buff.stack)
         self.recipes += buff.recipes
 
     def sub_buff(self, buff: Buff):
         if buff.buff_key:
             self.buffs.pop(buff.buff_key, None)
         else:
+            attribute = self.target if buff.on_target else self
             for k, v in buff.attributes.items():
-                self[k] -= math.ceil(v * buff.stack)
+                attribute[k] -= math.ceil(v * buff.stack)
         for recipe in buff.recipes:
             if recipe in self.recipes:
                 self.recipes.remove(recipe)

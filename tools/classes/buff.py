@@ -32,6 +32,8 @@ class Buff(AliasBase):
 
     levels: list[int] = None
 
+    on_target: int = 0
+
     attributes: list[tuple[ATTRIBUTE_TYPE, int]]
     recipes: list[tuple[int, int]]
     coming_damage_cof: int = 0
@@ -86,6 +88,7 @@ class Buff(AliasBase):
             return {
                 "name": self.name or self.get_name(self.buff_id, self.buff_level),
                 "comment": self.comment,
+                "on_target": self.on_target,
                 "interval": int(self.interval),
                 "max_stack": int(self.max_stack),
                 "max_tick": int(self.max_tick),

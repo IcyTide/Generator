@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 from base.constant import *
-from base.expression import Expression, Int, Variable
+from base.expression import Constant, Expression, Int, Variable
 from tools.lua.enums import SKILL_KIND_TYPE
 
 if TYPE_CHECKING:
@@ -20,9 +20,9 @@ class DamageChain:
         self.target = target
         self.skill = skill
 
-        self.damage, self.critical_strike, self.critical_damage = 0, 0, Variable("damage")
+        self.damage, self.critical_strike, self.critical_damage = Constant(0), Constant(0), Variable("damage")
         self.rand, self.shield_constant = Variable("rand"), Variable("shield_constant")
-        self.final_damage = 0
+        self.final_damage = Constant(0)
 
         self.need_int = False
 
@@ -274,9 +274,11 @@ class DamageChain:
             return {}
         if not self.skill.custom_damage_base:
             self.cal_critical(self.skill.kind_type)
-        # terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
-        # recipes = sorted(term for term in terms if term.startswith("_"))
+        terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
+        recipes = [str(term) for term in terms if term.startswith("recipe")]
+        buffs = [str(term) for term in terms if term.startswith("buff")]
         return dict(
             damage=str(self.final_damage),
-            critical_damage=str(self.critical_damage), critical_strike=str(self.critical_strike)
+            critical_damage=str(self.critical_damage), critical_strike=str(self.critical_strike),
+            recipes=recipes, buffs=buffs
         )

@@ -64,6 +64,7 @@ class Skill(AliasBase):
 
     levels: list[int] = None
     recipe_key: Expression = None
+    name: str = ""
     comment: str = ""
 
     @property
