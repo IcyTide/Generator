@@ -109,6 +109,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     MAX_ENERGY = ""
     MAX_SUN_ENERGY = ""
     MAX_MOON_ENERGY = ""
+    NATURE_POWER_MAX_GRID = ""
     MAX_LIFE_BASE = ""
     MAX_LIFE_ADDITIONAL = ""
     MAX_LIFE_PERCENT_ADD = ""

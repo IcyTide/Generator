@@ -1,0 +1,4 @@
+ATTRIBUTE = 101355
+KIND = "内功"
+SCHOOL = "药宗"
+MAJOR = "根骨"

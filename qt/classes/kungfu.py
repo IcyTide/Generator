@@ -4,7 +4,6 @@ from assets.raw.dots import DOTS
 from assets.raw.recipes import RECIPES
 from assets.raw.skills import SKILLS
 from base.constant import MAJOR_TYPES
-from gains import GAIN
 from qt.classes.attribute import Attribute, Target
 from qt.classes.gain import Gain
 

@@ -293,7 +293,13 @@ class Target(Defense, DamageCof):
     damage_chain: "DamageChain"
 
     level: Expression = Variable('level')
+
+    resist_critical_strike_rate: int = 0
     global_damage_factor: int = 0
+    
+    @property
+    def resist_critical_strike(self):
+        return self.resist_critical_strike_rate / BINARY_SCALE
 
     def call_physical_damage(self, damage_base, damage_rand):
         self.damage_chain.physical_damage_call(damage_base, damage_rand)

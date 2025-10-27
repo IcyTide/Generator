@@ -267,7 +267,7 @@ class DamageChain:
             else:
                 rate = self.source.critical_power(kind_type)
                 self.critical_damage = self.critical_damage * rate
-            self.critical_strike = self.source.critical_strike(kind_type)
+            self.critical_strike = self.source.critical_strike(kind_type) - self.target.resist_critical_strike
 
     def to_dict(self):
         if not self.final_damage:
@@ -275,8 +275,8 @@ class DamageChain:
         if not self.skill.custom_damage_base:
             self.cal_critical(self.skill.kind_type)
         terms =  self.damage.terms | self.critical_damage.terms | self.critical_strike.terms
-        recipes = [str(term) for term in terms if term.startswith("recipe")]
-        buffs = [str(term) for term in terms if term.startswith("buff")]
+        recipes = sorted(str(term) for term in terms if term.startswith("recipe"))
+        buffs = sorted(str(term) for term in terms if term.startswith("buff"))
         return dict(
             damage=str(self.final_damage),
             critical_damage=str(self.critical_damage), critical_strike=str(self.critical_strike),

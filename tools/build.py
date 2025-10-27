@@ -141,7 +141,7 @@ class Builder:
 
     def parse_belongs(self):
         for belong_id, belong in tqdm(self.belongs.items()):
-            belong = self.belongs[belong_id] = parse_belong(belong)
+            belong = self.belongs[belong_id] = parse_belong(belong, self.skills)
             self.build_recipes(belong.recipes)
 
     def parse_recipes(self):

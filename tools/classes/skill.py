@@ -127,7 +127,9 @@ class Skill(AliasBase):
     def physical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        if self.skill_coefficient:
+        if self.dot_coefficient and self.interval:
+            frames = self.dot_coefficient
+        elif self.skill_coefficient:
             frames = self.skill_coefficient
         else:
             frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
@@ -140,7 +142,9 @@ class Skill(AliasBase):
     def magical_attack_power_cof(self):
         if not self.use_skill_coefficient:
             return 0
-        if self.skill_coefficient:
+        if self.dot_coefficient and self.interval:
+            frames = self.dot_coefficient
+        elif self.skill_coefficient:
             frames = self.skill_coefficient
         else:
             frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)

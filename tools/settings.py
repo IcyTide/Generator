@@ -25,5 +25,5 @@ skill_event_settings = read_tab("settings/skill/skillevent.tab")
 buff_recipe_settings = read_tab("settings/skill/buffrecipe.tab")
 
 skill_txts = read_tab("ui/scheme/case/skill.txt", "ui/scheme/case_mobile/skill.txt")
-recipe_txts = read_tab("ui/scheme/case/skillrecipetable.txt")
+recipe_txts = read_tab("ui/scheme/case/skillrecipetable.txt", "ui/scheme/case_mobile/skillrecipetable.txt")
 buff_txts = read_tab("ui/scheme/case/buff.txt", "ui/scheme/case_mobile/buff.txt")

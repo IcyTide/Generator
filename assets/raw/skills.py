@@ -87,17 +87,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_270_1",
                     "recipe_1512_1",
-                    "recipe_5653_1",
                     "recipe_268_1",
-                    "recipe_269_1"
+                    "recipe_269_1",
+                    "recipe_270_1",
+                    "recipe_5653_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -109,17 +109,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_270_1",
                     "recipe_1512_1",
-                    "recipe_5653_1",
                     "recipe_268_1",
-                    "recipe_269_1"
+                    "recipe_269_1",
+                    "recipe_270_1",
+                    "recipe_5653_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -131,23 +131,23 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1139_1 + 200 * recipe_290_1 + 300 * recipe_291_1 + 400 * recipe_292_1) / 10000",
                 "recipes": [
+                    "recipe_1139_1",
+                    "recipe_2862_1",
+                    "recipe_290_1",
+                    "recipe_291_1",
                     "recipe_292_1",
                     "recipe_295_1",
-                    "recipe_1139_1",
-                    "recipe_818_5",
-                    "recipe_291_1",
-                    "recipe_290_1",
                     "recipe_296_1",
+                    "recipe_297_1",
                     "recipe_5654_1",
                     "recipe_5779_1",
-                    "recipe_2862_1",
-                    "recipe_297_1"
+                    "recipe_818_5"
                 ],
                 "buffs": [
-                    "buff_19635_3",
                     "buff_19635_1",
-                    "buff_30299_1",
-                    "buff_19635_2"
+                    "buff_19635_2",
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -159,23 +159,23 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1139_1 + 200 * recipe_290_1 + 300 * recipe_291_1 + 400 * recipe_292_1) / 10000",
                 "recipes": [
+                    "recipe_1139_1",
+                    "recipe_2862_1",
+                    "recipe_290_1",
+                    "recipe_291_1",
                     "recipe_292_1",
                     "recipe_295_1",
-                    "recipe_1139_1",
-                    "recipe_818_5",
-                    "recipe_291_1",
-                    "recipe_5654_1",
-                    "recipe_290_1",
                     "recipe_296_1",
+                    "recipe_297_1",
+                    "recipe_5654_1",
                     "recipe_5779_1",
-                    "recipe_2862_1",
-                    "recipe_297_1"
+                    "recipe_818_5"
                 ],
                 "buffs": [
-                    "buff_19635_3",
                     "buff_19635_1",
-                    "buff_30299_1",
-                    "buff_19635_2"
+                    "buff_19635_2",
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -187,23 +187,23 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1139_1 + 200 * recipe_290_1 + 300 * recipe_291_1 + 400 * recipe_292_1) / 10000",
                 "recipes": [
+                    "recipe_1139_1",
+                    "recipe_2862_1",
+                    "recipe_290_1",
+                    "recipe_291_1",
                     "recipe_292_1",
                     "recipe_295_1",
-                    "recipe_1139_1",
-                    "recipe_818_5",
-                    "recipe_291_1",
-                    "recipe_5654_1",
-                    "recipe_290_1",
                     "recipe_296_1",
+                    "recipe_297_1",
+                    "recipe_5654_1",
                     "recipe_5779_1",
-                    "recipe_2862_1",
-                    "recipe_297_1"
+                    "recipe_818_5"
                 ],
                 "buffs": [
-                    "buff_19635_3",
                     "buff_19635_1",
-                    "buff_30299_1",
-                    "buff_19635_2"
+                    "buff_19635_2",
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -215,15 +215,15 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                 "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
                 "recipes": [
-                    "recipe_5655_1",
                     "recipe_259_1",
-                    "recipe_5157_1"
+                    "recipe_5157_1",
+                    "recipe_5655_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             },
             58: {
@@ -233,15 +233,15 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                 "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
                 "recipes": [
-                    "recipe_5655_1",
                     "recipe_259_1",
-                    "recipe_5157_1"
+                    "recipe_5157_1",
+                    "recipe_5655_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -255,10 +255,10 @@ SKILLS = {
                     "recipe_5656_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -269,14 +269,14 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
+                    "recipe_233_1",
                     "recipe_234_1",
-                    "recipe_235_1",
-                    "recipe_233_1"
+                    "recipe_235_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -287,19 +287,19 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 102 * recipe_2299_1 / 1024)",
                 "critical_strike": "solar_critical_strike + (400 * recipe_281_1 + 200 * recipe_285_1 + 300 * recipe_286_1 + 1000 * recipe_2299_1) / 10000",
                 "recipes": [
+                    "recipe_1513_1",
                     "recipe_2299_1",
                     "recipe_281_1",
-                    "recipe_288_1",
-                    "recipe_1513_1",
                     "recipe_285_1",
-                    "recipe_287_1",
                     "recipe_286_1",
+                    "recipe_287_1",
+                    "recipe_288_1",
                     "recipe_289_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -311,17 +311,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -333,17 +333,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -355,17 +355,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -411,10 +411,10 @@ SKILLS = {
                     "recipe_5790_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -472,19 +472,19 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 102 * recipe_2299_1 / 1024)",
                 "critical_strike": "solar_critical_strike + (400 * recipe_281_1 + 200 * recipe_285_1 + 300 * recipe_286_1 + 1000 * recipe_2299_1) / 10000",
                 "recipes": [
+                    "recipe_1513_1",
                     "recipe_2299_1",
                     "recipe_281_1",
-                    "recipe_288_1",
-                    "recipe_1513_1",
                     "recipe_285_1",
-                    "recipe_287_1",
                     "recipe_286_1",
+                    "recipe_287_1",
+                    "recipe_288_1",
                     "recipe_289_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -533,17 +533,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -555,17 +555,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -577,17 +577,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -599,17 +599,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -621,17 +621,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -643,17 +643,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_1646_1",
-                    "recipe_4874_1",
+                    "recipe_1147_1",
                     "recipe_1645_1",
-                    "recipe_5780_1",
+                    "recipe_1646_1",
                     "recipe_1647_1",
-                    "recipe_1147_1"
+                    "recipe_4874_1",
+                    "recipe_5780_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3"
                 ]
             }
         },
@@ -681,15 +681,15 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                 "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
                 "recipes": [
-                    "recipe_5655_1",
                     "recipe_259_1",
-                    "recipe_5157_1"
+                    "recipe_5157_1",
+                    "recipe_5655_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             },
             58: {
@@ -699,15 +699,15 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                 "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
                 "recipes": [
-                    "recipe_5655_1",
                     "recipe_259_1",
-                    "recipe_5157_1"
+                    "recipe_5157_1",
+                    "recipe_5655_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -719,15 +719,15 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                 "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
                 "recipes": [
-                    "recipe_5655_1",
                     "recipe_259_1",
-                    "recipe_5157_1"
+                    "recipe_5157_1",
+                    "recipe_5655_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             },
             58: {
@@ -737,15 +737,15 @@ SKILLS = {
                 "critical_damage": "damage * (solar_critical_power + 205 * recipe_5157_1 / 1024)",
                 "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
                 "recipes": [
-                    "recipe_5655_1",
                     "recipe_259_1",
-                    "recipe_5157_1"
+                    "recipe_5157_1",
+                    "recipe_5655_1"
                 ],
                 "buffs": [
-                    "buff_19635_3",
-                    "buff_30299_1",
+                    "buff_19635_1",
                     "buff_19635_2",
-                    "buff_19635_1"
+                    "buff_19635_3",
+                    "buff_30299_1"
                 ]
             }
         },
@@ -757,22 +757,22 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1139_1 + 200 * recipe_290_1 + 300 * recipe_291_1 + 400 * recipe_292_1) / 10000",
                 "recipes": [
+                    "recipe_1139_1",
+                    "recipe_2862_1",
+                    "recipe_290_1",
+                    "recipe_291_1",
                     "recipe_292_1",
                     "recipe_295_1",
-                    "recipe_1139_1",
-                    "recipe_818_5",
-                    "recipe_291_1",
-                    "recipe_5654_1",
-                    "recipe_290_1",
                     "recipe_296_1",
+                    "recipe_297_1",
+                    "recipe_5654_1",
                     "recipe_5779_1",
-                    "recipe_2862_1",
-                    "recipe_297_1"
+                    "recipe_818_5"
                 ],
                 "buffs": [
-                    "buff_19635_3",
                     "buff_19635_1",
-                    "buff_19635_2"
+                    "buff_19635_2",
+                    "buff_19635_3"
                 ]
             },
             5: {
@@ -782,22 +782,22 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1139_1 + 200 * recipe_290_1 + 300 * recipe_291_1 + 400 * recipe_292_1) / 10000",
                 "recipes": [
+                    "recipe_1139_1",
+                    "recipe_2862_1",
+                    "recipe_290_1",
+                    "recipe_291_1",
                     "recipe_292_1",
                     "recipe_295_1",
-                    "recipe_1139_1",
-                    "recipe_818_5",
-                    "recipe_291_1",
-                    "recipe_5654_1",
-                    "recipe_290_1",
                     "recipe_296_1",
+                    "recipe_297_1",
+                    "recipe_5654_1",
                     "recipe_5779_1",
-                    "recipe_2862_1",
-                    "recipe_297_1"
+                    "recipe_818_5"
                 ],
                 "buffs": [
-                    "buff_19635_3",
                     "buff_19635_1",
-                    "buff_19635_2"
+                    "buff_19635_2",
+                    "buff_19635_3"
                 ]
             }
         },
@@ -888,22 +888,22 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5611_1 + 204 * recipe_5611_2 + 306 * recipe_5611_3 + 408 * recipe_5611_4 + 510 * recipe_5611_5 + 612 * recipe_5611_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (500 * recipe_1136_1 + 1000 * recipe_5611_1 + 2000 * recipe_5611_2 + 3000 * recipe_5611_3 + 4000 * recipe_5611_4 + 5000 * recipe_5611_5 + 6000 * recipe_5611_6 + 200 * recipe_84_1 + 300 * recipe_85_1 + 400 * recipe_86_1) / 10000",
                 "recipes": [
-                    "recipe_4468_1",
-                    "recipe_84_1",
-                    "recipe_5611_4",
-                    "recipe_5611_1",
-                    "recipe_5611_3",
-                    "recipe_5611_6",
-                    "recipe_5611_5",
-                    "recipe_4469_1",
-                    "recipe_4467_1",
                     "recipe_1136_1",
-                    "recipe_85_1",
+                    "recipe_1520_1",
+                    "recipe_4467_1",
+                    "recipe_4468_1",
+                    "recipe_4469_1",
                     "recipe_4470_1",
                     "recipe_4471_1",
-                    "recipe_1520_1",
-                    "recipe_86_1",
-                    "recipe_5611_2"
+                    "recipe_5611_1",
+                    "recipe_5611_2",
+                    "recipe_5611_3",
+                    "recipe_5611_4",
+                    "recipe_5611_5",
+                    "recipe_5611_6",
+                    "recipe_84_1",
+                    "recipe_85_1",
+                    "recipe_86_1"
                 ]
             }
         },
@@ -915,23 +915,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -943,23 +943,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -971,23 +971,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -999,23 +999,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1027,23 +1027,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1055,23 +1055,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1083,23 +1083,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1111,23 +1111,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1139,23 +1139,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1167,23 +1167,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5615_1 + 204 * recipe_5615_2 + 306 * recipe_5615_3 + 408 * recipe_5615_4 + 510 * recipe_5615_5 + 612 * recipe_5615_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5615_1 + 2000 * recipe_5615_2 + 3000 * recipe_5615_3 + 4000 * recipe_5615_4 + 5000 * recipe_5615_5 + 6000 * recipe_5615_6 + 200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
-                    "recipe_5615_5",
-                    "recipe_5615_1",
+                    "recipe_19_1",
                     "recipe_20_1",
-                    "recipe_5615_6",
-                    "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_26_1",
-                    "recipe_4475_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_5615_3",
-                    "recipe_4476_1",
-                    "recipe_19_1",
-                    "recipe_5615_2",
+                    "recipe_25_1",
+                    "recipe_26_1",
                     "recipe_4472_1",
-                    "recipe_5615_4"
+                    "recipe_4473_1",
+                    "recipe_4474_1",
+                    "recipe_4475_1",
+                    "recipe_4476_1",
+                    "recipe_5615_1",
+                    "recipe_5615_2",
+                    "recipe_5615_3",
+                    "recipe_5615_4",
+                    "recipe_5615_5",
+                    "recipe_5615_6"
                 ]
             }
         },
@@ -1194,13 +1194,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_92_1 + 300 * recipe_93_1 + 400 * recipe_94_1) / 10000",
                 "recipes": [
-                    "recipe_93_1",
                     "recipe_1521_1",
-                    "recipe_97_1",
                     "recipe_92_1",
-                    "recipe_99_1",
+                    "recipe_93_1",
+                    "recipe_94_1",
+                    "recipe_97_1",
                     "recipe_98_1",
-                    "recipe_94_1"
+                    "recipe_99_1"
                 ]
             }
         },
@@ -1219,9 +1219,9 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_2360_1",
                     "recipe_2361_1",
                     "recipe_2362_1",
-                    "recipe_2360_1",
                     "recipe_2363_1"
                 ]
             }
@@ -1234,17 +1234,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6030_1",
+                    "recipe_1583_1",
+                    "recipe_5172_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
                     "recipe_6029_1",
-                    "recipe_5172_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_6026_1",
-                    "recipe_1583_1"
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1256,17 +1256,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6030_1",
+                    "recipe_1583_1",
+                    "recipe_5172_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
                     "recipe_6029_1",
-                    "recipe_5172_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_6026_1",
-                    "recipe_1583_1"
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1278,17 +1278,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6030_1",
+                    "recipe_1583_1",
+                    "recipe_5172_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
                     "recipe_6029_1",
-                    "recipe_5172_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_6026_1",
-                    "recipe_1583_1"
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1300,17 +1300,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6030_1",
+                    "recipe_1583_1",
+                    "recipe_5172_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
                     "recipe_6029_1",
-                    "recipe_5172_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_6026_1",
-                    "recipe_1583_1"
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1322,17 +1322,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6030_1",
+                    "recipe_1583_1",
+                    "recipe_5172_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
                     "recipe_6029_1",
-                    "recipe_5172_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_6026_1",
-                    "recipe_1583_1"
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1344,23 +1344,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5614_1 + 204 * recipe_5614_2 + 306 * recipe_5614_3 + 408 * recipe_5614_4 + 510 * recipe_5614_5 + 612 * recipe_5614_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5614_1 + 2000 * recipe_5614_2 + 3000 * recipe_5614_3 + 4000 * recipe_5614_4 + 5000 * recipe_5614_5 + 6000 * recipe_5614_6) / 10000",
                 "recipes": [
-                    "recipe_5614_4",
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6029_1",
+                    "recipe_1583_1",
                     "recipe_5172_1",
-                    "recipe_6026_1",
                     "recipe_5614_1",
+                    "recipe_5614_2",
+                    "recipe_5614_3",
+                    "recipe_5614_4",
                     "recipe_5614_5",
                     "recipe_5614_6",
-                    "recipe_5614_2",
-                    "recipe_6030_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_5614_3",
-                    "recipe_1583_1"
+                    "recipe_6029_1",
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             },
             2: {
@@ -1370,23 +1370,23 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + (102 * recipe_5614_1 + 204 * recipe_5614_2 + 306 * recipe_5614_3 + 408 * recipe_5614_4 + 510 * recipe_5614_5 + 612 * recipe_5614_6) / 1024)",
                 "critical_strike": "neutral_critical_strike + (1000 * recipe_5614_1 + 2000 * recipe_5614_2 + 3000 * recipe_5614_3 + 4000 * recipe_5614_4 + 5000 * recipe_5614_5 + 6000 * recipe_5614_6) / 10000",
                 "recipes": [
-                    "recipe_5614_4",
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6029_1",
+                    "recipe_1583_1",
                     "recipe_5172_1",
-                    "recipe_6026_1",
                     "recipe_5614_1",
+                    "recipe_5614_2",
+                    "recipe_5614_3",
+                    "recipe_5614_4",
                     "recipe_5614_5",
                     "recipe_5614_6",
-                    "recipe_5614_2",
-                    "recipe_6030_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_5614_3",
-                    "recipe_1583_1"
+                    "recipe_6029_1",
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1495,9 +1495,9 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_2360_1",
                     "recipe_2361_1",
                     "recipe_2362_1",
-                    "recipe_2360_1",
                     "recipe_2363_1"
                 ]
             }
@@ -1509,13 +1509,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_92_1 + 300 * recipe_93_1 + 400 * recipe_94_1) / 10000",
                 "recipes": [
-                    "recipe_93_1",
                     "recipe_1521_1",
-                    "recipe_97_1",
                     "recipe_92_1",
-                    "recipe_99_1",
+                    "recipe_93_1",
+                    "recipe_94_1",
+                    "recipe_97_1",
                     "recipe_98_1",
-                    "recipe_94_1"
+                    "recipe_99_1"
                 ]
             }
         },
@@ -1527,17 +1527,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
+                    "recipe_19_1",
+                    "recipe_20_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_20_1",
                     "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_4476_1",
                     "recipe_26_1",
+                    "recipe_4472_1",
+                    "recipe_4473_1",
+                    "recipe_4474_1",
                     "recipe_4475_1",
-                    "recipe_19_1",
-                    "recipe_4472_1"
+                    "recipe_4476_1"
                 ]
             },
             2: {
@@ -1547,17 +1547,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
+                    "recipe_19_1",
+                    "recipe_20_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_20_1",
                     "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_4476_1",
                     "recipe_26_1",
+                    "recipe_4472_1",
+                    "recipe_4473_1",
+                    "recipe_4474_1",
                     "recipe_4475_1",
-                    "recipe_19_1",
-                    "recipe_4472_1"
+                    "recipe_4476_1"
                 ]
             },
             3: {
@@ -1567,17 +1567,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
+                    "recipe_19_1",
+                    "recipe_20_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_20_1",
                     "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_4476_1",
                     "recipe_26_1",
+                    "recipe_4472_1",
+                    "recipe_4473_1",
+                    "recipe_4474_1",
                     "recipe_4475_1",
-                    "recipe_19_1",
-                    "recipe_4472_1"
+                    "recipe_4476_1"
                 ]
             },
             4: {
@@ -1587,17 +1587,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
+                    "recipe_19_1",
+                    "recipe_20_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_20_1",
                     "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_4476_1",
                     "recipe_26_1",
+                    "recipe_4472_1",
+                    "recipe_4473_1",
+                    "recipe_4474_1",
                     "recipe_4475_1",
-                    "recipe_19_1",
-                    "recipe_4472_1"
+                    "recipe_4476_1"
                 ]
             },
             5: {
@@ -1607,17 +1607,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
+                    "recipe_19_1",
+                    "recipe_20_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_20_1",
                     "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_4476_1",
                     "recipe_26_1",
+                    "recipe_4472_1",
+                    "recipe_4473_1",
+                    "recipe_4474_1",
                     "recipe_4475_1",
-                    "recipe_19_1",
-                    "recipe_4472_1"
+                    "recipe_4476_1"
                 ]
             },
             6: {
@@ -1627,17 +1627,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_19_1 + 300 * recipe_20_1 + 400 * recipe_21_1) / 10000",
                 "recipes": [
-                    "recipe_4474_1",
+                    "recipe_19_1",
+                    "recipe_20_1",
                     "recipe_21_1",
                     "recipe_24_1",
-                    "recipe_20_1",
                     "recipe_25_1",
-                    "recipe_4473_1",
-                    "recipe_4476_1",
                     "recipe_26_1",
+                    "recipe_4472_1",
+                    "recipe_4473_1",
+                    "recipe_4474_1",
                     "recipe_4475_1",
-                    "recipe_19_1",
-                    "recipe_4472_1"
+                    "recipe_4476_1"
                 ]
             }
         },
@@ -1681,17 +1681,17 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
+                    "recipe_1581_1",
                     "recipe_1582_1",
-                    "recipe_6030_1",
+                    "recipe_1583_1",
+                    "recipe_5172_1",
+                    "recipe_5756_1",
+                    "recipe_6026_1",
                     "recipe_6027_1",
                     "recipe_6028_1",
                     "recipe_6029_1",
-                    "recipe_5172_1",
-                    "recipe_818_2",
-                    "recipe_5756_1",
-                    "recipe_1581_1",
-                    "recipe_6026_1",
-                    "recipe_1583_1"
+                    "recipe_6030_1",
+                    "recipe_818_2"
                 ]
             }
         },
@@ -1803,13 +1803,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_65_1 + 300 * recipe_66_1 + 400 * recipe_67_1) / 10000",
                 "recipes": [
-                    "recipe_71_1",
-                    "recipe_66_1",
-                    "recipe_70_1",
+                    "recipe_5772_1",
                     "recipe_65_1",
+                    "recipe_66_1",
                     "recipe_67_1",
-                    "recipe_72_1",
-                    "recipe_5772_1"
+                    "recipe_70_1",
+                    "recipe_71_1",
+                    "recipe_72_1"
                 ]
             }
         },
@@ -1821,13 +1821,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_65_1 + 300 * recipe_66_1 + 400 * recipe_67_1) / 10000",
                 "recipes": [
-                    "recipe_71_1",
-                    "recipe_66_1",
-                    "recipe_70_1",
+                    "recipe_5772_1",
                     "recipe_65_1",
+                    "recipe_66_1",
                     "recipe_67_1",
-                    "recipe_72_1",
-                    "recipe_5772_1"
+                    "recipe_70_1",
+                    "recipe_71_1",
+                    "recipe_72_1"
                 ]
             }
         },
@@ -1850,17 +1850,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -1872,17 +1872,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -1894,17 +1894,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -1916,17 +1916,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -1938,17 +1938,17 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 307 * recipe_2263_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -1960,17 +1960,17 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 307 * recipe_2263_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -1982,17 +1982,17 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 307 * recipe_2263_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -2004,17 +2004,17 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 307 * recipe_2263_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -2026,17 +2026,17 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 307 * recipe_2263_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1135_1 + 200 * recipe_100_1 + 300 * recipe_101_1 + 400 * recipe_102_1) / 10000",
                 "recipes": [
-                    "recipe_107_1",
-                    "recipe_102_1",
-                    "recipe_106_1",
-                    "recipe_101_1",
-                    "recipe_105_1",
-                    "recipe_1522_1",
                     "recipe_100_1",
+                    "recipe_101_1",
+                    "recipe_102_1",
+                    "recipe_105_1",
+                    "recipe_106_1",
+                    "recipe_107_1",
                     "recipe_1135_1",
-                    "recipe_818_1",
+                    "recipe_1522_1",
+                    "recipe_2263_1",
                     "recipe_2860_1",
-                    "recipe_2263_1"
+                    "recipe_818_1"
                 ]
             }
         },
@@ -2048,12 +2048,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1589_1",
-                    "recipe_5722_1",
-                    "recipe_5758_1",
-                    "recipe_1590_1",
                     "recipe_1523_1",
-                    "recipe_1591_1"
+                    "recipe_1589_1",
+                    "recipe_1590_1",
+                    "recipe_1591_1",
+                    "recipe_5722_1",
+                    "recipe_5758_1"
                 ],
                 "buffs": [
                     "buff_29451_1"
@@ -2066,12 +2066,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1589_1",
-                    "recipe_5722_1",
-                    "recipe_5758_1",
-                    "recipe_1590_1",
                     "recipe_1523_1",
-                    "recipe_1591_1"
+                    "recipe_1589_1",
+                    "recipe_1590_1",
+                    "recipe_1591_1",
+                    "recipe_5722_1",
+                    "recipe_5758_1"
                 ],
                 "buffs": [
                     "buff_29451_1"
@@ -2084,12 +2084,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1589_1",
-                    "recipe_5722_1",
-                    "recipe_5758_1",
-                    "recipe_1590_1",
                     "recipe_1523_1",
-                    "recipe_1591_1"
+                    "recipe_1589_1",
+                    "recipe_1590_1",
+                    "recipe_1591_1",
+                    "recipe_5722_1",
+                    "recipe_5758_1"
                 ],
                 "buffs": [
                     "buff_29451_1"
@@ -2103,8 +2103,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_61_1",
-                    "recipe_60_1"
+                    "recipe_60_1",
+                    "recipe_61_1"
                 ]
             }
         },
@@ -2291,12 +2291,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1589_1",
-                    "recipe_5722_1",
-                    "recipe_5758_1",
-                    "recipe_1590_1",
                     "recipe_1523_1",
-                    "recipe_1591_1"
+                    "recipe_1589_1",
+                    "recipe_1590_1",
+                    "recipe_1591_1",
+                    "recipe_5722_1",
+                    "recipe_5758_1"
                 ]
             }
         },
@@ -2307,12 +2307,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1589_1",
-                    "recipe_5722_1",
-                    "recipe_5758_1",
-                    "recipe_1590_1",
                     "recipe_1523_1",
-                    "recipe_1591_1"
+                    "recipe_1589_1",
+                    "recipe_1590_1",
+                    "recipe_1591_1",
+                    "recipe_5722_1",
+                    "recipe_5758_1"
                 ]
             }
         },
@@ -2426,8 +2426,8 @@ SKILLS = {
                 "critical_strike": "neutral_critical_strike + (200 * recipe_490_1 + 300 * recipe_491_1) / 10000",
                 "recipes": [
                     "recipe_1516_1",
-                    "recipe_491_1",
                     "recipe_490_1",
+                    "recipe_491_1",
                     "recipe_492_1",
                     "recipe_493_1"
                 ]
@@ -2464,12 +2464,12 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2439_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_4904_1 + 300 * recipe_4905_1 + 400 * recipe_4906_1 + 1500 * recipe_2439_1) / 10000",
                 "recipes": [
-                    "recipe_4908_1",
-                    "recipe_4905_1",
-                    "recipe_4907_1",
                     "recipe_2439_1",
-                    "recipe_4906_1",
                     "recipe_4904_1",
+                    "recipe_4905_1",
+                    "recipe_4906_1",
+                    "recipe_4907_1",
+                    "recipe_4908_1",
                     "recipe_4909_1"
                 ]
             }
@@ -2481,14 +2481,14 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 205 * recipe_5497_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
                 "recipes": [
-                    "recipe_1546_1",
-                    "recipe_1679_1",
-                    "recipe_4661_1",
                     "recipe_1517_1",
+                    "recipe_1546_1",
                     "recipe_1677_1",
                     "recipe_1678_1",
-                    "recipe_5831_1",
+                    "recipe_1679_1",
+                    "recipe_4661_1",
                     "recipe_5497_1",
+                    "recipe_5831_1",
                     "recipe_5975_1"
                 ]
             }
@@ -2540,14 +2540,14 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 205 * recipe_5497_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
                 "recipes": [
-                    "recipe_1546_1",
-                    "recipe_1679_1",
-                    "recipe_4661_1",
                     "recipe_1517_1",
-                    "recipe_5832_1",
+                    "recipe_1546_1",
                     "recipe_1677_1",
                     "recipe_1678_1",
+                    "recipe_1679_1",
+                    "recipe_4661_1",
                     "recipe_5497_1",
+                    "recipe_5832_1",
                     "recipe_5975_1"
                 ]
             },
@@ -2558,14 +2558,14 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 205 * recipe_5497_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
                 "recipes": [
-                    "recipe_1546_1",
-                    "recipe_1679_1",
-                    "recipe_4661_1",
                     "recipe_1517_1",
-                    "recipe_5832_1",
+                    "recipe_1546_1",
                     "recipe_1677_1",
                     "recipe_1678_1",
+                    "recipe_1679_1",
+                    "recipe_4661_1",
                     "recipe_5497_1",
+                    "recipe_5832_1",
                     "recipe_5975_1"
                 ]
             },
@@ -2576,14 +2576,14 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 205 * recipe_5497_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
                 "recipes": [
-                    "recipe_1546_1",
-                    "recipe_1679_1",
-                    "recipe_4661_1",
                     "recipe_1517_1",
-                    "recipe_5832_1",
+                    "recipe_1546_1",
                     "recipe_1677_1",
                     "recipe_1678_1",
+                    "recipe_1679_1",
+                    "recipe_4661_1",
                     "recipe_5497_1",
+                    "recipe_5832_1",
                     "recipe_5975_1"
                 ]
             },
@@ -2594,14 +2594,14 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 205 * recipe_5497_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
                 "recipes": [
-                    "recipe_1546_1",
-                    "recipe_1679_1",
-                    "recipe_4661_1",
                     "recipe_1517_1",
-                    "recipe_5832_1",
+                    "recipe_1546_1",
                     "recipe_1677_1",
                     "recipe_1678_1",
+                    "recipe_1679_1",
+                    "recipe_4661_1",
                     "recipe_5497_1",
+                    "recipe_5832_1",
                     "recipe_5975_1"
                 ]
             },
@@ -2612,14 +2612,14 @@ SKILLS = {
                 "critical_damage": "damage * (neutral_critical_power + 205 * recipe_5497_1 / 1024)",
                 "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
                 "recipes": [
-                    "recipe_1546_1",
-                    "recipe_1679_1",
-                    "recipe_4661_1",
                     "recipe_1517_1",
-                    "recipe_5832_1",
+                    "recipe_1546_1",
                     "recipe_1677_1",
                     "recipe_1678_1",
+                    "recipe_1679_1",
+                    "recipe_4661_1",
                     "recipe_5497_1",
+                    "recipe_5832_1",
                     "recipe_5975_1"
                 ]
             }
@@ -2709,15 +2709,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_334_1 + 300 * recipe_335_1) / 10000",
                 "recipes": [
-                    "recipe_338_1",
-                    "recipe_4504_5",
-                    "recipe_4504_2",
-                    "recipe_335_1",
-                    "recipe_4504_3",
-                    "recipe_4504_1",
                     "recipe_334_1",
+                    "recipe_335_1",
+                    "recipe_338_1",
                     "recipe_339_1",
-                    "recipe_4504_4"
+                    "recipe_4504_1",
+                    "recipe_4504_2",
+                    "recipe_4504_3",
+                    "recipe_4504_4",
+                    "recipe_4504_5"
                 ]
             }
         },
@@ -2729,15 +2729,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_334_1 + 300 * recipe_335_1) / 10000",
                 "recipes": [
-                    "recipe_338_1",
-                    "recipe_4504_5",
-                    "recipe_4504_2",
-                    "recipe_335_1",
-                    "recipe_4504_3",
-                    "recipe_4504_1",
                     "recipe_334_1",
+                    "recipe_335_1",
+                    "recipe_338_1",
                     "recipe_339_1",
-                    "recipe_4504_4"
+                    "recipe_4504_1",
+                    "recipe_4504_2",
+                    "recipe_4504_3",
+                    "recipe_4504_4",
+                    "recipe_4504_5"
                 ]
             }
         },
@@ -2748,14 +2748,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_4505_2",
-                    "recipe_4505_1",
-                    "recipe_4505_5",
-                    "recipe_1558_1",
-                    "recipe_4505_4",
-                    "recipe_1559_1",
                     "recipe_1557_1",
-                    "recipe_4505_3"
+                    "recipe_1558_1",
+                    "recipe_1559_1",
+                    "recipe_4505_1",
+                    "recipe_4505_2",
+                    "recipe_4505_3",
+                    "recipe_4505_4",
+                    "recipe_4505_5"
                 ]
             }
         },
@@ -2766,19 +2766,19 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1133_1 + 400 * recipe_355_1 + 200 * recipe_357_1 + 300 * recipe_358_1) / 10000",
                 "recipes": [
-                    "recipe_4506_3",
-                    "recipe_4506_4",
-                    "recipe_4506_1",
-                    "recipe_4506_2",
                     "recipe_1133_1",
-                    "recipe_358_1",
                     "recipe_355_1",
                     "recipe_356_1",
-                    "recipe_4506_5",
+                    "recipe_357_1",
+                    "recipe_358_1",
                     "recipe_361_1",
-                    "recipe_817_2",
                     "recipe_362_1",
-                    "recipe_357_1"
+                    "recipe_4506_1",
+                    "recipe_4506_2",
+                    "recipe_4506_3",
+                    "recipe_4506_4",
+                    "recipe_4506_5",
+                    "recipe_817_2"
                 ],
                 "buffs": [
                     "buff_21638_1"
@@ -2801,8 +2801,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_399_1",
-                    "recipe_398_1"
+                    "recipe_398_1",
+                    "recipe_399_1"
                 ]
             }
         },
@@ -2814,8 +2814,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_399_1",
-                    "recipe_398_1"
+                    "recipe_398_1",
+                    "recipe_399_1"
                 ]
             }
         },
@@ -2835,15 +2835,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_367_1 + 300 * recipe_368_1) / 10000",
                 "recipes": [
+                    "recipe_367_1",
+                    "recipe_368_1",
+                    "recipe_369_1",
+                    "recipe_370_1",
+                    "recipe_4507_1",
                     "recipe_4507_2",
                     "recipe_4507_3",
-                    "recipe_368_1",
-                    "recipe_367_1",
-                    "recipe_369_1",
-                    "recipe_4507_5",
                     "recipe_4507_4",
-                    "recipe_370_1",
-                    "recipe_4507_1"
+                    "recipe_4507_5"
                 ]
             }
         },
@@ -2855,15 +2855,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_367_1 + 300 * recipe_368_1) / 10000",
                 "recipes": [
+                    "recipe_367_1",
+                    "recipe_368_1",
+                    "recipe_369_1",
+                    "recipe_370_1",
+                    "recipe_4507_1",
                     "recipe_4507_2",
                     "recipe_4507_3",
-                    "recipe_368_1",
-                    "recipe_367_1",
-                    "recipe_369_1",
-                    "recipe_4507_5",
                     "recipe_4507_4",
-                    "recipe_370_1",
-                    "recipe_4507_1"
+                    "recipe_4507_5"
                 ]
             }
         },
@@ -2874,9 +2874,9 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 102 * recipe_2482_1 / 1024)",
                 "critical_strike": "physical_critical_strike + 1000 * recipe_2482_1 / 10000",
                 "recipes": [
-                    "recipe_413_1",
+                    "recipe_2482_1",
                     "recipe_412_1",
-                    "recipe_2482_1"
+                    "recipe_413_1"
                 ]
             }
         },
@@ -3025,15 +3025,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_367_1 + 300 * recipe_368_1) / 10000",
                 "recipes": [
+                    "recipe_367_1",
+                    "recipe_368_1",
+                    "recipe_369_1",
+                    "recipe_370_1",
+                    "recipe_4507_1",
                     "recipe_4507_2",
                     "recipe_4507_3",
-                    "recipe_368_1",
-                    "recipe_367_1",
-                    "recipe_369_1",
-                    "recipe_4507_5",
                     "recipe_4507_4",
-                    "recipe_370_1",
-                    "recipe_4507_1"
+                    "recipe_4507_5"
                 ]
             }
         },
@@ -3045,15 +3045,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_367_1 + 300 * recipe_368_1) / 10000",
                 "recipes": [
+                    "recipe_367_1",
+                    "recipe_368_1",
+                    "recipe_369_1",
+                    "recipe_370_1",
+                    "recipe_4507_1",
                     "recipe_4507_2",
                     "recipe_4507_3",
-                    "recipe_368_1",
-                    "recipe_367_1",
-                    "recipe_369_1",
-                    "recipe_4507_5",
                     "recipe_4507_4",
-                    "recipe_370_1",
-                    "recipe_4507_1"
+                    "recipe_4507_5"
                 ]
             }
         },
@@ -3173,15 +3173,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_334_1 + 300 * recipe_335_1) / 10000",
                 "recipes": [
-                    "recipe_338_1",
-                    "recipe_4504_5",
-                    "recipe_4504_2",
-                    "recipe_335_1",
-                    "recipe_4504_3",
-                    "recipe_4504_1",
                     "recipe_334_1",
+                    "recipe_335_1",
+                    "recipe_338_1",
                     "recipe_339_1",
-                    "recipe_4504_4"
+                    "recipe_4504_1",
+                    "recipe_4504_2",
+                    "recipe_4504_3",
+                    "recipe_4504_4",
+                    "recipe_4504_5"
                 ]
             }
         },
@@ -3276,19 +3276,19 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1133_1 + 400 * recipe_355_1 + 200 * recipe_357_1 + 300 * recipe_358_1) / 10000",
                 "recipes": [
-                    "recipe_4506_3",
-                    "recipe_4506_4",
-                    "recipe_4506_1",
-                    "recipe_4506_2",
                     "recipe_1133_1",
-                    "recipe_358_1",
                     "recipe_355_1",
                     "recipe_356_1",
-                    "recipe_4506_5",
+                    "recipe_357_1",
+                    "recipe_358_1",
                     "recipe_361_1",
-                    "recipe_817_2",
                     "recipe_362_1",
-                    "recipe_357_1"
+                    "recipe_4506_1",
+                    "recipe_4506_2",
+                    "recipe_4506_3",
+                    "recipe_4506_4",
+                    "recipe_4506_5",
+                    "recipe_817_2"
                 ]
             }
         },
@@ -3307,9 +3307,9 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
+                    "recipe_1549_1",
                     "recipe_1550_1",
-                    "recipe_1551_1",
-                    "recipe_1549_1"
+                    "recipe_1551_1"
                 ]
             }
         }
@@ -3341,22 +3341,22 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_5788_6",
-                    "recipe_5787_4",
-                    "recipe_5787_3",
-                    "recipe_1638_1",
-                    "recipe_5788_3",
-                    "recipe_5787_2",
-                    "recipe_5788_2",
-                    "recipe_5787_6",
-                    "recipe_5788_4",
-                    "recipe_5787_5",
-                    "recipe_3246_1",
                     "recipe_1524_1",
-                    "recipe_1639_1",
-                    "recipe_5788_5",
                     "recipe_1547_1",
-                    "recipe_1637_1"
+                    "recipe_1637_1",
+                    "recipe_1638_1",
+                    "recipe_1639_1",
+                    "recipe_3246_1",
+                    "recipe_5787_2",
+                    "recipe_5787_3",
+                    "recipe_5787_4",
+                    "recipe_5787_5",
+                    "recipe_5787_6",
+                    "recipe_5788_2",
+                    "recipe_5788_3",
+                    "recipe_5788_4",
+                    "recipe_5788_5",
+                    "recipe_5788_6"
                 ]
             }
         },
@@ -3375,11 +3375,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1137_1 + 200 * recipe_143_1 + 300 * recipe_144_1) / 10000",
                 "recipes": [
-                    "recipe_145_1",
-                    "recipe_144_1",
-                    "recipe_146_1",
+                    "recipe_1137_1",
                     "recipe_143_1",
-                    "recipe_1137_1"
+                    "recipe_144_1",
+                    "recipe_145_1",
+                    "recipe_146_1"
                 ]
             }
         },
@@ -3441,13 +3441,13 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_155_1 + 300 * recipe_156_1 + 1000 * recipe_2494_1) / 10000",
                 "recipes": [
-                    "recipe_2494_1",
-                    "recipe_155_1",
                     "recipe_1525_1",
+                    "recipe_155_1",
+                    "recipe_156_1",
                     "recipe_160_1",
                     "recipe_161_1",
-                    "recipe_5651_1",
-                    "recipe_156_1"
+                    "recipe_2494_1",
+                    "recipe_5651_1"
                 ]
             }
         },
@@ -3522,13 +3522,13 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_155_1 + 300 * recipe_156_1 + 1000 * recipe_2494_1) / 10000",
                 "recipes": [
-                    "recipe_2494_1",
-                    "recipe_155_1",
                     "recipe_1525_1",
+                    "recipe_155_1",
+                    "recipe_156_1",
                     "recipe_160_1",
                     "recipe_161_1",
-                    "recipe_5651_1",
-                    "recipe_156_1"
+                    "recipe_2494_1",
+                    "recipe_5651_1"
                 ]
             }
         },
@@ -3591,17 +3591,17 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_5788_6",
-                    "recipe_1638_1",
-                    "recipe_5788_3",
-                    "recipe_5788_2",
-                    "recipe_5788_4",
-                    "recipe_3246_1",
                     "recipe_1524_1",
-                    "recipe_1639_1",
-                    "recipe_5788_5",
                     "recipe_1547_1",
-                    "recipe_1637_1"
+                    "recipe_1637_1",
+                    "recipe_1638_1",
+                    "recipe_1639_1",
+                    "recipe_3246_1",
+                    "recipe_5788_2",
+                    "recipe_5788_3",
+                    "recipe_5788_4",
+                    "recipe_5788_5",
+                    "recipe_5788_6"
                 ]
             }
         },
@@ -3612,12 +3612,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_1638_1",
-                    "recipe_3246_1",
                     "recipe_1524_1",
-                    "recipe_1639_1",
                     "recipe_1547_1",
-                    "recipe_1637_1"
+                    "recipe_1637_1",
+                    "recipe_1638_1",
+                    "recipe_1639_1",
+                    "recipe_3246_1"
                 ]
             }
         },
@@ -3729,13 +3729,13 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_155_1 + 300 * recipe_156_1 + 1000 * recipe_2494_1) / 10000",
                 "recipes": [
-                    "recipe_2494_1",
-                    "recipe_155_1",
                     "recipe_1525_1",
+                    "recipe_155_1",
+                    "recipe_156_1",
                     "recipe_160_1",
                     "recipe_161_1",
-                    "recipe_5651_1",
-                    "recipe_156_1"
+                    "recipe_2494_1",
+                    "recipe_5651_1"
                 ]
             }
         }
@@ -3768,16 +3768,16 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 102 * recipe_2740_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1141_1 + 200 * recipe_594_1 + 300 * recipe_595_1 + 1000 * recipe_2740_1) / 10000",
                 "recipes": [
+                    "recipe_1141_1",
+                    "recipe_1536_1",
+                    "recipe_1538_1",
                     "recipe_2740_1",
                     "recipe_3178_1",
-                    "recipe_597_1",
-                    "recipe_1536_1",
                     "recipe_594_1",
                     "recipe_595_1",
-                    "recipe_598_1",
                     "recipe_596_1",
-                    "recipe_1141_1",
-                    "recipe_1538_1"
+                    "recipe_597_1",
+                    "recipe_598_1"
                 ]
             }
         },
@@ -3853,10 +3853,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_560_1 + 300 * recipe_561_1) / 10000",
                 "recipes": [
-                    "recipe_561_1",
-                    "recipe_563_1",
                     "recipe_560_1",
+                    "recipe_561_1",
                     "recipe_562_1",
+                    "recipe_563_1",
                     "recipe_564_1"
                 ]
             }
@@ -3868,10 +3868,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + 200 * recipe_545_1 / 10000",
                 "recipes": [
-                    "recipe_547_1",
+                    "recipe_545_1",
                     "recipe_546_1",
-                    "recipe_548_1",
-                    "recipe_545_1"
+                    "recipe_547_1",
+                    "recipe_548_1"
                 ]
             }
         },
@@ -3882,12 +3882,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_552_1 + 300 * recipe_553_1 + 400 * recipe_554_1) / 10000",
                 "recipes": [
-                    "recipe_553_1",
                     "recipe_552_1",
-                    "recipe_557_1",
+                    "recipe_553_1",
+                    "recipe_554_1",
                     "recipe_555_1",
                     "recipe_556_1",
-                    "recipe_554_1"
+                    "recipe_557_1"
                 ]
             }
         },
@@ -3898,10 +3898,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + 200 * recipe_1576_1 / 10000",
                 "recipes": [
-                    "recipe_1575_1",
-                    "recipe_1576_1",
+                    "recipe_1573_1",
                     "recipe_1574_1",
-                    "recipe_1573_1"
+                    "recipe_1575_1",
+                    "recipe_1576_1"
                 ]
             }
         },
@@ -3912,15 +3912,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (1500 * recipe_2445_1 + 300 * recipe_574_1) / 10000",
                 "recipes": [
-                    "recipe_3281_1",
-                    "recipe_570_1",
                     "recipe_2445_1",
-                    "recipe_569_1",
                     "recipe_2883_1",
-                    "recipe_6018_1",
-                    "recipe_818_6",
+                    "recipe_3281_1",
+                    "recipe_569_1",
+                    "recipe_570_1",
+                    "recipe_571_1",
                     "recipe_574_1",
-                    "recipe_571_1"
+                    "recipe_6018_1",
+                    "recipe_818_6"
                 ]
             }
         },
@@ -3932,15 +3932,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (1500 * recipe_2445_1 + 300 * recipe_574_1) / 10000",
                 "recipes": [
-                    "recipe_3281_1",
-                    "recipe_570_1",
                     "recipe_2445_1",
-                    "recipe_569_1",
                     "recipe_2883_1",
-                    "recipe_6018_1",
-                    "recipe_818_6",
+                    "recipe_3281_1",
+                    "recipe_569_1",
+                    "recipe_570_1",
+                    "recipe_571_1",
                     "recipe_574_1",
-                    "recipe_571_1"
+                    "recipe_6018_1",
+                    "recipe_818_6"
                 ]
             },
             9: {
@@ -3950,15 +3950,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (1500 * recipe_2445_1 + 300 * recipe_574_1) / 10000",
                 "recipes": [
-                    "recipe_3281_1",
-                    "recipe_570_1",
                     "recipe_2445_1",
-                    "recipe_569_1",
                     "recipe_2883_1",
-                    "recipe_6018_1",
-                    "recipe_818_6",
+                    "recipe_3281_1",
+                    "recipe_569_1",
+                    "recipe_570_1",
+                    "recipe_571_1",
                     "recipe_574_1",
-                    "recipe_571_1"
+                    "recipe_6018_1",
+                    "recipe_818_6"
                 ]
             }
         },
@@ -3970,15 +3970,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (1500 * recipe_2445_1 + 300 * recipe_574_1) / 10000",
                 "recipes": [
-                    "recipe_3281_1",
-                    "recipe_570_1",
                     "recipe_2445_1",
-                    "recipe_569_1",
                     "recipe_2883_1",
-                    "recipe_6018_1",
-                    "recipe_818_6",
+                    "recipe_3281_1",
+                    "recipe_569_1",
+                    "recipe_570_1",
+                    "recipe_571_1",
                     "recipe_574_1",
-                    "recipe_571_1"
+                    "recipe_6018_1",
+                    "recipe_818_6"
                 ]
             }
         },
@@ -3989,16 +3989,16 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1142_1 + 1500 * recipe_2446_1 + 300 * recipe_582_1) / 10000",
                 "recipes": [
-                    "recipe_1539_1",
-                    "recipe_579_1",
-                    "recipe_2882_1",
                     "recipe_1142_1",
-                    "recipe_582_1",
+                    "recipe_1539_1",
                     "recipe_2446_1",
+                    "recipe_2882_1",
                     "recipe_3280_1",
-                    "recipe_581_1",
                     "recipe_4347_1",
-                    "recipe_580_1"
+                    "recipe_579_1",
+                    "recipe_580_1",
+                    "recipe_581_1",
+                    "recipe_582_1"
                 ]
             }
         },
@@ -4009,11 +4009,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + 200 * recipe_1568_1 / 10000",
                 "recipes": [
-                    "recipe_3282_1",
-                    "recipe_1568_1",
                     "recipe_1565_1",
                     "recipe_1566_1",
-                    "recipe_1567_1"
+                    "recipe_1567_1",
+                    "recipe_1568_1",
+                    "recipe_3282_1"
                 ]
             }
         },
@@ -4024,12 +4024,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_588_1 + 300 * recipe_589_1) / 10000",
                 "recipes": [
-                    "recipe_584_1",
-                    "recipe_588_1",
                     "recipe_4964_1",
-                    "recipe_589_1",
+                    "recipe_583_1",
+                    "recipe_584_1",
                     "recipe_585_1",
-                    "recipe_583_1"
+                    "recipe_588_1",
+                    "recipe_589_1"
                 ]
             }
         },
@@ -4041,16 +4041,16 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 102 * recipe_2740_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1141_1 + 200 * recipe_594_1 + 300 * recipe_595_1 + 1000 * recipe_2740_1) / 10000",
                 "recipes": [
+                    "recipe_1141_1",
+                    "recipe_1536_1",
+                    "recipe_1538_1",
                     "recipe_2740_1",
                     "recipe_3178_1",
-                    "recipe_597_1",
-                    "recipe_1536_1",
                     "recipe_594_1",
                     "recipe_595_1",
-                    "recipe_598_1",
                     "recipe_596_1",
-                    "recipe_1141_1",
-                    "recipe_1538_1"
+                    "recipe_597_1",
+                    "recipe_598_1"
                 ]
             }
         },
@@ -4062,16 +4062,16 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 102 * recipe_2740_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1141_1 + 200 * recipe_594_1 + 300 * recipe_595_1 + 1000 * recipe_2740_1) / 10000",
                 "recipes": [
+                    "recipe_1141_1",
+                    "recipe_1536_1",
+                    "recipe_1538_1",
                     "recipe_2740_1",
                     "recipe_3178_1",
-                    "recipe_597_1",
-                    "recipe_1536_1",
                     "recipe_594_1",
                     "recipe_595_1",
-                    "recipe_598_1",
                     "recipe_596_1",
-                    "recipe_1141_1",
-                    "recipe_1538_1"
+                    "recipe_597_1",
+                    "recipe_598_1"
                 ]
             }
         },
@@ -4109,16 +4109,16 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 102 * recipe_2740_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1141_1 + 200 * recipe_594_1 + 300 * recipe_595_1 + 1000 * recipe_2740_1) / 10000",
                 "recipes": [
+                    "recipe_1141_1",
+                    "recipe_1536_1",
+                    "recipe_1538_1",
                     "recipe_2740_1",
                     "recipe_3178_1",
-                    "recipe_597_1",
-                    "recipe_1536_1",
                     "recipe_594_1",
                     "recipe_595_1",
-                    "recipe_598_1",
                     "recipe_596_1",
-                    "recipe_1141_1",
-                    "recipe_1538_1"
+                    "recipe_597_1",
+                    "recipe_598_1"
                 ]
             }
         },
@@ -4130,10 +4130,10 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_2817_1",
-                    "recipe_2821_1",
                     "recipe_2818_1",
+                    "recipe_2819_1",
                     "recipe_2820_1",
-                    "recipe_2819_1"
+                    "recipe_2821_1"
                 ]
             }
         },
@@ -4144,10 +4144,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_560_1 + 300 * recipe_561_1) / 10000",
                 "recipes": [
-                    "recipe_561_1",
-                    "recipe_563_1",
                     "recipe_560_1",
+                    "recipe_561_1",
                     "recipe_562_1",
+                    "recipe_563_1",
                     "recipe_564_1"
                 ]
             }
@@ -4189,12 +4189,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_588_1 + 300 * recipe_589_1) / 10000",
                 "recipes": [
-                    "recipe_584_1",
-                    "recipe_588_1",
                     "recipe_4964_1",
-                    "recipe_589_1",
+                    "recipe_583_1",
+                    "recipe_584_1",
                     "recipe_585_1",
-                    "recipe_583_1"
+                    "recipe_588_1",
+                    "recipe_589_1"
                 ]
             }
         },
@@ -4318,13 +4318,13 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike + (200 * recipe_794_1 + 300 * recipe_795_1) / 10000",
                 "recipes": [
-                    "recipe_797_1",
-                    "recipe_794_1",
                     "recipe_1528_1",
-                    "recipe_796_1",
+                    "recipe_5608_1",
+                    "recipe_794_1",
                     "recipe_795_1",
-                    "recipe_818_7",
-                    "recipe_5608_1"
+                    "recipe_796_1",
+                    "recipe_797_1",
+                    "recipe_818_7"
                 ]
             }
         },
@@ -4335,10 +4335,10 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
+                    "recipe_1529_1",
                     "recipe_773_1",
-                    "recipe_775_1",
                     "recipe_774_1",
-                    "recipe_1529_1"
+                    "recipe_775_1"
                 ]
             }
         },
@@ -4349,8 +4349,8 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_1702_1",
                     "recipe_1701_1",
+                    "recipe_1702_1",
                     "recipe_1703_1"
                 ]
             }
@@ -4371,9 +4371,9 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_748_1",
                     "recipe_746_1",
-                    "recipe_747_1"
+                    "recipe_747_1",
+                    "recipe_748_1"
                 ]
             }
         },
@@ -4446,10 +4446,10 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_2515_1",
+                    "recipe_2513_1",
                     "recipe_2514_1",
-                    "recipe_2516_1",
-                    "recipe_2513_1"
+                    "recipe_2515_1",
+                    "recipe_2516_1"
                 ]
             }
         },
@@ -4562,13 +4562,13 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike + (200 * recipe_762_1 + 300 * recipe_763_1 + 400 * recipe_764_1) / 10000",
                 "recipes": [
-                    "recipe_763_1",
+                    "recipe_4678_1",
                     "recipe_5891_1",
-                    "recipe_767_1",
-                    "recipe_764_1",
-                    "recipe_768_1",
                     "recipe_762_1",
-                    "recipe_4678_1"
+                    "recipe_763_1",
+                    "recipe_764_1",
+                    "recipe_767_1",
+                    "recipe_768_1"
                 ]
             }
         },
@@ -5463,8 +5463,8 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_1702_1",
                     "recipe_1701_1",
+                    "recipe_1702_1",
                     "recipe_1703_1"
                 ]
             }
@@ -6299,13 +6299,13 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (500 * recipe_1978_1 + 300 * recipe_837_1 + 400 * recipe_838_1) / 10000",
                 "recipes": [
                     "recipe_1535_1",
+                    "recipe_1969_1",
+                    "recipe_1978_1",
+                    "recipe_834_1",
+                    "recipe_835_1",
                     "recipe_836_1",
                     "recipe_837_1",
-                    "recipe_1969_1",
-                    "recipe_834_1",
-                    "recipe_838_1",
-                    "recipe_835_1",
-                    "recipe_1978_1"
+                    "recipe_838_1"
                 ]
             }
         },
@@ -6317,15 +6317,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1145_1 + 300 * recipe_848_1 + 400 * recipe_849_1 + 500 * recipe_850_1) / 10000",
                 "recipes": [
-                    "recipe_946_1",
-                    "recipe_1534_1",
                     "recipe_1145_1",
-                    "recipe_849_1",
-                    "recipe_850_1",
-                    "recipe_848_1",
+                    "recipe_1534_1",
                     "recipe_6075_1",
                     "recipe_845_1",
-                    "recipe_846_1"
+                    "recipe_846_1",
+                    "recipe_848_1",
+                    "recipe_849_1",
+                    "recipe_850_1",
+                    "recipe_946_1"
                 ]
             },
             2: {
@@ -6335,15 +6335,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1145_1 + 300 * recipe_848_1 + 400 * recipe_849_1 + 500 * recipe_850_1) / 10000",
                 "recipes": [
-                    "recipe_946_1",
-                    "recipe_1534_1",
                     "recipe_1145_1",
-                    "recipe_849_1",
-                    "recipe_850_1",
-                    "recipe_848_1",
+                    "recipe_1534_1",
                     "recipe_6075_1",
                     "recipe_845_1",
-                    "recipe_846_1"
+                    "recipe_846_1",
+                    "recipe_848_1",
+                    "recipe_849_1",
+                    "recipe_850_1",
+                    "recipe_946_1"
                 ]
             }
         },
@@ -6354,19 +6354,19 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_856_1 + 400 * recipe_857_1) / 10000",
                 "recipes": [
-                    "recipe_5945_1",
-                    "recipe_6076_1",
-                    "recipe_5947_1",
-                    "recipe_854_1",
-                    "recipe_858_1",
                     "recipe_1201_1",
                     "recipe_5145_1",
-                    "recipe_6152_1",
+                    "recipe_5945_1",
                     "recipe_5946_1",
+                    "recipe_5947_1",
+                    "recipe_6076_1",
+                    "recipe_6152_1",
                     "recipe_853_1",
-                    "recipe_856_1",
+                    "recipe_854_1",
                     "recipe_855_1",
-                    "recipe_857_1"
+                    "recipe_856_1",
+                    "recipe_857_1",
+                    "recipe_858_1"
                 ]
             }
         },
@@ -6390,8 +6390,8 @@ SKILLS = {
                 "recipes": [
                     "recipe_1661_1",
                     "recipe_1662_1",
-                    "recipe_5817_1",
                     "recipe_1663_1",
+                    "recipe_5817_1",
                     "recipe_6077_1"
                 ]
             }
@@ -6470,19 +6470,19 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_856_1 + 400 * recipe_857_1) / 10000",
                 "recipes": [
-                    "recipe_5945_1",
-                    "recipe_6076_1",
-                    "recipe_5947_1",
-                    "recipe_854_1",
-                    "recipe_858_1",
                     "recipe_1201_1",
                     "recipe_5145_1",
-                    "recipe_6152_1",
+                    "recipe_5945_1",
                     "recipe_5946_1",
+                    "recipe_5947_1",
+                    "recipe_6076_1",
+                    "recipe_6152_1",
                     "recipe_853_1",
-                    "recipe_856_1",
+                    "recipe_854_1",
                     "recipe_855_1",
-                    "recipe_857_1"
+                    "recipe_856_1",
+                    "recipe_857_1",
+                    "recipe_858_1"
                 ]
             }
         },
@@ -6493,8 +6493,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_908_1",
-                    "recipe_907_1"
+                    "recipe_907_1",
+                    "recipe_908_1"
                 ]
             }
         },
@@ -6538,19 +6538,19 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 0.5)",
                 "critical_strike": "physical_critical_strike + (4096 + 300 * recipe_856_1 + 400 * recipe_857_1) / 10000",
                 "recipes": [
-                    "recipe_5945_1",
-                    "recipe_6076_1",
-                    "recipe_5947_1",
-                    "recipe_854_1",
-                    "recipe_858_1",
                     "recipe_1201_1",
                     "recipe_5145_1",
-                    "recipe_6152_1",
+                    "recipe_5945_1",
                     "recipe_5946_1",
+                    "recipe_5947_1",
+                    "recipe_6076_1",
+                    "recipe_6152_1",
                     "recipe_853_1",
-                    "recipe_856_1",
+                    "recipe_854_1",
                     "recipe_855_1",
-                    "recipe_857_1"
+                    "recipe_856_1",
+                    "recipe_857_1",
+                    "recipe_858_1"
                 ]
             },
             30: {
@@ -6560,19 +6560,19 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 1.0)",
                 "critical_strike": "physical_critical_strike + (8192 + 300 * recipe_856_1 + 400 * recipe_857_1) / 10000",
                 "recipes": [
-                    "recipe_5945_1",
-                    "recipe_6076_1",
-                    "recipe_5947_1",
-                    "recipe_854_1",
-                    "recipe_858_1",
                     "recipe_1201_1",
                     "recipe_5145_1",
-                    "recipe_6152_1",
+                    "recipe_5945_1",
                     "recipe_5946_1",
+                    "recipe_5947_1",
+                    "recipe_6076_1",
+                    "recipe_6152_1",
                     "recipe_853_1",
-                    "recipe_856_1",
+                    "recipe_854_1",
                     "recipe_855_1",
-                    "recipe_857_1"
+                    "recipe_856_1",
+                    "recipe_857_1",
+                    "recipe_858_1"
                 ]
             }
         },
@@ -6621,13 +6621,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1978_1 + 300 * recipe_837_1 + 400 * recipe_838_1) / 10000",
                 "recipes": [
+                    "recipe_1978_1",
+                    "recipe_4120_1",
+                    "recipe_834_1",
+                    "recipe_835_1",
                     "recipe_836_1",
                     "recipe_837_1",
-                    "recipe_4120_1",
-                    "recipe_1978_1",
-                    "recipe_834_1",
-                    "recipe_838_1",
-                    "recipe_835_1"
+                    "recipe_838_1"
                 ]
             }
         },
@@ -6646,13 +6646,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1978_1 + 300 * recipe_837_1 + 400 * recipe_838_1) / 10000",
                 "recipes": [
+                    "recipe_1978_1",
+                    "recipe_4120_1",
+                    "recipe_834_1",
+                    "recipe_835_1",
                     "recipe_836_1",
                     "recipe_837_1",
-                    "recipe_4120_1",
-                    "recipe_1978_1",
-                    "recipe_834_1",
-                    "recipe_838_1",
-                    "recipe_835_1"
+                    "recipe_838_1"
                 ]
             }
         },
@@ -6663,16 +6663,16 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1146_1 + 300 * recipe_873_1 + 400 * recipe_874_1) / 10000",
                 "recipes": [
-                    "recipe_873_1",
                     "recipe_1146_1",
-                    "recipe_868_1",
-                    "recipe_872_1",
-                    "recipe_870_1",
-                    "recipe_874_1",
-                    "recipe_871_1",
-                    "recipe_1943_1",
                     "recipe_1532_1",
-                    "recipe_869_1"
+                    "recipe_1943_1",
+                    "recipe_868_1",
+                    "recipe_869_1",
+                    "recipe_870_1",
+                    "recipe_871_1",
+                    "recipe_872_1",
+                    "recipe_873_1",
+                    "recipe_874_1"
                 ]
             }
         },
@@ -6683,15 +6683,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_873_1 + 400 * recipe_874_1) / 10000",
                 "recipes": [
-                    "recipe_873_1",
-                    "recipe_868_1",
-                    "recipe_872_1",
-                    "recipe_870_1",
-                    "recipe_874_1",
-                    "recipe_871_1",
-                    "recipe_1943_1",
                     "recipe_1532_1",
-                    "recipe_869_1"
+                    "recipe_1943_1",
+                    "recipe_868_1",
+                    "recipe_869_1",
+                    "recipe_870_1",
+                    "recipe_871_1",
+                    "recipe_872_1",
+                    "recipe_873_1",
+                    "recipe_874_1"
                 ]
             }
         },
@@ -6710,11 +6710,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_2960_1",
-                    "recipe_885_1",
-                    "recipe_884_1",
-                    "recipe_886_1",
                     "recipe_1533_1",
+                    "recipe_2960_1",
+                    "recipe_884_1",
+                    "recipe_885_1",
+                    "recipe_886_1",
                     "recipe_947_1"
                 ]
             }
@@ -6727,9 +6727,9 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + 200 * recipe_1672_1 / 10000",
                 "recipes": [
                     "recipe_1669_1",
-                    "recipe_1672_1",
                     "recipe_1670_1",
                     "recipe_1671_1",
+                    "recipe_1672_1",
                     "recipe_2961_1"
                 ]
             }
@@ -6829,8 +6829,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_908_1",
-                    "recipe_907_1"
+                    "recipe_907_1",
+                    "recipe_908_1"
                 ]
             }
         },
@@ -7056,13 +7056,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             }
         },
@@ -7074,13 +7074,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             }
         },
@@ -7092,13 +7092,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             }
         },
@@ -7109,15 +7109,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             }
         },
@@ -7128,11 +7128,11 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + 10000 * recipe_4545_1 / 10000",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
-                    "recipe_4545_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1",
+                    "recipe_4545_1"
                 ]
             }
         },
@@ -7143,11 +7143,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + 10000 * recipe_4545_1 / 10000",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
-                    "recipe_4545_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1",
+                    "recipe_4545_1"
                 ]
             }
         },
@@ -7158,17 +7158,17 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (10000 * recipe_4546_1 + 300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_3223_1",
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
-                    "recipe_4546_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_3223_1",
+                    "recipe_4546_1",
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             }
         },
@@ -7179,17 +7179,17 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (10000 * recipe_4546_1 + 300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_4546_1",
                     "recipe_3226_1",
-                    "recipe_1016_1"
+                    "recipe_4546_1",
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             }
         },
@@ -7201,11 +7201,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             }
@@ -7218,11 +7218,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 + 300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             }
@@ -7235,11 +7235,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (1000 + 300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             }
@@ -7251,12 +7251,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             }
         },
@@ -7268,12 +7268,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1054_1 + 400 * recipe_1055_1 + 500 * recipe_1056_1) / 10000",
                 "recipes": [
-                    "recipe_1056_1",
                     "recipe_1051_1",
-                    "recipe_1054_1",
-                    "recipe_1053_1",
-                    "recipe_1055_1",
                     "recipe_1052_1",
+                    "recipe_1053_1",
+                    "recipe_1054_1",
+                    "recipe_1055_1",
+                    "recipe_1056_1",
                     "recipe_1542_1"
                 ]
             },
@@ -7284,12 +7284,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1054_1 + 400 * recipe_1055_1 + 500 * recipe_1056_1) / 10000",
                 "recipes": [
-                    "recipe_1056_1",
                     "recipe_1051_1",
-                    "recipe_1054_1",
-                    "recipe_1053_1",
-                    "recipe_1055_1",
                     "recipe_1052_1",
+                    "recipe_1053_1",
+                    "recipe_1054_1",
+                    "recipe_1055_1",
+                    "recipe_1056_1",
                     "recipe_1542_1"
                 ]
             }
@@ -8424,8 +8424,8 @@ SKILLS = {
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
                     "recipe_1621_1",
-                    "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_1622_1",
+                    "recipe_1623_1"
                 ]
             }
         },
@@ -8437,8 +8437,8 @@ SKILLS = {
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
                     "recipe_1621_1",
-                    "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_1622_1",
+                    "recipe_1623_1"
                 ]
             }
         },
@@ -8553,11 +8553,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             },
@@ -8568,11 +8568,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             },
@@ -8583,11 +8583,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             },
@@ -8598,11 +8598,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             },
@@ -8613,11 +8613,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             },
@@ -8628,11 +8628,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_988_1 + 400 * recipe_989_1 + 500 * recipe_990_1) / 10000",
                 "recipes": [
+                    "recipe_5494_1",
                     "recipe_984_1",
                     "recipe_985_1",
-                    "recipe_5494_1",
-                    "recipe_989_1",
                     "recipe_988_1",
+                    "recipe_989_1",
                     "recipe_990_1"
                 ]
             }
@@ -8645,13 +8645,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             },
             2: {
@@ -8661,13 +8661,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             },
             3: {
@@ -8677,13 +8677,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             },
             4: {
@@ -8693,13 +8693,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             },
             5: {
@@ -8709,13 +8709,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             },
             6: {
@@ -8725,13 +8725,13 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1004_1 + 400 * recipe_1005_1) / 10000",
                 "recipes": [
-                    "recipe_1004_1",
-                    "recipe_5557_1",
+                    "recipe_1000_1",
                     "recipe_1001_1",
-                    "recipe_5495_1",
-                    "recipe_999_1",
+                    "recipe_1004_1",
                     "recipe_1005_1",
-                    "recipe_1000_1"
+                    "recipe_5495_1",
+                    "recipe_5557_1",
+                    "recipe_999_1"
                 ]
             }
         },
@@ -8743,12 +8743,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             },
             2: {
@@ -8758,12 +8758,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             },
             3: {
@@ -8773,12 +8773,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             },
             4: {
@@ -8788,12 +8788,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             },
             5: {
@@ -8803,12 +8803,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             },
             6: {
@@ -8818,12 +8818,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                 "recipes": [
+                    "recipe_1148_1",
+                    "recipe_5150_1",
+                    "recipe_5931_1",
                     "recipe_992_1",
                     "recipe_993_1",
-                    "recipe_1148_1",
-                    "recipe_994_1",
-                    "recipe_5150_1",
-                    "recipe_5931_1"
+                    "recipe_994_1"
                 ]
             }
         },
@@ -8835,15 +8835,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             },
             2: {
@@ -8853,15 +8853,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             },
             3: {
@@ -8871,15 +8871,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             },
             4: {
@@ -8889,15 +8889,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             },
             5: {
@@ -8907,15 +8907,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             },
             6: {
@@ -8925,15 +8925,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (500 * recipe_1149_1 + 300 * recipe_1010_1 + 400 * recipe_1011_1) / 10000",
                 "recipes": [
-                    "recipe_1149_1",
-                    "recipe_5930_1",
-                    "recipe_1008_1",
                     "recipe_1007_1",
-                    "recipe_1011_1",
-                    "recipe_1010_1",
+                    "recipe_1008_1",
                     "recipe_1009_1",
+                    "recipe_1010_1",
+                    "recipe_1011_1",
                     "recipe_1013_1",
-                    "recipe_5149_1"
+                    "recipe_1149_1",
+                    "recipe_5149_1",
+                    "recipe_5930_1"
                 ]
             }
         },
@@ -8945,15 +8945,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             2: {
@@ -8963,15 +8963,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             3: {
@@ -8981,15 +8981,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             4: {
@@ -8999,15 +8999,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             5: {
@@ -9017,15 +9017,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             6: {
@@ -9035,15 +9035,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             }
         },
@@ -9055,15 +9055,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             2: {
@@ -9073,15 +9073,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             3: {
@@ -9091,15 +9091,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             4: {
@@ -9109,15 +9109,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             5: {
@@ -9127,15 +9127,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             },
             6: {
@@ -9145,15 +9145,15 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike + (300 * recipe_1017_1 + 400 * recipe_1018_1 + 500 * recipe_1019_1) / 10000",
                 "recipes": [
-                    "recipe_1019_1",
-                    "recipe_5366_1",
-                    "recipe_1017_1",
                     "recipe_1014_1",
-                    "recipe_948_2",
                     "recipe_1015_1",
+                    "recipe_1016_1",
+                    "recipe_1017_1",
                     "recipe_1018_1",
+                    "recipe_1019_1",
                     "recipe_1543_1",
-                    "recipe_1016_1"
+                    "recipe_5366_1",
+                    "recipe_948_2"
                 ]
             }
         },
@@ -9165,10 +9165,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1"
                 ]
             },
             2: {
@@ -9178,10 +9178,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1"
                 ]
             },
             3: {
@@ -9191,10 +9191,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1"
                 ]
             },
             4: {
@@ -9204,10 +9204,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1"
                 ]
             },
             5: {
@@ -9217,10 +9217,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1"
                 ]
             },
             6: {
@@ -9230,10 +9230,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_3225_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3225_1"
                 ]
             }
         },
@@ -9245,10 +9245,10 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1"
                 ]
             },
             2: {
@@ -9258,10 +9258,10 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1"
                 ]
             },
             3: {
@@ -9271,10 +9271,10 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1"
                 ]
             },
             4: {
@@ -9284,10 +9284,10 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1"
                 ]
             },
             5: {
@@ -9297,10 +9297,10 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1"
                 ]
             },
             6: {
@@ -9310,10 +9310,10 @@ SKILLS = {
                 "critical_damage": "damage * solar_critical_power",
                 "critical_strike": "solar_critical_strike",
                 "recipes": [
-                    "recipe_3222_1",
                     "recipe_1621_1",
+                    "recipe_1622_1",
                     "recipe_1623_1",
-                    "recipe_1622_1"
+                    "recipe_3222_1"
                 ]
             }
         }
@@ -9342,13 +9342,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1344_1 + 400 * recipe_1345_1 + 500 * recipe_1346_1 + 2000 * recipe_6217_1) / 10000",
                 "recipes": [
-                    "recipe_1344_1",
-                    "recipe_1341_1",
-                    "recipe_6217_1",
-                    "recipe_1540_1",
-                    "recipe_1345_1",
                     "recipe_1340_1",
-                    "recipe_1346_1"
+                    "recipe_1341_1",
+                    "recipe_1344_1",
+                    "recipe_1345_1",
+                    "recipe_1346_1",
+                    "recipe_1540_1",
+                    "recipe_6217_1"
                 ]
             }
         },
@@ -9360,12 +9360,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1360_1 + 400 * recipe_1361_1 + 2000 * recipe_6218_1) / 10000",
                 "recipes": [
+                    "recipe_1355_1",
                     "recipe_1356_1",
                     "recipe_1357_1",
-                    "recipe_6218_1",
                     "recipe_1360_1",
                     "recipe_1361_1",
-                    "recipe_1355_1"
+                    "recipe_6218_1"
                 ]
             }
         },
@@ -9377,12 +9377,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1360_1 + 400 * recipe_1361_1 + 2000 * recipe_6218_1) / 10000",
                 "recipes": [
+                    "recipe_1355_1",
                     "recipe_1356_1",
                     "recipe_1357_1",
-                    "recipe_6218_1",
                     "recipe_1360_1",
                     "recipe_1361_1",
-                    "recipe_1355_1"
+                    "recipe_6218_1"
                 ]
             }
         },
@@ -9415,8 +9415,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9429,8 +9429,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9443,8 +9443,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9457,8 +9457,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9471,8 +9471,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9485,8 +9485,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9499,8 +9499,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9513,8 +9513,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9527,8 +9527,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9541,8 +9541,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9555,8 +9555,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_1393_1",
                     "recipe_1392_1",
+                    "recipe_1393_1",
                     "recipe_1394_1"
                 ]
             }
@@ -9587,13 +9587,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             }
         },
@@ -9605,13 +9605,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             }
         },
@@ -9623,13 +9623,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             }
         },
@@ -9641,13 +9641,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             }
         },
@@ -9764,12 +9764,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1983_1 + 300 * recipe_1422_1 + 400 * recipe_1423_1 + 500 * recipe_1424_1) / 10000",
                 "recipes": [
-                    "recipe_1421_1",
                     "recipe_1420_1",
-                    "recipe_1424_1",
-                    "recipe_1983_1",
+                    "recipe_1421_1",
                     "recipe_1422_1",
-                    "recipe_1423_1"
+                    "recipe_1423_1",
+                    "recipe_1424_1",
+                    "recipe_1983_1"
                 ],
                 "buffs": [
                     "buff_30473_1"
@@ -9785,12 +9785,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ],
                 "buffs": [
                     "buff_30473_1"
@@ -9806,12 +9806,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ]
             }
         },
@@ -9824,12 +9824,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ]
             }
         },
@@ -9842,12 +9842,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ]
             }
         },
@@ -9860,12 +9860,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ]
             }
         },
@@ -9878,12 +9878,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ]
             }
         },
@@ -9923,8 +9923,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1413_1",
-                    "recipe_1415_1",
-                    "recipe_1414_1"
+                    "recipe_1414_1",
+                    "recipe_1415_1"
                 ]
             }
         },
@@ -9937,8 +9937,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1413_1",
-                    "recipe_1415_1",
-                    "recipe_1414_1"
+                    "recipe_1414_1",
+                    "recipe_1415_1"
                 ]
             }
         },
@@ -9951,8 +9951,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1413_1",
-                    "recipe_1415_1",
-                    "recipe_1414_1"
+                    "recipe_1414_1",
+                    "recipe_1415_1"
                 ]
             }
         },
@@ -9973,8 +9973,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1399_1",
-                    "recipe_1401_1",
-                    "recipe_1400_1"
+                    "recipe_1400_1",
+                    "recipe_1401_1"
                 ]
             }
         },
@@ -9987,8 +9987,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1399_1",
-                    "recipe_1401_1",
-                    "recipe_1400_1"
+                    "recipe_1400_1",
+                    "recipe_1401_1"
                 ]
             }
         },
@@ -10001,8 +10001,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1399_1",
-                    "recipe_1401_1",
-                    "recipe_1400_1"
+                    "recipe_1400_1",
+                    "recipe_1401_1"
                 ]
             }
         },
@@ -10015,8 +10015,8 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
                     "recipe_1399_1",
-                    "recipe_1401_1",
-                    "recipe_1400_1"
+                    "recipe_1400_1",
+                    "recipe_1401_1"
                 ]
             }
         },
@@ -10087,17 +10087,17 @@ SKILLS = {
             20: {
                 "name": "亢龙有悔",
                 "comment": "1-2段",
-                "damage": "(101 + rand * 15 + physical_attack_power * 1.8687500000000001) * (1 + (physical_damage_addition + 205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (physical_damage_cof + 308 * belong_6824 + 10.24 * buff_32180_1) / 1024)",
+                "damage": "(101 + rand * 15 + physical_attack_power * 1.8687500000000001) * (1 + (physical_damage_addition + 205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (physical_damage_cof + 10.24 * buff_32180_1 + 308 * belong_6824) / 1024)",
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ],
                 "buffs": [
                     "buff_32180_1"
@@ -10108,17 +10108,17 @@ SKILLS = {
             20: {
                 "name": "亢龙有悔",
                 "comment": "3段",
-                "damage": "(135 + rand * 20 + physical_attack_power * 3.34375) * (1 + (physical_damage_addition + 205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (physical_damage_cof + 308 * belong_6824 + 10.24 * buff_32180_1) / 1024)",
+                "damage": "(135 + rand * 20 + physical_attack_power * 3.34375) * (1 + (physical_damage_addition + 205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (physical_damage_cof + 10.24 * buff_32180_1 + 308 * belong_6824) / 1024)",
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ],
                 "buffs": [
                     "buff_32180_1"
@@ -10133,12 +10133,12 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_1375_1 + 400 * recipe_1376_1) / 10000",
                 "recipes": [
                     "recipe_1372_1",
-                    "recipe_1548_1",
-                    "recipe_1376_1",
                     "recipe_1373_1",
-                    "recipe_1541_1",
                     "recipe_1374_1",
-                    "recipe_1375_1"
+                    "recipe_1375_1",
+                    "recipe_1376_1",
+                    "recipe_1541_1",
+                    "recipe_1548_1"
                 ]
             }
         },
@@ -10454,13 +10454,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             },
             2: {
@@ -10470,13 +10470,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             },
             3: {
@@ -10486,13 +10486,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             },
             4: {
@@ -10502,13 +10502,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1366_1 + 400 * recipe_1367_1 + 500 * recipe_1368_1) / 10000",
                 "recipes": [
-                    "recipe_5879_1",
-                    "recipe_1368_1",
+                    "recipe_1363_1",
+                    "recipe_1364_1",
                     "recipe_1365_1",
                     "recipe_1366_1",
                     "recipe_1367_1",
-                    "recipe_1364_1",
-                    "recipe_1363_1"
+                    "recipe_1368_1",
+                    "recipe_5879_1"
                 ]
             }
         },
@@ -10622,13 +10622,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1934_1 + 200 * recipe_1863_1 + 300 * recipe_1864_1 + 400 * recipe_1865_1) / 10000",
                 "recipes": [
-                    "recipe_1864_1",
                     "recipe_1860_1",
-                    "recipe_1865_1",
-                    "recipe_1863_1",
-                    "recipe_1934_1",
                     "recipe_1861_1",
-                    "recipe_1862_1"
+                    "recipe_1862_1",
+                    "recipe_1863_1",
+                    "recipe_1864_1",
+                    "recipe_1865_1",
+                    "recipe_1934_1"
                 ]
             }
         },
@@ -10640,13 +10640,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1934_1 + 200 * recipe_1863_1 + 300 * recipe_1864_1 + 400 * recipe_1865_1) / 10000",
                 "recipes": [
-                    "recipe_1864_1",
                     "recipe_1860_1",
-                    "recipe_1865_1",
-                    "recipe_1863_1",
-                    "recipe_1934_1",
                     "recipe_1861_1",
-                    "recipe_1862_1"
+                    "recipe_1862_1",
+                    "recipe_1863_1",
+                    "recipe_1864_1",
+                    "recipe_1865_1",
+                    "recipe_1934_1"
                 ]
             }
         },
@@ -10658,13 +10658,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1934_1 + 200 * recipe_1863_1 + 300 * recipe_1864_1 + 400 * recipe_1865_1) / 10000",
                 "recipes": [
-                    "recipe_1864_1",
                     "recipe_1860_1",
-                    "recipe_1865_1",
-                    "recipe_1863_1",
-                    "recipe_1934_1",
                     "recipe_1861_1",
-                    "recipe_1862_1"
+                    "recipe_1862_1",
+                    "recipe_1863_1",
+                    "recipe_1864_1",
+                    "recipe_1865_1",
+                    "recipe_1934_1"
                 ]
             }
         },
@@ -10713,10 +10713,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1854_1 + 400 * recipe_1855_1) / 10000",
                 "recipes": [
-                    "recipe_1855_1",
-                    "recipe_1854_1",
                     "recipe_1852_1",
                     "recipe_1853_1",
+                    "recipe_1854_1",
+                    "recipe_1855_1",
                     "recipe_1933_1"
                 ]
             }
@@ -10728,12 +10728,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_1833_1 + 300 * recipe_1834_1 + 400 * recipe_1835_1) / 10000",
                 "recipes": [
-                    "recipe_1833_1",
-                    "recipe_1835_1",
-                    "recipe_1834_1",
                     "recipe_1830_1",
+                    "recipe_1831_1",
                     "recipe_1832_1",
-                    "recipe_1831_1"
+                    "recipe_1833_1",
+                    "recipe_1834_1",
+                    "recipe_1835_1"
                 ]
             }
         },
@@ -10744,15 +10744,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_1936_1 + 200 * recipe_1841_1 + 300 * recipe_1842_1 + 400 * recipe_1843_1) / 10000",
                 "recipes": [
-                    "recipe_1840_1",
                     "recipe_1838_1",
-                    "recipe_5805_1",
-                    "recipe_1938_1",
                     "recipe_1839_1",
-                    "recipe_1842_1",
-                    "recipe_1936_1",
+                    "recipe_1840_1",
                     "recipe_1841_1",
-                    "recipe_1843_1"
+                    "recipe_1842_1",
+                    "recipe_1843_1",
+                    "recipe_1936_1",
+                    "recipe_1938_1",
+                    "recipe_5805_1"
                 ]
             }
         },
@@ -10763,20 +10763,20 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_6016_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1848_1 + 400 * recipe_1849_1 + 1500 * recipe_6016_1) / 10000",
                 "recipes": [
-                    "recipe_1941_1",
                     "recipe_1846_1",
-                    "recipe_1932_1",
                     "recipe_1847_1",
-                    "recipe_6016_1",
                     "recipe_1848_1",
-                    "recipe_5745_1",
-                    "recipe_2007_1",
-                    "recipe_4921_1",
-                    "recipe_2004_1",
-                    "recipe_5725_1",
-                    "recipe_2006_1",
                     "recipe_1849_1",
-                    "recipe_2008_1"
+                    "recipe_1932_1",
+                    "recipe_1941_1",
+                    "recipe_2004_1",
+                    "recipe_2006_1",
+                    "recipe_2007_1",
+                    "recipe_2008_1",
+                    "recipe_4921_1",
+                    "recipe_5725_1",
+                    "recipe_5745_1",
+                    "recipe_6016_1"
                 ]
             }
         },
@@ -10899,12 +10899,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_1955_1 + 300 * recipe_1956_1) / 10000",
                 "recipes": [
-                    "recipe_1956_1",
                     "recipe_1937_1",
-                    "recipe_5735_1",
+                    "recipe_1953_1",
                     "recipe_1954_1",
                     "recipe_1955_1",
-                    "recipe_1953_1"
+                    "recipe_1956_1",
+                    "recipe_5735_1"
                 ]
             }
         },
@@ -10915,11 +10915,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1904_1 + 400 * recipe_1905_1) / 10000",
                 "recipes": [
+                    "recipe_1902_1",
                     "recipe_1903_1",
-                    "recipe_1905_1",
-                    "recipe_3234_1",
                     "recipe_1904_1",
-                    "recipe_1902_1"
+                    "recipe_1905_1",
+                    "recipe_3234_1"
                 ]
             }
         },
@@ -11063,20 +11063,20 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_6016_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (300 * recipe_1848_1 + 400 * recipe_1849_1 + 1500 * recipe_6016_1) / 10000",
                 "recipes": [
-                    "recipe_1941_1",
                     "recipe_1846_1",
-                    "recipe_1932_1",
                     "recipe_1847_1",
-                    "recipe_6016_1",
                     "recipe_1848_1",
-                    "recipe_5745_1",
-                    "recipe_2007_1",
-                    "recipe_4921_1",
-                    "recipe_2004_1",
-                    "recipe_5725_1",
-                    "recipe_2006_1",
                     "recipe_1849_1",
-                    "recipe_2008_1"
+                    "recipe_1932_1",
+                    "recipe_1941_1",
+                    "recipe_2004_1",
+                    "recipe_2006_1",
+                    "recipe_2007_1",
+                    "recipe_2008_1",
+                    "recipe_4921_1",
+                    "recipe_5725_1",
+                    "recipe_5745_1",
+                    "recipe_6016_1"
                 ]
             }
         },
@@ -11153,15 +11153,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_2047_1 + 300 * recipe_2048_1 + 400 * recipe_2049_1) / 10000",
                 "recipes": [
+                    "recipe_2045_1",
                     "recipe_2046_1",
                     "recipe_2047_1",
-                    "recipe_2138_1",
+                    "recipe_2048_1",
                     "recipe_2049_1",
-                    "recipe_2401_1",
                     "recipe_2136_1",
                     "recipe_2137_1",
-                    "recipe_2048_1",
-                    "recipe_2045_1"
+                    "recipe_2138_1",
+                    "recipe_2401_1"
                 ]
             }
         },
@@ -11172,12 +11172,12 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_2047_1 + 300 * recipe_2048_1 + 400 * recipe_2049_1) / 10000",
                 "recipes": [
+                    "recipe_2045_1",
                     "recipe_2046_1",
                     "recipe_2047_1",
-                    "recipe_2049_1",
-                    "recipe_2401_1",
                     "recipe_2048_1",
-                    "recipe_2045_1"
+                    "recipe_2049_1",
+                    "recipe_2401_1"
                 ]
             }
         },
@@ -11196,11 +11196,11 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1) / 10000",
                 "recipes": [
-                    "recipe_2063_1",
-                    "recipe_2064_1",
-                    "recipe_2060_1",
                     "recipe_2058_1",
                     "recipe_2059_1",
+                    "recipe_2060_1",
+                    "recipe_2063_1",
+                    "recipe_2064_1",
                     "recipe_2065_1"
                 ]
             }
@@ -11260,25 +11260,25 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_2076_1 + 300 * recipe_2077_1 + 400 * recipe_2078_1 + 1000 * recipe_5985_1) / 10000",
                 "recipes": [
-                    "recipe_5985_1",
-                    "recipe_2075_1",
-                    "recipe_2141_1",
-                    "recipe_5583_1",
-                    "recipe_2402_1",
-                    "recipe_2204_1",
                     "recipe_2074_1",
-                    "recipe_2078_1",
-                    "recipe_2205_1",
-                    "recipe_2210_1",
-                    "recipe_2208_1",
-                    "recipe_2469_1",
-                    "recipe_2206_1",
+                    "recipe_2075_1",
                     "recipe_2076_1",
-                    "recipe_2140_1",
-                    "recipe_2203_1",
                     "recipe_2077_1",
+                    "recipe_2078_1",
+                    "recipe_2139_1",
+                    "recipe_2140_1",
+                    "recipe_2141_1",
+                    "recipe_2203_1",
+                    "recipe_2204_1",
+                    "recipe_2205_1",
+                    "recipe_2206_1",
                     "recipe_2207_1",
-                    "recipe_2139_1"
+                    "recipe_2208_1",
+                    "recipe_2210_1",
+                    "recipe_2402_1",
+                    "recipe_2469_1",
+                    "recipe_5583_1",
+                    "recipe_5985_1"
                 ]
             }
         },
@@ -11289,22 +11289,22 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_2076_1 + 300 * recipe_2077_1 + 400 * recipe_2078_1 + 1000 * recipe_5985_1) / 10000",
                 "recipes": [
-                    "recipe_5985_1",
-                    "recipe_2075_1",
-                    "recipe_5583_1",
-                    "recipe_2402_1",
-                    "recipe_2204_1",
                     "recipe_2074_1",
-                    "recipe_2078_1",
-                    "recipe_2205_1",
-                    "recipe_2210_1",
-                    "recipe_2208_1",
-                    "recipe_2469_1",
-                    "recipe_2206_1",
+                    "recipe_2075_1",
                     "recipe_2076_1",
-                    "recipe_2203_1",
                     "recipe_2077_1",
-                    "recipe_2207_1"
+                    "recipe_2078_1",
+                    "recipe_2203_1",
+                    "recipe_2204_1",
+                    "recipe_2205_1",
+                    "recipe_2206_1",
+                    "recipe_2207_1",
+                    "recipe_2208_1",
+                    "recipe_2210_1",
+                    "recipe_2402_1",
+                    "recipe_2469_1",
+                    "recipe_5583_1",
+                    "recipe_5985_1"
                 ]
             }
         },
@@ -11315,8 +11315,8 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_5915_1",
-                    "recipe_5909_1"
+                    "recipe_5909_1",
+                    "recipe_5915_1"
                 ]
             }
         },
@@ -11327,10 +11327,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (300 * recipe_2091_1 + 400 * recipe_2092_1) / 10000",
                 "recipes": [
-                    "recipe_2092_1",
+                    "recipe_2089_1",
                     "recipe_2090_1",
                     "recipe_2091_1",
-                    "recipe_2089_1"
+                    "recipe_2092_1"
                 ]
             }
         },
@@ -11716,15 +11716,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4296_1 + 200 * recipe_4140_1 + 300 * recipe_4141_1 + 400 * recipe_4142_1) / 10000",
                 "recipes": [
-                    "recipe_4296_1",
                     "recipe_2510_1",
                     "recipe_4140_1",
-                    "recipe_4145_1",
-                    "recipe_4144_1",
-                    "recipe_4295_1",
-                    "recipe_4142_1",
                     "recipe_4141_1",
-                    "recipe_4143_1"
+                    "recipe_4142_1",
+                    "recipe_4143_1",
+                    "recipe_4144_1",
+                    "recipe_4145_1",
+                    "recipe_4295_1",
+                    "recipe_4296_1"
                 ]
             }
         },
@@ -11736,15 +11736,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4296_1 + 200 * recipe_4140_1 + 300 * recipe_4141_1 + 400 * recipe_4142_1) / 10000",
                 "recipes": [
-                    "recipe_4296_1",
                     "recipe_2510_1",
                     "recipe_4140_1",
-                    "recipe_4145_1",
-                    "recipe_4144_1",
-                    "recipe_4295_1",
-                    "recipe_4142_1",
                     "recipe_4141_1",
-                    "recipe_4143_1"
+                    "recipe_4142_1",
+                    "recipe_4143_1",
+                    "recipe_4144_1",
+                    "recipe_4145_1",
+                    "recipe_4295_1",
+                    "recipe_4296_1"
                 ]
             }
         },
@@ -11756,15 +11756,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4296_1 + 200 * recipe_4140_1 + 300 * recipe_4141_1 + 400 * recipe_4142_1) / 10000",
                 "recipes": [
-                    "recipe_4296_1",
                     "recipe_2510_1",
                     "recipe_4140_1",
-                    "recipe_4145_1",
-                    "recipe_4144_1",
-                    "recipe_4295_1",
-                    "recipe_4142_1",
                     "recipe_4141_1",
-                    "recipe_4143_1"
+                    "recipe_4142_1",
+                    "recipe_4143_1",
+                    "recipe_4144_1",
+                    "recipe_4145_1",
+                    "recipe_4295_1",
+                    "recipe_4296_1"
                 ]
             }
         },
@@ -11776,27 +11776,27 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4296_1 + 200 * recipe_4140_1 + 300 * recipe_4141_1 + 400 * recipe_4142_1) / 10000",
                 "recipes": [
-                    "recipe_4247_1",
-                    "recipe_4251_1",
-                    "recipe_4250_1",
-                    "recipe_4249_1",
-                    "recipe_4255_1",
-                    "recipe_4310_1",
-                    "recipe_4141_1",
-                    "recipe_4253_1",
-                    "recipe_4295_1",
-                    "recipe_4142_1",
-                    "recipe_4311_1",
-                    "recipe_4296_1",
-                    "recipe_4248_1",
-                    "recipe_4252_1",
                     "recipe_2510_1",
                     "recipe_4140_1",
-                    "recipe_4309_1",
-                    "recipe_4145_1",
-                    "recipe_4254_1",
+                    "recipe_4141_1",
+                    "recipe_4142_1",
+                    "recipe_4143_1",
                     "recipe_4144_1",
-                    "recipe_4143_1"
+                    "recipe_4145_1",
+                    "recipe_4247_1",
+                    "recipe_4248_1",
+                    "recipe_4249_1",
+                    "recipe_4250_1",
+                    "recipe_4251_1",
+                    "recipe_4252_1",
+                    "recipe_4253_1",
+                    "recipe_4254_1",
+                    "recipe_4255_1",
+                    "recipe_4295_1",
+                    "recipe_4296_1",
+                    "recipe_4309_1",
+                    "recipe_4310_1",
+                    "recipe_4311_1"
                 ]
             }
         },
@@ -11807,14 +11807,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4148_1 + 300 * recipe_4149_1 + 400 * recipe_4150_1) / 10000",
                 "recipes": [
-                    "recipe_4149_1",
                     "recipe_2511_1",
-                    "recipe_4153_1",
+                    "recipe_4148_1",
+                    "recipe_4149_1",
                     "recipe_4150_1",
                     "recipe_4151_1",
-                    "recipe_4291_1",
-                    "recipe_4148_1",
-                    "recipe_4152_1"
+                    "recipe_4152_1",
+                    "recipe_4153_1",
+                    "recipe_4291_1"
                 ]
             }
         },
@@ -11825,13 +11825,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -11869,12 +11869,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4156_1 + 300 * recipe_4157_1 + 400 * recipe_4158_1) / 10000",
                 "recipes": [
-                    "recipe_4159_1",
                     "recipe_4156_1",
-                    "recipe_4158_1",
                     "recipe_4157_1",
-                    "recipe_4161_1",
-                    "recipe_4160_1"
+                    "recipe_4158_1",
+                    "recipe_4159_1",
+                    "recipe_4160_1",
+                    "recipe_4161_1"
                 ]
             }
         },
@@ -11886,13 +11886,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -11907,13 +11907,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -11928,13 +11928,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -11949,13 +11949,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -11970,13 +11970,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -11991,13 +11991,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12012,13 +12012,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12033,13 +12033,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12054,13 +12054,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12075,13 +12075,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12096,13 +12096,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12117,13 +12117,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "recipes": [
-                    "recipe_4187_1",
+                    "recipe_4180_1",
+                    "recipe_4181_1",
                     "recipe_4182_1",
                     "recipe_4183_1",
-                    "recipe_4181_1",
                     "recipe_4184_1",
-                    "recipe_4180_1",
-                    "recipe_4185_1"
+                    "recipe_4185_1",
+                    "recipe_4187_1"
                 ],
                 "buffs": [
                     "buff_31782_1"
@@ -12138,11 +12138,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             }
         },
@@ -12154,11 +12154,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             }
         },
@@ -12170,11 +12170,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             }
         },
@@ -12186,11 +12186,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             }
         },
@@ -12202,11 +12202,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             }
         },
@@ -12218,22 +12218,22 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4297_1 + 200 * recipe_4172_1 + 300 * recipe_4173_1 + 400 * recipe_4174_1) / 10000",
                 "recipes": [
-                    "recipe_4172_1",
-                    "recipe_4176_1",
-                    "recipe_4262_1",
-                    "recipe_4177_1",
                     "recipe_2509_1",
-                    "recipe_4175_1",
-                    "recipe_4264_1",
-                    "recipe_4174_1",
-                    "recipe_4259_1",
-                    "recipe_4290_1",
-                    "recipe_4257_1",
-                    "recipe_4260_1",
+                    "recipe_4172_1",
                     "recipe_4173_1",
+                    "recipe_4174_1",
+                    "recipe_4175_1",
+                    "recipe_4176_1",
+                    "recipe_4177_1",
+                    "recipe_4257_1",
                     "recipe_4258_1",
-                    "recipe_4294_1",
+                    "recipe_4259_1",
+                    "recipe_4260_1",
                     "recipe_4261_1",
+                    "recipe_4262_1",
+                    "recipe_4264_1",
+                    "recipe_4290_1",
+                    "recipe_4294_1",
                     "recipe_4297_1"
                 ]
             }
@@ -12246,22 +12246,22 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4297_1 + 200 * recipe_4172_1 + 300 * recipe_4173_1 + 400 * recipe_4174_1) / 10000",
                 "recipes": [
-                    "recipe_4172_1",
-                    "recipe_4176_1",
-                    "recipe_4262_1",
-                    "recipe_4177_1",
                     "recipe_2509_1",
-                    "recipe_4175_1",
-                    "recipe_4264_1",
-                    "recipe_4174_1",
-                    "recipe_4259_1",
-                    "recipe_4290_1",
-                    "recipe_4257_1",
-                    "recipe_4260_1",
+                    "recipe_4172_1",
                     "recipe_4173_1",
+                    "recipe_4174_1",
+                    "recipe_4175_1",
+                    "recipe_4176_1",
+                    "recipe_4177_1",
+                    "recipe_4257_1",
                     "recipe_4258_1",
-                    "recipe_4294_1",
+                    "recipe_4259_1",
+                    "recipe_4260_1",
                     "recipe_4261_1",
+                    "recipe_4262_1",
+                    "recipe_4264_1",
+                    "recipe_4290_1",
+                    "recipe_4294_1",
                     "recipe_4297_1"
                 ]
             }
@@ -12274,22 +12274,22 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4297_1 + 200 * recipe_4172_1 + 300 * recipe_4173_1 + 400 * recipe_4174_1) / 10000",
                 "recipes": [
-                    "recipe_4172_1",
-                    "recipe_4176_1",
-                    "recipe_4262_1",
-                    "recipe_4177_1",
                     "recipe_2509_1",
-                    "recipe_4175_1",
-                    "recipe_4264_1",
-                    "recipe_4174_1",
-                    "recipe_4259_1",
-                    "recipe_4290_1",
-                    "recipe_4257_1",
-                    "recipe_4260_1",
+                    "recipe_4172_1",
                     "recipe_4173_1",
+                    "recipe_4174_1",
+                    "recipe_4175_1",
+                    "recipe_4176_1",
+                    "recipe_4177_1",
+                    "recipe_4257_1",
                     "recipe_4258_1",
-                    "recipe_4294_1",
+                    "recipe_4259_1",
+                    "recipe_4260_1",
                     "recipe_4261_1",
+                    "recipe_4262_1",
+                    "recipe_4264_1",
+                    "recipe_4290_1",
+                    "recipe_4294_1",
                     "recipe_4297_1"
                 ]
             }
@@ -12302,22 +12302,22 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4297_1 + 200 * recipe_4172_1 + 300 * recipe_4173_1 + 400 * recipe_4174_1) / 10000",
                 "recipes": [
-                    "recipe_4172_1",
-                    "recipe_4176_1",
-                    "recipe_4262_1",
-                    "recipe_4177_1",
                     "recipe_2509_1",
-                    "recipe_4175_1",
-                    "recipe_4264_1",
-                    "recipe_4174_1",
-                    "recipe_4259_1",
-                    "recipe_4290_1",
-                    "recipe_4257_1",
-                    "recipe_4260_1",
+                    "recipe_4172_1",
                     "recipe_4173_1",
+                    "recipe_4174_1",
+                    "recipe_4175_1",
+                    "recipe_4176_1",
+                    "recipe_4177_1",
+                    "recipe_4257_1",
                     "recipe_4258_1",
-                    "recipe_4294_1",
+                    "recipe_4259_1",
+                    "recipe_4260_1",
                     "recipe_4261_1",
+                    "recipe_4262_1",
+                    "recipe_4264_1",
+                    "recipe_4290_1",
+                    "recipe_4294_1",
                     "recipe_4297_1"
                 ]
             }
@@ -12330,22 +12330,22 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4297_1 + 200 * recipe_4172_1 + 300 * recipe_4173_1 + 400 * recipe_4174_1) / 10000",
                 "recipes": [
-                    "recipe_4172_1",
-                    "recipe_4176_1",
-                    "recipe_4262_1",
-                    "recipe_4177_1",
                     "recipe_2509_1",
-                    "recipe_4175_1",
-                    "recipe_4264_1",
-                    "recipe_4174_1",
-                    "recipe_4259_1",
-                    "recipe_4290_1",
-                    "recipe_4257_1",
-                    "recipe_4260_1",
+                    "recipe_4172_1",
                     "recipe_4173_1",
+                    "recipe_4174_1",
+                    "recipe_4175_1",
+                    "recipe_4176_1",
+                    "recipe_4177_1",
+                    "recipe_4257_1",
                     "recipe_4258_1",
-                    "recipe_4294_1",
+                    "recipe_4259_1",
+                    "recipe_4260_1",
                     "recipe_4261_1",
+                    "recipe_4262_1",
+                    "recipe_4264_1",
+                    "recipe_4290_1",
+                    "recipe_4294_1",
                     "recipe_4297_1"
                 ]
             }
@@ -12438,11 +12438,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             },
             2: {
@@ -12452,11 +12452,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             },
             3: {
@@ -12466,11 +12466,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             },
             4: {
@@ -12480,11 +12480,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4164_1 + 300 * recipe_4165_1 + 400 * recipe_4166_1) / 10000",
                 "recipes": [
+                    "recipe_4164_1",
                     "recipe_4165_1",
-                    "recipe_4167_1",
-                    "recipe_4168_1",
                     "recipe_4166_1",
-                    "recipe_4164_1"
+                    "recipe_4167_1",
+                    "recipe_4168_1"
                 ]
             }
         },
@@ -12535,13 +12535,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12553,13 +12553,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12571,13 +12571,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12589,13 +12589,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12607,13 +12607,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12625,13 +12625,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12658,13 +12658,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4371_1 + 300 * recipe_4372_1 + 400 * recipe_4373_1) / 10000",
                 "recipes": [
-                    "recipe_4373_1",
+                    "recipe_4298_1",
                     "recipe_4371_1",
+                    "recipe_4372_1",
+                    "recipe_4373_1",
                     "recipe_4374_1",
                     "recipe_4375_1",
-                    "recipe_4376_1",
-                    "recipe_4298_1",
-                    "recipe_4372_1"
+                    "recipe_4376_1"
                 ]
             }
         },
@@ -12737,12 +12737,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4714_1 + 300 * recipe_4715_1 + 400 * recipe_4716_1) / 10000",
                 "recipes": [
-                    "recipe_4719_1",
                     "recipe_4714_1",
-                    "recipe_4717_1",
                     "recipe_4715_1",
                     "recipe_4716_1",
-                    "recipe_4718_1"
+                    "recipe_4717_1",
+                    "recipe_4718_1",
+                    "recipe_4719_1"
                 ]
             }
         },
@@ -12754,12 +12754,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4714_1 + 300 * recipe_4715_1 + 400 * recipe_4716_1) / 10000",
                 "recipes": [
-                    "recipe_4719_1",
                     "recipe_4714_1",
-                    "recipe_4717_1",
                     "recipe_4715_1",
                     "recipe_4716_1",
-                    "recipe_4718_1"
+                    "recipe_4717_1",
+                    "recipe_4718_1",
+                    "recipe_4719_1"
                 ]
             }
         },
@@ -12771,12 +12771,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4714_1 + 300 * recipe_4715_1 + 400 * recipe_4716_1) / 10000",
                 "recipes": [
-                    "recipe_4719_1",
                     "recipe_4714_1",
-                    "recipe_4717_1",
                     "recipe_4715_1",
                     "recipe_4716_1",
-                    "recipe_4718_1"
+                    "recipe_4717_1",
+                    "recipe_4718_1",
+                    "recipe_4719_1"
                 ]
             }
         },
@@ -12787,18 +12787,18 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4820_1 + 200 * recipe_4726_1 + 300 * recipe_4727_1 + 400 * recipe_4728_1) / 10000",
                 "recipes": [
+                    "recipe_4724_1",
+                    "recipe_4726_1",
+                    "recipe_4727_1",
                     "recipe_4728_1",
                     "recipe_4729_1",
-                    "recipe_4820_1",
-                    "recipe_4724_1",
-                    "recipe_4727_1",
-                    "recipe_4726_1",
-                    "recipe_5663_1",
-                    "recipe_4731_1",
                     "recipe_4730_1",
-                    "recipe_5665_1",
+                    "recipe_4731_1",
                     "recipe_4818_1",
-                    "recipe_5664_1"
+                    "recipe_4820_1",
+                    "recipe_5663_1",
+                    "recipe_5664_1",
+                    "recipe_5665_1"
                 ]
             }
         },
@@ -12817,12 +12817,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4739_1 + 300 * recipe_4740_1 + 400 * recipe_4741_1) / 10000",
                 "recipes": [
+                    "recipe_4739_1",
+                    "recipe_4740_1",
+                    "recipe_4741_1",
                     "recipe_4742_1",
                     "recipe_4743_1",
                     "recipe_4744_1",
-                    "recipe_4739_1",
-                    "recipe_4741_1",
-                    "recipe_4740_1",
                     "recipe_4819_1"
                 ]
             }
@@ -12834,13 +12834,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4746_1 + 300 * recipe_4747_1 + 400 * recipe_4748_1) / 10000",
                 "recipes": [
-                    "recipe_4747_1",
-                    "recipe_4816_1",
-                    "recipe_4748_1",
                     "recipe_4746_1",
+                    "recipe_4747_1",
+                    "recipe_4748_1",
                     "recipe_4749_1",
                     "recipe_4750_1",
                     "recipe_4751_1",
+                    "recipe_4816_1",
                     "recipe_5992_1",
                     "recipe_5993_1",
                     "recipe_5994_1"
@@ -12862,8 +12862,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_2478_1 + 300 * recipe_2479_1 + 400 * recipe_2480_1) / 10000",
                 "recipes": [
-                    "recipe_2479_1",
                     "recipe_2478_1",
+                    "recipe_2479_1",
                     "recipe_2480_1"
                 ]
             }
@@ -12876,20 +12876,20 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_5667_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4821_1 + 2000 * recipe_5667_1 + 200 * recipe_4795_1 + 300 * recipe_4796_1 + 400 * recipe_4797_1) / 10000",
                 "recipes": [
-                    "recipe_2490_1",
-                    "recipe_2489_1",
-                    "recipe_4795_1",
-                    "recipe_4817_1",
-                    "recipe_4793_1",
-                    "recipe_4797_1",
-                    "recipe_4792_1",
-                    "recipe_4759_1",
                     "recipe_2488_1",
-                    "recipe_5667_1",
-                    "recipe_4796_1",
+                    "recipe_2489_1",
+                    "recipe_2490_1",
+                    "recipe_4759_1",
                     "recipe_4789_1",
+                    "recipe_4792_1",
+                    "recipe_4793_1",
                     "recipe_4794_1",
-                    "recipe_4821_1"
+                    "recipe_4795_1",
+                    "recipe_4796_1",
+                    "recipe_4797_1",
+                    "recipe_4817_1",
+                    "recipe_4821_1",
+                    "recipe_5667_1"
                 ]
             }
         },
@@ -12901,20 +12901,20 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_5667_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (500 * recipe_4821_1 + 2000 * recipe_5667_1 + 200 * recipe_4795_1 + 300 * recipe_4796_1 + 400 * recipe_4797_1) / 10000",
                 "recipes": [
-                    "recipe_2490_1",
-                    "recipe_2489_1",
-                    "recipe_4795_1",
-                    "recipe_4817_1",
-                    "recipe_4793_1",
-                    "recipe_4797_1",
-                    "recipe_4792_1",
-                    "recipe_4759_1",
                     "recipe_2488_1",
-                    "recipe_5667_1",
-                    "recipe_4796_1",
+                    "recipe_2489_1",
+                    "recipe_2490_1",
+                    "recipe_4759_1",
                     "recipe_4789_1",
+                    "recipe_4792_1",
+                    "recipe_4793_1",
                     "recipe_4794_1",
-                    "recipe_4821_1"
+                    "recipe_4795_1",
+                    "recipe_4796_1",
+                    "recipe_4797_1",
+                    "recipe_4817_1",
+                    "recipe_4821_1",
+                    "recipe_5667_1"
                 ]
             }
         },
@@ -12925,10 +12925,10 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_5666_1 / 1024)",
                 "critical_strike": "physical_critical_strike + 2000 * recipe_5666_1 / 10000",
                 "recipes": [
-                    "recipe_2486_1",
                     "recipe_2485_1",
-                    "recipe_4760_1",
+                    "recipe_2486_1",
                     "recipe_2487_1",
+                    "recipe_4760_1",
                     "recipe_4790_1",
                     "recipe_5666_1"
                 ]
@@ -12941,12 +12941,12 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_5675_1 / 1024)",
                 "critical_strike": "physical_critical_strike + 2000 * recipe_5675_1 / 10000",
                 "recipes": [
-                    "recipe_5675_1",
-                    "recipe_4761_1",
+                    "recipe_2491_1",
                     "recipe_2492_1",
                     "recipe_2493_1",
+                    "recipe_4761_1",
                     "recipe_4791_1",
-                    "recipe_2491_1"
+                    "recipe_5675_1"
                 ]
             }
         },
@@ -13026,12 +13026,12 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 205 * recipe_5675_1 / 1024)",
                 "critical_strike": "physical_critical_strike + 2000 * recipe_5675_1 / 10000",
                 "recipes": [
-                    "recipe_5675_1",
-                    "recipe_4761_1",
+                    "recipe_2491_1",
                     "recipe_2492_1",
                     "recipe_2493_1",
+                    "recipe_4761_1",
                     "recipe_4791_1",
-                    "recipe_2491_1"
+                    "recipe_5675_1"
                 ]
             }
         },
@@ -13215,14 +13215,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4983_1 + 300 * recipe_4984_1 + 400 * recipe_4985_1) / 10000",
                 "recipes": [
+                    "recipe_2612_1",
                     "recipe_4983_1",
-                    "recipe_5091_1",
                     "recipe_4984_1",
                     "recipe_4985_1",
                     "recipe_4986_1",
-                    "recipe_2612_1",
                     "recipe_4987_1",
-                    "recipe_4988_1"
+                    "recipe_4988_1",
+                    "recipe_5091_1"
                 ]
             }
         },
@@ -13234,14 +13234,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4983_1 + 300 * recipe_4984_1 + 400 * recipe_4985_1) / 10000",
                 "recipes": [
+                    "recipe_2612_1",
                     "recipe_4983_1",
-                    "recipe_5091_1",
                     "recipe_4984_1",
                     "recipe_4985_1",
                     "recipe_4986_1",
-                    "recipe_2612_1",
                     "recipe_4987_1",
-                    "recipe_4988_1"
+                    "recipe_4988_1",
+                    "recipe_5091_1"
                 ]
             }
         },
@@ -13253,14 +13253,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4983_1 + 300 * recipe_4984_1 + 400 * recipe_4985_1) / 10000",
                 "recipes": [
+                    "recipe_2612_1",
                     "recipe_4983_1",
-                    "recipe_5091_1",
                     "recipe_4984_1",
                     "recipe_4985_1",
                     "recipe_4986_1",
-                    "recipe_2612_1",
                     "recipe_4987_1",
-                    "recipe_4988_1"
+                    "recipe_4988_1",
+                    "recipe_5091_1"
                 ]
             }
         },
@@ -13272,14 +13272,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_4983_1 + 300 * recipe_4984_1 + 400 * recipe_4985_1) / 10000",
                 "recipes": [
+                    "recipe_2612_1",
                     "recipe_4983_1",
-                    "recipe_5091_1",
                     "recipe_4984_1",
                     "recipe_4985_1",
                     "recipe_4986_1",
-                    "recipe_2612_1",
                     "recipe_4987_1",
-                    "recipe_4988_1"
+                    "recipe_4988_1",
+                    "recipe_5091_1"
                 ]
             }
         },
@@ -13290,12 +13290,12 @@ SKILLS = {
                 "critical_damage": "damage * (physical_critical_power + 256 * recipe_5100_1 / 1024)",
                 "critical_strike": "physical_critical_strike + (300 * recipe_4994_1 + 400 * recipe_4995_1 + 2500 * recipe_5100_1) / 10000",
                 "recipes": [
-                    "recipe_5100_1",
                     "recipe_4994_1",
+                    "recipe_4995_1",
+                    "recipe_4996_1",
                     "recipe_4997_1",
                     "recipe_5038_1",
-                    "recipe_4995_1",
-                    "recipe_4996_1"
+                    "recipe_5100_1"
                 ]
             }
         },
@@ -13314,17 +13314,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_5093_1 + 300 * recipe_6059_1) / 10000",
                 "recipes": [
-                    "recipe_5005_1",
-                    "recipe_5092_1",
-                    "recipe_6059_1",
-                    "recipe_5037_1",
-                    "recipe_5093_1",
                     "recipe_4950_1",
-                    "recipe_5006_1",
-                    "recipe_4969_1",
                     "recipe_4965_1",
+                    "recipe_4969_1",
                     "recipe_4973_1",
-                    "recipe_5004_1"
+                    "recipe_5004_1",
+                    "recipe_5005_1",
+                    "recipe_5006_1",
+                    "recipe_5037_1",
+                    "recipe_5092_1",
+                    "recipe_5093_1",
+                    "recipe_6059_1"
                 ]
             }
         },
@@ -13336,17 +13336,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_5093_1 + 300 * recipe_6059_1) / 10000",
                 "recipes": [
-                    "recipe_5005_1",
-                    "recipe_5092_1",
-                    "recipe_6059_1",
-                    "recipe_5037_1",
-                    "recipe_5093_1",
                     "recipe_4950_1",
-                    "recipe_5006_1",
-                    "recipe_4969_1",
                     "recipe_4965_1",
+                    "recipe_4969_1",
                     "recipe_4973_1",
-                    "recipe_5004_1"
+                    "recipe_5004_1",
+                    "recipe_5005_1",
+                    "recipe_5006_1",
+                    "recipe_5037_1",
+                    "recipe_5092_1",
+                    "recipe_5093_1",
+                    "recipe_6059_1"
                 ]
             }
         },
@@ -13358,17 +13358,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_5093_1 + 300 * recipe_6059_1) / 10000",
                 "recipes": [
-                    "recipe_5005_1",
-                    "recipe_5092_1",
-                    "recipe_6059_1",
-                    "recipe_5037_1",
-                    "recipe_5093_1",
                     "recipe_4950_1",
-                    "recipe_5006_1",
-                    "recipe_4969_1",
                     "recipe_4965_1",
+                    "recipe_4969_1",
                     "recipe_4973_1",
-                    "recipe_5004_1"
+                    "recipe_5004_1",
+                    "recipe_5005_1",
+                    "recipe_5006_1",
+                    "recipe_5037_1",
+                    "recipe_5092_1",
+                    "recipe_5093_1",
+                    "recipe_6059_1"
                 ]
             }
         },
@@ -13380,17 +13380,17 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_5093_1 + 300 * recipe_6059_1) / 10000",
                 "recipes": [
-                    "recipe_5005_1",
-                    "recipe_5092_1",
-                    "recipe_6059_1",
-                    "recipe_5037_1",
-                    "recipe_5093_1",
                     "recipe_4950_1",
-                    "recipe_5006_1",
-                    "recipe_4969_1",
                     "recipe_4965_1",
+                    "recipe_4969_1",
                     "recipe_4973_1",
-                    "recipe_5004_1"
+                    "recipe_5004_1",
+                    "recipe_5005_1",
+                    "recipe_5006_1",
+                    "recipe_5037_1",
+                    "recipe_5092_1",
+                    "recipe_5093_1",
+                    "recipe_6059_1"
                 ]
             }
         },
@@ -13401,15 +13401,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5044_1 + 400 * recipe_5045_1) / 10000",
                 "recipes": [
-                    "recipe_4970_1",
                     "recipe_4952_1",
-                    "recipe_5001_1",
-                    "recipe_5045_1",
-                    "recipe_5044_1",
+                    "recipe_4959_1",
                     "recipe_4966_1",
-                    "recipe_5002_1",
+                    "recipe_4970_1",
                     "recipe_4974_1",
-                    "recipe_4959_1"
+                    "recipe_5001_1",
+                    "recipe_5002_1",
+                    "recipe_5044_1",
+                    "recipe_5045_1"
                 ]
             }
         },
@@ -13421,15 +13421,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5044_1 + 400 * recipe_5045_1) / 10000",
                 "recipes": [
-                    "recipe_4970_1",
                     "recipe_4952_1",
-                    "recipe_5001_1",
-                    "recipe_5045_1",
-                    "recipe_5044_1",
+                    "recipe_4959_1",
                     "recipe_4966_1",
-                    "recipe_5002_1",
+                    "recipe_4970_1",
                     "recipe_4974_1",
-                    "recipe_4959_1"
+                    "recipe_5001_1",
+                    "recipe_5002_1",
+                    "recipe_5044_1",
+                    "recipe_5045_1"
                 ]
             }
         },
@@ -13441,15 +13441,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5044_1 + 400 * recipe_5045_1) / 10000",
                 "recipes": [
-                    "recipe_4970_1",
                     "recipe_4952_1",
-                    "recipe_5001_1",
-                    "recipe_5045_1",
-                    "recipe_5044_1",
+                    "recipe_4959_1",
                     "recipe_4966_1",
-                    "recipe_5002_1",
+                    "recipe_4970_1",
                     "recipe_4974_1",
-                    "recipe_4959_1"
+                    "recipe_5001_1",
+                    "recipe_5002_1",
+                    "recipe_5044_1",
+                    "recipe_5045_1"
                 ]
             }
         },
@@ -13461,15 +13461,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5044_1 + 400 * recipe_5045_1) / 10000",
                 "recipes": [
-                    "recipe_4970_1",
                     "recipe_4952_1",
-                    "recipe_5001_1",
-                    "recipe_5045_1",
-                    "recipe_5044_1",
+                    "recipe_4959_1",
                     "recipe_4966_1",
-                    "recipe_5002_1",
+                    "recipe_4970_1",
                     "recipe_4974_1",
-                    "recipe_4959_1"
+                    "recipe_5001_1",
+                    "recipe_5002_1",
+                    "recipe_5044_1",
+                    "recipe_5045_1"
                 ]
             }
         },
@@ -13480,15 +13480,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_5063_1 + 300 * recipe_5064_1 + 400 * recipe_5065_1) / 10000",
                 "recipes": [
-                    "recipe_5064_1",
-                    "recipe_5063_1",
-                    "recipe_5071_1",
-                    "recipe_4975_1",
-                    "recipe_5070_1",
-                    "recipe_5069_1",
-                    "recipe_4971_1",
                     "recipe_4967_1",
-                    "recipe_5065_1"
+                    "recipe_4971_1",
+                    "recipe_4975_1",
+                    "recipe_5063_1",
+                    "recipe_5064_1",
+                    "recipe_5065_1",
+                    "recipe_5069_1",
+                    "recipe_5070_1",
+                    "recipe_5071_1"
                 ]
             }
         },
@@ -13500,15 +13500,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_5063_1 + 300 * recipe_5064_1 + 400 * recipe_5065_1) / 10000",
                 "recipes": [
-                    "recipe_5064_1",
-                    "recipe_5063_1",
-                    "recipe_5071_1",
-                    "recipe_4975_1",
-                    "recipe_5070_1",
-                    "recipe_5069_1",
-                    "recipe_4971_1",
                     "recipe_4967_1",
-                    "recipe_5065_1"
+                    "recipe_4971_1",
+                    "recipe_4975_1",
+                    "recipe_5063_1",
+                    "recipe_5064_1",
+                    "recipe_5065_1",
+                    "recipe_5069_1",
+                    "recipe_5070_1",
+                    "recipe_5071_1"
                 ]
             }
         },
@@ -13520,15 +13520,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_5063_1 + 300 * recipe_5064_1 + 400 * recipe_5065_1) / 10000",
                 "recipes": [
-                    "recipe_5064_1",
-                    "recipe_5063_1",
-                    "recipe_5071_1",
-                    "recipe_4975_1",
-                    "recipe_5070_1",
-                    "recipe_5069_1",
-                    "recipe_4971_1",
                     "recipe_4967_1",
-                    "recipe_5065_1"
+                    "recipe_4971_1",
+                    "recipe_4975_1",
+                    "recipe_5063_1",
+                    "recipe_5064_1",
+                    "recipe_5065_1",
+                    "recipe_5069_1",
+                    "recipe_5070_1",
+                    "recipe_5071_1"
                 ]
             }
         },
@@ -13540,15 +13540,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_5063_1 + 300 * recipe_5064_1 + 400 * recipe_5065_1) / 10000",
                 "recipes": [
-                    "recipe_5064_1",
-                    "recipe_5063_1",
-                    "recipe_5071_1",
-                    "recipe_4975_1",
-                    "recipe_5070_1",
-                    "recipe_5069_1",
-                    "recipe_4971_1",
                     "recipe_4967_1",
-                    "recipe_5065_1"
+                    "recipe_4971_1",
+                    "recipe_4975_1",
+                    "recipe_5063_1",
+                    "recipe_5064_1",
+                    "recipe_5065_1",
+                    "recipe_5069_1",
+                    "recipe_5070_1",
+                    "recipe_5071_1"
                 ]
             }
         },
@@ -13560,25 +13560,25 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_5046_1 + 400 * recipe_5047_1) / 10000",
                 "recipes": [
                     "recipe_3154_1",
-                    "recipe_3165_1",
-                    "recipe_4968_1",
-                    "recipe_3166_1",
-                    "recipe_4976_1",
-                    "recipe_4972_1",
-                    "recipe_3164_1",
-                    "recipe_5010_1",
-                    "recipe_3158_1",
+                    "recipe_3155_1",
                     "recipe_3156_1",
-                    "recipe_3160_1",
-                    "recipe_5047_1",
-                    "recipe_3159_1",
-                    "recipe_5046_1",
-                    "recipe_3163_1",
-                    "recipe_5011_1",
                     "recipe_3157_1",
-                    "recipe_3162_1",
+                    "recipe_3158_1",
+                    "recipe_3159_1",
+                    "recipe_3160_1",
                     "recipe_3161_1",
-                    "recipe_3155_1"
+                    "recipe_3162_1",
+                    "recipe_3163_1",
+                    "recipe_3164_1",
+                    "recipe_3165_1",
+                    "recipe_3166_1",
+                    "recipe_4968_1",
+                    "recipe_4972_1",
+                    "recipe_4976_1",
+                    "recipe_5010_1",
+                    "recipe_5011_1",
+                    "recipe_5046_1",
+                    "recipe_5047_1"
                 ]
             }
         },
@@ -13589,10 +13589,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_5018_1 + 300 * recipe_5019_1) / 10000",
                 "recipes": [
-                    "recipe_5050_1",
-                    "recipe_5051_1",
                     "recipe_5018_1",
-                    "recipe_5019_1"
+                    "recipe_5019_1",
+                    "recipe_5050_1",
+                    "recipe_5051_1"
                 ]
             }
         },
@@ -13603,8 +13603,8 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike",
                 "recipes": [
-                    "recipe_5793_1",
-                    "recipe_2496_1"
+                    "recipe_2496_1",
+                    "recipe_5793_1"
                 ]
             }
         },
@@ -13811,13 +13811,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5165_1 + 300 * recipe_5240_1 + 400 * recipe_5278_1) / 10000",
                 "recipes": [
-                    "recipe_5242_1",
-                    "recipe_5241_1",
                     "recipe_5165_1",
-                    "recipe_5278_1",
                     "recipe_5240_1",
-                    "recipe_5325_1",
-                    "recipe_5279_1"
+                    "recipe_5241_1",
+                    "recipe_5242_1",
+                    "recipe_5278_1",
+                    "recipe_5279_1",
+                    "recipe_5325_1"
                 ]
             }
         },
@@ -13829,13 +13829,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5165_1 + 300 * recipe_5240_1 + 400 * recipe_5278_1) / 10000",
                 "recipes": [
-                    "recipe_5242_1",
-                    "recipe_5241_1",
                     "recipe_5165_1",
-                    "recipe_5278_1",
                     "recipe_5240_1",
-                    "recipe_5325_1",
-                    "recipe_5279_1"
+                    "recipe_5241_1",
+                    "recipe_5242_1",
+                    "recipe_5278_1",
+                    "recipe_5279_1",
+                    "recipe_5325_1"
                 ]
             }
         },
@@ -13847,14 +13847,14 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5165_1 + 300 * recipe_5240_1 + 400 * recipe_5278_1) / 10000",
                 "recipes": [
-                    "recipe_5242_1",
-                    "recipe_5241_1",
                     "recipe_5165_1",
-                    "recipe_5278_1",
                     "recipe_5179_1",
                     "recipe_5240_1",
-                    "recipe_5325_1",
-                    "recipe_5279_1"
+                    "recipe_5241_1",
+                    "recipe_5242_1",
+                    "recipe_5278_1",
+                    "recipe_5279_1",
+                    "recipe_5325_1"
                 ]
             }
         },
@@ -13866,13 +13866,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5165_1 + 300 * recipe_5240_1 + 400 * recipe_5278_1) / 10000",
                 "recipes": [
-                    "recipe_5242_1",
-                    "recipe_5241_1",
                     "recipe_5165_1",
-                    "recipe_5278_1",
                     "recipe_5240_1",
-                    "recipe_5325_1",
-                    "recipe_5279_1"
+                    "recipe_5241_1",
+                    "recipe_5242_1",
+                    "recipe_5278_1",
+                    "recipe_5279_1",
+                    "recipe_5325_1"
                 ]
             }
         },
@@ -13884,15 +13884,15 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (500 * recipe_5327_1 + 300 * recipe_5244_1 + 400 * recipe_5245_1) / 10000",
                 "recipes": [
-                    "recipe_5321_1",
-                    "recipe_5247_1",
-                    "recipe_6074_1",
-                    "recipe_5327_1",
                     "recipe_5244_1",
                     "recipe_5245_1",
+                    "recipe_5246_1",
+                    "recipe_5247_1",
                     "recipe_5280_1",
+                    "recipe_5321_1",
                     "recipe_5326_1",
-                    "recipe_5246_1"
+                    "recipe_5327_1",
+                    "recipe_6074_1"
                 ]
             }
         },
@@ -13904,15 +13904,15 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (500 * recipe_5327_1 + 300 * recipe_5244_1 + 400 * recipe_5245_1) / 10000",
                 "recipes": [
-                    "recipe_5321_1",
-                    "recipe_5247_1",
-                    "recipe_6074_1",
-                    "recipe_5327_1",
                     "recipe_5244_1",
                     "recipe_5245_1",
+                    "recipe_5246_1",
+                    "recipe_5247_1",
                     "recipe_5280_1",
+                    "recipe_5321_1",
                     "recipe_5326_1",
-                    "recipe_5246_1"
+                    "recipe_5327_1",
+                    "recipe_6074_1"
                 ]
             }
         },
@@ -13924,16 +13924,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (500 * recipe_5327_1 + 300 * recipe_5244_1 + 400 * recipe_5245_1) / 10000",
                 "recipes": [
-                    "recipe_5321_1",
-                    "recipe_5247_1",
                     "recipe_5180_1",
-                    "recipe_6074_1",
-                    "recipe_5327_1",
                     "recipe_5244_1",
                     "recipe_5245_1",
+                    "recipe_5246_1",
+                    "recipe_5247_1",
                     "recipe_5280_1",
+                    "recipe_5321_1",
                     "recipe_5326_1",
-                    "recipe_5246_1"
+                    "recipe_5327_1",
+                    "recipe_6074_1"
                 ]
             }
         },
@@ -13945,15 +13945,15 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (500 * recipe_5327_1 + 300 * recipe_5244_1 + 400 * recipe_5245_1) / 10000",
                 "recipes": [
-                    "recipe_5321_1",
-                    "recipe_5247_1",
-                    "recipe_6074_1",
-                    "recipe_5327_1",
                     "recipe_5244_1",
                     "recipe_5245_1",
+                    "recipe_5246_1",
+                    "recipe_5247_1",
                     "recipe_5280_1",
+                    "recipe_5321_1",
                     "recipe_5326_1",
-                    "recipe_5246_1"
+                    "recipe_5327_1",
+                    "recipe_6074_1"
                 ]
             }
         },
@@ -13965,13 +13965,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5250_1 + 300 * recipe_5251_1 + 400 * recipe_5252_1) / 10000",
                 "recipes": [
-                    "recipe_5251_1",
                     "recipe_5250_1",
+                    "recipe_5251_1",
+                    "recipe_5252_1",
                     "recipe_5299_1",
                     "recipe_5300_1",
-                    "recipe_5252_1",
-                    "recipe_5322_1",
-                    "recipe_5301_1"
+                    "recipe_5301_1",
+                    "recipe_5322_1"
                 ]
             }
         },
@@ -13983,13 +13983,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5250_1 + 300 * recipe_5251_1 + 400 * recipe_5252_1) / 10000",
                 "recipes": [
-                    "recipe_5251_1",
                     "recipe_5250_1",
+                    "recipe_5251_1",
+                    "recipe_5252_1",
                     "recipe_5299_1",
                     "recipe_5300_1",
-                    "recipe_5252_1",
-                    "recipe_5322_1",
-                    "recipe_5301_1"
+                    "recipe_5301_1",
+                    "recipe_5322_1"
                 ]
             }
         },
@@ -14001,14 +14001,14 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5250_1 + 300 * recipe_5251_1 + 400 * recipe_5252_1) / 10000",
                 "recipes": [
-                    "recipe_5251_1",
-                    "recipe_5250_1",
                     "recipe_5181_1",
+                    "recipe_5250_1",
+                    "recipe_5251_1",
+                    "recipe_5252_1",
                     "recipe_5299_1",
                     "recipe_5300_1",
-                    "recipe_5252_1",
-                    "recipe_5322_1",
-                    "recipe_5301_1"
+                    "recipe_5301_1",
+                    "recipe_5322_1"
                 ]
             }
         },
@@ -14020,13 +14020,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5250_1 + 300 * recipe_5251_1 + 400 * recipe_5252_1) / 10000",
                 "recipes": [
-                    "recipe_5251_1",
                     "recipe_5250_1",
+                    "recipe_5251_1",
+                    "recipe_5252_1",
                     "recipe_5299_1",
                     "recipe_5300_1",
-                    "recipe_5252_1",
-                    "recipe_5322_1",
-                    "recipe_5301_1"
+                    "recipe_5301_1",
+                    "recipe_5322_1"
                 ]
             }
         },
@@ -14075,9 +14075,9 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5272_1 + 400 * recipe_5273_1) / 10000",
                 "recipes": [
-                    "recipe_5274_1",
-                    "recipe_5273_1",
                     "recipe_5272_1",
+                    "recipe_5273_1",
+                    "recipe_5274_1",
                     "recipe_5275_1"
                 ]
             },
@@ -14088,9 +14088,9 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5272_1 + 400 * recipe_5273_1) / 10000",
                 "recipes": [
-                    "recipe_5274_1",
-                    "recipe_5273_1",
                     "recipe_5272_1",
+                    "recipe_5273_1",
+                    "recipe_5274_1",
                     "recipe_5275_1"
                 ]
             },
@@ -14101,9 +14101,9 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5272_1 + 400 * recipe_5273_1) / 10000",
                 "recipes": [
-                    "recipe_5274_1",
-                    "recipe_5273_1",
                     "recipe_5272_1",
+                    "recipe_5273_1",
+                    "recipe_5274_1",
                     "recipe_5275_1"
                 ]
             },
@@ -14114,9 +14114,9 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5272_1 + 400 * recipe_5273_1) / 10000",
                 "recipes": [
-                    "recipe_5274_1",
-                    "recipe_5273_1",
                     "recipe_5272_1",
+                    "recipe_5273_1",
+                    "recipe_5274_1",
                     "recipe_5275_1"
                 ]
             }
@@ -14128,13 +14128,13 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5250_1 + 300 * recipe_5251_1 + 400 * recipe_5252_1) / 10000",
                 "recipes": [
-                    "recipe_5251_1",
                     "recipe_5250_1",
+                    "recipe_5251_1",
+                    "recipe_5252_1",
                     "recipe_5299_1",
                     "recipe_5300_1",
-                    "recipe_5252_1",
-                    "recipe_5322_1",
-                    "recipe_5301_1"
+                    "recipe_5301_1",
+                    "recipe_5322_1"
                 ]
             }
         },
@@ -14336,11 +14336,11 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike + (300 * recipe_2636_1 + 400 * recipe_2637_1) / 10000",
                 "recipes": [
+                    "recipe_2636_1",
+                    "recipe_2637_1",
                     "recipe_2638_1",
                     "recipe_2639_1",
-                    "recipe_2636_1",
-                    "recipe_2840_1",
-                    "recipe_2637_1"
+                    "recipe_2840_1"
                 ]
             }
         },
@@ -14351,11 +14351,11 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike + (200 * recipe_2643_1 + 300 * recipe_2644_1 + 400 * recipe_2645_1) / 10000",
                 "recipes": [
-                    "recipe_2645_1",
-                    "recipe_2644_1",
-                    "recipe_2647_1",
                     "recipe_2643_1",
+                    "recipe_2644_1",
+                    "recipe_2645_1",
                     "recipe_2646_1",
+                    "recipe_2647_1",
                     "recipe_2843_1"
                 ]
             }
@@ -14367,14 +14367,14 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike + (500 * recipe_2841_1 + 300 * recipe_2650_1 + 400 * recipe_2651_1 + 1000 * recipe_2549_1) / 10000",
                 "recipes": [
-                    "recipe_2841_1",
                     "recipe_2549_1",
+                    "recipe_2650_1",
                     "recipe_2651_1",
-                    "recipe_2839_1",
-                    "recipe_2842_1",
                     "recipe_2652_1",
                     "recipe_2653_1",
-                    "recipe_2650_1"
+                    "recipe_2839_1",
+                    "recipe_2841_1",
+                    "recipe_2842_1"
                 ]
             }
         },
@@ -14396,11 +14396,11 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_2660_1",
                     "recipe_2573_1",
                     "recipe_2574_1",
-                    "recipe_2659_1",
                     "recipe_2575_1",
+                    "recipe_2659_1",
+                    "recipe_2660_1",
                     "recipe_2835_1"
                 ]
             }
@@ -14423,10 +14423,10 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike + (400 * recipe_2692_1 + 500 * recipe_2693_1) / 10000",
                 "recipes": [
-                    "recipe_2695_1",
-                    "recipe_2694_1",
+                    "recipe_2692_1",
                     "recipe_2693_1",
-                    "recipe_2692_1"
+                    "recipe_2694_1",
+                    "recipe_2695_1"
                 ]
             }
         },
@@ -14445,15 +14445,15 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_2772_1",
-                    "recipe_2774_1",
-                    "recipe_2889_1",
-                    "recipe_2773_1",
+                    "recipe_2767_1",
+                    "recipe_2768_1",
                     "recipe_2769_1",
                     "recipe_2770_1",
                     "recipe_2771_1",
-                    "recipe_2768_1",
-                    "recipe_2767_1"
+                    "recipe_2772_1",
+                    "recipe_2773_1",
+                    "recipe_2774_1",
+                    "recipe_2889_1"
                 ]
             }
         },
@@ -14464,15 +14464,15 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_2777_1",
-                    "recipe_2781_1",
                     "recipe_2775_1",
-                    "recipe_2778_1",
-                    "recipe_2890_1",
                     "recipe_2776_1",
+                    "recipe_2777_1",
+                    "recipe_2778_1",
+                    "recipe_2779_1",
                     "recipe_2780_1",
+                    "recipe_2781_1",
                     "recipe_2782_1",
-                    "recipe_2779_1"
+                    "recipe_2890_1"
                 ]
             }
         },
@@ -14537,11 +14537,11 @@ SKILLS = {
                 "critical_damage": "damage * poison_critical_power",
                 "critical_strike": "poison_critical_strike",
                 "recipes": [
-                    "recipe_2660_1",
                     "recipe_2573_1",
                     "recipe_2574_1",
-                    "recipe_2659_1",
                     "recipe_2575_1",
+                    "recipe_2659_1",
+                    "recipe_2660_1",
                     "recipe_2835_1"
                 ]
             }
@@ -14738,9 +14738,9 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + 500 * recipe_5463_1 / 10000",
                 "recipes": [
-                    "recipe_5463_1",
                     "recipe_5422_1",
-                    "recipe_5461_1"
+                    "recipe_5461_1",
+                    "recipe_5463_1"
                 ],
                 "buffs": [
                     "buff_31940_1"
@@ -14770,11 +14770,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5394_1 + 400 * recipe_5407_1) / 10000",
                 "recipes": [
-                    "recipe_5409_1",
                     "recipe_5384_1",
                     "recipe_5394_1",
+                    "recipe_5407_1",
                     "recipe_5408_1",
-                    "recipe_5407_1"
+                    "recipe_5409_1"
                 ]
             }
         },
@@ -14785,12 +14785,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5410_1 + 400 * recipe_5411_1 + 500 * recipe_5430_1) / 10000",
                 "recipes": [
-                    "recipe_5430_1",
                     "recipe_5410_1",
-                    "recipe_5412_1",
                     "recipe_5411_1",
-                    "recipe_5431_1",
-                    "recipe_5413_1"
+                    "recipe_5412_1",
+                    "recipe_5413_1",
+                    "recipe_5430_1",
+                    "recipe_5431_1"
                 ]
             }
         },
@@ -14801,13 +14801,13 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_5414_1 + 400 * recipe_5415_1) / 10000",
                 "recipes": [
-                    "recipe_5416_1",
-                    "recipe_5438_1",
-                    "recipe_5748_1",
-                    "recipe_5415_1",
-                    "recipe_5462_1",
                     "recipe_5414_1",
-                    "recipe_5417_1"
+                    "recipe_5415_1",
+                    "recipe_5416_1",
+                    "recipe_5417_1",
+                    "recipe_5438_1",
+                    "recipe_5462_1",
+                    "recipe_5748_1"
                 ]
             }
         },
@@ -14967,12 +14967,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_2992_1 + 400 * recipe_3040_1 + 200 * recipe_3111_1) / 10000",
                 "recipes": [
-                    "recipe_3042_1",
-                    "recipe_3040_1",
                     "recipe_2992_1",
+                    "recipe_3040_1",
                     "recipe_3041_1",
-                    "recipe_3112_1",
-                    "recipe_3111_1"
+                    "recipe_3042_1",
+                    "recipe_3111_1",
+                    "recipe_3112_1"
                 ]
             }
         },
@@ -14983,12 +14983,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_2992_1 + 400 * recipe_3040_1 + 200 * recipe_3111_1) / 10000",
                 "recipes": [
-                    "recipe_3042_1",
-                    "recipe_3040_1",
                     "recipe_2992_1",
+                    "recipe_3040_1",
                     "recipe_3041_1",
-                    "recipe_3112_1",
-                    "recipe_3111_1"
+                    "recipe_3042_1",
+                    "recipe_3111_1",
+                    "recipe_3112_1"
                 ]
             }
         },
@@ -14999,12 +14999,12 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_2992_1 + 400 * recipe_3040_1 + 200 * recipe_3111_1) / 10000",
                 "recipes": [
-                    "recipe_3042_1",
-                    "recipe_3040_1",
                     "recipe_2992_1",
+                    "recipe_3040_1",
                     "recipe_3041_1",
-                    "recipe_3112_1",
-                    "recipe_3111_1"
+                    "recipe_3042_1",
+                    "recipe_3111_1",
+                    "recipe_3112_1"
                 ]
             }
         },
@@ -15015,10 +15015,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3043_1 + 400 * recipe_3044_1) / 10000",
                 "recipes": [
-                    "recipe_3046_1",
                     "recipe_3043_1",
                     "recipe_3044_1",
-                    "recipe_3045_1"
+                    "recipe_3045_1",
+                    "recipe_3046_1"
                 ]
             }
         },
@@ -15029,10 +15029,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (200 * recipe_3139_1 + 300 * recipe_3140_1) / 10000",
                 "recipes": [
+                    "recipe_3137_1",
                     "recipe_3138_1",
-                    "recipe_3140_1",
                     "recipe_3139_1",
-                    "recipe_3137_1"
+                    "recipe_3140_1"
                 ]
             }
         },
@@ -15044,18 +15044,18 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3047_1 + 400 * recipe_3048_1) / 10000",
                 "recipes": [
-                    "recipe_3018_1",
-                    "recipe_3047_1",
-                    "recipe_3017_1",
-                    "recipe_3016_1",
-                    "recipe_3030_1",
-                    "recipe_3028_1",
-                    "recipe_3031_1",
-                    "recipe_3048_1",
-                    "recipe_3050_1",
-                    "recipe_3049_1",
                     "recipe_3014_1",
-                    "recipe_3029_1"
+                    "recipe_3016_1",
+                    "recipe_3017_1",
+                    "recipe_3018_1",
+                    "recipe_3028_1",
+                    "recipe_3029_1",
+                    "recipe_3030_1",
+                    "recipe_3031_1",
+                    "recipe_3047_1",
+                    "recipe_3048_1",
+                    "recipe_3049_1",
+                    "recipe_3050_1"
                 ]
             }
         },
@@ -15067,18 +15067,18 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3047_1 + 400 * recipe_3048_1) / 10000",
                 "recipes": [
-                    "recipe_3018_1",
-                    "recipe_3047_1",
-                    "recipe_3017_1",
-                    "recipe_3016_1",
-                    "recipe_3030_1",
-                    "recipe_3028_1",
-                    "recipe_3031_1",
-                    "recipe_3048_1",
-                    "recipe_3050_1",
-                    "recipe_3049_1",
                     "recipe_3014_1",
-                    "recipe_3029_1"
+                    "recipe_3016_1",
+                    "recipe_3017_1",
+                    "recipe_3018_1",
+                    "recipe_3028_1",
+                    "recipe_3029_1",
+                    "recipe_3030_1",
+                    "recipe_3031_1",
+                    "recipe_3047_1",
+                    "recipe_3048_1",
+                    "recipe_3049_1",
+                    "recipe_3050_1"
                 ]
             }
         },
@@ -15089,10 +15089,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3118_1 + 400 * recipe_3119_1) / 10000",
                 "recipes": [
-                    "recipe_3119_1",
-                    "recipe_3118_1",
                     "recipe_3116_1",
-                    "recipe_3117_1"
+                    "recipe_3117_1",
+                    "recipe_3118_1",
+                    "recipe_3119_1"
                 ]
             }
         },
@@ -15172,15 +15172,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_3185_1 + 300 * recipe_3051_1 + 400 * recipe_3052_1 + 200 * recipe_3127_1) / 10000",
                 "recipes": [
-                    "recipe_3128_1",
-                    "recipe_3053_1",
-                    "recipe_5585_1",
-                    "recipe_3127_1",
-                    "recipe_3054_1",
-                    "recipe_3186_1",
-                    "recipe_3052_1",
                     "recipe_3051_1",
-                    "recipe_3185_1"
+                    "recipe_3052_1",
+                    "recipe_3053_1",
+                    "recipe_3054_1",
+                    "recipe_3127_1",
+                    "recipe_3128_1",
+                    "recipe_3185_1",
+                    "recipe_3186_1",
+                    "recipe_5585_1"
                 ]
             }
         },
@@ -15191,15 +15191,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_3185_1 + 300 * recipe_3051_1 + 400 * recipe_3052_1 + 200 * recipe_3127_1) / 10000",
                 "recipes": [
-                    "recipe_3128_1",
-                    "recipe_3053_1",
-                    "recipe_5585_1",
-                    "recipe_3127_1",
-                    "recipe_3054_1",
-                    "recipe_3186_1",
-                    "recipe_3052_1",
                     "recipe_3051_1",
-                    "recipe_3185_1"
+                    "recipe_3052_1",
+                    "recipe_3053_1",
+                    "recipe_3054_1",
+                    "recipe_3127_1",
+                    "recipe_3128_1",
+                    "recipe_3185_1",
+                    "recipe_3186_1",
+                    "recipe_5585_1"
                 ]
             }
         },
@@ -15210,15 +15210,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_3185_1 + 300 * recipe_3051_1 + 400 * recipe_3052_1 + 200 * recipe_3127_1) / 10000",
                 "recipes": [
-                    "recipe_3128_1",
-                    "recipe_3053_1",
-                    "recipe_5585_1",
-                    "recipe_3127_1",
-                    "recipe_3054_1",
-                    "recipe_3186_1",
-                    "recipe_3052_1",
                     "recipe_3051_1",
-                    "recipe_3185_1"
+                    "recipe_3052_1",
+                    "recipe_3053_1",
+                    "recipe_3054_1",
+                    "recipe_3127_1",
+                    "recipe_3128_1",
+                    "recipe_3185_1",
+                    "recipe_3186_1",
+                    "recipe_5585_1"
                 ]
             }
         },
@@ -15229,11 +15229,11 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3055_1 + 400 * recipe_3056_1) / 10000",
                 "recipes": [
-                    "recipe_3056_1",
                     "recipe_3055_1",
+                    "recipe_3056_1",
                     "recipe_3057_1",
-                    "recipe_5586_1",
-                    "recipe_3058_1"
+                    "recipe_3058_1",
+                    "recipe_5586_1"
                 ]
             }
         },
@@ -15245,14 +15245,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15264,14 +15264,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15282,14 +15282,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15300,14 +15300,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15318,14 +15318,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15345,11 +15345,11 @@ SKILLS = {
                 "critical_strike": "physical_critical_strike + (300 * recipe_3063_1 + 400 * recipe_3064_1 + 200 * recipe_3141_1) / 10000",
                 "recipes": [
                     "recipe_3063_1",
+                    "recipe_3064_1",
                     "recipe_3065_1",
-                    "recipe_3141_1",
                     "recipe_3066_1",
-                    "recipe_3142_1",
-                    "recipe_3064_1"
+                    "recipe_3141_1",
+                    "recipe_3142_1"
                 ]
             }
         },
@@ -15385,14 +15385,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15404,14 +15404,14 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3059_1 + 400 * recipe_3060_1) / 10000",
                 "recipes": [
-                    "recipe_3188_1",
-                    "recipe_5754_1",
-                    "recipe_3187_1",
-                    "recipe_3061_1",
                     "recipe_3059_1",
                     "recipe_3060_1",
+                    "recipe_3061_1",
+                    "recipe_3062_1",
+                    "recipe_3187_1",
+                    "recipe_3188_1",
                     "recipe_5584_1",
-                    "recipe_3062_1"
+                    "recipe_5754_1"
                 ]
             }
         },
@@ -15430,15 +15430,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_3185_1 + 300 * recipe_3051_1 + 400 * recipe_3052_1 + 200 * recipe_3127_1) / 10000",
                 "recipes": [
-                    "recipe_3128_1",
-                    "recipe_3053_1",
-                    "recipe_5585_1",
-                    "recipe_3127_1",
-                    "recipe_3054_1",
-                    "recipe_3186_1",
-                    "recipe_3052_1",
                     "recipe_3051_1",
-                    "recipe_3185_1"
+                    "recipe_3052_1",
+                    "recipe_3053_1",
+                    "recipe_3054_1",
+                    "recipe_3127_1",
+                    "recipe_3128_1",
+                    "recipe_3185_1",
+                    "recipe_3186_1",
+                    "recipe_5585_1"
                 ]
             }
         },
@@ -15449,15 +15449,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_3185_1 + 300 * recipe_3051_1 + 400 * recipe_3052_1 + 200 * recipe_3127_1) / 10000",
                 "recipes": [
-                    "recipe_3128_1",
-                    "recipe_3053_1",
-                    "recipe_5585_1",
-                    "recipe_3127_1",
-                    "recipe_3054_1",
-                    "recipe_3186_1",
-                    "recipe_3052_1",
                     "recipe_3051_1",
-                    "recipe_3185_1"
+                    "recipe_3052_1",
+                    "recipe_3053_1",
+                    "recipe_3054_1",
+                    "recipe_3127_1",
+                    "recipe_3128_1",
+                    "recipe_3185_1",
+                    "recipe_3186_1",
+                    "recipe_5585_1"
                 ]
             }
         },
@@ -15468,15 +15468,15 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (500 * recipe_3185_1 + 300 * recipe_3051_1 + 400 * recipe_3052_1 + 200 * recipe_3127_1) / 10000",
                 "recipes": [
-                    "recipe_3128_1",
-                    "recipe_3053_1",
-                    "recipe_5585_1",
-                    "recipe_3127_1",
-                    "recipe_3054_1",
-                    "recipe_3186_1",
-                    "recipe_3052_1",
                     "recipe_3051_1",
-                    "recipe_3185_1"
+                    "recipe_3052_1",
+                    "recipe_3053_1",
+                    "recipe_3054_1",
+                    "recipe_3127_1",
+                    "recipe_3128_1",
+                    "recipe_3185_1",
+                    "recipe_3186_1",
+                    "recipe_5585_1"
                 ]
             }
         },
@@ -15589,10 +15589,10 @@ SKILLS = {
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike + (300 * recipe_3118_1 + 400 * recipe_3119_1) / 10000",
                 "recipes": [
-                    "recipe_3119_1",
-                    "recipe_3118_1",
                     "recipe_3116_1",
-                    "recipe_3117_1"
+                    "recipe_3117_1",
+                    "recipe_3118_1",
+                    "recipe_3119_1"
                 ]
             }
         },
@@ -15991,14 +15991,14 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (500 * recipe_5751_1 + 200 * recipe_5576_1 + 300 * recipe_5681_1 + 400 * recipe_5682_1) / 10000",
                 "recipes": [
-                    "recipe_5684_1",
-                    "recipe_5749_1",
                     "recipe_5576_1",
                     "recipe_5681_1",
-                    "recipe_5751_1",
-                    "recipe_5685_1",
                     "recipe_5682_1",
-                    "recipe_5683_1"
+                    "recipe_5683_1",
+                    "recipe_5684_1",
+                    "recipe_5685_1",
+                    "recipe_5749_1",
+                    "recipe_5751_1"
                 ]
             }
         },
@@ -16009,12 +16009,12 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5688_1 + 300 * recipe_5689_1 + 400 * recipe_5690_1) / 10000",
                 "recipes": [
-                    "recipe_5691_1",
-                    "recipe_5689_1",
-                    "recipe_5693_1",
                     "recipe_5688_1",
+                    "recipe_5689_1",
                     "recipe_5690_1",
-                    "recipe_5692_1"
+                    "recipe_5691_1",
+                    "recipe_5692_1",
+                    "recipe_5693_1"
                 ]
             }
         },
@@ -16025,12 +16025,12 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (200 * recipe_5696_1 + 300 * recipe_5697_1 + 400 * recipe_5702_1) / 10000",
                 "recipes": [
-                    "recipe_5702_1",
-                    "recipe_5698_1",
-                    "recipe_5703_1",
-                    "recipe_5699_1",
+                    "recipe_5696_1",
                     "recipe_5697_1",
-                    "recipe_5696_1"
+                    "recipe_5698_1",
+                    "recipe_5699_1",
+                    "recipe_5702_1",
+                    "recipe_5703_1"
                 ]
             }
         },
@@ -16042,16 +16042,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             2: {
@@ -16061,16 +16061,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             3: {
@@ -16080,16 +16080,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             4: {
@@ -16099,16 +16099,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             5: {
@@ -16118,16 +16118,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             6: {
@@ -16137,16 +16137,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             7: {
@@ -16156,16 +16156,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             8: {
@@ -16175,16 +16175,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             9: {
@@ -16194,16 +16194,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             10: {
@@ -16213,16 +16213,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             11: {
@@ -16232,16 +16232,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             12: {
@@ -16251,16 +16251,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             13: {
@@ -16270,16 +16270,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             14: {
@@ -16289,16 +16289,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             15: {
@@ -16308,16 +16308,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             16: {
@@ -16327,16 +16327,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             17: {
@@ -16346,16 +16346,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             18: {
@@ -16365,16 +16365,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             19: {
@@ -16384,16 +16384,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             20: {
@@ -16403,16 +16403,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             21: {
@@ -16422,16 +16422,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             22: {
@@ -16441,16 +16441,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             23: {
@@ -16460,16 +16460,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             24: {
@@ -16479,16 +16479,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             25: {
@@ -16498,16 +16498,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             26: {
@@ -16517,16 +16517,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             27: {
@@ -16536,16 +16536,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             28: {
@@ -16555,16 +16555,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             29: {
@@ -16574,16 +16574,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             30: {
@@ -16593,16 +16593,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             31: {
@@ -16612,16 +16612,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             32: {
@@ -16631,16 +16631,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             33: {
@@ -16650,16 +16650,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             34: {
@@ -16669,16 +16669,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             35: {
@@ -16688,16 +16688,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             36: {
@@ -16707,16 +16707,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             37: {
@@ -16726,16 +16726,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             38: {
@@ -16745,16 +16745,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             39: {
@@ -16764,16 +16764,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             40: {
@@ -16783,16 +16783,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             41: {
@@ -16802,16 +16802,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             42: {
@@ -16821,16 +16821,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             43: {
@@ -16840,16 +16840,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             44: {
@@ -16859,16 +16859,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             45: {
@@ -16878,16 +16878,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             46: {
@@ -16897,16 +16897,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             47: {
@@ -16916,16 +16916,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             48: {
@@ -16935,16 +16935,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             49: {
@@ -16954,16 +16954,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             50: {
@@ -16973,16 +16973,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             },
             51: {
@@ -16992,16 +16992,16 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5704_1 + 400 * recipe_5705_1) / 10000",
                 "recipes": [
+                    "recipe_5704_1",
+                    "recipe_5705_1",
                     "recipe_5706_1",
                     "recipe_5707_1",
-                    "recipe_5704_1",
-                    "recipe_5750_1",
                     "recipe_5737_1",
-                    "recipe_5705_1"
+                    "recipe_5750_1"
                 ],
                 "buffs": [
-                    "buff_29604_2",
-                    "buff_29205_1"
+                    "buff_29205_1",
+                    "buff_29604_2"
                 ]
             }
         },
@@ -17034,11 +17034,11 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5714_1 + 400 * recipe_5715_1) / 10000",
                 "recipes": [
-                    "recipe_5716_1",
                     "recipe_5714_1",
-                    "recipe_5845_1",
+                    "recipe_5715_1",
+                    "recipe_5716_1",
                     "recipe_5717_1",
-                    "recipe_5715_1"
+                    "recipe_5845_1"
                 ]
             }
         },
@@ -17049,12 +17049,12 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike + (300 * recipe_5714_1 + 400 * recipe_5715_1) / 10000",
                 "recipes": [
-                    "recipe_5716_1",
                     "recipe_5620_1",
                     "recipe_5714_1",
-                    "recipe_5845_1",
+                    "recipe_5715_1",
+                    "recipe_5716_1",
                     "recipe_5717_1",
-                    "recipe_5715_1"
+                    "recipe_5845_1"
                 ]
             }
         },
@@ -17065,8 +17065,8 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "recipes": [
-                    "recipe_5712_1",
                     "recipe_5619_1",
+                    "recipe_5712_1",
                     "recipe_5713_1"
                 ]
             }
@@ -17311,22 +17311,22 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6087_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1) / 10000",
                 "recipes": [
-                    "recipe_6174_1",
-                    "recipe_6052_1",
-                    "recipe_6182_2",
-                    "recipe_6087_1",
-                    "recipe_6146_1",
-                    "recipe_6144_1",
-                    "recipe_6143_1",
                     "recipe_6002_1",
-                    "recipe_6182_1",
+                    "recipe_6052_1",
+                    "recipe_6087_1",
                     "recipe_6102_1",
-                    "recipe_6145_1"
+                    "recipe_6143_1",
+                    "recipe_6144_1",
+                    "recipe_6145_1",
+                    "recipe_6146_1",
+                    "recipe_6174_1",
+                    "recipe_6182_1",
+                    "recipe_6182_2"
                 ],
                 "buffs": [
-                    "buff_31870_1",
+                    "buff_31520_1",
                     "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31870_1"
                 ]
             }
         },
@@ -17337,22 +17337,22 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6087_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1) / 10000",
                 "recipes": [
-                    "recipe_6174_1",
-                    "recipe_6052_1",
-                    "recipe_6182_2",
-                    "recipe_6087_1",
-                    "recipe_6146_1",
-                    "recipe_6144_1",
-                    "recipe_6143_1",
                     "recipe_6002_1",
-                    "recipe_6182_1",
+                    "recipe_6052_1",
+                    "recipe_6087_1",
                     "recipe_6102_1",
-                    "recipe_6145_1"
+                    "recipe_6143_1",
+                    "recipe_6144_1",
+                    "recipe_6145_1",
+                    "recipe_6146_1",
+                    "recipe_6174_1",
+                    "recipe_6182_1",
+                    "recipe_6182_2"
                 ],
                 "buffs": [
-                    "buff_31870_1",
+                    "buff_31520_1",
                     "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31870_1"
                 ]
             }
         },
@@ -17363,22 +17363,22 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6087_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1) / 10000",
                 "recipes": [
-                    "recipe_6174_1",
-                    "recipe_6052_1",
-                    "recipe_6182_2",
-                    "recipe_6087_1",
-                    "recipe_6146_1",
-                    "recipe_6144_1",
-                    "recipe_6143_1",
                     "recipe_6002_1",
-                    "recipe_6182_1",
+                    "recipe_6052_1",
+                    "recipe_6087_1",
                     "recipe_6102_1",
-                    "recipe_6145_1"
+                    "recipe_6143_1",
+                    "recipe_6144_1",
+                    "recipe_6145_1",
+                    "recipe_6146_1",
+                    "recipe_6174_1",
+                    "recipe_6182_1",
+                    "recipe_6182_2"
                 ],
                 "buffs": [
-                    "buff_31870_1",
+                    "buff_31520_1",
                     "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31870_1"
                 ]
             }
         },
@@ -17390,21 +17390,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             2: {
@@ -17414,21 +17414,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             3: {
@@ -17438,21 +17438,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             4: {
@@ -17462,21 +17462,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             5: {
@@ -17486,21 +17486,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             6: {
@@ -17510,21 +17510,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             7: {
@@ -17534,21 +17534,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             8: {
@@ -17558,21 +17558,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             9: {
@@ -17582,21 +17582,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             10: {
@@ -17606,21 +17606,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             11: {
@@ -17630,21 +17630,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             12: {
@@ -17654,21 +17654,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             13: {
@@ -17678,21 +17678,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             14: {
@@ -17702,21 +17702,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             15: {
@@ -17726,21 +17726,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             16: {
@@ -17750,21 +17750,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             17: {
@@ -17774,21 +17774,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             18: {
@@ -17798,21 +17798,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             19: {
@@ -17822,21 +17822,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             },
             20: {
@@ -17846,21 +17846,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6188_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6138_1 + 300 * recipe_6139_1 + 1500 * recipe_6188_1) / 10000",
                 "recipes": [
+                    "recipe_6004_1",
+                    "recipe_6053_1",
                     "recipe_6107_1",
-                    "recipe_6140_1",
-                    "recipe_6141_1",
-                    "recipe_6183_1",
                     "recipe_6138_1",
                     "recipe_6139_1",
-                    "recipe_6004_1",
-                    "recipe_6188_1",
+                    "recipe_6140_1",
+                    "recipe_6141_1",
                     "recipe_6175_1",
-                    "recipe_6053_1",
-                    "recipe_6183_2"
+                    "recipe_6183_1",
+                    "recipe_6183_2",
+                    "recipe_6188_1"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             }
         },
@@ -17871,15 +17871,15 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_6054_1",
-                    "recipe_6184_1",
                     "recipe_6005_1",
+                    "recipe_6054_1",
                     "recipe_6176_1",
+                    "recipe_6184_1",
                     "recipe_6184_2"
                 ],
                 "buffs": [
-                    "buff_31673_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31673_1"
                 ]
             }
         },
@@ -17890,10 +17890,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + 200 * recipe_6134_1 / 10000",
                 "recipes": [
-                    "recipe_6178_1",
-                    "recipe_6136_1",
+                    "recipe_6134_1",
                     "recipe_6135_1",
-                    "recipe_6134_1"
+                    "recipe_6136_1",
+                    "recipe_6178_1"
                 ],
                 "buffs": [
                     "buff_31673_1"
@@ -17907,10 +17907,10 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6128_1 + 300 * recipe_6129_1) / 10000",
                 "recipes": [
+                    "recipe_6057_1",
                     "recipe_6103_1",
                     "recipe_6128_1",
                     "recipe_6129_1",
-                    "recipe_6057_1",
                     "recipe_6130_1",
                     "recipe_6131_1",
                     "recipe_6180_1"
@@ -17928,9 +17928,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -17944,9 +17944,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -17960,9 +17960,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -17976,9 +17976,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -17992,9 +17992,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18008,9 +18008,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18024,9 +18024,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18040,9 +18040,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18056,9 +18056,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18072,9 +18072,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18088,9 +18088,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18104,9 +18104,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18120,9 +18120,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18136,9 +18136,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18152,9 +18152,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18168,9 +18168,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18184,9 +18184,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18200,9 +18200,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18216,9 +18216,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18232,9 +18232,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18248,9 +18248,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18264,9 +18264,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18280,9 +18280,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18296,9 +18296,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18312,9 +18312,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18328,9 +18328,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18344,9 +18344,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18360,9 +18360,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18376,9 +18376,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18392,9 +18392,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18408,9 +18408,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18424,9 +18424,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18440,9 +18440,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18456,9 +18456,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18472,9 +18472,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18488,9 +18488,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18504,9 +18504,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18520,9 +18520,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18536,9 +18536,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18552,9 +18552,9 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
+                    "recipe_6039_1",
                     "recipe_6099_1",
                     "recipe_6106_1",
-                    "recipe_6039_1",
                     "recipe_6179_1"
                 ],
                 "buffs": [
@@ -18576,7 +18576,7 @@ SKILLS = {
         42098: {
             1: {
                 "name": "寄线",
-                "damage": "(150 + rand * 5 + lunar_attack_power * 0.8854166666666666) * (1 + (magical_damage_addition + 102 * recipe_6177_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 205 * buff_31673_1 + 1024 * belong_42115 + 3072 * buff_31590_1) / 1024)",
+                "damage": "(150 + rand * 5 + lunar_attack_power * 0.8854166666666666) * (1 + (magical_damage_addition + 102 * recipe_6177_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (lunar_damage_cof + 205 * buff_31673_1 + 3072 * buff_31590_1 + 1024 * belong_42115) / 1024)",
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
@@ -18603,8 +18603,8 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "recipes": [
-                    "recipe_6122_1",
-                    "recipe_6121_1"
+                    "recipe_6121_1",
+                    "recipe_6122_1"
                 ]
             }
         },
@@ -18715,21 +18715,21 @@ SKILLS = {
                 "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6087_1 / 1024)",
                 "critical_strike": "lunar_critical_strike + (200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1) / 10000",
                 "recipes": [
-                    "recipe_6174_1",
-                    "recipe_6052_1",
-                    "recipe_6182_2",
-                    "recipe_6087_1",
-                    "recipe_6146_1",
-                    "recipe_6144_1",
-                    "recipe_6143_1",
                     "recipe_6002_1",
-                    "recipe_6182_1",
+                    "recipe_6052_1",
+                    "recipe_6087_1",
                     "recipe_6102_1",
-                    "recipe_6145_1"
+                    "recipe_6143_1",
+                    "recipe_6144_1",
+                    "recipe_6145_1",
+                    "recipe_6146_1",
+                    "recipe_6174_1",
+                    "recipe_6182_1",
+                    "recipe_6182_2"
                 ],
                 "buffs": [
-                    "buff_31870_1",
-                    "buff_31520_1"
+                    "buff_31520_1",
+                    "buff_31870_1"
                 ]
             }
         },
@@ -18757,6 +18757,146 @@ SKILLS = {
             }
         }
     },
+    101355: {
+        27451: {
+            1: {
+                "name": "裁叶饮刃",
+                "damage": "(physical_attack_power * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                "critical_damage": "damage * physical_critical_power",
+                "critical_strike": "physical_critical_strike"
+            }
+        },
+        101417: {
+            1: {
+                "name": "无方中和",
+                "damage": "(1 + poison_attack_power * 1.7447916666666665) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 1.0400390625) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        101357: {
+            1: {
+                "name": "钩吻断肠·悟",
+                "damage": "(1 + poison_attack_power * 1.4739583333333333) * (1 + (magical_damage_addition + 154 * recipe_17036_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 153.6 * buff_71213_4 + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 1.3603515625) * (1 + (magical_damage_addition + 154 * recipe_17036_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 153.6 * buff_71213_4 + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike",
+                "recipes": [
+                    "recipe_17036_1"
+                ],
+                "buffs": [
+                    "buff_71213_4"
+                ]
+            }
+        },
+        101358: {
+            1: {
+                "name": "钩吻断肠·悟",
+                "damage": "(1 + poison_attack_power * 1.5104166666666665) * (1 + (magical_damage_addition + 154 * recipe_17036_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 153.6 * buff_71213_4 + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 1.400390625) * (1 + (magical_damage_addition + 154 * recipe_17036_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 153.6 * buff_71213_4 + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike",
+                "recipes": [
+                    "recipe_17036_1"
+                ],
+                "buffs": [
+                    "buff_71213_4"
+                ]
+            }
+        },
+        101359: {
+            1: {
+                "name": "飞叶满襟·悟",
+                "damage": "(1 + poison_attack_power * 1.7239583333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 1.0302734375) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        101360: {
+            1: {
+                "name": "飞叶满襟·悟",
+                "damage": "(1 + poison_attack_power * 1.8802083333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 1.1298828125) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        102157: {
+            1: {
+                "name": "川乌射罔·悟",
+                "damage": "(1 + poison_attack_power * 1.3802083333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * recipe_17040_1 + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike",
+                "recipes": [
+                    "recipe_17040_1"
+                ]
+            }
+        },
+        102158: {
+            1: {
+                "name": "沾衣未妨·悟",
+                "damage": "poison_attack_power * 0.8645833333333333 * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 0.51953125) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        102159: {
+            1: {
+                "name": "且待时休·悟",
+                "damage": "(1 + poison_attack_power * 2.411458333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        102374: {
+            1: {
+                "name": "回风微澜·悟",
+                "damage": "(1 + poison_attack_power * 5.041666666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        101365: {
+            1: {
+                "name": "紫叶沉疴·悟",
+                "damage": "(1 + poison_attack_power * 3.59375) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        102172: {
+            1: {
+                "name": "绿野蔓生·悟",
+                "damage": "(1 + poison_attack_power * 3.802083333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        102163: {
+            1: {
+                "name": "青圃着尘·悟",
+                "damage": "(1 + poison_attack_power * 1.6822916666666665) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        102164: {
+            1: {
+                "name": "并蒂夺株·悟",
+                "damage": "(1 + poison_attack_power * 0.9739583333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024) + (1 + rand + surplus * 0.580078125) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike"
+            }
+        },
+        101425: {
+            1: {
+                "name": "苍棘缚地·悟",
+                "damage": "(1 + poison_attack_power * 3.302083333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (poison_damage_cof + 102.4 * buff_71258_1 + 307.2 * belong_101419) / 1024)",
+                "critical_damage": "damage * poison_critical_power",
+                "critical_strike": "poison_critical_strike",
+                "buffs": [
+                    "buff_71258_1"
+                ]
+            }
+        }
+    },
     102278: {
         38034: {
             1: {
@@ -18767,14 +18907,6 @@ SKILLS = {
                 "recipes": [
                     "recipe_1711_1"
                 ]
-            }
-        },
-        39081: {
-            1: {
-                "name": "断脉·神兵",
-                "damage": "(20 + rand * 2 + neutral_attack_power * 0.33854166666666663) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
-                "critical_damage": "damage * neutral_critical_power",
-                "critical_strike": "neutral_critical_strike"
             }
         },
         102280: {
@@ -18799,9 +18931,12 @@ SKILLS = {
         102282: {
             1: {
                 "name": "引窍·悟",
-                "damage": "(1 + neutral_attack_power * 4.052083333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 358.4 * buff_71388_1) / 1024)",
+                "damage": "(1 + neutral_attack_power * 4.052083333333333) * (1 + (magical_damage_addition + 410 * recipe_17492_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 358.4 * buff_71388_1) / 1024)",
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
+                "recipes": [
+                    "recipe_17492_1"
+                ],
                 "buffs": [
                     "buff_71388_1"
                 ]
@@ -18880,17 +19015,20 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "buffs": [
-                    "buff_71609_1",
-                    "buff_71401_1"
+                    "buff_71401_1",
+                    "buff_71609_1"
                 ]
             }
         },
         102312: {
             1: {
                 "name": "一阳化生·悟",
-                "damage": "(1 + neutral_attack_power * 0.8541666666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                "damage": "(1 + neutral_attack_power * 0.8541666666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 204.8 * buff_71405_1) / 1024)",
                 "critical_damage": "damage * neutral_critical_power",
-                "critical_strike": "neutral_critical_strike"
+                "critical_strike": "neutral_critical_strike - 204.8 * buff_71405_1 / 1024",
+                "buffs": [
+                    "buff_71405_1"
+                ]
             }
         },
         102316: {
@@ -18900,8 +19038,8 @@ SKILLS = {
                 "critical_damage": "damage * neutral_critical_power",
                 "critical_strike": "neutral_critical_strike",
                 "buffs": [
-                    "buff_71609_1",
-                    "buff_71401_1"
+                    "buff_71401_1",
+                    "buff_71609_1"
                 ]
             }
         }
@@ -18951,8 +19089,8 @@ SKILLS = {
                     "recipe_17554_1"
                 ],
                 "buffs": [
-                    "buff_71590_1",
-                    "buff_71561_1"
+                    "buff_71561_1",
+                    "buff_71590_1"
                 ]
             }
         },
@@ -18977,8 +19115,8 @@ SKILLS = {
                     "recipe_17555_1"
                 ],
                 "buffs": [
-                    "buff_71590_1",
-                    "buff_71561_1"
+                    "buff_71561_1",
+                    "buff_71590_1"
                 ]
             }
         },
@@ -18992,8 +19130,8 @@ SKILLS = {
                     "recipe_17551_1"
                 ],
                 "buffs": [
-                    "buff_71590_1",
-                    "buff_71561_1"
+                    "buff_71561_1",
+                    "buff_71590_1"
                 ]
             }
         },
@@ -19004,8 +19142,8 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "buffs": [
-                    "buff_71590_1",
-                    "buff_71561_1"
+                    "buff_71561_1",
+                    "buff_71590_1"
                 ]
             }
         },
@@ -19033,8 +19171,8 @@ SKILLS = {
                 "critical_damage": "damage * lunar_critical_power",
                 "critical_strike": "lunar_critical_strike",
                 "buffs": [
-                    "buff_71590_1",
-                    "buff_71561_1"
+                    "buff_71561_1",
+                    "buff_71590_1"
                 ]
             }
         },

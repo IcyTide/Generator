@@ -1,7 +1,8 @@
+from base.expression import Variable
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE
 from tools.settings import recipe_txts
-from tools.utils import get_variable
+from tools.utils import get_variable, process_attr_param
 
 
 class Belong(Skill):
@@ -11,19 +12,28 @@ class Belong(Skill):
 
     recipes: list[tuple[int, int]]
 
+    dest_rollback_skills: list[int] = []
+
     critical_type: str = ""
     damage_type: str = ""
 
     def __init__(self, *args, **kwargs):
+        self.dest_rollback_skills = []
         super().__init__(*args, **kwargs)
         self.recipes = []
         self.buffs, self.skills, self.dots = [], [], {}
-        self.belong_key = get_variable("belong", self.skill_id)
+        self.belong_key = Variable(get_variable("belong", self.skill_id))
         txt_rows = recipe_txts[recipe_txts.SkillID == self.skill_id]
         for row in txt_rows.itertuples():
             self.recipes.append((row.ID, row.Level))
+        self.skill_level = self.max_level
+
+    def check_skill(self, skill: Skill):
+        return skill.skill_id in self.dest_rollback_skills
 
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
+        if not attr_type:
+            return
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
             pass
         elif attr_type == ATTRIBUTE_TYPE.SET_ADAPTIVE_SKILL_TYPE:
@@ -31,8 +41,9 @@ class Belong(Skill):
             self.damage_type = param_2
         elif attr_type == ATTRIBUTE_TYPE.SET_TALENT_RECIPE:
             self.recipes.append((int(param_1), int(param_2)))
-        else:
-            super().add_attribute(attr_effect_mode, attr_type, param_1, param_2)
+        elif attr_effect_mode == ATTRIBUTE_EFFECT_MODE.EFFECT_TO_SELF_AND_ROLLBACK:
+            param = process_attr_param(attr_type, param_1, param_2)
+            self.self_rollback_attributes.append((attr_type, param))
 
     def to_dict(self):
         if self.skill_level:
@@ -46,7 +57,7 @@ class Belong(Skill):
                 "desc": self.get_desc(self.skill_id, self.skill_level),
                 "critical_type": self.critical_type,
                 "damage_type": self.damage_type,
-                "belong_key": self.belong_key
+                "belong_key": str(self.belong_key)
             }
         else:
             return {}

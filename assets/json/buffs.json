@@ -4567,6 +4567,80 @@
             }
         }
     },
+    "101355": {
+        "71213": {
+            "4": {
+                "name": "《钩吻断肠·悟》秘章",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 8,
+                "skills": [
+                    101357,
+                    101358
+                ],
+                "buff_key": "buff_71213_4"
+            }
+        },
+        "71516": {
+            "1": {
+                "name": "钩吻断肠",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_attack_power_gain": 154
+                }
+            }
+        },
+        "70161": {
+            "5": {
+                "name": "伤害提高",
+                "comment": "神莹·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 52,
+                    "magical_damage_addition": 52
+                }
+            },
+            "20": {
+                "name": "伤害提高",
+                "comment": "《回风微澜·悟》秘章",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 205,
+                    "magical_damage_addition": 205
+                }
+            }
+        },
+        "70167": {
+            "20": {
+                "name": "无双提高",
+                "comment": "济世·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 205
+                }
+            }
+        },
+        "71258": {
+            "1": {
+                "name": "《并蒂夺株·悟》秘章",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    101425
+                ],
+                "buff_key": "buff_71258_1"
+            }
+        }
+    },
     "102278": {
         "71388": {
             "1": {
@@ -4599,6 +4673,43 @@
                 "buff_key": "buff_71609_1"
             }
         },
+        "70729": {
+            "10": {
+                "name": "内功会心效果提高",
+                "comment": "《引窍·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 100
+                }
+            }
+        },
+        "70161": {
+            "10": {
+                "name": "伤害提高",
+                "comment": "《截阳·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 103,
+                    "magical_damage_addition": 103
+                }
+            }
+        },
+        "70167": {
+            "10": {
+                "name": "无双提高",
+                "comment": "《截阳·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 103
+                }
+            }
+        },
         "71395": {
             "1": {
                 "name": "伤害提高",
@@ -4608,6 +4719,17 @@
                 "attributes": {
                     "all_damage_addition": 51
                 }
+            }
+        },
+        "71405": {
+            "1": {
+                "interval": 48,
+                "max_stack": 5,
+                "max_tick": 1,
+                "skills": [
+                    102312
+                ],
+                "buff_key": "buff_71405_1"
             }
         },
         "71401": {
@@ -4691,6 +4813,7 @@
         "70161": {
             "10": {
                 "name": "伤害提高",
+                "comment": "《生地狱·悟》秘章",
                 "interval": 8,
                 "max_stack": 1,
                 "max_tick": 1,

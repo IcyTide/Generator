@@ -450,8 +450,8 @@
                             "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2440_1 / 1024)",
                             "critical_strike": "neutral_critical_strike + 1500 * recipe_2440_1 / 10000",
                             "recipes": [
-                                "recipe_2440_1",
                                 "recipe_1301_1",
+                                "recipe_2440_1",
                                 "recipe_2941_1"
                             ],
                             "buffs": []
@@ -530,8 +530,8 @@
                             "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2440_1 / 1024)",
                             "critical_strike": "neutral_critical_strike + 1500 * recipe_2440_1 / 10000",
                             "recipes": [
-                                "recipe_2440_1",
                                 "recipe_1301_1",
+                                "recipe_2440_1",
                                 "recipe_2941_1"
                             ],
                             "buffs": []
@@ -598,8 +598,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -613,10 +613,10 @@
                             "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2442_1 / 1024)",
                             "critical_strike": "neutral_critical_strike + 1500 * recipe_2442_1 / 10000",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
-                                "recipe_817_1",
-                                "recipe_2442_1"
+                                "recipe_2442_1",
+                                "recipe_2942_1",
+                                "recipe_817_1"
                             ],
                             "buffs": []
                         }
@@ -629,8 +629,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -642,8 +642,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -657,8 +657,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -672,8 +672,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -687,8 +687,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -711,8 +711,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -726,10 +726,10 @@
                             "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2442_1 / 1024)",
                             "critical_strike": "neutral_critical_strike + 1500 * recipe_2442_1 / 10000",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
-                                "recipe_817_1",
-                                "recipe_2442_1"
+                                "recipe_2442_1",
+                                "recipe_2942_1",
+                                "recipe_817_1"
                             ],
                             "buffs": []
                         }
@@ -742,8 +742,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -755,8 +755,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -770,8 +770,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -785,8 +785,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -800,8 +800,8 @@
                             "critical_damage": "damage * neutral_critical_power",
                             "critical_strike": "neutral_critical_strike",
                             "recipes": [
-                                "recipe_2942_1",
                                 "recipe_1302_1",
+                                "recipe_2942_1",
                                 "recipe_817_1"
                             ],
                             "buffs": []
@@ -840,8 +840,8 @@
                             "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2441_1 / 1024)",
                             "critical_strike": "neutral_critical_strike + 1500 * recipe_2441_1 / 10000",
                             "recipes": [
-                                "recipe_2441_1",
                                 "recipe_1303_1",
+                                "recipe_2441_1",
                                 "recipe_2940_1"
                             ],
                             "buffs": []
@@ -946,8 +946,8 @@
                             "critical_damage": "damage * (neutral_critical_power + 154 * recipe_2441_1 / 1024)",
                             "critical_strike": "neutral_critical_strike + 1500 * recipe_2441_1 / 10000",
                             "recipes": [
-                                "recipe_2441_1",
                                 "recipe_1303_1",
+                                "recipe_2441_1",
                                 "recipe_2940_1"
                             ],
                             "buffs": []
@@ -1192,14 +1192,14 @@
                             "critical_damage": "damage * poison_critical_power",
                             "critical_strike": "poison_critical_strike + (200 * recipe_762_1 + 300 * recipe_763_1 + 400 * recipe_764_1) / 10000",
                             "recipes": [
-                                "recipe_763_1",
-                                "recipe_5891_1",
-                                "recipe_767_1",
-                                "recipe_764_1",
                                 "recipe_1269_1",
-                                "recipe_768_1",
+                                "recipe_4678_1",
+                                "recipe_5891_1",
                                 "recipe_762_1",
-                                "recipe_4678_1"
+                                "recipe_763_1",
+                                "recipe_764_1",
+                                "recipe_767_1",
+                                "recipe_768_1"
                             ],
                             "buffs": []
                         }
@@ -1222,10 +1222,10 @@
                             "critical_damage": "damage * poison_critical_power",
                             "critical_strike": "poison_critical_strike",
                             "recipes": [
+                                "recipe_1270_1",
                                 "recipe_773_1",
-                                "recipe_775_1",
                                 "recipe_774_1",
-                                "recipe_1270_1"
+                                "recipe_775_1"
                             ],
                             "buffs": []
                         }
@@ -1273,11 +1273,11 @@
                             "critical_strike": "poison_critical_strike + (200 * recipe_794_1 + 300 * recipe_795_1) / 10000",
                             "recipes": [
                                 "recipe_1272_1",
-                                "recipe_797_1",
-                                "recipe_794_1",
                                 "recipe_1528_1",
-                                "recipe_796_1",
+                                "recipe_794_1",
                                 "recipe_795_1",
+                                "recipe_796_1",
+                                "recipe_797_1",
                                 "recipe_818_7"
                             ],
                             "buffs": []
@@ -1303,8 +1303,8 @@
                             "critical_strike": "poison_critical_strike",
                             "recipes": [
                                 "recipe_773_1",
-                                "recipe_775_1",
-                                "recipe_774_1"
+                                "recipe_774_1",
+                                "recipe_775_1"
                             ],
                             "buffs": []
                         }
@@ -1329,8 +1329,8 @@
                             "critical_strike": "poison_critical_strike",
                             "recipes": [
                                 "recipe_773_1",
-                                "recipe_775_1",
-                                "recipe_774_1"
+                                "recipe_774_1",
+                                "recipe_775_1"
                             ],
                             "buffs": []
                         }
@@ -1354,14 +1354,14 @@
                             "critical_damage": "damage * poison_critical_power",
                             "critical_strike": "poison_critical_strike + (200 * recipe_762_1 + 300 * recipe_763_1 + 400 * recipe_764_1) / 10000",
                             "recipes": [
-                                "recipe_763_1",
                                 "recipe_3263_1",
+                                "recipe_4678_1",
                                 "recipe_5891_1",
-                                "recipe_767_1",
-                                "recipe_764_1",
-                                "recipe_768_1",
                                 "recipe_762_1",
-                                "recipe_4678_1"
+                                "recipe_763_1",
+                                "recipe_764_1",
+                                "recipe_767_1",
+                                "recipe_768_1"
                             ],
                             "buffs": []
                         }
@@ -1408,10 +1408,10 @@
                             "critical_damage": "damage * poison_critical_power",
                             "critical_strike": "poison_critical_strike",
                             "recipes": [
-                                "recipe_773_1",
                                 "recipe_4550_1",
-                                "recipe_775_1",
-                                "recipe_774_1"
+                                "recipe_773_1",
+                                "recipe_774_1",
+                                "recipe_775_1"
                             ],
                             "buffs": []
                         }
@@ -1437,8 +1437,8 @@
                             "critical_strike": "physical_critical_strike",
                             "recipes": [
                                 "recipe_2864_1",
-                                "recipe_860_1",
-                                "recipe_859_1"
+                                "recipe_859_1",
+                                "recipe_860_1"
                             ],
                             "buffs": []
                         }
@@ -1452,8 +1452,8 @@
                             "critical_strike": "physical_critical_strike",
                             "recipes": [
                                 "recipe_2864_1",
-                                "recipe_860_1",
-                                "recipe_859_1"
+                                "recipe_859_1",
+                                "recipe_860_1"
                             ],
                             "buffs": []
                         }
@@ -1478,8 +1478,8 @@
                             "critical_strike": "physical_critical_strike",
                             "recipes": [
                                 "recipe_2864_1",
-                                "recipe_860_1",
-                                "recipe_859_1"
+                                "recipe_859_1",
+                                "recipe_860_1"
                             ],
                             "buffs": []
                         }
@@ -1493,8 +1493,8 @@
                             "critical_strike": "physical_critical_strike",
                             "recipes": [
                                 "recipe_2864_1",
-                                "recipe_860_1",
-                                "recipe_859_1"
+                                "recipe_859_1",
+                                "recipe_860_1"
                             ],
                             "buffs": []
                         }
@@ -1711,9 +1711,9 @@
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike + (500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
                             "recipes": [
+                                "recipe_1148_1",
                                 "recipe_992_1",
                                 "recipe_993_1",
-                                "recipe_1148_1",
                                 "recipe_994_1"
                             ],
                             "buffs": []
@@ -1737,11 +1737,11 @@
                             "critical_damage": "damage * solar_critical_power",
                             "critical_strike": "solar_critical_strike + 10000 * recipe_4545_1 / 10000",
                             "recipes": [
-                                "recipe_3222_1",
                                 "recipe_1621_1",
-                                "recipe_4545_1",
+                                "recipe_1622_1",
                                 "recipe_1623_1",
-                                "recipe_1622_1"
+                                "recipe_3222_1",
+                                "recipe_4545_1"
                             ],
                             "buffs": []
                         }
@@ -1764,11 +1764,11 @@
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike + 10000 * recipe_4545_1 / 10000",
                             "recipes": [
-                                "recipe_3225_1",
                                 "recipe_1621_1",
-                                "recipe_4545_1",
+                                "recipe_1622_1",
                                 "recipe_1623_1",
-                                "recipe_1622_1"
+                                "recipe_3225_1",
+                                "recipe_4545_1"
                             ],
                             "buffs": []
                         }
@@ -2007,11 +2007,11 @@
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike + (200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1) / 10000",
                             "recipes": [
-                                "recipe_2063_1",
-                                "recipe_2064_1",
-                                "recipe_2060_1",
                                 "recipe_2058_1",
                                 "recipe_2059_1",
+                                "recipe_2060_1",
+                                "recipe_2063_1",
+                                "recipe_2064_1",
                                 "recipe_2065_1"
                             ],
                             "buffs": []
@@ -2057,11 +2057,11 @@
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike + (200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1) / 10000",
                             "recipes": [
-                                "recipe_2063_1",
-                                "recipe_2064_1",
-                                "recipe_2060_1",
                                 "recipe_2058_1",
                                 "recipe_2059_1",
+                                "recipe_2060_1",
+                                "recipe_2063_1",
+                                "recipe_2064_1",
                                 "recipe_2065_1"
                             ],
                             "buffs": []
@@ -2368,8 +2368,8 @@
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike + (300 * recipe_3055_1 + 400 * recipe_3056_1) / 10000",
                             "recipes": [
-                                "recipe_3056_1",
-                                "recipe_3055_1"
+                                "recipe_3055_1",
+                                "recipe_3056_1"
                             ],
                             "buffs": []
                         }
@@ -2382,8 +2382,8 @@
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike + (300 * recipe_3055_1 + 400 * recipe_3056_1) / 10000",
                             "recipes": [
-                                "recipe_3056_1",
-                                "recipe_3055_1"
+                                "recipe_3055_1",
+                                "recipe_3056_1"
                             ],
                             "buffs": []
                         }
@@ -2396,8 +2396,8 @@
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike + (300 * recipe_3055_1 + 400 * recipe_3056_1) / 10000",
                             "recipes": [
-                                "recipe_3056_1",
-                                "recipe_3055_1"
+                                "recipe_3055_1",
+                                "recipe_3056_1"
                             ],
                             "buffs": []
                         }
@@ -2410,8 +2410,8 @@
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike + (300 * recipe_3055_1 + 400 * recipe_3056_1) / 10000",
                             "recipes": [
-                                "recipe_3056_1",
-                                "recipe_3055_1"
+                                "recipe_3055_1",
+                                "recipe_3056_1"
                             ],
                             "buffs": []
                         }
@@ -2500,16 +2500,50 @@
                             "critical_damage": "damage * (lunar_critical_power + 157 * recipe_6087_1 / 1024)",
                             "critical_strike": "lunar_critical_strike + (200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1) / 10000",
                             "recipes": [
-                                "recipe_6052_1",
-                                "recipe_6182_2",
-                                "recipe_6087_1",
-                                "recipe_6146_1",
-                                "recipe_6144_1",
-                                "recipe_6143_1",
                                 "recipe_6002_1",
+                                "recipe_6052_1",
+                                "recipe_6087_1",
+                                "recipe_6143_1",
+                                "recipe_6144_1",
+                                "recipe_6145_1",
+                                "recipe_6146_1",
                                 "recipe_6182_1",
-                                "recipe_6145_1"
+                                "recipe_6182_2"
                             ],
+                            "buffs": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "101355": {
+        "71171": {
+            "1": {
+                "name": "中毒(DOT)",
+                "interval": "16",
+                "max_stack": 1,
+                "max_tick": 6,
+                "skills": {
+                    "101417": {
+                        "1": {
+                            "name": "无方中和",
+                            "comment": "",
+                            "damage": "(1 + poison_attack_power * 0.5807291666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * poison_critical_power",
+                            "critical_strike": "poison_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "102374": {
+                        "1": {
+                            "name": "回风微澜·悟",
+                            "comment": "",
+                            "damage": "(1 + poison_attack_power * 0.5807291666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (poison_shield_base * (1 + poison_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + poison_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + poison_damage_cof / 1024)",
+                            "critical_damage": "damage * poison_critical_power",
+                            "critical_strike": "poison_critical_strike",
+                            "recipes": [],
                             "buffs": []
                         }
                     }
