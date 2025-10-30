@@ -22,5 +22,6 @@ BUFFS: dict[int, dict] = {
         2: dict(comment="商阳指"),
         3: dict(comment="钟林毓秀")
     },
+    2719: {3: dict(name="水佩")},
     30444: dict(comment="沁逸")
 }

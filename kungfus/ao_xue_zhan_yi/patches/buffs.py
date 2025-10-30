@@ -11,7 +11,7 @@ BUFFS: dict[int, dict] = {
     },
     12461: dict(comment="击水"),
     21638: dict(attributes=[("coming_damage_cof", 410)], skills=[18773]),
-    7671: dict(comment="{}"),
+    7671: {1: {}},
     26008: dict(name="战心"),
     19317: dict(comment="击水+牙璋"),
     12608: dict(name="风虎", comment="{}"),

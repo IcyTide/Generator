@@ -100,5 +100,5 @@ class TopScript:
                 loop=Sections.from_dict(kungfu.kungfu_id, v["loop"]),
                 talents=Talents.from_dict(kungfu.kungfu_id, v["talents"]),
                 recipes=Recipes.from_dict(kungfu.kungfu_id, v["recipes"]),
-                consumables=Consumables.from_dict(v["consumables"]),
+                consumables=Consumables.from_dict({}),
             )

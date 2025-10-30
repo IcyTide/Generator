@@ -16,11 +16,7 @@ SKILLS = {
         -3: {},
         **{i - 2: dict(comment=f"擎羊{i + 1}灯魂") for i in range(3)},
     },
-    42423: {
-        1: {},
-        2: dict(comment="踏斗"),
-        3: dict(comment="踏斗12尺")
-    },
+    42423: {1: {}},
     42509: {
         1: dict(comment="1段"),
         2: dict(comment="2段(PVE)"),

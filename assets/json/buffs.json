@@ -22,11 +22,11 @@
                 ]
             }
         },
-        "19635": {
+        "890": {
             "1": {
                 "name": "普渡",
-                "interval": 4,
-                "max_stack": 1,
+                "interval": 352,
+                "max_stack": 2,
                 "max_tick": 1,
                 "skills": [
                     17641,
@@ -53,71 +53,7 @@
                     3810,
                     271
                 ],
-                "buff_key": "buff_19635_1"
-            },
-            "2": {
-                "name": "普渡",
-                "interval": 4,
-                "max_stack": 1,
-                "max_tick": 1,
-                "skills": [
-                    17641,
-                    17642,
-                    3848,
-                    3849,
-                    3850,
-                    3830,
-                    236,
-                    14951,
-                    3816,
-                    13682,
-                    13684,
-                    13686,
-                    24888,
-                    3814,
-                    13681,
-                    13683,
-                    13685,
-                    36049,
-                    36050,
-                    36051,
-                    3808,
-                    3810,
-                    271
-                ],
-                "buff_key": "buff_19635_2"
-            },
-            "3": {
-                "name": "普渡",
-                "interval": 4,
-                "max_stack": 1,
-                "max_tick": 1,
-                "skills": [
-                    17641,
-                    17642,
-                    3848,
-                    3849,
-                    3850,
-                    3830,
-                    236,
-                    14951,
-                    3816,
-                    13682,
-                    13684,
-                    13686,
-                    24888,
-                    3814,
-                    13681,
-                    13683,
-                    13685,
-                    36049,
-                    36050,
-                    36051,
-                    3808,
-                    3810,
-                    271
-                ],
-                "buff_key": "buff_19635_3"
+                "buff_key": "buff_890_1"
             }
         },
         "24285": {
@@ -193,6 +129,40 @@
                 "attributes": {
                     "solar_attack_power_gain": 204
                 }
+            }
+        },
+        "12479": {
+            "1": {
+                "name": "普渡",
+                "interval": 352,
+                "max_stack": 3,
+                "max_tick": 1,
+                "skills": [
+                    17641,
+                    17642,
+                    3848,
+                    3849,
+                    3850,
+                    3830,
+                    236,
+                    14951,
+                    3816,
+                    13682,
+                    13684,
+                    13686,
+                    24888,
+                    3814,
+                    13681,
+                    13683,
+                    13685,
+                    36049,
+                    36050,
+                    36051,
+                    3808,
+                    3810,
+                    271
+                ],
+                "buff_key": "buff_12479_1"
             }
         },
         "12590": {
@@ -472,7 +442,8 @@
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 256,
-                    "physical_critical_strike_rate": 2500
+                    "physical_critical_strike_rate": 2500,
+                    "strain_gain": 154
                 }
             },
             "4": {
@@ -919,7 +890,8 @@
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 256,
-                    "physical_critical_strike_rate": 2500
+                    "physical_critical_strike_rate": 2500,
+                    "strain_gain": 154
                 }
             },
             "4": {
@@ -1094,6 +1066,17 @@
                 "recipes": [
                     "recipe_2942_1"
                 ]
+            }
+        },
+        "2719": {
+            "3": {
+                "name": "水佩",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 154
+                }
             }
         },
         "32022": {
@@ -1290,36 +1273,6 @@
                     "physical_critical_strike_rate": 300,
                     "physical_critical_power_rate": 102,
                     "strain_gain": 51
-                }
-            },
-            "2": {
-                "name": "牧云",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_strike_rate": 300,
-                    "physical_critical_power_rate": 51
-                }
-            },
-            "3": {
-                "name": "牧云",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_strike_rate": 600,
-                    "physical_critical_power_rate": 102
-                }
-            },
-            "4": {
-                "name": "牧云",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_critical_strike_rate": 1200,
-                    "physical_critical_power_rate": 204
                 }
             }
         },
@@ -2740,7 +2693,7 @@
                 "max_tick": 1,
                 "attributes": {
                     "all_shield_ignore": 512,
-                    "pve_addition_base": 61
+                    "pve_addition_base": 72
                 }
             }
         }
@@ -2947,7 +2900,7 @@
                 "name": "入月",
                 "interval": 16,
                 "max_stack": 9,
-                "max_tick": 9999,
+                "max_tick": 99999,
                 "attributes": {
                     "all_damage_addition": 15
                 }
@@ -3316,7 +3269,7 @@
         },
         "31782": {
             "1": {
-                "name": "碎云",
+                "name": "霜云",
                 "interval": 16,
                 "max_stack": 6,
                 "max_tick": 20,
@@ -3874,17 +3827,6 @@
                 ]
             }
         },
-        "20718": {
-            "1": {
-                "name": "炮阳",
-                "interval": 1,
-                "max_stack": 1,
-                "max_tick": 1,
-                "recipes": [
-                    "recipe_2579_1"
-                ]
-            }
-        },
         "21856": {
             "1": {
                 "name": "荆障",
@@ -4428,6 +4370,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "skills": [
+                    43081,
                     41471,
                     41472,
                     41473,
@@ -4508,7 +4451,7 @@
             "1": {
                 "name": "七撩",
                 "interval": 80,
-                "max_stack": 2,
+                "max_stack": 1,
                 "max_tick": 1,
                 "skills": [
                     41471,
@@ -4616,15 +4559,14 @@
                 }
             }
         },
-        "70167": {
-            "20": {
-                "name": "无双提高",
-                "comment": "济世·悟",
-                "interval": 8,
+        "71620": {
+            "1": {
+                "name": "济世·悟",
+                "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1,
+                "max_tick": 12,
                 "attributes": {
-                    "strain_rate": 205
+                    "strain_base": 256
                 }
             }
         },
@@ -6103,12 +6045,12 @@
         },
         "71438": {
             "1": {
-                "name": "寒蕊·悟",
+                "name": "濯莲·悟",
                 "interval": 16,
                 "max_stack": 100,
-                "max_tick": 1,
+                "max_tick": 90,
                 "attributes": {
-                    "strain_base": 304
+                    "strain_base": 126
                 }
             }
         },
@@ -7190,14 +7132,14 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_rate": 135
+                    "strain_rate": 155
                 }
             },
             "4": {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_overcome_base": 17507
+                    "all_overcome_base": 20148
                 }
             }
         },
@@ -7206,7 +7148,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_critical_strike_base": 17507
+                    "all_critical_strike_base": 20148
                 }
             }
         },

@@ -1,4 +1,5 @@
 BUFFS: dict[int, dict] = {
+    30396: {1: {}},
     31534: dict(comment="{}"),
     14083: {2: {}},
     29348: dict(name="鸿轨"),
