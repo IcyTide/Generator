@@ -1,23 +1,21 @@
 from assets.raw.buffs import BUFFS
 from assets.raw.skills import SKILLS
 from base.constant import BINARY_SCALE
-from gains.consumables import GAINS as CONSUMABLE_GAINS
-from gains.gears import GAINS as GEAR_GAINS
-from gains.teams import GAINS as TEAM_GAINS
+from gains.gears import GAINS
 from qt.classes.attribute import Attribute
 
 
-def default(self: "Gain", attribute: Attribute):
+def default(self: "GearGain", attribute: Attribute):
     for buff_id in self.buffs:
         add_buff_to_attributes(buff_id, self.gain_level, attribute, self.weight)
 
 
-def shoes(self: "Gain", attribute: Attribute):
+def shoes(self: "GearGain", attribute: Attribute):
     self.weight = 10 / 20
     default(self, attribute)
 
 
-def bottom(self: "Gain", attribute: Attribute):
+def bottom(self: "GearGain", attribute: Attribute):
     thresholds = [93 / BINARY_SCALE, 135 / BINARY_SCALE]
     buff_id_bias = (self.gain_level - 1) % 2
     buff_level_bias = (self.gain_level - 1) // 2
@@ -27,7 +25,7 @@ def bottom(self: "Gain", attribute: Attribute):
         add_buff_to_attributes(self.buffs[buff_id_bias], 2 + buff_level_bias, attribute)
 
 
-def belt(self: "Gain", attribute: Attribute):
+def belt(self: "GearGain", attribute: Attribute):
     buff_id = self.buffs[0]
     buff_level_bias = (self.gain_level - 1) * 3
     add_buff_to_attributes(buff_id, 1 + buff_level_bias, attribute, 1 / 3)
@@ -35,7 +33,7 @@ def belt(self: "Gain", attribute: Attribute):
     add_buff_to_attributes(buff_id, 3 + buff_level_bias, attribute, 1 / 3)
 
 
-def hat(self: "Gain", attribute: Attribute):
+def hat(self: "GearGain", attribute: Attribute):
     buff_id = self.buffs[0]
     buff_level_bias = (self.gain_level - 1) * 3
     overcome, critical_strike, surplus = attribute.overcome_base, attribute.critical_strike_base, attribute.surplus_base
@@ -48,34 +46,35 @@ def hat(self: "Gain", attribute: Attribute):
         add_buff_to_attributes(buff_id, 3 + buff_level_bias, attribute)
 
 
-def ring(self: "Gain", attribute: Attribute):
+def ring(self: "GearGain", attribute: Attribute):
     buff_id = self.buffs[0]
     buff_level_bias = (self.gain_level - 1) * 2
     add_buff_to_attributes(buff_id, 1 + buff_level_bias, attribute)
 
 
 def necklace(target: str, thresholds: list[int]):
-    def inner(self: "Gain", attribute: Attribute):
+    def inner(self: "GearGain", attribute: Attribute):
         threshold = thresholds[self.gain_level - 1]
         stack = int(attribute[f"{target}_base"] / threshold)
         self.weight = stack * 1 / 10
         default(self, attribute)
+
     return inner
 
 
-def wind(self: "Gain", attribute: Attribute):
+def wind(self: "GearGain", attribute: Attribute):
     self.weight = 15 / 180
     default(self, attribute)
 
 
-def special_enchant_belt(self: "Gain", attribute: Attribute):
+def special_enchant_belt(self: "GearGain", attribute: Attribute):
     buff_id = self.buffs[0]
     rate = 8 / 30
     add_buff_to_attributes(buff_id, 1, attribute, 0.3 * rate)
     add_buff_to_attributes(buff_id, 2, attribute, 0.7 * rate)
 
 
-def special_enchant_jacket(self: "Gain", attribute: Attribute):
+def special_enchant_jacket(self: "GearGain", attribute: Attribute):
     skill_id = self.gain_id
     skill = SKILLS[0][skill_id][self.gain_level]
     for k, v in skill["attributes"].items():
@@ -107,7 +106,7 @@ def add_buff_to_attributes(buff_id: int, buff_level: int, attribute: Attribute, 
         attribute[k] += int(v * stack * weight)
 
 
-class Gain:
+class GearGain:
     skills: list[int]
     buffs: list[int]
     dots: dict[int, list[int]]
@@ -122,15 +121,7 @@ class Gain:
         self.post_init()
 
     def post_init(self):
-        if self.gain_id in GEAR_GAINS:
-            attrs = GEAR_GAINS[self.gain_id]
-        elif self.gain_id in CONSUMABLE_GAINS:
-            attrs = CONSUMABLE_GAINS[self.gain_id]
-        elif self.gain_id in TEAM_GAINS:
-            attrs = TEAM_GAINS[self.gain_id]
-        else:
-            attrs = {}
-        for k, v in attrs.items():
+        for k, v in GAINS.get(self.gain_id, {}).items():
             setattr(self, k, v)
         self.skills = [skill_id for skill_id in self.skills if skill_id != self.gain_id]
 

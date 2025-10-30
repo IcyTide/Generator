@@ -3,12 +3,14 @@ import json
 from PySide6.QtWidgets import QFileDialog, QTabWidget
 
 from kungfus import SUPPORT_KUNGFUS
+from qt.classes.gains.consumable import Consumables
 from qt.classes.gear import Gears
 from qt.classes.kungfu import Kungfu
 from qt.classes.recipe import Recipes
 from qt.classes.section import Sections
 from qt.classes.talent import Talents
 from qt.component.top_widget.widget import TopWidget
+from qt.script.bonus import BonusScript
 from qt.script.build import BuildScript
 from qt.script.gear import GearScript
 from qt.script.loop import LoopScript
@@ -19,7 +21,7 @@ class TopScript:
 
     def __init__(
             self, widget: TopWidget, tabs: QTabWidget,
-            loop_script: LoopScript, gear_script: GearScript, build_script: BuildScript
+            loop_script: LoopScript, gear_script: GearScript, build_script: BuildScript, bonus_script: BonusScript
     ):
 
         self.widget = widget
@@ -34,6 +36,7 @@ class TopScript:
         self.loop_script = loop_script
         self.gear_script = gear_script
         self.build_script = build_script
+        self.bonus_script = bonus_script
 
         self.connect()
 
@@ -51,7 +54,8 @@ class TopScript:
             self.cache_content[kungfu] = dict(
                 gear=self.gear_script.init(self.kungfu),
                 loop=self.loop_script.init(self.kungfu),
-                **self.build_script.init(self.kungfu)
+                **self.build_script.init(self.kungfu),
+                **self.bonus_script.init(self.kungfu)
             )
         else:
             cache = self.cache_content[kungfu]
@@ -59,6 +63,8 @@ class TopScript:
             cache["loop"] = self.loop_script.init(self.kungfu, cache["loop"])
             build = self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
             cache["talents"], cache["recipes"] = build["talents"], build["recipes"]
+            bonus = self.bonus_script.init(self.kungfu, cache["consumables"])
+            cache["consumables"] = bonus["consumables"]
         self.tabs.show()
         self.widget.window().showMaximized()
         self.widget.load_btn.hide()
@@ -93,5 +99,6 @@ class TopScript:
                 gear=Gears.from_dict(v["gear"]),
                 loop=Sections.from_dict(kungfu.kungfu_id, v["loop"]),
                 talents=Talents.from_dict(kungfu.kungfu_id, v["talents"]),
-                recipes=Recipes.from_dict(kungfu.kungfu_id, v["recipes"])
+                recipes=Recipes.from_dict(kungfu.kungfu_id, v["recipes"]),
+                consumables=Consumables.from_dict(v["consumables"]),
             )

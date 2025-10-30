@@ -5,7 +5,8 @@ from assets.raw.recipes import RECIPES
 from assets.raw.skills import SKILLS
 from base.constant import MAJOR_TYPES
 from qt.classes.attribute import Attribute, Target
-from qt.classes.gain import Gain
+from qt.classes.gains.gear import GearGain
+from qt.classes.gains.team import TeamGain
 
 
 class Kungfu:
@@ -14,13 +15,17 @@ class Kungfu:
 
     gear_attributes: dict[str, int] = {}
     gear_recipes: list[str] = []
-    gains: dict[str, Gain] = {}
+    gear_gains: dict[str, GearGain] = {}
 
     build_attributes: dict[str, int] = {}
     build_recipes: list[str] = []
     talents: dict[str, str] = {}
 
-    set_gain_attribute: bool = True
+    bonus_attributes: dict[str, int] = {}
+    bonus_gains: dict[str, TeamGain] = {}
+
+    set_gear_gain: bool = True
+    set_bonus_gain: bool = True
 
     def __init__(self, kungfu):
         self.kungfu_id = kungfu.attribute
@@ -68,8 +73,11 @@ class Kungfu:
         attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])
         for k, v in attributes.items():
             attribute[k] += v
-        if self.set_gain_attribute:
-            for gain in self.gains.values():
+        if self.set_gear_gain:
+            for gain in self.gear_gains.values():
+                gain.set_attribute(attribute)
+        if self.set_bonus_gain:
+            for gain in self.bonus_gains.values():
                 gain.set_attribute(attribute)
         attribute.recipes += self.recipes
         attribute.belongs += list(self.talents.values())
@@ -92,6 +100,10 @@ class Kungfu:
             if k not in attributes:
                 attributes[k] = 0
             attributes[k] += v
+        for k, v in self.bonus_attributes.items():
+            if k not in attributes:
+                attributes[k] = 0
+            attributes[k] += v
         return attributes
 
     @property
@@ -103,7 +115,7 @@ class Kungfu:
         return {
             **self.kungfu_buffs,
             **{k: v for k, v in self.talent_buffs.items() if k in self.talents},
-            "装备": {buff_id: BUFFS[0][buff_id] for gain in self.gains.values() for buff_id in gain.buffs}
+            "装备": {buff_id: BUFFS[0][buff_id] for gain in self.gear_gains.values() for buff_id in gain.buffs}
         }
 
     @property
@@ -111,7 +123,7 @@ class Kungfu:
         return {
             **self.kungfu_skills,
             **{k: v for k, v in self.talent_skills.items() if k in self.talents},
-            "装备": {skill_id: SKILLS[0][skill_id] for gain in self.gains.values() for skill_id in gain.skills}
+            "装备": {skill_id: SKILLS[0][skill_id] for gain in self.gear_gains.values() for skill_id in gain.skills}
         }
 
     @property
@@ -119,5 +131,5 @@ class Kungfu:
         return {
             **self.kungfu_dots,
             **{k: v for k, v in self.talent_dots.items() if k in self.talents},
-            "装备": {dot_id: DOTS[0][dot_id] for gain in self.gains.values() for dot_id in gain.dots}
+            "装备": {dot_id: DOTS[0][dot_id] for gain in self.gear_gains.values() for dot_id in gain.dots}
         }

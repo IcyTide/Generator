@@ -18,6 +18,6 @@ BUFFS: dict[int, dict] = {
         5: dict(comment="无欲")
     },
     29451: dict(attributes=[("coming_damage_cof", 512)], skills=[4954]),
-    30766: dict(attributes=[("coming_damage_cof", 615)], skills=[21979]),
+    30766: dict(attributes=[("coming_damage_cof", 307.2)], skills=[21979]),
     21865: dict(name="合虚")
 }

@@ -21,7 +21,7 @@ GAINS: dict[int, dict] = {
     13050: dict(buffs=[8248]),
     13422: dict(buffs=[8504]),
     15072: dict(buffs=[10031]),
-    14071: dict(buffs=[23543, 16911]),
+    14071: dict(buffs=[23543]), # 16911
     28678: dict(buffs=[20854], skills=[29532]),
 
     # mobile

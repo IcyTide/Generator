@@ -20,5 +20,5 @@ def get_variables(formula: str) -> dict[str, Variable]:
 
 def parse_expr(formula: str) -> Expression:
     variables = get_variables(formula)
-    expr = eval(formula, {**variables, "int": Int})
+    expr = eval(formula, {**variables, "int": Int, "ceil": Ceil})
     return expr

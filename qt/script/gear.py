@@ -188,7 +188,7 @@ class GearScript:
         self.widget.detail_btn.clicked.connect(self.show_detail)
 
     def select_gain_attribute(self, state):
-        self.kungfu.set_gain_attribute = state
+        self.kungfu.set_gear_gain = state
 
     def select_special_enchant(self, state):
         for sub_script in self.sub_scripts.values():
@@ -211,7 +211,7 @@ class GearScript:
                     embed_combo.setCurrentText(str(embed))
 
     def show_detail(self):
-        attributes, recipes, gains = self.kungfu.gear_attributes, self.kungfu.gear_recipes, self.kungfu.gains
+        attributes, recipes, gains = self.kungfu.gear_attributes, self.kungfu.gear_recipes, self.kungfu.gear_gains
         if attributes:
             AttributeDialog(attributes, recipes, list(gains), parent=self.widget).exec()
 
@@ -229,4 +229,4 @@ class GearScript:
         attributes, recipes, gains = self.gears.content
         self.kungfu.gear_attributes = attributes
         self.kungfu.gear_recipes = recipes
-        self.kungfu.gains = gains
+        self.kungfu.gear_gains = gains

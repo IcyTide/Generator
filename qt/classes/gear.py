@@ -1,7 +1,7 @@
 from assets.raw.enchants import ENCHANTS
 from assets.raw.equipments import EQUIPMENTS
 from base.constant import EMBED_COF, POSITIONS, ROUND, STRENGTH_COF
-from qt.classes.gain import Gain
+from qt.classes.gains.gear import GearGain
 
 
 class Stone:
@@ -188,9 +188,9 @@ class Gears:
                 attributes[k] += v
             recipes += gear.recipes
             if gear.special_enchant:
-                gains[gear.special_enchant] = Gain(gear.special_enchant)
+                gains[gear.special_enchant] = GearGain(gear.special_enchant)
             for k in gear.gains:
-                gains[k] = Gain(k)
+                gains[k] = GearGain(k)
             if set_id := gear.set_id:
                 if set_id not in set_count:
                     set_count[set_id] = 0
@@ -205,7 +205,7 @@ class Gears:
                         attributes[k] += v
                     recipes += bonus.get("recipes", [])
                     for k in bonus.get("gains", []):
-                        gains[k] = Gain(k)
+                        gains[k] = GearGain(k)
         return attributes, recipes, gains
 
     def to_dict(self):

@@ -5522,30 +5522,6 @@
                 }
             }
         },
-        "27789": {
-            "1": {
-                "name": "刚吃过风语·慈母游子羹",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1
-            }
-        },
-        "27790": {
-            "1": {
-                "name": "刚吃过风语·农家小炒肉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1
-            }
-        },
-        "27791": {
-            "1": {
-                "name": "刚吃过风语·油炸花生米",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1
-            }
-        },
         "27792": {
             "1": {
                 "name": "刚吃过风语·葫芦叫花鸡",
@@ -5554,28 +5530,6 @@
                 "max_tick": 1,
                 "attributes": {
                     "physical_attack_power_base": 925
-                }
-            }
-        },
-        "17347": {
-            "1": {
-                "name": "汾酒",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strength_base": 116
-                }
-            }
-        },
-        "17348": {
-            "1": {
-                "name": "汾酒·今朝醉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strength_base": 232
                 }
             }
         },
@@ -5590,28 +5544,6 @@
                 }
             }
         },
-        "17350": {
-            "1": {
-                "name": "关外白酒",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "agility_base": 116
-                }
-            }
-        },
-        "17351": {
-            "1": {
-                "name": "关外白酒·今朝醉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "agility_base": 232
-                }
-            }
-        },
         "17352": {
             "2": {
                 "name": "关外白酒·旬又三",
@@ -5620,28 +5552,6 @@
                 "max_tick": 1,
                 "attributes": {
                     "agility_base": 464
-                }
-            }
-        },
-        "17353": {
-            "1": {
-                "name": "高粱酒",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "spirit_base": 116
-                }
-            }
-        },
-        "17354": {
-            "1": {
-                "name": "高粱酒·今朝醉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "spirit_base": 232
                 }
             }
         },
@@ -5656,28 +5566,6 @@
                 }
             }
         },
-        "17356": {
-            "1": {
-                "name": "状元红",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "spunk_base": 116
-                }
-            }
-        },
-        "17357": {
-            "1": {
-                "name": "状元红·今朝醉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "spunk_base": 232
-                }
-            }
-        },
         "17358": {
             "2": {
                 "name": "状元红·旬又三",
@@ -5686,28 +5574,6 @@
                 "max_tick": 1,
                 "attributes": {
                     "spunk_base": 464
-                }
-            }
-        },
-        "17359": {
-            "1": {
-                "name": "女儿红",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "haste_base": 909
-                }
-            }
-        },
-        "17360": {
-            "1": {
-                "name": "女儿红·今朝醉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "haste_base": 1818
                 }
             }
         },
@@ -5720,30 +5586,6 @@
                 "attributes": {
                     "haste_base": 3636
                 }
-            }
-        },
-        "17362": {
-            "1": {
-                "name": "玉露酒",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1
-            }
-        },
-        "17363": {
-            "1": {
-                "name": "玉露酒·今朝醉",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1
-            }
-        },
-        "17364": {
-            "2": {
-                "name": "玉露酒·旬又三",
-                "interval": 28800,
-                "max_stack": 1,
-                "max_tick": 1
             }
         },
         "17365": {
@@ -6099,22 +5941,6 @@
                 "max_tick": 40,
                 "attributes": {
                     "strain_base": 126
-                }
-            }
-        },
-        "16911": {
-            "1": {
-                "name": "弄梅",
-                "interval": 8,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_shield_ignore": 205,
-                    "physical_overcome_base": 700,
-                    "neutral_overcome_base": 700,
-                    "poison_overcome_base": 700,
-                    "solar_overcome_base": 700,
-                    "lunar_overcome_base": 700
                 }
             }
         },

@@ -1,5 +1,17 @@
-class Expression:
+import math
 
+
+def is_number(var):
+    if isinstance(var, int):
+        return True
+    if isinstance(var, float):
+        return True
+    if isinstance(var, Constant):
+        return True
+    return False
+
+
+class Expression:
     def __add__(self, other):
         return Add(self, other)
 
@@ -102,11 +114,13 @@ class UnaryOperator(Expression):
 class Neg(UnaryOperator):
     def __new__(cls, operand):
         if isinstance(operand, Neg):
-            return operand.operand
+            return operand.operand  # - (-a) = a
         if operand == 0:
-            return operand
+            return operand  # -0 = 0
         if isinstance(operand, Constant):
-            return Constant(-operand.value)
+            operand = operand.value
+        if isinstance(operand, (int, float)):
+            return Constant(-operand)  # - (-a) = a
         return super().__new__(cls).init(operand)
 
     def __str__(self):
@@ -121,10 +135,10 @@ class Neg(UnaryOperator):
 
 class Int(UnaryOperator):
     def __new__(cls, operand):
+        if isinstance(operand, Constant):
+            operand = operand.value
         if isinstance(operand, (int, float)):
             return int(operand)
-        if isinstance(operand, Constant):
-            return Constant(int(operand.value))
         return super().__new__(cls).init(operand)
 
     def __str__(self):
@@ -132,6 +146,24 @@ class Int(UnaryOperator):
 
     def evaluate(self, values=None):
         return Int(self.operand.evaluate(values))
+
+    def derivative(self, var):
+        return self.operand.derivative(var)
+
+
+class Ceil(UnaryOperator):
+    def __new__(cls, operand):
+        if isinstance(operand, Constant):
+            operand = operand.value
+        if isinstance(operand, (int, float)):
+            return math.ceil(operand)
+        return super().__new__(cls).init(operand)
+
+    def __str__(self):
+        return f"ceil({self.operand})"
+
+    def evaluate(self, values=None):
+        return Ceil(self.operand.evaluate(values))
 
     def derivative(self, var):
         return self.operand.derivative(var)
@@ -154,20 +186,39 @@ class BinaryOperator(Expression):
 class Add(BinaryOperator):
     def __new__(cls, left, right: int | float | Expression):
         if left == 0:
-            return right
+            return right  # 0 + a = a
         if right == 0:
-            return left
-        if isinstance(left, Constant) and isinstance(right, Constant):
-            return Constant(left.value + right.value)
+            return left  # a + 0 = 0
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
         if isinstance(right, (int, float)) and right < 0:
-            return Sub(left, -right)
-        if isinstance(right, Constant) and right.value < 0:
-            return Sub(left, -right.value)
-        if isinstance(left, (Add, Sub)) and isinstance(right, (int, float)):
-            if isinstance(left.left, Constant):
-                return left.__class__(left.left.value + right, left.right)
-            if isinstance(left.right, Constant):
-                return left.__class__(left.left, left.right.value + right)
+            return Sub(left, -right)  # a + (-b) = a - b
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return Constant(left + right)
+        if isinstance(right, (int, float)):
+            if isinstance(left, Add):
+                if isinstance(left.left, Constant):
+                    return Add(left.left.value + right, left.right)  # (a + b) + c = (a + c) + b
+                if isinstance(left.right, Constant):
+                    return Add(left.left, left.right.value + right)  # (a + b) + c = a + (b + c)
+            if isinstance(left, Sub):
+                if isinstance(left.left, Constant):
+                    return Add(left.left.value - right, left.right)  # (a - b) + c = (a - c) + b
+                if isinstance(left.right, Constant):
+                    return Sub(left.left, left.right.value - right)  # (a - b) + c = a - (b - c)
+        if isinstance(left, (int, float)):
+            if isinstance(right, Add):
+                if isinstance(right.left, Constant):
+                    return Add(left + right.left.value, right.right)  # a + (b + c) = (a + b) + c
+                if isinstance(right.right, Constant):
+                    return Add(right.left, left + right.right.value)  # a + (b + c) = b + (a + c)
+            if isinstance(right, Sub):
+                if isinstance(right.left, Constant):
+                    return Sub(left + right.left.value, right.right)  # a + (b - c) = (a + b) - c
+                if isinstance(right.right, Constant):
+                    return Sub(right.left, right.right.value - left)  # a + (b - c) = b - (c - a)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -184,21 +235,40 @@ class Sub(BinaryOperator):
     def __new__(cls, left, right: int | float | Expression):
         if left == 0:
             return -right
-        if right == 0:
-            return left
+        if right == 0:  # 0 - a = -a
+            return left  # a - 0 = a
         if left == right:
-            return Constant(0)
-        if isinstance(left, Constant) and isinstance(right, Constant):
-            return Constant(left.value - right.value)
+            return Constant(0)  # a - a = 0
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
         if isinstance(right, (int, float)) and right < 0:
-            return Add(left, -right)
-        if isinstance(right, Constant) and right.value < 0:
-            return Add(left, -right.value)
-        if isinstance(left, (Add, Sub)) and isinstance(right, (int, float)):
-            if isinstance(left.left, Constant):
-                return left.__class__(left.left.value - right, left.right)
-            if isinstance(left.right, Constant):
-                return left.__class__(left.left, left.right.value - right)
+            return Add(left, -right)  # a - (-b) = a + b
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return Constant(left - right)
+        if isinstance(right, (int, float)):
+            if isinstance(left, Add):
+                if isinstance(left.left, Constant):
+                    return Add(left.left.value - right, left.right)  # (a + b) - c = (a - c) + b
+                if isinstance(left.right, Constant):
+                    return Add(left.left, left.right.value - right)  # (a + b) - c = (b - c) + a
+            if isinstance(left, Sub):
+                if isinstance(left.left, Constant):
+                    return Sub(left.left.value - right, left.right)  # (a - b) - c = (a - c) - b
+                if isinstance(left.right, Constant):
+                    return Sub(left.left, left.right.value + right)  # (a - b) - c = a - (b + c)
+        if isinstance(left, (int, float)):
+            if isinstance(right, Add):
+                if isinstance(right.left, Constant):
+                    return Sub(left - right.left.value, right.right)  # a - (b + c) = (a - b) - c
+                if isinstance(right.right, Constant):
+                    return Sub(left - right.right.value, right.left)  # a - (b + c) = (a - c) - b
+            if isinstance(right, Sub):
+                if isinstance(right.left, Constant):
+                    return Add(left - right.left.value, right.right)  # a - (b - c) = (a - b) + c
+                if isinstance(right.right, Constant):
+                    return Sub(left + right.right.value, right.left)  # a - (b - c) = (a + c) -b
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -214,15 +284,17 @@ class Sub(BinaryOperator):
 class Mul(BinaryOperator):
     def __new__(cls, left, right):
         if left == 0 or right == 0:
-            return Constant(0)
+            return Constant(0)  # 0 * a = 0; a * 0 = 0
         if left == 1:
-            return right
+            return right  # 1 * a = a
         if right == 1:
-            return left
-        if isinstance(left, Constant) and isinstance(right, Constant):
-            return Constant(left.value * right.value)
-        if isinstance(left, Neg) and isinstance(right, Neg):
-            left, right = left.operand, right.operand
+            return left  # a * 1 = a
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return Constant(left * right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -243,15 +315,17 @@ class Mul(BinaryOperator):
 class Div(BinaryOperator):
     def __new__(cls, left, right):
         if left == 0:
-            return Constant(0)
+            return Constant(0)  # 0 / a = 0
         if right == 1:
-            return left
+            return left  # a / 1 = a
         if left == right:
-            return Constant(1)
-        if isinstance(left, Constant) and isinstance(right, Constant):
-            return Constant(left.value / right.value)
-        if isinstance(left, Neg) and isinstance(right, Neg):
-            left, right = left.operand, right.operand
+            return Constant(1)  # a / a = 1
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return Constant(left / right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -277,15 +351,19 @@ class Div(BinaryOperator):
 class Pow(BinaryOperator):
     def __new__(cls, left, right):
         if left == 0:
-            return Constant(0)
+            return Constant(0)  # 0 ** a = 0
         if left == 1:
-            return Constant(1)
+            return Constant(1)  # 1 ** a = 1
         if right == 0:
-            return Constant(1)
+            return Constant(1)  # a ** 0 = 1
         if right == 1:
-            return left
-        if isinstance(left, Constant) and isinstance(right, Constant):
-            return Constant(left.value ** right.value)
+            return left  # a ** 1 = a
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return Constant(left ** right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -301,3 +379,23 @@ class Pow(BinaryOperator):
 
     def derivative(self, var):
         return self.left.derivative(var) * self.right * Pow(self.left, self.right - 1)
+
+
+class Max(BinaryOperator):
+    def __new__(cls, left, right):
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return max(left, right)
+        return super().__new__(cls).init(left, right)
+
+    def __str__(self):
+        return f"max({self.left},{self.right})"
+
+    def evaluate(self, values=None):
+        return Max(self.left.evaluate(values), self.right.evaluate(values))
+
+    def derivative(self, var):
+        return 0  # Cannot take derivative of max
