@@ -1,0 +1,4 @@
+ATTRIBUTE = 100398
+KIND = "内功"
+SCHOOL = "纯阳"
+MAJOR = "根骨"

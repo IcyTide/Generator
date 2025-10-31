@@ -4510,6 +4510,229 @@
             }
         }
     },
+    "100398": {
+        "70721": {
+            "1": {
+                "name": "《四象轮回·悟》秘章",
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    100079
+                ],
+                "buff_key": "buff_70721_1"
+            }
+        },
+        "70345": {
+            "10": {
+                "name": "内功会心率提高",
+                "comment": "《七星拱瑞·悟》绝篇/紫气逢真·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 1000,
+                    "neutral_critical_strike_rate": 1000,
+                    "poison_critical_strike_rate": 1000,
+                    "solar_critical_strike_rate": 1000
+                }
+            }
+        },
+        "70729": {
+            "10": {
+                "name": "内功会心效果提高",
+                "comment": "紫气逢真·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 100
+                }
+            }
+        },
+        "70161": {
+            "10": {
+                "name": "伤害提高",
+                "comment": "紫气逢真·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 103,
+                    "magical_damage_addition": 103
+                }
+            },
+            "15": {
+                "name": "伤害提高",
+                "comment": "持盈·悟/气破鸿蒙·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 154,
+                    "magical_damage_addition": 154
+                }
+            }
+        },
+        "71445": {
+            "1": {
+                "name": "伤害提高",
+                "comment": "上善·悟",
+                "interval": 160,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_damage_addition": 20
+                }
+            }
+        },
+        "70764": {
+            "1": {
+                "name": "气剑加成气破鸿蒙·悟",
+                "interval": 8,
+                "max_stack": 5,
+                "max_tick": 1,
+                "skills": [
+                    101973
+                ],
+                "buff_key": "buff_70764_1"
+            }
+        }
+    },
+    "100994": {
+        "71047": {
+            "1": {
+                "name": "《项王击鼎·悟》秘章",
+                "interval": 16,
+                "max_stack": 10,
+                "max_tick": 1,
+                "skills": [
+                    101050
+                ],
+                "buff_key": "buff_71047_1"
+            }
+        },
+        "70433": {
+            "1": {
+                "name": "伤害提高",
+                "interval": 128,
+                "max_stack": 3,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 21
+                }
+            }
+        },
+        "70161": {
+            "5": {
+                "name": "伤害提高",
+                "comment": "逐鹿1层",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 52,
+                    "magical_damage_addition": 52
+                }
+            },
+            "10": {
+                "name": "伤害提高",
+                "comment": "《醉斩白蛇·悟》秘章/逐鹿2层",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 103,
+                    "magical_damage_addition": 103
+                }
+            },
+            "15": {
+                "name": "伤害提高",
+                "comment": "逐鹿3层",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 154,
+                    "magical_damage_addition": 154
+                }
+            }
+        },
+        "70360": {
+            "1": {
+                "name": "啸吒",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_17011_1"
+                ]
+            }
+        },
+        "71507": {
+            "1": {
+                "name": "《坚壁清野·悟》秘章",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    101002,
+                    101080
+                ],
+                "buff_key": "buff_71507_1"
+            }
+        },
+        "71549": {
+            "1": {
+                "name": "伤害提高",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 103,
+                    "magical_damage_addition": 103
+                }
+            }
+        },
+        "70454": {
+            "1": {
+                "name": "裁魂·悟",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    101002,
+                    101080
+                ],
+                "buff_key": "buff_70454_1"
+            }
+        },
+        "71496": {
+            "1": {
+                "name": "龙威·悟",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    101002,
+                    101080,
+                    101200
+                ],
+                "buff_key": "buff_71496_1"
+            }
+        },
+        "70162": {
+            "15": {
+                "name": "外功会心率提高",
+                "comment": "上将军印·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_critical_strike_rate": 1500
+                }
+            }
+        }
+    },
     "101355": {
         "71213": {
             "4": {

@@ -1,4 +1,4 @@
-from base.constant import MAX_RECIPE, MAX_TALENT_IN_POOL
+from base.constant import MAX_MOBILE_TALENT_COUNT, MAX_RECIPE, MAX_TALENT_IN_POOL
 from qt.classes.kungfu import Kungfu
 from qt.classes.recipe import Recipe, Recipes
 from qt.classes.talent import Talent, Talents
@@ -43,17 +43,28 @@ class TalentScript:
 
     def init(self, talents: list[dict[int, dict]] = None):
         self.talents = talents
-        for i, talent_combo in enumerate(self.widget.talent_combos):
-            talent_combo.set_items([""] + list(self.talents[i]))
-            if talent := self.parent.talents.get(i):
-                talent_combo.setCurrentText(str(talent.name))
 
-        talent_pools = [str(talent.name) for talent in self.parent.talents.talent_pool]
-        self.widget.talent_pool.clear()
-        self.widget.talent_pool.addItems([str(talent) for talent in self.talents[-1]])
-        for i in range(self.widget.talent_pool.count()):
-            item = self.widget.talent_pool.item(i)
-            item.setSelected(item.text() in talent_pools)
+        if len(self.talents) == MAX_MOBILE_TALENT_COUNT:
+            for i, talents in enumerate(self.talents):
+                talent_combo = self.widget.talent_combos[i]
+                talent_combo.set_items([""] + list(talents))
+                if talent := self.parent.talents.get(i):
+                    talent_combo.setCurrentText(str(talent.name))
+            for talent_combo in self.widget.talent_combos[MAX_MOBILE_TALENT_COUNT:]:
+                talent_combo.hide()
+            self.widget.talent_pool.hide()
+        else:
+            for i, talents in enumerate(self.talents[:-1]):
+                talent_combo = self.widget.talent_combos[i]
+                talent_combo.set_items([""] + list(talents))
+                if talent := self.parent.talents.get(i):
+                    talent_combo.setCurrentText(str(talent.name))
+            talent_pools = [str(talent.name) for talent in self.parent.talents.talent_pool]
+            self.widget.talent_pool.clear()
+            self.widget.talent_pool.addItems([str(talent) for talent in self.talents[-1]])
+            for i in range(self.widget.talent_pool.count()):
+                item = self.widget.talent_pool.item(i)
+                item.setSelected(item.text() in talent_pools)
 
 
 class RecipeScript:

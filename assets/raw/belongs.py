@@ -11546,6 +11546,468 @@ BELONGS = {
             "belong_key": "belong_42332"
         }
     },
+    100398: {
+        100077: {
+            "name": "四象轮回·悟",
+            "attributes": {
+                "neutral_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16669_1",
+                "recipe_16670_1"
+            ],
+            "buffs": [
+                70721
+            ],
+            "skills": [
+                100077
+            ],
+            "desc": "对敌方造成伤害。",
+            "belong_key": "belong_100077"
+        },
+        101571: {
+            "name": "七星拱瑞·悟",
+            "attributes": {
+                "neutral_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16683_1",
+                "recipe_16684_1"
+            ],
+            "buffs": [
+                70345
+            ],
+            "skills": [
+                101571,
+                101667
+            ],
+            "desc": "对敌方造成伤害。",
+            "belong_key": "belong_101571"
+        },
+        101573: {
+            "name": "紫气逢真·悟",
+            "recipes": [
+                "recipe_16685_1",
+                "recipe_16686_1"
+            ],
+            "buffs": [
+                70345,
+                70729,
+                70161
+            ],
+            "desc": "获得增益。",
+            "belong_key": "belong_101573"
+        },
+        100398: {
+            "name": "紫霞功·悟",
+            "attributes": {
+                "magical_shield_base": 2347,
+                "physical_shield_base": 2850,
+                "spirit_to_neutral_attack_power": 1946,
+                "spirit_to_neutral_critical_strike": 625,
+                "magical_attack_power_base": 6518,
+                "neutral_critical_strike_base": 5527,
+                "all_shield_ignore": 614,
+                "pve_addition_base": 819
+            },
+            "skills": [
+                18121,
+                101613,
+                101614,
+                101615,
+                101616,
+                101617
+            ],
+            "desc": "运功之时绵若云霞，更有紫气护体，故名紫霞。",
+            "critical_type": "neutral",
+            "damage_type": "neutral",
+            "belong_key": "belong_100398"
+        },
+        100076: {
+            "name": "太极无极·悟",
+            "recipes": [
+                "recipe_16667_1",
+                "recipe_16668_1"
+            ],
+            "skills": [
+                101962,
+                101963
+            ],
+            "desc": "对敌方造成伤害。",
+            "belong_key": "belong_100076"
+        },
+        100079: {
+            "name": "两仪化形·悟",
+            "attributes": {
+                "neutral_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16671_1",
+                "recipe_16672_1"
+            ],
+            "skills": [
+                100079,
+                101567
+            ],
+            "desc": "对敌方造成伤害。",
+            "belong_key": "belong_100079"
+        },
+        100081: {
+            "name": "六合独尊·悟",
+            "recipes": [
+                "recipe_16675_1",
+                "recipe_16676_1"
+            ],
+            "skills": [
+                100475
+            ],
+            "desc": "持续对目标区域内的敌方造成伤害。",
+            "belong_key": "belong_100081"
+        },
+        100087: {
+            "name": "五方行尽·悟",
+            "recipes": [
+                "recipe_16679_1",
+                "recipe_16680_1"
+            ],
+            "skills": [
+                101665
+            ],
+            "desc": "对敌方造成伤害。",
+            "belong_key": "belong_100087"
+        },
+        101568: {
+            "name": "生太极·悟",
+            "attributes": {
+                "neutral_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16673_1",
+                "recipe_16674_1"
+            ],
+            "skills": [
+                101568
+            ],
+            "desc": "产生一个半径5尺的{气场}【生太极】存在8秒。",
+            "belong_key": "belong_101568"
+        },
+        101569: {
+            "name": "坐忘通玄·悟",
+            "recipes": [
+                "recipe_16681_1",
+                "recipe_16682_1"
+            ],
+            "skills": [
+                101598
+            ],
+            "desc": "受到伤害降低，并回复自身气血。",
+            "belong_key": "belong_101569"
+        },
+        101570: {
+            "name": "破苍穹·悟",
+            "attributes": {
+                "neutral_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16677_1",
+                "recipe_16678_1"
+            ],
+            "skills": [
+                101570
+            ],
+            "desc": "产生一个半径5尺的{气场}【破苍穹】存在8秒，自身在【破苍穹】范围内每2秒获得1把{飞剑}。",
+            "belong_key": "belong_101570"
+        },
+        100556: {
+            "name": "道冲·悟",
+            "desc": "自身每次{锁足}、{定身}敌方后，使自身获得5把飞剑。",
+            "belong_key": "belong_100556"
+        },
+        100557: {
+            "name": "持盈·悟",
+            "buffs": [
+                70161
+            ],
+            "desc": "开始运功后自身伤害提高15%，持续3秒。",
+            "belong_key": "belong_100557"
+        },
+        100558: {
+            "name": "不恃·悟",
+            "desc": "{飞剑}伤害提高50%。",
+            "belong_key": "belong_100558"
+        },
+        100559: {
+            "name": "无争·悟",
+            "desc": "施展消耗自身飞剑的招式时，使敌人{轻功沉默}2秒。",
+            "belong_key": "belong_100559"
+        },
+        100560: {
+            "name": "上善·悟",
+            "buffs": [
+                71445
+            ],
+            "desc": "每次获得{飞剑}可使自身伤害提高2%，持续10秒，最多叠加5层。",
+            "belong_key": "belong_100560"
+        },
+        100561: {
+            "name": "和光·悟",
+            "desc": "每次获得{飞剑}可降低1秒【气场招式】的调息时间，且回复自身1%最大气血值。",
+            "belong_key": "belong_100561"
+        },
+        100080: {
+            "name": "气破鸿蒙·悟",
+            "buffs": [
+                70764
+            ],
+            "skills": [
+                101973
+            ],
+            "desc": "对敌方造成伤害，消耗所有{飞剑}，每1把可提高本招式伤害7%，施展后使自身伤害提高。",
+            "belong_key": "belong_100080"
+        },
+        100082: {
+            "name": "镇山河·悟",
+            "desc": "在目标区域产生一个半径7尺的{气场}【镇山河】存在8秒，并{驱散}范围内友方3个【减益】。",
+            "belong_key": "belong_100082"
+        }
+    },
+    100994: {
+        100999: {
+            "name": "项王击鼎·悟",
+            "attributes": {
+                "physical_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16964_1",
+                "recipe_16965_1"
+            ],
+            "buffs": [
+                71047
+            ],
+            "skills": [
+                100999,
+                101000,
+                101001,
+                101050
+            ],
+            "desc": "对前方造成伤害。\\n施展【叁式】消耗全部{逐鹿·悟}，每消耗1层使触发的范围伤害持续时间延长1秒，期间免疫控制。",
+            "belong_key": "belong_100999"
+        },
+        101002: {
+            "name": "刀啸风吟·悟",
+            "attributes": {
+                "physical_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16966_1",
+                "recipe_16967_1"
+            ],
+            "buffs": [
+                70433
+            ],
+            "skills": [
+                101002
+            ],
+            "desc": "运功对前方造成伤害。",
+            "belong_key": "belong_101002"
+        },
+        101005: {
+            "name": "醉斩白蛇·悟",
+            "recipes": [
+                "recipe_16972_1",
+                "recipe_16973_1"
+            ],
+            "buffs": [
+                70161,
+                70360
+            ],
+            "skills": [
+                101080
+            ],
+            "desc": "持续拔刀挥出刀气，每0.5秒对前方造成外功伤害。",
+            "belong_key": "belong_101005"
+        },
+        101009: {
+            "name": "坚壁清野·悟",
+            "recipes": [
+                "recipe_16980_1",
+                "recipe_16981_1"
+            ],
+            "buffs": [
+                71507
+            ],
+            "skills": [
+                101200,
+                101198
+            ],
+            "desc": "对前方造成伤害并残留10秒{刀气区域}。",
+            "belong_key": "belong_101009"
+        },
+        101004: {
+            "name": "闹须弥·悟",
+            "recipes": [
+                "recipe_16970_1",
+                "recipe_16971_1"
+            ],
+            "dots": {
+                70364: [
+                    101068
+                ]
+            },
+            "skills": [
+                101068
+            ],
+            "desc": "冲向目标区域造成伤害，同时附带{流血}，持续16秒。",
+            "belong_key": "belong_101004"
+        },
+        100994: {
+            "name": "北傲诀·悟",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2955,
+                "pve_addition_base": 676,
+                "all_shield_ignore": 614,
+                "strength_to_physical_attack_power": 1802,
+                "strength_to_physical_overcome": 420,
+                "physical_attack_power_base": 7034
+            },
+            "skills": [
+                16820,
+                16419,
+                16822
+            ],
+            "desc": "罡风起处刀鸣烈，龙出沧海撼雷霆。北傲诀进退由心，偃仰任意。练到深邃之处有气盈于膺，刀势展开时吞吐万里，傲意凌穹。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_100994"
+        },
+        101003: {
+            "name": "破釜沉舟·悟",
+            "attributes": {
+                "physical_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16968_1",
+                "recipe_16969_1"
+            ],
+            "skills": [
+                101003
+            ],
+            "desc": "对前方目标造成伤害。\\n·可透支施展1次",
+            "belong_key": "belong_101003"
+        },
+        101006: {
+            "name": "逐鹿中州·悟",
+            "attributes": {
+                "physical_damage_base": 1
+            },
+            "recipes": [
+                "recipe_16974_1",
+                "recipe_16975_1"
+            ],
+            "skills": [
+                101006
+            ],
+            "desc": "对前方造成伤害，命中运功的目标则打断其运功，若其为侠士目标，则使其受到的伤害提高。",
+            "belong_key": "belong_101006"
+        },
+        101007: {
+            "name": "割据秦宫·悟",
+            "recipes": [
+                "recipe_16976_1",
+                "recipe_16977_1"
+            ],
+            "skills": [
+                101108,
+                101109,
+                101110
+            ],
+            "desc": "对前方造成伤害，可{透支}两次并视{透支}程度造成额外效果。\\n·未{透支}使目标{锁足}3秒。\\n·{透支}一次时{眩晕}目标3秒\\n·{透支}两次时使目标{内功沉默}1秒，  {击倒}目标3秒。",
+            "belong_key": "belong_101007"
+        },
+        101008: {
+            "name": "擒龙六斩·悟",
+            "recipes": [
+                "recipe_16978_1",
+                "recipe_16979_1"
+            ],
+            "skills": [
+                101118,
+                101119,
+                101120,
+                101121,
+                101122,
+                101123
+            ],
+            "desc": "冲向选择区域，对范围内目标造成伤害并使其僵直。",
+            "belong_key": "belong_101008"
+        },
+        101296: {
+            "name": "征踏·悟",
+            "desc": "{长刀招式}伤害提高15%，且对{锁足}、{眩晕}、{击倒}目标伤害提高20%。",
+            "belong_key": "belong_101296"
+        },
+        101297: {
+            "name": "敛锋·悟",
+            "desc": "{鞘刀招式}命中的目标气血值低于50%，造成的伤害提高30%。",
+            "belong_key": "belong_101297"
+        },
+        101298: {
+            "name": "无拘·悟",
+            "buffs": [
+                71549
+            ],
+            "desc": "施展{双刀招式}后，回复10%最大气血值，自身移速提高20%，自身伤害提高10%，持续5秒。",
+            "belong_key": "belong_101298"
+        },
+        101299: {
+            "name": "裁魂·悟",
+            "buffs": [
+                70454
+            ],
+            "desc": "{鞘刀招式}命中【坚壁清野·悟】的刀气残留区域内目标时伤害提高35%。",
+            "belong_key": "belong_101299"
+        },
+        101300: {
+            "name": "霸王·悟",
+            "buffs": [
+                70161
+            ],
+            "desc": "施展{长刀招式}后获得1层{逐鹿·悟}，持续20秒。",
+            "belong_key": "belong_101300"
+        },
+        101301: {
+            "name": "龙威·悟",
+            "buffs": [
+                71496
+            ],
+            "desc": "生成刀气阻碍时，使自身下次施展{鞘刀招式}造成的伤害提高50%，持续6秒。",
+            "belong_key": "belong_101301"
+        },
+        101015: {
+            "name": "上将军印·悟",
+            "buffs": [
+                70162
+            ],
+            "skills": [
+                101256,
+                101257,
+                101258,
+                101259,
+                101260
+            ],
+            "desc": "对前方造成5次逐渐递增的伤害，施展后使自身会心率提高。",
+            "belong_key": "belong_101015"
+        },
+        102448: {
+            "name": "四面楚歌·悟",
+            "skills": [
+                102450
+            ],
+            "desc": "自身无法选中，免疫所有负面效果，原地以内力凝聚刀影，以刀气领域笼罩敌人，将当前目标锁足并使其无法施展轻功，刀影会将当前目标击飞，并不断对区域内所有目标造成僵直控制（最多3个目标），刀影不断加速冲刺进行5次打击，最后由空中终结，造成3秒击倒。",
+            "belong_key": "belong_102448"
+        }
+    },
     101355: {
         101357: {
             "name": "钩吻断肠·悟",

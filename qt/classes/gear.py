@@ -25,6 +25,7 @@ class Stone:
 
 
 class Enchant:
+    id: int
     enchant: str
 
     attributes: dict[str, int]
@@ -36,7 +37,7 @@ class Enchant:
             setattr(self, k, v)
 
     def to_dict(self):
-        return dict(enchant=self.enchant)
+        return dict(id=self.id, enchant=self.enchant)
 
     @classmethod
     def from_dict(cls, position: str, json: dict):
@@ -46,6 +47,8 @@ class Enchant:
 
 
 class Gear:
+    id: int
+
     school: str
     kind: str
     equipment: str
@@ -126,6 +129,7 @@ class Gear:
             school=self.school,
             kind=self.kind,
             equipment=self.equipment,
+            id=self.id,
             strength_level=self.strength_level,
             embed_levels=self.embed_levels,
             enchant=self.enchant.to_dict() if self.enchant else None,

@@ -112,24 +112,19 @@ class Kungfu:
 
     @property
     def buffs(self):
-        return {
-            **self.kungfu_buffs,
-            **{k: v for k, v in self.talent_buffs.items() if k in self.talents},
-            "装备": {buff_id: BUFFS[0][buff_id] for gain in self.gear_gains.values() for buff_id in gain.buffs}
-        }
+        talent_buffs = {k: v for k, v in self.talent_buffs.items() if k in self.talents}
+        gear_buffs = {buff_id: BUFFS[0][buff_id] for gain in self.gear_gains.values() for buff_id in gain.buffs}
+        gear_buffs = dict(装备=gear_buffs) if gear_buffs else {}
+        return self.kungfu_buffs | talent_buffs | gear_buffs
 
     @property
     def skills(self):
-        return {
-            **self.kungfu_skills,
-            **{k: v for k, v in self.talent_skills.items() if k in self.talents},
-            "装备": {skill_id: SKILLS[0][skill_id] for gain in self.gear_gains.values() for skill_id in gain.skills}
-        }
+        talent_skills = {k: v for k, v in self.talent_skills.items() if k in self.talents}
+        gear_skills = {skill_id: SKILLS[0][skill_id] for gain in self.gear_gains.values() for skill_id in gain.skills}
+        gear_skills = dict(装备=gear_skills) if gear_skills else {}
+        return self.kungfu_skills | talent_skills | gear_skills
 
     @property
     def dots(self):
-        return {
-            **self.kungfu_dots,
-            **{k: v for k, v in self.talent_dots.items() if k in self.talents},
-            "装备": {dot_id: DOTS[0][dot_id] for gain in self.gear_gains.values() for dot_id in gain.dots}
-        }
+        talent_dots = {k: v for k, v in self.talent_dots.items() if k in self.talents}
+        return self.kungfu_dots | talent_dots
