@@ -233,13 +233,17 @@ def get_stones_list():
             node = node[attr_type]
             attributes[attr_type] = int(value)
         if row.TabIndex:  # noqa
-            stone_id = int(row.TabIndex) - 1  # noqa
+            item_id = int(row.TabIndex) - 1  # noqa
         else:
-            stone_id = int(stone_tab.loc[row.Index - 1].TabIndex)  # noqa
+            item_id = int(stone_tab.loc[row.Index - 1].TabIndex)  # noqa
+        enchant_id = row.ID # noqa
         if level in node:
-            node[level]['id'].append(stone_id)
+            node[level]['item_id'].append(item_id)
+            node[level]['enchant_id'].append(enchant_id)
         else:
-            node[level] = dict(id=[stone_id], name=name, level=int(level), attributes=attributes)
+            node[level] = dict(
+                item_id=[item_id], enchant_id=[enchant_id], name=name, level=int(level), attributes=attributes
+            )
     return result
 
 

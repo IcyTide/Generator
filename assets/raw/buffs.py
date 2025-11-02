@@ -2656,6 +2656,33 @@ BUFFS = {
             }
         },
         12356: {
+            1: {
+                "name": "含弘",
+                "interval": 192,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 31
+                }
+            },
+            2: {
+                "name": "含弘",
+                "interval": 192,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 51
+                }
+            },
+            3: {
+                "name": "含弘",
+                "interval": 192,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 113
+                }
+            },
             4: {
                 "name": "复礼",
                 "interval": 192,
@@ -4111,6 +4138,17 @@ BUFFS = {
                     "physical_critical_power_rate": 100,
                     "physical_critical_strike_rate": 1000,
                     "physical_overcome_gain": 102
+                }
+            }
+        },
+        30304: {
+            1: {
+                "name": "戗风",
+                "interval": 240,
+                "max_stack": 2,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 51
                 }
             }
         },
