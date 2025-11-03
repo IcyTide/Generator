@@ -13,8 +13,8 @@ SKILLS = {
     101003: dict(dest_rollback_attributes=[("coming_damage_cof", 512 * Variable("recipe_16969_1"))]),
     101068: dict(dest_rollback_attributes=[("coming_damage_cof", 512 * Variable("recipe_16970_1"))]),
     101006: dict(self_rollback_attributes=[
-        ("physical_critical_strike_rate", 2000 * Variable("recipe_16966_1")),
-        ("physical_critical_power_rate", 200 * Variable("recipe_16966_1"))
+        ("physical_critical_strike_rate", 2000 * Variable("recipe_16974_1")),
+        ("physical_critical_power_rate", 200 * Variable("recipe_16974_1"))
     ]),
     101108: dict(comment="1段"), 101109: dict(comment="2段"), 101110: dict(comment="3段"),
     **{

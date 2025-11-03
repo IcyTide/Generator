@@ -4,6 +4,7 @@ from PySide6.QtWidgets import QFileDialog, QTabWidget
 
 from kungfus import SUPPORT_KUNGFUS
 from qt.classes.gains.consumable import Consumables
+from qt.classes.gains.formation import Formation
 from qt.classes.gear import Gears
 from qt.classes.kungfu import Kungfu
 from qt.classes.recipe import Recipes
@@ -63,8 +64,8 @@ class TopScript:
             cache["loop"] = self.loop_script.init(self.kungfu, cache["loop"])
             build = self.build_script.init(self.kungfu, cache["talents"], cache["recipes"])
             cache["talents"], cache["recipes"] = build["talents"], build["recipes"]
-            bonus = self.bonus_script.init(self.kungfu, cache["consumables"])
-            cache["consumables"] = bonus["consumables"]
+            bonus = self.bonus_script.init(self.kungfu, cache["consumables"], cache["formation"])
+            cache["consumables"], cache["formation"] = bonus["consumables"], bonus["formation"]
         self.tabs.show()
         self.widget.window().showMaximized()
         self.widget.load_btn.hide()
@@ -101,4 +102,5 @@ class TopScript:
                 talents=Talents.from_dict(kungfu.kungfu_id, v["talents"]),
                 recipes=Recipes.from_dict(kungfu.kungfu_id, v["recipes"]),
                 consumables=Consumables.from_dict({}),
+                formation=Formation.from_dict({})
             )

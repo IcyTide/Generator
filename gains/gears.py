@@ -29,6 +29,8 @@ GAINS: dict[int, dict] = {
     38950: dict(skills=[38966]),
     # divine
     39088: dict(buffs=[29608]),
+    # special weapon
+    22035: dict(skills=[21933]),
     # element
     4877: dict(buffs=[4761]),
     38578: dict(buffs=[29268]),

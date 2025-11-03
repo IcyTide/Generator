@@ -1,4 +1,4 @@
-from PySide6.QtWidgets import QGridLayout, QLabel, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDoubleSpinBox, QGridLayout, QLabel, QVBoxLayout, QWidget
 
 from qt import ComboBox, LabelColumn
 from qt.classes.gains.consumable import *
@@ -72,12 +72,12 @@ class FormationWidget(QWidget):
         self.belong_combo = ComboBox()
         self.belong_combo.set_items([""] + list(FORMATIONS))
         grid_layout.addWidget(LabelColumn("来源", self.belong_combo), 0, 0)
-        self.level_4_combo = ComboBox()
-        grid_layout.addWidget(LabelColumn("四重覆盖率", self.level_4_combo), 1, 0)
-        self.level_5_combo = ComboBox()
-        grid_layout.addWidget(LabelColumn("五重覆盖率", self.level_5_combo), 2, 0)
-        self.level_6_combo = ComboBox()
-        grid_layout.addWidget(LabelColumn("六重覆盖率", self.level_6_combo), 3, 0)
+        self.level_4_spin = QDoubleSpinBox(minimum=0, maximum=1, singleStep=0.1, value=0)
+        grid_layout.addWidget(LabelColumn("四重覆盖率", self.level_4_spin), 1, 0)
+        self.level_5_spin = QDoubleSpinBox(minimum=0, maximum=1, singleStep=0.1, value=0)
+        grid_layout.addWidget(LabelColumn("五重覆盖率", self.level_5_spin), 2, 0)
+        self.level_6_spin = QDoubleSpinBox(minimum=0, maximum=1, singleStep=0.1, value=0)
+        grid_layout.addWidget(LabelColumn("六重覆盖率", self.level_6_spin), 3, 0)
         layout.addStretch()
 
 

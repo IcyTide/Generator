@@ -36,7 +36,8 @@ BUFFS = {
     4246: dict(comment="{}"),
     4058: {1: dict(on_target=1)},
     8248: dict(on_target=1),
-    70021: {1: dict(comment="奇卷"), 2: dict(comment="战锋")},
+    70021: {1: dict(comment="《龙吟·悟》奇卷"), 2: dict(comment="战锋·悟")},
+    70167: {2: dict(comment="无往不利·悟")},
     # formations
     **{
         buff_id: {6: {}} for buff_id in [

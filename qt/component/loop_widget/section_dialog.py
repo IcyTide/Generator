@@ -84,11 +84,10 @@ class SectionDamageDialog(DamagesDialog):
 
 class AllDamageDialog(DamagesDialog):
     def __init__(self, sections: Sections, current: Attribute, snapshot: Attribute, parent: QWidget = None):
-        self.damages, self.duration = {}, 0
+        self.damages, self.duration = {}, sections.duration
         for section in sections:
             if not section.count:
                 continue
-            self.duration += section.duration * section.count
             for record in section.records:
                 if not record.count:
                     continue

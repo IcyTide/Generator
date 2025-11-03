@@ -6172,7 +6172,7 @@
         "70021": {
             "1": {
                 "name": "受到的外功伤害提高",
-                "comment": "奇卷",
+                "comment": "《龙吟·悟》奇卷",
                 "interval": 224,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -6182,7 +6182,7 @@
             },
             "2": {
                 "name": "受到的外功伤害提高",
-                "comment": "战锋",
+                "comment": "战锋·悟",
                 "interval": 224,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -6199,6 +6199,18 @@
                 "max_tick": 1,
                 "attributes": {
                     "strain_base": 715
+                }
+            }
+        },
+        "70167": {
+            "2": {
+                "name": "无双提高",
+                "comment": "无往不利·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 21
                 }
             }
         },

@@ -4,7 +4,7 @@ GAINS: dict[int, dict] = {
     30850: dict(buffs=[23573]),
     404: dict(buffs=[362]),
     6806: dict(buffs=[6363]),
-    403: dict(buffs=[661]),
+    401: dict(buffs=[661]),
     18872: dict(buffs=[12717]),
     2603: dict(buffs=[3465]),
     15115: dict(buffs=[23107]),
@@ -18,17 +18,18 @@ GAINS: dict[int, dict] = {
     2234: dict(buffs=[24742]),
     3980: dict(buffs=[4058]),
     3985: dict(buffs=[4246]),
+    14678: dict(buffs=[4246]),
     13050: dict(buffs=[8248]),
     13422: dict(buffs=[8504]),
     15072: dict(buffs=[10031]),
-    14071: dict(buffs=[23543]), # 16911
+    18819: dict(buffs=[23543]),  # 16911
     28678: dict(buffs=[20854], skills=[29532]),
 
     # mobile
     100460: dict(buffs=[70684]),
     100424: dict(buffs=[70021]),
     100431: dict(buffs=[70160]),
-    # 102319: dict(buffs=[70167]),
+    102319: dict(buffs=[70167]),
     101766: dict(buffs=[71070]),
     101759: dict(buffs=[71417]),
     100120: dict(buffs=[71435]),

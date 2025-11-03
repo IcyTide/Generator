@@ -89,6 +89,13 @@ class Sections:
                 return False
         return True
 
+    @property
+    def duration(self):
+        return sum(section.duration * section.count for section in self.sections)
+
+    def copy(self):
+        return Sections([section.copy() for section in self.sections])
+
     def to_dict(self):
         return [section.to_dict() for section in self.sections]
 

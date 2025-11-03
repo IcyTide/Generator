@@ -41,5 +41,6 @@ SKILLS = {
     22151: dict(comment="{}"),
     29532: {
         1: dict(custom_damage_base=get_damage(), custom_damage_type="poison")
-    }
+    },
+    21933: {5: {}}
 }

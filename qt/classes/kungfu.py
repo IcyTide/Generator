@@ -7,6 +7,8 @@ from base.constant import MAJOR_TYPES
 from qt.classes.attribute import Attribute, Target
 from qt.classes.gains.gear import GearGain
 from qt.classes.gains.team import TeamGain
+from qt.classes.record import Record
+from qt.classes.section import Section, Sections
 
 
 class Kungfu:
@@ -84,6 +86,15 @@ class Kungfu:
         if require_grad:
             attribute.require_grad()
         return attribute
+
+    def create_loop(self, sections: Sections):
+        record = Record("", 1, sections.duration)
+        if self.set_gear_gain:
+            for gain in self.gear_gains.values():
+                gain.set_record(record)
+        sections = sections.copy()
+        sections.append(Section("", 1, 0, [record]))
+        return sections
 
     @property
     def attributes(self):

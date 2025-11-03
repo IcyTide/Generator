@@ -299,7 +299,7 @@ class Target(Defense, DamageCof):
     
     @property
     def resist_critical_strike(self):
-        return self.resist_critical_strike_rate / BINARY_SCALE
+        return self.resist_critical_strike_rate / DECIMAL_SCALE
 
     def call_physical_damage(self, damage_base, damage_rand):
         self.damage_chain.physical_damage_call(damage_base, damage_rand)
