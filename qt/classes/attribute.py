@@ -913,7 +913,7 @@ class Target(Defense, DamageCof):
 class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Target):
     level: int = LEVEL
 
-    buffs: dict[str, int]
+    buffs: dict[str, float]
     recipes: list[str]
     belongs: list[str]
 
@@ -961,6 +961,8 @@ class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Tar
         else:
             attribute = self.target if buff.on_target else self
             for k, v in buff.attributes.items():
+                if not hasattr(attribute, k):
+                    continue
                 attribute[k] += math.ceil(v * buff.stack)
         self.recipes += buff.recipes
 

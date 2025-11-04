@@ -3,6 +3,7 @@ from assets.raw.skills import SKILLS
 from base.constant import BINARY_SCALE
 from gains.gears import GAINS
 from qt.classes.attribute import Attribute
+from qt.classes.buff import Buff, BuffType
 from qt.classes.record import Record
 from qt.classes.skill import Skill
 
@@ -12,10 +13,9 @@ Buff to Attribute Funcs
 
 
 def add_buff_to_attribute(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
-    buff = BUFFS[0][buff_id][buff_level]
-    stack = buff["max_stack"]
-    for k, v in buff["attributes"].items():
-        attribute[k] += int(v * stack * weight)
+    buff = Buff("装备", buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][buff_id][buff_level])
+    buff.stack *= buff.max_stack * weight
+    attribute.add_buff(buff)
 
 
 def default_attribute(self: "GearGain", attribute: Attribute):
@@ -29,7 +29,7 @@ def shoes_attribute(self: "GearGain", attribute: Attribute):
 
 
 def bottom_attribute(self: "GearGain", attribute: Attribute):
-    thresholds = [93 / BINARY_SCALE, 135 / BINARY_SCALE]
+    thresholds = [93 / BINARY_SCALE, 156 / BINARY_SCALE]
     buff_id_bias = (self.gain_level - 1) % 2
     buff_level_bias = (self.gain_level - 1) // 2
     if attribute.strain <= 0.9 + thresholds[buff_id_bias]:

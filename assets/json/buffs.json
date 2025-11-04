@@ -6027,32 +6027,6 @@
                     "neutral_overcome_base": 11298,
                     "solar_overcome_base": 11298
                 }
-            },
-            "2": {
-                "name": "百锻",
-                "interval": 24,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_overcome_base": 22596,
-                    "poison_overcome_base": 22596,
-                    "lunar_overcome_base": 22596,
-                    "neutral_overcome_base": 22596,
-                    "solar_overcome_base": 22596
-                }
-            },
-            "3": {
-                "name": "百锻",
-                "interval": 24,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_overcome_base": 45192,
-                    "poison_overcome_base": 45192,
-                    "lunar_overcome_base": 45192,
-                    "neutral_overcome_base": 45192,
-                    "solar_overcome_base": 45192
-                }
             }
         },
         "24742": {

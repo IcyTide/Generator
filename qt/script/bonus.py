@@ -1,6 +1,6 @@
 from qt.classes.gains.consumable import Consumables
 from qt.classes.gains.formation import Formation, FormationGain
-from qt.classes.gains.team import TeamGain, TeamGains
+from qt.classes.gains.team import TeamGains
 from qt.classes.kungfu import Kungfu
 from qt.component.bonus_widget.widget import BonusWidget, ConsumableWidget, FormationWidget, TeamWidget
 
@@ -73,11 +73,12 @@ class FormationScript:
         self.parent.update_kungfu()
 
     def init(self, formation: Formation):
-        if formation.gain:
-            self.widget.belong_combo.setCurrentText(formation.gain.name)
-            self.widget.level_4_spin.setValue(formation.gain.rates[1])
-            self.widget.level_5_spin.setValue(formation.gain.rates[2])
-            self.widget.level_6_spin.setValue(formation.gain.rates[3])
+        if formation:
+            name, rates = formation.gain.name, formation.gain.rates
+            self.widget.belong_combo.setCurrentText(name)
+            self.widget.level_4_spin.setValue(rates[1])
+            self.widget.level_5_spin.setValue(rates[2])
+            self.widget.level_6_spin.setValue(rates[3])
         else:
             self.widget.belong_combo.setCurrentText("")
             self.widget.level_4_spin.setValue(0)
@@ -94,10 +95,38 @@ class TeamGainScript:
 
     def connect(self):
         self.widget.belong_combo.currentTextChanged.connect(self.select_team)
+        self.widget.stack_spin.valueChanged.connect(self.select_stack)
+        self.widget.rate_spin.valueChanged.connect(self.select_rate)
 
     def select_team(self, gain_name: str):
-        ...
+        if not gain_name:
+            self.widget.stack_spin.setValue(0)
+            self.widget.rate_spin.setValue(0)
+            return
+        team_gain = self.parent.team_gains.get(gain_name)
+        stack, max_stack, rate = team_gain.stack, team_gain.max_stack, team_gain.rate
+        self.widget.stack_spin.setMaximum(max_stack)
+        self.widget.stack_spin.setValue(stack)
+        self.widget.rate_spin.setValue(rate)
 
+    def select_stack(self, stack: int):
+        gain_name = self.widget.belong_combo.currentText()
+        if not gain_name:
+            return
+        team_gain = self.parent.team_gains.get(gain_name)
+        team_gain.stack = stack
+        self.parent.update_kungfu()
+
+    def select_rate(self, rate: float):
+        gain_name = self.widget.belong_combo.currentText()
+        if not gain_name:
+            return
+        team_gain = self.parent.team_gains.get(gain_name)
+        team_gain.rate = rate
+        self.parent.update_kungfu()
+
+    def init(self, team_gains: TeamGains):
+        ...
 
 
 class BonusScript:
@@ -138,11 +167,12 @@ class BonusScript:
 
         self.consumable_script.init(self.consumables)
         self.formation_script.init(self.formation)
+        self.team_script.init(self.team_gains)
 
-        return dict(consumables=self.consumables, formation=self.formation)
+        return dict(consumables=self.consumables, formation=self.formation, team_gains=self.team_gains)
 
     def update_kungfu(self):
         attributes = self.consumables.content
-        gains = self.formation.content
+        gains = self.formation.content | self.team_gains.content
         self.kungfu.bonus_attributes = attributes
         self.kungfu.bonus_gains = gains

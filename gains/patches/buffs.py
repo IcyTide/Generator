@@ -32,7 +32,7 @@ BUFFS = {
     566: dict(on_target=1),
     378: {7: {}},
     375: {5: {}},
-    29354: dict(comment="{}"),
+    29354: {1: {}},
     4246: dict(comment="{}"),
     4058: {1: dict(on_target=1)},
     8248: dict(on_target=1),

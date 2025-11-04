@@ -95,7 +95,7 @@ class Consumables:
     def get(self, key):
         if key not in self.consumables:
             return ""
-        return self.consumables[key]
+        return self.consumables[key].name
 
     def pop(self, key):
         if key not in self.consumables:

@@ -1,9 +1,9 @@
-from PySide6.QtWidgets import QDoubleSpinBox, QGridLayout, QLabel, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDoubleSpinBox, QGridLayout, QLabel, QSpinBox, QVBoxLayout, QWidget
 
 from qt import ComboBox, LabelColumn
 from qt.classes.gains.consumable import *
 from qt.classes.gains.formation import FORMATIONS
-from qt.classes.gains.team import TEAMS
+from qt.classes.gains.team import TEAM_GAINS
 
 
 class ConsumableWidget(QWidget):
@@ -90,12 +90,12 @@ class TeamWidget(QWidget):
         layout.addLayout(grid_layout)
 
         self.belong_combo = ComboBox()
-        self.belong_combo.set_items([""] + list(TEAMS))
+        self.belong_combo.set_items([""] + list(TEAM_GAINS))
         grid_layout.addWidget(LabelColumn("来源", self.belong_combo), 0, 0)
-        self.stack_combo = ComboBox()
-        grid_layout.addWidget(LabelColumn("层数", self.stack_combo), 1, 0)
-        self.rate_combo = ComboBox()
-        grid_layout.addWidget(LabelColumn("覆盖率", self.rate_combo), 2, 0)
+        self.stack_spin = QSpinBox(minimum=0, value=0)
+        grid_layout.addWidget(LabelColumn("层数", self.stack_spin), 1, 0)
+        self.rate_spin = QDoubleSpinBox(minimum=0, maximum=1, singleStep=0.1, value=0)
+        grid_layout.addWidget(LabelColumn("覆盖率", self.rate_spin), 2, 0)
         layout.addStretch()
 
 

@@ -2,21 +2,31 @@ from assets.raw.belongs import BELONGS
 from assets.raw.buffs import BUFFS
 from gains.formations import FORMATIONS as RAW_FORMATIONS
 from qt.classes.attribute import Attribute
+from qt.classes.buff import Buff, BuffType
 
 
-def add_buff_to_attributes(buff_id: int, attribute: Attribute, weight: float = 1.):
-    for buff in BUFFS[0][buff_id].values():
-        stack = buff["max_stack"]
-        for k, v in buff["attributes"].items():
-            attribute[k] += int(v * stack * weight)
+def add_buff_to_attributes(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
+    buff = Buff("阵眼", buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][buff_id][buff_level])
+    buff.stack *= buff.max_stack
+    attribute.add_buff(buff)
 
 
-def buff_18336(buff_id: int, attribute: Attribute, weight: float = 1.):
-    add_buff_to_attributes(buff_id, attribute, weight / len(BUFFS[0][buff_id]))
+def default_attribute(self: "FormationGain", attribute: Attribute):
+    for buff_id in self.buffs:
+        buff_level = list(BUFFS[0][buff_id])[0]
+        add_buff_to_attributes(buff_id, buff_level, attribute, self.rate)
 
 
-def buff_18337(buff_id: int, attribute: Attribute, weight: float = 1.):
-    add_buff_to_attributes(buff_id, attribute, weight / 2)
+def buff_18336(self: "FormationGain", attribute: Attribute):
+    buff_id = self.buffs[0]
+    for buff_level in BUFFS[0][buff_id]:
+        add_buff_to_attributes(buff_id, buff_level, attribute, self.rate / len(BUFFS[0][buff_id]))
+
+
+def buff_18337(self: "FormationGain", attribute: Attribute):
+    self.rate /= 2
+    default_attribute(self, attribute)
+    self.rate *= 2
 
 
 FORMATIONS = {
@@ -33,6 +43,8 @@ class FormationGain:
     buffs: list[int]
     skills: list[int]
 
+    rate: float = 0.
+
     def __init__(self, name: str, level_4_rate: float, level_5_rate: float, level_6_rate: float):
         self.name = name
         self.rates = [1, level_4_rate, level_5_rate, level_6_rate]
@@ -42,10 +54,8 @@ class FormationGain:
         for buff_id, rate in zip(self.buffs, self.rates):
             if not buff_id:
                 continue
-            if buff_id in ATTRIBUTE_FUNCS:
-                ATTRIBUTE_FUNCS[buff_id](buff_id, attribute, rate)
-            else:
-                add_buff_to_attributes(buff_id, attribute, rate)
+            self.rate = rate
+            ATTRIBUTE_FUNCS.get(buff_id, default_attribute)(self, attribute)
 
 
 class Formation:
@@ -54,6 +64,9 @@ class Formation:
             self.gain = FormationGain(name, level_4_rate, level_5_rate, level_6_rate)
         else:
             self.gain = None
+
+    def __bool__(self):
+        return self.gain is not None
 
     @property
     def content(self):
