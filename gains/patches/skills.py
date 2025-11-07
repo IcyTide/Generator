@@ -12,19 +12,19 @@ def get_damage():
 SKILLS = {
     42837: {
         # 12跳(9232)15跳(19285)17跳(30158)22跳(42057)
-        1: dict(custom_damage_base=123300),
+        1: dict(custom_damage_base=141600),
     },
     40789: {
         1: dict(custom_damage_base=403200),
-        2: dict(custom_damage_base=524160)
+        2: dict(custom_damage_base=601965)
     },
     38966: {
         1: dict(custom_damage_base=86500),
         2: dict(custom_damage_base=90000),
         3: dict(custom_damage_base=320423),
         4: dict(custom_damage_base=345600),
-        5: dict(custom_damage_base=413600),
-        6: dict(custom_damage_base=449280),
+        5: dict(custom_damage_base=475043),
+        6: dict(custom_damage_base=515970),
     },
     37562: {
         1: dict(custom_damage_base=244355),

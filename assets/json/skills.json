@@ -18834,7 +18834,7 @@
         "42837": {
             "1": {
                 "name": "速·震",
-                "damage": "123300 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "damage": "141600 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
@@ -18848,7 +18848,7 @@
             },
             "2": {
                 "name": "巽",
-                "damage": "524160 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "damage": "601965 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
@@ -18880,13 +18880,13 @@
             },
             "5": {
                 "name": "无修·地",
-                "damage": "413600 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "damage": "475043 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             },
             "6": {
                 "name": "无修·地",
-                "damage": "449280 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "damage": "515970 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }
