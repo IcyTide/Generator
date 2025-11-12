@@ -1781,6 +1781,33 @@ DOTS = {
             }
         }
     },
+    10243: {
+        4202: {
+            18: {
+                "name": "银月斩(DOT)",
+                "interval": "32",
+                "max_stack": 1,
+                "max_tick": 9,
+                "skills": {
+                    13359: {
+                        18: {
+                            "name": "银月斩",
+                            "comment": "",
+                            "damage": "(55 + lunar_attack_power * 0.2986111111111111) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "critical_damage": "damage * lunar_critical_power",
+                            "critical_strike": "lunar_critical_strike + (300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1) / 10000",
+                            "recipes": [
+                                "recipe_992_1",
+                                "recipe_993_1",
+                                "recipe_994_1"
+                            ],
+                            "buffs": []
+                        }
+                    }
+                }
+            }
+        }
+    },
     10268: {
         6367: {
             20: {

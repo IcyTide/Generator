@@ -58,11 +58,8 @@ class DamagesDialog(QDialog):
         self.tool_box.addItem(sub_page, "概述")
 
         sub_layout = QVBoxLayout(sub_page := QWidget())
-        self.grad_labels: dict[str, QLabel] = {}
-        translates, _ = get_translates(GRAD_VARIABLES)
-        for attr in GRAD_VARIABLES:
-            self.grad_labels[attr] = grad_label = QLabel("")
-            sub_layout.addWidget(LabelRow(f"{translates[attr]}:", grad_label))
+        self.grad_table = Table(["属性", "差值", "提升%"])
+        sub_layout.addWidget(self.grad_table)
         self.tool_box.addItem(sub_page, "收益")
 
         sub_layout = QVBoxLayout(sub_page := QWidget())
@@ -82,12 +79,17 @@ class DamagesDialog(QDialog):
         for name, damage in self.damages.items():
             damages[name] = int(damage.formula.evaluate(variables))
             for attr, delta in GRAD_VARIABLES.items():
-                grad_damages[attr] += damage.formula.evaluate({**variables, attr: delta})
+                grad_damages[attr] += int(damage.formula.evaluate({**variables, attr: delta}))
         total_damage = sum(damages.values())
-        for attr, grad_damage in grad_damages.items():
-            gradient = percent(grad_damage / total_damage - 1)
-            self.grad_labels[attr].setText(str(gradient))
 
+        translates, _ = get_translates(GRAD_VARIABLES)
+        gradients = []
+        for attr, grad_damage in grad_damages.items():
+            if grad_damage == total_damage:
+                continue
+            gradient = percent(grad_damage / total_damage - 1)
+            gradients.append((translates[attr], GRAD_VARIABLES[attr], gradient))
+        self.grad_table.refresh_table(gradients)
         damages_data = [
             (name, round(self.damages[name].count, 2), damage, percent(damage / total_damage))
             for name, damage in sorted(damages.items(), key=lambda x: x[1], reverse=True)

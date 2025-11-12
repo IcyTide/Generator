@@ -1,5 +1,4 @@
 from base.expression import Variable
-from kungfus import BUFF_PATCHES
 from tools.classes import AliasBase
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_TYPE

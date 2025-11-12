@@ -85,6 +85,7 @@ class ATTRIBUTE_TYPE(StrEnum):
 
     ADAPT_ATTRIBUTE_TYPE = ""
     ACTIVE_THREAT_COEFFICIENT = ""
+    EXTRA_THREAT_COEFFICIENT = ""
     DROP_DEFENCE = ""
     BEAT_BACK_RATE = ""
     KNOCKED_DOWN_RATE = ""
@@ -393,11 +394,14 @@ class ATTRIBUTE_TYPE(StrEnum):
     BE_THERAPY_COEFFICIENT = ""
 
     # Cof Attribute
+    VITALITY_TO_MAX_LIFE_COF = ""
     VITALITY_TO_MAX_MANA_COF = ""
-    THERAPY_POWER_TO_MAGIC_ATTACK_POWER_COF = ""
+    VITALITY_TO_PARRY_VALUE_COF = ""
+    VITALITY_TO_DODGE_COF = ""
     AGILITY_TO_PARRY_COF = ""
     AGILITY_TO_PARRY_VALUE_COF = ""
     POISON_ATTACK_POWER_TO_THERAPY_POWER_COF = ""
+    THERAPY_POWER_TO_MAGIC_ATTACK_POWER_COF = ""
 
     AGILITY_TO_PHYSICS_ATTACK_POWER_COF = "agility_to_physical_attack_power"
     AGILITY_TO_PHYSICS_CRITICAL_STRIKE_COF = "agility_to_physical_critical_strike"
@@ -421,6 +425,13 @@ class ATTRIBUTE_TYPE(StrEnum):
     SPUNK_TO_SOLAR_CRITICAL_STRIKE_COF = "spunk_to_solar_critical_strike"
     SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF = "spunk_to_solar_and_lunar_critical_strike"
     SPUNK_TO_NEUTRAL_CRITICAL_STRIKE_COF = "spunk_to_neutral_critical_strike"
+
+    VITALITY_TO_PHYSICS_ATTACK_POWER_COF = "vitality_to_magical_attack_power"
+    VITALITY_TO_SOLAR_ATTACK_POWER_COF = "vitality_to_solar_attack_power"
+    VITALITY_TO_LUNAR_ATTACK_POWER_COF = "vitality_to_lunar_attack_power"
+    VITALITY_TO_PHYSICS_OVER_COME_COF = "vitality_to_physical_overcome"
+    VITALITY_TO_MAGIC_OVER_COME_COF = "vitality_to_magical_overcome"
+    VITALITY_TO_MAGIC_CRITICAL_STRIKE_COF = "vitality_to_magical_critical_strike"
 
     # Other Attribute
     ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"

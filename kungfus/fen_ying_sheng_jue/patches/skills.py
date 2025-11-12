@@ -7,10 +7,7 @@ SKILLS = {
         4: dict(comment="阴性+用晦而明"),
         5: dict(comment="崇光斩恶")
     },
-    35065: {
-        1: dict(comment="DPS"),
-        2: dict(comment="Tank")
-    },
+    35065: {1: {}},
     **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([4024, 4025, 4026])},
     **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([4028, 4029, 4030])},
     4480: {

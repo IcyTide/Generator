@@ -36,7 +36,7 @@ class BaseType:
 
 
 class Major(BaseType):
-    vitality_base: int = BASE_MAJOR
+    vitality_base: int = VITALITY_MAJOR
     agility_base: int = BASE_MAJOR
     strength_base: int = BASE_MAJOR
     spirit_base: int = BASE_MAJOR
@@ -75,6 +75,10 @@ class Major(BaseType):
     @property
     def spunk(self):
         return Int(self.spunk_base * (1 + self.spunk_gain / BINARY_SCALE))
+
+    @property
+    def vitality(self):
+        return Int(self.vitality_base * (1 + self.vitality_gain / BINARY_SCALE))
 
     @property
     def agility_critical_strike_base(self):
@@ -120,6 +124,7 @@ class AttackPower(Major):
 
     agility_to_physical_attack_power: int = 0
     strength_to_physical_attack_power: int = 0
+
     spunk_to_solar_attack_power: int = 0
     spirit_to_lunar_attack_power: int = 0
     spunk_to_solar_and_lunar_attack_power: int = 0
@@ -127,6 +132,10 @@ class AttackPower(Major):
     spirit_to_neutral_attack_power: int = 0
     spunk_to_poison_attack_power: int = 0
     spirit_to_poison_attack_power: int = 0
+
+    vitality_to_physical_attack_power: int = 0
+    vitality_to_solar_attack_power: int = 0
+    vitality_to_lunar_attack_power: int = 0
 
     @property
     def solar_and_lunar_attack_power_base(self):
@@ -184,6 +193,8 @@ class AttackPower(Major):
             return Int(self.agility * self.agility_to_physical_attack_power / BINARY_SCALE)
         if self.strength_to_physical_attack_power:
             return Int(self.strength * self.strength_to_physical_attack_power / BINARY_SCALE)
+        if self.vitality_to_physical_attack_power:
+            return Int(self.vitality * self.vitality_to_physical_attack_power / BINARY_SCALE)
         return 0
 
     @property
@@ -192,6 +203,8 @@ class AttackPower(Major):
             return Int(self.spunk * self.spunk_to_solar_attack_power / BINARY_SCALE)
         if self.spunk_to_solar_and_lunar_attack_power:
             return Int(self.spunk * self.spunk_to_solar_and_lunar_attack_power / BINARY_SCALE)
+        if self.vitality_to_solar_attack_power:
+            return Int(self.vitality * self.vitality_to_solar_attack_power / BINARY_SCALE)
         return 0
 
     @property
@@ -200,6 +213,8 @@ class AttackPower(Major):
             return Int(self.spirit * self.spirit_to_lunar_attack_power / BINARY_SCALE)
         if self.spunk_to_solar_and_lunar_attack_power:
             return Int(self.spunk * self.spunk_to_solar_and_lunar_attack_power / BINARY_SCALE)
+        if self.vitality_to_lunar_attack_power:
+            return Int(self.vitality * self.vitality_to_lunar_attack_power / BINARY_SCALE)
         return 0
 
     @property
@@ -290,12 +305,15 @@ class CriticalStrike(Major):
 
     agility_to_physical_critical_strike: int = 0
     strength_to_physical_critical_strike: int = 0
+
     spunk_to_physical_critical_strike: int = 0
     spunk_to_solar_critical_strike: int = 0
     spunk_to_neutral_critical_strike: int = 0
     spirit_to_lunar_critical_strike: int = 0
     spunk_to_solar_and_lunar_critical_strike: int = 0
     spirit_to_neutral_critical_strike: int = 0
+
+    vitality_to_magical_critical_strike: int = 0
 
     @property
     def critical_strike_base(self):
@@ -359,6 +377,8 @@ class CriticalStrike(Major):
             return Int(self.spunk * self.spunk_to_solar_critical_strike / BINARY_SCALE)
         if self.spunk_to_solar_and_lunar_critical_strike:
             return Int(self.spunk * self.spunk_to_solar_and_lunar_critical_strike / BINARY_SCALE)
+        if self.vitality_to_magical_critical_strike:
+            return Int(self.vitality * self.vitality_to_magical_critical_strike / BINARY_SCALE)
         return 0
 
     @property
@@ -367,6 +387,8 @@ class CriticalStrike(Major):
             return Int(self.spirit * self.spirit_to_lunar_critical_strike / BINARY_SCALE)
         if self.spunk_to_solar_and_lunar_critical_strike:
             return Int(self.spunk * self.spunk_to_solar_and_lunar_critical_strike / BINARY_SCALE)
+        if self.vitality_to_magical_critical_strike:
+            return Int(self.vitality * self.vitality_to_magical_critical_strike / BINARY_SCALE)
         return 0
 
     @property
@@ -375,10 +397,14 @@ class CriticalStrike(Major):
             return Int(self.spirit * self.spirit_to_neutral_critical_strike / BINARY_SCALE)
         if self.spunk_to_neutral_critical_strike:
             return Int(self.spunk * self.spunk_to_neutral_critical_strike / BINARY_SCALE)
+        if self.vitality_to_magical_critical_strike:
+            return Int(self.vitality * self.vitality_to_magical_critical_strike / BINARY_SCALE)
         return 0
 
     @property
     def extra_poison_critical_strike(self):
+        if self.vitality_to_magical_critical_strike:
+            return Int(self.vitality * self.vitality_to_magical_critical_strike / BINARY_SCALE)
         return 0
 
     @property
@@ -495,6 +521,9 @@ class Overcome(Major):
     spunk_to_neutral_overcome: int = 0
     spirit_to_poison_overcome: int = 0
 
+    vitality_to_physical_overcome: int = 0
+    vitality_to_magical_overcome: int = 0
+
     @property
     def overcome_base(self):
         return self[f"{self.damage_type}_overcome_base"]
@@ -547,26 +576,36 @@ class Overcome(Major):
             return Int(self.agility * self.agility_to_physical_overcome / BINARY_SCALE)
         if self.strength_to_physical_overcome:
             return Int(self.strength * self.strength_to_physical_overcome / BINARY_SCALE)
+        if self.vitality_to_physical_overcome:
+            return Int(self.vitality * self.vitality_to_physical_overcome / BINARY_SCALE)
         return 0
 
     @property
     def extra_solar_overcome(self):
+        if self.vitality_to_magical_overcome:
+            return Int(self.vitality * self.vitality_to_magical_overcome / BINARY_SCALE)
         return 0
 
     @property
     def extra_lunar_overcome(self):
+        if self.vitality_to_magical_overcome:
+            return Int(self.vitality * self.vitality_to_magical_overcome / BINARY_SCALE)
         return 0
 
     @property
     def extra_neutral_overcome(self):
         if self.spunk_to_neutral_overcome:
             return Int(self.spunk * self.spunk_to_neutral_overcome / BINARY_SCALE)
+        if self.vitality_to_magical_overcome:
+            return Int(self.vitality * self.vitality_to_magical_overcome / BINARY_SCALE)
         return 0
 
     @property
     def extra_poison_overcome(self):
         if self.spirit_to_poison_overcome:
             return Int(self.spirit * self.spirit_to_poison_overcome / BINARY_SCALE)
+        if self.vitality_to_magical_overcome:
+            return Int(self.vitality * self.vitality_to_magical_overcome / BINARY_SCALE)
         return 0
 
     @property

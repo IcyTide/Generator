@@ -2629,6 +2629,142 @@ BUFFS = {
             }
         }
     },
+    10243: {
+        17885: {
+            4: {
+                "name": "明尊·宿敌",
+                "comment": "主T",
+                "interval": 1200,
+                "max_stack": 1,
+                "max_tick": 4,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 572,
+                    "vitality_to_magical_overcome": 549,
+                    "vitality_to_lunar_attack_power": 572
+                }
+            },
+            7: {
+                "name": "明尊·宿敌",
+                "comment": "主T极本溯源",
+                "interval": 1200,
+                "max_stack": 1,
+                "max_tick": 4,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 572,
+                    "vitality_to_magical_overcome": 549,
+                    "vitality_to_lunar_attack_power": 572,
+                    "vitality_to_magical_critical_strike": 90
+                }
+            }
+        },
+        29938: {
+            4: {
+                "name": "明尊",
+                "comment": "副T",
+                "interval": 4800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 191,
+                    "vitality_to_magical_overcome": 184,
+                    "vitality_to_lunar_attack_power": 191
+                }
+            },
+            7: {
+                "name": "明尊",
+                "comment": "副T极本溯源",
+                "interval": 4800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 191,
+                    "vitality_to_magical_overcome": 184,
+                    "vitality_to_lunar_attack_power": 191,
+                    "vitality_to_magical_critical_strike": 90
+                }
+            }
+        },
+        28355: {
+            1: {
+                "name": "烈日",
+                "comment": "自身",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_5557_1"
+                ]
+            }
+        },
+        4423: {
+            3: {
+                "name": "光明相",
+                "interval": 160,
+                "max_stack": 3,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4545_1",
+                    "recipe_4546_1"
+                ]
+            }
+        },
+        4246: {
+            2: {
+                "name": "朝圣",
+                "comment": "圣浴明心",
+                "interval": 16,
+                "max_stack": 100,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 835
+                }
+            }
+        },
+        19514: {
+            1: {
+                "name": "驱夷逐法",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2517_1"
+                ]
+            }
+        },
+        30644: {
+            1: {
+                "name": "净体不畏",
+                "comment": "烈日斩",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_5930_1"
+                ]
+            },
+            2: {
+                "name": "净体不畏",
+                "comment": "银月斩",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_5931_1"
+                ]
+            }
+        },
+        18222: {
+            3: {
+                "name": "怜世人",
+                "interval": 240,
+                "max_stack": 3,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_gain": 205
+                }
+            }
+        }
+    },
     10268: {
         30400: {
             1: {

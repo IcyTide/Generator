@@ -40,6 +40,7 @@ SHIELD_CONSTANT_MAP = {
 }
 
 BASE_MAJOR = 44
+VITALITY_MAJOR = 45
 BASE_CRITICAL_POWER = 1792
 
 # Ui Constant
@@ -166,7 +167,8 @@ MAJOR_TYPES = {
     "力道": "strength",
     "身法": "agility",
     "元气": "spunk",
-    "根骨": "spirit"
+    "根骨": "spirit",
+    "体质": "vitality"
 }
 CURRENT_VARIABLE_TEMPLATES = [
     "{}_overcome"
@@ -203,6 +205,7 @@ EXTRA_VARIABLES = {
 }
 GRAD_VARIABLES = {
     "major_base": 308,
+    "vitality_base": 1037,
     "physical_attack_power_base": 652,
     "magical_attack_power_base": 728,
     "weapon_damage_base": 984,

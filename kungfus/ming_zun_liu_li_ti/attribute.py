@@ -1,0 +1,4 @@
+ATTRIBUTE = 10243
+KIND = "防御"
+SCHOOL = "明教"
+MAJOR = "体质"
