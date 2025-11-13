@@ -1,0 +1,4 @@
+ATTRIBUTE = 10389
+KIND = "防御"
+SCHOOL = "苍云"
+MAJOR = "体质"

@@ -21,7 +21,8 @@ class Skill(AliasBase):
         "nAreaRadius": "zero",
         "nBeatBackRate": "zero",
         "nTargetCountLimit": "zero",
-        "nChannelFrame": "zero"
+        "nChannelFrame": "zero",
+        "nBaseThreat": "zero"
     }
     skill_id: int
     skill_level: int = 0

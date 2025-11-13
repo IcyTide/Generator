@@ -8,10 +8,8 @@ BUFFS: dict[int, dict] = {
         9: dict(name="嗜血")
     },
     8244: {1: {}},
-    8474: {
-        -1: dict(comment="DPS"),
-        0: dict(comment="Tank")
-    },
+    8474: {-1: {}},
+    8248: {22: {}},
     31385: {
         1: dict(comment="崩血"),
         2: dict(comment="崩血+登锋")

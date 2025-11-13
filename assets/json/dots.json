@@ -1098,6 +1098,55 @@
             }
         }
     },
+    "10062": {
+        "3442": {
+            "30": {
+                "name": "流血(DOT)",
+                "interval": "32",
+                "max_stack": 2,
+                "max_tick": 7,
+                "skills": {
+                    "18591": {
+                        "30": {
+                            "name": "",
+                            "comment": "",
+                            "damage": "(60 + physical_attack_power * int(802.233892177905 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [
+                                "recipe_3257_1"
+                            ],
+                            "buffs": []
+                        }
+                    }
+                }
+            }
+        },
+        "12461": {
+            "30": {
+                "name": "流血(DOT)",
+                "comment": "击水",
+                "interval": "32",
+                "max_stack": 3,
+                "max_tick": 7,
+                "skills": {
+                    "401": {
+                        "30": {
+                            "name": "破风",
+                            "comment": "",
+                            "damage": "(60 + physical_attack_power * int(802.233892177905 * (1 + 0.19999999999999996 * recipe_3257_1)) * 0.0010044642857142858) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [
+                                "recipe_3257_1"
+                            ],
+                            "buffs": []
+                        }
+                    }
+                }
+            }
+        }
+    },
     "10081": {
         "18512": {
             "1": {
@@ -1863,6 +1912,159 @@
                             "name": "",
                             "comment": "",
                             "damage": "(33 + physical_attack_power * 0.5291666666666667) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "10389": {
+        "8249": {
+            "22": {
+                "name": "流血(DOT)",
+                "interval": "32",
+                "max_stack": 1,
+                "max_tick": 13,
+                "skills": {
+                    "29188": {
+                        "28": {
+                            "name": "",
+                            "comment": "",
+                            "damage": "(47 + physical_attack_power * 0.12463942307692308) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "13308": {
+                        "22": {
+                            "name": "",
+                            "comment": "闪刀割裂",
+                            "damage": "(47 + physical_attack_power * 0.46995192307692313) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "20989": {
+                        "22": {
+                            "name": "",
+                            "comment": "闪刀割裂+炼狱",
+                            "damage": "(47 + physical_attack_power * 0.4740384615384616) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "29185": {
+                        "28": {
+                            "name": "",
+                            "comment": "斩刀割裂+炼狱",
+                            "damage": "(47 + physical_attack_power * 0.5210336538461539) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "29186": {
+                        "28": {
+                            "name": "",
+                            "comment": "斩刀割裂",
+                            "damage": "(47 + physical_attack_power * 0.2370192307692308) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "29187": {
+                        "28": {
+                            "name": "",
+                            "comment": "斩刀炼狱",
+                            "damage": "(47 + physical_attack_power * 0.24927884615384616) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    }
+                }
+            },
+            "50": {
+                "name": "流血(DOT)",
+                "comment": "炼狱",
+                "interval": "16",
+                "max_stack": 1,
+                "max_tick": 26,
+                "skills": {
+                    "29188": {
+                        "28": {
+                            "name": "",
+                            "comment": "",
+                            "damage": "(47 + physical_attack_power * 0.06231971153846154) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "13308": {
+                        "22": {
+                            "name": "",
+                            "comment": "闪刀割裂",
+                            "damage": "(47 + physical_attack_power * 0.23497596153846156) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "20989": {
+                        "22": {
+                            "name": "",
+                            "comment": "闪刀割裂+炼狱",
+                            "damage": "(47 + physical_attack_power * 0.2370192307692308) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "29185": {
+                        "28": {
+                            "name": "",
+                            "comment": "斩刀割裂+炼狱",
+                            "damage": "(47 + physical_attack_power * 0.2605168269230769) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "29186": {
+                        "28": {
+                            "name": "",
+                            "comment": "斩刀割裂",
+                            "damage": "(47 + physical_attack_power * 0.1185096153846154) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "critical_damage": "damage * physical_critical_power",
+                            "critical_strike": "physical_critical_strike",
+                            "recipes": [],
+                            "buffs": []
+                        }
+                    },
+                    "29187": {
+                        "28": {
+                            "name": "",
+                            "comment": "斩刀炼狱",
+                            "damage": "(47 + physical_attack_power * 0.12463942307692308) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike",
                             "recipes": [],

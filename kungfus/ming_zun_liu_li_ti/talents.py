@@ -1,6 +1,6 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        14678: dict(buffs=[4246]),
+        14678: {},
         14679: {},
         14680: {},
         14922: dict(skills=[14922])
@@ -12,13 +12,13 @@ TALENTS: list[dict[int, dict]] = [
         3961: dict(skills=[3961])
     },
     {
-        14698: dict(buffs=[19514]),
+        14698: dict(buffs=[12578]),
         3984: {},
         3971: {},
         3981: {}
     },
     {
-        25166: dict(buffs=[30644], skills=[26708]),
+        25166: dict(buffs=[30644], skills=[26708, 26709]),
         6896: {},
         5977: dict(skills=[29933]),
         18296: dict(skills=[42566])

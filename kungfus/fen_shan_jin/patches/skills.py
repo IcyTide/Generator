@@ -1,9 +1,7 @@
 SKILLS = {
     13039: dict(channel_interval=24),
     32745: {
-        # 1: dict(comment="铁骨衣斩刀"),
         2: dict(comment="斩刀"),
-        # 3: dict(comment="铁骨衣绝刀"),
         7: dict(comment="惊涌斩刀"),
         9: dict(comment="阵云结晦")
     },
@@ -19,9 +17,8 @@ SKILLS = {
         1: dict(comment="原始盾舞"),
         2: dict(comment="惊涌盾舞")
     },
-    41738: dict(comment="崩血+登锋"),
     36065: {1: {}},
     13143: dict(comment="流血"), 13144: dict(comment="原始"),
-    41737: dict(comment="登锋"),
+    41737: dict(comment="登锋"), 41738: dict(comment="崩血+登锋"),
     **{skill_id: {1: dict(comment=f"{i + 1}段")} for i, skill_id in enumerate([30925, 30926, 30857])}
 }

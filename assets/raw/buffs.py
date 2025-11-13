@@ -1350,6 +1350,63 @@ BUFFS = {
             }
         }
     },
+    10062: {
+        6363: {
+            2: {
+                "name": "激雷",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 24,
+                "attributes": {
+                    "physical_critical_strike_rate": 3000
+                }
+            }
+        },
+        6121: {
+            1: {
+                "name": "驰骋",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 3,
+                "attributes": {
+                    "physical_attack_power_gain": 154
+                }
+            }
+        },
+        26008: {
+            1: {
+                "name": "战心",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_3257_1"
+                ]
+            }
+        },
+        18222: {
+            2: {
+                "name": "崩决",
+                "interval": 240,
+                "max_stack": 7,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_gain": 102
+                }
+            }
+        },
+        2779: {
+            1: {
+                "name": "渊",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 358
+                }
+            }
+        }
+    },
     10081: {
         409: {
             21: {
@@ -2708,26 +2765,25 @@ BUFFS = {
                 ]
             }
         },
-        4246: {
-            2: {
-                "name": "朝圣",
-                "comment": "圣浴明心",
-                "interval": 16,
-                "max_stack": 100,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_base": 835
-                }
-            }
-        },
-        19514: {
+        12578: {
             1: {
                 "name": "驱夷逐法",
+                "comment": "日破",
                 "interval": 14,
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
-                    "recipe_2517_1"
+                    "recipe_4488_1"
+                ]
+            },
+            2: {
+                "name": "驱夷逐法",
+                "comment": "月破",
+                "interval": 14,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_4489_1"
                 ]
             }
         },
@@ -2861,31 +2917,137 @@ BUFFS = {
             }
         }
     },
+    10389: {
+        9052: {
+            1: {
+                "name": "绝刀增伤额外10怒气",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2004_1"
+                ]
+            },
+            2: {
+                "name": "绝刀增伤额外20怒气",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2006_1"
+                ]
+            },
+            3: {
+                "name": "绝刀增伤额外30怒气",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2007_1"
+                ]
+            },
+            4: {
+                "name": "绝刀增伤额外40怒气",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_2008_1"
+                ]
+            }
+        },
+        8499: {
+            11: {
+                "name": "盾挡",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1
+            }
+        },
+        8271: {
+            1: {
+                "comment": "150",
+                "interval": 160,
+                "max_stack": 125,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 150
+                }
+            }
+        },
+        17772: {
+            1: {
+                "name": "寒甲",
+                "comment": "15000",
+                "interval": 160,
+                "max_stack": 125,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_base": 15000
+                }
+            }
+        },
+        8448: {
+            11: {
+                "name": "盾挡",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1
+            }
+        },
+        9889: {
+            1: {
+                "name": "蔑视",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_shield_ignore": 512
+                }
+            }
+        },
+        8418: {
+            1: {
+                "name": "激昂",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1
+            }
+        },
+        8423: {
+            1: {
+                "name": "从容",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_attack_power_gain": 102,
+                    "strain_gain": 154
+                }
+            }
+        },
+        18222: {
+            4: {
+                "name": "严阵",
+                "interval": 240,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_gain": 307
+                }
+            }
+        }
+    },
     10390: {
         8474: {
             16: {
                 "name": "驭焰",
-                "comment": "DPS",
                 "interval": 4,
                 "max_stack": 1,
                 "max_tick": 16,
                 "recipes": [
                     "recipe_1941_1"
                 ]
-            },
-            17: {
-                "name": "驭焰",
-                "comment": "Tank",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 10,
-                "attributes": {
-                    "physical_shield_gain": 102,
-                    "lunar_shield_gain": 102,
-                    "neutral_shield_gain": 102,
-                    "poison_shield_gain": 102,
-                    "solar_shield_gain": 102
-                }
             }
         },
         9052: {

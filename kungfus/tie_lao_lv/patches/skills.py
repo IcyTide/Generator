@@ -1,7 +1,8 @@
 SKILLS = {
     12: dict(channel_interval=27),
     32820: {
-        1: dict(comment="龙牙/灭")
+        1: dict(comment="龙牙/灭"),
+        2: dict(comment="振甲"),
     },
     18207: dict(comment="1段"), 18208: dict(comment="2段"),
     431: dict(comment="原始"), 14882: dict(comment="8尺外"),

@@ -41,12 +41,27 @@ class Major(BaseType):
     strength_base: int = BASE_MAJOR
     spirit_base: int = BASE_MAJOR
     spunk_base: int = BASE_MAJOR
+    _all_major_base: int = 0
 
     agility_gain: int = 0
     strength_gain: int = 0
     spirit_gain: int = 0
     spunk_gain: int = 0
     vitality_gain: int = 0
+
+    @property
+    def all_major_base(self):
+        return self._all_major_base
+
+    @all_major_base.setter
+    def all_major_base(self, value):
+        residual = value - self._all_major_base
+        self.agility_base += residual
+        self.strength_base += residual
+        self.spirit_base += residual
+        self.spunk_base += residual
+        self.vitality_base += residual
+        self._all_major_base = value
 
     @property
     def major_base(self):

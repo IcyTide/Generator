@@ -399,3 +399,23 @@ class Max(BinaryOperator):
 
     def derivative(self, var):
         return 0  # Cannot take derivative of max
+
+
+class Min(BinaryOperator):
+    def __new__(cls, left, right):
+        if isinstance(left, Constant):
+            left = left.value
+        if isinstance(right, Constant):
+            right = right.value
+        if isinstance(left, (int, float)) and isinstance(right, (int, float)):
+            return min(left, right)
+        return super().__new__(cls).init(left, right)
+
+    def __str__(self):
+        return f"min({self.left},{self.right})"
+
+    def evaluate(self, values=None):
+        return Min(self.left.evaluate(values), self.right.evaluate(values))
+
+    def derivative(self, var):
+        return 0  # Cannot take derivative of max

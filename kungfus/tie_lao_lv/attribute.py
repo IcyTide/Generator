@@ -1,0 +1,4 @@
+ATTRIBUTE = 10062
+KIND = "防御"
+SCHOOL = "天策"
+MAJOR = "体质"

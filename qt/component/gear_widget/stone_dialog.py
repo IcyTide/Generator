@@ -142,13 +142,18 @@ class StoneDialog(QDialog):
             attr_2 = translates[attr_2]
         else:
             return
-        attr_3 = self.attr_combo_3.currentText()
-        _, translates = get_translates(self.stone_data[attr_1][attr_2])
-        if attr_3 in translates:
-            attr_3 = translates[attr_3]
+
+        if self.is_stone_node(self.stone_data[attr_1][attr_2]):
+            stone_node = self.stone_data[attr_1][attr_2]
         else:
-            return
-        if int(level) in self.stone_data[attr_1][attr_2][attr_3]:
-            self.set_stone(self.stone_data[attr_1][attr_2][attr_3][int(level)])
+            attr_3 = self.attr_combo_3.currentText()
+            _, translates = get_translates(self.stone_data[attr_1][attr_2])
+            if attr_3 in translates:
+                attr_3 = translates[attr_3]
+            else:
+                return
+            stone_node = self.stone_data[attr_1][attr_2][attr_3]
+        if int(level) in stone_node:
+            self.set_stone(stone_node[int(level)])
         else:
             return
