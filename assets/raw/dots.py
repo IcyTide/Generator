@@ -1786,7 +1786,7 @@ DOTS = {
                         4: {
                             "name": "",
                             "comment": "",
-                            "damage": "(30 + (solar_attack_power + 184 * recipe_3222_1 * base_solar_attack_power) * 2.246223958333333) * (1 + (magical_damage_addition + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (solar_shield_base * (1 + solar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + solar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
+                            "damage": "(30 + (solar_attack_power + 184 * recipe_3222_1 / 1024 * base_solar_attack_power) * 2.246223958333333) * (1 + (magical_damage_addition + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (solar_shield_base * (1 + solar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + solar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + solar_damage_cof / 1024)",
                             "critical_damage": "damage * solar_critical_power",
                             "critical_strike": "solar_critical_strike + 10000 * recipe_4545_1 / 10000",
                             "recipes": [
@@ -1813,7 +1813,7 @@ DOTS = {
                         4: {
                             "name": "",
                             "comment": "",
-                            "damage": "(30 + (lunar_attack_power + 184 * recipe_3225_1 * base_lunar_attack_power) * 2.246223958333333) * (1 + (magical_damage_addition + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(30 + (lunar_attack_power + 184 * recipe_3225_1 / 1024 * base_lunar_attack_power) * 2.246223958333333) * (1 + (magical_damage_addition + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1) / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike + 10000 * recipe_4545_1 / 10000",
                             "recipes": [

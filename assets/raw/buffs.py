@@ -2660,7 +2660,7 @@ BUFFS = {
         25758: {
             1: {
                 "name": "明光恒照",
-                "comment": "日",
+                "comment": "月",
                 "interval": 960,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -2674,7 +2674,7 @@ BUFFS = {
         25759: {
             1: {
                 "name": "明光恒照",
-                "comment": "月",
+                "comment": "日",
                 "interval": 960,
                 "max_stack": 1,
                 "max_tick": 1,

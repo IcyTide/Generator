@@ -1,4 +1,4 @@
-from base.expression import Expression, Int, Variable
+from base.expression import Ceil, Expression, Int, Max, Min, Variable
 
 
 def get_variables(formula: str) -> dict[str, Variable]:
@@ -20,5 +20,8 @@ def get_variables(formula: str) -> dict[str, Variable]:
 
 def parse_expr(formula: str) -> Expression:
     variables = get_variables(formula)
-    expr = eval(formula, {**variables, "int": Int})
+    expr = eval(formula, {
+        **variables,
+        "int": Int, "ceil": Ceil, "max": Max, "min": Min
+    })
     return expr

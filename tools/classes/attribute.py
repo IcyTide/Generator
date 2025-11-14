@@ -85,7 +85,7 @@ class AttackPower(BaseType):
             attack_power += extra_solar_attack_power
         else:
             attack_power = Variable("solar_attack_power")
-            attack_power += self.solar_attack_power_gain * self.base_solar_attack_power
+            attack_power += self.solar_attack_power_gain / BINARY_SCALE * self.base_solar_attack_power
         return attack_power
 
     @property
@@ -97,7 +97,7 @@ class AttackPower(BaseType):
             attack_power += extra_lunar_attack_power
         else:
             attack_power = Variable("lunar_attack_power")
-            attack_power += self.lunar_attack_power_gain * self.base_lunar_attack_power
+            attack_power += self.lunar_attack_power_gain / BINARY_SCALE * self.base_lunar_attack_power
         return attack_power
 
     @property
@@ -109,7 +109,7 @@ class AttackPower(BaseType):
             attack_power += extra_neutral_attack_power
         else:
             attack_power = Variable("neutral_attack_power")
-            attack_power += self.neutral_attack_power_gain * self.base_neutral_attack_power
+            attack_power += self.neutral_attack_power_gain / BINARY_SCALE * self.base_neutral_attack_power
         return attack_power
 
     @property
@@ -121,7 +121,7 @@ class AttackPower(BaseType):
             attack_power += extra_poison_attack_power
         else:
             attack_power = Variable("poison_attack_power")
-            attack_power += self.poison_attack_power_gain * self.base_poison_attack_power
+            attack_power += self.poison_attack_power_gain / BINARY_SCALE * self.base_poison_attack_power
         return attack_power
 
 

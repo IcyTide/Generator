@@ -12,5 +12,5 @@ BUFFS: dict[int, dict] = {
         1: dict(comment="原始"),
         2: dict(comment="强化")
     },
-    25758: dict(name="明光恒照", comment="日"), 25759: dict(name="明光恒照", comment="月")
+    25758: dict(name="明光恒照", comment="月"), 25759: dict(name="明光恒照", comment="日")
 }
