@@ -1,4 +1,5 @@
 BUFFS: dict[int, dict] = {
+    17885: {5: dict(comment="主T")}, 29938: {5: dict(comment="副T")},
     9052: {
         "name": "绝刀增伤",
         **{

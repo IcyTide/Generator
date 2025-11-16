@@ -2558,6 +2558,39 @@
         }
     },
     "10062": {
+        "10062": {
+            "name": "铁牢律",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 6522,
+                "vitality_to_physical_attack_power": 41
+            },
+            "recipes": [
+                "recipe_1110_2",
+                "recipe_1240_1",
+                "recipe_4039_3",
+                "recipe_1771_1",
+                "recipe_1772_1",
+                "recipe_1773_1",
+                "recipe_1774_1",
+                "recipe_4892_1",
+                "recipe_1775_1",
+                "recipe_1711_1"
+            ],
+            "buffs": [
+                17885,
+                29938
+            ],
+            "skills": [
+                12,
+                32820,
+                25795
+            ],
+            "desc": "习之者周身罡气护体，若有铁甲，牢不可破，故名铁牢律。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_10062"
+        },
         "404": {
             "name": "撼如雷",
             "buffs": [
@@ -2596,35 +2629,6 @@
             ],
             "desc": "对目标造成100%的武器伤害外加<SUB 18603 0>点外功伤害并使自身获得2点战意，使目标同时附带“流血”和“破风”效果，“流血”使目标<BUFF 3442 0 desc>(+<SKILLEx {D0} {TotalPhysicsAP 0.69457}>)且可叠加2层，“破风”使目标<BUFF 661 0 desc>，持续<BUFF 3442 0 time>。<TALENT 18226 1 “流血”效果可叠3层，持续效果增加5跳。对有自身三层流血的目标再次添加流血效果，会额外造成<SUB 36568 1>外功伤害><TALENT 14821 1 “流血”作用间隔缩短0.25秒><TALENT 18605 1 命中具有自身“流血”效果的目标增加30%伤害><TALENT 6523 1 可使目标8尺范围内额外5个目标受到“流血”效果影响，且流血伤害提高15%><TALENT 18224 1 对目标周围8尺内最多5个目标造成外功伤害且移动速度降低60%，持续12秒><TALENT 5681 1 “龙吟”威胁值提高20%，调息时间降低2秒><TALENT 5662 1 伤害提高10%，目标移动速度降低50%，持续8秒><TALENT 6527 1 使自身立刻获得3点战意><TALENT 5696 1 附带额外威胁值><TALENT 2610 1 伤害提高2%><TALENT 2610 2 伤害提高4%><TALENT 2610 3 伤害提高6%><TALENT 5666 1 每点“战意”增加5%伤害><TALENT 24899 1 “纵轻骑”期间额外附带一次100%的武器伤害效果><TALENT 5659 1 施展“灭”后，使下一个“龙吟”额外造成<SUB 37618 1>外功伤害><TALENT 32911 1 施展“龙吟”后，20秒内下一次施展“穿云”距离增加4尺并会造成3段<SUB 36097 28>外功伤害><TALENT 18872 1 >",
             "belong_key": "belong_403"
-        },
-        "10062": {
-            "name": "铁牢律",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 6522,
-                "vitality_to_magical_attack_power": 41
-            },
-            "recipes": [
-                "recipe_1110_2",
-                "recipe_1240_1",
-                "recipe_4039_3",
-                "recipe_1771_1",
-                "recipe_1772_1",
-                "recipe_1773_1",
-                "recipe_1774_1",
-                "recipe_4892_1",
-                "recipe_1775_1",
-                "recipe_1711_1"
-            ],
-            "skills": [
-                12,
-                32820,
-                25795
-            ],
-            "desc": "习之者周身罡气护体，若有铁甲，牢不可破，故名铁牢律。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_10062"
         },
         "400": {
             "name": "穿云",
@@ -7221,6 +7225,40 @@
         }
     },
     "10389": {
+        "10389": {
+            "name": "铁骨衣",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 3913,
+                "vitality_to_physical_attack_power": 41
+            },
+            "recipes": [
+                "recipe_1883_1",
+                "recipe_1884_1",
+                "recipe_1910_1",
+                "recipe_1911_1",
+                "recipe_1912_1",
+                "recipe_1913_1",
+                "recipe_1914_1",
+                "recipe_1915_1",
+                "recipe_1916_1",
+                "recipe_1917_1",
+                "recipe_1918_1"
+            ],
+            "buffs": [
+                17885,
+                29938
+            ],
+            "skills": [
+                13039,
+                32745,
+                25797
+            ],
+            "desc": "此功运之有如铁甲在身，攻守兼备，近身者周身如芒在刺，亦难伤其分毫。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_10389"
+        },
         "13055": {
             "name": "绝刀",
             "recipes": [
@@ -7270,36 +7308,6 @@
             ],
             "desc": "消耗15点怒气，跳跃至目标位置并将目标击下马并锁足3秒，造成100%的武器伤害外加<SUB 13092 0>外功伤害并附带一次破招伤害。命中有自身虚弱或流血效果的目标，使目标获得流血效果，持续24秒。<TALENT 13089 1 流血效果作用时间间隔缩短1秒，总持续时间保持不变><TALENT 13090 1 命中目标后，使6秒内的下一次“绝刀”返还消耗的怒气><TALENT 13091 1 “斩刀”施展距离延长至20尺，跳跃至目标位置将目标击落下马><TALENT 13357 1 施展“斩刀”强制目标攻击自身，使目标基础攻击降低10%，持续6秒><TALENT 13086 1 每次施展为当前侠士目标添加一层5%最大气血值的“残楼”治疗吸收盾，吸收盾最多可叠加5层。自身气血值每降低10%，“劫刀”“绝刀”“斩刀”的伤害额外提高7%><TALENT 20509 1 施展“斩刀”使自身受到伤害降低20%，持续3秒，且强制目标攻击自身><TALENT 13133 1 施展“盾飞”，“斩刀”调息时间降低5秒，且使“绝刀”伤害增加30%，持续15秒。若施展“斩刀”命中虚弱非侠士目标，则6秒内下一次施展“绝刀”可返还所消耗的怒气><TALENT 37241 1 每次施展“苍雪刀”套路下招式会为自己叠加一层“莫朽”效果：每层化解自身受到的4%最大气血值的伤害，连续施展三次“苍雪刀”套路下招式将使自己额外获得3层“莫朽”效果><TALENT 37239 1 “斩刀”伤害提高20%，锁足效果变为眩晕效果，并追加一段无视目标30%外功防御的外功伤害，若成功眩晕目标，则返还15点怒气和6秒斩刀调息时间><TALENT 13317 1 伤害提高10%，对4尺内目标不再冲刺>",
             "belong_key": "belong_13054"
-        },
-        "10389": {
-            "name": "铁骨衣",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 3913,
-                "vitality_to_magical_attack_power": 41
-            },
-            "recipes": [
-                "recipe_1883_1",
-                "recipe_1884_1",
-                "recipe_1910_1",
-                "recipe_1911_1",
-                "recipe_1912_1",
-                "recipe_1913_1",
-                "recipe_1914_1",
-                "recipe_1915_1",
-                "recipe_1916_1",
-                "recipe_1917_1",
-                "recipe_1918_1"
-            ],
-            "skills": [
-                13039,
-                32745,
-                25797
-            ],
-            "desc": "此功运之有如铁甲在身，攻守兼备，近身者周身如芒在刺，亦难伤其分毫。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_10389"
         },
         "13044": {
             "name": "盾刀",
@@ -14846,6 +14854,23 @@
             ],
             "belong_key": "belong_40788"
         },
+        "42895": {
+            "name": "防御护手特效加护盾",
+            "buffs": [
+                32019
+            ],
+            "skills": [
+                42898
+            ],
+            "belong_key": "belong_42895"
+        },
+        "41062": {
+            "name": "防御护手特效伤害",
+            "skills": [
+                41069
+            ],
+            "belong_key": "belong_41062"
+        },
         "38939": {
             "name": "黄字鞋子加会心",
             "buffs": [
@@ -14875,6 +14900,16 @@
             ],
             "belong_key": "belong_40794"
         },
+        "41064": {
+            "name": "防御下装特效叠层伤害",
+            "buffs": [
+                30948
+            ],
+            "skills": [
+                41073
+            ],
+            "belong_key": "belong_41064"
+        },
         "40791": {
             "name": "精简腰带提高属性_高级版",
             "buffs": [
@@ -14888,6 +14923,13 @@
                 30742
             ],
             "belong_key": "belong_40790"
+        },
+        "41063": {
+            "name": "防御腰带特效加破招",
+            "buffs": [
+                30946
+            ],
+            "belong_key": "belong_41063"
         },
         "38934": {
             "name": "黄字帽子适应之力",
@@ -14987,6 +15029,13 @@
             ],
             "belong_key": "belong_38578"
         },
+        "38786": {
+            "name": "130级防御特效腰坠",
+            "skills": [
+                38787
+            ],
+            "belong_key": "belong_38786"
+        },
         "22169": {
             "name": "输出附魔伤害波动",
             "buffs": [
@@ -15025,6 +15074,31 @@
                 15436
             ],
             "belong_key": "belong_10106"
+        },
+        "22129": {
+            "name": "昆吾·清晖",
+            "desc": "测试技能",
+            "belong_key": "belong_22129"
+        },
+        "33249": {
+            "name": "T护手概率提高自身伤害",
+            "buffs": [
+                24767
+            ],
+            "belong_key": "belong_33249"
+        },
+        "22128": {
+            "name": "愈",
+            "desc": "测试技能",
+            "belong_key": "belong_22128"
+        },
+        "22122": {
+            "name": "新附魔T添加基础攻击",
+            "belong_key": "belong_22122"
+        },
+        "40512": {
+            "name": "新t大附魔_鞋子加内外防",
+            "belong_key": "belong_40512"
         }
     }
 }

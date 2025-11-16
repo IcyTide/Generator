@@ -23,6 +23,11 @@ def default_attribute(self: "GearGain", attribute: Attribute):
         add_buff_to_attribute(buff_id, self.gain_level, attribute, self.weight)
 
 
+def tank_wrist_attribute(self: "GearGain", attribute: Attribute):
+    self.weight = 5 / 30
+    default_attribute(self, attribute)
+
+
 def shoes_attribute(self: "GearGain", attribute: Attribute):
     self.weight = 10 / 20
     default_attribute(self, attribute)
@@ -80,21 +85,27 @@ def wind_attribute(self: "GearGain", attribute: Attribute):
     default_attribute(self, attribute)
 
 
-def special_enchant_belt(self: "GearGain", attribute: Attribute):
+def dps_special_enchant_belt(self: "GearGain", attribute: Attribute):
     buff_id = self.buffs[0]
-    rate = 8 / 30
+    rate = 8 / 32
     add_buff_to_attribute(buff_id, 1, attribute, 0.3 * rate)
     add_buff_to_attribute(buff_id, 2, attribute, 0.7 * rate)
 
 
-def special_enchant_jacket(self: "GearGain", attribute: Attribute):
+def dps_special_enchant_jacket(self: "GearGain", attribute: Attribute):
     skill_id = self.gain_id
     skill = SKILLS[0][skill_id][self.gain_level]
     for k, v in skill["attributes"].items():
         attribute[k] += v
 
 
+def tank_special_enchant_writs(self: "GearGain", attribute: Attribute):
+    self.weight = 5 / 30
+    default_attribute(self, attribute)
+
+
 ATTRIBUTE_FUNCS = {
+    42895: tank_wrist_attribute,
     38939: shoes_attribute,
     38944: shoes_attribute,
     40794: bottom_attribute,
@@ -107,8 +118,9 @@ ATTRIBUTE_FUNCS = {
     38946: necklace_attribute(target="overcome", thresholds=[5427, 5648, 6060, 6496, 6864, 7456]),
     38945: necklace_attribute(target="critical_strike", thresholds=[4748, 4942, 5302, 5683, 6006, 6526]),
     38578: wind_attribute,
-    22169: special_enchant_belt,
-    22151: special_enchant_jacket,
+    22169: dps_special_enchant_belt,
+    22151: dps_special_enchant_jacket,
+    33249: tank_special_enchant_writs
 }
 
 """
@@ -119,13 +131,18 @@ SKILL_FREQ = {
     40789: 10,
     38966: 10,
     37562: 15,
-    37561: 10
+    37561: 10,
+    42898: 30,
+    41069: 30,
+    41073: 20,
+    38787: 30
 }
 
 
 def add_skill_to_record(skill_id: int, skill_level: int, record: Record, count: float = 1.):
     skill = Skill("装备", skill_id, skill_level, count, **SKILLS[0][skill_id][skill_level])
     record.skills.append(skill)
+
 
 def default_record(self: "GearGain", record: Record):
     for skill_id in self.skills:
@@ -135,7 +152,14 @@ def default_record(self: "GearGain", record: Record):
         add_skill_to_record(skill_id, self.gain_level, record, count)
 
 
-RECORD_FUNCS = {}
+def wind_record(self: "GearGain", record: Record):
+    add_skill_to_record(self.gain_id, self.gain_level * 2, record)
+
+
+RECORD_FUNCS = {
+    38786: wind_record
+}
+
 
 class GearGain:
     skills: list[int]

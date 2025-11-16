@@ -18,6 +18,15 @@ SKILLS = {
         1: dict(custom_damage_base=403200),
         2: dict(custom_damage_base=601965)
     },
+    42898: {
+        1: dict(custom_damage_base=458640)
+    },
+    41069: {
+        1: dict(custom_damage_base=352800)
+    },
+    41073: {
+        1: dict(custom_damage_base=Variable("max_life") * 0.065)
+    },
     38966: {
         1: dict(custom_damage_base=86500),
         2: dict(custom_damage_base=90000),
@@ -39,6 +48,14 @@ SKILLS = {
         4: dict(custom_damage_base=680800)
     },
     22151: dict(comment="{}"),
+    38787: {
+        1: dict(custom_damage_base=800000),
+        2: dict(custom_damage_base=400000),
+        3: dict(custom_damage_base=920000),
+        4: dict(custom_damage_base=460000),
+        5: dict(custom_damage_base=1104000),
+        6: dict(custom_damage_base=552000)
+    },
     29532: {
         1: dict(custom_damage_base=get_damage(), custom_damage_type="poison")
     },

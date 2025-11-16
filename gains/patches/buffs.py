@@ -4,6 +4,7 @@ BUFFS = {
     29526: dict(comment="{}"),
     30748: dict(comment="{}"),
     30749: dict(comment="{}"),
+    30770: dict(comment="{}"),
     30743: dict(comment="{}"),
     30742: dict(comment="{}"),
     29519: dict(comment="{}"),

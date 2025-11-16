@@ -1351,6 +1351,32 @@ BUFFS = {
         }
     },
     10062: {
+        17885: {
+            3: {
+                "name": "铁牢·宿敌",
+                "comment": "主T",
+                "interval": 1200,
+                "max_stack": 1,
+                "max_tick": 4,
+                "attributes": {
+                    "vitality_to_physical_attack_power": 557,
+                    "vitality_to_physical_overcome": 459
+                }
+            }
+        },
+        29938: {
+            3: {
+                "name": "铁牢",
+                "comment": "副T",
+                "interval": 4800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_physical_attack_power": 184,
+                    "vitality_to_physical_overcome": 154
+                }
+            }
+        },
         6363: {
             2: {
                 "name": "激雷",
@@ -2918,6 +2944,32 @@ BUFFS = {
         }
     },
     10389: {
+        17885: {
+            5: {
+                "name": "铁骨·宿敌",
+                "comment": "主T",
+                "interval": 1200,
+                "max_stack": 1,
+                "max_tick": 4,
+                "attributes": {
+                    "vitality_to_physical_attack_power": 608,
+                    "vitality_to_physical_overcome": 467
+                }
+            }
+        },
+        29938: {
+            5: {
+                "name": "铁骨",
+                "comment": "副T",
+                "interval": 4800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_physical_attack_power": 203,
+                    "vitality_to_physical_overcome": 156
+                }
+            }
+        },
         9052: {
             1: {
                 "name": "绝刀增伤额外10怒气",
@@ -7542,6 +7594,17 @@ BUFFS = {
                 }
             }
         },
+        32019: {
+            1: {
+                "name": "坎·御",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "skill_damage_final_cof": 51
+                }
+            }
+        },
         29524: {
             1: {
                 "interval": 160,
@@ -7689,12 +7752,40 @@ BUFFS = {
             }
         },
         30770: {
+            1: {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 93
+                }
+            },
+            2: {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 12152
+                }
+            },
+            3: {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 155
+                }
+            },
             4: {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
                     "all_critical_strike_base": 20148
                 }
+            }
+        },
+        30948: {
+            2: {
+                "name": "御·气血",
+                "max_stack": 30,
+                "max_tick": 1
             }
         },
         30743: {
@@ -7762,6 +7853,16 @@ BUFFS = {
                 "attributes": {
                     "all_critical_strike_base": 1155,
                     "all_overcome_base": 1155
+                }
+            }
+        },
+        30946: {
+            2: {
+                "name": "御·破招",
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2568
                 }
             }
         },
@@ -8700,6 +8801,17 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "all_overcome_base": 3501
+                }
+            }
+        },
+        24767: {
+            1: {
+                "interval": 48,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 50,
+                    "magical_damage_addition": 50
                 }
             }
         }

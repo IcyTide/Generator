@@ -12,21 +12,19 @@ def add_buff_to_attributes(buff_id: int, buff_level: int, attribute: Attribute, 
 
 
 def default_attribute(self: "FormationGain", attribute: Attribute):
-    for buff_id in self.buffs:
-        buff_level = list(BUFFS[0][buff_id])[0]
-        add_buff_to_attributes(buff_id, buff_level, attribute, self.rate)
+    buff_level = list(BUFFS[0][self.buff_id])[0]
+    add_buff_to_attributes(self.buff_id, buff_level, attribute, self.rate)
 
 
 def buff_18336(self: "FormationGain", attribute: Attribute):
-    buff_id = self.buffs[0]
-    for buff_level in BUFFS[0][buff_id]:
-        add_buff_to_attributes(buff_id, buff_level, attribute, self.rate / len(BUFFS[0][buff_id]))
+    buff_levels = list(BUFFS[0][self.buff_id])
+    for buff_level in buff_levels:
+        add_buff_to_attributes(self.buff_id, buff_level, attribute, self.rate / len(buff_levels))
 
 
 def buff_18337(self: "FormationGain", attribute: Attribute):
-    self.rate /= 2
-    default_attribute(self, attribute)
-    self.rate *= 2
+    buff_level = list(BUFFS[0][self.buff_id])[0]
+    add_buff_to_attributes(self.buff_id, buff_level, attribute, self.rate / 2)
 
 
 FORMATIONS = {
@@ -43,6 +41,7 @@ class FormationGain:
     buffs: list[int]
     skills: list[int]
 
+    buff_id: int
     rate: float = 0.
 
     def __init__(self, name: str, level_4_rate: float, level_5_rate: float, level_6_rate: float):
@@ -54,7 +53,7 @@ class FormationGain:
         for buff_id, rate in zip(self.buffs, self.rates):
             if not buff_id:
                 continue
-            self.rate = rate
+            self.buff_id, self.rate = buff_id, rate
             ATTRIBUTE_FUNCS.get(buff_id, default_attribute)(self, attribute)
 
 

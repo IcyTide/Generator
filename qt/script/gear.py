@@ -34,7 +34,8 @@ class SubGearScript:
 
     def get_special_enchant_gain(self):
         special_enchant = None
-        for level, gain in SPECIAL_ENCHANT_MAP[self.widget.position].items():
+        kungfu_type = "tank" if self.gear.kind == "防御" else "dps"
+        for level, gain in SPECIAL_ENCHANT_MAP[self.widget.position][kungfu_type].items():
             if self.gear.level >= level:
                 special_enchant = gain
                 break
@@ -84,11 +85,11 @@ class SubGearScript:
             gear.special_enchant = self.get_special_enchant_gain()
 
         strength_level = self.widget.strength_combo.currentText()
+        self.widget.strength_combo.set_items(range(gear.max_strength + 1), gear.max_strength)
         if strength_level and int(strength_level) <= gear.max_strength:
-            gear.strength_level = int(strength_level)
+            self.widget.strength_combo.setCurrentText(strength_level)
         else:
-            self.widget.strength_combo.set_items(range(gear.max_strength + 1), gear.max_strength)
-            gear.strength_level = gear.max_strength
+            self.widget.strength_combo.setCurrentText(str(gear.max_strength))
 
         embed_levels = {}
         for embed_attr, embed_combo in zip(gear.embed, self.widget.embed_combos):

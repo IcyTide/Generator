@@ -19878,6 +19878,30 @@ SKILLS = {
                 "critical_strike": "0"
             }
         },
+        42898: {
+            1: {
+                "name": "御·击破",
+                "damage": "458640 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "critical_damage": "damage",
+                "critical_strike": "0"
+            }
+        },
+        41069: {
+            1: {
+                "name": "御·击破",
+                "damage": "352800 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "critical_damage": "damage",
+                "critical_strike": "0"
+            }
+        },
+        41073: {
+            1: {
+                "name": "御·强击",
+                "damage": "max_life * 0.065 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "critical_damage": "damage",
+                "critical_strike": "0"
+            }
+        },
         38966: {
             1: {
                 "name": "无修·荒",
@@ -19922,6 +19946,26 @@ SKILLS = {
                 "damage": "(1065022 + physical_attack_power * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                 "critical_damage": "damage * physical_critical_power",
                 "critical_strike": "physical_critical_strike"
+            }
+        },
+        38787: {
+            1: {
+                "name": "破·守山"
+            },
+            2: {
+                "name": "破·守山"
+            },
+            3: {
+                "name": "破·守山"
+            },
+            4: {
+                "name": "破·守山"
+            },
+            5: {
+                "name": "破·守山"
+            },
+            6: {
+                "name": "破·守山"
             }
         },
         37562: {

@@ -63,10 +63,44 @@ class SKILL_KIND_TYPE(StrEnum):
 
 
 class MOVE_STATE(IntEnum):
-    ON_DEATH = auto()
-    ON_FREEZE = auto()
-    ON_HALT = auto()
-    ON_KNOCKED_DOWN = auto()
+    """
+    ON_SWIM
+    ON_SWIM_JUMP
+    ON_FLOAT
+    ON_BIRD_FLOAT
+    ON_RISE
+    ON_DASH
+    ON_FLY_JUMP
+    ON_AUTO_FLY # 地图内交通
+
+    ON_SKILL_MOVE_SRC
+    ON_SKILL_MOVE_DST
+
+    ON_KNOCKED_BACK
+
+    ON_KNOCKED_OFF
+
+
+    """
+    ON_STAND = 1
+    ON_WALK = 2
+    ON_RUN = 3
+    ON_JUMP = 4
+
+    ON_SIT = 8
+    ON_KNOCKED_DOWN = 9 # 击倒
+
+    ON_HALT = 12 # 眩晕
+    ON_FREEZE = 13 # 定身
+    ON_ENTRAP = 14 # 锁足
+
+    ON_DEATH = 16 # 死亡
+    ON_DASH = 17 # 冲刺
+    ON_PULL = 18 # 被拉
+    ON_KNOCKED_BACK = 20 # 被击退
+    ON_REPULSED = 21 # 被击退
+
+    ON_BE_HIT = 27 # 被击僵直
 
 
 class ATTRIBUTE_EFFECT_MODE(IntEnum):
@@ -148,6 +182,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""
     SRC_CALL_COMMON_DETACH_BUFF_SCRIPT = ""
     ADD_GLOBAL_ABSORB_SHIELD_RECORD_ONLY_BY_SELF_MAX_LIFE = ""
+    GLOBAL_DAMAGE_ABSORB_BY_SELF_MAX_LIFE = ""
 
     DASH = ""
     PULL = ""
@@ -430,7 +465,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     SPUNK_TO_SOLAR_AND_LUNAR_CRITICAL_STRIKE_COF = "spunk_to_solar_and_lunar_critical_strike"
     SPUNK_TO_NEUTRAL_CRITICAL_STRIKE_COF = "spunk_to_neutral_critical_strike"
 
-    VITALITY_TO_PHYSICS_ATTACK_POWER_COF = "vitality_to_magical_attack_power"
+    VITALITY_TO_PHYSICS_ATTACK_POWER_COF = "vitality_to_physical_attack_power"
     VITALITY_TO_SOLAR_ATTACK_POWER_COF = "vitality_to_solar_attack_power"
     VITALITY_TO_LUNAR_ATTACK_POWER_COF = "vitality_to_lunar_attack_power"
     VITALITY_TO_PHYSICS_OVER_COME_COF = "vitality_to_physical_overcome"
