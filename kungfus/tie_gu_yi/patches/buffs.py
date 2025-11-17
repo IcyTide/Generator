@@ -10,6 +10,5 @@ BUFFS: dict[int, dict] = {
         22: dict(comment=""),
         50: dict(comment="炼狱")
     },
-    8271: dict(comment="150"), 17772: dict(name="寒甲", comment="15000"),
-    18222: {4: {}}
+    8271: dict(comment="150"), 17772: dict(name="寒甲", comment="15000")
 }

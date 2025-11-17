@@ -21,7 +21,7 @@ SKILLS = {
         0.5: dict(comment="无诤"),
         0: dict(comment="无诤(我闻)")
     },
-    42407: dict(comment="{level-1}层"),
+    43592: {1: {}}, 42407: dict(comment="{level-1}层众境"),
     3814: dict(comment="众嗔"),
     37376: dict(comment="{(level-1)*3000}体质"),
     **{skill_id: dict(comment=f"净果{i + 1}豆") for i, skill_id in enumerate([13681, 13683, 13685])},

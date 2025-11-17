@@ -159,8 +159,7 @@ BUFFS = {
                     36050,
                     36051,
                     3808,
-                    3810,
-                    271
+                    3810
                 ],
                 "buff_key": "buff_12479_1"
             }
@@ -1952,7 +1951,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "weapon_damage_gain": 410,
-                    "physical_attack_power_gain": 102
+                    "physical_attack_power_gain": 51
                 }
             }
         },
@@ -1963,11 +1962,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_overcome_base": 11298,
-                    "poison_overcome_base": 11298,
-                    "lunar_overcome_base": 11298,
-                    "neutral_overcome_base": 11298,
-                    "solar_overcome_base": 11298
+                    "all_overcome_base": 11298
                 }
             },
             2: {
@@ -1976,11 +1971,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_overcome_base": 22596,
-                    "poison_overcome_base": 22596,
-                    "lunar_overcome_base": 22596,
-                    "neutral_overcome_base": 22596,
-                    "solar_overcome_base": 22596
+                    "all_overcome_base": 22596
                 }
             },
             3: {
@@ -1989,11 +1980,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_overcome_base": 45192,
-                    "poison_overcome_base": 45192,
-                    "lunar_overcome_base": 45192,
-                    "neutral_overcome_base": 45192,
-                    "solar_overcome_base": 45192
+                    "all_overcome_base": 45192
                 }
             }
         },
@@ -2415,6 +2402,14 @@ BUFFS = {
                 "attributes": {
                     "poison_attack_power_gain": 512
                 }
+            }
+        },
+        31800: {
+            1: {
+                "name": "暗藏杀机连续命中",
+                "interval": 12,
+                "max_stack": 2,
+                "max_tick": 1
             }
         },
         3468: {
@@ -2938,7 +2933,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "all_shield_ignore": 512,
-                    "pve_addition_base": 72
+                    "pve_addition_base": 123
                 }
             }
         }
@@ -3078,14 +3073,14 @@ BUFFS = {
                 }
             }
         },
-        18222: {
-            4: {
+        32407: {
+            1: {
                 "name": "严阵",
-                "interval": 240,
-                "max_stack": 5,
+                "interval": 320,
+                "max_stack": 3,
                 "max_tick": 1,
                 "attributes": {
-                    "surplus_gain": 307
+                    "surplus_gain": 512
                 }
             }
         }
@@ -5177,7 +5172,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 12,
                 "attributes": {
-                    "strain_base": 256
+                    "strain_gain": 256
                 }
             }
         },
@@ -6371,11 +6366,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_overcome_base": 11298,
-                    "poison_overcome_base": 11298,
-                    "lunar_overcome_base": 11298,
-                    "neutral_overcome_base": 11298,
-                    "solar_overcome_base": 11298
+                    "all_overcome_base": 11298
                 }
             }
         },

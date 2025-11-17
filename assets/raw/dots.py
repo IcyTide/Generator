@@ -1159,7 +1159,7 @@ DOTS = {
                         1: {
                             "name": "",
                             "comment": "",
-                            "damage": "(25 + lunar_attack_power * 1.0208333333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(25 + lunar_attack_power * 1.1731770833333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike",
                             "recipes": [],
@@ -1869,7 +1869,7 @@ DOTS = {
                         20: {
                             "name": "",
                             "comment": "",
-                            "damage": "(32 + physical_attack_power * 0.5296875) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(32 + physical_attack_power * 0.4765625) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike",
                             "recipes": [],
@@ -1890,7 +1890,7 @@ DOTS = {
                         20: {
                             "name": "",
                             "comment": "",
-                            "damage": "(33 + physical_attack_power * 0.5296875) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(33 + physical_attack_power * 0.4765625) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike",
                             "recipes": [],
@@ -1911,7 +1911,7 @@ DOTS = {
                         20: {
                             "name": "",
                             "comment": "",
-                            "damage": "(33 + physical_attack_power * 0.5291666666666667) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
+                            "damage": "(33 + physical_attack_power * 0.47604166666666664) * (1 + physical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (physical_shield_base * (1 + physical_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + physical_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + physical_damage_cof / 1024)",
                             "critical_damage": "damage * physical_critical_power",
                             "critical_strike": "physical_critical_strike",
                             "recipes": [],
@@ -2178,7 +2178,7 @@ DOTS = {
                         1: {
                             "name": "",
                             "comment": "羽",
-                            "damage": "(58 + lunar_attack_power * 1.7591145833333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + lunar_attack_power * 1.375) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike",
                             "recipes": [],
@@ -2187,7 +2187,7 @@ DOTS = {
                         2: {
                             "name": "",
                             "comment": "剑·羽",
-                            "damage": "(58 + lunar_attack_power * 1.4661458333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + lunar_attack_power * 1.1458333333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike",
                             "recipes": [],
@@ -2206,7 +2206,7 @@ DOTS = {
                         1: {
                             "name": "",
                             "comment": "羽",
-                            "damage": "(58 + lunar_attack_power * 1.7591145833333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + lunar_attack_power * 1.375) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike",
                             "recipes": [],
@@ -2215,7 +2215,7 @@ DOTS = {
                         2: {
                             "name": "",
                             "comment": "剑·羽",
-                            "damage": "(58 + lunar_attack_power * 1.4661458333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
+                            "damage": "(58 + lunar_attack_power * 1.1458333333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (lunar_shield_base * (1 + lunar_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + lunar_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + lunar_damage_cof / 1024)",
                             "critical_damage": "damage * lunar_critical_power",
                             "critical_strike": "lunar_critical_strike",
                             "recipes": [],

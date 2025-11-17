@@ -4,6 +4,7 @@ BUFFS: dict[int, dict] = {
         2: dict(comment="原始"),
         3: dict(comment="天幕藏锋")
     },
+31800: dict(name="暗藏杀机连续命中"),
     3221: {
         1: dict(comment="原始"),
         2: dict(comment="千秋万劫"),

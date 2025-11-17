@@ -1,3 +1,5 @@
+from base.expression import Variable
+
 SKILLS = {
     3126: {
         1: dict(comment="原始"),
@@ -5,6 +7,7 @@ SKILLS = {
         3: dict(comment="尽刑彻毒"),
         4: dict(comment="千秋万劫+尽刑彻毒")
     },
+    3313: dict(dest_rollback_attributes=[("coming_damage_cof", 0.5 ** Variable("buff_31800_1") - 1)]),
     3480: dict(comment="橙武特效"),
     3401: {1: {}}, 3404: {1: dict(comment="鬼斧弹药")},
     3819: {1: {}}, 3824: {1: dict(comment="鬼斧弹药")},
