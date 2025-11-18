@@ -2149,6 +2149,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_gain": 512,
                     "physical_shield_gain": 1024,
                     "solar_shield_gain": 1024,
                     "neutral_shield_gain": 1024,
@@ -4118,6 +4119,19 @@
         }
     },
     "10615": {
+        "30434": {
+            "1": {
+                "name": "踏斗",
+                "interval": 320,
+                "max_stack": 4,
+                "max_tick": 1,
+                "skills": [
+                    28815,
+                    42423
+                ],
+                "buff_key": "buff_30434_1"
+            }
+        },
         "18174": {
             "1": {
                 "name": "鬼遁",
@@ -4982,6 +4996,41 @@
         }
     },
     "100994": {
+        "70161": {
+            "5": {
+                "name": "伤害提高",
+                "comment": "逐鹿1层",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 52,
+                    "magical_damage_addition": 52
+                }
+            },
+            "10": {
+                "name": "伤害提高",
+                "comment": "逐鹿2层/《醉斩白蛇·悟》秘章",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 103,
+                    "magical_damage_addition": 103
+                }
+            },
+            "15": {
+                "name": "伤害提高",
+                "comment": "逐鹿3层/橙武",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_addition": 154,
+                    "magical_damage_addition": 154
+                }
+            }
+        },
         "71047": {
             "1": {
                 "name": "《项王击鼎·悟》秘章",
@@ -5002,41 +5051,6 @@
                 "max_tick": 1,
                 "attributes": {
                     "all_damage_addition": 21
-                }
-            }
-        },
-        "70161": {
-            "5": {
-                "name": "伤害提高",
-                "comment": "逐鹿1层",
-                "interval": 8,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_damage_addition": 52,
-                    "magical_damage_addition": 52
-                }
-            },
-            "10": {
-                "name": "伤害提高",
-                "comment": "《醉斩白蛇·悟》秘章/逐鹿2层",
-                "interval": 8,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_damage_addition": 103,
-                    "magical_damage_addition": 103
-                }
-            },
-            "15": {
-                "name": "伤害提高",
-                "comment": "逐鹿3层",
-                "interval": 8,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "physical_damage_addition": 154,
-                    "magical_damage_addition": 154
                 }
             }
         },
@@ -5723,7 +5737,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "vitality_base": 1037
+                    "vitality_base": 1037,
+                    "max_life_add": 14005
                 }
             },
             "5": {
@@ -5739,7 +5754,10 @@
                 "name": "风语·团圆宴",
                 "interval": 57600,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "max_life_add": 14005
+                }
             }
         },
         "29285": {
@@ -6143,6 +6161,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": -40914,
                     "strain_base": 6136
                 }
             },
@@ -6152,6 +6171,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": -40914,
                     "magical_attack_power_base": 1854
                 }
             },
@@ -6161,6 +6181,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": -40914,
                     "physical_attack_power_base": 1666
                 }
             },
@@ -6170,6 +6191,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": -40914,
                     "all_overcome_base": 6136
                 }
             },
@@ -6179,6 +6201,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": -40914,
                     "all_critical_strike_base": 6136
                 }
             }
@@ -6224,6 +6247,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_final_gain": 51,
                     "physical_attack_power_gain": 51
                 }
             }
@@ -6310,6 +6334,7 @@
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": 2226,
                     "strain_base": 126
                 }
             }
@@ -6550,6 +6575,7 @@
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
+                    "max_life_add": 2226,
                     "strain_base": 126
                 }
             }
@@ -7776,7 +7802,10 @@
             "2": {
                 "name": "御·气血",
                 "max_stack": 30,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "max_life_base": 4141
+                }
             }
         },
         "30743": {

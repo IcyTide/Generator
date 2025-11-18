@@ -14,7 +14,7 @@ Buff to Attribute Funcs
 
 def add_buff_to_attribute(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
     buff = Buff("装备", buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][buff_id][buff_level])
-    buff.stack *= buff.max_stack * weight
+    buff.stack = buff.max_stack * weight
     attribute.add_buff(buff)
 
 
@@ -73,10 +73,9 @@ def ring_attribute(self: "GearGain", attribute: Attribute):
 def necklace_attribute(target: str, thresholds: list[int]):
     def inner(self: "GearGain", attribute: Attribute):
         threshold = thresholds[self.gain_level - 1]
-        stack = int(attribute[f"{target}_base"] / threshold)
-        self.weight = stack * 1 / 10
+        stack = min(int(attribute[f"{target}_base"] / threshold), 10)
+        self.weight = stack / 10
         default_attribute(self, attribute)
-
     return inner
 
 

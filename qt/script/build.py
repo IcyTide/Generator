@@ -132,17 +132,21 @@ class BuildScript:
         self.talent_script = TalentScript(self.widget.talent_widget, self)
         self.recipe_script = RecipeScript(self.widget.recipe_widget, self)
 
-    def init(self, kungfu: Kungfu, talents: Talents = None, recipes: Recipes = None):
+    def init(self, kungfu: Kungfu, talents: Talents | dict = None, recipes: Recipes | dict = None):
         self.kungfu = kungfu
 
         if not talents:
             self.talents = Talents()
-        else:
+        elif isinstance(talents, Talents):
             self.talents = talents
+        else:
+            self.talents = Talents.from_dict(kungfu.kungfu_id, talents)
         if not recipes:
             self.recipes = Recipes()
-        else:
+        elif isinstance(recipes, Recipes):
             self.recipes = recipes
+        else:
+            self.recipes = Recipes.from_dict(kungfu.kungfu_id, recipes)
 
         self.talent_script.init(kungfu.talent_choices)
         self.recipe_script.init(kungfu.recipe_choices)

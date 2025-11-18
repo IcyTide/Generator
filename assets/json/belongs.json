@@ -8,6 +8,7 @@
                 "physical_shield_base": 1800,
                 "spunk_to_solar_attack_power": 2007,
                 "spunk_to_solar_critical_strike": 410,
+                "max_life_gain": 368,
                 "magical_attack_power_base": 7242
             },
             "recipes": [
@@ -522,6 +523,9 @@
         },
         "42920": {
             "name": "法王身",
+            "attributes": {
+                "max_life_gain": 154
+            },
             "desc": "基础气血上限提高15%。",
             "belong_key": "belong_42920"
         }
@@ -534,6 +538,7 @@
                 "physical_shield_base": 2850,
                 "spirit_to_neutral_attack_power": 1946,
                 "spirit_to_neutral_critical_strike": 625,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "neutral_critical_strike_base": 5527,
                 "pve_addition_base": 522
@@ -1048,6 +1053,7 @@
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1731,
                 "agility_to_physical_critical_strike": 696,
+                "max_life_gain": 245,
                 "physical_critical_strike_base": 9025,
                 "physical_attack_power_base": 6187,
                 "pve_addition_base": 492
@@ -1567,6 +1573,7 @@
                 "physical_shield_base": 2850,
                 "spunk_to_neutral_attack_power": 2079,
                 "spunk_to_neutral_overcome": 205,
+                "max_life_gain": 245,
                 "pve_addition_base": 369,
                 "magical_attack_power_base": 7242
             },
@@ -1753,7 +1760,7 @@
         "32477": {
             "name": "雪中行",
             "recipes": [
-                "recipe_6225_1"
+                "recipe_4584_1"
             ],
             "desc": "“快雪时晴”2.81秒内对目标造成5次伤害。",
             "belong_key": "belong_32477"
@@ -2056,6 +2063,7 @@
                 "pve_addition_base": 338,
                 "strength_to_physical_attack_power": 1843,
                 "strength_to_physical_overcome": 287,
+                "max_life_gain": 245,
                 "physical_attack_power_base": 7164
             },
             "recipes": [
@@ -2564,6 +2572,8 @@
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 6522,
+                "vitality_to_max_life": 2253,
+                "max_life_gain": 245,
                 "vitality_to_physical_attack_power": 41
             },
             "recipes": [
@@ -3022,6 +3032,9 @@
         },
         "5695": {
             "name": "望西京",
+            "attributes": {
+                "max_life_gain": 102
+            },
             "desc": "基础气血和内力上限提高10%。",
             "belong_key": "belong_5695"
         },
@@ -3127,6 +3140,7 @@
                 "pve_addition_base": 113,
                 "spirit_to_lunar_attack_power": 2048,
                 "spirit_to_lunar_critical_strike": 297,
+                "max_life_gain": 245,
                 "lunar_attack_power_base": 7387
             },
             "recipes": [
@@ -3564,6 +3578,7 @@
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1843,
                 "agility_to_physical_overcome": 287,
+                "max_life_gain": 245,
                 "physical_attack_power_base": 6513,
                 "physical_critical_strike_base": 7827
             },
@@ -4160,6 +4175,7 @@
                 "physical_shield_base": 2850,
                 "spirit_to_poison_attack_power": 2079,
                 "spirit_to_poison_overcome": 205,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 7242
             },
             "recipes": [
@@ -4704,6 +4720,7 @@
                 "pve_addition_base": 246,
                 "strength_to_physical_attack_power": 1731,
                 "strength_to_physical_critical_strike": 707,
+                "max_life_gain": 245,
                 "physical_overcome_base": 9025,
                 "physical_attack_power_base": 6187
             },
@@ -5172,7 +5189,7 @@
             "skills": [
                 3313
             ],
-            "desc": "陷阱技。消耗一个机关，在目标点投掷一个“暗藏杀机”陷阱，持续60秒。场上至多同时存在3个自身的“暗藏杀机”陷阱。\\n“暗藏杀机”陷阱：1.5秒后激活并隐匿，并在6尺范围内首次出现敌方目标时触发。\\n“暗藏杀机”触发：对6尺内至多4个目标造成<SUB 3313 0>毒性内功伤害和一次破招伤害，并使其锁足5秒。同一目标0.75秒内受到多个“暗藏杀机”伤害递减50%，至多叠加2层。<TALENT 3289 1 伤害提高2%><TALENT 3289 2 伤害提高4%><TALENT 3289 3 伤害提高6%><EnchantID 10070 暗藏杀机一次可施展3个机关，图穷匕见调息时间增加至15秒，每引爆一个机关，使目标受到的毒性内功伤害增加2%，使自身每秒回复2点神机值，可叠加3层，持续24秒。><TALENT 6504 1 引爆“暗藏杀机”时击退周围最多4名敌对目标10尺，“千机变·连弩”或“千机变·重弩”会对锁定攻击的目标追加一发“震爆弹”，对其造成<SUB 38882 1>毒性内功伤害并击退10尺。“暗藏杀机”或“震爆弹”命中玩家后“暗藏杀机”调息时间提高至16秒><TALENT 33134 1 每存在一个“千机变”提高30%“暗藏杀机”造成的伤害><TALENT 42473 1 鬼斧备弹><TALENT 42476 1 暗藏击倒><TALENT 42475 1 尽刑彻毒>",
+            "desc": "陷阱技。消耗一个机关，在目标点投掷一个“暗藏杀机”陷阱，持续60秒。场上至多同时存在3个自身的“暗藏杀机”陷阱。\\n“暗藏杀机”陷阱：1.5秒后激活并隐匿，并在6尺范围内首次出现敌方目标时触发。\\n“暗藏杀机”触发：对6尺内至多4个目标造成<SUB 3313 0>毒性内功伤害和一次破招伤害，并使其锁足5秒。同一侠士目标0.75秒内受到多个“暗藏杀机”伤害递减50%，至多叠加2层。<TALENT 3289 1 伤害提高2%><TALENT 3289 2 伤害提高4%><TALENT 3289 3 伤害提高6%><EnchantID 10070 暗藏杀机一次可施展3个机关，图穷匕见调息时间增加至15秒，每引爆一个机关，使目标受到的毒性内功伤害增加2%，使自身每秒回复2点神机值，可叠加3层，持续24秒。><TALENT 6504 1 引爆“暗藏杀机”时击退周围最多4名敌对目标10尺，“千机变·连弩”或“千机变·重弩”会对锁定攻击的目标追加一发“震爆弹”，对其造成<SUB 38882 1>毒性内功伤害并击退10尺。“暗藏杀机”或“震爆弹”命中玩家后“暗藏杀机”调息时间提高至16秒><TALENT 33134 1 每存在一个“千机变”提高30%“暗藏杀机”造成的伤害><TALENT 42473 1 鬼斧备弹><TALENT 42476 1 暗藏击倒><TALENT 42475 1 尽刑彻毒>",
             "belong_key": "belong_3111"
         },
         "3094": {
@@ -5204,6 +5221,7 @@
                 "physical_shield_base": 2850,
                 "spunk_to_poison_attack_power": 1946,
                 "spunk_to_physical_critical_strike": 635,
+                "max_life_gain": 245,
                 "poison_attack_power_base": 6518,
                 "physical_critical_strike_base": 3962
             },
@@ -5666,6 +5684,7 @@
                 "physical_shield_base": 2850,
                 "spunk_to_solar_and_lunar_attack_power": 2038,
                 "spunk_to_solar_and_lunar_critical_strike": 307,
+                "max_life_gain": 245,
                 "lunar_attack_power_base": 7604,
                 "solar_attack_power_base": 7604
             },
@@ -6100,8 +6119,10 @@
             "attributes": {
                 "magical_shield_base": 3261,
                 "physical_shield_base": 3261,
+                "vitality_to_max_life": 2253,
                 "vitality_to_solar_attack_power": 51,
-                "vitality_to_lunar_attack_power": 51
+                "vitality_to_lunar_attack_power": 51,
+                "max_life_gain": 245
             },
             "recipes": [
                 "recipe_1711_1",
@@ -6487,6 +6508,9 @@
         },
         "6898": {
             "name": "超凡入圣",
+            "attributes": {
+                "max_life_gain": 102
+            },
             "desc": "基础气血上限提高10%，被疗伤成效提高10%。",
             "belong_key": "belong_6898"
         },
@@ -6623,6 +6647,7 @@
                 "physical_shield_base": 3314,
                 "strength_to_physical_attack_power": 1772,
                 "strength_to_physical_overcome": 553,
+                "max_life_gain": 245,
                 "physical_attack_power_base": 6839
             },
             "recipes": [
@@ -7234,7 +7259,9 @@
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 3913,
-                "vitality_to_physical_attack_power": 41
+                "vitality_to_max_life": 2253,
+                "vitality_to_physical_attack_power": 41,
+                "max_life_gain": 245
             },
             "recipes": [
                 "recipe_1883_1",
@@ -7731,6 +7758,7 @@
                 "physical_shield_base": 2850,
                 "pve_addition_base": 358,
                 "agility_to_physical_attack_power": 1925,
+                "max_life_gain": 245,
                 "physical_attack_power_base": 6513,
                 "physical_overcome_base": 4696
             },
@@ -8260,6 +8288,7 @@
             "attributes": {
                 "magical_shield_base": 3130,
                 "physical_shield_base": 2850,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "lunar_critical_strike_base": 3962,
                 "spirit_to_lunar_attack_power": 2007,
@@ -8754,6 +8783,7 @@
                 "pve_addition_base": 215,
                 "strength_to_physical_attack_power": 1802,
                 "strength_to_physical_overcome": 420,
+                "max_life_gain": 245,
                 "physical_attack_power_base": 7034
             },
             "skills": [
@@ -9353,6 +9383,7 @@
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1802,
                 "agility_to_physical_critical_strike": 420,
+                "max_life_gain": 245,
                 "physical_critical_strike_base": 6628,
                 "physical_attack_power_base": 6839
             },
@@ -9848,6 +9879,7 @@
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1772,
                 "agility_to_physical_overcome": 553,
+                "max_life_gain": 245,
                 "physical_overcome_base": 6389,
                 "physical_attack_power_base": 6904
             },
@@ -10338,6 +10370,7 @@
                 "pve_addition_base": 307,
                 "spunk_to_neutral_attack_power": 1976,
                 "spunk_to_neutral_critical_strike": 512,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 7387,
                 "neutral_critical_strike_base": 7347
             },
@@ -10484,6 +10517,9 @@
             "name": "踏斗",
             "recipes": [
                 "recipe_6073_1"
+            ],
+            "buffs": [
+                30434
             ],
             "desc": "同时只会存在一个“灯魂”，“纵横三才”调息时间延长9秒，移动“灯魂”时会触发<NounID 105>效果。",
             "belong_key": "belong_25026"
@@ -10805,6 +10841,7 @@
                 "pve_addition_base": 317,
                 "spirit_to_poison_attack_power": 1976,
                 "spirit_to_poison_overcome": 512,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6663,
                 "poison_overcome_base": 5527
             },
@@ -11267,6 +11304,7 @@
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1731,
                 "agility_to_physical_critical_strike": 696,
+                "max_life_gain": 245,
                 "physical_critical_strike_base": 9025,
                 "physical_attack_power_base": 6187,
                 "pve_addition_base": 246
@@ -11393,6 +11431,9 @@
         },
         "42468": {
             "name": "佑主",
+            "attributes": {
+                "max_life_gain": -307
+            },
             "desc": "自身最大气血值降低30%,施展“游雾乘云”、“澄神醒梦”时，获得 <NounID 98>。",
             "belong_key": "belong_42468"
         },
@@ -11641,6 +11682,7 @@
                 "pve_addition_base": 154,
                 "strength_to_physical_attack_power": 1843,
                 "strength_to_physical_critical_strike": 287,
+                "max_life_gain": 245,
                 "physical_attack_power_base": 6318,
                 "physical_critical_strike_base": 8546
             },
@@ -12174,8 +12216,9 @@
                 "neutral_critical_strike_base": 5527,
                 "spunk_to_neutral_attack_power": 1997,
                 "spunk_to_neutral_critical_strike": 461,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
-                "pve_addition_base": 573
+                "pve_addition_base": 584
             },
             "recipes": [
                 "recipe_1711_1"
@@ -12651,6 +12694,7 @@
                 "spirit_to_lunar_attack_power": 1974,
                 "spirit_to_lunar_critical_strike": 512,
                 "lunar_critical_strike_base": 2412,
+                "max_life_gain": 245,
                 "pve_addition_base": 348
             },
             "dots": {
@@ -13096,6 +13140,7 @@
                 "physical_shield_base": 2850,
                 "spirit_to_neutral_attack_power": 1946,
                 "spirit_to_neutral_critical_strike": 625,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "neutral_critical_strike_base": 5527,
                 "all_shield_ignore": 614,
@@ -13263,6 +13308,31 @@
         }
     },
     "100994": {
+        "100994": {
+            "name": "北傲诀·悟",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2955,
+                "pve_addition_base": 676,
+                "all_shield_ignore": 614,
+                "strength_to_physical_attack_power": 1802,
+                "strength_to_physical_overcome": 420,
+                "max_life_gain": 245,
+                "physical_attack_power_base": 7034
+            },
+            "buffs": [
+                70161
+            ],
+            "skills": [
+                16820,
+                16419,
+                16822
+            ],
+            "desc": "罡风起处刀鸣烈，龙出沧海撼雷霆。北傲诀进退由心，偃仰任意。练到深邃之处有气盈于膺，刀势展开时吞吐万里，傲意凌穹。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_100994"
+        },
         "100999": {
             "name": "项王击鼎·悟",
             "attributes": {
@@ -13350,27 +13420,6 @@
             ],
             "desc": "冲向目标区域造成伤害，同时附带{流血}，持续16秒。",
             "belong_key": "belong_101004"
-        },
-        "100994": {
-            "name": "北傲诀·悟",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 2955,
-                "pve_addition_base": 676,
-                "all_shield_ignore": 614,
-                "strength_to_physical_attack_power": 1802,
-                "strength_to_physical_overcome": 420,
-                "physical_attack_power_base": 7034
-            },
-            "skills": [
-                16820,
-                16419,
-                16822
-            ],
-            "desc": "罡风起处刀鸣烈，龙出沧海撼雷霆。北傲诀进退由心，偃仰任意。练到深邃之处有气盈于膺，刀势展开时吞吐万里，傲意凌穹。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_100994"
         },
         "101003": {
             "name": "破釜沉舟·悟",
@@ -13542,6 +13591,7 @@
                 "physical_shield_base": 2347,
                 "spirit_to_poison_attack_power": 1976,
                 "spirit_to_poison_overcome": 512,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6663,
                 "poison_overcome_base": 5527,
                 "pve_addition_base": 604,
@@ -13821,6 +13871,7 @@
                 "neutral_critical_strike_base": 5527,
                 "spunk_to_neutral_attack_power": 1997,
                 "spunk_to_neutral_critical_strike": 461,
+                "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "all_shield_ignore": 614,
                 "pve_addition_base": 870
@@ -13938,7 +13989,8 @@
                 "spirit_to_lunar_attack_power": 1974,
                 "spirit_to_lunar_critical_strike": 512,
                 "lunar_critical_strike_base": 2412,
-                "magical_attack_power_base": 7459
+                "magical_attack_power_base": 7459,
+                "max_life_gain": 245
             },
             "recipes": [
                 "recipe_1711_1"

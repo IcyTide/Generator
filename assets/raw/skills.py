@@ -14206,11 +14206,25 @@ SKILLS = {
             }
         },
         42423: {
-            1: {
+            2: {
                 "name": "纵横三才",
-                "damage": "(30 + rand * 10) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                "comment": "主动",
+                "damage": "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 153.6 * buff_30434_1) / 1024)",
                 "critical_damage": "damage * neutral_critical_power",
-                "critical_strike": "neutral_critical_strike"
+                "critical_strike": "neutral_critical_strike",
+                "buffs": [
+                    "buff_30434_1"
+                ]
+            },
+            3: {
+                "name": "纵横三才",
+                "comment": "主动12尺",
+                "damage": "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 153.6 * buff_30434_1) / 1024)",
+                "critical_damage": "damage * neutral_critical_power",
+                "critical_strike": "neutral_critical_strike",
+                "buffs": [
+                    "buff_30434_1"
+                ]
             }
         },
         25233: {
@@ -14398,26 +14412,25 @@ SKILLS = {
             }
         },
         28815: {
-            1: {
-                "name": "纵横三才",
-                "comment": "连极阵",
-                "damage": "(30 + rand * 10) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
-                "critical_damage": "damage * neutral_critical_power",
-                "critical_strike": "neutral_critical_strike"
-            },
             2: {
                 "name": "纵横三才",
-                "comment": "踏斗连极阵",
-                "damage": "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                "comment": "连极阵",
+                "damage": "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 153.6 * buff_30434_1) / 1024)",
                 "critical_damage": "damage * neutral_critical_power",
-                "critical_strike": "neutral_critical_strike"
+                "critical_strike": "neutral_critical_strike",
+                "buffs": [
+                    "buff_30434_1"
+                ]
             },
             3: {
                 "name": "纵横三才",
-                "comment": "踏斗12尺连极阵",
-                "damage": "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + neutral_damage_cof / 1024)",
+                "comment": "12尺连极阵",
+                "damage": "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition / 1024) * (1 + skill_damage_final_cof / 1024) * shield_constant / (neutral_shield_base * (1 + neutral_shield_gain / 1024) * (1 - all_shield_ignore / 1024) + shield_constant) * (1 + neutral_overcome) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_addition_base / 1024) * (1 + (neutral_damage_cof + 153.6 * buff_30434_1) / 1024)",
                 "critical_damage": "damage * neutral_critical_power",
-                "critical_strike": "neutral_critical_strike"
+                "critical_strike": "neutral_critical_strike",
+                "buffs": [
+                    "buff_30434_1"
+                ]
             }
         },
         25150: {

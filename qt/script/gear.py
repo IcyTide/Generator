@@ -216,12 +216,14 @@ class GearScript:
         if attributes:
             AttributeDialog(attributes, recipes, list(gains), parent=self.widget).exec()
 
-    def init(self, kungfu: Kungfu, gears: Gears = None):
+    def init(self, kungfu: Kungfu, gears: Gears | dict = None):
         self.kungfu = kungfu
         if not gears:
             self.gears = Gears()
-        else:
+        elif isinstance(gears, Gears):
             self.gears = gears
+        else:
+            self.gears = Gears.from_dict(gears)
         for label, sub_script in self.sub_scripts.items():
             sub_script.init(self.gears.get(label))
         return self.gears

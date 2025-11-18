@@ -145,10 +145,10 @@ class ATTRIBUTE_TYPE(StrEnum):
     MAX_SUN_ENERGY = ""
     MAX_MOON_ENERGY = ""
     NATURE_POWER_MAX_GRID = ""
-    MAX_LIFE_BASE = ""
-    MAX_LIFE_ADDITIONAL = ""
-    MAX_LIFE_PERCENT_ADD = ""
-    FINAL_MAX_LIFE_ADD_PERCENT = ""
+    MAX_LIFE_BASE = "max_life_base"
+    MAX_LIFE_ADDITIONAL = "max_life_add"
+    MAX_LIFE_PERCENT_ADD = "max_life_gain"
+    FINAL_MAX_LIFE_ADD_PERCENT = "max_life_final_gain"
     MAX_MANA_BASE = ""
     MAX_MANA_ADDITIONAL = ""
     MAX_MANA_PERCENT_ADD = ""
@@ -410,8 +410,6 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_MAGIC_SHIELD_PERCENT = "neutral_shield_gain"
     POISON_MAGIC_SHIELD_PERCENT = "poison_shield_gain"
 
-    PHYSICS_SHIELD_ADDITIONAL = ""
-
     PHYSICS_RESIST_PERCENT = ""
     SOLAR_MAGIC_RESIST_PERCENT = ""
     LUNAR_MAGIC_RESIST_PERCENT = ""
@@ -431,7 +429,6 @@ class ATTRIBUTE_TYPE(StrEnum):
     BE_THERAPY_COEFFICIENT = ""
 
     # Cof Attribute
-    VITALITY_TO_MAX_LIFE_COF = ""
     VITALITY_TO_MAX_MANA_COF = ""
     VITALITY_TO_PARRY_COF = ""
     VITALITY_TO_PARRY_VALUE_COF = ""
@@ -471,6 +468,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     VITALITY_TO_PHYSICS_OVER_COME_COF = "vitality_to_physical_overcome"
     VITALITY_TO_MAGIC_OVER_COME_COF = "vitality_to_magical_overcome"
     VITALITY_TO_MAGIC_CRITICAL_STRIKE_COF = "vitality_to_magical_critical_strike"
+    VITALITY_TO_MAX_LIFE_COF = "vitality_to_max_life"
 
     # Other Attribute
     ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"

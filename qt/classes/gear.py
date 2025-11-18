@@ -222,7 +222,7 @@ class Gears:
         return ret
 
     @classmethod
-    def from_dict(cls, json):
+    def from_dict(cls, json: dict):
         if not json:
             return cls()
         instance = cls({

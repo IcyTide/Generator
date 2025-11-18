@@ -147,23 +147,31 @@ class BonusScript:
 
     def init(
             self, kungfu: Kungfu,
-            consumables: Consumables = None, formation: Formation = None, team_gains: TeamGains = None
+            consumables: Consumables | dict = None,
+            formation: Formation | dict = None,
+            team_gains: TeamGains | dict = None
     ):
         self.kungfu = kungfu
 
         if not consumables:
             self.consumables = Consumables()
-        else:
+        elif isinstance(consumables, Consumables):
             self.consumables = consumables
+        else:
+            self.consumables = Consumables.from_dict(consumables)
         if not formation:
             self.formation = Formation()
-        else:
+        elif isinstance(formation, Formation):
             self.formation = formation
+        else:
+            self.formation = Formation.from_dict(formation)
 
         if not team_gains:
             self.team_gains = TeamGains()
-        else:
+        elif isinstance(team_gains, TeamGains):
             self.team_gains = team_gains
+        else:
+            self.team_gains = TeamGains.from_dict(team_gains)
 
         self.consumable_script.init(self.consumables)
         self.formation_script.init(self.formation)

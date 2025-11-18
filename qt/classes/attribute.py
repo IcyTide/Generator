@@ -183,6 +183,7 @@ class AttackPower(Major):
     @all_attack_power_base.setter
     def all_attack_power_base(self, value):
         residual = value - self._all_attack_power_base
+        self.physical_attack_power_base += residual
         self.solar_attack_power_base += residual
         self.lunar_attack_power_base += residual
         self.neutral_attack_power_base += residual
@@ -701,6 +702,34 @@ class Overcome(Major):
         return self.final_poison_overcome / OVERCOME_SCALE
 
 
+class MaxLife(Major):
+    max_life_base: int = MAX_LIFE_BASE
+    max_life_add: int = 0
+    max_life_gain: int = 0
+    max_life_final_gain: int = 0
+
+    vitality_to_max_life: int = 0
+
+    @property
+    def base_max_life(self):
+        return self.max_life_base + self.vitality * VITALITY_TO_MAX_LIFE
+
+    @property
+    def extra_max_life(self):
+        if self.vitality_to_max_life:
+            return Int(self.vitality * self.vitality_to_max_life / BINARY_SCALE)
+        return 0
+
+    @property
+    def final_max_life(self):
+        base_max_life = Int(self.base_max_life * (1 + self.max_life_gain / BINARY_SCALE))
+        return base_max_life + self.max_life_add + self.extra_max_life
+
+    @property
+    def max_life(self):
+        return Int(self.final_max_life * (1 + self.max_life_final_gain / BINARY_SCALE))
+
+
 class CriticalPower(BaseType):
     physical_critical_power_base: int = 0
     solar_critical_power_base: int = 0
@@ -964,7 +993,7 @@ class Target(Defense, DamageCof):
     shield_constant: Expression = Variable("shield_constant")
 
 
-class Attribute(AttackPower, CriticalStrike, Overcome, CriticalPower, Minor, Target):
+class Attribute(AttackPower, CriticalStrike, Overcome, MaxLife, CriticalPower, Minor, Target):
     level: int = LEVEL
 
     buffs: dict[str, float]

@@ -388,12 +388,14 @@ class LoopScript:
         self.widget.dot_table.refresh_table(record.dots)
         self.show_dot_damage_btn()
 
-    def init(self, kungfu: Kungfu, sections: Sections = None):
+    def init(self, kungfu: Kungfu, sections: Sections | list = None):
         self.kungfu = kungfu
-        if sections:
+        if not sections:
+            self.sections = Sections([Section()])
+        elif isinstance(sections, Sections):
             self.sections = sections
         else:
-            self.sections = Sections([Section()])
+            self.sections = Sections.from_dict(kungfu.kungfu_id, sections)
         self.widget.section_table.refresh_table(self.sections, True)
         self.widget.section_table.set_current_row(0)
         self.select_section()

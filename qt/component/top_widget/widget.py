@@ -14,6 +14,5 @@ class TopWidget(QWidget):
         layout.addWidget(self.load_btn, 1)
         self.save_btn = QPushButton("保存配置")
         layout.addWidget(self.save_btn, 1)
-        self.save_btn.hide()
         # self.attribute_btn = QPushButton("Attributes")
         # layout.addWidget(self.attribute_btn)
