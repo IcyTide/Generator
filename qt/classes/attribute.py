@@ -936,6 +936,8 @@ class Defense(BaseType):
     poison_shield_base: Expression = Variable("shield_base")
     _magical_shield_base: int = 0
 
+    physical_shield_add: int = 0
+
     physical_shield_gain: int = 0
     solar_shield_gain: int = 0
     lunar_shield_gain: int = 0
@@ -957,7 +959,8 @@ class Defense(BaseType):
 
     @property
     def physical_shield(self):
-        return int(self.physical_shield_base * (1 + self.physical_shield_gain / BINARY_SCALE))
+        physical_shield = int(self.physical_shield_base * (1 + self.physical_shield_gain / BINARY_SCALE))
+        return physical_shield + self.physical_shield_add
 
     @property
     def solar_shield(self):

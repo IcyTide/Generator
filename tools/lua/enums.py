@@ -410,6 +410,8 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_MAGIC_SHIELD_PERCENT = "neutral_shield_gain"
     POISON_MAGIC_SHIELD_PERCENT = "poison_shield_gain"
 
+    PHYSICS_SHIELD_ADDITIONAL = "physical_shield_add"
+
     PHYSICS_RESIST_PERCENT = ""
     SOLAR_MAGIC_RESIST_PERCENT = ""
     LUNAR_MAGIC_RESIST_PERCENT = ""

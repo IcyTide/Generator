@@ -105,8 +105,7 @@ class TeamGain:
         ATTRIBUTE_FUNCS.get(self.name, default_attribute)(self, attribute)
 
     def set_record(self, record: Record):
-        # RECORD_FUNCS.get(self.name, default_record)(self, record)
-        ...
+        RECORD_FUNCS.get(self.name, default_record)(self, record)
 
     def to_dict(self):
         return dict(

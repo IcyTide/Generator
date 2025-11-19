@@ -3761,6 +3761,45 @@ EQUIPMENTS = {
                             ]
                         }
                     }
+                },
+                "缚罗护手#108654 (28000 会心 无双)": {
+                    "id": 108654,
+                    "name": "缚罗护手",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 6725,
+                    "icon_id": 25216,
+                    "base": {
+                        "physical_shield_base": 641,
+                        "magical_shield_base": 802
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "spirit_base": 878,
+                        "lunar_attack_power_base": 2217,
+                        "lunar_critical_strike_base": 7337,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "lunar_attack_power_base": 97
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2593
+                            }
+                        },
+                        4: {
+                            "attributes": {
+                                "strain_base": 2593
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -8039,6 +8078,182 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修鞋·外·玄#105057 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 105057,
+                    "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 573,
+                        "magical_shield_base": 458
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "physical_attack_power_base": 3855,
+                        "physical_critical_strike_base": 7337,
+                        "physical_critical_power_base": 3668,
+                        "strain_base": 3668
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38939_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·外·玄#105056 (28000 精简 特效 破招 无双)": {
+                    "id": 105056,
+                    "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 573,
+                        "magical_shield_base": 458
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "physical_attack_power_base": 2658,
+                        "surplus_base": 11250,
+                        "strain_base": 7337
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·外·玄#105055 (28000 精简 特效 破防 无双)": {
+                    "id": 105055,
+                    "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 573,
+                        "magical_shield_base": 458
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "physical_attack_power_base": 3190,
+                        "physical_overcome_base": 11250,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "surplus_base": 321,
+                        "physical_attack_power_base": 87
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·外·玄#105033 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 105033,
+                    "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 573,
+                        "magical_shield_base": 458
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "physical_attack_power_base": 3855,
+                        "physical_critical_strike_base": 7337,
+                        "physical_critical_power_base": 3668,
+                        "strain_base": 3668
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38939_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·外·玄#105032 (28000 精简 特效 破招 无双)": {
+                    "id": 105032,
+                    "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 573,
+                        "magical_shield_base": 458
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "physical_attack_power_base": 2658,
+                        "surplus_base": 11250,
+                        "strain_base": 7337
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·外·玄#105031 (28000 精简 特效 破防 无双)": {
+                    "id": 105031,
+                    "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 573,
+                        "magical_shield_base": 458
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "physical_attack_power_base": 3190,
+                        "physical_overcome_base": 11250,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "surplus_base": 321,
+                        "physical_attack_power_base": 87
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -8569,6 +8784,182 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修鞋·内·玄#105054 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 105054,
+                    "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "magical_attack_power_base": 4286,
+                        "all_critical_strike_base": 7337,
+                        "all_critical_power_base": 3668,
+                        "strain_base": 3668
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38939_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·内·玄#105053 (28000 精简 特效 破招 无双)": {
+                    "id": 105053,
+                    "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "magical_attack_power_base": 2956,
+                        "surplus_base": 11250,
+                        "strain_base": 7337
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·内·玄#105052 (28000 精简 特效 破防 无双)": {
+                    "id": 105052,
+                    "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "magical_attack_power_base": 3547,
+                        "magical_overcome_base": 11250,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "surplus_base": 321,
+                        "magical_attack_power_base": 97
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·内·玄#105030 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 105030,
+                    "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "magical_attack_power_base": 4286,
+                        "all_critical_strike_base": 7337,
+                        "all_critical_power_base": 3668,
+                        "strain_base": 3668
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38939_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·内·玄#105029 (28000 精简 特效 破招 无双)": {
+                    "id": 105029,
+                    "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "magical_attack_power_base": 2956,
+                        "surplus_base": 11250,
+                        "strain_base": 7337
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修鞋·内·玄#105028 (28000 精简 特效 破防 无双)": {
+                    "id": 105028,
+                    "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9245,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "magical_attack_power_base": 3547,
+                        "magical_overcome_base": 11250,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "surplus_base": 321,
+                        "magical_attack_power_base": 97
+                    },
+                    "gains": [
+                        "gain_38944_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             }
         },
@@ -8655,6 +9046,45 @@ EQUIPMENTS = {
                                 "recipe_6103_1",
                                 "recipe_17250_1"
                             ]
+                        }
+                    }
+                },
+                "缚罗鞋#108656 (28000 破招 无双)": {
+                    "id": 108656,
+                    "name": "缚罗鞋",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 6725,
+                    "icon_id": 25219,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "spirit_base": 878,
+                        "lunar_attack_power_base": 2217,
+                        "surplus_base": 7337,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_attack_power_base": 97
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2593
+                            }
+                        },
+                        4: {
+                            "attributes": {
+                                "strain_base": 2593
+                            }
                         }
                     }
                 }
@@ -18319,6 +18749,45 @@ EQUIPMENTS = {
                             ]
                         }
                     }
+                },
+                "缚罗腰带#108655 (28000 破防 无双)": {
+                    "id": 108655,
+                    "name": "缚罗腰带",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 6725,
+                    "icon_id": 25220,
+                    "base": {
+                        "physical_shield_base": 458,
+                        "magical_shield_base": 573
+                    },
+                    "magic": {
+                        "vitality_base": 10760,
+                        "spirit_base": 878,
+                        "lunar_attack_power_base": 2217,
+                        "lunar_overcome_base": 7337,
+                        "strain_base": 5869
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2593
+                            }
+                        },
+                        4: {
+                            "attributes": {
+                                "strain_base": 2593
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -22897,6 +23366,184 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修冠·外·玄#105051 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 105051,
+                    "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 733
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "physical_attack_power_base": 4956,
+                        "physical_critical_strike_base": 6289,
+                        "physical_overcome_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_attack_power_base": 87
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·外·玄#105050 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 105050,
+                    "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 733
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "physical_attack_power_base": 4956,
+                        "physical_critical_strike_base": 6289,
+                        "surplus_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·外·玄#105049 (28000 精简 特效 会心 无双)": {
+                    "id": 105049,
+                    "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 733
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "physical_attack_power_base": 4101,
+                        "physical_critical_strike_base": 14464,
+                        "strain_base": 7546
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·外·玄#105027 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 105027,
+                    "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 733
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "physical_attack_power_base": 4956,
+                        "physical_critical_strike_base": 6289,
+                        "physical_overcome_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_attack_power_base": 87
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·外·玄#105026 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 105026,
+                    "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 733
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "physical_attack_power_base": 4956,
+                        "physical_critical_strike_base": 6289,
+                        "surplus_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·外·玄#105025 (28000 精简 特效 会心 无双)": {
+                    "id": 105025,
+                    "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 733
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "physical_attack_power_base": 4101,
+                        "physical_critical_strike_base": 14464,
+                        "strain_base": 7546
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -23429,6 +24076,184 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修冠·内·玄#105048 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 105048,
+                    "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "magical_attack_power_base": 5511,
+                        "all_critical_strike_base": 6289,
+                        "magical_overcome_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321,
+                        "magical_attack_power_base": 97
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·内·玄#105047 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 105047,
+                    "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "magical_attack_power_base": 5511,
+                        "all_critical_strike_base": 6289,
+                        "surplus_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·内·玄#105046 (28000 精简 特效 会心 无双)": {
+                    "id": 105046,
+                    "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "magical_attack_power_base": 4561,
+                        "all_critical_strike_base": 14464,
+                        "strain_base": 7546
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·内·玄#105024 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 105024,
+                    "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "magical_attack_power_base": 5511,
+                        "all_critical_strike_base": 6289,
+                        "magical_overcome_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321,
+                        "magical_attack_power_base": 97
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·内·玄#105023 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 105023,
+                    "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "magical_attack_power_base": 5511,
+                        "all_critical_strike_base": 6289,
+                        "surplus_base": 6289,
+                        "strain_base": 6289
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修冠·内·玄#105022 (28000 精简 特效 会心 无双)": {
+                    "id": 105022,
+                    "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 9240,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "magical_attack_power_base": 4561,
+                        "all_critical_strike_base": 14464,
+                        "strain_base": 7546
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [
+                        "gain_38934_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             }
         },
@@ -23515,6 +24340,45 @@ EQUIPMENTS = {
                                 "recipe_6103_1",
                                 "recipe_17250_1"
                             ]
+                        }
+                    }
+                },
+                "缚罗帽#108657 (28000 会心 无双)": {
+                    "id": 108657,
+                    "name": "缚罗帽",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 6725,
+                    "icon_id": 25217,
+                    "base": {
+                        "physical_shield_base": 733,
+                        "magical_shield_base": 916
+                    },
+                    "magic": {
+                        "vitality_base": 13835,
+                        "spirit_base": 1129,
+                        "lunar_attack_power_base": 2850,
+                        "lunar_critical_strike_base": 9433,
+                        "strain_base": 7546
+                    },
+                    "embed": {
+                        "lunar_overcome_base": 321,
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2593
+                            }
+                        },
+                        4: {
+                            "attributes": {
+                                "strain_base": 2593
+                            }
                         }
                     }
                 }
@@ -27373,6 +28237,45 @@ EQUIPMENTS = {
                             ]
                         }
                     }
+                },
+                "缚罗衣#108658 (28000 破招 无双)": {
+                    "id": 108658,
+                    "name": "缚罗衣",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 6725,
+                    "icon_id": 25215,
+                    "base": {
+                        "physical_shield_base": 916,
+                        "magical_shield_base": 1145
+                    },
+                    "magic": {
+                        "vitality_base": 15372,
+                        "spirit_base": 1254,
+                        "lunar_attack_power_base": 3167,
+                        "surplus_base": 10481,
+                        "strain_base": 8385
+                    },
+                    "embed": {
+                        "surplus_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2593
+                            }
+                        },
+                        4: {
+                            "attributes": {
+                                "strain_base": 2593
+                            }
+                        }
+                    }
                 }
             }
         },
@@ -29939,6 +30842,52 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "烬书坠#44279 (28800 无双)": {
+                    "id": 44279,
+                    "name": "烬书坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "level": 28800,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1222,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11679,
+                        "magical_shield_base": 7187,
+                        "strain_base": 4312
+                    },
+                    "embed": {
+                        "magical_shield_base": 161
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "远集坠#43056 (28000 破招 无双)": {
+                    "id": 43056,
+                    "name": "远集坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1221,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11354,
+                        "physical_shield_base": 4891,
+                        "magical_shield_base": 4891,
+                        "surplus_base": 2096,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "magical_shield_base": 161
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "身法": {
@@ -30279,6 +31228,54 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "agility_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "烛漪坠#44277 (28800 破防 无双)": {
+                    "id": 44277,
+                    "name": "烛漪坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "level": 28800,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1222,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7906,
+                        "agility_base": 645,
+                        "physical_attack_power_base": 1465,
+                        "physical_overcome_base": 5390,
+                        "strain_base": 4312
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "载周坠#43054 (28000 会心 无双)": {
+                    "id": 43054,
+                    "name": "载周坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1221,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "agility_base": 627,
+                        "physical_attack_power_base": 1424,
+                        "physical_critical_strike_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "strain_base": 321
                     },
                     "gains": [],
                     "recipes": [],
@@ -30627,6 +31624,54 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "香递坠#44276 (28800 破防 无双)": {
+                    "id": 44276,
+                    "name": "香递坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "level": 28800,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1222,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7906,
+                        "strength_base": 645,
+                        "physical_attack_power_base": 1465,
+                        "physical_overcome_base": 5390,
+                        "strain_base": 4312
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "沉淖坠#43053 (28000 会心 无双)": {
+                    "id": 43053,
+                    "name": "沉淖坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1221,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "strength_base": 627,
+                        "physical_attack_power_base": 1424,
+                        "physical_critical_strike_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "元气": {
@@ -30971,6 +32016,54 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "舟渡坠#44275 (28800 破防 无双)": {
+                    "id": 44275,
+                    "name": "舟渡坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "level": 28800,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1222,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7906,
+                        "spunk_base": 645,
+                        "magical_attack_power_base": 1629,
+                        "magical_overcome_base": 5390,
+                        "strain_base": 4312
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "览微坠#43052 (28000 会心 无双)": {
+                    "id": 43052,
+                    "name": "览微坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1221,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "spunk_base": 627,
+                        "magical_attack_power_base": 1584,
+                        "all_critical_strike_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "根骨": {
@@ -31311,6 +32404,54 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "幽墟坠#44274 (28800 破防 无双)": {
+                    "id": 44274,
+                    "name": "幽墟坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "level": 28800,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1222,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7906,
+                        "spirit_base": 645,
+                        "magical_attack_power_base": 1629,
+                        "magical_overcome_base": 5390,
+                        "strain_base": 4312
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "防露坠#43051 (28000 会心 无双)": {
+                    "id": 43051,
+                    "name": "防露坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1221,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "spirit_base": 627,
+                        "magical_attack_power_base": 1584,
+                        "magical_critical_strike_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "strain_base": 321
                     },
                     "gains": [],
                     "recipes": [],
@@ -31931,6 +33072,160 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修坠·外·玄#43110 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 43110,
+                    "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2753,
+                        "physical_critical_strike_base": 5240,
+                        "physical_critical_power_base": 2620,
+                        "strain_base": 2620
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·外·玄#43109 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 43109,
+                    "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2753,
+                        "physical_critical_strike_base": 3494,
+                        "physical_overcome_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38948_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·外·玄#43108 (28000 精简 特效 会心 无双)": {
+                    "id": 43108,
+                    "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2279,
+                        "physical_critical_strike_base": 8035,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·外·玄#43086 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 43086,
+                    "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2753,
+                        "physical_critical_strike_base": 5240,
+                        "physical_critical_power_base": 2620,
+                        "strain_base": 2620
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·外·玄#43085 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 43085,
+                    "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2753,
+                        "physical_critical_strike_base": 3494,
+                        "physical_overcome_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38948_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·外·玄#43084 (28000 精简 特效 会心 无双)": {
+                    "id": 43084,
+                    "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2279,
+                        "physical_critical_strike_base": 8035,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -32545,6 +33840,160 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修坠·内·玄#43107 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 43107,
+                    "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3061,
+                        "all_critical_strike_base": 5240,
+                        "all_critical_power_base": 2620,
+                        "strain_base": 2620
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·内·玄#43106 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 43106,
+                    "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3061,
+                        "all_critical_strike_base": 3494,
+                        "magical_overcome_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38948_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·内·玄#43105 (28000 精简 特效 会心 无双)": {
+                    "id": 43105,
+                    "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 2534,
+                        "all_critical_strike_base": 8035,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·内·玄#43083 (28000 精简 特效 会心 会效 无双)": {
+                    "id": 43083,
+                    "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3061,
+                        "all_critical_strike_base": 5240,
+                        "all_critical_power_base": 2620,
+                        "strain_base": 2620
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·内·玄#43082 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 43082,
+                    "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3061,
+                        "all_critical_strike_base": 3494,
+                        "magical_overcome_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38948_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修坠·内·玄#43081 (28000 精简 特效 会心 无双)": {
+                    "id": 43081,
+                    "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1215,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 2534,
+                        "all_critical_strike_base": 8035,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38949_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             }
         }
@@ -33031,6 +34480,28 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "咏川戒#47582 (28000 破招 无双)": {
+                    "id": 47582,
+                    "name": "咏川戒",
+                    "school": "通用",
+                    "kind": "身法",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2850,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "agility_base": 627,
+                        "physical_attack_power_base": 1424,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {},
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "力道": {
@@ -33368,6 +34839,28 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 1536,
                         "surplus_base": 5652,
                         "strain_base": 4522
+                    },
+                    "embed": {},
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "游川戒#47581 (28000 破招 无双)": {
+                    "id": 47581,
+                    "name": "游川戒",
+                    "school": "通用",
+                    "kind": "力道",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2850,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "strength_base": 627,
+                        "physical_attack_power_base": 1424,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
                     },
                     "embed": {},
                     "gains": [],
@@ -33715,6 +35208,28 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "望川戒#47580 (28000 破招 无双)": {
+                    "id": 47580,
+                    "name": "望川戒",
+                    "school": "通用",
+                    "kind": "元气",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2850,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "spunk_base": 627,
+                        "magical_attack_power_base": 1584,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {},
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "根骨": {
@@ -34057,6 +35572,28 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "驰川戒#47579 (28000 破招 无双)": {
+                    "id": 47579,
+                    "name": "驰川戒",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2850,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "spirit_base": 627,
+                        "magical_attack_power_base": 1584,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {},
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "防御": {
@@ -34248,6 +35785,26 @@ EQUIPMENTS = {
                         "vitality_base": 12246,
                         "magical_shield_base": 7536,
                         "strain_base": 4522
+                    },
+                    "embed": {},
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "忆川戒#47584 (28000 无双)": {
+                    "id": 47584,
+                    "name": "忆川戒",
+                    "school": "通用",
+                    "kind": "防御",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2850,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11354,
+                        "magical_shield_base": 6987,
+                        "strain_base": 4192
                     },
                     "embed": {},
                     "gains": [],
@@ -35979,6 +37536,52 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "月岚链#44285 (29200 无双)": {
+                    "id": 44285,
+                    "name": "月岚链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1199,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11841,
+                        "magical_shield_base": 7287,
+                        "strain_base": 4372
+                    },
+                    "embed": {
+                        "physical_shield_base": 161
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "远集链#43050 (28000 加速 无双)": {
+                    "id": 43050,
+                    "name": "远集链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 24371,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11354,
+                        "physical_shield_base": 4891,
+                        "magical_shield_base": 4891,
+                        "haste_base": 2096,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "magical_shield_base": 161
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "身法": {
@@ -36217,6 +37820,54 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "月晴链#44283 (29200 破防 无双)": {
+                    "id": 44283,
+                    "name": "月晴链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1199,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8015,
+                        "agility_base": 654,
+                        "physical_attack_power_base": 1485,
+                        "physical_overcome_base": 5465,
+                        "strain_base": 4372
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "载周链#43048 (28000 破招 无双)": {
+                    "id": 43048,
+                    "name": "载周链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 24371,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "agility_base": 627,
+                        "physical_attack_power_base": 1424,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87
                     },
                     "gains": [],
                     "recipes": [],
@@ -36463,6 +38114,54 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "月和链#44282 (29200 破防 无双)": {
+                    "id": 44282,
+                    "name": "月和链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1199,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8015,
+                        "strength_base": 654,
+                        "physical_attack_power_base": 1485,
+                        "physical_overcome_base": 5465,
+                        "strain_base": 4372
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "沉淖链#43047 (28000 破招 无双)": {
+                    "id": 43047,
+                    "name": "沉淖链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 24371,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "strength_base": 627,
+                        "physical_attack_power_base": 1424,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "元气": {
@@ -36705,6 +38404,54 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "月鸣链#44281 (29200 破防 无双)": {
+                    "id": 44281,
+                    "name": "月鸣链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1199,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8015,
+                        "spunk_base": 654,
+                        "magical_attack_power_base": 1651,
+                        "magical_overcome_base": 5465,
+                        "strain_base": 4372
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "览微链#43046 (28000 破招 无双)": {
+                    "id": 43046,
+                    "name": "览微链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 24371,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "spunk_base": 627,
+                        "magical_attack_power_base": 1584,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 97
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "根骨": {
@@ -36943,6 +38690,54 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "月诗链#44280 (29200 破防 无双)": {
+                    "id": 44280,
+                    "name": "月诗链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 1199,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8015,
+                        "spirit_base": 654,
+                        "magical_attack_power_base": 1651,
+                        "magical_overcome_base": 5465,
+                        "strain_base": 4372
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "防露链#43045 (28000 破招 无双)": {
+                    "id": 43045,
+                    "name": "防露链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 24371,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "spirit_base": 627,
+                        "magical_attack_power_base": 1584,
+                        "surplus_base": 5240,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 97
                     },
                     "gains": [],
                     "recipes": [],
@@ -37407,6 +39202,156 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修链·外·玄#43104 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 43104,
+                    "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2753,
+                        "physical_critical_strike_base": 3494,
+                        "surplus_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38945_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·外·玄#43103 (28000 精简 特效 破防 无双)": {
+                    "id": 43103,
+                    "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2279,
+                        "physical_overcome_base": 3843,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "surplus_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·外·玄#43102 (28000 精简 特效 无双)": {
+                    "id": 43102,
+                    "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 3228,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·外·玄#43080 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 43080,
+                    "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2753,
+                        "physical_critical_strike_base": 3494,
+                        "surplus_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38945_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·外·玄#43079 (28000 精简 特效 破防 无双)": {
+                    "id": 43079,
+                    "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 2279,
+                        "physical_overcome_base": 3843,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "surplus_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·外·玄#43078 (28000 精简 特效 无双)": {
+                    "id": 43078,
+                    "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "physical_attack_power_base": 3228,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -37865,6 +39810,156 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修链·内·玄#43101 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 43101,
+                    "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3061,
+                        "all_critical_strike_base": 3494,
+                        "surplus_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38945_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·内·玄#43100 (28000 精简 特效 破防 无双)": {
+                    "id": 43100,
+                    "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 2534,
+                        "magical_overcome_base": 3843,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "surplus_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·内·玄#43099 (28000 精简 特效 无双)": {
+                    "id": 43099,
+                    "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3589,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·内·玄#43077 (28000 精简 特效 会心 破招 无双)": {
+                    "id": 43077,
+                    "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3061,
+                        "all_critical_strike_base": 3494,
+                        "surplus_base": 3494,
+                        "strain_base": 3494
+                    },
+                    "embed": {
+                        "magical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_38945_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·内·玄#43076 (28000 精简 特效 破防 无双)": {
+                    "id": 43076,
+                    "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 2534,
+                        "magical_overcome_base": 3843,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "surplus_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修链·内·玄#43075 (28000 精简 特效 无双)": {
+                    "id": 43075,
+                    "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 2838,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7686,
+                        "magical_attack_power_base": 3589,
+                        "strain_base": 7686
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 321
+                    },
+                    "gains": [
+                        "gain_38946_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             }
         }
@@ -38092,6 +40187,26 @@ EQUIPMENTS = {
                     "embed": {
                         "vitality_base": 161
                     },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "持节行·献雉#42588 (29200 无双)": {
+                    "id": 42588,
+                    "name": "持节行·献雉",
+                    "school": "通用",
+                    "kind": "防御",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 807,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 14209,
+                        "physical_shield_base": 8744,
+                        "strain_base": 5246
+                    },
+                    "embed": {},
                     "gains": [],
                     "recipes": [],
                     "sets": {}
@@ -38333,6 +40448,30 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "agility_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "持节行·乘槎#42586 (29200 破防 无双)": {
+                    "id": 42586,
+                    "name": "持节行·乘槎",
+                    "school": "通用",
+                    "kind": "身法",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 807,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9618,
+                        "agility_base": 785,
+                        "physical_attack_power_base": 1782,
+                        "physical_overcome_base": 6558,
+                        "strain_base": 5246
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87
                     },
                     "gains": [],
                     "recipes": [],
@@ -38579,6 +40718,30 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "持节行·投笔#42585 (29200 破防 无双)": {
+                    "id": 42585,
+                    "name": "持节行·投笔",
+                    "school": "通用",
+                    "kind": "力道",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 807,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9618,
+                        "strength_base": 785,
+                        "physical_attack_power_base": 1782,
+                        "physical_overcome_base": 6558,
+                        "strain_base": 5246
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "元气": {
@@ -38821,6 +40984,30 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "持节行·牧羊#42584 (29200 破防 无双)": {
+                    "id": 42584,
+                    "name": "持节行·牧羊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 807,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9618,
+                        "spunk_base": 785,
+                        "magical_attack_power_base": 1982,
+                        "magical_overcome_base": 6558,
+                        "strain_base": 5246
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 97
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "根骨": {
@@ -39059,6 +41246,30 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "spirit_base": 41
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "持节行·凿空#42583 (29200 破防 无双)": {
+                    "id": 42583,
+                    "name": "持节行·凿空",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "level": 29200,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 807,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9618,
+                        "spirit_base": 785,
+                        "magical_attack_power_base": 1982,
+                        "magical_overcome_base": 6558,
+                        "strain_base": 5246
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 97
                     },
                     "gains": [],
                     "recipes": [],
@@ -39527,6 +41738,160 @@ EQUIPMENTS = {
                     ],
                     "recipes": [],
                     "sets": {}
+                },
+                "无修囊·外·玄#41344 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 41344,
+                    "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "physical_attack_power_base": 3304,
+                        "physical_critical_strike_base": 4192,
+                        "physical_overcome_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·外·玄#41343 (28000 精简 特效 破防 破招 无双)": {
+                    "id": 41343,
+                    "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "physical_attack_power_base": 3304,
+                        "physical_overcome_base": 4192,
+                        "surplus_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·外·玄#41342 (28000 精简 特效 会心 无双)": {
+                    "id": 41342,
+                    "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "physical_attack_power_base": 2734,
+                        "physical_critical_strike_base": 9642,
+                        "strain_base": 5031
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·外·玄#41332 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 41332,
+                    "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "physical_attack_power_base": 3304,
+                        "physical_critical_strike_base": 4192,
+                        "physical_overcome_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·外·玄#41331 (28000 精简 特效 破防 破招 无双)": {
+                    "id": 41331,
+                    "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "physical_attack_power_base": 3304,
+                        "physical_overcome_base": 4192,
+                        "surplus_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·外·玄#41330 (28000 精简 特效 会心 无双)": {
+                    "id": 41330,
+                    "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "physical_attack_power_base": 2734,
+                        "physical_critical_strike_base": 9642,
+                        "strain_base": 5031
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -39986,6 +42351,160 @@ EQUIPMENTS = {
                     },
                     "gains": [
                         "gain_38950_4"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·内·玄#41341 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 41341,
+                    "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "magical_attack_power_base": 3674,
+                        "all_critical_strike_base": 4192,
+                        "magical_overcome_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·内·玄#41340 (28000 精简 特效 破防 破招 无双)": {
+                    "id": 41340,
+                    "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "magical_attack_power_base": 3674,
+                        "magical_overcome_base": 4192,
+                        "surplus_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·内·玄#41339 (28000 精简 特效 会心 无双)": {
+                    "id": 41339,
+                    "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "magical_attack_power_base": 3040,
+                        "all_critical_strike_base": 9642,
+                        "strain_base": 5031
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·内·玄#41329 (28000 精简 特效 会心 破防 无双)": {
+                    "id": 41329,
+                    "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "magical_attack_power_base": 3674,
+                        "all_critical_strike_base": 4192,
+                        "magical_overcome_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·内·玄#41328 (28000 精简 特效 破防 破招 无双)": {
+                    "id": 41328,
+                    "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "magical_attack_power_base": 3674,
+                        "magical_overcome_base": 4192,
+                        "surplus_base": 4192,
+                        "strain_base": 4192
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
+                    ],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "无修囊·内·玄#41327 (28000 精简 特效 会心 无双)": {
+                    "id": 41327,
+                    "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 801,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 9223,
+                        "magical_attack_power_base": 3040,
+                        "all_critical_strike_base": 9642,
+                        "strain_base": 5031
+                    },
+                    "embed": {
+                        "all_critical_power_base": 321
+                    },
+                    "gains": [
+                        "gain_38950_3"
                     ],
                     "recipes": [],
                     "sets": {}
@@ -40492,6 +43011,127 @@ EQUIPMENTS = {
                         "lunar_attack_power_base": 9027,
                         "surplus_base": 13565,
                         "strain_base": 13113
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "苦昼#43806 (21600 会心 破防 加速)": {
+                    "id": 43806,
+                    "name": "苦昼",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 21600,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 25578,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "lunar_attack_power_base": 8967,
+                        "lunar_critical_strike_base": 9433,
+                        "lunar_overcome_base": 9882,
+                        "haste_base": 4941
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [
+                        "recipe_6108_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "静雨#43759 (20750 特效 会心 破防 加速)": {
+                    "id": 43759,
+                    "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 25576,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spirit_base": 1549,
+                        "lunar_attack_power_base": 8614,
+                        "lunar_critical_strike_base": 9062,
+                        "lunar_overcome_base": 9493,
+                        "haste_base": 4747
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_43086_1",
+                        "gain_39088_5",
+                        "gain_43080_1"
+                    ],
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "sets": {}
+                },
+                "苦昼#43805 (20400 会心 破防 加速)": {
+                    "id": 43805,
+                    "name": "苦昼",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 20400,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 25577,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 18666,
+                        "spirit_base": 1523,
+                        "lunar_attack_power_base": 8469,
+                        "lunar_critical_strike_base": 8909,
+                        "lunar_overcome_base": 9333,
+                        "haste_base": 4667
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [],
+                    "recipes": [],
+                    "sets": {}
+                },
+                "缚罗丝轮#43764 (28000 破防 无双)": {
+                    "id": 43764,
+                    "name": "缚罗丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "level": 28000,
+                    "max_strength": 6,
+                    "set_id": 0,
+                    "icon_id": 25548,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 18446,
+                        "spirit_base": 1505,
+                        "lunar_attack_power_base": 8369,
+                        "lunar_overcome_base": 12577,
+                        "strain_base": 12158
                     },
                     "embed": {
                         "lunar_attack_power_base": 97,
@@ -41120,6 +43760,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "伏龙阳焰#40289 (20750 特效 会心 破防 加速)": {
+                    "id": 40289,
+                    "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23391,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spunk_base": 1549,
+                        "neutral_attack_power_base": 8614,
+                        "neutral_critical_strike_base": 9493,
+                        "neutral_overcome_base": 9493,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_39081_1",
+                        "gain_39088_5",
+                        "gain_39078_2"
+                    ],
+                    "recipes": [
+                        "recipe_5749_1",
+                        "recipe_5750_1",
+                        "recipe_17511_1",
+                        "recipe_17239_1",
+                        "recipe_17512_1",
+                        "recipe_17513_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -41709,6 +44390,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "金乌回首#40288 (20750 特效 会心 破防 加速)": {
+                    "id": 40288,
+                    "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23410,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7747,
+                        "physical_critical_strike_base": 9925,
+                        "physical_overcome_base": 9062,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_36579_1",
+                        "gain_39088_5",
+                        "gain_36578_3"
+                    ],
+                    "recipes": [
+                        "recipe_5461_1",
+                        "recipe_5462_1",
+                        "recipe_17470_1",
+                        "recipe_17239_1",
+                        "recipe_17473_1",
+                        "recipe_17474_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -42300,6 +45022,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "烛微刀#40287 (20750 特效 会心 破防 加速)": {
+                    "id": 40287,
+                    "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23389,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "strength_base": 1549,
+                        "physical_attack_power_base": 7630,
+                        "physical_critical_strike_base": 9925,
+                        "physical_overcome_base": 9493,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_33239_1",
+                        "gain_39088_5",
+                        "gain_33238_3"
+                    ],
+                    "recipes": [
+                        "recipe_3186_1",
+                        "recipe_3187_1",
+                        "recipe_17358_1",
+                        "recipe_17239_1",
+                        "recipe_17365_1",
+                        "recipe_17364_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -42890,6 +45653,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "烬灭#40285 (20750 特效 会心 破防 加速)": {
+                    "id": 40285,
+                    "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23414,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spirit_base": 1549,
+                        "poison_attack_power_base": 8484,
+                        "poison_critical_strike_base": 9062,
+                        "poison_overcome_base": 10356,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_29698_1",
+                        "gain_39088_5",
+                        "gain_29694_8"
+                    ],
+                    "recipes": [
+                        "recipe_2842_1",
+                        "recipe_2843_1",
+                        "recipe_17458_1",
+                        "recipe_17239_1",
+                        "recipe_17461_1",
+                        "recipe_17462_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -43479,6 +46283,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "子不语#40284 (20750 特效 会心 破防 加速)": {
+                    "id": 40284,
+                    "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23413,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spunk_base": 1549,
+                        "neutral_attack_power_base": 8614,
+                        "neutral_critical_strike_base": 8630,
+                        "neutral_overcome_base": 9493,
+                        "haste_base": 5178
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25837_1",
+                        "gain_39088_5",
+                        "gain_25831_8"
+                    ],
+                    "recipes": [
+                        "recipe_5325_1",
+                        "recipe_5326_1",
+                        "recipe_17414_1",
+                        "recipe_17239_1",
+                        "recipe_17417_1",
+                        "recipe_17418_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -44104,6 +46949,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "长安#40283 (20750 特效 会心 破防 加速)": {
+                    "id": 40283,
+                    "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23396,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7747,
+                        "physical_critical_strike_base": 9925,
+                        "physical_overcome_base": 9062,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25784_1",
+                        "gain_39088_5",
+                        "gain_23396_8"
+                    ],
+                    "recipes": [
+                        "recipe_5091_1",
+                        "recipe_5092_1",
+                        "recipe_17324_1",
+                        "recipe_17239_1",
+                        "recipe_17326_1",
+                        "recipe_17339_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -44727,6 +47613,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "七月嘉树#40282 (20750 特效 会心 破防 加速)": {
+                    "id": 40282,
+                    "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23399,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 10356,
+                        "physical_overcome_base": 9493,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25783_1",
+                        "gain_39088_5",
+                        "gain_21185_8"
+                    ],
+                    "recipes": [
+                        "recipe_4818_1",
+                        "recipe_4819_1",
+                        "recipe_17409_1",
+                        "recipe_17239_1",
+                        "recipe_17412_1",
+                        "recipe_17413_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -45352,6 +48279,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "碧血豪侠#40281 (20750 特效 会心 破防 加速)": {
+                    "id": 40281,
+                    "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23382,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "strength_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 9493,
+                        "physical_overcome_base": 10356,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25782_1",
+                        "gain_39088_5",
+                        "gain_16984_8"
+                    ],
+                    "recipes": [
+                        "recipe_4294_1",
+                        "recipe_4295_1",
+                        "recipe_17374_1",
+                        "recipe_17239_1",
+                        "recipe_17378_1",
+                        "recipe_17377_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -45976,6 +48944,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "栖贤韵#40279 (20750 特效 会心 破防 加速)": {
+                    "id": 40279,
+                    "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23416,
+                    "base": {
+                        "weapon_damage_base": 2235,
+                        "weapon_damage_rand": 1490
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spirit_base": 1549,
+                        "lunar_attack_power_base": 8353,
+                        "lunar_critical_strike_base": 9493,
+                        "lunar_overcome_base": 9925,
+                        "haste_base": 4747
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25781_1",
+                        "gain_39088_5",
+                        "gain_15183_8"
+                    ],
+                    "recipes": [
+                        "recipe_2401_1",
+                        "recipe_2402_1",
+                        "recipe_17306_1",
+                        "recipe_17239_1",
+                        "recipe_17308_1",
+                        "recipe_17325_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -46584,6 +49593,46 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "驭焰#40278 (20750 特效 加速 破招 无双)": {
+                    "id": 40278,
+                    "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23383,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 28048,
+                        "physical_shield_base": 19615,
+                        "magical_shield_base": 19615,
+                        "haste_base": 15692,
+                        "surplus_base": 15692,
+                        "strain_base": 15692
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "gains": [
+                        "gain_25797_1",
+                        "gain_13410_16"
+                    ],
+                    "recipes": [
+                        "recipe_1939_1",
+                        "recipe_1940_1",
+                        "recipe_17453_1",
+                        "recipe_17246_1",
+                        "recipe_17455_1",
+                        "recipe_17456_1"
+                    ],
                     "sets": {}
                 }
             },
@@ -47207,6 +50256,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "天下宏愿#40277 (20750 特效 会心 破防 加速)": {
+                    "id": 40277,
+                    "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23384,
+                    "base": {
+                        "weapon_damage_base": 6704,
+                        "weapon_damage_rand": 4469
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 8216,
+                        "physical_critical_strike_base": 9062,
+                        "physical_overcome_base": 8199,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25780_1",
+                        "gain_39088_5",
+                        "gain_13410_15"
+                    ],
+                    "recipes": [
+                        "recipe_1937_1",
+                        "recipe_1938_1",
+                        "recipe_17447_1",
+                        "recipe_17239_1",
+                        "recipe_17450_1",
+                        "recipe_17451_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -47810,6 +50900,45 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "圣辉月雪#40276 (20750 特效 加速 破招 无双)": {
+                    "id": 40276,
+                    "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23397,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 28048,
+                        "physical_shield_base": 19615,
+                        "magical_shield_base": 19615,
+                        "haste_base": 15692,
+                        "surplus_base": 15692,
+                        "strain_base": 15692
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161
+                    },
+                    "gains": [
+                        "gain_25796_1",
+                        "gain_4941_8"
+                    ],
+                    "recipes": [
+                        "recipe_1544_1",
+                        "recipe_1545_1",
+                        "recipe_17333_1",
+                        "recipe_17246_1",
+                        "recipe_17337_1",
+                        "recipe_17343_1"
+                    ],
                     "sets": {}
                 }
             },
@@ -48433,6 +51562,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "瀚海引#40275 (20750 特效 会心 破防 加速)": {
+                    "id": 40275,
+                    "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23398,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spunk_base": 1549,
+                        "solar_and_lunar_attack_power_base": 8353,
+                        "solar_and_lunar_critical_strike_base": 9062,
+                        "solar_and_lunar_overcome_base": 10356,
+                        "haste_base": 4747
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25777_1",
+                        "gain_39088_5",
+                        "gain_4940_8"
+                    ],
+                    "recipes": [
+                        "recipe_1542_1",
+                        "recipe_1543_1",
+                        "recipe_17332_1",
+                        "recipe_17239_1",
+                        "recipe_17336_1",
+                        "recipe_17342_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -49051,6 +52221,46 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "暴龙震江#40274 (20750 特效 会心 破防)": {
+                    "id": 40274,
+                    "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23395,
+                    "base": {
+                        "weapon_damage_base": 7598,
+                        "weapon_damage_rand": 5065
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "strength_base": 1549,
+                        "physical_attack_power_base": 7747,
+                        "physical_critical_strike_base": 9925,
+                        "physical_overcome_base": 10788
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25779_1",
+                        "gain_39088_5",
+                        "gain_6950_8"
+                    ],
+                    "recipes": [
+                        "recipe_1540_1",
+                        "recipe_1541_1",
+                        "recipe_17441_1",
+                        "recipe_17239_1",
+                        "recipe_17444_1",
+                        "recipe_17445_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -49787,6 +52997,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "伏魔悲音#40272 (20750 特效 会心 破防 加速)": {
+                    "id": 40272,
+                    "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23385,
+                    "base": {
+                        "weapon_damage_base": 5810,
+                        "weapon_damage_rand": 3873
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 11219,
+                        "physical_overcome_base": 8630,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25785_1",
+                        "gain_39088_5",
+                        "gain_1881_8"
+                    ],
+                    "recipes": [
+                        "recipe_1536_1",
+                        "recipe_1537_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -50411,6 +53662,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "银羽雪辉#40271 (20750 特效 会心 破防 加速)": {
+                    "id": 40271,
+                    "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23404,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "strength_base": 1549,
+                        "physical_attack_power_base": 7278,
+                        "physical_critical_strike_base": 9925,
+                        "physical_overcome_base": 10788,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25775_1",
+                        "gain_39088_5",
+                        "gain_3476_8"
+                    ],
+                    "recipes": [
+                        "recipe_1534_1",
+                        "recipe_1535_1",
+                        "recipe_17435_1",
+                        "recipe_17239_1",
+                        "recipe_17438_1",
+                        "recipe_17439_1"
+                    ],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -51032,6 +54324,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "碧岚幽炎#40270 (20750 特效 会心 破防 加速)": {
+                    "id": 40270,
+                    "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23405,
+                    "base": {
+                        "weapon_damage_base": 4469,
+                        "weapon_damage_rand": 2980
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spunk_base": 1549,
+                        "poison_attack_power_base": 8353,
+                        "physical_critical_strike_base": 9062,
+                        "poison_overcome_base": 10788,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25774_1",
+                        "gain_39088_5",
+                        "gain_3477_8"
+                    ],
+                    "recipes": [
+                        "recipe_1532_1",
+                        "recipe_1533_1",
+                        "recipe_17429_1",
+                        "recipe_17239_1",
+                        "recipe_17432_1",
+                        "recipe_17433_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -51657,6 +54990,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "蜕骨#40268 (20750 特效 会心 破防 加速)": {
+                    "id": 40268,
+                    "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23411,
+                    "base": {
+                        "weapon_damage_base": 2235,
+                        "weapon_damage_rand": 1490
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spirit_base": 1549,
+                        "poison_attack_power_base": 8484,
+                        "poison_critical_strike_base": 9062,
+                        "poison_overcome_base": 10356,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25773_1",
+                        "gain_39088_5",
+                        "gain_3065_8"
+                    ],
+                    "recipes": [
+                        "recipe_1528_1",
+                        "recipe_1529_1",
+                        "recipe_17316_1",
+                        "recipe_17239_1",
+                        "recipe_17318_1",
+                        "recipe_17329_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -52280,6 +55654,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "龙鲤#40266 (20750 特效 会心 破防 加速)": {
+                    "id": 40266,
+                    "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23400,
+                    "base": {
+                        "weapon_damage_base": 2905,
+                        "weapon_damage_rand": 1937
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spirit_base": 1549,
+                        "lunar_attack_power_base": 8614,
+                        "lunar_critical_strike_base": 9062,
+                        "lunar_overcome_base": 9493,
+                        "haste_base": 4747
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25769_1",
+                        "gain_39088_5",
+                        "gain_1858_8"
+                    ],
+                    "recipes": [
+                        "recipe_1524_1",
+                        "recipe_1525_1",
+                        "recipe_17380_1",
+                        "recipe_17239_1",
+                        "recipe_17384_1",
+                        "recipe_17383_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -52905,6 +56320,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "镇恶#40265 (20750 特效 会心 破防 加速)": {
+                    "id": 40265,
+                    "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23387,
+                    "base": {
+                        "weapon_damage_base": 5810,
+                        "weapon_damage_rand": 3873
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 10788,
+                        "physical_overcome_base": 9062,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25771_1",
+                        "gain_39088_5",
+                        "gain_1852_8"
+                    ],
+                    "recipes": [
+                        "recipe_1522_1",
+                        "recipe_1523_1",
+                        "recipe_17301_1",
+                        "recipe_17239_1",
+                        "recipe_17305_1",
+                        "recipe_17341_1"
+                    ],
+                    "sets": {}
                 }
             },
             "内功": {
@@ -53527,6 +56983,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "仙灵#40264 (20750 特效 会心 破防 加速)": {
+                    "id": 40264,
+                    "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23388,
+                    "base": {
+                        "weapon_damage_base": 2905,
+                        "weapon_damage_rand": 1937
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spirit_base": 1549,
+                        "neutral_attack_power_base": 8353,
+                        "neutral_critical_strike_base": 10788,
+                        "neutral_overcome_base": 9062,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25770_1",
+                        "gain_39088_5",
+                        "gain_1853_8"
+                    ],
+                    "recipes": [
+                        "recipe_1520_1",
+                        "recipe_1521_1",
+                        "recipe_17300_1",
+                        "recipe_17239_1",
+                        "recipe_17304_1",
+                        "recipe_17340_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -54130,6 +57627,45 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "朱曦重明#40263 (20750 特效 加速 破招 无双)": {
+                    "id": 40263,
+                    "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23406,
+                    "base": {
+                        "weapon_damage_base": 7598,
+                        "weapon_damage_rand": 5065
+                    },
+                    "magic": {
+                        "vitality_base": 28048,
+                        "physical_shield_base": 19615,
+                        "magical_shield_base": 19615,
+                        "haste_base": 15692,
+                        "surplus_base": 15692,
+                        "strain_base": 15692
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161
+                    },
+                    "gains": [
+                        "gain_25795_1",
+                        "gain_1851_8"
+                    ],
+                    "recipes": [
+                        "recipe_1510_1",
+                        "recipe_1511_1",
+                        "recipe_17395_1",
+                        "recipe_17246_1",
+                        "recipe_17397_1",
+                        "recipe_17398_1"
+                    ],
                     "sets": {}
                 }
             },
@@ -54752,6 +58288,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "掠炎#40262 (20750 特效 会心 破防 加速)": {
+                    "id": 40262,
+                    "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23407,
+                    "base": {
+                        "weapon_damage_base": 7598,
+                        "weapon_damage_rand": 5065
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "strength_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 10356,
+                        "physical_overcome_base": 9493,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25772_1",
+                        "gain_39088_5",
+                        "gain_1850_8"
+                    ],
+                    "recipes": [
+                        "recipe_1508_1",
+                        "recipe_1509_1",
+                        "recipe_17362_1",
+                        "recipe_17239_1",
+                        "recipe_17393_1",
+                        "recipe_17394_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -55377,6 +58954,47 @@ EQUIPMENTS = {
                     "gains": [],
                     "recipes": [],
                     "sets": {}
+                },
+                "意真#40260 (20750 特效 会心 破防 加速)": {
+                    "id": 40260,
+                    "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23408,
+                    "base": {
+                        "weapon_damage_base": 2235,
+                        "weapon_damage_rand": 1490
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spunk_base": 1549,
+                        "neutral_attack_power_base": 8614,
+                        "neutral_critical_strike_base": 9062,
+                        "neutral_overcome_base": 9925,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25768_1",
+                        "gain_39088_5",
+                        "gain_1856_8"
+                    ],
+                    "recipes": [
+                        "recipe_1516_1",
+                        "recipe_1517_1",
+                        "recipe_17399_1",
+                        "recipe_17239_1",
+                        "recipe_17402_1",
+                        "recipe_17403_1"
+                    ],
+                    "sets": {}
                 }
             }
         },
@@ -55991,6 +59609,46 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "降魔境#40259 (20750 特效 加速 破招 无双)": {
+                    "id": 40259,
+                    "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23402,
+                    "base": {
+                        "weapon_damage_base": 7598,
+                        "weapon_damage_rand": 5065
+                    },
+                    "magic": {
+                        "vitality_base": 28048,
+                        "physical_shield_base": 19615,
+                        "magical_shield_base": 19615,
+                        "haste_base": 15692,
+                        "surplus_base": 15692,
+                        "strain_base": 15692
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "gains": [
+                        "gain_25794_1",
+                        "gain_1855_8"
+                    ],
+                    "recipes": [
+                        "recipe_1514_1",
+                        "recipe_1515_1",
+                        "recipe_17356_1",
+                        "recipe_17246_1",
+                        "recipe_17360_1",
+                        "recipe_17361_1"
+                    ],
                     "sets": {}
                 }
             },
@@ -56613,6 +60271,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "昭佛光#40258 (20750 特效 会心 破防 加速)": {
+                    "id": 40258,
+                    "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23403,
+                    "base": {
+                        "weapon_damage_base": 7598,
+                        "weapon_damage_rand": 5065
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "spunk_base": 1549,
+                        "solar_attack_power_base": 8875,
+                        "solar_critical_strike_base": 8630,
+                        "solar_overcome_base": 9493,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25766_1",
+                        "gain_39088_5",
+                        "gain_1854_8"
+                    ],
+                    "recipes": [
+                        "recipe_1512_1",
+                        "recipe_1513_1",
+                        "recipe_17351_1",
+                        "recipe_17239_1",
+                        "recipe_17354_1",
+                        "recipe_17355_1"
+                    ],
                     "sets": {}
                 }
             }
@@ -57355,6 +61054,47 @@ EQUIPMENTS = {
                     },
                     "gains": [],
                     "recipes": [],
+                    "sets": {}
+                },
+                "寂夜听雷#40273 (20750 特效 会心 破防 加速)": {
+                    "id": 40273,
+                    "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "level": 20750,
+                    "max_strength": 8,
+                    "set_id": 0,
+                    "icon_id": 23386,
+                    "base": {
+                        "weapon_damage_base": 8939,
+                        "weapon_damage_rand": 5959
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 11219,
+                        "physical_overcome_base": 8630,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "gains": [
+                        "gain_25776_1",
+                        "gain_39088_5",
+                        "gain_1882_8"
+                    ],
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
                     "sets": {}
                 }
             }

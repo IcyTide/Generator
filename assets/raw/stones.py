@@ -833,6 +833,564 @@ STONES = {
                     }
                 }
             }
+        },
+        "physical_shield_add": {
+            "max_life_add": {
+                1: {
+                    "item_id": [
+                        15583
+                    ],
+                    "enchant_id": [
+                        4012
+                    ],
+                    "name": "彩·霸体·守御·血魂(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "vitality_base": 122,
+                        "physical_shield_add": 244,
+                        "max_life_add": 4875
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15584
+                    ],
+                    "enchant_id": [
+                        4013
+                    ],
+                    "name": "彩·霸体·守御·血魂(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "vitality_base": 244,
+                        "physical_shield_add": 488,
+                        "max_life_add": 9750
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15585
+                    ],
+                    "enchant_id": [
+                        4014
+                    ],
+                    "name": "彩·霸体·守御·血魂(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "vitality_base": 366,
+                        "physical_shield_add": 731,
+                        "max_life_add": 14625
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15586
+                    ],
+                    "enchant_id": [
+                        4015
+                    ],
+                    "name": "彩·霸体·守御·血魂(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "vitality_base": 488,
+                        "physical_shield_add": 975,
+                        "max_life_add": 19500
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15587
+                    ],
+                    "enchant_id": [
+                        4016
+                    ],
+                    "name": "彩·霸体·守御·血魂(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "vitality_base": 609,
+                        "physical_shield_add": 1219,
+                        "max_life_add": 24375
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15588
+                    ],
+                    "enchant_id": [
+                        4017
+                    ],
+                    "name": "彩·霸体·守御·血魂(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "vitality_base": 731,
+                        "physical_shield_add": 1463,
+                        "max_life_add": 29250
+                    }
+                }
+            },
+            "magical_shield_base": {
+                1: {
+                    "item_id": [
+                        15595
+                    ],
+                    "enchant_id": [
+                        4024
+                    ],
+                    "name": "彩·霸体·守御·耐受(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "vitality_base": 122,
+                        "physical_shield_add": 244,
+                        "magical_shield_base": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15596
+                    ],
+                    "enchant_id": [
+                        4025
+                    ],
+                    "name": "彩·霸体·守御·耐受(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "vitality_base": 244,
+                        "physical_shield_add": 488,
+                        "magical_shield_base": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15597
+                    ],
+                    "enchant_id": [
+                        4026
+                    ],
+                    "name": "彩·霸体·守御·耐受(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "vitality_base": 366,
+                        "physical_shield_add": 731,
+                        "magical_shield_base": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15598
+                    ],
+                    "enchant_id": [
+                        4027
+                    ],
+                    "name": "彩·霸体·守御·耐受(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "vitality_base": 488,
+                        "physical_shield_add": 975,
+                        "magical_shield_base": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15599
+                    ],
+                    "enchant_id": [
+                        4028
+                    ],
+                    "name": "彩·霸体·守御·耐受(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "vitality_base": 609,
+                        "physical_shield_add": 1219,
+                        "magical_shield_base": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15600
+                    ],
+                    "enchant_id": [
+                        4029
+                    ],
+                    "name": "彩·霸体·守御·耐受(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "vitality_base": 731,
+                        "physical_shield_add": 1463,
+                        "magical_shield_base": 2925
+                    }
+                }
+            }
+        },
+        "magical_shield_base": {
+            "max_life_add": {
+                1: {
+                    "item_id": [
+                        15643
+                    ],
+                    "enchant_id": [
+                        4072
+                    ],
+                    "name": "彩·霸体·耐受·血魂(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "vitality_base": 122,
+                        "magical_shield_base": 244,
+                        "max_life_add": 4875
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15644
+                    ],
+                    "enchant_id": [
+                        4073
+                    ],
+                    "name": "彩·霸体·耐受·血魂(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "vitality_base": 244,
+                        "magical_shield_base": 488,
+                        "max_life_add": 9750
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15645
+                    ],
+                    "enchant_id": [
+                        4074
+                    ],
+                    "name": "彩·霸体·耐受·血魂(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "vitality_base": 366,
+                        "magical_shield_base": 731,
+                        "max_life_add": 14625
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15646
+                    ],
+                    "enchant_id": [
+                        4075
+                    ],
+                    "name": "彩·霸体·耐受·血魂(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "vitality_base": 488,
+                        "magical_shield_base": 975,
+                        "max_life_add": 19500
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15647
+                    ],
+                    "enchant_id": [
+                        4076
+                    ],
+                    "name": "彩·霸体·耐受·血魂(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "vitality_base": 609,
+                        "magical_shield_base": 1219,
+                        "max_life_add": 24375
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15648
+                    ],
+                    "enchant_id": [
+                        4077
+                    ],
+                    "name": "彩·霸体·耐受·血魂(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "vitality_base": 731,
+                        "magical_shield_base": 1463,
+                        "max_life_add": 29250
+                    }
+                }
+            },
+            "physical_shield_add": {
+                1: {
+                    "item_id": [
+                        15655
+                    ],
+                    "enchant_id": [
+                        4084
+                    ],
+                    "name": "彩·霸体·耐受·守御(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "vitality_base": 122,
+                        "magical_shield_base": 244,
+                        "physical_shield_add": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15656
+                    ],
+                    "enchant_id": [
+                        4085
+                    ],
+                    "name": "彩·霸体·耐受·守御(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "vitality_base": 244,
+                        "magical_shield_base": 488,
+                        "physical_shield_add": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15657
+                    ],
+                    "enchant_id": [
+                        4086
+                    ],
+                    "name": "彩·霸体·耐受·守御(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "vitality_base": 366,
+                        "magical_shield_base": 731,
+                        "physical_shield_add": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15658
+                    ],
+                    "enchant_id": [
+                        4087
+                    ],
+                    "name": "彩·霸体·耐受·守御(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "vitality_base": 488,
+                        "magical_shield_base": 975,
+                        "physical_shield_add": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15659
+                    ],
+                    "enchant_id": [
+                        4088
+                    ],
+                    "name": "彩·霸体·耐受·守御(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "vitality_base": 609,
+                        "magical_shield_base": 1219,
+                        "physical_shield_add": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15660
+                    ],
+                    "enchant_id": [
+                        4089
+                    ],
+                    "name": "彩·霸体·耐受·守御(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "vitality_base": 731,
+                        "magical_shield_base": 1463,
+                        "physical_shield_add": 2925
+                    }
+                }
+            }
+        },
+        "max_life_add": {
+            "physical_shield_add": {
+                1: {
+                    "item_id": [
+                        15667
+                    ],
+                    "enchant_id": [
+                        4096
+                    ],
+                    "name": "彩·霸体·血魂·守御(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "vitality_base": 122,
+                        "max_life_add": 2438,
+                        "physical_shield_add": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15668
+                    ],
+                    "enchant_id": [
+                        4097
+                    ],
+                    "name": "彩·霸体·血魂·守御(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "vitality_base": 244,
+                        "max_life_add": 4875,
+                        "physical_shield_add": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15669
+                    ],
+                    "enchant_id": [
+                        4098
+                    ],
+                    "name": "彩·霸体·血魂·守御(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "vitality_base": 366,
+                        "max_life_add": 7313,
+                        "physical_shield_add": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15670
+                    ],
+                    "enchant_id": [
+                        4099
+                    ],
+                    "name": "彩·霸体·血魂·守御(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "vitality_base": 488,
+                        "max_life_add": 9750,
+                        "physical_shield_add": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15671
+                    ],
+                    "enchant_id": [
+                        4100
+                    ],
+                    "name": "彩·霸体·血魂·守御(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "vitality_base": 609,
+                        "max_life_add": 12188,
+                        "physical_shield_add": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15672
+                    ],
+                    "enchant_id": [
+                        4101
+                    ],
+                    "name": "彩·霸体·血魂·守御(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "vitality_base": 731,
+                        "max_life_add": 14625,
+                        "physical_shield_add": 2925
+                    }
+                }
+            },
+            "magical_shield_base": {
+                1: {
+                    "item_id": [
+                        15673
+                    ],
+                    "enchant_id": [
+                        4102
+                    ],
+                    "name": "彩·霸体·血魂·耐受(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "vitality_base": 122,
+                        "max_life_add": 2438,
+                        "magical_shield_base": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15674
+                    ],
+                    "enchant_id": [
+                        4103
+                    ],
+                    "name": "彩·霸体·血魂·耐受(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "vitality_base": 244,
+                        "max_life_add": 4875,
+                        "magical_shield_base": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15675
+                    ],
+                    "enchant_id": [
+                        4104
+                    ],
+                    "name": "彩·霸体·血魂·耐受(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "vitality_base": 366,
+                        "max_life_add": 7313,
+                        "magical_shield_base": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15676
+                    ],
+                    "enchant_id": [
+                        4105
+                    ],
+                    "name": "彩·霸体·血魂·耐受(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "vitality_base": 488,
+                        "max_life_add": 9750,
+                        "magical_shield_base": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15677
+                    ],
+                    "enchant_id": [
+                        4106
+                    ],
+                    "name": "彩·霸体·血魂·耐受(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "vitality_base": 609,
+                        "max_life_add": 12188,
+                        "magical_shield_base": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15678
+                    ],
+                    "enchant_id": [
+                        4107
+                    ],
+                    "name": "彩·霸体·血魂·耐受(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "vitality_base": 731,
+                        "max_life_add": 14625,
+                        "magical_shield_base": 2925
+                    }
+                }
+            }
         }
     },
     "strength_base": {
@@ -8174,6 +8732,564 @@ STONES = {
                         "spirit_base": 188,
                         "magical_critical_power_base": 2925,
                         "magical_overcome_base": 5850
+                    }
+                }
+            }
+        },
+        "physical_shield_add": {
+            "max_life_add": {
+                1: {
+                    "item_id": [
+                        15679
+                    ],
+                    "enchant_id": [
+                        4108
+                    ],
+                    "name": "彩·灵根·守御·血魂(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "spirit_base": 31,
+                        "physical_shield_add": 244,
+                        "max_life_add": 4875
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15680
+                    ],
+                    "enchant_id": [
+                        4109
+                    ],
+                    "name": "彩·灵根·守御·血魂(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "spirit_base": 63,
+                        "physical_shield_add": 488,
+                        "max_life_add": 9750
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15681
+                    ],
+                    "enchant_id": [
+                        4110
+                    ],
+                    "name": "彩·灵根·守御·血魂(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "spirit_base": 94,
+                        "physical_shield_add": 731,
+                        "max_life_add": 14625
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15682
+                    ],
+                    "enchant_id": [
+                        4111
+                    ],
+                    "name": "彩·灵根·守御·血魂(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "spirit_base": 125,
+                        "physical_shield_add": 975,
+                        "max_life_add": 19500
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15683
+                    ],
+                    "enchant_id": [
+                        4112
+                    ],
+                    "name": "彩·灵根·守御·血魂(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "spirit_base": 156,
+                        "physical_shield_add": 1219,
+                        "max_life_add": 24375
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15684
+                    ],
+                    "enchant_id": [
+                        4113
+                    ],
+                    "name": "彩·灵根·守御·血魂(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "spirit_base": 188,
+                        "physical_shield_add": 1463,
+                        "max_life_add": 29250
+                    }
+                }
+            },
+            "magical_shield_base": {
+                1: {
+                    "item_id": [
+                        15691
+                    ],
+                    "enchant_id": [
+                        4120
+                    ],
+                    "name": "彩·灵根·守御·耐受(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "spirit_base": 31,
+                        "physical_shield_add": 244,
+                        "magical_shield_base": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15692
+                    ],
+                    "enchant_id": [
+                        4121
+                    ],
+                    "name": "彩·灵根·守御·耐受(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "spirit_base": 63,
+                        "physical_shield_add": 488,
+                        "magical_shield_base": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15693
+                    ],
+                    "enchant_id": [
+                        4122
+                    ],
+                    "name": "彩·灵根·守御·耐受(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "spirit_base": 94,
+                        "physical_shield_add": 731,
+                        "magical_shield_base": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15694
+                    ],
+                    "enchant_id": [
+                        4123
+                    ],
+                    "name": "彩·灵根·守御·耐受(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "spirit_base": 125,
+                        "physical_shield_add": 975,
+                        "magical_shield_base": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15695
+                    ],
+                    "enchant_id": [
+                        4124
+                    ],
+                    "name": "彩·灵根·守御·耐受(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "spirit_base": 156,
+                        "physical_shield_add": 1219,
+                        "magical_shield_base": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15696
+                    ],
+                    "enchant_id": [
+                        4125
+                    ],
+                    "name": "彩·灵根·守御·耐受(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "spirit_base": 188,
+                        "physical_shield_add": 1463,
+                        "magical_shield_base": 2925
+                    }
+                }
+            }
+        },
+        "magical_shield_base": {
+            "max_life_add": {
+                1: {
+                    "item_id": [
+                        15739
+                    ],
+                    "enchant_id": [
+                        4168
+                    ],
+                    "name": "彩·灵根·耐受·血魂(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "spirit_base": 31,
+                        "magical_shield_base": 244,
+                        "max_life_add": 4875
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15740
+                    ],
+                    "enchant_id": [
+                        4169
+                    ],
+                    "name": "彩·灵根·耐受·血魂(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "spirit_base": 63,
+                        "magical_shield_base": 488,
+                        "max_life_add": 9750
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15741
+                    ],
+                    "enchant_id": [
+                        4170
+                    ],
+                    "name": "彩·灵根·耐受·血魂(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "spirit_base": 94,
+                        "magical_shield_base": 731,
+                        "max_life_add": 14625
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15742
+                    ],
+                    "enchant_id": [
+                        4171
+                    ],
+                    "name": "彩·灵根·耐受·血魂(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "spirit_base": 125,
+                        "magical_shield_base": 975,
+                        "max_life_add": 19500
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15743
+                    ],
+                    "enchant_id": [
+                        4172
+                    ],
+                    "name": "彩·灵根·耐受·血魂(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "spirit_base": 156,
+                        "magical_shield_base": 1219,
+                        "max_life_add": 24375
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15744
+                    ],
+                    "enchant_id": [
+                        4173
+                    ],
+                    "name": "彩·灵根·耐受·血魂(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "spirit_base": 188,
+                        "magical_shield_base": 1463,
+                        "max_life_add": 29250
+                    }
+                }
+            },
+            "physical_shield_add": {
+                1: {
+                    "item_id": [
+                        15751
+                    ],
+                    "enchant_id": [
+                        4180
+                    ],
+                    "name": "彩·灵根·耐受·守御(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "spirit_base": 31,
+                        "magical_shield_base": 244,
+                        "physical_shield_add": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15752
+                    ],
+                    "enchant_id": [
+                        4181
+                    ],
+                    "name": "彩·灵根·耐受·守御(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "spirit_base": 63,
+                        "magical_shield_base": 488,
+                        "physical_shield_add": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15753
+                    ],
+                    "enchant_id": [
+                        4182
+                    ],
+                    "name": "彩·灵根·耐受·守御(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "spirit_base": 94,
+                        "magical_shield_base": 731,
+                        "physical_shield_add": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15754
+                    ],
+                    "enchant_id": [
+                        4183
+                    ],
+                    "name": "彩·灵根·耐受·守御(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "spirit_base": 125,
+                        "magical_shield_base": 975,
+                        "physical_shield_add": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15755
+                    ],
+                    "enchant_id": [
+                        4184
+                    ],
+                    "name": "彩·灵根·耐受·守御(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "spirit_base": 156,
+                        "magical_shield_base": 1219,
+                        "physical_shield_add": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15756
+                    ],
+                    "enchant_id": [
+                        4185
+                    ],
+                    "name": "彩·灵根·耐受·守御(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "spirit_base": 188,
+                        "magical_shield_base": 1463,
+                        "physical_shield_add": 2925
+                    }
+                }
+            }
+        },
+        "max_life_add": {
+            "physical_shield_add": {
+                1: {
+                    "item_id": [
+                        15763
+                    ],
+                    "enchant_id": [
+                        4192
+                    ],
+                    "name": "彩·灵根·血魂·守御(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "spirit_base": 31,
+                        "max_life_add": 2438,
+                        "physical_shield_add": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15764
+                    ],
+                    "enchant_id": [
+                        4193
+                    ],
+                    "name": "彩·灵根·血魂·守御(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "spirit_base": 63,
+                        "max_life_add": 4875,
+                        "physical_shield_add": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15765
+                    ],
+                    "enchant_id": [
+                        4194
+                    ],
+                    "name": "彩·灵根·血魂·守御(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "spirit_base": 94,
+                        "max_life_add": 7313,
+                        "physical_shield_add": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15766
+                    ],
+                    "enchant_id": [
+                        4195
+                    ],
+                    "name": "彩·灵根·血魂·守御(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "spirit_base": 125,
+                        "max_life_add": 9750,
+                        "physical_shield_add": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15767
+                    ],
+                    "enchant_id": [
+                        4196
+                    ],
+                    "name": "彩·灵根·血魂·守御(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "spirit_base": 156,
+                        "max_life_add": 12188,
+                        "physical_shield_add": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15768
+                    ],
+                    "enchant_id": [
+                        4197
+                    ],
+                    "name": "彩·灵根·血魂·守御(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "spirit_base": 188,
+                        "max_life_add": 14625,
+                        "physical_shield_add": 2925
+                    }
+                }
+            },
+            "magical_shield_base": {
+                1: {
+                    "item_id": [
+                        15769
+                    ],
+                    "enchant_id": [
+                        4198
+                    ],
+                    "name": "彩·灵根·血魂·耐受(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "spirit_base": 31,
+                        "max_life_add": 2438,
+                        "magical_shield_base": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15770
+                    ],
+                    "enchant_id": [
+                        4199
+                    ],
+                    "name": "彩·灵根·血魂·耐受(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "spirit_base": 63,
+                        "max_life_add": 4875,
+                        "magical_shield_base": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15771
+                    ],
+                    "enchant_id": [
+                        4200
+                    ],
+                    "name": "彩·灵根·血魂·耐受(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "spirit_base": 94,
+                        "max_life_add": 7313,
+                        "magical_shield_base": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15772
+                    ],
+                    "enchant_id": [
+                        4201
+                    ],
+                    "name": "彩·灵根·血魂·耐受(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "spirit_base": 125,
+                        "max_life_add": 9750,
+                        "magical_shield_base": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15773
+                    ],
+                    "enchant_id": [
+                        4202
+                    ],
+                    "name": "彩·灵根·血魂·耐受(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "spirit_base": 156,
+                        "max_life_add": 12188,
+                        "magical_shield_base": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15774
+                    ],
+                    "enchant_id": [
+                        4203
+                    ],
+                    "name": "彩·灵根·血魂·耐受(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "spirit_base": 188,
+                        "max_life_add": 14625,
+                        "magical_shield_base": 2925
                     }
                 }
             }
@@ -54082,6 +55198,576 @@ STONES = {
                         "magical_critical_power_base": 1463,
                         "strain_base": 2925,
                         "magical_overcome_base": 5850
+                    }
+                }
+            }
+        }
+    },
+    "physical_shield_add": {
+        "magical_shield_base": {
+            "max_life_add": {
+                1: {
+                    "item_id": [
+                        15805
+                    ],
+                    "enchant_id": [
+                        4234
+                    ],
+                    "name": "彩·守御·耐受·血魂(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "physical_shield_add": 122,
+                        "magical_shield_base": 244,
+                        "max_life_add": 4875
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15806
+                    ],
+                    "enchant_id": [
+                        4235
+                    ],
+                    "name": "彩·守御·耐受·血魂(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "physical_shield_add": 244,
+                        "magical_shield_base": 488,
+                        "max_life_add": 9750
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15807
+                    ],
+                    "enchant_id": [
+                        4236
+                    ],
+                    "name": "彩·守御·耐受·血魂(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "physical_shield_add": 366,
+                        "magical_shield_base": 731,
+                        "max_life_add": 14625
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15808
+                    ],
+                    "enchant_id": [
+                        4237
+                    ],
+                    "name": "彩·守御·耐受·血魂(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "physical_shield_add": 488,
+                        "magical_shield_base": 975,
+                        "max_life_add": 19500
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15809
+                    ],
+                    "enchant_id": [
+                        4238
+                    ],
+                    "name": "彩·守御·耐受·血魂(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "physical_shield_add": 609,
+                        "magical_shield_base": 1219,
+                        "max_life_add": 24375
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15810
+                    ],
+                    "enchant_id": [
+                        4239
+                    ],
+                    "name": "彩·守御·耐受·血魂(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "physical_shield_add": 731,
+                        "magical_shield_base": 1463,
+                        "max_life_add": 29250
+                    }
+                }
+            }
+        },
+        "max_life_add": {
+            "magical_shield_base": {
+                1: {
+                    "item_id": [
+                        15823
+                    ],
+                    "enchant_id": [
+                        4252
+                    ],
+                    "name": "彩·守御·血魂·耐受(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "physical_shield_add": 122,
+                        "max_life_add": 2438,
+                        "magical_shield_base": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        15824
+                    ],
+                    "enchant_id": [
+                        4253
+                    ],
+                    "name": "彩·守御·血魂·耐受(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "physical_shield_add": 244,
+                        "max_life_add": 4875,
+                        "magical_shield_base": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        15825
+                    ],
+                    "enchant_id": [
+                        4254
+                    ],
+                    "name": "彩·守御·血魂·耐受(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "physical_shield_add": 366,
+                        "max_life_add": 7313,
+                        "magical_shield_base": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        15826
+                    ],
+                    "enchant_id": [
+                        4255
+                    ],
+                    "name": "彩·守御·血魂·耐受(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "physical_shield_add": 488,
+                        "max_life_add": 9750,
+                        "magical_shield_base": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        15827
+                    ],
+                    "enchant_id": [
+                        4256
+                    ],
+                    "name": "彩·守御·血魂·耐受(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "physical_shield_add": 609,
+                        "max_life_add": 12188,
+                        "magical_shield_base": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        15828
+                    ],
+                    "enchant_id": [
+                        4257
+                    ],
+                    "name": "彩·守御·血魂·耐受(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "physical_shield_add": 731,
+                        "max_life_add": 14625,
+                        "magical_shield_base": 2925
+                    }
+                }
+            }
+        }
+    },
+    "magical_shield_base": {
+        "physical_shield_add": {
+            "max_life_add": {
+                1: {
+                    "item_id": [
+                        16051
+                    ],
+                    "enchant_id": [
+                        4480
+                    ],
+                    "name": "彩·耐受·守御·血魂(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "magical_shield_base": 122,
+                        "physical_shield_add": 244,
+                        "max_life_add": 4875
+                    }
+                },
+                2: {
+                    "item_id": [
+                        16052
+                    ],
+                    "enchant_id": [
+                        4481
+                    ],
+                    "name": "彩·耐受·守御·血魂(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "magical_shield_base": 244,
+                        "physical_shield_add": 488,
+                        "max_life_add": 9750
+                    }
+                },
+                3: {
+                    "item_id": [
+                        16053
+                    ],
+                    "enchant_id": [
+                        4482
+                    ],
+                    "name": "彩·耐受·守御·血魂(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "magical_shield_base": 366,
+                        "physical_shield_add": 731,
+                        "max_life_add": 14625
+                    }
+                },
+                4: {
+                    "item_id": [
+                        16054
+                    ],
+                    "enchant_id": [
+                        4483
+                    ],
+                    "name": "彩·耐受·守御·血魂(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "magical_shield_base": 488,
+                        "physical_shield_add": 975,
+                        "max_life_add": 19500
+                    }
+                },
+                5: {
+                    "item_id": [
+                        16055
+                    ],
+                    "enchant_id": [
+                        4484
+                    ],
+                    "name": "彩·耐受·守御·血魂(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "magical_shield_base": 609,
+                        "physical_shield_add": 1219,
+                        "max_life_add": 24375
+                    }
+                },
+                6: {
+                    "item_id": [
+                        16056
+                    ],
+                    "enchant_id": [
+                        4485
+                    ],
+                    "name": "彩·耐受·守御·血魂(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "magical_shield_base": 731,
+                        "physical_shield_add": 1463,
+                        "max_life_add": 29250
+                    }
+                }
+            }
+        },
+        "max_life_add": {
+            "physical_shield_add": {
+                1: {
+                    "item_id": [
+                        16099
+                    ],
+                    "enchant_id": [
+                        4528
+                    ],
+                    "name": "彩·耐受·血魂·守御(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "magical_shield_base": 122,
+                        "max_life_add": 2438,
+                        "physical_shield_add": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        16100
+                    ],
+                    "enchant_id": [
+                        4529
+                    ],
+                    "name": "彩·耐受·血魂·守御(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "magical_shield_base": 244,
+                        "max_life_add": 4875,
+                        "physical_shield_add": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        16101
+                    ],
+                    "enchant_id": [
+                        4530
+                    ],
+                    "name": "彩·耐受·血魂·守御(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "magical_shield_base": 366,
+                        "max_life_add": 7313,
+                        "physical_shield_add": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        16102
+                    ],
+                    "enchant_id": [
+                        4531
+                    ],
+                    "name": "彩·耐受·血魂·守御(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "magical_shield_base": 488,
+                        "max_life_add": 9750,
+                        "physical_shield_add": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        16103
+                    ],
+                    "enchant_id": [
+                        4532
+                    ],
+                    "name": "彩·耐受·血魂·守御(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "magical_shield_base": 609,
+                        "max_life_add": 12188,
+                        "physical_shield_add": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        16104
+                    ],
+                    "enchant_id": [
+                        4533
+                    ],
+                    "name": "彩·耐受·血魂·守御(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "magical_shield_base": 731,
+                        "max_life_add": 14625,
+                        "physical_shield_add": 2925
+                    }
+                }
+            }
+        }
+    },
+    "max_life_add": {
+        "physical_shield_add": {
+            "magical_shield_base": {
+                1: {
+                    "item_id": [
+                        16111
+                    ],
+                    "enchant_id": [
+                        4540
+                    ],
+                    "name": "彩·血魂·守御·耐受(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "max_life_add": 1219,
+                        "physical_shield_add": 244,
+                        "magical_shield_base": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        16112
+                    ],
+                    "enchant_id": [
+                        4541
+                    ],
+                    "name": "彩·血魂·守御·耐受(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "max_life_add": 2438,
+                        "physical_shield_add": 488,
+                        "magical_shield_base": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        16113
+                    ],
+                    "enchant_id": [
+                        4542
+                    ],
+                    "name": "彩·血魂·守御·耐受(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "max_life_add": 3656,
+                        "physical_shield_add": 731,
+                        "magical_shield_base": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        16114
+                    ],
+                    "enchant_id": [
+                        4543
+                    ],
+                    "name": "彩·血魂·守御·耐受(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "max_life_add": 4875,
+                        "physical_shield_add": 975,
+                        "magical_shield_base": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        16115
+                    ],
+                    "enchant_id": [
+                        4544
+                    ],
+                    "name": "彩·血魂·守御·耐受(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "max_life_add": 6094,
+                        "physical_shield_add": 1219,
+                        "magical_shield_base": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        16116
+                    ],
+                    "enchant_id": [
+                        4545
+                    ],
+                    "name": "彩·血魂·守御·耐受(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "max_life_add": 7313,
+                        "physical_shield_add": 1463,
+                        "magical_shield_base": 2925
+                    }
+                }
+            }
+        },
+        "magical_shield_base": {
+            "physical_shield_add": {
+                1: {
+                    "item_id": [
+                        16153
+                    ],
+                    "enchant_id": [
+                        4582
+                    ],
+                    "name": "彩·血魂·耐受·守御(壹)",
+                    "level": 1,
+                    "attributes": {
+                        "max_life_add": 1219,
+                        "magical_shield_base": 244,
+                        "physical_shield_add": 488
+                    }
+                },
+                2: {
+                    "item_id": [
+                        16154
+                    ],
+                    "enchant_id": [
+                        4583
+                    ],
+                    "name": "彩·血魂·耐受·守御(贰)",
+                    "level": 2,
+                    "attributes": {
+                        "max_life_add": 2438,
+                        "magical_shield_base": 488,
+                        "physical_shield_add": 975
+                    }
+                },
+                3: {
+                    "item_id": [
+                        16155
+                    ],
+                    "enchant_id": [
+                        4584
+                    ],
+                    "name": "彩·血魂·耐受·守御(叁)",
+                    "level": 3,
+                    "attributes": {
+                        "max_life_add": 3656,
+                        "magical_shield_base": 731,
+                        "physical_shield_add": 1463
+                    }
+                },
+                4: {
+                    "item_id": [
+                        16156
+                    ],
+                    "enchant_id": [
+                        4585
+                    ],
+                    "name": "彩·血魂·耐受·守御(肆)",
+                    "level": 4,
+                    "attributes": {
+                        "max_life_add": 4875,
+                        "magical_shield_base": 975,
+                        "physical_shield_add": 1950
+                    }
+                },
+                5: {
+                    "item_id": [
+                        16157
+                    ],
+                    "enchant_id": [
+                        4586
+                    ],
+                    "name": "彩·血魂·耐受·守御(伍)",
+                    "level": 5,
+                    "attributes": {
+                        "max_life_add": 6094,
+                        "magical_shield_base": 1219,
+                        "physical_shield_add": 2438
+                    }
+                },
+                6: {
+                    "item_id": [
+                        16158
+                    ],
+                    "enchant_id": [
+                        4587
+                    ],
+                    "name": "彩·血魂·耐受·守御(陆)",
+                    "level": 6,
+                    "attributes": {
+                        "max_life_add": 7313,
+                        "magical_shield_base": 1463,
+                        "physical_shield_add": 2925
                     }
                 }
             }

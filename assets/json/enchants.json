@@ -755,6 +755,20 @@
                 "magical_shield_base": 1401
             }
         },
+        "风语·衣·绣（外防） 外功防御提升1401点": {
+            "id": 16086,
+            "score": 2877,
+            "attributes": {
+                "physical_shield_add": 1401
+            }
+        },
+        "风语·衣·绣（气血） 最大气血值提升14006点": {
+            "id": 16083,
+            "score": 2877,
+            "attributes": {
+                "max_life_base": 14006
+            }
+        },
         "风语·衣·绣（体质） 体质提升1037点": {
             "id": 16082,
             "score": 2877,
@@ -767,6 +781,20 @@
             "score": 2466,
             "attributes": {
                 "magical_shield_base": 1200
+            }
+        },
+        "风语·衣·绣（外防） 外功防御提升1200点": {
+            "id": 15860,
+            "score": 2466,
+            "attributes": {
+                "physical_shield_add": 1200
+            }
+        },
+        "风语·衣·绣（气血） 最大气血值提升12005点": {
+            "id": 15857,
+            "score": 2466,
+            "attributes": {
+                "max_life_base": 12005
             }
         },
         "风语·衣·绣（体质） 体质提升889点": {
@@ -783,6 +811,20 @@
                 "magical_shield_base": 700
             }
         },
+        "风语·衣·染（外防） 外功防御提升700点": {
+            "id": 16109,
+            "score": 1436,
+            "attributes": {
+                "physical_shield_add": 700
+            }
+        },
+        "风语·衣·染（气血） 最大气血值提升7003点": {
+            "id": 16106,
+            "score": 1436,
+            "attributes": {
+                "max_life_base": 7003
+            }
+        },
         "风语·衣·染（体质） 体质提升519点": {
             "id": 16105,
             "score": 1436,
@@ -795,6 +837,20 @@
             "score": 1231,
             "attributes": {
                 "magical_shield_base": 600
+            }
+        },
+        "风语·衣·染（外防） 外功防御提升600点": {
+            "id": 15883,
+            "score": 1231,
+            "attributes": {
+                "physical_shield_add": 600
+            }
+        },
+        "风语·衣·染（气血） 最大气血值提升6003点": {
+            "id": 15880,
+            "score": 1231,
+            "attributes": {
+                "max_life_base": 6003
             }
         },
         "风语·衣·染（体质） 体质提升444点": {
@@ -1307,6 +1363,20 @@
                 "magical_shield_base": 1401
             }
         },
+        "风语·腰·铸（外防） 外功防御提升1401点": {
+            "id": 16031,
+            "score": 2877,
+            "attributes": {
+                "physical_shield_add": 1401
+            }
+        },
+        "风语·腰·铸（气血） 最大气血值提升14006点": {
+            "id": 16028,
+            "score": 2877,
+            "attributes": {
+                "max_life_base": 14006
+            }
+        },
         "风语·腰·铸（体质） 体质提升1037点": {
             "id": 16027,
             "score": 2877,
@@ -1319,6 +1389,20 @@
             "score": 2466,
             "attributes": {
                 "magical_shield_base": 1200
+            }
+        },
+        "风语·腰·铸（外防） 外功防御提升1200点": {
+            "id": 15805,
+            "score": 2466,
+            "attributes": {
+                "physical_shield_add": 1200
+            }
+        },
+        "风语·腰·铸（气血） 最大气血值提升12005点": {
+            "id": 15802,
+            "score": 2466,
+            "attributes": {
+                "max_life_base": 12005
             }
         },
         "风语·腰·铸（体质） 体质提升889点": {
@@ -1335,6 +1419,20 @@
                 "magical_shield_base": 700
             }
         },
+        "风语·腰·甲（外防） 外功防御提升700点": {
+            "id": 16054,
+            "score": 1436,
+            "attributes": {
+                "physical_shield_add": 700
+            }
+        },
+        "风语·腰·甲（气血） 最大气血值提升7003点": {
+            "id": 16051,
+            "score": 1436,
+            "attributes": {
+                "max_life_base": 7003
+            }
+        },
         "风语·腰·甲（体质） 体质提升519点": {
             "id": 16050,
             "score": 1436,
@@ -1347,6 +1445,20 @@
             "score": 1231,
             "attributes": {
                 "magical_shield_base": 600
+            }
+        },
+        "风语·腰·甲（外防） 外功防御提升600点": {
+            "id": 15828,
+            "score": 1231,
+            "attributes": {
+                "physical_shield_add": 600
+            }
+        },
+        "风语·腰·甲（气血） 最大气血值提升6003点": {
+            "id": 15825,
+            "score": 1231,
+            "attributes": {
+                "max_life_base": 6003
             }
         },
         "风语·腰·甲（体质） 体质提升444点": {
