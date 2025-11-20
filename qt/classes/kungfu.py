@@ -75,12 +75,10 @@ class Kungfu:
         attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])
         for k, v in attributes.items():
             attribute[k] += v
-        if self.set_gear_gain:
-            for gain in self.gear_gains.values():
-                gain.set_attribute(attribute)
-        if self.set_bonus_gain:
-            for gain in self.bonus_gains.values():
-                gain.set_attribute(attribute)
+        for gain in self.gear_gains.values():
+            gain.set_attribute(attribute)
+        for gain in self.bonus_gains.values():
+            gain.set_attribute(attribute)
         attribute.recipes += self.recipes
         attribute.belongs += list(self.talents.values())
         if require_grad:
@@ -89,9 +87,10 @@ class Kungfu:
 
     def create_loop(self, sections: Sections):
         record = Record("", 1, sections.duration)
-        if self.set_gear_gain:
-            for gain in self.gear_gains.values():
-                gain.set_record(record)
+        for gain in self.gear_gains.values():
+            gain.set_record(record)
+        for gain in self.bonus_gains.values():
+            gain.set_record(record)
         sections = sections.copy()
         sections.append(Section("", 1, 0, [record]))
         return sections

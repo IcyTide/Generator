@@ -1,4 +1,5 @@
-from PySide6.QtWidgets import QDoubleSpinBox, QGridLayout, QLabel, QSpinBox, QVBoxLayout, QWidget
+from PySide6.QtWidgets import QDoubleSpinBox, QGridLayout, QHBoxLayout, QLabel, QPushButton, QSpinBox, QVBoxLayout, \
+    QWidget
 
 from qt import ComboBox, LabelColumn
 from qt.classes.gains.consumable import *
@@ -65,7 +66,11 @@ class FormationWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
-        layout.addWidget(QLabel("阵眼:"))
+        top_layout = QHBoxLayout()
+        layout.addLayout(top_layout)
+        top_layout.addWidget(QLabel("阵眼:"))
+        self.average_button = QPushButton("均摊选项")
+        top_layout.addWidget(self.average_button)
         grid_layout = QGridLayout()
         layout.addLayout(grid_layout)
 
@@ -85,7 +90,11 @@ class TeamWidget(QWidget):
     def __init__(self):
         super().__init__()
         layout = QVBoxLayout(self)
-        layout.addWidget(QLabel("团队增益:"))
+        top_layout = QHBoxLayout()
+        layout.addLayout(top_layout)
+        top_layout.addWidget(QLabel("团队增益:"))
+        self.average_button = QPushButton("均摊选项")
+        top_layout.addWidget(self.average_button)
         grid_layout = QGridLayout()
         layout.addLayout(grid_layout)
 

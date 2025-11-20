@@ -38,55 +38,62 @@ ATTRIBUTE_FUNCS = {
 
 
 class FormationGain:
-    buffs: list[int]
-    skills: list[int]
-
     buff_id: int
     rate: float = 0.
 
-    def __init__(self, name: str, level_4_rate: float, level_5_rate: float, level_6_rate: float):
-        self.name = name
-        self.rates = [1, level_4_rate, level_5_rate, level_6_rate]
-        self.buffs = FORMATIONS[name]
+    average: bool = True
+
+    def __init__(self, buff_id, rate):
+        self.buff_id = buff_id
+        self.rate = rate
 
     def set_attribute(self, attribute: Attribute):
-        for buff_id, rate in zip(self.buffs, self.rates):
-            if not buff_id:
-                continue
-            self.buff_id, self.rate = buff_id, rate
-            ATTRIBUTE_FUNCS.get(buff_id, default_attribute)(self, attribute)
+        if self.average:
+            ATTRIBUTE_FUNCS.get(self.buff_id, default_attribute)(self, attribute)
 
 
-class Formation:
-    def __init__(self, name: str = "", level_4_rate: float = 0., level_5_rate: float = 0., level_6_rate: float = 0.):
-        if name:
-            self.gain = FormationGain(name, level_4_rate, level_5_rate, level_6_rate)
+class FormationGains:
+    formation: str = ""
+    rates: dict[str, list[float]]
+
+    def __init__(self, formation: str = "", rates: dict = None):
+        self.formation = formation
+        if not rates:
+            self.rates = {}
         else:
-            self.gain = None
+            self.rates = rates
 
     def __bool__(self):
-        return self.gain is not None
+        return bool(self.formation)
+
+    def get(self, formation: str):
+        if formation not in self.rates:
+            self.rates[formation] = [0, 0, 0]
+        return self.rates[formation]
 
     @property
     def content(self):
-        if self.gain:
-            return dict(formation=self.gain)
+        if self.formation:
+            buffs, rates = FORMATIONS[self.formation], self.rates[self.formation]
+            gains = dict(
+                前三重=FormationGain(buffs[0], 1),
+            )
+            for name, buff_id, rate in zip(["四重", "五重", "六重"], buffs[1:], rates):
+                if not buff_id:
+                    continue
+                gains[name] = FormationGain(buff_id, rate)
+            return gains
         else:
             return {}
 
     def to_dict(self):
-        if self.gain:
-            return dict(
-                formation=self.gain.name,
-                level_4_rate=self.gain.rates[1],
-                level_5_rate=self.gain.rates[2],
-                level_6_rate=self.gain.rates[3]
-            )
-        else:
-            return {}
+        return dict(
+            formation=self.formation,
+            rates=self.rates
+        )
 
     @classmethod
     def from_dict(cls, json):
         if not json:
-            return Formation()
-        return Formation(json["formation"], json["level_4_rate"], json["level_5_rate"], json["level_6_rate"])
+            return FormationGains()
+        return FormationGains(**json)

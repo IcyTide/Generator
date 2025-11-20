@@ -48,7 +48,7 @@ class Belong(Skill):
     def to_dict(self):
         if self.skill_level:
             return {
-                "name": self.name or self.get_name(self.skill_id, self.skill_level) or self.skill_name,
+                "name": self.name or self.get_name(self.skill_id, self.skill_level),
                 "attributes": {attr: param for attr, param in self.self_rollback_attributes},
                 "recipes": [get_variable("recipe", *keys) for keys in self.recipes],
                 "buffs": self.buffs,

@@ -1,7 +1,8 @@
 from qt.classes.gains.consumable import Consumables
-from qt.classes.gains.formation import Formation, FormationGain
+from qt.classes.gains.formation import FormationGains
 from qt.classes.gains.team import TeamGains
 from qt.classes.kungfu import Kungfu
+from qt.component.bonus_widget.gain_dialog import GainDialog
 from qt.component.bonus_widget.widget import BonusWidget, ConsumableWidget, FormationWidget, TeamWidget
 
 
@@ -39,51 +40,55 @@ class FormationScript:
         self.connect()
 
     def connect(self):
+        self.widget.average_button.clicked.connect(self.set_average)
         self.widget.belong_combo.currentTextChanged.connect(self.select_formation)
         self.widget.level_4_spin.valueChanged.connect(self.select_level_4)
         self.widget.level_5_spin.valueChanged.connect(self.select_level_5)
         self.widget.level_6_spin.valueChanged.connect(self.select_level_6)
 
+    def set_average(self):
+        if gains := self.parent.formation_gains.content:
+            GainDialog(gains, parent=self.widget).exec()
+
     def select_formation(self, formation: str):
         if not formation:
-            self.parent.formation.gain = None
-        else:
-            level_4_rate = self.widget.level_4_spin.value()
-            level_5_rate = self.widget.level_5_spin.value()
-            level_6_rate = self.widget.level_6_spin.value()
-            self.parent.formation.gain = FormationGain(formation, level_4_rate, level_5_rate, level_6_rate)
-        self.parent.update_kungfu()
-
-    def select_level_4(self, level_4_rate: float):
-        if not self.parent.formation:
-            return
-        self.parent.formation.gain.rates[1] = level_4_rate
-        self.parent.update_kungfu()
-
-    def select_level_5(self, level_5_rate: float):
-        if not self.parent.formation:
-            return
-        self.parent.formation.gain.rates[2] = level_5_rate
-        self.parent.update_kungfu()
-
-    def select_level_6(self, level_6_rate: float):
-        if not self.parent.formation:
-            return
-        self.parent.formation.gain.rates[3] = level_6_rate
-        self.parent.update_kungfu()
-
-    def init(self, formation: Formation):
-        if formation:
-            name, rates = formation.gain.name, formation.gain.rates
-            self.widget.belong_combo.setCurrentText(name)
-            self.widget.level_4_spin.setValue(rates[1])
-            self.widget.level_5_spin.setValue(rates[2])
-            self.widget.level_6_spin.setValue(rates[3])
-        else:
-            self.widget.belong_combo.setCurrentText("")
+            self.parent.formation_gains.formation = ""
             self.widget.level_4_spin.setValue(0)
             self.widget.level_5_spin.setValue(0)
             self.widget.level_6_spin.setValue(0)
+            self.parent.update_kungfu()
+            return
+        self.parent.formation_gains.formation = formation
+        level_4_rate, level_5_rate, level_6_rate = self.parent.formation_gains.get(formation)
+        self.widget.level_4_spin.setValue(level_4_rate)
+        self.widget.level_5_spin.setValue(level_5_rate)
+        self.widget.level_6_spin.setValue(level_6_rate)
+
+        self.parent.update_kungfu()
+
+    def select_level_4(self, level_4_rate: float):
+        if not self.parent.formation_gains.formation:
+            return
+        self.parent.formation_gains.rates[self.parent.formation_gains.formation][0] = level_4_rate
+        self.parent.update_kungfu()
+
+    def select_level_5(self, level_5_rate: float):
+        if not self.parent.formation_gains.formation:
+            return
+        self.parent.formation_gains.rates[self.parent.formation_gains.formation][1] = level_5_rate
+        self.parent.update_kungfu()
+
+    def select_level_6(self, level_6_rate: float):
+        if not self.parent.formation_gains.formation:
+            return
+        self.parent.formation_gains.rates[self.parent.formation_gains.formation][2] = level_6_rate
+        self.parent.update_kungfu()
+
+    def init(self, formation_gains: FormationGains):
+        if formation := formation_gains.formation:
+            self.widget.belong_combo.setCurrentText(formation)
+        else:
+            self.widget.belong_combo.setCurrentText("")
 
 
 class TeamGainScript:
@@ -94,9 +99,14 @@ class TeamGainScript:
         self.connect()
 
     def connect(self):
+        self.widget.average_button.clicked.connect(self.set_average)
         self.widget.belong_combo.currentTextChanged.connect(self.select_team)
         self.widget.stack_spin.valueChanged.connect(self.select_stack)
         self.widget.rate_spin.valueChanged.connect(self.select_rate)
+
+    def set_average(self):
+        if gains := self.parent.team_gains.content:
+            GainDialog(gains, parent=self.widget).exec()
 
     def select_team(self, gain_name: str):
         if not gain_name:
@@ -134,7 +144,7 @@ class BonusScript:
 
     consumables: Consumables
 
-    formation: Formation | None
+    formation_gains: FormationGains
 
     team_gains: TeamGains
 
@@ -148,7 +158,7 @@ class BonusScript:
     def init(
             self, kungfu: Kungfu,
             consumables: Consumables | dict = None,
-            formation: Formation | dict = None,
+            formation_gains: FormationGains | dict = None,
             team_gains: TeamGains | dict = None
     ):
         self.kungfu = kungfu
@@ -159,12 +169,13 @@ class BonusScript:
             self.consumables = consumables
         else:
             self.consumables = Consumables.from_dict(consumables)
-        if not formation:
-            self.formation = Formation()
-        elif isinstance(formation, Formation):
-            self.formation = formation
+
+        if not formation_gains:
+            self.formation_gains = FormationGains()
+        elif isinstance(formation_gains, FormationGains):
+            self.formation_gains = formation_gains
         else:
-            self.formation = Formation.from_dict(formation)
+            self.formation_gains = FormationGains.from_dict(formation_gains)
 
         if not team_gains:
             self.team_gains = TeamGains()
@@ -174,13 +185,13 @@ class BonusScript:
             self.team_gains = TeamGains.from_dict(team_gains)
 
         self.consumable_script.init(self.consumables)
-        self.formation_script.init(self.formation)
+        self.formation_script.init(self.formation_gains)
         self.team_script.init(self.team_gains)
 
-        return dict(consumables=self.consumables, formation=self.formation, team_gains=self.team_gains)
+        return dict(consumables=self.consumables, formation=self.formation_gains, team_gains=self.team_gains)
 
     def update_kungfu(self):
         attributes = self.consumables.content
-        gains = self.formation.content | self.team_gains.content
+        gains = self.formation_gains.content | self.team_gains.content
         self.kungfu.bonus_attributes = attributes
         self.kungfu.bonus_gains = gains

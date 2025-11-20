@@ -19875,14 +19875,6 @@
                 ]
             }
         },
-        "42837": {
-            "1": {
-                "name": "速·震",
-                "damage": "141600 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
-                "critical_damage": "damage",
-                "critical_strike": "0"
-            }
-        },
         "40789": {
             "1": {
                 "name": "巽",
@@ -19917,6 +19909,14 @@
             "1": {
                 "name": "御·强击",
                 "damage": "max_life * 0.065 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
+                "critical_damage": "damage",
+                "critical_strike": "0"
+            }
+        },
+        "42837": {
+            "1": {
+                "name": "速·震",
+                "damage": "141600 * (1 - (level - 130) * 0.05) * (1 + damage_cof / 1024)",
                 "critical_damage": "damage",
                 "critical_strike": "0"
             }

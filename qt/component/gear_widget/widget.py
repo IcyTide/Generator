@@ -63,9 +63,6 @@ class GearWidget(QWidget):
 
         top_layout = QHBoxLayout()
         layout.addLayout(top_layout)
-        self.gain_attribute = QCheckBox()
-        top_layout.addWidget(LabelColumn("均摊特效属性", self.gain_attribute), 1)
-        self.gain_attribute.setChecked(True)
         self.special_enchant = QCheckBox()
         top_layout.addWidget(LabelColumn("全部大附魔", self.special_enchant), 1)
         self.strength_combo = ComboBox()

@@ -5875,6 +5875,9 @@
         },
         "22888": {
             "name": "诛邪镇魔",
+            "buffs": [
+                28886
+            ],
             "skills": [
                 26916
             ],
@@ -14199,14 +14202,12 @@
     },
     "0": {
         "10438": {
-            "name": "世界奇遇",
             "buffs": [
                 10100
             ],
             "belong_key": "belong_10438"
         },
         "10179": {
-            "name": "帮会",
             "buffs": [
                 18428,
                 2563
@@ -14214,7 +14215,6 @@
             "belong_key": "belong_10179"
         },
         "10067": {
-            "name": "烹饪",
             "buffs": [
                 29274,
                 29276,
@@ -14224,7 +14224,6 @@
             "belong_key": "belong_10067"
         },
         "10071": {
-            "name": "医术",
             "buffs": [
                 29288,
                 29289
@@ -14232,7 +14231,6 @@
             "belong_key": "belong_10071"
         },
         "23768": {
-            "name": "家园交互",
             "buffs": [
                 27784,
                 27785,
@@ -14893,28 +14891,21 @@
             "belong_key": "belong_41984"
         },
         "102268": {
-            "name": "移动端_江湖无界阵",
+            "name": "江湖行侠阵",
             "buffs": [
                 71338
             ],
             "belong_key": "belong_102268"
         },
-        "42767": {
-            "name": "精简护手腰带加速DOT触发",
-            "skills": [
-                42837
-            ],
-            "belong_key": "belong_42767"
-        },
         "40788": {
-            "name": "精简护手特效伤害",
+            "name": "输出护手特效",
             "skills": [
                 40789
             ],
             "belong_key": "belong_40788"
         },
         "42895": {
-            "name": "防御护手特效加护盾",
+            "name": "英雄防御护手特效",
             "buffs": [
                 32019
             ],
@@ -14924,35 +14915,21 @@
             "belong_key": "belong_42895"
         },
         "41062": {
-            "name": "防御护手特效伤害",
+            "name": "普通防御护手特效",
             "skills": [
                 41069
             ],
             "belong_key": "belong_41062"
         },
-        "38939": {
-            "name": "黄字鞋子加会心",
-            "buffs": [
-                29524
-            ],
-            "belong_key": "belong_38939"
-        },
-        "38944": {
-            "name": "黄字鞋子加破防",
-            "buffs": [
-                29526
-            ],
-            "belong_key": "belong_38944"
-        },
         "40793": {
-            "name": "精简下装提高无双_正常版",
+            "name": "多属性下装特效",
             "buffs": [
                 30748
             ],
             "belong_key": "belong_40793"
         },
         "40794": {
-            "name": "精简下装适应之力_高级版",
+            "name": "单属性下装特效",
             "buffs": [
                 30749,
                 30770
@@ -14960,7 +14937,7 @@
             "belong_key": "belong_40794"
         },
         "41064": {
-            "name": "防御下装特效叠层伤害",
+            "name": "防御下装特效",
             "buffs": [
                 30948
             ],
@@ -14970,154 +14947,173 @@
             "belong_key": "belong_41064"
         },
         "40791": {
-            "name": "精简腰带提高属性_高级版",
+            "name": "单属性腰带特效",
             "buffs": [
                 30743
             ],
             "belong_key": "belong_40791"
         },
         "40790": {
-            "name": "精简腰带提高属性_正常版",
+            "name": "多属性腰带特效",
             "buffs": [
                 30742
             ],
             "belong_key": "belong_40790"
         },
+        "42767": {
+            "name": "加速腰带特效",
+            "skills": [
+                42837
+            ],
+            "belong_key": "belong_42767"
+        },
         "41063": {
-            "name": "防御腰带特效加破招",
+            "name": "防御腰带特效",
             "buffs": [
                 30946
             ],
             "belong_key": "belong_41063"
         },
-        "38934": {
-            "name": "黄字帽子适应之力",
-            "buffs": [
-                29519
-            ],
-            "belong_key": "belong_38934"
-        },
-        "38949": {
-            "name": "黄字腰坠加会效",
-            "buffs": [
-                29537
-            ],
-            "belong_key": "belong_38949"
-        },
-        "38948": {
-            "name": "黄字腰坠加破防",
-            "buffs": [
-                29536
-            ],
-            "belong_key": "belong_38948"
-        },
-        "41065": {
-            "name": "防御戒指特效加血",
-            "buffs": [
-                30950
-            ],
-            "belong_key": "belong_41065"
-        },
         "40804": {
-            "name": "精简戒指3加破招",
+            "name": "破招戒指特效",
             "buffs": [
                 30757
             ],
             "belong_key": "belong_40804"
         },
         "40802": {
-            "name": "精简戒指1加破防",
+            "name": "破防戒指特效",
             "buffs": [
                 30755
             ],
             "belong_key": "belong_40802"
         },
         "40803": {
-            "name": "精简戒指2加会心",
+            "name": "会心戒指特效",
             "buffs": [
                 30756
             ],
             "belong_key": "belong_40803"
         },
-        "38946": {
-            "name": "黄字项链破防加攻击",
+        "41065": {
+            "name": "防御戒指特效",
             "buffs": [
-                29529
+                30950
             ],
-            "belong_key": "belong_38946"
+            "belong_key": "belong_41065"
+        },
+        "38934": {
+            "name": "帽子特效",
+            "buffs": [
+                29519
+            ],
+            "belong_key": "belong_38934"
+        },
+        "38939": {
+            "name": "会心鞋子特效",
+            "buffs": [
+                29524
+            ],
+            "belong_key": "belong_38939"
+        },
+        "38944": {
+            "name": "破防鞋子特效",
+            "buffs": [
+                29526
+            ],
+            "belong_key": "belong_38944"
         },
         "38945": {
-            "name": "黄字项链会心加会效",
+            "name": "会心项链特效",
             "buffs": [
                 29528
             ],
             "belong_key": "belong_38945"
         },
+        "38946": {
+            "name": "破防项链特效",
+            "buffs": [
+                29529
+            ],
+            "belong_key": "belong_38946"
+        },
+        "38949": {
+            "name": "会心腰坠特效",
+            "buffs": [
+                29537
+            ],
+            "belong_key": "belong_38949"
+        },
+        "38948": {
+            "name": "破防腰坠特效",
+            "buffs": [
+                29536
+            ],
+            "belong_key": "belong_38948"
+        },
         "38950": {
-            "name": "黄字暗器",
+            "name": "暗器特效",
             "skills": [
                 38966
             ],
             "belong_key": "belong_38950"
         },
         "39088": {
-            "name": "130级CW风",
+            "name": "橙武无双",
             "buffs": [
                 29608
             ],
             "belong_key": "belong_39088"
         },
         "22035": {
-            "name": "霸刀特殊武器_变身启动",
             "skills": [
                 21933
             ],
             "belong_key": "belong_22035"
         },
         "4877": {
-            "name": "水(2级)",
+            "name": "水特效",
             "buffs": [
                 4761
             ],
             "belong_key": "belong_4877"
         },
         "38578": {
-            "name": "130级dps风",
+            "name": "风特效",
             "buffs": [
                 29268
             ],
             "belong_key": "belong_38578"
         },
         "38786": {
-            "name": "130级防御特效腰坠",
+            "name": "防御风特效",
             "skills": [
                 38787
             ],
             "belong_key": "belong_38786"
         },
         "22169": {
-            "name": "输出附魔伤害波动",
+            "name": "输出头大附魔",
             "buffs": [
                 15455
             ],
             "belong_key": "belong_22169"
         },
         "38984": {
-            "name": "130dps护手固定伤害",
+            "name": "输出手大附魔",
             "skills": [
                 37562
             ],
             "belong_key": "belong_38984"
         },
         "38985": {
-            "name": "130dps鞋固定伤害",
+            "name": "输出脚大附魔",
             "skills": [
                 37561
             ],
             "belong_key": "belong_38985"
         },
         "22151": {
-            "name": "输出附魔通用减疗提伤害",
             "attributes": {
                 "magical_attack_power_base": 110,
                 "all_attack_power_base": 951
@@ -15128,7 +15124,7 @@
             "belong_key": "belong_22151"
         },
         "10106": {
-            "name": "内功",
+            "name": "输出腰大附魔",
             "buffs": [
                 15436
             ],
@@ -15140,7 +15136,7 @@
             "belong_key": "belong_22129"
         },
         "33249": {
-            "name": "T护手概率提高自身伤害",
+            "name": "防御手大附魔",
             "buffs": [
                 24767
             ],
@@ -15152,11 +15148,9 @@
             "belong_key": "belong_22128"
         },
         "22122": {
-            "name": "新附魔T添加基础攻击",
             "belong_key": "belong_22122"
         },
         "40512": {
-            "name": "新t大附魔_鞋子加内外防",
             "belong_key": "belong_40512"
         }
     }

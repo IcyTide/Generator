@@ -84,6 +84,8 @@ class TeamGain:
     stack: int = 0
     rate: float = 0.
 
+    average: bool = True
+
     def __init__(self, name: str, stack: int, rate: float):
         self.name = name
         self.stack = stack
@@ -102,10 +104,12 @@ class TeamGain:
         return bool(self.stack and self.rate)
 
     def set_attribute(self, attribute: Attribute):
-        ATTRIBUTE_FUNCS.get(self.name, default_attribute)(self, attribute)
+        if self.average:
+            ATTRIBUTE_FUNCS.get(self.name, default_attribute)(self, attribute)
 
     def set_record(self, record: Record):
-        RECORD_FUNCS.get(self.name, default_record)(self, record)
+        if self.average:
+            RECORD_FUNCS.get(self.name, default_record)(self, record)
 
     def to_dict(self):
         return dict(
@@ -119,26 +123,26 @@ class TeamGain:
         return TeamGain(**json)
 
 class TeamGains:
-    team_gains: dict[str, TeamGain]
+    gains: dict[str, TeamGain]
 
-    def __init__(self, team_gains: dict = None):
-        if not team_gains:
-            self.team_gains = {}
+    def __init__(self, gains: dict = None):
+        if not gains:
+            self.gains = {}
         else:
-            self.team_gains = team_gains
+            self.gains = gains
 
     def get(self, gain_name: str):
-        if gain_name not in self.team_gains:
-            self.team_gains[gain_name] = TeamGain(gain_name, 0, 1)
-        return self.team_gains[gain_name]
+        if gain_name not in self.gains:
+            self.gains[gain_name] = TeamGain(gain_name, 0, 1)
+        return self.gains[gain_name]
 
     @property
     def content(self):
-        items = sorted(self.team_gains.items(), key=lambda x: GAIN_PRIORITY.get(x[0], 1))
+        items = sorted(self.gains.items(), key=lambda x: GAIN_PRIORITY.get(x[0], 1))
         return {gain.buff_name: gain for gain_name, gain in items if gain}
 
     def to_dict(self):
-        return {gain_name: gain.to_dict() for gain_name, gain in self.team_gains.items() if gain}
+        return {gain_name: gain.to_dict() for gain_name, gain in self.gains.items() if gain}
 
     @classmethod
     def from_dict(cls, json: dict):

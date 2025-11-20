@@ -2597,6 +2597,17 @@
                 ]
             }
         },
+        "28886": {
+            "1": {
+                "name": "诛邪",
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 205
+                }
+            }
+        },
         "31456": {
             "1": {
                 "name": "无明业火",
@@ -7622,106 +7633,6 @@
                 }
             }
         },
-        "29524": {
-            "1": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 4218
-                }
-            },
-            "2": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 4391
-                }
-            },
-            "3": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 4072
-                }
-            },
-            "4": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 4393
-                }
-            },
-            "5": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 4728
-                }
-            },
-            "6": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 5136
-                }
-            }
-        },
-        "29526": {
-            "1": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 4218
-                }
-            },
-            "2": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 4391
-                }
-            },
-            "3": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 4072
-                }
-            },
-            "4": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 4393
-                }
-            },
-            "5": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 4728
-                }
-            },
-            "6": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 5136
-                }
-            }
-        },
         "30748": {
             "1": {
                 "max_stack": 1,
@@ -7886,6 +7797,138 @@
                 }
             }
         },
+        "30757": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 1412
+                }
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 2824
+                }
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 1650
+                }
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 3300
+                }
+            }
+        },
+        "30755": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 1412
+                }
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 2824
+                }
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 1650
+                }
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3300
+                }
+            }
+        },
+        "30756": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 1412
+                }
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 2824
+                }
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 1650
+                }
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 3300
+                }
+            }
+        },
+        "30950": {
+            "1": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1412
+                }
+            },
+            "2": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 2824
+                }
+            },
+            "3": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 1650
+                }
+            },
+            "4": {
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_base": 3300
+                }
+            }
+        },
         "29519": {
             "1": {
                 "interval": 1,
@@ -8032,6 +8075,212 @@
                 }
             }
         },
+        "29524": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4218
+                }
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4391
+                }
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4072
+                }
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4393
+                }
+            },
+            "5": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 4728
+                }
+            },
+            "6": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 5136
+                }
+            }
+        },
+        "29526": {
+            "1": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4218
+                }
+            },
+            "2": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4391
+                }
+            },
+            "3": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4072
+                }
+            },
+            "4": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4393
+                }
+            },
+            "5": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 4728
+                }
+            },
+            "6": {
+                "interval": 160,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 5136
+                }
+            }
+        },
+        "29528": {
+            "1": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 109
+                }
+            },
+            "2": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 114
+                }
+            },
+            "3": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 130
+                }
+            },
+            "4": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 141
+                }
+            },
+            "5": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 151
+                }
+            },
+            "6": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_power_base": 165
+                }
+            }
+        },
+        "29529": {
+            "1": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 30,
+                    "magical_attack_power_base": 3
+                }
+            },
+            "2": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 32,
+                    "magical_attack_power_base": 3
+                }
+            },
+            "3": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 35,
+                    "magical_attack_power_base": 3
+                }
+            },
+            "4": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 38,
+                    "magical_attack_power_base": 4
+                }
+            },
+            "5": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 41,
+                    "magical_attack_power_base": 5
+                }
+            },
+            "6": {
+                "interval": 1,
+                "max_stack": 10,
+                "max_tick": 1,
+                "attributes": {
+                    "all_attack_power_base": 45,
+                    "magical_attack_power_base": 5
+                }
+            }
+        },
         "29537": {
             "1": {
                 "name": "无修·会",
@@ -8141,244 +8390,6 @@
                 "max_tick": 1,
                 "attributes": {
                     "all_overcome_base": 330
-                }
-            }
-        },
-        "30950": {
-            "1": {
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_base": 1412
-                }
-            },
-            "2": {
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_base": 2824
-                }
-            },
-            "3": {
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_base": 1650
-                }
-            },
-            "4": {
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_base": 3300
-                }
-            }
-        },
-        "30757": {
-            "1": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "surplus_base": 1412
-                }
-            },
-            "2": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "surplus_base": 2824
-                }
-            },
-            "3": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "surplus_base": 1650
-                }
-            },
-            "4": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "surplus_base": 3300
-                }
-            }
-        },
-        "30755": {
-            "1": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 1412
-                }
-            },
-            "2": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 2824
-                }
-            },
-            "3": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 1650
-                }
-            },
-            "4": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_overcome_base": 3300
-                }
-            }
-        },
-        "30756": {
-            "1": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 1412
-                }
-            },
-            "2": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 2824
-                }
-            },
-            "3": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 1650
-                }
-            },
-            "4": {
-                "interval": 160,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_strike_base": 3300
-                }
-            }
-        },
-        "29529": {
-            "1": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_attack_power_base": 30,
-                    "magical_attack_power_base": 3
-                }
-            },
-            "2": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_attack_power_base": 32,
-                    "magical_attack_power_base": 3
-                }
-            },
-            "3": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_attack_power_base": 35,
-                    "magical_attack_power_base": 3
-                }
-            },
-            "4": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_attack_power_base": 38,
-                    "magical_attack_power_base": 4
-                }
-            },
-            "5": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_attack_power_base": 41,
-                    "magical_attack_power_base": 5
-                }
-            },
-            "6": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_attack_power_base": 45,
-                    "magical_attack_power_base": 5
-                }
-            }
-        },
-        "29528": {
-            "1": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_power_base": 109
-                }
-            },
-            "2": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_power_base": 114
-                }
-            },
-            "3": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_power_base": 130
-                }
-            },
-            "4": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_power_base": 141
-                }
-            },
-            "5": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_power_base": 151
-                }
-            },
-            "6": {
-                "interval": 1,
-                "max_stack": 10,
-                "max_tick": 1,
-                "attributes": {
-                    "all_critical_power_base": 165
                 }
             }
         },

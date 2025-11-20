@@ -38,7 +38,6 @@ class SubGearScript:
         for level, gain in SPECIAL_ENCHANT_MAP[self.widget.position][kungfu_type].items():
             if self.gear.level >= level:
                 special_enchant = gain
-                break
         return special_enchant
 
     def select_school(self, school):
@@ -182,14 +181,10 @@ class GearScript:
         self.connect()
 
     def connect(self):
-        self.widget.gain_attribute.stateChanged.connect(self.select_gain_attribute)
         self.widget.special_enchant.stateChanged.connect(self.select_special_enchant)
         self.widget.strength_combo.currentTextChanged.connect(self.select_strength)
         self.widget.embed_combo.currentTextChanged.connect(self.select_embed)
         self.widget.detail_btn.clicked.connect(self.show_detail)
-
-    def select_gain_attribute(self, state):
-        self.kungfu.set_gear_gain = state
 
     def select_special_enchant(self, state):
         for sub_script in self.sub_scripts.values():
@@ -214,7 +209,7 @@ class GearScript:
     def show_detail(self):
         attributes, recipes, gains = self.kungfu.gear_attributes, self.kungfu.gear_recipes, self.kungfu.gear_gains
         if attributes:
-            AttributeDialog(attributes, recipes, list(gains), parent=self.widget).exec()
+            AttributeDialog(attributes, recipes, list(gains.values()), parent=self.widget).exec()
 
     def init(self, kungfu: Kungfu, gears: Gears | dict = None):
         self.kungfu = kungfu

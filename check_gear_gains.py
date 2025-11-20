@@ -1,6 +1,7 @@
 import json
 
 from assets.raw.equipments import EQUIPMENTS
+from gains.gears import GAINS
 
 gains = {}
 for position, schools in EQUIPMENTS.items():
@@ -14,5 +15,8 @@ for position, schools in EQUIPMENTS.items():
                     if skill_level not in gains[skill_id]:
                         gains[skill_id][skill_level] = []
                     gains[skill_id][skill_level].append(equipment)
-print(len(gains))
-json.dump(gains, open("gains.json", "w", encoding="utf-8"), ensure_ascii=False)
+
+for gain in gains:
+    if int(gain) not in GAINS:
+        print(gain)
+json.dump(gains, open("gains.json", "w", encoding="utf-8"), ensure_ascii=False, indent=4)

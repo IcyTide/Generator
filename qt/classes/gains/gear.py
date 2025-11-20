@@ -1,3 +1,4 @@
+from assets.raw.belongs import BELONGS
 from assets.raw.buffs import BUFFS
 from assets.raw.skills import SKILLS
 from base.constant import BINARY_SCALE
@@ -34,13 +35,14 @@ def shoes_attribute(self: "GearGain", attribute: Attribute):
 
 
 def bottom_attribute(self: "GearGain", attribute: Attribute):
-    thresholds = [93 / BINARY_SCALE, 156 / BINARY_SCALE]
-    buff_id_bias = (self.gain_level - 1) % 2
-    buff_level_bias = (self.gain_level - 1) // 2
-    if attribute.strain <= 0.9 + thresholds[buff_id_bias]:
-        add_buff_to_attribute(self.buffs[buff_id_bias], 1 + buff_level_bias, attribute)
+    buff_id = self.buffs[(self.gain_level - 1) % 2]
+    buff_level = (self.gain_level - 1) // 2 * 2 + 1
+    strain_buff = Buff("装备", buff_id, buff_level, BuffType.Both, 1, **BUFFS[0][buff_id][buff_level])
+    threshold = strain_buff.attributes["strain_rate"] / BINARY_SCALE
+    if attribute.strain <= 0.9 + threshold:
+        add_buff_to_attribute(buff_id, buff_level, attribute)
     else:
-        add_buff_to_attribute(self.buffs[buff_id_bias], 2 + buff_level_bias, attribute)
+        add_buff_to_attribute(buff_id, buff_level + 1, attribute)
 
 
 def belt_attribute(self: "GearGain", attribute: Attribute):
@@ -167,6 +169,9 @@ class GearGain:
 
     weight: float = 1.
 
+    name: str
+    average: bool = True
+
     def __init__(self, gain_str: str):
         _, self.gain_id, self.gain_level = gain_str.split("_")
         self.gain_id = int(self.gain_id)
@@ -176,8 +181,12 @@ class GearGain:
             setattr(self, k, v)
         self.skills = [skill_id for skill_id in self.skills if skill_id != self.gain_id]
 
+        self.name = BELONGS[0].get(self.gain_id, {}).get("name")
+
     def set_attribute(self, attribute: Attribute):
-        ATTRIBUTE_FUNCS.get(self.gain_id, default_attribute)(self, attribute)
+        if self.average:
+            ATTRIBUTE_FUNCS.get(self.gain_id, default_attribute)(self, attribute)
 
     def set_record(self, record: Record):
-        RECORD_FUNCS.get(self.gain_id, default_record)(self, record)
+        if self.average:
+            RECORD_FUNCS.get(self.gain_id, default_record)(self, record)
