@@ -1,0 +1,4 @@
+ATTRIBUTE = 10002
+KIND = "防御"
+SCHOOL = "少林"
+MAJOR = "体质"

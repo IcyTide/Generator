@@ -1,3 +1,5 @@
+from base.expression import Ceil, Variable
+
 BUFFS: dict[int, dict] = {
     28355: dict(name="烈日", comment="自身"),
     28142: dict(name="无往不复", comment="自身"),
@@ -6,6 +8,17 @@ BUFFS: dict[int, dict] = {
         "name": "净体不畏",
         1: dict(comment="烈日斩"),
         2: dict(comment="银月斩")
+    },
+    4754: {1: {}},
+    25716: {
+        1: dict(
+            name="明赦尊谕缩放",
+            attributes=[(
+                "global_damage_scale",
+                0.84 * Variable("buff_key") + 1 - Ceil(Variable("buff_key") / (Variable("buff_key") + 1))
+            )],
+            skills=[19055, 35065, 34985]
+        )
     },
     12575: {
         "name": "用晦而明",

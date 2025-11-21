@@ -201,6 +201,10 @@ class DamageChain:
         self.damage *= rate
         if self.need_int:
             self.damage = Int(self.damage)
+        if self.target.global_damage_scale:
+            self.damage *= self.target.global_damage_scale
+            if self.need_int:
+                self.damage = Int(self.damage)
 
     def cal_damage_add(self, damage_addition, move_state_damage_addition):
         rate = 1 + (damage_addition + self.skill.damage_addition) / BINARY_SCALE

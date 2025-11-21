@@ -3,7 +3,7 @@ from kungfus import bei_ao_jue_mobile
 from kungfus import bing_xin_jue, du_jing, mo_wen, wu_fang, you_luo_yin, zi_xia_gong
 from kungfus import fen_shan_jin, ling_hai_jue, shan_hai_xin_jue, tai_xu_jian_yi, wen_shui_jue, yin_long_jue
 from kungfus import fen_ying_sheng_jue, hua_jian_you, tai_xuan_jing, tian_luo_gui_dao, yi_jin_jing, zhou_tian_gong
-from kungfus import tie_lao_lv, ming_zun_liu_li_ti, tie_gu_yi
+from kungfus import xi_sui_jing, tie_lao_lv, ming_zun_liu_li_ti, tie_gu_yi
 from kungfus import wu_fang_mobile, you_luo_yin_mobile, zi_xia_gong_mobile
 from kungfus import zhou_tian_gong_mobile
 
@@ -24,6 +24,7 @@ class Kungfu:
 
 
 SUPPORT_KUNGFUS: list[Kungfu] = [
+    Kungfu(xi_sui_jing),
     Kungfu(yi_jin_jing),
     Kungfu(zi_xia_gong),
     Kungfu(tai_xu_jian_yi),

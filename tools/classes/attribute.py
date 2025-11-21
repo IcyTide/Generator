@@ -296,6 +296,7 @@ class Target(Defense, DamageCof):
 
     resist_critical_strike_rate: int = 0
     global_damage_factor: int = 0
+    global_damage_scale: float = 0
     
     @property
     def resist_critical_strike(self):

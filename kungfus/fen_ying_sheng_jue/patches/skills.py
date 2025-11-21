@@ -33,7 +33,7 @@ SKILLS = {
     },
     34510: dict(comment="命中{level-1}次"),
     **{
-        skill_id: dict(comment="第{}次")
+        skill_id: dict(comment="{}层影子")
         for skill_id in [34353, 34354, 34355, 34356, 34359, 34361, 34362, 34363]
     }
 }

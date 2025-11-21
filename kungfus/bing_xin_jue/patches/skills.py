@@ -6,7 +6,7 @@ SKILLS = {
         3: dict(comment="步生花2层")
     },
     3009: dict(comment="玳弦急曲/盈袖"),
-    6207: dict(comment="剑破虚空/玉素"),
+    6207: dict(comment="剑破虚空/玉素/耐夜"),
     18716: dict(comment="剑气长江/琼霄/霜天剑泠/钗燕/镜花"),
     37308: dict(comment="{}层急曲"),
     40289: dict(comment="{level-1}层剑舞"),

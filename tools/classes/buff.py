@@ -35,7 +35,6 @@ class Buff(AliasBase):
 
     attributes: list[tuple[ATTRIBUTE_TYPE, int]]
     recipes: list[tuple[int, int]]
-    coming_damage_cof: int = 0
     skills: list[int]
     name: str = ""
     comment: str = ""

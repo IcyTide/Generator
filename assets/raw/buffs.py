@@ -1,4 +1,162 @@
 BUFFS = {
+    10002: {
+        1920: {
+            8: {
+                "name": "降魔境",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 24,
+                "recipes": [
+                    "recipe_2862_1"
+                ]
+            }
+        },
+        890: {
+            1: {
+                "name": "普渡",
+                "interval": 352,
+                "max_stack": 2,
+                "max_tick": 1,
+                "skills": [
+                    17641,
+                    17642,
+                    3848,
+                    3849,
+                    3850,
+                    3830,
+                    236,
+                    14951,
+                    3816,
+                    13682,
+                    13684,
+                    13686,
+                    24888,
+                    13681,
+                    13683,
+                    13685
+                ],
+                "buff_key": "buff_890_1"
+            }
+        },
+        24285: {
+            1: {
+                "name": "金刚日轮",
+                "interval": 6,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "solar_critical_strike_rate": 600,
+                    "solar_critical_power_rate": 62
+                }
+            }
+        },
+        2797: {
+            6: {
+                "name": "罗汉金身",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "solar_overcome_gain": 205
+                }
+            }
+        },
+        2686: {
+            1: {
+                "name": "擒龙诀",
+                "comment": "原始",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 10,
+                "attributes": {
+                    "solar_attack_power_gain": 204
+                }
+            },
+            3: {
+                "name": "擒龙诀",
+                "comment": "系珠",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 10,
+                "attributes": {
+                    "solar_attack_power_gain": 204
+                }
+            }
+        },
+        9809: {
+            2: {
+                "name": "罗汉金身",
+                "comment": "禅慧",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 308,
+                    "solar_overcome_gain": 205
+                }
+            }
+        },
+        31134: {
+            1: {
+                "name": "系珠",
+                "interval": 24,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "solar_critical_strike_rate": 1000
+                }
+            }
+        },
+        12479: {
+            1: {
+                "name": "普渡",
+                "interval": 352,
+                "max_stack": 3,
+                "max_tick": 1,
+                "skills": [
+                    17641,
+                    17642,
+                    3848,
+                    3849,
+                    3850,
+                    3830,
+                    236,
+                    14951,
+                    3816,
+                    13682,
+                    13684,
+                    13686,
+                    24888,
+                    13681,
+                    13683,
+                    13685
+                ],
+                "buff_key": "buff_12479_1"
+            }
+        },
+        6205: {
+            1: {
+                "name": "离境",
+                "interval": 64,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_addition": 103
+                }
+            }
+        },
+        18222: {
+            1: {
+                "name": "大善",
+                "interval": 240,
+                "max_stack": 5,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_gain": 102
+                }
+            }
+        }
+    },
     10003: {
         24453: {
             1: {
@@ -50,8 +208,7 @@ BUFFS = {
                     36050,
                     36051,
                     3808,
-                    3810,
-                    271
+                    3810
                 ],
                 "buff_key": "buff_890_1"
             }
@@ -191,6 +348,17 @@ BUFFS = {
                 "attributes": {
                     "strain_gain": 307
                 }
+            }
+        },
+        31804: {
+            1: {
+                "name": "承缘",
+                "max_stack": 3,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6160_1",
+                    "recipe_6161_1"
+                ]
             }
         },
         11979: {
@@ -2657,15 +2825,29 @@ BUFFS = {
             }
         },
         4754: {
-            2: {
+            1: {
                 "name": "诛戮",
-                "interval": 320,
+                "interval": 240,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "lunar_attack_power_gain": 102,
-                    "solar_attack_power_gain": 102
+                    "lunar_attack_power_gain": 154,
+                    "solar_attack_power_gain": 154
                 }
+            }
+        },
+        25716: {
+            1: {
+                "name": "明赦尊谕缩放",
+                "interval": 160,
+                "max_stack": 6,
+                "max_tick": 1,
+                "skills": [
+                    19055,
+                    35065,
+                    34985
+                ],
+                "buff_key": "buff_25716_1"
             }
         },
         12575: {
