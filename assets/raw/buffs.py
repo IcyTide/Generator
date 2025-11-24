@@ -1,5 +1,31 @@
 BUFFS = {
     10002: {
+        17885: {
+            2: {
+                "name": "洗髓·宿敌",
+                "comment": "主T",
+                "interval": 1200,
+                "max_stack": 1,
+                "max_tick": 4,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 516,
+                    "vitality_to_magical_overcome": 459
+                }
+            }
+        },
+        29938: {
+            2: {
+                "name": "洗髓",
+                "comment": "副T",
+                "interval": 4800,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_solar_attack_power": 171,
+                    "vitality_to_magical_overcome": 154
+                }
+            }
+        },
         1920: {
             8: {
                 "name": "降魔境",

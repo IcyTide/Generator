@@ -46,39 +46,7 @@ BASE_CRITICAL_POWER = 1792
 MAX_LIFE_BASE = 160878
 
 # Ui Constant
-QUALITY_COF = {
-    1: 1,
-    2: 1.4,
-    3: 1.6,
-    4: 1.8,
-    5: 2.5
-}
-POSITION_COF = {
-    0: 1.2,
-    1: 0.6,
-    2: 1,
-    3: 0.9,
-    4: 0.5,
-    5: 0.5,
-    6: 0.7,
-    7: 0.5,
-    8: 1,
-    9: 0.7,
-    10: 0.7,
-}
-POSITION_MAP = {
-    0: "primary_weapon",
-    1: "tertiary_weapon",
-    2: "jacket",
-    3: "hat",
-    4: "necklace",
-    5: "ring",
-    6: "belt",
-    7: "pendant",
-    8: "bottoms",
-    9: "shoes",
-    10: "wrist",
-}
+
 POSITIONS = {
     "帽子": "hat",
     "上衣": "jacket",
@@ -93,13 +61,9 @@ POSITIONS = {
     "远程武器": "tertiary_weapon",
     "近战武器": "primary_weapon"
 }
-MAX_BASE_ATTR = 6
-MAX_MAGIC_ATTR = 16
-MAX_EMBED_ATTR = 3
 
 MAX_STRENGTH_LEVEL = 8
 MAX_EMBED_LEVEL = 8
-MAX_STONE_ATTR = 3
 
 EMBED_POSITIONS = {
     "hat": 2,

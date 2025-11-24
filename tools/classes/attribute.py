@@ -73,7 +73,7 @@ class AttackPower(BaseType):
             attack_power += extra_physical_attack_power
         else:
             attack_power = Variable("physical_attack_power")
-            attack_power += self.physical_attack_power_gain * self.base_physical_attack_power
+            attack_power += self.physical_attack_power_gain / BINARY_SCALE * self.base_physical_attack_power
         return attack_power
 
     @property

@@ -1,17 +1,59 @@
 from pandas import DataFrame
 from tqdm import tqdm
 
-from base.constant import *
 from kungfus import SUPPORT_KUNGFUS
 from tools.lua.enums import ATTRIBUTE_TYPE
-from tools.settings import *
-from tools.utils import camel_to_capital, get_variable, save_code
+from tools.utils import camel_to_capital, get_variable, read_tab, save_code
+
+weapon_settings = read_tab("settings/item/Custom_Weapon.tab")
+armor_settings = read_tab("settings/item/Custom_Armor.tab")
+trinket_settings = read_tab("settings/item/Custom_Trinket.tab")
+enchant_settings = read_tab("settings/item/Enchant.tab")
+attrib_settings = read_tab("settings/item/Attrib.tab")
+set_settings = read_tab("settings/item/Set.tab")
+item_settings = read_tab("ui/scheme/case/Item.txt")
+
+skill_event_settings = read_tab("settings/skill/skillevent.tab")
 
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))  # & {"治疗", "防御"}
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
 MIN_EQUIP_LEVEL = 28000
 ENCHANT_START_ID = 15778
+
+QUALITY_COF = {
+    1: 1,
+    2: 1.4,
+    3: 1.6,
+    4: 1.8,
+    5: 2.5
+}
+POSITION_COF = {
+    0: 1.2,
+    1: 0.6,
+    2: 1,
+    3: 0.9,
+    4: 0.5,
+    5: 0.5,
+    6: 0.7,
+    7: 0.5,
+    8: 1,
+    9: 0.7,
+    10: 0.7,
+}
+POSITION_MAP = {
+    0: "primary_weapon",
+    1: "tertiary_weapon",
+    2: "jacket",
+    3: "hat",
+    4: "necklace",
+    5: "ring",
+    6: "belt",
+    7: "pendant",
+    8: "bottoms",
+    9: "shoes",
+    10: "wrist",
+}
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
 }
@@ -35,10 +77,15 @@ ATTR_ABBR = {
     "critical_power_base": "会效",
     "haste_base": "加速",
     "surplus_base": "破招",
-    "strain_base": "无双"
+    "strain_base": "无双",
+    "physical_shield": "外防",
+    "magical_shield": "内防"
 }
 SECONDARY_WEAPON_DETAIL_TYPE = 9
 
+MAX_BASE_ATTR = 6
+MAX_MAGIC_ATTR = 16
+MAX_EMBED_ATTR = 3
 MAX_SET_COUNT = 4
 MAX_SET_ATTR = 4
 
@@ -236,7 +283,7 @@ def get_stones_list():
             item_id = int(row.TabIndex) - 1  # noqa
         else:
             item_id = int(stone_tab.loc[row.Index - 1].TabIndex)  # noqa
-        enchant_id = row.ID # noqa
+        enchant_id = row.ID  # noqa
         if level in node:
             node[level]['item_id'].append(item_id)
             node[level]['enchant_id'].append(enchant_id)

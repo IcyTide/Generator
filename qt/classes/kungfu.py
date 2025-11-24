@@ -26,9 +26,6 @@ class Kungfu:
     bonus_attributes: dict[str, int] = {}
     bonus_gains: dict[str, TeamGain] = {}
 
-    set_gear_gain: bool = True
-    set_bonus_gain: bool = True
-
     def __init__(self, kungfu):
         self.kungfu_id = kungfu.attribute
         self.attribute = BELONGS[self.kungfu_id][self.kungfu_id]

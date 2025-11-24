@@ -3,6 +3,7 @@ from assets.raw.buffs import BUFFS
 from gains.formations import FORMATIONS as RAW_FORMATIONS
 from qt.classes.attribute import Attribute
 from qt.classes.buff import Buff, BuffType
+from qt.classes.record import Record
 
 
 def add_buff_to_attributes(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
@@ -50,6 +51,9 @@ class FormationGain:
     def set_attribute(self, attribute: Attribute):
         if self.average:
             ATTRIBUTE_FUNCS.get(self.buff_id, default_attribute)(self, attribute)
+
+    def set_record(self, record: Record):
+        ...
 
 
 class FormationGains:

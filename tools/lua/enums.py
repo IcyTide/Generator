@@ -398,6 +398,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     HASTE_BASE = "haste_base"
     HASTE_BASE_PERCENT_ADD = ""
     UNLIMIT_HASTE_BASE_PERCENT_ADD = ""
+    PVX_ALL_ROUND = "pvx_round_base"
 
     # Defense Attribute
     DODGE = ""

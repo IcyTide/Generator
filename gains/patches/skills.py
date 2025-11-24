@@ -84,13 +84,13 @@ SKILLS = {
         1: dict(custom_damage_base=244355),
         2: dict(custom_damage_base=281280),
         3: dict(custom_damage_base=748100),
-        4: dict(custom_damage_base=1021200)
+        4: dict(custom_damage_base=1276500)
     },
     37561: {
         1: dict(custom_damage_base=162903),
         2: dict(custom_damage_base=187520),
         3: dict(custom_damage_base=498800),
-        4: dict(custom_damage_base=680800)
+        4: dict(custom_damage_base=851000)
     },
     22151: dict(comment="{}"),
     38787: {

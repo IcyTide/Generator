@@ -100,7 +100,7 @@ def dps_special_enchant_jacket(self: "GearGain", attribute: Attribute):
         attribute[k] += v
 
 
-def tank_special_enchant_writs(self: "GearGain", attribute: Attribute):
+def tank_special_enchant_wrist(self: "GearGain", attribute: Attribute):
     self.weight = 5 / 30
     default_attribute(self, attribute)
 
@@ -121,7 +121,7 @@ ATTRIBUTE_FUNCS = {
     38578: wind_attribute,
     22169: dps_special_enchant_belt,
     22151: dps_special_enchant_jacket,
-    33249: tank_special_enchant_writs
+    33249: tank_special_enchant_wrist
 }
 
 """
