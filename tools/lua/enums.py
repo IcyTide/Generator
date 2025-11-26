@@ -112,107 +112,20 @@ class ATTRIBUTE_EFFECT_MODE(IntEnum):
 
 class ATTRIBUTE_TYPE(StrEnum):
     # Useless Attribute
-    USELESS = ""
     INVALID = ""
-    KUNGFU_TYPE = ""
-    FORMATION_EFFECT = ""
 
-    ADAPT_ATTRIBUTE_TYPE = ""
-    ACTIVE_THREAT_COEFFICIENT = ""
-    EXTRA_THREAT_COEFFICIENT = ""
-    DROP_DEFENCE = ""
-    BEAT_BACK_RATE = ""
-    KNOCKED_DOWN_RATE = ""
-    KNOCKED_BACK_RATE = ""
-    REPULSED_RATE = ""
-    DECRITICAL_DAMAGE_POWER_BASE = ""
-    DECRITICAL_DAMAGE_POWER_PERCENT = ""
-    DECRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = ""
-    DECRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = ""
-
+    # Buff Attribute
+    DIRECT_CAST_MASK = ""
     NO_LIMIT_CHANGE_SKILL_ICON = ""
-
-    # Resource Attribute
-    CURRENT_RAGE = ""
-    CURRENT_ENERGY = ""
-
-    ACCUMULATE = ""
-    CURRENT_SUN_ENERGY = ""
-    CURRENT_MOON_ENERGY = ""
-    MAX_ACCUMULATE_VALUE = ""
-    MAX_RAGE = ""
-    MAX_ENERGY = ""
-    MAX_SUN_ENERGY = ""
-    MAX_MOON_ENERGY = ""
-    NATURE_POWER_MAX_GRID = ""
-    MAX_LIFE_BASE = "max_life_base"
-    MAX_LIFE_ADDITIONAL = "max_life_add"
-    MAX_LIFE_PERCENT_ADD = "max_life_gain"
-    FINAL_MAX_LIFE_ADD_PERCENT = "max_life_final_gain"
-    MAX_MANA_BASE = ""
-    MAX_MANA_ADDITIONAL = ""
-    MAX_MANA_PERCENT_ADD = ""
-
-    RAGE_REPLENISH = ""
-    ENERGY_REPLENISH = ""
-    LIFE_REPLENISH_EXT = ""
-    LIFE_REPLENISH_PERCENT = ""
-    MANA_REPLENISH = ""
-    MANA_REPLENISH_EXT = ""
-    MANA_REPLENISH_PERCENT = ""
-    MANA_REPLENISH_COEFFICIENT = ""
-    MODIFY_COST_MANA_PERCENT = ""
-    MODIFY_COST_ENERGY_PERCENT = ""
-    MOVE_SPEED_PERCENT = ""
-    JUMP_SPEED_BASE = ""
-
-    SET_USE_BIG_SWORD_FLAG = ""
-    STOP_MAKE_SUN_POWER = ""
-    STOP_MAKE_MOON_POWER = ""
-    DISBLE_SCRIPT_SET_ENERGY = ""
-
-    PHYSICS_REFLECTION = ""
-    SOLAR_MAGIC_REFLECTION = ""
-    LUNAR_MAGIC_REFLECTION = ""
-    NEUTRAL_MAGIC_REFLECTION = ""
-    POISON_MAGIC_REFLECTION = ""
-    PHYSICS_REFLECTION_PERCENT = ""
-    SOLAR_MAGIC_REFLECTION_PERCENT = ""
-    LUNAR_MAGIC_REFLECTION_PERCENT = ""
-    NEUTRAL_MAGIC_REFLECTION_PERCENT = ""
-    POISON_MAGIC_REFLECTION_PERCENT = ""
-
-    DAMAGE_TO_MANA_FOR_SELF = ""
-    DAMAGE_TO_LIFE_FOR_SELF = ""
-    REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""
     SRC_CALL_COMMON_DETACH_BUFF_SCRIPT = ""
-    ADD_GLOBAL_ABSORB_SHIELD_RECORD_ONLY_BY_SELF_MAX_LIFE = ""
-    GLOBAL_DAMAGE_ABSORB_BY_SELF_MAX_LIFE = ""
-    REDUCE_DAMAGE_WHEN_LIFE_LOW = ""
-
-    DASH = ""
-    PULL = ""
-    HALT = ""
-    FREEZE = ""
-    SPOOF = ""
-    REVIVE = ""
-    SILENCE = ""
-    IMMUNITY = ""
-    IMMUNITY_COMBO = ""
-    IMMUNITY_COMBO_ALL = ""
-    DISABLE_SPRINT_FLAG = ""
     ADD_TRANSPARENCY_VALUE = ""
-    ADD_SPRINT_POWER_REVIVE = ""
-    ADD_SPRINT_POWER_MAX = ""
-    ADD_HORSE_SPRINT_POWER_MAX = ""
-    ADD_EXP_PERCENT = ""
-    ADD_REPUTATION_PERCENT = ""
-    DIVING_FRAME_BASE = ""
-
-    MAX_SKILL_RADIUS_ADD = ""
-    MAX_SKILL_RADIUS_PERCENT = ""
 
     # Script Attribute
+    KUNGFU_TYPE = ""
+    FORMATION_EFFECT = ""
+    ADAPT_ATTRIBUTE_TYPE = ""
+    SET_USE_BIG_SWORD_FLAG = ""
+
     EXECUTE_SCRIPT = ""
     EXECUTE_SCRIPT_WITH_PARAM = ""
     EXECUTE_SCRIPT_SETUP = ""
@@ -243,12 +156,144 @@ class ATTRIBUTE_TYPE(StrEnum):
     DASH_TO_POINT = ""
     DASH_BACKWARD = ""
     SKILL_MOVE = ""
-    DIRECT_CAST_MASK = ""
 
     SET_ADAPTIVE_SKILL_TYPE = "adaptive"
     SET_TALENT_RECIPE = "recipe"
     SET_EQUIPMENT_RECIPE = "recipe"
     SKILL_EVENT_HANDLER = "event"
+
+    # Skill Attribute
+    MAX_SKILL_RADIUS_ADD = ""
+    MAX_SKILL_RADIUS_PERCENT = ""
+
+    # Control Attribute
+    DASH = ""
+    PULL = ""
+    HALT = ""
+    FREEZE = ""
+    SPOOF = ""
+    REVIVE = ""
+    SILENCE = ""
+    IMMUNITY = ""
+    BEAT_BACK_RATE = ""
+    KNOCKED_DOWN_RATE = ""
+    KNOCKED_BACK_RATE = ""
+    REPULSED_RATE = ""
+    IMMUNITY_COMBO = ""
+    IMMUNITY_COMBO_ALL = ""
+
+    # Absorb Attribute
+    REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""
+    ADD_GLOBAL_ABSORB_SHIELD_RECORD_ONLY_BY_SELF_MAX_LIFE = ""
+    GLOBAL_DAMAGE_ABSORB_BY_SELF_MAX_LIFE = ""
+    REDUCE_DAMAGE_WHEN_LIFE_LOW = ""
+
+    # Life Attribute
+    MAX_LIFE_BASE = "max_life_base"
+    MAX_LIFE_ADDITIONAL = "max_life_add"
+    MAX_LIFE_PERCENT_ADD = "max_life_gain"
+    FINAL_MAX_LIFE_ADD_PERCENT = "max_life_final_gain"
+    LIFE_REPLENISH_EXT = ""
+    LIFE_REPLENISH_PERCENT = ""
+    DAMAGE_TO_LIFE_FOR_SELF = ""
+
+    # Mana Attribute
+    MAX_MANA_BASE = ""
+    MAX_MANA_ADDITIONAL = ""
+    MAX_MANA_PERCENT_ADD = ""
+    MANA_REPLENISH = ""
+    MANA_REPLENISH_EXT = ""
+    MANA_REPLENISH_PERCENT = ""
+    MANA_REPLENISH_COEFFICIENT = ""
+    MODIFY_COST_MANA_PERCENT = ""
+    DAMAGE_TO_MANA_FOR_SELF = ""
+
+    # Resource Attribute
+    CURRENT_RAGE = ""
+    MAX_RAGE = ""
+    RAGE_REPLENISH = ""
+    CURRENT_ENERGY = ""
+    MAX_ENERGY = ""
+    ENERGY_REPLENISH = ""
+    MODIFY_COST_ENERGY_PERCENT = ""
+    DISBLE_SCRIPT_SET_ENERGY = ""
+    ACCUMULATE = ""
+    MAX_ACCUMULATE_VALUE = ""
+    CURRENT_SUN_ENERGY = ""
+    MAX_SUN_ENERGY = ""
+    STOP_MAKE_SUN_POWER = ""
+    CURRENT_MOON_ENERGY = ""
+    MAX_MOON_ENERGY = ""
+    STOP_MAKE_MOON_POWER = ""
+    NATURE_POWER_MAX_GRID = ""
+
+    # PVX Attribute
+    DROP_DEFENCE = ""
+    ADD_EXP_PERCENT = ""
+    ADD_REPUTATION_PERCENT = ""
+    ADD_HORSE_SPRINT_POWER_MAX = ""
+    ADD_SPRINT_POWER_REVIVE = ""
+    ADD_SPRINT_POWER_MAX = ""
+    DISABLE_SPRINT_FLAG = ""
+    DIVING_FRAME_BASE = ""
+    MOVE_SPEED_PERCENT = ""
+    JUMP_SPEED_BASE = ""
+    PVX_ALL_ROUND = "pvx_round_base"
+
+    # PVP Attribute
+    DECRITICAL_DAMAGE_POWER_BASE = "decritical_power_base"
+    DECRITICAL_DAMAGE_POWER_PERCENT = "decritical_power_gain"
+    DECRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "decritical_power_rate"
+    DECRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "decritical_power_rate"
+    TOUGHNESS_BASE = "toughness_base"
+    TOUGHNESS_PERCENT = "toughness_gain"
+    TOUGHNESS_BASE_RATE = "toughness_rate"
+
+    # Tank Attribute
+    ACTIVE_THREAT_COEFFICIENT = ""
+    EXTRA_THREAT_COEFFICIENT = ""
+
+    DODGE = "dodge"
+    DODGE_BASE_RATE = "dodge_rate"
+    PARRY_BASE = "parry_base"
+    PARRY_PERCENT = "parry_gain"
+    PARRY_BASE_RATE = "parry_rate"
+    PARRY_VALUE_BASE = "parry_value_base"
+    PARRYVALUE_BASE = "parry_value_base"
+    PARRY_VALUE_PERCENT = "parry_value_gain"
+
+    # Shield Attribute
+    PHYSICS_SHIELD_BASE = "physical_shield_base"
+    MAGIC_SHIELD = "magical_shield_base"
+    PHYSICS_SHIELD_PERCENT = "physical_shield_gain"
+    SOLAR_MAGIC_SHIELD_PERCENT = "solar_shield_gain"
+    LUNAR_MAGIC_SHIELD_PERCENT = "lunar_shield_gain"
+    NEUTRAL_MAGIC_SHIELD_PERCENT = "neutral_shield_gain"
+    POISON_MAGIC_SHIELD_PERCENT = "poison_shield_gain"
+
+    PHYSICS_SHIELD_ADDITIONAL = "physical_shield_add"
+
+    # Reflection Attribute
+    PHYSICS_REFLECTION = ""
+    SOLAR_MAGIC_REFLECTION = ""
+    LUNAR_MAGIC_REFLECTION = ""
+    NEUTRAL_MAGIC_REFLECTION = ""
+    POISON_MAGIC_REFLECTION = ""
+    PHYSICS_REFLECTION_PERCENT = ""
+    SOLAR_MAGIC_REFLECTION_PERCENT = ""
+    LUNAR_MAGIC_REFLECTION_PERCENT = ""
+    NEUTRAL_MAGIC_REFLECTION_PERCENT = ""
+    POISON_MAGIC_REFLECTION_PERCENT = ""
+
+    # Resist Attribute
+    PHYSICS_RESIST_PERCENT = ""
+    SOLAR_MAGIC_RESIST_PERCENT = ""
+    LUNAR_MAGIC_RESIST_PERCENT = ""
+    NEUTRAL_MAGIC_RESIST_PERCENT = ""
+    POISON_MAGIC_RESIST_PERCENT = ""
+    GLOBAL_BLOCK = ""
+    GLOBAL_RESIST_PERCENT = ""
+
     # Damage Attribute
     SKILL_PHYSICS_DAMAGE = "physical_damage_base"
     SKILL_SOLAR_DAMAGE = "solar_damage_base"
@@ -292,12 +337,21 @@ class ATTRIBUTE_TYPE(StrEnum):
     SPIRIT_BASE_PERCENT_ADD = "spirit_gain"
     SPUNK_BASE_PERCENT_ADD = "spunk_gain"
 
-    # Attack/Therapy Attribute
-    THERAPY_POWER_BASE = ""
-    THERAPY_POWER_PERCENT = ""
-    THERAPY_COEFFICIENT = ""
+    # Hit
+    ALL_TYPE_HIT_VALUE = ""
+
+    PHYSICS_HIT_BASE_RATE = ""
+    SOLAR_HIT_BASE_RATE = ""
+    LUNAR_HIT_BASE_RATE = ""
+    NEUTRAL_HIT_BASE_RATE = ""
+    POISON_HIT_BASE_RATE = ""
+
+    # Therapy Attribute
+    THERAPY_POWER_BASE = "therapy_power_base"
+    THERAPY_POWER_PERCENT = "therapy_power_gain"
     MODIFY_THREAT = ""
 
+    # Attack Power Attribute
     PHYSICS_ATTACK_POWER_BASE = "physical_attack_power_base"
     SOLAR_ATTACK_POWER_BASE = "solar_attack_power_base"
     LUNAR_ATTACK_POWER_BASE = "lunar_attack_power_base"
@@ -315,14 +369,46 @@ class ATTRIBUTE_TYPE(StrEnum):
     POISON_ATTACK_POWER_PERCENT = "poison_attack_power_gain"
     MAGIC_ATTACK_POWER_PERCENT = "magical_attack_power_gain"
 
-    # Hit
-    ALL_TYPE_HIT_VALUE = ""
+    # Critical Strike Attribute
+    PHYSICS_CRITICAL_STRIKE = "physical_critical_strike_base"
+    SOLAR_CRITICAL_STRIKE = "solar_critical_strike_base"
+    LUNAR_CRITICAL_STRIKE = "lunar_critical_strike_base"
+    SOLAR_AND_LUNAR_CRITICAL_STRIKE = "solar_and_lunar_critical_strike_base"
+    NEUTRAL_CRITICAL_STRIKE = "neutral_critical_strike_base"
+    POISON_CRITICAL_STRIKE = "poison_critical_strike_base"
+    MAGIC_CRITICAL_STRIKE = "magical_critical_strike_base"
+    ALL_TYPE_CRITICAL_STRIKE = "all_critical_strike_base"
 
-    PHYSICS_HIT_BASE_RATE = ""
-    SOLAR_HIT_BASE_RATE = ""
-    LUNAR_HIT_BASE_RATE = ""
-    NEUTRAL_HIT_BASE_RATE = ""
-    POISON_HIT_BASE_RATE = ""
+    PHYSICS_CRITICAL_STRIKE_BASE_RATE = "physical_critical_strike_rate"
+    SOLAR_CRITICAL_STRIKE_BASE_RATE = "solar_critical_strike_rate"
+    LUNAR_CRITICAL_STRIKE_BASE_RATE = "lunar_critical_strike_rate"
+    NEUTRAL_CRITICAL_STRIKE_BASE_RATE = "neutral_critical_strike_rate"
+    POISON_CRITICAL_STRIKE_BASE_RATE = "poison_critical_strike_rate"
+
+    # Critical Power Attribute
+    PHYSICS_CRITICAL_DAMAGE_POWER_BASE = "physical_critical_power_base"
+    SOLAR_CRITICAL_DAMAGE_POWER_BASE = "solar_critical_power_base"
+    LUNAR_CRITICAL_DAMAGE_POWER_BASE = "lunar_critical_power_base"
+    SOLAR_AND_LUNAR_CRITICAL_DAMAGE_POWER_BASE = "solar_and_lunar_critical_power_base"
+    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE = "neutral_critical_power_base"
+    POISON_CRITICAL_DAMAGE_POWER_BASE = "poison_critical_power_base"
+    MAGIC_CRITICAL_DAMAGE_POWER_BASE = "magical_critical_power_base"
+    ALL_TYPE_CRITICAL_DAMAGE_POWER_BASE = "all_critical_power_base"
+
+    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "physical_critical_power_rate"
+    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "physical_critical_power_rate"
+    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "solar_critical_power_rate"
+    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "solar_critical_power_rate"
+    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "lunar_critical_power_rate"
+    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "lunar_critical_power_rate"
+    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "neutral_critical_power_rate"
+    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "neutral_critical_power_rate"
+    POISON_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "poison_critical_power_rate"
+    POISON_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "poison_critical_power_rate"
+    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "magical_critical_power_rate"
+    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "magical_critical_power_rate"
+
+    UNLIMIT_CRITICAL_DAMAGE_POWER_KILO_NUM_RATE = "unlimit_critical_power_rate"
 
     # Overcome Attribute
     PHYSICS_OVERCOME_BASE = "physical_overcome_base"
@@ -340,48 +426,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     NEUTRAL_OVERCOME_PERCENT = "neutral_overcome_gain"
     POISON_OVERCOME_PERCENT = "poison_overcome_gain"
 
-    # Critical Attribute
-
-    ALL_TYPE_CRITICAL_STRIKE = "all_critical_strike_base"
-    PHYSICS_CRITICAL_STRIKE = "physical_critical_strike_base"
-    SOLAR_CRITICAL_STRIKE = "solar_critical_strike_base"
-    LUNAR_CRITICAL_STRIKE = "lunar_critical_strike_base"
-    SOLAR_AND_LUNAR_CRITICAL_STRIKE = "solar_and_lunar_critical_strike_base"
-    NEUTRAL_CRITICAL_STRIKE = "neutral_critical_strike_base"
-    POISON_CRITICAL_STRIKE = "poison_critical_strike_base"
-    MAGIC_CRITICAL_STRIKE = "magical_critical_strike_base"
-
-    PHYSICS_CRITICAL_STRIKE_BASE_RATE = "physical_critical_strike_rate"
-    SOLAR_CRITICAL_STRIKE_BASE_RATE = "solar_critical_strike_rate"
-    LUNAR_CRITICAL_STRIKE_BASE_RATE = "lunar_critical_strike_rate"
-    NEUTRAL_CRITICAL_STRIKE_BASE_RATE = "neutral_critical_strike_rate"
-    POISON_CRITICAL_STRIKE_BASE_RATE = "poison_critical_strike_rate"
-
-    ALL_TYPE_CRITICAL_DAMAGE_POWER_BASE = "all_critical_power_base"
-    PHYSICS_CRITICAL_DAMAGE_POWER_BASE = "physical_critical_power_base"
-    SOLAR_CRITICAL_DAMAGE_POWER_BASE = "solar_critical_power_base"
-    LUNAR_CRITICAL_DAMAGE_POWER_BASE = "lunar_critical_power_base"
-    SOLAR_AND_LUNAR_CRITICAL_DAMAGE_POWER_BASE = "solar_and_lunar_critical_power_base"
-    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE = "neutral_critical_power_base"
-    POISON_CRITICAL_DAMAGE_POWER_BASE = "poison_critical_power_base"
-    MAGIC_CRITICAL_DAMAGE_POWER_BASE = "magical_critical_power_base"
-
-    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "physical_critical_power_rate"
-    PHYSICS_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "physical_critical_power_rate"
-    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "solar_critical_power_rate"
-    SOLAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "solar_critical_power_rate"
-    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "lunar_critical_power_rate"
-    LUNAR_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "lunar_critical_power_rate"
-    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "neutral_critical_power_rate"
-    NEUTRAL_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "neutral_critical_power_rate"
-    POISON_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "poison_critical_power_rate"
-    POISON_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "poison_critical_power_rate"
-    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILONUM_RATE = "magical_critical_power_rate"
-    MAGIC_CRITICAL_DAMAGE_POWER_BASE_KILO_NUM_RATE = "magical_critical_power_rate"
-
-    UNLIMIT_CRITICAL_DAMAGE_POWER_KILO_NUM_RATE = "all_critical_power_rate"
-
-    # Minor Attribute
+    # Weapon Attribute
     MELEE_WEAPON_DAMAGE_BASE = "weapon_damage_base"
     MELEE_WEAPON_DAMAGE_RAND = "weapon_damage_rand"
     MELEE_WEAPON_DAMAGE_PERCENT = "weapon_damage_gain"
@@ -390,64 +435,48 @@ class ATTRIBUTE_TYPE(StrEnum):
     RANGE_WEAPON_DAMAGE_RAND = ""
     RANGE_WEAPON_ATTACK_SPEED_BASE = ""
     NONE_WEAPON_ATTACK_SPEED_BASE = ""
+
+    # Minor Attribute
     SURPLUS_VALUE_BASE = "surplus_base"
     SURPLUS_VALUE_ADD_PERCENT = "surplus_gain"
     STRAIN_BASE = "strain_base"
     STRAIN_PERCENT = "strain_gain"
     STRAIN_RATE = "strain_rate"
     HASTE_BASE = "haste_base"
-    HASTE_BASE_PERCENT_ADD = ""
-    UNLIMIT_HASTE_BASE_PERCENT_ADD = ""
-    PVX_ALL_ROUND = "pvx_round_base"
+    HASTE_BASE_PERCENT_ADD = "haste_rate"
+    UNLIMIT_HASTE_BASE_PERCENT_ADD = "unlimit_haste_rate"
 
-    # Defense Attribute
-    DODGE = ""
-    PARRY_BASE = ""
-    PARRY_BASE_RATE = ""
-    PARRY_VALUE_BASE = ""
-    PARRYVALUE_BASE = ""
-    TOUGHNESS_BASE = ""
-    TOUGHNESS_BASE_RATE = ""
+    ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"
+    ALL_DAMAGE_ADD_PERCENT = "all_damage_addition"
+    ALL_PHYSICS_DAMAGE_ADD_PERCENT = "physical_damage_addition"
+    ALL_MAGIC_DAMAGE_ADD_PERCENT = "magical_damage_addition"
+    ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_addition"
+    DST_NPC_DAMAGE_COEFFICIENT = "pve_addition_base"
+    GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
+    SKILL_DAMAGE_FINAL_COF = "skill_damage_final_cof"
 
-    PHYSICS_SHIELD_BASE = "physical_shield_base"
-    MAGIC_SHIELD = "magical_shield_base"
-    PHYSICS_SHIELD_PERCENT = "physical_shield_gain"
-    SOLAR_MAGIC_SHIELD_PERCENT = "solar_shield_gain"
-    LUNAR_MAGIC_SHIELD_PERCENT = "lunar_shield_gain"
-    NEUTRAL_MAGIC_SHIELD_PERCENT = "neutral_shield_gain"
-    POISON_MAGIC_SHIELD_PERCENT = "poison_shield_gain"
-
-    PHYSICS_SHIELD_ADDITIONAL = "physical_shield_add"
-
-    PHYSICS_RESIST_PERCENT = ""
-    SOLAR_MAGIC_RESIST_PERCENT = ""
-    LUNAR_MAGIC_RESIST_PERCENT = ""
-    NEUTRAL_MAGIC_RESIST_PERCENT = ""
-    POISON_MAGIC_RESIST_PERCENT = ""
-
-    GLOBAL_RESIST_PERCENT = ""
-    GLOBAL_BLOCK = ""
-
-    # Damage/Therapy Cof Attribute
+    # Coefficient Attribute
     PHYSICS_DAMAGE_COEFFICIENT = "physical_damage_cof"
     SOLAR_DAMAGE_COEFFICIENT = "solar_damage_cof"
     LUNAR_DAMAGE_COEFFICIENT = "lunar_damage_cof"
     NEUTRAL_DAMAGE_COEFFICIENT = "neutral_damage_cof"
     POISON_DAMAGE_COEFFICIENT = "poison_damage_cof"
-
+    THERAPY_COEFFICIENT = ""
     BE_THERAPY_COEFFICIENT = ""
 
     # Cof Attribute
     VITALITY_TO_MAX_MANA_COF = ""
-    VITALITY_TO_PARRY_COF = ""
-    VITALITY_TO_PARRY_VALUE_COF = ""
-    VITALITY_TO_DODGE_COF = ""
-    AGILITY_TO_PARRY_COF = ""
-    AGILITY_TO_PARRY_VALUE_COF = ""
-    VITALITY_TO_PHYSICS_SHIELD_COF = ""
-    VITALITY_TO_MAGIC_SHIELD_COF = ""
+    VITALITY_TO_PARRY_COF = "vitality_to_parry"
+    VITALITY_TO_PARRY_VALUE_COF = "vitality_to_parry_value"
+    VITALITY_TO_DODGE_COF = "vitality_to_dodge"
+    AGILITY_TO_PARRY_COF = "agility_to_parry"
+    AGILITY_TO_PARRY_VALUE_COF = "agility_to_parry_value"
+    VITALITY_TO_PHYSICS_SHIELD_COF = "vitality_to_physical_shield"
+    VITALITY_TO_MAGIC_SHIELD_COF = "vitality_to_magical_shield"
     POISON_ATTACK_POWER_TO_THERAPY_POWER_COF = ""
     THERAPY_POWER_TO_MAGIC_ATTACK_POWER_COF = ""
+
+    SPIRIT_TO_THERAPY_POWER_COF = "spirit_to_therapy"
 
     AGILITY_TO_PHYSICS_ATTACK_POWER_COF = "agility_to_physical_attack_power"
     AGILITY_TO_PHYSICS_CRITICAL_STRIKE_COF = "agility_to_physical_critical_strike"
@@ -459,9 +488,10 @@ class ATTRIBUTE_TYPE(StrEnum):
     SPIRIT_TO_LUNAR_ATTACK_POWER_COF = "spirit_to_lunar_attack_power"
     SPIRIT_TO_NEUTRAL_ATTACK_POWER_COF = "spirit_to_neutral_attack_power"
     SPIRIT_TO_POISON_ATTACK_POWER_COF = "spirit_to_poison_attack_power"
+    SPIRIT_TO_POISON_OVERCOME_COF = "spirit_to_poison_overcome"
     SPIRIT_TO_LUNAR_CRITICAL_STRIKE_COF = "spirit_to_lunar_critical_strike"
     SPIRIT_TO_NEUTRAL_CRITICAL_STRIKE_COF = "spirit_to_neutral_critical_strike"
-    SPIRIT_TO_POISON_OVERCOME_COF = "spirit_to_poison_overcome"
+    SPIRIT_TO_POISON_CRITICAL_STRIKE_COF = "spirit_to_poison_critical_strike"
     SPUNK_TO_SOLAR_ATTACK_POWER_COF = "spunk_to_solar_attack_power"
     SPUNK_TO_SOLAR_AND_LUNAR_ATTACK_POWER_COF = "spunk_to_solar_and_lunar_attack_power"
     SPUNK_TO_NEUTRAL_ATTACK_POWER_COF = "spunk_to_neutral_attack_power"
@@ -479,16 +509,6 @@ class ATTRIBUTE_TYPE(StrEnum):
     VITALITY_TO_MAGIC_OVER_COME_COF = "vitality_to_magical_overcome"
     VITALITY_TO_MAGIC_CRITICAL_STRIKE_COF = "vitality_to_magical_critical_strike"
     VITALITY_TO_MAX_LIFE_COF = "vitality_to_max_life"
-
-    # Other Attribute
-    ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"
-    ALL_DAMAGE_ADD_PERCENT = "all_damage_addition"
-    ALL_PHYSICS_DAMAGE_ADD_PERCENT = "physical_damage_addition"
-    ALL_MAGIC_DAMAGE_ADD_PERCENT = "magical_damage_addition"
-    ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_addition"
-    DST_NPC_DAMAGE_COEFFICIENT = "pve_addition_base"
-    GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
-    SKILL_DAMAGE_FINAL_COF = "skill_damage_final_cof"
 
 
 class BUFF_COMPARE_FLAG(IntEnum):

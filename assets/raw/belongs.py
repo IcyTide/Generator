@@ -7,6 +7,8 @@ BELONGS = {
                 "magical_shield_base": 6522,
                 "physical_shield_base": 3913,
                 "vitality_to_max_life": 2253,
+                "vitality_to_magical_shield": 184,
+                "vitality_to_parry_value": 1792,
                 "max_life_gain": 368
             },
             "recipes": [
@@ -483,7 +485,8 @@ BELONGS = {
                 "spunk_to_solar_attack_power": 2007,
                 "spunk_to_solar_critical_strike": 410,
                 "max_life_gain": 368,
-                "magical_attack_power_base": 7242
+                "magical_attack_power_base": 7242,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1"
@@ -1018,7 +1021,8 @@ BELONGS = {
                 "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "neutral_critical_strike_base": 5527,
-                "pve_addition_base": 522
+                "pve_addition_base": 522,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1"
@@ -1533,7 +1537,8 @@ BELONGS = {
                 "max_life_gain": 245,
                 "physical_critical_strike_base": 9025,
                 "physical_attack_power_base": 6187,
-                "pve_addition_base": 492
+                "pve_addition_base": 492,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1",
@@ -1973,6 +1978,31 @@ BELONGS = {
         }
     },
     10021: {
+        10021: {
+            "name": "花间游",
+            "attributes": {
+                "magical_shield_base": 1565,
+                "physical_shield_base": 2850,
+                "spunk_to_neutral_attack_power": 2079,
+                "spunk_to_neutral_overcome": 205,
+                "max_life_gain": 245,
+                "pve_addition_base": 369,
+                "magical_attack_power_base": 7242,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "skills": [
+                16,
+                32467,
+                25768
+            ],
+            "desc": "万花点穴武学之根本。习之可通晓人体之经络穴位及要害之处。一可封经截脉，克敌制胜；二可助人疏通筋脉，祛病除邪。",
+            "critical_type": "neutral",
+            "damage_type": "neutral",
+            "belong_key": "belong_10021"
+        },
         136: {
             "name": "水月无间",
             "buffs": [
@@ -2042,30 +2072,6 @@ BELONGS = {
             },
             "desc": "恢复5点墨意。使目标每3秒受到30点(+<SKILLEx {D0} {TotalNeutralAP 0.3642}>)混元性内功伤害并降低15%化劲等级，持续<BUFF 711 0 time>，只能作用于一个目标。若该效果被卸除则使目标<BUFF 712 1 desc>，持续<BUFF 712 1 time>。<TALENT 5771 1 持续期间降低目标20%攻击力><TALENT 5758 1 若被卸除，则会立刻给卸除者添加“兰摧玉折”效果><TALENT 18257 1 无调息时间，可同时存在于两个目标，对任意存在自身“兰摧玉折”的目标施展“商阳指”“钟林毓秀”，另一个有自身“兰摧玉折”的目标也会获得“商阳指”“钟林毓秀”效果><TALENT 18261 1 每跳降低目标1%内力><TALENT 2633 1 运功时间减少0.125秒><TALENT 2633 2 运功时间减少0.25秒><TALENT 2635 1 伤害提高2%><TALENT 2635 2 伤害提高4%><TALENT 6690 1 每跳有30%几率使下一个“阳明指”无需运功><TALENT 6691 1 施展立刻对目标造成<SUB 20447 1>混元性内功伤害><TALENT 17510 1 若任意目标存在自身的“兰摧玉折”不利状态，则自身内功攻击力提高10%，招式无视目标35%内功防御等级><TALENT 23945 1 会心几率提高10%，可以在移动中施展且施展过程中移动速度提高30%><TALENT 23948 1 持续期间降低目标20%的内外功基础攻击力><TALENT 16855 1 调息时间降低4秒。自身对“兰摧玉折”标记目标伤害提升10%>",
             "belong_key": "belong_190"
-        },
-        10021: {
-            "name": "花间游",
-            "attributes": {
-                "magical_shield_base": 1565,
-                "physical_shield_base": 2850,
-                "spunk_to_neutral_attack_power": 2079,
-                "spunk_to_neutral_overcome": 205,
-                "max_life_gain": 245,
-                "pve_addition_base": 369,
-                "magical_attack_power_base": 7242
-            },
-            "recipes": [
-                "recipe_1711_1"
-            ],
-            "skills": [
-                16,
-                32467,
-                25768
-            ],
-            "desc": "万花点穴武学之根本。习之可通晓人体之经络穴位及要害之处。一可封经截脉，克敌制胜；二可助人疏通筋脉，祛病除邪。",
-            "critical_type": "neutral",
-            "damage_type": "neutral",
-            "belong_key": "belong_10021"
         },
         179: {
             "name": "阳明指",
@@ -2493,6 +2499,34 @@ BELONGS = {
         }
     },
     10026: {
+        10026: {
+            "name": "傲血战意",
+            "attributes": {
+                "decritical_power_rate": 102,
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2715,
+                "pve_addition_base": 338,
+                "strength_to_physical_attack_power": 1843,
+                "strength_to_physical_overcome": 287,
+                "max_life_gain": 245,
+                "physical_attack_power_base": 7164
+            },
+            "recipes": [
+                "recipe_4892_1",
+                "recipe_1110_2",
+                "recipe_1711_1"
+            ],
+            "skills": [
+                12,
+                32820,
+                25772,
+                31031
+            ],
+            "desc": "令人周身血脉畅通，真气爆发，内力激增，所向披靡，无往不利。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_10026"
+        },
         404: {
             "name": "撼如雷",
             "buffs": [
@@ -2531,33 +2565,6 @@ BELONGS = {
             ],
             "desc": "对目标造成100%的武器伤害外加<SUB 18603 0>点外功伤害并使自身获得2点战意，使目标同时附带“流血”和“破风”效果，“流血”使目标<BUFF 3442 0 desc>(+<SKILLEx {D0} {TotalPhysicsAP 0.69457}>)且可叠加2层，“破风”使目标<BUFF 661 0 desc>，持续<BUFF 3442 0 time>。<TALENT 18226 1 “流血”效果可叠3层，持续效果增加5跳。对有自身三层流血的目标再次添加流血效果，会额外造成<SUB 36568 1>外功伤害><TALENT 14821 1 “流血”作用间隔缩短0.25秒><TALENT 18605 1 命中具有自身“流血”效果的目标增加30%伤害><TALENT 6523 1 可使目标8尺范围内额外5个目标受到“流血”效果影响，且流血伤害提高15%><TALENT 18224 1 对目标周围8尺内最多5个目标造成外功伤害且移动速度降低60%，持续12秒><TALENT 5681 1 “龙吟”威胁值提高20%，调息时间降低2秒><TALENT 5662 1 伤害提高10%，目标移动速度降低50%，持续8秒><TALENT 6527 1 使自身立刻获得3点战意><TALENT 5696 1 附带额外威胁值><TALENT 2610 1 伤害提高2%><TALENT 2610 2 伤害提高4%><TALENT 2610 3 伤害提高6%><TALENT 5666 1 每点“战意”增加5%伤害><TALENT 24899 1 “纵轻骑”期间额外附带一次100%的武器伤害效果><TALENT 5659 1 施展“灭”后，使下一个“龙吟”额外造成<SUB 37618 1>外功伤害><TALENT 32911 1 施展“龙吟”后，20秒内下一次施展“穿云”距离增加4尺并会造成3段<SUB 36097 28>外功伤害><TALENT 18872 1 >",
             "belong_key": "belong_403"
-        },
-        10026: {
-            "name": "傲血战意",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 2715,
-                "pve_addition_base": 338,
-                "strength_to_physical_attack_power": 1843,
-                "strength_to_physical_overcome": 287,
-                "max_life_gain": 245,
-                "physical_attack_power_base": 7164
-            },
-            "recipes": [
-                "recipe_4892_1",
-                "recipe_1110_2",
-                "recipe_1711_1"
-            ],
-            "skills": [
-                12,
-                32820,
-                25772,
-                31031
-            ],
-            "desc": "令人周身血脉畅通，真气爆发，内力激增，所向披靡，无往不利。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_10026"
         },
         400: {
             "name": "穿云",
@@ -3043,15 +3050,41 @@ BELONGS = {
             "belong_key": "belong_2611"
         }
     },
+    10028: {
+        10028: {
+            "name": "离经易道",
+            "attributes": {
+                "magical_shield_base": 3913,
+                "physical_shield_base": 2850,
+                "spirit_to_therapy": 3052,
+                "spirit_to_neutral_critical_strike": 758,
+                "max_life_gain": 245,
+                "therapy_power_base": 17725,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "desc": "万花医学之根本。习之可精通岐黄之术，可驱疾病，健体魄，亦可解除百毒，悬壶济世。",
+            "critical_type": "neutral",
+            "damage_type": "neutral",
+            "belong_key": "belong_10028"
+        }
+    },
     10062: {
         10062: {
             "name": "铁牢律",
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 6522,
+                "vitality_to_parry": 0,
+                "vitality_to_physical_shield": 184,
                 "vitality_to_max_life": 2253,
+                "vitality_to_parry_value": 1792,
                 "max_life_gain": 245,
-                "vitality_to_physical_attack_power": 41
+                "parry_base": 3913,
+                "vitality_to_physical_attack_power": 41,
+                "parry_value_base": 15085
             },
             "recipes": [
                 "recipe_1110_2",
@@ -3544,7 +3577,56 @@ BELONGS = {
             "belong_key": "belong_6518"
         }
     },
+    10080: {
+        10080: {
+            "name": "云裳心经",
+            "attributes": {
+                "magical_shield_base": 3913,
+                "physical_shield_base": 3913,
+                "spirit_to_therapy": 3236,
+                "spirit_to_lunar_critical_strike": 389,
+                "max_life_gain": 245,
+                "therapy_power_base": 18992,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1",
+                "recipe_680_2",
+                "recipe_681_2"
+            ],
+            "desc": "此功舞乐相合，水乳交融。若凤鸣、若蝶舞、若莺啼、若雨滴，观之怡情，赏之悦性。不仅能令自身精神振奋，亦可增益他人。",
+            "critical_type": "lunar",
+            "damage_type": "lunar",
+            "belong_key": "belong_10080"
+        }
+    },
     10081: {
+        10081: {
+            "name": "冰心诀",
+            "attributes": {
+                "magical_shield_base": 2191,
+                "physical_shield_base": 1721,
+                "pve_addition_base": 113,
+                "spirit_to_lunar_attack_power": 2048,
+                "spirit_to_lunar_critical_strike": 297,
+                "max_life_gain": 245,
+                "lunar_attack_power_base": 7387,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1",
+                "recipe_680_2",
+                "recipe_681_2"
+            ],
+            "skills": [
+                15,
+                25769
+            ],
+            "desc": "七秀内功。此功飘逸轻盈，若九天飞仙。且攻势凌厉，厉害非常。据传乃是公孙大娘之师所创，旁人问及，大娘只是笑而不答。",
+            "critical_type": "lunar",
+            "damage_type": "lunar",
+            "belong_key": "belong_10081"
+        },
         537: {
             "name": "名动四方",
             "recipes": [
@@ -3608,31 +3690,6 @@ BELONGS = {
             ],
             "desc": "持续运功2.81秒对目标造成3次<SUB 6234 0>阴性内功伤害并附带破招伤害。使目标移动速度降低50%，持续1.5秒，完整运功后使目标获得“急曲”不利效果：使目标<BUFF 2920 0 desc>(+<SKILLEx {D0} {TotalLunarAP 0.21}>)，持续<BUFF 2920 0 time>，最多可叠加6层。若存在剑舞点数则消耗1点剑舞使本次“玳弦急曲”可移动运功，运功时间与每跳间隔时间减少40%。<TALENT 5849 1 会心提高10%，会心效果提高10%><TALENT 5852 1 每0.75秒造成一次伤害，每跳附带45%额外伤害，不再附带“急曲”效果，持续2.25秒><TALENT 5854 1 立即造成<SUB 18814 1>伤害，运功不被打退，对目标周围8尺内的额外5个目标造成伤害><TALENT 18907 1 “玳弦急曲”无视目标20%内功防御等级，命中带有“急曲”效果的目标，有一定几率额外造成<SUB 18908 28>伤害><TALENT 14705 1 “玳弦急曲”消耗全部剑舞点数，每次命中额外造成一次破招伤害，每消耗1点剑舞会增加一跳伤害><EnchantID 10077 “急曲”伤害效果可以叠加至4层><TALENT 22732 1 连续使用3次不同的“猿公剑法”套路招式或“江海凝光”命中目标，将对目标额外造成<SUB 30532 1>阴性内功伤害和一段破招伤害，并附带一层“急曲”效果><TALENT 24995 1 “玳弦急曲”每跳使当前目标获得1层“急曲”效果，若命中满层“急曲”效果的目标则本次伤害提高20%><TALENT 42549 1 需要核心奇穴【梦鲤】“玳弦急曲”命中锦鲤池区域内的目标时，每跳使锦鲤额外攻击一次，该攻击只作用于施展“玳弦急曲”时选择的目标><TALENT 42512 1 完整运功“玳弦急曲”时，可额外消耗1点剑舞使目标封轻功3秒>",
             "belong_key": "belong_2707"
-        },
-        10081: {
-            "name": "冰心诀",
-            "attributes": {
-                "magical_shield_base": 2191,
-                "physical_shield_base": 1721,
-                "pve_addition_base": 113,
-                "spirit_to_lunar_attack_power": 2048,
-                "spirit_to_lunar_critical_strike": 297,
-                "max_life_gain": 245,
-                "lunar_attack_power_base": 7387
-            },
-            "recipes": [
-                "recipe_1711_1",
-                "recipe_680_2",
-                "recipe_681_2"
-            ],
-            "skills": [
-                15,
-                25769
-            ],
-            "desc": "七秀内功。此功飘逸轻盈，若九天飞仙。且攻势凌厉，厉害非常。据传乃是公孙大娘之师所创，旁人问及，大娘只是笑而不答。",
-            "critical_type": "lunar",
-            "damage_type": "lunar",
-            "belong_key": "belong_10081"
         },
         561: {
             "name": "剑气长江",
@@ -4039,14 +4096,6 @@ BELONGS = {
         }
     },
     10144: {
-        1663: {
-            "name": "莺鸣柳",
-            "buffs": [
-                1728
-            ],
-            "desc": "回复135点剑气，使自身获得“莺鸣”效果：<BUFF 1728 0 desc>，持续<BUFF 1728 3 time>。<TALENT 18315 1 变为3层充能技能，充能时间1分30秒，效果持续8秒><TALENT 6549 1 “莺鸣”效果持续期间额外提高自身15%基础外功攻击><TALENT 20942 1 持续期间“梦泉虎跑”每次命中目标将降低4秒调息时间><TALENT 25013 1 “莺鸣柳”不再充能，调息时间降低至45秒，持续时间提高至10秒><TALENT 18313 1 使敌方目标获得“梅隐香”效果，持续8秒><TALENT 30777 1 每秒恢复5点剑气，“莺鸣柳”不再充能和恢复剑气，调息时间降低45秒，“莺鸣”持续期间内首次剑气达到上限时自身无双等级提高30%，并延长15秒><TALENT 40178 1 >",
-            "belong_key": "belong_1663"
-        },
         10144: {
             "name": "问水诀",
             "attributes": {
@@ -4057,7 +4106,8 @@ BELONGS = {
                 "agility_to_physical_overcome": 287,
                 "max_life_gain": 245,
                 "physical_attack_power_base": 6513,
-                "physical_critical_strike_base": 7827
+                "physical_critical_strike_base": 7827,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1",
@@ -4076,6 +4126,14 @@ BELONGS = {
             "critical_type": "physical",
             "damage_type": "physical",
             "belong_key": "belong_10144"
+        },
+        1663: {
+            "name": "莺鸣柳",
+            "buffs": [
+                1728
+            ],
+            "desc": "回复135点剑气，使自身获得“莺鸣”效果：<BUFF 1728 0 desc>，持续<BUFF 1728 3 time>。<TALENT 18315 1 变为3层充能技能，充能时间1分30秒，效果持续8秒><TALENT 6549 1 “莺鸣”效果持续期间额外提高自身15%基础外功攻击><TALENT 20942 1 持续期间“梦泉虎跑”每次命中目标将降低4秒调息时间><TALENT 25013 1 “莺鸣柳”不再充能，调息时间降低至45秒，持续时间提高至10秒><TALENT 18313 1 使敌方目标获得“梅隐香”效果，持续8秒><TALENT 30777 1 每秒恢复5点剑气，“莺鸣柳”不再充能和恢复剑气，调息时间降低45秒，“莺鸣”持续期间内首次剑气达到上限时自身无双等级提高30%，并延长15秒><TALENT 40178 1 >",
+            "belong_key": "belong_1663"
         },
         1579: {
             "name": "九溪弥烟",
@@ -4575,6 +4633,33 @@ BELONGS = {
         }
     },
     10175: {
+        10175: {
+            "name": "毒经",
+            "attributes": {
+                "pve_addition_base": 205,
+                "magical_shield_base": 3913,
+                "physical_shield_base": 2850,
+                "spirit_to_poison_attack_power": 2079,
+                "spirit_to_poison_overcome": 205,
+                "max_life_gain": 245,
+                "magical_attack_power_base": 7242,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1",
+                "recipe_688_3"
+            ],
+            "skills": [
+                2183,
+                32818,
+                25773,
+                39036
+            ],
+            "desc": "苗疆绝学，五仙教历代前辈传下的用毒之术精粹。",
+            "critical_type": "poison",
+            "damage_type": "poison",
+            "belong_key": "belong_10175"
+        },
         2226: {
             "name": "蛊虫献祭",
             "recipes": [
@@ -4643,32 +4728,6 @@ BELONGS = {
             },
             "desc": "使目标及其8尺周围内的最多8个目标<BUFF 2295 0 desc>(+<SKILLEx {D0} {TotalPoisonAP 0.2674}>)，持续<BUFF 2295 0 time>；可以打断目标运功，命中运功目标使其无法使用内功招式，持续4秒。\\n若目标带有以下三种蛊其中之一，将触发特定的蛊毒效果：\\n迷心蛊：打断目标运功并使其落马，无法施展内功招式持续1秒。\\n枯残蛊：打断目标运功并使其落马，无法施展内功招式持续1.5秒。\\n夺命蛊：打断目标运功并使其落马，无法施展内功招式持续2秒。<TALENT 20538 1 “玉蟾”存在期间，施展“蟾啸”重置“蟾躁”><TALENT 18306 1 “玉蟾”存在时“毒经”心法下施展“蟾啸”；“补天诀”心法下施展“圣手织天”“玉蟾”会产生共鸣，使“玉蟾”附近12尺范围内最多5个友方目标获得5%最大气血值伤害吸收盾，并使其受到的“锁足”“定身”“眩晕”“击倒”控制效果持续时间降低30%，持续4秒><TALENT 40617 1 “蛇影”和“蟾啸”不再触发“蛊毒”效果，受攻击力加成提高60%><TALENT 42180 1 “蟾啸”调息时间提高18秒，蛊毒效果变为：无法施展内外功招式持续3秒>",
             "belong_key": "belong_2210"
-        },
-        10175: {
-            "name": "毒经",
-            "attributes": {
-                "pve_addition_base": 205,
-                "magical_shield_base": 3913,
-                "physical_shield_base": 2850,
-                "spirit_to_poison_attack_power": 2079,
-                "spirit_to_poison_overcome": 205,
-                "max_life_gain": 245,
-                "magical_attack_power_base": 7242
-            },
-            "recipes": [
-                "recipe_1711_1",
-                "recipe_688_3"
-            ],
-            "skills": [
-                2183,
-                32818,
-                25773,
-                39036
-            ],
-            "desc": "苗疆绝学，五仙教历代前辈传下的用毒之术精粹。",
-            "critical_type": "poison",
-            "damage_type": "poison",
-            "belong_key": "belong_10175"
         },
         2209: {
             "name": "蝎心",
@@ -5115,7 +5174,62 @@ BELONGS = {
             "belong_key": "belong_38581"
         }
     },
+    10176: {
+        10176: {
+            "name": "补天诀",
+            "attributes": {
+                "magical_shield_base": 3913,
+                "physical_shield_base": 2850,
+                "spirit_to_therapy": 3420,
+                "max_life_gain": 245,
+                "therapy_power_base": 18358,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1",
+                "recipe_688_3"
+            ],
+            "desc": "取上古之神女娲素手织补青天之意，以蛊强体补身的仙教秘诀。",
+            "critical_type": "poison",
+            "damage_type": "poison",
+            "belong_key": "belong_10176"
+        }
+    },
     10224: {
+        10224: {
+            "name": "惊羽诀",
+            "attributes": {
+                "decritical_power_rate": 102,
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2850,
+                "pve_addition_base": 246,
+                "strength_to_physical_attack_power": 1731,
+                "strength_to_physical_critical_strike": 707,
+                "max_life_gain": 245,
+                "physical_overcome_base": 9025,
+                "physical_attack_power_base": 6187
+            },
+            "recipes": [
+                "recipe_1711_1",
+                "recipe_936_2",
+                "recipe_937_2",
+                "recipe_938_2",
+                "recipe_939_2",
+                "recipe_940_2",
+                "recipe_941_2",
+                "recipe_942_2"
+            ],
+            "skills": [
+                3121,
+                32884,
+                25775,
+                43208
+            ],
+            "desc": "惊羽穿杨连百中，鹰视狼顾壮志雄。唐门无上心法，利用各种奇巧锐器远距离精准打击敌人，使其插翅难飞。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_10224"
+        },
         3093: {
             "name": "暴雨梨花针",
             "recipes": [
@@ -5188,39 +5302,6 @@ BELONGS = {
             },
             "desc": "消耗30点神机值，使目标<BUFF 3195 0 desc>，该效果最多对一个人生效，且使目标<BUFF 2237 0 desc>(+<SKILLEx {D0} {TotalPhysicsAP 0.442}>)，持续<BUFF 3195 0 time>，可叠加2层，该招式消耗一枚弩箭，可在移动中施展。对目标造成一次破招伤害。 <TALENT 18874 1 伤害提高15%><TALENT 6775 1 附带的持续伤害效果“穿心”可叠加3层><TALENT 28903 1 “穿心”效果两秒生效一次，效果持续时间增加至22秒，持续时间增加效果无法与同类效果叠加><TALENT 34735 1 “浮光掠影”状态下施展“穿心弩”，使目标额外获得一层”穿心”，并使目标6秒内无法获取持续治疗效果><TALENT 40218 1 “百步穿杨”套路招式对20尺目标外侠士额外造成一次“贯天穹”伤害><TALENT 42451 1 施展“逐星箭”额外获得一层“无声”效果并使10秒内下两次“百步穿杨”招式施展距离提高5尺><TALENT 42490 1 >",
             "belong_key": "belong_3098"
-        },
-        10224: {
-            "name": "惊羽诀",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 2850,
-                "pve_addition_base": 246,
-                "strength_to_physical_attack_power": 1731,
-                "strength_to_physical_critical_strike": 707,
-                "max_life_gain": 245,
-                "physical_overcome_base": 9025,
-                "physical_attack_power_base": 6187
-            },
-            "recipes": [
-                "recipe_1711_1",
-                "recipe_936_2",
-                "recipe_937_2",
-                "recipe_938_2",
-                "recipe_939_2",
-                "recipe_940_2",
-                "recipe_941_2",
-                "recipe_942_2"
-            ],
-            "skills": [
-                3121,
-                32884,
-                25775,
-                43208
-            ],
-            "desc": "惊羽穿杨连百中，鹰视狼顾壮志雄。唐门无上心法，利用各种奇巧锐器远距离精准打击敌人，使其插翅难飞。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_10224"
         },
         3091: {
             "name": "孔雀翎",
@@ -5619,6 +5700,33 @@ BELONGS = {
         }
     },
     10225: {
+        10225: {
+            "name": "天罗诡道",
+            "attributes": {
+                "pve_addition_base": 225,
+                "magical_shield_base": 3130,
+                "physical_shield_base": 2850,
+                "spunk_to_poison_attack_power": 1946,
+                "spunk_to_physical_critical_strike": 635,
+                "max_life_gain": 245,
+                "poison_attack_power_base": 6518,
+                "physical_critical_strike_base": 3962,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "skills": [
+                3121,
+                32885,
+                25774,
+                3480
+            ],
+            "desc": "天罗地网困龙蛇，神惊魄悸向黄泉。唐家堡秘传心法，利用特制淬毒机关和武器杀敌，实乃波谲云诡、出奇制胜之道。",
+            "critical_type": "physical",
+            "damage_type": "poison",
+            "belong_key": "belong_10225"
+        },
         3093: {
             "name": "暴雨梨花针",
             "recipes": [
@@ -5689,32 +5797,6 @@ BELONGS = {
             ],
             "desc": "消耗25点神机值和一个机关，对目标所在位置投掷“天女散花”机关并立即使其获得“化血”效果，使其每3秒受到毒性内功伤害，持续24秒。\\n“天女散花”机关：1.5秒后触发，对12尺内至多10个目标造成<SUB 3393 0>毒性内功伤害，命中有自身“化血”效果的目标伤害提高100%。<TALENT 16903 1 每跳降低敌对玩家目标1%内力值><TALENT 42481 1 困孤悬饵>",
             "belong_key": "belong_3106"
-        },
-        10225: {
-            "name": "天罗诡道",
-            "attributes": {
-                "pve_addition_base": 225,
-                "magical_shield_base": 3130,
-                "physical_shield_base": 2850,
-                "spunk_to_poison_attack_power": 1946,
-                "spunk_to_physical_critical_strike": 635,
-                "max_life_gain": 245,
-                "poison_attack_power_base": 6518,
-                "physical_critical_strike_base": 3962
-            },
-            "recipes": [
-                "recipe_1711_1"
-            ],
-            "skills": [
-                3121,
-                32885,
-                25774,
-                3480
-            ],
-            "desc": "天罗地网困龙蛇，神惊魄悸向黄泉。唐家堡秘传心法，利用特制淬毒机关和武器杀敌，实乃波谲云诡、出奇制胜之道。",
-            "critical_type": "physical",
-            "damage_type": "poison",
-            "belong_key": "belong_10225"
         },
         3091: {
             "name": "孔雀翎",
@@ -6092,6 +6174,34 @@ BELONGS = {
         }
     },
     10242: {
+        10242: {
+            "name": "焚影圣诀",
+            "attributes": {
+                "pve_addition_base": 123,
+                "magical_shield_base": 3314,
+                "physical_shield_base": 2850,
+                "spunk_to_solar_and_lunar_attack_power": 2038,
+                "spunk_to_solar_and_lunar_critical_strike": 307,
+                "max_life_gain": 245,
+                "lunar_attack_power_base": 7604,
+                "solar_attack_power_base": 7604,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "skills": [
+                4326,
+                19055,
+                32816,
+                25777,
+                35065
+            ],
+            "desc": "光明妙火常辉耀，焚影驱暗恒如意。攻其所不备，却必救之处，寻觅机会，一击挫敌。明教功法之中，以此最擅于在对决中捕获那稍纵即逝之制胜良机。",
+            "critical_type": "lunar",
+            "damage_type": "lunar",
+            "belong_key": "belong_10242"
+        },
         3962: {
             "name": "赤日轮",
             "recipes": [
@@ -6152,33 +6262,6 @@ BELONGS = {
             ],
             "desc": "获得40点月魂，对目标造成<SUB 40089 0>阴性内功伤害和100%武器伤害。命中后附带“银月斩”效果，使目标<BUFF 4202 0 desc>，持续<BUFF 4202 0 time>。若命中有自身“烈日”效果的目标则额外造成破招伤害。<TALENT 5970 1 会心后获得的月魂提高50%><TALENT 25166 1 变为2层充能招式。命中“烈日”效果的目标时，造成<SUB 26709 1>阴性内功伤害><TALENT 18279 1 净身明礼><TALENT 5972 1 腾焰飞芒><TALENT 5978 1 洞若观火><TALENT 6741 1 圣光明>",
             "belong_key": "belong_3960"
-        },
-        10242: {
-            "name": "焚影圣诀",
-            "attributes": {
-                "pve_addition_base": 123,
-                "magical_shield_base": 3314,
-                "physical_shield_base": 2850,
-                "spunk_to_solar_and_lunar_attack_power": 2038,
-                "spunk_to_solar_and_lunar_critical_strike": 307,
-                "max_life_gain": 245,
-                "lunar_attack_power_base": 7604,
-                "solar_attack_power_base": 7604
-            },
-            "recipes": [
-                "recipe_1711_1"
-            ],
-            "skills": [
-                4326,
-                19055,
-                32816,
-                25777,
-                35065
-            ],
-            "desc": "光明妙火常辉耀，焚影驱暗恒如意。攻其所不备，却必救之处，寻觅机会，一击挫敌。明教功法之中，以此最擅于在对决中捕获那稍纵即逝之制胜良机。",
-            "critical_type": "lunar",
-            "damage_type": "lunar",
-            "belong_key": "belong_10242"
         },
         3963: {
             "name": "烈日斩",
@@ -6603,9 +6686,12 @@ BELONGS = {
                 "magical_shield_base": 3261,
                 "physical_shield_base": 3261,
                 "vitality_to_max_life": 2253,
+                "vitality_to_parry_value": 1792,
+                "vitality_to_dodge": 184,
                 "vitality_to_solar_attack_power": 51,
                 "vitality_to_lunar_attack_power": 51,
-                "max_life_gain": 245
+                "max_life_gain": 245,
+                "dodge": 6522
             },
             "recipes": [
                 "recipe_1711_1",
@@ -7087,6 +7173,31 @@ BELONGS = {
         }
     },
     10268: {
+        10268: {
+            "name": "笑尘诀",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 3314,
+                "strength_to_physical_attack_power": 1772,
+                "strength_to_physical_overcome": 553,
+                "max_life_gain": 245,
+                "physical_attack_power_base": 6839,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_5844_1",
+                "recipe_5661_1",
+                "recipe_4872_1"
+            ],
+            "skills": [
+                32908,
+                25779
+            ],
+            "desc": "降龙伏虎谈笑中，清风浊酒伴我行。至刚至猛亦灵动多变，丐帮武学易学难精，招式一气呵成，令敌人应接不暇。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_10268"
+        },
         5268: {
             "name": "酒中仙",
             "buffs": [
@@ -7122,30 +7233,6 @@ BELONGS = {
             ],
             "desc": "消耗30%内力，使目标锁足2秒并给其添加1层<NounID 11>，若目标存在<NounID 10>效果则获得满层<NounID 11>；冲向目标并对其造成<SKILL_[6355_0;6356_0;6357_0] PhysicsDamage>点(+<SKILLEx {D0} {SkillPhysicsAP_[6355_0;6356_0;6357_0]}>)外功伤害。<TALENT 6811 1 安患><TALENT 6832 1 “越渊”效果持续期间只会对4尺外的目标触发冲刺效果><TALENT 14625 1 “龙跃于渊”将对有自身“灼烧”效果已达到层数上限的目标造成额外伤害><TALENT 6818 1 “灼烧”效果持续时间提高100%，可叠加10层><TALENT 6838 1 “龙跃于渊”调息时间降低1秒，不受招式控制效果的时间提高到5秒，并使下一次具有调息时间的伤害招式施展后返还其30%的调息时间>",
             "belong_key": "belong_5262"
-        },
-        10268: {
-            "name": "笑尘诀",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 3314,
-                "strength_to_physical_attack_power": 1772,
-                "strength_to_physical_overcome": 553,
-                "max_life_gain": 245,
-                "physical_attack_power_base": 6839
-            },
-            "recipes": [
-                "recipe_5844_1",
-                "recipe_5661_1",
-                "recipe_4872_1"
-            ],
-            "skills": [
-                32908,
-                25779
-            ],
-            "desc": "降龙伏虎谈笑中，清风浊酒伴我行。至刚至猛亦灵动多变，丐帮武学易学难精，招式一气呵成，令敌人应接不暇。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_10268"
         },
         5258: {
             "name": "拨狗朝天",
@@ -7742,9 +7829,13 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 3913,
+                "vitality_to_parry": 184,
+                "vitality_to_parry_value": 2304,
                 "vitality_to_max_life": 2253,
                 "vitality_to_physical_attack_power": 41,
-                "max_life_gain": 245
+                "max_life_gain": 245,
+                "parry_base": 6522,
+                "parry_value_base": 15085
             },
             "recipes": [
                 "recipe_1883_1",
@@ -8013,6 +8104,7 @@ BELONGS = {
         13126: {
             "name": "恋战",
             "attributes": {
+                "decritical_power_gain": -410,
                 "all_damage_addition": 102
             },
             "desc": "自身化劲等级降低40%，招式伤害提高10%。",
@@ -8241,9 +8333,13 @@ BELONGS = {
                 "physical_shield_base": 2850,
                 "pve_addition_base": 358,
                 "agility_to_physical_attack_power": 1925,
+                "agility_to_parry": 113,
+                "agility_to_parry_value": 1024,
                 "max_life_gain": 245,
                 "physical_attack_power_base": 6513,
-                "physical_overcome_base": 4696
+                "parry_base": 3756,
+                "physical_overcome_base": 4696,
+                "decritical_power_rate": 102
             },
             "buffs": [
                 8474
@@ -8754,18 +8850,6 @@ BELONGS = {
         }
     },
     10447: {
-        14070: {
-            "name": "阳春白雪",
-            "buffs": [
-                9433
-            ],
-            "skills": [
-                14494,
-                30762
-            ],
-            "desc": "激活阳春白雪曲效果；\\n被动效果：施展“阳春白雪”主动技能，莫问心法下使“宫”“徵”无视目标10%防御值，相知心法下使“宫”“徵”会心几率提高5%；最多累加3次。\\n主动效果：对敌对目标造成<SUB 14494 0>阴性内功伤害，或为友方目标回复<SUB 14344 0>气血值，可在“宫”“徵”运功过程中施展且不会打断运功状态。若目标气血值低于50%，则“阳春白雪”伤害或治疗效果增加10%。<TALENT 22030 1 无尽藏>",
-            "belong_key": "belong_14070"
-        },
         10447: {
             "name": "莫问",
             "attributes": {
@@ -8776,7 +8860,8 @@ BELONGS = {
                 "lunar_critical_strike_base": 3962,
                 "spirit_to_lunar_attack_power": 2007,
                 "spirit_to_lunar_critical_strike": 410,
-                "pve_addition_base": 51
+                "pve_addition_base": 51,
+                "decritical_power_rate": 102
             },
             "dots": {
                 23187: [
@@ -8792,6 +8877,18 @@ BELONGS = {
             "critical_type": "lunar",
             "damage_type": "lunar",
             "belong_key": "belong_10447"
+        },
+        14070: {
+            "name": "阳春白雪",
+            "buffs": [
+                9433
+            ],
+            "skills": [
+                14494,
+                30762
+            ],
+            "desc": "激活阳春白雪曲效果；\\n被动效果：施展“阳春白雪”主动技能，莫问心法下使“宫”“徵”无视目标10%防御值，相知心法下使“宫”“徵”会心几率提高5%；最多累加3次。\\n主动效果：对敌对目标造成<SUB 14494 0>阴性内功伤害，或为友方目标回复<SUB 14344 0>气血值，可在“宫”“徵”运功过程中施展且不会打断运功状态。若目标气血值低于50%，则“阳春白雪”伤害或治疗效果增加10%。<TALENT 22030 1 无尽藏>",
+            "belong_key": "belong_14070"
         },
         14065: {
             "name": "商",
@@ -9247,17 +9344,25 @@ BELONGS = {
             "belong_key": "belong_14093"
         }
     },
-    10464: {
-        17057: {
-            "name": "闹须弥",
-            "dots": {
-                11447: [
-                    17058
-                ]
+    10448: {
+        10448: {
+            "name": "相知",
+            "attributes": {
+                "magical_shield_base": 3913,
+                "physical_shield_base": 2850,
+                "decritical_power_rate": 102,
+                "max_life_gain": 245,
+                "therapy_power_base": 19625,
+                "spirit_to_therapy": 3144,
+                "spirit_to_lunar_critical_strike": 573
             },
-            "desc": "竹雾体态下方可施展，消耗10点刀魂，冲向目标并对目标造成持续伤害效果，使目标<BUFF 11447 0 desc>(+<SKILLEx {D0} {TotalPhysicsAP 0.875}>)，持续<BUFF 11447 0 time>。<TALENT 17056 1 流血效果伤害提高70%且自身伤害招式命中目标后有30%的几率刷新流血效果持续时间并造成<SUB 34585 1>外功伤害，同时降低“闹须弥”0.5秒调息时间。><TALENT 16816 1 “闹须弥”释放后获得一次“碎江天”施展机会。“碎江天”命中“闹须弥”目标时额外造成<SUB 38533 1>外功伤害><TALENT 42563 1 >",
-            "belong_key": "belong_17057"
-        },
+            "desc": "以音锤意，以意律音，音意相合，探经查脉。习此功者可以内力弹奏音律，引导人体受损经脉，使伤势逐渐平复。",
+            "critical_type": "lunar",
+            "damage_type": "lunar",
+            "belong_key": "belong_10448"
+        }
+    },
+    10464: {
         10464: {
             "name": "北傲诀",
             "attributes": {
@@ -9267,7 +9372,8 @@ BELONGS = {
                 "strength_to_physical_attack_power": 1802,
                 "strength_to_physical_overcome": 420,
                 "max_life_gain": 245,
-                "physical_attack_power_base": 7034
+                "physical_attack_power_base": 7034,
+                "decritical_power_rate": 102
             },
             "skills": [
                 16820,
@@ -9281,6 +9387,16 @@ BELONGS = {
             "critical_type": "physical",
             "damage_type": "physical",
             "belong_key": "belong_10464"
+        },
+        17057: {
+            "name": "闹须弥",
+            "dots": {
+                11447: [
+                    17058
+                ]
+            },
+            "desc": "竹雾体态下方可施展，消耗10点刀魂，冲向目标并对目标造成持续伤害效果，使目标<BUFF 11447 0 desc>(+<SKILLEx {D0} {TotalPhysicsAP 0.875}>)，持续<BUFF 11447 0 time>。<TALENT 17056 1 流血效果伤害提高70%且自身伤害招式命中目标后有30%的几率刷新流血效果持续时间并造成<SUB 34585 1>外功伤害，同时降低“闹须弥”0.5秒调息时间。><TALENT 16816 1 “闹须弥”释放后获得一次“碎江天”施展机会。“碎江天”命中“闹须弥”目标时额外造成<SUB 38533 1>外功伤害><TALENT 42563 1 >",
+            "belong_key": "belong_17057"
         },
         16028: {
             "name": "龙骧虎步",
@@ -9836,6 +9952,37 @@ BELONGS = {
         }
     },
     10533: {
+        10533: {
+            "name": "凌海诀",
+            "attributes": {
+                "pve_addition_base": 389,
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2850,
+                "agility_to_physical_attack_power": 1802,
+                "agility_to_physical_critical_strike": 420,
+                "max_life_gain": 245,
+                "physical_critical_strike_base": 6628,
+                "physical_attack_power_base": 6839,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "dots": {
+                19557: [
+                    26935
+                ]
+            },
+            "skills": [
+                19712,
+                32815,
+                25783
+            ],
+            "desc": "涛卷波扬击重浪，雕翔破云驰烈风。凌海诀灵动恣意，迅猛无俦。以驭雕之术纵横重溟、伞击之技傲视群豪。习至绝处，九霄四海，逍遥随心。",
+            "critical_type": "physical",
+            "damage_type": "physical",
+            "belong_key": "belong_10533"
+        },
         19828: {
             "name": "浮游天地",
             "recipes": [
@@ -9857,36 +10004,6 @@ BELONGS = {
             ],
             "desc": "解除自身减速和锁足效果，蓄力快速跃起对6尺范围内的最多6个敌对目标造成200%武器伤害外加1段外功伤害，随后进入撑伞浮空状态并使自身2秒内免疫控制，15秒内基础攻击力提高10%。若自身距离地面高于20尺则不再跃起，非战斗状态下使用返还全额调息时间（每10秒最多触发1次），撑伞浮空持续30秒。施展后重置“碧海缥缈掌”套路招式调息时间。<TALENT 20351 1 变为2层充能招式，充能时间20秒。施展后重置“碧海缥缈掌”套路招式调息时间。><TALENT 20370 1 施展后无视目标50%外功防御，持续10秒><TALENT 20696 1 施展后3秒内，在半径20尺区域内施展“逸尘步虚”不消耗充能次数，此效果不在李渡鬼域、绝境战场等场景生效><TALENT 20756 1 伤害提高20%，挑起范围目标><TALENT 20701 1 在自身“驰风震域”的浪潮中施展“浮游天地”后，会生成“振翅图南”的飓风，持续5秒><TALENT 30912 1 “物化天行”移动至目标位置所需的时间降低，施展“浮游天地”后获得5秒内额外施展一次“物化天行”的机会><TALENT 38668 1 “浮游天地”使自身攻击力提高20%，持续15秒><TALENT 20718 1 “浮游天地”调息时间提高10秒，撑伞状态结束后获得免控，持续7秒。>",
             "belong_key": "belong_19828"
-        },
-        10533: {
-            "name": "凌海诀",
-            "attributes": {
-                "pve_addition_base": 389,
-                "magical_shield_base": 2850,
-                "physical_shield_base": 2850,
-                "agility_to_physical_attack_power": 1802,
-                "agility_to_physical_critical_strike": 420,
-                "max_life_gain": 245,
-                "physical_critical_strike_base": 6628,
-                "physical_attack_power_base": 6839
-            },
-            "recipes": [
-                "recipe_1711_1"
-            ],
-            "dots": {
-                19557: [
-                    26935
-                ]
-            },
-            "skills": [
-                19712,
-                32815,
-                25783
-            ],
-            "desc": "涛卷波扬击重浪，雕翔破云驰烈风。凌海诀灵动恣意，迅猛无俦。以驭雕之术纵横重溟、伞击之技傲视群豪。习至绝处，九霄四海，逍遥随心。",
-            "critical_type": "physical",
-            "damage_type": "physical",
-            "belong_key": "belong_10533"
         },
         19737: {
             "name": "击水三千",
@@ -10346,14 +10463,6 @@ BELONGS = {
         }
     },
     10585: {
-        22360: {
-            "name": "崔嵬鬼步",
-            "buffs": [
-                16596
-            ],
-            "desc": "洞察目标的行动轨迹，以冲刺和位移来追踪目标，尝试使自己与目标保持相对不变的位置关系，最大速度为35，若相对位置改变则返还10秒调息时间（最多一次），获得4秒<NounID 106>，“崔嵬鬼步”期间<NounID 106>免疫击退和被拉效果，外功基础攻击力、会心几率、会心效果提高15%，持续4秒。<TALENT 22591 1 招式的持续时间增加2秒，自身闪避提高60%><TALENT 22561 1 效果期间，每秒回复1%气血值><TALENT 40173 1 “崔嵬鬼步”期间“乱天狼”对血量高于50%的敌人伤害提高30%，施展后获得5秒内可额外施展一次“乱天狼”的机会>",
-            "belong_key": "belong_22360"
-        },
         10585: {
             "name": "隐龙诀",
             "attributes": {
@@ -10364,7 +10473,8 @@ BELONGS = {
                 "agility_to_physical_overcome": 553,
                 "max_life_gain": 245,
                 "physical_overcome_base": 6389,
-                "physical_attack_power_base": 6904
+                "physical_attack_power_base": 6904,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1"
@@ -10383,6 +10493,14 @@ BELONGS = {
             "critical_type": "physical",
             "damage_type": "physical",
             "belong_key": "belong_10585"
+        },
+        22360: {
+            "name": "崔嵬鬼步",
+            "buffs": [
+                16596
+            ],
+            "desc": "洞察目标的行动轨迹，以冲刺和位移来追踪目标，尝试使自己与目标保持相对不变的位置关系，最大速度为35，若相对位置改变则返还10秒调息时间（最多一次），获得4秒<NounID 106>，“崔嵬鬼步”期间<NounID 106>免疫击退和被拉效果，外功基础攻击力、会心几率、会心效果提高15%，持续4秒。<TALENT 22591 1 招式的持续时间增加2秒，自身闪避提高60%><TALENT 22561 1 效果期间，每秒回复1%气血值><TALENT 40173 1 “崔嵬鬼步”期间“乱天狼”对血量高于50%的敌人伤害提高30%，施展后获得5秒内可额外施展一次“乱天狼”的机会>",
+            "belong_key": "belong_22360"
         },
         22143: {
             "name": "星垂平野",
@@ -10855,7 +10973,8 @@ BELONGS = {
                 "spunk_to_neutral_critical_strike": 512,
                 "max_life_gain": 245,
                 "magical_attack_power_base": 7387,
-                "neutral_critical_strike_base": 7347
+                "neutral_critical_strike_base": 7347,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1"
@@ -11282,7 +11401,55 @@ BELONGS = {
             "belong_key": "belong_42926"
         }
     },
+    10626: {
+        10626: {
+            "name": "灵素",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 4695,
+                "spirit_to_therapy": 3318,
+                "spirit_to_poison_critical_strike": 205,
+                "max_life_gain": 245,
+                "therapy_power_base": 19625,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "desc": "汲从百草，承典济芳。此乃药宗一脉相传之术，蕴合《神农本草经》之要义；以百草为根，佐以药性寒、温之效；驱种植株，愈病诊疾，仁心圣手。",
+            "critical_type": "poison",
+            "damage_type": "poison",
+            "belong_key": "belong_10626"
+        }
+    },
     10627: {
+        10627: {
+            "name": "无方",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2347,
+                "pve_addition_base": 317,
+                "spirit_to_poison_attack_power": 1976,
+                "spirit_to_poison_overcome": 512,
+                "max_life_gain": 245,
+                "magical_attack_power_base": 6663,
+                "poison_overcome_base": 5527,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "skills": [
+                27451,
+                32841,
+                29698,
+                29695
+            ],
+            "desc": "此功以无方为名，亦代指北天药宗至高典籍《无方制物经》，旨在娴熟使用药理制物，配方运毒。称得上是驱草为刃，毒药双生，足竞百兵之锋。",
+            "critical_type": "poison",
+            "damage_type": "poison",
+            "belong_key": "belong_10627"
+        },
         27652: {
             "name": "苍棘缚地",
             "buffs": [
@@ -11315,32 +11482,6 @@ BELONGS = {
             ],
             "desc": "对目标造成<SUB 27555 0>毒性内功伤害并附带一层“逆乱”效果，使其<BUFF 20052 0 desc>，持续<BUFF 20052 0 time>，可以叠加8层，并使得自身获得1点温性。“逆乱”效果每次被驱散或者转移时，只会被作用一层。<TALENT 28343 1 “逆乱”效果每层使得自身每跳回复0.1%内力值><TALENT 28411 1 “逆乱”效果持续期间每层使得目标降低0.5%的御劲和1%的化劲等级，相同效果不可共存><TALENT 28413 1 “钩吻断肠”使得自身16秒内基础攻击力提高15%，期间自身“商陆缀寒”可以移动施展且运功时间降低0.25秒><TALENT 28432 1 “逆乱”增加1跳><TALENT 28437 1 8层“逆乱”效果完整结束后，使得目标受到<SUB 28438 1>毒性内功伤害，若目标为侠士则气血最大值降低5%，持续40秒，最多叠加5层><TALENT 40194 1 >",
             "belong_key": "belong_27554"
-        },
-        10627: {
-            "name": "无方",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 2347,
-                "pve_addition_base": 317,
-                "spirit_to_poison_attack_power": 1976,
-                "spirit_to_poison_overcome": 512,
-                "max_life_gain": 245,
-                "magical_attack_power_base": 6663,
-                "poison_overcome_base": 5527
-            },
-            "recipes": [
-                "recipe_1711_1"
-            ],
-            "skills": [
-                27451,
-                32841,
-                29698,
-                29695
-            ],
-            "desc": "此功以无方为名，亦代指北天药宗至高典籍《无方制物经》，旨在娴熟使用药理制物，配方运毒。称得上是驱草为刃，毒药双生，足竞百兵之锋。",
-            "critical_type": "poison",
-            "damage_type": "poison",
-            "belong_key": "belong_10627"
         },
         27551: {
             "name": "商陆缀寒",
@@ -11757,29 +11898,6 @@ BELONGS = {
         }
     },
     10756: {
-        35695: {
-            "name": "引风唤灵",
-            "recipes": [
-                "recipe_5395_1",
-                "recipe_5454_1",
-                "recipe_5455_1",
-                "recipe_5456_1",
-                "recipe_5464_1"
-            ],
-            "buffs": [
-                26857
-            ],
-            "skills": [
-                36111,
-                36056,
-                36057,
-                36112,
-                36113,
-                36114
-            ],
-            "desc": "按照“召唤序列”中的顺序依次召唤偕行动物，攻击范围为25尺，若在战斗中可获得“唤灵印”。召唤出的偕行动物附带一层“承契”效果，使其造成伤害提升4%，仇恨值降低8%。回复30%内力值。<TALENT 35746 1 “强击型”为即将召唤的三个“偕行动物”之一时，“偕行动物”攻击都会使目标获得一层减疗效果><TALENT 35747 1 施展“引风唤灵”时，自身获得6秒15%最大气血值护盾，若被打破则回复5%内力><TALENT 35734 1 召唤“飞行型”偕行动物后，10秒内自身周围10尺内三名敌方玩家，对自身以及自身小队成员隐身效果失效><TALENT 35744 1 “偕行动物”造成伤害时使目标获得两层“贯穿”><TALENT 35733 1 施展“引风唤灵”时，自身获得一层“承契”。召唤兽和自身在“承契”期间基础攻击力提高10%，无视目标20%外功防御><TALENT 35739 1 对目标造成“贯穿”效果后，使目标在“贯穿”期间造成伤害的8%转化为对其自身伤害><TALENT 35725 1 主动施展“引风唤灵”召唤的“偕行动物”对目标造成伤害时回复15%内力>",
-            "belong_key": "belong_35695"
-        },
         10756: {
             "name": "山海心诀",
             "attributes": {
@@ -11790,7 +11908,8 @@ BELONGS = {
                 "max_life_gain": 245,
                 "physical_critical_strike_base": 9025,
                 "physical_attack_power_base": 6187,
-                "pve_addition_base": 246
+                "pve_addition_base": 246,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1",
@@ -11813,6 +11932,29 @@ BELONGS = {
             "critical_type": "physical",
             "damage_type": "physical",
             "belong_key": "belong_10756"
+        },
+        35695: {
+            "name": "引风唤灵",
+            "recipes": [
+                "recipe_5395_1",
+                "recipe_5454_1",
+                "recipe_5455_1",
+                "recipe_5456_1",
+                "recipe_5464_1"
+            ],
+            "buffs": [
+                26857
+            ],
+            "skills": [
+                36111,
+                36056,
+                36057,
+                36112,
+                36113,
+                36114
+            ],
+            "desc": "按照“召唤序列”中的顺序依次召唤偕行动物，攻击范围为25尺，若在战斗中可获得“唤灵印”。召唤出的偕行动物附带一层“承契”效果，使其造成伤害提升4%，仇恨值降低8%。回复30%内力值。<TALENT 35746 1 “强击型”为即将召唤的三个“偕行动物”之一时，“偕行动物”攻击都会使目标获得一层减疗效果><TALENT 35747 1 施展“引风唤灵”时，自身获得6秒15%最大气血值护盾，若被打破则回复5%内力><TALENT 35734 1 召唤“飞行型”偕行动物后，10秒内自身周围10尺内三名敌方玩家，对自身以及自身小队成员隐身效果失效><TALENT 35744 1 “偕行动物”造成伤害时使目标获得两层“贯穿”><TALENT 35733 1 施展“引风唤灵”时，自身获得一层“承契”。召唤兽和自身在“承契”期间基础攻击力提高10%，无视目标20%外功防御><TALENT 35739 1 对目标造成“贯穿”效果后，使目标在“贯穿”期间造成伤害的8%转化为对其自身伤害><TALENT 35725 1 主动施展“引风唤灵”召唤的“偕行动物”对目标造成伤害时回复15%内力>",
+            "belong_key": "belong_35695"
         },
         35659: {
             "name": "劲风簇",
@@ -12167,7 +12309,8 @@ BELONGS = {
                 "strength_to_physical_critical_strike": 287,
                 "max_life_gain": 245,
                 "physical_attack_power_base": 6318,
-                "physical_critical_strike_base": 8546
+                "physical_critical_strike_base": 8546,
+                "decritical_power_rate": 102
             },
             "buffs": [
                 24752
@@ -12701,7 +12844,8 @@ BELONGS = {
                 "spunk_to_neutral_critical_strike": 461,
                 "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
-                "pve_addition_base": 584
+                "pve_addition_base": 584,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1"
@@ -13121,6 +13265,34 @@ BELONGS = {
         }
     },
     10821: {
+        10821: {
+            "name": "幽罗引",
+            "attributes": {
+                "magical_shield_base": 2347,
+                "physical_shield_base": 2850,
+                "magical_attack_power_base": 7459,
+                "spirit_to_lunar_attack_power": 1974,
+                "spirit_to_lunar_critical_strike": 512,
+                "lunar_critical_strike_base": 2412,
+                "max_life_gain": 245,
+                "pve_addition_base": 348,
+                "decritical_power_rate": 102
+            },
+            "dots": {
+                32145: [
+                    43082
+                ]
+            },
+            "skills": [
+                43087,
+                43086,
+                43081
+            ],
+            "desc": "无相楼秘传心法，化气凝丝，绕指无形。无相楼弟子以内力为引，凝气成丝，藏于掌中方寸，刚则化刃疾攻，柔可织罗缚敌；协以牵丝伶影同战，丝牵影动，形影变换，杀机暗藏。",
+            "critical_type": "lunar",
+            "damage_type": "lunar",
+            "belong_key": "belong_10821"
+        },
         41437: {
             "name": "连环慢",
             "buffs": [
@@ -13167,33 +13339,6 @@ BELONGS = {
             ],
             "desc": "使自身（以当前操控的角色为准）附近8尺最多5个敌对目标陷入持续10秒的“虚影幻境”，使其每秒受到伶影幻象攻击造成<SUB 42576 1>阴性内功伤害，且期间受自身“傀儡调”及“织心谣”套路招式伤害提高20%。\\n侠士目标还会额外受到<NounID 78>不利效果。<TALENT 42147 1 >",
             "belong_key": "belong_41451"
-        },
-        10821: {
-            "name": "幽罗引",
-            "attributes": {
-                "magical_shield_base": 2347,
-                "physical_shield_base": 2850,
-                "magical_attack_power_base": 7459,
-                "spirit_to_lunar_attack_power": 1974,
-                "spirit_to_lunar_critical_strike": 512,
-                "lunar_critical_strike_base": 2412,
-                "max_life_gain": 245,
-                "pve_addition_base": 348
-            },
-            "dots": {
-                32145: [
-                    43082
-                ]
-            },
-            "skills": [
-                43087,
-                43086,
-                43081
-            ],
-            "desc": "无相楼秘传心法，化气凝丝，绕指无形。无相楼弟子以内力为引，凝气成丝，藏于掌中方寸，刚则化刃疾攻，柔可织罗缚敌；协以牵丝伶影同战，丝牵影动，形影变换，杀机暗藏。",
-            "critical_type": "lunar",
-            "damage_type": "lunar",
-            "belong_key": "belong_10821"
         },
         41439: {
             "name": "千里急",
@@ -13565,6 +13710,33 @@ BELONGS = {
         }
     },
     100398: {
+        100398: {
+            "name": "紫霞功·悟",
+            "attributes": {
+                "magical_shield_base": 2347,
+                "physical_shield_base": 2850,
+                "spirit_to_neutral_attack_power": 1946,
+                "spirit_to_neutral_critical_strike": 625,
+                "max_life_gain": 245,
+                "magical_attack_power_base": 6518,
+                "neutral_critical_strike_base": 5527,
+                "all_shield_ignore": 614,
+                "pve_addition_base": 789,
+                "decritical_power_rate": 102
+            },
+            "skills": [
+                18121,
+                101613,
+                101614,
+                101615,
+                101616,
+                101617
+            ],
+            "desc": "运功之时绵若云霞，更有紫气护体，故名紫霞。",
+            "critical_type": "neutral",
+            "damage_type": "neutral",
+            "belong_key": "belong_100398"
+        },
         100077: {
             "name": "四象轮回·悟",
             "attributes": {
@@ -13615,32 +13787,6 @@ BELONGS = {
             ],
             "desc": "获得增益。",
             "belong_key": "belong_101573"
-        },
-        100398: {
-            "name": "紫霞功·悟",
-            "attributes": {
-                "magical_shield_base": 2347,
-                "physical_shield_base": 2850,
-                "spirit_to_neutral_attack_power": 1946,
-                "spirit_to_neutral_critical_strike": 625,
-                "max_life_gain": 245,
-                "magical_attack_power_base": 6518,
-                "neutral_critical_strike_base": 5527,
-                "all_shield_ignore": 614,
-                "pve_addition_base": 789
-            },
-            "skills": [
-                18121,
-                101613,
-                101614,
-                101615,
-                101616,
-                101617
-            ],
-            "desc": "运功之时绵若云霞，更有紫气护体，故名紫霞。",
-            "critical_type": "neutral",
-            "damage_type": "neutral",
-            "belong_key": "belong_100398"
         },
         100076: {
             "name": "太极无极·悟",
@@ -13801,7 +13947,8 @@ BELONGS = {
                 "strength_to_physical_attack_power": 1802,
                 "strength_to_physical_overcome": 420,
                 "max_life_gain": 245,
-                "physical_attack_power_base": 7034
+                "physical_attack_power_base": 7034,
+                "decritical_power_rate": 102
             },
             "buffs": [
                 70161
@@ -14032,6 +14179,35 @@ BELONGS = {
         }
     },
     101355: {
+        101355: {
+            "name": "无方·悟",
+            "attributes": {
+                "magical_shield_base": 2850,
+                "physical_shield_base": 2347,
+                "spirit_to_poison_attack_power": 1976,
+                "spirit_to_poison_overcome": 512,
+                "max_life_gain": 245,
+                "magical_attack_power_base": 6663,
+                "poison_overcome_base": 5527,
+                "pve_addition_base": 604,
+                "all_shield_ignore": 614,
+                "decritical_power_rate": 102
+            },
+            "dots": {
+                71171: [
+                    101417,
+                    102374
+                ]
+            },
+            "skills": [
+                27451,
+                101417
+            ],
+            "desc": "此功以无方为名，亦代指北天药宗至高典籍《无方制物经》，旨在娴熟使用药理制物。",
+            "critical_type": "poison",
+            "damage_type": "poison",
+            "belong_key": "belong_101355"
+        },
         101357: {
             "name": "钩吻断肠·悟",
             "attributes": {
@@ -14066,34 +14242,6 @@ BELONGS = {
             ],
             "desc": "{腾空跃起}，跳跃期间免疫控制，进入持续4秒的{凌然天风}状态，受到伤害降低30%。3秒内施展【傍身招式】命中目标可获得1次跳跃机会。",
             "belong_key": "belong_101364"
-        },
-        101355: {
-            "name": "无方·悟",
-            "attributes": {
-                "magical_shield_base": 2850,
-                "physical_shield_base": 2347,
-                "spirit_to_poison_attack_power": 1976,
-                "spirit_to_poison_overcome": 512,
-                "max_life_gain": 245,
-                "magical_attack_power_base": 6663,
-                "poison_overcome_base": 5527,
-                "pve_addition_base": 604,
-                "all_shield_ignore": 614
-            },
-            "dots": {
-                71171: [
-                    101417,
-                    102374
-                ]
-            },
-            "skills": [
-                27451,
-                101417
-            ],
-            "desc": "此功以无方为名，亦代指北天药宗至高典籍《无方制物经》，旨在娴熟使用药理制物。",
-            "critical_type": "poison",
-            "damage_type": "poison",
-            "belong_key": "belong_101355"
         },
         101359: {
             "name": "飞叶满襟·悟",
@@ -14255,6 +14403,31 @@ BELONGS = {
         }
     },
     102278: {
+        102278: {
+            "name": "周天功·悟",
+            "attributes": {
+                "magical_shield_base": 2347,
+                "physical_shield_base": 2850,
+                "neutral_critical_strike_base": 5527,
+                "spunk_to_neutral_attack_power": 1997,
+                "spunk_to_neutral_critical_strike": 461,
+                "max_life_gain": 245,
+                "magical_attack_power_base": 6518,
+                "all_shield_ignore": 614,
+                "pve_addition_base": 870,
+                "decritical_power_rate": 102
+            },
+            "recipes": [
+                "recipe_1711_1"
+            ],
+            "skills": [
+                38034
+            ],
+            "desc": "一门通过聚气丹田，从而打通人体经脉的气功修行之法。下分大、小周天，其中大多数段氏弟子修行的小周天主要以任督二脉为主，配以指法，则可凌空化气，号为一阳。配以扇法，则可御风为媒，劈刃飞光。",
+            "critical_type": "neutral",
+            "damage_type": "neutral",
+            "belong_key": "belong_102278"
+        },
         102280: {
             "name": "一阳指·悟",
             "attributes": {
@@ -14345,30 +14518,6 @@ BELONGS = {
             ],
             "desc": "持续在目标区域造成伤害。招式伤害和招式会心率会随着命中次数递进，每次命中目标使自身获得10点任督二脉能量。",
             "belong_key": "belong_102290"
-        },
-        102278: {
-            "name": "周天功·悟",
-            "attributes": {
-                "magical_shield_base": 2347,
-                "physical_shield_base": 2850,
-                "neutral_critical_strike_base": 5527,
-                "spunk_to_neutral_attack_power": 1997,
-                "spunk_to_neutral_critical_strike": 461,
-                "max_life_gain": 245,
-                "magical_attack_power_base": 6518,
-                "all_shield_ignore": 614,
-                "pve_addition_base": 870
-            },
-            "recipes": [
-                "recipe_1711_1"
-            ],
-            "skills": [
-                38034
-            ],
-            "desc": "一门通过聚气丹田，从而打通人体经脉的气功修行之法。下分大、小周天，其中大多数段氏弟子修行的小周天主要以任督二脉为主，配以指法，则可凌空化气，号为一阳。配以扇法，则可御风为媒，劈刃飞光。",
-            "critical_type": "neutral",
-            "damage_type": "neutral",
-            "belong_key": "belong_102278"
         },
         102283: {
             "name": "锁神·悟",
@@ -14473,7 +14622,8 @@ BELONGS = {
                 "spirit_to_lunar_critical_strike": 512,
                 "lunar_critical_strike_base": 2412,
                 "magical_attack_power_base": 7459,
-                "max_life_gain": 245
+                "max_life_gain": 245,
+                "decritical_power_rate": 102
             },
             "recipes": [
                 "recipe_1711_1"

@@ -1,0 +1,4 @@
+ATTRIBUTE = 10626
+KIND = "治疗"
+SCHOOL = "药宗"
+MAJOR = "根骨"

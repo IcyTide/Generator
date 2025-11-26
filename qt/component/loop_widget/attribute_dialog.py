@@ -32,10 +32,11 @@ class AttributeDialog(QDialog):
                 snapshot_layout.addWidget(LabelRow("秘籍:", QLabel(recipe)))
             toolbox.addItem(snapshot_page, "快照秘籍")
 
+
     @staticmethod
     def display_attribute(layout: QVBoxLayout, attribute: Attribute):
-        major = f"{attribute.major_base}/{attribute.major}"
-        layout.addWidget(LabelRow("主属性:", QLabel(major)))
+        major = f"{attribute.base_major}/{attribute.major}"
+        layout.addWidget(LabelRow("基础主属性/最终主属性:", QLabel(major)))
         attack_power = f"{attribute.base_attack_power}/{attribute.attack_power}"
         layout.addWidget(LabelRow("基础攻击/最终攻击:", QLabel(attack_power)))
         surplus = f"{attribute.surplus_base}/{attribute.surplus}"
@@ -49,6 +50,6 @@ class AttributeDialog(QDialog):
         critical_strike = f"{attribute.final_critical_strike}"
         critical_strike += f"({percent(attribute.critical_strike_percent)}/{percent(attribute.critical_strike)})"
         layout.addWidget(LabelRow("会心(会心百分比/最终会心百分比):", QLabel(critical_strike)))
-        critical_power = f"{attribute.critical_power_base}"
+        critical_power = f"{attribute.base_critical_power}"
         critical_power += f"({percent(attribute.critical_power_percent)}/{percent(attribute.critical_power)})"
         layout.addWidget(LabelRow("会效(会效百分比/最终会效百分比):", QLabel(critical_power)))

@@ -1,9 +1,11 @@
+import re
+
 from pandas import DataFrame
 from tqdm import tqdm
 
-from kungfus import SUPPORT_KUNGFUS
 from tools.lua.enums import ATTRIBUTE_TYPE
-from tools.utils import camel_to_capital, get_variable, read_tab, save_code
+from kungfus import SUPPORT_KUNGFUS
+from tools.utils import camel_to_capital, get_variable, read_tab, save_code, save_json
 
 weapon_settings = read_tab("settings/item/Custom_Weapon.tab")
 armor_settings = read_tab("settings/item/Custom_Armor.tab")
@@ -11,16 +13,19 @@ trinket_settings = read_tab("settings/item/Custom_Trinket.tab")
 enchant_settings = read_tab("settings/item/Enchant.tab")
 attrib_settings = read_tab("settings/item/Attrib.tab")
 set_settings = read_tab("settings/item/Set.tab")
-item_settings = read_tab("ui/scheme/case/Item.txt")
+other_settings = read_tab("settings/item/Other.tab")
+event_settings = read_tab("settings/skill/SkillEvent.tab", "settings/skill_mobile/SkillEvent.tab")
 
-skill_event_settings = read_tab("settings/skill/skillevent.tab")
+item_txts = read_tab("ui/scheme/case/Item.txt")
+attrib_txts = read_tab("ui/scheme/case/Attribute.txt")
+recipe_txts = read_tab("ui/scheme/case/EquipmentRecipe.txt")
+event_txts = read_tab("ui/scheme/case/SkillEvent.txt")
 
-KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))  # & {"治疗", "防御"}
+KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
 MIN_EQUIP_LEVEL = 28000
 ENCHANT_START_ID = 15778
-
 QUALITY_COF = {
     1: 1,
     2: 1.4,
@@ -54,9 +59,45 @@ POSITION_MAP = {
     9: "shoes",
     10: "wrist",
 }
+USAGE_MAP = {
+    0: "PVP",
+    1: "PVE",
+    2: "PVX",
+    3: "ALL"
+}
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
 }
+
+STONE_LEVELS = {
+    "(壹)": 1,
+    "(贰)": 2,
+    "(叁)": 3,
+    "(肆)": 4,
+    "(伍)": 5,
+    "(陆)": 6
+}
+ATTR_ABBR = {
+    "therapy_base": "治疗",
+    "overcome_base": "破防",
+    "critical_strike_base": "会心",
+    "critical_power_base": "会效",
+    "haste_base": "加速",
+    "surplus_base": "破招",
+    "strain_base": "无双",
+    "physical_shield": "外防",
+    "magical_shield": "内防",
+    "toughness": "御劲",
+    "decritical_power": "化劲"
+}
+
+MAX_BASE_ATTR = 6
+MAX_MAGIC_ATTR = 16
+MAX_EMBED_ATTR = 3
+MAX_ENCHANT_ATTR = 4
+MAX_STONE_ATTR = 3
+MAX_SET_COUNT = 6
+MAX_SET_ATTR = 4
 
 
 def cal_score(df: DataFrame):
@@ -70,238 +111,364 @@ cal_score(armor_settings)
 cal_score(trinket_settings)
 cal_score(weapon_settings)
 
-ATTR_ABBR = {
-    "therapy_base": "治疗",
-    "overcome_base": "破防",
-    "critical_strike_base": "会心",
-    "critical_power_base": "会效",
-    "haste_base": "加速",
-    "surplus_base": "破招",
-    "strain_base": "无双",
-    "physical_shield": "外防",
-    "magical_shield": "内防"
-}
-SECONDARY_WEAPON_DETAIL_TYPE = 9
 
-MAX_BASE_ATTR = 6
-MAX_MAGIC_ATTR = 16
-MAX_EMBED_ATTR = 3
-MAX_SET_COUNT = 4
-MAX_SET_ATTR = 4
+def simplify_attrs(attrs):
+    attributes, recipes, gains = {}, [], []
+    for attr in attrs:
+        if attr['attr_type'] == "event":
+            gains.append(attr['value'])
+        elif attr['attr_type'] == "recipe":
+            recipes.append(attr['value'])
+        elif attr_type := attr['attr_type']:
+            if attr_type not in attributes:
+                attributes[attr_type] = 0
+            attributes[attr_type] += attr['value']
+    return attributes, recipes, gains
 
 
-def get_equip_name(detail):
-    abbrs = []
-    if detail['school'] == "精简":
-        abbrs += ["精简"]
-    if detail["gains"]:
-        abbrs += ["特效"]
-    for attr in detail['magic']:
-        for k, v in ATTR_ABBR.items():
-            if k in attr:
-                abbrs.append(v)
-                break
-    return f"{detail['name']}#{detail['id']} ({detail['level']} {' '.join(abbrs)})"
+def get_attr_desc(attr):
+    attr_row = attrib_txts[attrib_txts.ID == attr]
+    if attr_row.empty:
+        return ""
+    attr_row = attr_row.iloc[0]
+    return re.sub(r"{.*}", "{}", attr_row['GeneratedMagic'])
 
 
-def get_gain_from_event(event_id):
-    event_row = skill_event_settings[skill_event_settings.ID == event_id].iloc[0]
-    if event_row.Odds == 0:
-        return None
-    return get_variable("gain", event_row.SkillID, event_row.SkillLevel)
+def get_recipe_desc(recipe_id, recipe_level):
+    recipe_row = recipe_txts[(recipe_txts.ID == recipe_id) & (recipe_txts.Level == recipe_level)]
+    if recipe_row.empty:
+        return "", ""
+    recipe_row = recipe_row.iloc[0]
+    value = get_variable("recipe", recipe_id, recipe_level)
+    return recipe_row['Desc'], value
 
 
-def get_equip_detail(row):
-    detail = {
-        "id": row.ID, "name": row.Name, "school": row.BelongSchool, "kind": row.MagicKind, "level": int(row.Level),
-        "max_strength": int(row.MaxStrengthLevel), "set_id": 0,
-    }
-    item_row = item_settings[item_settings.ItemID == row.UiID]
-    if not item_row.empty:
-        detail['icon_id'] = int(item_row.iloc[0]['IconID'])
-    detail['base'] = base_attrs = {}
-    detail['magic'] = magic_attrs = {}
-    detail['embed'] = embed_attrs = {}
-    detail['gains'] = gains = []
-    detail['recipes'] = recipes = []
-    detail['sets'] = sets = {}
-    for i in range(MAX_BASE_ATTR):
-        if not (attr := getattr(row, f'Base{i + 1}Type')):
-            break
-        attr = camel_to_capital(attr[2:])
-        attr_type = ATTRIBUTE_TYPE[attr]  # noqa
-        if not attr_type:
-            continue
-        base_attrs[attr_type] = int(getattr(row, f'Base{i + 1}Max'))
-    for i in range(MAX_MAGIC_ATTR):
-        if not (attr_id := getattr(row, f'Magic{i + 1}Type')):
-            break
-        attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
-        attr = camel_to_capital(attr_row.ModifyType[2:])
-        attr_type = ATTRIBUTE_TYPE[attr]  # noqa
-        if not attr_type:
-            continue
-        param_1, param_2 = int(attr_row.Param1Max), int(attr_row.Param2Max)
-        if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
-            if gain := get_gain_from_event(param_1):
-                gains.append(gain)
-        elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
-            recipes.append(get_variable("recipe", param_1, param_2))
+def get_event_desc(event_id):
+    event_row = event_txts[event_txts.ID == event_id]
+    if event_row.empty:
+        desc = ""
+    else:
+        desc = event_row.iloc[0]['Desc']
+    event_row = event_settings[event_settings.ID == event_id]
+    if event_row.empty:
+        value = ""
+    else:
+        event_row = event_row.iloc[0]
+        if event_row.Odds:
+            value = get_variable("gain", event_row['SkillID'], event_row['SkillLevel'])
         else:
-            magic_attrs[attr_type] = param_1
-    for i in range(MAX_EMBED_ATTR):
-        if not (attr_id := getattr(row, f'DiamondAttributeID{i + 1}')):
+            value = ""
+    return desc, value
+
+
+def get_equip_tags(detail):
+    tags = []
+    attr_tags = []
+    if detail['school'] == "精简":
+        tags += ["精简"]
+    for attr in detail['magic']:
+        if attr['attr_type'] == "event" and attr['value'] and "特效" not in tags:
+            tags += ["特效"]
+            continue
+        for k, v in ATTR_ABBR.items():
+            if k in attr['attr_type'] and v not in attr_tags:
+                attr_tags.append(v)
+                break
+    return tags + attr_tags
+
+
+def get_base_attrs(row):
+    attrs = []
+    for i in range(MAX_BASE_ATTR):
+        if not (attr := row[f'Base{i + 1}Type']):
+            break
+        cap_attr = camel_to_capital(attr[2:])
+        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+        attrs.append({
+            "attr": attr,
+            "attr_type": attr_type,
+            "value": row[f'Base{i + 1}Max'],
+            "desc": get_attr_desc(attr)
+        })
+
+    return attrs
+
+
+def get_magic_attrs(row):
+    attrs = []
+    for i in range(MAX_MAGIC_ATTR):
+        if not (attr_id := row[f'Magic{i + 1}Type']):
             break
         attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
-        attr = camel_to_capital(attr_row.ModifyType[2:])
-        attr_type = ATTRIBUTE_TYPE[attr]  # noqa
-        if not attr_type:
-            continue
-        embed_attrs[attr_type] = int(attr_row.Param1Max)  # noqa
+        attr = attr_row.ModifyType
+        cap_attr = camel_to_capital(attr[2:])
+        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+        param_1, param_2 = attr_row.Param1Max, attr_row.Param2Max
+        if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
+            desc, value = get_event_desc(param_1)
+        elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
+            desc, value = get_recipe_desc(param_1, param_2)
+        else:
+            desc, value = get_attr_desc(attr), param_1
+        attrs.append({
+            "attr": attr,
+            "attr_type": attr_type,
+            "value": value,
+            "desc": desc
+        })
+    return attrs
 
-    if row.SkillID:
-        gains.append(get_variable("gain", int(row.SkillID), int(row.SkillLevel)))
 
-    if not row.SetID:
-        return detail
-    detail['set_id'] = int(row.SetID)
-    set_row = set_settings[set_settings.ID == row.SetID].iloc[0]
+def get_embed_attrs(row):
+    attrs = []
+    for i in range(MAX_EMBED_ATTR):
+        if not (attr_id := row[f'DiamondAttributeID{i + 1}']):
+            break
+        attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
+        attr = attr_row.ModifyType
+        cap_attr = camel_to_capital(attr[2:])
+        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+        attrs.append({
+            "attr": attr,
+            "attr_type": attr_type,
+            "value": attr_row.Param1Max,
+            "desc": get_attr_desc(attr)
+        })
+    return attrs
+
+
+def get_set_attrs(row):
+    set_id, attrs = 0, {}
+    set_id = int(row['SetID'])
+    if not set_id:
+        return set_id, attrs
+    set_row = set_settings[set_settings.ID == set_id].iloc[0]
     for i in range(1, MAX_SET_COUNT):
         for j in range(MAX_SET_ATTR):
             if attr_id := getattr(set_row, f"{i + 1}_{j + 1}"):
                 attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
-                attr = camel_to_capital(attr_row.ModifyType[2:])
-                attr_type = ATTRIBUTE_TYPE[attr]  # noqa
-                if not attr_type:
-                    continue
-                if i + 1 not in sets:
-                    sets[i + 1] = {}
-                param_1, param_2 = int(attr_row.Param1Max), int(attr_row.Param2Max)
+                attr = attr_row.ModifyType
+                cap_attr = camel_to_capital(attr[2:])
+                attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+                if i + 1 not in attrs:
+                    attrs[i + 1] = []
+                param_1, param_2 = attr_row.Param1Max, attr_row.Param2Max
                 if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
-                    if "gains" not in sets[i + 1]:
-                        sets[i + 1]["gains"] = []
-                    if gain := get_gain_from_event(param_1):
-                        sets[i + 1]["gains"].append(gain)
+                    desc, value = get_event_desc(param_1)
                 elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
-                    if "recipes" not in sets[i + 1]:
-                        sets[i + 1]["recipes"] = []
-                    sets[i + 1]["recipes"].append(get_variable("recipe", param_1, param_2))
+                    desc, value = get_recipe_desc(param_1, param_2)
                 else:
-                    if "attributes" not in sets[i + 1]:
-                        sets[i + 1]["attributes"] = {}
-                    sets[i + 1]["attributes"][attr_type] = param_1
+                    desc, value = get_attr_desc(attr), param_1
+                attrs[i + 1].append({
+                    "attr": attr,
+                    "attr_type": attr_type,
+                    "value": value,
+                    "desc": desc
+                })
+    return set_id, attrs
+
+
+def get_equip_detail(row):
+    detail = {
+        "id": row['ID'], "name": row['Name'], "school": row['BelongSchool'], "kind": row['MagicKind'],
+        "position": POSITION_MAP[row['SubType']], "usage": USAGE_MAP[row['EquipUsage']],
+        "level": int(row['Level']), "score": int(row['Score']), "max_strength": int(row['MaxStrengthLevel'])
+    }
+    item_row = item_txts[item_txts.ItemID == row['UiID']].iloc[0]
+    detail['icon_id'] = int(item_row['IconID'])
+    detail['desc'] = item_row['Desc']
+    detail['base'] = get_base_attrs(row)
+    detail['magic'] = get_magic_attrs(row)
+    detail['embed'] = get_embed_attrs(row)
+    detail['set_id'], detail['sets'] = get_set_attrs(row)
+    detail['tags'] = get_equip_tags(detail)
+
+    if row['SkillID']:
+        detail['skill'] = int(row['SkillID']), int(row['SkillLevel'])
+
     return detail
+
+
+def build_equip_code(details: dict[int, dict]):
+    results = {}
+    for detail in details.values():
+        position, school, kind, usage = detail['position'], detail['school'], detail['kind'], detail['usage']
+        if usage in ["PVP", "PVX"]:
+            continue
+        if position not in results:
+            results[position] = {}
+        if school not in results[position]:
+            results[position][school] = {}
+        if kind not in results[position][school]:
+            results[position][school][kind] = {}
+        detail = detail.copy()
+        name = f"{detail['name']}#{detail['id']} ({detail['level']} {' '.join(detail.pop('tags'))})"
+        detail['base'], _, _ = simplify_attrs(detail['base'])
+        detail['magic'], detail['recipes'], detail['gains'] = simplify_attrs(detail['magic'])
+        detail['embed'], _, _ = simplify_attrs(detail['embed'])
+        sets = {}
+        for count, attrs in detail['sets'].items():
+            sets[count] = {}
+            sets[count]['attributes'], sets[count]['recipes'], sets[count]['gains'] = simplify_attrs(attrs)
+        detail['sets'] = sets
+        if skill := detail.pop("skill", None):
+            detail['gains'].append(get_variable("gain", *skill))  # noqa
+        for key in ["desc", "icon_id", "position", "school", "kind", "usage"]:
+            detail.pop(key, None)
+        results[position][school][kind][name] = detail
+    return results
 
 
 def get_equip_list(equip_tab):
     equip_tab = equip_tab[equip_tab.SubType.isin(MIN_EQUIP_SCORE)]
     equip_tab = equip_tab[equip_tab.Score >= equip_tab.SubType.map(MIN_EQUIP_SCORE)]
     equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
-    equip_tab = equip_tab[(~equip_tab.MagicType.str.contains("PVP")) & (~equip_tab.MagicType.str.contains("PVX"))]
     equip_tab = equip_tab.sort_values(["SubType", "Score", "ID"], ascending=False)
 
     results = {}
-    for row in tqdm(equip_tab.itertuples()):
+    for row in tqdm(equip_tab.to_dict("records")):
         detail = get_equip_detail(row)
-        name = get_equip_name(detail)
-        position = POSITION_MAP[row.SubType]  # noqa
+        results[detail['id']] = detail
+    return results, build_equip_code(results)
+
+
+def get_enchant_attrs(row):
+    attrs = []
+    for i in range(MAX_ENCHANT_ATTR):
+        if not (attr := row[f"Attribute{i + 1}ID"]):
+            continue
+        cap_attr = camel_to_capital(attr[2:])
+        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+        value = row[f"Attribute{i + 1}Value1"]
+        attrs.append({
+            "attr": attr,
+            "attr_type": attr_type,
+            "value": int(value) if value.isdigit() else value,
+            "desc": get_attr_desc(attr)
+        })
+    return attrs
+
+
+def get_enchant_detail(row):
+    detail = {
+        "id": row['ID'], "name": row['Name'], "desc": row['AttriName'],
+        "position": POSITION_MAP[row['DestItemSubType']], "score": int(row['Score']),
+        "attributes": get_enchant_attrs(row), "temporary": bool(row['Time'])
+    }
+    return detail
+
+
+def build_enchant_code(details: dict[int, dict]):
+    results = dict(consumables={})
+    for detail in details.values():
+        position = detail['position']
+        if not detail['desc']:
+            continue
         if position not in results:
             results[position] = {}
-        school, kind = detail['school'], detail['kind']
-        if school not in results[position]:
-            results[position][school] = {}
-        if kind not in results[position][school]:
-            results[position][school][kind] = {}
-        results[position][school][kind][name] = detail
+        detail = detail.copy()
+        detail['attributes'], _, _ = simplify_attrs(detail['attributes'])
+        if not detail['attributes']:
+            continue
+        temporary = detail.pop("temporary")
+        name = f"{detail['name']} {detail.pop('desc')}"
+        if temporary:
+            results['consumables'][name] = detail['attributes']
+        else:
+            for key in ["desc", "position"]:
+                detail.pop(key, None)
+            results[position][name] = detail
     return results
-
-
-def get_weapon_list():
-    return {
-        **get_equip_list(weapon_settings[weapon_settings.DetailType != SECONDARY_WEAPON_DETAIL_TYPE]),
-        "secondary_weapon": get_equip_list(
-            weapon_settings[weapon_settings.DetailType == SECONDARY_WEAPON_DETAIL_TYPE]
-        )['primary_weapon']
-    }
 
 
 def get_enchants_list():
     enchant_tab = enchant_settings[(enchant_settings.ID >= ENCHANT_START_ID) & (enchant_settings.DiamondType1 == 0)]
     enchant_tab = enchant_tab.sort_values(["Score", "ID"], ascending=False)
-    results = {"consumable": {}}
-    for row in tqdm(enchant_tab.itertuples()):
-        attr = row.Attribute1ID  # noqa
-        attr = camel_to_capital(attr[2:])
-        attr_type = ATTRIBUTE_TYPE[attr]  # noqa
-        if not attr_type or attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
+    results = {}
+    for row in tqdm(enchant_tab.to_dict("records")):
+        detail = get_enchant_detail(row)
+        results[detail['id']] = detail
+    return results, build_enchant_code(results)
+
+
+def get_stone_attrs(row):
+    attrs = []
+    for i in range(MAX_STONE_ATTR):
+        if not (attr := row[f'Attribute{i + 1}ID']):
+            break
+        cap_attr = camel_to_capital(attr[2:])
+        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+        value = row[f'Attribute{i + 1}Value1']
+        attrs.append({
+            "attr": attr,
+            "attr_type": attr_type,
+            "value": int(value),
+            "desc": get_attr_desc(attr)
+        })
+    return attrs
+
+
+def get_stone_detail(row):
+    item_rows = other_settings[other_settings.EnchantID == int(row['ID'])]
+    item_ids = item_rows.ID.unique().tolist()
+    level = 0
+    for key in STONE_LEVELS:
+        if key in row['Name']:
+            level = STONE_LEVELS[key]
+    if not level:
+        return {}
+    detail = {
+        "enchant_id": row['ID'], "item_ids": item_ids, "name": row['Name'], "level": level,
+        "attributes": get_stone_attrs(row)
+    }
+    return detail
+
+
+def build_stone_code(details: dict[int, dict]):
+    results = {}
+    for detail in details.values():
+        detail = detail.copy()
+        attributes, _, _ = simplify_attrs(detail['attributes'])
+        if len(attributes) != len(detail['attributes']):
             continue
-        name = f"{row.Name} {row.AttriName}"  # noqa
-        position = POSITION_MAP[row.DestItemSubType]  # noqa
-        attributes = {attr_type: int(row.Attribute1Value1)}  # noqa
-        if row.Time:  # noqa
-            results["consumable"][name] = attributes
-        else:
-            if position not in results:
-                results[position] = {}
-            results[position][name] = dict(id=row.ID, score=int(row.Score), attributes=attributes)  # noqa
-    results["secondary_weapon"] = results["primary_weapon"]
+        detail['attributes'] = attributes
+        node = results
+        for attribute in detail['attributes']:
+            if attribute not in node:
+                node[attribute] = {}
+            node = node[attribute]
+        level = detail['level']
+        node[level] = detail
     return results
 
 
 def get_stones_list():
-    stone_level_mapping = {
-        "(壹)": "1",
-        "(贰)": "2",
-        "(叁)": "3",
-        "(肆)": "4",
-        "(伍)": "5",
-        "(陆)": "6"
-    }
-    result = {}
     stone_tab = enchant_settings[enchant_settings.DiamondType1 > 0]
 
-    for row in tqdm(stone_tab.itertuples()):
-        name = row.Name  # noqa
-        level = ""
-        for key in stone_level_mapping:
-            if key in name:
-                level = stone_level_mapping[key]
-                break
-        attrs = row.Attribute1ID, row.Attribute2ID, row.Attribute3ID  # noqa
-        attr_types = [ATTRIBUTE_TYPE[camel_to_capital(attr[2:])] for attr in attrs if attr]  # noqa
-        if not all(attr_types):
+    results = {}
+    for row in tqdm(stone_tab.to_dict("records")):
+        detail = get_stone_detail(row)
+        if not detail:
             continue
-        values = row.Attribute1Value1, row.Attribute2Value1, row.Attribute3Value1  # noqa
-        node = result
-        attributes = {}
-        for attr_type, value in zip(attr_types, values):
-            if attr_type not in node:
-                node[attr_type] = {}
-            node = node[attr_type]
-            attributes[attr_type] = int(value)
-        if row.TabIndex:  # noqa
-            item_id = int(row.TabIndex) - 1  # noqa
-        else:
-            item_id = int(stone_tab.loc[row.Index - 1].TabIndex)  # noqa
-        enchant_id = row.ID  # noqa
-        if level in node:
-            node[level]['item_id'].append(item_id)
-            node[level]['enchant_id'].append(enchant_id)
-        else:
-            node[level] = dict(
-                item_id=[item_id], enchant_id=[enchant_id], name=name, level=int(level), attributes=attributes
-            )
-    return result
+        for item_id in detail['item_ids']:
+            results[item_id] = detail
+    return results, build_stone_code(results)
 
 
 def generate():
-    save_code("equipments", {
-        **get_equip_list(armor_settings),
-        **get_equip_list(trinket_settings),
-        **get_weapon_list()
-    })
-    save_code("enchants", get_enchants_list())
-    save_code("stones", get_stones_list())
+    armor_json, armor_code = get_equip_list(armor_settings)
+    save_json("armors", armor_json)
+    trinket_json, trinket_code = get_equip_list(trinket_settings)
+    save_json("trinkets", trinket_json)
+    weapon_json, weapon_code = get_equip_list(weapon_settings)
+    save_json("weapons", weapon_json)
+    save_code("equipments", armor_code | trinket_code | weapon_code)
+    enchant_json, enchant_code = get_enchants_list()
+    save_code("enchants", enchant_code)
+    save_json("enchants", enchant_json)
+    stone_json, stone_code = get_stones_list()
+    save_code("stones", stone_code)
+    save_json("stones", stone_json)
 
 
 if __name__ == '__main__':

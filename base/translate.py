@@ -21,13 +21,19 @@ TRANSLATE_MAP = {
 
     "shield": "防御",
     "attack_power": "攻击",
+    "overcome": "破防",
+    "critical_strike": "会心",
+    "critical_power": "会心效果",
     "weapon_damage": "武器伤害",
     "surplus": "破招",
     "strain": "无双",
+    "therapy": "治疗",
     "haste": "加速",
-    "overcome": "破防",
-    "critical_strike": "会心",
-    "critical_power": "会心效果"
+    "dodge": "闪避",
+    "parry_value": "拆招值",
+    "parry": "拆招",
+    "decritical_power": "化劲",
+    "toughness": "御劲"
 }
 
 def get_translates(names: list | dict):

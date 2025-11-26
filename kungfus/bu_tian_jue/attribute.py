@@ -1,0 +1,4 @@
+ATTRIBUTE = 10176
+KIND = "治疗"
+SCHOOL = "五毒"
+MAJOR = "根骨"

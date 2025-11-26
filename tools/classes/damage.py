@@ -190,7 +190,8 @@ class DamageChain:
     def cal_weapon_damage(self):
         if self.skill.interval:
             return
-        damage = (self.source.weapon_damage + self.rand * self.source.weapon_damage_rand) * self.skill.weapon_damage_cof
+        weapon_damage = self.source.base_weapon_damage + self.rand * self.source.weapon_damage_rand
+        damage = weapon_damage * self.skill.weapon_damage_cof
         if self.need_int:
             self.damage += Int(damage)
         else:

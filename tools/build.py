@@ -12,7 +12,7 @@ from tools.parser.buff import parse_buff
 from tools.parser.dot import parse_dot
 from tools.parser.recipe import parse_recipe
 from tools.parser.skill import parse_skill
-from tools.utils import save_code
+from tools.utils import save_code, save_json
 
 
 class Builder:
@@ -63,6 +63,8 @@ class Builder:
         self.all_skill_recipes[self.kungfu.kungfu_id] = {}
 
     def build_all(self):
+        if self.kungfu.kungfu_id:
+            self.belongs[self.kungfu.kungfu_id] = Belong(self.kungfu.kungfu_id)
         self.build_buffs(self.kungfu.buffs)
         self.build_dots(self.kungfu.dots)
         self.build_skills(self.kungfu.skills)
@@ -160,10 +162,15 @@ class Builder:
 
     def save(self):
         save_code("buffs", self.all_buffs),
+        save_json("buffs", self.all_buffs)
         save_code("dots", self.all_dots),
+        save_json("dots", self.all_dots)
         save_code("skills", self.all_skills),
+        save_json("skills", self.all_skills)
         save_code("belongs", self.all_belongs),
+        save_json("belongs", self.all_belongs)
         save_code("recipes", self.all_skill_recipes)
+        save_json("recipes", self.all_skill_recipes)
 
 
 if __name__ == '__main__':

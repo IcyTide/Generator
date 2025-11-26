@@ -1,0 +1,4 @@
+ATTRIBUTE = 10080
+KIND = "治疗"
+SCHOOL = "七秀"
+MAJOR = "根骨"

@@ -212,7 +212,7 @@ class Overcome:
 
 
 class Minor:
-    weapon_damage: Expression = Variable('weapon_damage')
+    base_weapon_damage: Expression = Variable('base_weapon_damage')
     weapon_damage_rand: Expression = Variable('weapon_damage_rand')
 
     surplus: Expression = Variable('surplus')
@@ -294,6 +294,7 @@ class Target(Defense, DamageCof):
 
     level: Expression = Variable('level')
 
+    decritical_power_gain: int = 0
     resist_critical_strike_rate: int = 0
     global_damage_factor: int = 0
     global_damage_scale: float = 0

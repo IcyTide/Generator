@@ -126,12 +126,16 @@ def read_tab(*files):
 
 
 def save_code(prefix, data):
-    print(f"Saving {prefix} asset")
+    print(f"Saving {prefix} asset code")
     code = json.dumps(
         data, indent=4, ensure_ascii=False, default=lambda x: {k: v for k, v in x.to_dict().items() if v}
     )
-    with open(os.path.join(JSON_DIR, f"{prefix.lower()}.json"), "w", encoding="utf-8") as f:
-        f.write(code)
     code = f"{prefix.upper()} = " + re.sub(r'"(-?\d+)":', r'\1:', code) + "\n"
     with open(os.path.join(SAVE_DIR, f"{prefix.lower()}.py"), "w", encoding="utf-8") as f:
         f.write(code)
+
+
+def save_json(prefix, data):
+    print(f"Saving {prefix} asset json")
+    with open(os.path.join(JSON_DIR, f"{prefix.lower()}.json"), "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False, default=lambda x: {k: v for k, v in x.to_dict().items() if v})

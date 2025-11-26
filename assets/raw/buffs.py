@@ -588,7 +588,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_critical_power_rate": 328
+                    "unlimit_critical_power_rate": 328
                 }
             }
         },
@@ -651,7 +651,8 @@ BUFFS = {
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
-                    "physical_critical_strike_rate": 2500
+                    "physical_critical_strike_rate": 2500,
+                    "haste_rate": 204
                 }
             },
             5: {
@@ -678,7 +679,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_critical_power_rate": 410
+                    "unlimit_critical_power_rate": 410
                 }
             }
         },
@@ -1099,7 +1100,8 @@ BUFFS = {
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 250,
-                    "physical_critical_strike_rate": 2500
+                    "physical_critical_strike_rate": 2500,
+                    "haste_rate": 204
                 }
             },
             5: {
@@ -1198,7 +1200,8 @@ BUFFS = {
                 "max_stack": 2,
                 "max_tick": 1,
                 "attributes": {
-                    "neutral_attack_power_gain": 307
+                    "neutral_attack_power_gain": 307,
+                    "therapy_power_gain": 307
                 }
             },
             2: {
@@ -1208,7 +1211,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "neutral_attack_power_gain": 307
+                    "neutral_attack_power_gain": 307,
+                    "therapy_power_gain": 307
                 }
             },
             3: {
@@ -1218,7 +1222,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "neutral_attack_power_gain": 307
+                    "neutral_attack_power_gain": 307,
+                    "therapy_power_gain": 307
                 }
             },
             4: {
@@ -1228,7 +1233,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "neutral_attack_power_gain": 307
+                    "neutral_attack_power_gain": 307,
+                    "therapy_power_gain": 307
                 }
             }
         },
@@ -1543,6 +1549,7 @@ BUFFS = {
             }
         }
     },
+    10028: {},
     10062: {
         17885: {
             3: {
@@ -1626,6 +1633,7 @@ BUFFS = {
             }
         }
     },
+    10080: {},
     10081: {
         409: {
             21: {
@@ -1633,7 +1641,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "lunar_attack_power_gain": 154
+                    "lunar_attack_power_gain": 154,
+                    "therapy_power_gain": 307
                 }
             }
         },
@@ -1646,6 +1655,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "lunar_attack_power_gain": 461,
+                    "therapy_power_gain": 461,
                     "neutral_attack_power_gain": 461,
                     "poison_attack_power_gain": 461,
                     "solar_attack_power_gain": 461
@@ -1659,6 +1669,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "lunar_attack_power_gain": 461,
+                    "therapy_power_gain": 461,
                     "neutral_attack_power_gain": 461,
                     "poison_attack_power_gain": 461,
                     "solar_attack_power_gain": 461
@@ -1726,7 +1737,10 @@ BUFFS = {
                 "name": "枕上",
                 "interval": 160,
                 "max_stack": 5,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "haste_rate": 102
+                }
             }
         },
         15220: {
@@ -2052,7 +2066,7 @@ BUFFS = {
                 "max_tick": 8,
                 "attributes": {
                     "physical_critical_strike_rate": 1000,
-                    "all_critical_power_rate": 256
+                    "unlimit_critical_power_rate": 256
                 }
             },
             8: {
@@ -2063,7 +2077,7 @@ BUFFS = {
                 "max_tick": 8,
                 "attributes": {
                     "physical_critical_strike_rate": 1000,
-                    "all_critical_power_rate": 256,
+                    "unlimit_critical_power_rate": 256,
                     "physical_attack_power_gain": 154
                 }
             }
@@ -2268,7 +2282,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "poison_attack_power_gain": 512
+                    "poison_attack_power_gain": 512,
+                    "therapy_power_gain": 512
                 }
             }
         },
@@ -2331,6 +2346,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "unlimit_haste_rate": 102,
                     "all_damage_addition": 102
                 }
             }
@@ -2354,6 +2370,7 @@ BUFFS = {
             }
         }
     },
+    10176: {},
     10224: {
         3254: {
             1: {
@@ -2509,7 +2526,8 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "physical_critical_strike_rate": 1500,
-                    "physical_critical_power_rate": 300
+                    "physical_critical_power_rate": 300,
+                    "haste_rate": 204
                 }
             }
         },
@@ -3228,7 +3246,10 @@ BUFFS = {
                 "name": "盾挡",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_parry_value": 451
+                }
             }
         },
         8271: {
@@ -3259,7 +3280,10 @@ BUFFS = {
                 "name": "盾挡",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_parry_value": 563
+                }
             }
         },
         9889: {
@@ -3278,7 +3302,11 @@ BUFFS = {
                 "name": "激昂",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "vitality_to_parry_value": 51,
+                    "vitality_to_parry": 20
+                }
             }
         },
         8423: {
@@ -3616,6 +3644,7 @@ BUFFS = {
             }
         }
     },
+    10448: {},
     10464: {
         29219: {
             1: {
@@ -4408,6 +4437,7 @@ BUFFS = {
             }
         }
     },
+    10626: {},
     10627: {
         21168: {
             1: {
@@ -5842,7 +5872,10 @@ BUFFS = {
                 "name": "风语·骨肉相连",
                 "interval": 28800,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 2380
+                }
             },
             8: {
                 "name": "风语·炸酱面",
@@ -5908,7 +5941,10 @@ BUFFS = {
                 "name": "风语·白汁芦筋",
                 "interval": 28800,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 1190
+                }
             },
             16: {
                 "name": "风语·杂碎面",
@@ -5946,6 +5982,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
+                    "therapy_power_base": 1360,
                     "all_critical_strike_base": 2801,
                     "haste_base": 2801
                 }
@@ -5966,7 +6003,9 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "vitality_base": 1037
+                    "vitality_base": 1037,
+                    "decritical_power_base": 1400,
+                    "toughness_base": 1400
                 }
             },
             6: {
@@ -6177,7 +6216,10 @@ BUFFS = {
                 "name": "风语·上品益气散",
                 "interval": 28800,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 3059
+                }
             },
             8: {
                 "name": "风语·上品长恨散",
@@ -6243,7 +6285,10 @@ BUFFS = {
                 "name": "风语·中品益气散",
                 "interval": 28800,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 1529
+                }
             },
             16: {
                 "name": "风语·中品长恨散",
@@ -7039,7 +7084,8 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "physical_attack_power_gain": 50,
-                    "physical_overcome_gain": 200
+                    "physical_overcome_gain": 200,
+                    "toughness_rate": 300
                 }
             }
         },
@@ -7361,7 +7407,8 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "physical_critical_strike_rate": 300,
-                    "strain_rate": 20
+                    "strain_rate": 20,
+                    "decritical_power_rate": 31
                 }
             }
         },
@@ -7409,6 +7456,7 @@ BUFFS = {
                     "neutral_critical_strike_rate": 300,
                     "poison_critical_strike_rate": 300,
                     "strain_rate": 20,
+                    "toughness_rate": 300,
                     "magical_attack_power_gain": 102
                 }
             }
@@ -8784,7 +8832,10 @@ BUFFS = {
                 "name": "风·百川",
                 "interval": 240,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 9764
+                }
             },
             15: {
                 "name": "风·灭虚",
@@ -8808,7 +8859,10 @@ BUFFS = {
                 "name": "风·百川",
                 "interval": 240,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 14827
+                }
             },
             18: {
                 "name": "风·灭虚",
@@ -8850,7 +8904,10 @@ BUFFS = {
                 "name": "风·百川",
                 "interval": 240,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 15551
+                }
             },
             23: {
                 "name": "风·灭虚",
@@ -8874,7 +8931,10 @@ BUFFS = {
                 "name": "风·百川",
                 "interval": 240,
                 "max_stack": 1,
-                "max_tick": 1
+                "max_tick": 1,
+                "attributes": {
+                    "therapy_power_base": 18444
+                }
             },
             26: {
                 "name": "风·灭虚",

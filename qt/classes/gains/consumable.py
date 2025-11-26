@@ -45,7 +45,7 @@ BOILED_FISHES = create_consumable(10100)
 GUILD_FOODS = create_consumable(2563)
 GUILD_SPREADS = create_consumable(18428)
 
-WEAPON_ENCHANTS = ENCHANTS["consumable"]
+WEAPON_ENCHANTS = ENCHANTS["consumables"]
 
 CONSUMABLES = {
     **MAJOR_FOODS,

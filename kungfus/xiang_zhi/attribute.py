@@ -1,0 +1,4 @@
+ATTRIBUTE = 10448
+KIND = "治疗"
+SCHOOL = "长歌"
+MAJOR = "根骨"

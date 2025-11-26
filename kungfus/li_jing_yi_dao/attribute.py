@@ -1,0 +1,4 @@
+ATTRIBUTE = 10028
+KIND = "治疗"
+SCHOOL = "万花"
+MAJOR = "根骨"
