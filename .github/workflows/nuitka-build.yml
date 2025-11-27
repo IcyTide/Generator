@@ -48,3 +48,33 @@ jobs:
       with:
         name: ${{ env.PACKAGENAME }}
         path: Generator
+  macos:
+    runs-on: macos-latest
+    env:
+      PACKAGENAME: Generator_macos
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyside6==6.9.1
+      - uses: Nuitka/Nuitka-Action@main
+        with:
+          nuitka-version: main
+          mode: app-dist
+          script-name: qt/app.py
+          enable-plugins: pyside6
+          nofollow-import-to: http,email
+      - name: Build
+        run: |
+          mv build/app.app Generator.app
+          zip -r "${{ env.PACKAGENAME }}.zip" "Generator.app"
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.PACKAGENAME }}
+          path: Generator.app
