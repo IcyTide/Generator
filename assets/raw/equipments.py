@@ -57150,46 +57150,6 @@ EQUIPMENTS = {
         },
         "藏剑": {
             "外功": {
-                "寂夜听雷#43582 (29700 特效 会心 破防 加速)": {
-                    "id": 43582,
-                    "name": "寂夜听雷",
-                    "level": 29700,
-                    "score": 89100,
-                    "max_strength": 8,
-                    "base": {
-                        "weapon_damage_base": 12795,
-                        "weapon_damage_rand": 8530
-                    },
-                    "magic": {
-                        "vitality_base": 27176,
-                        "agility_base": 2217,
-                        "physical_attack_power_base": 10753,
-                        "physical_critical_strike_base": 16058,
-                        "physical_overcome_base": 12353,
-                        "haste_base": 6176
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_1538_1",
-                        "recipe_1539_1",
-                        "recipe_17368_1",
-                        "recipe_17239_1",
-                        "recipe_17372_1",
-                        "recipe_17371_1"
-                    ],
-                    "gains": [
-                        "",
-                        "gain_25776_1",
-                        "gain_39088_9",
-                        "gain_1882_8"
-                    ]
-                },
                 "伏魔悲音#43581 (29700 特效 会心 破防 加速)": {
                     "id": 43581,
                     "name": "伏魔悲音",
@@ -57228,46 +57188,6 @@ EQUIPMENTS = {
                         "gain_25785_1",
                         "gain_39088_9",
                         "gain_1881_8"
-                    ]
-                },
-                "寂夜听雷#43549 (27500 特效 会心 破防 加速)": {
-                    "id": 43549,
-                    "name": "寂夜听雷",
-                    "level": 27500,
-                    "score": 82500,
-                    "max_strength": 8,
-                    "base": {
-                        "weapon_damage_base": 11847,
-                        "weapon_damage_rand": 7898
-                    },
-                    "magic": {
-                        "vitality_base": 25163,
-                        "agility_base": 2053,
-                        "physical_attack_power_base": 9956,
-                        "physical_critical_strike_base": 14869,
-                        "physical_overcome_base": 11438,
-                        "haste_base": 5719
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_1538_1",
-                        "recipe_1539_1",
-                        "recipe_17368_1",
-                        "recipe_17239_1",
-                        "recipe_17372_1",
-                        "recipe_17371_1"
-                    ],
-                    "gains": [
-                        "",
-                        "gain_25776_1",
-                        "gain_39088_8",
-                        "gain_1882_8"
                     ]
                 },
                 "伏魔悲音#43548 (27500 特效 会心 破防 加速)": {
@@ -57310,33 +57230,6 @@ EQUIPMENTS = {
                         "gain_1881_8"
                     ]
                 },
-                "俯眺曲水#42762 (35900 会心 无双)": {
-                    "id": 42762,
-                    "name": "俯眺曲水",
-                    "level": 35900,
-                    "score": 77544,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 11136,
-                        "weapon_damage_rand": 7424
-                    },
-                    "magic": {
-                        "vitality_base": 23651,
-                        "agility_base": 1930,
-                        "physical_attack_power_base": 9650,
-                        "physical_critical_strike_base": 16126,
-                        "strain_base": 15588
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "遥瞻奇峰#42761 (35900 会心 无双)": {
                     "id": 42761,
                     "name": "遥瞻奇峰",
@@ -57358,33 +57251,6 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 321,
                         "physical_critical_strike_base": 321,
                         "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "波光浮槛#42825 (35300 破招 无双)": {
-                    "id": 42825,
-                    "name": "波光浮槛",
-                    "level": 35300,
-                    "score": 76248,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10950,
-                        "weapon_damage_rand": 7300
-                    },
-                    "magic": {
-                        "vitality_base": 23256,
-                        "agility_base": 1897,
-                        "physical_attack_power_base": 9489,
-                        "surplus_base": 15856,
-                        "strain_base": 15328
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
                     },
                     "set_id": 0,
                     "sets": {},
@@ -57418,35 +57284,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "西陵江月#42723 (35300 特效 破防 无双)": {
-                    "id": 42723,
-                    "name": "西陵江月",
-                    "level": 35300,
-                    "score": 76248,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10950,
-                        "weapon_damage_rand": 7300
-                    },
-                    "magic": {
-                        "vitality_base": 23256,
-                        "agility_base": 1897,
-                        "physical_attack_power_base": 9489,
-                        "physical_overcome_base": 15856,
-                        "strain_base": 15328
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_4877_80"
-                    ]
-                },
                 "泉飞涧底#42722 (35300 特效 破防 无双)": {
                     "id": 42722,
                     "name": "泉飞涧底",
@@ -57476,33 +57313,6 @@ EQUIPMENTS = {
                         "gain_4877_80"
                     ]
                 },
-                "断桥重剑#42707 (35300 破招 无双)": {
-                    "id": 42707,
-                    "name": "断桥重剑",
-                    "level": 35300,
-                    "score": 76248,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10950,
-                        "weapon_damage_rand": 7300
-                    },
-                    "magic": {
-                        "vitality_base": 23256,
-                        "agility_base": 1897,
-                        "physical_attack_power_base": 9489,
-                        "surplus_base": 15856,
-                        "strain_base": 15328
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "断桥轻剑#42706 (35300 破招 无双)": {
                     "id": 42706,
                     "name": "断桥轻剑",
@@ -57512,33 +57322,6 @@ EQUIPMENTS = {
                     "base": {
                         "weapon_damage_base": 7117,
                         "weapon_damage_rand": 4745
-                    },
-                    "magic": {
-                        "vitality_base": 23256,
-                        "agility_base": 1897,
-                        "physical_attack_power_base": 9489,
-                        "surplus_base": 15856,
-                        "strain_base": 15328
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "断桥重剑#42688 (35300 破招 无双)": {
-                    "id": 42688,
-                    "name": "断桥重剑",
-                    "level": 35300,
-                    "score": 76248,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10950,
-                        "weapon_damage_rand": 7300
                     },
                     "magic": {
                         "vitality_base": 23256,
@@ -57584,33 +57367,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "流泉重剑#42666 (35300 会心 无双)": {
-                    "id": 42666,
-                    "name": "流泉重剑",
-                    "level": 35300,
-                    "score": 76248,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10950,
-                        "weapon_damage_rand": 7300
-                    },
-                    "magic": {
-                        "vitality_base": 23256,
-                        "agility_base": 1897,
-                        "physical_attack_power_base": 9489,
-                        "physical_critical_strike_base": 15856,
-                        "strain_base": 15328
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "流泉轻剑#42665 (35300 会心 无双)": {
                     "id": 42665,
                     "name": "流泉轻剑",
@@ -57620,33 +57376,6 @@ EQUIPMENTS = {
                     "base": {
                         "weapon_damage_base": 7117,
                         "weapon_damage_rand": 4745
-                    },
-                    "magic": {
-                        "vitality_base": 23256,
-                        "agility_base": 1897,
-                        "physical_attack_power_base": 9489,
-                        "physical_critical_strike_base": 15856,
-                        "strain_base": 15328
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "流泉重剑#42647 (35300 会心 无双)": {
-                    "id": 42647,
-                    "name": "流泉重剑",
-                    "level": 35300,
-                    "score": 76248,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10950,
-                        "weapon_damage_rand": 7300
                     },
                     "magic": {
                         "vitality_base": 23256,
@@ -57692,46 +57421,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "寂夜听雷#42156 (25300 特效 会心 破防 加速)": {
-                    "id": 42156,
-                    "name": "寂夜听雷",
-                    "level": 25300,
-                    "score": 75900,
-                    "max_strength": 8,
-                    "base": {
-                        "weapon_damage_base": 10899,
-                        "weapon_damage_rand": 7266
-                    },
-                    "magic": {
-                        "vitality_base": 23150,
-                        "agility_base": 1889,
-                        "physical_attack_power_base": 9160,
-                        "physical_critical_strike_base": 13679,
-                        "physical_overcome_base": 10523,
-                        "haste_base": 5261
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_1538_1",
-                        "recipe_1539_1",
-                        "recipe_17368_1",
-                        "recipe_17239_1",
-                        "recipe_17372_1",
-                        "recipe_17371_1"
-                    ],
-                    "gains": [
-                        "",
-                        "gain_25776_1",
-                        "gain_39088_7",
-                        "gain_1882_8"
-                    ]
-                },
                 "伏魔悲音#42155 (25300 特效 会心 破防 加速)": {
                     "id": 42155,
                     "name": "伏魔悲音",
@@ -57770,46 +57459,6 @@ EQUIPMENTS = {
                         "gain_25785_1",
                         "gain_39088_7",
                         "gain_1881_8"
-                    ]
-                },
-                "寂夜听雷#42124 (23650 特效 会心 破防 加速)": {
-                    "id": 42124,
-                    "name": "寂夜听雷",
-                    "level": 23650,
-                    "score": 70950,
-                    "max_strength": 8,
-                    "base": {
-                        "weapon_damage_base": 10188,
-                        "weapon_damage_rand": 6792
-                    },
-                    "magic": {
-                        "vitality_base": 21640,
-                        "agility_base": 1765,
-                        "physical_attack_power_base": 8562,
-                        "physical_critical_strike_base": 12787,
-                        "physical_overcome_base": 9836,
-                        "haste_base": 4918
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_1538_1",
-                        "recipe_1539_1",
-                        "recipe_17368_1",
-                        "recipe_17239_1",
-                        "recipe_17372_1",
-                        "recipe_17371_1"
-                    ],
-                    "gains": [
-                        "",
-                        "gain_25776_1",
-                        "gain_39088_6",
-                        "gain_1882_8"
                     ]
                 },
                 "伏魔悲音#42123 (23650 特效 会心 破防 加速)": {
@@ -57852,33 +57501,6 @@ EQUIPMENTS = {
                         "gain_1881_8"
                     ]
                 },
-                "娄泉重剑#43786 (32500 会心 无双)": {
-                    "id": 43786,
-                    "name": "娄泉重剑",
-                    "level": 32500,
-                    "score": 70200,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10081,
-                        "weapon_damage_rand": 6721
-                    },
-                    "magic": {
-                        "vitality_base": 21411,
-                        "agility_base": 1747,
-                        "physical_attack_power_base": 8736,
-                        "physical_critical_strike_base": 14598,
-                        "strain_base": 14112
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "娄泉轻剑#43785 (32500 会心 无双)": {
                     "id": 43785,
                     "name": "娄泉轻剑",
@@ -57906,38 +57528,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "岚尘金蛇#42501 (30700 特效 会心 无双)": {
-                    "id": 42501,
-                    "name": "岚尘金蛇",
-                    "level": 30700,
-                    "score": 66312,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9523,
-                        "weapon_damage_rand": 6348
-                    },
-                    "magic": {
-                        "vitality_base": 20225,
-                        "agility_base": 1650,
-                        "physical_attack_power_base": 8253,
-                        "physical_critical_strike_base": 13790,
-                        "strain_base": 13330
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_17373_1"
-                    ],
-                    "gains": [
-                        "gain_19_1",
-                        "gain_22288_1"
-                    ]
-                },
                 "苌弘化碧#42500 (30700 会心 无双)": {
                     "id": 42500,
                     "name": "苌弘化碧",
@@ -57947,33 +57537,6 @@ EQUIPMENTS = {
                     "base": {
                         "weapon_damage_base": 6190,
                         "weapon_damage_rand": 4126
-                    },
-                    "magic": {
-                        "vitality_base": 20225,
-                        "agility_base": 1650,
-                        "physical_attack_power_base": 8253,
-                        "physical_critical_strike_base": 13790,
-                        "strain_base": 13330
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "云作雪#41310 (30700 会心 无双)": {
-                    "id": 41310,
-                    "name": "云作雪",
-                    "level": 30700,
-                    "score": 66312,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9523,
-                        "weapon_damage_rand": 6348
                     },
                     "magic": {
                         "vitality_base": 20225,
@@ -58019,46 +57582,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "寂夜听雷#40305 (22000 特效 会心 破防 加速)": {
-                    "id": 40305,
-                    "name": "寂夜听雷",
-                    "level": 22000,
-                    "score": 66000,
-                    "max_strength": 8,
-                    "base": {
-                        "weapon_damage_base": 9477,
-                        "weapon_damage_rand": 6318
-                    },
-                    "magic": {
-                        "vitality_base": 20130,
-                        "agility_base": 1642,
-                        "physical_attack_power_base": 7965,
-                        "physical_critical_strike_base": 11895,
-                        "physical_overcome_base": 9150,
-                        "haste_base": 4575
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_1538_1",
-                        "recipe_1539_1",
-                        "recipe_17368_1",
-                        "recipe_17239_1",
-                        "recipe_17372_1",
-                        "recipe_17371_1"
-                    ],
-                    "gains": [
-                        "",
-                        "gain_25776_1",
-                        "gain_39088_1",
-                        "gain_1882_8"
-                    ]
-                },
                 "伏魔悲音#40304 (22000 特效 会心 破防 加速)": {
                     "id": 40304,
                     "name": "伏魔悲音",
@@ -58099,33 +57622,6 @@ EQUIPMENTS = {
                         "gain_1881_8"
                     ]
                 },
-                "孤城惊梦·寄锋重剑#43390 (30200 破防 无双)": {
-                    "id": 43390,
-                    "name": "孤城惊梦·寄锋重剑",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "physical_overcome_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "孤城惊梦·寄锋轻剑#43389 (30200 破防 无双)": {
                     "id": 43389,
                     "name": "孤城惊梦·寄锋轻剑",
@@ -58152,35 +57648,6 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
-                },
-                "寻踪觅宝·重泉重剑#42608 (30200 破招 无双)": {
-                    "id": 42608,
-                    "name": "寻踪觅宝·重泉重剑",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "surplus_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        ""
-                    ]
                 },
                 "寻踪觅宝·曲柳轻剑#42607 (30200 破招 无双)": {
                     "id": 42607,
@@ -58211,33 +57678,6 @@ EQUIPMENTS = {
                         ""
                     ]
                 },
-                "金泉#41372 (30200 破招 无双)": {
-                    "id": 41372,
-                    "name": "金泉",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "surplus_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "玉涧#41371 (30200 破招 无双)": {
                     "id": 41371,
                     "name": "玉涧",
@@ -58264,35 +57704,6 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
-                },
-                "烟雨淬锋#41272 (30200 特效 破防 无双)": {
-                    "id": 41272,
-                    "name": "烟雨淬锋",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "physical_overcome_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_4877_76"
-                    ]
                 },
                 "孤山梅#41271 (30200 特效 破防 无双)": {
                     "id": 41271,
@@ -58323,33 +57734,6 @@ EQUIPMENTS = {
                         "gain_4877_76"
                     ]
                 },
-                "穆如重剑#41256 (30200 破招 无双)": {
-                    "id": 41256,
-                    "name": "穆如重剑",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "surplus_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "穆如轻剑#41255 (30200 破招 无双)": {
                     "id": 41255,
                     "name": "穆如轻剑",
@@ -58359,33 +57743,6 @@ EQUIPMENTS = {
                     "base": {
                         "weapon_damage_base": 6089,
                         "weapon_damage_rand": 4059
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "surplus_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "穆如重剑#41238 (30200 破招 无双)": {
-                    "id": 41238,
-                    "name": "穆如重剑",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
                     },
                     "magic": {
                         "vitality_base": 19896,
@@ -58431,33 +57788,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "夕岚重剑#41216 (30200 会心 无双)": {
-                    "id": 41216,
-                    "name": "夕岚重剑",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "physical_critical_strike_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "夕岚轻剑#41215 (30200 会心 无双)": {
                     "id": 41215,
                     "name": "夕岚轻剑",
@@ -58467,33 +57797,6 @@ EQUIPMENTS = {
                     "base": {
                         "weapon_damage_base": 6089,
                         "weapon_damage_rand": 4059
-                    },
-                    "magic": {
-                        "vitality_base": 19896,
-                        "agility_base": 1623,
-                        "physical_attack_power_base": 8118,
-                        "physical_critical_strike_base": 13565,
-                        "strain_base": 13113
-                    },
-                    "embed": {
-                        "physical_critical_power_base": 321,
-                        "physical_critical_strike_base": 321,
-                        "agility_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "夕岚重剑#41198 (30200 会心 无双)": {
-                    "id": 41198,
-                    "name": "夕岚重剑",
-                    "level": 30200,
-                    "score": 65232,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 9367,
-                        "weapon_damage_rand": 6245
                     },
                     "magic": {
                         "vitality_base": 19896,
@@ -58538,46 +57841,6 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
-                },
-                "寂夜听雷#40273 (20750 特效 会心 破防 加速)": {
-                    "id": 40273,
-                    "name": "寂夜听雷",
-                    "level": 20750,
-                    "score": 62250,
-                    "max_strength": 8,
-                    "base": {
-                        "weapon_damage_base": 8939,
-                        "weapon_damage_rand": 5959
-                    },
-                    "magic": {
-                        "vitality_base": 18986,
-                        "agility_base": 1549,
-                        "physical_attack_power_base": 7513,
-                        "physical_critical_strike_base": 11219,
-                        "physical_overcome_base": 8630,
-                        "haste_base": 4315
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [
-                        "recipe_1538_1",
-                        "recipe_1539_1",
-                        "recipe_17368_1",
-                        "recipe_17239_1",
-                        "recipe_17372_1",
-                        "recipe_17371_1"
-                    ],
-                    "gains": [
-                        "",
-                        "gain_25776_1",
-                        "gain_39088_5",
-                        "gain_1882_8"
-                    ]
                 },
                 "伏魔悲音#40272 (20750 特效 会心 破防 加速)": {
                     "id": 40272,
@@ -67401,6 +66664,749 @@ EQUIPMENTS = {
                         "gain_25766_1",
                         "gain_39088_5",
                         "gain_1854_8"
+                    ]
+                }
+            }
+        }
+    },
+    "big_sword": {
+        "藏剑": {
+            "外功": {
+                "寂夜听雷#43582 (29700 特效 会心 破防 加速)": {
+                    "id": 43582,
+                    "name": "寂夜听雷",
+                    "level": 29700,
+                    "score": 89100,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 12795,
+                        "weapon_damage_rand": 8530
+                    },
+                    "magic": {
+                        "vitality_base": 27176,
+                        "agility_base": 2217,
+                        "physical_attack_power_base": 10753,
+                        "physical_critical_strike_base": 16058,
+                        "physical_overcome_base": 12353,
+                        "haste_base": 6176
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_9",
+                        "gain_1882_8"
+                    ]
+                },
+                "寂夜听雷#43549 (27500 特效 会心 破防 加速)": {
+                    "id": 43549,
+                    "name": "寂夜听雷",
+                    "level": 27500,
+                    "score": 82500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11847,
+                        "weapon_damage_rand": 7898
+                    },
+                    "magic": {
+                        "vitality_base": 25163,
+                        "agility_base": 2053,
+                        "physical_attack_power_base": 9956,
+                        "physical_critical_strike_base": 14869,
+                        "physical_overcome_base": 11438,
+                        "haste_base": 5719
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_8",
+                        "gain_1882_8"
+                    ]
+                },
+                "俯眺曲水#42762 (35900 会心 无双)": {
+                    "id": 42762,
+                    "name": "俯眺曲水",
+                    "level": 35900,
+                    "score": 77544,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 11136,
+                        "weapon_damage_rand": 7424
+                    },
+                    "magic": {
+                        "vitality_base": 23651,
+                        "agility_base": 1930,
+                        "physical_attack_power_base": 9650,
+                        "physical_critical_strike_base": 16126,
+                        "strain_base": 15588
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "波光浮槛#42825 (35300 破招 无双)": {
+                    "id": 42825,
+                    "name": "波光浮槛",
+                    "level": 35300,
+                    "score": 76248,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10950,
+                        "weapon_damage_rand": 7300
+                    },
+                    "magic": {
+                        "vitality_base": 23256,
+                        "agility_base": 1897,
+                        "physical_attack_power_base": 9489,
+                        "surplus_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "西陵江月#42723 (35300 特效 破防 无双)": {
+                    "id": 42723,
+                    "name": "西陵江月",
+                    "level": 35300,
+                    "score": 76248,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10950,
+                        "weapon_damage_rand": 7300
+                    },
+                    "magic": {
+                        "vitality_base": 23256,
+                        "agility_base": 1897,
+                        "physical_attack_power_base": 9489,
+                        "physical_overcome_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4877_80"
+                    ]
+                },
+                "断桥重剑#42707 (35300 破招 无双)": {
+                    "id": 42707,
+                    "name": "断桥重剑",
+                    "level": 35300,
+                    "score": 76248,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10950,
+                        "weapon_damage_rand": 7300
+                    },
+                    "magic": {
+                        "vitality_base": 23256,
+                        "agility_base": 1897,
+                        "physical_attack_power_base": 9489,
+                        "surplus_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "断桥重剑#42688 (35300 破招 无双)": {
+                    "id": 42688,
+                    "name": "断桥重剑",
+                    "level": 35300,
+                    "score": 76248,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10950,
+                        "weapon_damage_rand": 7300
+                    },
+                    "magic": {
+                        "vitality_base": 23256,
+                        "agility_base": 1897,
+                        "physical_attack_power_base": 9489,
+                        "surplus_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "流泉重剑#42666 (35300 会心 无双)": {
+                    "id": 42666,
+                    "name": "流泉重剑",
+                    "level": 35300,
+                    "score": 76248,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10950,
+                        "weapon_damage_rand": 7300
+                    },
+                    "magic": {
+                        "vitality_base": 23256,
+                        "agility_base": 1897,
+                        "physical_attack_power_base": 9489,
+                        "physical_critical_strike_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "流泉重剑#42647 (35300 会心 无双)": {
+                    "id": 42647,
+                    "name": "流泉重剑",
+                    "level": 35300,
+                    "score": 76248,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10950,
+                        "weapon_damage_rand": 7300
+                    },
+                    "magic": {
+                        "vitality_base": 23256,
+                        "agility_base": 1897,
+                        "physical_attack_power_base": 9489,
+                        "physical_critical_strike_base": 15856,
+                        "strain_base": 15328
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "寂夜听雷#42156 (25300 特效 会心 破防 加速)": {
+                    "id": 42156,
+                    "name": "寂夜听雷",
+                    "level": 25300,
+                    "score": 75900,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10899,
+                        "weapon_damage_rand": 7266
+                    },
+                    "magic": {
+                        "vitality_base": 23150,
+                        "agility_base": 1889,
+                        "physical_attack_power_base": 9160,
+                        "physical_critical_strike_base": 13679,
+                        "physical_overcome_base": 10523,
+                        "haste_base": 5261
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_7",
+                        "gain_1882_8"
+                    ]
+                },
+                "寂夜听雷#42124 (23650 特效 会心 破防 加速)": {
+                    "id": 42124,
+                    "name": "寂夜听雷",
+                    "level": 23650,
+                    "score": 70950,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10188,
+                        "weapon_damage_rand": 6792
+                    },
+                    "magic": {
+                        "vitality_base": 21640,
+                        "agility_base": 1765,
+                        "physical_attack_power_base": 8562,
+                        "physical_critical_strike_base": 12787,
+                        "physical_overcome_base": 9836,
+                        "haste_base": 4918
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_6",
+                        "gain_1882_8"
+                    ]
+                },
+                "娄泉重剑#43786 (32500 会心 无双)": {
+                    "id": 43786,
+                    "name": "娄泉重剑",
+                    "level": 32500,
+                    "score": 70200,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 10081,
+                        "weapon_damage_rand": 6721
+                    },
+                    "magic": {
+                        "vitality_base": 21411,
+                        "agility_base": 1747,
+                        "physical_attack_power_base": 8736,
+                        "physical_critical_strike_base": 14598,
+                        "strain_base": 14112
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "岚尘金蛇#42501 (30700 特效 会心 无双)": {
+                    "id": 42501,
+                    "name": "岚尘金蛇",
+                    "level": 30700,
+                    "score": 66312,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9523,
+                        "weapon_damage_rand": 6348
+                    },
+                    "magic": {
+                        "vitality_base": 20225,
+                        "agility_base": 1650,
+                        "physical_attack_power_base": 8253,
+                        "physical_critical_strike_base": 13790,
+                        "strain_base": 13330
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_17373_1"
+                    ],
+                    "gains": [
+                        "gain_19_1",
+                        "gain_22288_1"
+                    ]
+                },
+                "云作雪#41310 (30700 会心 无双)": {
+                    "id": 41310,
+                    "name": "云作雪",
+                    "level": 30700,
+                    "score": 66312,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9523,
+                        "weapon_damage_rand": 6348
+                    },
+                    "magic": {
+                        "vitality_base": 20225,
+                        "agility_base": 1650,
+                        "physical_attack_power_base": 8253,
+                        "physical_critical_strike_base": 13790,
+                        "strain_base": 13330
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "寂夜听雷#40305 (22000 特效 会心 破防 加速)": {
+                    "id": 40305,
+                    "name": "寂夜听雷",
+                    "level": 22000,
+                    "score": 66000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9477,
+                        "weapon_damage_rand": 6318
+                    },
+                    "magic": {
+                        "vitality_base": 20130,
+                        "agility_base": 1642,
+                        "physical_attack_power_base": 7965,
+                        "physical_critical_strike_base": 11895,
+                        "physical_overcome_base": 9150,
+                        "haste_base": 4575
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_1",
+                        "gain_1882_8"
+                    ]
+                },
+                "孤城惊梦·寄锋重剑#43390 (30200 破防 无双)": {
+                    "id": 43390,
+                    "name": "孤城惊梦·寄锋重剑",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "physical_overcome_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "寻踪觅宝·重泉重剑#42608 (30200 破招 无双)": {
+                    "id": 42608,
+                    "name": "寻踪觅宝·重泉重剑",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "surplus_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        ""
+                    ]
+                },
+                "金泉#41372 (30200 破招 无双)": {
+                    "id": 41372,
+                    "name": "金泉",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "surplus_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "烟雨淬锋#41272 (30200 特效 破防 无双)": {
+                    "id": 41272,
+                    "name": "烟雨淬锋",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "physical_overcome_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4877_76"
+                    ]
+                },
+                "穆如重剑#41256 (30200 破招 无双)": {
+                    "id": 41256,
+                    "name": "穆如重剑",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "surplus_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "穆如重剑#41238 (30200 破招 无双)": {
+                    "id": 41238,
+                    "name": "穆如重剑",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "surplus_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "夕岚重剑#41216 (30200 会心 无双)": {
+                    "id": 41216,
+                    "name": "夕岚重剑",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "physical_critical_strike_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "夕岚重剑#41198 (30200 会心 无双)": {
+                    "id": 41198,
+                    "name": "夕岚重剑",
+                    "level": 30200,
+                    "score": 65232,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9367,
+                        "weapon_damage_rand": 6245
+                    },
+                    "magic": {
+                        "vitality_base": 19896,
+                        "agility_base": 1623,
+                        "physical_attack_power_base": 8118,
+                        "physical_critical_strike_base": 13565,
+                        "strain_base": 13113
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 321,
+                        "physical_critical_strike_base": 321,
+                        "agility_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "寂夜听雷#40273 (20750 特效 会心 破防 加速)": {
+                    "id": 40273,
+                    "name": "寂夜听雷",
+                    "level": 20750,
+                    "score": 62250,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8939,
+                        "weapon_damage_rand": 5959
+                    },
+                    "magic": {
+                        "vitality_base": 18986,
+                        "agility_base": 1549,
+                        "physical_attack_power_base": 7513,
+                        "physical_critical_strike_base": 11219,
+                        "physical_overcome_base": 8630,
+                        "haste_base": 4315
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_5",
+                        "gain_1882_8"
                     ]
                 }
             }
