@@ -160,12 +160,45 @@ class Builder:
         for skill_id in pop_skills:
             self.skill_recipes.pop(skill_id, None)
 
+    @staticmethod
+    def build_skill_code(skills):
+        code = {}
+        for skill_id, skill_levels in skills.items():
+            code[skill_id] = {}
+            for skill_level, item in skill_levels.items():
+                content = code[skill_id][skill_level] = item.to_dict()
+                if damages := content.pop('damages', []):
+                    content['damages'] = [damage['damage'] for damage in damages]
+                if critical := content.pop('critical', {}):
+                    content['critical_strike'] = critical['critical_strike']
+                    content['critical_power'] = critical['critical_power']
+        return code
+
+    @property
+    def dot_code(self):
+        code = {}
+        for kungfu_id, dot_ids in self.all_dots.items():
+            code[kungfu_id] = {}
+            for dot_id, dot_levels in dot_ids.items():
+                code[kungfu_id][dot_id] = {}
+                for dot_level, item in dot_levels.items():
+                    content = code[kungfu_id][dot_id][dot_level] = item.to_dict()
+                    content['skills'] = self.build_skill_code(item.skills)
+        return code
+
+    @property
+    def skill_code(self):
+        code = {}
+        for kungfu_id, skills in self.all_skills.items():
+            code[kungfu_id] = self.build_skill_code(skills)
+        return code
+
     def save(self):
         save_code("buffs", self.all_buffs),
         save_json("buffs", self.all_buffs)
-        save_code("dots", self.all_dots),
+        save_code("dots", self.dot_code),
         save_json("dots", self.all_dots)
-        save_code("skills", self.all_skills),
+        save_code("skills", self.skill_code),
         save_json("skills", self.all_skills)
         save_code("belongs", self.all_belongs),
         save_json("belongs", self.all_belongs)

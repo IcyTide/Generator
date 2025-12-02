@@ -11,8 +11,7 @@ def set_recipe_to_skill(engine: Engine, recipe, skills: dict[int, dict[int, Skil
             if not recipe.check_skill(skill):
                 continue
             skill.recipe_key = recipe.recipe_key
-            if not skill.interval:
-                skill.damage_addition += int(recipe.damage_add_percent) * skill.recipe_key
+            skill.damage_gain += int(recipe.damage_add_percent) * skill.recipe_key
             if skill.prepare_frames:
                 skill.prepare_frames += int(recipe.prepare_frames_add) * skill.recipe_key
             engine.get_skill_recipe_data(skill, recipe.recipe_id, recipe.recipe_level)

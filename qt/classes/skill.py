@@ -11,9 +11,9 @@ class Skill:
 
     name: str = ""
     comment: str = ""
-    damage: str | Expression = ""
-    critical_damage: str | Expression = ""
+    damages: list[str | Expression] = []
     critical_strike: str | Expression = ""
+    critical_power: str | Expression = ""
     attributes: dict[str, int] = {}
 
     def __init__(self, belong: str, skill_id: int, skill_level: int, count: float = 1., **kwargs):
@@ -24,9 +24,9 @@ class Skill:
         self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
-        self.damage = parse_expr(self.damage)
-        self.critical_damage = parse_expr(self.critical_damage)
+        self.damages = [parse_expr(damage) for damage in self.damages]
         self.critical_strike = parse_expr(self.critical_strike)
+        self.critical_power = parse_expr(self.critical_power)
 
     def __iter__(self):
         yield str(self)

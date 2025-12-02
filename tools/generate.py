@@ -167,6 +167,8 @@ def get_equip_tags(detail):
     if detail['school'] == "精简":
         tags += ["精简"]
     for attr in detail['magic']:
+        if detail.get('skill') and "特效" not in tags:
+            tags += ["特效"]
         if attr['attr_type'] == "event" and attr['value'] and "特效" not in tags:
             tags += ["特效"]
             continue
@@ -281,11 +283,13 @@ def get_equip_detail(row):
     detail['magic'] = get_magic_attrs(row)
     detail['embed'] = get_embed_attrs(row)
     detail['set_id'], detail['sets'] = get_set_attrs(row)
-    detail['tags'] = get_equip_tags(detail)
 
     if row['SkillID']:
         detail['skill'] = int(row['SkillID']), int(row['SkillLevel'])
+    detail['tags'] = get_equip_tags(detail)
 
+    if detail['position'] == "primary_weapon" and row['DetailType'] == 9:
+        detail['position'] = "big_sword"
     return detail
 
 

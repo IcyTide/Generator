@@ -479,7 +479,7 @@ BELONGS = {
         10003: {
             "name": "易筋经",
             "attributes": {
-                "pve_addition_base": 287,
+                "pve_damage_cof": 287,
                 "magical_shield_base": 2113,
                 "physical_shield_base": 1800,
                 "spunk_to_solar_attack_power": 2007,
@@ -1021,7 +1021,7 @@ BELONGS = {
                 "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "neutral_critical_strike_base": 5527,
-                "pve_addition_base": 522,
+                "pve_damage_cof": 522,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -1319,7 +1319,7 @@ BELONGS = {
         5802: {
             "name": "解牛",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "buffs": [
                 27045
@@ -1537,7 +1537,7 @@ BELONGS = {
                 "max_life_gain": 245,
                 "physical_critical_strike_base": 9025,
                 "physical_attack_power_base": 6187,
-                "pve_addition_base": 492,
+                "pve_damage_cof": 492,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -1777,7 +1777,7 @@ BELONGS = {
         5802: {
             "name": "解牛",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "buffs": [
                 27045
@@ -1986,7 +1986,7 @@ BELONGS = {
                 "spunk_to_neutral_attack_power": 2079,
                 "spunk_to_neutral_overcome": 205,
                 "max_life_gain": 245,
-                "pve_addition_base": 369,
+                "pve_damage_cof": 369,
                 "magical_attack_power_base": 7242,
                 "decritical_power_rate": 102
             },
@@ -2505,7 +2505,7 @@ BELONGS = {
                 "decritical_power_rate": 102,
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2715,
-                "pve_addition_base": 338,
+                "pve_damage_cof": 338,
                 "strength_to_physical_attack_power": 1843,
                 "strength_to_physical_overcome": 287,
                 "max_life_gain": 245,
@@ -2800,7 +2800,7 @@ BELONGS = {
         5673: {
             "name": "飞将",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "skills": [
                 20778
@@ -3606,7 +3606,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2191,
                 "physical_shield_base": 1721,
-                "pve_addition_base": 113,
+                "pve_damage_cof": 113,
                 "spirit_to_lunar_attack_power": 2048,
                 "spirit_to_lunar_critical_strike": 297,
                 "max_life_gain": 245,
@@ -4099,7 +4099,7 @@ BELONGS = {
         10144: {
             "name": "问水诀",
             "attributes": {
-                "pve_addition_base": 82,
+                "pve_damage_cof": 82,
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1843,
@@ -4600,7 +4600,7 @@ BELONGS = {
         25017: {
             "name": "岫烟",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "desc": "对定身、眩晕、击倒的目标造成伤害提高30%。",
             "belong_key": "belong_25017"
@@ -4636,7 +4636,7 @@ BELONGS = {
         10175: {
             "name": "毒经",
             "attributes": {
-                "pve_addition_base": 205,
+                "pve_damage_cof": 205,
                 "magical_shield_base": 3913,
                 "physical_shield_base": 2850,
                 "spirit_to_poison_attack_power": 2079,
@@ -5202,7 +5202,7 @@ BELONGS = {
                 "decritical_power_rate": 102,
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
-                "pve_addition_base": 246,
+                "pve_damage_cof": 246,
                 "strength_to_physical_attack_power": 1731,
                 "strength_to_physical_critical_strike": 707,
                 "max_life_gain": 245,
@@ -5472,7 +5472,7 @@ BELONGS = {
         42449: {
             "name": "避锐击惰",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "desc": "对锁足，眩晕状态的目标伤害提高15%。",
             "belong_key": "belong_42449"
@@ -5703,7 +5703,7 @@ BELONGS = {
         10225: {
             "name": "天罗诡道",
             "attributes": {
-                "pve_addition_base": 225,
+                "pve_damage_cof": 225,
                 "magical_shield_base": 3130,
                 "physical_shield_base": 2850,
                 "spunk_to_poison_attack_power": 1946,
@@ -6177,7 +6177,7 @@ BELONGS = {
         10242: {
             "name": "焚影圣诀",
             "attributes": {
-                "pve_addition_base": 123,
+                "pve_damage_cof": 123,
                 "magical_shield_base": 3314,
                 "physical_shield_base": 2850,
                 "spunk_to_solar_and_lunar_attack_power": 2038,
@@ -8105,7 +8105,7 @@ BELONGS = {
             "name": "恋战",
             "attributes": {
                 "decritical_power_gain": -410,
-                "all_damage_addition": 102
+                "all_damage_gain": 102
             },
             "desc": "自身化劲等级降低40%，招式伤害提高10%。",
             "belong_key": "belong_13126"
@@ -8331,7 +8331,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
-                "pve_addition_base": 358,
+                "pve_damage_cof": 358,
                 "agility_to_physical_attack_power": 1925,
                 "agility_to_parry": 113,
                 "agility_to_parry_value": 1024,
@@ -8659,7 +8659,7 @@ BELONGS = {
         14838: {
             "name": "刀煞",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "recipes": [
                 "recipe_5745_1",
@@ -8860,7 +8860,7 @@ BELONGS = {
                 "lunar_critical_strike_base": 3962,
                 "spirit_to_lunar_attack_power": 2007,
                 "spirit_to_lunar_critical_strike": 410,
-                "pve_addition_base": 51,
+                "pve_damage_cof": 51,
                 "decritical_power_rate": 102
             },
             "dots": {
@@ -9368,7 +9368,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2955,
-                "pve_addition_base": 215,
+                "pve_damage_cof": 215,
                 "strength_to_physical_attack_power": 1802,
                 "strength_to_physical_overcome": 420,
                 "max_life_gain": 245,
@@ -9548,7 +9548,7 @@ BELONGS = {
                 16943,
                 16944
             ],
-            "desc": "竹雾体态下方可施展，共六式，成功施展二式“擒龙六斩”获得一次“碎江天”施展机会，可叠加3层。每次施展消耗5点刀魂并增加8秒调息时间，对目标最低造成<SKILL_[16933_0;16934_0] PhysicsDamage>点(+<SKILLEx {D0} {SkillPhysicsAP_[16933_0;16934_0]}>)外功伤害并附带一段破招伤害，最高造成<SKILL_[16943_0;16944_0] PhysicsDamage>点(+<SKILLEx {D0} {SkillPhysicsAP_[16943_0;16944_0]}>)外功伤害并附带一段破招伤害。<TALENT 16954 1 每段使目标下一次技能命中几率降低10%，可叠加6层><TALENT 16930 1 每施展二式“擒龙六斩”积累一次“碎江天”施展机会，可叠加3层><TALENT 20812 1 若累积施展6斩“擒龙六斩”，可施展第七式招式，当前“松烟竹雾”体态进入“爆体”状态，立即重置“殷雷腿”套路下招式，免疫任何控制效果，伤害提高30%，自身加速提高20%，持续15秒><TALENT 16691 1 变为六层透支招式，施展距离变为6尺，施展后返还6秒调息时间且自身不再进入僵直状态，招式不再附带冲刺和控制效果且占用1.5秒公共调息时间><TALENT 42410 1 >",
+            "desc": "竹雾体态下方可施展，共六式，成功施展二式“擒龙六斩”获得一次“碎江天”施展机会，可叠加3层。每次施展消耗5点刀魂并增加8秒调息时间，对目标最低造成<SKILL_[16933_0;16934_0] PhysicsDamage>点(+<SKILLEx {D0} {SkillPhysicsAP_[16933_0;16934_0]}>)外功伤害并附带一段破招伤害，最高造成<SKILL_[16943_0;16944_0] PhysicsDamage>点(+<SKILLEx {D0} {SkillPhysicsAP_[16943_0;16944_0]}>)外功伤害并附带一段破招伤害。一式附带锁足效果。<TALENT 16954 1 每段使目标下一次技能命中几率降低10%，可叠加6层><TALENT 16930 1 每施展二式“擒龙六斩”积累一次“碎江天”施展机会，可叠加3层><TALENT 20812 1 若累积施展6斩“擒龙六斩”，可施展第七式招式，当前“松烟竹雾”体态进入“爆体”状态，立即重置“殷雷腿”套路下招式，免疫任何控制效果，伤害提高30%，自身加速提高20%，持续15秒><TALENT 16691 1 变为六层透支招式，施展距离变为6尺，施展后返还6秒调息时间且自身不再进入僵直状态，招式不再附带冲刺和控制效果且占用1.5秒公共调息时间><TALENT 42410 1 >",
             "belong_key": "belong_16870"
         },
         16027: {
@@ -9888,7 +9888,7 @@ BELONGS = {
             "recipes": [
                 "recipe_3283_1"
             ],
-            "desc": "“擒龙六斩”变为六层透支招式，施展距离变为6尺，施展后返还8秒调息时间且自身不再进入僵直状态，招式不再附带冲刺和控制效果且占用除“碎江天”外招式1.5秒公共调息时间。",
+            "desc": "“擒龙六斩”变为六层透支招式，施展距离变为6尺，施展后返还8秒调息时间且自身不再进入僵直状态，招式不再附带冲刺和僵直控制效果且占用除“碎江天”外招式1.5秒公共调息时间。",
             "belong_key": "belong_16691"
         },
         16911: {
@@ -9955,7 +9955,7 @@ BELONGS = {
         10533: {
             "name": "凌海诀",
             "attributes": {
-                "pve_addition_base": 389,
+                "pve_damage_cof": 389,
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1802,
@@ -10229,7 +10229,7 @@ BELONGS = {
         20729: {
             "name": "奋翼",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "desc": "对击倒状态的目标伤害提高20%。若自身成功击倒目标，则在目标身后最远6尺位置生成“伞影”（每0.25秒最多生成一个）。",
             "belong_key": "belong_20729"
@@ -10466,7 +10466,7 @@ BELONGS = {
         10585: {
             "name": "隐龙诀",
             "attributes": {
-                "pve_addition_base": 348,
+                "pve_damage_cof": 348,
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
                 "agility_to_physical_attack_power": 1772,
@@ -10968,7 +10968,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
-                "pve_addition_base": 307,
+                "pve_damage_cof": 307,
                 "spunk_to_neutral_attack_power": 1976,
                 "spunk_to_neutral_critical_strike": 512,
                 "max_life_gain": 245,
@@ -11428,7 +11428,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2347,
-                "pve_addition_base": 317,
+                "pve_damage_cof": 317,
                 "spirit_to_poison_attack_power": 1976,
                 "spirit_to_poison_overcome": 512,
                 "max_life_gain": 245,
@@ -11908,7 +11908,7 @@ BELONGS = {
                 "max_life_gain": 245,
                 "physical_critical_strike_base": 9025,
                 "physical_attack_power_base": 6187,
-                "pve_addition_base": 246,
+                "pve_damage_cof": 246,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -12132,7 +12132,7 @@ BELONGS = {
         35726: {
             "name": "射革",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "desc": "对锁足、定身、眩晕、击倒目标造成伤害提高15%。",
             "belong_key": "belong_35726"
@@ -12304,7 +12304,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2850,
-                "pve_addition_base": 154,
+                "pve_damage_cof": 154,
                 "strength_to_physical_attack_power": 1843,
                 "strength_to_physical_critical_strike": 287,
                 "max_life_gain": 245,
@@ -12844,7 +12844,7 @@ BELONGS = {
                 "spunk_to_neutral_critical_strike": 461,
                 "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
-                "pve_addition_base": 584,
+                "pve_damage_cof": 584,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -13200,7 +13200,7 @@ BELONGS = {
         40241: {
             "name": "定元",
             "attributes": {
-                "move_state_damage_addition": 0
+                "move_state_damage_gain": 0
             },
             "desc": "对定身、击倒、被拉状态的目标造成伤害提高7%。",
             "belong_key": "belong_40241"
@@ -13275,7 +13275,7 @@ BELONGS = {
                 "spirit_to_lunar_critical_strike": 512,
                 "lunar_critical_strike_base": 2412,
                 "max_life_gain": 245,
-                "pve_addition_base": 348,
+                "pve_damage_cof": 348,
                 "decritical_power_rate": 102
             },
             "dots": {
@@ -13721,7 +13721,7 @@ BELONGS = {
                 "magical_attack_power_base": 6518,
                 "neutral_critical_strike_base": 5527,
                 "all_shield_ignore": 614,
-                "pve_addition_base": 789,
+                "pve_damage_cof": 789,
                 "decritical_power_rate": 102
             },
             "skills": [
@@ -13942,7 +13942,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 2955,
-                "pve_addition_base": 676,
+                "pve_damage_cof": 676,
                 "all_shield_ignore": 614,
                 "strength_to_physical_attack_power": 1802,
                 "strength_to_physical_overcome": 420,
@@ -14189,7 +14189,7 @@ BELONGS = {
                 "max_life_gain": 245,
                 "magical_attack_power_base": 6663,
                 "poison_overcome_base": 5527,
-                "pve_addition_base": 604,
+                "pve_damage_cof": 604,
                 "all_shield_ignore": 614,
                 "decritical_power_rate": 102
             },
@@ -14414,7 +14414,7 @@ BELONGS = {
                 "max_life_gain": 245,
                 "magical_attack_power_base": 6518,
                 "all_shield_ignore": 614,
-                "pve_addition_base": 870,
+                "pve_damage_cof": 870,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -14616,7 +14616,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2347,
                 "physical_shield_base": 2850,
-                "pve_addition_base": 911,
+                "pve_damage_cof": 911,
                 "all_shield_ignore": 614,
                 "spirit_to_lunar_attack_power": 1974,
                 "spirit_to_lunar_critical_strike": 512,

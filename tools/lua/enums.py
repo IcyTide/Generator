@@ -58,8 +58,10 @@ class SKILL_KIND_TYPE(StrEnum):
     LUNAR_MAGIC = "lunar"
     NEUTRAL_MAGIC = "neutral"
     POISON = "poison"
-    ADAPTIVE = ""
+    MAGIC = "magical"
+    ADAPTIVE = "adaptive"
     LEAP = ""
+    NONE = ""
 
 
 class MOVE_STATE(IntEnum):
@@ -447,11 +449,11 @@ class ATTRIBUTE_TYPE(StrEnum):
     UNLIMIT_HASTE_BASE_PERCENT_ADD = "unlimit_haste_rate"
 
     ALL_SHIELD_IGNORE_PERCENT = "all_shield_ignore"
-    ALL_DAMAGE_ADD_PERCENT = "all_damage_addition"
-    ALL_PHYSICS_DAMAGE_ADD_PERCENT = "physical_damage_addition"
-    ALL_MAGIC_DAMAGE_ADD_PERCENT = "magical_damage_addition"
-    ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_addition"
-    DST_NPC_DAMAGE_COEFFICIENT = "pve_addition_base"
+    ALL_DAMAGE_ADD_PERCENT = "all_damage_gain"
+    ALL_PHYSICS_DAMAGE_ADD_PERCENT = "physical_damage_gain"
+    ALL_MAGIC_DAMAGE_ADD_PERCENT = "magical_damage_gain"
+    ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_gain"
+    DST_NPC_DAMAGE_COEFFICIENT = "pve_damage_cof"
     GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
     SKILL_DAMAGE_FINAL_COF = "skill_damage_final_cof"
 
@@ -465,6 +467,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     BE_THERAPY_COEFFICIENT = ""
 
     # Cof Attribute
+    VITALITY_TO_MAX_LIFE_COF = "vitality_to_max_life"
     VITALITY_TO_MAX_MANA_COF = ""
     VITALITY_TO_PARRY_COF = "vitality_to_parry"
     VITALITY_TO_PARRY_VALUE_COF = "vitality_to_parry_value"
@@ -508,8 +511,6 @@ class ATTRIBUTE_TYPE(StrEnum):
     VITALITY_TO_PHYSICS_OVER_COME_COF = "vitality_to_physical_overcome"
     VITALITY_TO_MAGIC_OVER_COME_COF = "vitality_to_magical_overcome"
     VITALITY_TO_MAGIC_CRITICAL_STRIKE_COF = "vitality_to_magical_critical_strike"
-    VITALITY_TO_MAX_LIFE_COF = "vitality_to_max_life"
-
 
 class BUFF_COMPARE_FLAG(IntEnum):
     EQUAL = auto()

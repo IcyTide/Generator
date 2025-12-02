@@ -14,8 +14,8 @@ BUFFS: dict[int, dict] = {
         1: dict(
             name="明赦尊谕缩放",
             attributes=[(
-                "global_damage_scale",
-                0.84 * Variable("buff_key") + 1 - Ceil(Variable("buff_key") / (Variable("buff_key") + 1))
+                "global_damage_factor",
+                (-1 << 20) * (1 - 0.84 * Variable("buff_key"))
             )],
             skills=[19055, 35065, 34985]
         )

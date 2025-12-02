@@ -4,7 +4,7 @@ from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, F
     PHYSICAL_DAMAGE_SCALE
 from base.expression import Expression, Int
 from tools.classes import AliasBase
-from tools.classes.attribute import Attribute, Target
+from tools.classes.attribute import Attribute
 from tools.classes.damage import DamageChain
 from tools.lua.enums import ATTRIBUTE_EFFECT_MODE, ATTRIBUTE_TYPE, SKILL_KIND_TYPE
 from tools.settings import skill_settings, skill_txts
@@ -46,7 +46,7 @@ class Skill(AliasBase):
     weapon_request: bool
     use_skill_coefficient: bool
 
-    damage_addition: int = 0
+    damage_gain: int = 0
 
     skill_coefficient: int = 0
     dot_coefficient: int = 0
@@ -107,6 +107,8 @@ class Skill(AliasBase):
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
         if not attr_type:
             return
+        if attr_type in [ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER, ATTRIBUTE_TYPE.SET_TALENT_RECIPE]:
+            return
         param = process_attr_param(attr_type, param_1, param_2)
         if not param:
             return
@@ -125,7 +127,7 @@ class Skill(AliasBase):
         self.buff_recipes.add((recipe_id, recipe_level))
 
     @property
-    def physical_attack_power_cof(self):
+    def frames(self):
         if not self.use_skill_coefficient:
             return 0
         if self.dot_coefficient and self.interval:
@@ -134,25 +136,21 @@ class Skill(AliasBase):
             frames = self.skill_coefficient
         else:
             frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
+        return frames
+
+    @property
+    def physical_attack_power_cof(self):
         interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
         interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / PHYSICAL_DAMAGE_SCALE
-        return frames * scale
+        return self.frames * scale
 
     @property
     def magical_attack_power_cof(self):
-        if not self.use_skill_coefficient:
-            return 0
-        if self.dot_coefficient and self.interval:
-            frames = self.dot_coefficient
-        elif self.skill_coefficient:
-            frames = self.skill_coefficient
-        else:
-            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
         interval = int(self.interval * self.tick / DOT_DAMAGE_SCALE)
         interval = interval if interval > FRAME_PER_SECOND else FRAME_PER_SECOND
         scale = interval / FRAME_PER_SECOND / self.tick / FRAME_PER_SECOND / MAGICAL_DAMAGE_SCALE
-        return frames * scale
+        return self.frames * scale
 
     @property
     def weapon_damage_cof(self):
@@ -170,20 +168,29 @@ class Skill(AliasBase):
             return DEFAULT_SURPLUS_COF
 
     @property
+    def damage_addition(self):
+        if self.interval:
+            return 0
+        else:
+            return self.damage_gain / BINARY_SCALE
+
+    @property
     def formula(self):
-        source, target = Attribute(), Target()
+        source, target = Attribute(), Attribute()
         damage_chain = target.damage_chain = DamageChain(source, target, self)
-        source.need_int = target.need_int = damage_chain.need_int
         for attr, param in self.self_rollback_attributes:
             source[attr] += param
         for attr, param in self.dest_rollback_attributes:
             target[attr] += param
         # self not rollback attributes no meaning
-        for attr, param in self.dest_attributes:
-            if callable(target[attr]):
-                target[attr](*param)
-            else:
-                target[attr] += param
+        if self.custom_damage_base:
+            target.custom_damage_call()
+        else:
+            for attr, param in self.dest_attributes:
+                if callable(target[attr]):
+                    target[attr](*param)
+                else:
+                    target[attr] += param
         return damage_chain.to_dict()
 
     def to_dict(self):

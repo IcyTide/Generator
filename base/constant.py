@@ -22,6 +22,8 @@ DOT_DAMAGE_SCALE = 12
 PHYSICAL_DAMAGE_SCALE = 10
 MAGICAL_DAMAGE_SCALE = 12
 
+SHIELD_PARAM = 6.364
+
 CRITICAL_STRIKE_SCALE = 9.985 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 CRITICAL_POWER_SCALE = 3.679 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 OVERCOME_SCALE = 11.412 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
@@ -38,19 +40,17 @@ SHIELD_BASE_MAP = {
     131: 33338
 }
 SHIELD_CONSTANT_MAP = {
-    level: 6.364 * (LEVEL_SCALE * level - LEVEL_CONSTANT) for level in SHIELD_BASE_MAP
+    level: SHIELD_PARAM * (LEVEL_SCALE * level - LEVEL_CONSTANT) for level in SHIELD_BASE_MAP
 }
-SHIELD_CONSTANT = 6.364 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
+SHIELD_CONSTANT = SHIELD_PARAM * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 DODGE_CONSTANT = 4.628 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 PARRY_CONSTANT = 5.432 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 
-
-
 BASE_MAJOR = 44
-VITALITY_MAJOR = 45
+BASE_VITALITY = 1
 BASE_CRITICAL_POWER = 1792
-MAX_LIFE_BASE = 160878
-PHYSICAL_SHIELD_BASE = 2850
+BASE_MAX_LIFE = 160878
+BASE_PHYSICAL_SHIELD = 2850
 
 MAX_CRITICAL_STRIKE = 1
 MAX_CRITICAL_POWER = 3
@@ -179,50 +179,41 @@ MAJOR_TYPES = {
     "根骨": "spirit",
     "体质": "vitality"
 }
-CURRENT_VARIABLE_TEMPLATES = [
-    "{}_overcome"
-]
-SNAPSHOT_VARIABLE_TEMPLATES = [
-    "base_{}_attack_power", "{}_attack_power",
-    # "{}_attack_power_gain", "extra_{}_attack_power", # need_int required
-    "{}_critical_strike",
-    "{}_critical_power"
-]
-TARGET_VARIABLE_TEMPLATES = [
-    "{}_shield_base", "{}_shield_gain",
-    "{}_damage_cof"
-]
 CURRENT_VARIABLES = [
     "surplus",
-    "base_weapon_damage", "weapon_damage_rand",
+    "weapon_damage", "weapon_damage_rand",
+    "{}_overcome",
     "all_shield_ignore",
 ]
 SNAPSHOT_VARIABLES = [
+    "base_{}_attack_power", "{}_attack_power_gain", "extra_{}_attack_power", "{}_attack_power",
+    "{}_critical_strike",
+    "{}_critical_power_percent", "{}_critical_power_rate", "unlimit_critical_power_rate", "{}_critical_power",
     "strain",
     "physical_damage_addition", "magical_damage_addition",
-    "skill_damage_cof",
-    "pve_addition_base",
+    "skill_damage_final_addition",
+    "pve_damage_addition",
 ]
 TARGET_VARIABLES = [
-    "damage_cof",
+    "base_{}_shield", "{}_shield_gain", "extra_{}_shield", "{}_shield",
+    "{}_damage_scale", "damage_scale",
     "level",
     "shield_constant"
 ]
 EXTRA_VARIABLES = {
-    "rand": 0.5,
-    "damage": Variable("damage"),
+    "rand": 0.5
 }
 GRAD_VARIABLES = {
-    "major_base": 308,
+    "major_base": 359,
     "vitality_base": 1037,
-    "physical_attack_power_base": 652,
-    "magical_attack_power_base": 728,
-    "weapon_damage_base": 984,
-    "surplus_base": 2401,
-    "strain_base": 2401,
-    "all_overcome_base": 2401,
-    "all_critical_strike_base": 2401,
-    "all_critical_power_base": 2401
+    "physical_attack_power_base": 761,
+    "magical_attack_power_base": 849,
+    "weapon_damage_base": 1148,
+    "surplus_base": 2801,
+    "strain_base": 2801,
+    "all_overcome_base": 2801,
+    "all_critical_strike_base": 2801,
+    "all_critical_power_base": 2801
 }
 
 

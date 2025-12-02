@@ -16,4 +16,4 @@ def main(info: dict):
 
 
 if __name__ == '__main__':
-    main(json.load(open("d.txt", encoding="utf-8")))
+    main(json.load(open("", encoding="utf-8")))

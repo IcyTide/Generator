@@ -167,7 +167,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 103
+                    "all_damage_gain": 103
                 }
             }
         },
@@ -268,7 +268,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 154
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -1274,7 +1274,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 154
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -1321,7 +1321,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 72
+                    "magical_damage_gain": 72
                 }
             }
         },
@@ -1332,7 +1332,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 72
+                    "magical_damage_gain": 72
                 }
             }
         },
@@ -1343,7 +1343,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 72
+                    "magical_damage_gain": 72
                 }
             }
         },
@@ -1354,7 +1354,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 72
+                    "magical_damage_gain": 72
                 }
             }
         },
@@ -1365,7 +1365,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 72
+                    "magical_damage_gain": 72
                 }
             }
         }
@@ -2088,7 +2088,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 102
+                    "all_damage_gain": 102
                 }
             }
         },
@@ -2347,7 +2347,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "unlimit_haste_rate": 102,
-                    "all_damage_addition": 102
+                    "all_damage_gain": 102
                 }
             }
         },
@@ -2498,7 +2498,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 103
+                    "all_damage_gain": 103
                 }
             }
         },
@@ -2679,7 +2679,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 205
+                    "all_damage_gain": 205
                 }
             }
         },
@@ -2732,7 +2732,7 @@ BUFFS = {
                 "max_stack": 20,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 103
+                    "all_damage_gain": 103
                 }
             }
         },
@@ -3113,7 +3113,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 31
+                    "all_damage_gain": 31
                 }
             },
             2: {
@@ -3122,7 +3122,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "all_damage_gain": 51
                 }
             },
             3: {
@@ -3131,7 +3131,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 113
+                    "all_damage_gain": 113
                 }
             },
             4: {
@@ -3140,7 +3140,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 72
+                    "all_damage_gain": 72
                 }
             }
         },
@@ -3171,7 +3171,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "all_shield_ignore": 512,
-                    "pve_addition_base": 123
+                    "pve_damage_cof": 123
                 }
             }
         }
@@ -3441,7 +3441,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "all_damage_gain": 51
                 }
             }
         },
@@ -3452,7 +3452,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 15,
                 "attributes": {
-                    "all_damage_addition": 102
+                    "all_damage_gain": 102
                 }
             }
         },
@@ -3511,7 +3511,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 9999,
                 "attributes": {
-                    "all_damage_addition": 154
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -3522,7 +3522,7 @@ BUFFS = {
                 "max_stack": 9,
                 "max_tick": 99999,
                 "attributes": {
-                    "all_damage_addition": 15
+                    "all_damage_gain": 15
                 }
             }
         },
@@ -3606,7 +3606,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 204
+                    "all_damage_gain": 204
                 }
             }
         },
@@ -3653,7 +3653,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 307
+                    "all_damage_gain": 307
                 },
                 "recipes": [
                     "recipe_3350_1"
@@ -4409,7 +4409,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 82
+                    "all_damage_gain": 82
                 }
             }
         },
@@ -4420,7 +4420,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 30,
                 "attributes": {
-                    "all_damage_addition": 154
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -4650,7 +4650,7 @@ BUFFS = {
                 "max_stack": 5,
                 "max_tick": 19,
                 "attributes": {
-                    "all_damage_addition": 41
+                    "all_damage_gain": 41
                 }
             }
         },
@@ -4708,7 +4708,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 308
+                    "all_damage_gain": 308
                 }
             }
         },
@@ -4756,7 +4756,7 @@ BUFFS = {
                 "max_stack": 2,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "all_damage_gain": 51
                 }
             }
         },
@@ -4958,7 +4958,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 6,
                 "attributes": {
-                    "all_damage_addition": 82
+                    "all_damage_gain": 82
                 }
             }
         }
@@ -5203,8 +5203,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 103,
-                    "magical_damage_addition": 103
+                    "physical_damage_gain": 103,
+                    "magical_damage_gain": 103
                 }
             },
             15: {
@@ -5214,8 +5214,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 154,
-                    "magical_damage_addition": 154
+                    "physical_damage_gain": 154,
+                    "magical_damage_gain": 154
                 }
             }
         },
@@ -5227,7 +5227,7 @@ BUFFS = {
                 "max_stack": 5,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 20
+                    "magical_damage_gain": 20
                 }
             }
         },
@@ -5253,8 +5253,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 52,
-                    "magical_damage_addition": 52
+                    "physical_damage_gain": 52,
+                    "magical_damage_gain": 52
                 }
             },
             10: {
@@ -5264,8 +5264,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 103,
-                    "magical_damage_addition": 103
+                    "physical_damage_gain": 103,
+                    "magical_damage_gain": 103
                 }
             },
             15: {
@@ -5275,8 +5275,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 154,
-                    "magical_damage_addition": 154
+                    "physical_damage_gain": 154,
+                    "magical_damage_gain": 154
                 }
             }
         },
@@ -5299,7 +5299,7 @@ BUFFS = {
                 "max_stack": 3,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 21
+                    "all_damage_gain": 21
                 }
             }
         },
@@ -5334,8 +5334,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 103,
-                    "magical_damage_addition": 103
+                    "physical_damage_gain": 103,
+                    "magical_damage_gain": 103
                 }
             }
         },
@@ -5412,8 +5412,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 52,
-                    "magical_damage_addition": 52
+                    "physical_damage_gain": 52,
+                    "magical_damage_gain": 52
                 }
             },
             20: {
@@ -5423,8 +5423,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 205,
-                    "magical_damage_addition": 205
+                    "physical_damage_gain": 205,
+                    "magical_damage_gain": 205
                 }
             }
         },
@@ -5504,8 +5504,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 103,
-                    "magical_damage_addition": 103
+                    "physical_damage_gain": 103,
+                    "magical_damage_gain": 103
                 }
             }
         },
@@ -5528,7 +5528,7 @@ BUFFS = {
                 "max_stack": 2,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "all_damage_gain": 51
                 }
             }
         },
@@ -5573,7 +5573,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 205
+                    "all_damage_gain": 205
                 }
             }
         }
@@ -5616,8 +5616,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 205,
-                    "magical_damage_addition": 205
+                    "physical_damage_gain": 205,
+                    "magical_damage_gain": 205
                 }
             }
         },
@@ -5629,8 +5629,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 103,
-                    "magical_damage_addition": 103
+                    "physical_damage_gain": 103,
+                    "magical_damage_gain": 103
                 }
             }
         },
@@ -5657,7 +5657,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 297
+                    "magical_damage_gain": 297
                 }
             }
         },
@@ -5668,7 +5668,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 102
+                    "magical_damage_gain": 102
                 }
             }
         },
@@ -6500,7 +6500,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 154
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -6549,7 +6549,7 @@ BUFFS = {
                 "max_tick": 7,
                 "attributes": {
                     "physical_shield_base": -4655,
-                    "all_damage_addition": -102
+                    "all_damage_gain": -102
                 }
             }
         },
@@ -7072,7 +7072,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_damage_addition": 154
+                    "magical_damage_gain": 154
                 }
             }
         },
@@ -7728,7 +7728,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 154
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -7739,7 +7739,7 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "magical_attack_power_gain": 50,
-                    "all_damage_addition": 31,
+                    "all_damage_gain": 31,
                     "lunar_critical_strike_rate": 500,
                     "solar_critical_strike_rate": 500,
                     "neutral_critical_strike_rate": 500,
@@ -7783,7 +7783,7 @@ BUFFS = {
                     "poison_critical_strike_rate": 300,
                     "physical_critical_strike_rate": 300,
                     "strain_rate": 20,
-                    "all_damage_addition": 62
+                    "all_damage_gain": 62
                 }
             }
         },
@@ -7821,7 +7821,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 62
+                    "all_damage_gain": 62
                 }
             }
         },
@@ -7872,8 +7872,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 52,
-                    "magical_damage_addition": 52,
+                    "physical_damage_gain": 52,
+                    "magical_damage_gain": 52,
                     "strain_rate": 104
                 }
             }
@@ -8961,7 +8961,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 10
+                    "all_damage_gain": 10
                 }
             },
             2: {
@@ -8969,7 +8969,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_addition": 51
+                    "all_damage_gain": 51
                 }
             }
         },
@@ -9109,8 +9109,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_damage_addition": 50,
-                    "magical_damage_addition": 50
+                    "physical_damage_gain": 50,
+                    "magical_damage_gain": 50
                 }
             }
         }

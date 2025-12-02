@@ -25,6 +25,14 @@ class Attribute(BaseAttribute):
     recipes: list[str]
     belongs: list[str]
 
+    kind_types = [
+        SKILL_KIND_TYPE.PHYSICS,
+        SKILL_KIND_TYPE.SOLAR_MAGIC,
+        SKILL_KIND_TYPE.LUNAR_MAGIC,
+        SKILL_KIND_TYPE.NEUTRAL_MAGIC,
+        SKILL_KIND_TYPE.POISON
+    ]
+
     def __init__(self, major_type: str, damage_type: str, critical_type: str):
         super().__init__(major_type, damage_type, critical_type)
 
@@ -32,32 +40,27 @@ class Attribute(BaseAttribute):
         self.recipes, self.belongs = [], []
 
         self.target = Target(major_type, damage_type, critical_type)
+        self.init()
 
     @property
     def current(self):
         variables: dict = {**self.buffs, **EXTRA_VARIABLES}
-        for e in SKILL_KIND_TYPE:
-            for template in CURRENT_VARIABLE_TEMPLATES:
-                attr = template.format(e)
+        for kind_type in self.kind_types:
+            for template in CURRENT_VARIABLES:
+                attr = template.format(kind_type)
                 variables[attr] = self[attr]
-            for template in TARGET_VARIABLE_TEMPLATES:
-                attr = template.format(e)
+            for template in TARGET_VARIABLES:
+                attr = template.format(kind_type)
                 variables[attr] = self.target[attr]
-        for attr in CURRENT_VARIABLES:
-            variables[attr] = self[attr]
-        for attr in TARGET_VARIABLES:
-            variables[attr] = self.target[attr]
         return variables
 
     @property
     def snapshot(self):
         variables: dict = {recipe: 1. for recipe in self.recipes + self.belongs}
-        for e in SKILL_KIND_TYPE:
-            for template in SNAPSHOT_VARIABLE_TEMPLATES:
-                attr = template.format(e)
+        for kind_type in self.kind_types:
+            for template in SNAPSHOT_VARIABLES:
+                attr = template.format(kind_type)
                 variables[attr] = self[attr]
-        for attr in SNAPSHOT_VARIABLES:
-            variables[attr] = self[attr]
         return variables
 
     def add_buff(self, buff: Buff):
