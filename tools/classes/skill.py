@@ -97,10 +97,9 @@ class Skill(AliasBase):
 
     def __setattr__(self, key, value):
         if self.recipe_key and key == "nChannelInterval":
-            if value < FRAME_PER_SECOND:
-                self.channel_interval *= 1 + (value - 1) * self.recipe_key
-            else:
-                self.channel_interval = self.channel_interval * (1 - self.recipe_key) + value * self.recipe_key
+            
+            self.channel_interval *= 1 + (value - 1) * self.recipe_key
+            # self.channel_interval = self.channel_interval * (1 - self.recipe_key) + value * self.recipe_key
         else:
             super().__setattr__(key, value)
 

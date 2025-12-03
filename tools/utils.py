@@ -71,15 +71,15 @@ def set_patches(instance, patch_map, key, sub_key):
             sub_patch_map[k] = v
             levels.append(k)
             continue
-        elif isinstance(v, dict):
-            instance[k] = v
-        else:
+        if isinstance(v, (list, str)):
             instance[k] += v
+        else:
+            instance[k] = v
     for k, v in sub_patch_map.get(sub_key, {}).items():
-        if isinstance(v, dict):
-            instance[k] = v
-        else:
+        if isinstance(v, (list, str)):
             instance[k] += v
+        else:
+            instance[k] = v
     if "{" in instance.comment and "}" in instance.comment:
         levels = range(1, instance.max_level + 1)
         if instance.comment == "{}":

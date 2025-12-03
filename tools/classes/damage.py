@@ -23,11 +23,6 @@ class BaseChain:
 
         self.need_int = False
 
-    def damage_init(self):
-        self.skill_attribute = {}
-        self.source_attribute = {}
-        self.target_attribute = {}
-
     def cal_custom_damage(self):
         custom_damage_base = self.skill[custom_damage_base_key := "custom_damage_base"]
         self.skill_attribute[custom_damage_base_key] = custom_damage_base
@@ -61,10 +56,10 @@ class BaseChain:
                 attack_power += base_attack_power * attack_power_gain / BINARY_SCALE
         else:
             attack_power = Variable(f"{self.source.damage_type}_attack_power")
-        attack_power_cof = self.skill[attack_power_cof_key := f"{self.source.kind_type}_attack_power_cof"]
-        self.skill_attribute[attack_power_cof_key] = attack_power_cof
         frames = self.skill[frames_key := "frames"]
         self.skill_attribute[frames_key] = frames
+        attack_power_cof = self.skill[attack_power_cof_key := f"{self.source.kind_type}_attack_power_cof"]
+        self.skill_attribute[attack_power_cof_key] = attack_power_cof
         return attack_power, attack_power_cof
 
     def cal_attack_damage(self):
@@ -273,24 +268,21 @@ class BaseChain:
 
 
 class BaseCallChain(BaseChain):
+    expressions: list[Expression]
     source_attributes: list[dict[str, int | Expression]]
     target_attributes: list[dict[str, int | Expression]]
-    skill_attributes: list[dict[str, int | Expression]]
-    expressions: list[Expression]
 
     def __init__(self, source: "Attribute", target: "Attribute", skill: "Skill"):
         super().__init__()
         self.source, self.target, self.skill = source, target, skill
-        self.expressions = []
-        self.source_attributes, self.target_attributes, self.skill_attributes = [], [], []
+        self.expressions, self.source_attributes, self.target_attributes = [], [], []
+        self.skill_attribute = {}
 
     def init_damage(self):
         self.source_attribute = {}
         self.source_attributes.append(self.source_attribute)
         self.target_attribute = {}
         self.target_attributes.append(self.target_attribute)
-        self.skill_attribute = {}
-        self.skill_attributes.append(self.skill_attribute)
 
     def init_critical(self):
         self.source_attribute = {}
@@ -403,12 +395,10 @@ class DamageChain(DamageCallChain, SurplusCallChain):
         for i, expression in enumerate(self.expressions):
             source_attribute = self.source_attributes[i]
             target_attribute = self.target_attributes[i]
-            skill_attribute = self.skill_attributes[i]
             damage_dict = dict(
                 damage=str(expression),
                 source_attribute={k: str(v) for k, v in source_attribute.items() if v},
-                target_attribute={k: str(v) for k, v in target_attribute.items() if v},
-                skill_attribute={k: str(v) for k, v in skill_attribute.items() if v},
+                target_attribute={k: str(v) for k, v in target_attribute.items() if v}
             )
             damage_dict = {k: v for k, v in damage_dict.items() if v}
             damage_dicts.append(damage_dict)
@@ -419,7 +409,9 @@ class DamageChain(DamageCallChain, SurplusCallChain):
             target_attribute={k: str(v) for k, v in self.target_attribute.items() if v}
         )
         critical_dict = {k: v for k, v in critical_dict.items() if v}
+        skill_attribute = {k: str(v) for k, v in self.skill_attribute.items() if v}
         return dict(
             damages=damage_dicts,
-            critical=critical_dict
+            critical=critical_dict,
+            skill_attribute=skill_attribute
         )

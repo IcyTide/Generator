@@ -172,6 +172,7 @@ class Builder:
                 if critical := content.pop('critical', {}):
                     content['critical_strike'] = critical['critical_strike']
                     content['critical_power'] = critical['critical_power']
+                content.pop('skill_attribute', None)
         return code
 
     @property
