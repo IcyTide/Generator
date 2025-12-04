@@ -117,7 +117,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "vitality_to_solar_attack_power": 308,
+                    "vitality_to_solar_attack_power": 328,
                     "solar_overcome_gain": 205
                 }
             }
@@ -6548,8 +6548,7 @@
                 "max_stack": 1,
                 "max_tick": 7,
                 "attributes": {
-                    "physical_shield_base": -4655,
-                    "all_damage_gain": -102
+                    "physical_shield_base": -4655
                 }
             }
         },
