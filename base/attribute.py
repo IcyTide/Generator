@@ -1,5 +1,5 @@
 from base.constant import *
-from base.expression import Int, Max, Min
+from base.expression import Ceil, Int, Max, Min
 from tools.lua.enums import SKILL_KIND_TYPE
 
 
@@ -928,23 +928,23 @@ class DamageCof(BaseType):
 
     @property
     def physical_damage_scale(self):
-        return (self.physical_damage_cof + self.coming_damage_cof) / BINARY_SCALE
+        return (self.physical_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
 
     @property
     def solar_damage_scale(self):
-        return (self.solar_damage_cof + self.coming_damage_cof) / BINARY_SCALE
+        return (self.solar_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
 
     @property
     def lunar_damage_scale(self):
-        return (self.lunar_damage_cof + self.coming_damage_cof) / BINARY_SCALE
+        return (self.lunar_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
 
     @property
     def neutral_damage_scale(self):
-        return (self.neutral_damage_cof + self.coming_damage_cof) / BINARY_SCALE
+        return (self.neutral_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
 
     @property
     def poison_damage_scale(self):
-        return (self.poison_damage_cof + self.coming_damage_cof) / BINARY_SCALE
+        return (self.poison_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
 
     @property
     def damage_scale(self):

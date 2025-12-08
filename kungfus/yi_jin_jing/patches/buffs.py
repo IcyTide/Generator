@@ -1,5 +1,5 @@
 BUFFS: dict[int, dict] = {
-    890: dict(attributes=[("coming_damage_cof", 0.04 * 1024)], skills=[
+    890: dict(attributes=[("coming_damage_cof", 40.96)], skills=[
         17641, 17642, 3848, 3849, 3850, 3830, 236, 14951, 3816, 13682, 13684, 13686,
         24888, 3814, 13681, 13683, 13685, 36049, 36050, 36051, 3808, 3810
     ]),
@@ -15,7 +15,7 @@ BUFFS: dict[int, dict] = {
         59: dict(comment="原始"),
         60: dict(comment="我闻")
     },
-    12479: dict(attributes=[("coming_damage_cof", 0.04 * 1024)], skills=[
+    12479: dict(attributes=[("coming_damage_cof", 40.96)], skills=[
         17641, 17642, 3848, 3849, 3850, 3830, 236, 14951, 3816, 13682, 13684, 13686,
         24888, 3814, 13681, 13683, 13685, 36049, 36050, 36051, 3808, 3810
     ]),

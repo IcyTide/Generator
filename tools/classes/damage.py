@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 from base.constant import *
-from base.expression import Expression, Int, Max, Min
+from base.expression import Ceil, Expression, Int, Max, Min
 from tools.lua.enums import SKILL_KIND_TYPE
 
 if TYPE_CHECKING:
@@ -231,6 +231,8 @@ class BaseChain:
         damage_scale += self.target[damage_scale_key]
         damage_cof = self.target[damage_cof_key := f"{self.target.damage_type}_damage_cof"]
         self.target_attribute[damage_cof_key] = damage_cof
+        damage_cof = self.target[damage_cof_key := "coming_damage_cof"]
+        self.target_attribute[damage_cof_key] = Ceil(damage_cof)
         return damage_scale
 
     def cal_damage_scale(self, damage: Expression):

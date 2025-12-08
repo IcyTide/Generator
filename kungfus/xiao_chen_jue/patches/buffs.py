@@ -1,6 +1,6 @@
 BUFFS: dict[int, dict] = {
     12356: dict(comment="{}"),
-    32180: dict(attributes=[("coming_damage_cof", 0.02 * 1024)], skills=[
+    32180: dict(attributes=[("coming_damage_cof", 20.48)], skills=[
         19435, 8491
     ]),
     30473: dict(attributes=[("coming_damage_cof", 266.24)], skills=[
