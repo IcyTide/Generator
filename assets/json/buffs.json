@@ -5452,6 +5452,197 @@
             }
         }
     },
+    "101450": {
+        "70161": {
+            "6": {
+                "name": "伤害提高",
+                "comment": "《杀星在尾·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 62,
+                    "magical_damage_gain": 62
+                }
+            },
+            "8": {
+                "name": "伤害提高",
+                "comment": "《三星临·悟》秘章",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 82,
+                    "magical_damage_gain": 82
+                }
+            },
+            "10": {
+                "name": "伤害提高",
+                "comment": "《起卦·悟》绝篇/星汉·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 103,
+                    "magical_damage_gain": 103
+                }
+            },
+            "15": {
+                "name": "伤害提高",
+                "comment": "兵主逆·悟/《天人合一·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 154,
+                    "magical_damage_gain": 154
+                }
+            },
+            "20": {
+                "name": "伤害提高",
+                "comment": "返闭惊魂·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 205,
+                    "magical_damage_gain": 205
+                }
+            },
+            "25": {
+                "name": "伤害提高",
+                "comment": "鸿蒙天禁·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 256,
+                    "magical_damage_gain": 256
+                }
+            },
+            "30": {
+                "name": "伤害提高",
+                "comment": "翼轸·悟",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 308,
+                    "magical_damage_gain": 308
+                }
+            }
+        },
+        "71311": {
+            "1": {
+                "name": "水坎·悟",
+                "interval": 240,
+                "max_stack": 2,
+                "max_tick": 1,
+                "skills": [
+                    101466,
+                    101467
+                ],
+                "buff_key": "buff_71311_1"
+            }
+        },
+        "71500": {
+            "1": {
+                "interval": 240,
+                "max_stack": 5,
+                "max_tick": 1,
+                "skills": [
+                    101494
+                ],
+                "buff_key": "buff_71500_1"
+            }
+        },
+        "71312": {
+            "2": {
+                "name": "《兵主逆·悟》秘章",
+                "interval": 48,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    101481
+                ],
+                "buff_key": "buff_71312_2"
+            }
+        },
+        "70167": {
+            "20": {
+                "name": "无双提高",
+                "comment": "《返闭惊魂·悟》秘章",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_rate": 205
+                }
+            }
+        },
+        "70345": {
+            "10": {
+                "name": "内功会心率提高",
+                "comment": "《天人合一·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "lunar_critical_strike_rate": 1000,
+                    "neutral_critical_strike_rate": 1000,
+                    "poison_critical_strike_rate": 1000,
+                    "solar_critical_strike_rate": 1000
+                }
+            }
+        },
+        "70729": {
+            "10": {
+                "name": "内功会心效果提高",
+                "comment": "《天人合一·悟》绝篇",
+                "interval": 8,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 100
+                }
+            }
+        },
+        "71600": {
+            "1": {
+                "name": "湮灭",
+                "interval": 240,
+                "max_stack": 3,
+                "max_tick": 1,
+                "attributes": {
+                    "physical_damage_gain": 52,
+                    "magical_damage_gain": 52
+                }
+            }
+        },
+        "71260": {
+            "1": {
+                "name": "灵灯·悟",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 25,
+                "attributes": {
+                    "neutral_critical_strike_rate": 1000,
+                    "magical_critical_power_rate": 100
+                }
+            }
+        },
+        "71232": {
+            "1": {
+                "name": "明灯",
+                "interval": 960,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "magical_critical_power_rate": 100
+                }
+            }
+        }
+    },
     "102278": {
         "71388": {
             "1": {

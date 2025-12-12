@@ -2846,7 +2846,7 @@
                             "comment": "",
                             "damages": [
                                 {
-                                    "damage": "(30 + (solar_attack_power + base_solar_attack_power * 184 * recipe_3222_1 / 1024) * 2.246223958333333) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                                    "damage": "(30 + (solar_attack_power + base_solar_attack_power * 184 * recipe_3222_1 / 1024) * 2.5263671875) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                                     "source_attribute": {
                                         "solar_damage_base": "30",
                                         "solar_attack_power_gain": "184 * recipe_3222_1",
@@ -2862,8 +2862,8 @@
                                 }
                             },
                             "skill_attribute": {
-                                "frames": "2654",
-                                "magical_attack_power_cof": "2.246223958333333"
+                                "frames": "2985",
+                                "magical_attack_power_cof": "2.5263671875"
                             }
                         }
                     }
@@ -2883,7 +2883,7 @@
                             "comment": "",
                             "damages": [
                                 {
-                                    "damage": "(30 + (lunar_attack_power + base_lunar_attack_power * 184 * recipe_3225_1 / 1024) * 2.246223958333333) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
+                                    "damage": "(30 + (lunar_attack_power + base_lunar_attack_power * 184 * recipe_3225_1 / 1024) * 2.5263671875) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
                                     "source_attribute": {
                                         "lunar_damage_base": "30",
                                         "lunar_attack_power_gain": "184 * recipe_3225_1",
@@ -2899,8 +2899,8 @@
                                 }
                             },
                             "skill_attribute": {
-                                "frames": "2654",
-                                "magical_attack_power_cof": "2.246223958333333"
+                                "frames": "2985",
+                                "magical_attack_power_cof": "2.5263671875"
                             }
                         }
                     }
@@ -4449,6 +4449,40 @@
                             "skill_attribute": {
                                 "frames": "669",
                                 "magical_attack_power_cof": "0.5807291666666666"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "101450": {
+        "71316": {
+            "1": {
+                "name": "鸿蒙天禁·悟(DOT)",
+                "interval": "8",
+                "max_stack": 1,
+                "max_tick": 6,
+                "skills": {
+                    "102194": {
+                        "1": {
+                            "name": "",
+                            "comment": "",
+                            "damages": [
+                                {
+                                    "damage": "(1 + neutral_attack_power * 1.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
+                                    "source_attribute": {
+                                        "neutral_damage_base": "1"
+                                    }
+                                }
+                            ],
+                            "critical": {
+                                "critical_strike": "neutral_critical_strike",
+                                "critical_power": "neutral_critical_power"
+                            },
+                            "skill_attribute": {
+                                "frames": "1440",
+                                "magical_attack_power_cof": "1.25"
                             }
                         }
                     }

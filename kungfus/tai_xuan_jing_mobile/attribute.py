@@ -1,0 +1,4 @@
+ATTRIBUTE = 101450
+KIND = "内功"
+SCHOOL = "衍天"
+MAJOR = "元气"

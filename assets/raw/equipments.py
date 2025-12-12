@@ -21145,6 +21145,47 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "云风御厨腰带·火候#109061 (29800 破招 无双)": {
+                    "id": 109061,
+                    "name": "云风御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 934,
+                        "lunar_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6757,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "缚罗腰带#108655 (28000 破防 无双)": {
                     "id": 108655,
                     "name": "缚罗腰带",
@@ -21275,6 +21316,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "云风御厨腰带·火候#109060 (29800 破招 无双)": {
+                    "id": 109060,
+                    "name": "云风御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spunk_base": 934,
+                        "neutral_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6756,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -21360,6 +21442,47 @@ EQUIPMENTS = {
                                 "recipe_5438_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "梧风御厨腰带·刀功#109059 (29800 破招 无双)": {
+                    "id": 109059,
+                    "name": "梧风御厨腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "agility_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6755,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -21455,6 +21578,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "岚峰御厨腰带·刀功#109058 (29800 破招 无双)": {
+                    "id": 109058,
+                    "name": "岚峰御厨腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "strength_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6754,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -21534,6 +21698,46 @@ EQUIPMENTS = {
                                 "recipe_2844_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "迎新御厨腰带·水煮#109057 (29800 会心)": {
+                    "id": 109057,
+                    "name": "迎新御厨腰带·水煮",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 1034,
+                        "therapy_power_base": 6425,
+                        "magical_critical_strike_base": 7808
+                    },
+                    "embed": {
+                        "poison_critical_power_base": 321,
+                        "poison_critical_strike_base": 321
+                    },
+                    "set_id": 6753,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -21624,6 +21828,47 @@ EQUIPMENTS = {
                                 "recipe_2840_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "迎新御厨腰带·火候#109056 (29800 破招 无双)": {
+                    "id": 109056,
+                    "name": "迎新御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 934,
+                        "poison_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "poison_critical_strike_base": 321
+                    },
+                    "set_id": 6752,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -21721,6 +21966,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "寻龙御厨腰带·火候#109055 (29800 破招 无双)": {
+                    "id": 109055,
+                    "name": "寻龙御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spunk_base": 934,
+                        "neutral_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6751,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -21808,6 +22094,47 @@ EQUIPMENTS = {
                                 "recipe_5038_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "凌晓御厨腰带·刀功 #109054 (29800 破招 无双)": {
+                    "id": 109054,
+                    "name": "凌晓御厨腰带·刀功 ",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "agility_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6750,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -21905,6 +22232,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "沧波御厨腰带·刀功 #109053 (29800 破招 无双)": {
+                    "id": 109053,
+                    "name": "沧波御厨腰带·刀功 ",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "agility_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6749,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -21997,6 +22365,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "傲寒御厨腰带·刀功 #109052 (29800 破招 无双)": {
+                    "id": 109052,
+                    "name": "傲寒御厨腰带·刀功 ",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "strength_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6748,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -22080,6 +22489,46 @@ EQUIPMENTS = {
                                 "recipe_2212_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "古意御厨腰带·水煮#109051 (29800 会心)": {
+                    "id": 109051,
+                    "name": "古意御厨腰带·水煮",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 1034,
+                        "therapy_power_base": 6425,
+                        "magical_critical_strike_base": 7808
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6747,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -22175,6 +22624,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "古意御厨腰带·火候#109050 (29800 破招 无双)": {
+                    "id": 109050,
+                    "name": "古意御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 934,
+                        "lunar_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6746,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -22256,6 +22746,48 @@ EQUIPMENTS = {
                                 "recipe_1976_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "塞雪御厨腰带·清蒸#109049 (29800 外防 内防 加速 御劲 无双)": {
+                    "id": 109049,
+                    "name": "塞雪御厨腰带·清蒸",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 16918,
+                        "physical_shield_base": 7288,
+                        "magical_shield_base": 7288,
+                        "haste_base": 3123,
+                        "toughness_base": 1562,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "magical_shield_base": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6745,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -22351,6 +22883,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "塞雪御厨腰带·刀工#109048 (29800 破招 无双)": {
+                    "id": 109048,
+                    "name": "塞雪御厨腰带·刀工",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "agility_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6744,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -22432,6 +23005,48 @@ EQUIPMENTS = {
                                 "recipe_1974_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "妙火御厨腰带·清蒸#109047 (29800 外防 内防 加速 御劲 无双)": {
+                    "id": 109047,
+                    "name": "妙火御厨腰带·清蒸",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 16918,
+                        "physical_shield_base": 7288,
+                        "magical_shield_base": 7288,
+                        "haste_base": 3123,
+                        "toughness_base": 1562,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "magical_shield_base": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6743,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -22520,6 +23135,47 @@ EQUIPMENTS = {
                                 "recipe_948_2",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "妙火御厨腰带·火候#109046 (29800 破招 无双)": {
+                    "id": 109046,
+                    "name": "妙火御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spunk_base": 934,
+                        "solar_and_lunar_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "solar_and_lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6742,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -22615,6 +23271,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "醉梦逍遥腰带·刀功#109045 (29800 破招 无双)": {
+                    "id": 109045,
+                    "name": "醉梦逍遥腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "strength_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6741,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -22700,6 +23397,47 @@ EQUIPMENTS = {
                                 "recipe_818_6",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "至尊御厨腰带·刀功#109044 (29800 破招 无双)": {
+                    "id": 109044,
+                    "name": "至尊御厨腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "agility_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6740,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -22797,6 +23535,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "蜀月御厨腰带·刀功#109043 (29800 破招 无双)": {
+                    "id": 109043,
+                    "name": "蜀月御厨腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "strength_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6739,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "内功": {
@@ -22887,6 +23666,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "蜀月御厨腰带·火候#109042 (29800 破招 无双)": {
+                    "id": 109042,
+                    "name": "蜀月御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spunk_base": 934,
+                        "poison_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6738,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -22966,6 +23786,46 @@ EQUIPMENTS = {
                                 "recipe_1972_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "瑶星御厨腰带·水煮#109041 (29800 会心)": {
+                    "id": 109041,
+                    "name": "瑶星御厨腰带·水煮",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 1034,
+                        "therapy_power_base": 6425,
+                        "magical_critical_strike_base": 7808
+                    },
+                    "embed": {
+                        "poison_critical_power_base": 321,
+                        "poison_critical_strike_base": 321
+                    },
+                    "set_id": 6737,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -23061,6 +23921,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "瑶星御厨腰带·火候#109040 (29800 破招 无双)": {
+                    "id": 109040,
+                    "name": "瑶星御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 934,
+                        "poison_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "poison_critical_strike_base": 321
+                    },
+                    "set_id": 6736,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -23142,6 +24043,46 @@ EQUIPMENTS = {
                                 "recipe_1971_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "霓裳御厨腰带·水煮#109039 (29800 会心)": {
+                    "id": 109039,
+                    "name": "霓裳御厨腰带·水煮",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 1034,
+                        "therapy_power_base": 6425,
+                        "magical_critical_strike_base": 7808
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6735,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -23230,6 +24171,47 @@ EQUIPMENTS = {
                                 "recipe_1547_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "霓裳御厨腰带·火候#109038 (29800 破招 无双)": {
+                    "id": 109038,
+                    "name": "霓裳御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 934,
+                        "lunar_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6734,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -23325,6 +24307,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "灵虚御厨腰带·刀功#109037 (29800 破招 无双)": {
+                    "id": 109037,
+                    "name": "灵虚御厨腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "agility_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6733,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "内功": {
@@ -23415,6 +24438,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "灵虚御厨腰带·火候#109036 (29800 破招 无双)": {
+                    "id": 109036,
+                    "name": "灵虚御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 934,
+                        "neutral_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6732,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -23496,6 +24560,48 @@ EQUIPMENTS = {
                                 "recipe_1973_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "御赐御厨腰带·生煎#109035 (29800 外防 内防 加速 御劲 无双)": {
+                    "id": 109035,
+                    "name": "御赐御厨腰带·生煎",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 16918,
+                        "physical_shield_base": 7288,
+                        "magical_shield_base": 7288,
+                        "haste_base": 3123,
+                        "toughness_base": 1562,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "magical_shield_base": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6731,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -23589,6 +24695,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "御赐御厨腰带·刀功#109034 (29800 破招 无双)": {
+                    "id": 109034,
+                    "name": "御赐御厨腰带·刀功",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 488
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "strength_base": 934,
+                        "physical_attack_power_base": 2122,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6730,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -23670,6 +24817,46 @@ EQUIPMENTS = {
                                 "recipe_1970_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "翡翠御厨腰带·水煮#109033 (29800 会心)": {
+                    "id": 109033,
+                    "name": "翡翠御厨腰带·水煮",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spirit_base": 1034,
+                        "therapy_power_base": 6425,
+                        "magical_critical_strike_base": 7808
+                    },
+                    "embed": {
+                        "neutral_critical_power_base": 321,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6729,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -23765,6 +24952,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "翡翠御厨腰带·火候#109032 (29800 破招 无双)": {
+                    "id": 109032,
+                    "name": "翡翠御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spunk_base": 934,
+                        "neutral_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6728,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -23855,6 +25083,48 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "菩提御厨腰带·清蒸#109031 (29800 外防 内防 加速 御劲 无双)": {
+                    "id": 109031,
+                    "name": "菩提御厨腰带·清蒸",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 610,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 16918,
+                        "physical_shield_base": 7288,
+                        "magical_shield_base": 7288,
+                        "haste_base": 3123,
+                        "toughness_base": 1562,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "magical_shield_base": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6727,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "内功": {
@@ -23940,6 +25210,47 @@ EQUIPMENTS = {
                                 "recipe_1147_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "菩提御厨腰带·火候#109030 (29800 破招 无双)": {
+                    "id": 109030,
+                    "name": "菩提御厨腰带·火候",
+                    "level": 29800,
+                    "score": 37548,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 488,
+                        "magical_shield_base": 610
+                    },
+                    "magic": {
+                        "vitality_base": 11452,
+                        "spunk_base": 934,
+                        "solar_attack_power_base": 2359,
+                        "surplus_base": 7808,
+                        "strain_base": 6247
+                    },
+                    "embed": {
+                        "strain_base": 321,
+                        "solar_critical_strike_base": 321
+                    },
+                    "set_id": 6726,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -32267,6 +33578,47 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "云风御厨上衣·火候#109093 (29800 破防 无双)": {
+                    "id": 109093,
+                    "name": "云风御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1335,
+                        "lunar_attack_power_base": 3371,
+                        "lunar_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6757,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "缚罗衣#108658 (28000 破招 无双)": {
                     "id": 108658,
                     "name": "缚罗衣",
@@ -32397,6 +33749,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "云风御厨上衣·火候#109092 (29800 破防 无双)": {
+                    "id": 109092,
+                    "name": "云风御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spunk_base": 1335,
+                        "neutral_attack_power_base": 3371,
+                        "neutral_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spunk_base": 41,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6756,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -32482,6 +33875,47 @@ EQUIPMENTS = {
                                 "recipe_5438_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "梧风御厨上衣·刀功#109091 (29800 破防 无双)": {
+                    "id": 109091,
+                    "name": "梧风御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "agility_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "agility_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6755,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -32577,6 +34011,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "岚峰御厨上衣·刀功#109090 (29800 破防 无双)": {
+                    "id": 109090,
+                    "name": "岚峰御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "strength_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "strength_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6754,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -32658,6 +34133,46 @@ EQUIPMENTS = {
                                 "recipe_2844_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "迎新御厨上衣·水煮#109089 (29800 会心)": {
+                    "id": 109089,
+                    "name": "迎新御厨上衣·水煮",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1478,
+                        "therapy_power_base": 9178,
+                        "magical_critical_strike_base": 11155
+                    },
+                    "embed": {
+                        "poison_critical_power_base": 321,
+                        "spirit_base": 41
+                    },
+                    "set_id": 6753,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -32748,6 +34263,47 @@ EQUIPMENTS = {
                                 "recipe_2840_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "迎新御厨上衣·火候#109088 (29800 破防 无双)": {
+                    "id": 109088,
+                    "name": "迎新御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1335,
+                        "poison_attack_power_base": 3371,
+                        "poison_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321
+                    },
+                    "set_id": 6752,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -32845,6 +34401,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "寻龙御厨上衣·火候#109087 (29800 破防 无双)": {
+                    "id": 109087,
+                    "name": "寻龙御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spunk_base": 1335,
+                        "neutral_attack_power_base": 3371,
+                        "neutral_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spunk_base": 41,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6751,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -32932,6 +34529,47 @@ EQUIPMENTS = {
                                 "recipe_5038_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "凌晓御厨上衣·刀功#109086 (29800 破防 无双)": {
+                    "id": 109086,
+                    "name": "凌晓御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "agility_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "agility_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6750,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -33029,6 +34667,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "沧波御厨上衣·刀功#109085 (29800 破防 无双)": {
+                    "id": 109085,
+                    "name": "沧波御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "agility_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "agility_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6749,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -33121,6 +34800,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "傲寒御厨上衣·刀功#109084 (29800 破防 无双)": {
+                    "id": 109084,
+                    "name": "傲寒御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "strength_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "strength_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6748,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -33204,6 +34924,46 @@ EQUIPMENTS = {
                                 "recipe_2212_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "古意御厨上衣·水煮#109083 (29800 会心)": {
+                    "id": 109083,
+                    "name": "古意御厨上衣·水煮",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1478,
+                        "therapy_power_base": 9178,
+                        "magical_critical_strike_base": 11155
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "spirit_base": 41
+                    },
+                    "set_id": 6747,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -33299,6 +35059,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "古意御厨上衣·火候#109082 (29800 破防 无双)": {
+                    "id": 109082,
+                    "name": "古意御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1335,
+                        "lunar_attack_power_base": 3371,
+                        "lunar_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6746,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -33380,6 +35181,47 @@ EQUIPMENTS = {
                                 "recipe_1976_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "塞雪御厨上衣·清蒸#109081 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 109081,
+                    "name": "塞雪御厨上衣·清蒸",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 24168,
+                        "physical_shield_base": 14873,
+                        "haste_base": 2975,
+                        "surplus_base": 2975,
+                        "toughness_base": 2231,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "vitality_base": 161
+                    },
+                    "set_id": 6745,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -33475,6 +35317,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "塞雪御厨上衣·刀工#109080 (29800 破防 无双)": {
+                    "id": 109080,
+                    "name": "塞雪御厨上衣·刀工",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "agility_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "agility_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6744,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -33556,6 +35439,47 @@ EQUIPMENTS = {
                                 "recipe_1974_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "妙火御厨上衣·清蒸#109079 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 109079,
+                    "name": "妙火御厨上衣·清蒸",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 24168,
+                        "physical_shield_base": 14873,
+                        "haste_base": 2975,
+                        "surplus_base": 2975,
+                        "toughness_base": 2231,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "vitality_base": 161
+                    },
+                    "set_id": 6743,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -33644,6 +35568,47 @@ EQUIPMENTS = {
                                 "recipe_948_2",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "妙火御厨上衣·火候#109078 (29800 破防 无双)": {
+                    "id": 109078,
+                    "name": "妙火御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spunk_base": 1335,
+                        "solar_and_lunar_attack_power_base": 3371,
+                        "solar_and_lunar_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spunk_base": 41,
+                        "solar_and_lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6742,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -33739,6 +35704,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "醉梦逍遥上衣·刀功#109077 (29800 破防 无双)": {
+                    "id": 109077,
+                    "name": "醉梦逍遥上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "strength_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "strength_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6741,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -33824,6 +35830,47 @@ EQUIPMENTS = {
                                 "recipe_818_6",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "至尊御厨上衣·刀功#109076 (29800 破防 无双)": {
+                    "id": 109076,
+                    "name": "至尊御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "agility_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "agility_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6740,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -33921,6 +35968,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "蜀月御厨上衣·刀功#109075 (29800 破防 无双)": {
+                    "id": 109075,
+                    "name": "蜀月御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "strength_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "strength_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6739,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "内功": {
@@ -34011,6 +36099,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "蜀月御厨上衣·火候#109074 (29800 破防 无双)": {
+                    "id": 109074,
+                    "name": "蜀月御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spunk_base": 1335,
+                        "poison_attack_power_base": 3371,
+                        "poison_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spunk_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6738,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -34092,6 +36221,46 @@ EQUIPMENTS = {
                                 "recipe_1972_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "瑶星御厨上衣·水煮#109073 (29800 会心)": {
+                    "id": 109073,
+                    "name": "瑶星御厨上衣·水煮",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1478,
+                        "therapy_power_base": 9178,
+                        "magical_critical_strike_base": 11155
+                    },
+                    "embed": {
+                        "poison_critical_power_base": 321,
+                        "spirit_base": 41
+                    },
+                    "set_id": 6737,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -34187,6 +36356,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "瑶星御厨上衣·火候#109072 (29800 破防 无双)": {
+                    "id": 109072,
+                    "name": "瑶星御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1335,
+                        "poison_attack_power_base": 3371,
+                        "poison_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321
+                    },
+                    "set_id": 6736,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -34268,6 +36478,46 @@ EQUIPMENTS = {
                                 "recipe_1971_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "霓裳御厨上衣·水煮#109071 (29800 会心)": {
+                    "id": 109071,
+                    "name": "霓裳御厨上衣·水煮",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1478,
+                        "therapy_power_base": 9178,
+                        "magical_critical_strike_base": 11155
+                    },
+                    "embed": {
+                        "lunar_critical_power_base": 321,
+                        "spirit_base": 41
+                    },
+                    "set_id": 6735,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -34356,6 +36606,47 @@ EQUIPMENTS = {
                                 "recipe_1547_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "霓裳御厨上衣·火候#109070 (29800 破防 无双)": {
+                    "id": 109070,
+                    "name": "霓裳御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1335,
+                        "lunar_attack_power_base": 3371,
+                        "lunar_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321
+                    },
+                    "set_id": 6734,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -34451,6 +36742,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "灵虚御厨上衣·刀功#109069 (29800 破防 无双)": {
+                    "id": 109069,
+                    "name": "灵虚御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "agility_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "agility_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6733,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "内功": {
@@ -34541,6 +36873,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "灵虚御厨上衣·火候#109068 (29800 破防 无双)": {
+                    "id": 109068,
+                    "name": "灵虚御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1335,
+                        "neutral_attack_power_base": 3371,
+                        "neutral_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6732,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -34622,6 +36995,47 @@ EQUIPMENTS = {
                                 "recipe_1973_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "御赐御厨上衣·生煎#109067 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 109067,
+                    "name": "御赐御厨上衣·生煎",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 24168,
+                        "physical_shield_base": 14873,
+                        "haste_base": 2975,
+                        "surplus_base": 2975,
+                        "toughness_base": 2231,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "vitality_base": 161
+                    },
+                    "set_id": 6731,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -34715,6 +37129,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "御赐御厨上衣·刀功#109066 (29800 破防 无双)": {
+                    "id": 109066,
+                    "name": "御赐御厨上衣·刀功",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 975
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "strength_base": 1335,
+                        "physical_attack_power_base": 3031,
+                        "physical_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "strength_base": 41,
+                        "physical_critical_strike_base": 321
+                    },
+                    "set_id": 6730,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -34796,6 +37251,46 @@ EQUIPMENTS = {
                                 "recipe_1970_1",
                                 "recipe_17251_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "翡翠御厨上衣·水煮#109065 (29800 会心)": {
+                    "id": 109065,
+                    "name": "翡翠御厨上衣·水煮",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spirit_base": 1478,
+                        "therapy_power_base": 9178,
+                        "magical_critical_strike_base": 11155
+                    },
+                    "embed": {
+                        "neutral_critical_power_base": 321,
+                        "spirit_base": 41
+                    },
+                    "set_id": 6729,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -34891,6 +37386,47 @@ EQUIPMENTS = {
                     },
                     "recipes": [],
                     "gains": []
+                },
+                "翡翠御厨上衣·火候#109064 (29800 破防 无双)": {
+                    "id": 109064,
+                    "name": "翡翠御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spunk_base": 1335,
+                        "neutral_attack_power_base": 3371,
+                        "neutral_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spunk_base": 41,
+                        "neutral_critical_strike_base": 321
+                    },
+                    "set_id": 6728,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
                 }
             }
         },
@@ -34974,6 +37510,47 @@ EQUIPMENTS = {
                                 "",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "菩提御厨上衣·清蒸#109063 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 109063,
+                    "name": "菩提御厨上衣·清蒸",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 1219,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 24168,
+                        "physical_shield_base": 14873,
+                        "haste_base": 2975,
+                        "surplus_base": 2975,
+                        "toughness_base": 2231,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "vitality_base": 161
+                    },
+                    "set_id": 6727,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -35064,6 +37641,47 @@ EQUIPMENTS = {
                                 "recipe_1147_1",
                                 "recipe_17250_1"
                             ],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
+                "菩提御厨上衣·火候#109062 (29800 破防 无双)": {
+                    "id": 109062,
+                    "name": "菩提御厨上衣·火候",
+                    "level": 29800,
+                    "score": 53640,
+                    "max_strength": 6,
+                    "base": {
+                        "physical_shield_base": 975,
+                        "magical_shield_base": 1219
+                    },
+                    "magic": {
+                        "vitality_base": 16360,
+                        "spunk_base": 1335,
+                        "solar_attack_power_base": 3371,
+                        "solar_overcome_base": 11155,
+                        "strain_base": 8924
+                    },
+                    "embed": {
+                        "spunk_base": 41,
+                        "solar_critical_strike_base": 321
+                    },
+                    "set_id": 6726,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
                             "gains": []
                         }
                     },
@@ -41338,6 +43956,1231 @@ EQUIPMENTS = {
                     "gains": []
                 }
             }
+        },
+        "无相": {
+            "内功": {
+                "云风御厨戒指·火候#47858 (29800 会心 无双)": {
+                    "id": 47858,
+                    "name": "云风御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 667,
+                        "lunar_attack_power_base": 1685,
+                        "lunar_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6757,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "段氏": {
+            "内功": {
+                "云风御厨戒指·火候#47857 (29800 会心 无双)": {
+                    "id": 47857,
+                    "name": "云风御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spunk_base": 667,
+                        "neutral_attack_power_base": 1685,
+                        "neutral_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6756,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "万灵": {
+            "外功": {
+                "梧风御厨戒指·刀功#47856 (29800 会心 无双)": {
+                    "id": 47856,
+                    "name": "梧风御厨戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "agility_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6755,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "刀宗": {
+            "外功": {
+                "岚峰御厨戒指·刀功#47855 (29800 会心 无双)": {
+                    "id": 47855,
+                    "name": "岚峰御厨戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "strength_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6754,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "药宗": {
+            "治疗": {
+                "迎新御厨戒指·水煮#47854 (29800 会心)": {
+                    "id": 47854,
+                    "name": "迎新御厨戒指·水煮",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 739,
+                        "therapy_power_base": 4589,
+                        "magical_critical_strike_base": 5577
+                    },
+                    "embed": {},
+                    "set_id": 6753,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "迎新御厨戒指·火候#47853 (29800 会心 无双)": {
+                    "id": 47853,
+                    "name": "迎新御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 667,
+                        "poison_attack_power_base": 1685,
+                        "poison_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6752,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "衍天": {
+            "内功": {
+                "寻龙御厨戒指·火候#47852 (29800 会心 无双)": {
+                    "id": 47852,
+                    "name": "寻龙御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spunk_base": 667,
+                        "neutral_attack_power_base": 1685,
+                        "neutral_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6751,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "凌雪": {
+            "外功": {
+                "凌晓御厨戒指·刀功 #47851 (29800 会心 无双)": {
+                    "id": 47851,
+                    "name": "凌晓御厨戒指·刀功 ",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "agility_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6750,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "蓬莱": {
+            "外功": {
+                "沧波御厨戒指·刀功 #47850 (29800 会心 无双)": {
+                    "id": 47850,
+                    "name": "沧波御厨戒指·刀功 ",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "agility_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6749,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "霸刀": {
+            "外功": {
+                "傲寒御厨戒指·刀功 #47849 (29800 会心 无双)": {
+                    "id": 47849,
+                    "name": "傲寒御厨戒指·刀功 ",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "strength_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6748,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "长歌": {
+            "治疗": {
+                "古意御厨戒指·水煮#47848 (29800 会心)": {
+                    "id": 47848,
+                    "name": "古意御厨戒指·水煮",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 739,
+                        "therapy_power_base": 4589,
+                        "magical_critical_strike_base": 5577
+                    },
+                    "embed": {},
+                    "set_id": 6747,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "古意御厨戒指·火候#47847 (29800 会心 无双)": {
+                    "id": 47847,
+                    "name": "古意御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 667,
+                        "lunar_attack_power_base": 1685,
+                        "lunar_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6746,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "苍云": {
+            "防御": {
+                "塞雪御厨戒指·清蒸#47846 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 47846,
+                    "name": "塞雪御厨戒指·清蒸",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 12084,
+                        "physical_shield_base": 7436,
+                        "haste_base": 1487,
+                        "surplus_base": 1487,
+                        "toughness_base": 1115,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6745,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "外功": {
+                "塞雪御厨戒指·刀工#47845 (29800 会心 无双)": {
+                    "id": 47845,
+                    "name": "塞雪御厨戒指·刀工",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "agility_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6744,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "明教": {
+            "防御": {
+                "妙火御厨戒指·清蒸#47844 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 47844,
+                    "name": "妙火御厨戒指·清蒸",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 12084,
+                        "physical_shield_base": 7436,
+                        "haste_base": 1487,
+                        "surplus_base": 1487,
+                        "toughness_base": 1115,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6743,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "妙火御厨戒指·火候#47843 (29800 会心 无双)": {
+                    "id": 47843,
+                    "name": "妙火御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spunk_base": 667,
+                        "solar_and_lunar_attack_power_base": 1685,
+                        "solar_and_lunar_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6742,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "丐帮": {
+            "外功": {
+                "醉梦逍遥戒指·刀功#47842 (29800 会心 无双)": {
+                    "id": 47842,
+                    "name": "醉梦逍遥戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "strength_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6741,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "藏剑": {
+            "外功": {
+                "至尊御厨戒指·刀功#47841 (29800 会心 无双)": {
+                    "id": 47841,
+                    "name": "至尊御厨戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "agility_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6740,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "唐门": {
+            "外功": {
+                "蜀月御厨戒指·刀功#47840 (29800 会心 无双)": {
+                    "id": 47840,
+                    "name": "蜀月御厨戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "strength_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6739,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "蜀月御厨戒指·火候#47839 (29800 会心 无双)": {
+                    "id": 47839,
+                    "name": "蜀月御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spunk_base": 667,
+                        "poison_attack_power_base": 1685,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6738,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "五毒": {
+            "治疗": {
+                "瑶星御厨戒指·水煮#47838 (29800 会心)": {
+                    "id": 47838,
+                    "name": "瑶星御厨戒指·水煮",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 739,
+                        "therapy_power_base": 4589,
+                        "magical_critical_strike_base": 5577
+                    },
+                    "embed": {},
+                    "set_id": 6737,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "瑶星御厨戒指·火候#47837 (29800 会心 无双)": {
+                    "id": 47837,
+                    "name": "瑶星御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 667,
+                        "poison_attack_power_base": 1685,
+                        "poison_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6736,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "七秀": {
+            "治疗": {
+                "霓裳御厨戒指·水煮#47836 (29800 会心)": {
+                    "id": 47836,
+                    "name": "霓裳御厨戒指·水煮",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 739,
+                        "therapy_power_base": 4589,
+                        "magical_critical_strike_base": 5577
+                    },
+                    "embed": {},
+                    "set_id": 6735,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "霓裳御厨戒指·火候#47835 (29800 会心 无双)": {
+                    "id": 47835,
+                    "name": "霓裳御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 667,
+                        "lunar_attack_power_base": 1685,
+                        "lunar_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6734,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "纯阳": {
+            "外功": {
+                "灵虚御厨戒指·刀功#47834 (29800 会心 无双)": {
+                    "id": 47834,
+                    "name": "灵虚御厨戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "agility_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6733,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "灵虚御厨戒指·火候#47833 (29800 会心 无双)": {
+                    "id": 47833,
+                    "name": "灵虚御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 667,
+                        "neutral_attack_power_base": 1685,
+                        "neutral_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6732,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "天策": {
+            "防御": {
+                "御赐御厨戒指·生煎#47832 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 47832,
+                    "name": "御赐御厨戒指·生煎",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 12084,
+                        "physical_shield_base": 7436,
+                        "haste_base": 1487,
+                        "surplus_base": 1487,
+                        "toughness_base": 1115,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6731,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "外功": {
+                "御赐御厨戒指·刀功#47831 (29800 会心 无双)": {
+                    "id": 47831,
+                    "name": "御赐御厨戒指·刀功",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "strength_base": 667,
+                        "physical_attack_power_base": 1516,
+                        "physical_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6730,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "万花": {
+            "治疗": {
+                "翡翠御厨戒指·水煮#47830 (29800 会心)": {
+                    "id": 47830,
+                    "name": "翡翠御厨戒指·水煮",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spirit_base": 739,
+                        "therapy_power_base": 4589,
+                        "magical_critical_strike_base": 5577
+                    },
+                    "embed": {},
+                    "set_id": 6729,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "翡翠御厨戒指·火候#47829 (29800 会心 无双)": {
+                    "id": 47829,
+                    "name": "翡翠御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spunk_base": 667,
+                        "neutral_attack_power_base": 1685,
+                        "neutral_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6728,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
+        "少林": {
+            "防御": {
+                "菩提御厨戒指·清蒸#47828 (29800 内防 加速 破招 御劲 无双)": {
+                    "id": 47828,
+                    "name": "菩提御厨戒指·清蒸",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 12084,
+                        "magical_shield_base": 7436,
+                        "haste_base": 1487,
+                        "surplus_base": 1487,
+                        "toughness_base": 1115,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6727,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "菩提御厨戒指·火候#47827 (29800 会心 无双)": {
+                    "id": 47827,
+                    "name": "菩提御厨戒指·火候",
+                    "level": 29800,
+                    "score": 26820,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 8180,
+                        "spunk_base": 667,
+                        "solar_attack_power_base": 1685,
+                        "solar_critical_strike_base": 5577,
+                        "strain_base": 4462
+                    },
+                    "embed": {},
+                    "set_id": 6726,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                }
+            }
         }
     },
     "necklace": {
@@ -47146,6 +50989,45 @@ EQUIPMENTS = {
                     ],
                     "gains": []
                 },
+                "奶油甜甜圈#44065 (29800 破防 无双)": {
+                    "id": 44065,
+                    "name": "奶油甜甜圈",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1602,
+                        "lunar_attack_power_base": 8907,
+                        "lunar_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 6757,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "静雨#43759 (20750 特效 会心 破防 加速)": {
                     "id": 43759,
                     "name": "静雨",
@@ -47820,6 +51702,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "水果可丽饼#44064 (29800 破防 无双)": {
+                    "id": 44064,
+                    "name": "水果可丽饼",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spunk_base": 1602,
+                        "neutral_attack_power_base": 8907,
+                        "neutral_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 6756,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "伏龙阳焰#40289 (20750 特效 会心 破防 加速)": {
                     "id": 40289,
                     "name": "伏龙阳焰",
@@ -48418,6 +52342,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "水果布丁船#44063 (29800 破防 无双)": {
+                    "id": 44063,
+                    "name": "水果布丁船",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6755,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -49022,6 +52988,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "奇彩炫#44062 (29800 破防 无双)": {
+                    "id": 44062,
+                    "name": "奇彩炫",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "strength_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6754,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "烛微刀#40287 (20750 特效 会心 破防 加速)": {
                     "id": 40287,
                     "name": "烛微刀",
@@ -49595,6 +53603,47 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "抹茶蛋糕卷#44061 (29800 加速)": {
+                    "id": 44061,
+                    "name": "抹茶蛋糕卷",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1773,
+                        "therapy_power_base": 18803,
+                        "haste_base": 13386
+                    },
+                    "embed": {
+                        "poison_critical_strike_base": 321,
+                        "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 6753,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -50195,6 +54244,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "抹茶蛋糕卷#44060 (29800 破防 无双)": {
+                    "id": 44060,
+                    "name": "抹茶蛋糕卷",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1602,
+                        "poison_attack_power_base": 8907,
+                        "poison_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 6752,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "烬灭#40285 (20750 特效 会心 破防 加速)": {
                     "id": 40285,
                     "name": "烬灭",
@@ -50317,6 +54408,64 @@ EQUIPMENTS = {
                         "gain_25837_1",
                         "gain_39088_8",
                         "gain_25831_8"
+                    ]
+                },
+                "测试阴灯#44068 (35900 特效 会心 无双)": {
+                    "id": 44068,
+                    "name": "测试阴灯",
+                    "level": 35900,
+                    "score": 77544,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 5568,
+                        "weapon_damage_rand": 3712
+                    },
+                    "magic": {
+                        "vitality_base": 23651,
+                        "spunk_base": 1930,
+                        "neutral_attack_power_base": 10731,
+                        "neutral_critical_strike_base": 16126,
+                        "strain_base": 15588
+                    },
+                    "embed": {
+                        "neutral_critical_power_base": 321,
+                        "neutral_critical_strike_base": 321,
+                        "spunk_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_43808_1"
+                    ]
+                },
+                "测试阳灯#44067 (35900 特效 破防 无双)": {
+                    "id": 44067,
+                    "name": "测试阳灯",
+                    "level": 35900,
+                    "score": 77544,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 5568,
+                        "weapon_damage_rand": 3712
+                    },
+                    "magic": {
+                        "vitality_base": 23651,
+                        "spunk_base": 1930,
+                        "neutral_attack_power_base": 10731,
+                        "neutral_overcome_base": 16126,
+                        "strain_base": 15588
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_43807_1"
                     ]
                 },
                 "神游八极#42773 (35900 会心 无双)": {
@@ -50793,6 +54942,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "旋转蛋糕架#44059 (29800 破防 无双)": {
+                    "id": 44059,
+                    "name": "旋转蛋糕架",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spunk_base": 1602,
+                        "neutral_attack_power_base": 8907,
+                        "neutral_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 6751,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -51429,6 +55620,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "水果糖葫芦#44058 (29800 破防 无双)": {
+                    "id": 44058,
+                    "name": "水果糖葫芦",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6750,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "长安#40283 (20750 特效 会心 破防 加速)": {
                     "id": 40283,
                     "name": "长安",
@@ -52059,6 +56292,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "海蓝冰粉#44057 (29800 破防 无双)": {
+                    "id": 44057,
+                    "name": "海蓝冰粉",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6749,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -52695,6 +56970,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "草莓华夫卷#44056 (29800 破防 无双)": {
+                    "id": 44056,
+                    "name": "草莓华夫卷",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "strength_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6748,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "碧血豪侠#40281 (20750 特效 会心 破防 加速)": {
                     "id": 40281,
                     "name": "碧血豪侠",
@@ -53299,6 +57616,47 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "蜜瓜苏打水#44055 (29800 加速)": {
+                    "id": 44055,
+                    "name": "蜜瓜苏打水",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 2311,
+                        "weapon_damage_rand": 1541
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1773,
+                        "therapy_power_base": 18803,
+                        "haste_base": 13386
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 6747,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -53928,6 +58286,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "蜜瓜苏打水#44054 (29800 破防 无双)": {
+                    "id": 44054,
+                    "name": "蜜瓜苏打水",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 2311,
+                        "weapon_damage_rand": 1541
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1602,
+                        "lunar_attack_power_base": 8907,
+                        "lunar_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 6746,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -54574,6 +58974,49 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "圈圈三色杯#44053 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 44053,
+                    "name": "圈圈三色杯",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 29002,
+                        "physical_shield_base": 27043,
+                        "haste_base": 5409,
+                        "surplus_base": 5409,
+                        "toughness_base": 4056,
+                        "strain_base": 16226
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "dodge": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6745,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "驭焰#40278 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40278,
                     "name": "驭焰",
@@ -55202,6 +59645,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "圈圈三色杯#44052 (29800 破防 无双)": {
+                    "id": 44052,
+                    "name": "圈圈三色杯",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6933,
+                        "weapon_damage_rand": 4622
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6744,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -55848,6 +60333,49 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "棉花糖串#44051 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 44051,
+                    "name": "棉花糖串",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 29002,
+                        "physical_shield_base": 27043,
+                        "haste_base": 5409,
+                        "surplus_base": 5409,
+                        "toughness_base": 4056,
+                        "strain_base": 16226
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "dodge": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6743,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "圣辉月雪#40276 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40276,
                     "name": "圣辉月雪",
@@ -56479,6 +61007,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "棉花糖串#44050 (29800 破防 无双)": {
+                    "id": 44050,
+                    "name": "棉花糖串",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spunk_base": 1602,
+                        "solar_and_lunar_attack_power_base": 8907,
+                        "solar_and_lunar_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 6742,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "瀚海引#40275 (20750 特效 会心 破防 加速)": {
                     "id": 40275,
                     "name": "瀚海引",
@@ -57104,6 +61674,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "西瓜刨冰#44049 (29800 破防 无双)": {
+                    "id": 44049,
+                    "name": "西瓜刨冰",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 7857,
+                        "weapon_damage_rand": 5238
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "strength_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6741,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -57842,6 +62454,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "柠檬冰棍签#44047 (29800 破防 无双)": {
+                    "id": 44047,
+                    "name": "柠檬冰棍签",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6008,
+                        "weapon_damage_rand": 4005
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6740,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "伏魔悲音#40272 (20750 特效 会心 破防 加速)": {
                     "id": 40272,
                     "name": "伏魔悲音",
@@ -58472,6 +63126,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "波子气泡水#44046 (29800 破防 无双)": {
+                    "id": 44046,
+                    "name": "波子气泡水",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "strength_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6739,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -59106,6 +63802,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "波子气泡水#44045 (29800 破防 无双)": {
+                    "id": 44045,
+                    "name": "波子气泡水",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 4622,
+                        "weapon_damage_rand": 3081
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spunk_base": 1602,
+                        "poison_attack_power_base": 8907,
+                        "poison_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 6738,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "碧岚幽炎#40270 (20750 特效 会心 破防 加速)": {
                     "id": 40270,
                     "name": "碧岚幽炎",
@@ -59710,6 +64448,47 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "紫阳芭菲杯#44044 (29800 加速)": {
+                    "id": 44044,
+                    "name": "紫阳芭菲杯",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 2311,
+                        "weapon_damage_rand": 1541
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1773,
+                        "therapy_power_base": 18803,
+                        "haste_base": 13386
+                    },
+                    "embed": {
+                        "poison_critical_strike_base": 321,
+                        "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 6737,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -60342,6 +65121,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "紫阳芭菲杯#44043 (29800 破防 无双)": {
+                    "id": 44043,
+                    "name": "紫阳芭菲杯",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 2311,
+                        "weapon_damage_rand": 1541
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1602,
+                        "poison_attack_power_base": 8907,
+                        "poison_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 6736,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "蜕骨#40268 (20750 特效 会心 破防 加速)": {
                     "id": 40268,
                     "name": "蜕骨",
@@ -60946,6 +65767,47 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "蜜桃棒棒糖#44042 (29800 加速)": {
+                    "id": 44042,
+                    "name": "蜜桃棒棒糖",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 3004,
+                        "weapon_damage_rand": 2003
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1773,
+                        "therapy_power_base": 18803,
+                        "haste_base": 13386
+                    },
+                    "embed": {
+                        "lunar_critical_strike_base": 321,
+                        "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 6735,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -61575,6 +66437,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "蜜桃棒棒糖#44041 (29800 破防 无双)": {
+                    "id": 44041,
+                    "name": "蜜桃棒棒糖",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 3004,
+                        "weapon_damage_rand": 2003
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1602,
+                        "lunar_attack_power_base": 8907,
+                        "lunar_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 6734,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -62211,6 +67115,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "咩咩糖葫芦#44040 (29800 破防 无双)": {
+                    "id": 44040,
+                    "name": "咩咩糖葫芦",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 6008,
+                        "weapon_damage_rand": 4005
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6733,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "镇恶#40265 (20750 特效 会心 破防 加速)": {
                     "id": 40265,
                     "name": "镇恶",
@@ -62839,6 +67785,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "咩咩糖葫芦#44039 (29800 破防 无双)": {
+                    "id": 44039,
+                    "name": "咩咩糖葫芦",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 3004,
+                        "weapon_damage_rand": 2003
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1602,
+                        "neutral_attack_power_base": 8907,
+                        "neutral_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 6732,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -63485,6 +68473,49 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "冰晶水果叉#44038 (29800 外防 加速 破招 御劲 无双)": {
+                    "id": 44038,
+                    "name": "冰晶水果叉",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 7857,
+                        "weapon_damage_rand": 5238
+                    },
+                    "magic": {
+                        "vitality_base": 29002,
+                        "physical_shield_base": 27043,
+                        "haste_base": 5409,
+                        "surplus_base": 5409,
+                        "toughness_base": 4056,
+                        "strain_base": 16226
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "dodge": 161,
+                        "physical_shield_base": 161
+                    },
+                    "set_id": 6731,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "朱曦重明#40263 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40263,
                     "name": "朱曦重明",
@@ -64116,6 +69147,48 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "冰晶水果叉#44037 (29800 破防 无双)": {
+                    "id": 44037,
+                    "name": "冰晶水果叉",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 7857,
+                        "weapon_damage_rand": 5238
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "strength_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6730,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "掠炎#40262 (20750 特效 会心 破防 加速)": {
                     "id": 40262,
                     "name": "掠炎",
@@ -64720,6 +69793,47 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "冰淇淋甜筒#44036 (29800 加速)": {
+                    "id": 44036,
+                    "name": "冰淇淋甜筒",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 2311,
+                        "weapon_damage_rand": 1541
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spirit_base": 1773,
+                        "therapy_power_base": 18803,
+                        "haste_base": 13386
+                    },
+                    "embed": {
+                        "neutral_critical_strike_base": 321,
+                        "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 6729,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -65349,6 +70463,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "冰淇淋甜筒#44035 (29800 破防 无双)": {
+                    "id": 44035,
+                    "name": "冰淇淋甜筒",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 2311,
+                        "weapon_damage_rand": 1541
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spunk_base": 1602,
+                        "neutral_attack_power_base": 8907,
+                        "neutral_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 6728,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -65995,6 +71151,49 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "小猴刨冰机#44034 (29800 内防 加速 破招 御劲 无双)": {
+                    "id": 44034,
+                    "name": "小猴刨冰机",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 7857,
+                        "weapon_damage_rand": 5238
+                    },
+                    "magic": {
+                        "vitality_base": 29002,
+                        "magical_shield_base": 27043,
+                        "haste_base": 5409,
+                        "surplus_base": 5409,
+                        "toughness_base": 4056,
+                        "strain_base": 16226
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 6727,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
+                    "recipes": [],
+                    "gains": []
+                },
                 "降魔境#40259 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40259,
                     "name": "降魔境",
@@ -66623,6 +71822,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "小猴刨冰机#44033 (29800 破防 无双)": {
+                    "id": 44033,
+                    "name": "小猴刨冰机",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 7857,
+                        "weapon_damage_rand": 5238
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "spunk_base": 1602,
+                        "solar_attack_power_base": 8907,
+                        "solar_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 6726,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },
@@ -67366,6 +72607,48 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "柠檬大冰棍#44048 (29800 破防 无双)": {
+                    "id": 44048,
+                    "name": "柠檬大冰棍",
+                    "level": 29800,
+                    "score": 64368,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 9243,
+                        "weapon_damage_rand": 6162
+                    },
+                    "magic": {
+                        "vitality_base": 19632,
+                        "agility_base": 1602,
+                        "physical_attack_power_base": 8011,
+                        "physical_overcome_base": 13386,
+                        "strain_base": 12939
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 6740,
+                    "sets": {
+                        2: {
+                            "attributes": {
+                                "all_critical_strike_base": 2840
+                            },
+                            "recipes": [],
+                            "gains": []
+                        },
+                        4: {
+                            "attributes": {
+                                "all_critical_strike_base": 1050
+                            },
+                            "recipes": [],
+                            "gains": []
+                        }
+                    },
                     "recipes": [],
                     "gains": []
                 },

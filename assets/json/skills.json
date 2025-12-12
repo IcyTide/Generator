@@ -5330,6 +5330,24 @@
                 }
             }
         },
+        "38673": {
+            "1": {
+                "name": "啸西风",
+                "damages": [
+                    {
+                        "damage": "physical_attack_power * 1.89375 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "physical_critical_strike",
+                    "critical_power": "physical_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "303",
+                    "physical_attack_power_cof": "1.89375"
+                }
+            }
+        },
         "6525": {
             "19": {
                 "name": "灭",
@@ -35666,6 +35684,342 @@
                 "skill_attribute": {
                     "frames": "634",
                     "magical_attack_power_cof": "3.302083333333333"
+                }
+            }
+        }
+    },
+    "101450": {
+        "25512": {
+            "1": {
+                "name": "魂击",
+                "damages": [
+                    {
+                        "damage": "(physical_attack_power * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 205 * recipe_1711_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "physical_critical_strike",
+                    "critical_power": "physical_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "16",
+                    "physical_attack_power_cof": "0.1",
+                    "weapon_damage_cof": "1.0",
+                    "damage_gain": "205 * recipe_1711_1"
+                }
+            }
+        },
+        "101466": {
+            "1": {
+                "name": "三星临·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 1.4322916666666665 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    },
+                    {
+                        "damage": "surplus * 1.400390625 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike - -10000 * buff_71311_1 / 10000",
+                    "critical_power": "neutral_critical_power",
+                    "target_attribute": {
+                        "resist_critical_strike_rate": "-10000 * buff_71311_1"
+                    }
+                },
+                "skill_attribute": {
+                    "frames": "275",
+                    "magical_attack_power_cof": "1.4322916666666665",
+                    "surplus_cof": "1.400390625"
+                }
+            }
+        },
+        "101467": {
+            "1": {
+                "name": "天斗旋·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 2.484375 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike - -10000 * buff_71311_1 / 10000",
+                    "critical_power": "neutral_critical_power",
+                    "target_attribute": {
+                        "resist_critical_strike_rate": "-10000 * buff_71311_1"
+                    }
+                },
+                "skill_attribute": {
+                    "frames": "477",
+                    "magical_attack_power_cof": "2.484375"
+                }
+            }
+        },
+        "102265": {
+            "1": {
+                "name": "天斗旋·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 0.5 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "96",
+                    "magical_attack_power_cof": "0.5"
+                }
+            }
+        },
+        "101487": {
+            "1": {
+                "name": "解卦·山艮·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 1.28125 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "246",
+                    "magical_attack_power_cof": "1.28125"
+                }
+            }
+        },
+        "101494": {
+            "1": {
+                "name": "祝由·火离·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 0.9947916666666666 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(204.8 * buff_71500_1) / 1024)",
+                        "target_attribute": {
+                            "coming_damage_cof": "ceil(204.8 * buff_71500_1)"
+                        }
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "191",
+                    "magical_attack_power_cof": "0.9947916666666666"
+                }
+            }
+        },
+        "102238": {
+            "1": {
+                "name": "奇门飞宫·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 0.171875 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "33",
+                    "magical_attack_power_cof": "0.171875"
+                }
+            }
+        },
+        "102247": {
+            "1": {
+                "name": "飞宫·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 1.9427083333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "373",
+                    "magical_attack_power_cof": "1.9427083333333333"
+                }
+            }
+        },
+        "101481": {
+            "1": {
+                "name": "兵主逆·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 2.3125 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(307.2 * buff_71312_2) / 1024)",
+                        "target_attribute": {
+                            "coming_damage_cof": "ceil(307.2 * buff_71312_2)"
+                        }
+                    },
+                    {
+                        "damage": "surplus * 1.3896484375 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(307.2 * buff_71312_2) / 1024)",
+                        "target_attribute": {
+                            "coming_damage_cof": "ceil(307.2 * buff_71312_2)"
+                        }
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_17085_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_17085_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_17085_1"
+                    }
+                },
+                "skill_attribute": {
+                    "frames": "444",
+                    "magical_attack_power_cof": "2.3125",
+                    "surplus_cof": "1.3896484375"
+                }
+            }
+        },
+        "101497": {
+            "1": {
+                "name": "杀星在尾·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 1.2604166666666665 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "242",
+                    "magical_attack_power_cof": "1.2604166666666665"
+                }
+            }
+        },
+        "101462": {
+            "1": {
+                "name": "往者定·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 2.3541666666666665 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "452",
+                    "magical_attack_power_cof": "2.3541666666666665"
+                }
+            }
+        },
+        "102447": {
+            "1": {
+                "name": "往者定·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 5.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "960",
+                    "magical_attack_power_cof": "5.0"
+                }
+            }
+        },
+        "102205": {
+            "1": {
+                "name": "辰星·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 0.6614583333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "127",
+                    "magical_attack_power_cof": "0.6614583333333333"
+                }
+            }
+        },
+        "102185": {
+            "1": {
+                "name": "鬼星开穴·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 12.802083333333332 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "2458",
+                    "magical_attack_power_cof": "12.802083333333332"
+                }
+            }
+        },
+        "102187": {
+            "1": {
+                "name": "鬼星开穴·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 11.203125 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "2151",
+                    "magical_attack_power_cof": "11.203125"
+                }
+            }
+        },
+        "102193": {
+            "1": {
+                "name": "火离·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 0.5208333333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "100",
+                    "magical_attack_power_cof": "0.5208333333333333"
+                }
+            }
+        },
+        "102248": {
+            "1": {
+                "name": "列宿游·悟",
+                "damages": [
+                    {
+                        "damage": "neutral_attack_power * 10.625 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "2040",
+                    "magical_attack_power_cof": "10.625"
                 }
             }
         }
