@@ -33,6 +33,7 @@ class Skill(AliasBase):
     weapon_request: int
 
     recipe_type: int
+    recipe_tag_mask: int
 
     self_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]
     dest_rollback_attributes: list[tuple[ATTRIBUTE_TYPE, tuple[int, int] | int]]

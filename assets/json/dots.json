@@ -4392,7 +4392,8 @@
                             },
                             "skill_attribute": {
                                 "frames": "768",
-                                "physical_attack_power_cof": "0.7875000000000001"
+                                "physical_attack_power_cof": "0.7875000000000001",
+                                "damage_gain": "55 * recipe_17250_1 + 21 * recipe_17239_1"
                             }
                         }
                     }
@@ -4482,7 +4483,8 @@
                             },
                             "skill_attribute": {
                                 "frames": "1440",
-                                "magical_attack_power_cof": "1.25"
+                                "magical_attack_power_cof": "1.25",
+                                "damage_gain": "55 * recipe_17250_1 + 21 * recipe_17239_1"
                             }
                         }
                     }

@@ -19,6 +19,7 @@ class Recipe(AliasBase):
     recipe_name: str
 
     skill_recipe_type: int
+    skill_recipe_tag_mask: int
     skill_id: int
     skill_level: int
 
@@ -43,12 +44,14 @@ class Recipe(AliasBase):
     def check_skill(self, skill: Skill):
         if skill.skill_id == RECIPE_COPY.get(self.skill_id):
             return True
-        if self.skill_recipe_type and skill.recipe_type == self.skill_recipe_type:
-            return True
+        if self.skill_recipe_type:
+            return skill.recipe_type == self.skill_recipe_type
         if self.skill_id and skill.skill_id == self.skill_id:
             if not self.skill_level:
                 return True
             return self.skill_level == skill.skill_level
+        if self.skill_recipe_tag_mask:
+            return skill.recipe_tag_mask & self.skill_recipe_tag_mask
         return False
 
     def to_dict(self):
