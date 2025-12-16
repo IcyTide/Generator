@@ -195,6 +195,8 @@ class Gears:
             if gear.special_enchant:
                 gains[gear.special_enchant] = GearGain(gear.special_enchant)
             for k in gear.gains:
+                if not k:
+                    continue
                 gains[k] = GearGain(k)
             if set_id := gear.set_id:
                 if set_id not in set_count:
@@ -210,6 +212,8 @@ class Gears:
                         attributes[k] += v
                     recipes += bonus.get("recipes", [])
                     for k in bonus.get("gains", []):
+                        if not k :
+                            continue
                         gains[k] = GearGain(k)
         return attributes, recipes, gains
 
