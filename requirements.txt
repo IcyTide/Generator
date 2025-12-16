@@ -2,3 +2,4 @@
 pyside6
 pandas
 tqdm
+luadata
