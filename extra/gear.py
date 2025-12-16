@@ -215,6 +215,14 @@ class Stone:
 
 
 class Gear:
+    @classmethod
+    def get_tabid_from_npos(cls, nPos: int):
+        if nPos in {0, 1, 2}:
+            return 6
+        if nPos in {4, 5, 6, 7}:
+            return 8
+        return 7
+
     equipment: Equipment
 
     temporary_enchant: Enchant
@@ -223,7 +231,9 @@ class Gear:
     stone: Stone
 
     def __init__(self, equip_data: dict):
-        tab_id, equipment_id = equip_data["dwTabType"], equip_data["dwTabIndex"]
+        tab_id, equipment_id = equip_data.get("dwTabType"), equip_data["dwTabIndex"]
+        if not tab_id:
+            tab_id = self.get_tabid_from_npos(equip_data.get("nPos"))
         strength_level = equip_data["nStrengthLevel"]
         embed_levels = [
             SLOT_MAPPING.get(slot, 0) for _, slot in equip_data["aSlotItem"]
