@@ -2,10 +2,10 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "export.py",
+      "name": "test_plugindata.py",
       "type": "debugpy",
       "request": "launch",
-      "program": "${workspaceFolder}/export.py",
+      "program": "${workspaceFolder}/test_plugindata.py",
       "console": "integratedTerminal",
       "justMyCode": false
     },

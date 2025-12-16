@@ -40,7 +40,7 @@ def run_by_plugin_data(data: str):
     equips = luadata.unserialize(decompressed_data, encoding="utf-8", multival=False)
     equips = convert2jx3api(equips)
     attribute = main({"equip_data": equips})
-    print(attribute)
+    return attribute
 
 
 if __name__ == "__main__":

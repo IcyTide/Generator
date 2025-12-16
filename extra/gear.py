@@ -6,13 +6,10 @@ from base.constant import *
 ARMORS = json.load(open("assets/json/armors.json", encoding="utf-8"))
 TRINKETS = json.load(open("assets/json/trinkets.json", encoding="utf-8"))
 WEAPONS = json.load(open("assets/json/weapons.json", encoding="utf-8"))
-EQUIPMENTS = {
-    6: WEAPONS,
-    7: ARMORS,
-    8: TRINKETS
-}
+EQUIPMENTS = {6: WEAPONS, 7: ARMORS, 8: TRINKETS}
 ENCHANTS = json.load(open("assets/json/enchants.json", encoding="utf-8"))
 STONES = json.load(open("assets/json/stones.json", encoding="utf-8"))
+STONES_by_enchant = {STONES[x].get("enchant_id"): STONES[x] for x in STONES}
 
 SLOT_MAPPING = {
     **{24442 + i: i + 1 for i in range(8)},
@@ -20,16 +17,16 @@ SLOT_MAPPING = {
 }
 FLOAT_ATTRS = {
     "atMeleeWeaponDamageBase": "atMeleeWeaponDamageRand",
-    "atRangeWeaponDamageBase": "atRangeWeaponDamageRand"
+    "atRangeWeaponDamageBase": "atRangeWeaponDamageRand",
 }
 BINARY_ATTRS = ["atMeleeWeaponAttackSpeedBase", "atRangeWeaponAttackSpeedBase"]
 STONE_POSITIONS = ["primary_weapon"]
 
 
 def is_attribute(attr):
-    if not attr['attr_type']:
+    if not attr["attr_type"]:
         return False
-    if attr['attr_type'] in ['recipe', 'event']:
+    if attr["attr_type"] in ["recipe", "event"]:
         return False
     return True
 
@@ -82,26 +79,26 @@ class Equipment:
         for attr in self.base:
             if not is_attribute(attr):
                 continue
-            attributes[attr['attr_type']] += int(attr['value'])
+            attributes[attr["attr_type"]] += int(attr["value"])
         return attributes
 
     @property
     def base_desc(self):
         desc_list = []
         for attr in self.base:
-            if float_attr := FLOAT_ATTRS.get(attr['attr']):
-                min_value = int(attr['value'])
+            if float_attr := FLOAT_ATTRS.get(attr["attr"]):
+                min_value = int(attr["value"])
                 max_value = min_value
                 for sub_attr in self.base:
-                    if sub_attr['attr'] == float_attr:
-                        max_value += int(sub_attr['value'])
+                    if sub_attr["attr"] == float_attr:
+                        max_value += int(sub_attr["value"])
                         break
-                desc_list.append(attr['desc'].format(f"{min_value} - {max_value}"))
-            elif attr['attr'] in BINARY_ATTRS:
-                value = round(int(attr['value']) / FRAME_PER_SECOND, 1)
-                desc_list.append(attr['desc'].format(value))
-            elif attr['desc']:
-                desc_list.append(attr['desc'].format(int(attr['value'])))
+                desc_list.append(attr["desc"].format(f"{min_value} - {max_value}"))
+            elif attr["attr"] in BINARY_ATTRS:
+                value = round(int(attr["value"]) / FRAME_PER_SECOND, 1)
+                desc_list.append(attr["desc"].format(value))
+            elif attr["desc"]:
+                desc_list.append(attr["desc"].format(int(attr["value"])))
         return desc_list
 
     @property
@@ -111,11 +108,11 @@ class Equipment:
             if not is_attribute(attr):
                 continue
             elif not self.strength_level:
-                value = int(attr['value'])
+                value = int(attr["value"])
             else:
-                value = int(attr['value'])
+                value = int(attr["value"])
                 value += ROUND(value * STRENGTH_COF(self.strength_level))
-            attributes[attr['attr_type']] += value
+            attributes[attr["attr_type"]] += value
         return attributes
 
     @property
@@ -123,14 +120,14 @@ class Equipment:
         desc_list = []
         for attr in self.magic:
             if self.strength_level:
-                if attr['attr_type'] in ['recipe', 'event']:
-                    desc_list.append(attr['desc'])
+                if attr["attr_type"] in ["recipe", "event"]:
+                    desc_list.append(attr["desc"])
                 else:
-                    value = int(attr['value'])
+                    value = int(attr["value"])
                     extra_value = ROUND(value * STRENGTH_COF(self.strength_level))
-                    desc_list.append(attr['desc'].format(f"{value}(+{extra_value})"))
+                    desc_list.append(attr["desc"].format(f"{value}(+{extra_value})"))
             else:
-                desc_list.append(attr['desc'].format(attr['value']))
+                desc_list.append(attr["desc"].format(attr["value"]))
         return desc_list
 
     @property
@@ -139,18 +136,18 @@ class Equipment:
         for attr, embed_level in zip(self.embed, self.embed_levels):
             if not is_attribute(attr):
                 continue
-            value = int(attr['value'])
+            value = int(attr["value"])
             value = int(value * EMBED_COF(embed_level))
-            attributes[attr['attr_type']] += value
+            attributes[attr["attr_type"]] += value
         return attributes
 
     @property
     def embed_desc(self):
         desc_list = []
         for attr, embed_level in zip(self.embed, self.embed_levels):
-            value = int(attr['value'])
+            value = int(attr["value"])
             value = int(value * EMBED_COF(embed_level))
-            desc_list.append(attr['desc'].format(value))
+            desc_list.append(attr["desc"].format(value))
         return desc_list
 
     @property
@@ -186,7 +183,7 @@ class Enchant:
         for attr in self.attributes:
             if not is_attribute(attr):
                 continue
-            attributes[attr['attr_type']] += int(attr['value'])
+            attributes[attr["attr_type"]] += int(attr["value"])
         return attributes
 
 
@@ -199,7 +196,9 @@ class Stone:
     attributes: list[dict]
 
     def __init__(self, item_id):
-        for k, v in STONES.get(str(item_id), {}).items():
+        stone = STONES.get(str(item_id), {})
+        stone = stone or STONES_by_enchant.get(item_id, {})
+        for k, v in stone.items():
             setattr(self, k, v)
 
     def __bool__(self):
@@ -211,7 +210,7 @@ class Stone:
         for attr in self.attributes:
             if not is_attribute(attr):
                 continue
-            attributes[attr['attr_type']] += int(attr['value'])
+            attributes[attr["attr_type"]] += int(attr["value"])
         return attributes
 
 
@@ -224,14 +223,16 @@ class Gear:
     stone: Stone
 
     def __init__(self, equip_data: dict):
-        tab_id, equipment_id = equip_data['dwTabType'], equip_data['dwTabIndex']
-        strength_level = equip_data['nStrengthLevel']
-        embed_levels = [SLOT_MAPPING.get(slot, 0) for _, slot in equip_data['aSlotItem']]
+        tab_id, equipment_id = equip_data["dwTabType"], equip_data["dwTabIndex"]
+        strength_level = equip_data["nStrengthLevel"]
+        embed_levels = [
+            SLOT_MAPPING.get(slot, 0) for _, slot in equip_data["aSlotItem"]
+        ]
         self.equipment = Equipment(tab_id, equipment_id, strength_level, embed_levels)
-        self.temporary_enchant = Enchant(equip_data['dwTemporaryEnchantID'])
-        self.permanent_enchant = Enchant(equip_data['dwPermanentEnchantID'])
+        self.temporary_enchant = Enchant(equip_data["dwTemporaryEnchantID"])
+        self.permanent_enchant = Enchant(equip_data["dwPermanentEnchantID"])
         _, stone_id = equip_data["ColorInfo"]["0"]
-        self.stone = Stone(stone_id)
+        self.stone = Stone(stone_id) if stone_id else None
 
     def __bool__(self):
         return bool(self.equipment)
@@ -261,7 +262,7 @@ class Gears:
 
     def __init__(self, info: dict):
         self.gears = []
-        for equip_data in info['equip_data']:
+        for equip_data in info["equip_data"]:
             if gear := Gear(equip_data):
                 self.gears.append(gear)
 
@@ -280,9 +281,9 @@ class Gears:
             for need_count, attrs in set_attrs.items():
                 if count >= need_count:
                     for attr in attrs:
-                        if not attr['attr_type']:
+                        if not attr["attr_type"]:
                             continue
-                        set_attributes[attr['attr']] += int(attr['value'])
+                        set_attributes[attr["attr"]] += int(attr["value"])
         attributes += set_attributes
 
         return attributes
