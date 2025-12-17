@@ -479,7 +479,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     POISON_ATTACK_POWER_TO_THERAPY_POWER_COF = ""
     THERAPY_POWER_TO_MAGIC_ATTACK_POWER_COF = ""
 
-    SPIRIT_TO_THERAPY_POWER_COF = "spirit_to_therapy"
+    SPIRIT_TO_THERAPY_POWER_COF = "spirit_to_therapy_power"
 
     AGILITY_TO_PHYSICS_ATTACK_POWER_COF = "agility_to_physical_attack_power"
     AGILITY_TO_PHYSICS_CRITICAL_STRIKE_COF = "agility_to_physical_critical_strike"

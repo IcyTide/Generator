@@ -3059,7 +3059,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 3913,
                 "physical_shield_base": 2850,
-                "spirit_to_therapy": 3052,
+                "spirit_to_therapy_power": 3052,
                 "spirit_to_neutral_critical_strike": 758,
                 "max_life_gain": 245,
                 "therapy_power_base": 17725,
@@ -3586,7 +3586,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 3913,
                 "physical_shield_base": 3913,
-                "spirit_to_therapy": 3236,
+                "spirit_to_therapy_power": 3236,
                 "spirit_to_lunar_critical_strike": 389,
                 "max_life_gain": 245,
                 "therapy_power_base": 18992,
@@ -5183,7 +5183,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 3913,
                 "physical_shield_base": 2850,
-                "spirit_to_therapy": 3420,
+                "spirit_to_therapy_power": 3420,
                 "max_life_gain": 245,
                 "therapy_power_base": 18358,
                 "decritical_power_rate": 102
@@ -9356,7 +9356,7 @@ BELONGS = {
                 "decritical_power_rate": 102,
                 "max_life_gain": 245,
                 "therapy_power_base": 19625,
-                "spirit_to_therapy": 3144,
+                "spirit_to_therapy_power": 3144,
                 "spirit_to_lunar_critical_strike": 573
             },
             "desc": "以音锤意，以意律音，音意相合，探经查脉。习此功者可以内力弹奏音律，引导人体受损经脉，使伤势逐渐平复。",
@@ -11410,7 +11410,7 @@ BELONGS = {
             "attributes": {
                 "magical_shield_base": 2850,
                 "physical_shield_base": 4695,
-                "spirit_to_therapy": 3318,
+                "spirit_to_therapy_power": 3318,
                 "spirit_to_poison_critical_strike": 205,
                 "max_life_gain": 245,
                 "therapy_power_base": 19625,

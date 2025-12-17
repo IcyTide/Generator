@@ -1082,20 +1082,20 @@ class Parry(Major):
         return Int(self.parry_value_base * (1 + self.parry_value_gain / BINARY_SCALE)) + self.extra_parry_value
 
 
-class Therapy(Major):
-    therapy_base: int = 0
-    therapy_gain: int = 0
+class TherapyPower(Major):
+    therapy_power_base: int = 0
+    therapy_power_gain: int = 0
 
-    spirit_to_therapy: int = 0
-
-    @property
-    def extra_therapy(self):
-        return Int(self.spirit * self.spirit_to_therapy / BINARY_SCALE)
+    spirit_to_therapy_power: int = 0
 
     @property
-    def therapy(self):
-        therapy = Int(self.therapy_base * (1 + self.therapy_gain / BINARY_SCALE))
-        return therapy + self.extra_therapy
+    def extra_therapy_power(self):
+        return Int(self.spirit * self.spirit_to_therapy_power / BINARY_SCALE)
+
+    @property
+    def therapy_power(self):
+        therapy = Int(self.therapy_power_base * (1 + self.therapy_power_gain / BINARY_SCALE))
+        return therapy + self.extra_therapy_power
 
 
 class Life(Major):
@@ -1214,7 +1214,7 @@ class Other:
 
 class BaseAttribute(
     AttackPower, CriticalStrike, Overcome, CriticalPower, Shield, DamageBase, DamageCof,
-    WeaponDamage, Haste, Surplus, Strain, Dodge, Parry, Therapy, Life, Mana, DecriticalPower, Toughness, Other
+    WeaponDamage, Haste, Surplus, Strain, Dodge, Parry, TherapyPower, Life, Mana, DecriticalPower, Toughness, Other
 ):
     level: int = 0
 

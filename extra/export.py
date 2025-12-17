@@ -1,19 +1,16 @@
-import json
-
 from extra.attribute import Attribute
-from extra.gear import Gears
+from tools.lua.enums import ATTRIBUTE_TYPE
+from tools.utils import camel_to_capital
 
 
-def main(info: dict):
-    gears = Gears(info)
-    if kungfu_info := gears.kungfu_info:
-        attribute = Attribute(*kungfu_info)
-        for k, v in gears.content.items():
-            attribute[k] += v
-        return attribute
-    else:
-        return None
+def main(attributes: dict[str, int], school: str, kind: str):
+    attribute = Attribute(school, kind)
+    for attr, value in attributes.items():
+        cap_attr = camel_to_capital(attr[2:])
+        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+        attribute[attr_type] += value
+    return attribute
 
 
 if __name__ == '__main__':
-    main(json.load(open("", encoding="utf-8")))
+    main({}, "", "")
