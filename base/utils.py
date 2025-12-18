@@ -1,4 +1,4 @@
-from base.expression import Ceil, Expression, Int, Max, Min, Variable
+from ....base.expression import Ceil, Expression, Int, Max, Min, Variable
 
 
 def get_variables(formula: str) -> dict[str, Variable]:

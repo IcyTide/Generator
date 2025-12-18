@@ -1,6 +1,6 @@
-from base.constant import *
-from base.expression import Ceil, Int, Max, Min
-from tools.lua.enums import SKILL_KIND_TYPE
+from .constant import *
+from .expression import Ceil
+from ..tools.lua.enums import SKILL_KIND_TYPE
 
 
 class BaseType:
@@ -17,18 +17,26 @@ class BaseType:
         else:
             return SKILL_KIND_TYPE.NONE
 
-    def __init__(self, major_type: str = "", damage_type: str = "", critical_type: str = ""):
+    def __init__(self, major_type: str = '', damage_type: str = '', critical_type: str = ''):
         self.major_type = major_type
         self.damage_type = damage_type
         self.critical_type = critical_type
 
     def __getitem__(self, item):
-        if item in dir(self):
+        if hasattr(self, item) is True:
             return getattr(self, item)
-        raise KeyError
+        raise KeyError(item)
 
     def __setitem__(self, key, value):
-        if key in dir(self):
+        if hasattr(self, key) is False:
+            raise KeyError(key)
+        setattr(self, key, value)
+
+    def safe_get(self, key: str):
+        return hasattr(self, key) and getattr(self, key)
+
+    def safe_set(self, key: str, value):
+        if hasattr(self, key) is True:
             setattr(self, key, value)
 
 
@@ -62,15 +70,18 @@ class BaseMajor(BaseType):
 
     @property
     def major_base(self):
-        return self[f"{self.major_type}_base"]
+        key = f'{self.major_type}_base'
+        return self.safe_get(key)
 
     @major_base.setter
     def major_base(self, value):
-        self[f"{self.major_type}_base"] = value
+        key = f'{self.major_type}_base'
+        self.safe_set(key, value)
 
     @property
     def base_major(self):
-        return self[f"base_{self.major_type}"]
+        key = f'base_{self.major_type}'
+        return self.safe_get(key)
 
 
 class MajorGain:
@@ -84,27 +95,27 @@ class MajorGain:
 class Major(BaseMajor, MajorGain):
     @property
     def agility(self):
-        return Int(self.base_agility * (1 + self.agility_gain / BINARY_SCALE))
+        return int(self.base_agility * (1 + self.agility_gain / BINARY_SCALE))
 
     @property
     def strength(self):
-        return Int(self.base_strength * (1 + self.strength_gain / BINARY_SCALE))
+        return int(self.base_strength * (1 + self.strength_gain / BINARY_SCALE))
 
     @property
     def spirit(self):
-        return Int(self.base_spirit * (1 + self.spirit_gain / BINARY_SCALE))
+        return int(self.base_spirit * (1 + self.spirit_gain / BINARY_SCALE))
 
     @property
     def spunk(self):
-        return Int(self.base_spunk * (1 + self.spunk_gain / BINARY_SCALE))
+        return int(self.base_spunk * (1 + self.spunk_gain / BINARY_SCALE))
 
     @property
     def vitality(self):
-        return Int(self.base_vitality * (1 + self.vitality_gain / BINARY_SCALE))
+        return int(self.base_vitality * (1 + self.vitality_gain / BINARY_SCALE))
 
     @property
     def major(self):
-        return self[self.major_type]
+        return self.safe_get(self.major_type)
 
 
 class BaseAttackPower(Major):
@@ -120,12 +131,12 @@ class BaseAttackPower(Major):
     @property
     def base_physical_attack_power(self):
         base_attack_power = self.physical_attack_power_base + self.all_attack_power_base
-        return base_attack_power + Int(self.strength * STRENGTH_TO_ATTACK_POWER)
+        return base_attack_power + int(self.strength * STRENGTH_TO_ATTACK_POWER)
 
     @property
     def base_magical_attack_power(self):
         base_attack_power = self.magical_attack_power_base + self.all_attack_power_base
-        return base_attack_power + Int(self.spunk * SPUNK_TO_ATTACK_POWER)
+        return base_attack_power + int(self.spunk * SPUNK_TO_ATTACK_POWER)
 
     @property
     def base_solar_attack_power(self):
@@ -164,40 +175,41 @@ class ExtraAttackPower(Major):
 
     @property
     def extra_physical_attack_power(self):
-        extra_attack_power = Int(self.agility * self.agility_to_physical_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.strength * self.strength_to_physical_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.vitality * self.vitality_to_physical_attack_power / BINARY_SCALE)
+        extra_attack_power = int(self.agility * self.agility_to_physical_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.strength * self.strength_to_physical_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.vitality * self.vitality_to_physical_attack_power / BINARY_SCALE)
         return extra_attack_power
 
     @property
     def extra_solar_attack_power(self):
-        extra_attack_power = Int(self.spunk * self.spunk_to_solar_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.spunk * self.spunk_to_solar_and_lunar_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.vitality * self.vitality_to_solar_attack_power / BINARY_SCALE)
+        extra_attack_power = int(self.spunk * self.spunk_to_solar_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.spunk * self.spunk_to_solar_and_lunar_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.vitality * self.vitality_to_solar_attack_power / BINARY_SCALE)
         return extra_attack_power
 
     @property
     def extra_lunar_attack_power(self):
-        extra_attack_power = Int(self.spirit * self.spirit_to_lunar_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.spunk * self.spunk_to_solar_and_lunar_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.vitality * self.vitality_to_lunar_attack_power / BINARY_SCALE)
+        extra_attack_power = int(self.spirit * self.spirit_to_lunar_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.spunk * self.spunk_to_solar_and_lunar_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.vitality * self.vitality_to_lunar_attack_power / BINARY_SCALE)
         return extra_attack_power
 
     @property
     def extra_neutral_attack_power(self):
-        extra_attack_power = Int(self.spunk * self.spunk_to_neutral_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.spirit * self.spirit_to_neutral_attack_power / BINARY_SCALE)
+        extra_attack_power = int(self.spunk * self.spunk_to_neutral_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.spirit * self.spirit_to_neutral_attack_power / BINARY_SCALE)
         return extra_attack_power
 
     @property
     def extra_poison_attack_power(self):
-        extra_attack_power = Int(self.spunk * self.spunk_to_poison_attack_power / BINARY_SCALE)
-        extra_attack_power += Int(self.spirit * self.spirit_to_poison_attack_power / BINARY_SCALE)
+        extra_attack_power = int(self.spunk * self.spunk_to_poison_attack_power / BINARY_SCALE)
+        extra_attack_power += int(self.spirit * self.spirit_to_poison_attack_power / BINARY_SCALE)
         return extra_attack_power
 
     @property
     def base_attack_power(self):
-        return self[f"base_{self.damage_type}_attack_power"]
+        key = f'base_{self.damage_type}_attack_power'
+        return self.safe_get(key)
 
 
 class AttackPowerGain(BaseType):
@@ -223,39 +235,40 @@ class AttackPowerGain(BaseType):
 
     @property
     def attack_power_gain(self):
-        return self[f"{self.damage_type}_attack_power_gain"]
+        key = f'{self.damage_type}_attack_power_gain'
+        return self.safe_get(key)
 
 
 class AttackPower(BaseAttackPower, ExtraAttackPower, AttackPowerGain):
-
     @property
     def physical_attack_power(self):
-        attack_power = Int(self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE))
+        attack_power = int(self.base_physical_attack_power * (1 + self.physical_attack_power_gain / BINARY_SCALE))
         return attack_power + self.extra_physical_attack_power
 
     @property
     def solar_attack_power(self):
-        attack_power = Int(self.base_solar_attack_power * (1 + self.solar_attack_power_gain / BINARY_SCALE))
+        attack_power = int(self.base_solar_attack_power * (1 + self.solar_attack_power_gain / BINARY_SCALE))
         return attack_power + self.extra_solar_attack_power
 
     @property
     def lunar_attack_power(self):
-        attack_power = Int(self.base_lunar_attack_power * (1 + self.lunar_attack_power_gain / BINARY_SCALE))
+        attack_power = int(self.base_lunar_attack_power * (1 + self.lunar_attack_power_gain / BINARY_SCALE))
         return attack_power + self.extra_lunar_attack_power
 
     @property
     def neutral_attack_power(self):
-        attack_power = Int(self.base_neutral_attack_power * (1 + self.neutral_attack_power_gain / BINARY_SCALE))
+        attack_power = int(self.base_neutral_attack_power * (1 + self.neutral_attack_power_gain / BINARY_SCALE))
         return attack_power + self.extra_neutral_attack_power
 
     @property
     def poison_attack_power(self):
-        attack_power = Int(self.base_poison_attack_power * (1 + self.poison_attack_power_gain / BINARY_SCALE))
+        attack_power = int(self.base_poison_attack_power * (1 + self.poison_attack_power_gain / BINARY_SCALE))
         return attack_power + self.extra_poison_attack_power
 
     @property
     def attack_power(self):
-        return self[f"{self.damage_type}_attack_power"]
+        key = f'{self.damage_type}_attack_power'
+        return self.safe_get(key)
 
 
 class BaseCriticalStrike(Major):
@@ -270,21 +283,21 @@ class BaseCriticalStrike(Major):
 
     @property
     def critical_strike_base(self):
-        return self[f"{self.critical_type}_critical_strike_base"]
+        return self.safe_get(f'{self.critical_type}_critical_strike_base')
 
     @critical_strike_base.setter
     def critical_strike_base(self, value):
-        self[f"{self.critical_type}_critical_strike_base"] = value
+        return self.safe_set(f'{self.critical_type}_critical_strike_base', value)
 
     @property
     def base_physical_critical_strike(self):
         base_critical_strike = self.physical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE / BINARY_SCALE)
+        return base_critical_strike + int(self.agility * AGILITY_TO_CRITICAL_STRIKE / BINARY_SCALE)
 
     @property
     def base_magical_critical_strike(self):
         base_critical_strike = self.magical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE / BINARY_SCALE)
+        return base_critical_strike + int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE / BINARY_SCALE)
 
     @property
     def base_solar_critical_strike(self):
@@ -306,7 +319,8 @@ class BaseCriticalStrike(Major):
 
     @property
     def base_critical_strike(self):
-        return self[f"base_{self.critical_type}_critical_strike"]
+        key = f'{self.critical_type}_critical_strike_base'
+        return self.safe_get(key)
 
 
 class ExtraCriticalStrike(Major):
@@ -325,37 +339,37 @@ class ExtraCriticalStrike(Major):
 
     @property
     def extra_physical_critical_strike(self):
-        extra_critical_strike = Int(self.agility * self.agility_to_physical_critical_strike / BINARY_SCALE)
-        extra_critical_strike += Int(self.strength * self.strength_to_physical_critical_strike / BINARY_SCALE)
-        extra_critical_strike += Int(self.spunk * self.spunk_to_physical_critical_strike / BINARY_SCALE)
+        extra_critical_strike = int(self.agility * self.agility_to_physical_critical_strike / BINARY_SCALE)
+        extra_critical_strike += int(self.strength * self.strength_to_physical_critical_strike / BINARY_SCALE)
+        extra_critical_strike += int(self.spunk * self.spunk_to_physical_critical_strike / BINARY_SCALE)
         return extra_critical_strike
 
     @property
     def extra_magical_critical_strike(self):
-        extra_critical_strike = Int(self.vitality * self.vitality_to_magical_critical_strike / BINARY_SCALE)
+        extra_critical_strike = int(self.vitality * self.vitality_to_magical_critical_strike / BINARY_SCALE)
         return extra_critical_strike
 
     @property
     def extra_solar_critical_strike(self):
-        extra_critical_strike = Int(self.spunk * self.spunk_to_solar_critical_strike / BINARY_SCALE)
-        extra_critical_strike += Int(self.spunk * self.spunk_to_solar_and_lunar_critical_strike / BINARY_SCALE)
+        extra_critical_strike = int(self.spunk * self.spunk_to_solar_critical_strike / BINARY_SCALE)
+        extra_critical_strike += int(self.spunk * self.spunk_to_solar_and_lunar_critical_strike / BINARY_SCALE)
         return extra_critical_strike + self.extra_magical_critical_strike
 
     @property
     def extra_lunar_critical_strike(self):
-        extra_critical_strike = Int(self.spirit * self.spirit_to_lunar_critical_strike / BINARY_SCALE)
-        extra_critical_strike += Int(self.spunk * self.spunk_to_solar_and_lunar_critical_strike / BINARY_SCALE)
+        extra_critical_strike = int(self.spirit * self.spirit_to_lunar_critical_strike / BINARY_SCALE)
+        extra_critical_strike += int(self.spunk * self.spunk_to_solar_and_lunar_critical_strike / BINARY_SCALE)
         return extra_critical_strike + self.extra_magical_critical_strike
 
     @property
     def extra_neutral_critical_strike(self):
-        extra_critical_strike = Int(self.spirit * self.spirit_to_neutral_critical_strike / BINARY_SCALE)
-        extra_critical_strike += Int(self.spunk * self.spunk_to_neutral_critical_strike / BINARY_SCALE)
+        extra_critical_strike = int(self.spirit * self.spirit_to_neutral_critical_strike / BINARY_SCALE)
+        extra_critical_strike += int(self.spunk * self.spunk_to_neutral_critical_strike / BINARY_SCALE)
         return extra_critical_strike + self.extra_magical_critical_strike
 
     @property
     def extra_poison_critical_strike(self):
-        extra_critical_strike = Int(self.spirit * self.spirit_to_poison_critical_strike / BINARY_SCALE)
+        extra_critical_strike = int(self.spirit * self.spirit_to_poison_critical_strike / BINARY_SCALE)
         return extra_critical_strike + self.extra_magical_critical_strike
 
 
@@ -382,38 +396,40 @@ class FinalCriticalStrike(BaseCriticalStrike, ExtraCriticalStrike):
 
     @property
     def final_critical_strike(self):
-        return self[f"final_{self.critical_type}_critical_strike"]
+        key = f'final_{self.critical_type}_critical_strike'
+        return self.safe_get(key)
 
 
 class CriticalStrikePercent(FinalCriticalStrike):
     @property
     def physical_critical_strike_percent(self):
         critical_strike_percent = self.final_physical_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def solar_critical_strike_percent(self):
         critical_strike_percent = self.final_solar_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def lunar_critical_strike_percent(self):
         critical_strike_percent = self.final_lunar_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def neutral_critical_strike_percent(self):
         critical_strike_percent = self.final_neutral_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def poison_critical_strike_percent(self):
         critical_strike_percent = self.final_poison_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def critical_strike_percent(self):
-        return self[f"{self.critical_type}_critical_strike_percent"]
+        key = f'{self.critical_type}_critical_strike_percent'
+        return self.safe_get(key)
 
 
 class CriticalStrikeRate(BaseType):
@@ -425,7 +441,7 @@ class CriticalStrikeRate(BaseType):
 
     @property
     def critical_strike_rate(self):
-        return self[f"{self.critical_type}_critical_strike_rate"]
+        return self.safe_get(f'{self.critical_type}_critical_strike_rate')
 
 
 class CriticalStrike(CriticalStrikePercent, CriticalStrikeRate):
@@ -456,7 +472,7 @@ class CriticalStrike(CriticalStrikePercent, CriticalStrikeRate):
 
     @property
     def critical_strike(self):
-        return self[f"{self.critical_type}_critical_strike"]
+        return self.safe_get(f'{self.critical_type}_critical_strike')
 
 
 class BaseOvercome(Major):
@@ -471,21 +487,21 @@ class BaseOvercome(Major):
 
     @property
     def overcome_base(self):
-        return self[f"{self.damage_type}_overcome_base"]
+        return self.safe_get(f'{self.damage_type}_overcome_base')
 
     @overcome_base.setter
     def overcome_base(self, value):
-        self[f"{self.damage_type}_overcome_base"] = value
+        self.safe_set(f'{self.damage_type}_overcome_base', value)
 
     @property
     def base_physical_overcome(self):
         base_overcome = self.physical_overcome_base + self.all_overcome_base
-        return base_overcome + Int(self.strength * STRENGTH_TO_OVERCOME)
+        return base_overcome + int(self.strength * STRENGTH_TO_OVERCOME)
 
     @property
     def base_magical_overcome(self):
         base_overcome = self.magical_overcome_base + self.all_overcome_base
-        return base_overcome + Int(self.spunk * SPUNK_TO_OVERCOME)
+        return base_overcome + int(self.spunk * SPUNK_TO_OVERCOME)
 
     @property
     def base_solar_overcome(self):
@@ -507,7 +523,7 @@ class BaseOvercome(Major):
 
     @property
     def base_overcome(self):
-        return self[f"base_{self.damage_type}_overcome"]
+        return self.safe_get(f'base_{self.damage_type}_overcome')
 
 
 class ExtraOvercome(Major):
@@ -521,14 +537,14 @@ class ExtraOvercome(Major):
 
     @property
     def extra_physical_overcome(self):
-        extra_overcome = Int(self.agility * self.agility_to_physical_overcome / BINARY_SCALE)
-        extra_overcome += Int(self.strength * self.strength_to_physical_overcome / BINARY_SCALE)
-        extra_overcome += Int(self.vitality * self.vitality_to_physical_overcome / BINARY_SCALE)
+        extra_overcome = int(self.agility * self.agility_to_physical_overcome / BINARY_SCALE)
+        extra_overcome += int(self.strength * self.strength_to_physical_overcome / BINARY_SCALE)
+        extra_overcome += int(self.vitality * self.vitality_to_physical_overcome / BINARY_SCALE)
         return extra_overcome
 
     @property
     def extra_magical_overcome(self):
-        extra_overcome = Int(self.vitality * self.vitality_to_magical_overcome / BINARY_SCALE)
+        extra_overcome = int(self.vitality * self.vitality_to_magical_overcome / BINARY_SCALE)
         return extra_overcome
 
     @property
@@ -541,12 +557,12 @@ class ExtraOvercome(Major):
 
     @property
     def extra_neutral_overcome(self):
-        extra_overcome = Int(self.spunk * self.spunk_to_neutral_overcome / BINARY_SCALE)
+        extra_overcome = int(self.spunk * self.spunk_to_neutral_overcome / BINARY_SCALE)
         return extra_overcome + self.extra_magical_overcome
 
     @property
     def extra_poison_overcome(self):
-        extra_overcome = Int(self.spirit * self.spirit_to_poison_overcome / BINARY_SCALE)
+        extra_overcome = int(self.spirit * self.spirit_to_poison_overcome / BINARY_SCALE)
         return extra_overcome + self.extra_magical_overcome
 
 
@@ -561,63 +577,63 @@ class OvercomeGain:
 class FinalOvercome(BaseOvercome, ExtraOvercome, OvercomeGain):
     @property
     def final_physical_overcome(self):
-        final_overcome = Int(self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE))
+        final_overcome = int(self.base_physical_overcome * (1 + self.physical_overcome_gain / BINARY_SCALE))
         return final_overcome + self.extra_physical_overcome
 
     @property
     def final_solar_overcome(self):
-        final_overcome = Int(self.base_solar_overcome * (1 + self.solar_overcome_gain / BINARY_SCALE))
+        final_overcome = int(self.base_solar_overcome * (1 + self.solar_overcome_gain / BINARY_SCALE))
         return final_overcome + self.extra_solar_overcome
 
     @property
     def final_lunar_overcome(self):
-        final_overcome = Int(self.base_lunar_overcome * (1 + self.lunar_overcome_gain / BINARY_SCALE))
+        final_overcome = int(self.base_lunar_overcome * (1 + self.lunar_overcome_gain / BINARY_SCALE))
         return final_overcome + self.extra_lunar_overcome
 
     @property
     def final_neutral_overcome(self):
-        final_overcome = Int(self.base_neutral_overcome * (1 + self.neutral_overcome_gain / BINARY_SCALE))
+        final_overcome = int(self.base_neutral_overcome * (1 + self.neutral_overcome_gain / BINARY_SCALE))
         return final_overcome + self.extra_neutral_overcome
 
     @property
     def final_poison_overcome(self):
-        final_overcome = Int(self.base_poison_overcome * (1 + self.poison_overcome_gain / BINARY_SCALE))
+        final_overcome = int(self.base_poison_overcome * (1 + self.poison_overcome_gain / BINARY_SCALE))
         return final_overcome + self.extra_poison_overcome
 
     @property
     def final_overcome(self):
-        return self[f"final_{self.damage_type}_overcome"]
+        return self.safe_get(f'final_{self.damage_type}_overcome')
 
 
 class Overcome(FinalOvercome):
     @property
     def physical_overcome(self):
         overcome = self.final_physical_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return int(overcome * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def solar_overcome(self):
         overcome = self.final_solar_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return int(overcome * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def lunar_overcome(self):
         overcome = self.final_lunar_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return int(overcome * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def neutral_overcome(self):
         overcome = self.final_neutral_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return int(overcome * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def poison_overcome(self):
         overcome = self.final_poison_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return int(overcome * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def overcome(self):
-        return self[f"{self.damage_type}_overcome"]
+        return self.safe_get(f'{self.damage_type}_overcome')
 
 
 class BaseCriticalPower(BaseType):
@@ -632,11 +648,11 @@ class BaseCriticalPower(BaseType):
 
     @property
     def critical_power_base(self):
-        return self[f"{self.critical_type}_critical_power_base"]
+        return self.safe_get(f'{self.critical_type}_critical_power_base')
 
     @critical_power_base.setter
     def critical_power_base(self, value):
-        self[f"{self.critical_type}_critical_power_base"] = value
+        self.safe_set(f'{self.critical_type}_critical_power_base', value)
 
     @property
     def base_physical_critical_power(self):
@@ -666,38 +682,38 @@ class BaseCriticalPower(BaseType):
 
     @property
     def base_critical_power(self):
-        return self[f"base_{self.critical_type}_critical_power"]
+        return self.safe_get(f'base_{self.critical_type}_critical_power')
 
 
 class CriticalPowerPercent(BaseCriticalPower):
     @property
     def physical_critical_power_percent(self):
         critical_power_percent = self.base_physical_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def solar_critical_power_percent(self):
         critical_power_percent = self.base_solar_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def lunar_critical_power_percent(self):
         critical_power_percent = self.base_lunar_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def neutral_critical_power_percent(self):
         critical_power_percent = self.base_neutral_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def poison_critical_power_percent(self):
         critical_power_percent = self.base_poison_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def critical_power_percent(self):
-        return self[f"{self.critical_type}_critical_power_percent"]
+        return self.safe_get(f'{self.critical_type}_critical_power_percent')
 
 
 class CriticalPowerRate(BaseType):
@@ -739,36 +755,36 @@ class CriticalPower(CriticalPowerPercent, CriticalPowerRate):
     @property
     def physical_critical_power(self):
         critical_power = self.physical_critical_power_percent + self.physical_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
+        critical_power = min(critical_power, MAX_CRITICAL_POWER)
         return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
 
     @property
     def solar_critical_power(self):
         critical_power = self.solar_critical_power_percent + self.solar_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
+        critical_power = min(critical_power, MAX_CRITICAL_POWER)
         return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
 
     @property
     def lunar_critical_power(self):
         critical_power = self.lunar_critical_power_percent + self.lunar_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
+        critical_power = min(critical_power, MAX_CRITICAL_POWER)
         return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
 
     @property
     def neutral_critical_power(self):
         critical_power = self.neutral_critical_power_percent + self.neutral_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
+        critical_power = min(critical_power, MAX_CRITICAL_POWER)
         return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
 
     @property
     def poison_critical_power(self):
         critical_power = self.poison_critical_power_percent + self.poison_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
+        critical_power = min(critical_power, MAX_CRITICAL_POWER)
         return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
 
     @property
     def critical_power(self):
-        return self[f"{self.critical_type}_critical_power"]
+        return self.safe_get(f'{self.critical_type}_critical_power')
 
 
 class BaseShield:
@@ -812,12 +828,12 @@ class ExtraShield(Major):
 
     @property
     def extra_physical_shield(self):
-        extra_shield = Int(self.vitality * self.vitality_to_physical_shield / BINARY_SCALE)
+        extra_shield = int(self.vitality * self.vitality_to_physical_shield / BINARY_SCALE)
         return extra_shield + self.physical_shield_add
 
     @property
     def extra_magical_shield(self):
-        extra_shield = Int(self.vitality * self.vitality_to_magical_shield / BINARY_SCALE)
+        extra_shield = int(self.vitality * self.vitality_to_magical_shield / BINARY_SCALE)
         return extra_shield
 
     @property
@@ -846,34 +862,38 @@ class ShieldGain(BaseType):
 
     @property
     def shield_gain(self):
-        return self[f"{self.damage_type}_shield_gain"]
+        return self.safe_get(f'{self.damage_type}_shield_gain')
 
 
 class Shield(BaseShield, ExtraShield, ShieldGain):
     @property
     def physical_shield(self):
-        final_shield = Int(self.base_physical_shield * (1 + self.physical_shield_gain / BINARY_SCALE))
-        return Max(final_shield, 0) + self.extra_physical_shield
+        final_shield = int(self.base_physical_shield * (1 + self.physical_shield_gain / BINARY_SCALE))
+        return max(final_shield, 0) + self.extra_physical_shield
 
     @property
     def solar_shield(self):
-        final_shield = Int(self.base_solar_shield * (1 + self.solar_shield_gain / BINARY_SCALE))
-        return Max(final_shield, 0) + self.extra_magical_shield
+        final_shield = int(self.base_solar_shield * (1 + self.solar_shield_gain / BINARY_SCALE))
+        return max(final_shield, 0) + self.extra_magical_shield
 
     @property
     def lunar_shield(self):
-        final_shield = Int(self.base_lunar_shield * (1 + self.lunar_shield_gain / BINARY_SCALE))
-        return Max(final_shield, 0) + self.extra_magical_shield
+        final_shield = int(self.base_lunar_shield * (1 + self.lunar_shield_gain / BINARY_SCALE))
+        return max(final_shield, 0) + self.extra_magical_shield
 
     @property
     def neutral_shield(self):
-        final_shield = Int(self.base_neutral_shield * (1 + self.neutral_shield_gain / BINARY_SCALE))
-        return Max(final_shield, 0) + self.extra_magical_shield
+        final_shield = int(self.base_neutral_shield * (1 + self.neutral_shield_gain / BINARY_SCALE))
+        return max(final_shield, 0) + self.extra_magical_shield
 
     @property
     def poison_shield(self):
-        final_shield = Int(self.base_poison_shield * (1 + self.poison_shield_gain / BINARY_SCALE))
-        return Max(final_shield, 0) + self.extra_magical_shield
+        final_shield = int(self.base_poison_shield * (1 + self.poison_shield_gain / BINARY_SCALE))
+        return max(final_shield, 0) + self.extra_magical_shield
+
+    @property
+    def magical_shield(self):
+        return max(self.solar_shield, self.lunar_shield, self.neutral_shield, self.poison_shield)
 
 
 class DamageBase(BaseType):
@@ -893,19 +913,19 @@ class DamageBase(BaseType):
 
     @property
     def damage_base(self):
-        return self[f"{self.damage_type}_damage_base"]
+        return self.safe_get(f'{self.damage_type}_damage_base')
 
     @damage_base.setter
     def damage_base(self, value):
-        self[f"{self.damage_type}_damage_base"] = value
+        self.safe_set(f'{self.damage_type}_damage_base', value)
 
     @property
     def damage_rand(self):
-        return self[f"{self.damage_type}_damage_rand"]
+        return self.safe_get(f'{self.damage_type}_damage_rand')
 
     @damage_rand.setter
     def damage_rand(self, value):
-        self[f"{self.damage_type}_damage_rand"] = value
+        self.safe_set(f'{self.damage_type}_damage_rand', value)
 
 
 class DamageCof(BaseType):
@@ -924,7 +944,7 @@ class DamageCof(BaseType):
 
     @property
     def damage_cof(self):
-        return self[f"{self.damage_type}_damage_cof"]
+        return self.safe_get(f'{self.damage_type}_damage_cof')
 
     @property
     def physical_damage_scale(self):
@@ -948,7 +968,7 @@ class DamageCof(BaseType):
 
     @property
     def damage_scale(self):
-        return self[f"{self.damage_type}_damage_scale"]
+        return self.safe_get(f'{self.damage_type}_damage_scale')
 
     @property
     def pve_damage_addition(self):
@@ -966,7 +986,7 @@ class WeaponDamage:
 
     @property
     def weapon_damage(self):
-        return Int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
+        return int(self.weapon_damage_base * (1 + self.weapon_damage_gain / BINARY_SCALE))
 
 
 class Haste:
@@ -977,12 +997,12 @@ class Haste:
     @property
     def haste_percent(self):
         haste_percent = self.haste_base / HASTE_SCALE
-        return Int(haste_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(haste_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def haste(self):
         haste = self.haste_percent + self.haste_rate / BINARY_SCALE
-        haste = Min(haste, MAX_HASTE)
+        haste = min(haste, MAX_HASTE)
         return haste + self.unlimit_haste_rate / BINARY_SCALE
 
 
@@ -992,7 +1012,7 @@ class Surplus:
 
     @property
     def surplus(self):
-        return Int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
+        return int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
 
 
 class Strain:
@@ -1002,12 +1022,12 @@ class Strain:
 
     @property
     def final_strain(self):
-        return Int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
+        return int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
 
     @property
     def strain_percent(self):
         strain_percent = self.final_strain / STRAIN_SCALE
-        return Int(strain_percent * BINARY_SCALE) / BINARY_SCALE
+        return int(strain_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def strain(self):
@@ -1022,7 +1042,7 @@ class Dodge(Major):
 
     @property
     def extra_dodge(self):
-        extra_dodge = Int(self.vitality * self.vitality_to_dodge / BINARY_SCALE)
+        extra_dodge = int(self.vitality * self.vitality_to_dodge / BINARY_SCALE)
         return extra_dodge
 
     @property
@@ -1032,7 +1052,7 @@ class Dodge(Major):
     @property
     def dodge_percent(self):
         dodge_percent = self.final_dodge / (self.final_dodge + DODGE_CONSTANT)
-        return Int(dodge_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(dodge_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def dodge(self):
@@ -1054,18 +1074,18 @@ class Parry(Major):
 
     @property
     def extra_parry(self):
-        extra_parry = Int(self.agility * self.agility_to_parry / BINARY_SCALE)
-        extra_parry += Int(self.vitality * self.vitality_to_parry / BINARY_SCALE)
+        extra_parry = int(self.agility * self.agility_to_parry / BINARY_SCALE)
+        extra_parry += int(self.vitality * self.vitality_to_parry / BINARY_SCALE)
         return extra_parry
 
     @property
     def final_parry(self):
-        return Int(self.parry_base * (1 + self.parry_gain / BINARY_SCALE)) + self.extra_parry
+        return int(self.parry_base * (1 + self.parry_gain / BINARY_SCALE)) + self.extra_parry
 
     @property
     def parry_percent(self):
         parry_percent = self.final_parry / (self.final_parry + PARRY_CONSTANT)
-        return Int(parry_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(parry_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def parry(self):
@@ -1073,13 +1093,13 @@ class Parry(Major):
 
     @property
     def extra_parry_value(self):
-        extra_parry_value = Int(self.agility * self.agility_to_parry_value / BINARY_SCALE)
-        extra_parry_value += Int(self.vitality * self.vitality_to_parry_value / BINARY_SCALE)
+        extra_parry_value = int(self.agility * self.agility_to_parry_value / BINARY_SCALE)
+        extra_parry_value += int(self.vitality * self.vitality_to_parry_value / BINARY_SCALE)
         return extra_parry_value
 
     @property
     def parry_value(self):
-        return Int(self.parry_value_base * (1 + self.parry_value_gain / BINARY_SCALE)) + self.extra_parry_value
+        return int(self.parry_value_base * (1 + self.parry_value_gain / BINARY_SCALE)) + self.extra_parry_value
 
 
 class TherapyPower(Major):
@@ -1090,11 +1110,11 @@ class TherapyPower(Major):
 
     @property
     def extra_therapy_power(self):
-        return Int(self.spirit * self.spirit_to_therapy_power / BINARY_SCALE)
+        return int(self.spirit * self.spirit_to_therapy_power / BINARY_SCALE)
 
     @property
     def therapy_power(self):
-        therapy = Int(self.therapy_power_base * (1 + self.therapy_power_gain / BINARY_SCALE))
+        therapy = int(self.therapy_power_base * (1 + self.therapy_power_gain / BINARY_SCALE))
         return therapy + self.extra_therapy_power
 
 
@@ -1112,21 +1132,20 @@ class Life(Major):
 
     @property
     def extra_max_life(self):
-        extra_max_life = Int(self.vitality * self.vitality_to_max_life / BINARY_SCALE)
+        extra_max_life = int(self.vitality * self.vitality_to_max_life / BINARY_SCALE)
         return extra_max_life + self.max_life_add
 
     @property
     def final_max_life(self):
-        max_life = Int(self.base_max_life * (1 + self.max_life_gain / BINARY_SCALE))
+        max_life = int(self.base_max_life * (1 + self.max_life_gain / BINARY_SCALE))
         return max_life + self.extra_max_life
 
     @property
     def max_life(self):
-        return Int(self.final_max_life * (1 + self.max_life_final_gain / BINARY_SCALE))
+        return int(self.final_max_life * (1 + self.max_life_final_gain / BINARY_SCALE))
 
 
-class Mana(Major):
-    ...
+class Mana(Major): ...
 
 
 class DecriticalPower:
@@ -1136,16 +1155,23 @@ class DecriticalPower:
 
     @property
     def final_decritical_power(self):
-        return Int(self.decritical_power_base * (1 + self.decritical_power_gain / BINARY_SCALE))
+        return int(self.decritical_power_base * (1 + self.decritical_power_gain / BINARY_SCALE))
+
+    @property
+    def decritical_power_percent_inner(self):
+        fval = self.final_decritical_power
+        total_val = fval + DECRITICAL_POWER_SCALE
+        decritical_power_percent = fval / total_val
+        return int(decritical_power_percent * BINARY_SCALE) / BINARY_SCALE
 
     @property
     def decritical_power_percent(self):
-        decritical_power_percent = self.final_decritical_power / DECRITICAL_POWER_SCALE
-        return Int(decritical_power_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(self.decritical_power_percent_inner * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def decritical_power(self):
-        return self.decritical_power_percent + self.decritical_power_rate / DECIMAL_SCALE
+        val = self.decritical_power_percent_inner + self.decritical_power_rate / BINARY_SCALE
+        return int(val * DECIMAL_SCALE) / DECIMAL_SCALE
 
 
 class Toughness:
@@ -1155,12 +1181,12 @@ class Toughness:
 
     @property
     def final_toughness(self):
-        return Int(self.toughness_base * (1 + self.toughness_gain / BINARY_SCALE))
+        return int(self.toughness_base * (1 + self.toughness_gain / BINARY_SCALE))
 
     @property
     def toughness_percent(self):
         toughness_percent = self.final_toughness / TOUGHNESS_SCALE
-        return Int(toughness_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return int(toughness_percent * DECIMAL_SCALE) / DECIMAL_SCALE
 
     @property
     def toughness(self):
@@ -1205,7 +1231,7 @@ class Other:
 
     @property
     def global_damage_scale(self):
-        return (Int(self.global_damage_factor) + (1 << 20)) / (1 << 20)
+        return (int(self.global_damage_factor) + (1 << 20)) / (1 << 20)
 
     @property
     def resist_critical_strike(self):
@@ -1213,8 +1239,25 @@ class Other:
 
 
 class BaseAttribute(
-    AttackPower, CriticalStrike, Overcome, CriticalPower, Shield, DamageBase, DamageCof,
-    WeaponDamage, Haste, Surplus, Strain, Dodge, Parry, TherapyPower, Life, Mana, DecriticalPower, Toughness, Other
+    AttackPower,
+    CriticalStrike,
+    Overcome,
+    CriticalPower,
+    Shield,
+    DamageBase,
+    DamageCof,
+    WeaponDamage,
+    Haste,
+    Surplus,
+    Strain,
+    Dodge,
+    Parry,
+    TherapyPower,
+    Life,
+    Mana,
+    DecriticalPower,
+    Toughness,
+    Other,
 ):
     level: int = 0
 

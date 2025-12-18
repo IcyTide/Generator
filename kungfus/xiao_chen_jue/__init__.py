@@ -1,7 +1,7 @@
-from kungfus.xiao_chen_jue.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.xiao_chen_jue.buffs import BUFFS
-from kungfus.xiao_chen_jue.dots import DOTS
-from kungfus.xiao_chen_jue.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.xiao_chen_jue.recipes import RECIPES
-from kungfus.xiao_chen_jue.skills import SKILLS
-from kungfus.xiao_chen_jue.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS

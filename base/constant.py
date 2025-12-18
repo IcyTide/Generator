@@ -1,4 +1,4 @@
-from base.expression import Variable
+from .expression import Variable
 
 BINARY_SCALE = 1024
 DECIMAL_SCALE = 10000

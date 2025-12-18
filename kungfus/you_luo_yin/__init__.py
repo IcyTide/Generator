@@ -1,7 +1,7 @@
-from kungfus.you_luo_yin.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.you_luo_yin.buffs import BUFFS
-from kungfus.you_luo_yin.dots import DOTS
-from kungfus.you_luo_yin.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.you_luo_yin.recipes import RECIPES
-from kungfus.you_luo_yin.skills import SKILLS
-from kungfus.you_luo_yin.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS

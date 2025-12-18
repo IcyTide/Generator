@@ -1,7 +1,7 @@
-from kungfus.wu_fang.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.wu_fang.buffs import BUFFS
-from kungfus.wu_fang.dots import DOTS
-from kungfus.wu_fang.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.wu_fang.recipes import RECIPES
-from kungfus.wu_fang.skills import SKILLS
-from kungfus.wu_fang.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS

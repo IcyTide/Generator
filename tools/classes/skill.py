@@ -2,7 +2,7 @@ from pathlib import Path
 
 from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, \
     PHYSICAL_DAMAGE_SCALE
-from base.expression import Expression, Int
+from ....base.expression import Expression, Int
 from tools.classes import AliasBase
 from tools.classes.attribute import Attribute
 from tools.classes.damage import DamageChain

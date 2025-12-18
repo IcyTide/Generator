@@ -2,7 +2,7 @@ import math
 
 from base.attribute import BaseAttribute
 from base.constant import *
-from base.expression import Expression, Variable
+from ....base.expression import Expression, Variable
 from qt.classes.buff import Buff
 from tools.lua.enums import SKILL_KIND_TYPE
 

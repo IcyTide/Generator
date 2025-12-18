@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from tools.lua.enums import ATTRIBUTE_TYPE
+from .lua.enums import ATTRIBUTE_TYPE
 
 formatter = string.Formatter()
 

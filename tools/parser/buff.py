@@ -1,4 +1,4 @@
-from base.expression import Expression
+from ....base.expression import Expression
 from tools.classes.buff import Buff
 from tools.classes.skill import Skill
 

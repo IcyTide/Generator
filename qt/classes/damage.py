@@ -1,4 +1,4 @@
-from base.expression import Expression
+from ....base.expression import Expression
 
 
 class Damage:

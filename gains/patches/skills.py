@@ -1,4 +1,4 @@
-from base.expression import Variable
+from ....base.expression import Variable
 
 
 def get_damage():

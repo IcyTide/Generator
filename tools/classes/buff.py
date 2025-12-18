@@ -1,4 +1,4 @@
-from base.expression import Variable
+from ....base.expression import Variable
 from tools.classes import AliasBase
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_TYPE

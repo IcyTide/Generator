@@ -1,12 +1,12 @@
-from kungfus import ao_xue_zhan_yi, bei_ao_jue, gu_feng_jue, jing_yu_jue, xiao_chen_jue
-from kungfus import bei_ao_jue_mobile
-from kungfus import bing_xin_jue, du_jing, mo_wen, wu_fang, you_luo_yin, zi_xia_gong
-from kungfus import bu_tian_jue, li_jing_yi_dao, ling_su, xiang_zhi, yun_chang_xin_jing
-from kungfus import fen_shan_jin, ling_hai_jue, shan_hai_xin_jue, tai_xu_jian_yi, wen_shui_jue, yin_long_jue
-from kungfus import fen_ying_sheng_jue, hua_jian_you, tai_xuan_jing, tian_luo_gui_dao, yi_jin_jing, zhou_tian_gong
-from kungfus import ming_zun_liu_li_ti, tie_gu_yi, tie_lao_lv, xi_sui_jing
-from kungfus import tai_xuan_jing_mobile, zhou_tian_gong_mobile
-from kungfus import wu_fang_mobile, you_luo_yin_mobile, zi_xia_gong_mobile
+from ..kungfus import ao_xue_zhan_yi, bei_ao_jue, gu_feng_jue, jing_yu_jue, xiao_chen_jue
+from ..kungfus import bei_ao_jue_mobile
+from ..kungfus import bing_xin_jue, du_jing, mo_wen, wu_fang, you_luo_yin, zi_xia_gong
+from ..kungfus import bu_tian_jue, li_jing_yi_dao, ling_su, xiang_zhi, yun_chang_xin_jing
+from ..kungfus import fen_shan_jin, ling_hai_jue, shan_hai_xin_jue, tai_xu_jian_yi, wen_shui_jue, yin_long_jue
+from ..kungfus import fen_ying_sheng_jue, hua_jian_you, tai_xuan_jing, tian_luo_gui_dao, yi_jin_jing, zhou_tian_gong
+from ..kungfus import ming_zun_liu_li_ti, tie_gu_yi, tie_lao_lv, xi_sui_jing
+from ..kungfus import tai_xuan_jing_mobile, zhou_tian_gong_mobile
+from ..kungfus import wu_fang_mobile, you_luo_yin_mobile, zi_xia_gong_mobile
 
 
 class Kungfu:

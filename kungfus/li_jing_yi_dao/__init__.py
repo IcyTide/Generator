@@ -1,7 +1,7 @@
-from kungfus.li_jing_yi_dao.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.li_jing_yi_dao.buffs import BUFFS
-from kungfus.li_jing_yi_dao.dots import DOTS
-from kungfus.li_jing_yi_dao.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.li_jing_yi_dao.recipes import RECIPES
-from kungfus.li_jing_yi_dao.skills import SKILLS
-from kungfus.li_jing_yi_dao.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS

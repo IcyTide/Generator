@@ -1,4 +1,4 @@
-from base.expression import Constant, Min
+from ....base.expression import Constant, Min
 from qt.classes.dot import Dot
 from qt.classes.skill import Skill
 

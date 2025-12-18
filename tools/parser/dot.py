@@ -1,4 +1,4 @@
-from base.expression import Variable
+from ....base.expression import Variable
 from qt.classes.skill import Skill
 from tools.classes.dot import Dot
 from tools.parser.skill import parse_skill

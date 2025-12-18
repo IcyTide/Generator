@@ -1,5 +1,5 @@
 from assets.raw.skills import SKILLS
-from base.expression import Expression
+from ....base.expression import Expression
 from base.utils import parse_expr
 
 

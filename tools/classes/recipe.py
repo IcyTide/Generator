@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from base.expression import Variable
+from ....base.expression import Variable
 from tools.classes import AliasBase
 from tools.classes.skill import Skill
 from tools.settings import buff_recipe_settings, recipe_settings, recipe_txts
