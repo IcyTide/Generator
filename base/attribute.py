@@ -389,27 +389,27 @@ class CriticalStrikePercent(FinalCriticalStrike):
     @property
     def physical_critical_strike_percent(self):
         critical_strike_percent = self.final_physical_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return critical_strike_percent
 
     @property
     def solar_critical_strike_percent(self):
         critical_strike_percent = self.final_solar_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return critical_strike_percent
 
     @property
     def lunar_critical_strike_percent(self):
         critical_strike_percent = self.final_lunar_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return critical_strike_percent
 
     @property
     def neutral_critical_strike_percent(self):
         critical_strike_percent = self.final_neutral_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return critical_strike_percent
 
     @property
     def poison_critical_strike_percent(self):
         critical_strike_percent = self.final_poison_critical_strike / CRITICAL_STRIKE_SCALE
-        return Int(critical_strike_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return critical_strike_percent
 
     @property
     def critical_strike_percent(self):
@@ -593,27 +593,27 @@ class Overcome(FinalOvercome):
     @property
     def physical_overcome(self):
         overcome = self.final_physical_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return overcome
 
     @property
     def solar_overcome(self):
         overcome = self.final_solar_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return overcome
 
     @property
     def lunar_overcome(self):
         overcome = self.final_lunar_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return overcome
 
     @property
     def neutral_overcome(self):
         overcome = self.final_neutral_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return overcome
 
     @property
     def poison_overcome(self):
         overcome = self.final_poison_overcome / OVERCOME_SCALE
-        return Int(overcome * BINARY_SCALE) / BINARY_SCALE
+        return overcome
 
     @property
     def overcome(self):
@@ -673,27 +673,27 @@ class CriticalPowerPercent(BaseCriticalPower):
     @property
     def physical_critical_power_percent(self):
         critical_power_percent = self.base_physical_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return critical_power_percent
 
     @property
     def solar_critical_power_percent(self):
         critical_power_percent = self.base_solar_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return critical_power_percent
 
     @property
     def lunar_critical_power_percent(self):
         critical_power_percent = self.base_lunar_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return critical_power_percent
 
     @property
     def neutral_critical_power_percent(self):
         critical_power_percent = self.base_neutral_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return critical_power_percent
 
     @property
     def poison_critical_power_percent(self):
         critical_power_percent = self.base_poison_critical_power / CRITICAL_POWER_SCALE
-        return Int(critical_power_percent * BINARY_SCALE) / BINARY_SCALE
+        return critical_power_percent
 
     @property
     def critical_power_percent(self):
@@ -977,7 +977,7 @@ class Haste:
     @property
     def haste_percent(self):
         haste_percent = self.haste_base / HASTE_SCALE
-        return Int(haste_percent * BINARY_SCALE) / BINARY_SCALE
+        return haste_percent
 
     @property
     def haste(self):
@@ -1007,7 +1007,7 @@ class Strain:
     @property
     def strain_percent(self):
         strain_percent = self.final_strain / STRAIN_SCALE
-        return Int(strain_percent * BINARY_SCALE) / BINARY_SCALE
+        return strain_percent
 
     @property
     def strain(self):
@@ -1032,7 +1032,7 @@ class Dodge(Major):
     @property
     def dodge_percent(self):
         dodge_percent = self.final_dodge / (self.final_dodge + DODGE_CONSTANT)
-        return Int(dodge_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return dodge_percent
 
     @property
     def dodge(self):
@@ -1065,7 +1065,7 @@ class Parry(Major):
     @property
     def parry_percent(self):
         parry_percent = self.final_parry / (self.final_parry + PARRY_CONSTANT)
-        return Int(parry_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return parry_percent
 
     @property
     def parry(self):
@@ -1140,12 +1140,12 @@ class DecriticalPower:
 
     @property
     def decritical_power_percent(self):
-        decritical_power_percent = self.final_decritical_power / DECRITICAL_POWER_SCALE
-        return Int(decritical_power_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        decritical_power_percent = self.final_decritical_power / (self.final_decritical_power + DECRITICAL_CONSTANT)
+        return decritical_power_percent
 
     @property
     def decritical_power(self):
-        return self.decritical_power_percent + self.decritical_power_rate / DECIMAL_SCALE
+        return self.decritical_power_percent + self.decritical_power_rate / BINARY_SCALE
 
 
 class Toughness:
@@ -1160,7 +1160,7 @@ class Toughness:
     @property
     def toughness_percent(self):
         toughness_percent = self.final_toughness / TOUGHNESS_SCALE
-        return Int(toughness_percent * DECIMAL_SCALE) / DECIMAL_SCALE
+        return toughness_percent
 
     @property
     def toughness(self):

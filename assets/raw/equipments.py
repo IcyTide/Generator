@@ -21145,9 +21145,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "云风御厨腰带·火候#109061 (29800 破招 无双)": {
+                "销魂御厨腰带·火候#109061 (29800 破招 无双)": {
                     "id": 109061,
-                    "name": "云风御厨腰带·火候",
+                    "name": "销魂御厨腰带·火候",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21170,14 +21170,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -21342,14 +21336,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -21473,14 +21461,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -21604,14 +21586,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -21728,14 +21704,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -21859,14 +21829,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -21992,14 +21956,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -22125,14 +22083,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -22258,14 +22210,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -22391,14 +22337,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -22519,14 +22459,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -22650,14 +22584,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -22778,14 +22706,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -22909,14 +22830,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23037,14 +22952,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -23166,14 +23074,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23297,14 +23199,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23428,14 +23324,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23561,14 +23451,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23692,14 +23576,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23816,14 +23694,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -23947,14 +23819,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24073,14 +23939,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24202,14 +24062,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24333,14 +24187,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24464,14 +24312,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24592,14 +24434,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -24721,14 +24556,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24847,14 +24676,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -24978,14 +24801,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -25110,14 +24927,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -25241,14 +25051,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -33578,9 +33382,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "云风御厨上衣·火候#109093 (29800 破防 无双)": {
+                "销魂御厨上衣·火候#109093 (29800 破防 无双)": {
                     "id": 109093,
-                    "name": "云风御厨上衣·火候",
+                    "name": "销魂御厨上衣·火候",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -33603,14 +33407,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -33775,14 +33573,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -33906,14 +33698,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34037,14 +33823,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34163,14 +33943,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34294,14 +34068,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34427,14 +34195,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34560,14 +34322,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34693,14 +34449,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34826,14 +34576,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -34954,14 +34698,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -35085,14 +34823,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -35212,14 +34944,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -35343,14 +35068,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -35470,14 +35189,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -35599,14 +35311,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -35730,14 +35436,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -35861,14 +35561,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -35994,14 +35688,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36125,14 +35813,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36251,14 +35933,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36382,14 +36058,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36508,14 +36178,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36637,14 +36301,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36768,14 +36426,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -36899,14 +36551,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -37026,14 +36672,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -37155,14 +36794,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -37281,14 +36914,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -37412,14 +37039,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -37541,14 +37162,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -37672,14 +37286,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -43959,9 +43567,9 @@ EQUIPMENTS = {
         },
         "无相": {
             "内功": {
-                "云风御厨戒指·火候#47858 (29800 会心 无双)": {
+                "销魂御厨戒指·火候#47858 (29800 会心 无双)": {
                     "id": 47858,
-                    "name": "云风御厨戒指·火候",
+                    "name": "销魂御厨戒指·火候",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43978,14 +43586,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44017,14 +43619,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44056,14 +43652,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44095,14 +43685,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44133,14 +43717,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44170,14 +43748,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44209,14 +43781,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44248,14 +43814,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44287,14 +43847,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44326,14 +43880,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44364,14 +43912,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44401,14 +43943,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44441,14 +43977,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -44478,14 +44007,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44518,14 +44041,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -44555,14 +44071,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44594,14 +44104,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44633,14 +44137,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44672,14 +44170,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44709,14 +44201,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44747,14 +44233,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44784,14 +44264,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44822,14 +44296,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44859,14 +44327,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44898,14 +44360,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44935,14 +44391,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -44975,14 +44425,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -45012,14 +44455,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -45050,14 +44487,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -45087,14 +44518,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -45127,14 +44552,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -45164,14 +44582,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -50715,32 +50127,6 @@ EQUIPMENTS = {
                         "gain_43080_1"
                     ]
                 },
-                "玉竹游归扇#44101 (33400 特效 破招 无双)": {
-                    "id": 44101,
-                    "name": "玉竹游归扇",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1795,
-                        "lunar_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "lunar_attack_power_base": 97,
-                        "spirit_base": 41,
-                        "lunar_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
-                    ]
-                },
                 "静雨#43761 (23650 特效 会心 破防 加速)": {
                     "id": 43761,
                     "name": "静雨",
@@ -51038,14 +50424,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -51401,35 +50781,6 @@ EQUIPMENTS = {
                         "gain_39078_2"
                     ]
                 },
-                "玉竹游归扇#44100 (33400 特效 破招 无双)": {
-                    "id": 44100,
-                    "name": "玉竹游归扇",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spunk_base": 1795,
-                        "neutral_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "neutral_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "neutral_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
-                    ]
-                },
                 "伏龙阳焰#42140 (23650 特效 会心 破防 加速)": {
                     "id": 42140,
                     "name": "伏龙阳焰",
@@ -51783,14 +51134,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -52098,35 +51443,6 @@ EQUIPMENTS = {
                         "gain_36579_1",
                         "gain_39088_7",
                         "gain_36578_3"
-                    ]
-                },
-                "裂风破天弓#44099 (33400 特效 破招 无双)": {
-                    "id": 44099,
-                    "name": "裂风破天弓",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "金乌回首#42139 (23650 特效 会心 破防 加速)": {
@@ -52455,14 +51771,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -52770,35 +52080,6 @@ EQUIPMENTS = {
                         "gain_33239_1",
                         "gain_39088_7",
                         "gain_33238_3"
-                    ]
-                },
-                "四绝分海刀#44098 (33400 特效 破招 无双)": {
-                    "id": 44098,
-                    "name": "四绝分海刀",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "strength_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "strength_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "烛微刀#42138 (23650 特效 会心 破防 加速)": {
@@ -53127,14 +52408,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -53430,34 +52705,6 @@ EQUIPMENTS = {
                         "",
                         "gain_29699_1",
                         "gain_33316_2"
-                    ]
-                },
-                "传薪百草卷·仁心#44097 (33400 特效 会心)": {
-                    "id": 44097,
-                    "name": "传薪百草卷·仁心",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1988,
-                        "therapy_power_base": 21074,
-                        "magical_critical_strike_base": 15003
-                    },
-                    "embed": {
-                        "poison_critical_strike_base": 321,
-                        "spirit_base": 41,
-                        "therapy_power_base": 156
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26116_6"
                     ]
                 },
                 "幽微夜#42137 (23650 特效 会心 加速)": {
@@ -53772,14 +53019,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -54083,35 +53324,6 @@ EQUIPMENTS = {
                         "gain_29698_1",
                         "gain_39088_7",
                         "gain_29694_8"
-                    ]
-                },
-                "传薪百草卷·尊道#44096 (33400 特效 破招 无双)": {
-                    "id": 44096,
-                    "name": "传薪百草卷·尊道",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1795,
-                        "poison_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "poison_attack_power_base": 97,
-                        "spirit_base": 41,
-                        "poison_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "烬灭#42136 (23650 特效 会心 破防 加速)": {
@@ -54440,14 +53652,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -54578,64 +53784,6 @@ EQUIPMENTS = {
                         "gain_25837_1",
                         "gain_39088_8",
                         "gain_25831_8"
-                    ]
-                },
-                "测试阴灯#44068 (35900 特效 会心 无双)": {
-                    "id": 44068,
-                    "name": "测试阴灯",
-                    "level": 35900,
-                    "score": 77544,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5568,
-                        "weapon_damage_rand": 3712
-                    },
-                    "magic": {
-                        "vitality_base": 23651,
-                        "spunk_base": 1930,
-                        "neutral_attack_power_base": 10731,
-                        "neutral_critical_strike_base": 16126,
-                        "strain_base": 15588
-                    },
-                    "embed": {
-                        "neutral_critical_power_base": 321,
-                        "neutral_critical_strike_base": 321,
-                        "spunk_base": 41
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_43808_1"
-                    ]
-                },
-                "测试阳灯#44067 (35900 特效 破防 无双)": {
-                    "id": 44067,
-                    "name": "测试阳灯",
-                    "level": 35900,
-                    "score": 77544,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5568,
-                        "weapon_damage_rand": 3712
-                    },
-                    "magic": {
-                        "vitality_base": 23651,
-                        "spunk_base": 1930,
-                        "neutral_attack_power_base": 10731,
-                        "neutral_overcome_base": 16126,
-                        "strain_base": 15588
-                    },
-                    "embed": {
-                        "neutral_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "neutral_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_43807_1"
                     ]
                 },
                 "神游八极#42773 (35900 会心 无双)": {
@@ -54813,35 +53961,6 @@ EQUIPMENTS = {
                         "gain_25837_1",
                         "gain_39088_7",
                         "gain_25831_8"
-                    ]
-                },
-                "三试夺魂灯#44095 (33400 特效 破招 无双)": {
-                    "id": 44095,
-                    "name": "三试夺魂灯",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spunk_base": 1795,
-                        "neutral_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "neutral_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "neutral_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "子不语#42135 (23650 特效 会心 破防 加速)": {
@@ -55170,14 +54289,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -55485,35 +54598,6 @@ EQUIPMENTS = {
                         "gain_25784_1",
                         "gain_39088_7",
                         "gain_23396_8"
-                    ]
-                },
-                "九节摘心链#44094 (33400 特效 破招 无双)": {
-                    "id": 44094,
-                    "name": "九节摘心链",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "长安#42134 (23650 特效 会心 破防 加速)": {
@@ -55874,14 +54958,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -56189,35 +55267,6 @@ EQUIPMENTS = {
                         "gain_25783_1",
                         "gain_39088_7",
                         "gain_21185_8"
-                    ]
-                },
-                "风雪不归伞#44093 (33400 特效 破招 无双)": {
-                    "id": 44093,
-                    "name": "风雪不归伞",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "七月嘉树#42133 (23650 特效 会心 破防 加速)": {
@@ -56578,14 +55627,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -56893,35 +55936,6 @@ EQUIPMENTS = {
                         "gain_25782_1",
                         "gain_39088_7",
                         "gain_16984_8"
-                    ]
-                },
-                "百炼环首刀#44092 (33400 特效 破招 无双)": {
-                    "id": 44092,
-                    "name": "百炼环首刀",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "strength_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "strength_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "碧血豪侠#42132 (23650 特效 会心 破防 加速)": {
@@ -57282,14 +56296,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -57585,34 +56593,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25792_1",
                         "gain_33317_2"
-                    ]
-                },
-                "国士无双·宏远#44091 (33400 特效 会心)": {
-                    "id": 44091,
-                    "name": "国士无双·宏远",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 2590,
-                        "weapon_damage_rand": 1727
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1988,
-                        "therapy_power_base": 21074,
-                        "magical_critical_strike_base": 15003
-                    },
-                    "embed": {
-                        "lunar_critical_strike_base": 321,
-                        "spirit_base": 41,
-                        "therapy_power_base": 156
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26116_6"
                     ]
                 },
                 "万象金声#42131 (23650 特效 会心 加速)": {
@@ -57958,14 +56938,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -58269,35 +57243,6 @@ EQUIPMENTS = {
                         "gain_25781_1",
                         "gain_39088_7",
                         "gain_15183_8"
-                    ]
-                },
-                "国士无双·天乐#44090 (33400 特效 破招 无双)": {
-                    "id": 44090,
-                    "name": "国士无双·天乐",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 2590,
-                        "weapon_damage_rand": 1727
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1795,
-                        "lunar_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "lunar_attack_power_base": 97,
-                        "spirit_base": 41,
-                        "lunar_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "栖贤韵#42130 (23650 特效 会心 破防 加速)": {
@@ -58658,14 +57603,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -58978,36 +57917,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25797_1",
                         "gain_13410_16"
-                    ]
-                },
-                "双虎遮日·未有归期#44089 (33400 特效 外防 加速 破招 御劲 无双)": {
-                    "id": 44089,
-                    "name": "双虎遮日·未有归期",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 32506,
-                        "physical_shield_base": 30310,
-                        "haste_base": 6062,
-                        "surplus_base": 6062,
-                        "toughness_base": 4546,
-                        "strain_base": 18186
-                    },
-                    "embed": {
-                        "vitality_base": 161,
-                        "dodge": 161,
-                        "physical_shield_base": 161
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26140_6"
                     ]
                 },
                 "驭焰#42129 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
@@ -59374,14 +58283,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -59687,35 +58589,6 @@ EQUIPMENTS = {
                         "gain_25780_1",
                         "gain_39088_7",
                         "gain_13410_15"
-                    ]
-                },
-                "双虎遮日·雁门如铁#44088 (33400 特效 破招 无双)": {
-                    "id": 44088,
-                    "name": "双虎遮日·雁门如铁",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 7770,
-                        "weapon_damage_rand": 5180
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "天下宏愿#42128 (23650 特效 会心 破防 加速)": {
@@ -60076,14 +58949,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -60396,36 +59263,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25796_1",
                         "gain_4941_8"
-                    ]
-                },
-                "赤日火纹刀·明日#44087 (33400 特效 外防 加速 破招 御劲 无双)": {
-                    "id": 44087,
-                    "name": "赤日火纹刀·明日",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 32506,
-                        "physical_shield_base": 30310,
-                        "haste_base": 6062,
-                        "surplus_base": 6062,
-                        "toughness_base": 4546,
-                        "strain_base": 18186
-                    },
-                    "embed": {
-                        "vitality_base": 161,
-                        "dodge": 161,
-                        "physical_shield_base": 161
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26140_6"
                     ]
                 },
                 "圣辉月雪#42127 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
@@ -60792,14 +59629,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -61105,35 +59935,6 @@ EQUIPMENTS = {
                         "gain_25777_1",
                         "gain_39088_7",
                         "gain_4940_8"
-                    ]
-                },
-                "赤日火纹刀·暗影#44086 (33400 特效 破招 无双)": {
-                    "id": 44086,
-                    "name": "赤日火纹刀·暗影",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spunk_base": 1795,
-                        "solar_and_lunar_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "solar_and_lunar_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "solar_and_lunar_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "瀚海引#42126 (23650 特效 会心 破防 加速)": {
@@ -61494,14 +60295,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -61806,35 +60601,6 @@ EQUIPMENTS = {
                         "gain_25779_1",
                         "gain_39088_7",
                         "gain_6950_8"
-                    ]
-                },
-                "青玉夺龙棒#44085 (33400 特效 破招 无双)": {
-                    "id": 44085,
-                    "name": "青玉夺龙棒",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 8806,
-                        "weapon_damage_rand": 5871
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "strength_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "strength_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "暴龙震江#42125 (23650 特效 会心 破防)": {
@@ -62193,14 +60959,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -62561,35 +61321,6 @@ EQUIPMENTS = {
                         "gain_25785_1",
                         "gain_39088_7",
                         "gain_1881_8"
-                    ]
-                },
-                "青衣子母剑·轻#44083 (33400 特效 破招 无双)": {
-                    "id": 44083,
-                    "name": "青衣子母剑·轻",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 6734,
-                        "weapon_damage_rand": 4489
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "伏魔悲音#42123 (23650 特效 会心 破防 加速)": {
@@ -62999,14 +61730,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -63314,35 +62039,6 @@ EQUIPMENTS = {
                         "gain_25775_1",
                         "gain_39088_7",
                         "gain_3476_8"
-                    ]
-                },
-                "浪子穿心弩·杀心#44082 (33400 特效 破招 无双)": {
-                    "id": 44082,
-                    "name": "浪子穿心弩·杀心",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "strength_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "strength_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "银羽雪辉#42122 (23650 特效 会心 破防 加速)": {
@@ -63703,14 +62399,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -64016,35 +62706,6 @@ EQUIPMENTS = {
                         "gain_25774_1",
                         "gain_39088_7",
                         "gain_3477_8"
-                    ]
-                },
-                "浪子穿心弩·无情#44081 (33400 特效 破招 无双)": {
-                    "id": 44081,
-                    "name": "浪子穿心弩·无情",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 5180,
-                        "weapon_damage_rand": 3453
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spunk_base": 1795,
-                        "poison_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "poison_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "poison_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "碧岚幽炎#42121 (23650 特效 会心 破防 加速)": {
@@ -64405,14 +63066,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -64708,34 +63363,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25790_1",
                         "gain_33318_2"
-                    ]
-                },
-                "十方断魂笛·毒幻#44080 (33400 特效 会心)": {
-                    "id": 44080,
-                    "name": "十方断魂笛·毒幻",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 2590,
-                        "weapon_damage_rand": 1727
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1988,
-                        "therapy_power_base": 21074,
-                        "magical_critical_strike_base": 15003
-                    },
-                    "embed": {
-                        "poison_critical_strike_base": 321,
-                        "spirit_base": 41,
-                        "therapy_power_base": 156
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26116_6"
                     ]
                 },
                 "逾潮声#42120 (23650 特效 会心 加速)": {
@@ -65081,14 +63708,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -65392,35 +64013,6 @@ EQUIPMENTS = {
                         "gain_25773_1",
                         "gain_39088_7",
                         "gain_3065_8"
-                    ]
-                },
-                "十方断魂笛·虫魂#44079 (33400 特效 破招 无双)": {
-                    "id": 44079,
-                    "name": "十方断魂笛·虫魂",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 2590,
-                        "weapon_damage_rand": 1727
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1795,
-                        "poison_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "poison_attack_power_base": 97,
-                        "spirit_base": 41,
-                        "poison_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "蜕骨#42119 (23650 特效 会心 破防 加速)": {
@@ -65781,14 +64373,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -66084,34 +64670,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25789_1",
                         "gain_33324_2"
-                    ]
-                },
-                "淬血霜花剑·银霜#44078 (33400 特效 会心)": {
-                    "id": 44078,
-                    "name": "淬血霜花剑·银霜",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 3367,
-                        "weapon_damage_rand": 2245
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1988,
-                        "therapy_power_base": 21074,
-                        "magical_critical_strike_base": 15003
-                    },
-                    "embed": {
-                        "lunar_critical_strike_base": 321,
-                        "spirit_base": 41,
-                        "therapy_power_base": 156
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26116_6"
                     ]
                 },
                 "钗蝶语双#42118 (23650 特效 会心 加速)": {
@@ -66457,14 +65015,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -66768,35 +65320,6 @@ EQUIPMENTS = {
                         "gain_25769_1",
                         "gain_39088_7",
                         "gain_1858_8"
-                    ]
-                },
-                "淬血霜花剑·金莲#44077 (33400 特效 破招 无双)": {
-                    "id": 44077,
-                    "name": "淬血霜花剑·金莲",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 3367,
-                        "weapon_damage_rand": 2245
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1795,
-                        "lunar_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "lunar_attack_power_base": 97,
-                        "spirit_base": 41,
-                        "lunar_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "龙鲤#42117 (23650 特效 会心 破防 加速)": {
@@ -67157,14 +65680,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -67472,35 +65989,6 @@ EQUIPMENTS = {
                         "gain_25771_1",
                         "gain_39088_7",
                         "gain_1852_8"
-                    ]
-                },
-                "悲风悯月剑·分野#44076 (33400 特效 破招 无双)": {
-                    "id": 44076,
-                    "name": "悲风悯月剑·分野",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 6734,
-                        "weapon_damage_rand": 4489
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "镇恶#42116 (23650 特效 会心 破防 加速)": {
@@ -67861,14 +66349,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -68174,35 +66656,6 @@ EQUIPMENTS = {
                         "gain_25770_1",
                         "gain_39088_7",
                         "gain_1853_8"
-                    ]
-                },
-                "悲风悯月剑·星辰#44075 (33400 特效 破招 无双)": {
-                    "id": 44075,
-                    "name": "悲风悯月剑·星辰",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 3367,
-                        "weapon_damage_rand": 2245
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1795,
-                        "neutral_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "neutral_attack_power_base": 97,
-                        "spirit_base": 41,
-                        "neutral_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "仙灵#42115 (23650 特效 会心 破防 加速)": {
@@ -68563,14 +67016,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -68883,36 +67330,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25795_1",
                         "gain_1851_8"
-                    ]
-                },
-                "红缨亮银枪·逐日#44074 (33400 特效 外防 加速 破招 御劲 无双)": {
-                    "id": 44074,
-                    "name": "红缨亮银枪·逐日",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 8806,
-                        "weapon_damage_rand": 5871
-                    },
-                    "magic": {
-                        "vitality_base": 32506,
-                        "physical_shield_base": 30310,
-                        "haste_base": 6062,
-                        "surplus_base": 6062,
-                        "toughness_base": 4546,
-                        "strain_base": 18186
-                    },
-                    "embed": {
-                        "vitality_base": 161,
-                        "dodge": 161,
-                        "physical_shield_base": 161
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26140_6"
                     ]
                 },
                 "朱曦重明#42114 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
@@ -69279,14 +67696,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -69592,35 +68002,6 @@ EQUIPMENTS = {
                         "gain_25772_1",
                         "gain_39088_7",
                         "gain_1850_8"
-                    ]
-                },
-                "红缨亮银枪·肃清#44073 (33400 特效 破招 无双)": {
-                    "id": 44073,
-                    "name": "红缨亮银枪·肃清",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 8806,
-                        "weapon_damage_rand": 5871
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "strength_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "strength_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "掠炎#42113 (23650 特效 会心 破防 加速)": {
@@ -69981,14 +68362,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -70284,34 +68659,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25788_1",
                         "gain_33295_2"
-                    ]
-                },
-                "哭佛点睛笔·逍遥#44072 (33400 特效 会心)": {
-                    "id": 44072,
-                    "name": "哭佛点睛笔·逍遥",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 2590,
-                        "weapon_damage_rand": 1727
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spirit_base": 1988,
-                        "therapy_power_base": 21074,
-                        "magical_critical_strike_base": 15003
-                    },
-                    "embed": {
-                        "neutral_critical_strike_base": 321,
-                        "spirit_base": 41,
-                        "therapy_power_base": 156
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26116_6"
                     ]
                 },
                 "折枝花满#42112 (23650 特效 会心 加速)": {
@@ -70657,14 +69004,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -70968,35 +69309,6 @@ EQUIPMENTS = {
                         "gain_25768_1",
                         "gain_39088_7",
                         "gain_1856_8"
-                    ]
-                },
-                "哭佛点睛笔·山水#44071 (33400 特效 破招 无双)": {
-                    "id": 44071,
-                    "name": "哭佛点睛笔·山水",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 2590,
-                        "weapon_damage_rand": 1727
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spunk_base": 1795,
-                        "neutral_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "neutral_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "neutral_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "意真#42111 (23650 特效 会心 破防 加速)": {
@@ -71357,14 +69669,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -71677,36 +69983,6 @@ EQUIPMENTS = {
                         "",
                         "gain_25794_1",
                         "gain_1855_8"
-                    ]
-                },
-                "裂叶齐眉棍·武#44070 (33400 特效 内防 加速 破招 御劲 无双)": {
-                    "id": 44070,
-                    "name": "裂叶齐眉棍·武",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 8806,
-                        "weapon_damage_rand": 5871
-                    },
-                    "magic": {
-                        "vitality_base": 32506,
-                        "magical_shield_base": 30310,
-                        "haste_base": 6062,
-                        "surplus_base": 6062,
-                        "toughness_base": 4546,
-                        "strain_base": 18186
-                    },
-                    "embed": {
-                        "vitality_base": 161,
-                        "physical_shield_base": 161,
-                        "magical_shield_base": 161
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26140_6"
                     ]
                 },
                 "降魔境#42110 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
@@ -72073,14 +70349,7 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "strain_base": 5000
                             },
                             "recipes": [],
                             "gains": []
@@ -72386,35 +70655,6 @@ EQUIPMENTS = {
                         "gain_25766_1",
                         "gain_39088_7",
                         "gain_1854_8"
-                    ]
-                },
-                "裂叶齐眉棍·禅#44069 (33400 特效 破招 无双)": {
-                    "id": 44069,
-                    "name": "裂叶齐眉棍·禅",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 8806,
-                        "weapon_damage_rand": 5871
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "spunk_base": 1795,
-                        "solar_attack_power_base": 9983,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "solar_attack_power_base": 97,
-                        "spunk_base": 41,
-                        "solar_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "昭佛光#42109 (23650 特效 会心 破防 加速)": {
@@ -72775,14 +71015,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []
@@ -73146,35 +71380,6 @@ EQUIPMENTS = {
                         "gain_25776_1",
                         "gain_39088_7",
                         "gain_1882_8"
-                    ]
-                },
-                "青衣子母剑·重#44084 (33400 特效 破招 无双)": {
-                    "id": 44084,
-                    "name": "青衣子母剑·重",
-                    "level": 33400,
-                    "score": 72144,
-                    "max_strength": 6,
-                    "base": {
-                        "weapon_damage_base": 10360,
-                        "weapon_damage_rand": 6907
-                    },
-                    "magic": {
-                        "vitality_base": 22004,
-                        "agility_base": 1795,
-                        "physical_attack_power_base": 8978,
-                        "surplus_base": 15003,
-                        "strain_base": 14503
-                    },
-                    "embed": {
-                        "physical_attack_power_base": 87,
-                        "agility_base": 41,
-                        "physical_overcome_base": 321
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": [
-                        "gain_26013_6"
                     ]
                 },
                 "寂夜听雷#42124 (23650 特效 会心 破防 加速)": {
@@ -73589,14 +71794,8 @@ EQUIPMENTS = {
                     "sets": {
                         2: {
                             "attributes": {
-                                "all_critical_strike_base": 2840
-                            },
-                            "recipes": [],
-                            "gains": []
-                        },
-                        4: {
-                            "attributes": {
-                                "all_critical_strike_base": 1050
+                                "all_critical_strike_base": 2550,
+                                "all_critical_power_base": 930
                             },
                             "recipes": [],
                             "gains": []

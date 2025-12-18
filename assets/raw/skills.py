@@ -12707,10 +12707,10 @@ SKILLS = {
                 "name": "征夷",
                 "comment": "",
                 "damages": [
-                    "physical_attack_power * 6.03125 * (1 + physical_damage_addition + (307 * recipe_4761_1 + 102 * recipe_4791_1 + 102 * recipe_2491_1 + 205 * recipe_2492_1 + 307 * recipe_2493_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "physical_attack_power * 6.03125 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
-                "critical_strike": "physical_critical_strike + 2000 * recipe_5675_1 / 10000",
-                "critical_power": "min(3,physical_critical_power_percent + (205 * recipe_5675_1 + physical_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024"
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
             }
         },
         30503: {
