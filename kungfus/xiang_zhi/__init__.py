@@ -1,7 +1,7 @@
-from kungfus.xiang_zhi.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.xiang_zhi.buffs import BUFFS
-from kungfus.xiang_zhi.dots import DOTS
-from kungfus.xiang_zhi.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.xiang_zhi.recipes import RECIPES
-from kungfus.xiang_zhi.skills import SKILLS
-from kungfus.xiang_zhi.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS

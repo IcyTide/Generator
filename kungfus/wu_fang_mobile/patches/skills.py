@@ -1,4 +1,4 @@
-from base.expression import Variable
+from ....base.expression import Variable
 
 SKILLS = {
     102157: dict(dest_rollback_attributes=[("coming_damage_cof", 307.2 * Variable("recipe_17040_1"))]),

@@ -1,4 +1,4 @@
-from base.expression import Ceil, Variable
+from ....base.expression import Ceil, Variable
 
 BUFFS: dict[int, dict] = {
     28355: dict(name="烈日", comment="自身"),

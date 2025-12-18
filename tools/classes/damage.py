@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 from base.constant import *
-from base.expression import Ceil, Expression, Int, Max, Min
+from ....base.expression import Ceil, Expression, Int, Max, Min
 from tools.lua.enums import SKILL_KIND_TYPE
 
 if TYPE_CHECKING:

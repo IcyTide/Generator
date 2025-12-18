@@ -1,4 +1,4 @@
-from base.expression import Int, Variable
+from ....base.expression import Int, Variable
 
 SKILLS = {
     102401: dict(dest_rollback_attributes=[(

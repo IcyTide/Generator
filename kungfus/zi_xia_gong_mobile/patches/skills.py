@@ -1,4 +1,4 @@
-from base.expression import Variable
+from ....base.expression import Variable
 
 SKILLS = {
     18121: dict(channel_interval=21),

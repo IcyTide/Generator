@@ -1,7 +1,7 @@
-from kungfus.wen_shui_jue.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.wen_shui_jue.buffs import BUFFS
-from kungfus.wen_shui_jue.dots import DOTS
-from kungfus.wen_shui_jue.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.wen_shui_jue.recipes import RECIPES
-from kungfus.wen_shui_jue.skills import SKILLS
-from kungfus.wen_shui_jue.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS

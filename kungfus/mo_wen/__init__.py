@@ -1,7 +1,7 @@
-from kungfus.mo_wen.attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
-from kungfus.mo_wen.buffs import BUFFS
-from kungfus.mo_wen.dots import DOTS
-from kungfus.mo_wen.patches import BUFF_PATCHES, SKILL_PATCHES
-from kungfus.mo_wen.recipes import RECIPES
-from kungfus.mo_wen.skills import SKILLS
-from kungfus.mo_wen.talents import TALENTS
+from .attribute import ATTRIBUTE, KIND, MAJOR, SCHOOL
+from .buffs import BUFFS
+from .dots import DOTS
+from .patches import BUFF_PATCHES, SKILL_PATCHES
+from .recipes import RECIPES
+from .skills import SKILLS
+from .talents import TALENTS
