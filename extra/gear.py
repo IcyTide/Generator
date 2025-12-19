@@ -9,7 +9,9 @@ WEAPONS = json.load(open("assets/json/weapons.json", encoding="utf-8"))
 EQUIPMENTS = {6: WEAPONS, 7: ARMORS, 8: TRINKETS}
 ENCHANTS = json.load(open("assets/json/enchants.json", encoding="utf-8"))
 STONES = json.load(open("assets/json/stones.json", encoding="utf-8"))
-STONES_by_enchant = {STONES[x].get("enchant_id"): STONES[x] for x in STONES}
+STONES_by_enchant = {
+    STONES[x].get("enchant_id"): STONES[x] | {"item_id": x} for x in STONES
+}
 
 SLOT_MAPPING = {
     **{24442 + i: i + 1 for i in range(8)},

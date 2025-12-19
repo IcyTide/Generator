@@ -4,6 +4,7 @@ import luadata
 
 from extra.attribute import Attribute
 from extra.gear import Gears
+from extra.gear import STONES_by_enchant
 
 
 def main(info: dict):
@@ -24,7 +25,10 @@ def convert2jx3api(equips: list[dict]):
             continue
         data = copy.copy(e)
         data["aSlotItem"] = [[-1, x] for x in e.get("aDiamondEnchant", [])]
-        color_stone = e.get("dwItemFEAEnchantID")
+        color_stone = e.get("dwItemFEAEnchantID") or 0
+        if color_stone:
+            color_stone = STONES_by_enchant.get(color_stone)
+            color_stone = color_stone and color_stone.get("item_id") or 0
         color_stone = {"0": [-1, color_stone]}
         data["ColorInfo"] = color_stone
         result.append(data)
