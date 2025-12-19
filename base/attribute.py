@@ -986,23 +986,35 @@ class Haste:
         return haste + self.unlimit_haste_rate / BINARY_SCALE
 
 
-class Surplus:
+class PvxRound:
+    pvx_round_base: int = 0
+
+
+class Surplus(PvxRound):
     surplus_base: int = 0
     surplus_gain: int = 0
 
     @property
+    def base_surplus(self):
+        return self.surplus_base + self.pvx_round_base
+
+    @property
     def surplus(self):
-        return Int(self.surplus_base * (1 + self.surplus_gain / BINARY_SCALE))
+        return Int(self.base_surplus * (1 + self.surplus_gain / BINARY_SCALE))
 
 
-class Strain:
+class Strain(PvxRound):
     strain_base: int = 0
     strain_gain: int = 0
     strain_rate: int = 0
 
     @property
+    def base_strain(self):
+        return self.strain_base + self.pvx_round_base
+
+    @property
     def final_strain(self):
-        return Int(self.strain_base * (1 + self.strain_gain / BINARY_SCALE))
+        return Int(self.base_strain * (1 + self.strain_gain / BINARY_SCALE))
 
     @property
     def strain_percent(self):

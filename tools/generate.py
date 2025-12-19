@@ -1,50 +1,23 @@
 import re
 
-from pandas import DataFrame
+import pandas as pd
 from tqdm import tqdm
 
-from tools.lua.enums import ATTRIBUTE_TYPE
 from kungfus import SUPPORT_KUNGFUS
-from tools.utils import camel_to_capital, get_variable, read_tab, save_code, save_json
+from tools.lua.enums import ATTRIBUTE_TYPE
+from tools.reader import DataFrameReader
+from tools.utils import camel_to_capital, get_variable, save_code, save_json
 
-weapon_settings = read_tab("settings/item/Custom_Weapon.tab")
-armor_settings = read_tab("settings/item/Custom_Armor.tab")
-trinket_settings = read_tab("settings/item/Custom_Trinket.tab")
-enchant_settings = read_tab("settings/item/Enchant.tab")
-attrib_settings = read_tab("settings/item/Attrib.tab")
-set_settings = read_tab("settings/item/Set.tab")
-other_settings = read_tab("settings/item/Other.tab")
-event_settings = read_tab("settings/skill/SkillEvent.tab", "settings/skill_mobile/SkillEvent.tab")
-
-item_txts = read_tab("ui/scheme/case/Item.txt")
-attrib_txts = read_tab("ui/scheme/case/Attribute.txt")
-recipe_txts = read_tab("ui/scheme/case/EquipmentRecipe.txt")
-event_txts = read_tab("ui/scheme/case/SkillEvent.txt")
+READER = DataFrameReader()
 
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
 MIN_EQUIP_LEVEL = 28000
 ENCHANT_START_ID = 15778
-QUALITY_COF = {
-    1: 1,
-    2: 1.4,
-    3: 1.6,
-    4: 1.8,
-    5: 2.5
-}
-POSITION_COF = {
-    0: 1.2,
-    1: 0.6,
-    2: 1,
-    3: 0.9,
-    4: 0.5,
-    5: 0.5,
-    6: 0.7,
-    7: 0.5,
-    8: 1,
-    9: 0.7,
-    10: 0.7,
+
+MIN_EQUIP_SCORE = {
+    k: round(MIN_EQUIP_LEVEL * READER.QUALITY_COF[4] * v) for k, v in READER.POSITION_COF.items()
 }
 POSITION_MAP = {
     0: "primary_weapon",
@@ -64,9 +37,6 @@ USAGE_MAP = {
     1: "PVE",
     2: "PVX",
     3: "ALL"
-}
-MIN_EQUIP_SCORE = {
-    k: round(MIN_EQUIP_LEVEL * QUALITY_COF[4] * v) for k, v in POSITION_COF.items()
 }
 
 STONE_LEVELS = {
@@ -100,18 +70,6 @@ MAX_SET_COUNT = 6
 MAX_SET_ATTR = 4
 
 
-def cal_score(df: DataFrame):
-    df['Score'] = df.apply(
-        lambda x: round(x['Level'] * QUALITY_COF.get(x['Quality'], 0) * POSITION_COF.get(x['SubType'], 0)),
-        axis=1
-    )
-
-
-cal_score(armor_settings)
-cal_score(trinket_settings)
-cal_score(weapon_settings)
-
-
 def simplify_attrs(attrs):
     attributes, recipes, gains = {}, [], []
     for attr in attrs:
@@ -126,38 +84,47 @@ def simplify_attrs(attrs):
     return attributes, recipes, gains
 
 
+def get_row(df: pd.DataFrame, condition: dict):
+    rows = df
+    for k, v in condition.items():
+        rows = rows[rows[k] == v]
+    if rows.empty:
+        return []
+    return rows.to_dict("records")
+
+
 def get_attr_desc(attr):
-    attr_row = attrib_txts[attrib_txts.ID == attr]
-    if attr_row.empty:
+    attr_rows = READER.query("attrib_txts", dict(ID=attr))
+    if not attr_rows:
         return ""
-    attr_row = attr_row.iloc[0]
+    attr_row = attr_rows[0]
     return re.sub(r"{.*}", "{}", attr_row['GeneratedMagic'])
 
 
 def get_recipe_desc(recipe_id, recipe_level):
-    recipe_row = recipe_txts[(recipe_txts.ID == recipe_id) & (recipe_txts.Level == recipe_level)]
-    if recipe_row.empty:
+    recipe_rows = READER.query("recipe_txts", dict(ID=recipe_id, Level=recipe_level))
+    if not recipe_rows:
         return "", ""
-    recipe_row = recipe_row.iloc[0]
+    recipe_row = recipe_rows[0]
     value = get_variable("recipe", recipe_id, recipe_level)
     return recipe_row['Desc'], value
 
 
 def get_event_desc(event_id):
-    event_row = event_txts[event_txts.ID == event_id]
-    if event_row.empty:
+    event_rows = READER.query("event_txts", dict(ID=event_id))
+    if not event_rows:
+        desc = event_rows[0]['Desc']
+    else:
         desc = ""
-    else:
-        desc = event_row.iloc[0]['Desc']
-    event_row = event_settings[event_settings.ID == event_id]
-    if event_row.empty:
-        value = ""
-    else:
-        event_row = event_row.iloc[0]
-        if event_row.Odds:
+    event_rows = READER.query("event_settings", dict(ID=event_id))
+    if event_rows:
+        event_row = event_rows[0]
+        if event_row['Odds']:
             value = get_variable("gain", event_row['SkillID'], event_row['SkillLevel'])
         else:
             value = ""
+    else:
+        value = ""
     return desc, value
 
 
@@ -201,11 +168,11 @@ def get_magic_attrs(row):
     for i in range(MAX_MAGIC_ATTR):
         if not (attr_id := row[f'Magic{i + 1}Type']):
             break
-        attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
-        attr = attr_row.ModifyType
+        attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
+        attr = attr_row['ModifyType']
         cap_attr = camel_to_capital(attr[2:])
         attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
-        param_1, param_2 = attr_row.Param1Max, attr_row.Param2Max
+        param_1, param_2 = attr_row['Param1Max'], attr_row['Param2Max']
         if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
             desc, value = get_event_desc(param_1)
         elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
@@ -226,14 +193,14 @@ def get_embed_attrs(row):
     for i in range(MAX_EMBED_ATTR):
         if not (attr_id := row[f'DiamondAttributeID{i + 1}']):
             break
-        attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
-        attr = attr_row.ModifyType
+        attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
+        attr = attr_row['ModifyType']
         cap_attr = camel_to_capital(attr[2:])
         attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
         attrs.append({
             "attr": attr,
             "attr_type": attr_type,
-            "value": attr_row.Param1Max,
+            "value": attr_row['Param1Max'],
             "desc": get_attr_desc(attr)
         })
     return attrs
@@ -244,17 +211,17 @@ def get_set_attrs(row):
     set_id = int(row['SetID'])
     if not set_id:
         return set_id, attrs
-    set_row = set_settings[set_settings.ID == set_id].iloc[0]
+    set_row = READER.query("set_settings", dict(ID=set_id))[0]
     for i in range(1, MAX_SET_COUNT):
         for j in range(MAX_SET_ATTR):
-            if attr_id := getattr(set_row, f"{i + 1}_{j + 1}"):
-                attr_row = attrib_settings[attrib_settings.ID == attr_id].iloc[0]
-                attr = attr_row.ModifyType
+            if attr_id := set_row[f"{i + 1}_{j + 1}"]:
+                attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
+                attr = attr_row['ModifyType']
                 cap_attr = camel_to_capital(attr[2:])
                 attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
                 if i + 1 not in attrs:
                     attrs[i + 1] = []
-                param_1, param_2 = attr_row.Param1Max, attr_row.Param2Max
+                param_1, param_2 = attr_row['Param1Max'], attr_row['Param2Max']
                 if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
                     desc, value = get_event_desc(param_1)
                 elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
@@ -276,7 +243,7 @@ def get_equip_detail(row):
         "position": POSITION_MAP[row['SubType']], "usage": USAGE_MAP[row['EquipUsage']],
         "level": int(row['Level']), "score": int(row['Score']), "max_strength": int(row['MaxStrengthLevel'])
     }
-    item_row = item_txts[item_txts.ItemID == row['UiID']].iloc[0]
+    item_row = READER.query("item_txts", dict(ItemID=row['UiID']))[0]
     detail['icon_id'] = int(item_row['IconID'])
     detail['desc'] = item_row['Desc']
     detail['base'] = get_base_attrs(row)
@@ -293,6 +260,22 @@ def get_equip_detail(row):
     return detail
 
 
+def get_equip_code(detail):
+    detail['base'], _, _ = simplify_attrs(detail['base'])
+    detail['magic'], detail['recipes'], detail['gains'] = simplify_attrs(detail['magic'])
+    detail['embed'], _, _ = simplify_attrs(detail['embed'])
+    sets = {}
+    for count, attrs in detail['sets'].items():
+        sets[count] = {}
+        sets[count]['attributes'], sets[count]['recipes'], sets[count]['gains'] = simplify_attrs(attrs)
+    detail['sets'] = sets
+    if skill := detail.pop("skill", None):
+        detail['gains'].append(get_variable("gain", *skill))  # noqa
+    for key in ["desc", "icon_id", "usage"]:
+        detail.pop(key, None)
+    return detail
+
+
 def build_equip_code(details: dict[int, dict]):
     results = {}
     for detail in details.values():
@@ -305,21 +288,8 @@ def build_equip_code(details: dict[int, dict]):
             results[position][school] = {}
         if kind not in results[position][school]:
             results[position][school][kind] = {}
-        detail = detail.copy()
         name = f"{detail['name']}#{detail['id']} ({detail['level']} {' '.join(detail.pop('tags'))})"
-        detail['base'], _, _ = simplify_attrs(detail['base'])
-        detail['magic'], detail['recipes'], detail['gains'] = simplify_attrs(detail['magic'])
-        detail['embed'], _, _ = simplify_attrs(detail['embed'])
-        sets = {}
-        for count, attrs in detail['sets'].items():
-            sets[count] = {}
-            sets[count]['attributes'], sets[count]['recipes'], sets[count]['gains'] = simplify_attrs(attrs)
-        detail['sets'] = sets
-        if skill := detail.pop("skill", None):
-            detail['gains'].append(get_variable("gain", *skill))  # noqa
-        for key in ["desc", "icon_id", "position", "school", "kind", "usage"]:
-            detail.pop(key, None)
-        results[position][school][kind][name] = detail
+        results[position][school][kind][name] = get_equip_code(detail.copy())
     return results
 
 
@@ -362,30 +332,34 @@ def get_enchant_detail(row):
     return detail
 
 
+def get_enchant_code(detail):
+    detail['attributes'], _, _ = simplify_attrs(detail['attributes'])
+    for key in ["desc", "position"]:
+        detail.pop(key, None)
+    return detail
+
 def build_enchant_code(details: dict[int, dict]):
     results = dict(consumables={})
     for detail in details.values():
-        position = detail['position']
-        if not detail['desc']:
+        position, desc = detail['position'], detail['desc']
+        if not desc:
             continue
         if position not in results:
             results[position] = {}
-        detail = detail.copy()
-        detail['attributes'], _, _ = simplify_attrs(detail['attributes'])
+
+        detail = get_enchant_code(detail.copy())
         if not detail['attributes']:
             continue
         temporary = detail.pop("temporary")
-        name = f"{detail['name']} {detail.pop('desc')}"
+        name = f"{detail['name']} {desc}"
         if temporary:
             results['consumables'][name] = detail['attributes']
         else:
-            for key in ["desc", "position"]:
-                detail.pop(key, None)
             results[position][name] = detail
     return results
 
 
-def get_enchants_list():
+def get_enchants_list(enchant_settings):
     enchant_tab = enchant_settings[(enchant_settings.ID >= ENCHANT_START_ID) & (enchant_settings.DiamondType1 == 0)]
     enchant_tab = enchant_tab.sort_values(["Score", "ID"], ascending=False)
     results = {}
@@ -413,8 +387,8 @@ def get_stone_attrs(row):
 
 
 def get_stone_detail(row):
-    item_rows = other_settings[other_settings.EnchantID == int(row['ID'])]
-    item_ids = item_rows.ID.unique().tolist()
+    item_rows = READER.query("other_settings", dict(EnchantID=int(row['ID'])))
+    item_ids = [row['ID'] for row in item_rows]
     level = 0
     for key in STONE_LEVELS:
         if key in row['Name']:
@@ -428,14 +402,17 @@ def get_stone_detail(row):
     return detail
 
 
+def get_stone_code(detail):
+    detail['attributes'], _, _ = simplify_attrs(detail['attributes'])
+    return detail
+
 def build_stone_code(details: dict[int, dict]):
     results = {}
     for detail in details.values():
-        detail = detail.copy()
-        attributes, _, _ = simplify_attrs(detail['attributes'])
+        attributes = detail['attributes']
+        detail = get_stone_code(detail.copy())
         if len(attributes) != len(detail['attributes']):
             continue
-        detail['attributes'] = attributes
         node = results
         for attribute in detail['attributes']:
             if attribute not in node:
@@ -446,7 +423,7 @@ def build_stone_code(details: dict[int, dict]):
     return results
 
 
-def get_stones_list():
+def get_stones_list(enchant_settings):
     stone_tab = enchant_settings[enchant_settings.DiamondType1 > 0]
 
     results = {}
@@ -460,17 +437,17 @@ def get_stones_list():
 
 
 def generate():
-    armor_json, armor_code = get_equip_list(armor_settings)
+    armor_json, armor_code = get_equip_list(READER.TABLES['armor_settings'])
     save_json("armors", armor_json)
-    trinket_json, trinket_code = get_equip_list(trinket_settings)
+    trinket_json, trinket_code = get_equip_list(READER.TABLES['trinket_settings'])
     save_json("trinkets", trinket_json)
-    weapon_json, weapon_code = get_equip_list(weapon_settings)
+    weapon_json, weapon_code = get_equip_list(READER.TABLES['weapon_settings'])
     save_json("weapons", weapon_json)
     save_code("equipments", armor_code | trinket_code | weapon_code)
-    enchant_json, enchant_code = get_enchants_list()
+    enchant_json, enchant_code = get_enchants_list(READER.TABLES["enchant_settings"])
     save_code("enchants", enchant_code)
     save_json("enchants", enchant_json)
-    stone_json, stone_code = get_stones_list()
+    stone_json, stone_code = get_stones_list(READER.TABLES['enchant_settings'])
     save_code("stones", stone_code)
     save_json("stones", stone_json)
 

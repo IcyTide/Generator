@@ -50,6 +50,7 @@ class Enchant:
 class Gear:
     id: int
 
+    position: str
     school: str
     kind: str
     equipment: str
@@ -92,7 +93,7 @@ class Gear:
     def embeds(self):
         if not self.embed or not any(self.embed_levels.values()):
             return {}
-        return {k: int(v * EMBED_COF(self.embed_levels[i])) for i, (k, v) in enumerate(self.embed.items())}
+        return {k: int(v * EMBED_COF(self.embed_levels.get(i, 0))) for i, (k, v) in enumerate(self.embed.items())}
 
     @property
     def attributes(self):

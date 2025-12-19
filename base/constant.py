@@ -147,8 +147,7 @@ SPECIAL_ENCHANT_MAP = {
 }
 
 STONE_POSITIONS = [
-    "primary_weapon",
-    "secondary_weapon"
+    "primary_weapon"
 ]
 
 

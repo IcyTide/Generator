@@ -1,16 +1,21 @@
-from extra.attribute import Attribute
-from tools.lua.enums import ATTRIBUTE_TYPE
-from tools.utils import camel_to_capital
+import json
+
+from extra.attribute import ExtraAttribute
+from extra.gear import ExtraGears
 
 
-def main(attributes: dict[str, int], school: str, kind: str):
-    attribute = Attribute(school, kind)
-    for attr, value in attributes.items():
-        cap_attr = camel_to_capital(attr[2:])
-        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
-        attribute[attr_type] += value
-    return attribute
+def main(info):
+    # gears = ExtraGears.from_item(info) # stone in item_id
+    gears = ExtraGears.from_enchant(info) # stone in enchant_id
+    if kungfu_info := gears.kungfu_info:
+        attribute = ExtraAttribute(*kungfu_info)
+        attributes, _, _ = gears.content
+        for k, v in attributes.items():
+            attribute[k] += v
+        return attribute
+    else:
+        return None
 
 
 if __name__ == '__main__':
-    main({}, "", "")
+    main(json.load(open("", encoding="utf-8")))
