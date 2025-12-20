@@ -1,0 +1,65 @@
+
+[tool.poetry]
+name = "KlAttribute"
+version = "0.0.1"
+description = "AttributeDpsCalc"
+authors = ["IcyTide","serfend <serfend@foxmail.com>"]
+license = "AGPL"
+
+[tool.poetry.dependencies]
+python = "^3.13.3"
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length=160
+# Enable Pyflakes `E` and `F` codes by default.
+# select = ["E", "F"]
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    'tests',
+    'lib_config_debug.py',
+    'ins_u_const.py',
+    'docs',
+]
+
+# Allow unused variables when underscore-prefixed.
+# lint.dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+target-version = "py313"
+
+# Never enforce `E501` (line length violations).
+# Never enforce `F401` (imported but not used).
+# Never enforce `F403` (star imported unable to detect undefined).
+# Never enforce `F405` (star imported make defined fuss).
+# Never enforce `F811` (redefinition of unused xxx).
+lint.ignore = ["E402","E501", "F401", "F403", "F405", "F811"]
+
+# Never try to fix
+lint.unfixable = ["E402","E501", "F401", "F403", "F405", "F811"]
+
+[tool.ruff.format]
+# 使用单引号
+quote-style = "single"
