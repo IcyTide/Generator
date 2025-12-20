@@ -5,7 +5,7 @@ from tools.generate import *
 
 
 def get_row_from_reader(table_name: str, row_id: int):
-    rows = READER.query(table_name, dict(ID=row_id))
+    rows = Tool.READER.query(table_name, dict(ID=row_id))
     if not rows:
         return None
     return rows[0]
@@ -15,23 +15,20 @@ class ExtraGear(Gear):
     id: int = 0
     temp_enchant: Enchant = None
 
-    def __init__(
-            self, gear_id: int, strength_level: int, embed_levels: list[int],
-            position_id: int = None, tab_id: int = None
-    ):
+    def __init__(self, gear_id: int, strength_level: int, embed_levels: list[int], position_id: int = None, tab_id: int = None):
         if tab_id in EQUIPMENT_BY_TABS:
             row = get_row_from_reader(EQUIPMENT_BY_TABS[tab_id], gear_id)
         elif position_id in EQUIPMENT_BY_POSITIONS:
             row = get_row_from_reader(EQUIPMENT_BY_POSITIONS[position_id], gear_id)
         else:
-            raise KeyError("Not Passing Any ID")
+            raise KeyError('Not Passing Any ID')
         if row and row['SubType'] in POSITION_MAP:
             detail = get_equip_code(get_equip_detail(row))
             super().__init__(detail['school'], detail['kind'], detail['name'], detail)
             self.strength_level = strength_level
             self.embed_levels = {i: level for i, level in enumerate(embed_levels)}
         else:
-            super().__init__("", "", "", {})
+            super().__init__('', '', '', {})
 
     def __bool__(self):
         return bool(self.id)
@@ -59,7 +56,7 @@ class ExtraEnchant(Enchant):
             detail = get_enchant_code(get_enchant_detail(row))
             super().__init__(detail['name'], detail)
         else:
-            super().__init__("", {})
+            super().__init__('', {})
 
     def __bool__(self):
         return bool(self.id)
@@ -76,7 +73,7 @@ class ExtraStone(Stone):
             detail = get_stone_code(STONE_BY_ENCHANT_IDS[enchant_id].copy())
             super().__init__(detail)
         else:
-            raise KeyError("Not Passing Any ID")
+            raise KeyError('Not Passing Any ID')
 
     def __bool__(self):
         return bool(self.enchant_id)
@@ -127,7 +124,7 @@ class ExtraGears(Gears):
                 gear.temp_enchant = temp_enchant
             if not gear.is_primary_weapon:
                 continue
-            _, stone_id = equip_data["ColorInfo"]["0"]
+            _, stone_id = equip_data['ColorInfo']['0']
             gear.stone = ExtraStone(item_id=stone_id)
         return cls(gears)
 
