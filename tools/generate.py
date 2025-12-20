@@ -5,10 +5,14 @@ from tqdm import tqdm
 
 from kungfus import SUPPORT_KUNGFUS
 from tools.lua.enums import ATTRIBUTE_TYPE
-from tools.reader import DataFrameReader
+from tools.reader import DataFrameReader, BaseReader
 from tools.utils import camel_to_capital, get_variable, save_code, save_json
 
-READER = DataFrameReader()
+
+class Tool:
+    READER = DataFrameReader()
+    """用于定义基础数据的读取模式，继承BaseReader"""
+
 
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))
 SCHOOLS = set(['精简', '通用'] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
@@ -16,7 +20,7 @@ SCHOOLS = set(['精简', '通用'] + [kungfu.school for kungfu in SUPPORT_KUNGFU
 MIN_EQUIP_LEVEL = 28000
 ENCHANT_START_ID = 15778
 
-MIN_EQUIP_SCORE = {k: round(MIN_EQUIP_LEVEL * READER.QUALITY_COF[4] * v) for k, v in READER.POSITION_COF.items()}
+MIN_EQUIP_SCORE = {k: round(MIN_EQUIP_LEVEL * Tool.READER.QUALITY_COF[4] * v) for k, v in Tool.READER.POSITION_COF.items()}
 POSITION_MAP = {
     0: 'primary_weapon',
     1: 'tertiary_weapon',
@@ -92,7 +96,7 @@ def get_row(df: pd.DataFrame, condition: dict):
 
 
 def get_attr_desc(attr):
-    attr_rows = READER.query('attrib_txts', dict(ID=attr))
+    attr_rows = Tool.READER.query('attrib_txts', dict(ID=attr))
     if not attr_rows:
         return ''
     attr_row = attr_rows[0]
@@ -100,7 +104,7 @@ def get_attr_desc(attr):
 
 
 def get_recipe_desc(recipe_id, recipe_level):
-    recipe_rows = READER.query('recipe_txts', dict(ID=recipe_id, Level=recipe_level))
+    recipe_rows = Tool.READER.query('recipe_txts', dict(ID=recipe_id, Level=recipe_level))
     if not recipe_rows:
         return '', ''
     recipe_row = recipe_rows[0]
@@ -109,12 +113,12 @@ def get_recipe_desc(recipe_id, recipe_level):
 
 
 def get_event_desc(event_id):
-    event_rows = READER.query('event_txts', dict(ID=event_id))
+    event_rows = Tool.READER.query('event_txts', dict(ID=event_id))
     if not event_rows:
         desc = event_rows[0]['Desc']
     else:
         desc = ''
-    event_rows = READER.query('event_settings', dict(ID=event_id))
+    event_rows = Tool.READER.query('event_settings', dict(ID=event_id))
     if event_rows:
         event_row = event_rows[0]
         if event_row['Odds']:
@@ -161,7 +165,7 @@ def get_magic_attrs(row):
     for i in range(MAX_MAGIC_ATTR):
         if not (attr_id := row[f'Magic{i + 1}Type']):
             break
-        attr_row = READER.query('attrib_settings', dict(ID=attr_id))[0]
+        attr_row = Tool.READER.query('attrib_settings', dict(ID=attr_id))[0]
         attr = attr_row['ModifyType']
         cap_attr = camel_to_capital(attr[2:])
         attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
@@ -181,7 +185,7 @@ def get_embed_attrs(row):
     for i in range(MAX_EMBED_ATTR):
         if not (attr_id := row[f'DiamondAttributeID{i + 1}']):
             break
-        attr_row = READER.query('attrib_settings', dict(ID=attr_id))[0]
+        attr_row = Tool.READER.query('attrib_settings', dict(ID=attr_id))[0]
         attr = attr_row['ModifyType']
         cap_attr = camel_to_capital(attr[2:])
         attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
@@ -194,11 +198,11 @@ def get_set_attrs(row):
     set_id = int(row['SetID'])
     if not set_id:
         return set_id, attrs
-    set_row = READER.query('set_settings', dict(ID=set_id))[0]
+    set_row = Tool.READER.query('set_settings', dict(ID=set_id))[0]
     for i in range(1, MAX_SET_COUNT):
         for j in range(MAX_SET_ATTR):
             if attr_id := set_row[f'{i + 1}_{j + 1}']:
-                attr_row = READER.query('attrib_settings', dict(ID=attr_id))[0]
+                attr_row = Tool.READER.query('attrib_settings', dict(ID=attr_id))[0]
                 attr = attr_row['ModifyType']
                 cap_attr = camel_to_capital(attr[2:])
                 attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
@@ -227,7 +231,7 @@ def get_equip_detail(row):
         'score': int(row['Score']),
         'max_strength': int(row['MaxStrengthLevel']),
     }
-    item_row = READER.query('item_txts', dict(ItemID=row['UiID']))[0]
+    item_row = Tool.READER.query('item_txts', dict(ItemID=row['UiID']))[0]
     detail['icon_id'] = int(item_row['IconID'])
     detail['desc'] = item_row['Desc']
     detail['base'] = get_base_attrs(row)
@@ -366,7 +370,7 @@ def get_stone_attrs(row):
 
 
 def get_stone_detail(row):
-    item_rows = READER.query('other_settings', dict(EnchantID=int(row['ID'])))
+    item_rows = Tool.READER.query('other_settings', dict(EnchantID=int(row['ID'])))
     item_ids = [row['ID'] for row in item_rows]
     level = 0
     for key in STONE_LEVELS:
@@ -414,17 +418,17 @@ def get_stones_list(enchant_settings):
 
 
 def generate():
-    armor_json, armor_code = get_equip_list(READER.TABLES['armor_settings'])
+    armor_json, armor_code = get_equip_list(Tool.READER.TABLES['armor_settings'])
     save_json('armors', armor_json)
-    trinket_json, trinket_code = get_equip_list(READER.TABLES['trinket_settings'])
+    trinket_json, trinket_code = get_equip_list(Tool.READER.TABLES['trinket_settings'])
     save_json('trinkets', trinket_json)
-    weapon_json, weapon_code = get_equip_list(READER.TABLES['weapon_settings'])
+    weapon_json, weapon_code = get_equip_list(Tool.READER.TABLES['weapon_settings'])
     save_json('weapons', weapon_json)
     save_code('equipments', armor_code | trinket_code | weapon_code)
-    enchant_json, enchant_code = get_enchants_list(READER.TABLES['enchant_settings'])
+    enchant_json, enchant_code = get_enchants_list(Tool.READER.TABLES['enchant_settings'])
     save_code('enchants', enchant_code)
     save_json('enchants', enchant_json)
-    stone_json, stone_code = get_stones_list(READER.TABLES['enchant_settings'])
+    stone_json, stone_code = get_stones_list(Tool.READER.TABLES['enchant_settings'])
     save_code('stones', stone_code)
     save_json('stones', stone_json)
 

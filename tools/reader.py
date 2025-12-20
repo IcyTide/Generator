@@ -2,38 +2,14 @@ from tools.utils import read_tab
 
 
 class BaseReader:
-    TABLES: dict = {}
-
-    def __init__(self):
-        ...
-
-    def query(self, table_name, condition) -> list[dict]:
-        ...
-
-
-class DataFrameReader(BaseReader):
-    TABLES = dict(
-        weapon_settings=read_tab("settings/item/Custom_Weapon.tab"),
-        armor_settings = read_tab("settings/item/Custom_Armor.tab"),
-        trinket_settings = read_tab("settings/item/Custom_Trinket.tab"),
-        enchant_settings = read_tab("settings/item/Enchant.tab"),
-        attrib_settings = read_tab("settings/item/Attrib.tab"),
-        set_settings = read_tab("settings/item/Set.tab"),
-        other_settings = read_tab("settings/item/Other.tab"),
-        event_settings = read_tab("settings/skill/SkillEvent.tab", "settings/skill_mobile/SkillEvent.tab"),
-
-        item_txts = read_tab("ui/scheme/case/Item.txt"),
-        attrib_txts = read_tab("ui/scheme/case/Attribute.txt"),
-        recipe_txts = read_tab("ui/scheme/case/EquipmentRecipe.txt"),
-        event_txts = read_tab("ui/scheme/case/SkillEvent.txt")
-    )
     QUALITY_COF = {
         1: 1,
         2: 1.4,
         3: 1.6,
         4: 1.8,
-        5: 2.5
+        5: 2.5,
     }
+    """计算装分：紫橙装系数"""
     POSITION_COF = {
         0: 1.2,
         1: 0.6,
@@ -47,6 +23,39 @@ class DataFrameReader(BaseReader):
         9: 0.7,
         10: 0.7,
     }
+    """计算装分：各部位系数"""
+
+    TABLES: dict = {}
+
+    def __init__(self): ...
+
+    def query(self, table_name, condition: dict[str, any]) -> list[dict]:
+        """实现数据查询
+        @table_name: 表名
+        @condition: 查询条件，字典格式，如{'ID': 1001}
+
+        @return: 符合条件的多行数据，列表套字典
+
+        TODO 此处应明确哪些表会被调用、各是什么数据结构，建立Entity类进行返回
+        """
+        ...
+
+
+class DataFrameReader(BaseReader):
+    TABLES = dict(
+        weapon_settings=read_tab('settings/item/Custom_Weapon.tab'),
+        armor_settings=read_tab('settings/item/Custom_Armor.tab'),
+        trinket_settings=read_tab('settings/item/Custom_Trinket.tab'),
+        enchant_settings=read_tab('settings/item/Enchant.tab'),
+        attrib_settings=read_tab('settings/item/Attrib.tab'),
+        set_settings=read_tab('settings/item/Set.tab'),
+        other_settings=read_tab('settings/item/Other.tab'),
+        event_settings=read_tab('settings/skill/SkillEvent.tab', 'settings/skill_mobile/SkillEvent.tab'),
+        item_txts=read_tab('ui/scheme/case/Item.txt'),
+        attrib_txts=read_tab('ui/scheme/case/Attribute.txt'),
+        recipe_txts=read_tab('ui/scheme/case/EquipmentRecipe.txt'),
+        event_txts=read_tab('ui/scheme/case/SkillEvent.txt'),
+    )
 
     def __init__(self):
         super().__init__()
@@ -64,4 +73,4 @@ class DataFrameReader(BaseReader):
         rows = table
         for k, v in condition.items():
             rows = rows[rows[k] == v]
-        return rows.to_dict("records")
+        return rows.to_dict('records')
