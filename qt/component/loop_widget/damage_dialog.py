@@ -43,6 +43,7 @@ class DamagesDialog(QDialog):
         self.setWindowTitle("伤害细节")
         layout = QVBoxLayout(self)
         self.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Preferred)
+
         self.tool_box = QToolBox()
         layout.addWidget(self.tool_box)
         sub_layout = QVBoxLayout(sub_page := QWidget())

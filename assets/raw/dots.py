@@ -318,7 +318,7 @@ DOTS = {
                             "name": "叠刃",
                             "comment": "原始",
                             "damages": [
-                                "(10 + physical_attack_power * int(126 * (1 + 0.3999999999999999 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                "(10 + physical_attack_power * int(126 * (1 + 0.44999999999999996 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"
@@ -327,7 +327,7 @@ DOTS = {
                             "name": "叠刃",
                             "comment": "裂云",
                             "damages": [
-                                "(10 + physical_attack_power * int(126 * (1 + 0.3999999999999999 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                "(10 + physical_attack_power * int(126 * (1 + 0.44999999999999996 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"
@@ -347,7 +347,7 @@ DOTS = {
                             "name": "叠刃",
                             "comment": "原始",
                             "damages": [
-                                "(10 + physical_attack_power * int(126 * (1 + 0.3999999999999999 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                "(10 + physical_attack_power * int(126 * (1 + 0.44999999999999996 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"
@@ -356,7 +356,7 @@ DOTS = {
                             "name": "叠刃",
                             "comment": "裂云",
                             "damages": [
-                                "(10 + physical_attack_power * int(126 * (1 + 0.3999999999999999 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                "(10 + physical_attack_power * int(126 * (1 + 0.44999999999999996 * recipe_4583_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"
@@ -990,7 +990,7 @@ DOTS = {
                             "name": "",
                             "comment": "",
                             "damages": [
-                                "(25 + lunar_attack_power * 1.1731770833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                "(25 + lunar_attack_power * 1.4674479166666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
                             ],
                             "critical_strike": "lunar_critical_strike",
                             "critical_power": "lunar_critical_power"
@@ -2315,7 +2315,7 @@ DOTS = {
                             "name": "",
                             "comment": "",
                             "damages": [
-                                "(32 + physical_attack_power * 0.215625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                "(32 + physical_attack_power * 0.23750000000000002) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"

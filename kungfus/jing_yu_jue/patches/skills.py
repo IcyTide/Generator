@@ -11,5 +11,9 @@ SKILLS = {
     },
     33870: dict(comment="{}段蓄力"),
     29148: dict(comment="鹰扬虎视"), 29154: dict(comment="鹰扬虎视"),
+    42491: {
+        1: dict(comment="追命箭"),
+        2: dict(comment="夺魄箭")
+    },
     6921: {-5 + i: dict(comment=f"{i + 1}层穷尽九泉") for i in range(2)}
 }

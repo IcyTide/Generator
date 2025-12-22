@@ -145,6 +145,7 @@ class DotDamageDialog(QDialog):
 
         variables = {**current.current, **snapshot.snapshot}
         self.damage, self.critical_strike, self.critical_damage, self.expected_damage = evaluate_dot(dot, variables)
+        self.count = dot.count
 
         layout.addWidget(LabelRow("名称:", QLabel(dot.name)))
         layout.addWidget(LabelRow("ID:", QLabel(str(dot.dot_id))))
@@ -163,6 +164,8 @@ class DotDamageDialog(QDialog):
         layout.addWidget(LabelRow("会心伤害:", self.critical_damage_label))
         self.expected_damage_label = QLabel("")
         layout.addWidget(LabelRow("期望伤害:", self.expected_damage_label))
+        self.total_damage_label = QLabel("")
+        layout.addWidget(LabelRow("总期望伤害:", self.total_damage_label))
 
         self.target_level.currentTextChanged.connect(self.select_target_level)
         self.target_level.set_items(SHIELD_BASE_MAP)
@@ -180,3 +183,5 @@ class DotDamageDialog(QDialog):
         self.critical_damage_label.setText(str(critical_damage))
         expected_damage = int(self.expected_damage.evaluate(variables))
         self.expected_damage_label.setText(str(expected_damage))
+        total_damage = int(expected_damage * self.count)
+        self.total_damage_label.setText(str(total_damage))

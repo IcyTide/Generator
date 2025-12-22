@@ -1,11 +1,10 @@
 import re
 
-import pandas as pd
 from tqdm import tqdm
 
 from kungfus import SUPPORT_KUNGFUS
 from tools.lua.enums import ATTRIBUTE_TYPE
-from tools.reader import DataFrameReader
+from tools.reader import BaseReader, DataFrameReader
 from tools.utils import camel_to_capital, get_variable, save_code, save_json
 
 READER = DataFrameReader()
@@ -70,6 +69,18 @@ MAX_SET_COUNT = 6
 MAX_SET_ATTR = 4
 
 
+def set_reader(reader: BaseReader):
+    global READER
+    READER = reader
+
+
+def get_row_from_reader(table_name: str, row_id: int):
+    rows = READER.query(table_name, dict(ID=row_id))
+    if not rows:
+        return None
+    return rows[0]
+
+
 def simplify_attrs(attrs):
     attributes, recipes, gains = {}, [], []
     for attr in attrs:
@@ -82,15 +93,6 @@ def simplify_attrs(attrs):
                 attributes[attr_type] = 0
             attributes[attr_type] += attr['value']
     return attributes, recipes, gains
-
-
-def get_row(df: pd.DataFrame, condition: dict):
-    rows = df
-    for k, v in condition.items():
-        rows = rows[rows[k] == v]
-    if rows.empty:
-        return []
-    return rows.to_dict("records")
 
 
 def get_attr_desc(attr):
@@ -128,6 +130,27 @@ def get_event_desc(event_id):
     return desc, value
 
 
+def get_attr(attr_id: int = None, attr: str = None, param_1: int = None, param_2: int = None):
+    if attr_id:
+        attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
+        attr = attr_row['ModifyType']
+        param_1, param_2 = attr_row['Param1Max'], attr_row['Param2Max']
+    cap_attr = camel_to_capital(attr[2:])
+    attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
+    if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
+        desc, value = get_event_desc(param_1)
+    elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
+        desc, value = get_recipe_desc(param_1, param_2)
+    else:
+        desc, value = get_attr_desc(attr), param_1
+    return {
+        "attr": attr,
+        "attr_type": attr_type,
+        "value": value,
+        "desc": desc
+    }
+
+
 def get_equip_tags(detail):
     tags = []
     attr_tags = []
@@ -151,15 +174,8 @@ def get_base_attrs(row):
     for i in range(MAX_BASE_ATTR):
         if not (attr := row[f'Base{i + 1}Type']):
             break
-        cap_attr = camel_to_capital(attr[2:])
-        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
-        attrs.append({
-            "attr": attr,
-            "attr_type": attr_type,
-            "value": row[f'Base{i + 1}Max'],
-            "desc": get_attr_desc(attr)
-        })
-
+        param_1, parma_2 = row[f'Base{i + 1}Max'], row[f'Base{i + 1}Min']
+        attrs.append(get_attr(attr=attr, param_1=param_1, param_2=parma_2))
     return attrs
 
 
@@ -168,23 +184,7 @@ def get_magic_attrs(row):
     for i in range(MAX_MAGIC_ATTR):
         if not (attr_id := row[f'Magic{i + 1}Type']):
             break
-        attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
-        attr = attr_row['ModifyType']
-        cap_attr = camel_to_capital(attr[2:])
-        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
-        param_1, param_2 = attr_row['Param1Max'], attr_row['Param2Max']
-        if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
-            desc, value = get_event_desc(param_1)
-        elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
-            desc, value = get_recipe_desc(param_1, param_2)
-        else:
-            desc, value = get_attr_desc(attr), param_1
-        attrs.append({
-            "attr": attr,
-            "attr_type": attr_type,
-            "value": value,
-            "desc": desc
-        })
+        attrs.append(get_attr(attr_id=attr_id))
     return attrs
 
 
@@ -193,16 +193,7 @@ def get_embed_attrs(row):
     for i in range(MAX_EMBED_ATTR):
         if not (attr_id := row[f'DiamondAttributeID{i + 1}']):
             break
-        attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
-        attr = attr_row['ModifyType']
-        cap_attr = camel_to_capital(attr[2:])
-        attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
-        attrs.append({
-            "attr": attr,
-            "attr_type": attr_type,
-            "value": attr_row['Param1Max'],
-            "desc": get_attr_desc(attr)
-        })
+        attrs.append(get_attr(attr_id=attr_id))
     return attrs
 
 
@@ -215,25 +206,9 @@ def get_set_attrs(row):
     for i in range(1, MAX_SET_COUNT):
         for j in range(MAX_SET_ATTR):
             if attr_id := set_row[f"{i + 1}_{j + 1}"]:
-                attr_row = READER.query("attrib_settings", dict(ID=attr_id))[0]
-                attr = attr_row['ModifyType']
-                cap_attr = camel_to_capital(attr[2:])
-                attr_type = ATTRIBUTE_TYPE[cap_attr]  # noqa
                 if i + 1 not in attrs:
                     attrs[i + 1] = []
-                param_1, param_2 = attr_row['Param1Max'], attr_row['Param2Max']
-                if attr_type == ATTRIBUTE_TYPE.SKILL_EVENT_HANDLER:
-                    desc, value = get_event_desc(param_1)
-                elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
-                    desc, value = get_recipe_desc(param_1, param_2)
-                else:
-                    desc, value = get_attr_desc(attr), param_1
-                attrs[i + 1].append({
-                    "attr": attr,
-                    "attr_type": attr_type,
-                    "value": value,
-                    "desc": desc
-                })
+                attrs[i + 1].append(get_attr(attr_id=attr_id))
     return set_id, attrs
 
 
@@ -338,6 +313,7 @@ def get_enchant_code(detail):
         detail.pop(key, None)
     return detail
 
+
 def build_enchant_code(details: dict[int, dict]):
     results = dict(consumables={})
     for detail in details.values():
@@ -405,6 +381,7 @@ def get_stone_detail(row):
 def get_stone_code(detail):
     detail['attributes'], _, _ = simplify_attrs(detail['attributes'])
     return detail
+
 
 def build_stone_code(details: dict[int, dict]):
     results = {}

@@ -18,4 +18,4 @@ def main(info):
 
 
 if __name__ == '__main__':
-    main(json.load(open("", encoding="utf-8")))
+    main(json.load(open("client.txt", encoding="utf-8")))

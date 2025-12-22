@@ -4,12 +4,6 @@ from qt.classes.gear import Enchant, Gear, Gears, Stone
 from tools.generate import *
 
 
-def get_row_from_reader(table_name: str, row_id: int):
-    rows = READER.query(table_name, dict(ID=row_id))
-    if not rows:
-        return None
-    return rows[0]
-
 
 class ExtraGear(Gear):
     id: int = 0

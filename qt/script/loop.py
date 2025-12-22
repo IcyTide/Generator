@@ -84,7 +84,7 @@ class LoopScript:
             return
         current, snapshot = self.kungfu.create_attribute(False), self.kungfu.create_attribute(False)
         add_buffs_to_attributes(record.buffs, current, snapshot)
-        AttributeDialog(current, snapshot, parent=self.widget).exec()
+        AttributeDialog(current, snapshot, parent=self.widget).show()
 
     def show_skill_damage(self):
         if not (record := self.record):
@@ -95,7 +95,7 @@ class LoopScript:
         skill = record.skills[skill_index]
         attribute = self.kungfu.create_attribute()
         add_buffs_to_attributes(record.buffs, attribute)
-        SkillDamageDialog(skill, attribute, parent=self.widget).exec()
+        SkillDamageDialog(skill, attribute, parent=self.widget).show()
 
     def show_dot_damage(self):
         if not (record := self.record):
@@ -106,7 +106,7 @@ class LoopScript:
         dot = record.dots[dot_index]
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
         add_buffs_to_attributes(record.buffs, current, snapshot)
-        DotDamageDialog(dot, current, snapshot, parent=self.widget).exec()
+        DotDamageDialog(dot, current, snapshot, parent=self.widget).show()
 
     def show_record_damage(self):
         if not (record := self.record):
@@ -114,7 +114,7 @@ class LoopScript:
         if record.is_empty:
             return
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
-        RecordDamageDialog(record, current, snapshot, parent=self.widget).exec()
+        RecordDamageDialog(record, current, snapshot, parent=self.widget).show()
 
     def show_section_damage(self):
         if not (section := self.section):
@@ -122,14 +122,14 @@ class LoopScript:
         if section.is_empty:
             return
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
-        SectionDamageDialog(section, current, snapshot, parent=self.widget).exec()
+        SectionDamageDialog(section, current, snapshot, parent=self.widget).show()
 
     def show_all_damage(self):
         if self.sections.is_empty:
             return
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
         loop = self.kungfu.create_loop(self.sections)
-        AllDamageDialog(loop, current, snapshot, parent=self.widget).exec()
+        AllDamageDialog(loop, current, snapshot, parent=self.widget).show()
 
     def show_skill_damage_btn(self):
         self.widget.skill_damage_btn.show()

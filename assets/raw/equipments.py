@@ -5,6 +5,9 @@ EQUIPMENTS = {
                 "江瀚护腕#107017 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 107017,
                     "name": "江瀚护腕",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -46,6 +49,9 @@ EQUIPMENTS = {
                 "长关护腕#107119 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 107119,
                     "name": "长关护腕",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -72,6 +78,9 @@ EQUIPMENTS = {
                 "客行江湖·嵯峨护腕#107053 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 107053,
                     "name": "客行江湖·嵯峨护腕",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -99,6 +108,9 @@ EQUIPMENTS = {
                 "穹石护手#106870 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106870,
                     "name": "穹石护手",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -126,6 +138,9 @@ EQUIPMENTS = {
                 "洪涌护手#106834 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106834,
                     "name": "洪涌护手",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -152,6 +167,9 @@ EQUIPMENTS = {
                 "月钟袖#104973 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 104973,
                     "name": "月钟袖",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -193,6 +211,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏护腕#108223 (30200 内防 加速 破招 御劲 无双)": {
                     "id": 108223,
                     "name": "孤城惊梦·昂藏护腕",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -219,6 +240,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·横关护手#106644 (30200 内防 加速 破招 御劲 无双)": {
                     "id": 106644,
                     "name": "寻踪觅宝·横关护手",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -263,6 +287,9 @@ EQUIPMENTS = {
                 "坠欢袖#105075 (30200 内防 御劲 无双)": {
                     "id": 105075,
                     "name": "坠欢袖",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -287,6 +314,9 @@ EQUIPMENTS = {
                 "客行江湖·常盛袖#105009 (30200 外防 御劲 无双)": {
                     "id": 105009,
                     "name": "客行江湖·常盛袖",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -312,6 +342,9 @@ EQUIPMENTS = {
                 "登科护手#104847 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104847,
                     "name": "登科护手",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -339,6 +372,9 @@ EQUIPMENTS = {
                 "三元护手#104811 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104811,
                     "name": "三元护手",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -367,6 +403,9 @@ EQUIPMENTS = {
                 "江流护腕#107016 (35900 会心)": {
                     "id": 107016,
                     "name": "江流护腕",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -407,6 +446,9 @@ EQUIPMENTS = {
                 "长溪护腕#107118 (35300 加速)": {
                     "id": 107118,
                     "name": "长溪护腕",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -432,6 +474,9 @@ EQUIPMENTS = {
                 "客行江湖·寒调护腕#107052 (35300 )": {
                     "id": 107052,
                     "name": "客行江湖·寒调护腕",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -456,6 +501,9 @@ EQUIPMENTS = {
                 "仁心护手#106869 (35300 会心)": {
                     "id": 106869,
                     "name": "仁心护手",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -481,6 +529,9 @@ EQUIPMENTS = {
                 "拂煦护手#106833 (35300 加速)": {
                     "id": 106833,
                     "name": "拂煦护手",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -506,6 +557,9 @@ EQUIPMENTS = {
                 "月柳袖#104972 (30700 会心)": {
                     "id": 104972,
                     "name": "月柳袖",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -546,6 +600,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥护腕#108222 (30200 加速)": {
                     "id": 108222,
                     "name": "孤城惊梦·青泥护腕",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -571,6 +628,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·妙意护手#106643 (30200 加速)": {
                     "id": 106643,
                     "name": "寻踪觅宝·妙意护手",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -614,6 +674,9 @@ EQUIPMENTS = {
                 "坠月袖#105074 (30200 加速)": {
                     "id": 105074,
                     "name": "坠月袖",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -639,6 +702,9 @@ EQUIPMENTS = {
                 "客行江湖·清赏袖#105008 (30200 )": {
                     "id": 105008,
                     "name": "客行江湖·清赏袖",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -663,6 +729,9 @@ EQUIPMENTS = {
                 "折桂护手#104846 (30200 会心)": {
                     "id": 104846,
                     "name": "折桂护手",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -688,6 +757,9 @@ EQUIPMENTS = {
                 "风檐护手#104810 (30200 加速)": {
                     "id": 104810,
                     "name": "风檐护手",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -715,6 +787,9 @@ EQUIPMENTS = {
                 "江舟护腕#107015 (35900 破防 无双)": {
                     "id": 107015,
                     "name": "江舟护腕",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -756,6 +831,9 @@ EQUIPMENTS = {
                 "蒙鸠护腕#107117 (35300 会心 无双)": {
                     "id": 107117,
                     "name": "蒙鸠护腕",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -782,6 +860,9 @@ EQUIPMENTS = {
                 "客行江湖·离帆护腕#107051 (35300 会心 无双)": {
                     "id": 107051,
                     "name": "客行江湖·离帆护腕",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -808,6 +889,9 @@ EQUIPMENTS = {
                 "晚风护手#106868 (35300 破防 无双)": {
                     "id": 106868,
                     "name": "晚风护手",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -834,6 +918,9 @@ EQUIPMENTS = {
                 "天风护手#106832 (35300 加速 无双)": {
                     "id": 106832,
                     "name": "天风护手",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -860,6 +947,9 @@ EQUIPMENTS = {
                 "月霭袖#104971 (30700 破防 无双)": {
                     "id": 104971,
                     "name": "月霭袖",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -901,6 +991,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟护腕#108221 (30200 破招 无双)": {
                     "id": 108221,
                     "name": "孤城惊梦·迷烟护腕",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -927,6 +1020,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·逸群护手#106642 (30200 破招 无双)": {
                     "id": 106642,
                     "name": "寻踪觅宝·逸群护手",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -971,6 +1067,9 @@ EQUIPMENTS = {
                 "坠红袖#105073 (30200 会心 无双)": {
                     "id": 105073,
                     "name": "坠红袖",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -997,6 +1096,9 @@ EQUIPMENTS = {
                 "客行江湖·日斜袖#105007 (30200 会心 无双)": {
                     "id": 105007,
                     "name": "客行江湖·日斜袖",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1023,6 +1125,9 @@ EQUIPMENTS = {
                 "标雁护手#104845 (30200 破防 无双)": {
                     "id": 104845,
                     "name": "标雁护手",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1049,6 +1154,9 @@ EQUIPMENTS = {
                 "问殿护手#104809 (30200 加速 无双)": {
                     "id": 104809,
                     "name": "问殿护手",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1077,6 +1185,9 @@ EQUIPMENTS = {
                 "江涛护腕#107014 (35900 破防 无双)": {
                     "id": 107014,
                     "name": "江涛护腕",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -1118,6 +1229,9 @@ EQUIPMENTS = {
                 "长山护腕#107116 (35300 会心 无双)": {
                     "id": 107116,
                     "name": "长山护腕",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1144,6 +1258,9 @@ EQUIPMENTS = {
                 "客行江湖·孤馆护腕#107050 (35300 会心 无双)": {
                     "id": 107050,
                     "name": "客行江湖·孤馆护腕",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1170,6 +1287,9 @@ EQUIPMENTS = {
                 "震烁护手#106867 (35300 破防 无双)": {
                     "id": 106867,
                     "name": "震烁护手",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1196,6 +1316,9 @@ EQUIPMENTS = {
                 "断霄护手#106831 (35300 加速 无双)": {
                     "id": 106831,
                     "name": "断霄护手",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1222,6 +1345,9 @@ EQUIPMENTS = {
                 "月溪袖#104970 (30700 破防 无双)": {
                     "id": 104970,
                     "name": "月溪袖",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -1263,6 +1389,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河护腕#108220 (30200 破招 无双)": {
                     "id": 108220,
                     "name": "孤城惊梦·浊河护腕",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1289,6 +1418,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·遒劲护手#106641 (30200 破招 无双)": {
                     "id": 106641,
                     "name": "寻踪觅宝·遒劲护手",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1333,6 +1465,9 @@ EQUIPMENTS = {
                 "坠雨袖#105072 (30200 会心 无双)": {
                     "id": 105072,
                     "name": "坠雨袖",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1359,6 +1494,9 @@ EQUIPMENTS = {
                 "客行江湖·山隈袖#105006 (30200 会心 无双)": {
                     "id": 105006,
                     "name": "客行江湖·山隈袖",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1385,6 +1523,9 @@ EQUIPMENTS = {
                 "寒窗护手#104844 (30200 破防 无双)": {
                     "id": 104844,
                     "name": "寒窗护手",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1411,6 +1552,9 @@ EQUIPMENTS = {
                 "礼闱护手#104808 (30200 加速 无双)": {
                     "id": 104808,
                     "name": "礼闱护手",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1439,6 +1583,9 @@ EQUIPMENTS = {
                 "江横护腕#107013 (35900 破防 无双)": {
                     "id": 107013,
                     "name": "江横护腕",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -1480,6 +1627,9 @@ EQUIPMENTS = {
                 "长日护腕#107115 (35300 会心 无双)": {
                     "id": 107115,
                     "name": "长日护腕",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1506,6 +1656,9 @@ EQUIPMENTS = {
                 "客行江湖·阳关护腕#107049 (35300 会心 无双)": {
                     "id": 107049,
                     "name": "客行江湖·阳关护腕",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1532,6 +1685,9 @@ EQUIPMENTS = {
                 "河汉护手#106866 (35300 破防 无双)": {
                     "id": 106866,
                     "name": "河汉护手",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1558,6 +1714,9 @@ EQUIPMENTS = {
                 "骀荡护手#106830 (35300 加速 无双)": {
                     "id": 106830,
                     "name": "骀荡护手",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1584,6 +1743,9 @@ EQUIPMENTS = {
                 "月声袖#104969 (30700 破防 无双)": {
                     "id": 104969,
                     "name": "月声袖",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -1625,6 +1787,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡护腕#108219 (30200 破招 无双)": {
                     "id": 108219,
                     "name": "孤城惊梦·萦纡护腕",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1651,6 +1816,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·沛然护手#106640 (30200 破招 无双)": {
                     "id": 106640,
                     "name": "寻踪觅宝·沛然护手",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1695,6 +1863,9 @@ EQUIPMENTS = {
                 "坠露袖#105071 (30200 会心 无双)": {
                     "id": 105071,
                     "name": "坠露袖",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1721,6 +1892,9 @@ EQUIPMENTS = {
                 "客行江湖·新圃袖#105005 (30200 会心 无双)": {
                     "id": 105005,
                     "name": "客行江湖·新圃袖",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1747,6 +1921,9 @@ EQUIPMENTS = {
                 "云路护手#104843 (30200 破防 无双)": {
                     "id": 104843,
                     "name": "云路护手",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1773,6 +1950,9 @@ EQUIPMENTS = {
                 "封名护手#104807 (30200 加速 无双)": {
                     "id": 104807,
                     "name": "封名护手",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -1801,6 +1981,9 @@ EQUIPMENTS = {
                 "江离护腕#107012 (35900 破防 无双)": {
                     "id": 107012,
                     "name": "江离护腕",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -1842,6 +2025,9 @@ EQUIPMENTS = {
                 "长留护腕#107114 (35300 会心 无双)": {
                     "id": 107114,
                     "name": "长留护腕",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1868,6 +2054,9 @@ EQUIPMENTS = {
                 "客行江湖·歧路护腕#107048 (35300 会心 无双)": {
                     "id": 107048,
                     "name": "客行江湖·歧路护腕",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1894,6 +2083,9 @@ EQUIPMENTS = {
                 "椒丘护手#106865 (35300 破防 无双)": {
                     "id": 106865,
                     "name": "椒丘护手",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1920,6 +2112,9 @@ EQUIPMENTS = {
                 "香丹护手#106829 (35300 加速 无双)": {
                     "id": 106829,
                     "name": "香丹护手",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -1946,6 +2141,9 @@ EQUIPMENTS = {
                 "月涛袖#104968 (30700 破防 无双)": {
                     "id": 104968,
                     "name": "月涛袖",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -1987,6 +2185,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏护腕#108218 (30200 破招 无双)": {
                     "id": 108218,
                     "name": "孤城惊梦·萧疏护腕",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2013,6 +2214,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·绵邈护手#106639 (30200 破招 无双)": {
                     "id": 106639,
                     "name": "寻踪觅宝·绵邈护手",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2057,6 +2261,9 @@ EQUIPMENTS = {
                 "坠潮袖#105070 (30200 会心 无双)": {
                     "id": 105070,
                     "name": "坠潮袖",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2083,6 +2290,9 @@ EQUIPMENTS = {
                 "客行江湖·繁色袖#105004 (30200 会心 无双)": {
                     "id": 105004,
                     "name": "客行江湖·繁色袖",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2109,6 +2319,9 @@ EQUIPMENTS = {
                 "文曲护手#104842 (30200 破防 无双)": {
                     "id": 104842,
                     "name": "文曲护手",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2135,6 +2348,9 @@ EQUIPMENTS = {
                 "论策护手#104806 (30200 加速 无双)": {
                     "id": 104806,
                     "name": "论策护手",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2165,6 +2381,9 @@ EQUIPMENTS = {
                 "三更静月#108668 (35300 精简 特效 加速 无双)": {
                     "id": 108668,
                     "name": "三更静月",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2192,6 +2411,9 @@ EQUIPMENTS = {
                 "水色天容#106962 (35300 精简 特效 破招)": {
                     "id": 106962,
                     "name": "水色天容",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2218,6 +2440,9 @@ EQUIPMENTS = {
                 "潇潇秋江#106961 (35300 精简 特效 破招 无双)": {
                     "id": 106961,
                     "name": "潇潇秋江",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2245,6 +2470,9 @@ EQUIPMENTS = {
                 "玉人金缕#106960 (35300 精简 特效 破防 无双)": {
                     "id": 106960,
                     "name": "玉人金缕",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2272,6 +2500,9 @@ EQUIPMENTS = {
                 "浸月轮#106959 (35300 精简 特效 会心 无双)": {
                     "id": 106959,
                     "name": "浸月轮",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2299,6 +2530,9 @@ EQUIPMENTS = {
                 "万里云山#106958 (35300 精简 特效 会心 会效 无双)": {
                     "id": 106958,
                     "name": "万里云山",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2327,6 +2561,9 @@ EQUIPMENTS = {
                 "青山夕照#106957 (35300 精简 特效 会心 会效 破招)": {
                     "id": 106957,
                     "name": "青山夕照",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2355,6 +2592,9 @@ EQUIPMENTS = {
                 "舂黍护腕·迅#106956 (35300 精简 加速 无双)": {
                     "id": 106956,
                     "name": "舂黍护腕·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2380,6 +2620,9 @@ EQUIPMENTS = {
                 "萧关护腕·绝#106955 (35300 精简 破防 破招 无双)": {
                     "id": 106955,
                     "name": "萧关护腕·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2406,6 +2649,9 @@ EQUIPMENTS = {
                 "晴川护腕·明#106954 (35300 精简 会心 破招 无双)": {
                     "id": 106954,
                     "name": "晴川护腕·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2432,6 +2678,9 @@ EQUIPMENTS = {
                 "沉舟护腕·觉#106953 (35300 精简 会心 破防 无双)": {
                     "id": 106953,
                     "name": "沉舟护腕·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2458,6 +2707,9 @@ EQUIPMENTS = {
                 "角弓护腕·引#106952 (35300 精简 破招 无双)": {
                     "id": 106952,
                     "name": "角弓护腕·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2483,6 +2735,9 @@ EQUIPMENTS = {
                 "云汉护腕·破#106951 (35300 精简 破防 无双)": {
                     "id": 106951,
                     "name": "云汉护腕·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2508,6 +2763,9 @@ EQUIPMENTS = {
                 "列缺护腕·悟#106950 (35300 精简 会心 无双)": {
                     "id": 106950,
                     "name": "列缺护腕·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2533,6 +2791,9 @@ EQUIPMENTS = {
                 "江皋护腕·尊#106949 (35300 精简 无双)": {
                     "id": 106949,
                     "name": "江皋护腕·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2557,6 +2818,9 @@ EQUIPMENTS = {
                 "归沉寂#104939 (30200 精简 特效 破招)": {
                     "id": 104939,
                     "name": "归沉寂",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2583,6 +2847,9 @@ EQUIPMENTS = {
                 "夜森谒#104938 (30200 精简 特效 破招 无双)": {
                     "id": 104938,
                     "name": "夜森谒",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2610,6 +2877,9 @@ EQUIPMENTS = {
                 "摧千木#104937 (30200 精简 特效 破防 无双)": {
                     "id": 104937,
                     "name": "摧千木",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2637,6 +2907,9 @@ EQUIPMENTS = {
                 "立嵯峨#104936 (30200 精简 特效 会心 无双)": {
                     "id": 104936,
                     "name": "立嵯峨",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2664,6 +2937,9 @@ EQUIPMENTS = {
                 "向天歌#104935 (30200 精简 特效 会心 会效 无双)": {
                     "id": 104935,
                     "name": "向天歌",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2692,6 +2968,9 @@ EQUIPMENTS = {
                 "雾海谜#104934 (30200 精简 特效 会心 会效 破招)": {
                     "id": 104934,
                     "name": "雾海谜",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2720,6 +2999,9 @@ EQUIPMENTS = {
                 "苍絮护腕·迅#104933 (30200 精简 加速 无双)": {
                     "id": 104933,
                     "name": "苍絮护腕·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2745,6 +3027,9 @@ EQUIPMENTS = {
                 "岳鸿护腕·绝#104932 (30200 精简 破防 破招 无双)": {
                     "id": 104932,
                     "name": "岳鸿护腕·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2771,6 +3056,9 @@ EQUIPMENTS = {
                 "怒影护腕·明#104931 (30200 精简 会心 破招 无双)": {
                     "id": 104931,
                     "name": "怒影护腕·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2797,6 +3085,9 @@ EQUIPMENTS = {
                 "川涌护腕·觉#104930 (30200 精简 会心 破防 无双)": {
                     "id": 104930,
                     "name": "川涌护腕·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2823,6 +3114,9 @@ EQUIPMENTS = {
                 "山华护腕·引#104929 (30200 精简 破招 无双)": {
                     "id": 104929,
                     "name": "山华护腕·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2848,6 +3142,9 @@ EQUIPMENTS = {
                 "水逝护腕·破#104928 (30200 精简 破防 无双)": {
                     "id": 104928,
                     "name": "水逝护腕·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2873,6 +3170,9 @@ EQUIPMENTS = {
                 "云幻护腕·悟#104927 (30200 精简 会心 无双)": {
                     "id": 104927,
                     "name": "云幻护腕·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2898,6 +3198,9 @@ EQUIPMENTS = {
                 "风追护腕·尊#104926 (30200 精简 无双)": {
                     "id": 104926,
                     "name": "风追护腕·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -2924,6 +3227,9 @@ EQUIPMENTS = {
                 "一枕清宵#108667 (35300 精简 特效 加速 无双)": {
                     "id": 108667,
                     "name": "一枕清宵",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2951,6 +3257,9 @@ EQUIPMENTS = {
                 "轻舟兰楫#106948 (35300 精简 特效 破招)": {
                     "id": 106948,
                     "name": "轻舟兰楫",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -2977,6 +3286,9 @@ EQUIPMENTS = {
                 "西风吹雨#106947 (35300 精简 特效 破招 无双)": {
                     "id": 106947,
                     "name": "西风吹雨",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3004,6 +3316,9 @@ EQUIPMENTS = {
                 "紫凤衔花#106946 (35300 精简 特效 破防 无双)": {
                     "id": 106946,
                     "name": "紫凤衔花",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3031,6 +3346,9 @@ EQUIPMENTS = {
                 "露香尘#106945 (35300 精简 特效 会心 无双)": {
                     "id": 106945,
                     "name": "露香尘",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3058,6 +3376,9 @@ EQUIPMENTS = {
                 "九重霄汉#106944 (35300 精简 特效 会心 会效 无双)": {
                     "id": 106944,
                     "name": "九重霄汉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3086,6 +3407,9 @@ EQUIPMENTS = {
                 "云收雾敛#106943 (35300 精简 特效 会心 会效 破招)": {
                     "id": 106943,
                     "name": "云收雾敛",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3114,6 +3438,9 @@ EQUIPMENTS = {
                 "池鱼袖·迅#106942 (35300 精简 加速 无双)": {
                     "id": 106942,
                     "name": "池鱼袖·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3139,6 +3466,9 @@ EQUIPMENTS = {
                 "晓镜袖·绝#106941 (35300 精简 破防 破招 无双)": {
                     "id": 106941,
                     "name": "晓镜袖·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3165,6 +3495,9 @@ EQUIPMENTS = {
                 "烟玉袖·明#106940 (35300 精简 会心 破招 无双)": {
                     "id": 106940,
                     "name": "烟玉袖·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3191,6 +3524,9 @@ EQUIPMENTS = {
                 "新雨袖·觉#106939 (35300 精简 会心 破防 无双)": {
                     "id": 106939,
                     "name": "新雨袖·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3217,6 +3553,9 @@ EQUIPMENTS = {
                 "月湖袖·引#106938 (35300 精简 破招 无双)": {
                     "id": 106938,
                     "name": "月湖袖·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3242,6 +3581,9 @@ EQUIPMENTS = {
                 "渚清袖·破#106937 (35300 精简 破防 无双)": {
                     "id": 106937,
                     "name": "渚清袖·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3267,6 +3609,9 @@ EQUIPMENTS = {
                 "玉鸾袖·悟#106936 (35300 精简 会心 无双)": {
                     "id": 106936,
                     "name": "玉鸾袖·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3292,6 +3637,9 @@ EQUIPMENTS = {
                 "琼枝袖·尊#106935 (35300 精简 无双)": {
                     "id": 106935,
                     "name": "琼枝袖·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3316,6 +3664,9 @@ EQUIPMENTS = {
                 "霞波璨#104925 (30200 精简 特效 破招)": {
                     "id": 104925,
                     "name": "霞波璨",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3342,6 +3693,9 @@ EQUIPMENTS = {
                 "碎金鳞#104924 (30200 精简 特效 破招 无双)": {
                     "id": 104924,
                     "name": "碎金鳞",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3369,6 +3723,9 @@ EQUIPMENTS = {
                 "千秋事#104923 (30200 精简 特效 破防 无双)": {
                     "id": 104923,
                     "name": "千秋事",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3396,6 +3753,9 @@ EQUIPMENTS = {
                 "潮声叹#104922 (30200 精简 特效 会心 无双)": {
                     "id": 104922,
                     "name": "潮声叹",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3423,6 +3783,9 @@ EQUIPMENTS = {
                 "心自宽#104921 (30200 精简 特效 会心 会效 无双)": {
                     "id": 104921,
                     "name": "心自宽",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3451,6 +3814,9 @@ EQUIPMENTS = {
                 "浮生若#104920 (30200 精简 特效 会心 会效 破招)": {
                     "id": 104920,
                     "name": "浮生若",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3479,6 +3845,9 @@ EQUIPMENTS = {
                 "秋叠袖·迅#104919 (30200 精简 加速 无双)": {
                     "id": 104919,
                     "name": "秋叠袖·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3504,6 +3873,9 @@ EQUIPMENTS = {
                 "无哲袖·绝#104918 (30200 精简 破防 破招 无双)": {
                     "id": 104918,
                     "name": "无哲袖·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3530,6 +3902,9 @@ EQUIPMENTS = {
                 "云像袖·明#104917 (30200 精简 会心 破招 无双)": {
                     "id": 104917,
                     "name": "云像袖·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3556,6 +3931,9 @@ EQUIPMENTS = {
                 "北游袖·觉#104916 (30200 精简 会心 破防 无双)": {
                     "id": 104916,
                     "name": "北游袖·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3582,6 +3960,9 @@ EQUIPMENTS = {
                 "太和袖·引#104915 (30200 精简 破招 无双)": {
                     "id": 104915,
                     "name": "太和袖·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3607,6 +3988,9 @@ EQUIPMENTS = {
                 "至道袖·破#104914 (30200 精简 破防 无双)": {
                     "id": 104914,
                     "name": "至道袖·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3632,6 +4016,9 @@ EQUIPMENTS = {
                 "养吾袖·悟#104913 (30200 精简 会心 无双)": {
                     "id": 104913,
                     "name": "养吾袖·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3657,6 +4044,9 @@ EQUIPMENTS = {
                 "渊默袖·尊#104912 (30200 精简 无双)": {
                     "id": 104912,
                     "name": "渊默袖·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3683,6 +4073,9 @@ EQUIPMENTS = {
                 "承天固#107003 (35300 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 107003,
                     "name": "承天固",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3711,6 +4104,9 @@ EQUIPMENTS = {
                 "破锋御#107002 (35300 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 107002,
                     "name": "破锋御",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3740,6 +4136,9 @@ EQUIPMENTS = {
                 "御霜风#107001 (35300 精简 特效 内防 加速 破招 御劲 无双)": {
                     "id": 107001,
                     "name": "御霜风",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3768,6 +4167,9 @@ EQUIPMENTS = {
                 "磐涛护#107000 (35300 精简 特效 外防 加速 破招 御劲 无双)": {
                     "id": 107000,
                     "name": "磐涛护",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3797,6 +4199,9 @@ EQUIPMENTS = {
                 "锁南天#106630 (30200 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 106630,
                     "name": "锁南天",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3825,6 +4230,9 @@ EQUIPMENTS = {
                 "镇朔风#106629 (30200 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 106629,
                     "name": "镇朔风",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3854,6 +4262,9 @@ EQUIPMENTS = {
                 "破天关#106628 (30200 精简 特效 内防 御劲 无双)": {
                     "id": 106628,
                     "name": "破天关",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3880,6 +4291,9 @@ EQUIPMENTS = {
                 "界南北#106627 (30200 精简 特效 外防 御劲 无双)": {
                     "id": 106627,
                     "name": "界南北",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -3909,6 +4323,9 @@ EQUIPMENTS = {
                 "回春絮#106993 (35300 精简 特效)": {
                     "id": 106993,
                     "name": "回春絮",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3935,6 +4352,9 @@ EQUIPMENTS = {
                 "青囊语#106992 (35300 精简 特效 会心)": {
                     "id": 106992,
                     "name": "青囊语",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3962,6 +4382,9 @@ EQUIPMENTS = {
                 "润灵露#106991 (35300 精简 特效 加速)": {
                     "id": 106991,
                     "name": "润灵露",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -3989,6 +4412,9 @@ EQUIPMENTS = {
                 "散清烟#106620 (30200 精简 特效)": {
                     "id": 106620,
                     "name": "散清烟",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4015,6 +4441,9 @@ EQUIPMENTS = {
                 "夏山凉#106619 (30200 精简 特效 会心)": {
                     "id": 106619,
                     "name": "夏山凉",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4042,6 +4471,9 @@ EQUIPMENTS = {
                 "映星芒#106618 (30200 精简 特效 加速)": {
                     "id": 106618,
                     "name": "映星芒",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4073,6 +4505,9 @@ EQUIPMENTS = {
                 "牧川·牵傀护手#106700 (35300 破招 无双)": {
                     "id": 106700,
                     "name": "牧川·牵傀护手",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4117,6 +4552,9 @@ EQUIPMENTS = {
                 "天极·归帆护手#108608 (30200 破招 无双)": {
                     "id": 108608,
                     "name": "天极·归帆护手",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4161,6 +4599,9 @@ EQUIPMENTS = {
                 "缚罗护手#108654 (28000 会心 无双)": {
                     "id": 108654,
                     "name": "缚罗护手",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -4206,6 +4647,9 @@ EQUIPMENTS = {
                 "牧川·皑雪护手#106699 (35300 破招 无双)": {
                     "id": 106699,
                     "name": "牧川·皑雪护手",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4249,6 +4693,9 @@ EQUIPMENTS = {
                 "天极·云胜护手#104681 (30200 破招 无双)": {
                     "id": 104681,
                     "name": "天极·云胜护手",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4296,6 +4743,9 @@ EQUIPMENTS = {
                 "牧川·快秋护手#106698 (35300 破招 无双)": {
                     "id": 106698,
                     "name": "牧川·快秋护手",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4339,6 +4789,9 @@ EQUIPMENTS = {
                 "天极·意悠护手#104680 (30200 破招 无双)": {
                     "id": 104680,
                     "name": "天极·意悠护手",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4386,6 +4839,9 @@ EQUIPMENTS = {
                 "牧川·暝霭护手#106697 (35300 破招 无双)": {
                     "id": 106697,
                     "name": "牧川·暝霭护手",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4429,6 +4885,9 @@ EQUIPMENTS = {
                 "天极·斩妄护手#104679 (30200 破招 无双)": {
                     "id": 104679,
                     "name": "天极·斩妄护手",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4476,6 +4935,9 @@ EQUIPMENTS = {
                 "牧川·刀圭护手#106696 (35300 )": {
                     "id": 106696,
                     "name": "牧川·刀圭护手",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4516,6 +4978,9 @@ EQUIPMENTS = {
                 "天极·续木护手#104678 (30200 )": {
                     "id": 104678,
                     "name": "天极·续木护手",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4558,6 +5023,9 @@ EQUIPMENTS = {
                 "牧川·裁柳护手#106695 (35300 破招 无双)": {
                     "id": 106695,
                     "name": "牧川·裁柳护手",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4602,6 +5070,9 @@ EQUIPMENTS = {
                 "天极·悬丝护手#104677 (30200 破招 无双)": {
                     "id": 104677,
                     "name": "天极·悬丝护手",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4650,6 +5121,9 @@ EQUIPMENTS = {
                 "牧川·遣星护手#106694 (35300 破招 无双)": {
                     "id": 106694,
                     "name": "牧川·遣星护手",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4694,6 +5168,9 @@ EQUIPMENTS = {
                 "天极·符烬护手#104676 (30200 破招 无双)": {
                     "id": 104676,
                     "name": "天极·符烬护手",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4742,6 +5219,9 @@ EQUIPMENTS = {
                 "牧川·未叹护手#106693 (35300 破招 无双)": {
                     "id": 106693,
                     "name": "牧川·未叹护手",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4786,6 +5266,9 @@ EQUIPMENTS = {
                 "天极·藏名护手#104675 (30200 破招 无双)": {
                     "id": 104675,
                     "name": "天极·藏名护手",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4834,6 +5317,9 @@ EQUIPMENTS = {
                 "牧川·缥缈护手#106692 (35300 破招 无双)": {
                     "id": 106692,
                     "name": "牧川·缥缈护手",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4878,6 +5364,9 @@ EQUIPMENTS = {
                 "天极·裂海护手#104674 (30200 破招 无双)": {
                     "id": 104674,
                     "name": "天极·裂海护手",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -4926,6 +5415,9 @@ EQUIPMENTS = {
                 "牧川·锁钥护手#106691 (35300 破招 无双)": {
                     "id": 106691,
                     "name": "牧川·锁钥护手",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -4970,6 +5462,9 @@ EQUIPMENTS = {
                 "天极·雷壑护手#104673 (30200 破招 无双)": {
                     "id": 104673,
                     "name": "天极·雷壑护手",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5018,6 +5513,9 @@ EQUIPMENTS = {
                 "牧川·嘉名护手#106690 (35300 加速)": {
                     "id": 106690,
                     "name": "牧川·嘉名护手",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5060,6 +5558,9 @@ EQUIPMENTS = {
                 "天极·抚世护手#104672 (30200 加速)": {
                     "id": 104672,
                     "name": "天极·抚世护手",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5104,6 +5605,9 @@ EQUIPMENTS = {
                 "牧川·独声护手#106689 (35300 破招 无双)": {
                     "id": 106689,
                     "name": "牧川·独声护手",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5148,6 +5652,9 @@ EQUIPMENTS = {
                 "天极·叹古护手#104671 (30200 破招 无双)": {
                     "id": 104671,
                     "name": "天极·叹古护手",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5196,6 +5703,9 @@ EQUIPMENTS = {
                 "牧川·仞横护手#106688 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106688,
                     "name": "牧川·仞横护手",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5239,6 +5749,9 @@ EQUIPMENTS = {
                 "天极·铸铁护手#104670 (30200 外防 御劲 无双)": {
                     "id": 104670,
                     "name": "天极·铸铁护手",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5282,6 +5795,9 @@ EQUIPMENTS = {
                 "牧川·秋塞护手#106687 (35300 破招 无双)": {
                     "id": 106687,
                     "name": "牧川·秋塞护手",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5326,6 +5842,9 @@ EQUIPMENTS = {
                 "天极·风旗护手#104669 (30200 破招 无双)": {
                     "id": 104669,
                     "name": "天极·风旗护手",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5374,6 +5893,9 @@ EQUIPMENTS = {
                 "牧川·长燃护手#106686 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106686,
                     "name": "牧川·长燃护手",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5417,6 +5939,9 @@ EQUIPMENTS = {
                 "天极·燃浊护手#104668 (30200 外防 御劲 无双)": {
                     "id": 104668,
                     "name": "天极·燃浊护手",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5460,6 +5985,9 @@ EQUIPMENTS = {
                 "牧川·明沙护手#106685 (35300 破招 无双)": {
                     "id": 106685,
                     "name": "牧川·明沙护手",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5503,6 +6031,9 @@ EQUIPMENTS = {
                 "天极·月刃护手#104667 (30200 破招 无双)": {
                     "id": 104667,
                     "name": "天极·月刃护手",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5550,6 +6081,9 @@ EQUIPMENTS = {
                 "牧川·腾泽护手#106684 (35300 破招 无双)": {
                     "id": 106684,
                     "name": "牧川·腾泽护手",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5593,6 +6127,9 @@ EQUIPMENTS = {
                 "天极·醉云护手#104666 (30200 破招 无双)": {
                     "id": 104666,
                     "name": "天极·醉云护手",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5640,6 +6177,9 @@ EQUIPMENTS = {
                 "牧川·拂梅护手#106683 (35300 破招 无双)": {
                     "id": 106683,
                     "name": "牧川·拂梅护手",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5683,6 +6223,9 @@ EQUIPMENTS = {
                 "天极·听荷护手#104665 (30200 破招 无双)": {
                     "id": 104665,
                     "name": "天极·听荷护手",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5730,6 +6273,9 @@ EQUIPMENTS = {
                 "牧川·破雾护手#106682 (35300 破招 无双)": {
                     "id": 106682,
                     "name": "牧川·破雾护手",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5774,6 +6320,9 @@ EQUIPMENTS = {
                 "天极·隐机护手#104664 (30200 破招 无双)": {
                     "id": 104664,
                     "name": "天极·隐机护手",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5820,6 +6369,9 @@ EQUIPMENTS = {
                 "牧川·振羽护手#106681 (35300 破招 无双)": {
                     "id": 106681,
                     "name": "牧川·振羽护手",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5864,6 +6416,9 @@ EQUIPMENTS = {
                 "天极·锁幽护手#104663 (30200 破招 无双)": {
                     "id": 104663,
                     "name": "天极·锁幽护手",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5912,6 +6467,9 @@ EQUIPMENTS = {
                 "牧川·织天护手#106680 (35300 )": {
                     "id": 106680,
                     "name": "牧川·织天护手",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -5952,6 +6510,9 @@ EQUIPMENTS = {
                 "天极·引魂护手#104662 (30200 )": {
                     "id": 104662,
                     "name": "天极·引魂护手",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -5994,6 +6555,9 @@ EQUIPMENTS = {
                 "牧川·噬梦护手#106679 (35300 破招 无双)": {
                     "id": 106679,
                     "name": "牧川·噬梦护手",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6038,6 +6602,9 @@ EQUIPMENTS = {
                 "天极·缠心护手#104661 (30200 破招 无双)": {
                     "id": 104661,
                     "name": "天极·缠心护手",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6086,6 +6653,9 @@ EQUIPMENTS = {
                 "牧川·裳影护手#106678 (35300 )": {
                     "id": 106678,
                     "name": "牧川·裳影护手",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6126,6 +6696,9 @@ EQUIPMENTS = {
                 "天极·转莲护手#104660 (30200 )": {
                     "id": 104660,
                     "name": "天极·转莲护手",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6168,6 +6741,9 @@ EQUIPMENTS = {
                 "牧川·澄江护手#106677 (35300 破招 无双)": {
                     "id": 106677,
                     "name": "牧川·澄江护手",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6211,6 +6787,9 @@ EQUIPMENTS = {
                 "天极·独明护手#104659 (30200 破招 无双)": {
                     "id": 104659,
                     "name": "天极·独明护手",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6258,6 +6837,9 @@ EQUIPMENTS = {
                 "牧川·澄泓护手#106676 (35300 破招 无双)": {
                     "id": 106676,
                     "name": "牧川·澄泓护手",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6301,6 +6883,9 @@ EQUIPMENTS = {
                 "天极·忘归护手#104658 (30200 破招 无双)": {
                     "id": 104658,
                     "name": "天极·忘归护手",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6346,6 +6931,9 @@ EQUIPMENTS = {
                 "牧川·观潭护手#106675 (35300 破招 无双)": {
                     "id": 106675,
                     "name": "牧川·观潭护手",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6390,6 +6978,9 @@ EQUIPMENTS = {
                 "天极·截云护手#104657 (30200 破招 无双)": {
                     "id": 104657,
                     "name": "天极·截云护手",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6438,6 +7029,9 @@ EQUIPMENTS = {
                 "牧川·千山护手#106674 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106674,
                     "name": "牧川·千山护手",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6481,6 +7075,9 @@ EQUIPMENTS = {
                 "天极·截岳护手#104656 (30200 外防 御劲 无双)": {
                     "id": 104656,
                     "name": "天极·截岳护手",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6524,6 +7121,9 @@ EQUIPMENTS = {
                 "牧川·餐虏护手#106673 (35300 破招 无双)": {
                     "id": 106673,
                     "name": "牧川·餐虏护手",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6567,6 +7167,9 @@ EQUIPMENTS = {
                 "天极·血旌护手#104655 (30200 破招 无双)": {
                     "id": 104655,
                     "name": "天极·血旌护手",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6614,6 +7217,9 @@ EQUIPMENTS = {
                 "牧川·春燕护手#106672 (35300 会心)": {
                     "id": 106672,
                     "name": "牧川·春燕护手",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6655,6 +7261,9 @@ EQUIPMENTS = {
                 "天极·清画护手#104654 (30200 会心)": {
                     "id": 104654,
                     "name": "天极·清画护手",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6698,6 +7307,9 @@ EQUIPMENTS = {
                 "牧川·夜茗护手#106671 (35300 破招 无双)": {
                     "id": 106671,
                     "name": "牧川·夜茗护手",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6742,6 +7354,9 @@ EQUIPMENTS = {
                 "天极·砚书护手#104653 (30200 破招 无双)": {
                     "id": 104653,
                     "name": "天极·砚书护手",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6790,6 +7405,9 @@ EQUIPMENTS = {
                 "牧川·斥魔护手#106670 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106670,
                     "name": "牧川·斥魔护手",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6833,6 +7451,9 @@ EQUIPMENTS = {
                 "天极·梵劫护手#104652 (30200 内防 御劲 无双)": {
                     "id": 104652,
                     "name": "天极·梵劫护手",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6876,6 +7497,9 @@ EQUIPMENTS = {
                 "牧川·真宇护手#106669 (35300 破招 无双)": {
                     "id": 106669,
                     "name": "牧川·真宇护手",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -6920,6 +7544,9 @@ EQUIPMENTS = {
                 "天极·怒相护手#104651 (30200 破招 无双)": {
                     "id": 104651,
                     "name": "天极·怒相护手",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "wrist",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -6970,6 +7597,9 @@ EQUIPMENTS = {
                 "江瀚靴#107029 (35900 外防 加速 破招 御劲 无双)": {
                     "id": 107029,
                     "name": "江瀚靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -7011,6 +7641,9 @@ EQUIPMENTS = {
                 "长关靴#107131 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 107131,
                     "name": "长关靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7037,6 +7670,9 @@ EQUIPMENTS = {
                 "穹石靴#106882 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106882,
                     "name": "穹石靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7064,6 +7700,9 @@ EQUIPMENTS = {
                 "洪涌靴#106846 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106846,
                     "name": "洪涌靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7090,6 +7729,9 @@ EQUIPMENTS = {
                 "月钟履#104985 (30700 外防 御劲 无双)": {
                     "id": 104985,
                     "name": "月钟履",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -7129,6 +7771,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏靴#108235 (30200 外防 加速 破招 御劲 无双)": {
                     "id": 108235,
                     "name": "孤城惊梦·昂藏靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7155,6 +7800,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·横关靴#106656 (30200 外防 加速 破招 御劲 无双)": {
                     "id": 106656,
                     "name": "寻踪觅宝·横关靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7199,6 +7847,9 @@ EQUIPMENTS = {
                 "坠欢靴#105087 (30200 外防 御劲 无双)": {
                     "id": 105087,
                     "name": "坠欢靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7223,6 +7874,9 @@ EQUIPMENTS = {
                 "登科鞋#104859 (30200 内防 御劲 无双)": {
                     "id": 104859,
                     "name": "登科鞋",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7248,6 +7902,9 @@ EQUIPMENTS = {
                 "三元靴#104823 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104823,
                     "name": "三元靴",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7276,6 +7933,9 @@ EQUIPMENTS = {
                 "江流靴#107028 (35900 会心)": {
                     "id": 107028,
                     "name": "江流靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -7316,6 +7976,9 @@ EQUIPMENTS = {
                 "长溪靴#107130 (35300 加速)": {
                     "id": 107130,
                     "name": "长溪靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7341,6 +8004,9 @@ EQUIPMENTS = {
                 "仁心靴#106881 (35300 会心)": {
                     "id": 106881,
                     "name": "仁心靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7366,6 +8032,9 @@ EQUIPMENTS = {
                 "拂煦靴#106845 (35300 )": {
                     "id": 106845,
                     "name": "拂煦靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7390,6 +8059,9 @@ EQUIPMENTS = {
                 "月柳履#104984 (30700 会心)": {
                     "id": 104984,
                     "name": "月柳履",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -7430,6 +8102,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥靴#108234 (30200 加速)": {
                     "id": 108234,
                     "name": "孤城惊梦·青泥靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7455,6 +8130,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·妙意靴#106655 (30200 )": {
                     "id": 106655,
                     "name": "寻踪觅宝·妙意靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7497,6 +8175,9 @@ EQUIPMENTS = {
                 "坠月靴#105086 (30200 加速)": {
                     "id": 105086,
                     "name": "坠月靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7522,6 +8203,9 @@ EQUIPMENTS = {
                 "折桂鞋#104858 (30200 会心)": {
                     "id": 104858,
                     "name": "折桂鞋",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7547,6 +8231,9 @@ EQUIPMENTS = {
                 "风檐靴#104822 (30200 )": {
                     "id": 104822,
                     "name": "风檐靴",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7573,6 +8260,9 @@ EQUIPMENTS = {
                 "江舟靴#107027 (35900 破招 无双)": {
                     "id": 107027,
                     "name": "江舟靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -7614,6 +8304,9 @@ EQUIPMENTS = {
                 "蒙鸠靴#107129 (35300 会心 无双)": {
                     "id": 107129,
                     "name": "蒙鸠靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7640,6 +8333,9 @@ EQUIPMENTS = {
                 "晚风靴#106880 (35300 会心 无双)": {
                     "id": 106880,
                     "name": "晚风靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7666,6 +8362,9 @@ EQUIPMENTS = {
                 "天风靴#106844 (35300 加速 无双)": {
                     "id": 106844,
                     "name": "天风靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7692,6 +8391,9 @@ EQUIPMENTS = {
                 "月霭履#104983 (30700 破招 无双)": {
                     "id": 104983,
                     "name": "月霭履",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -7733,6 +8435,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟靴#108233 (30200 会心 无双)": {
                     "id": 108233,
                     "name": "孤城惊梦·迷烟靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7759,6 +8464,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·逸群靴#106654 (30200 会心 无双)": {
                     "id": 106654,
                     "name": "寻踪觅宝·逸群靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7803,6 +8511,9 @@ EQUIPMENTS = {
                 "坠红靴#105085 (30200 会心 无双)": {
                     "id": 105085,
                     "name": "坠红靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7829,6 +8540,9 @@ EQUIPMENTS = {
                 "标雁鞋#104857 (30200 会心 无双)": {
                     "id": 104857,
                     "name": "标雁鞋",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7855,6 +8569,9 @@ EQUIPMENTS = {
                 "问殿靴#104821 (30200 加速 无双)": {
                     "id": 104821,
                     "name": "问殿靴",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -7883,6 +8600,9 @@ EQUIPMENTS = {
                 "江涛靴#107026 (35900 破招 无双)": {
                     "id": 107026,
                     "name": "江涛靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -7924,6 +8644,9 @@ EQUIPMENTS = {
                 "长山靴#107128 (35300 会心 无双)": {
                     "id": 107128,
                     "name": "长山靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7950,6 +8673,9 @@ EQUIPMENTS = {
                 "震烁靴#106879 (35300 会心 无双)": {
                     "id": 106879,
                     "name": "震烁靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -7976,6 +8702,9 @@ EQUIPMENTS = {
                 "断霄靴#106843 (35300 加速 无双)": {
                     "id": 106843,
                     "name": "断霄靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8002,6 +8731,9 @@ EQUIPMENTS = {
                 "月溪履#104982 (30700 破招 无双)": {
                     "id": 104982,
                     "name": "月溪履",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -8043,6 +8775,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河靴#108232 (30200 会心 无双)": {
                     "id": 108232,
                     "name": "孤城惊梦·浊河靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8069,6 +8804,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·遒劲靴#106653 (30200 会心 无双)": {
                     "id": 106653,
                     "name": "寻踪觅宝·遒劲靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8113,6 +8851,9 @@ EQUIPMENTS = {
                 "坠雨靴#105084 (30200 会心 无双)": {
                     "id": 105084,
                     "name": "坠雨靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8139,6 +8880,9 @@ EQUIPMENTS = {
                 "寒窗鞋#104856 (30200 会心 无双)": {
                     "id": 104856,
                     "name": "寒窗鞋",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8165,6 +8909,9 @@ EQUIPMENTS = {
                 "礼闱靴#104820 (30200 加速 无双)": {
                     "id": 104820,
                     "name": "礼闱靴",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8193,6 +8940,9 @@ EQUIPMENTS = {
                 "江横靴#107025 (35900 破招 无双)": {
                     "id": 107025,
                     "name": "江横靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -8234,6 +8984,9 @@ EQUIPMENTS = {
                 "长日靴#107127 (35300 会心 无双)": {
                     "id": 107127,
                     "name": "长日靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8260,6 +9013,9 @@ EQUIPMENTS = {
                 "河汉靴#106878 (35300 会心 无双)": {
                     "id": 106878,
                     "name": "河汉靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8286,6 +9042,9 @@ EQUIPMENTS = {
                 "骀荡靴#106842 (35300 加速 无双)": {
                     "id": 106842,
                     "name": "骀荡靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8312,6 +9071,9 @@ EQUIPMENTS = {
                 "月声履#104981 (30700 破招 无双)": {
                     "id": 104981,
                     "name": "月声履",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -8353,6 +9115,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡靴#108231 (30200 会心 无双)": {
                     "id": 108231,
                     "name": "孤城惊梦·萦纡靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8379,6 +9144,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·沛然靴#106652 (30200 会心 无双)": {
                     "id": 106652,
                     "name": "寻踪觅宝·沛然靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8423,6 +9191,9 @@ EQUIPMENTS = {
                 "坠露靴#105083 (30200 会心 无双)": {
                     "id": 105083,
                     "name": "坠露靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8449,6 +9220,9 @@ EQUIPMENTS = {
                 "云路鞋#104855 (30200 会心 无双)": {
                     "id": 104855,
                     "name": "云路鞋",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8475,6 +9249,9 @@ EQUIPMENTS = {
                 "封名靴#104819 (30200 加速 无双)": {
                     "id": 104819,
                     "name": "封名靴",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8503,6 +9280,9 @@ EQUIPMENTS = {
                 "江离靴#107024 (35900 破招 无双)": {
                     "id": 107024,
                     "name": "江离靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -8544,6 +9324,9 @@ EQUIPMENTS = {
                 "长留靴#107126 (35300 会心 无双)": {
                     "id": 107126,
                     "name": "长留靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8570,6 +9353,9 @@ EQUIPMENTS = {
                 "椒丘靴#106877 (35300 会心 无双)": {
                     "id": 106877,
                     "name": "椒丘靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8596,6 +9382,9 @@ EQUIPMENTS = {
                 "香丹靴#106841 (35300 加速 无双)": {
                     "id": 106841,
                     "name": "香丹靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8622,6 +9411,9 @@ EQUIPMENTS = {
                 "月涛履#104980 (30700 破招 无双)": {
                     "id": 104980,
                     "name": "月涛履",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -8663,6 +9455,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏靴#108230 (30200 会心 无双)": {
                     "id": 108230,
                     "name": "孤城惊梦·萧疏靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8689,6 +9484,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·绵邈靴#106651 (30200 会心 无双)": {
                     "id": 106651,
                     "name": "寻踪觅宝·绵邈靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8733,6 +9531,9 @@ EQUIPMENTS = {
                 "坠潮靴#105082 (30200 会心 无双)": {
                     "id": 105082,
                     "name": "坠潮靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8759,6 +9560,9 @@ EQUIPMENTS = {
                 "文曲鞋#104854 (30200 会心 无双)": {
                     "id": 104854,
                     "name": "文曲鞋",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8785,6 +9589,9 @@ EQUIPMENTS = {
                 "论策靴#104818 (30200 加速 无双)": {
                     "id": 104818,
                     "name": "论策靴",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -8815,6 +9622,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107113 (35300 精简 特效 会心 会效 无双)": {
                     "id": 107113,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8843,6 +9653,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107112 (35300 精简 特效 破招 无双)": {
                     "id": 107112,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8870,6 +9683,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107111 (35300 精简 特效 破防 无双)": {
                     "id": 107111,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8897,6 +9713,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107089 (35300 精简 特效 会心 会效 无双)": {
                     "id": 107089,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8925,6 +9744,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107088 (35300 精简 特效 破招 无双)": {
                     "id": 107088,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8952,6 +9774,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107087 (35300 精简 特效 破防 无双)": {
                     "id": 107087,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -8979,6 +9804,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107101 (32500 精简 特效 会心 破招 无双)": {
                     "id": 107101,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9007,6 +9835,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107100 (32500 精简 特效 破防 无双)": {
                     "id": 107100,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9034,6 +9865,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107099 (32500 精简 特效 无双)": {
                     "id": 107099,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9060,6 +9894,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107077 (32500 精简 特效 会心 破招 无双)": {
                     "id": 107077,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9088,6 +9925,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107076 (32500 精简 特效 破防 无双)": {
                     "id": 107076,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9115,6 +9955,9 @@ EQUIPMENTS = {
                 "无修鞋·外·地#107075 (32500 精简 特效 无双)": {
                     "id": 107075,
                     "name": "无修鞋·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9141,6 +9984,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105069 (30200 精简 特效 破防 破招 无双)": {
                     "id": 105069,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9169,6 +10015,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105068 (30200 精简 特效 会心 破防 无双)": {
                     "id": 105068,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9197,6 +10046,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105067 (30200 精简 特效 会心 无双)": {
                     "id": 105067,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9224,6 +10076,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105045 (30200 精简 特效 破防 破招 无双)": {
                     "id": 105045,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9252,6 +10107,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105044 (30200 精简 特效 会心 破防 无双)": {
                     "id": 105044,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9280,6 +10138,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105043 (30200 精简 特效 会心 无双)": {
                     "id": 105043,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9307,6 +10168,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105057 (28000 精简 特效 会心 会效 无双)": {
                     "id": 105057,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9335,6 +10199,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105056 (28000 精简 特效 破招 无双)": {
                     "id": 105056,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9362,6 +10229,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105055 (28000 精简 特效 破防 无双)": {
                     "id": 105055,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9389,6 +10259,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105033 (28000 精简 特效 会心 会效 无双)": {
                     "id": 105033,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9417,6 +10290,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105032 (28000 精简 特效 破招 无双)": {
                     "id": 105032,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9444,6 +10320,9 @@ EQUIPMENTS = {
                 "无修鞋·外·玄#105031 (28000 精简 特效 破防 无双)": {
                     "id": 105031,
                     "name": "无修鞋·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9473,6 +10352,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107110 (35300 精简 特效 会心 会效 无双)": {
                     "id": 107110,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -9501,6 +10383,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107109 (35300 精简 特效 破招 无双)": {
                     "id": 107109,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -9528,6 +10413,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107108 (35300 精简 特效 破防 无双)": {
                     "id": 107108,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -9555,6 +10443,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107086 (35300 精简 特效 会心 会效 无双)": {
                     "id": 107086,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -9583,6 +10474,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107085 (35300 精简 特效 破招 无双)": {
                     "id": 107085,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -9610,6 +10504,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107084 (35300 精简 特效 破防 无双)": {
                     "id": 107084,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -9637,6 +10534,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107098 (32500 精简 特效 会心 破招 无双)": {
                     "id": 107098,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9665,6 +10565,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107097 (32500 精简 特效 破防 无双)": {
                     "id": 107097,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9692,6 +10595,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107096 (32500 精简 特效 无双)": {
                     "id": 107096,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9718,6 +10624,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107074 (32500 精简 特效 会心 破招 无双)": {
                     "id": 107074,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9746,6 +10655,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107073 (32500 精简 特效 破防 无双)": {
                     "id": 107073,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9773,6 +10685,9 @@ EQUIPMENTS = {
                 "无修鞋·内·地#107072 (32500 精简 特效 无双)": {
                     "id": 107072,
                     "name": "无修鞋·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 32500,
                     "score": 40950,
                     "max_strength": 6,
@@ -9799,6 +10714,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105066 (30200 精简 特效 破防 破招 无双)": {
                     "id": 105066,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9827,6 +10745,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105065 (30200 精简 特效 会心 破防 无双)": {
                     "id": 105065,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9855,6 +10776,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105064 (30200 精简 特效 会心 无双)": {
                     "id": 105064,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9882,6 +10806,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105042 (30200 精简 特效 破防 破招 无双)": {
                     "id": 105042,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9910,6 +10837,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105041 (30200 精简 特效 会心 破防 无双)": {
                     "id": 105041,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9938,6 +10868,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105040 (30200 精简 特效 会心 无双)": {
                     "id": 105040,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -9965,6 +10898,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105054 (28000 精简 特效 会心 会效 无双)": {
                     "id": 105054,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -9993,6 +10929,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105053 (28000 精简 特效 破招 无双)": {
                     "id": 105053,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -10020,6 +10959,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105052 (28000 精简 特效 破防 无双)": {
                     "id": 105052,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -10047,6 +10989,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105030 (28000 精简 特效 会心 会效 无双)": {
                     "id": 105030,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -10075,6 +11020,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105029 (28000 精简 特效 破招 无双)": {
                     "id": 105029,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -10102,6 +11050,9 @@ EQUIPMENTS = {
                 "无修鞋·内·玄#105028 (28000 精简 特效 破防 无双)": {
                     "id": 105028,
                     "name": "无修鞋·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -10133,6 +11084,9 @@ EQUIPMENTS = {
                 "牧川·牵傀靴#106764 (35300 破防 无双)": {
                     "id": 106764,
                     "name": "牧川·牵傀靴",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10177,6 +11131,9 @@ EQUIPMENTS = {
                 "天极·归帆靴#108610 (30200 破防 无双)": {
                     "id": 108610,
                     "name": "天极·归帆靴",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10221,6 +11178,9 @@ EQUIPMENTS = {
                 "缚罗鞋#108656 (28000 破招 无双)": {
                     "id": 108656,
                     "name": "缚罗鞋",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -10266,6 +11226,9 @@ EQUIPMENTS = {
                 "牧川·皑雪靴#106763 (35300 破防 无双)": {
                     "id": 106763,
                     "name": "牧川·皑雪靴",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10309,6 +11272,9 @@ EQUIPMENTS = {
                 "天极·云胜靴#104743 (30200 破防 无双)": {
                     "id": 104743,
                     "name": "天极·云胜靴",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10356,6 +11322,9 @@ EQUIPMENTS = {
                 "牧川·快秋靴#106762 (35300 破防 无双)": {
                     "id": 106762,
                     "name": "牧川·快秋靴",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10399,6 +11368,9 @@ EQUIPMENTS = {
                 "天极·意悠靴#104742 (30200 破防 无双)": {
                     "id": 104742,
                     "name": "天极·意悠靴",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10446,6 +11418,9 @@ EQUIPMENTS = {
                 "牧川·暝霭靴#106761 (35300 破防 无双)": {
                     "id": 106761,
                     "name": "牧川·暝霭靴",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10489,6 +11464,9 @@ EQUIPMENTS = {
                 "天极·斩妄靴#104741 (30200 破防 无双)": {
                     "id": 104741,
                     "name": "天极·斩妄靴",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10536,6 +11514,9 @@ EQUIPMENTS = {
                 "牧川·刀圭靴#106760 (35300 加速)": {
                     "id": 106760,
                     "name": "牧川·刀圭靴",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10577,6 +11558,9 @@ EQUIPMENTS = {
                 "天极·续木靴#104740 (30200 加速)": {
                     "id": 104740,
                     "name": "天极·续木靴",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10620,6 +11604,9 @@ EQUIPMENTS = {
                 "牧川·裁柳靴#106759 (35300 破防 无双)": {
                     "id": 106759,
                     "name": "牧川·裁柳靴",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10664,6 +11651,9 @@ EQUIPMENTS = {
                 "天极·悬丝靴#104739 (30200 破防 无双)": {
                     "id": 104739,
                     "name": "天极·悬丝靴",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10712,6 +11702,9 @@ EQUIPMENTS = {
                 "牧川·遣星靴#106758 (35300 破防 无双)": {
                     "id": 106758,
                     "name": "牧川·遣星靴",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10756,6 +11749,9 @@ EQUIPMENTS = {
                 "天极·符烬靴#104738 (30200 破防 无双)": {
                     "id": 104738,
                     "name": "天极·符烬靴",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10804,6 +11800,9 @@ EQUIPMENTS = {
                 "牧川·未叹靴#106757 (35300 破防 无双)": {
                     "id": 106757,
                     "name": "牧川·未叹靴",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10848,6 +11847,9 @@ EQUIPMENTS = {
                 "天极·藏名靴#104737 (30200 破防 无双)": {
                     "id": 104737,
                     "name": "天极·藏名靴",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10896,6 +11898,9 @@ EQUIPMENTS = {
                 "牧川·缥缈靴#106756 (35300 破防 无双)": {
                     "id": 106756,
                     "name": "牧川·缥缈靴",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -10940,6 +11945,9 @@ EQUIPMENTS = {
                 "天极·裂海靴#104736 (30200 破防 无双)": {
                     "id": 104736,
                     "name": "天极·裂海靴",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -10988,6 +11996,9 @@ EQUIPMENTS = {
                 "牧川·锁钥靴#106755 (35300 破防 无双)": {
                     "id": 106755,
                     "name": "牧川·锁钥靴",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11032,6 +12043,9 @@ EQUIPMENTS = {
                 "天极·雷壑靴#104735 (30200 破防 无双)": {
                     "id": 104735,
                     "name": "天极·雷壑靴",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11080,6 +12094,9 @@ EQUIPMENTS = {
                 "牧川·嘉名靴#106754 (35300 加速)": {
                     "id": 106754,
                     "name": "牧川·嘉名靴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11122,6 +12139,9 @@ EQUIPMENTS = {
                 "天极·抚世靴#104734 (30200 加速)": {
                     "id": 104734,
                     "name": "天极·抚世靴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11166,6 +12186,9 @@ EQUIPMENTS = {
                 "牧川·独声靴#106753 (35300 破防 无双)": {
                     "id": 106753,
                     "name": "牧川·独声靴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11210,6 +12233,9 @@ EQUIPMENTS = {
                 "天极·叹古靴#104733 (30200 破防 无双)": {
                     "id": 104733,
                     "name": "天极·叹古靴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11258,6 +12284,9 @@ EQUIPMENTS = {
                 "牧川·仞横靴#106752 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106752,
                     "name": "牧川·仞横靴",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11301,6 +12330,9 @@ EQUIPMENTS = {
                 "天极·铸铁靴#104732 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104732,
                     "name": "天极·铸铁靴",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11346,6 +12378,9 @@ EQUIPMENTS = {
                 "牧川·秋塞靴#106751 (35300 破防 无双)": {
                     "id": 106751,
                     "name": "牧川·秋塞靴",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11390,6 +12425,9 @@ EQUIPMENTS = {
                 "天极·风旗靴#104731 (30200 破防 无双)": {
                     "id": 104731,
                     "name": "天极·风旗靴",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11438,6 +12476,9 @@ EQUIPMENTS = {
                 "牧川·长燃靴#106750 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106750,
                     "name": "牧川·长燃靴",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11481,6 +12522,9 @@ EQUIPMENTS = {
                 "天极·燃浊靴#104730 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104730,
                     "name": "天极·燃浊靴",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11526,6 +12570,9 @@ EQUIPMENTS = {
                 "牧川·明沙靴#106749 (35300 破防 无双)": {
                     "id": 106749,
                     "name": "牧川·明沙靴",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11569,6 +12616,9 @@ EQUIPMENTS = {
                 "天极·月刃靴#104729 (30200 破防 无双)": {
                     "id": 104729,
                     "name": "天极·月刃靴",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11616,6 +12666,9 @@ EQUIPMENTS = {
                 "牧川·腾泽靴#106748 (35300 破防 无双)": {
                     "id": 106748,
                     "name": "牧川·腾泽靴",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11659,6 +12712,9 @@ EQUIPMENTS = {
                 "天极·醉云靴#104728 (30200 破防 无双)": {
                     "id": 104728,
                     "name": "天极·醉云靴",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11706,6 +12762,9 @@ EQUIPMENTS = {
                 "牧川·拂梅靴#106747 (35300 破防 无双)": {
                     "id": 106747,
                     "name": "牧川·拂梅靴",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11749,6 +12808,9 @@ EQUIPMENTS = {
                 "天极·听荷靴#104727 (30200 破防 无双)": {
                     "id": 104727,
                     "name": "天极·听荷靴",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11796,6 +12858,9 @@ EQUIPMENTS = {
                 "牧川·破雾靴#106746 (35300 破防 无双)": {
                     "id": 106746,
                     "name": "牧川·破雾靴",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11840,6 +12905,9 @@ EQUIPMENTS = {
                 "天极·隐机靴#104726 (30200 破防 无双)": {
                     "id": 104726,
                     "name": "天极·隐机靴",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11886,6 +12954,9 @@ EQUIPMENTS = {
                 "牧川·振羽靴#106745 (35300 破防 无双)": {
                     "id": 106745,
                     "name": "牧川·振羽靴",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -11930,6 +13001,9 @@ EQUIPMENTS = {
                 "天极·锁幽靴#104725 (30200 破防 无双)": {
                     "id": 104725,
                     "name": "天极·锁幽靴",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -11978,6 +13052,9 @@ EQUIPMENTS = {
                 "牧川·织天靴#106744 (35300 加速)": {
                     "id": 106744,
                     "name": "牧川·织天靴",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12019,6 +13096,9 @@ EQUIPMENTS = {
                 "天极·引魂靴#104724 (30200 加速)": {
                     "id": 104724,
                     "name": "天极·引魂靴",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12062,6 +13142,9 @@ EQUIPMENTS = {
                 "牧川·噬梦靴#106743 (35300 破防 无双)": {
                     "id": 106743,
                     "name": "牧川·噬梦靴",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12106,6 +13189,9 @@ EQUIPMENTS = {
                 "天极·缠心靴#104723 (30200 破防 无双)": {
                     "id": 104723,
                     "name": "天极·缠心靴",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12154,6 +13240,9 @@ EQUIPMENTS = {
                 "牧川·裳影靴#106742 (35300 加速)": {
                     "id": 106742,
                     "name": "牧川·裳影靴",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12195,6 +13284,9 @@ EQUIPMENTS = {
                 "天极·转莲靴#104722 (30200 加速)": {
                     "id": 104722,
                     "name": "天极·转莲靴",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12238,6 +13330,9 @@ EQUIPMENTS = {
                 "牧川·澄江靴#106741 (35300 破防 无双)": {
                     "id": 106741,
                     "name": "牧川·澄江靴",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12281,6 +13376,9 @@ EQUIPMENTS = {
                 "天极·独明靴#104721 (30200 破防 无双)": {
                     "id": 104721,
                     "name": "天极·独明靴",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12328,6 +13426,9 @@ EQUIPMENTS = {
                 "牧川·澄泓靴#106740 (35300 破防 无双)": {
                     "id": 106740,
                     "name": "牧川·澄泓靴",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12371,6 +13472,9 @@ EQUIPMENTS = {
                 "天极·忘归靴#104720 (30200 破防 无双)": {
                     "id": 104720,
                     "name": "天极·忘归靴",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12416,6 +13520,9 @@ EQUIPMENTS = {
                 "牧川·观潭靴#106739 (35300 破防 无双)": {
                     "id": 106739,
                     "name": "牧川·观潭靴",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12460,6 +13567,9 @@ EQUIPMENTS = {
                 "天极·截云靴#104719 (30200 破防 无双)": {
                     "id": 104719,
                     "name": "天极·截云靴",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12508,6 +13618,9 @@ EQUIPMENTS = {
                 "牧川·千山靴#106738 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106738,
                     "name": "牧川·千山靴",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12551,6 +13664,9 @@ EQUIPMENTS = {
                 "天极·截岳靴#104718 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104718,
                     "name": "天极·截岳靴",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12596,6 +13712,9 @@ EQUIPMENTS = {
                 "牧川·餐虏靴#106737 (35300 破防 无双)": {
                     "id": 106737,
                     "name": "牧川·餐虏靴",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12639,6 +13758,9 @@ EQUIPMENTS = {
                 "天极·血旌靴#104717 (30200 破防 无双)": {
                     "id": 104717,
                     "name": "天极·血旌靴",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12686,6 +13808,9 @@ EQUIPMENTS = {
                 "牧川·春燕靴#106736 (35300 加速)": {
                     "id": 106736,
                     "name": "牧川·春燕靴",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12727,6 +13852,9 @@ EQUIPMENTS = {
                 "天极·清画靴#104716 (30200 加速)": {
                     "id": 104716,
                     "name": "天极·清画靴",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12770,6 +13898,9 @@ EQUIPMENTS = {
                 "牧川·夜茗靴#106735 (35300 破防 无双)": {
                     "id": 106735,
                     "name": "牧川·夜茗靴",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12814,6 +13945,9 @@ EQUIPMENTS = {
                 "天极·砚书靴#104715 (30200 破防 无双)": {
                     "id": 104715,
                     "name": "天极·砚书靴",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12862,6 +13996,9 @@ EQUIPMENTS = {
                 "牧川·斥魔靴#106734 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106734,
                     "name": "牧川·斥魔靴",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12906,6 +14043,9 @@ EQUIPMENTS = {
                 "天极·梵劫靴#104714 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104714,
                     "name": "天极·梵劫靴",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -12952,6 +14092,9 @@ EQUIPMENTS = {
                 "牧川·真宇靴#106733 (35300 破防 无双)": {
                     "id": 106733,
                     "name": "牧川·真宇靴",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -12996,6 +14139,9 @@ EQUIPMENTS = {
                 "天极·怒相靴#104713 (30200 破防 无双)": {
                     "id": 104713,
                     "name": "天极·怒相靴",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "shoes",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -13046,6 +14192,9 @@ EQUIPMENTS = {
                 "江瀚下裳#107035 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 107035,
                     "name": "江瀚下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -13087,6 +14236,9 @@ EQUIPMENTS = {
                 "长关下裳#107137 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 107137,
                     "name": "长关下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13113,6 +14265,9 @@ EQUIPMENTS = {
                 "客行江湖·嵯峨下裳#107059 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 107059,
                     "name": "客行江湖·嵯峨下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13139,6 +14294,9 @@ EQUIPMENTS = {
                 "深岩裤#106906 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106906,
                     "name": "深岩裤",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13166,6 +14324,9 @@ EQUIPMENTS = {
                 "穹石裤#106888 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106888,
                     "name": "穹石裤",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13192,6 +14353,9 @@ EQUIPMENTS = {
                 "洪涌裤#106852 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106852,
                     "name": "洪涌裤",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13219,6 +14383,9 @@ EQUIPMENTS = {
                 "娄刚下裳#108664 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 108664,
                     "name": "娄刚下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 32500,
                     "score": 58500,
                     "max_strength": 6,
@@ -13246,6 +14413,9 @@ EQUIPMENTS = {
                 "月钟下裳#104991 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 104991,
                     "name": "月钟下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -13287,6 +14457,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏下裳#108241 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 108241,
                     "name": "孤城惊梦·昂藏下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13313,6 +14486,9 @@ EQUIPMENTS = {
                 "坠欢裤#105093 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 105093,
                     "name": "坠欢裤",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13339,6 +14515,9 @@ EQUIPMENTS = {
                 "客行江湖·常盛下裳#105015 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 105015,
                     "name": "客行江湖·常盛下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13365,6 +14544,9 @@ EQUIPMENTS = {
                 "裁霜裤#104883 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104883,
                     "name": "裁霜裤",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13392,6 +14574,9 @@ EQUIPMENTS = {
                 "登科下裳#104865 (30200 内防 御劲 无双)": {
                     "id": 104865,
                     "name": "登科下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13416,6 +14601,9 @@ EQUIPMENTS = {
                 "三元下裳#104829 (30200 外防 御劲 无双)": {
                     "id": 104829,
                     "name": "三元下裳",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13443,6 +14631,9 @@ EQUIPMENTS = {
                 "江流下裳#107034 (35900 )": {
                     "id": 107034,
                     "name": "江流下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -13482,6 +14673,9 @@ EQUIPMENTS = {
                 "长溪下裳#107136 (35300 )": {
                     "id": 107136,
                     "name": "长溪下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13506,6 +14700,9 @@ EQUIPMENTS = {
                 "客行江湖·寒调下裳#107058 (35300 会心)": {
                     "id": 107058,
                     "name": "客行江湖·寒调下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13531,6 +14728,9 @@ EQUIPMENTS = {
                 "延曼裤#106905 (35300 )": {
                     "id": 106905,
                     "name": "延曼裤",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13555,6 +14755,9 @@ EQUIPMENTS = {
                 "仁心裤#106887 (35300 加速)": {
                     "id": 106887,
                     "name": "仁心裤",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13580,6 +14783,9 @@ EQUIPMENTS = {
                 "拂煦裤#106851 (35300 会心)": {
                     "id": 106851,
                     "name": "拂煦裤",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13605,6 +14811,9 @@ EQUIPMENTS = {
                 "娄杏下裳#108663 (32500 加速)": {
                     "id": 108663,
                     "name": "娄杏下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 32500,
                     "score": 58500,
                     "max_strength": 6,
@@ -13630,6 +14839,9 @@ EQUIPMENTS = {
                 "月柳下裳#104990 (30700 )": {
                     "id": 104990,
                     "name": "月柳下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -13669,6 +14881,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥下裳#108240 (30200 )": {
                     "id": 108240,
                     "name": "孤城惊梦·青泥下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13693,6 +14908,9 @@ EQUIPMENTS = {
                 "坠月裤#105092 (30200 )": {
                     "id": 105092,
                     "name": "坠月裤",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13717,6 +14935,9 @@ EQUIPMENTS = {
                 "客行江湖·清赏下裳#105014 (30200 会心)": {
                     "id": 105014,
                     "name": "客行江湖·清赏下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13742,6 +14963,9 @@ EQUIPMENTS = {
                 "浮沙裤#104882 (30200 )": {
                     "id": 104882,
                     "name": "浮沙裤",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13766,6 +14990,9 @@ EQUIPMENTS = {
                 "折桂下裳#104864 (30200 加速)": {
                     "id": 104864,
                     "name": "折桂下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13791,6 +15018,9 @@ EQUIPMENTS = {
                 "风檐下裳#104828 (30200 会心)": {
                     "id": 104828,
                     "name": "风檐下裳",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -13818,6 +15048,9 @@ EQUIPMENTS = {
                 "江舟下裳#107033 (35900 会心 无双)": {
                     "id": 107033,
                     "name": "江舟下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -13859,6 +15092,9 @@ EQUIPMENTS = {
                 "蒙鸠下裳#107135 (35300 破招 无双)": {
                     "id": 107135,
                     "name": "蒙鸠下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13885,6 +15121,9 @@ EQUIPMENTS = {
                 "客行江湖·离帆下裳#107057 (35300 破防 无双)": {
                     "id": 107057,
                     "name": "客行江湖·离帆下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13911,6 +15150,9 @@ EQUIPMENTS = {
                 "临坻裤#106904 (35300 破招 无双)": {
                     "id": 106904,
                     "name": "临坻裤",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13937,6 +15179,9 @@ EQUIPMENTS = {
                 "晚风裤#106886 (35300 会心 无双)": {
                     "id": 106886,
                     "name": "晚风裤",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13963,6 +15208,9 @@ EQUIPMENTS = {
                 "天风裤#106850 (35300 加速 无双)": {
                     "id": 106850,
                     "name": "天风裤",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -13989,6 +15237,9 @@ EQUIPMENTS = {
                 "娄锋下裳#108662 (32500 会心 无双)": {
                     "id": 108662,
                     "name": "娄锋下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 32500,
                     "score": 58500,
                     "max_strength": 6,
@@ -14015,6 +15266,9 @@ EQUIPMENTS = {
                 "月霭下裳#104989 (30700 会心 无双)": {
                     "id": 104989,
                     "name": "月霭下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -14056,6 +15310,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟下裳#108239 (30200 破防 无双)": {
                     "id": 108239,
                     "name": "孤城惊梦·迷烟下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14082,6 +15339,9 @@ EQUIPMENTS = {
                 "坠红裤#105091 (30200 破招 无双)": {
                     "id": 105091,
                     "name": "坠红裤",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14108,6 +15368,9 @@ EQUIPMENTS = {
                 "客行江湖·日斜下裳#105013 (30200 破防 无双)": {
                     "id": 105013,
                     "name": "客行江湖·日斜下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14134,6 +15397,9 @@ EQUIPMENTS = {
                 "衔月裤#104881 (30200 破招 无双)": {
                     "id": 104881,
                     "name": "衔月裤",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14160,6 +15426,9 @@ EQUIPMENTS = {
                 "标雁下裳#104863 (30200 会心 无双)": {
                     "id": 104863,
                     "name": "标雁下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14186,6 +15455,9 @@ EQUIPMENTS = {
                 "问殿下裳#104827 (30200 加速 无双)": {
                     "id": 104827,
                     "name": "问殿下裳",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14214,6 +15486,9 @@ EQUIPMENTS = {
                 "江涛下裳#107032 (35900 会心 无双)": {
                     "id": 107032,
                     "name": "江涛下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -14255,6 +15530,9 @@ EQUIPMENTS = {
                 "长山下裳#107134 (35300 破招 无双)": {
                     "id": 107134,
                     "name": "长山下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14281,6 +15559,9 @@ EQUIPMENTS = {
                 "客行江湖·孤馆下裳#107056 (35300 破防 无双)": {
                     "id": 107056,
                     "name": "客行江湖·孤馆下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14307,6 +15588,9 @@ EQUIPMENTS = {
                 "逾波裤#106903 (35300 破招 无双)": {
                     "id": 106903,
                     "name": "逾波裤",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14333,6 +15617,9 @@ EQUIPMENTS = {
                 "震烁裤#106885 (35300 会心 无双)": {
                     "id": 106885,
                     "name": "震烁裤",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14359,6 +15646,9 @@ EQUIPMENTS = {
                 "断霄裤#106849 (35300 加速 无双)": {
                     "id": 106849,
                     "name": "断霄裤",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14385,6 +15675,9 @@ EQUIPMENTS = {
                 "娄金下裳#108661 (32500 会心 无双)": {
                     "id": 108661,
                     "name": "娄金下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 32500,
                     "score": 58500,
                     "max_strength": 6,
@@ -14411,6 +15704,9 @@ EQUIPMENTS = {
                 "月溪下裳#104988 (30700 会心 无双)": {
                     "id": 104988,
                     "name": "月溪下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -14452,6 +15748,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河下裳#108238 (30200 破防 无双)": {
                     "id": 108238,
                     "name": "孤城惊梦·浊河下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14478,6 +15777,9 @@ EQUIPMENTS = {
                 "坠雨裤#105090 (30200 破招 无双)": {
                     "id": 105090,
                     "name": "坠雨裤",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14504,6 +15806,9 @@ EQUIPMENTS = {
                 "客行江湖·山隈下裳#105012 (30200 破防 无双)": {
                     "id": 105012,
                     "name": "客行江湖·山隈下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14530,6 +15835,9 @@ EQUIPMENTS = {
                 "饮渌裤#104880 (30200 破招 无双)": {
                     "id": 104880,
                     "name": "饮渌裤",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14556,6 +15864,9 @@ EQUIPMENTS = {
                 "寒窗下裳#104862 (30200 会心 无双)": {
                     "id": 104862,
                     "name": "寒窗下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14582,6 +15893,9 @@ EQUIPMENTS = {
                 "礼闱下裳#104826 (30200 加速 无双)": {
                     "id": 104826,
                     "name": "礼闱下裳",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14610,6 +15924,9 @@ EQUIPMENTS = {
                 "江横下裳#107031 (35900 会心 无双)": {
                     "id": 107031,
                     "name": "江横下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -14651,6 +15968,9 @@ EQUIPMENTS = {
                 "长日下裳#107133 (35300 破招 无双)": {
                     "id": 107133,
                     "name": "长日下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14677,6 +15997,9 @@ EQUIPMENTS = {
                 "客行江湖·阳关下裳#107055 (35300 破防 无双)": {
                     "id": 107055,
                     "name": "客行江湖·阳关下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14703,6 +16026,9 @@ EQUIPMENTS = {
                 "灼玉裤#106902 (35300 破招 无双)": {
                     "id": 106902,
                     "name": "灼玉裤",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14729,6 +16055,9 @@ EQUIPMENTS = {
                 "河汉裤#106884 (35300 会心 无双)": {
                     "id": 106884,
                     "name": "河汉裤",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14755,6 +16084,9 @@ EQUIPMENTS = {
                 "骀荡裤#106848 (35300 加速 无双)": {
                     "id": 106848,
                     "name": "骀荡裤",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -14781,6 +16113,9 @@ EQUIPMENTS = {
                 "娄丹下裳#108660 (32500 会心 无双)": {
                     "id": 108660,
                     "name": "娄丹下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 32500,
                     "score": 58500,
                     "max_strength": 6,
@@ -14807,6 +16142,9 @@ EQUIPMENTS = {
                 "月声下裳#104987 (30700 会心 无双)": {
                     "id": 104987,
                     "name": "月声下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -14848,6 +16186,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡下裳#108237 (30200 破防 无双)": {
                     "id": 108237,
                     "name": "孤城惊梦·萦纡下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14874,6 +16215,9 @@ EQUIPMENTS = {
                 "坠露裤#105089 (30200 破招 无双)": {
                     "id": 105089,
                     "name": "坠露裤",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14900,6 +16244,9 @@ EQUIPMENTS = {
                 "客行江湖·新圃下裳#105011 (30200 破防 无双)": {
                     "id": 105011,
                     "name": "客行江湖·新圃下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14926,6 +16273,9 @@ EQUIPMENTS = {
                 "枕石裤#104879 (30200 破招 无双)": {
                     "id": 104879,
                     "name": "枕石裤",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14952,6 +16302,9 @@ EQUIPMENTS = {
                 "云路下裳#104861 (30200 会心 无双)": {
                     "id": 104861,
                     "name": "云路下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -14978,6 +16331,9 @@ EQUIPMENTS = {
                 "封名下裳#104825 (30200 加速 无双)": {
                     "id": 104825,
                     "name": "封名下裳",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15006,6 +16362,9 @@ EQUIPMENTS = {
                 "江离下裳#107030 (35900 会心 无双)": {
                     "id": 107030,
                     "name": "江离下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -15047,6 +16406,9 @@ EQUIPMENTS = {
                 "长留下裳#107132 (35300 破招 无双)": {
                     "id": 107132,
                     "name": "长留下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15073,6 +16435,9 @@ EQUIPMENTS = {
                 "客行江湖·歧路下裳#107054 (35300 破防 无双)": {
                     "id": 107054,
                     "name": "客行江湖·歧路下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15099,6 +16464,9 @@ EQUIPMENTS = {
                 "噙香裤#106901 (35300 破招 无双)": {
                     "id": 106901,
                     "name": "噙香裤",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15125,6 +16493,9 @@ EQUIPMENTS = {
                 "椒丘裤#106883 (35300 会心 无双)": {
                     "id": 106883,
                     "name": "椒丘裤",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15151,6 +16522,9 @@ EQUIPMENTS = {
                 "香丹裤#106847 (35300 加速 无双)": {
                     "id": 106847,
                     "name": "香丹裤",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15177,6 +16551,9 @@ EQUIPMENTS = {
                 "娄隐下裳#108659 (32500 会心 无双)": {
                     "id": 108659,
                     "name": "娄隐下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 32500,
                     "score": 58500,
                     "max_strength": 6,
@@ -15203,6 +16580,9 @@ EQUIPMENTS = {
                 "月涛下裳#104986 (30700 会心 无双)": {
                     "id": 104986,
                     "name": "月涛下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -15244,6 +16624,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏下裳#108236 (30200 破防 无双)": {
                     "id": 108236,
                     "name": "孤城惊梦·萧疏下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15270,6 +16653,9 @@ EQUIPMENTS = {
                 "坠潮裤#105088 (30200 破招 无双)": {
                     "id": 105088,
                     "name": "坠潮裤",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15296,6 +16682,9 @@ EQUIPMENTS = {
                 "客行江湖·繁色下裳#105010 (30200 破防 无双)": {
                     "id": 105010,
                     "name": "客行江湖·繁色下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15322,6 +16711,9 @@ EQUIPMENTS = {
                 "塑玉裤#104878 (30200 破招 无双)": {
                     "id": 104878,
                     "name": "塑玉裤",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15348,6 +16740,9 @@ EQUIPMENTS = {
                 "文曲下裳#104860 (30200 会心 无双)": {
                     "id": 104860,
                     "name": "文曲下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15374,6 +16769,9 @@ EQUIPMENTS = {
                 "论策下裳#104824 (30200 加速 无双)": {
                     "id": 104824,
                     "name": "论策下裳",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15404,6 +16802,9 @@ EQUIPMENTS = {
                 "愁断春江#108670 (35300 精简 特效 加速)": {
                     "id": 108670,
                     "name": "愁断春江",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15430,6 +16831,9 @@ EQUIPMENTS = {
                 "一片烟波#106990 (35300 精简 特效 破防)": {
                     "id": 106990,
                     "name": "一片烟波",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15456,6 +16860,9 @@ EQUIPMENTS = {
                 "曾驻行台#106989 (35300 精简 特效 会心)": {
                     "id": 106989,
                     "name": "曾驻行台",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15482,6 +16889,9 @@ EQUIPMENTS = {
                 "雪风高穹#106988 (35300 精简 特效 破招 无双)": {
                     "id": 106988,
                     "name": "雪风高穹",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15509,6 +16919,9 @@ EQUIPMENTS = {
                 "云树愁#106987 (35300 精简 特效 破防 无双)": {
                     "id": 106987,
                     "name": "云树愁",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15536,6 +16949,9 @@ EQUIPMENTS = {
                 "林梢晚晴#106986 (35300 精简 特效 会心 无双)": {
                     "id": 106986,
                     "name": "林梢晚晴",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15563,6 +16979,9 @@ EQUIPMENTS = {
                 "清阴独咏#106985 (35300 精简 特效 会心 破招 破防 无双)": {
                     "id": 106985,
                     "name": "清阴独咏",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15592,6 +17011,9 @@ EQUIPMENTS = {
                 "长烟裤·迅#106984 (35300 精简 加速)": {
                     "id": 106984,
                     "name": "长烟裤·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15616,6 +17038,9 @@ EQUIPMENTS = {
                 "千嶂裤·绝#106983 (35300 精简 破防 破招 无双)": {
                     "id": 106983,
                     "name": "千嶂裤·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15642,6 +17067,9 @@ EQUIPMENTS = {
                 "疏桐裤·明#106982 (35300 精简 会心 破招 无双)": {
                     "id": 106982,
                     "name": "疏桐裤·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15668,6 +17096,9 @@ EQUIPMENTS = {
                 "霜天裤·觉#106981 (35300 精简 会心 破防 无双)": {
                     "id": 106981,
                     "name": "霜天裤·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15694,6 +17125,9 @@ EQUIPMENTS = {
                 "踵武裤·引#106980 (35300 精简 破招 无双)": {
                     "id": 106980,
                     "name": "踵武裤·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15719,6 +17153,9 @@ EQUIPMENTS = {
                 "长亭裤·破#106979 (35300 精简 破防 无双)": {
                     "id": 106979,
                     "name": "长亭裤·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15744,6 +17181,9 @@ EQUIPMENTS = {
                 "故垒裤·悟#106978 (35300 精简 会心 无双)": {
                     "id": 106978,
                     "name": "故垒裤·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15769,6 +17209,9 @@ EQUIPMENTS = {
                 "飞湍裤·尊#106977 (35300 精简 无双)": {
                     "id": 106977,
                     "name": "飞湍裤·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -15793,6 +17236,9 @@ EQUIPMENTS = {
                 "舞金銮#104967 (30200 精简 特效 破防)": {
                     "id": 104967,
                     "name": "舞金銮",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15819,6 +17265,9 @@ EQUIPMENTS = {
                 "春晨韵#104966 (30200 精简 特效 会心)": {
                     "id": 104966,
                     "name": "春晨韵",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15845,6 +17294,9 @@ EQUIPMENTS = {
                 "夏荷谣#104965 (30200 精简 特效 破招 无双)": {
                     "id": 104965,
                     "name": "夏荷谣",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15872,6 +17324,9 @@ EQUIPMENTS = {
                 "醉芙蓉#104964 (30200 精简 特效 破防 无双)": {
                     "id": 104964,
                     "name": "醉芙蓉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15899,6 +17354,9 @@ EQUIPMENTS = {
                 "送寒宵#104963 (30200 精简 特效 会心 无双)": {
                     "id": 104963,
                     "name": "送寒宵",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15926,6 +17384,9 @@ EQUIPMENTS = {
                 "朔风雪#104962 (30200 精简 特效 会心 破招 破防 无双)": {
                     "id": 104962,
                     "name": "朔风雪",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15955,6 +17416,9 @@ EQUIPMENTS = {
                 "虹碎裤·迅#104961 (30200 精简 加速)": {
                     "id": 104961,
                     "name": "虹碎裤·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -15979,6 +17443,9 @@ EQUIPMENTS = {
                 "苍劲裤·绝#104960 (30200 精简 破防 破招 无双)": {
                     "id": 104960,
                     "name": "苍劲裤·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16005,6 +17472,9 @@ EQUIPMENTS = {
                 "霆击裤·明#104959 (30200 精简 会心 破招 无双)": {
                     "id": 104959,
                     "name": "霆击裤·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16031,6 +17501,9 @@ EQUIPMENTS = {
                 "星锐裤·觉#104958 (30200 精简 会心 破防 无双)": {
                     "id": 104958,
                     "name": "星锐裤·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16057,6 +17530,9 @@ EQUIPMENTS = {
                 "裂巽裤·引#104957 (30200 精简 破招 无双)": {
                     "id": 104957,
                     "name": "裂巽裤·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16082,6 +17558,9 @@ EQUIPMENTS = {
                 "风擂裤·破#104956 (30200 精简 破防 无双)": {
                     "id": 104956,
                     "name": "风擂裤·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16107,6 +17586,9 @@ EQUIPMENTS = {
                 "飞电裤·悟#104955 (30200 精简 会心 无双)": {
                     "id": 104955,
                     "name": "飞电裤·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16132,6 +17614,9 @@ EQUIPMENTS = {
                 "破浪裤·尊#104954 (30200 精简 无双)": {
                     "id": 104954,
                     "name": "破浪裤·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16158,6 +17643,9 @@ EQUIPMENTS = {
                 "长亭回首#108669 (35300 精简 特效 加速)": {
                     "id": 108669,
                     "name": "长亭回首",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16184,6 +17672,9 @@ EQUIPMENTS = {
                 "风前柳色#106976 (35300 精简 特效 破防)": {
                     "id": 106976,
                     "name": "风前柳色",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16210,6 +17701,9 @@ EQUIPMENTS = {
                 "故垒颓垣#106975 (35300 精简 特效 会心)": {
                     "id": 106975,
                     "name": "故垒颓垣",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16236,6 +17730,9 @@ EQUIPMENTS = {
                 "千尺青空#106974 (35300 精简 特效 破招 无双)": {
                     "id": 106974,
                     "name": "千尺青空",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16263,6 +17760,9 @@ EQUIPMENTS = {
                 "吊湘累#106973 (35300 精简 特效 破防 无双)": {
                     "id": 106973,
                     "name": "吊湘累",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16290,6 +17790,9 @@ EQUIPMENTS = {
                 "闲来步屧#106972 (35300 精简 特效 会心 无双)": {
                     "id": 106972,
                     "name": "闲来步屧",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16317,6 +17820,9 @@ EQUIPMENTS = {
                 "枯梢瘦骨#106971 (35300 精简 特效 会心 破招 破防 无双)": {
                     "id": 106971,
                     "name": "枯梢瘦骨",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16346,6 +17852,9 @@ EQUIPMENTS = {
                 "惊鹊裤·迅#106970 (35300 精简 加速)": {
                     "id": 106970,
                     "name": "惊鹊裤·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16370,6 +17879,9 @@ EQUIPMENTS = {
                 "寒枝裤·绝#106969 (35300 精简 破防 破招 无双)": {
                     "id": 106969,
                     "name": "寒枝裤·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16396,6 +17908,9 @@ EQUIPMENTS = {
                 "清宵裤·明#106968 (35300 精简 会心 破招 无双)": {
                     "id": 106968,
                     "name": "清宵裤·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16422,6 +17937,9 @@ EQUIPMENTS = {
                 "雁回裤·觉#106967 (35300 精简 会心 破防 无双)": {
                     "id": 106967,
                     "name": "雁回裤·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16448,6 +17966,9 @@ EQUIPMENTS = {
                 "兰舟裤·引#106966 (35300 精简 破招 无双)": {
                     "id": 106966,
                     "name": "兰舟裤·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16473,6 +17994,9 @@ EQUIPMENTS = {
                 "凤箫裤·破#106965 (35300 精简 破防 无双)": {
                     "id": 106965,
                     "name": "凤箫裤·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16498,6 +18022,9 @@ EQUIPMENTS = {
                 "纤云裤·悟#106964 (35300 精简 会心 无双)": {
                     "id": 106964,
                     "name": "纤云裤·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16523,6 +18050,9 @@ EQUIPMENTS = {
                 "罗幕裤·尊#106963 (35300 精简 无双)": {
                     "id": 106963,
                     "name": "罗幕裤·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16547,6 +18077,9 @@ EQUIPMENTS = {
                 "秋思叹#104953 (30200 精简 特效 破防)": {
                     "id": 104953,
                     "name": "秋思叹",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16573,6 +18106,9 @@ EQUIPMENTS = {
                 "影渐孤#104952 (30200 精简 特效 会心)": {
                     "id": 104952,
                     "name": "影渐孤",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16599,6 +18135,9 @@ EQUIPMENTS = {
                 "入小楼#104951 (30200 精简 特效 破招 无双)": {
                     "id": 104951,
                     "name": "入小楼",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16626,6 +18165,9 @@ EQUIPMENTS = {
                 "照九州#104950 (30200 精简 特效 破防 无双)": {
                     "id": 104950,
                     "name": "照九州",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16653,6 +18195,9 @@ EQUIPMENTS = {
                 "笑东篱#104949 (30200 精简 特效 会心 无双)": {
                     "id": 104949,
                     "name": "笑东篱",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16680,6 +18225,9 @@ EQUIPMENTS = {
                 "满枝春#104948 (30200 精简 特效 会心 破招 破防 无双)": {
                     "id": 104948,
                     "name": "满枝春",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16709,6 +18257,9 @@ EQUIPMENTS = {
                 "瑾怀裤·迅#104947 (30200 精简 加速)": {
                     "id": 104947,
                     "name": "瑾怀裤·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16733,6 +18284,9 @@ EQUIPMENTS = {
                 "霜心裤·绝#104946 (30200 精简 破防 破招 无双)": {
                     "id": 104946,
                     "name": "霜心裤·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16759,6 +18313,9 @@ EQUIPMENTS = {
                 "清影裤·明#104945 (30200 精简 会心 破招 无双)": {
                     "id": 104945,
                     "name": "清影裤·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16785,6 +18342,9 @@ EQUIPMENTS = {
                 "苍渊裤·觉#104944 (30200 精简 会心 破防 无双)": {
                     "id": 104944,
                     "name": "苍渊裤·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16811,6 +18371,9 @@ EQUIPMENTS = {
                 "明光裤·引#104943 (30200 精简 破招 无双)": {
                     "id": 104943,
                     "name": "明光裤·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16836,6 +18399,9 @@ EQUIPMENTS = {
                 "沉浮裤·破#104942 (30200 精简 破防 无双)": {
                     "id": 104942,
                     "name": "沉浮裤·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16861,6 +18427,9 @@ EQUIPMENTS = {
                 "渊渟裤·悟#104941 (30200 精简 会心 无双)": {
                     "id": 104941,
                     "name": "渊渟裤·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16886,6 +18455,9 @@ EQUIPMENTS = {
                 "玄境裤·尊#104940 (30200 精简 无双)": {
                     "id": 104940,
                     "name": "玄境裤·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -16912,6 +18484,9 @@ EQUIPMENTS = {
                 "千狂力#107011 (35300 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 107011,
                     "name": "千狂力",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16940,6 +18515,9 @@ EQUIPMENTS = {
                 "玉障尘#107010 (35300 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 107010,
                     "name": "玉障尘",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16969,6 +18547,9 @@ EQUIPMENTS = {
                 "不倾峦#107009 (35300 精简 特效 内防 加速 破招 御劲 无双)": {
                     "id": 107009,
                     "name": "不倾峦",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -16997,6 +18578,9 @@ EQUIPMENTS = {
                 "苍石骨#107008 (35300 精简 特效 外防 加速 破招 御劲 无双)": {
                     "id": 107008,
                     "name": "苍石骨",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -17026,6 +18610,9 @@ EQUIPMENTS = {
                 "腾龙脊#106638 (30200 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 106638,
                     "name": "腾龙脊",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17054,6 +18641,9 @@ EQUIPMENTS = {
                 "擎天阙#106637 (30200 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 106637,
                     "name": "擎天阙",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17083,6 +18673,9 @@ EQUIPMENTS = {
                 "镇狂澜#106636 (30200 精简 特效 内防 御劲 无双)": {
                     "id": 106636,
                     "name": "镇狂澜",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17109,6 +18702,9 @@ EQUIPMENTS = {
                 "奔海沧#106635 (30200 精简 特效 外防 御劲 无双)": {
                     "id": 106635,
                     "name": "奔海沧",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17138,6 +18734,9 @@ EQUIPMENTS = {
                 "月中露#106999 (35300 精简 特效)": {
                     "id": 106999,
                     "name": "月中露",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -17164,6 +18763,9 @@ EQUIPMENTS = {
                 "百草泽#106998 (35300 精简 特效 会心)": {
                     "id": 106998,
                     "name": "百草泽",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -17191,6 +18793,9 @@ EQUIPMENTS = {
                 "灵泉苏#106997 (35300 精简 特效 加速)": {
                     "id": 106997,
                     "name": "灵泉苏",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -17218,6 +18823,9 @@ EQUIPMENTS = {
                 "雅韵长#106626 (30200 精简 特效)": {
                     "id": 106626,
                     "name": "雅韵长",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17244,6 +18852,9 @@ EQUIPMENTS = {
                 "入画堂#106625 (30200 精简 特效 会心)": {
                     "id": 106625,
                     "name": "入画堂",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17271,6 +18882,9 @@ EQUIPMENTS = {
                 "隐仙洲#106624 (30200 精简 特效 加速)": {
                     "id": 106624,
                     "name": "隐仙洲",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "bottoms",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -17304,6 +18918,9 @@ EQUIPMENTS = {
                 "江瀚护腰#107023 (35900 内防 加速 破招 御劲 无双)": {
                     "id": 107023,
                     "name": "江瀚护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -17346,6 +18963,9 @@ EQUIPMENTS = {
                 "长关护腰#107125 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 107125,
                     "name": "长关护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17373,6 +18993,9 @@ EQUIPMENTS = {
                 "穹石护腰#106876 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106876,
                     "name": "穹石护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17400,6 +19023,9 @@ EQUIPMENTS = {
                 "洪涌护腰#106840 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106840,
                     "name": "洪涌护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17427,6 +19053,9 @@ EQUIPMENTS = {
                 "月钟护腰#104979 (30700 内防 御劲 无双)": {
                     "id": 104979,
                     "name": "月钟护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -17467,6 +19096,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏护腰#108229 (30200 内防 加速 破招 御劲 无双)": {
                     "id": 108229,
                     "name": "孤城惊梦·昂藏护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17494,6 +19126,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·横关护腰#106650 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 106650,
                     "name": "寻踪觅宝·横关护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17539,6 +19174,9 @@ EQUIPMENTS = {
                 "坠欢护腰#105081 (30200 内防 御劲 无双)": {
                     "id": 105081,
                     "name": "坠欢护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17564,6 +19202,9 @@ EQUIPMENTS = {
                 "登科护腰#104853 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104853,
                     "name": "登科护腰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17591,6 +19232,9 @@ EQUIPMENTS = {
                 "三元腰带#104817 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104817,
                     "name": "三元腰带",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17620,6 +19264,9 @@ EQUIPMENTS = {
                 "江流护腰#107022 (35900 )": {
                     "id": 107022,
                     "name": "江流护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -17659,6 +19306,9 @@ EQUIPMENTS = {
                 "长溪护腰#107124 (35300 加速)": {
                     "id": 107124,
                     "name": "长溪护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17684,6 +19334,9 @@ EQUIPMENTS = {
                 "仁心护腰#106875 (35300 )": {
                     "id": 106875,
                     "name": "仁心护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17708,6 +19361,9 @@ EQUIPMENTS = {
                 "拂煦护腰#106839 (35300 加速)": {
                     "id": 106839,
                     "name": "拂煦护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17733,6 +19389,9 @@ EQUIPMENTS = {
                 "月柳护腰#104978 (30700 )": {
                     "id": 104978,
                     "name": "月柳护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -17772,6 +19431,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥护腰#108228 (30200 加速)": {
                     "id": 108228,
                     "name": "孤城惊梦·青泥护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17797,6 +19459,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·妙意护腰#106649 (30200 加速)": {
                     "id": 106649,
                     "name": "寻踪觅宝·妙意护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17840,6 +19505,9 @@ EQUIPMENTS = {
                 "坠月护腰#105080 (30200 加速)": {
                     "id": 105080,
                     "name": "坠月护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17865,6 +19533,9 @@ EQUIPMENTS = {
                 "折桂护腰#104852 (30200 )": {
                     "id": 104852,
                     "name": "折桂护腰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17889,6 +19560,9 @@ EQUIPMENTS = {
                 "风檐腰带#104816 (30200 加速)": {
                     "id": 104816,
                     "name": "风檐腰带",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -17916,6 +19590,9 @@ EQUIPMENTS = {
                 "江舟护腰#107021 (35900 会心 无双)": {
                     "id": 107021,
                     "name": "江舟护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -17957,6 +19634,9 @@ EQUIPMENTS = {
                 "蒙鸠护腰#107123 (35300 破防 无双)": {
                     "id": 107123,
                     "name": "蒙鸠护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -17983,6 +19663,9 @@ EQUIPMENTS = {
                 "晚风护腰#106874 (35300 加速 无双)": {
                     "id": 106874,
                     "name": "晚风护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18009,6 +19692,9 @@ EQUIPMENTS = {
                 "天风护腰#106838 (35300 破防 无双)": {
                     "id": 106838,
                     "name": "天风护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18035,6 +19721,9 @@ EQUIPMENTS = {
                 "月霭护腰#104977 (30700 会心 无双)": {
                     "id": 104977,
                     "name": "月霭护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -18076,6 +19765,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟护腰#108227 (30200 破防 无双)": {
                     "id": 108227,
                     "name": "孤城惊梦·迷烟护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18102,6 +19794,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·逸群护腰#106648 (30200 加速 无双)": {
                     "id": 106648,
                     "name": "寻踪觅宝·逸群护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18146,6 +19841,9 @@ EQUIPMENTS = {
                 "坠红护腰#105079 (30200 破防 无双)": {
                     "id": 105079,
                     "name": "坠红护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18172,6 +19870,9 @@ EQUIPMENTS = {
                 "标雁护腰#104851 (30200 加速 无双)": {
                     "id": 104851,
                     "name": "标雁护腰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18198,6 +19899,9 @@ EQUIPMENTS = {
                 "问殿腰带#104815 (30200 破防 无双)": {
                     "id": 104815,
                     "name": "问殿腰带",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18226,6 +19930,9 @@ EQUIPMENTS = {
                 "江涛护腰#107020 (35900 会心 无双)": {
                     "id": 107020,
                     "name": "江涛护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -18267,6 +19974,9 @@ EQUIPMENTS = {
                 "长山护腰#107122 (35300 破防 无双)": {
                     "id": 107122,
                     "name": "长山护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18293,6 +20003,9 @@ EQUIPMENTS = {
                 "震烁护腰#106873 (35300 加速 无双)": {
                     "id": 106873,
                     "name": "震烁护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18319,6 +20032,9 @@ EQUIPMENTS = {
                 "断霄护腰#106837 (35300 破防 无双)": {
                     "id": 106837,
                     "name": "断霄护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18345,6 +20061,9 @@ EQUIPMENTS = {
                 "月溪护腰#104976 (30700 会心 无双)": {
                     "id": 104976,
                     "name": "月溪护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -18386,6 +20105,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河护腰#108226 (30200 破防 无双)": {
                     "id": 108226,
                     "name": "孤城惊梦·浊河护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18412,6 +20134,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·遒劲护腰#106647 (30200 加速 无双)": {
                     "id": 106647,
                     "name": "寻踪觅宝·遒劲护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18456,6 +20181,9 @@ EQUIPMENTS = {
                 "坠雨护腰#105078 (30200 破防 无双)": {
                     "id": 105078,
                     "name": "坠雨护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18482,6 +20210,9 @@ EQUIPMENTS = {
                 "寒窗护腰#104850 (30200 加速 无双)": {
                     "id": 104850,
                     "name": "寒窗护腰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18508,6 +20239,9 @@ EQUIPMENTS = {
                 "礼闱腰带#104814 (30200 破防 无双)": {
                     "id": 104814,
                     "name": "礼闱腰带",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18536,6 +20270,9 @@ EQUIPMENTS = {
                 "江横护腰#107019 (35900 会心 无双)": {
                     "id": 107019,
                     "name": "江横护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -18577,6 +20314,9 @@ EQUIPMENTS = {
                 "长日护腰#107121 (35300 破防 无双)": {
                     "id": 107121,
                     "name": "长日护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18603,6 +20343,9 @@ EQUIPMENTS = {
                 "河汉护腰#106872 (35300 加速 无双)": {
                     "id": 106872,
                     "name": "河汉护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18629,6 +20372,9 @@ EQUIPMENTS = {
                 "骀荡护腰#106836 (35300 破防 无双)": {
                     "id": 106836,
                     "name": "骀荡护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18655,6 +20401,9 @@ EQUIPMENTS = {
                 "月声护腰#104975 (30700 会心 无双)": {
                     "id": 104975,
                     "name": "月声护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -18696,6 +20445,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡护腰#108225 (30200 破防 无双)": {
                     "id": 108225,
                     "name": "孤城惊梦·萦纡护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18722,6 +20474,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·沛然护腰#106646 (30200 加速 无双)": {
                     "id": 106646,
                     "name": "寻踪觅宝·沛然护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18766,6 +20521,9 @@ EQUIPMENTS = {
                 "坠露护腰#105077 (30200 破防 无双)": {
                     "id": 105077,
                     "name": "坠露护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18792,6 +20550,9 @@ EQUIPMENTS = {
                 "云路护腰#104849 (30200 加速 无双)": {
                     "id": 104849,
                     "name": "云路护腰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18818,6 +20579,9 @@ EQUIPMENTS = {
                 "封名腰带#104813 (30200 破防 无双)": {
                     "id": 104813,
                     "name": "封名腰带",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -18846,6 +20610,9 @@ EQUIPMENTS = {
                 "江离护腰#107018 (35900 会心 无双)": {
                     "id": 107018,
                     "name": "江离护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 35900,
                     "score": 45234,
                     "max_strength": 6,
@@ -18887,6 +20654,9 @@ EQUIPMENTS = {
                 "长留护腰#107120 (35300 破防 无双)": {
                     "id": 107120,
                     "name": "长留护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18913,6 +20683,9 @@ EQUIPMENTS = {
                 "椒丘护腰#106871 (35300 加速 无双)": {
                     "id": 106871,
                     "name": "椒丘护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18939,6 +20712,9 @@ EQUIPMENTS = {
                 "香丹护腰#106835 (35300 破防 无双)": {
                     "id": 106835,
                     "name": "香丹护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -18965,6 +20741,9 @@ EQUIPMENTS = {
                 "月涛护腰#104974 (30700 会心 无双)": {
                     "id": 104974,
                     "name": "月涛护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 30700,
                     "score": 38682,
                     "max_strength": 6,
@@ -19006,6 +20785,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏护腰#108224 (30200 破防 无双)": {
                     "id": 108224,
                     "name": "孤城惊梦·萧疏护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19032,6 +20814,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·绵邈护腰#106645 (30200 加速 无双)": {
                     "id": 106645,
                     "name": "寻踪觅宝·绵邈护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19076,6 +20861,9 @@ EQUIPMENTS = {
                 "坠潮护腰#105076 (30200 破防 无双)": {
                     "id": 105076,
                     "name": "坠潮护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19102,6 +20890,9 @@ EQUIPMENTS = {
                 "文曲护腰#104848 (30200 加速 无双)": {
                     "id": 104848,
                     "name": "文曲护腰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19128,6 +20919,9 @@ EQUIPMENTS = {
                 "论策腰带#104812 (30200 破防 无双)": {
                     "id": 104812,
                     "name": "论策腰带",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19158,6 +20952,9 @@ EQUIPMENTS = {
                 "雨打芭蕉#108666 (35300 精简 特效 加速 无双)": {
                     "id": 108666,
                     "name": "雨打芭蕉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19185,6 +20982,9 @@ EQUIPMENTS = {
                 "野塘烟水#106934 (35300 精简 特效 破防)": {
                     "id": 106934,
                     "name": "野塘烟水",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19211,6 +21011,9 @@ EQUIPMENTS = {
                 "何处玉箫#106933 (35300 精简 特效 会心)": {
                     "id": 106933,
                     "name": "何处玉箫",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19237,6 +21040,9 @@ EQUIPMENTS = {
                 "问往还#106932 (35300 精简 特效 破防 无双)": {
                     "id": 106932,
                     "name": "问往还",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19264,6 +21070,9 @@ EQUIPMENTS = {
                 "侠骨英风#106931 (35300 精简 特效 会心 无双)": {
                     "id": 106931,
                     "name": "侠骨英风",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19291,6 +21100,9 @@ EQUIPMENTS = {
                 "寒声动#106930 (35300 精简 特效 破招)": {
                     "id": 106930,
                     "name": "寒声动",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19317,6 +21129,9 @@ EQUIPMENTS = {
                 "看尽云舒#106929 (35300 精简 特效 会心 破招 破防 无双)": {
                     "id": 106929,
                     "name": "看尽云舒",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19346,6 +21161,9 @@ EQUIPMENTS = {
                 "逸兴护腰·迅#106928 (35300 精简 加速 无双)": {
                     "id": 106928,
                     "name": "逸兴护腰·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19371,6 +21189,9 @@ EQUIPMENTS = {
                 "巉岩护腰·绝#106927 (35300 精简 破防 破招 无双)": {
                     "id": 106927,
                     "name": "巉岩护腰·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19397,6 +21218,9 @@ EQUIPMENTS = {
                 "未落护腰·明#106926 (35300 精简 会心 破招 无双)": {
                     "id": 106926,
                     "name": "未落护腰·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19423,6 +21247,9 @@ EQUIPMENTS = {
                 "云旗护腰·觉#106925 (35300 精简 会心 破防 无双)": {
                     "id": 106925,
                     "name": "云旗护腰·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19449,6 +21276,9 @@ EQUIPMENTS = {
                 "赤水护腰·引#106924 (35300 精简 破招 无双)": {
                     "id": 106924,
                     "name": "赤水护腰·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19474,6 +21304,9 @@ EQUIPMENTS = {
                 "周流护腰·破#106923 (35300 精简 破防 无双)": {
                     "id": 106923,
                     "name": "周流护腰·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19499,6 +21332,9 @@ EQUIPMENTS = {
                 "疏篁护腰·悟#106922 (35300 精简 会心 无双)": {
                     "id": 106922,
                     "name": "疏篁护腰·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19524,6 +21360,9 @@ EQUIPMENTS = {
                 "飞廉护腰·尊#106921 (35300 精简 无双)": {
                     "id": 106921,
                     "name": "飞廉护腰·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19548,6 +21387,9 @@ EQUIPMENTS = {
                 "诉征程#104911 (30200 精简 特效 破防)": {
                     "id": 104911,
                     "name": "诉征程",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19574,6 +21416,9 @@ EQUIPMENTS = {
                 "悲笳泣#104910 (30200 精简 特效 会心)": {
                     "id": 104910,
                     "name": "悲笳泣",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19600,6 +21445,9 @@ EQUIPMENTS = {
                 "寻故乡#104909 (30200 精简 特效 破防 无双)": {
                     "id": 104909,
                     "name": "寻故乡",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19627,6 +21475,9 @@ EQUIPMENTS = {
                 "征途远#104908 (30200 精简 特效 会心 无双)": {
                     "id": 104908,
                     "name": "征途远",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19654,6 +21505,9 @@ EQUIPMENTS = {
                 "誓无归#104907 (30200 精简 特效 破招)": {
                     "id": 104907,
                     "name": "誓无归",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19680,6 +21534,9 @@ EQUIPMENTS = {
                 "战寒风#104906 (30200 精简 特效 会心 破招 破防 无双)": {
                     "id": 104906,
                     "name": "战寒风",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19709,6 +21566,9 @@ EQUIPMENTS = {
                 "对江护腰·迅#104905 (30200 精简 加速 无双)": {
                     "id": 104905,
                     "name": "对江护腰·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19734,6 +21594,9 @@ EQUIPMENTS = {
                 "石行护腰·绝#104904 (30200 精简 破防 破招 无双)": {
                     "id": 104904,
                     "name": "石行护腰·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19760,6 +21623,9 @@ EQUIPMENTS = {
                 "舲风护腰·明#104903 (30200 精简 会心 破招 无双)": {
                     "id": 104903,
                     "name": "舲风护腰·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19786,6 +21652,9 @@ EQUIPMENTS = {
                 "惊眠护腰·觉#104902 (30200 精简 会心 破防 无双)": {
                     "id": 104902,
                     "name": "惊眠护腰·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19812,6 +21681,9 @@ EQUIPMENTS = {
                 "晴容护腰·引#104901 (30200 精简 破招 无双)": {
                     "id": 104901,
                     "name": "晴容护腰·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19837,6 +21709,9 @@ EQUIPMENTS = {
                 "分雨护腰·破#104900 (30200 精简 破防 无双)": {
                     "id": 104900,
                     "name": "分雨护腰·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19862,6 +21737,9 @@ EQUIPMENTS = {
                 "灵作护腰·悟#104899 (30200 精简 会心 无双)": {
                     "id": 104899,
                     "name": "灵作护腰·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19887,6 +21765,9 @@ EQUIPMENTS = {
                 "光意护腰·尊#104898 (30200 精简 无双)": {
                     "id": 104898,
                     "name": "光意护腰·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -19913,6 +21794,9 @@ EQUIPMENTS = {
                 "风吹柳絮#108665 (35300 精简 特效 加速 无双)": {
                     "id": 108665,
                     "name": "风吹柳絮",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19940,6 +21824,9 @@ EQUIPMENTS = {
                 "云外孤飞#106920 (35300 精简 特效 破防)": {
                     "id": 106920,
                     "name": "云外孤飞",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19966,6 +21853,9 @@ EQUIPMENTS = {
                 "明月高楼#106919 (35300 精简 特效 会心)": {
                     "id": 106919,
                     "name": "明月高楼",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -19992,6 +21882,9 @@ EQUIPMENTS = {
                 "天风断#106918 (35300 精简 特效 破防 无双)": {
                     "id": 106918,
                     "name": "天风断",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20019,6 +21912,9 @@ EQUIPMENTS = {
                 "秦关易水#106917 (35300 精简 特效 会心 无双)": {
                     "id": 106917,
                     "name": "秦关易水",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20046,6 +21942,9 @@ EQUIPMENTS = {
                 "千峰翠#106916 (35300 精简 特效 破招)": {
                     "id": 106916,
                     "name": "千峰翠",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20072,6 +21971,9 @@ EQUIPMENTS = {
                 "独对青山#106915 (35300 精简 特效 会心 破招 破防 无双)": {
                     "id": 106915,
                     "name": "独对青山",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20101,6 +22003,9 @@ EQUIPMENTS = {
                 "潜渊腰带·迅#106914 (35300 精简 加速 无双)": {
                     "id": 106914,
                     "name": "潜渊腰带·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20126,6 +22031,9 @@ EQUIPMENTS = {
                 "长佩腰带·绝#106913 (35300 精简 破防 破招 无双)": {
                     "id": 106913,
                     "name": "长佩腰带·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20152,6 +22060,9 @@ EQUIPMENTS = {
                 "兰皋腰带·明#106912 (35300 精简 会心 破招 无双)": {
                     "id": 106912,
                     "name": "兰皋腰带·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20178,6 +22089,9 @@ EQUIPMENTS = {
                 "不群腰带·觉#106911 (35300 精简 会心 破防 无双)": {
                     "id": 106911,
                     "name": "不群腰带·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20204,6 +22118,9 @@ EQUIPMENTS = {
                 "灵修腰带·引#106910 (35300 精简 破招 无双)": {
                     "id": 106910,
                     "name": "灵修腰带·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20229,6 +22146,9 @@ EQUIPMENTS = {
                 "幽昧腰带·破#106909 (35300 精简 破防 无双)": {
                     "id": 106909,
                     "name": "幽昧腰带·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20254,6 +22174,9 @@ EQUIPMENTS = {
                 "迟暮腰带·悟#106908 (35300 精简 会心 无双)": {
                     "id": 106908,
                     "name": "迟暮腰带·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20279,6 +22202,9 @@ EQUIPMENTS = {
                 "白露腰带·尊#106907 (35300 精简 无双)": {
                     "id": 106907,
                     "name": "白露腰带·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20303,6 +22229,9 @@ EQUIPMENTS = {
                 "寒峰静#104897 (30200 精简 特效 破防)": {
                     "id": 104897,
                     "name": "寒峰静",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20329,6 +22258,9 @@ EQUIPMENTS = {
                 "伴雪眠#104896 (30200 精简 特效 会心)": {
                     "id": 104896,
                     "name": "伴雪眠",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20355,6 +22287,9 @@ EQUIPMENTS = {
                 "共天涯#104895 (30200 精简 特效 破防 无双)": {
                     "id": 104895,
                     "name": "共天涯",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20382,6 +22317,9 @@ EQUIPMENTS = {
                 "隐烟霞#104894 (30200 精简 特效 会心 无双)": {
                     "id": 104894,
                     "name": "隐烟霞",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20409,6 +22347,9 @@ EQUIPMENTS = {
                 "醉秋行#104893 (30200 精简 特效 破招)": {
                     "id": 104893,
                     "name": "醉秋行",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20435,6 +22376,9 @@ EQUIPMENTS = {
                 "天幕远#104892 (30200 精简 特效 会心 破招 破防 无双)": {
                     "id": 104892,
                     "name": "天幕远",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20464,6 +22408,9 @@ EQUIPMENTS = {
                 "玄德腰带·迅#104891 (30200 精简 加速 无双)": {
                     "id": 104891,
                     "name": "玄德腰带·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20489,6 +22436,9 @@ EQUIPMENTS = {
                 "秀逸腰带·绝#104890 (30200 精简 破防 破招 无双)": {
                     "id": 104890,
                     "name": "秀逸腰带·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20515,6 +22465,9 @@ EQUIPMENTS = {
                 "卓然腰带·明#104889 (30200 精简 会心 破招 无双)": {
                     "id": 104889,
                     "name": "卓然腰带·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20541,6 +22494,9 @@ EQUIPMENTS = {
                 "宁远腰带·觉#104888 (30200 精简 会心 破防 无双)": {
                     "id": 104888,
                     "name": "宁远腰带·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20567,6 +22523,9 @@ EQUIPMENTS = {
                 "茂行腰带·引#104887 (30200 精简 破招 无双)": {
                     "id": 104887,
                     "name": "茂行腰带·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20592,6 +22551,9 @@ EQUIPMENTS = {
                 "苕之腰带·破#104886 (30200 精简 破防 无双)": {
                     "id": 104886,
                     "name": "苕之腰带·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20617,6 +22579,9 @@ EQUIPMENTS = {
                 "修扬腰带·悟#104885 (30200 精简 会心 无双)": {
                     "id": 104885,
                     "name": "修扬腰带·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20642,6 +22607,9 @@ EQUIPMENTS = {
                 "岚霏腰带·尊#104884 (30200 精简 无双)": {
                     "id": 104884,
                     "name": "岚霏腰带·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20668,6 +22636,9 @@ EQUIPMENTS = {
                 "守坤载#107007 (35300 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 107007,
                     "name": "守坤载",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20697,6 +22668,9 @@ EQUIPMENTS = {
                 "镇岳心#107006 (35300 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 107006,
                     "name": "镇岳心",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20726,6 +22700,9 @@ EQUIPMENTS = {
                 "金鳞遮#107005 (35300 精简 特效 内防 加速 破招 御劲 无双)": {
                     "id": 107005,
                     "name": "金鳞遮",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20755,6 +22732,9 @@ EQUIPMENTS = {
                 "万山静#107004 (35300 精简 特效 外防 加速 破招 御劲 无双)": {
                     "id": 107004,
                     "name": "万山静",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20783,6 +22763,9 @@ EQUIPMENTS = {
                 "靖边尘#106634 (30200 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 106634,
                     "name": "靖边尘",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20812,6 +22795,9 @@ EQUIPMENTS = {
                 "铭烽烟#106633 (30200 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 106633,
                     "name": "铭烽烟",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20841,6 +22827,9 @@ EQUIPMENTS = {
                 "千秋业#106632 (30200 精简 特效 内防 御劲 无双)": {
                     "id": 106632,
                     "name": "千秋业",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20868,6 +22857,9 @@ EQUIPMENTS = {
                 "据雄关#106631 (30200 精简 特效 外防 御劲 无双)": {
                     "id": 106631,
                     "name": "据雄关",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -20896,6 +22888,9 @@ EQUIPMENTS = {
                 "愈心月#106996 (35300 精简 特效)": {
                     "id": 106996,
                     "name": "愈心月",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20922,6 +22917,9 @@ EQUIPMENTS = {
                 "鲸泽生#106995 (35300 精简 特效 会心)": {
                     "id": 106995,
                     "name": "鲸泽生",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20949,6 +22947,9 @@ EQUIPMENTS = {
                 "暖灵光#106994 (35300 精简 特效 加速)": {
                     "id": 106994,
                     "name": "暖灵光",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -20976,6 +22977,9 @@ EQUIPMENTS = {
                 "远芽香#106623 (30200 精简 特效)": {
                     "id": 106623,
                     "name": "远芽香",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21002,6 +23006,9 @@ EQUIPMENTS = {
                 "翠影摇#106622 (30200 精简 特效 会心)": {
                     "id": 106622,
                     "name": "翠影摇",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21029,6 +23036,9 @@ EQUIPMENTS = {
                 "雪浪连#106621 (30200 精简 特效 加速)": {
                     "id": 106621,
                     "name": "雪浪连",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21060,6 +23070,9 @@ EQUIPMENTS = {
                 "牧川·牵傀护腰#106732 (35300 会心 无双)": {
                     "id": 106732,
                     "name": "牧川·牵傀护腰",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21104,6 +23117,9 @@ EQUIPMENTS = {
                 "天极·归帆腰带#108609 (30200 会心 无双)": {
                     "id": 108609,
                     "name": "天极·归帆腰带",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21148,6 +23164,9 @@ EQUIPMENTS = {
                 "销魂御厨腰带·火候#109061 (29800 破招 无双)": {
                     "id": 109061,
                     "name": "销魂御厨腰带·火候",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21183,6 +23202,9 @@ EQUIPMENTS = {
                 "缚罗腰带#108655 (28000 破防 无双)": {
                     "id": 108655,
                     "name": "缚罗腰带",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 28000,
                     "score": 35280,
                     "max_strength": 6,
@@ -21228,6 +23250,9 @@ EQUIPMENTS = {
                 "牧川·皑雪护腰#106731 (35300 会心 无双)": {
                     "id": 106731,
                     "name": "牧川·皑雪护腰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21271,6 +23296,9 @@ EQUIPMENTS = {
                 "天极·云胜腰带#104712 (30200 会心 无双)": {
                     "id": 104712,
                     "name": "天极·云胜腰带",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21314,6 +23342,9 @@ EQUIPMENTS = {
                 "云风御厨腰带·火候#109060 (29800 破招 无双)": {
                     "id": 109060,
                     "name": "云风御厨腰带·火候",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21353,6 +23384,9 @@ EQUIPMENTS = {
                 "牧川·快秋护腰#106730 (35300 会心 无双)": {
                     "id": 106730,
                     "name": "牧川·快秋护腰",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21396,6 +23430,9 @@ EQUIPMENTS = {
                 "天极·意悠腰带#104711 (30200 会心 无双)": {
                     "id": 104711,
                     "name": "天极·意悠腰带",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21439,6 +23476,9 @@ EQUIPMENTS = {
                 "梧风御厨腰带·刀功#109059 (29800 破招 无双)": {
                     "id": 109059,
                     "name": "梧风御厨腰带·刀功",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21478,6 +23518,9 @@ EQUIPMENTS = {
                 "牧川·暝霭护腰#106729 (35300 会心 无双)": {
                     "id": 106729,
                     "name": "牧川·暝霭护腰",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21521,6 +23564,9 @@ EQUIPMENTS = {
                 "天极·斩妄腰带#104710 (30200 会心 无双)": {
                     "id": 104710,
                     "name": "天极·斩妄腰带",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21564,6 +23610,9 @@ EQUIPMENTS = {
                 "岚峰御厨腰带·刀功#109058 (29800 破招 无双)": {
                     "id": 109058,
                     "name": "岚峰御厨腰带·刀功",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21603,6 +23652,9 @@ EQUIPMENTS = {
                 "牧川·刀圭护腰#106728 (35300 )": {
                     "id": 106728,
                     "name": "牧川·刀圭护腰",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21643,6 +23695,9 @@ EQUIPMENTS = {
                 "天极·续木腰带#104709 (30200 )": {
                     "id": 104709,
                     "name": "天极·续木腰带",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21683,6 +23738,9 @@ EQUIPMENTS = {
                 "迎新御厨腰带·水煮#109057 (29800 会心)": {
                     "id": 109057,
                     "name": "迎新御厨腰带·水煮",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21719,6 +23777,9 @@ EQUIPMENTS = {
                 "牧川·裁柳护腰#106727 (35300 会心 无双)": {
                     "id": 106727,
                     "name": "牧川·裁柳护腰",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21763,6 +23824,9 @@ EQUIPMENTS = {
                 "天极·悬丝腰带#104708 (30200 会心 无双)": {
                     "id": 104708,
                     "name": "天极·悬丝腰带",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21807,6 +23871,9 @@ EQUIPMENTS = {
                 "迎新御厨腰带·火候#109056 (29800 破招 无双)": {
                     "id": 109056,
                     "name": "迎新御厨腰带·火候",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21846,6 +23913,9 @@ EQUIPMENTS = {
                 "牧川·遣星护腰#106726 (35300 会心 无双)": {
                     "id": 106726,
                     "name": "牧川·遣星护腰",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -21890,6 +23960,9 @@ EQUIPMENTS = {
                 "天极·符烬腰带#104707 (30200 会心 无双)": {
                     "id": 104707,
                     "name": "天极·符烬腰带",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -21934,6 +24007,9 @@ EQUIPMENTS = {
                 "寻龙御厨腰带·火候#109055 (29800 破招 无双)": {
                     "id": 109055,
                     "name": "寻龙御厨腰带·火候",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -21973,6 +24049,9 @@ EQUIPMENTS = {
                 "牧川·未叹护腰#106725 (35300 会心 无双)": {
                     "id": 106725,
                     "name": "牧川·未叹护腰",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22017,6 +24096,9 @@ EQUIPMENTS = {
                 "天极·藏名腰带#104706 (30200 会心 无双)": {
                     "id": 104706,
                     "name": "天极·藏名腰带",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22061,6 +24143,9 @@ EQUIPMENTS = {
                 "凌晓御厨腰带·刀功 #109054 (29800 破招 无双)": {
                     "id": 109054,
                     "name": "凌晓御厨腰带·刀功 ",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22100,6 +24185,9 @@ EQUIPMENTS = {
                 "牧川·缥缈护腰#106724 (35300 会心 无双)": {
                     "id": 106724,
                     "name": "牧川·缥缈护腰",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22144,6 +24232,9 @@ EQUIPMENTS = {
                 "天极·裂海腰带#104705 (30200 会心 无双)": {
                     "id": 104705,
                     "name": "天极·裂海腰带",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22188,6 +24279,9 @@ EQUIPMENTS = {
                 "沧波御厨腰带·刀功 #109053 (29800 破招 无双)": {
                     "id": 109053,
                     "name": "沧波御厨腰带·刀功 ",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22227,6 +24321,9 @@ EQUIPMENTS = {
                 "牧川·锁钥护腰#106723 (35300 会心 无双)": {
                     "id": 106723,
                     "name": "牧川·锁钥护腰",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22271,6 +24368,9 @@ EQUIPMENTS = {
                 "天极·雷壑腰带#104704 (30200 会心 无双)": {
                     "id": 104704,
                     "name": "天极·雷壑腰带",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22315,6 +24415,9 @@ EQUIPMENTS = {
                 "傲寒御厨腰带·刀功 #109052 (29800 破招 无双)": {
                     "id": 109052,
                     "name": "傲寒御厨腰带·刀功 ",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22354,6 +24457,9 @@ EQUIPMENTS = {
                 "牧川·嘉名护腰#106722 (35300 会心)": {
                     "id": 106722,
                     "name": "牧川·嘉名护腰",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22396,6 +24502,9 @@ EQUIPMENTS = {
                 "天极·抚世腰带#104703 (30200 会心)": {
                     "id": 104703,
                     "name": "天极·抚世腰带",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22438,6 +24547,9 @@ EQUIPMENTS = {
                 "古意御厨腰带·水煮#109051 (29800 会心)": {
                     "id": 109051,
                     "name": "古意御厨腰带·水煮",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22474,6 +24586,9 @@ EQUIPMENTS = {
                 "牧川·独声护腰#106721 (35300 会心 无双)": {
                     "id": 106721,
                     "name": "牧川·独声护腰",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22518,6 +24633,9 @@ EQUIPMENTS = {
                 "天极·叹古腰带#104702 (30200 会心 无双)": {
                     "id": 104702,
                     "name": "天极·叹古腰带",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22562,6 +24680,9 @@ EQUIPMENTS = {
                 "古意御厨腰带·火候#109050 (29800 破招 无双)": {
                     "id": 109050,
                     "name": "古意御厨腰带·火候",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22601,6 +24722,9 @@ EQUIPMENTS = {
                 "牧川·仞横护腰#106720 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106720,
                     "name": "牧川·仞横护腰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22643,6 +24767,9 @@ EQUIPMENTS = {
                 "天极·铸铁腰带#104701 (30200 外防 御劲 无双)": {
                     "id": 104701,
                     "name": "天极·铸铁腰带",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22683,6 +24810,9 @@ EQUIPMENTS = {
                 "塞雪御厨腰带·清蒸#109049 (29800 外防 内防 加速 御劲 无双)": {
                     "id": 109049,
                     "name": "塞雪御厨腰带·清蒸",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22720,6 +24850,9 @@ EQUIPMENTS = {
                 "牧川·秋塞护腰#106719 (35300 会心 无双)": {
                     "id": 106719,
                     "name": "牧川·秋塞护腰",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22764,6 +24897,9 @@ EQUIPMENTS = {
                 "天极·风旗腰带#104700 (30200 会心 无双)": {
                     "id": 104700,
                     "name": "天极·风旗腰带",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22808,6 +24944,9 @@ EQUIPMENTS = {
                 "塞雪御厨腰带·刀工#109048 (29800 破招 无双)": {
                     "id": 109048,
                     "name": "塞雪御厨腰带·刀工",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22847,6 +24986,9 @@ EQUIPMENTS = {
                 "牧川·长燃护腰#106718 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106718,
                     "name": "牧川·长燃护腰",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -22889,6 +25031,9 @@ EQUIPMENTS = {
                 "天极·燃浊腰带#104699 (30200 外防 御劲 无双)": {
                     "id": 104699,
                     "name": "天极·燃浊腰带",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -22929,6 +25074,9 @@ EQUIPMENTS = {
                 "妙火御厨腰带·清蒸#109047 (29800 外防 内防 加速 御劲 无双)": {
                     "id": 109047,
                     "name": "妙火御厨腰带·清蒸",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -22966,6 +25114,9 @@ EQUIPMENTS = {
                 "牧川·明沙护腰#106717 (35300 会心 无双)": {
                     "id": 106717,
                     "name": "牧川·明沙护腰",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23009,6 +25160,9 @@ EQUIPMENTS = {
                 "天极·月刃腰带#104698 (30200 会心 无双)": {
                     "id": 104698,
                     "name": "天极·月刃腰带",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23052,6 +25206,9 @@ EQUIPMENTS = {
                 "妙火御厨腰带·火候#109046 (29800 破招 无双)": {
                     "id": 109046,
                     "name": "妙火御厨腰带·火候",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23091,6 +25248,9 @@ EQUIPMENTS = {
                 "牧川·腾泽护腰#106716 (35300 会心 无双)": {
                     "id": 106716,
                     "name": "牧川·腾泽护腰",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23134,6 +25294,9 @@ EQUIPMENTS = {
                 "天极·醉云腰带#104697 (30200 会心 无双)": {
                     "id": 104697,
                     "name": "天极·醉云腰带",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23177,6 +25340,9 @@ EQUIPMENTS = {
                 "醉梦逍遥腰带·刀功#109045 (29800 破招 无双)": {
                     "id": 109045,
                     "name": "醉梦逍遥腰带·刀功",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23216,6 +25382,9 @@ EQUIPMENTS = {
                 "牧川·拂梅护腰#106715 (35300 会心 无双)": {
                     "id": 106715,
                     "name": "牧川·拂梅护腰",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23259,6 +25428,9 @@ EQUIPMENTS = {
                 "天极·听荷腰带#104696 (30200 会心 无双)": {
                     "id": 104696,
                     "name": "天极·听荷腰带",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23302,6 +25474,9 @@ EQUIPMENTS = {
                 "至尊御厨腰带·刀功#109044 (29800 破招 无双)": {
                     "id": 109044,
                     "name": "至尊御厨腰带·刀功",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23341,6 +25516,9 @@ EQUIPMENTS = {
                 "牧川·破雾护腰#106714 (35300 会心 无双)": {
                     "id": 106714,
                     "name": "牧川·破雾护腰",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23385,6 +25563,9 @@ EQUIPMENTS = {
                 "天极·隐机腰带#104695 (30200 会心 无双)": {
                     "id": 104695,
                     "name": "天极·隐机腰带",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23429,6 +25610,9 @@ EQUIPMENTS = {
                 "蜀月御厨腰带·刀功#109043 (29800 破招 无双)": {
                     "id": 109043,
                     "name": "蜀月御厨腰带·刀功",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23466,6 +25650,9 @@ EQUIPMENTS = {
                 "牧川·振羽护腰#106713 (35300 会心 无双)": {
                     "id": 106713,
                     "name": "牧川·振羽护腰",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23510,6 +25697,9 @@ EQUIPMENTS = {
                 "天极·锁幽腰带#104694 (30200 会心 无双)": {
                     "id": 104694,
                     "name": "天极·锁幽腰带",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23554,6 +25744,9 @@ EQUIPMENTS = {
                 "蜀月御厨腰带·火候#109042 (29800 破招 无双)": {
                     "id": 109042,
                     "name": "蜀月御厨腰带·火候",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23593,6 +25786,9 @@ EQUIPMENTS = {
                 "牧川·织天护腰#106712 (35300 )": {
                     "id": 106712,
                     "name": "牧川·织天护腰",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23633,6 +25829,9 @@ EQUIPMENTS = {
                 "天极·引魂腰带#104693 (30200 )": {
                     "id": 104693,
                     "name": "天极·引魂腰带",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23673,6 +25872,9 @@ EQUIPMENTS = {
                 "瑶星御厨腰带·水煮#109041 (29800 会心)": {
                     "id": 109041,
                     "name": "瑶星御厨腰带·水煮",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23709,6 +25911,9 @@ EQUIPMENTS = {
                 "牧川·噬梦护腰#106711 (35300 会心 无双)": {
                     "id": 106711,
                     "name": "牧川·噬梦护腰",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23753,6 +25958,9 @@ EQUIPMENTS = {
                 "天极·缠心腰带#104692 (30200 会心 无双)": {
                     "id": 104692,
                     "name": "天极·缠心腰带",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23797,6 +26005,9 @@ EQUIPMENTS = {
                 "瑶星御厨腰带·火候#109040 (29800 破招 无双)": {
                     "id": 109040,
                     "name": "瑶星御厨腰带·火候",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23836,6 +26047,9 @@ EQUIPMENTS = {
                 "牧川·裳影护腰#106710 (35300 会心)": {
                     "id": 106710,
                     "name": "牧川·裳影护腰",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23877,6 +26091,9 @@ EQUIPMENTS = {
                 "天极·转莲腰带#104691 (30200 会心)": {
                     "id": 104691,
                     "name": "天极·转莲腰带",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -23918,6 +26135,9 @@ EQUIPMENTS = {
                 "霓裳御厨腰带·水煮#109039 (29800 会心)": {
                     "id": 109039,
                     "name": "霓裳御厨腰带·水煮",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -23954,6 +26174,9 @@ EQUIPMENTS = {
                 "牧川·澄江护腰#106709 (35300 会心 无双)": {
                     "id": 106709,
                     "name": "牧川·澄江护腰",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -23997,6 +26220,9 @@ EQUIPMENTS = {
                 "天极·独明腰带#104690 (30200 会心 无双)": {
                     "id": 104690,
                     "name": "天极·独明腰带",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24040,6 +26266,9 @@ EQUIPMENTS = {
                 "霓裳御厨腰带·火候#109038 (29800 破招 无双)": {
                     "id": 109038,
                     "name": "霓裳御厨腰带·火候",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24079,6 +26308,9 @@ EQUIPMENTS = {
                 "牧川·澄泓护腰#106708 (35300 会心 无双)": {
                     "id": 106708,
                     "name": "牧川·澄泓护腰",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24122,6 +26354,9 @@ EQUIPMENTS = {
                 "天极·忘归腰带#104689 (30200 会心 无双)": {
                     "id": 104689,
                     "name": "天极·忘归腰带",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24165,6 +26400,9 @@ EQUIPMENTS = {
                 "灵虚御厨腰带·刀功#109037 (29800 破招 无双)": {
                     "id": 109037,
                     "name": "灵虚御厨腰带·刀功",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24202,6 +26440,9 @@ EQUIPMENTS = {
                 "牧川·观潭护腰#106707 (35300 会心 无双)": {
                     "id": 106707,
                     "name": "牧川·观潭护腰",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24246,6 +26487,9 @@ EQUIPMENTS = {
                 "天极·截云腰带#104688 (30200 会心 无双)": {
                     "id": 104688,
                     "name": "天极·截云腰带",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24290,6 +26534,9 @@ EQUIPMENTS = {
                 "灵虚御厨腰带·火候#109036 (29800 破招 无双)": {
                     "id": 109036,
                     "name": "灵虚御厨腰带·火候",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24329,6 +26576,9 @@ EQUIPMENTS = {
                 "牧川·千山护腰#106706 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106706,
                     "name": "牧川·千山护腰",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24371,6 +26621,9 @@ EQUIPMENTS = {
                 "天极·截岳腰带#104687 (30200 外防 御劲 无双)": {
                     "id": 104687,
                     "name": "天极·截岳腰带",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24411,6 +26664,9 @@ EQUIPMENTS = {
                 "御赐御厨腰带·生煎#109035 (29800 外防 内防 加速 御劲 无双)": {
                     "id": 109035,
                     "name": "御赐御厨腰带·生煎",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24448,6 +26704,9 @@ EQUIPMENTS = {
                 "牧川·餐虏护腰#106705 (35300 会心 无双)": {
                     "id": 106705,
                     "name": "牧川·餐虏护腰",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24491,6 +26750,9 @@ EQUIPMENTS = {
                 "天极·血旌腰带#104686 (30200 会心 无双)": {
                     "id": 104686,
                     "name": "天极·血旌腰带",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24534,6 +26796,9 @@ EQUIPMENTS = {
                 "御赐御厨腰带·刀功#109034 (29800 破招 无双)": {
                     "id": 109034,
                     "name": "御赐御厨腰带·刀功",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24573,6 +26838,9 @@ EQUIPMENTS = {
                 "牧川·春燕护腰#106704 (35300 会心)": {
                     "id": 106704,
                     "name": "牧川·春燕护腰",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24614,6 +26882,9 @@ EQUIPMENTS = {
                 "天极·清画腰带#104685 (30200 会心)": {
                     "id": 104685,
                     "name": "天极·清画腰带",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24655,6 +26926,9 @@ EQUIPMENTS = {
                 "翡翠御厨腰带·水煮#109033 (29800 会心)": {
                     "id": 109033,
                     "name": "翡翠御厨腰带·水煮",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24691,6 +26965,9 @@ EQUIPMENTS = {
                 "牧川·夜茗护腰#106703 (35300 会心 无双)": {
                     "id": 106703,
                     "name": "牧川·夜茗护腰",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24735,6 +27012,9 @@ EQUIPMENTS = {
                 "天极·砚书腰带#104684 (30200 会心 无双)": {
                     "id": 104684,
                     "name": "天极·砚书腰带",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24779,6 +27059,9 @@ EQUIPMENTS = {
                 "翡翠御厨腰带·火候#109032 (29800 破招 无双)": {
                     "id": 109032,
                     "name": "翡翠御厨腰带·火候",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24818,6 +27101,9 @@ EQUIPMENTS = {
                 "牧川·斥魔护腰#106702 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106702,
                     "name": "牧川·斥魔护腰",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24862,6 +27148,9 @@ EQUIPMENTS = {
                 "天极·梵劫腰带#104683 (30200 内防 御劲 无双)": {
                     "id": 104683,
                     "name": "天极·梵劫腰带",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -24904,6 +27193,9 @@ EQUIPMENTS = {
                 "菩提御厨腰带·清蒸#109031 (29800 外防 内防 加速 御劲 无双)": {
                     "id": 109031,
                     "name": "菩提御厨腰带·清蒸",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -24941,6 +27233,9 @@ EQUIPMENTS = {
                 "牧川·真宇护腰#106701 (35300 会心 无双)": {
                     "id": 106701,
                     "name": "牧川·真宇护腰",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 35300,
                     "score": 44478,
                     "max_strength": 6,
@@ -24985,6 +27280,9 @@ EQUIPMENTS = {
                 "天极·怒相腰带#104682 (30200 会心 无双)": {
                     "id": 104682,
                     "name": "天极·怒相腰带",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 30200,
                     "score": 38052,
                     "max_strength": 6,
@@ -25029,6 +27327,9 @@ EQUIPMENTS = {
                 "菩提御厨腰带·火候#109030 (29800 破招 无双)": {
                     "id": 109030,
                     "name": "菩提御厨腰带·火候",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "belt",
                     "level": 29800,
                     "score": 37548,
                     "max_strength": 6,
@@ -25070,6 +27371,9 @@ EQUIPMENTS = {
                 "江瀚帽#107041 (35900 内防 加速 破招 御劲 无双)": {
                     "id": 107041,
                     "name": "江瀚帽",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35900,
                     "score": 58158,
                     "max_strength": 6,
@@ -25112,6 +27416,9 @@ EQUIPMENTS = {
                 "长关帽#107143 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 107143,
                     "name": "长关帽",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25138,6 +27445,9 @@ EQUIPMENTS = {
                 "客行江湖·嵯峨帽#107065 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 107065,
                     "name": "客行江湖·嵯峨帽",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25165,6 +27475,9 @@ EQUIPMENTS = {
                 "穹石冠#106894 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106894,
                     "name": "穹石冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25192,6 +27505,9 @@ EQUIPMENTS = {
                 "洪涌冠#106858 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106858,
                     "name": "洪涌冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25219,6 +27535,9 @@ EQUIPMENTS = {
                 "月钟冠#104997 (30700 内防 御劲 无双)": {
                     "id": 104997,
                     "name": "月钟冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30700,
                     "score": 49734,
                     "max_strength": 6,
@@ -25259,6 +27578,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏帽#108247 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 108247,
                     "name": "孤城惊梦·昂藏帽",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25285,6 +27607,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·横关冠#106662 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 106662,
                     "name": "寻踪觅宝·横关冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25329,6 +27654,9 @@ EQUIPMENTS = {
                 "坠欢帽#105099 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 105099,
                     "name": "坠欢帽",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25355,6 +27683,9 @@ EQUIPMENTS = {
                 "客行江湖·常盛冠#105021 (30200 内防 御劲 无双)": {
                     "id": 105021,
                     "name": "客行江湖·常盛冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25380,6 +27711,9 @@ EQUIPMENTS = {
                 "登科冠#104871 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104871,
                     "name": "登科冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25407,6 +27741,9 @@ EQUIPMENTS = {
                 "三元冠#104835 (30200 外防 御劲 无双)": {
                     "id": 104835,
                     "name": "三元冠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25434,6 +27771,9 @@ EQUIPMENTS = {
                 "江流帽#107040 (35900 )": {
                     "id": 107040,
                     "name": "江流帽",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35900,
                     "score": 58158,
                     "max_strength": 6,
@@ -25473,6 +27813,9 @@ EQUIPMENTS = {
                 "长溪帽#107142 (35300 加速)": {
                     "id": 107142,
                     "name": "长溪帽",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25498,6 +27841,9 @@ EQUIPMENTS = {
                 "客行江湖·寒调帽#107064 (35300 会心)": {
                     "id": 107064,
                     "name": "客行江湖·寒调帽",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25523,6 +27869,9 @@ EQUIPMENTS = {
                 "仁心冠#106893 (35300 加速)": {
                     "id": 106893,
                     "name": "仁心冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25548,6 +27897,9 @@ EQUIPMENTS = {
                 "拂煦冠#106857 (35300 会心)": {
                     "id": 106857,
                     "name": "拂煦冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25573,6 +27925,9 @@ EQUIPMENTS = {
                 "月柳冠#104996 (30700 )": {
                     "id": 104996,
                     "name": "月柳冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30700,
                     "score": 49734,
                     "max_strength": 6,
@@ -25612,6 +27967,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥帽#108246 (30200 加速)": {
                     "id": 108246,
                     "name": "孤城惊梦·青泥帽",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25637,6 +27995,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·妙意冠#106661 (30200 )": {
                     "id": 106661,
                     "name": "寻踪觅宝·妙意冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25679,6 +28040,9 @@ EQUIPMENTS = {
                 "坠月帽#105098 (30200 加速)": {
                     "id": 105098,
                     "name": "坠月帽",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25704,6 +28068,9 @@ EQUIPMENTS = {
                 "客行江湖·清赏冠#105020 (30200 会心)": {
                     "id": 105020,
                     "name": "客行江湖·清赏冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25729,6 +28096,9 @@ EQUIPMENTS = {
                 "折桂冠#104870 (30200 加速)": {
                     "id": 104870,
                     "name": "折桂冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25754,6 +28124,9 @@ EQUIPMENTS = {
                 "风檐冠#104834 (30200 会心)": {
                     "id": 104834,
                     "name": "风檐冠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25781,6 +28154,9 @@ EQUIPMENTS = {
                 "江舟帽#107039 (35900 破招 无双)": {
                     "id": 107039,
                     "name": "江舟帽",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 35900,
                     "score": 58158,
                     "max_strength": 6,
@@ -25822,6 +28198,9 @@ EQUIPMENTS = {
                 "蒙鸠帽#107141 (35300 破招 无双)": {
                     "id": 107141,
                     "name": "蒙鸠帽",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25848,6 +28227,9 @@ EQUIPMENTS = {
                 "客行江湖·离帆帽#107063 (35300 破招 无双)": {
                     "id": 107063,
                     "name": "客行江湖·离帆帽",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25874,6 +28256,9 @@ EQUIPMENTS = {
                 "晚风冠#106892 (35300 加速 无双)": {
                     "id": 106892,
                     "name": "晚风冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25900,6 +28285,9 @@ EQUIPMENTS = {
                 "天风冠#106856 (35300 会心 无双)": {
                     "id": 106856,
                     "name": "天风冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -25926,6 +28314,9 @@ EQUIPMENTS = {
                 "月霭冠#104995 (30700 破招 无双)": {
                     "id": 104995,
                     "name": "月霭冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30700,
                     "score": 49734,
                     "max_strength": 6,
@@ -25967,6 +28358,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟帽#108245 (30200 会心 无双)": {
                     "id": 108245,
                     "name": "孤城惊梦·迷烟帽",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -25993,6 +28387,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·逸群冠#106660 (30200 会心 无双)": {
                     "id": 106660,
                     "name": "寻踪觅宝·逸群冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26037,6 +28434,9 @@ EQUIPMENTS = {
                 "坠红帽#105097 (30200 破招 无双)": {
                     "id": 105097,
                     "name": "坠红帽",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26063,6 +28463,9 @@ EQUIPMENTS = {
                 "客行江湖·日斜冠#105019 (30200 破招 无双)": {
                     "id": 105019,
                     "name": "客行江湖·日斜冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26089,6 +28492,9 @@ EQUIPMENTS = {
                 "标雁冠#104869 (30200 加速 无双)": {
                     "id": 104869,
                     "name": "标雁冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26115,6 +28521,9 @@ EQUIPMENTS = {
                 "问殿冠#104833 (30200 会心 无双)": {
                     "id": 104833,
                     "name": "问殿冠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26143,6 +28552,9 @@ EQUIPMENTS = {
                 "江涛帽#107038 (35900 破招 无双)": {
                     "id": 107038,
                     "name": "江涛帽",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 35900,
                     "score": 58158,
                     "max_strength": 6,
@@ -26184,6 +28596,9 @@ EQUIPMENTS = {
                 "长山帽#107140 (35300 破招 无双)": {
                     "id": 107140,
                     "name": "长山帽",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26210,6 +28625,9 @@ EQUIPMENTS = {
                 "客行江湖·孤馆帽#107062 (35300 破招 无双)": {
                     "id": 107062,
                     "name": "客行江湖·孤馆帽",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26236,6 +28654,9 @@ EQUIPMENTS = {
                 "震烁冠#106891 (35300 加速 无双)": {
                     "id": 106891,
                     "name": "震烁冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26262,6 +28683,9 @@ EQUIPMENTS = {
                 "断霄冠#106855 (35300 会心 无双)": {
                     "id": 106855,
                     "name": "断霄冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26288,6 +28712,9 @@ EQUIPMENTS = {
                 "月溪冠#104994 (30700 破招 无双)": {
                     "id": 104994,
                     "name": "月溪冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30700,
                     "score": 49734,
                     "max_strength": 6,
@@ -26329,6 +28756,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河帽#108244 (30200 会心 无双)": {
                     "id": 108244,
                     "name": "孤城惊梦·浊河帽",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26355,6 +28785,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·遒劲冠#106659 (30200 会心 无双)": {
                     "id": 106659,
                     "name": "寻踪觅宝·遒劲冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26399,6 +28832,9 @@ EQUIPMENTS = {
                 "坠雨帽#105096 (30200 破招 无双)": {
                     "id": 105096,
                     "name": "坠雨帽",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26425,6 +28861,9 @@ EQUIPMENTS = {
                 "客行江湖·山隈冠#105018 (30200 破招 无双)": {
                     "id": 105018,
                     "name": "客行江湖·山隈冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26451,6 +28890,9 @@ EQUIPMENTS = {
                 "寒窗冠#104868 (30200 加速 无双)": {
                     "id": 104868,
                     "name": "寒窗冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26477,6 +28919,9 @@ EQUIPMENTS = {
                 "礼闱冠#104832 (30200 会心 无双)": {
                     "id": 104832,
                     "name": "礼闱冠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26505,6 +28950,9 @@ EQUIPMENTS = {
                 "江横帽#107037 (35900 破招 无双)": {
                     "id": 107037,
                     "name": "江横帽",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 35900,
                     "score": 58158,
                     "max_strength": 6,
@@ -26546,6 +28994,9 @@ EQUIPMENTS = {
                 "长日帽#107139 (35300 破招 无双)": {
                     "id": 107139,
                     "name": "长日帽",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26572,6 +29023,9 @@ EQUIPMENTS = {
                 "客行江湖·阳关帽#107061 (35300 破招 无双)": {
                     "id": 107061,
                     "name": "客行江湖·阳关帽",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26598,6 +29052,9 @@ EQUIPMENTS = {
                 "河汉冠#106890 (35300 加速 无双)": {
                     "id": 106890,
                     "name": "河汉冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26624,6 +29081,9 @@ EQUIPMENTS = {
                 "骀荡冠#106854 (35300 会心 无双)": {
                     "id": 106854,
                     "name": "骀荡冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26650,6 +29110,9 @@ EQUIPMENTS = {
                 "月声冠#104993 (30700 破招 无双)": {
                     "id": 104993,
                     "name": "月声冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30700,
                     "score": 49734,
                     "max_strength": 6,
@@ -26691,6 +29154,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡帽#108243 (30200 会心 无双)": {
                     "id": 108243,
                     "name": "孤城惊梦·萦纡帽",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26717,6 +29183,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·沛然冠#106658 (30200 会心 无双)": {
                     "id": 106658,
                     "name": "寻踪觅宝·沛然冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26761,6 +29230,9 @@ EQUIPMENTS = {
                 "坠露帽#105095 (30200 破招 无双)": {
                     "id": 105095,
                     "name": "坠露帽",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26787,6 +29259,9 @@ EQUIPMENTS = {
                 "客行江湖·新圃冠#105017 (30200 破招 无双)": {
                     "id": 105017,
                     "name": "客行江湖·新圃冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26813,6 +29288,9 @@ EQUIPMENTS = {
                 "云路冠#104867 (30200 加速 无双)": {
                     "id": 104867,
                     "name": "云路冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26839,6 +29317,9 @@ EQUIPMENTS = {
                 "封名冠#104831 (30200 会心 无双)": {
                     "id": 104831,
                     "name": "封名冠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -26867,6 +29348,9 @@ EQUIPMENTS = {
                 "江离帽#107036 (35900 破招 无双)": {
                     "id": 107036,
                     "name": "江离帽",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 35900,
                     "score": 58158,
                     "max_strength": 6,
@@ -26908,6 +29392,9 @@ EQUIPMENTS = {
                 "长留帽#107138 (35300 破招 无双)": {
                     "id": 107138,
                     "name": "长留帽",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26934,6 +29421,9 @@ EQUIPMENTS = {
                 "客行江湖·歧路帽#107060 (35300 破招 无双)": {
                     "id": 107060,
                     "name": "客行江湖·歧路帽",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26960,6 +29450,9 @@ EQUIPMENTS = {
                 "椒丘冠#106889 (35300 加速 无双)": {
                     "id": 106889,
                     "name": "椒丘冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -26986,6 +29479,9 @@ EQUIPMENTS = {
                 "香丹冠#106853 (35300 会心 无双)": {
                     "id": 106853,
                     "name": "香丹冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27012,6 +29508,9 @@ EQUIPMENTS = {
                 "月涛冠#104992 (30700 破招 无双)": {
                     "id": 104992,
                     "name": "月涛冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30700,
                     "score": 49734,
                     "max_strength": 6,
@@ -27053,6 +29552,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏帽#108242 (30200 会心 无双)": {
                     "id": 108242,
                     "name": "孤城惊梦·萧疏帽",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27079,6 +29581,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·绵邈冠#106657 (30200 会心 无双)": {
                     "id": 106657,
                     "name": "寻踪觅宝·绵邈冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27123,6 +29628,9 @@ EQUIPMENTS = {
                 "坠潮帽#105094 (30200 破招 无双)": {
                     "id": 105094,
                     "name": "坠潮帽",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27149,6 +29657,9 @@ EQUIPMENTS = {
                 "客行江湖·繁色冠#105016 (30200 破招 无双)": {
                     "id": 105016,
                     "name": "客行江湖·繁色冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27175,6 +29686,9 @@ EQUIPMENTS = {
                 "文曲冠#104866 (30200 加速 无双)": {
                     "id": 104866,
                     "name": "文曲冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27201,6 +29715,9 @@ EQUIPMENTS = {
                 "论策冠#104830 (30200 会心 无双)": {
                     "id": 104830,
                     "name": "论策冠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27231,6 +29748,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107107 (35300 精简 特效 会心 破防 无双)": {
                     "id": 107107,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27259,6 +29779,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107106 (35300 精简 特效 会心 破招 无双)": {
                     "id": 107106,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27287,6 +29810,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107105 (35300 精简 特效 会心 无双)": {
                     "id": 107105,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27314,6 +29840,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107083 (35300 精简 特效 会心 破防 无双)": {
                     "id": 107083,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27342,6 +29871,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107082 (35300 精简 特效 会心 破招 无双)": {
                     "id": 107082,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27370,6 +29902,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107081 (35300 精简 特效 会心 无双)": {
                     "id": 107081,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27397,6 +29932,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107095 (32500 精简 特效 会心 破防 无双)": {
                     "id": 107095,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -27425,6 +29963,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107094 (32500 精简 特效 会心 无双)": {
                     "id": 107094,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -27452,6 +29993,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107093 (32500 精简 特效 无双)": {
                     "id": 107093,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -27478,6 +30022,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107071 (32500 精简 特效 会心 破防 无双)": {
                     "id": 107071,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -27506,6 +30053,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107070 (32500 精简 特效 会心 无双)": {
                     "id": 107070,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -27533,6 +30083,9 @@ EQUIPMENTS = {
                 "无修冠·外·地#107069 (32500 精简 特效 无双)": {
                     "id": 107069,
                     "name": "无修冠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -27559,6 +30112,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105063 (30200 精简 特效 会心 破招 无双)": {
                     "id": 105063,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27587,6 +30143,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105062 (30200 精简 特效 会心 会效 无双)": {
                     "id": 105062,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27615,6 +30174,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105061 (30200 精简 特效 破防 无双)": {
                     "id": 105061,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27642,6 +30204,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105039 (30200 精简 特效 会心 破招 无双)": {
                     "id": 105039,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27670,6 +30235,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105038 (30200 精简 特效 会心 会效 无双)": {
                     "id": 105038,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27698,6 +30266,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105037 (30200 精简 特效 破防 无双)": {
                     "id": 105037,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -27725,6 +30296,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105051 (28000 精简 特效 会心 破防 无双)": {
                     "id": 105051,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -27753,6 +30327,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105050 (28000 精简 特效 会心 破招 无双)": {
                     "id": 105050,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -27781,6 +30358,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105049 (28000 精简 特效 会心 无双)": {
                     "id": 105049,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -27808,6 +30388,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105027 (28000 精简 特效 会心 破防 无双)": {
                     "id": 105027,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -27836,6 +30419,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105026 (28000 精简 特效 会心 破招 无双)": {
                     "id": 105026,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -27864,6 +30450,9 @@ EQUIPMENTS = {
                 "无修冠·外·玄#105025 (28000 精简 特效 会心 无双)": {
                     "id": 105025,
                     "name": "无修冠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -27893,6 +30482,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107104 (35300 精简 特效 会心 破防 无双)": {
                     "id": 107104,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27921,6 +30513,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107103 (35300 精简 特效 会心 破招 无双)": {
                     "id": 107103,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27949,6 +30544,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107102 (35300 精简 特效 会心 无双)": {
                     "id": 107102,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -27976,6 +30574,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107080 (35300 精简 特效 会心 破防 无双)": {
                     "id": 107080,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28004,6 +30605,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107079 (35300 精简 特效 会心 破招 无双)": {
                     "id": 107079,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28032,6 +30636,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107078 (35300 精简 特效 会心 无双)": {
                     "id": 107078,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28059,6 +30666,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107092 (32500 精简 特效 会心 破防 无双)": {
                     "id": 107092,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -28087,6 +30697,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107091 (32500 精简 特效 会心 无双)": {
                     "id": 107091,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -28114,6 +30727,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107090 (32500 精简 特效 无双)": {
                     "id": 107090,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -28140,6 +30756,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107068 (32500 精简 特效 会心 破防 无双)": {
                     "id": 107068,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -28168,6 +30787,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107067 (32500 精简 特效 会心 无双)": {
                     "id": 107067,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -28195,6 +30817,9 @@ EQUIPMENTS = {
                 "无修冠·内·地#107066 (32500 精简 特效 无双)": {
                     "id": 107066,
                     "name": "无修冠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 32500,
                     "score": 52650,
                     "max_strength": 6,
@@ -28221,6 +30846,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105060 (30200 精简 特效 会心 破招 无双)": {
                     "id": 105060,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28249,6 +30877,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105059 (30200 精简 特效 会心 会效 无双)": {
                     "id": 105059,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28277,6 +30908,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105058 (30200 精简 特效 破防 无双)": {
                     "id": 105058,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28304,6 +30938,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105036 (30200 精简 特效 会心 破招 无双)": {
                     "id": 105036,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28332,6 +30969,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105035 (30200 精简 特效 会心 会效 无双)": {
                     "id": 105035,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28360,6 +31000,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105034 (30200 精简 特效 破防 无双)": {
                     "id": 105034,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28387,6 +31030,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105048 (28000 精简 特效 会心 破防 无双)": {
                     "id": 105048,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28415,6 +31061,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105047 (28000 精简 特效 会心 破招 无双)": {
                     "id": 105047,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28443,6 +31092,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105046 (28000 精简 特效 会心 无双)": {
                     "id": 105046,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28470,6 +31122,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105024 (28000 精简 特效 会心 破防 无双)": {
                     "id": 105024,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28498,6 +31153,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105023 (28000 精简 特效 会心 破招 无双)": {
                     "id": 105023,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28526,6 +31184,9 @@ EQUIPMENTS = {
                 "无修冠·内·玄#105022 (28000 精简 特效 会心 无双)": {
                     "id": 105022,
                     "name": "无修冠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28557,6 +31218,9 @@ EQUIPMENTS = {
                 "牧川·牵傀冠#106796 (35300 破防 无双)": {
                     "id": 106796,
                     "name": "牧川·牵傀冠",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28601,6 +31265,9 @@ EQUIPMENTS = {
                 "天极·归帆冠#108611 (30200 破防 无双)": {
                     "id": 108611,
                     "name": "天极·归帆冠",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28645,6 +31312,9 @@ EQUIPMENTS = {
                 "缚罗帽#108657 (28000 会心 无双)": {
                     "id": 108657,
                     "name": "缚罗帽",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 28000,
                     "score": 45360,
                     "max_strength": 6,
@@ -28690,6 +31360,9 @@ EQUIPMENTS = {
                 "牧川·皑雪冠#106795 (35300 破防 无双)": {
                     "id": 106795,
                     "name": "牧川·皑雪冠",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28733,6 +31406,9 @@ EQUIPMENTS = {
                 "天极·云胜冠#104774 (30200 破防 无双)": {
                     "id": 104774,
                     "name": "天极·云胜冠",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28780,6 +31456,9 @@ EQUIPMENTS = {
                 "牧川·快秋冠#106794 (35300 破防 无双)": {
                     "id": 106794,
                     "name": "牧川·快秋冠",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28823,6 +31502,9 @@ EQUIPMENTS = {
                 "天极·意悠冠#104773 (30200 破防 无双)": {
                     "id": 104773,
                     "name": "天极·意悠冠",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28870,6 +31552,9 @@ EQUIPMENTS = {
                 "牧川·暝霭冠#106793 (35300 破防 无双)": {
                     "id": 106793,
                     "name": "牧川·暝霭冠",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -28913,6 +31598,9 @@ EQUIPMENTS = {
                 "天极·斩妄冠#104772 (30200 破防 无双)": {
                     "id": 104772,
                     "name": "天极·斩妄冠",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -28960,6 +31648,9 @@ EQUIPMENTS = {
                 "牧川·刀圭冠#106792 (35300 )": {
                     "id": 106792,
                     "name": "牧川·刀圭冠",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29000,6 +31691,9 @@ EQUIPMENTS = {
                 "天极·续木冠#104771 (30200 )": {
                     "id": 104771,
                     "name": "天极·续木冠",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29042,6 +31736,9 @@ EQUIPMENTS = {
                 "牧川·裁柳冠#106791 (35300 破防 无双)": {
                     "id": 106791,
                     "name": "牧川·裁柳冠",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29086,6 +31783,9 @@ EQUIPMENTS = {
                 "天极·悬丝冠#104770 (30200 破防 无双)": {
                     "id": 104770,
                     "name": "天极·悬丝冠",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29134,6 +31834,9 @@ EQUIPMENTS = {
                 "牧川·遣星冠#106790 (35300 破防 无双)": {
                     "id": 106790,
                     "name": "牧川·遣星冠",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29178,6 +31881,9 @@ EQUIPMENTS = {
                 "天极·符烬冠#104769 (30200 破防 无双)": {
                     "id": 104769,
                     "name": "天极·符烬冠",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29226,6 +31932,9 @@ EQUIPMENTS = {
                 "牧川·未叹冠#106789 (35300 破防 无双)": {
                     "id": 106789,
                     "name": "牧川·未叹冠",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29270,6 +31979,9 @@ EQUIPMENTS = {
                 "天极·藏名冠#104768 (30200 破防 无双)": {
                     "id": 104768,
                     "name": "天极·藏名冠",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29318,6 +32030,9 @@ EQUIPMENTS = {
                 "牧川·缥缈冠#106788 (35300 破防 无双)": {
                     "id": 106788,
                     "name": "牧川·缥缈冠",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29362,6 +32077,9 @@ EQUIPMENTS = {
                 "天极·裂海冠#104767 (30200 破防 无双)": {
                     "id": 104767,
                     "name": "天极·裂海冠",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29410,6 +32128,9 @@ EQUIPMENTS = {
                 "牧川·锁钥冠#106787 (35300 破防 无双)": {
                     "id": 106787,
                     "name": "牧川·锁钥冠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29454,6 +32175,9 @@ EQUIPMENTS = {
                 "天极·雷壑冠#104766 (30200 破防 无双)": {
                     "id": 104766,
                     "name": "天极·雷壑冠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29502,6 +32226,9 @@ EQUIPMENTS = {
                 "牧川·嘉名冠#106786 (35300 )": {
                     "id": 106786,
                     "name": "牧川·嘉名冠",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29543,6 +32270,9 @@ EQUIPMENTS = {
                 "天极·抚世冠#104765 (30200 )": {
                     "id": 104765,
                     "name": "天极·抚世冠",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29586,6 +32316,9 @@ EQUIPMENTS = {
                 "牧川·独声冠#106785 (35300 破防 无双)": {
                     "id": 106785,
                     "name": "牧川·独声冠",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29630,6 +32363,9 @@ EQUIPMENTS = {
                 "天极·叹古冠#104764 (30200 破防 无双)": {
                     "id": 104764,
                     "name": "天极·叹古冠",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29678,6 +32414,9 @@ EQUIPMENTS = {
                 "牧川·仞横冠#106784 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106784,
                     "name": "牧川·仞横冠",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29720,6 +32459,9 @@ EQUIPMENTS = {
                 "天极·铸铁冠#104763 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104763,
                     "name": "天极·铸铁冠",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29764,6 +32506,9 @@ EQUIPMENTS = {
                 "牧川·秋塞冠#106783 (35300 破防 无双)": {
                     "id": 106783,
                     "name": "牧川·秋塞冠",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29808,6 +32553,9 @@ EQUIPMENTS = {
                 "天极·风旗冠#104762 (30200 破防 无双)": {
                     "id": 104762,
                     "name": "天极·风旗冠",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29856,6 +32604,9 @@ EQUIPMENTS = {
                 "牧川·长燃冠#106782 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106782,
                     "name": "牧川·长燃冠",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29898,6 +32649,9 @@ EQUIPMENTS = {
                 "天极·燃浊冠#104761 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104761,
                     "name": "天极·燃浊冠",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -29942,6 +32696,9 @@ EQUIPMENTS = {
                 "牧川·明沙冠#106781 (35300 破防 无双)": {
                     "id": 106781,
                     "name": "牧川·明沙冠",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -29985,6 +32742,9 @@ EQUIPMENTS = {
                 "天极·月刃冠#104760 (30200 破防 无双)": {
                     "id": 104760,
                     "name": "天极·月刃冠",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30032,6 +32792,9 @@ EQUIPMENTS = {
                 "牧川·腾泽冠#106780 (35300 破防 无双)": {
                     "id": 106780,
                     "name": "牧川·腾泽冠",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30075,6 +32838,9 @@ EQUIPMENTS = {
                 "天极·醉云冠#104759 (30200 破防 无双)": {
                     "id": 104759,
                     "name": "天极·醉云冠",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30122,6 +32888,9 @@ EQUIPMENTS = {
                 "牧川·拂梅冠#106779 (35300 破防 无双)": {
                     "id": 106779,
                     "name": "牧川·拂梅冠",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30165,6 +32934,9 @@ EQUIPMENTS = {
                 "天极·听荷冠#104758 (30200 破防 无双)": {
                     "id": 104758,
                     "name": "天极·听荷冠",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30212,6 +32984,9 @@ EQUIPMENTS = {
                 "牧川·破雾冠#106778 (35300 破防 无双)": {
                     "id": 106778,
                     "name": "牧川·破雾冠",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30256,6 +33031,9 @@ EQUIPMENTS = {
                 "天极·隐机冠#104757 (30200 破防 无双)": {
                     "id": 104757,
                     "name": "天极·隐机冠",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30302,6 +33080,9 @@ EQUIPMENTS = {
                 "牧川·振羽冠#106777 (35300 破防 无双)": {
                     "id": 106777,
                     "name": "牧川·振羽冠",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30346,6 +33127,9 @@ EQUIPMENTS = {
                 "天极·锁幽冠#104756 (30200 破防 无双)": {
                     "id": 104756,
                     "name": "天极·锁幽冠",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30394,6 +33178,9 @@ EQUIPMENTS = {
                 "牧川·织天冠#106776 (35300 )": {
                     "id": 106776,
                     "name": "牧川·织天冠",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30434,6 +33221,9 @@ EQUIPMENTS = {
                 "天极·引魂冠#104755 (30200 )": {
                     "id": 104755,
                     "name": "天极·引魂冠",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30476,6 +33266,9 @@ EQUIPMENTS = {
                 "牧川·噬梦冠#106775 (35300 破防 无双)": {
                     "id": 106775,
                     "name": "牧川·噬梦冠",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30520,6 +33313,9 @@ EQUIPMENTS = {
                 "天极·缠心冠#104754 (30200 破防 无双)": {
                     "id": 104754,
                     "name": "天极·缠心冠",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30568,6 +33364,9 @@ EQUIPMENTS = {
                 "牧川·裳影冠#106774 (35300 )": {
                     "id": 106774,
                     "name": "牧川·裳影冠",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30608,6 +33407,9 @@ EQUIPMENTS = {
                 "天极·转莲冠#104753 (30200 )": {
                     "id": 104753,
                     "name": "天极·转莲冠",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30650,6 +33452,9 @@ EQUIPMENTS = {
                 "牧川·澄江冠#106773 (35300 破防 无双)": {
                     "id": 106773,
                     "name": "牧川·澄江冠",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30693,6 +33498,9 @@ EQUIPMENTS = {
                 "天极·独明冠#104752 (30200 破防 无双)": {
                     "id": 104752,
                     "name": "天极·独明冠",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30740,6 +33548,9 @@ EQUIPMENTS = {
                 "牧川·澄泓冠#106772 (35300 破防 无双)": {
                     "id": 106772,
                     "name": "牧川·澄泓冠",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30783,6 +33594,9 @@ EQUIPMENTS = {
                 "天极·忘归冠#104751 (30200 破防 无双)": {
                     "id": 104751,
                     "name": "天极·忘归冠",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30828,6 +33642,9 @@ EQUIPMENTS = {
                 "牧川·观潭冠#106771 (35300 破防 无双)": {
                     "id": 106771,
                     "name": "牧川·观潭冠",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30872,6 +33689,9 @@ EQUIPMENTS = {
                 "天极·截云冠#104750 (30200 破防 无双)": {
                     "id": 104750,
                     "name": "天极·截云冠",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -30920,6 +33740,9 @@ EQUIPMENTS = {
                 "牧川·千山冠#106770 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106770,
                     "name": "牧川·千山冠",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -30962,6 +33785,9 @@ EQUIPMENTS = {
                 "天极·截岳冠#104749 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104749,
                     "name": "天极·截岳冠",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -31006,6 +33832,9 @@ EQUIPMENTS = {
                 "牧川·餐虏冠#106769 (35300 破防 无双)": {
                     "id": 106769,
                     "name": "牧川·餐虏冠",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -31049,6 +33878,9 @@ EQUIPMENTS = {
                 "天极·血旌冠#104748 (30200 破防 无双)": {
                     "id": 104748,
                     "name": "天极·血旌冠",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -31096,6 +33928,9 @@ EQUIPMENTS = {
                 "牧川·春燕冠#106768 (35300 )": {
                     "id": 106768,
                     "name": "牧川·春燕冠",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -31136,6 +33971,9 @@ EQUIPMENTS = {
                 "天极·清画冠#104747 (30200 )": {
                     "id": 104747,
                     "name": "天极·清画冠",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -31178,6 +34016,9 @@ EQUIPMENTS = {
                 "牧川·夜茗冠#106767 (35300 破防 无双)": {
                     "id": 106767,
                     "name": "牧川·夜茗冠",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -31222,6 +34063,9 @@ EQUIPMENTS = {
                 "天极·砚书冠#104746 (30200 破防 无双)": {
                     "id": 104746,
                     "name": "天极·砚书冠",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -31270,6 +34114,9 @@ EQUIPMENTS = {
                 "牧川·斥魔冠#106766 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 106766,
                     "name": "牧川·斥魔冠",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -31313,6 +34160,9 @@ EQUIPMENTS = {
                 "天极·梵劫冠#104745 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 104745,
                     "name": "天极·梵劫冠",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -31358,6 +34208,9 @@ EQUIPMENTS = {
                 "牧川·真宇冠#106765 (35300 破防 无双)": {
                     "id": 106765,
                     "name": "牧川·真宇冠",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 35300,
                     "score": 57186,
                     "max_strength": 6,
@@ -31402,6 +34255,9 @@ EQUIPMENTS = {
                 "天极·怒相冠#104744 (30200 破防 无双)": {
                     "id": 104744,
                     "name": "天极·怒相冠",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "hat",
                     "level": 30200,
                     "score": 48924,
                     "max_strength": 6,
@@ -31452,6 +34308,9 @@ EQUIPMENTS = {
                 "江瀚衫#107047 (35900 外防 内防 加速 御劲 无双)": {
                     "id": 107047,
                     "name": "江瀚衫",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -31494,6 +34353,9 @@ EQUIPMENTS = {
                 "长关衫#107149 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 107149,
                     "name": "长关衫",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -31520,6 +34382,9 @@ EQUIPMENTS = {
                 "穹石衣#106900 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 106900,
                     "name": "穹石衣",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -31546,6 +34411,9 @@ EQUIPMENTS = {
                 "洪涌衣#106864 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106864,
                     "name": "洪涌衣",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -31572,6 +34440,9 @@ EQUIPMENTS = {
                 "月钟衣#105003 (30700 外防 内防 加速 御劲 无双)": {
                     "id": 105003,
                     "name": "月钟衣",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -31614,6 +34485,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏衫#108253 (30200 内防 加速 破招 御劲 无双)": {
                     "id": 108253,
                     "name": "孤城惊梦·昂藏衫",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31640,6 +34514,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·横关衣#106668 (30200 外防 加速 破招 御劲 无双)": {
                     "id": 106668,
                     "name": "寻踪觅宝·横关衣",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31684,6 +34561,9 @@ EQUIPMENTS = {
                 "坠欢衫#105105 (30200 内防 御劲 无双)": {
                     "id": 105105,
                     "name": "坠欢衫",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31708,6 +34588,9 @@ EQUIPMENTS = {
                 "登科衣#104877 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 104877,
                     "name": "登科衣",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31734,6 +34617,9 @@ EQUIPMENTS = {
                 "三元衣#104841 (30200 外防 御劲 无双)": {
                     "id": 104841,
                     "name": "三元衣",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31760,6 +34646,9 @@ EQUIPMENTS = {
                 "江流衫#107046 (35900 加速)": {
                     "id": 107046,
                     "name": "江流衫",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -31800,6 +34689,9 @@ EQUIPMENTS = {
                 "长溪衫#107148 (35300 )": {
                     "id": 107148,
                     "name": "长溪衫",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -31824,6 +34716,9 @@ EQUIPMENTS = {
                 "仁心衣#106899 (35300 加速)": {
                     "id": 106899,
                     "name": "仁心衣",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -31849,6 +34744,9 @@ EQUIPMENTS = {
                 "拂煦衣#106863 (35300 )": {
                     "id": 106863,
                     "name": "拂煦衣",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -31873,6 +34771,9 @@ EQUIPMENTS = {
                 "月柳衣#105002 (30700 加速)": {
                     "id": 105002,
                     "name": "月柳衣",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -31913,6 +34814,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥衫#108252 (30200 )": {
                     "id": 108252,
                     "name": "孤城惊梦·青泥衫",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31937,6 +34841,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·妙意衣#106667 (30200 会心)": {
                     "id": 106667,
                     "name": "寻踪觅宝·妙意衣",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -31980,6 +34887,9 @@ EQUIPMENTS = {
                 "坠月衫#105104 (30200 )": {
                     "id": 105104,
                     "name": "坠月衫",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32004,6 +34914,9 @@ EQUIPMENTS = {
                 "折桂衣#104876 (30200 加速)": {
                     "id": 104876,
                     "name": "折桂衣",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32029,6 +34942,9 @@ EQUIPMENTS = {
                 "风檐衣#104840 (30200 )": {
                     "id": 104840,
                     "name": "风檐衣",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32055,6 +34971,9 @@ EQUIPMENTS = {
                 "江舟衫#107045 (35900 破防 无双)": {
                     "id": 107045,
                     "name": "江舟衫",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -32096,6 +35015,9 @@ EQUIPMENTS = {
                 "蒙鸠衫#107147 (35300 会心 无双)": {
                     "id": 107147,
                     "name": "蒙鸠衫",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32122,6 +35044,9 @@ EQUIPMENTS = {
                 "晚风衣#106898 (35300 破招 无双)": {
                     "id": 106898,
                     "name": "晚风衣",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32148,6 +35073,9 @@ EQUIPMENTS = {
                 "天风衣#106862 (35300 加速 无双)": {
                     "id": 106862,
                     "name": "天风衣",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32174,6 +35102,9 @@ EQUIPMENTS = {
                 "月霭衣#105001 (30700 破防 无双)": {
                     "id": 105001,
                     "name": "月霭衣",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -32215,6 +35146,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟衫#108251 (30200 破招 无双)": {
                     "id": 108251,
                     "name": "孤城惊梦·迷烟衫",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32241,6 +35175,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·逸群衣#106666 (30200 加速 无双)": {
                     "id": 106666,
                     "name": "寻踪觅宝·逸群衣",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32285,6 +35222,9 @@ EQUIPMENTS = {
                 "坠红衫#105103 (30200 会心 无双)": {
                     "id": 105103,
                     "name": "坠红衫",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32311,6 +35251,9 @@ EQUIPMENTS = {
                 "标雁衣#104875 (30200 破招 无双)": {
                     "id": 104875,
                     "name": "标雁衣",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32337,6 +35280,9 @@ EQUIPMENTS = {
                 "问殿衣#104839 (30200 加速 无双)": {
                     "id": 104839,
                     "name": "问殿衣",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32365,6 +35311,9 @@ EQUIPMENTS = {
                 "江涛衫#107044 (35900 破防 无双)": {
                     "id": 107044,
                     "name": "江涛衫",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -32406,6 +35355,9 @@ EQUIPMENTS = {
                 "长山衫#107146 (35300 会心 无双)": {
                     "id": 107146,
                     "name": "长山衫",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32432,6 +35384,9 @@ EQUIPMENTS = {
                 "震烁衣#106897 (35300 破招 无双)": {
                     "id": 106897,
                     "name": "震烁衣",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32458,6 +35413,9 @@ EQUIPMENTS = {
                 "断霄衣#106861 (35300 加速 无双)": {
                     "id": 106861,
                     "name": "断霄衣",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32484,6 +35442,9 @@ EQUIPMENTS = {
                 "月溪衣#105000 (30700 破防 无双)": {
                     "id": 105000,
                     "name": "月溪衣",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -32525,6 +35486,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河衫#108250 (30200 破招 无双)": {
                     "id": 108250,
                     "name": "孤城惊梦·浊河衫",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32551,6 +35515,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·遒劲衣#106665 (30200 加速 无双)": {
                     "id": 106665,
                     "name": "寻踪觅宝·遒劲衣",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32595,6 +35562,9 @@ EQUIPMENTS = {
                 "坠雨衫#105102 (30200 会心 无双)": {
                     "id": 105102,
                     "name": "坠雨衫",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32621,6 +35591,9 @@ EQUIPMENTS = {
                 "寒窗衣#104874 (30200 破招 无双)": {
                     "id": 104874,
                     "name": "寒窗衣",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32647,6 +35620,9 @@ EQUIPMENTS = {
                 "礼闱衣#104838 (30200 加速 无双)": {
                     "id": 104838,
                     "name": "礼闱衣",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32675,6 +35651,9 @@ EQUIPMENTS = {
                 "江横衫#107043 (35900 破防 无双)": {
                     "id": 107043,
                     "name": "江横衫",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -32716,6 +35695,9 @@ EQUIPMENTS = {
                 "长日衫#107145 (35300 会心 无双)": {
                     "id": 107145,
                     "name": "长日衫",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32742,6 +35724,9 @@ EQUIPMENTS = {
                 "河汉衣#106896 (35300 破招 无双)": {
                     "id": 106896,
                     "name": "河汉衣",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32768,6 +35753,9 @@ EQUIPMENTS = {
                 "骀荡衣#106860 (35300 加速 无双)": {
                     "id": 106860,
                     "name": "骀荡衣",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -32794,6 +35782,9 @@ EQUIPMENTS = {
                 "月声衣#104999 (30700 破防 无双)": {
                     "id": 104999,
                     "name": "月声衣",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -32835,6 +35826,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡衫#108249 (30200 破招 无双)": {
                     "id": 108249,
                     "name": "孤城惊梦·萦纡衫",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32861,6 +35855,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·沛然衣#106664 (30200 加速 无双)": {
                     "id": 106664,
                     "name": "寻踪觅宝·沛然衣",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32905,6 +35902,9 @@ EQUIPMENTS = {
                 "坠露衫#105101 (30200 会心 无双)": {
                     "id": 105101,
                     "name": "坠露衫",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32931,6 +35931,9 @@ EQUIPMENTS = {
                 "云路衣#104873 (30200 破招 无双)": {
                     "id": 104873,
                     "name": "云路衣",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32957,6 +35960,9 @@ EQUIPMENTS = {
                 "封名衣#104837 (30200 加速 无双)": {
                     "id": 104837,
                     "name": "封名衣",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -32985,6 +35991,9 @@ EQUIPMENTS = {
                 "江离衫#107042 (35900 破防 无双)": {
                     "id": 107042,
                     "name": "江离衫",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 35900,
                     "score": 64620,
                     "max_strength": 6,
@@ -33026,6 +36035,9 @@ EQUIPMENTS = {
                 "长留衫#107144 (35300 会心 无双)": {
                     "id": 107144,
                     "name": "长留衫",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33052,6 +36064,9 @@ EQUIPMENTS = {
                 "椒丘衣#106895 (35300 破招 无双)": {
                     "id": 106895,
                     "name": "椒丘衣",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33078,6 +36093,9 @@ EQUIPMENTS = {
                 "香丹衣#106859 (35300 加速 无双)": {
                     "id": 106859,
                     "name": "香丹衣",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33104,6 +36122,9 @@ EQUIPMENTS = {
                 "月涛衣#104998 (30700 破防 无双)": {
                     "id": 104998,
                     "name": "月涛衣",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 30700,
                     "score": 55260,
                     "max_strength": 6,
@@ -33145,6 +36166,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏衫#108248 (30200 破招 无双)": {
                     "id": 108248,
                     "name": "孤城惊梦·萧疏衫",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33171,6 +36195,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·绵邈衣#106663 (30200 加速 无双)": {
                     "id": 106663,
                     "name": "寻踪觅宝·绵邈衣",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33215,6 +36242,9 @@ EQUIPMENTS = {
                 "坠潮衫#105100 (30200 会心 无双)": {
                     "id": 105100,
                     "name": "坠潮衫",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33241,6 +36271,9 @@ EQUIPMENTS = {
                 "文曲衣#104872 (30200 破招 无双)": {
                     "id": 104872,
                     "name": "文曲衣",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33267,6 +36300,9 @@ EQUIPMENTS = {
                 "论策衣#104836 (30200 加速 无双)": {
                     "id": 104836,
                     "name": "论策衣",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33297,6 +36333,9 @@ EQUIPMENTS = {
                 "牧川·牵傀衣#106828 (35300 会心 无双)": {
                     "id": 106828,
                     "name": "牧川·牵傀衣",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33341,6 +36380,9 @@ EQUIPMENTS = {
                 "天极·归帆衣#108612 (30200 会心 无双)": {
                     "id": 108612,
                     "name": "天极·归帆衣",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33385,6 +36427,9 @@ EQUIPMENTS = {
                 "销魂御厨上衣·火候#109093 (29800 破防 无双)": {
                     "id": 109093,
                     "name": "销魂御厨上衣·火候",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -33420,6 +36465,9 @@ EQUIPMENTS = {
                 "缚罗衣#108658 (28000 破招 无双)": {
                     "id": 108658,
                     "name": "缚罗衣",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 28000,
                     "score": 50400,
                     "max_strength": 6,
@@ -33465,6 +36513,9 @@ EQUIPMENTS = {
                 "牧川·皑雪衣#106827 (35300 会心 无双)": {
                     "id": 106827,
                     "name": "牧川·皑雪衣",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33508,6 +36559,9 @@ EQUIPMENTS = {
                 "天极·云胜衣#104805 (30200 会心 无双)": {
                     "id": 104805,
                     "name": "天极·云胜衣",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33551,6 +36605,9 @@ EQUIPMENTS = {
                 "云风御厨上衣·火候#109092 (29800 破防 无双)": {
                     "id": 109092,
                     "name": "云风御厨上衣·火候",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -33590,6 +36647,9 @@ EQUIPMENTS = {
                 "牧川·快秋衣#106826 (35300 会心 无双)": {
                     "id": 106826,
                     "name": "牧川·快秋衣",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33633,6 +36693,9 @@ EQUIPMENTS = {
                 "天极·意悠衣#104804 (30200 会心 无双)": {
                     "id": 104804,
                     "name": "天极·意悠衣",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33676,6 +36739,9 @@ EQUIPMENTS = {
                 "梧风御厨上衣·刀功#109091 (29800 破防 无双)": {
                     "id": 109091,
                     "name": "梧风御厨上衣·刀功",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -33715,6 +36781,9 @@ EQUIPMENTS = {
                 "牧川·暝霭衣#106825 (35300 会心 无双)": {
                     "id": 106825,
                     "name": "牧川·暝霭衣",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33758,6 +36827,9 @@ EQUIPMENTS = {
                 "天极·斩妄衣#104803 (30200 会心 无双)": {
                     "id": 104803,
                     "name": "天极·斩妄衣",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33801,6 +36873,9 @@ EQUIPMENTS = {
                 "岚峰御厨上衣·刀功#109090 (29800 破防 无双)": {
                     "id": 109090,
                     "name": "岚峰御厨上衣·刀功",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -33840,6 +36915,9 @@ EQUIPMENTS = {
                 "牧川·刀圭衣#106824 (35300 会心)": {
                     "id": 106824,
                     "name": "牧川·刀圭衣",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -33881,6 +36959,9 @@ EQUIPMENTS = {
                 "天极·续木衣#104802 (30200 会心)": {
                     "id": 104802,
                     "name": "天极·续木衣",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -33922,6 +37003,9 @@ EQUIPMENTS = {
                 "迎新御厨上衣·水煮#109089 (29800 会心)": {
                     "id": 109089,
                     "name": "迎新御厨上衣·水煮",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -33958,6 +37042,9 @@ EQUIPMENTS = {
                 "牧川·裁柳衣#106823 (35300 会心 无双)": {
                     "id": 106823,
                     "name": "牧川·裁柳衣",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34002,6 +37089,9 @@ EQUIPMENTS = {
                 "天极·悬丝衣#104801 (30200 会心 无双)": {
                     "id": 104801,
                     "name": "天极·悬丝衣",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34046,6 +37136,9 @@ EQUIPMENTS = {
                 "迎新御厨上衣·火候#109088 (29800 破防 无双)": {
                     "id": 109088,
                     "name": "迎新御厨上衣·火候",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34085,6 +37178,9 @@ EQUIPMENTS = {
                 "牧川·遣星衣#106822 (35300 会心 无双)": {
                     "id": 106822,
                     "name": "牧川·遣星衣",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34129,6 +37225,9 @@ EQUIPMENTS = {
                 "天极·符烬衣#104800 (30200 会心 无双)": {
                     "id": 104800,
                     "name": "天极·符烬衣",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34173,6 +37272,9 @@ EQUIPMENTS = {
                 "寻龙御厨上衣·火候#109087 (29800 破防 无双)": {
                     "id": 109087,
                     "name": "寻龙御厨上衣·火候",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34212,6 +37314,9 @@ EQUIPMENTS = {
                 "牧川·未叹衣#106821 (35300 会心 无双)": {
                     "id": 106821,
                     "name": "牧川·未叹衣",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34256,6 +37361,9 @@ EQUIPMENTS = {
                 "天极·藏名衣#104799 (30200 会心 无双)": {
                     "id": 104799,
                     "name": "天极·藏名衣",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34300,6 +37408,9 @@ EQUIPMENTS = {
                 "凌晓御厨上衣·刀功#109086 (29800 破防 无双)": {
                     "id": 109086,
                     "name": "凌晓御厨上衣·刀功",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34339,6 +37450,9 @@ EQUIPMENTS = {
                 "牧川·缥缈衣#106820 (35300 会心 无双)": {
                     "id": 106820,
                     "name": "牧川·缥缈衣",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34383,6 +37497,9 @@ EQUIPMENTS = {
                 "天极·裂海衣#104798 (30200 会心 无双)": {
                     "id": 104798,
                     "name": "天极·裂海衣",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34427,6 +37544,9 @@ EQUIPMENTS = {
                 "沧波御厨上衣·刀功#109085 (29800 破防 无双)": {
                     "id": 109085,
                     "name": "沧波御厨上衣·刀功",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34466,6 +37586,9 @@ EQUIPMENTS = {
                 "牧川·锁钥衣#106819 (35300 会心 无双)": {
                     "id": 106819,
                     "name": "牧川·锁钥衣",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34510,6 +37633,9 @@ EQUIPMENTS = {
                 "天极·雷壑衣#104797 (30200 会心 无双)": {
                     "id": 104797,
                     "name": "天极·雷壑衣",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34554,6 +37680,9 @@ EQUIPMENTS = {
                 "傲寒御厨上衣·刀功#109084 (29800 破防 无双)": {
                     "id": 109084,
                     "name": "傲寒御厨上衣·刀功",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34593,6 +37722,9 @@ EQUIPMENTS = {
                 "牧川·嘉名衣#106818 (35300 会心)": {
                     "id": 106818,
                     "name": "牧川·嘉名衣",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34635,6 +37767,9 @@ EQUIPMENTS = {
                 "天极·抚世衣#104796 (30200 会心)": {
                     "id": 104796,
                     "name": "天极·抚世衣",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34677,6 +37812,9 @@ EQUIPMENTS = {
                 "古意御厨上衣·水煮#109083 (29800 会心)": {
                     "id": 109083,
                     "name": "古意御厨上衣·水煮",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34713,6 +37851,9 @@ EQUIPMENTS = {
                 "牧川·独声衣#106817 (35300 加速 无双)": {
                     "id": 106817,
                     "name": "牧川·独声衣",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34757,6 +37898,9 @@ EQUIPMENTS = {
                 "天极·叹古衣#104795 (30200 加速 无双)": {
                     "id": 104795,
                     "name": "天极·叹古衣",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34801,6 +37945,9 @@ EQUIPMENTS = {
                 "古意御厨上衣·火候#109082 (29800 破防 无双)": {
                     "id": 109082,
                     "name": "古意御厨上衣·火候",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34840,6 +37987,9 @@ EQUIPMENTS = {
                 "牧川·仞横衣#106816 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106816,
                     "name": "牧川·仞横衣",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -34882,6 +38032,9 @@ EQUIPMENTS = {
                 "天极·铸铁衣#104794 (30200 内防 御劲 无双)": {
                     "id": 104794,
                     "name": "天极·铸铁衣",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -34922,6 +38075,9 @@ EQUIPMENTS = {
                 "塞雪御厨上衣·清蒸#109081 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 109081,
                     "name": "塞雪御厨上衣·清蒸",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -34958,6 +38114,9 @@ EQUIPMENTS = {
                 "牧川·秋塞衣#106815 (35300 会心 无双)": {
                     "id": 106815,
                     "name": "牧川·秋塞衣",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35002,6 +38161,9 @@ EQUIPMENTS = {
                 "天极·风旗衣#104793 (30200 会心 无双)": {
                     "id": 104793,
                     "name": "天极·风旗衣",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35046,6 +38208,9 @@ EQUIPMENTS = {
                 "塞雪御厨上衣·刀工#109080 (29800 破防 无双)": {
                     "id": 109080,
                     "name": "塞雪御厨上衣·刀工",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35085,6 +38250,9 @@ EQUIPMENTS = {
                 "牧川·长燃衣#106814 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106814,
                     "name": "牧川·长燃衣",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35127,6 +38295,9 @@ EQUIPMENTS = {
                 "天极·燃浊衣#104792 (30200 内防 御劲 无双)": {
                     "id": 104792,
                     "name": "天极·燃浊衣",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35167,6 +38338,9 @@ EQUIPMENTS = {
                 "妙火御厨上衣·清蒸#109079 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 109079,
                     "name": "妙火御厨上衣·清蒸",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35203,6 +38377,9 @@ EQUIPMENTS = {
                 "牧川·明沙衣#106813 (35300 会心 无双)": {
                     "id": 106813,
                     "name": "牧川·明沙衣",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35246,6 +38423,9 @@ EQUIPMENTS = {
                 "天极·月刃衣#104791 (30200 会心 无双)": {
                     "id": 104791,
                     "name": "天极·月刃衣",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35289,6 +38469,9 @@ EQUIPMENTS = {
                 "妙火御厨上衣·火候#109078 (29800 破防 无双)": {
                     "id": 109078,
                     "name": "妙火御厨上衣·火候",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35328,6 +38511,9 @@ EQUIPMENTS = {
                 "牧川·腾泽衣#106812 (35300 会心 无双)": {
                     "id": 106812,
                     "name": "牧川·腾泽衣",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35371,6 +38557,9 @@ EQUIPMENTS = {
                 "天极·醉云衣#104790 (30200 会心 无双)": {
                     "id": 104790,
                     "name": "天极·醉云衣",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35414,6 +38603,9 @@ EQUIPMENTS = {
                 "醉梦逍遥上衣·刀功#109077 (29800 破防 无双)": {
                     "id": 109077,
                     "name": "醉梦逍遥上衣·刀功",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35453,6 +38645,9 @@ EQUIPMENTS = {
                 "牧川·拂梅衣#106811 (35300 会心 无双)": {
                     "id": 106811,
                     "name": "牧川·拂梅衣",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35496,6 +38691,9 @@ EQUIPMENTS = {
                 "天极·听荷衣#104789 (30200 会心 无双)": {
                     "id": 104789,
                     "name": "天极·听荷衣",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35539,6 +38737,9 @@ EQUIPMENTS = {
                 "至尊御厨上衣·刀功#109076 (29800 破防 无双)": {
                     "id": 109076,
                     "name": "至尊御厨上衣·刀功",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35578,6 +38779,9 @@ EQUIPMENTS = {
                 "牧川·破雾衣#106810 (35300 会心 无双)": {
                     "id": 106810,
                     "name": "牧川·破雾衣",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35622,6 +38826,9 @@ EQUIPMENTS = {
                 "天极·隐机衣#104788 (30200 会心 无双)": {
                     "id": 104788,
                     "name": "天极·隐机衣",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35666,6 +38873,9 @@ EQUIPMENTS = {
                 "蜀月御厨上衣·刀功#109075 (29800 破防 无双)": {
                     "id": 109075,
                     "name": "蜀月御厨上衣·刀功",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35703,6 +38913,9 @@ EQUIPMENTS = {
                 "牧川·振羽衣#106809 (35300 会心 无双)": {
                     "id": 106809,
                     "name": "牧川·振羽衣",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35747,6 +38960,9 @@ EQUIPMENTS = {
                 "天极·锁幽衣#104787 (30200 会心 无双)": {
                     "id": 104787,
                     "name": "天极·锁幽衣",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35791,6 +39007,9 @@ EQUIPMENTS = {
                 "蜀月御厨上衣·火候#109074 (29800 破防 无双)": {
                     "id": 109074,
                     "name": "蜀月御厨上衣·火候",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35830,6 +39049,9 @@ EQUIPMENTS = {
                 "牧川·织天衣#106808 (35300 会心)": {
                     "id": 106808,
                     "name": "牧川·织天衣",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35871,6 +39093,9 @@ EQUIPMENTS = {
                 "天极·引魂衣#104786 (30200 会心)": {
                     "id": 104786,
                     "name": "天极·引魂衣",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -35912,6 +39137,9 @@ EQUIPMENTS = {
                 "瑶星御厨上衣·水煮#109073 (29800 会心)": {
                     "id": 109073,
                     "name": "瑶星御厨上衣·水煮",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -35948,6 +39176,9 @@ EQUIPMENTS = {
                 "牧川·噬梦衣#106807 (35300 会心 无双)": {
                     "id": 106807,
                     "name": "牧川·噬梦衣",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -35992,6 +39223,9 @@ EQUIPMENTS = {
                 "天极·缠心衣#104785 (30200 会心 无双)": {
                     "id": 104785,
                     "name": "天极·缠心衣",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36036,6 +39270,9 @@ EQUIPMENTS = {
                 "瑶星御厨上衣·火候#109072 (29800 破防 无双)": {
                     "id": 109072,
                     "name": "瑶星御厨上衣·火候",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36075,6 +39312,9 @@ EQUIPMENTS = {
                 "牧川·裳影衣#106806 (35300 会心)": {
                     "id": 106806,
                     "name": "牧川·裳影衣",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36116,6 +39356,9 @@ EQUIPMENTS = {
                 "天极·转莲衣#104784 (30200 会心)": {
                     "id": 104784,
                     "name": "天极·转莲衣",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36157,6 +39400,9 @@ EQUIPMENTS = {
                 "霓裳御厨上衣·水煮#109071 (29800 会心)": {
                     "id": 109071,
                     "name": "霓裳御厨上衣·水煮",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36193,6 +39439,9 @@ EQUIPMENTS = {
                 "牧川·澄江衣#106805 (35300 加速 无双)": {
                     "id": 106805,
                     "name": "牧川·澄江衣",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36236,6 +39485,9 @@ EQUIPMENTS = {
                 "天极·独明衣#104783 (30200 加速 无双)": {
                     "id": 104783,
                     "name": "天极·独明衣",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36279,6 +39531,9 @@ EQUIPMENTS = {
                 "霓裳御厨上衣·火候#109070 (29800 破防 无双)": {
                     "id": 109070,
                     "name": "霓裳御厨上衣·火候",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36318,6 +39573,9 @@ EQUIPMENTS = {
                 "牧川·澄泓衣#106804 (35300 会心 无双)": {
                     "id": 106804,
                     "name": "牧川·澄泓衣",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36361,6 +39619,9 @@ EQUIPMENTS = {
                 "天极·忘归衣#104782 (30200 会心 无双)": {
                     "id": 104782,
                     "name": "天极·忘归衣",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36404,6 +39665,9 @@ EQUIPMENTS = {
                 "灵虚御厨上衣·刀功#109069 (29800 破防 无双)": {
                     "id": 109069,
                     "name": "灵虚御厨上衣·刀功",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36441,6 +39705,9 @@ EQUIPMENTS = {
                 "牧川·观潭衣#106803 (35300 会心 无双)": {
                     "id": 106803,
                     "name": "牧川·观潭衣",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36485,6 +39752,9 @@ EQUIPMENTS = {
                 "天极·截云衣#104781 (30200 会心 无双)": {
                     "id": 104781,
                     "name": "天极·截云衣",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36529,6 +39799,9 @@ EQUIPMENTS = {
                 "灵虚御厨上衣·火候#109068 (29800 破防 无双)": {
                     "id": 109068,
                     "name": "灵虚御厨上衣·火候",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36568,6 +39841,9 @@ EQUIPMENTS = {
                 "牧川·千山衣#106802 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 106802,
                     "name": "牧川·千山衣",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36610,6 +39886,9 @@ EQUIPMENTS = {
                 "天极·截岳衣#104780 (30200 外防 御劲 无双)": {
                     "id": 104780,
                     "name": "天极·截岳衣",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36650,6 +39929,9 @@ EQUIPMENTS = {
                 "御赐御厨上衣·生煎#109067 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 109067,
                     "name": "御赐御厨上衣·生煎",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36686,6 +39968,9 @@ EQUIPMENTS = {
                 "牧川·餐虏衣#106801 (35300 会心 无双)": {
                     "id": 106801,
                     "name": "牧川·餐虏衣",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36729,6 +40014,9 @@ EQUIPMENTS = {
                 "天极·血旌衣#104779 (30200 会心 无双)": {
                     "id": 104779,
                     "name": "天极·血旌衣",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36772,6 +40060,9 @@ EQUIPMENTS = {
                 "御赐御厨上衣·刀功#109066 (29800 破防 无双)": {
                     "id": 109066,
                     "name": "御赐御厨上衣·刀功",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36811,6 +40102,9 @@ EQUIPMENTS = {
                 "牧川·春燕衣#106800 (35300 会心)": {
                     "id": 106800,
                     "name": "牧川·春燕衣",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36852,6 +40146,9 @@ EQUIPMENTS = {
                 "天极·清画衣#104778 (30200 会心)": {
                     "id": 104778,
                     "name": "天极·清画衣",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -36893,6 +40190,9 @@ EQUIPMENTS = {
                 "翡翠御厨上衣·水煮#109065 (29800 会心)": {
                     "id": 109065,
                     "name": "翡翠御厨上衣·水煮",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -36929,6 +40229,9 @@ EQUIPMENTS = {
                 "牧川·夜茗衣#106799 (35300 会心 无双)": {
                     "id": 106799,
                     "name": "牧川·夜茗衣",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -36973,6 +40276,9 @@ EQUIPMENTS = {
                 "天极·砚书衣#104777 (30200 会心 无双)": {
                     "id": 104777,
                     "name": "天极·砚书衣",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -37017,6 +40323,9 @@ EQUIPMENTS = {
                 "翡翠御厨上衣·火候#109064 (29800 破防 无双)": {
                     "id": 109064,
                     "name": "翡翠御厨上衣·火候",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -37056,6 +40365,9 @@ EQUIPMENTS = {
                 "牧川·斥魔衣#106798 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 106798,
                     "name": "牧川·斥魔衣",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -37099,6 +40411,9 @@ EQUIPMENTS = {
                 "天极·梵劫衣#104776 (30200 内防 御劲 无双)": {
                     "id": 104776,
                     "name": "天极·梵劫衣",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -37140,6 +40455,9 @@ EQUIPMENTS = {
                 "菩提御厨上衣·清蒸#109063 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 109063,
                     "name": "菩提御厨上衣·清蒸",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -37176,6 +40494,9 @@ EQUIPMENTS = {
                 "牧川·真宇衣#106797 (35300 会心 无双)": {
                     "id": 106797,
                     "name": "牧川·真宇衣",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 35300,
                     "score": 63540,
                     "max_strength": 6,
@@ -37220,6 +40541,9 @@ EQUIPMENTS = {
                 "天极·怒相衣#104775 (30200 会心 无双)": {
                     "id": 104775,
                     "name": "天极·怒相衣",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 30200,
                     "score": 54360,
                     "max_strength": 6,
@@ -37264,6 +40588,9 @@ EQUIPMENTS = {
                 "菩提御厨上衣·火候#109062 (29800 破防 无双)": {
                     "id": 109062,
                     "name": "菩提御厨上衣·火候",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "jacket",
                     "level": 29800,
                     "score": 53640,
                     "max_strength": 6,
@@ -37305,6 +40632,9 @@ EQUIPMENTS = {
                 "郁垒坠#47814 (32800 外防 内防 破招 御劲 无双)": {
                     "id": 47814,
                     "name": "郁垒坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 32800,
                     "score": 41000,
                     "max_strength": 8,
@@ -37328,6 +40658,9 @@ EQUIPMENTS = {
                 "绝沧溟#47808 (32300 特效 外防 加速 破招 御劲 无双)": {
                     "id": 47808,
                     "name": "绝沧溟",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -37353,6 +40686,9 @@ EQUIPMENTS = {
                 "穹石佩#47802 (32300 外防 内防 加速 御劲 无双)": {
                     "id": 47802,
                     "name": "穹石佩",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -37376,6 +40712,9 @@ EQUIPMENTS = {
                 "洪涌佩#47796 (32300 内防 加速 破招 御劲 无双)": {
                     "id": 47796,
                     "name": "洪涌佩",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -37399,6 +40738,9 @@ EQUIPMENTS = {
                 "郁垒坠#44423 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 44423,
                     "name": "郁垒坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -37422,6 +40764,9 @@ EQUIPMENTS = {
                 "绝沧溟#44340 (35300 特效 外防 加速 破招 御劲 无双)": {
                     "id": 44340,
                     "name": "绝沧溟",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -37447,6 +40792,9 @@ EQUIPMENTS = {
                 "穹石佩#44316 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 44316,
                     "name": "穹石佩",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -37470,6 +40818,9 @@ EQUIPMENTS = {
                 "洪涌佩#44298 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 44298,
                     "name": "洪涌佩",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -37493,6 +40844,9 @@ EQUIPMENTS = {
                 "郁垒坠#44411 (33000 外防 内防 破招 御劲 无双)": {
                     "id": 44411,
                     "name": "郁垒坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -37516,6 +40870,9 @@ EQUIPMENTS = {
                 "远集坠#43068 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 43068,
                     "name": "远集坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -37539,6 +40896,9 @@ EQUIPMENTS = {
                 "郁垒坠#44399 (30300 外防 内防 破招 御劲 无双)": {
                     "id": 44399,
                     "name": "郁垒坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -37562,6 +40922,9 @@ EQUIPMENTS = {
                 "兴王师#42992 (30200 特效 外防 御劲 无双)": {
                     "id": 42992,
                     "name": "兴王师",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -37585,6 +40948,9 @@ EQUIPMENTS = {
                 "登科坠#42968 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 42968,
                     "name": "登科坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -37608,6 +40974,9 @@ EQUIPMENTS = {
                 "三元佩#42950 (30200 内防 御劲 无双)": {
                     "id": 42950,
                     "name": "三元佩",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -37629,6 +40998,9 @@ EQUIPMENTS = {
                 "烬书坠#44279 (28800 内防 御劲 无双)": {
                     "id": 44279,
                     "name": "烬书坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 28800,
                     "score": 25920,
                     "max_strength": 6,
@@ -37650,6 +41022,9 @@ EQUIPMENTS = {
                 "远集坠#43056 (28000 外防 内防 破招 御劲 无双)": {
                     "id": 43056,
                     "name": "远集坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -37675,6 +41050,9 @@ EQUIPMENTS = {
                 "连娟坠#47813 (32800 会心)": {
                     "id": 47813,
                     "name": "连娟坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 32800,
                     "score": 41000,
                     "max_strength": 8,
@@ -37696,6 +41074,9 @@ EQUIPMENTS = {
                 "碧澜深#47807 (32300 特效 会心)": {
                     "id": 47807,
                     "name": "碧澜深",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -37719,6 +41100,9 @@ EQUIPMENTS = {
                 "仁心佩#47801 (32300 加速)": {
                     "id": 47801,
                     "name": "仁心佩",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -37740,6 +41124,9 @@ EQUIPMENTS = {
                 "拂煦佩#47795 (32300 )": {
                     "id": 47795,
                     "name": "拂煦佩",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -37760,6 +41147,9 @@ EQUIPMENTS = {
                 "连娟坠#44422 (35900 会心)": {
                     "id": 44422,
                     "name": "连娟坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -37781,6 +41171,9 @@ EQUIPMENTS = {
                 "碧澜深#44339 (35300 特效 会心)": {
                     "id": 44339,
                     "name": "碧澜深",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -37804,6 +41197,9 @@ EQUIPMENTS = {
                 "仁心佩#44315 (35300 加速)": {
                     "id": 44315,
                     "name": "仁心佩",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -37825,6 +41221,9 @@ EQUIPMENTS = {
                 "拂煦佩#44297 (35300 )": {
                     "id": 44297,
                     "name": "拂煦佩",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -37845,6 +41244,9 @@ EQUIPMENTS = {
                 "连娟坠#44410 (33000 会心)": {
                     "id": 44410,
                     "name": "连娟坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -37866,6 +41268,9 @@ EQUIPMENTS = {
                 "慎事坠#43067 (30700 会心)": {
                     "id": 43067,
                     "name": "慎事坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -37887,6 +41292,9 @@ EQUIPMENTS = {
                 "连娟坠#44398 (30300 会心)": {
                     "id": 44398,
                     "name": "连娟坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -37908,6 +41316,9 @@ EQUIPMENTS = {
                 "问太平#42991 (30200 特效 会心)": {
                     "id": 42991,
                     "name": "问太平",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -37931,6 +41342,9 @@ EQUIPMENTS = {
                 "折桂坠#42967 (30200 加速)": {
                     "id": 42967,
                     "name": "折桂坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -37952,6 +41366,9 @@ EQUIPMENTS = {
                 "风檐佩#42949 (30200 )": {
                     "id": 42949,
                     "name": "风檐佩",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -37972,6 +41389,9 @@ EQUIPMENTS = {
                 "莲灯坠#44278 (28800 加速)": {
                     "id": 44278,
                     "name": "莲灯坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 28800,
                     "score": 25920,
                     "max_strength": 6,
@@ -37993,6 +41413,9 @@ EQUIPMENTS = {
                 "慎事坠#43055 (28000 会心)": {
                     "id": 43055,
                     "name": "慎事坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -38016,6 +41439,9 @@ EQUIPMENTS = {
                 "崔错坠#47812 (32800 会心 无双)": {
                     "id": 47812,
                     "name": "崔错坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 32800,
                     "score": 41000,
                     "max_strength": 8,
@@ -38038,6 +41464,9 @@ EQUIPMENTS = {
                 "九衢交驰#47806 (32300 特效 破防 无双)": {
                     "id": 47806,
                     "name": "九衢交驰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38062,6 +41491,9 @@ EQUIPMENTS = {
                 "晚风佩#47800 (32300 破招 无双)": {
                     "id": 47800,
                     "name": "晚风佩",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38084,6 +41516,9 @@ EQUIPMENTS = {
                 "天风佩#47794 (32300 加速 无双)": {
                     "id": 47794,
                     "name": "天风佩",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38106,6 +41541,9 @@ EQUIPMENTS = {
                 "崔错坠#44421 (35900 会心 无双)": {
                     "id": 44421,
                     "name": "崔错坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -38128,6 +41566,9 @@ EQUIPMENTS = {
                 "九衢交驰#44338 (35300 特效 破防 无双)": {
                     "id": 44338,
                     "name": "九衢交驰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38152,6 +41593,9 @@ EQUIPMENTS = {
                 "晚风佩#44314 (35300 破招 无双)": {
                     "id": 44314,
                     "name": "晚风佩",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38174,6 +41618,9 @@ EQUIPMENTS = {
                 "天风佩#44296 (35300 加速 无双)": {
                     "id": 44296,
                     "name": "天风佩",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38196,6 +41643,9 @@ EQUIPMENTS = {
                 "崔错坠#44409 (33000 会心 无双)": {
                     "id": 44409,
                     "name": "崔错坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -38218,6 +41668,9 @@ EQUIPMENTS = {
                 "载周坠#43066 (30700 会心 无双)": {
                     "id": 43066,
                     "name": "载周坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -38240,6 +41693,9 @@ EQUIPMENTS = {
                 "崔错坠#44397 (30300 会心 无双)": {
                     "id": 44397,
                     "name": "崔错坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -38262,6 +41718,9 @@ EQUIPMENTS = {
                 "奉君命#42990 (30200 特效 破防 无双)": {
                     "id": 42990,
                     "name": "奉君命",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -38286,6 +41745,9 @@ EQUIPMENTS = {
                 "标雁坠#42966 (30200 破招 无双)": {
                     "id": 42966,
                     "name": "标雁坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -38308,6 +41770,9 @@ EQUIPMENTS = {
                 "问殿佩#42948 (30200 加速 无双)": {
                     "id": 42948,
                     "name": "问殿佩",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -38330,6 +41795,9 @@ EQUIPMENTS = {
                 "烛漪坠#44277 (28800 破防 无双)": {
                     "id": 44277,
                     "name": "烛漪坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 28800,
                     "score": 25920,
                     "max_strength": 6,
@@ -38352,6 +41820,9 @@ EQUIPMENTS = {
                 "载周坠#43054 (28000 会心 无双)": {
                     "id": 43054,
                     "name": "载周坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -38376,6 +41847,9 @@ EQUIPMENTS = {
                 "弥山坠#47811 (32800 会心 无双)": {
                     "id": 47811,
                     "name": "弥山坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 32800,
                     "score": 41000,
                     "max_strength": 8,
@@ -38398,6 +41872,9 @@ EQUIPMENTS = {
                 "关河春到#47805 (32300 特效 破防 无双)": {
                     "id": 47805,
                     "name": "关河春到",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38422,6 +41899,9 @@ EQUIPMENTS = {
                 "震烁佩#47799 (32300 破招 无双)": {
                     "id": 47799,
                     "name": "震烁佩",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38444,6 +41924,9 @@ EQUIPMENTS = {
                 "断霄佩#47793 (32300 加速 无双)": {
                     "id": 47793,
                     "name": "断霄佩",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38466,6 +41949,9 @@ EQUIPMENTS = {
                 "弥山坠#44420 (35900 会心 无双)": {
                     "id": 44420,
                     "name": "弥山坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -38488,6 +41974,9 @@ EQUIPMENTS = {
                 "关河春到#44337 (35300 特效 破防 无双)": {
                     "id": 44337,
                     "name": "关河春到",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38512,6 +42001,9 @@ EQUIPMENTS = {
                 "震烁佩#44313 (35300 破招 无双)": {
                     "id": 44313,
                     "name": "震烁佩",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38534,6 +42026,9 @@ EQUIPMENTS = {
                 "断霄佩#44295 (35300 加速 无双)": {
                     "id": 44295,
                     "name": "断霄佩",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38556,6 +42051,9 @@ EQUIPMENTS = {
                 "弥山坠#44408 (33000 会心 无双)": {
                     "id": 44408,
                     "name": "弥山坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -38578,6 +42076,9 @@ EQUIPMENTS = {
                 "沉淖坠#43065 (30700 会心 无双)": {
                     "id": 43065,
                     "name": "沉淖坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -38600,6 +42101,9 @@ EQUIPMENTS = {
                 "弥山坠#44396 (30300 会心 无双)": {
                     "id": 44396,
                     "name": "弥山坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -38622,6 +42126,9 @@ EQUIPMENTS = {
                 "抚旌节#42989 (30200 特效 破防 无双)": {
                     "id": 42989,
                     "name": "抚旌节",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -38646,6 +42153,9 @@ EQUIPMENTS = {
                 "寒窗坠#42965 (30200 破招 无双)": {
                     "id": 42965,
                     "name": "寒窗坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -38668,6 +42178,9 @@ EQUIPMENTS = {
                 "礼闱佩#42947 (30200 加速 无双)": {
                     "id": 42947,
                     "name": "礼闱佩",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -38690,6 +42203,9 @@ EQUIPMENTS = {
                 "香递坠#44276 (28800 破防 无双)": {
                     "id": 44276,
                     "name": "香递坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 28800,
                     "score": 25920,
                     "max_strength": 6,
@@ -38712,6 +42228,9 @@ EQUIPMENTS = {
                 "沉淖坠#43053 (28000 会心 无双)": {
                     "id": 43053,
                     "name": "沉淖坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -38736,6 +42255,9 @@ EQUIPMENTS = {
                 "旋还坠#47810 (32800 会心 无双)": {
                     "id": 47810,
                     "name": "旋还坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 32800,
                     "score": 41000,
                     "max_strength": 8,
@@ -38758,6 +42280,9 @@ EQUIPMENTS = {
                 "风雨阑乾#47804 (32300 特效 破防 无双)": {
                     "id": 47804,
                     "name": "风雨阑乾",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38782,6 +42307,9 @@ EQUIPMENTS = {
                 "河汉佩#47798 (32300 破招 无双)": {
                     "id": 47798,
                     "name": "河汉佩",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38804,6 +42332,9 @@ EQUIPMENTS = {
                 "骀荡佩#47792 (32300 加速 无双)": {
                     "id": 47792,
                     "name": "骀荡佩",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -38826,6 +42357,9 @@ EQUIPMENTS = {
                 "旋还坠#44419 (35900 会心 无双)": {
                     "id": 44419,
                     "name": "旋还坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -38848,6 +42382,9 @@ EQUIPMENTS = {
                 "风雨阑乾#44336 (35300 特效 破防 无双)": {
                     "id": 44336,
                     "name": "风雨阑乾",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38872,6 +42409,9 @@ EQUIPMENTS = {
                 "河汉佩#44312 (35300 破招 无双)": {
                     "id": 44312,
                     "name": "河汉佩",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38894,6 +42434,9 @@ EQUIPMENTS = {
                 "骀荡佩#44294 (35300 加速 无双)": {
                     "id": 44294,
                     "name": "骀荡佩",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -38916,6 +42459,9 @@ EQUIPMENTS = {
                 "旋还坠#44407 (33000 会心 无双)": {
                     "id": 44407,
                     "name": "旋还坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -38938,6 +42484,9 @@ EQUIPMENTS = {
                 "览微坠#43064 (30700 会心 无双)": {
                     "id": 43064,
                     "name": "览微坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -38960,6 +42509,9 @@ EQUIPMENTS = {
                 "旋还坠#44395 (30300 会心 无双)": {
                     "id": 44395,
                     "name": "旋还坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -38982,6 +42534,9 @@ EQUIPMENTS = {
                 "将相和#42988 (30200 特效 破防 无双)": {
                     "id": 42988,
                     "name": "将相和",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39006,6 +42561,9 @@ EQUIPMENTS = {
                 "云路坠#42964 (30200 破招 无双)": {
                     "id": 42964,
                     "name": "云路坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39028,6 +42586,9 @@ EQUIPMENTS = {
                 "封名佩#42946 (30200 加速 无双)": {
                     "id": 42946,
                     "name": "封名佩",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39050,6 +42611,9 @@ EQUIPMENTS = {
                 "舟渡坠#44275 (28800 破防 无双)": {
                     "id": 44275,
                     "name": "舟渡坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 28800,
                     "score": 25920,
                     "max_strength": 6,
@@ -39072,6 +42636,9 @@ EQUIPMENTS = {
                 "览微坠#43052 (28000 会心 无双)": {
                     "id": 43052,
                     "name": "览微坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -39096,6 +42663,9 @@ EQUIPMENTS = {
                 "宛虹坠#47809 (32800 会心 无双)": {
                     "id": 47809,
                     "name": "宛虹坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 32800,
                     "score": 41000,
                     "max_strength": 8,
@@ -39118,6 +42688,9 @@ EQUIPMENTS = {
                 "冷韵幽怀#47803 (32300 特效 破防 无双)": {
                     "id": 47803,
                     "name": "冷韵幽怀",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39142,6 +42715,9 @@ EQUIPMENTS = {
                 "椒丘佩#47797 (32300 破招 无双)": {
                     "id": 47797,
                     "name": "椒丘佩",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39164,6 +42740,9 @@ EQUIPMENTS = {
                 "香丹佩#47791 (32300 加速 无双)": {
                     "id": 47791,
                     "name": "香丹佩",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39186,6 +42765,9 @@ EQUIPMENTS = {
                 "宛虹坠#44418 (35900 会心 无双)": {
                     "id": 44418,
                     "name": "宛虹坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -39208,6 +42790,9 @@ EQUIPMENTS = {
                 "冷韵幽怀#44335 (35300 特效 破防 无双)": {
                     "id": 44335,
                     "name": "冷韵幽怀",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39232,6 +42817,9 @@ EQUIPMENTS = {
                 "椒丘佩#44311 (35300 破招 无双)": {
                     "id": 44311,
                     "name": "椒丘佩",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39254,6 +42842,9 @@ EQUIPMENTS = {
                 "香丹佩#44293 (35300 加速 无双)": {
                     "id": 44293,
                     "name": "香丹佩",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39276,6 +42867,9 @@ EQUIPMENTS = {
                 "宛虹坠#44406 (33000 会心 无双)": {
                     "id": 44406,
                     "name": "宛虹坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -39298,6 +42892,9 @@ EQUIPMENTS = {
                 "防露坠#43063 (30700 会心 无双)": {
                     "id": 43063,
                     "name": "防露坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -39320,6 +42917,9 @@ EQUIPMENTS = {
                 "宛虹坠#44394 (30300 会心 无双)": {
                     "id": 44394,
                     "name": "宛虹坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -39342,6 +42942,9 @@ EQUIPMENTS = {
                 "授琅钤#42987 (30200 特效 破防 无双)": {
                     "id": 42987,
                     "name": "授琅钤",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39366,6 +42969,9 @@ EQUIPMENTS = {
                 "文曲坠#42963 (30200 破招 无双)": {
                     "id": 42963,
                     "name": "文曲坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39388,6 +42994,9 @@ EQUIPMENTS = {
                 "论策佩#42945 (30200 加速 无双)": {
                     "id": 42945,
                     "name": "论策佩",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39410,6 +43019,9 @@ EQUIPMENTS = {
                 "幽墟坠#44274 (28800 破防 无双)": {
                     "id": 44274,
                     "name": "幽墟坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 28800,
                     "score": 25920,
                     "max_strength": 6,
@@ -39432,6 +43044,9 @@ EQUIPMENTS = {
                 "防露坠#43051 (28000 会心 无双)": {
                     "id": 43051,
                     "name": "防露坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -39458,6 +43073,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#47826 (32300 精简 特效 会心 会效 无双)": {
                     "id": 47826,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39482,6 +43100,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#47825 (32300 精简 特效 会心 破防 无双)": {
                     "id": 47825,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39506,6 +43127,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#47824 (32300 精简 特效 会心 无双)": {
                     "id": 47824,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39529,6 +43153,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#47820 (32300 精简 特效 会心 会效 无双)": {
                     "id": 47820,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39553,6 +43180,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#47819 (32300 精简 特效 会心 破防 无双)": {
                     "id": 47819,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39577,6 +43207,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#47818 (32300 精简 特效 会心 无双)": {
                     "id": 47818,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -39600,6 +43233,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44477 (35300 精简 特效 会心 会效 无双)": {
                     "id": 44477,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39624,6 +43260,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44476 (35300 精简 特效 会心 破防 无双)": {
                     "id": 44476,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39648,6 +43287,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44475 (35300 精简 特效 会心 无双)": {
                     "id": 44475,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39671,6 +43313,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44453 (35300 精简 特效 会心 会效 无双)": {
                     "id": 44453,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39695,6 +43340,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44452 (35300 精简 特效 会心 破防 无双)": {
                     "id": 44452,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39719,6 +43367,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44451 (35300 精简 特效 会心 无双)": {
                     "id": 44451,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -39742,6 +43393,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44465 (32500 精简 特效 会心 会效 无双)": {
                     "id": 44465,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -39766,6 +43420,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44464 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44464,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -39790,6 +43447,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44463 (32500 精简 特效 无双)": {
                     "id": 44463,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -39812,6 +43472,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44441 (32500 精简 特效 会心 会效 无双)": {
                     "id": 44441,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -39836,6 +43499,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44440 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44440,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -39860,6 +43526,9 @@ EQUIPMENTS = {
                 "无修坠·外·地#44439 (32500 精简 特效 无双)": {
                     "id": 44439,
                     "name": "无修坠·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -39882,6 +43551,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43122 (30200 精简 特效 会心 破防 无双)": {
                     "id": 43122,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39906,6 +43578,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43121 (30200 精简 特效 会心 无双)": {
                     "id": 43121,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39929,6 +43604,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43120 (30200 精简 特效 破防 无双)": {
                     "id": 43120,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39952,6 +43630,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43098 (30200 精简 特效 会心 破防 无双)": {
                     "id": 43098,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39976,6 +43657,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43097 (30200 精简 特效 会心 无双)": {
                     "id": 43097,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -39999,6 +43683,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43096 (30200 精简 特效 破防 无双)": {
                     "id": 43096,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40022,6 +43709,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43110 (28000 精简 特效 会心 会效 无双)": {
                     "id": 43110,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40046,6 +43736,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43109 (28000 精简 特效 会心 破防 无双)": {
                     "id": 43109,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40070,6 +43763,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43108 (28000 精简 特效 会心 无双)": {
                     "id": 43108,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40093,6 +43789,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43086 (28000 精简 特效 会心 会效 无双)": {
                     "id": 43086,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40117,6 +43816,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43085 (28000 精简 特效 会心 破防 无双)": {
                     "id": 43085,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40141,6 +43843,9 @@ EQUIPMENTS = {
                 "无修坠·外·玄#43084 (28000 精简 特效 会心 无双)": {
                     "id": 43084,
                     "name": "无修坠·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40166,6 +43871,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#47823 (32300 精简 特效 会心 会效 无双)": {
                     "id": 47823,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -40190,6 +43898,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#47822 (32300 精简 特效 会心 破防 无双)": {
                     "id": 47822,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -40214,6 +43925,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#47821 (32300 精简 特效 会心 无双)": {
                     "id": 47821,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -40237,6 +43951,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#47817 (32300 精简 特效 会心 会效 无双)": {
                     "id": 47817,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -40261,6 +43978,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#47816 (32300 精简 特效 会心 破防 无双)": {
                     "id": 47816,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -40285,6 +44005,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#47815 (32300 精简 特效 会心 无双)": {
                     "id": 47815,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32300,
                     "score": 40375,
                     "max_strength": 8,
@@ -40308,6 +44031,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44474 (35300 精简 特效 会心 会效 无双)": {
                     "id": 44474,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40332,6 +44058,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44473 (35300 精简 特效 会心 破防 无双)": {
                     "id": 44473,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40356,6 +44085,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44472 (35300 精简 特效 会心 无双)": {
                     "id": 44472,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40379,6 +44111,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44450 (35300 精简 特效 会心 会效 无双)": {
                     "id": 44450,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40403,6 +44138,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44449 (35300 精简 特效 会心 破防 无双)": {
                     "id": 44449,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40427,6 +44165,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44448 (35300 精简 特效 会心 无双)": {
                     "id": 44448,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40450,6 +44191,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44462 (32500 精简 特效 会心 会效 无双)": {
                     "id": 44462,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -40474,6 +44218,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44461 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44461,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -40498,6 +44245,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44460 (32500 精简 特效 无双)": {
                     "id": 44460,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -40520,6 +44270,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44438 (32500 精简 特效 会心 会效 无双)": {
                     "id": 44438,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -40544,6 +44297,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44437 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44437,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -40568,6 +44324,9 @@ EQUIPMENTS = {
                 "无修坠·内·地#44436 (32500 精简 特效 无双)": {
                     "id": 44436,
                     "name": "无修坠·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -40590,6 +44349,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43119 (30200 精简 特效 会心 破防 无双)": {
                     "id": 43119,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40614,6 +44376,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43118 (30200 精简 特效 会心 无双)": {
                     "id": 43118,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40637,6 +44402,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43117 (30200 精简 特效 破防 无双)": {
                     "id": 43117,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40660,6 +44428,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43095 (30200 精简 特效 会心 破防 无双)": {
                     "id": 43095,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40684,6 +44455,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43094 (30200 精简 特效 会心 无双)": {
                     "id": 43094,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40707,6 +44481,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43093 (30200 精简 特效 破防 无双)": {
                     "id": 43093,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -40730,6 +44507,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43107 (28000 精简 特效 会心 会效 无双)": {
                     "id": 43107,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40754,6 +44534,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43106 (28000 精简 特效 会心 破防 无双)": {
                     "id": 43106,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40778,6 +44561,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43105 (28000 精简 特效 会心 无双)": {
                     "id": 43105,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40801,6 +44587,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43083 (28000 精简 特效 会心 会效 无双)": {
                     "id": 43083,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40825,6 +44614,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43082 (28000 精简 特效 会心 破防 无双)": {
                     "id": 43082,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40849,6 +44641,9 @@ EQUIPMENTS = {
                 "无修坠·内·玄#43081 (28000 精简 特效 会心 无双)": {
                     "id": 43081,
                     "name": "无修坠·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "pendant",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -40878,6 +44673,9 @@ EQUIPMENTS = {
                 "千嶂飞云#45578 (35300 精简 特效 加速)": {
                     "id": 45578,
                     "name": "千嶂飞云",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40898,6 +44696,9 @@ EQUIPMENTS = {
                 "天开月影#44368 (35300 精简 特效 破招 无双)": {
                     "id": 44368,
                     "name": "天开月影",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40919,6 +44720,9 @@ EQUIPMENTS = {
                 "岁寒时#44367 (35300 精简 特效 破防 无双)": {
                     "id": 44367,
                     "name": "岁寒时",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40940,6 +44744,9 @@ EQUIPMENTS = {
                 "一渔蓑#44366 (35300 精简 特效 会心 无双)": {
                     "id": 44366,
                     "name": "一渔蓑",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40961,6 +44768,9 @@ EQUIPMENTS = {
                 "淡云微月#44365 (35300 精简 特效 会心 破招 破防 无双)": {
                     "id": 44365,
                     "name": "淡云微月",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -40984,6 +44794,9 @@ EQUIPMENTS = {
                 "水接天门#44364 (35300 精简 特效 会心 会效 无双)": {
                     "id": 44364,
                     "name": "水接天门",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41006,6 +44819,9 @@ EQUIPMENTS = {
                 "第一尊#44363 (35300 精简 特效 会心 会效 破招)": {
                     "id": 44363,
                     "name": "第一尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41028,6 +44844,9 @@ EQUIPMENTS = {
                 "客愁戒·迅#44362 (35300 精简 加速)": {
                     "id": 44362,
                     "name": "客愁戒·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41046,6 +44865,9 @@ EQUIPMENTS = {
                 "颠陨戒·绝#44361 (35300 精简 破防 破招 无双)": {
                     "id": 44361,
                     "name": "颠陨戒·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41066,6 +44888,9 @@ EQUIPMENTS = {
                 "箫鼓戒·明#44360 (35300 精简 会心 破招 无双)": {
                     "id": 44360,
                     "name": "箫鼓戒·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41086,6 +44911,9 @@ EQUIPMENTS = {
                 "高牙戒·觉#44359 (35300 精简 会心 破防 无双)": {
                     "id": 44359,
                     "name": "高牙戒·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41106,6 +44934,9 @@ EQUIPMENTS = {
                 "云涛戒·引#44358 (35300 精简 破招 无双)": {
                     "id": 44358,
                     "name": "云涛戒·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41125,6 +44956,9 @@ EQUIPMENTS = {
                 "玉宇戒·破#44357 (35300 精简 破防 无双)": {
                     "id": 44357,
                     "name": "玉宇戒·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41144,6 +44978,9 @@ EQUIPMENTS = {
                 "蓬舟戒·悟#44356 (35300 精简 会心 无双)": {
                     "id": 44356,
                     "name": "蓬舟戒·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41163,6 +45000,9 @@ EQUIPMENTS = {
                 "都护戒·尊#44355 (35300 精简 无双)": {
                     "id": 44355,
                     "name": "都护戒·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41181,6 +45021,9 @@ EQUIPMENTS = {
                 "溪畔行#43020 (30200 精简 特效 破招 无双)": {
                     "id": 43020,
                     "name": "溪畔行",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41202,6 +45045,9 @@ EQUIPMENTS = {
                 "芳洲曲#43019 (30200 精简 特效 破防 无双)": {
                     "id": 43019,
                     "name": "芳洲曲",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41223,6 +45069,9 @@ EQUIPMENTS = {
                 "忘蹉跎#43018 (30200 精简 特效 会心 无双)": {
                     "id": 43018,
                     "name": "忘蹉跎",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41244,6 +45093,9 @@ EQUIPMENTS = {
                 "万壑歌#43017 (30200 精简 特效 会心 破招 破防 无双)": {
                     "id": 43017,
                     "name": "万壑歌",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41267,6 +45119,9 @@ EQUIPMENTS = {
                 "千帆竞#43016 (30200 精简 特效 会心 会效 无双)": {
                     "id": 43016,
                     "name": "千帆竞",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41289,6 +45144,9 @@ EQUIPMENTS = {
                 "川泽极#43015 (30200 精简 特效 会心 会效 破招)": {
                     "id": 43015,
                     "name": "川泽极",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41311,6 +45169,9 @@ EQUIPMENTS = {
                 "蝉鸣戒·迅#43014 (30200 精简 加速)": {
                     "id": 43014,
                     "name": "蝉鸣戒·迅",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41329,6 +45190,9 @@ EQUIPMENTS = {
                 "秦楼戒·绝#43013 (30200 精简 破防 破招 无双)": {
                     "id": 43013,
                     "name": "秦楼戒·绝",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41349,6 +45213,9 @@ EQUIPMENTS = {
                 "空翠戒·明#43012 (30200 精简 会心 破招 无双)": {
                     "id": 43012,
                     "name": "空翠戒·明",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41369,6 +45236,9 @@ EQUIPMENTS = {
                 "醉客戒·觉#43011 (30200 精简 会心 破防 无双)": {
                     "id": 43011,
                     "name": "醉客戒·觉",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41389,6 +45259,9 @@ EQUIPMENTS = {
                 "石径戒·引#43010 (30200 精简 破招 无双)": {
                     "id": 43010,
                     "name": "石径戒·引",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41408,6 +45281,9 @@ EQUIPMENTS = {
                 "孤蓬戒·破#43009 (30200 精简 破防 无双)": {
                     "id": 43009,
                     "name": "孤蓬戒·破",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41427,6 +45303,9 @@ EQUIPMENTS = {
                 "湘流戒·悟#43008 (30200 精简 会心 无双)": {
                     "id": 43008,
                     "name": "湘流戒·悟",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41446,6 +45325,9 @@ EQUIPMENTS = {
                 "雁行戒·尊#43007 (30200 精简 无双)": {
                     "id": 43007,
                     "name": "雁行戒·尊",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41466,6 +45348,9 @@ EQUIPMENTS = {
                 "风啸群崖#45577 (35300 精简 特效 加速)": {
                     "id": 45577,
                     "name": "风啸群崖",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41486,6 +45371,9 @@ EQUIPMENTS = {
                 "一枕梦魂#44354 (35300 精简 特效 破招 无双)": {
                     "id": 44354,
                     "name": "一枕梦魂",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41507,6 +45395,9 @@ EQUIPMENTS = {
                 "频怅望#44353 (35300 精简 特效 破防 无双)": {
                     "id": 44353,
                     "name": "频怅望",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41528,6 +45419,9 @@ EQUIPMENTS = {
                 "戎马略#44352 (35300 精简 特效 会心 无双)": {
                     "id": 44352,
                     "name": "戎马略",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41549,6 +45443,9 @@ EQUIPMENTS = {
                 "烟柳萧疏#44351 (35300 精简 特效 会心 破招 破防 无双)": {
                     "id": 44351,
                     "name": "烟柳萧疏",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41572,6 +45469,9 @@ EQUIPMENTS = {
                 "云连海国#44350 (35300 精简 特效 会心 会效 无双)": {
                     "id": 44350,
                     "name": "云连海国",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41594,6 +45494,9 @@ EQUIPMENTS = {
                 "出昆仑#44349 (35300 精简 特效 会心 会效 破招)": {
                     "id": 44349,
                     "name": "出昆仑",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41616,6 +45519,9 @@ EQUIPMENTS = {
                 "红药戒·迅#44348 (35300 精简 加速)": {
                     "id": 44348,
                     "name": "红药戒·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41634,6 +45540,9 @@ EQUIPMENTS = {
                 "断雁戒·绝#44347 (35300 精简 破防 破招 无双)": {
                     "id": 44347,
                     "name": "断雁戒·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41654,6 +45563,9 @@ EQUIPMENTS = {
                 "雨客戒·明#44346 (35300 精简 会心 破招 无双)": {
                     "id": 44346,
                     "name": "雨客戒·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41674,6 +45586,9 @@ EQUIPMENTS = {
                 "汀洲戒·觉#44345 (35300 精简 会心 破防 无双)": {
                     "id": 44345,
                     "name": "汀洲戒·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41694,6 +45609,9 @@ EQUIPMENTS = {
                 "朱阁戒·引#44344 (35300 精简 破招 无双)": {
                     "id": 44344,
                     "name": "朱阁戒·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41713,6 +45631,9 @@ EQUIPMENTS = {
                 "琼楼戒·破#44343 (35300 精简 破防 无双)": {
                     "id": 44343,
                     "name": "琼楼戒·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41732,6 +45653,9 @@ EQUIPMENTS = {
                 "萧瑟戒·悟#44342 (35300 精简 会心 无双)": {
                     "id": 44342,
                     "name": "萧瑟戒·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41751,6 +45675,9 @@ EQUIPMENTS = {
                 "轩窗戒·尊#44341 (35300 精简 无双)": {
                     "id": 44341,
                     "name": "轩窗戒·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -41769,6 +45696,9 @@ EQUIPMENTS = {
                 "醉梦乡#43006 (30200 精简 特效 破招 无双)": {
                     "id": 43006,
                     "name": "醉梦乡",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41790,6 +45720,9 @@ EQUIPMENTS = {
                 "映日长#43005 (30200 精简 特效 破防 无双)": {
                     "id": 43005,
                     "name": "映日长",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41811,6 +45744,9 @@ EQUIPMENTS = {
                 "望峰引#43004 (30200 精简 特效 会心 无双)": {
                     "id": 43004,
                     "name": "望峰引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41832,6 +45768,9 @@ EQUIPMENTS = {
                 "云中岳#43003 (30200 精简 特效 会心 破招 破防 无双)": {
                     "id": 43003,
                     "name": "云中岳",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41855,6 +45794,9 @@ EQUIPMENTS = {
                 "如龙势#43002 (30200 精简 特效 会心 会效 无双)": {
                     "id": 43002,
                     "name": "如龙势",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41877,6 +45819,9 @@ EQUIPMENTS = {
                 "锁雾峰#43001 (30200 精简 特效 会心 会效 破招)": {
                     "id": 43001,
                     "name": "锁雾峰",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41899,6 +45844,9 @@ EQUIPMENTS = {
                 "素心戒·迅#43000 (30200 精简 加速)": {
                     "id": 43000,
                     "name": "素心戒·迅",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41917,6 +45865,9 @@ EQUIPMENTS = {
                 "玄霜戒·绝#42999 (30200 精简 破防 破招 无双)": {
                     "id": 42999,
                     "name": "玄霜戒·绝",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41937,6 +45888,9 @@ EQUIPMENTS = {
                 "静照戒·明#42998 (30200 精简 会心 破招 无双)": {
                     "id": 42998,
                     "name": "静照戒·明",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41957,6 +45911,9 @@ EQUIPMENTS = {
                 "归真戒·觉#42997 (30200 精简 会心 破防 无双)": {
                     "id": 42997,
                     "name": "归真戒·觉",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41977,6 +45934,9 @@ EQUIPMENTS = {
                 "秋山戒·引#42996 (30200 精简 破招 无双)": {
                     "id": 42996,
                     "name": "秋山戒·引",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -41996,6 +45956,9 @@ EQUIPMENTS = {
                 "晨烟戒·破#42995 (30200 精简 破防 无双)": {
                     "id": 42995,
                     "name": "晨烟戒·破",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42015,6 +45978,9 @@ EQUIPMENTS = {
                 "秦川戒·悟#42994 (30200 精简 会心 无双)": {
                     "id": 42994,
                     "name": "秦川戒·悟",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42034,6 +46000,9 @@ EQUIPMENTS = {
                 "玉露戒·尊#42993 (30200 精简 无双)": {
                     "id": 42993,
                     "name": "玉露戒·尊",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42054,6 +46023,9 @@ EQUIPMENTS = {
                 "青瑛缀#44375 (35300 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 44375,
                     "name": "青瑛缀",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42077,6 +46049,9 @@ EQUIPMENTS = {
                 "纹守隅#44374 (35300 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 44374,
                     "name": "纹守隅",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42100,6 +46075,9 @@ EQUIPMENTS = {
                 "凝珀心#44373 (35300 精简 特效 内防 加速 破招 御劲 无双)": {
                     "id": 44373,
                     "name": "凝珀心",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42123,6 +46101,9 @@ EQUIPMENTS = {
                 "承竹韧#44372 (35300 精简 特效 外防 加速 破招 御劲 无双)": {
                     "id": 44372,
                     "name": "承竹韧",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42146,6 +46127,9 @@ EQUIPMENTS = {
                 "照孤烽#44209 (30200 精简 特效 外防 内防 破招 御劲 无双)": {
                     "id": 44209,
                     "name": "照孤烽",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42169,6 +46153,9 @@ EQUIPMENTS = {
                 "贯西东#44208 (30200 精简 特效 外防 内防 加速 御劲 无双)": {
                     "id": 44208,
                     "name": "贯西东",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42192,6 +46179,9 @@ EQUIPMENTS = {
                 "志沧海#44207 (30200 精简 特效 内防 御劲 无双)": {
                     "id": 44207,
                     "name": "志沧海",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42213,6 +46203,9 @@ EQUIPMENTS = {
                 "立沧桑#44206 (30200 精简 特效 外防 御劲 无双)": {
                     "id": 44206,
                     "name": "立沧桑",
+                    "school": "精简",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42236,6 +46229,9 @@ EQUIPMENTS = {
                 "惠风暖#44371 (35300 精简 特效)": {
                     "id": 44371,
                     "name": "惠风暖",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42256,6 +46252,9 @@ EQUIPMENTS = {
                 "松风酿#44370 (35300 精简 特效 会心)": {
                     "id": 44370,
                     "name": "松风酿",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42277,6 +46276,9 @@ EQUIPMENTS = {
                 "静影安#44369 (35300 精简 特效 加速)": {
                     "id": 44369,
                     "name": "静影安",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42298,6 +46300,9 @@ EQUIPMENTS = {
                 "水云闲#44205 (30200 精简 特效)": {
                     "id": 44205,
                     "name": "水云闲",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42318,6 +46323,9 @@ EQUIPMENTS = {
                 "心悠然#44204 (30200 精简 特效 会心)": {
                     "id": 44204,
                     "name": "心悠然",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42339,6 +46347,9 @@ EQUIPMENTS = {
                 "念古今#44203 (30200 精简 特效 加速)": {
                     "id": 44203,
                     "name": "念古今",
+                    "school": "精简",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42364,6 +46375,9 @@ EQUIPMENTS = {
                 "客行江湖·嵯峨指环#44429 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 44429,
                     "name": "客行江湖·嵯峨指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42385,6 +46399,9 @@ EQUIPMENTS = {
                 "深岩指环#44334 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 44334,
                     "name": "深岩指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42406,6 +46423,9 @@ EQUIPMENTS = {
                 "穹石指环#44322 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 44322,
                     "name": "穹石指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42427,6 +46447,9 @@ EQUIPMENTS = {
                 "洪涌指环#44304 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 44304,
                     "name": "洪涌指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42448,6 +46471,9 @@ EQUIPMENTS = {
                 "娄刚指环#45576 (32500 内防 加速 破招 御劲 无双)": {
                     "id": 45576,
                     "name": "娄刚指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -42469,6 +46495,9 @@ EQUIPMENTS = {
                 "客行江湖·常盛指环#43074 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 43074,
                     "name": "客行江湖·常盛指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42490,6 +46519,9 @@ EQUIPMENTS = {
                 "裁霜戒#42986 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 42986,
                     "name": "裁霜戒",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42511,6 +46543,9 @@ EQUIPMENTS = {
                 "登科戒#42974 (30200 外防 御劲 无双)": {
                     "id": 42974,
                     "name": "登科戒",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42530,6 +46565,9 @@ EQUIPMENTS = {
                 "三元指环#42956 (30200 内防 御劲 无双)": {
                     "id": 42956,
                     "name": "三元指环",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42549,6 +46587,9 @@ EQUIPMENTS = {
                 "忆川戒#47584 (28000 内防 御劲 无双)": {
                     "id": 47584,
                     "name": "忆川戒",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -42570,6 +46611,9 @@ EQUIPMENTS = {
                 "客行江湖·寒调指环#44428 (35300 加速)": {
                     "id": 44428,
                     "name": "客行江湖·寒调指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42589,6 +46633,9 @@ EQUIPMENTS = {
                 "延曼指环#44333 (35300 加速)": {
                     "id": 44333,
                     "name": "延曼指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42608,6 +46655,9 @@ EQUIPMENTS = {
                 "仁心指环#44321 (35300 )": {
                     "id": 44321,
                     "name": "仁心指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42626,6 +46676,9 @@ EQUIPMENTS = {
                 "拂煦指环#44303 (35300 会心)": {
                     "id": 44303,
                     "name": "拂煦指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42645,6 +46698,9 @@ EQUIPMENTS = {
                 "娄杏指环#45575 (32500 加速)": {
                     "id": 45575,
                     "name": "娄杏指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -42664,6 +46720,9 @@ EQUIPMENTS = {
                 "客行江湖·清赏指环#43073 (30200 加速)": {
                     "id": 43073,
                     "name": "客行江湖·清赏指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42683,6 +46742,9 @@ EQUIPMENTS = {
                 "浮沙戒#42985 (30200 加速)": {
                     "id": 42985,
                     "name": "浮沙戒",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42702,6 +46764,9 @@ EQUIPMENTS = {
                 "折桂戒#42973 (30200 )": {
                     "id": 42973,
                     "name": "折桂戒",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42720,6 +46785,9 @@ EQUIPMENTS = {
                 "风檐指环#42955 (30200 会心)": {
                     "id": 42955,
                     "name": "风檐指环",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42739,6 +46807,9 @@ EQUIPMENTS = {
                 "观川戒#47583 (28000 会心)": {
                     "id": 47583,
                     "name": "观川戒",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -42760,6 +46831,9 @@ EQUIPMENTS = {
                 "客行江湖·离帆指环#44427 (35300 破防 无双)": {
                     "id": 44427,
                     "name": "客行江湖·离帆指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42780,6 +46854,9 @@ EQUIPMENTS = {
                 "临坻指环#44332 (35300 加速 无双)": {
                     "id": 44332,
                     "name": "临坻指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42800,6 +46877,9 @@ EQUIPMENTS = {
                 "晚风指环#44320 (35300 会心 无双)": {
                     "id": 44320,
                     "name": "晚风指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42820,6 +46900,9 @@ EQUIPMENTS = {
                 "天风指环#44302 (35300 破招 无双)": {
                     "id": 44302,
                     "name": "天风指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42840,6 +46923,9 @@ EQUIPMENTS = {
                 "娄锋指环#45574 (32500 破防 无双)": {
                     "id": 45574,
                     "name": "娄锋指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -42860,6 +46946,9 @@ EQUIPMENTS = {
                 "客行江湖·日斜指环#43072 (30200 破防 无双)": {
                     "id": 43072,
                     "name": "客行江湖·日斜指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42880,6 +46969,9 @@ EQUIPMENTS = {
                 "衔月戒#42984 (30200 加速 无双)": {
                     "id": 42984,
                     "name": "衔月戒",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42900,6 +46992,9 @@ EQUIPMENTS = {
                 "标雁戒#42972 (30200 会心 无双)": {
                     "id": 42972,
                     "name": "标雁戒",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42920,6 +47015,9 @@ EQUIPMENTS = {
                 "问殿指环#42954 (30200 破招 无双)": {
                     "id": 42954,
                     "name": "问殿指环",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -42940,6 +47038,9 @@ EQUIPMENTS = {
                 "咏川戒#47582 (28000 破招 无双)": {
                     "id": 47582,
                     "name": "咏川戒",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "ring",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -42962,6 +47063,9 @@ EQUIPMENTS = {
                 "客行江湖·孤馆指环#44426 (35300 破防 无双)": {
                     "id": 44426,
                     "name": "客行江湖·孤馆指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -42982,6 +47086,9 @@ EQUIPMENTS = {
                 "逾波指环#44331 (35300 加速 无双)": {
                     "id": 44331,
                     "name": "逾波指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43002,6 +47109,9 @@ EQUIPMENTS = {
                 "震烁指环#44319 (35300 会心 无双)": {
                     "id": 44319,
                     "name": "震烁指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43022,6 +47132,9 @@ EQUIPMENTS = {
                 "断霄指环#44301 (35300 破招 无双)": {
                     "id": 44301,
                     "name": "断霄指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43042,6 +47155,9 @@ EQUIPMENTS = {
                 "娄金指环#45573 (32500 破防 无双)": {
                     "id": 45573,
                     "name": "娄金指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -43062,6 +47178,9 @@ EQUIPMENTS = {
                 "客行江湖·山隈指环#43071 (30200 破防 无双)": {
                     "id": 43071,
                     "name": "客行江湖·山隈指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43082,6 +47201,9 @@ EQUIPMENTS = {
                 "饮渌戒#42983 (30200 加速 无双)": {
                     "id": 42983,
                     "name": "饮渌戒",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43102,6 +47224,9 @@ EQUIPMENTS = {
                 "寒窗戒#42971 (30200 会心 无双)": {
                     "id": 42971,
                     "name": "寒窗戒",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43122,6 +47247,9 @@ EQUIPMENTS = {
                 "礼闱指环#42953 (30200 破招 无双)": {
                     "id": 42953,
                     "name": "礼闱指环",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43142,6 +47270,9 @@ EQUIPMENTS = {
                 "游川戒#47581 (28000 破招 无双)": {
                     "id": 47581,
                     "name": "游川戒",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "ring",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -43164,6 +47295,9 @@ EQUIPMENTS = {
                 "客行江湖·阳关指环#44425 (35300 破防 无双)": {
                     "id": 44425,
                     "name": "客行江湖·阳关指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43184,6 +47318,9 @@ EQUIPMENTS = {
                 "灼玉指环#44330 (35300 加速 无双)": {
                     "id": 44330,
                     "name": "灼玉指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43204,6 +47341,9 @@ EQUIPMENTS = {
                 "河汉指环#44318 (35300 会心 无双)": {
                     "id": 44318,
                     "name": "河汉指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43224,6 +47364,9 @@ EQUIPMENTS = {
                 "骀荡指环#44300 (35300 破招 无双)": {
                     "id": 44300,
                     "name": "骀荡指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43244,6 +47387,9 @@ EQUIPMENTS = {
                 "娄丹指环#45572 (32500 破防 无双)": {
                     "id": 45572,
                     "name": "娄丹指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -43264,6 +47410,9 @@ EQUIPMENTS = {
                 "客行江湖·新圃指环#43070 (30200 破防 无双)": {
                     "id": 43070,
                     "name": "客行江湖·新圃指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43284,6 +47433,9 @@ EQUIPMENTS = {
                 "枕石戒#42982 (30200 加速 无双)": {
                     "id": 42982,
                     "name": "枕石戒",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43304,6 +47456,9 @@ EQUIPMENTS = {
                 "云路戒#42970 (30200 会心 无双)": {
                     "id": 42970,
                     "name": "云路戒",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43324,6 +47479,9 @@ EQUIPMENTS = {
                 "封名指环#42952 (30200 破招 无双)": {
                     "id": 42952,
                     "name": "封名指环",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43344,6 +47502,9 @@ EQUIPMENTS = {
                 "望川戒#47580 (28000 破招 无双)": {
                     "id": 47580,
                     "name": "望川戒",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "ring",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -43366,6 +47527,9 @@ EQUIPMENTS = {
                 "客行江湖·歧路指环#44424 (35300 破防 无双)": {
                     "id": 44424,
                     "name": "客行江湖·歧路指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43386,6 +47550,9 @@ EQUIPMENTS = {
                 "噙香指环#44329 (35300 加速 无双)": {
                     "id": 44329,
                     "name": "噙香指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43406,6 +47573,9 @@ EQUIPMENTS = {
                 "椒丘指环#44317 (35300 会心 无双)": {
                     "id": 44317,
                     "name": "椒丘指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43426,6 +47596,9 @@ EQUIPMENTS = {
                 "香丹指环#44299 (35300 破招 无双)": {
                     "id": 44299,
                     "name": "香丹指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -43446,6 +47619,9 @@ EQUIPMENTS = {
                 "娄隐指环#45571 (32500 破防 无双)": {
                     "id": 45571,
                     "name": "娄隐指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -43466,6 +47642,9 @@ EQUIPMENTS = {
                 "客行江湖·繁色指环#43069 (30200 破防 无双)": {
                     "id": 43069,
                     "name": "客行江湖·繁色指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43486,6 +47665,9 @@ EQUIPMENTS = {
                 "塑玉戒#42981 (30200 加速 无双)": {
                     "id": 42981,
                     "name": "塑玉戒",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43506,6 +47688,9 @@ EQUIPMENTS = {
                 "文曲戒#42969 (30200 会心 无双)": {
                     "id": 42969,
                     "name": "文曲戒",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43526,6 +47711,9 @@ EQUIPMENTS = {
                 "论策指环#42951 (30200 破招 无双)": {
                     "id": 42951,
                     "name": "论策指环",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -43546,6 +47734,9 @@ EQUIPMENTS = {
                 "驰川戒#47579 (28000 破招 无双)": {
                     "id": 47579,
                     "name": "驰川戒",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "ring",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -43570,6 +47761,9 @@ EQUIPMENTS = {
                 "销魂御厨戒指·火候#47858 (29800 会心 无双)": {
                     "id": 47858,
                     "name": "销魂御厨戒指·火候",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43603,6 +47797,9 @@ EQUIPMENTS = {
                 "云风御厨戒指·火候#47857 (29800 会心 无双)": {
                     "id": 47857,
                     "name": "云风御厨戒指·火候",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43636,6 +47833,9 @@ EQUIPMENTS = {
                 "梧风御厨戒指·刀功#47856 (29800 会心 无双)": {
                     "id": 47856,
                     "name": "梧风御厨戒指·刀功",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43669,6 +47869,9 @@ EQUIPMENTS = {
                 "岚峰御厨戒指·刀功#47855 (29800 会心 无双)": {
                     "id": 47855,
                     "name": "岚峰御厨戒指·刀功",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43702,6 +47905,9 @@ EQUIPMENTS = {
                 "迎新御厨戒指·水煮#47854 (29800 会心)": {
                     "id": 47854,
                     "name": "迎新御厨戒指·水煮",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43732,6 +47938,9 @@ EQUIPMENTS = {
                 "迎新御厨戒指·火候#47853 (29800 会心 无双)": {
                     "id": 47853,
                     "name": "迎新御厨戒指·火候",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43765,6 +47974,9 @@ EQUIPMENTS = {
                 "寻龙御厨戒指·火候#47852 (29800 会心 无双)": {
                     "id": 47852,
                     "name": "寻龙御厨戒指·火候",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43798,6 +48010,9 @@ EQUIPMENTS = {
                 "凌晓御厨戒指·刀功 #47851 (29800 会心 无双)": {
                     "id": 47851,
                     "name": "凌晓御厨戒指·刀功 ",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43831,6 +48046,9 @@ EQUIPMENTS = {
                 "沧波御厨戒指·刀功 #47850 (29800 会心 无双)": {
                     "id": 47850,
                     "name": "沧波御厨戒指·刀功 ",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43864,6 +48082,9 @@ EQUIPMENTS = {
                 "傲寒御厨戒指·刀功 #47849 (29800 会心 无双)": {
                     "id": 47849,
                     "name": "傲寒御厨戒指·刀功 ",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43897,6 +48118,9 @@ EQUIPMENTS = {
                 "古意御厨戒指·水煮#47848 (29800 会心)": {
                     "id": 47848,
                     "name": "古意御厨戒指·水煮",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43927,6 +48151,9 @@ EQUIPMENTS = {
                 "古意御厨戒指·火候#47847 (29800 会心 无双)": {
                     "id": 47847,
                     "name": "古意御厨戒指·火候",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43960,6 +48187,9 @@ EQUIPMENTS = {
                 "塞雪御厨戒指·清蒸#47846 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 47846,
                     "name": "塞雪御厨戒指·清蒸",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -43991,6 +48221,9 @@ EQUIPMENTS = {
                 "塞雪御厨戒指·刀工#47845 (29800 会心 无双)": {
                     "id": 47845,
                     "name": "塞雪御厨戒指·刀工",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44024,6 +48257,9 @@ EQUIPMENTS = {
                 "妙火御厨戒指·清蒸#47844 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 47844,
                     "name": "妙火御厨戒指·清蒸",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44055,6 +48291,9 @@ EQUIPMENTS = {
                 "妙火御厨戒指·火候#47843 (29800 会心 无双)": {
                     "id": 47843,
                     "name": "妙火御厨戒指·火候",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44088,6 +48327,9 @@ EQUIPMENTS = {
                 "醉梦逍遥戒指·刀功#47842 (29800 会心 无双)": {
                     "id": 47842,
                     "name": "醉梦逍遥戒指·刀功",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44121,6 +48363,9 @@ EQUIPMENTS = {
                 "至尊御厨戒指·刀功#47841 (29800 会心 无双)": {
                     "id": 47841,
                     "name": "至尊御厨戒指·刀功",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44154,6 +48399,9 @@ EQUIPMENTS = {
                 "蜀月御厨戒指·刀功#47840 (29800 会心 无双)": {
                     "id": 47840,
                     "name": "蜀月御厨戒指·刀功",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44185,6 +48433,9 @@ EQUIPMENTS = {
                 "蜀月御厨戒指·火候#47839 (29800 会心 无双)": {
                     "id": 47839,
                     "name": "蜀月御厨戒指·火候",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44218,6 +48469,9 @@ EQUIPMENTS = {
                 "瑶星御厨戒指·水煮#47838 (29800 会心)": {
                     "id": 47838,
                     "name": "瑶星御厨戒指·水煮",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44248,6 +48502,9 @@ EQUIPMENTS = {
                 "瑶星御厨戒指·火候#47837 (29800 会心 无双)": {
                     "id": 47837,
                     "name": "瑶星御厨戒指·火候",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44281,6 +48538,9 @@ EQUIPMENTS = {
                 "霓裳御厨戒指·水煮#47836 (29800 会心)": {
                     "id": 47836,
                     "name": "霓裳御厨戒指·水煮",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44311,6 +48571,9 @@ EQUIPMENTS = {
                 "霓裳御厨戒指·火候#47835 (29800 会心 无双)": {
                     "id": 47835,
                     "name": "霓裳御厨戒指·火候",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44344,6 +48607,9 @@ EQUIPMENTS = {
                 "灵虚御厨戒指·刀功#47834 (29800 会心 无双)": {
                     "id": 47834,
                     "name": "灵虚御厨戒指·刀功",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44375,6 +48641,9 @@ EQUIPMENTS = {
                 "灵虚御厨戒指·火候#47833 (29800 会心 无双)": {
                     "id": 47833,
                     "name": "灵虚御厨戒指·火候",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44408,6 +48677,9 @@ EQUIPMENTS = {
                 "御赐御厨戒指·生煎#47832 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 47832,
                     "name": "御赐御厨戒指·生煎",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44439,6 +48711,9 @@ EQUIPMENTS = {
                 "御赐御厨戒指·刀功#47831 (29800 会心 无双)": {
                     "id": 47831,
                     "name": "御赐御厨戒指·刀功",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44472,6 +48747,9 @@ EQUIPMENTS = {
                 "翡翠御厨戒指·水煮#47830 (29800 会心)": {
                     "id": 47830,
                     "name": "翡翠御厨戒指·水煮",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44502,6 +48780,9 @@ EQUIPMENTS = {
                 "翡翠御厨戒指·火候#47829 (29800 会心 无双)": {
                     "id": 47829,
                     "name": "翡翠御厨戒指·火候",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44535,6 +48816,9 @@ EQUIPMENTS = {
                 "菩提御厨戒指·清蒸#47828 (29800 内防 加速 破招 御劲 无双)": {
                     "id": 47828,
                     "name": "菩提御厨戒指·清蒸",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44566,6 +48850,9 @@ EQUIPMENTS = {
                 "菩提御厨戒指·火候#47827 (29800 会心 无双)": {
                     "id": 47827,
                     "name": "菩提御厨戒指·火候",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "ring",
                     "level": 29800,
                     "score": 26820,
                     "max_strength": 6,
@@ -44601,6 +48888,9 @@ EQUIPMENTS = {
                 "雉楼链#44417 (35900 外防 内防 加速 御劲 无双)": {
                     "id": 44417,
                     "name": "雉楼链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -44624,6 +48914,9 @@ EQUIPMENTS = {
                 "深岩链#44328 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 44328,
                     "name": "深岩链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -44647,6 +48940,9 @@ EQUIPMENTS = {
                 "穹石链#44310 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 44310,
                     "name": "穹石链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -44670,6 +48966,9 @@ EQUIPMENTS = {
                 "洪涌链#44292 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 44292,
                     "name": "洪涌链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -44693,6 +48992,9 @@ EQUIPMENTS = {
                 "雉楼链#44405 (33000 外防 内防 加速 御劲 无双)": {
                     "id": 44405,
                     "name": "雉楼链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -44716,6 +49018,9 @@ EQUIPMENTS = {
                 "远集链#43062 (30700 外防 内防 加速 御劲 无双)": {
                     "id": 43062,
                     "name": "远集链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -44739,6 +49044,9 @@ EQUIPMENTS = {
                 "雉楼链#44393 (30300 外防 内防 加速 御劲 无双)": {
                     "id": 44393,
                     "name": "雉楼链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -44762,6 +49070,9 @@ EQUIPMENTS = {
                 "裁霜链#42980 (30200 外防 御劲 无双)": {
                     "id": 42980,
                     "name": "裁霜链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -44783,6 +49094,9 @@ EQUIPMENTS = {
                 "登科项饰#42962 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 42962,
                     "name": "登科项饰",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -44806,6 +49120,9 @@ EQUIPMENTS = {
                 "三元链#42944 (30200 内防 御劲 无双)": {
                     "id": 42944,
                     "name": "三元链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -44827,6 +49144,9 @@ EQUIPMENTS = {
                 "月岚链#44285 (29200 内防 御劲 无双)": {
                     "id": 44285,
                     "name": "月岚链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 29200,
                     "score": 26280,
                     "max_strength": 6,
@@ -44848,6 +49168,9 @@ EQUIPMENTS = {
                 "远集链#43050 (28000 外防 内防 加速 御劲 无双)": {
                     "id": 43050,
                     "name": "远集链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -44873,6 +49196,9 @@ EQUIPMENTS = {
                 "纯茂链#44416 (35900 )": {
                     "id": 44416,
                     "name": "纯茂链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -44893,6 +49219,9 @@ EQUIPMENTS = {
                 "延曼链#44327 (35300 )": {
                     "id": 44327,
                     "name": "延曼链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -44913,6 +49242,9 @@ EQUIPMENTS = {
                 "仁心链#44309 (35300 加速)": {
                     "id": 44309,
                     "name": "仁心链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -44934,6 +49266,9 @@ EQUIPMENTS = {
                 "拂煦链#44291 (35300 会心)": {
                     "id": 44291,
                     "name": "拂煦链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -44955,6 +49290,9 @@ EQUIPMENTS = {
                 "纯茂链#44404 (33000 )": {
                     "id": 44404,
                     "name": "纯茂链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -44975,6 +49313,9 @@ EQUIPMENTS = {
                 "慎事链#43061 (30700 )": {
                     "id": 43061,
                     "name": "慎事链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -44995,6 +49336,9 @@ EQUIPMENTS = {
                 "纯茂链#44392 (30300 )": {
                     "id": 44392,
                     "name": "纯茂链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -45015,6 +49359,9 @@ EQUIPMENTS = {
                 "浮沙链#42979 (30200 )": {
                     "id": 42979,
                     "name": "浮沙链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45035,6 +49382,9 @@ EQUIPMENTS = {
                 "折桂项饰#42961 (30200 加速)": {
                     "id": 42961,
                     "name": "折桂项饰",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45056,6 +49406,9 @@ EQUIPMENTS = {
                 "风檐链#42943 (30200 会心)": {
                     "id": 42943,
                     "name": "风檐链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45077,6 +49430,9 @@ EQUIPMENTS = {
                 "月挽链#44284 (29200 加速)": {
                     "id": 44284,
                     "name": "月挽链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 29200,
                     "score": 26280,
                     "max_strength": 6,
@@ -45098,6 +49454,9 @@ EQUIPMENTS = {
                 "慎事链#43049 (28000 )": {
                     "id": 43049,
                     "name": "慎事链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -45120,6 +49479,9 @@ EQUIPMENTS = {
                 "斜月链#44415 (35900 破招 无双)": {
                     "id": 44415,
                     "name": "斜月链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -45142,6 +49504,9 @@ EQUIPMENTS = {
                 "临坻链#44326 (35300 加速 无双)": {
                     "id": 44326,
                     "name": "临坻链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45164,6 +49529,9 @@ EQUIPMENTS = {
                 "晚风链#44308 (35300 会心 无双)": {
                     "id": 44308,
                     "name": "晚风链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45186,6 +49554,9 @@ EQUIPMENTS = {
                 "天风链#44290 (35300 破防 无双)": {
                     "id": 44290,
                     "name": "天风链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45208,6 +49579,9 @@ EQUIPMENTS = {
                 "斜月链#44403 (33000 破招 无双)": {
                     "id": 44403,
                     "name": "斜月链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -45230,6 +49604,9 @@ EQUIPMENTS = {
                 "载周链#43060 (30700 破招 无双)": {
                     "id": 43060,
                     "name": "载周链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -45252,6 +49629,9 @@ EQUIPMENTS = {
                 "斜月链#44391 (30300 破招 无双)": {
                     "id": 44391,
                     "name": "斜月链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -45274,6 +49654,9 @@ EQUIPMENTS = {
                 "衔月链#42978 (30200 加速 无双)": {
                     "id": 42978,
                     "name": "衔月链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45296,6 +49679,9 @@ EQUIPMENTS = {
                 "标雁项饰#42960 (30200 会心 无双)": {
                     "id": 42960,
                     "name": "标雁项饰",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45318,6 +49704,9 @@ EQUIPMENTS = {
                 "问殿链#42942 (30200 破防 无双)": {
                     "id": 42942,
                     "name": "问殿链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45340,6 +49729,9 @@ EQUIPMENTS = {
                 "月晴链#44283 (29200 破防 无双)": {
                     "id": 44283,
                     "name": "月晴链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 29200,
                     "score": 26280,
                     "max_strength": 6,
@@ -45362,6 +49754,9 @@ EQUIPMENTS = {
                 "载周链#43048 (28000 破招 无双)": {
                     "id": 43048,
                     "name": "载周链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -45386,6 +49781,9 @@ EQUIPMENTS = {
                 "乱峰链#44414 (35900 破招 无双)": {
                     "id": 44414,
                     "name": "乱峰链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -45408,6 +49806,9 @@ EQUIPMENTS = {
                 "逾波链#44325 (35300 加速 无双)": {
                     "id": 44325,
                     "name": "逾波链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45430,6 +49831,9 @@ EQUIPMENTS = {
                 "震烁链#44307 (35300 会心 无双)": {
                     "id": 44307,
                     "name": "震烁链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45452,6 +49856,9 @@ EQUIPMENTS = {
                 "断霄链#44289 (35300 破防 无双)": {
                     "id": 44289,
                     "name": "断霄链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45474,6 +49881,9 @@ EQUIPMENTS = {
                 "乱峰链#44402 (33000 破招 无双)": {
                     "id": 44402,
                     "name": "乱峰链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -45496,6 +49906,9 @@ EQUIPMENTS = {
                 "沉淖链#43059 (30700 破招 无双)": {
                     "id": 43059,
                     "name": "沉淖链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -45518,6 +49931,9 @@ EQUIPMENTS = {
                 "乱峰链#44390 (30300 破招 无双)": {
                     "id": 44390,
                     "name": "乱峰链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -45540,6 +49956,9 @@ EQUIPMENTS = {
                 "饮渌链#42977 (30200 加速 无双)": {
                     "id": 42977,
                     "name": "饮渌链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45562,6 +49981,9 @@ EQUIPMENTS = {
                 "寒窗项饰#42959 (30200 会心 无双)": {
                     "id": 42959,
                     "name": "寒窗项饰",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45584,6 +50006,9 @@ EQUIPMENTS = {
                 "礼闱链#42941 (30200 破防 无双)": {
                     "id": 42941,
                     "name": "礼闱链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45606,6 +50031,9 @@ EQUIPMENTS = {
                 "月和链#44282 (29200 破防 无双)": {
                     "id": 44282,
                     "name": "月和链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 29200,
                     "score": 26280,
                     "max_strength": 6,
@@ -45628,6 +50056,9 @@ EQUIPMENTS = {
                 "沉淖链#43047 (28000 破招 无双)": {
                     "id": 43047,
                     "name": "沉淖链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -45652,6 +50083,9 @@ EQUIPMENTS = {
                 "销沉链#44413 (35900 破招 无双)": {
                     "id": 44413,
                     "name": "销沉链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -45674,6 +50108,9 @@ EQUIPMENTS = {
                 "灼玉链#44324 (35300 加速 无双)": {
                     "id": 44324,
                     "name": "灼玉链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45696,6 +50133,9 @@ EQUIPMENTS = {
                 "河汉链#44306 (35300 会心 无双)": {
                     "id": 44306,
                     "name": "河汉链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45718,6 +50158,9 @@ EQUIPMENTS = {
                 "骀荡链#44288 (35300 破防 无双)": {
                     "id": 44288,
                     "name": "骀荡链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45740,6 +50183,9 @@ EQUIPMENTS = {
                 "销沉链#44401 (33000 破招 无双)": {
                     "id": 44401,
                     "name": "销沉链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -45762,6 +50208,9 @@ EQUIPMENTS = {
                 "览微链#43058 (30700 破招 无双)": {
                     "id": 43058,
                     "name": "览微链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -45784,6 +50233,9 @@ EQUIPMENTS = {
                 "销沉链#44389 (30300 破招 无双)": {
                     "id": 44389,
                     "name": "销沉链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -45806,6 +50258,9 @@ EQUIPMENTS = {
                 "枕石链#42976 (30200 加速 无双)": {
                     "id": 42976,
                     "name": "枕石链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45828,6 +50283,9 @@ EQUIPMENTS = {
                 "云路项饰#42958 (30200 会心 无双)": {
                     "id": 42958,
                     "name": "云路项饰",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45850,6 +50308,9 @@ EQUIPMENTS = {
                 "封名链#42940 (30200 破防 无双)": {
                     "id": 42940,
                     "name": "封名链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -45872,6 +50333,9 @@ EQUIPMENTS = {
                 "月鸣链#44281 (29200 破防 无双)": {
                     "id": 44281,
                     "name": "月鸣链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 29200,
                     "score": 26280,
                     "max_strength": 6,
@@ -45894,6 +50358,9 @@ EQUIPMENTS = {
                 "览微链#43046 (28000 破招 无双)": {
                     "id": 43046,
                     "name": "览微链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -45918,6 +50385,9 @@ EQUIPMENTS = {
                 "孟陬链#44412 (35900 破招 无双)": {
                     "id": 44412,
                     "name": "孟陬链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 35900,
                     "score": 32310,
                     "max_strength": 6,
@@ -45940,6 +50410,9 @@ EQUIPMENTS = {
                 "噙香链#44323 (35300 加速 无双)": {
                     "id": 44323,
                     "name": "噙香链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45962,6 +50435,9 @@ EQUIPMENTS = {
                 "椒丘链#44305 (35300 会心 无双)": {
                     "id": 44305,
                     "name": "椒丘链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -45984,6 +50460,9 @@ EQUIPMENTS = {
                 "香丹链#44287 (35300 破防 无双)": {
                     "id": 44287,
                     "name": "香丹链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46006,6 +50485,9 @@ EQUIPMENTS = {
                 "孟陬链#44400 (33000 破招 无双)": {
                     "id": 44400,
                     "name": "孟陬链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 33000,
                     "score": 29700,
                     "max_strength": 6,
@@ -46028,6 +50510,9 @@ EQUIPMENTS = {
                 "防露链#43057 (30700 破招 无双)": {
                     "id": 43057,
                     "name": "防露链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 30700,
                     "score": 27630,
                     "max_strength": 6,
@@ -46050,6 +50535,9 @@ EQUIPMENTS = {
                 "孟陬链#44388 (30300 破招 无双)": {
                     "id": 44388,
                     "name": "孟陬链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 30300,
                     "score": 27270,
                     "max_strength": 6,
@@ -46072,6 +50560,9 @@ EQUIPMENTS = {
                 "塑玉链#42975 (30200 加速 无双)": {
                     "id": 42975,
                     "name": "塑玉链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46094,6 +50585,9 @@ EQUIPMENTS = {
                 "文曲项饰#42957 (30200 会心 无双)": {
                     "id": 42957,
                     "name": "文曲项饰",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46116,6 +50610,9 @@ EQUIPMENTS = {
                 "论策链#42939 (30200 破防 无双)": {
                     "id": 42939,
                     "name": "论策链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46138,6 +50635,9 @@ EQUIPMENTS = {
                 "月诗链#44280 (29200 破防 无双)": {
                     "id": 44280,
                     "name": "月诗链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 29200,
                     "score": 26280,
                     "max_strength": 6,
@@ -46160,6 +50660,9 @@ EQUIPMENTS = {
                 "防露链#43045 (28000 破招 无双)": {
                     "id": 43045,
                     "name": "防露链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46186,6 +50689,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44471 (35300 精简 特效 会心 破招 无双)": {
                     "id": 44471,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46210,6 +50716,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44470 (35300 精简 特效 破防 无双)": {
                     "id": 44470,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46233,6 +50742,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44469 (35300 精简 特效 无双)": {
                     "id": 44469,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46255,6 +50767,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44447 (35300 精简 特效 会心 破招 无双)": {
                     "id": 44447,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46279,6 +50794,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44446 (35300 精简 特效 破防 无双)": {
                     "id": 44446,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46302,6 +50820,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44445 (35300 精简 特效 无双)": {
                     "id": 44445,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46324,6 +50845,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44459 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44459,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46348,6 +50872,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44458 (32500 精简 特效 会心 破招 无双)": {
                     "id": 44458,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46372,6 +50899,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44457 (32500 精简 特效 破防 无双)": {
                     "id": 44457,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46395,6 +50925,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44435 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44435,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46419,6 +50952,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44434 (32500 精简 特效 会心 破招 无双)": {
                     "id": 44434,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46443,6 +50979,9 @@ EQUIPMENTS = {
                 "无修链·外·地#44433 (32500 精简 特效 破防 无双)": {
                     "id": 44433,
                     "name": "无修链·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46466,6 +51005,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43116 (30200 精简 特效 会心 会效 破招)": {
                     "id": 43116,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46490,6 +51032,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43115 (30200 精简 特效 破招 无双)": {
                     "id": 43115,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46513,6 +51058,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43114 (30200 精简 特效 会心 无双)": {
                     "id": 43114,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46536,6 +51084,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43092 (30200 精简 特效 会心 会效 破招)": {
                     "id": 43092,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46560,6 +51111,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43091 (30200 精简 特效 破招 无双)": {
                     "id": 43091,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46583,6 +51137,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43090 (30200 精简 特效 会心 无双)": {
                     "id": 43090,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -46606,6 +51163,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43104 (28000 精简 特效 会心 破招 无双)": {
                     "id": 43104,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46630,6 +51190,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43103 (28000 精简 特效 破防 无双)": {
                     "id": 43103,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46653,6 +51216,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43102 (28000 精简 特效 无双)": {
                     "id": 43102,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46675,6 +51241,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43080 (28000 精简 特效 会心 破招 无双)": {
                     "id": 43080,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46699,6 +51268,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43079 (28000 精简 特效 破防 无双)": {
                     "id": 43079,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46722,6 +51294,9 @@ EQUIPMENTS = {
                 "无修链·外·玄#43078 (28000 精简 特效 无双)": {
                     "id": 43078,
                     "name": "无修链·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -46746,6 +51321,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44468 (35300 精简 特效 会心 破招 无双)": {
                     "id": 44468,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46770,6 +51348,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44467 (35300 精简 特效 破防 无双)": {
                     "id": 44467,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46793,6 +51374,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44466 (35300 精简 特效 无双)": {
                     "id": 44466,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46815,6 +51399,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44444 (35300 精简 特效 会心 破招 无双)": {
                     "id": 44444,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46839,6 +51426,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44443 (35300 精简 特效 破防 无双)": {
                     "id": 44443,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46862,6 +51452,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44442 (35300 精简 特效 无双)": {
                     "id": 44442,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 35300,
                     "score": 31770,
                     "max_strength": 6,
@@ -46884,6 +51477,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44456 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44456,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46908,6 +51504,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44455 (32500 精简 特效 会心 破招 无双)": {
                     "id": 44455,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46932,6 +51531,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44454 (32500 精简 特效 破防 无双)": {
                     "id": 44454,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46955,6 +51557,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44432 (32500 精简 特效 破防 破招 无双)": {
                     "id": 44432,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -46979,6 +51584,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44431 (32500 精简 特效 会心 破招 无双)": {
                     "id": 44431,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -47003,6 +51611,9 @@ EQUIPMENTS = {
                 "无修链·内·地#44430 (32500 精简 特效 破防 无双)": {
                     "id": 44430,
                     "name": "无修链·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 32500,
                     "score": 29250,
                     "max_strength": 6,
@@ -47026,6 +51637,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43113 (30200 精简 特效 会心 会效 破招)": {
                     "id": 43113,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -47050,6 +51664,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43112 (30200 精简 特效 破招 无双)": {
                     "id": 43112,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -47073,6 +51690,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43111 (30200 精简 特效 会心 无双)": {
                     "id": 43111,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -47096,6 +51716,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43089 (30200 精简 特效 会心 会效 破招)": {
                     "id": 43089,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -47120,6 +51743,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43088 (30200 精简 特效 破招 无双)": {
                     "id": 43088,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -47143,6 +51769,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43087 (30200 精简 特效 会心 无双)": {
                     "id": 43087,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 30200,
                     "score": 27180,
                     "max_strength": 6,
@@ -47166,6 +51795,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43101 (28000 精简 特效 会心 破招 无双)": {
                     "id": 43101,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -47190,6 +51822,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43100 (28000 精简 特效 破防 无双)": {
                     "id": 43100,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -47213,6 +51848,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43099 (28000 精简 特效 无双)": {
                     "id": 43099,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -47235,6 +51873,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43077 (28000 精简 特效 会心 破招 无双)": {
                     "id": 43077,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -47259,6 +51900,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43076 (28000 精简 特效 破防 无双)": {
                     "id": 43076,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -47282,6 +51926,9 @@ EQUIPMENTS = {
                 "无修链·内·玄#43075 (28000 精简 特效 无双)": {
                     "id": 43075,
                     "name": "无修链·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
                     "level": 28000,
                     "score": 25200,
                     "max_strength": 6,
@@ -47310,6 +51957,9 @@ EQUIPMENTS = {
                 "长关囊#42809 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 42809,
                     "name": "长关囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47333,6 +51983,9 @@ EQUIPMENTS = {
                 "大夜弥天#42746 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 42746,
                     "name": "大夜弥天",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47354,6 +52007,9 @@ EQUIPMENTS = {
                 "穹石囊#42672 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 42672,
                     "name": "穹石囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47377,6 +52033,9 @@ EQUIPMENTS = {
                 "洪涌囊#42631 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 42631,
                     "name": "洪涌囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47400,6 +52059,9 @@ EQUIPMENTS = {
                 "娄刚囊#43770 (32500 外防 内防 加速 御劲 无双)": {
                     "id": 43770,
                     "name": "娄刚囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -47421,6 +52083,9 @@ EQUIPMENTS = {
                 "孤城惊梦·昂藏囊#43374 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 43374,
                     "name": "孤城惊梦·昂藏囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47442,6 +52107,9 @@ EQUIPMENTS = {
                 "坠欢囊#41356 (30200 内防 御劲 无双)": {
                     "id": 41356,
                     "name": "坠欢囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47463,6 +52131,9 @@ EQUIPMENTS = {
                 "德厚流光#41294 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 41294,
                     "name": "德厚流光",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47484,6 +52155,9 @@ EQUIPMENTS = {
                 "登科囊#41222 (30200 外防 御劲 无双)": {
                     "id": 41222,
                     "name": "登科囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47505,6 +52179,9 @@ EQUIPMENTS = {
                 "三元囊#41182 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 41182,
                     "name": "三元囊",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47528,6 +52205,9 @@ EQUIPMENTS = {
                 "持节行·献雉#42588 (29200 外防 御劲 无双)": {
                     "id": 42588,
                     "name": "持节行·献雉",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "tertiary_weapon",
                     "level": 29200,
                     "score": 31536,
                     "max_strength": 6,
@@ -47551,6 +52231,9 @@ EQUIPMENTS = {
                 "长溪囊#42808 (35300 )": {
                     "id": 42808,
                     "name": "长溪囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47571,6 +52254,9 @@ EQUIPMENTS = {
                 "白水鉴心#42745 (35300 )": {
                     "id": 42745,
                     "name": "白水鉴心",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47591,6 +52277,9 @@ EQUIPMENTS = {
                 "仁心囊#42671 (35300 加速)": {
                     "id": 42671,
                     "name": "仁心囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47612,6 +52301,9 @@ EQUIPMENTS = {
                 "拂煦囊#42630 (35300 会心)": {
                     "id": 42630,
                     "name": "拂煦囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47633,6 +52325,9 @@ EQUIPMENTS = {
                 "娄杏囊#43769 (32500 )": {
                     "id": 43769,
                     "name": "娄杏囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -47653,6 +52348,9 @@ EQUIPMENTS = {
                 "孤城惊梦·青泥囊#43373 (30200 加速)": {
                     "id": 43373,
                     "name": "孤城惊梦·青泥囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47674,6 +52372,9 @@ EQUIPMENTS = {
                 "坠月囊#41355 (30200 )": {
                     "id": 41355,
                     "name": "坠月囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47694,6 +52395,9 @@ EQUIPMENTS = {
                 "怀柔远人#41293 (30200 )": {
                     "id": 41293,
                     "name": "怀柔远人",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47714,6 +52418,9 @@ EQUIPMENTS = {
                 "折桂囊#41221 (30200 加速)": {
                     "id": 41221,
                     "name": "折桂囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47735,6 +52442,9 @@ EQUIPMENTS = {
                 "风檐囊#41181 (30200 会心)": {
                     "id": 41181,
                     "name": "风檐囊",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47756,6 +52466,9 @@ EQUIPMENTS = {
                 "持节行·请缨#42587 (29200 会心)": {
                     "id": 42587,
                     "name": "持节行·请缨",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "tertiary_weapon",
                     "level": 29200,
                     "score": 31536,
                     "max_strength": 6,
@@ -47779,6 +52492,9 @@ EQUIPMENTS = {
                 "蒙鸠囊#42807 (35300 会心 无双)": {
                     "id": 42807,
                     "name": "蒙鸠囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47801,6 +52517,9 @@ EQUIPMENTS = {
                 "烟岚云岫#42744 (35300 破招 无双)": {
                     "id": 42744,
                     "name": "烟岚云岫",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47823,6 +52542,9 @@ EQUIPMENTS = {
                 "晚风囊#42670 (35300 会心 无双)": {
                     "id": 42670,
                     "name": "晚风囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47845,6 +52567,9 @@ EQUIPMENTS = {
                 "天风囊#42629 (35300 加速 无双)": {
                     "id": 42629,
                     "name": "天风囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -47867,6 +52592,9 @@ EQUIPMENTS = {
                 "娄锋囊#43768 (32500 破招 无双)": {
                     "id": 43768,
                     "name": "娄锋囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -47889,6 +52617,9 @@ EQUIPMENTS = {
                 "孤城惊梦·迷烟囊#43372 (30200 会心 无双)": {
                     "id": 43372,
                     "name": "孤城惊梦·迷烟囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47911,6 +52642,9 @@ EQUIPMENTS = {
                 "坠红囊#41354 (30200 会心 无双)": {
                     "id": 41354,
                     "name": "坠红囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47933,6 +52667,9 @@ EQUIPMENTS = {
                 "焚膏继晷#41292 (30200 破招 无双)": {
                     "id": 41292,
                     "name": "焚膏继晷",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47955,6 +52692,9 @@ EQUIPMENTS = {
                 "标雁囊#41220 (30200 会心 无双)": {
                     "id": 41220,
                     "name": "标雁囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47977,6 +52717,9 @@ EQUIPMENTS = {
                 "问殿囊#41180 (30200 加速 无双)": {
                     "id": 41180,
                     "name": "问殿囊",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -47999,6 +52742,9 @@ EQUIPMENTS = {
                 "持节行·乘槎#42586 (29200 破防 无双)": {
                     "id": 42586,
                     "name": "持节行·乘槎",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "tertiary_weapon",
                     "level": 29200,
                     "score": 31536,
                     "max_strength": 6,
@@ -48023,6 +52769,9 @@ EQUIPMENTS = {
                 "长山囊#42806 (35300 会心 无双)": {
                     "id": 42806,
                     "name": "长山囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48045,6 +52794,9 @@ EQUIPMENTS = {
                 "山止川行#42743 (35300 破招 无双)": {
                     "id": 42743,
                     "name": "山止川行",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48067,6 +52819,9 @@ EQUIPMENTS = {
                 "震烁囊#42669 (35300 会心 无双)": {
                     "id": 42669,
                     "name": "震烁囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48089,6 +52844,9 @@ EQUIPMENTS = {
                 "断霄囊#42628 (35300 加速 无双)": {
                     "id": 42628,
                     "name": "断霄囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48111,6 +52869,9 @@ EQUIPMENTS = {
                 "娄金囊#43767 (32500 破招 无双)": {
                     "id": 43767,
                     "name": "娄金囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48133,6 +52894,9 @@ EQUIPMENTS = {
                 "孤城惊梦·浊河囊#43371 (30200 会心 无双)": {
                     "id": 43371,
                     "name": "孤城惊梦·浊河囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48155,6 +52919,9 @@ EQUIPMENTS = {
                 "坠雨囊#41353 (30200 会心 无双)": {
                     "id": 41353,
                     "name": "坠雨囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48177,6 +52944,9 @@ EQUIPMENTS = {
                 "折冲樽俎#41291 (30200 破招 无双)": {
                     "id": 41291,
                     "name": "折冲樽俎",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48199,6 +52969,9 @@ EQUIPMENTS = {
                 "寒窗囊#41219 (30200 会心 无双)": {
                     "id": 41219,
                     "name": "寒窗囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48221,6 +52994,9 @@ EQUIPMENTS = {
                 "礼闱囊#41179 (30200 加速 无双)": {
                     "id": 41179,
                     "name": "礼闱囊",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48243,6 +53019,9 @@ EQUIPMENTS = {
                 "持节行·投笔#42585 (29200 破防 无双)": {
                     "id": 42585,
                     "name": "持节行·投笔",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "tertiary_weapon",
                     "level": 29200,
                     "score": 31536,
                     "max_strength": 6,
@@ -48267,6 +53046,9 @@ EQUIPMENTS = {
                 "长日囊#42805 (35300 会心 无双)": {
                     "id": 42805,
                     "name": "长日囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48289,6 +53071,9 @@ EQUIPMENTS = {
                 "悬河注火#42742 (35300 破招 无双)": {
                     "id": 42742,
                     "name": "悬河注火",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48311,6 +53096,9 @@ EQUIPMENTS = {
                 "河汉囊#42668 (35300 会心 无双)": {
                     "id": 42668,
                     "name": "河汉囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48333,6 +53121,9 @@ EQUIPMENTS = {
                 "骀荡囊#42627 (35300 加速 无双)": {
                     "id": 42627,
                     "name": "骀荡囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48355,6 +53146,9 @@ EQUIPMENTS = {
                 "娄丹囊#43766 (32500 破招 无双)": {
                     "id": 43766,
                     "name": "娄丹囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48377,6 +53171,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萦纡囊#43370 (30200 会心 无双)": {
                     "id": 43370,
                     "name": "孤城惊梦·萦纡囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48399,6 +53196,9 @@ EQUIPMENTS = {
                 "坠露囊#41352 (30200 会心 无双)": {
                     "id": 41352,
                     "name": "坠露囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48421,6 +53221,9 @@ EQUIPMENTS = {
                 "徙木立信#41290 (30200 破招 无双)": {
                     "id": 41290,
                     "name": "徙木立信",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48443,6 +53246,9 @@ EQUIPMENTS = {
                 "云路囊#41218 (30200 会心 无双)": {
                     "id": 41218,
                     "name": "云路囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48465,6 +53271,9 @@ EQUIPMENTS = {
                 "封名囊#41178 (30200 加速 无双)": {
                     "id": 41178,
                     "name": "封名囊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48487,6 +53296,9 @@ EQUIPMENTS = {
                 "持节行·牧羊#42584 (29200 破防 无双)": {
                     "id": 42584,
                     "name": "持节行·牧羊",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "tertiary_weapon",
                     "level": 29200,
                     "score": 31536,
                     "max_strength": 6,
@@ -48511,6 +53323,9 @@ EQUIPMENTS = {
                 "长留囊#42804 (35300 会心 无双)": {
                     "id": 42804,
                     "name": "长留囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48533,6 +53348,9 @@ EQUIPMENTS = {
                 "露华白#42741 (35300 破招 无双)": {
                     "id": 42741,
                     "name": "露华白",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48555,6 +53373,9 @@ EQUIPMENTS = {
                 "椒丘囊#42667 (35300 会心 无双)": {
                     "id": 42667,
                     "name": "椒丘囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48577,6 +53398,9 @@ EQUIPMENTS = {
                 "香丹囊#42626 (35300 加速 无双)": {
                     "id": 42626,
                     "name": "香丹囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48599,6 +53423,9 @@ EQUIPMENTS = {
                 "娄隐囊#43765 (32500 破招 无双)": {
                     "id": 43765,
                     "name": "娄隐囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48621,6 +53448,9 @@ EQUIPMENTS = {
                 "孤城惊梦·萧疏囊#43369 (30200 会心 无双)": {
                     "id": 43369,
                     "name": "孤城惊梦·萧疏囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48643,6 +53473,9 @@ EQUIPMENTS = {
                 "坠潮囊#41351 (30200 会心 无双)": {
                     "id": 41351,
                     "name": "坠潮囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48665,6 +53498,9 @@ EQUIPMENTS = {
                 "夙夜在公#41289 (30200 破招 无双)": {
                     "id": 41289,
                     "name": "夙夜在公",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48687,6 +53523,9 @@ EQUIPMENTS = {
                 "文曲囊#41217 (30200 会心 无双)": {
                     "id": 41217,
                     "name": "文曲囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48709,6 +53548,9 @@ EQUIPMENTS = {
                 "论策囊#41177 (30200 加速 无双)": {
                     "id": 41177,
                     "name": "论策囊",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -48731,6 +53573,9 @@ EQUIPMENTS = {
                 "持节行·凿空#42583 (29200 破防 无双)": {
                     "id": 42583,
                     "name": "持节行·凿空",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "tertiary_weapon",
                     "level": 29200,
                     "score": 31536,
                     "max_strength": 6,
@@ -48757,6 +53602,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42803 (35300 精简 特效 会心 破防 无双)": {
                     "id": 42803,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48781,6 +53629,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42802 (35300 精简 特效 破防 破招 无双)": {
                     "id": 42802,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48805,6 +53656,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42801 (35300 精简 特效 会心 无双)": {
                     "id": 42801,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48828,6 +53682,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42791 (35300 精简 特效 会心 破防 无双)": {
                     "id": 42791,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48852,6 +53709,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42790 (35300 精简 特效 破防 破招 无双)": {
                     "id": 42790,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48876,6 +53736,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42789 (35300 精简 特效 会心 无双)": {
                     "id": 42789,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -48899,6 +53762,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42797 (32500 精简 特效 会心 会效 破招)": {
                     "id": 42797,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48923,6 +53789,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42796 (32500 精简 特效 会心 会效 无双)": {
                     "id": 42796,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48947,6 +53816,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42795 (32500 精简 特效 破防 无双)": {
                     "id": 42795,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48970,6 +53842,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42785 (32500 精简 特效 会心 会效 破招)": {
                     "id": 42785,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -48994,6 +53869,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42784 (32500 精简 特效 会心 会效 无双)": {
                     "id": 42784,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49018,6 +53896,9 @@ EQUIPMENTS = {
                 "无修囊·外·地#42783 (32500 精简 特效 破防 无双)": {
                     "id": 42783,
                     "name": "无修囊·外·地",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49041,6 +53922,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41350 (30200 精简 特效 会心 会效 无双)": {
                     "id": 41350,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49065,6 +53949,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41349 (30200 精简 特效 会心 破招 无双)": {
                     "id": 41349,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49089,6 +53976,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41348 (30200 精简 特效 无双)": {
                     "id": 41348,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49111,6 +54001,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41338 (30200 精简 特效 会心 会效 无双)": {
                     "id": 41338,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49135,6 +54028,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41337 (30200 精简 特效 会心 破招 无双)": {
                     "id": 41337,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49159,6 +54055,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41336 (30200 精简 特效 无双)": {
                     "id": 41336,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49181,6 +54080,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41344 (28000 精简 特效 会心 破防 无双)": {
                     "id": 41344,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49205,6 +54107,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41343 (28000 精简 特效 破防 破招 无双)": {
                     "id": 41343,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49229,6 +54134,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41342 (28000 精简 特效 会心 无双)": {
                     "id": 41342,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49252,6 +54160,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41332 (28000 精简 特效 会心 破防 无双)": {
                     "id": 41332,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49276,6 +54187,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41331 (28000 精简 特效 破防 破招 无双)": {
                     "id": 41331,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49300,6 +54214,9 @@ EQUIPMENTS = {
                 "无修囊·外·玄#41330 (28000 精简 特效 会心 无双)": {
                     "id": 41330,
                     "name": "无修囊·外·玄",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49325,6 +54242,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42800 (35300 精简 特效 会心 破防 无双)": {
                     "id": 42800,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -49349,6 +54269,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42799 (35300 精简 特效 破防 破招 无双)": {
                     "id": 42799,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -49373,6 +54296,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42798 (35300 精简 特效 会心 无双)": {
                     "id": 42798,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -49396,6 +54322,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42788 (35300 精简 特效 会心 破防 无双)": {
                     "id": 42788,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -49420,6 +54349,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42787 (35300 精简 特效 破防 破招 无双)": {
                     "id": 42787,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -49444,6 +54376,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42786 (35300 精简 特效 会心 无双)": {
                     "id": 42786,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 35300,
                     "score": 38124,
                     "max_strength": 6,
@@ -49467,6 +54402,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42794 (32500 精简 特效 会心 会效 破招)": {
                     "id": 42794,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49491,6 +54429,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42793 (32500 精简 特效 会心 会效 无双)": {
                     "id": 42793,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49515,6 +54456,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42792 (32500 精简 特效 破防 无双)": {
                     "id": 42792,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49538,6 +54482,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42782 (32500 精简 特效 会心 会效 破招)": {
                     "id": 42782,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49562,6 +54509,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42781 (32500 精简 特效 会心 会效 无双)": {
                     "id": 42781,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49586,6 +54536,9 @@ EQUIPMENTS = {
                 "无修囊·内·地#42780 (32500 精简 特效 破防 无双)": {
                     "id": 42780,
                     "name": "无修囊·内·地",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 32500,
                     "score": 35100,
                     "max_strength": 6,
@@ -49609,6 +54562,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41347 (30200 精简 特效 会心 会效 无双)": {
                     "id": 41347,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49633,6 +54589,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41346 (30200 精简 特效 会心 破招 无双)": {
                     "id": 41346,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49657,6 +54616,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41345 (30200 精简 特效 无双)": {
                     "id": 41345,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49679,6 +54641,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41335 (30200 精简 特效 会心 会效 无双)": {
                     "id": 41335,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49703,6 +54668,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41334 (30200 精简 特效 会心 破招 无双)": {
                     "id": 41334,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49727,6 +54695,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41333 (30200 精简 特效 无双)": {
                     "id": 41333,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 30200,
                     "score": 32616,
                     "max_strength": 6,
@@ -49749,6 +54720,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41341 (28000 精简 特效 会心 破防 无双)": {
                     "id": 41341,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49773,6 +54747,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41340 (28000 精简 特效 破防 破招 无双)": {
                     "id": 41340,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49797,6 +54774,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41339 (28000 精简 特效 会心 无双)": {
                     "id": 41339,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49820,6 +54800,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41329 (28000 精简 特效 会心 破防 无双)": {
                     "id": 41329,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49844,6 +54827,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41328 (28000 精简 特效 破防 破招 无双)": {
                     "id": 41328,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49868,6 +54854,9 @@ EQUIPMENTS = {
                 "无修囊·内·玄#41327 (28000 精简 特效 会心 无双)": {
                     "id": 41327,
                     "name": "无修囊·内·玄",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
                     "level": 28000,
                     "score": 30240,
                     "max_strength": 6,
@@ -49897,6 +54886,9 @@ EQUIPMENTS = {
                 "静雨#43599 (29700 特效 会心 破防 加速)": {
                     "id": 43599,
                     "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -49934,6 +54926,9 @@ EQUIPMENTS = {
                 "静雨#43566 (27500 特效 会心 破防 加速)": {
                     "id": 43566,
                     "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -49971,6 +54966,9 @@ EQUIPMENTS = {
                 "傀影牵丝#42779 (35900 会心 无双)": {
                     "id": 42779,
                     "name": "傀影牵丝",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -49995,6 +54993,9 @@ EQUIPMENTS = {
                 "月楼戏梦#42842 (35300 破招 无双)": {
                     "id": 42842,
                     "name": "月楼戏梦",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50019,6 +55020,9 @@ EQUIPMENTS = {
                 "络网结丝#42740 (35300 特效 破防 无双)": {
                     "id": 42740,
                     "name": "络网结丝",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50045,6 +55049,9 @@ EQUIPMENTS = {
                 "兰槐丝轮#42705 (35300 破招 无双)": {
                     "id": 42705,
                     "name": "兰槐丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50069,6 +55076,9 @@ EQUIPMENTS = {
                 "细缕丝轮#42664 (35300 会心 无双)": {
                     "id": 42664,
                     "name": "细缕丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50093,6 +55103,9 @@ EQUIPMENTS = {
                 "静雨#43762 (25300 特效 会心 破防 加速)": {
                     "id": 43762,
                     "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -50130,6 +55143,9 @@ EQUIPMENTS = {
                 "静雨#43761 (23650 特效 会心 破防 加速)": {
                     "id": 43761,
                     "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -50167,6 +55183,9 @@ EQUIPMENTS = {
                 "娄伶丝轮#43803 (32500 会心 无双)": {
                     "id": 43803,
                     "name": "娄伶丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -50191,6 +55210,9 @@ EQUIPMENTS = {
                 "水天清#43740 (30700 会心 无双)": {
                     "id": 43740,
                     "name": "水天清",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -50215,6 +55237,9 @@ EQUIPMENTS = {
                 "静雨#43760 (22000 特效 会心 破防 加速)": {
                     "id": 43760,
                     "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -50252,6 +55277,9 @@ EQUIPMENTS = {
                 "剪向西窗#43739 (30200 特效 破防 无双)": {
                     "id": 43739,
                     "name": "剪向西窗",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50278,6 +55306,9 @@ EQUIPMENTS = {
                 "寒云丝轮#43738 (30200 破招 无双)": {
                     "id": 43738,
                     "name": "寒云丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50302,6 +55333,9 @@ EQUIPMENTS = {
                 "依影丝轮#43737 (30200 会心 无双)": {
                     "id": 43737,
                     "name": "依影丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50326,6 +55360,9 @@ EQUIPMENTS = {
                 "孤城惊梦·绞纤丝轮#43408 (30200 破防 无双)": {
                     "id": 43408,
                     "name": "孤城惊梦·绞纤丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50350,6 +55387,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·妙机丝轮#42625 (30200 破招 无双)": {
                     "id": 42625,
                     "name": "寻踪觅宝·妙机丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50376,6 +55416,9 @@ EQUIPMENTS = {
                 "苦昼#43806 (21600 会心 破防 加速)": {
                     "id": 43806,
                     "name": "苦昼",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 21600,
                     "score": 64800,
                     "max_strength": 8,
@@ -50404,6 +55447,9 @@ EQUIPMENTS = {
                 "奶油甜甜圈#44065 (29800 破防 无双)": {
                     "id": 44065,
                     "name": "奶油甜甜圈",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -50437,6 +55483,9 @@ EQUIPMENTS = {
                 "静雨#43759 (20750 特效 会心 破防 加速)": {
                     "id": 43759,
                     "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -50474,6 +55523,9 @@ EQUIPMENTS = {
                 "苦昼#43805 (20400 会心 破防 加速)": {
                     "id": 43805,
                     "name": "苦昼",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20400,
                     "score": 61200,
                     "max_strength": 8,
@@ -50499,6 +55551,9 @@ EQUIPMENTS = {
                 "缚罗丝轮#43764 (28000 破防 无双)": {
                     "id": 43764,
                     "name": "缚罗丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 28000,
                     "score": 60480,
                     "max_strength": 6,
@@ -50527,6 +55582,9 @@ EQUIPMENTS = {
                 "伏龙阳焰#43598 (29700 特效 会心 破防 加速)": {
                     "id": 43598,
                     "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -50567,6 +55625,9 @@ EQUIPMENTS = {
                 "伏龙阳焰#43565 (27500 特效 会心 破防 加速)": {
                     "id": 43565,
                     "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -50607,6 +55668,9 @@ EQUIPMENTS = {
                 "东风吹雨#42778 (35900 会心 无双)": {
                     "id": 42778,
                     "name": "东风吹雨",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -50634,6 +55698,9 @@ EQUIPMENTS = {
                 "千寻飞瀑#42841 (35300 破招 无双)": {
                     "id": 42841,
                     "name": "千寻飞瀑",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50661,6 +55728,9 @@ EQUIPMENTS = {
                 "枯枝鸣叶#42739 (35300 特效 破防 无双)": {
                     "id": 42739,
                     "name": "枯枝鸣叶",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50690,6 +55760,9 @@ EQUIPMENTS = {
                 "戗风扇#42704 (35300 破招 无双)": {
                     "id": 42704,
                     "name": "戗风扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50717,6 +55790,9 @@ EQUIPMENTS = {
                 "信步扇#42663 (35300 会心 无双)": {
                     "id": 42663,
                     "name": "信步扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -50744,6 +55820,9 @@ EQUIPMENTS = {
                 "伏龙阳焰#42172 (25300 特效 会心 破防 加速)": {
                     "id": 42172,
                     "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -50784,6 +55863,9 @@ EQUIPMENTS = {
                 "伏龙阳焰#42140 (23650 特效 会心 破防 加速)": {
                     "id": 42140,
                     "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -50824,6 +55906,9 @@ EQUIPMENTS = {
                 "娄雾扇#43802 (32500 会心 无双)": {
                     "id": 43802,
                     "name": "娄雾扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -50851,6 +55936,9 @@ EQUIPMENTS = {
                 "不见山#41326 (30700 会心 无双)": {
                     "id": 41326,
                     "name": "不见山",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -50878,6 +55966,9 @@ EQUIPMENTS = {
                 "伏龙阳焰#40321 (22000 特效 会心 破防 加速)": {
                     "id": 40321,
                     "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -50918,6 +56009,9 @@ EQUIPMENTS = {
                 "测试武器#43407 (30200 破防 无双)": {
                     "id": 43407,
                     "name": "测试武器",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50945,6 +56039,9 @@ EQUIPMENTS = {
                 "孤城惊梦·折风扇#43406 (30200 破防 无双)": {
                     "id": 43406,
                     "name": "孤城惊梦·折风扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -50972,6 +56069,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·雾雨扇#42624 (30200 破招 无双)": {
                     "id": 42624,
                     "name": "寻踪觅宝·雾雨扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51001,6 +56101,9 @@ EQUIPMENTS = {
                 "虚舟#41388 (30200 破招 无双)": {
                     "id": 41388,
                     "name": "虚舟",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51028,6 +56131,9 @@ EQUIPMENTS = {
                 "明雪望晴#41288 (30200 特效 破防 无双)": {
                     "id": 41288,
                     "name": "明雪望晴",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51057,6 +56163,9 @@ EQUIPMENTS = {
                 "方想扇#41254 (30200 破招 无双)": {
                     "id": 41254,
                     "name": "方想扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51084,6 +56193,9 @@ EQUIPMENTS = {
                 "锦章扇#41214 (30200 会心 无双)": {
                     "id": 41214,
                     "name": "锦章扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51111,6 +56223,9 @@ EQUIPMENTS = {
                 "水果可丽饼#44064 (29800 破防 无双)": {
                     "id": 44064,
                     "name": "水果可丽饼",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -51147,6 +56262,9 @@ EQUIPMENTS = {
                 "伏龙阳焰#40289 (20750 特效 会心 破防 加速)": {
                     "id": 40289,
                     "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -51191,6 +56309,9 @@ EQUIPMENTS = {
                 "金乌回首#43597 (29700 特效 会心 破防 加速)": {
                     "id": 43597,
                     "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -51231,6 +56352,9 @@ EQUIPMENTS = {
                 "金乌回首#43564 (27500 特效 会心 破防 加速)": {
                     "id": 43564,
                     "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -51271,6 +56395,9 @@ EQUIPMENTS = {
                 "不惊鸥#42777 (35900 会心 无双)": {
                     "id": 42777,
                     "name": "不惊鸥",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -51298,6 +56425,9 @@ EQUIPMENTS = {
                 "射日拂花#42840 (35300 破招 无双)": {
                     "id": 42840,
                     "name": "射日拂花",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -51325,6 +56455,9 @@ EQUIPMENTS = {
                 "山空月白#42738 (35300 特效 破防 无双)": {
                     "id": 42738,
                     "name": "山空月白",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -51354,6 +56487,9 @@ EQUIPMENTS = {
                 "满月弓#42703 (35300 破招 无双)": {
                     "id": 42703,
                     "name": "满月弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -51381,6 +56517,9 @@ EQUIPMENTS = {
                 "游山弓#42662 (35300 会心 无双)": {
                     "id": 42662,
                     "name": "游山弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -51408,6 +56547,9 @@ EQUIPMENTS = {
                 "金乌回首#42171 (25300 特效 会心 破防 加速)": {
                     "id": 42171,
                     "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -51448,6 +56590,9 @@ EQUIPMENTS = {
                 "金乌回首#42139 (23650 特效 会心 破防 加速)": {
                     "id": 42139,
                     "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -51488,6 +56633,9 @@ EQUIPMENTS = {
                 "娄羽弓#43801 (32500 会心 无双)": {
                     "id": 43801,
                     "name": "娄羽弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -51515,6 +56663,9 @@ EQUIPMENTS = {
                 "人事稀#41325 (30700 会心 无双)": {
                     "id": 41325,
                     "name": "人事稀",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -51542,6 +56693,9 @@ EQUIPMENTS = {
                 "金乌回首#40320 (22000 特效 会心 破防 加速)": {
                     "id": 40320,
                     "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -51582,6 +56736,9 @@ EQUIPMENTS = {
                 "孤城惊梦·游野弓#43405 (30200 破防 无双)": {
                     "id": 43405,
                     "name": "孤城惊梦·游野弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51609,6 +56766,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·山泽弓#42623 (30200 破招 无双)": {
                     "id": 42623,
                     "name": "寻踪觅宝·山泽弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51638,6 +56798,9 @@ EQUIPMENTS = {
                 "向青皋#41387 (30200 破招 无双)": {
                     "id": 41387,
                     "name": "向青皋",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51665,6 +56828,9 @@ EQUIPMENTS = {
                 "云栖抚灵#41287 (30200 特效 破防 无双)": {
                     "id": 41287,
                     "name": "云栖抚灵",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51694,6 +56860,9 @@ EQUIPMENTS = {
                 "灵涧弓#41253 (30200 破招 无双)": {
                     "id": 41253,
                     "name": "灵涧弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51721,6 +56890,9 @@ EQUIPMENTS = {
                 "呦鸣弓#41213 (30200 会心 无双)": {
                     "id": 41213,
                     "name": "呦鸣弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -51748,6 +56920,9 @@ EQUIPMENTS = {
                 "水果布丁船#44063 (29800 破防 无双)": {
                     "id": 44063,
                     "name": "水果布丁船",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -51784,6 +56959,9 @@ EQUIPMENTS = {
                 "金乌回首#40288 (20750 特效 会心 破防 加速)": {
                     "id": 40288,
                     "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -51828,6 +57006,9 @@ EQUIPMENTS = {
                 "烛微刀#43596 (29700 特效 会心 破防 加速)": {
                     "id": 43596,
                     "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -51868,6 +57049,9 @@ EQUIPMENTS = {
                 "烛微刀#43563 (27500 特效 会心 破防 加速)": {
                     "id": 43563,
                     "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -51908,6 +57092,9 @@ EQUIPMENTS = {
                 "泉流银潢#42776 (35900 会心 无双)": {
                     "id": 42776,
                     "name": "泉流银潢",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -51935,6 +57122,9 @@ EQUIPMENTS = {
                 "江流一峰#42839 (35300 破招 无双)": {
                     "id": 42839,
                     "name": "江流一峰",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -51962,6 +57152,9 @@ EQUIPMENTS = {
                 "都付流云#42737 (35300 特效 破防 无双)": {
                     "id": 42737,
                     "name": "都付流云",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -51991,6 +57184,9 @@ EQUIPMENTS = {
                 "遗尘刀#42702 (35300 破招 无双)": {
                     "id": 42702,
                     "name": "遗尘刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -52018,6 +57214,9 @@ EQUIPMENTS = {
                 "翦云刀#42661 (35300 会心 无双)": {
                     "id": 42661,
                     "name": "翦云刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -52045,6 +57244,9 @@ EQUIPMENTS = {
                 "烛微刀#42170 (25300 特效 会心 破防 加速)": {
                     "id": 42170,
                     "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -52085,6 +57287,9 @@ EQUIPMENTS = {
                 "烛微刀#42138 (23650 特效 会心 破防 加速)": {
                     "id": 42138,
                     "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -52125,6 +57330,9 @@ EQUIPMENTS = {
                 "娄风刀#43800 (32500 会心 无双)": {
                     "id": 43800,
                     "name": "娄风刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -52152,6 +57360,9 @@ EQUIPMENTS = {
                 "著浮名#41324 (30700 会心 无双)": {
                     "id": 41324,
                     "name": "著浮名",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -52179,6 +57390,9 @@ EQUIPMENTS = {
                 "烛微刀#40319 (22000 特效 会心 破防 加速)": {
                     "id": 40319,
                     "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -52219,6 +57433,9 @@ EQUIPMENTS = {
                 "孤城惊梦·惊涛刀#43404 (30200 破防 无双)": {
                     "id": 43404,
                     "name": "孤城惊梦·惊涛刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52246,6 +57463,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·云闲刀#42622 (30200 破招 无双)": {
                     "id": 42622,
                     "name": "寻踪觅宝·云闲刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52275,6 +57495,9 @@ EQUIPMENTS = {
                 "惊梦#41386 (30200 破招 无双)": {
                     "id": 41386,
                     "name": "惊梦",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52302,6 +57525,9 @@ EQUIPMENTS = {
                 "天容阔#41286 (30200 特效 破防 无双)": {
                     "id": 41286,
                     "name": "天容阔",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52331,6 +57557,9 @@ EQUIPMENTS = {
                 "止风刀#41252 (30200 破招 无双)": {
                     "id": 41252,
                     "name": "止风刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52358,6 +57587,9 @@ EQUIPMENTS = {
                 "逆雨刀#41212 (30200 会心 无双)": {
                     "id": 41212,
                     "name": "逆雨刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52385,6 +57617,9 @@ EQUIPMENTS = {
                 "奇彩炫#44062 (29800 破防 无双)": {
                     "id": 44062,
                     "name": "奇彩炫",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -52421,6 +57656,9 @@ EQUIPMENTS = {
                 "烛微刀#40287 (20750 特效 会心 破防 加速)": {
                     "id": 40287,
                     "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -52465,6 +57703,9 @@ EQUIPMENTS = {
                 "幽微夜#43595 (29700 特效 会心 加速)": {
                     "id": 43595,
                     "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -52503,6 +57744,9 @@ EQUIPMENTS = {
                 "幽微夜#43562 (27500 特效 会心 加速)": {
                     "id": 43562,
                     "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -52541,6 +57785,9 @@ EQUIPMENTS = {
                 "雪晴晓雾#42775 (35900 会心)": {
                     "id": 42775,
                     "name": "雪晴晓雾",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -52567,6 +57814,9 @@ EQUIPMENTS = {
                 "露凝丛叶#42838 (35300 加速)": {
                     "id": 42838,
                     "name": "露凝丛叶",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -52593,6 +57843,9 @@ EQUIPMENTS = {
                 "碧水青#42736 (35300 特效 会心)": {
                     "id": 42736,
                     "name": "碧水青",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -52621,6 +57874,9 @@ EQUIPMENTS = {
                 "扶疏卷#42701 (35300 加速)": {
                     "id": 42701,
                     "name": "扶疏卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -52647,6 +57903,9 @@ EQUIPMENTS = {
                 "垂露卷#42660 (35300 )": {
                     "id": 42660,
                     "name": "垂露卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -52672,6 +57931,9 @@ EQUIPMENTS = {
                 "幽微夜#42169 (25300 特效 会心 加速)": {
                     "id": 42169,
                     "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -52710,6 +57972,9 @@ EQUIPMENTS = {
                 "幽微夜#42137 (23650 特效 会心 加速)": {
                     "id": 42137,
                     "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -52748,6 +58013,9 @@ EQUIPMENTS = {
                 "娄枝卷#43799 (32500 会心)": {
                     "id": 43799,
                     "name": "娄枝卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -52774,6 +58042,9 @@ EQUIPMENTS = {
                 "任悠游#41323 (30700 会心)": {
                     "id": 41323,
                     "name": "任悠游",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -52800,6 +58071,9 @@ EQUIPMENTS = {
                 "幽微夜#40318 (22000 特效 会心 加速)": {
                     "id": 40318,
                     "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -52838,6 +58112,9 @@ EQUIPMENTS = {
                 "孤城惊梦·白芷卷#43403 (30200 加速)": {
                     "id": 43403,
                     "name": "孤城惊梦·白芷卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52864,6 +58141,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·茂木卷#42621 (30200 会心)": {
                     "id": 42621,
                     "name": "寻踪觅宝·茂木卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52892,6 +58172,9 @@ EQUIPMENTS = {
                 "幽鉴难#41385 (30200 加速)": {
                     "id": 41385,
                     "name": "幽鉴难",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52918,6 +58201,9 @@ EQUIPMENTS = {
                 "古原春#41285 (30200 特效 会心)": {
                     "id": 41285,
                     "name": "古原春",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52946,6 +58232,9 @@ EQUIPMENTS = {
                 "生新卷#41251 (30200 加速)": {
                     "id": 41251,
                     "name": "生新卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52972,6 +58261,9 @@ EQUIPMENTS = {
                 "醒荣卷#41211 (30200 )": {
                     "id": 41211,
                     "name": "醒荣卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -52997,6 +58289,9 @@ EQUIPMENTS = {
                 "抹茶蛋糕卷#44061 (29800 加速)": {
                     "id": 44061,
                     "name": "抹茶蛋糕卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -53032,6 +58327,9 @@ EQUIPMENTS = {
                 "幽微夜#40286 (20750 特效 会心 加速)": {
                     "id": 40286,
                     "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -53072,6 +58370,9 @@ EQUIPMENTS = {
                 "烬灭#43594 (29700 特效 会心 破防 加速)": {
                     "id": 43594,
                     "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -53112,6 +58413,9 @@ EQUIPMENTS = {
                 "烬灭#43561 (27500 特效 会心 破防 加速)": {
                     "id": 43561,
                     "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -53152,6 +58456,9 @@ EQUIPMENTS = {
                 "孤阁春寒#42774 (35900 会心 无双)": {
                     "id": 42774,
                     "name": "孤阁春寒",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -53179,6 +58486,9 @@ EQUIPMENTS = {
                 "碧嶂缠藤#42837 (35300 破招 无双)": {
                     "id": 42837,
                     "name": "碧嶂缠藤",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53206,6 +58516,9 @@ EQUIPMENTS = {
                 "蒿莱行#42735 (35300 特效 破防 无双)": {
                     "id": 42735,
                     "name": "蒿莱行",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53235,6 +58548,9 @@ EQUIPMENTS = {
                 "纷糅卷#42700 (35300 破招 无双)": {
                     "id": 42700,
                     "name": "纷糅卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53262,6 +58578,9 @@ EQUIPMENTS = {
                 "离靡卷#42659 (35300 会心 无双)": {
                     "id": 42659,
                     "name": "离靡卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53289,6 +58608,9 @@ EQUIPMENTS = {
                 "烬灭#42168 (25300 特效 会心 破防 加速)": {
                     "id": 42168,
                     "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -53329,6 +58651,9 @@ EQUIPMENTS = {
                 "烬灭#42136 (23650 特效 会心 破防 加速)": {
                     "id": 42136,
                     "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -53369,6 +58694,9 @@ EQUIPMENTS = {
                 "娄叶卷#43798 (32500 会心 无双)": {
                     "id": 43798,
                     "name": "娄叶卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -53396,6 +58724,9 @@ EQUIPMENTS = {
                 "霜雪期#41322 (30700 会心 无双)": {
                     "id": 41322,
                     "name": "霜雪期",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -53423,6 +58754,9 @@ EQUIPMENTS = {
                 "烬灭#40317 (22000 特效 会心 破防 加速)": {
                     "id": 40317,
                     "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -53463,6 +58797,9 @@ EQUIPMENTS = {
                 "孤城惊梦·飞叶卷#43402 (30200 破防 无双)": {
                     "id": 43402,
                     "name": "孤城惊梦·飞叶卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -53490,6 +58827,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·青圃卷#42620 (30200 破招 无双)": {
                     "id": 42620,
                     "name": "寻踪觅宝·青圃卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -53519,6 +58859,9 @@ EQUIPMENTS = {
                 "贯众#41384 (30200 破招 无双)": {
                     "id": 41384,
                     "name": "贯众",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -53546,6 +58889,9 @@ EQUIPMENTS = {
                 "空翠拂烟#41284 (30200 特效 破防 无双)": {
                     "id": 41284,
                     "name": "空翠拂烟",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -53575,6 +58921,9 @@ EQUIPMENTS = {
                 "然苍卷#41250 (30200 破招 无双)": {
                     "id": 41250,
                     "name": "然苍卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -53602,6 +58951,9 @@ EQUIPMENTS = {
                 "冷翠卷#41210 (30200 会心 无双)": {
                     "id": 41210,
                     "name": "冷翠卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -53629,6 +58981,9 @@ EQUIPMENTS = {
                 "抹茶蛋糕卷#44060 (29800 破防 无双)": {
                     "id": 44060,
                     "name": "抹茶蛋糕卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -53665,6 +59020,9 @@ EQUIPMENTS = {
                 "烬灭#40285 (20750 特效 会心 破防 加速)": {
                     "id": 40285,
                     "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -53709,6 +59067,9 @@ EQUIPMENTS = {
                 "子不语#43593 (29700 特效 会心 破防 加速)": {
                     "id": 43593,
                     "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -53749,6 +59110,9 @@ EQUIPMENTS = {
                 "子不语#43560 (27500 特效 会心 破防 加速)": {
                     "id": 43560,
                     "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -53789,6 +59153,9 @@ EQUIPMENTS = {
                 "神游八极#42773 (35900 会心 无双)": {
                     "id": 42773,
                     "name": "神游八极",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -53816,6 +59183,9 @@ EQUIPMENTS = {
                 "山形大壑#42836 (35300 破招 无双)": {
                     "id": 42836,
                     "name": "山形大壑",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53843,6 +59213,9 @@ EQUIPMENTS = {
                 "夜看参横#42734 (35300 特效 破防 无双)": {
                     "id": 42734,
                     "name": "夜看参横",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53872,6 +59245,9 @@ EQUIPMENTS = {
                 "灵圄灯#42699 (35300 破招 无双)": {
                     "id": 42699,
                     "name": "灵圄灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53899,6 +59275,9 @@ EQUIPMENTS = {
                 "璇玑灯#42658 (35300 会心 无双)": {
                     "id": 42658,
                     "name": "璇玑灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -53926,6 +59305,9 @@ EQUIPMENTS = {
                 "子不语#42167 (25300 特效 会心 破防 加速)": {
                     "id": 42167,
                     "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -53966,6 +59348,9 @@ EQUIPMENTS = {
                 "子不语#42135 (23650 特效 会心 破防 加速)": {
                     "id": 42135,
                     "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -54006,6 +59391,9 @@ EQUIPMENTS = {
                 "娄爻灯#43797 (32500 会心 无双)": {
                     "id": 43797,
                     "name": "娄爻灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -54033,6 +59421,9 @@ EQUIPMENTS = {
                 "尘外士#41321 (30700 会心 无双)": {
                     "id": 41321,
                     "name": "尘外士",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -54060,6 +59451,9 @@ EQUIPMENTS = {
                 "子不语#40316 (22000 特效 会心 破防 加速)": {
                     "id": 40316,
                     "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -54100,6 +59494,9 @@ EQUIPMENTS = {
                 "孤城惊梦·观星灯#43401 (30200 破防 无双)": {
                     "id": 43401,
                     "name": "孤城惊梦·观星灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54127,6 +59524,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·星移灯#42619 (30200 破招 无双)": {
                     "id": 42619,
                     "name": "寻踪觅宝·星移灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54156,6 +59556,9 @@ EQUIPMENTS = {
                 "窥太古#41383 (30200 破招 无双)": {
                     "id": 41383,
                     "name": "窥太古",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54183,6 +59586,9 @@ EQUIPMENTS = {
                 "太微明序#41283 (30200 特效 破防 无双)": {
                     "id": 41283,
                     "name": "太微明序",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54212,6 +59618,9 @@ EQUIPMENTS = {
                 "略星灯#41249 (30200 破招 无双)": {
                     "id": 41249,
                     "name": "略星灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54239,6 +59648,9 @@ EQUIPMENTS = {
                 "辰光灯#41209 (30200 会心 无双)": {
                     "id": 41209,
                     "name": "辰光灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54266,6 +59678,9 @@ EQUIPMENTS = {
                 "旋转蛋糕架#44059 (29800 破防 无双)": {
                     "id": 44059,
                     "name": "旋转蛋糕架",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -54302,6 +59717,9 @@ EQUIPMENTS = {
                 "子不语#40284 (20750 特效 会心 破防 加速)": {
                     "id": 40284,
                     "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -54346,6 +59764,9 @@ EQUIPMENTS = {
                 "长安#43592 (29700 特效 会心 破防 加速)": {
                     "id": 43592,
                     "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -54386,6 +59807,9 @@ EQUIPMENTS = {
                 "长安#43559 (27500 特效 会心 破防 加速)": {
                     "id": 43559,
                     "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -54426,6 +59850,9 @@ EQUIPMENTS = {
                 "碑碣没野#42772 (35900 会心 无双)": {
                     "id": 42772,
                     "name": "碑碣没野",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -54453,6 +59880,9 @@ EQUIPMENTS = {
                 "西去秦川#42835 (35300 破招 无双)": {
                     "id": 42835,
                     "name": "西去秦川",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -54480,6 +59910,9 @@ EQUIPMENTS = {
                 "倚碧霄#42733 (35300 特效 破防 无双)": {
                     "id": 42733,
                     "name": "倚碧霄",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -54509,6 +59942,9 @@ EQUIPMENTS = {
                 "衢道链刃#42698 (35300 破招 无双)": {
                     "id": 42698,
                     "name": "衢道链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -54536,6 +59972,9 @@ EQUIPMENTS = {
                 "施薪链刃#42657 (35300 会心 无双)": {
                     "id": 42657,
                     "name": "施薪链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -54563,6 +60002,9 @@ EQUIPMENTS = {
                 "长安#42166 (25300 特效 会心 破防 加速)": {
                     "id": 42166,
                     "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -54603,6 +60045,9 @@ EQUIPMENTS = {
                 "长安#42134 (23650 特效 会心 破防 加速)": {
                     "id": 42134,
                     "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -54643,6 +60088,9 @@ EQUIPMENTS = {
                 "娄幽链刃#43796 (32500 会心 无双)": {
                     "id": 43796,
                     "name": "娄幽链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -54670,6 +60118,9 @@ EQUIPMENTS = {
                 "麒王逐魂#42511 (30700 特效 会心 无双)": {
                     "id": 42511,
                     "name": "麒王逐魂",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -54702,6 +60153,9 @@ EQUIPMENTS = {
                 "玉阶#41320 (30700 会心 无双)": {
                     "id": 41320,
                     "name": "玉阶",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -54729,6 +60183,9 @@ EQUIPMENTS = {
                 "长安#40315 (22000 特效 会心 破防 加速)": {
                     "id": 40315,
                     "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -54769,6 +60226,9 @@ EQUIPMENTS = {
                 "孤城惊梦·匿夜链刃#43400 (30200 破防 无双)": {
                     "id": 43400,
                     "name": "孤城惊梦·匿夜链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54796,6 +60256,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·孤劫链刃#42618 (30200 破招 无双)": {
                     "id": 42618,
                     "name": "寻踪觅宝·孤劫链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54825,6 +60288,9 @@ EQUIPMENTS = {
                 "拂星#41382 (30200 破招 无双)": {
                     "id": 41382,
                     "name": "拂星",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54852,6 +60318,9 @@ EQUIPMENTS = {
                 "渊影#41282 (30200 特效 破防 无双)": {
                     "id": 41282,
                     "name": "渊影",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54881,6 +60350,9 @@ EQUIPMENTS = {
                 "问义链刃#41248 (30200 破招 无双)": {
                     "id": 41248,
                     "name": "问义链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54908,6 +60380,9 @@ EQUIPMENTS = {
                 "心祭链刃#41208 (30200 会心 无双)": {
                     "id": 41208,
                     "name": "心祭链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -54935,6 +60410,9 @@ EQUIPMENTS = {
                 "水果糖葫芦#44058 (29800 破防 无双)": {
                     "id": 44058,
                     "name": "水果糖葫芦",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -54971,6 +60449,9 @@ EQUIPMENTS = {
                 "长安#40283 (20750 特效 会心 破防 加速)": {
                     "id": 40283,
                     "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -55015,6 +60496,9 @@ EQUIPMENTS = {
                 "七月嘉树#43591 (29700 特效 会心 破防 加速)": {
                     "id": 43591,
                     "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -55055,6 +60539,9 @@ EQUIPMENTS = {
                 "七月嘉树#43558 (27500 特效 会心 破防 加速)": {
                     "id": 43558,
                     "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -55095,6 +60582,9 @@ EQUIPMENTS = {
                 "乘槎寻胜#42771 (35900 会心 无双)": {
                     "id": 42771,
                     "name": "乘槎寻胜",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -55122,6 +60612,9 @@ EQUIPMENTS = {
                 "望海门#42834 (35300 破招 无双)": {
                     "id": 42834,
                     "name": "望海门",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55149,6 +60642,9 @@ EQUIPMENTS = {
                 "冰轮清辉#42732 (35300 特效 破防 无双)": {
                     "id": 42732,
                     "name": "冰轮清辉",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55178,6 +60674,9 @@ EQUIPMENTS = {
                 "越海伞#42697 (35300 破招 无双)": {
                     "id": 42697,
                     "name": "越海伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55205,6 +60704,9 @@ EQUIPMENTS = {
                 "海沸伞#42656 (35300 会心 无双)": {
                     "id": 42656,
                     "name": "海沸伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55232,6 +60734,9 @@ EQUIPMENTS = {
                 "七月嘉树#42165 (25300 特效 会心 破防 加速)": {
                     "id": 42165,
                     "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -55272,6 +60777,9 @@ EQUIPMENTS = {
                 "七月嘉树#42133 (23650 特效 会心 破防 加速)": {
                     "id": 42133,
                     "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -55312,6 +60820,9 @@ EQUIPMENTS = {
                 "娄涛伞#43795 (32500 会心 无双)": {
                     "id": 43795,
                     "name": "娄涛伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -55339,6 +60850,9 @@ EQUIPMENTS = {
                 "雪海散华#42510 (30700 特效 会心 无双)": {
                     "id": 42510,
                     "name": "雪海散华",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -55371,6 +60885,9 @@ EQUIPMENTS = {
                 "一色清#41319 (30700 会心 无双)": {
                     "id": 41319,
                     "name": "一色清",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -55398,6 +60915,9 @@ EQUIPMENTS = {
                 "七月嘉树#40314 (22000 特效 会心 破防 加速)": {
                     "id": 40314,
                     "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -55438,6 +60958,9 @@ EQUIPMENTS = {
                 "孤城惊梦·飘飖伞#43399 (30200 破防 无双)": {
                     "id": 43399,
                     "name": "孤城惊梦·飘飖伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -55465,6 +60988,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·泛波伞#42617 (30200 破招 无双)": {
                     "id": 42617,
                     "name": "寻踪觅宝·泛波伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -55494,6 +61020,9 @@ EQUIPMENTS = {
                 "掣沧溟#41381 (30200 破招 无双)": {
                     "id": 41381,
                     "name": "掣沧溟",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -55521,6 +61050,9 @@ EQUIPMENTS = {
                 "月隐轻舟#41281 (30200 特效 破防 无双)": {
                     "id": 41281,
                     "name": "月隐轻舟",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -55550,6 +61082,9 @@ EQUIPMENTS = {
                 "濯波伞#41247 (30200 破招 无双)": {
                     "id": 41247,
                     "name": "濯波伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -55577,6 +61112,9 @@ EQUIPMENTS = {
                 "鉴海伞#41207 (30200 会心 无双)": {
                     "id": 41207,
                     "name": "鉴海伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -55604,6 +61142,9 @@ EQUIPMENTS = {
                 "海蓝冰粉#44057 (29800 破防 无双)": {
                     "id": 44057,
                     "name": "海蓝冰粉",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -55640,6 +61181,9 @@ EQUIPMENTS = {
                 "七月嘉树#40282 (20750 特效 会心 破防 加速)": {
                     "id": 40282,
                     "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -55684,6 +61228,9 @@ EQUIPMENTS = {
                 "碧血豪侠#43590 (29700 特效 会心 破防 加速)": {
                     "id": 43590,
                     "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -55724,6 +61271,9 @@ EQUIPMENTS = {
                 "碧血豪侠#43557 (27500 特效 会心 破防 加速)": {
                     "id": 43557,
                     "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -55764,6 +61314,9 @@ EQUIPMENTS = {
                 "乱峰叠嶂#42770 (35900 会心 无双)": {
                     "id": 42770,
                     "name": "乱峰叠嶂",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -55791,6 +61344,9 @@ EQUIPMENTS = {
                 "暂淹留#42833 (35300 破招 无双)": {
                     "id": 42833,
                     "name": "暂淹留",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55818,6 +61374,9 @@ EQUIPMENTS = {
                 "山连绝巘#42731 (35300 特效 破防 无双)": {
                     "id": 42731,
                     "name": "山连绝巘",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55847,6 +61406,9 @@ EQUIPMENTS = {
                 "悬河刀#42696 (35300 破招 无双)": {
                     "id": 42696,
                     "name": "悬河刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55874,6 +61436,9 @@ EQUIPMENTS = {
                 "雷霆刀#42655 (35300 会心 无双)": {
                     "id": 42655,
                     "name": "雷霆刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -55901,6 +61466,9 @@ EQUIPMENTS = {
                 "碧血豪侠#42164 (25300 特效 会心 破防 加速)": {
                     "id": 42164,
                     "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -55941,6 +61509,9 @@ EQUIPMENTS = {
                 "碧血豪侠#42132 (23650 特效 会心 破防 加速)": {
                     "id": 42132,
                     "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -55981,6 +61552,9 @@ EQUIPMENTS = {
                 "娄岚刀#43794 (32500 会心 无双)": {
                     "id": 43794,
                     "name": "娄岚刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -56008,6 +61582,9 @@ EQUIPMENTS = {
                 "五相斩#42509 (30700 特效 会心 无双)": {
                     "id": 42509,
                     "name": "五相斩",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -56040,6 +61617,9 @@ EQUIPMENTS = {
                 "千丈奔#41318 (30700 会心 无双)": {
                     "id": 41318,
                     "name": "千丈奔",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -56067,6 +61647,9 @@ EQUIPMENTS = {
                 "碧血豪侠#40313 (22000 特效 会心 破防 加速)": {
                     "id": 40313,
                     "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -56107,6 +61690,9 @@ EQUIPMENTS = {
                 "孤城惊梦·横绝刀#43398 (30200 破防 无双)": {
                     "id": 43398,
                     "name": "孤城惊梦·横绝刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56134,6 +61720,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·轻裘刀#42616 (30200 破招 无双)": {
                     "id": 42616,
                     "name": "寻踪觅宝·轻裘刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56163,6 +61752,9 @@ EQUIPMENTS = {
                 "震九霄#41380 (30200 破招 无双)": {
                     "id": 41380,
                     "name": "震九霄",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56190,6 +61782,9 @@ EQUIPMENTS = {
                 "破千山#41280 (30200 特效 破防 无双)": {
                     "id": 41280,
                     "name": "破千山",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56219,6 +61814,9 @@ EQUIPMENTS = {
                 "如霆刀#41246 (30200 破招 无双)": {
                     "id": 41246,
                     "name": "如霆刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56246,6 +61844,9 @@ EQUIPMENTS = {
                 "锋持刀#41206 (30200 会心 无双)": {
                     "id": 41206,
                     "name": "锋持刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56273,6 +61874,9 @@ EQUIPMENTS = {
                 "草莓华夫卷#44056 (29800 破防 无双)": {
                     "id": 44056,
                     "name": "草莓华夫卷",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -56309,6 +61913,9 @@ EQUIPMENTS = {
                 "碧血豪侠#40281 (20750 特效 会心 破防 加速)": {
                     "id": 40281,
                     "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -56353,6 +61960,9 @@ EQUIPMENTS = {
                 "万象金声#43589 (29700 特效 会心 加速)": {
                     "id": 43589,
                     "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -56391,6 +62001,9 @@ EQUIPMENTS = {
                 "万象金声#43556 (27500 特效 会心 加速)": {
                     "id": 43556,
                     "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -56429,6 +62042,9 @@ EQUIPMENTS = {
                 "碧汉秋#42769 (35900 会心)": {
                     "id": 42769,
                     "name": "碧汉秋",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -56455,6 +62071,9 @@ EQUIPMENTS = {
                 "苍壁江烟#42832 (35300 加速)": {
                     "id": 42832,
                     "name": "苍壁江烟",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -56481,6 +62100,9 @@ EQUIPMENTS = {
                 "映碧纱#42730 (35300 特效 会心)": {
                     "id": 42730,
                     "name": "映碧纱",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -56509,6 +62131,9 @@ EQUIPMENTS = {
                 "风弦琴#42695 (35300 加速)": {
                     "id": 42695,
                     "name": "风弦琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -56535,6 +62160,9 @@ EQUIPMENTS = {
                 "隆礼琴#42654 (35300 )": {
                     "id": 42654,
                     "name": "隆礼琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -56560,6 +62188,9 @@ EQUIPMENTS = {
                 "万象金声#42163 (25300 特效 会心 加速)": {
                     "id": 42163,
                     "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -56598,6 +62229,9 @@ EQUIPMENTS = {
                 "万象金声#42131 (23650 特效 会心 加速)": {
                     "id": 42131,
                     "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -56636,6 +62270,9 @@ EQUIPMENTS = {
                 "娄霄琴#43793 (32500 会心)": {
                     "id": 43793,
                     "name": "娄霄琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -56662,6 +62299,9 @@ EQUIPMENTS = {
                 "风雷瑶琴剑#42508 (30700 特效 会心)": {
                     "id": 42508,
                     "name": "风雷瑶琴剑",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -56693,6 +62333,9 @@ EQUIPMENTS = {
                 "天地音#41317 (30700 会心)": {
                     "id": 41317,
                     "name": "天地音",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -56719,6 +62362,9 @@ EQUIPMENTS = {
                 "万象金声#40312 (22000 特效 会心 加速)": {
                     "id": 40312,
                     "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -56757,6 +62403,9 @@ EQUIPMENTS = {
                 "孤城惊梦·清音琴#43397 (30200 加速)": {
                     "id": 43397,
                     "name": "孤城惊梦·清音琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56783,6 +62432,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·芰荷琴#42615 (30200 会心)": {
                     "id": 42615,
                     "name": "寻踪觅宝·芰荷琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56811,6 +62463,9 @@ EQUIPMENTS = {
                 "秋壑#41379 (30200 加速)": {
                     "id": 41379,
                     "name": "秋壑",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56837,6 +62492,9 @@ EQUIPMENTS = {
                 "天霜影#41279 (30200 特效 会心)": {
                     "id": 41279,
                     "name": "天霜影",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56865,6 +62523,9 @@ EQUIPMENTS = {
                 "相寻琴#41245 (30200 加速)": {
                     "id": 41245,
                     "name": "相寻琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56891,6 +62552,9 @@ EQUIPMENTS = {
                 "羽音琴#41205 (30200 )": {
                     "id": 41205,
                     "name": "羽音琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -56916,6 +62580,9 @@ EQUIPMENTS = {
                 "蜜瓜苏打水#44055 (29800 加速)": {
                     "id": 44055,
                     "name": "蜜瓜苏打水",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -56951,6 +62618,9 @@ EQUIPMENTS = {
                 "万象金声#40280 (20750 特效 会心 加速)": {
                     "id": 40280,
                     "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -56991,6 +62661,9 @@ EQUIPMENTS = {
                 "栖贤韵#43588 (29700 特效 会心 破防 加速)": {
                     "id": 43588,
                     "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -57031,6 +62704,9 @@ EQUIPMENTS = {
                 "栖贤韵#43555 (27500 特效 会心 破防 加速)": {
                     "id": 43555,
                     "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -57071,6 +62747,9 @@ EQUIPMENTS = {
                 "烟波万虑#42768 (35900 会心 无双)": {
                     "id": 42768,
                     "name": "烟波万虑",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -57098,6 +62777,9 @@ EQUIPMENTS = {
                 "长烟袅碧#42831 (35300 破招 无双)": {
                     "id": 42831,
                     "name": "长烟袅碧",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57125,6 +62807,9 @@ EQUIPMENTS = {
                 "睡起推篷#42729 (35300 特效 破防 无双)": {
                     "id": 42729,
                     "name": "睡起推篷",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57154,6 +62839,9 @@ EQUIPMENTS = {
                 "松石琴#42694 (35300 破招 无双)": {
                     "id": 42694,
                     "name": "松石琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57181,6 +62869,9 @@ EQUIPMENTS = {
                 "清越琴#42653 (35300 会心 无双)": {
                     "id": 42653,
                     "name": "清越琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57208,6 +62899,9 @@ EQUIPMENTS = {
                 "栖贤韵#42162 (25300 特效 会心 破防 加速)": {
                     "id": 42162,
                     "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -57248,6 +62942,9 @@ EQUIPMENTS = {
                 "栖贤韵#42130 (23650 特效 会心 破防 加速)": {
                     "id": 42130,
                     "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -57288,6 +62985,9 @@ EQUIPMENTS = {
                 "娄弦琴#43792 (32500 会心 无双)": {
                     "id": 43792,
                     "name": "娄弦琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -57315,6 +63015,9 @@ EQUIPMENTS = {
                 "风雷瑶琴剑#42507 (30700 特效 会心 无双)": {
                     "id": 42507,
                     "name": "风雷瑶琴剑",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -57347,6 +63050,9 @@ EQUIPMENTS = {
                 "尽春光#41316 (30700 会心 无双)": {
                     "id": 41316,
                     "name": "尽春光",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -57374,6 +63080,9 @@ EQUIPMENTS = {
                 "栖贤韵#40311 (22000 特效 会心 破防 加速)": {
                     "id": 40311,
                     "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -57414,6 +63123,9 @@ EQUIPMENTS = {
                 "孤城惊梦·拨云琴#43396 (30200 破防 无双)": {
                     "id": 43396,
                     "name": "孤城惊梦·拨云琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -57441,6 +63153,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·行歌琴#42614 (30200 破招 无双)": {
                     "id": 42614,
                     "name": "寻踪觅宝·行歌琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -57470,6 +63185,9 @@ EQUIPMENTS = {
                 "冷月无声#41378 (30200 破招 无双)": {
                     "id": 41378,
                     "name": "冷月无声",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -57497,6 +63215,9 @@ EQUIPMENTS = {
                 "沧浪水#41278 (30200 特效 破防 无双)": {
                     "id": 41278,
                     "name": "沧浪水",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -57526,6 +63247,9 @@ EQUIPMENTS = {
                 "令仪琴#41244 (30200 破招 无双)": {
                     "id": 41244,
                     "name": "令仪琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -57553,6 +63277,9 @@ EQUIPMENTS = {
                 "攸宁琴#41204 (30200 会心 无双)": {
                     "id": 41204,
                     "name": "攸宁琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -57580,6 +63307,9 @@ EQUIPMENTS = {
                 "蜜瓜苏打水#44054 (29800 破防 无双)": {
                     "id": 44054,
                     "name": "蜜瓜苏打水",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -57616,6 +63346,9 @@ EQUIPMENTS = {
                 "栖贤韵#40279 (20750 特效 会心 破防 加速)": {
                     "id": 40279,
                     "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -57660,6 +63393,9 @@ EQUIPMENTS = {
                 "驭焰#43587 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43587,
                     "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -57700,6 +63436,9 @@ EQUIPMENTS = {
                 "驭焰#43554 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43554,
                     "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -57740,6 +63479,9 @@ EQUIPMENTS = {
                 "万里关河#42767 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 42767,
                     "name": "万里关河",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -57768,6 +63510,9 @@ EQUIPMENTS = {
                 "孤征客#42830 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 42830,
                     "name": "孤征客",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57796,6 +63541,9 @@ EQUIPMENTS = {
                 "塞上危城#42728 (35300 特效 外防 加速 破招 御劲 无双)": {
                     "id": 42728,
                     "name": "塞上危城",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57826,6 +63574,9 @@ EQUIPMENTS = {
                 "扬旌盾刀#42693 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 42693,
                     "name": "扬旌盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57854,6 +63605,9 @@ EQUIPMENTS = {
                 "豪客盾刀#42652 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 42652,
                     "name": "豪客盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -57882,6 +63636,9 @@ EQUIPMENTS = {
                 "驭焰#42161 (25300 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42161,
                     "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -57922,6 +63679,9 @@ EQUIPMENTS = {
                 "驭焰#42129 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42129,
                     "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -57962,6 +63722,9 @@ EQUIPMENTS = {
                 "娄朔盾刀#43791 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 43791,
                     "name": "娄朔盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -57990,6 +63753,9 @@ EQUIPMENTS = {
                 "斩马刑天#42506 (30700 特效 外防 内防 破招 御劲 无双)": {
                     "id": 42506,
                     "name": "斩马刑天",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -58023,6 +63789,9 @@ EQUIPMENTS = {
                 "寂照#41315 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 41315,
                     "name": "寂照",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -58051,6 +63820,9 @@ EQUIPMENTS = {
                 "驭焰#40310 (22000 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40310,
                     "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -58091,6 +63863,9 @@ EQUIPMENTS = {
                 "孤城惊梦·望雁盾刀#43395 (30200 外防 加速 破招 御劲 无双)": {
                     "id": 43395,
                     "name": "孤城惊梦·望雁盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58119,6 +63894,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·横山盾刀#42613 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 42613,
                     "name": "寻踪觅宝·横山盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58149,6 +63927,9 @@ EQUIPMENTS = {
                 "寒山草#41377 (30200 外防 御劲 无双)": {
                     "id": 41377,
                     "name": "寒山草",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58175,6 +63956,9 @@ EQUIPMENTS = {
                 "孤雪征鸿#41277 (30200 特效 外防 御劲 无双)": {
                     "id": 41277,
                     "name": "孤雪征鸿",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58203,6 +63987,9 @@ EQUIPMENTS = {
                 "修能盾刀#41243 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 41243,
                     "name": "修能盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58231,6 +64018,9 @@ EQUIPMENTS = {
                 "肃烈盾刀#41203 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 41203,
                     "name": "肃烈盾刀",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58259,6 +64049,9 @@ EQUIPMENTS = {
                 "圈圈三色杯#44053 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 44053,
                     "name": "圈圈三色杯",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -58295,6 +64088,9 @@ EQUIPMENTS = {
                 "驭焰#40278 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40278,
                     "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -58337,6 +64133,9 @@ EQUIPMENTS = {
                 "天下宏愿#43586 (29700 特效 会心 破防 加速)": {
                     "id": 43586,
                     "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -58377,6 +64176,9 @@ EQUIPMENTS = {
                 "天下宏愿#43553 (27500 特效 会心 破防 加速)": {
                     "id": 43553,
                     "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -58417,6 +64219,9 @@ EQUIPMENTS = {
                 "玉塞尘生#42766 (35900 会心 无双)": {
                     "id": 42766,
                     "name": "玉塞尘生",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -58444,6 +64249,9 @@ EQUIPMENTS = {
                 "横夜雪#42829 (35300 破招 无双)": {
                     "id": 42829,
                     "name": "横夜雪",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -58471,6 +64279,9 @@ EQUIPMENTS = {
                 "秋风白草#42727 (35300 特效 破防 无双)": {
                     "id": 42727,
                     "name": "秋风白草",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -58500,6 +64311,9 @@ EQUIPMENTS = {
                 "勒石盾刀#42692 (35300 破招 无双)": {
                     "id": 42692,
                     "name": "勒石盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -58527,6 +64341,9 @@ EQUIPMENTS = {
                 "夕烽盾刀#42651 (35300 会心 无双)": {
                     "id": 42651,
                     "name": "夕烽盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -58554,6 +64371,9 @@ EQUIPMENTS = {
                 "天下宏愿#42160 (25300 特效 会心 破防 加速)": {
                     "id": 42160,
                     "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -58594,6 +64414,9 @@ EQUIPMENTS = {
                 "天下宏愿#42128 (23650 特效 会心 破防 加速)": {
                     "id": 42128,
                     "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -58634,6 +64457,9 @@ EQUIPMENTS = {
                 "娄燕盾刀#43790 (32500 会心 无双)": {
                     "id": 43790,
                     "name": "娄燕盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -58661,6 +64487,9 @@ EQUIPMENTS = {
                 "斩马刑天#42505 (30700 特效 会心 无双)": {
                     "id": 42505,
                     "name": "斩马刑天",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -58693,6 +64522,9 @@ EQUIPMENTS = {
                 "岩阿#41314 (30700 会心 无双)": {
                     "id": 41314,
                     "name": "岩阿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -58720,6 +64552,9 @@ EQUIPMENTS = {
                 "天下宏愿#40309 (22000 特效 会心 破防 加速)": {
                     "id": 40309,
                     "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -58760,6 +64595,9 @@ EQUIPMENTS = {
                 "孤城惊梦·凝夜盾刀#43394 (30200 破防 无双)": {
                     "id": 43394,
                     "name": "孤城惊梦·凝夜盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58787,6 +64625,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·北雁盾刀#42612 (30200 破招 无双)": {
                     "id": 42612,
                     "name": "寻踪觅宝·北雁盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58816,6 +64657,9 @@ EQUIPMENTS = {
                 "汉垒#41376 (30200 破招 无双)": {
                     "id": 41376,
                     "name": "汉垒",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58843,6 +64687,9 @@ EQUIPMENTS = {
                 "残霜埋骨#41276 (30200 特效 破防 无双)": {
                     "id": 41276,
                     "name": "残霜埋骨",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58872,6 +64719,9 @@ EQUIPMENTS = {
                 "鼎胜盾刀#41242 (30200 破招 无双)": {
                     "id": 41242,
                     "name": "鼎胜盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58899,6 +64749,9 @@ EQUIPMENTS = {
                 "执干盾刀#41202 (30200 会心 无双)": {
                     "id": 41202,
                     "name": "执干盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -58926,6 +64779,9 @@ EQUIPMENTS = {
                 "圈圈三色杯#44052 (29800 破防 无双)": {
                     "id": 44052,
                     "name": "圈圈三色杯",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -58962,6 +64818,9 @@ EQUIPMENTS = {
                 "天下宏愿#40277 (20750 特效 会心 破防 加速)": {
                     "id": 40277,
                     "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -59006,6 +64865,9 @@ EQUIPMENTS = {
                 "圣辉月雪#43585 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43585,
                     "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -59046,6 +64908,9 @@ EQUIPMENTS = {
                 "圣辉月雪#43552 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43552,
                     "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -59086,6 +64951,9 @@ EQUIPMENTS = {
                 "日落荒丘#42765 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 42765,
                     "name": "日落荒丘",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -59114,6 +64982,9 @@ EQUIPMENTS = {
                 "日华金光#42828 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 42828,
                     "name": "日华金光",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59142,6 +65013,9 @@ EQUIPMENTS = {
                 "照寰中#42726 (35300 特效 外防 加速 破招 御劲 无双)": {
                     "id": 42726,
                     "name": "照寰中",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59172,6 +65046,9 @@ EQUIPMENTS = {
                 "燎照双刀#42691 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 42691,
                     "name": "燎照双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59200,6 +65077,9 @@ EQUIPMENTS = {
                 "烜赫双刀#42650 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 42650,
                     "name": "烜赫双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59228,6 +65108,9 @@ EQUIPMENTS = {
                 "圣辉月雪#42159 (25300 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42159,
                     "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -59268,6 +65151,9 @@ EQUIPMENTS = {
                 "圣辉月雪#42127 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42127,
                     "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -59308,6 +65194,9 @@ EQUIPMENTS = {
                 "娄赫双刀#43789 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 43789,
                     "name": "娄赫双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -59336,6 +65225,9 @@ EQUIPMENTS = {
                 "圆月双角#42504 (30700 特效 外防 内防 破招 御劲 无双)": {
                     "id": 42504,
                     "name": "圆月双角",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -59369,6 +65261,9 @@ EQUIPMENTS = {
                 "一念间#41313 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 41313,
                     "name": "一念间",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -59397,6 +65292,9 @@ EQUIPMENTS = {
                 "圣辉月雪#40308 (22000 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40308,
                     "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -59437,6 +65335,9 @@ EQUIPMENTS = {
                 "孤城惊梦·煌赫双刀#43393 (30200 外防 加速 破招 御劲 无双)": {
                     "id": 43393,
                     "name": "孤城惊梦·煌赫双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -59465,6 +65366,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·烈阳双刀#42611 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 42611,
                     "name": "寻踪觅宝·烈阳双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -59495,6 +65399,9 @@ EQUIPMENTS = {
                 "慈波流#41375 (30200 外防 御劲 无双)": {
                     "id": 41375,
                     "name": "慈波流",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -59521,6 +65428,9 @@ EQUIPMENTS = {
                 "风锁雪#41275 (30200 特效 外防 御劲 无双)": {
                     "id": 41275,
                     "name": "风锁雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -59549,6 +65459,9 @@ EQUIPMENTS = {
                 "幻焱双刀#41241 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 41241,
                     "name": "幻焱双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -59577,6 +65490,9 @@ EQUIPMENTS = {
                 "煜耀双刀#41201 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 41201,
                     "name": "煜耀双刀",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -59605,6 +65521,9 @@ EQUIPMENTS = {
                 "棉花糖串#44051 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 44051,
                     "name": "棉花糖串",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -59641,6 +65560,9 @@ EQUIPMENTS = {
                 "圣辉月雪#40276 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40276,
                     "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -59683,6 +65605,9 @@ EQUIPMENTS = {
                 "瀚海引#43584 (29700 特效 会心 破防 加速)": {
                     "id": 43584,
                     "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -59723,6 +65648,9 @@ EQUIPMENTS = {
                 "瀚海引#43551 (27500 特效 会心 破防 加速)": {
                     "id": 43551,
                     "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -59763,6 +65691,9 @@ EQUIPMENTS = {
                 "断归舟#42764 (35900 会心 无双)": {
                     "id": 42764,
                     "name": "断归舟",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -59790,6 +65721,9 @@ EQUIPMENTS = {
                 "大漠横斜#42827 (35300 破招 无双)": {
                     "id": 42827,
                     "name": "大漠横斜",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59817,6 +65751,9 @@ EQUIPMENTS = {
                 "白昼飞沙#42725 (35300 特效 破防 无双)": {
                     "id": 42725,
                     "name": "白昼飞沙",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59846,6 +65783,9 @@ EQUIPMENTS = {
                 "幽火双刀#42690 (35300 破招 无双)": {
                     "id": 42690,
                     "name": "幽火双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59873,6 +65813,9 @@ EQUIPMENTS = {
                 "迁影双刀#42649 (35300 会心 无双)": {
                     "id": 42649,
                     "name": "迁影双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -59900,6 +65843,9 @@ EQUIPMENTS = {
                 "瀚海引#42158 (25300 特效 会心 破防 加速)": {
                     "id": 42158,
                     "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -59940,6 +65886,9 @@ EQUIPMENTS = {
                 "瀚海引#42126 (23650 特效 会心 破防 加速)": {
                     "id": 42126,
                     "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -59980,6 +65929,9 @@ EQUIPMENTS = {
                 "娄影双刀#43788 (32500 会心 无双)": {
                     "id": 43788,
                     "name": "娄影双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -60007,6 +65959,9 @@ EQUIPMENTS = {
                 "圆月双角#42503 (30700 特效 会心 无双)": {
                     "id": 42503,
                     "name": "圆月双角",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -60039,6 +65994,9 @@ EQUIPMENTS = {
                 "灵焰#41312 (30700 会心 无双)": {
                     "id": 41312,
                     "name": "灵焰",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -60066,6 +66024,9 @@ EQUIPMENTS = {
                 "瀚海引#40307 (22000 特效 会心 破防 加速)": {
                     "id": 40307,
                     "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -60106,6 +66067,9 @@ EQUIPMENTS = {
                 "孤城惊梦·银影双刀#43392 (30200 破防 无双)": {
                     "id": 43392,
                     "name": "孤城惊梦·银影双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60133,6 +66097,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·诡月双刀#42610 (30200 破招 无双)": {
                     "id": 42610,
                     "name": "寻踪觅宝·诡月双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60162,6 +66129,9 @@ EQUIPMENTS = {
                 "清净慧命#41374 (30200 破招 无双)": {
                     "id": 41374,
                     "name": "清净慧命",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60189,6 +66159,9 @@ EQUIPMENTS = {
                 "沙烬夜#41274 (30200 特效 破防 无双)": {
                     "id": 41274,
                     "name": "沙烬夜",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60218,6 +66191,9 @@ EQUIPMENTS = {
                 "赫曦双刀#41240 (30200 破招 无双)": {
                     "id": 41240,
                     "name": "赫曦双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60245,6 +66221,9 @@ EQUIPMENTS = {
                 "爝火双刀#41200 (30200 会心 无双)": {
                     "id": 41200,
                     "name": "爝火双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60272,6 +66251,9 @@ EQUIPMENTS = {
                 "棉花糖串#44050 (29800 破防 无双)": {
                     "id": 44050,
                     "name": "棉花糖串",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -60308,6 +66290,9 @@ EQUIPMENTS = {
                 "瀚海引#40275 (20750 特效 会心 破防 加速)": {
                     "id": 40275,
                     "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -60352,6 +66337,9 @@ EQUIPMENTS = {
                 "暴龙震江#43583 (29700 特效 会心 破防)": {
                     "id": 43583,
                     "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -60391,6 +66379,9 @@ EQUIPMENTS = {
                 "暴龙震江#43550 (27500 特效 会心 破防)": {
                     "id": 43550,
                     "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -60430,6 +66421,9 @@ EQUIPMENTS = {
                 "君山醒雨#42763 (35900 会心 无双)": {
                     "id": 42763,
                     "name": "君山醒雨",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -60457,6 +66451,9 @@ EQUIPMENTS = {
                 "呼酒登舟#42826 (35300 破招 无双)": {
                     "id": 42826,
                     "name": "呼酒登舟",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -60484,6 +66481,9 @@ EQUIPMENTS = {
                 "湘君祠畔#42724 (35300 特效 破防 无双)": {
                     "id": 42724,
                     "name": "湘君祠畔",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -60513,6 +66513,9 @@ EQUIPMENTS = {
                 "猖披棒#42689 (35300 破招 无双)": {
                     "id": 42689,
                     "name": "猖披棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -60540,6 +66543,9 @@ EQUIPMENTS = {
                 "暮江棒#42648 (35300 会心 无双)": {
                     "id": 42648,
                     "name": "暮江棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -60567,6 +66573,9 @@ EQUIPMENTS = {
                 "暴龙震江#42157 (25300 特效 会心 破防)": {
                     "id": 42157,
                     "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -60606,6 +66615,9 @@ EQUIPMENTS = {
                 "暴龙震江#42125 (23650 特效 会心 破防)": {
                     "id": 42125,
                     "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -60645,6 +66657,9 @@ EQUIPMENTS = {
                 "娄狂棒#43787 (32500 会心 无双)": {
                     "id": 43787,
                     "name": "娄狂棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -60672,6 +66687,9 @@ EQUIPMENTS = {
                 "九龙升景#42502 (30700 特效 会心 无双)": {
                     "id": 42502,
                     "name": "九龙升景",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -60704,6 +66722,9 @@ EQUIPMENTS = {
                 "豪风#41311 (30700 会心 无双)": {
                     "id": 41311,
                     "name": "豪风",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -60731,6 +66752,9 @@ EQUIPMENTS = {
                 "暴龙震江#40306 (22000 特效 会心 破防)": {
                     "id": 40306,
                     "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -60770,6 +66794,9 @@ EQUIPMENTS = {
                 "孤城惊梦·饮舟棒#43391 (30200 破防 无双)": {
                     "id": 43391,
                     "name": "孤城惊梦·饮舟棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60797,6 +66824,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·纵饮棒#42609 (30200 破招 无双)": {
                     "id": 42609,
                     "name": "寻踪觅宝·纵饮棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60826,6 +66856,9 @@ EQUIPMENTS = {
                 "眠岳#41373 (30200 破招 无双)": {
                     "id": 41373,
                     "name": "眠岳",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60853,6 +66886,9 @@ EQUIPMENTS = {
                 "黄鹤辞风#41273 (30200 特效 破防 无双)": {
                     "id": 41273,
                     "name": "黄鹤辞风",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60882,6 +66918,9 @@ EQUIPMENTS = {
                 "旨酒棒#41239 (30200 破招 无双)": {
                     "id": 41239,
                     "name": "旨酒棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60909,6 +66948,9 @@ EQUIPMENTS = {
                 "浪尘棒#41199 (30200 会心 无双)": {
                     "id": 41199,
                     "name": "浪尘棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -60936,6 +66978,9 @@ EQUIPMENTS = {
                 "西瓜刨冰#44049 (29800 破防 无双)": {
                     "id": 44049,
                     "name": "西瓜刨冰",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -60972,6 +67017,9 @@ EQUIPMENTS = {
                 "暴龙震江#40274 (20750 特效 会心 破防)": {
                     "id": 40274,
                     "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -61015,6 +67063,9 @@ EQUIPMENTS = {
                 "伏魔悲音#43581 (29700 特效 会心 破防 加速)": {
                     "id": 43581,
                     "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -61055,6 +67106,9 @@ EQUIPMENTS = {
                 "伏魔悲音#43548 (27500 特效 会心 破防 加速)": {
                     "id": 43548,
                     "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -61095,6 +67149,9 @@ EQUIPMENTS = {
                 "遥瞻奇峰#42761 (35900 会心 无双)": {
                     "id": 42761,
                     "name": "遥瞻奇峰",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -61122,6 +67179,9 @@ EQUIPMENTS = {
                 "月明渔火#42824 (35300 破招 无双)": {
                     "id": 42824,
                     "name": "月明渔火",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61149,6 +67209,9 @@ EQUIPMENTS = {
                 "泉飞涧底#42722 (35300 特效 破防 无双)": {
                     "id": 42722,
                     "name": "泉飞涧底",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61178,6 +67241,9 @@ EQUIPMENTS = {
                 "断桥轻剑#42706 (35300 破招 无双)": {
                     "id": 42706,
                     "name": "断桥轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61205,6 +67271,9 @@ EQUIPMENTS = {
                 "断桥轻剑#42687 (35300 破招 无双)": {
                     "id": 42687,
                     "name": "断桥轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61232,6 +67301,9 @@ EQUIPMENTS = {
                 "流泉轻剑#42665 (35300 会心 无双)": {
                     "id": 42665,
                     "name": "流泉轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61259,6 +67331,9 @@ EQUIPMENTS = {
                 "流泉轻剑#42646 (35300 会心 无双)": {
                     "id": 42646,
                     "name": "流泉轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61286,6 +67361,9 @@ EQUIPMENTS = {
                 "伏魔悲音#42155 (25300 特效 会心 破防 加速)": {
                     "id": 42155,
                     "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -61326,6 +67404,9 @@ EQUIPMENTS = {
                 "伏魔悲音#42123 (23650 特效 会心 破防 加速)": {
                     "id": 42123,
                     "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -61366,6 +67447,9 @@ EQUIPMENTS = {
                 "娄泉轻剑#43785 (32500 会心 无双)": {
                     "id": 43785,
                     "name": "娄泉轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -61393,6 +67477,9 @@ EQUIPMENTS = {
                 "苌弘化碧#42500 (30700 会心 无双)": {
                     "id": 42500,
                     "name": "苌弘化碧",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -61420,6 +67507,9 @@ EQUIPMENTS = {
                 "风动松涛#41309 (30700 会心 无双)": {
                     "id": 41309,
                     "name": "风动松涛",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -61447,6 +67537,9 @@ EQUIPMENTS = {
                 "伏魔悲音#40304 (22000 特效 会心 破防 加速)": {
                     "id": 40304,
                     "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -61487,6 +67580,9 @@ EQUIPMENTS = {
                 "孤城惊梦·寄锋轻剑#43389 (30200 破防 无双)": {
                     "id": 43389,
                     "name": "孤城惊梦·寄锋轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61514,6 +67610,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·曲柳轻剑#42607 (30200 破招 无双)": {
                     "id": 42607,
                     "name": "寻踪觅宝·曲柳轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61543,6 +67642,9 @@ EQUIPMENTS = {
                 "玉涧#41371 (30200 破招 无双)": {
                     "id": 41371,
                     "name": "玉涧",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61570,6 +67672,9 @@ EQUIPMENTS = {
                 "孤山梅#41271 (30200 特效 破防 无双)": {
                     "id": 41271,
                     "name": "孤山梅",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61599,6 +67704,9 @@ EQUIPMENTS = {
                 "穆如轻剑#41255 (30200 破招 无双)": {
                     "id": 41255,
                     "name": "穆如轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61626,6 +67734,9 @@ EQUIPMENTS = {
                 "穆如轻剑#41237 (30200 破招 无双)": {
                     "id": 41237,
                     "name": "穆如轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61653,6 +67764,9 @@ EQUIPMENTS = {
                 "夕岚轻剑#41215 (30200 会心 无双)": {
                     "id": 41215,
                     "name": "夕岚轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61680,6 +67794,9 @@ EQUIPMENTS = {
                 "夕岚轻剑#41197 (30200 会心 无双)": {
                     "id": 41197,
                     "name": "夕岚轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -61707,6 +67824,9 @@ EQUIPMENTS = {
                 "柠檬冰棍签#44047 (29800 破防 无双)": {
                     "id": 44047,
                     "name": "柠檬冰棍签",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -61743,6 +67863,9 @@ EQUIPMENTS = {
                 "伏魔悲音#40272 (20750 特效 会心 破防 加速)": {
                     "id": 40272,
                     "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -61787,6 +67910,9 @@ EQUIPMENTS = {
                 "银羽雪辉#43580 (29700 特效 会心 破防 加速)": {
                     "id": 43580,
                     "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -61827,6 +67953,9 @@ EQUIPMENTS = {
                 "银羽雪辉#43547 (27500 特效 会心 破防 加速)": {
                     "id": 43547,
                     "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -61867,6 +67996,9 @@ EQUIPMENTS = {
                 "层霄叶动#42760 (35900 会心 无双)": {
                     "id": 42760,
                     "name": "层霄叶动",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -61894,6 +68026,9 @@ EQUIPMENTS = {
                 "寒星拂夜#42823 (35300 破招 无双)": {
                     "id": 42823,
                     "name": "寒星拂夜",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61921,6 +68056,9 @@ EQUIPMENTS = {
                 "剑阁西来#42721 (35300 特效 破防 无双)": {
                     "id": 42721,
                     "name": "剑阁西来",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61950,6 +68088,9 @@ EQUIPMENTS = {
                 "奔星弩#42686 (35300 破招 无双)": {
                     "id": 42686,
                     "name": "奔星弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -61977,6 +68118,9 @@ EQUIPMENTS = {
                 "白羽弩#42645 (35300 会心 无双)": {
                     "id": 42645,
                     "name": "白羽弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -62004,6 +68148,9 @@ EQUIPMENTS = {
                 "银羽雪辉#42154 (25300 特效 会心 破防 加速)": {
                     "id": 42154,
                     "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -62044,6 +68191,9 @@ EQUIPMENTS = {
                 "银羽雪辉#42122 (23650 特效 会心 破防 加速)": {
                     "id": 42122,
                     "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -62084,6 +68234,9 @@ EQUIPMENTS = {
                 "娄星弩#43784 (32500 会心 无双)": {
                     "id": 43784,
                     "name": "娄星弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -62111,6 +68264,9 @@ EQUIPMENTS = {
                 "抱朴狩天#42499 (30700 特效 会心 无双)": {
                     "id": 42499,
                     "name": "抱朴狩天",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -62143,6 +68299,9 @@ EQUIPMENTS = {
                 "疾雷#41308 (30700 会心 无双)": {
                     "id": 41308,
                     "name": "疾雷",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -62170,6 +68329,9 @@ EQUIPMENTS = {
                 "银羽雪辉#40303 (22000 特效 会心 破防 加速)": {
                     "id": 40303,
                     "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -62210,6 +68372,9 @@ EQUIPMENTS = {
                 "孤城惊梦·竹隐弩#43388 (30200 破防 无双)": {
                     "id": 43388,
                     "name": "孤城惊梦·竹隐弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62237,6 +68402,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·凌羽弩#42606 (30200 破招 无双)": {
                     "id": 42606,
                     "name": "寻踪觅宝·凌羽弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62266,6 +68434,9 @@ EQUIPMENTS = {
                 "秋山凝怨#41370 (30200 破招 无双)": {
                     "id": 41370,
                     "name": "秋山凝怨",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62293,6 +68464,9 @@ EQUIPMENTS = {
                 "暗潮风#41270 (30200 特效 破防 无双)": {
                     "id": 41270,
                     "name": "暗潮风",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62322,6 +68496,9 @@ EQUIPMENTS = {
                 "竹取弩#41236 (30200 破招 无双)": {
                     "id": 41236,
                     "name": "竹取弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62349,6 +68526,9 @@ EQUIPMENTS = {
                 "幽芒弩#41196 (30200 会心 无双)": {
                     "id": 41196,
                     "name": "幽芒弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62376,6 +68556,9 @@ EQUIPMENTS = {
                 "波子气泡水#44046 (29800 破防 无双)": {
                     "id": 44046,
                     "name": "波子气泡水",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -62412,6 +68595,9 @@ EQUIPMENTS = {
                 "银羽雪辉#40271 (20750 特效 会心 破防 加速)": {
                     "id": 40271,
                     "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -62454,6 +68640,9 @@ EQUIPMENTS = {
                 "碧岚幽炎#43579 (29700 特效 会心 破防 加速)": {
                     "id": 43579,
                     "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -62494,6 +68683,9 @@ EQUIPMENTS = {
                 "碧岚幽炎#43546 (27500 特效 会心 破防 加速)": {
                     "id": 43546,
                     "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -62534,6 +68726,9 @@ EQUIPMENTS = {
                 "乱鸦逐暮#42759 (35900 会心 无双)": {
                     "id": 42759,
                     "name": "乱鸦逐暮",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -62561,6 +68756,9 @@ EQUIPMENTS = {
                 "南行万壑#42822 (35300 破招 无双)": {
                     "id": 42822,
                     "name": "南行万壑",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -62588,6 +68786,9 @@ EQUIPMENTS = {
                 "碧穹凌空#42720 (35300 特效 破防 无双)": {
                     "id": 42720,
                     "name": "碧穹凌空",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -62617,6 +68818,9 @@ EQUIPMENTS = {
                 "钻心弩#42685 (35300 破招 无双)": {
                     "id": 42685,
                     "name": "钻心弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -62644,6 +68848,9 @@ EQUIPMENTS = {
                 "裁叶弩#42644 (35300 会心 无双)": {
                     "id": 42644,
                     "name": "裁叶弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -62671,6 +68878,9 @@ EQUIPMENTS = {
                 "碧岚幽炎#42153 (25300 特效 会心 破防 加速)": {
                     "id": 42153,
                     "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -62711,6 +68921,9 @@ EQUIPMENTS = {
                 "碧岚幽炎#42121 (23650 特效 会心 破防 加速)": {
                     "id": 42121,
                     "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -62751,6 +68964,9 @@ EQUIPMENTS = {
                 "娄机弩#43783 (32500 会心 无双)": {
                     "id": 43783,
                     "name": "娄机弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -62778,6 +68994,9 @@ EQUIPMENTS = {
                 "八相连珠#42498 (30700 特效 会心 无双)": {
                     "id": 42498,
                     "name": "八相连珠",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -62810,6 +69029,9 @@ EQUIPMENTS = {
                 "暗芒#41307 (30700 会心 无双)": {
                     "id": 41307,
                     "name": "暗芒",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -62837,6 +69059,9 @@ EQUIPMENTS = {
                 "碧岚幽炎#40302 (22000 特效 会心 破防 加速)": {
                     "id": 40302,
                     "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -62877,6 +69102,9 @@ EQUIPMENTS = {
                 "孤城惊梦·连机弩#43387 (30200 破防 无双)": {
                     "id": 43387,
                     "name": "孤城惊梦·连机弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62904,6 +69132,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·千翎弩#42605 (30200 破招 无双)": {
                     "id": 42605,
                     "name": "寻踪觅宝·千翎弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62933,6 +69164,9 @@ EQUIPMENTS = {
                 "湘水深#41369 (30200 破招 无双)": {
                     "id": 41369,
                     "name": "湘水深",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62960,6 +69194,9 @@ EQUIPMENTS = {
                 "刃上青#41269 (30200 特效 破防 无双)": {
                     "id": 41269,
                     "name": "刃上青",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -62989,6 +69226,9 @@ EQUIPMENTS = {
                 "虬游弩#41235 (30200 破招 无双)": {
                     "id": 41235,
                     "name": "虬游弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63016,6 +69256,9 @@ EQUIPMENTS = {
                 "残照弩#41195 (30200 会心 无双)": {
                     "id": 41195,
                     "name": "残照弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63043,6 +69286,9 @@ EQUIPMENTS = {
                 "波子气泡水#44045 (29800 破防 无双)": {
                     "id": 44045,
                     "name": "波子气泡水",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -63079,6 +69325,9 @@ EQUIPMENTS = {
                 "碧岚幽炎#40270 (20750 特效 会心 破防 加速)": {
                     "id": 40270,
                     "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -63123,6 +69372,9 @@ EQUIPMENTS = {
                 "逾潮声#43578 (29700 特效 会心 加速)": {
                     "id": 43578,
                     "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -63161,6 +69413,9 @@ EQUIPMENTS = {
                 "逾潮声#43545 (27500 特效 会心 加速)": {
                     "id": 43545,
                     "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -63199,6 +69454,9 @@ EQUIPMENTS = {
                 "映月溶光#42758 (35900 会心)": {
                     "id": 42758,
                     "name": "映月溶光",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -63225,6 +69483,9 @@ EQUIPMENTS = {
                 "迷笛晓雾#42821 (35300 加速)": {
                     "id": 42821,
                     "name": "迷笛晓雾",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63251,6 +69512,9 @@ EQUIPMENTS = {
                 "转徘徊#42719 (35300 特效 会心)": {
                     "id": 42719,
                     "name": "转徘徊",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63279,6 +69543,9 @@ EQUIPMENTS = {
                 "蝶岚笛#42684 (35300 加速)": {
                     "id": 42684,
                     "name": "蝶岚笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63305,6 +69572,9 @@ EQUIPMENTS = {
                 "山萝笛#42643 (35300 )": {
                     "id": 42643,
                     "name": "山萝笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63330,6 +69600,9 @@ EQUIPMENTS = {
                 "逾潮声#42152 (25300 特效 会心 加速)": {
                     "id": 42152,
                     "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -63368,6 +69641,9 @@ EQUIPMENTS = {
                 "逾潮声#42120 (23650 特效 会心 加速)": {
                     "id": 42120,
                     "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -63406,6 +69682,9 @@ EQUIPMENTS = {
                 "娄蝶笛#43782 (32500 会心)": {
                     "id": 43782,
                     "name": "娄蝶笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -63432,6 +69711,9 @@ EQUIPMENTS = {
                 "蝎心忘情#42497 (30700 特效 会心)": {
                     "id": 42497,
                     "name": "蝎心忘情",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -63463,6 +69745,9 @@ EQUIPMENTS = {
                 "情乡#41306 (30700 会心)": {
                     "id": 41306,
                     "name": "情乡",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -63489,6 +69774,9 @@ EQUIPMENTS = {
                 "逾潮声#40301 (22000 特效 会心 加速)": {
                     "id": 40301,
                     "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -63527,6 +69815,9 @@ EQUIPMENTS = {
                 "孤城惊梦·幽蝶笛#43386 (30200 加速)": {
                     "id": 43386,
                     "name": "孤城惊梦·幽蝶笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63553,6 +69844,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·萦心笛#42604 (30200 会心)": {
                     "id": 42604,
                     "name": "寻踪觅宝·萦心笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63581,6 +69875,9 @@ EQUIPMENTS = {
                 "血棠#41368 (30200 加速)": {
                     "id": 41368,
                     "name": "血棠",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63607,6 +69904,9 @@ EQUIPMENTS = {
                 "穿蝶落梦#41268 (30200 特效 会心)": {
                     "id": 41268,
                     "name": "穿蝶落梦",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63635,6 +69935,9 @@ EQUIPMENTS = {
                 "玉璜笛#41234 (30200 加速)": {
                     "id": 41234,
                     "name": "玉璜笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63661,6 +69964,9 @@ EQUIPMENTS = {
                 "瑶影笛#41194 (30200 )": {
                     "id": 41194,
                     "name": "瑶影笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -63686,6 +69992,9 @@ EQUIPMENTS = {
                 "紫阳芭菲杯#44044 (29800 加速)": {
                     "id": 44044,
                     "name": "紫阳芭菲杯",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -63721,6 +70030,9 @@ EQUIPMENTS = {
                 "逾潮声#40269 (20750 特效 会心 加速)": {
                     "id": 40269,
                     "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -63761,6 +70073,9 @@ EQUIPMENTS = {
                 "蜕骨#43577 (29700 特效 会心 破防 加速)": {
                     "id": 43577,
                     "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -63801,6 +70116,9 @@ EQUIPMENTS = {
                 "蜕骨#43544 (27500 特效 会心 破防 加速)": {
                     "id": 43544,
                     "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -63841,6 +70159,9 @@ EQUIPMENTS = {
                 "近重渊#42757 (35900 会心 无双)": {
                     "id": 42757,
                     "name": "近重渊",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -63868,6 +70189,9 @@ EQUIPMENTS = {
                 "阴岭云凝#42820 (35300 破招 无双)": {
                     "id": 42820,
                     "name": "阴岭云凝",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63895,6 +70219,9 @@ EQUIPMENTS = {
                 "荒林暮鸦#42718 (35300 特效 破防 无双)": {
                     "id": 42718,
                     "name": "荒林暮鸦",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63924,6 +70251,9 @@ EQUIPMENTS = {
                 "蛛心笛#42683 (35300 破招 无双)": {
                     "id": 42683,
                     "name": "蛛心笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63951,6 +70281,9 @@ EQUIPMENTS = {
                 "峻茂笛#42642 (35300 会心 无双)": {
                     "id": 42642,
                     "name": "峻茂笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -63978,6 +70311,9 @@ EQUIPMENTS = {
                 "蜕骨#42151 (25300 特效 会心 破防 加速)": {
                     "id": 42151,
                     "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -64018,6 +70354,9 @@ EQUIPMENTS = {
                 "蜕骨#42119 (23650 特效 会心 破防 加速)": {
                     "id": 42119,
                     "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -64058,6 +70397,9 @@ EQUIPMENTS = {
                 "娄蚀笛#43781 (32500 会心 无双)": {
                     "id": 43781,
                     "name": "娄蚀笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -64085,6 +70427,9 @@ EQUIPMENTS = {
                 "蝎心忘情#42496 (30700 特效 会心 无双)": {
                     "id": 42496,
                     "name": "蝎心忘情",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -64117,6 +70462,9 @@ EQUIPMENTS = {
                 "声迟#41305 (30700 会心 无双)": {
                     "id": 41305,
                     "name": "声迟",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -64144,6 +70492,9 @@ EQUIPMENTS = {
                 "蜕骨#40300 (22000 特效 会心 破防 加速)": {
                     "id": 40300,
                     "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -64184,6 +70535,9 @@ EQUIPMENTS = {
                 "孤城惊梦·惑心笛#43385 (30200 破防 无双)": {
                     "id": 43385,
                     "name": "孤城惊梦·惑心笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64211,6 +70565,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·蜿蜒笛#42603 (30200 破招 无双)": {
                     "id": 42603,
                     "name": "寻踪觅宝·蜿蜒笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64240,6 +70597,9 @@ EQUIPMENTS = {
                 "瘴骨沉渊#41367 (30200 破招 无双)": {
                     "id": 41367,
                     "name": "瘴骨沉渊",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64267,6 +70627,9 @@ EQUIPMENTS = {
                 "渡飞花#41267 (30200 特效 破防 无双)": {
                     "id": 41267,
                     "name": "渡飞花",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64296,6 +70659,9 @@ EQUIPMENTS = {
                 "鸣鹭笛#41233 (30200 破招 无双)": {
                     "id": 41233,
                     "name": "鸣鹭笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64323,6 +70689,9 @@ EQUIPMENTS = {
                 "芃黍笛#41193 (30200 会心 无双)": {
                     "id": 41193,
                     "name": "芃黍笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64350,6 +70719,9 @@ EQUIPMENTS = {
                 "紫阳芭菲杯#44043 (29800 破防 无双)": {
                     "id": 44043,
                     "name": "紫阳芭菲杯",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -64386,6 +70758,9 @@ EQUIPMENTS = {
                 "蜕骨#40268 (20750 特效 会心 破防 加速)": {
                     "id": 40268,
                     "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -64430,6 +70805,9 @@ EQUIPMENTS = {
                 "钗蝶语双#43576 (29700 特效 会心 加速)": {
                     "id": 43576,
                     "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -64468,6 +70846,9 @@ EQUIPMENTS = {
                 "钗蝶语双#43543 (27500 特效 会心 加速)": {
                     "id": 43543,
                     "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -64506,6 +70887,9 @@ EQUIPMENTS = {
                 "摇金碧#42756 (35900 会心)": {
                     "id": 42756,
                     "name": "摇金碧",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -64532,6 +70916,9 @@ EQUIPMENTS = {
                 "素影红妆#42819 (35300 加速)": {
                     "id": 42819,
                     "name": "素影红妆",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -64558,6 +70945,9 @@ EQUIPMENTS = {
                 "玉妃屏#42717 (35300 特效 会心)": {
                     "id": 42717,
                     "name": "玉妃屏",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -64586,6 +70976,9 @@ EQUIPMENTS = {
                 "延伫双剑#42682 (35300 加速)": {
                     "id": 42682,
                     "name": "延伫双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -64612,6 +71005,9 @@ EQUIPMENTS = {
                 "槿艳双剑#42641 (35300 )": {
                     "id": 42641,
                     "name": "槿艳双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -64637,6 +71033,9 @@ EQUIPMENTS = {
                 "钗蝶语双#42150 (25300 特效 会心 加速)": {
                     "id": 42150,
                     "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -64675,6 +71074,9 @@ EQUIPMENTS = {
                 "钗蝶语双#42118 (23650 特效 会心 加速)": {
                     "id": 42118,
                     "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -64713,6 +71115,9 @@ EQUIPMENTS = {
                 "娄琼双剑#43780 (32500 会心)": {
                     "id": 43780,
                     "name": "娄琼双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -64739,6 +71144,9 @@ EQUIPMENTS = {
                 "血影天宇舞姬#42495 (30700 特效 会心)": {
                     "id": 42495,
                     "name": "血影天宇舞姬",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -64770,6 +71178,9 @@ EQUIPMENTS = {
                 "乐鱼#41304 (30700 会心)": {
                     "id": 41304,
                     "name": "乐鱼",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -64796,6 +71207,9 @@ EQUIPMENTS = {
                 "钗蝶语双#40299 (22000 特效 会心 加速)": {
                     "id": 40299,
                     "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -64834,6 +71248,9 @@ EQUIPMENTS = {
                 "孤城惊梦·红袖双剑#43384 (30200 加速)": {
                     "id": 43384,
                     "name": "孤城惊梦·红袖双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64860,6 +71277,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·凝云双剑#42602 (30200 会心)": {
                     "id": 42602,
                     "name": "寻踪觅宝·凝云双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64888,6 +71308,9 @@ EQUIPMENTS = {
                 "泣露#41366 (30200 加速)": {
                     "id": 41366,
                     "name": "泣露",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64914,6 +71337,9 @@ EQUIPMENTS = {
                 "镜临飞袂#41266 (30200 特效 会心)": {
                     "id": 41266,
                     "name": "镜临飞袂",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64942,6 +71368,9 @@ EQUIPMENTS = {
                 "舒窈双剑#41232 (30200 加速)": {
                     "id": 41232,
                     "name": "舒窈双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64968,6 +71397,9 @@ EQUIPMENTS = {
                 "采苓双剑#41192 (30200 )": {
                     "id": 41192,
                     "name": "采苓双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -64993,6 +71425,9 @@ EQUIPMENTS = {
                 "蜜桃棒棒糖#44042 (29800 加速)": {
                     "id": 44042,
                     "name": "蜜桃棒棒糖",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -65028,6 +71463,9 @@ EQUIPMENTS = {
                 "钗蝶语双#40267 (20750 特效 会心 加速)": {
                     "id": 40267,
                     "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -65068,6 +71506,9 @@ EQUIPMENTS = {
                 "龙鲤#43575 (29700 特效 会心 破防 加速)": {
                     "id": 43575,
                     "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -65108,6 +71549,9 @@ EQUIPMENTS = {
                 "龙鲤#43542 (27500 特效 会心 破防 加速)": {
                     "id": 43542,
                     "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -65148,6 +71592,9 @@ EQUIPMENTS = {
                 "微落春痕#42755 (35900 会心 无双)": {
                     "id": 42755,
                     "name": "微落春痕",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -65175,6 +71622,9 @@ EQUIPMENTS = {
                 "箫鼓笙歌#42818 (35300 破招 无双)": {
                     "id": 42818,
                     "name": "箫鼓笙歌",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65202,6 +71652,9 @@ EQUIPMENTS = {
                 "红珠翠箔#42716 (35300 特效 破防 无双)": {
                     "id": 42716,
                     "name": "红珠翠箔",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65231,6 +71684,9 @@ EQUIPMENTS = {
                 "瑶台双剑#42681 (35300 破招 无双)": {
                     "id": 42681,
                     "name": "瑶台双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65258,6 +71714,9 @@ EQUIPMENTS = {
                 "罗帷双剑#42640 (35300 会心 无双)": {
                     "id": 42640,
                     "name": "罗帷双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65285,6 +71744,9 @@ EQUIPMENTS = {
                 "龙鲤#42149 (25300 特效 会心 破防 加速)": {
                     "id": 42149,
                     "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -65325,6 +71787,9 @@ EQUIPMENTS = {
                 "龙鲤#42117 (23650 特效 会心 破防 加速)": {
                     "id": 42117,
                     "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -65365,6 +71830,9 @@ EQUIPMENTS = {
                 "娄月双剑#43779 (32500 会心 无双)": {
                     "id": 43779,
                     "name": "娄月双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -65392,6 +71860,9 @@ EQUIPMENTS = {
                 "血影天宇舞姬#42494 (30700 特效 会心 无双)": {
                     "id": 42494,
                     "name": "血影天宇舞姬",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -65424,6 +71895,9 @@ EQUIPMENTS = {
                 "催芳#41303 (30700 会心 无双)": {
                     "id": 41303,
                     "name": "催芳",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -65451,6 +71925,9 @@ EQUIPMENTS = {
                 "龙鲤#40298 (22000 特效 会心 破防 加速)": {
                     "id": 40298,
                     "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -65491,6 +71968,9 @@ EQUIPMENTS = {
                 "孤城惊梦·凝光双剑#43383 (30200 破防 无双)": {
                     "id": 43383,
                     "name": "孤城惊梦·凝光双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -65518,6 +71998,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·水佩双剑#42601 (30200 破招 无双)": {
                     "id": 42601,
                     "name": "寻踪觅宝·水佩双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -65547,6 +72030,9 @@ EQUIPMENTS = {
                 "瑶笼翠#41365 (30200 破招 无双)": {
                     "id": 41365,
                     "name": "瑶笼翠",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -65574,6 +72060,9 @@ EQUIPMENTS = {
                 "惊鸿照水#41265 (30200 特效 破防 无双)": {
                     "id": 41265,
                     "name": "惊鸿照水",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -65603,6 +72092,9 @@ EQUIPMENTS = {
                 "琼玖双剑#41231 (30200 破招 无双)": {
                     "id": 41231,
                     "name": "琼玖双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -65630,6 +72122,9 @@ EQUIPMENTS = {
                 "柔嘉双剑#41191 (30200 会心 无双)": {
                     "id": 41191,
                     "name": "柔嘉双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -65657,6 +72152,9 @@ EQUIPMENTS = {
                 "蜜桃棒棒糖#44041 (29800 破防 无双)": {
                     "id": 44041,
                     "name": "蜜桃棒棒糖",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -65693,6 +72191,9 @@ EQUIPMENTS = {
                 "龙鲤#40266 (20750 特效 会心 破防 加速)": {
                     "id": 40266,
                     "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -65737,6 +72238,9 @@ EQUIPMENTS = {
                 "镇恶#43574 (29700 特效 会心 破防 加速)": {
                     "id": 43574,
                     "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -65777,6 +72281,9 @@ EQUIPMENTS = {
                 "镇恶#43541 (27500 特效 会心 破防 加速)": {
                     "id": 43541,
                     "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -65817,6 +72324,9 @@ EQUIPMENTS = {
                 "咫尺丹梯#42754 (35900 会心 无双)": {
                     "id": 42754,
                     "name": "咫尺丹梯",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -65844,6 +72354,9 @@ EQUIPMENTS = {
                 "流云紫府#42817 (35300 破招 无双)": {
                     "id": 42817,
                     "name": "流云紫府",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65871,6 +72384,9 @@ EQUIPMENTS = {
                 "鹤吟清唳#42715 (35300 特效 破防 无双)": {
                     "id": 42715,
                     "name": "鹤吟清唳",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65900,6 +72416,9 @@ EQUIPMENTS = {
                 "玄渊剑#42680 (35300 破招 无双)": {
                     "id": 42680,
                     "name": "玄渊剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65927,6 +72446,9 @@ EQUIPMENTS = {
                 "真君剑#42639 (35300 会心 无双)": {
                     "id": 42639,
                     "name": "真君剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -65954,6 +72476,9 @@ EQUIPMENTS = {
                 "镇恶#42148 (25300 特效 会心 破防 加速)": {
                     "id": 42148,
                     "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -65994,6 +72519,9 @@ EQUIPMENTS = {
                 "镇恶#42116 (23650 特效 会心 破防 加速)": {
                     "id": 42116,
                     "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -66034,6 +72562,9 @@ EQUIPMENTS = {
                 "娄霜剑#43778 (32500 会心 无双)": {
                     "id": 43778,
                     "name": "娄霜剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -66061,6 +72592,9 @@ EQUIPMENTS = {
                 "画影#42493 (30700 特效 会心 无双)": {
                     "id": 42493,
                     "name": "画影",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -66093,6 +72627,9 @@ EQUIPMENTS = {
                 "野鹤身#41302 (30700 会心 无双)": {
                     "id": 41302,
                     "name": "野鹤身",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -66120,6 +72657,9 @@ EQUIPMENTS = {
                 "镇恶#40297 (22000 特效 会心 破防 加速)": {
                     "id": 40297,
                     "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -66160,6 +72700,9 @@ EQUIPMENTS = {
                 "孤城惊梦·无极剑#43382 (30200 破防 无双)": {
                     "id": 43382,
                     "name": "孤城惊梦·无极剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66187,6 +72730,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·鸿钧剑#42600 (30200 破招 无双)": {
                     "id": 42600,
                     "name": "寻踪觅宝·鸿钧剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66216,6 +72762,9 @@ EQUIPMENTS = {
                 "隐鹤松#41364 (30200 破招 无双)": {
                     "id": 41364,
                     "name": "隐鹤松",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66243,6 +72792,9 @@ EQUIPMENTS = {
                 "千山玉尘#41264 (30200 特效 破防 无双)": {
                     "id": 41264,
                     "name": "千山玉尘",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66272,6 +72824,9 @@ EQUIPMENTS = {
                 "言旋剑#41230 (30200 破招 无双)": {
                     "id": 41230,
                     "name": "言旋剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66299,6 +72854,9 @@ EQUIPMENTS = {
                 "深潭剑#41190 (30200 会心 无双)": {
                     "id": 41190,
                     "name": "深潭剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66326,6 +72884,9 @@ EQUIPMENTS = {
                 "咩咩糖葫芦#44040 (29800 破防 无双)": {
                     "id": 44040,
                     "name": "咩咩糖葫芦",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -66362,6 +72923,9 @@ EQUIPMENTS = {
                 "镇恶#40265 (20750 特效 会心 破防 加速)": {
                     "id": 40265,
                     "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -66404,6 +72968,9 @@ EQUIPMENTS = {
                 "仙灵#43573 (29700 特效 会心 破防 加速)": {
                     "id": 43573,
                     "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -66444,6 +73011,9 @@ EQUIPMENTS = {
                 "仙灵#43540 (27500 特效 会心 破防 加速)": {
                     "id": 43540,
                     "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -66484,6 +73054,9 @@ EQUIPMENTS = {
                 "浮紫极#42753 (35900 会心 无双)": {
                     "id": 42753,
                     "name": "浮紫极",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -66511,6 +73084,9 @@ EQUIPMENTS = {
                 "长汀缺月#42816 (35300 破招 无双)": {
                     "id": 42816,
                     "name": "长汀缺月",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -66538,6 +73114,9 @@ EQUIPMENTS = {
                 "霜寒月白#42714 (35300 特效 破防 无双)": {
                     "id": 42714,
                     "name": "霜寒月白",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -66567,6 +73146,9 @@ EQUIPMENTS = {
                 "璇霄剑#42679 (35300 破招 无双)": {
                     "id": 42679,
                     "name": "璇霄剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -66594,6 +73176,9 @@ EQUIPMENTS = {
                 "幽杳剑#42638 (35300 会心 无双)": {
                     "id": 42638,
                     "name": "幽杳剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -66621,6 +73206,9 @@ EQUIPMENTS = {
                 "仙灵#42147 (25300 特效 会心 破防 加速)": {
                     "id": 42147,
                     "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -66661,6 +73249,9 @@ EQUIPMENTS = {
                 "仙灵#42115 (23650 特效 会心 破防 加速)": {
                     "id": 42115,
                     "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -66701,6 +73292,9 @@ EQUIPMENTS = {
                 "娄鹤剑#43777 (32500 会心 无双)": {
                     "id": 43777,
                     "name": "娄鹤剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -66728,6 +73322,9 @@ EQUIPMENTS = {
                 "腾空#42492 (30700 特效 会心 无双)": {
                     "id": 42492,
                     "name": "腾空",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -66760,6 +73357,9 @@ EQUIPMENTS = {
                 "松云#41301 (30700 会心 无双)": {
                     "id": 41301,
                     "name": "松云",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -66787,6 +73387,9 @@ EQUIPMENTS = {
                 "仙灵#40296 (22000 特效 会心 破防 加速)": {
                     "id": 40296,
                     "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -66827,6 +73430,9 @@ EQUIPMENTS = {
                 "孤城惊梦·洞玄剑#43381 (30200 破防 无双)": {
                     "id": 43381,
                     "name": "孤城惊梦·洞玄剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66854,6 +73460,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·玄都剑#42599 (30200 破招 无双)": {
                     "id": 42599,
                     "name": "寻踪觅宝·玄都剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66883,6 +73492,9 @@ EQUIPMENTS = {
                 "拂云游#41363 (30200 破招 无双)": {
                     "id": 41363,
                     "name": "拂云游",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66910,6 +73522,9 @@ EQUIPMENTS = {
                 "罡风尽#41263 (30200 特效 破防 无双)": {
                     "id": 41263,
                     "name": "罡风尽",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66939,6 +73554,9 @@ EQUIPMENTS = {
                 "瑞君剑#41229 (30200 破招 无双)": {
                     "id": 41229,
                     "name": "瑞君剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66966,6 +73584,9 @@ EQUIPMENTS = {
                 "远浦剑#41189 (30200 会心 无双)": {
                     "id": 41189,
                     "name": "远浦剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -66993,6 +73614,9 @@ EQUIPMENTS = {
                 "咩咩糖葫芦#44039 (29800 破防 无双)": {
                     "id": 44039,
                     "name": "咩咩糖葫芦",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -67029,6 +73653,9 @@ EQUIPMENTS = {
                 "仙灵#40264 (20750 特效 会心 破防 加速)": {
                     "id": 40264,
                     "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -67073,6 +73700,9 @@ EQUIPMENTS = {
                 "朱曦重明#43572 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43572,
                     "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -67113,6 +73743,9 @@ EQUIPMENTS = {
                 "朱曦重明#43539 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43539,
                     "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -67153,6 +73786,9 @@ EQUIPMENTS = {
                 "万马腾凌#42752 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 42752,
                     "name": "万马腾凌",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -67181,6 +73817,9 @@ EQUIPMENTS = {
                 "暮烟古戍#42815 (35300 外防 加速 破招 御劲 无双)": {
                     "id": 42815,
                     "name": "暮烟古戍",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67209,6 +73848,9 @@ EQUIPMENTS = {
                 "角声吹断#42713 (35300 特效 外防 加速 破招 御劲 无双)": {
                     "id": 42713,
                     "name": "角声吹断",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67239,6 +73881,9 @@ EQUIPMENTS = {
                 "紫渊枪#42678 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 42678,
                     "name": "紫渊枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67267,6 +73912,9 @@ EQUIPMENTS = {
                 "策勋枪#42637 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 42637,
                     "name": "策勋枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67295,6 +73943,9 @@ EQUIPMENTS = {
                 "朱曦重明#42146 (25300 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42146,
                     "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -67335,6 +73986,9 @@ EQUIPMENTS = {
                 "朱曦重明#42114 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42114,
                     "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -67375,6 +74029,9 @@ EQUIPMENTS = {
                 "娄旗枪#43776 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 43776,
                     "name": "娄旗枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -67403,6 +74060,9 @@ EQUIPMENTS = {
                 "炎枪重黎#42491 (30700 特效 外防 内防 破招 御劲 无双)": {
                     "id": 42491,
                     "name": "炎枪重黎",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -67436,6 +74096,9 @@ EQUIPMENTS = {
                 "念胡笳#41300 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 41300,
                     "name": "念胡笳",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -67464,6 +74127,9 @@ EQUIPMENTS = {
                 "朱曦重明#40295 (22000 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40295,
                     "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -67504,6 +74170,9 @@ EQUIPMENTS = {
                 "孤城惊梦·连营枪#43380 (30200 外防 加速 破招 御劲 无双)": {
                     "id": 43380,
                     "name": "孤城惊梦·连营枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -67532,6 +74201,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·不折枪#42598 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 42598,
                     "name": "寻踪觅宝·不折枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -67562,6 +74234,9 @@ EQUIPMENTS = {
                 "寒声柝#41362 (30200 外防 御劲 无双)": {
                     "id": 41362,
                     "name": "寒声柝",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -67588,6 +74263,9 @@ EQUIPMENTS = {
                 "青山魂#41262 (30200 特效 外防 御劲 无双)": {
                     "id": 41262,
                     "name": "青山魂",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -67616,6 +74294,9 @@ EQUIPMENTS = {
                 "戎昭枪#41228 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 41228,
                     "name": "戎昭枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -67644,6 +74325,9 @@ EQUIPMENTS = {
                 "桓威枪#41188 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 41188,
                     "name": "桓威枪",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -67672,6 +74356,9 @@ EQUIPMENTS = {
                 "冰晶水果叉#44038 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 44038,
                     "name": "冰晶水果叉",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -67708,6 +74395,9 @@ EQUIPMENTS = {
                 "朱曦重明#40263 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40263,
                     "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -67750,6 +74440,9 @@ EQUIPMENTS = {
                 "掠炎#43571 (29700 特效 会心 破防 加速)": {
                     "id": 43571,
                     "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -67790,6 +74483,9 @@ EQUIPMENTS = {
                 "掠炎#43538 (27500 特效 会心 破防 加速)": {
                     "id": 43538,
                     "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -67830,6 +74526,9 @@ EQUIPMENTS = {
                 "露布夜驰#42751 (35900 会心 无双)": {
                     "id": 42751,
                     "name": "露布夜驰",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -67857,6 +74556,9 @@ EQUIPMENTS = {
                 "白骨黄埃#42814 (35300 破招 无双)": {
                     "id": 42814,
                     "name": "白骨黄埃",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67884,6 +74586,9 @@ EQUIPMENTS = {
                 "牙旗猎火#42712 (35300 特效 破防 无双)": {
                     "id": 42712,
                     "name": "牙旗猎火",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67913,6 +74618,9 @@ EQUIPMENTS = {
                 "蹂若枪#42677 (35300 破招 无双)": {
                     "id": 42677,
                     "name": "蹂若枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67940,6 +74648,9 @@ EQUIPMENTS = {
                 "烈血枪#42636 (35300 会心 无双)": {
                     "id": 42636,
                     "name": "烈血枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -67967,6 +74678,9 @@ EQUIPMENTS = {
                 "掠炎#42145 (25300 特效 会心 破防 加速)": {
                     "id": 42145,
                     "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -68007,6 +74721,9 @@ EQUIPMENTS = {
                 "掠炎#42113 (23650 特效 会心 破防 加速)": {
                     "id": 42113,
                     "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -68047,6 +74764,9 @@ EQUIPMENTS = {
                 "娄驰枪#43775 (32500 会心 无双)": {
                     "id": 43775,
                     "name": "娄驰枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -68074,6 +74794,9 @@ EQUIPMENTS = {
                 "炎枪重黎#42490 (30700 特效 会心 无双)": {
                     "id": 42490,
                     "name": "炎枪重黎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -68106,6 +74829,9 @@ EQUIPMENTS = {
                 "惊宿鸟#41299 (30700 会心 无双)": {
                     "id": 41299,
                     "name": "惊宿鸟",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -68133,6 +74859,9 @@ EQUIPMENTS = {
                 "掠炎#40294 (22000 特效 会心 破防 加速)": {
                     "id": 40294,
                     "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -68173,6 +74902,9 @@ EQUIPMENTS = {
                 "孤城惊梦·驰鹜枪#43379 (30200 破防 无双)": {
                     "id": 43379,
                     "name": "孤城惊梦·驰鹜枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68200,6 +74932,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·游缰枪#42597 (30200 破招 无双)": {
                     "id": 42597,
                     "name": "寻踪觅宝·游缰枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68229,6 +74964,9 @@ EQUIPMENTS = {
                 "横行#41361 (30200 破招 无双)": {
                     "id": 41361,
                     "name": "横行",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68256,6 +74994,9 @@ EQUIPMENTS = {
                 "风沙鸣杨#41261 (30200 特效 破防 无双)": {
                     "id": 41261,
                     "name": "风沙鸣杨",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68285,6 +75026,9 @@ EQUIPMENTS = {
                 "赫怒枪#41227 (30200 破招 无双)": {
                     "id": 41227,
                     "name": "赫怒枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68312,6 +75056,9 @@ EQUIPMENTS = {
                 "笳声枪#41187 (30200 会心 无双)": {
                     "id": 41187,
                     "name": "笳声枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68339,6 +75086,9 @@ EQUIPMENTS = {
                 "冰晶水果叉#44037 (29800 破防 无双)": {
                     "id": 44037,
                     "name": "冰晶水果叉",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -68375,6 +75125,9 @@ EQUIPMENTS = {
                 "掠炎#40262 (20750 特效 会心 破防 加速)": {
                     "id": 40262,
                     "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -68419,6 +75172,9 @@ EQUIPMENTS = {
                 "折枝花满#43570 (29700 特效 会心 加速)": {
                     "id": 43570,
                     "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -68457,6 +75213,9 @@ EQUIPMENTS = {
                 "折枝花满#43537 (27500 特效 会心 加速)": {
                     "id": 43537,
                     "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -68495,6 +75254,9 @@ EQUIPMENTS = {
                 "飞云出岫#42750 (35900 会心)": {
                     "id": 42750,
                     "name": "飞云出岫",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -68521,6 +75283,9 @@ EQUIPMENTS = {
                 "清梦幽#42813 (35300 加速)": {
                     "id": 42813,
                     "name": "清梦幽",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -68547,6 +75312,9 @@ EQUIPMENTS = {
                 "远树依微#42711 (35300 特效 会心)": {
                     "id": 42711,
                     "name": "远树依微",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -68575,6 +75343,9 @@ EQUIPMENTS = {
                 "娴都笔#42676 (35300 加速)": {
                     "id": 42676,
                     "name": "娴都笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -68601,6 +75372,9 @@ EQUIPMENTS = {
                 "若木笔#42635 (35300 )": {
                     "id": 42635,
                     "name": "若木笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -68626,6 +75400,9 @@ EQUIPMENTS = {
                 "折枝花满#42144 (25300 特效 会心 加速)": {
                     "id": 42144,
                     "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -68664,6 +75441,9 @@ EQUIPMENTS = {
                 "折枝花满#42112 (23650 特效 会心 加速)": {
                     "id": 42112,
                     "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -68702,6 +75482,9 @@ EQUIPMENTS = {
                 "娄脉笔#43774 (32500 会心)": {
                     "id": 43774,
                     "name": "娄脉笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -68728,6 +75511,9 @@ EQUIPMENTS = {
                 "雪凤冰王笛#42489 (30700 特效 会心)": {
                     "id": 42489,
                     "name": "雪凤冰王笛",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -68759,6 +75545,9 @@ EQUIPMENTS = {
                 "绿水间#41298 (30700 会心)": {
                     "id": 41298,
                     "name": "绿水间",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -68785,6 +75574,9 @@ EQUIPMENTS = {
                 "折枝花满#40293 (22000 特效 会心 加速)": {
                     "id": 40293,
                     "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -68823,6 +75615,9 @@ EQUIPMENTS = {
                 "孤城惊梦·九畹笔#43378 (30200 加速)": {
                     "id": 43378,
                     "name": "孤城惊梦·九畹笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68849,6 +75644,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·揽芳笔#42596 (30200 会心)": {
                     "id": 42596,
                     "name": "寻踪觅宝·揽芳笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68877,6 +75675,9 @@ EQUIPMENTS = {
                 "幽芳远客#41360 (30200 加速)": {
                     "id": 41360,
                     "name": "幽芳远客",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68903,6 +75704,9 @@ EQUIPMENTS = {
                 "别愁雨#41260 (30200 特效 会心)": {
                     "id": 41260,
                     "name": "别愁雨",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68931,6 +75735,9 @@ EQUIPMENTS = {
                 "昭质笔#41226 (30200 加速)": {
                     "id": 41226,
                     "name": "昭质笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68957,6 +75764,9 @@ EQUIPMENTS = {
                 "桂舟笔#41186 (30200 )": {
                     "id": 41186,
                     "name": "桂舟笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -68982,6 +75792,9 @@ EQUIPMENTS = {
                 "冰淇淋甜筒#44036 (29800 加速)": {
                     "id": 44036,
                     "name": "冰淇淋甜筒",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -69017,6 +75830,9 @@ EQUIPMENTS = {
                 "折枝花满#40261 (20750 特效 会心 加速)": {
                     "id": 40261,
                     "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -69057,6 +75873,9 @@ EQUIPMENTS = {
                 "意真#43569 (29700 特效 会心 破防 加速)": {
                     "id": 43569,
                     "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -69097,6 +75916,9 @@ EQUIPMENTS = {
                 "意真#43536 (27500 特效 会心 破防 加速)": {
                     "id": 43536,
                     "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -69137,6 +75959,9 @@ EQUIPMENTS = {
                 "空阶夕照#42749 (35900 会心 无双)": {
                     "id": 42749,
                     "name": "空阶夕照",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -69164,6 +75989,9 @@ EQUIPMENTS = {
                 "远壑疏烟#42812 (35300 破招 无双)": {
                     "id": 42812,
                     "name": "远壑疏烟",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69191,6 +76019,9 @@ EQUIPMENTS = {
                 "寒香入鬓#42710 (35300 特效 破防 无双)": {
                     "id": 42710,
                     "name": "寒香入鬓",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69220,6 +76051,9 @@ EQUIPMENTS = {
                 "畴生笔#42675 (35300 破招 无双)": {
                     "id": 42675,
                     "name": "畴生笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69247,6 +76081,9 @@ EQUIPMENTS = {
                 "倚石笔#42634 (35300 会心 无双)": {
                     "id": 42634,
                     "name": "倚石笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69274,6 +76111,9 @@ EQUIPMENTS = {
                 "意真#42143 (25300 特效 会心 破防 加速)": {
                     "id": 42143,
                     "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -69314,6 +76154,9 @@ EQUIPMENTS = {
                 "意真#42111 (23650 特效 会心 破防 加速)": {
                     "id": 42111,
                     "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -69354,6 +76197,9 @@ EQUIPMENTS = {
                 "娄墨笔#43773 (32500 会心 无双)": {
                     "id": 43773,
                     "name": "娄墨笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -69381,6 +76227,9 @@ EQUIPMENTS = {
                 "雪凤冰王笛#42488 (30700 特效 会心 无双)": {
                     "id": 42488,
                     "name": "雪凤冰王笛",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -69413,6 +76262,9 @@ EQUIPMENTS = {
                 "秀色#41297 (30700 会心 无双)": {
                     "id": 41297,
                     "name": "秀色",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -69440,6 +76292,9 @@ EQUIPMENTS = {
                 "意真#40292 (22000 特效 会心 破防 加速)": {
                     "id": 40292,
                     "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -69480,6 +76335,9 @@ EQUIPMENTS = {
                 "孤城惊梦·端砚笔#43377 (30200 破防 无双)": {
                     "id": 43377,
                     "name": "孤城惊梦·端砚笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -69507,6 +76365,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·撷花笔#42595 (30200 破招 无双)": {
                     "id": 42595,
                     "name": "寻踪觅宝·撷花笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -69536,6 +76397,9 @@ EQUIPMENTS = {
                 "悲沧浪#41359 (30200 破招 无双)": {
                     "id": 41359,
                     "name": "悲沧浪",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -69563,6 +76427,9 @@ EQUIPMENTS = {
                 "朝濯玉#41259 (30200 特效 破防 无双)": {
                     "id": 41259,
                     "name": "朝濯玉",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -69592,6 +76459,9 @@ EQUIPMENTS = {
                 "芃兰笔#41225 (30200 破招 无双)": {
                     "id": 41225,
                     "name": "芃兰笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -69619,6 +76489,9 @@ EQUIPMENTS = {
                 "晏粲笔#41185 (30200 会心 无双)": {
                     "id": 41185,
                     "name": "晏粲笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -69646,6 +76519,9 @@ EQUIPMENTS = {
                 "冰淇淋甜筒#44035 (29800 破防 无双)": {
                     "id": 44035,
                     "name": "冰淇淋甜筒",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -69682,6 +76558,9 @@ EQUIPMENTS = {
                 "意真#40260 (20750 特效 会心 破防 加速)": {
                     "id": 40260,
                     "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -69726,6 +76605,9 @@ EQUIPMENTS = {
                 "降魔境#43568 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43568,
                     "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -69766,6 +76648,9 @@ EQUIPMENTS = {
                 "降魔境#43535 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43535,
                     "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -69806,6 +76691,9 @@ EQUIPMENTS = {
                 "威仪妙相#42748 (35900 外防 内防 破招 御劲 无双)": {
                     "id": 42748,
                     "name": "威仪妙相",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -69834,6 +76722,9 @@ EQUIPMENTS = {
                 "古壁空廊#42811 (35300 内防 加速 破招 御劲 无双)": {
                     "id": 42811,
                     "name": "古壁空廊",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69862,6 +76753,9 @@ EQUIPMENTS = {
                 "入云空#42709 (35300 特效 内防 加速 破招 御劲 无双)": {
                     "id": 42709,
                     "name": "入云空",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69892,6 +76786,9 @@ EQUIPMENTS = {
                 "醍醐棍#42674 (35300 外防 内防 加速 御劲 无双)": {
                     "id": 42674,
                     "name": "醍醐棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69920,6 +76817,9 @@ EQUIPMENTS = {
                 "三昧棍#42633 (35300 外防 内防 破招 御劲 无双)": {
                     "id": 42633,
                     "name": "三昧棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -69948,6 +76848,9 @@ EQUIPMENTS = {
                 "降魔境#42142 (25300 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42142,
                     "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -69988,6 +76891,9 @@ EQUIPMENTS = {
                 "降魔境#42110 (23650 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 42110,
                     "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -70028,6 +76934,9 @@ EQUIPMENTS = {
                 "娄觉棍#43772 (32500 内防 加速 破招 御劲 无双)": {
                     "id": 43772,
                     "name": "娄觉棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -70056,6 +76965,9 @@ EQUIPMENTS = {
                 "金刚#42487 (30700 特效 外防 内防 破招 御劲 无双)": {
                     "id": 42487,
                     "name": "金刚",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -70089,6 +77001,9 @@ EQUIPMENTS = {
                 "善守#41296 (30700 外防 内防 破招 御劲 无双)": {
                     "id": 41296,
                     "name": "善守",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -70117,6 +77032,9 @@ EQUIPMENTS = {
                 "降魔境#40291 (22000 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40291,
                     "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -70157,6 +77075,9 @@ EQUIPMENTS = {
                 "孤城惊梦·劫沙棍#43376 (30200 内防 加速 破招 御劲 无双)": {
                     "id": 43376,
                     "name": "孤城惊梦·劫沙棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70185,6 +77106,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·金钟棍#42594 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 42594,
                     "name": "寻踪觅宝·金钟棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70215,6 +77139,9 @@ EQUIPMENTS = {
                 "云生空相#41358 (30200 内防 御劲 无双)": {
                     "id": 41358,
                     "name": "云生空相",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70241,6 +77168,9 @@ EQUIPMENTS = {
                 "疏暮听蝉#41258 (30200 特效 内防 御劲 无双)": {
                     "id": 41258,
                     "name": "疏暮听蝉",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70269,6 +77199,9 @@ EQUIPMENTS = {
                 "苦劫棍#41224 (30200 外防 内防 加速 御劲 无双)": {
                     "id": 41224,
                     "name": "苦劫棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70297,6 +77230,9 @@ EQUIPMENTS = {
                 "慈云棍#41184 (30200 外防 内防 破招 御劲 无双)": {
                     "id": 41184,
                     "name": "慈云棍",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70325,6 +77261,9 @@ EQUIPMENTS = {
                 "小猴刨冰机#44034 (29800 内防 加速 破招 御劲 无双)": {
                     "id": 44034,
                     "name": "小猴刨冰机",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -70361,6 +77300,9 @@ EQUIPMENTS = {
                 "降魔境#40259 (20750 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 40259,
                     "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -70403,6 +77345,9 @@ EQUIPMENTS = {
                 "昭佛光#43567 (29700 特效 会心 破防 加速)": {
                     "id": 43567,
                     "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -70443,6 +77388,9 @@ EQUIPMENTS = {
                 "昭佛光#43534 (27500 特效 会心 破防 加速)": {
                     "id": 43534,
                     "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -70483,6 +77431,9 @@ EQUIPMENTS = {
                 "山僧不语#42747 (35900 会心 无双)": {
                     "id": 42747,
                     "name": "山僧不语",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -70510,6 +77461,9 @@ EQUIPMENTS = {
                 "云水禅心#42810 (35300 破招 无双)": {
                     "id": 42810,
                     "name": "云水禅心",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -70537,6 +77491,9 @@ EQUIPMENTS = {
                 "醒世尘#42708 (35300 特效 破防 无双)": {
                     "id": 42708,
                     "name": "醒世尘",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -70566,6 +77523,9 @@ EQUIPMENTS = {
                 "雷音棍#42673 (35300 破招 无双)": {
                     "id": 42673,
                     "name": "雷音棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -70593,6 +77553,9 @@ EQUIPMENTS = {
                 "大悲棍#42632 (35300 会心 无双)": {
                     "id": 42632,
                     "name": "大悲棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -70620,6 +77583,9 @@ EQUIPMENTS = {
                 "昭佛光#42141 (25300 特效 会心 破防 加速)": {
                     "id": 42141,
                     "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -70660,6 +77626,9 @@ EQUIPMENTS = {
                 "昭佛光#42109 (23650 特效 会心 破防 加速)": {
                     "id": 42109,
                     "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -70700,6 +77669,9 @@ EQUIPMENTS = {
                 "娄煌棍#43771 (32500 会心 无双)": {
                     "id": 43771,
                     "name": "娄煌棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -70727,6 +77699,9 @@ EQUIPMENTS = {
                 "金刚#42486 (30700 特效 会心 无双)": {
                     "id": 42486,
                     "name": "金刚",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -70759,6 +77734,9 @@ EQUIPMENTS = {
                 "禅月#41295 (30700 会心 无双)": {
                     "id": 41295,
                     "name": "禅月",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -70786,6 +77764,9 @@ EQUIPMENTS = {
                 "昭佛光#40290 (22000 特效 会心 破防 加速)": {
                     "id": 40290,
                     "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -70826,6 +77807,9 @@ EQUIPMENTS = {
                 "孤城惊梦·慈航棍#43375 (30200 破防 无双)": {
                     "id": 43375,
                     "name": "孤城惊梦·慈航棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70853,6 +77837,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·宝刹棍#42593 (30200 破招 无双)": {
                     "id": 42593,
                     "name": "寻踪觅宝·宝刹棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70882,6 +77869,9 @@ EQUIPMENTS = {
                 "寂照#41357 (30200 破招 无双)": {
                     "id": 41357,
                     "name": "寂照",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70909,6 +77899,9 @@ EQUIPMENTS = {
                 "镜思尘#41257 (30200 特效 破防 无双)": {
                     "id": 41257,
                     "name": "镜思尘",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70938,6 +77931,9 @@ EQUIPMENTS = {
                 "慧觉棍#41223 (30200 破招 无双)": {
                     "id": 41223,
                     "name": "慧觉棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70965,6 +77961,9 @@ EQUIPMENTS = {
                 "普济棍#41183 (30200 会心 无双)": {
                     "id": 41183,
                     "name": "普济棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -70992,6 +77991,9 @@ EQUIPMENTS = {
                 "小猴刨冰机#44033 (29800 破防 无双)": {
                     "id": 44033,
                     "name": "小猴刨冰机",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -71028,6 +78030,9 @@ EQUIPMENTS = {
                 "昭佛光#40258 (20750 特效 会心 破防 加速)": {
                     "id": 40258,
                     "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
@@ -71074,6 +78079,9 @@ EQUIPMENTS = {
                 "寂夜听雷#43582 (29700 特效 会心 破防 加速)": {
                     "id": 43582,
                     "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 29700,
                     "score": 89100,
                     "max_strength": 8,
@@ -71114,6 +78122,9 @@ EQUIPMENTS = {
                 "寂夜听雷#43549 (27500 特效 会心 破防 加速)": {
                     "id": 43549,
                     "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 27500,
                     "score": 82500,
                     "max_strength": 8,
@@ -71154,6 +78165,9 @@ EQUIPMENTS = {
                 "俯眺曲水#42762 (35900 会心 无双)": {
                     "id": 42762,
                     "name": "俯眺曲水",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35900,
                     "score": 77544,
                     "max_strength": 6,
@@ -71181,6 +78195,9 @@ EQUIPMENTS = {
                 "波光浮槛#42825 (35300 破招 无双)": {
                     "id": 42825,
                     "name": "波光浮槛",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -71208,6 +78225,9 @@ EQUIPMENTS = {
                 "西陵江月#42723 (35300 特效 破防 无双)": {
                     "id": 42723,
                     "name": "西陵江月",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -71237,6 +78257,9 @@ EQUIPMENTS = {
                 "断桥重剑#42707 (35300 破招 无双)": {
                     "id": 42707,
                     "name": "断桥重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -71264,6 +78287,9 @@ EQUIPMENTS = {
                 "断桥重剑#42688 (35300 破招 无双)": {
                     "id": 42688,
                     "name": "断桥重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -71291,6 +78317,9 @@ EQUIPMENTS = {
                 "流泉重剑#42666 (35300 会心 无双)": {
                     "id": 42666,
                     "name": "流泉重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -71318,6 +78347,9 @@ EQUIPMENTS = {
                 "流泉重剑#42647 (35300 会心 无双)": {
                     "id": 42647,
                     "name": "流泉重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 35300,
                     "score": 76248,
                     "max_strength": 6,
@@ -71345,6 +78377,9 @@ EQUIPMENTS = {
                 "寂夜听雷#42156 (25300 特效 会心 破防 加速)": {
                     "id": 42156,
                     "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 25300,
                     "score": 75900,
                     "max_strength": 8,
@@ -71385,6 +78420,9 @@ EQUIPMENTS = {
                 "寂夜听雷#42124 (23650 特效 会心 破防 加速)": {
                     "id": 42124,
                     "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 23650,
                     "score": 70950,
                     "max_strength": 8,
@@ -71425,6 +78463,9 @@ EQUIPMENTS = {
                 "娄泉重剑#43786 (32500 会心 无双)": {
                     "id": 43786,
                     "name": "娄泉重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 32500,
                     "score": 70200,
                     "max_strength": 6,
@@ -71452,6 +78493,9 @@ EQUIPMENTS = {
                 "岚尘金蛇#42501 (30700 特效 会心 无双)": {
                     "id": 42501,
                     "name": "岚尘金蛇",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -71484,6 +78528,9 @@ EQUIPMENTS = {
                 "云作雪#41310 (30700 会心 无双)": {
                     "id": 41310,
                     "name": "云作雪",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30700,
                     "score": 66312,
                     "max_strength": 6,
@@ -71511,6 +78558,9 @@ EQUIPMENTS = {
                 "寂夜听雷#40305 (22000 特效 会心 破防 加速)": {
                     "id": 40305,
                     "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 22000,
                     "score": 66000,
                     "max_strength": 8,
@@ -71551,6 +78601,9 @@ EQUIPMENTS = {
                 "孤城惊梦·寄锋重剑#43390 (30200 破防 无双)": {
                     "id": 43390,
                     "name": "孤城惊梦·寄锋重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71578,6 +78631,9 @@ EQUIPMENTS = {
                 "寻踪觅宝·重泉重剑#42608 (30200 破招 无双)": {
                     "id": 42608,
                     "name": "寻踪觅宝·重泉重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71607,6 +78663,9 @@ EQUIPMENTS = {
                 "金泉#41372 (30200 破招 无双)": {
                     "id": 41372,
                     "name": "金泉",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71634,6 +78693,9 @@ EQUIPMENTS = {
                 "烟雨淬锋#41272 (30200 特效 破防 无双)": {
                     "id": 41272,
                     "name": "烟雨淬锋",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71663,6 +78725,9 @@ EQUIPMENTS = {
                 "穆如重剑#41256 (30200 破招 无双)": {
                     "id": 41256,
                     "name": "穆如重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71690,6 +78755,9 @@ EQUIPMENTS = {
                 "穆如重剑#41238 (30200 破招 无双)": {
                     "id": 41238,
                     "name": "穆如重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71717,6 +78785,9 @@ EQUIPMENTS = {
                 "夕岚重剑#41216 (30200 会心 无双)": {
                     "id": 41216,
                     "name": "夕岚重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71744,6 +78815,9 @@ EQUIPMENTS = {
                 "夕岚重剑#41198 (30200 会心 无双)": {
                     "id": 41198,
                     "name": "夕岚重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 30200,
                     "score": 65232,
                     "max_strength": 6,
@@ -71771,6 +78845,9 @@ EQUIPMENTS = {
                 "柠檬大冰棍#44048 (29800 破防 无双)": {
                     "id": 44048,
                     "name": "柠檬大冰棍",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 29800,
                     "score": 64368,
                     "max_strength": 6,
@@ -71807,6 +78884,9 @@ EQUIPMENTS = {
                 "寂夜听雷#40273 (20750 特效 会心 破防 加速)": {
                     "id": 40273,
                     "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
                     "level": 20750,
                     "score": 62250,
                     "max_strength": 8,
