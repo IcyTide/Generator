@@ -186,7 +186,7 @@ class Gears:
     @property
     def content(self):
         set_count, set_bonus = {}, {}
-        attributes, recipes, gains = {}, [], {}
+        attributes, recipes, gains = {}, [], []
         for gear in self.gears.values():
             for k, v in gear.attributes.items():
                 if k not in attributes:
@@ -194,11 +194,8 @@ class Gears:
                 attributes[k] += v
             recipes += gear.recipes
             if gear.special_enchant:
-                gains[gear.special_enchant] = GearGain(gear.special_enchant)
-            for k in gear.gains:
-                if not k:
-                    continue
-                gains[k] = GearGain(k)
+                gains.append(GearGain(gear.special_enchant))
+            gains += [GearGain(k) for k in gear.gains if k]
             if set_id := gear.set_id:
                 if set_id not in set_count:
                     set_count[set_id] = 0
@@ -212,10 +209,7 @@ class Gears:
                             attributes[k] = 0
                         attributes[k] += v
                     recipes += bonus.get("recipes", [])
-                    for k in bonus.get("gains", []):
-                        if not k :
-                            continue
-                        gains[k] = GearGain(k)
+                    gains += [GearGain(k) for k in bonus.get("gains", []) if k]
         return attributes, recipes, gains
 
     def to_dict(self):

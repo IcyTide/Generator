@@ -17,7 +17,7 @@ class Kungfu:
 
     gear_attributes: dict[str, int] = {}
     gear_recipes: list[str] = []
-    gear_gains: dict[str, GearGain] = {}
+    gear_gains: list[GearGain] = {}
 
     build_attributes: dict[str, int] = {}
     build_recipes: list[str] = []
@@ -72,7 +72,7 @@ class Kungfu:
         attribute = Attribute(MAJOR_TYPES[self.major], self.attribute["damage_type"], self.attribute["critical_type"])
         for k, v in attributes.items():
             attribute[k] += v
-        for gain in self.gear_gains.values():
+        for gain in self.gear_gains:
             gain.set_attribute(attribute)
         for gain in self.bonus_gains.values():
             gain.set_attribute(attribute)
@@ -82,10 +82,10 @@ class Kungfu:
             attribute.require_grad()
         return attribute
 
-    def create_loop(self, sections: Sections):
+    def create_loop(self, sections: Sections, attribute: Attribute):
         record = Record("", 1, sections.duration)
-        for gain in self.gear_gains.values():
-            gain.set_record(record)
+        for gain in self.gear_gains:
+            gain.set_record(record, attribute)
         for gain in self.bonus_gains.values():
             gain.set_record(record)
         sections = sections.copy()
@@ -120,14 +120,14 @@ class Kungfu:
     @property
     def buffs(self):
         talent_buffs = {k: v for k, v in self.talent_buffs.items() if k in self.talents}
-        gear_buffs = {buff_id: BUFFS[0][buff_id] for gain in self.gear_gains.values() for buff_id in gain.buffs}
+        gear_buffs = {buff_id: BUFFS[0][buff_id] for gain in self.gear_gains for buff_id in gain.buffs}
         gear_buffs = dict(装备=gear_buffs) if gear_buffs else {}
         return self.kungfu_buffs | talent_buffs | gear_buffs
 
     @property
     def skills(self):
         talent_skills = {k: v for k, v in self.talent_skills.items() if k in self.talents}
-        gear_skills = {skill_id: SKILLS[0][skill_id] for gain in self.gear_gains.values() for skill_id in gain.skills}
+        gear_skills = {skill_id: SKILLS[0][skill_id] for gain in self.gear_gains for skill_id in gain.skills}
         gear_skills = dict(装备=gear_skills) if gear_skills else {}
         return self.kungfu_skills | talent_skills | gear_skills
 

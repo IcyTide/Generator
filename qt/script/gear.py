@@ -209,7 +209,7 @@ class GearScript:
     def show_detail(self):
         attributes, recipes, gains = self.kungfu.gear_attributes, self.kungfu.gear_recipes, self.kungfu.gear_gains
         if attributes:
-            AttributeDialog(attributes, recipes, list(gains.values()), parent=self.widget).exec()
+            AttributeDialog(attributes, recipes, gains, parent=self.widget).exec()
 
     def init(self, kungfu: Kungfu, gears: Gears | dict = None):
         self.kungfu = kungfu

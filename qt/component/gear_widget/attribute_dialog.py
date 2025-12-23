@@ -35,7 +35,8 @@ class AttributeDialog(QDialog):
                 check_box.stateChanged.connect(self.set_gain_average(gain))
             toolbox.addItem(gain_page, "特效")
 
-    def set_gain_average(self, gain: GearGain):
+    @staticmethod
+    def set_gain_average(gain: GearGain):
         def inner(state):
             gain.average = state
 

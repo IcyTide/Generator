@@ -78,6 +78,7 @@ def necklace_attribute(target: str, thresholds: list[int]):
         stack = min(int(attribute[f"{target}_base"] / threshold), 10)
         self.weight = stack / 10
         default_attribute(self, attribute)
+
     return inner
 
 
@@ -131,6 +132,7 @@ Add Skill to Record Funcs
 SKILL_FREQ = {
     40789: 10,
     38966: 10,
+    42837: 40,
     37562: 15,
     37561: 10,
     42898: 30,
@@ -145,7 +147,7 @@ def add_skill_to_record(skill_id: int, skill_level: int, record: Record, count: 
     record.skills.append(skill)
 
 
-def default_record(self: "GearGain", record: Record):
+def default_record(self: "GearGain", record: Record, attribute: Attribute):
     for skill_id in self.skills:
         if skill_id not in SKILL_FREQ:
             return
@@ -153,11 +155,34 @@ def default_record(self: "GearGain", record: Record):
         add_skill_to_record(skill_id, self.gain_level, record, count)
 
 
-def wind_record(self: "GearGain", record: Record):
+def belt_record(self: "GearGain", record: Record, attribute: Attribute):
+    haste, segments = attribute.haste_base, [
+        (0, 12),
+        (9232, 15),
+        (19285, 17),
+        (30158, 20),
+        (42057, 22),
+    ]
+
+    for i, (cur_haste, cur_times) in enumerate(segments[1:]):
+        prev_haste, prev_times = segments[i]
+        if haste <= cur_haste:
+            ratio = (haste - prev_haste) / (cur_haste - prev_haste)
+            times = int(prev_times + ratio * (cur_times - prev_times))
+            break
+    else:
+        _, times = segments[-1]
+
+    for _ in range(times):
+        default_record(self, record, attribute)
+
+
+def wind_record(self: "GearGain", record: Record, attribute: Attribute):
     add_skill_to_record(self.gain_id, self.gain_level * 2, record)
 
 
 RECORD_FUNCS = {
+    42767: belt_record,
     38786: wind_record
 }
 
@@ -173,6 +198,8 @@ class GearGain:
     average: bool = True
 
     def __init__(self, gain_str: str):
+        if not gain_str:
+            return
         _, self.gain_id, self.gain_level = gain_str.split("_")
         self.gain_id = int(self.gain_id)
         self.gain_level = int(self.gain_level)
@@ -187,6 +214,6 @@ class GearGain:
         if self.average:
             ATTRIBUTE_FUNCS.get(self.gain_id, default_attribute)(self, attribute)
 
-    def set_record(self, record: Record):
+    def set_record(self, record: Record, attribute: Attribute):
         if self.average:
-            RECORD_FUNCS.get(self.gain_id, default_record)(self, record)
+            RECORD_FUNCS.get(self.gain_id, default_record)(self, record, attribute)

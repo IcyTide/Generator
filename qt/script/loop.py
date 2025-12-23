@@ -128,7 +128,7 @@ class LoopScript:
         if self.sections.is_empty:
             return
         current, snapshot = self.kungfu.create_attribute(), self.kungfu.create_attribute()
-        loop = self.kungfu.create_loop(self.sections)
+        loop = self.kungfu.create_loop(self.sections, current)
         AllDamageDialog(loop, current, snapshot, parent=self.widget).show()
 
     def show_skill_damage_btn(self):

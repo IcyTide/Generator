@@ -8,7 +8,7 @@ from qt.utils import percent
 class AttributeDialog(QDialog):
     def __init__(self, current_attribute: Attribute, snapshot_attribute: Attribute, parent: QWidget = None):
         super().__init__(parent)
-        self.setWindowTitle("Attribute Detail")
+        self.setWindowTitle("实时属性面板")
 
         layout = QVBoxLayout(self)
 

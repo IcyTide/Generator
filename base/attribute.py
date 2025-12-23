@@ -279,12 +279,12 @@ class BaseCriticalStrike(Major):
     @property
     def base_physical_critical_strike(self):
         base_critical_strike = self.physical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE / BINARY_SCALE)
+        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE)
 
     @property
     def base_magical_critical_strike(self):
         base_critical_strike = self.magical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE / BINARY_SCALE)
+        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
 
     @property
     def base_solar_critical_strike(self):
