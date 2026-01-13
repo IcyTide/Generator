@@ -104,5 +104,8 @@ SKILLS = {
     29532: {
         1: dict(custom_damage_base=get_damage(), custom_damage_type="poison")
     },
+    23104: {24: {}},
+    23107: {24: {}},
+    23177: {4: {}},
     21933: {5: {}}
 }

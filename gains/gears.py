@@ -44,6 +44,7 @@ GAINS: dict[int, dict] = {
     # divine
     39088: dict(buffs=[29608]),
     # special weapon
+    21319: dict(skills=[23104, 23107, 23177]),
     22035: dict(skills=[21933]),
     # 43807: dict(dots={32542: [42817]}, skills=[42841, 42817, 42840, 42842, 42843]),
     # 43808: dict(skills=[]),

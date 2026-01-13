@@ -314,8 +314,8 @@ class DamageCallChain(BaseCallChain):
 
     def damage_call(self, damage_base, damage_rand):
         self.init_damage()
-        self.source.damage_base = damage_base
-        self.source.damage_rand = damage_rand
+        self.source.damage_base = damage_base or self.source.damage_base
+        self.source.damage_rand = damage_rand or self.source.damage_rand
         base_damage = self.cal_base_damage()
         attack_damage = self.cal_attack_damage()
         weapon_damage = self.cal_weapon_damage()
