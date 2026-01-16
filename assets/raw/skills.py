@@ -4238,7 +4238,7 @@ SKILLS = {
                 "name": "赤蝎",
                 "comment": "",
                 "damages": [
-                    "(rand * 21 + poison_attack_power * 9.052083333333332) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)"
+                    "(204 + rand * 21 + poison_attack_power * 9.052083333333332) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)"
                 ],
                 "critical_strike": "poison_critical_strike",
                 "critical_power": "poison_critical_power"
@@ -18669,6 +18669,248 @@ SKILLS = {
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
+            }
+        },
+        42801: {
+            10: {
+                "name": "使役普攻",
+                "comment": "",
+                "damages": [
+                    "142000.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42841: {
+            10: {
+                "name": "符咒1",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42817: {
+            10: {
+                "name": "使役符咒2",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42840: {
+            10: {
+                "name": "使役符咒3",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42842: {
+            10: {
+                "name": "使役符咒4一",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42839: {
+            10: {
+                "name": "使役符咒5",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42800: {
+            10: {
+                "name": "螣蛇普攻",
+                "comment": "",
+                "damages": [
+                    "142000.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                ],
+                "critical_strike": "lunar_critical_strike",
+                "critical_power": "lunar_critical_power"
+            }
+        },
+        42844: {
+            10: {
+                "name": "螣蛇符咒1",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                ],
+                "critical_strike": "lunar_critical_strike",
+                "critical_power": "lunar_critical_power"
+            }
+        },
+        42846: {
+            10: {
+                "name": "螣蛇符咒2",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                ],
+                "critical_strike": "lunar_critical_strike",
+                "critical_power": "lunar_critical_power"
+            }
+        },
+        42848: {
+            10: {
+                "name": "螣蛇符咒3",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                ],
+                "critical_strike": "lunar_critical_strike",
+                "critical_power": "lunar_critical_power"
+            }
+        },
+        42845: {
+            10: {
+                "name": "螣蛇符咒4",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                ],
+                "critical_strike": "lunar_critical_strike",
+                "critical_power": "lunar_critical_power"
+            }
+        },
+        42849: {
+            10: {
+                "name": "螣蛇符咒5",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                ],
+                "critical_strike": "lunar_critical_strike",
+                "critical_power": "lunar_critical_power"
+            }
+        },
+        42711: {
+            10: {
+                "name": "凤凰普攻",
+                "comment": "",
+                "damages": [
+                    "142000.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                ],
+                "critical_strike": "solar_critical_strike",
+                "critical_power": "solar_critical_power"
+            }
+        },
+        43757: {
+            10: {
+                "name": "凤凰符咒1",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                ],
+                "critical_strike": "solar_critical_strike",
+                "critical_power": "solar_critical_power"
+            }
+        },
+        43758: {
+            10: {
+                "name": "凤凰符咒2",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                ],
+                "critical_strike": "solar_critical_strike",
+                "critical_power": "solar_critical_power"
+            }
+        },
+        42802: {
+            10: {
+                "name": "麒麟普攻",
+                "comment": "",
+                "damages": [
+                    "142000.0 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        43720: {
+            10: {
+                "name": "麒麟符咒1",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        43721: {
+            10: {
+                "name": "麒麟符咒2爪击",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        43722: {
+            10: {
+                "name": "麒麟符咒2拍击",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        43724: {
+            10: {
+                "name": "符咒3星陨",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        42803: {
+            10: {
+                "name": "驺吾普攻",
+                "comment": "",
+                "damages": [
+                    "142000.0 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        43756: {
+            10: {
+                "name": "驺吾符咒5",
+                "comment": "",
+                "damages": [
+                    "150640.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)"
+                ],
+                "critical_strike": "poison_critical_strike",
+                "critical_power": "poison_critical_power"
             }
         },
         38787: {

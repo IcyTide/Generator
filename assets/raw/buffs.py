@@ -8922,6 +8922,29 @@ BUFFS = {
                 }
             }
         },
+        32664: {
+            1: {
+                "name": "凤凰羽",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 400,
+                    "all_critical_power_base": 400
+                }
+            }
+        },
+        32549: {
+            1: {
+                "name": "护盾",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "neutral_attack_power_base": 123412
+                }
+            }
+        },
         4761: {
             74: {
                 "name": "水·百川",

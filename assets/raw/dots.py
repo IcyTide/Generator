@@ -2559,5 +2559,28 @@ DOTS = {
     },
     102278: {},
     102393: {},
-    0: {}
+    0: {
+        32699: {
+            1: {
+                "name": "凤炎(DOT)",
+                "comment": "",
+                "interval": "16",
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": {
+                    43758: {
+                        10: {
+                            "name": "凤凰符咒2",
+                            "comment": "",
+                            "damages": [
+                                "12341.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                            ],
+                            "critical_strike": "solar_critical_strike",
+                            "critical_power": "solar_critical_power"
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
