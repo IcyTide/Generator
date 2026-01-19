@@ -15,7 +15,7 @@ SKILLS = {
         3: dict(comment="兰摧玉折"),
     },
     **{skill_id: dict(comment="风烟翠/随墨/流离") for skill_id in [13849, 13847, 13848]},
-    38854: dict(comment="雪弃{}目标"),
+    43936: dict(comment="雪弃{}目标"),
     37270: {
         2: dict(comment="PVE"),
         4: dict(comment="PVP")

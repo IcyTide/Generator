@@ -2220,7 +2220,7 @@ DOTS = {
                             "name": "",
                             "comment": "",
                             "damages": [
-                                "(25 + physical_attack_power * 0.90625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                "(25 + physical_attack_power * 1.8140625000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"
@@ -2266,7 +2266,7 @@ DOTS = {
                             "name": "知微",
                             "comment": "",
                             "damages": [
-                                "(26 + neutral_attack_power * 1.0980902777777777) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                                "(26 + neutral_attack_power * 1.2152777777777777) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                             ],
                             "critical_strike": "neutral_critical_strike",
                             "critical_power": "neutral_critical_power"
@@ -2562,18 +2562,18 @@ DOTS = {
     0: {
         32699: {
             1: {
-                "name": "凤炎(DOT)",
+                "name": "旋舞余烬(DOT)",
                 "comment": "",
                 "interval": "16",
                 "max_stack": 1,
                 "max_tick": 1,
                 "skills": {
                     43758: {
-                        10: {
-                            "name": "凤凰符咒2",
+                        1: {
+                            "name": "凤舞旋焰",
                             "comment": "",
                             "damages": [
-                                "12341.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                                "1463072.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                             ],
                             "critical_strike": "solar_critical_strike",
                             "critical_power": "solar_critical_power"

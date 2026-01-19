@@ -12,7 +12,7 @@ READER = DataFrameReader()
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
-MIN_EQUIP_LEVEL = 28000
+MIN_EQUIP_LEVEL = 27000
 ENCHANT_START_ID = 15778
 
 MIN_EQUIP_SCORE = {

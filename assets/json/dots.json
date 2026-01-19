@@ -3953,7 +3953,7 @@
                             "comment": "",
                             "damages": [
                                 {
-                                    "damage": "(25 + physical_attack_power * 0.90625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                                    "damage": "(25 + physical_attack_power * 1.8140625000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                                     "source_attribute": {
                                         "physical_damage_base": "25"
                                     }
@@ -3964,8 +3964,8 @@
                                 "critical_power": "physical_critical_power"
                             },
                             "skill_attribute": {
-                                "frames": "580",
-                                "physical_attack_power_cof": "0.90625"
+                                "frames": "1161",
+                                "physical_attack_power_cof": "1.8140625000000001"
                             }
                         }
                     }
@@ -4023,7 +4023,7 @@
                             "comment": "",
                             "damages": [
                                 {
-                                    "damage": "(26 + neutral_attack_power * 1.0980902777777777) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
+                                    "damage": "(26 + neutral_attack_power * 1.2152777777777777) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
                                     "source_attribute": {
                                         "neutral_damage_base": "26"
                                     }
@@ -4034,8 +4034,8 @@
                                 "critical_power": "neutral_critical_power"
                             },
                             "skill_attribute": {
-                                "frames": "1265",
-                                "magical_attack_power_cof": "1.0980902777777777"
+                                "frames": "1400",
+                                "magical_attack_power_cof": "1.2152777777777777"
                             }
                         }
                     }
@@ -4499,20 +4499,20 @@
     "0": {
         "32699": {
             "1": {
-                "name": "凤炎(DOT)",
+                "name": "旋舞余烬(DOT)",
                 "interval": "16",
                 "max_stack": 1,
                 "max_tick": 1,
                 "skills": {
                     "43758": {
-                        "10": {
-                            "name": "凤凰符咒2",
+                        "1": {
+                            "name": "凤舞旋焰",
                             "comment": "",
                             "damages": [
                                 {
-                                    "damage": "12341.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                                    "damage": "1463072.0 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                                     "source_attribute": {
-                                        "solar_damage_base": "12341"
+                                        "solar_damage_base": "1463072"
                                     }
                                 }
                             ],

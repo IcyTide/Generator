@@ -41218,6 +41218,32 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "郁垒坠#44387 (27600 外防 内防 破招 御劲 无双)": {
+                    "id": 44387,
+                    "name": "郁垒坠",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "pendant",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11192,
+                        "physical_shield_base": 4821,
+                        "magical_shield_base": 4821,
+                        "surplus_base": 2066,
+                        "toughness_base": 1033,
+                        "strain_base": 4132
+                    },
+                    "embed": {
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "治疗": {
@@ -41599,6 +41625,30 @@ EQUIPMENTS = {
                         "spirit_base": 694,
                         "therapy_power_base": 4312,
                         "magical_critical_strike_base": 5240
+                    },
+                    "embed": {
+                        "spirit_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "连娟坠#44386 (27600 会心)": {
+                    "id": 44386,
+                    "name": "连娟坠",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "pendant",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "spirit_base": 684,
+                        "therapy_power_base": 4250,
+                        "magical_critical_strike_base": 5166
                     },
                     "embed": {
                         "spirit_base": 41
@@ -42015,6 +42065,31 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "崔错坠#44385 (27600 会心 无双)": {
+                    "id": 44385,
+                    "name": "崔错坠",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "pendant",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "agility_base": 618,
+                        "physical_attack_power_base": 1404,
+                        "physical_critical_strike_base": 5166,
+                        "strain_base": 4132
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "力道": {
@@ -42415,6 +42490,31 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 1424,
                         "physical_critical_strike_base": 5240,
                         "strain_base": 4192
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "弥山坠#44384 (27600 会心 无双)": {
+                    "id": 44384,
+                    "name": "弥山坠",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "pendant",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "strength_base": 618,
+                        "physical_attack_power_base": 1404,
+                        "physical_critical_strike_base": 5166,
+                        "strain_base": 4132
                     },
                     "embed": {
                         "strain_base": 321
@@ -42831,6 +42931,31 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "旋还坠#44383 (27600 会心 无双)": {
+                    "id": 44383,
+                    "name": "旋还坠",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "pendant",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "spunk_base": 618,
+                        "magical_attack_power_base": 1561,
+                        "all_critical_strike_base": 5166,
+                        "strain_base": 4132
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "根骨": {
@@ -43231,6 +43356,31 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 1584,
                         "magical_critical_strike_base": 5240,
                         "strain_base": 4192
+                    },
+                    "embed": {
+                        "strain_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "宛虹坠#44382 (27600 会心 无双)": {
+                    "id": 44382,
+                    "name": "宛虹坠",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "pendant",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "spirit_base": 618,
+                        "magical_attack_power_base": 1561,
+                        "magical_critical_strike_base": 5166,
+                        "strain_base": 4132
                     },
                     "embed": {
                         "strain_base": 321
@@ -49364,6 +49514,32 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "雉楼链#44381 (27600 外防 内防 加速 御劲 无双)": {
+                    "id": 44381,
+                    "name": "雉楼链",
+                    "school": "通用",
+                    "kind": "防御",
+                    "position": "necklace",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 11192,
+                        "physical_shield_base": 4821,
+                        "magical_shield_base": 4821,
+                        "haste_base": 2066,
+                        "toughness_base": 1033,
+                        "strain_base": 4132
+                    },
+                    "embed": {
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "治疗": {
@@ -49639,6 +49815,29 @@ EQUIPMENTS = {
                         "vitality_base": 7686,
                         "spirit_base": 694,
                         "therapy_power_base": 6848
+                    },
+                    "embed": {
+                        "spirit_base": 41
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "纯茂链#44380 (27600 )": {
+                    "id": 44380,
+                    "name": "纯茂链",
+                    "school": "通用",
+                    "kind": "治疗",
+                    "position": "necklace",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "spirit_base": 684,
+                        "therapy_power_base": 6751
                     },
                     "embed": {
                         "spirit_base": 41
@@ -49949,6 +50148,31 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "斜月链#44379 (27600 破招 无双)": {
+                    "id": 44379,
+                    "name": "斜月链",
+                    "school": "通用",
+                    "kind": "身法",
+                    "position": "necklace",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "agility_base": 618,
+                        "physical_attack_power_base": 1404,
+                        "surplus_base": 5166,
+                        "strain_base": 4132
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "力道": {
@@ -50243,6 +50467,31 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 1424,
                         "surplus_base": 5240,
                         "strain_base": 4192
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "乱峰链#44378 (27600 破招 无双)": {
+                    "id": 44378,
+                    "name": "乱峰链",
+                    "school": "通用",
+                    "kind": "力道",
+                    "position": "necklace",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "strength_base": 618,
+                        "physical_attack_power_base": 1404,
+                        "surplus_base": 5166,
+                        "strain_base": 4132
                     },
                     "embed": {
                         "physical_attack_power_base": 87
@@ -50553,6 +50802,31 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "销沉链#44377 (27600 破招 无双)": {
+                    "id": 44377,
+                    "name": "销沉链",
+                    "school": "通用",
+                    "kind": "元气",
+                    "position": "necklace",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "spunk_base": 618,
+                        "magical_attack_power_base": 1561,
+                        "surplus_base": 5166,
+                        "strain_base": 4132
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 97
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 }
             },
             "根骨": {
@@ -50847,6 +51121,31 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 1584,
                         "surplus_base": 5240,
                         "strain_base": 4192
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 97
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "孟陬链#44376 (27600 破招 无双)": {
+                    "id": 44376,
+                    "name": "孟陬链",
+                    "school": "通用",
+                    "kind": "根骨",
+                    "position": "necklace",
+                    "level": 27600,
+                    "score": 24840,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 7576,
+                        "spirit_base": 618,
+                        "magical_attack_power_base": 1561,
+                        "surplus_base": 5166,
+                        "strain_base": 4132
                     },
                     "embed": {
                         "magical_attack_power_base": 97
@@ -55057,6 +55356,39 @@ EQUIPMENTS = {
     "primary_weapon": {
         "无相": {
             "内功": {
+                "未央之夏_测试用#44299 (31800 特效 会心 破防 加速)": {
+                    "id": 44299,
+                    "name": "未央之夏_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2374,
+                        "lunar_attack_power_base": 13202,
+                        "lunar_critical_strike_base": 13887,
+                        "lunar_overcome_base": 14549,
+                        "haste_base": 7274
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6108_1",
+                        "recipe_17561_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "静雨#43599 (29700 特效 会心 破防 加速)": {
                     "id": 43599,
                     "name": "静雨",
@@ -55095,6 +55427,39 @@ EQUIPMENTS = {
                         "gain_43086_1",
                         "gain_39088_9",
                         "gain_43080_1"
+                    ]
+                },
+                "未央之夏_测试用#44266 (28000 特效 会心 破防 加速)": {
+                    "id": 44266,
+                    "name": "未央之夏_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2090,
+                        "lunar_attack_power_base": 11624,
+                        "lunar_critical_strike_base": 12228,
+                        "lunar_overcome_base": 12810,
+                        "haste_base": 6405
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6108_1",
+                        "recipe_17561_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "静雨#43566 (27500 特效 会心 破防 加速)": {
@@ -55163,6 +55528,36 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "未央之夏_测试用#44233 (25600 特效 会心 破防 加速)": {
+                    "id": 44233,
+                    "name": "未央之夏_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 1911,
+                        "lunar_attack_power_base": 10628,
+                        "lunar_critical_strike_base": 11180,
+                        "lunar_overcome_base": 11712,
+                        "haste_base": 5856
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "月楼戏梦#42842 (35300 破招 无双)": {
                     "id": 42842,
@@ -55382,6 +55777,36 @@ EQUIPMENTS = {
                         "gain_43086_1",
                         "gain_39088_6",
                         "gain_43080_1"
+                    ]
+                },
+                "未央之夏_测试用#44200 (23600 特效 会心 破防 加速)": {
+                    "id": 44200,
+                    "name": "未央之夏_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1762,
+                        "lunar_attack_power_base": 9797,
+                        "lunar_critical_strike_base": 10306,
+                        "lunar_overcome_base": 10797,
+                        "haste_base": 5398
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄伶丝轮#43803 (32500 会心 无双)": {
@@ -55617,6 +56042,36 @@ EQUIPMENTS = {
                         ""
                     ]
                 },
+                "未央之夏_测试用#44167 (21600 特效 会心 破防 加速)": {
+                    "id": 44167,
+                    "name": "未央之夏_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "lunar_attack_power_base": 8967,
+                        "lunar_critical_strike_base": 9433,
+                        "lunar_overcome_base": 9882,
+                        "haste_base": 4941
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "苦昼#43806 (21600 会心 破防 加速)": {
                     "id": 43806,
                     "name": "苦昼",
@@ -55778,11 +56233,117 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "未央之夏_测试用#44134 (19600 特效 会心 破防 加速)": {
+                    "id": 44134,
+                    "name": "未央之夏_测试用",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1463,
+                        "lunar_attack_power_base": 8137,
+                        "lunar_critical_strike_base": 8559,
+                        "lunar_overcome_base": 8967,
+                        "haste_base": 4483
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "静雨#43758 (19500 特效 会心 破防 加速)": {
+                    "id": 43758,
+                    "name": "静雨",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1456,
+                        "lunar_attack_power_base": 8095,
+                        "lunar_critical_strike_base": 8516,
+                        "lunar_overcome_base": 8921,
+                        "haste_base": 4461
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6106_1",
+                        "recipe_6107_1",
+                        "recipe_17558_1",
+                        "recipe_17559_1",
+                        "recipe_17560_1",
+                        "recipe_17561_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_43086_1",
+                        "gain_39088_4",
+                        "gain_43080_1"
+                    ]
                 }
             }
         },
         "段氏": {
             "内功": {
+                "渊鸣_测试用#44298 (31800 特效 会心 破防 加速)": {
+                    "id": 44298,
+                    "name": "渊鸣_测试用",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spunk_base": 2374,
+                        "neutral_attack_power_base": 13202,
+                        "neutral_critical_strike_base": 14549,
+                        "neutral_overcome_base": 14549,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5751_1",
+                        "recipe_17514_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "伏龙阳焰#43598 (29700 特效 会心 破防 加速)": {
                     "id": 43598,
                     "name": "伏龙阳焰",
@@ -55824,6 +56385,42 @@ EQUIPMENTS = {
                         "gain_39081_1",
                         "gain_39088_9",
                         "gain_39078_2"
+                    ]
+                },
+                "渊鸣_测试用#44265 (28000 特效 会心 破防 加速)": {
+                    "id": 44265,
+                    "name": "渊鸣_测试用",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spunk_base": 2090,
+                        "neutral_attack_power_base": 11624,
+                        "neutral_critical_strike_base": 12810,
+                        "neutral_overcome_base": 12810,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5751_1",
+                        "recipe_17514_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "伏龙阳焰#43565 (27500 特效 会心 破防 加速)": {
@@ -55898,6 +56495,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "渊鸣_测试用#44232 (25600 特效 会心 破防 加速)": {
+                    "id": 44232,
+                    "name": "渊鸣_测试用",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spunk_base": 1911,
+                        "neutral_attack_power_base": 10628,
+                        "neutral_critical_strike_base": 11712,
+                        "neutral_overcome_base": 11712,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "千寻飞瀑#42841 (35300 破招 无双)": {
                     "id": 42841,
@@ -56138,6 +56768,39 @@ EQUIPMENTS = {
                         "gain_39081_1",
                         "gain_39088_6",
                         "gain_39078_2"
+                    ]
+                },
+                "渊鸣_测试用#44199 (23600 特效 会心 破防 加速)": {
+                    "id": 44199,
+                    "name": "渊鸣_测试用",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spunk_base": 1762,
+                        "neutral_attack_power_base": 9797,
+                        "neutral_critical_strike_base": 10797,
+                        "neutral_overcome_base": 10797,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄雾扇#43802 (32500 会心 无双)": {
@@ -56457,6 +57120,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "渊鸣_测试用#44166 (21600 特效 会心 破防 加速)": {
+                    "id": 44166,
+                    "name": "渊鸣_测试用",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spunk_base": 1612,
+                        "neutral_attack_power_base": 8967,
+                        "neutral_critical_strike_base": 9882,
+                        "neutral_overcome_base": 9882,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "水果可丽饼#44064 (29800 破防 无双)": {
                     "id": 44064,
                     "name": "水果可丽饼",
@@ -56538,11 +57234,123 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_39078_2"
                     ]
+                },
+                "渊鸣_测试用#44133 (19600 特效 会心 破防 加速)": {
+                    "id": 44133,
+                    "name": "渊鸣_测试用",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spunk_base": 1463,
+                        "neutral_attack_power_base": 8137,
+                        "neutral_critical_strike_base": 8967,
+                        "neutral_overcome_base": 8967,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "伏龙阳焰#40257 (19500 特效 会心 破防 加速)": {
+                    "id": 40257,
+                    "name": "伏龙阳焰",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spunk_base": 1456,
+                        "neutral_attack_power_base": 8095,
+                        "neutral_critical_strike_base": 8921,
+                        "neutral_overcome_base": 8921,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5749_1",
+                        "recipe_5750_1",
+                        "recipe_17511_1",
+                        "recipe_17239_1",
+                        "recipe_17512_1",
+                        "recipe_17513_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_39081_1",
+                        "gain_39088_4",
+                        "gain_39078_2"
+                    ]
                 }
             }
         },
         "万灵": {
             "外功": {
+                "未央之夏_测试用#44297 (31800 特效 会心 破防 加速)": {
+                    "id": 44297,
+                    "name": "未央之夏_测试用",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 11873,
+                        "physical_critical_strike_base": 15210,
+                        "physical_overcome_base": 13887,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5463_1",
+                        "recipe_17471_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "金乌回首#43597 (29700 特效 会心 破防 加速)": {
                     "id": 43597,
                     "name": "金乌回首",
@@ -56584,6 +57392,42 @@ EQUIPMENTS = {
                         "gain_36579_1",
                         "gain_39088_9",
                         "gain_36578_3"
+                    ]
+                },
+                "未央之夏_测试用#44264 (28000 特效 会心 破防 加速)": {
+                    "id": 44264,
+                    "name": "未央之夏_测试用",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 10454,
+                        "physical_critical_strike_base": 13392,
+                        "physical_overcome_base": 12228,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5463_1",
+                        "recipe_17471_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "金乌回首#43564 (27500 特效 会心 破防 加速)": {
@@ -56658,6 +57502,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "未央之夏_测试用#44231 (25600 特效 会心 破防 加速)": {
+                    "id": 44231,
+                    "name": "未央之夏_测试用",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 9558,
+                        "physical_critical_strike_base": 12244,
+                        "physical_overcome_base": 11180,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "射日拂花#42840 (35300 破招 无双)": {
                     "id": 42840,
@@ -56898,6 +57775,39 @@ EQUIPMENTS = {
                         "gain_36579_1",
                         "gain_39088_6",
                         "gain_36578_3"
+                    ]
+                },
+                "未央之夏_测试用#44198 (23600 特效 会心 破防 加速)": {
+                    "id": 44198,
+                    "name": "未央之夏_测试用",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 8811,
+                        "physical_critical_strike_base": 11288,
+                        "physical_overcome_base": 10306,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄羽弓#43801 (32500 会心 无双)": {
@@ -57187,6 +58097,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "未央之夏_测试用#44165 (21600 特效 会心 破防 加速)": {
+                    "id": 44165,
+                    "name": "未央之夏_测试用",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 8064,
+                        "physical_critical_strike_base": 10331,
+                        "physical_overcome_base": 9433,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "水果布丁船#44063 (29800 破防 无双)": {
                     "id": 44063,
                     "name": "水果布丁船",
@@ -57268,11 +58211,123 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_36578_3"
                     ]
+                },
+                "未央之夏_测试用#44132 (19600 特效 会心 破防 加速)": {
+                    "id": 44132,
+                    "name": "未央之夏_测试用",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7318,
+                        "physical_critical_strike_base": 9375,
+                        "physical_overcome_base": 8559,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "金乌回首#40256 (19500 特效 会心 破防 加速)": {
+                    "id": 40256,
+                    "name": "金乌回首",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7280,
+                        "physical_critical_strike_base": 9327,
+                        "physical_overcome_base": 8516,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5461_1",
+                        "recipe_5462_1",
+                        "recipe_17470_1",
+                        "recipe_17239_1",
+                        "recipe_17473_1",
+                        "recipe_17474_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_36579_1",
+                        "gain_39088_4",
+                        "gain_36578_3"
+                    ]
                 }
             }
         },
         "刀宗": {
             "外功": {
+                "渊鸣_测试用#44296 (31800 特效 会心 破防 加速)": {
+                    "id": 44296,
+                    "name": "渊鸣_测试用",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "strength_base": 2374,
+                        "physical_attack_power_base": 11693,
+                        "physical_critical_strike_base": 15210,
+                        "physical_overcome_base": 14549,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_3185_1",
+                        "recipe_17359_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "烛微刀#43596 (29700 特效 会心 破防 加速)": {
                     "id": 43596,
                     "name": "烛微刀",
@@ -57314,6 +58369,42 @@ EQUIPMENTS = {
                         "gain_33239_1",
                         "gain_39088_9",
                         "gain_33238_3"
+                    ]
+                },
+                "渊鸣_测试用#44263 (28000 特效 会心 破防 加速)": {
+                    "id": 44263,
+                    "name": "渊鸣_测试用",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "strength_base": 2090,
+                        "physical_attack_power_base": 10296,
+                        "physical_critical_strike_base": 13392,
+                        "physical_overcome_base": 12810,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_3185_1",
+                        "recipe_17359_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "烛微刀#43563 (27500 特效 会心 破防 加速)": {
@@ -57388,6 +58479,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "渊鸣_测试用#44230 (25600 特效 会心 破防 加速)": {
+                    "id": 44230,
+                    "name": "渊鸣_测试用",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "strength_base": 1911,
+                        "physical_attack_power_base": 9413,
+                        "physical_critical_strike_base": 12244,
+                        "physical_overcome_base": 11712,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "江流一峰#42839 (35300 破招 无双)": {
                     "id": 42839,
@@ -57628,6 +58752,39 @@ EQUIPMENTS = {
                         "gain_33239_1",
                         "gain_39088_6",
                         "gain_33238_3"
+                    ]
+                },
+                "渊鸣_测试用#44197 (23600 特效 会心 破防 加速)": {
+                    "id": 44197,
+                    "name": "渊鸣_测试用",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "strength_base": 1762,
+                        "physical_attack_power_base": 8678,
+                        "physical_critical_strike_base": 11288,
+                        "physical_overcome_base": 10797,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄风刀#43800 (32500 会心 无双)": {
@@ -57917,6 +59074,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "渊鸣_测试用#44164 (21600 特效 会心 破防 加速)": {
+                    "id": 44164,
+                    "name": "渊鸣_测试用",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "strength_base": 1612,
+                        "physical_attack_power_base": 7942,
+                        "physical_critical_strike_base": 10331,
+                        "physical_overcome_base": 9882,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "奇彩炫#44062 (29800 破防 无双)": {
                     "id": 44062,
                     "name": "奇彩炫",
@@ -57998,11 +59188,120 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_33238_3"
                     ]
+                },
+                "渊鸣_测试用#44131 (19600 特效 会心 破防 加速)": {
+                    "id": 44131,
+                    "name": "渊鸣_测试用",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "strength_base": 1463,
+                        "physical_attack_power_base": 7207,
+                        "physical_critical_strike_base": 9375,
+                        "physical_overcome_base": 8967,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "烛微刀#40255 (19500 特效 会心 破防 加速)": {
+                    "id": 40255,
+                    "name": "烛微刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "strength_base": 1456,
+                        "physical_attack_power_base": 7170,
+                        "physical_critical_strike_base": 9327,
+                        "physical_overcome_base": 8921,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_3186_1",
+                        "recipe_3187_1",
+                        "recipe_17358_1",
+                        "recipe_17239_1",
+                        "recipe_17365_1",
+                        "recipe_17364_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_33239_1",
+                        "gain_39088_4",
+                        "gain_33238_3"
+                    ]
                 }
             }
         },
         "药宗": {
             "治疗": {
+                "迟莲·诉梦_测试用#44295 (31800 会心 加速)": {
+                    "id": 44295,
+                    "name": "迟莲·诉梦_测试用",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2628,
+                        "therapy_power_base": 25947,
+                        "poison_critical_strike_base": 13226,
+                        "haste_base": 10581
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6249_1",
+                        "recipe_17465_1"
+                    ],
+                    "gains": []
+                },
                 "幽微夜#43595 (29700 特效 会心 加速)": {
                     "id": 43595,
                     "name": "幽微夜",
@@ -58043,6 +59342,39 @@ EQUIPMENTS = {
                         "gain_29699_1",
                         "gain_33316_2"
                     ]
+                },
+                "迟莲·诉梦_测试用#44262 (28000 会心 加速)": {
+                    "id": 44262,
+                    "name": "迟莲·诉梦_测试用",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2314,
+                        "therapy_power_base": 22847,
+                        "poison_critical_strike_base": 11645,
+                        "haste_base": 9316
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6249_1",
+                        "recipe_17465_1"
+                    ],
+                    "gains": []
                 },
                 "幽微夜#43562 (27500 特效 会心 加速)": {
                     "id": 43562,
@@ -58107,6 +59439,36 @@ EQUIPMENTS = {
                     "embed": {
                         "poison_critical_strike_base": 321,
                         "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "迟莲·诉梦_测试用#44229 (25600 会心 加速)": {
+                    "id": 44229,
+                    "name": "迟莲·诉梦_测试用",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 2116,
+                        "therapy_power_base": 20888,
+                        "poison_critical_strike_base": 10647,
+                        "haste_base": 8518
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
                         "therapy_power_base": 156
                     },
                     "set_id": 0,
@@ -58344,6 +59706,36 @@ EQUIPMENTS = {
                         "gain_29699_1",
                         "gain_33316_2"
                     ]
+                },
+                "迟莲·诉梦_测试用#44196 (23600 会心 加速)": {
+                    "id": 44196,
+                    "name": "迟莲·诉梦_测试用",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1951,
+                        "therapy_power_base": 19256,
+                        "poison_critical_strike_base": 9815,
+                        "haste_base": 7852
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄枝卷#43799 (32500 会心)": {
                     "id": 43799,
@@ -58621,6 +60013,36 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "迟莲·诉梦_测试用#44163 (21600 会心 加速)": {
+                    "id": 44163,
+                    "name": "迟莲·诉梦_测试用",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1785,
+                        "therapy_power_base": 17624,
+                        "poison_critical_strike_base": 8984,
+                        "haste_base": 7187
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "抹茶蛋糕卷#44061 (29800 加速)": {
                     "id": 44061,
                     "name": "抹茶蛋糕卷",
@@ -58699,9 +60121,116 @@ EQUIPMENTS = {
                         "gain_29699_1",
                         "gain_33316_2"
                     ]
+                },
+                "迟莲·诉梦_测试用#44130 (19600 会心 加速)": {
+                    "id": 44130,
+                    "name": "迟莲·诉梦_测试用",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1620,
+                        "therapy_power_base": 15993,
+                        "poison_critical_strike_base": 8152,
+                        "haste_base": 6521
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "幽微夜#40254 (19500 特效 会心 加速)": {
+                    "id": 40254,
+                    "name": "幽微夜",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1612,
+                        "therapy_power_base": 15911,
+                        "poison_critical_strike_base": 8110,
+                        "haste_base": 6488
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2847_1",
+                        "recipe_2846_1",
+                        "recipe_17464_1",
+                        "recipe_17243_1",
+                        "recipe_17467_1",
+                        "recipe_17468_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_29699_1",
+                        "gain_33316_2"
+                    ]
                 }
             },
             "内功": {
+                "迟莲·旧歌_测试用#44294 (31800 特效 会心 破防 加速)": {
+                    "id": 44294,
+                    "name": "迟莲·旧歌_测试用",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2374,
+                        "poison_attack_power_base": 13002,
+                        "poison_critical_strike_base": 13887,
+                        "poison_overcome_base": 15871,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2841_1",
+                        "recipe_17459_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "烬灭#43594 (29700 特效 会心 破防 加速)": {
                     "id": 43594,
                     "name": "烬灭",
@@ -58743,6 +60272,42 @@ EQUIPMENTS = {
                         "gain_29698_1",
                         "gain_39088_9",
                         "gain_29694_8"
+                    ]
+                },
+                "迟莲·旧歌_测试用#44261 (28000 特效 会心 破防 加速)": {
+                    "id": 44261,
+                    "name": "迟莲·旧歌_测试用",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2090,
+                        "poison_attack_power_base": 11448,
+                        "poison_critical_strike_base": 12228,
+                        "poison_overcome_base": 13975,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2841_1",
+                        "recipe_17459_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "烬灭#43561 (27500 特效 会心 破防 加速)": {
@@ -58817,6 +60382,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "迟莲·旧歌_测试用#44228 (25600 特效 会心 破防 加速)": {
+                    "id": 44228,
+                    "name": "迟莲·旧歌_测试用",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 1911,
+                        "poison_attack_power_base": 10467,
+                        "poison_critical_strike_base": 11180,
+                        "poison_overcome_base": 12777,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "碧嶂缠藤#42837 (35300 破招 无双)": {
                     "id": 42837,
@@ -59057,6 +60655,39 @@ EQUIPMENTS = {
                         "gain_29698_1",
                         "gain_39088_6",
                         "gain_29694_8"
+                    ]
+                },
+                "迟莲·旧歌_测试用#44195 (23600 特效 会心 破防 加速)": {
+                    "id": 44195,
+                    "name": "迟莲·旧歌_测试用",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1762,
+                        "poison_attack_power_base": 9649,
+                        "poison_critical_strike_base": 10306,
+                        "poison_overcome_base": 11779,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄叶卷#43798 (32500 会心 无双)": {
@@ -59346,6 +60977,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "迟莲·旧歌_测试用#44162 (21600 特效 会心 破防 加速)": {
+                    "id": 44162,
+                    "name": "迟莲·旧歌_测试用",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "poison_attack_power_base": 8831,
+                        "poison_critical_strike_base": 9433,
+                        "poison_overcome_base": 10780,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "抹茶蛋糕卷#44060 (29800 破防 无双)": {
                     "id": 44060,
                     "name": "抹茶蛋糕卷",
@@ -59427,11 +61091,123 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_29694_8"
                     ]
+                },
+                "迟莲·旧歌_测试用#44129 (19600 特效 会心 破防 加速)": {
+                    "id": 44129,
+                    "name": "迟莲·旧歌_测试用",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1463,
+                        "poison_attack_power_base": 8014,
+                        "poison_critical_strike_base": 8559,
+                        "poison_overcome_base": 9782,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "烬灭#40253 (19500 特效 会心 破防 加速)": {
+                    "id": 40253,
+                    "name": "烬灭",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1456,
+                        "poison_attack_power_base": 7973,
+                        "poison_critical_strike_base": 8516,
+                        "poison_overcome_base": 9732,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2842_1",
+                        "recipe_2843_1",
+                        "recipe_17458_1",
+                        "recipe_17239_1",
+                        "recipe_17461_1",
+                        "recipe_17462_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_29698_1",
+                        "gain_39088_4",
+                        "gain_29694_8"
+                    ]
                 }
             }
         },
         "衍天": {
             "内功": {
+                "长生缘_测试用#44293 (31800 特效 会心 破防 加速)": {
+                    "id": 44293,
+                    "name": "长生缘_测试用",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spunk_base": 2374,
+                        "neutral_attack_power_base": 13202,
+                        "neutral_critical_strike_base": 13226,
+                        "neutral_overcome_base": 14549,
+                        "haste_base": 7936
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5327_1",
+                        "recipe_17415_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "子不语#43593 (29700 特效 会心 破防 加速)": {
                     "id": 43593,
                     "name": "子不语",
@@ -59473,6 +61249,42 @@ EQUIPMENTS = {
                         "gain_25837_1",
                         "gain_39088_9",
                         "gain_25831_8"
+                    ]
+                },
+                "长生缘_测试用#44260 (28000 特效 会心 破防 加速)": {
+                    "id": 44260,
+                    "name": "长生缘_测试用",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spunk_base": 2090,
+                        "neutral_attack_power_base": 11624,
+                        "neutral_critical_strike_base": 11645,
+                        "neutral_overcome_base": 12810,
+                        "haste_base": 6987
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5327_1",
+                        "recipe_17415_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "子不语#43560 (27500 特效 会心 破防 加速)": {
@@ -59518,9 +61330,9 @@ EQUIPMENTS = {
                         "gain_25831_8"
                     ]
                 },
-                "测试阴灯#44068 (35900 特效 会心 无双)": {
+                "蛰灵·问天#44068 (35900 特效 会心 无双)": {
                     "id": 44068,
-                    "name": "测试阴灯",
+                    "name": "蛰灵·问天",
                     "school": "衍天",
                     "kind": "内功",
                     "position": "primary_weapon",
@@ -59545,14 +61357,17 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
-                    "recipes": [],
+                    "recipes": [
+                        "recipe_17425_1"
+                    ],
                     "gains": [
+                        "gain_19_1",
                         "gain_43808_1"
                     ]
                 },
-                "测试阳灯#44067 (35900 特效 破防 无双)": {
+                "蛰灵·断古#44067 (35900 特效 破防 无双)": {
                     "id": 44067,
-                    "name": "测试阳灯",
+                    "name": "蛰灵·断古",
                     "school": "衍天",
                     "kind": "内功",
                     "position": "primary_weapon",
@@ -59577,8 +61392,11 @@ EQUIPMENTS = {
                     },
                     "set_id": 0,
                     "sets": {},
-                    "recipes": [],
+                    "recipes": [
+                        "recipe_17425_1"
+                    ],
                     "gains": [
+                        "gain_19_1",
                         "gain_43807_1"
                     ]
                 },
@@ -59611,6 +61429,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "长生缘_测试用#44227 (25600 特效 会心 破防 加速)": {
+                    "id": 44227,
+                    "name": "长生缘_测试用",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spunk_base": 1911,
+                        "neutral_attack_power_base": 10628,
+                        "neutral_critical_strike_base": 10647,
+                        "neutral_overcome_base": 11712,
+                        "haste_base": 6388
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "山形大壑#42836 (35300 破招 无双)": {
                     "id": 42836,
@@ -59851,6 +61702,39 @@ EQUIPMENTS = {
                         "gain_25837_1",
                         "gain_39088_6",
                         "gain_25831_8"
+                    ]
+                },
+                "长生缘_测试用#44194 (23600 特效 会心 破防 加速)": {
+                    "id": 44194,
+                    "name": "长生缘_测试用",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spunk_base": 1762,
+                        "neutral_attack_power_base": 9797,
+                        "neutral_critical_strike_base": 9815,
+                        "neutral_overcome_base": 10797,
+                        "haste_base": 5889
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄爻灯#43797 (32500 会心 无双)": {
@@ -60140,6 +62024,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "长生缘_测试用#44161 (21600 特效 会心 破防 加速)": {
+                    "id": 44161,
+                    "name": "长生缘_测试用",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spunk_base": 1612,
+                        "neutral_attack_power_base": 8967,
+                        "neutral_critical_strike_base": 8984,
+                        "neutral_overcome_base": 9882,
+                        "haste_base": 5390
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "旋转蛋糕架#44059 (29800 破防 无双)": {
                     "id": 44059,
                     "name": "旋转蛋糕架",
@@ -60221,11 +62138,123 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_25831_8"
                     ]
+                },
+                "长生缘_测试用#44128 (19600 特效 会心 破防 加速)": {
+                    "id": 44128,
+                    "name": "长生缘_测试用",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spunk_base": 1463,
+                        "neutral_attack_power_base": 8137,
+                        "neutral_critical_strike_base": 8152,
+                        "neutral_overcome_base": 8967,
+                        "haste_base": 4891
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "子不语#40252 (19500 特效 会心 破防 加速)": {
+                    "id": 40252,
+                    "name": "子不语",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spunk_base": 1456,
+                        "neutral_attack_power_base": 8095,
+                        "neutral_critical_strike_base": 8110,
+                        "neutral_overcome_base": 8921,
+                        "haste_base": 4866
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5325_1",
+                        "recipe_5326_1",
+                        "recipe_17414_1",
+                        "recipe_17239_1",
+                        "recipe_17417_1",
+                        "recipe_17418_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25837_1",
+                        "gain_39088_4",
+                        "gain_25831_8"
+                    ]
                 }
             }
         },
         "凌雪": {
             "外功": {
+                "鬓间黄泉_测试用#44292 (31800 特效 会心 破防 加速)": {
+                    "id": 44292,
+                    "name": "鬓间黄泉_测试用",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 11873,
+                        "physical_critical_strike_base": 15210,
+                        "physical_overcome_base": 13887,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5093_1",
+                        "recipe_17330_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "长安#43592 (29700 特效 会心 破防 加速)": {
                     "id": 43592,
                     "name": "长安",
@@ -60267,6 +62296,42 @@ EQUIPMENTS = {
                         "gain_25784_1",
                         "gain_39088_9",
                         "gain_23396_8"
+                    ]
+                },
+                "鬓间黄泉_测试用#44259 (28000 特效 会心 破防 加速)": {
+                    "id": 44259,
+                    "name": "鬓间黄泉_测试用",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 10454,
+                        "physical_critical_strike_base": 13392,
+                        "physical_overcome_base": 12228,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5093_1",
+                        "recipe_17330_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "长安#43559 (27500 特效 会心 破防 加速)": {
@@ -60341,6 +62406,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "鬓间黄泉_测试用#44226 (25600 特效 会心 破防 加速)": {
+                    "id": 44226,
+                    "name": "鬓间黄泉_测试用",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 9558,
+                        "physical_critical_strike_base": 12244,
+                        "physical_overcome_base": 11180,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "西去秦川#42835 (35300 破招 无双)": {
                     "id": 42835,
@@ -60581,6 +62679,39 @@ EQUIPMENTS = {
                         "gain_25784_1",
                         "gain_39088_6",
                         "gain_23396_8"
+                    ]
+                },
+                "鬓间黄泉_测试用#44193 (23600 特效 会心 破防 加速)": {
+                    "id": 44193,
+                    "name": "鬓间黄泉_测试用",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 8811,
+                        "physical_critical_strike_base": 11288,
+                        "physical_overcome_base": 10306,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄幽链刃#43796 (32500 会心 无双)": {
@@ -60905,6 +63036,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "鬓间黄泉_测试用#44160 (21600 特效 会心 破防 加速)": {
+                    "id": 44160,
+                    "name": "鬓间黄泉_测试用",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 8064,
+                        "physical_critical_strike_base": 10331,
+                        "physical_overcome_base": 9433,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "水果糖葫芦#44058 (29800 破防 无双)": {
                     "id": 44058,
                     "name": "水果糖葫芦",
@@ -60986,11 +63150,124 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_23396_8"
                     ]
+                },
+                "鬓间黄泉_测试用#44127 (19600 特效 会心 破防 加速)": {
+                    "id": 44127,
+                    "name": "鬓间黄泉_测试用",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7318,
+                        "physical_critical_strike_base": 9375,
+                        "physical_overcome_base": 8559,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "长安#40251 (19500 特效 会心 破防 加速)": {
+                    "id": 40251,
+                    "name": "长安",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7280,
+                        "physical_critical_strike_base": 9327,
+                        "physical_overcome_base": 8516,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_5091_1",
+                        "recipe_5092_1",
+                        "recipe_17324_1",
+                        "recipe_17239_1",
+                        "recipe_17326_1",
+                        "recipe_17339_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25784_1",
+                        "gain_39088_4",
+                        "gain_23396_8"
+                    ]
                 }
             }
         },
         "蓬莱": {
             "外功": {
+                "槎舟渡星_测试用#44291 (31800 特效 会心 破防 加速)": {
+                    "id": 44291,
+                    "name": "槎舟渡星_测试用",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 11513,
+                        "physical_critical_strike_base": 15871,
+                        "physical_overcome_base": 14549,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_4820_1",
+                        "recipe_4821_1",
+                        "recipe_17410_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "七月嘉树#43591 (29700 特效 会心 破防 加速)": {
                     "id": 43591,
                     "name": "七月嘉树",
@@ -61032,6 +63309,43 @@ EQUIPMENTS = {
                         "gain_25783_1",
                         "gain_39088_9",
                         "gain_21185_8"
+                    ]
+                },
+                "槎舟渡星_测试用#44258 (28000 特效 会心 破防 加速)": {
+                    "id": 44258,
+                    "name": "槎舟渡星_测试用",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 13975,
+                        "physical_overcome_base": 12810,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_4820_1",
+                        "recipe_4821_1",
+                        "recipe_17410_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "七月嘉树#43558 (27500 特效 会心 破防 加速)": {
@@ -61106,6 +63420,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "槎舟渡星_测试用#44225 (25600 特效 会心 破防 加速)": {
+                    "id": 44225,
+                    "name": "槎舟渡星_测试用",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 9268,
+                        "physical_critical_strike_base": 12777,
+                        "physical_overcome_base": 11712,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "望海门#42834 (35300 破招 无双)": {
                     "id": 42834,
@@ -61346,6 +63693,39 @@ EQUIPMENTS = {
                         "gain_25783_1",
                         "gain_39088_6",
                         "gain_21185_8"
+                    ]
+                },
+                "槎舟渡星_测试用#44192 (23600 特效 会心 破防 加速)": {
+                    "id": 44192,
+                    "name": "槎舟渡星_测试用",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 8544,
+                        "physical_critical_strike_base": 11779,
+                        "physical_overcome_base": 10797,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄涛伞#43795 (32500 会心 无双)": {
@@ -61670,6 +64050,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "槎舟渡星_测试用#44159 (21600 特效 会心 破防 加速)": {
+                    "id": 44159,
+                    "name": "槎舟渡星_测试用",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 7820,
+                        "physical_critical_strike_base": 10780,
+                        "physical_overcome_base": 9882,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "海蓝冰粉#44057 (29800 破防 无双)": {
                     "id": 44057,
                     "name": "海蓝冰粉",
@@ -61751,11 +64164,124 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_21185_8"
                     ]
+                },
+                "槎舟渡星_测试用#44126 (19600 特效 会心 破防 加速)": {
+                    "id": 44126,
+                    "name": "槎舟渡星_测试用",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7096,
+                        "physical_critical_strike_base": 9782,
+                        "physical_overcome_base": 8967,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "七月嘉树#40250 (19500 特效 会心 破防 加速)": {
+                    "id": 40250,
+                    "name": "七月嘉树",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7060,
+                        "physical_critical_strike_base": 9732,
+                        "physical_overcome_base": 8921,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_4818_1",
+                        "recipe_4819_1",
+                        "recipe_17409_1",
+                        "recipe_17239_1",
+                        "recipe_17412_1",
+                        "recipe_17413_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25783_1",
+                        "gain_39088_4",
+                        "gain_21185_8"
+                    ]
                 }
             }
         },
         "霸刀": {
             "外功": {
+                "风雪寒鹊_测试用#44290 (31800 特效 会心 破防 加速)": {
+                    "id": 44290,
+                    "name": "风雪寒鹊_测试用",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "strength_base": 2374,
+                        "physical_attack_power_base": 11513,
+                        "physical_critical_strike_base": 14549,
+                        "physical_overcome_base": 15871,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_4296_1",
+                        "recipe_4297_1",
+                        "recipe_17375_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "碧血豪侠#43590 (29700 特效 会心 破防 加速)": {
                     "id": 43590,
                     "name": "碧血豪侠",
@@ -61797,6 +64323,43 @@ EQUIPMENTS = {
                         "gain_25782_1",
                         "gain_39088_9",
                         "gain_16984_8"
+                    ]
+                },
+                "风雪寒鹊_测试用#44257 (28000 特效 会心 破防 加速)": {
+                    "id": 44257,
+                    "name": "风雪寒鹊_测试用",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "strength_base": 2090,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 12810,
+                        "physical_overcome_base": 13975,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_4296_1",
+                        "recipe_4297_1",
+                        "recipe_17375_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "碧血豪侠#43557 (27500 特效 会心 破防 加速)": {
@@ -61871,6 +64434,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "风雪寒鹊_测试用#44224 (25600 特效 会心 破防 加速)": {
+                    "id": 44224,
+                    "name": "风雪寒鹊_测试用",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "strength_base": 1911,
+                        "physical_attack_power_base": 9268,
+                        "physical_critical_strike_base": 11712,
+                        "physical_overcome_base": 12777,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "暂淹留#42833 (35300 破招 无双)": {
                     "id": 42833,
@@ -62111,6 +64707,39 @@ EQUIPMENTS = {
                         "gain_25782_1",
                         "gain_39088_6",
                         "gain_16984_8"
+                    ]
+                },
+                "风雪寒鹊_测试用#44191 (23600 特效 会心 破防 加速)": {
+                    "id": 44191,
+                    "name": "风雪寒鹊_测试用",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "strength_base": 1762,
+                        "physical_attack_power_base": 8544,
+                        "physical_critical_strike_base": 10797,
+                        "physical_overcome_base": 11779,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄岚刀#43794 (32500 会心 无双)": {
@@ -62435,6 +65064,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "风雪寒鹊_测试用#44158 (21600 特效 会心 破防 加速)": {
+                    "id": 44158,
+                    "name": "风雪寒鹊_测试用",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "strength_base": 1612,
+                        "physical_attack_power_base": 7820,
+                        "physical_critical_strike_base": 9882,
+                        "physical_overcome_base": 10780,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "草莓华夫卷#44056 (29800 破防 无双)": {
                     "id": 44056,
                     "name": "草莓华夫卷",
@@ -62516,11 +65178,121 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_16984_8"
                     ]
+                },
+                "风雪寒鹊_测试用#44125 (19600 特效 会心 破防 加速)": {
+                    "id": 44125,
+                    "name": "风雪寒鹊_测试用",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "strength_base": 1463,
+                        "physical_attack_power_base": 7096,
+                        "physical_critical_strike_base": 8967,
+                        "physical_overcome_base": 9782,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "碧血豪侠#40249 (19500 特效 会心 破防 加速)": {
+                    "id": 40249,
+                    "name": "碧血豪侠",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "strength_base": 1456,
+                        "physical_attack_power_base": 7060,
+                        "physical_critical_strike_base": 8921,
+                        "physical_overcome_base": 9732,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_4294_1",
+                        "recipe_4295_1",
+                        "recipe_17374_1",
+                        "recipe_17239_1",
+                        "recipe_17378_1",
+                        "recipe_17377_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25782_1",
+                        "gain_39088_4",
+                        "gain_16984_8"
+                    ]
                 }
             }
         },
         "长歌": {
             "治疗": {
+                "飘铃语·怀幽_测试用#44289 (31800 会心 加速)": {
+                    "id": 44289,
+                    "name": "飘铃语·怀幽_测试用",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3425,
+                        "weapon_damage_rand": 2283
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2628,
+                        "therapy_power_base": 25947,
+                        "lunar_critical_strike_base": 13226,
+                        "haste_base": 10581
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2403_1",
+                        "recipe_2404_1",
+                        "recipe_17315_1"
+                    ],
+                    "gains": []
+                },
                 "万象金声#43589 (29700 特效 会心 加速)": {
                     "id": 43589,
                     "name": "万象金声",
@@ -62561,6 +65333,40 @@ EQUIPMENTS = {
                         "gain_25792_1",
                         "gain_33317_2"
                     ]
+                },
+                "飘铃语·怀幽_测试用#44256 (28000 会心 加速)": {
+                    "id": 44256,
+                    "name": "飘铃语·怀幽_测试用",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3016,
+                        "weapon_damage_rand": 2010
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2314,
+                        "therapy_power_base": 22847,
+                        "lunar_critical_strike_base": 11645,
+                        "haste_base": 9316
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2403_1",
+                        "recipe_2404_1",
+                        "recipe_17315_1"
+                    ],
+                    "gains": []
                 },
                 "万象金声#43556 (27500 特效 会心 加速)": {
                     "id": 43556,
@@ -62625,6 +65431,36 @@ EQUIPMENTS = {
                     "embed": {
                         "lunar_critical_strike_base": 321,
                         "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "飘铃语·怀幽_测试用#44223 (25600 会心 加速)": {
+                    "id": 44223,
+                    "name": "飘铃语·怀幽_测试用",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2757,
+                        "weapon_damage_rand": 1838
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 2116,
+                        "therapy_power_base": 20888,
+                        "lunar_critical_strike_base": 10647,
+                        "haste_base": 8518
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
                         "therapy_power_base": 156
                     },
                     "set_id": 0,
@@ -62862,6 +65698,36 @@ EQUIPMENTS = {
                         "gain_25792_1",
                         "gain_33317_2"
                     ]
+                },
+                "飘铃语·怀幽_测试用#44190 (23600 会心 加速)": {
+                    "id": 44190,
+                    "name": "飘铃语·怀幽_测试用",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2542,
+                        "weapon_damage_rand": 1694
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1951,
+                        "therapy_power_base": 19256,
+                        "lunar_critical_strike_base": 9815,
+                        "haste_base": 7852
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄霄琴#43793 (32500 会心)": {
                     "id": 43793,
@@ -63173,6 +66039,36 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "飘铃语·怀幽_测试用#44157 (21600 会心 加速)": {
+                    "id": 44157,
+                    "name": "飘铃语·怀幽_测试用",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2326,
+                        "weapon_damage_rand": 1551
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1785,
+                        "therapy_power_base": 17624,
+                        "lunar_critical_strike_base": 8984,
+                        "haste_base": 7187
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "蜜瓜苏打水#44055 (29800 加速)": {
                     "id": 44055,
                     "name": "蜜瓜苏打水",
@@ -63251,9 +66147,117 @@ EQUIPMENTS = {
                         "gain_25792_1",
                         "gain_33317_2"
                     ]
+                },
+                "飘铃语·怀幽_测试用#44124 (19600 会心 加速)": {
+                    "id": 44124,
+                    "name": "飘铃语·怀幽_测试用",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2111,
+                        "weapon_damage_rand": 1407
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1620,
+                        "therapy_power_base": 15993,
+                        "lunar_critical_strike_base": 8152,
+                        "haste_base": 6521
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "万象金声#40248 (19500 特效 会心 加速)": {
+                    "id": 40248,
+                    "name": "万象金声",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2100,
+                        "weapon_damage_rand": 1400
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1612,
+                        "therapy_power_base": 15911,
+                        "lunar_critical_strike_base": 8110,
+                        "haste_base": 6488
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2403_1",
+                        "recipe_2404_1",
+                        "recipe_17307_1",
+                        "recipe_17243_1",
+                        "recipe_17309_1",
+                        "recipe_17327_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25792_1",
+                        "gain_33317_2"
+                    ]
                 }
             },
             "内功": {
+                "飘铃语·月寂_测试用#44288 (31800 特效 会心 破防 加速)": {
+                    "id": 44288,
+                    "name": "飘铃语·月寂_测试用",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3425,
+                        "weapon_damage_rand": 2283
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2374,
+                        "lunar_attack_power_base": 12802,
+                        "lunar_critical_strike_base": 14549,
+                        "lunar_overcome_base": 15210,
+                        "haste_base": 7274
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6248_1",
+                        "recipe_6251_1",
+                        "recipe_17314_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "栖贤韵#43588 (29700 特效 会心 破防 加速)": {
                     "id": 43588,
                     "name": "栖贤韵",
@@ -63283,8 +66287,8 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [
-                        "recipe_2401_1",
                         "recipe_2402_1",
+                        "recipe_6252_1",
                         "recipe_17306_1",
                         "recipe_17239_1",
                         "recipe_17308_1",
@@ -63295,6 +66299,43 @@ EQUIPMENTS = {
                         "gain_25781_1",
                         "gain_39088_9",
                         "gain_15183_8"
+                    ]
+                },
+                "飘铃语·月寂_测试用#44255 (28000 特效 会心 破防 加速)": {
+                    "id": 44255,
+                    "name": "飘铃语·月寂_测试用",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3016,
+                        "weapon_damage_rand": 2010
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2090,
+                        "lunar_attack_power_base": 11272,
+                        "lunar_critical_strike_base": 12810,
+                        "lunar_overcome_base": 13392,
+                        "haste_base": 6405
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6248_1",
+                        "recipe_6251_1",
+                        "recipe_17314_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "栖贤韵#43555 (27500 特效 会心 破防 加速)": {
@@ -63326,8 +66367,8 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [
-                        "recipe_2401_1",
                         "recipe_2402_1",
+                        "recipe_6252_1",
                         "recipe_17306_1",
                         "recipe_17239_1",
                         "recipe_17308_1",
@@ -63369,6 +66410,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "飘铃语·月寂_测试用#44222 (25600 特效 会心 破防 加速)": {
+                    "id": 44222,
+                    "name": "飘铃语·月寂_测试用",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2757,
+                        "weapon_damage_rand": 1838
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 1911,
+                        "lunar_attack_power_base": 10306,
+                        "lunar_critical_strike_base": 11712,
+                        "lunar_overcome_base": 12244,
+                        "haste_base": 5856
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "长烟袅碧#42831 (35300 破招 无双)": {
                     "id": 42831,
@@ -63521,8 +66595,8 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [
-                        "recipe_2401_1",
                         "recipe_2402_1",
+                        "recipe_6252_1",
                         "recipe_17306_1",
                         "recipe_17239_1",
                         "recipe_17308_1",
@@ -63597,8 +66671,8 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [
-                        "recipe_2401_1",
                         "recipe_2402_1",
+                        "recipe_6252_1",
                         "recipe_17306_1",
                         "recipe_17239_1",
                         "recipe_17308_1",
@@ -63609,6 +66683,39 @@ EQUIPMENTS = {
                         "gain_25781_1",
                         "gain_39088_6",
                         "gain_15183_8"
+                    ]
+                },
+                "飘铃语·月寂_测试用#44189 (23600 特效 会心 破防 加速)": {
+                    "id": 44189,
+                    "name": "飘铃语·月寂_测试用",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2542,
+                        "weapon_damage_rand": 1694
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1762,
+                        "lunar_attack_power_base": 9501,
+                        "lunar_critical_strike_base": 10797,
+                        "lunar_overcome_base": 11288,
+                        "haste_base": 5398
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄弦琴#43792 (32500 会心 无双)": {
@@ -63735,8 +66842,8 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [
-                        "recipe_2401_1",
                         "recipe_2402_1",
+                        "recipe_6252_1",
                         "recipe_17306_1",
                         "recipe_17239_1",
                         "recipe_17308_1",
@@ -63933,6 +67040,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "飘铃语·月寂_测试用#44156 (21600 特效 会心 破防 加速)": {
+                    "id": 44156,
+                    "name": "飘铃语·月寂_测试用",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2326,
+                        "weapon_damage_rand": 1551
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "lunar_attack_power_base": 8696,
+                        "lunar_critical_strike_base": 9882,
+                        "lunar_overcome_base": 10331,
+                        "haste_base": 4941
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "蜜瓜苏打水#44054 (29800 破防 无双)": {
                     "id": 44054,
                     "name": "蜜瓜苏打水",
@@ -64001,8 +67141,8 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [
-                        "recipe_2401_1",
                         "recipe_2402_1",
+                        "recipe_6252_1",
                         "recipe_17306_1",
                         "recipe_17239_1",
                         "recipe_17308_1",
@@ -64014,11 +67154,122 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_15183_8"
                     ]
+                },
+                "飘铃语·月寂_测试用#44123 (19600 特效 会心 破防 加速)": {
+                    "id": 44123,
+                    "name": "飘铃语·月寂_测试用",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2111,
+                        "weapon_damage_rand": 1407
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1463,
+                        "lunar_attack_power_base": 7890,
+                        "lunar_critical_strike_base": 8967,
+                        "lunar_overcome_base": 9375,
+                        "haste_base": 4483
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "栖贤韵#40247 (19500 特效 会心 破防 加速)": {
+                    "id": 40247,
+                    "name": "栖贤韵",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2100,
+                        "weapon_damage_rand": 1400
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1456,
+                        "lunar_attack_power_base": 7850,
+                        "lunar_critical_strike_base": 8921,
+                        "lunar_overcome_base": 9327,
+                        "haste_base": 4461
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_2402_1",
+                        "recipe_6252_1",
+                        "recipe_17306_1",
+                        "recipe_17239_1",
+                        "recipe_17308_1",
+                        "recipe_17325_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25781_1",
+                        "gain_39088_4",
+                        "gain_15183_8"
+                    ]
                 }
             }
         },
         "苍云": {
             "防御": {
+                "凤鸣岐山·昭理_测试用#44287 (31800 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44287,
+                    "name": "凤鸣岐山·昭理_测试用",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 42984,
+                        "physical_shield_base": 30060,
+                        "magical_shield_base": 30060,
+                        "haste_base": 24048,
+                        "surplus_base": 24048,
+                        "toughness_base": 6012,
+                        "strain_base": 24048
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1935_1",
+                        "recipe_17454_1"
+                    ],
+                    "gains": []
+                },
                 "驭焰#43587 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43587,
                     "name": "驭焰",
@@ -64061,6 +67312,41 @@ EQUIPMENTS = {
                         "gain_25797_1",
                         "gain_13410_16"
                     ]
+                },
+                "凤鸣岐山·昭理_测试用#44254 (28000 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44254,
+                    "name": "凤鸣岐山·昭理_测试用",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 37848,
+                        "physical_shield_base": 26468,
+                        "magical_shield_base": 26468,
+                        "haste_base": 21175,
+                        "surplus_base": 21175,
+                        "toughness_base": 5294,
+                        "strain_base": 21175
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1935_1",
+                        "recipe_17454_1"
+                    ],
+                    "gains": []
                 },
                 "驭焰#43554 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43554,
@@ -64125,6 +67411,38 @@ EQUIPMENTS = {
                         "surplus_base": 9774,
                         "toughness_base": 4887,
                         "strain_base": 19547
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "凤鸣岐山·昭理_测试用#44221 (25600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44221,
+                    "name": "凤鸣岐山·昭理_测试用",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 34604,
+                        "physical_shield_base": 24199,
+                        "magical_shield_base": 24199,
+                        "haste_base": 19360,
+                        "surplus_base": 19360,
+                        "toughness_base": 4840,
+                        "strain_base": 19360
                     },
                     "embed": {
                         "vitality_base": 161,
@@ -64381,6 +67699,38 @@ EQUIPMENTS = {
                         "gain_25797_1",
                         "gain_13410_16"
                     ]
+                },
+                "凤鸣岐山·昭理_测试用#44188 (23600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44188,
+                    "name": "凤鸣岐山·昭理_测试用",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 31900,
+                        "physical_shield_base": 22309,
+                        "magical_shield_base": 22309,
+                        "haste_base": 17847,
+                        "surplus_base": 17847,
+                        "toughness_base": 4462,
+                        "strain_base": 17847
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄朔盾刀#43791 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 43791,
@@ -64709,6 +68059,38 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "凤鸣岐山·昭理_测试用#44155 (21600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44155,
+                    "name": "凤鸣岐山·昭理_测试用",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 29197,
+                        "physical_shield_base": 20418,
+                        "magical_shield_base": 20418,
+                        "haste_base": 16335,
+                        "surplus_base": 16335,
+                        "toughness_base": 4084,
+                        "strain_base": 16335
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "圈圈三色杯#44053 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 44053,
                     "name": "圈圈三色杯",
@@ -64790,9 +68172,121 @@ EQUIPMENTS = {
                         "gain_25797_1",
                         "gain_13410_16"
                     ]
+                },
+                "凤鸣岐山·昭理_测试用#44122 (19600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44122,
+                    "name": "凤鸣岐山·昭理_测试用",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 26493,
+                        "physical_shield_base": 18528,
+                        "magical_shield_base": 18528,
+                        "haste_base": 14822,
+                        "surplus_base": 14822,
+                        "toughness_base": 3706,
+                        "strain_base": 14822
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "驭焰#40246 (19500 特效 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 40246,
+                    "name": "驭焰",
+                    "school": "苍云",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 26358,
+                        "physical_shield_base": 18433,
+                        "magical_shield_base": 18433,
+                        "haste_base": 14747,
+                        "surplus_base": 14747,
+                        "toughness_base": 3687,
+                        "strain_base": 14747
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1939_1",
+                        "recipe_1940_1",
+                        "recipe_17453_1",
+                        "recipe_17246_1",
+                        "recipe_17455_1",
+                        "recipe_17456_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25797_1",
+                        "gain_13410_16"
+                    ]
                 }
             },
             "外功": {
+                "凤鸣岐山·衔书_测试用#44286 (31800 特效 会心 破防 加速)": {
+                    "id": 44286,
+                    "name": "凤鸣岐山·衔书_测试用",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10275,
+                        "weapon_damage_rand": 6850
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 12591,
+                        "physical_critical_strike_base": 13887,
+                        "physical_overcome_base": 12565,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1934_1",
+                        "recipe_1936_1",
+                        "recipe_17448_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "天下宏愿#43586 (29700 特效 会心 破防 加速)": {
                     "id": 43586,
                     "name": "天下宏愿",
@@ -64834,6 +68328,43 @@ EQUIPMENTS = {
                         "gain_25780_1",
                         "gain_39088_9",
                         "gain_13410_15"
+                    ]
+                },
+                "凤鸣岐山·衔书_测试用#44253 (28000 特效 会心 破防 加速)": {
+                    "id": 44253,
+                    "name": "凤鸣岐山·衔书_测试用",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9047,
+                        "weapon_damage_rand": 6031
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 11087,
+                        "physical_critical_strike_base": 12228,
+                        "physical_overcome_base": 11063,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1934_1",
+                        "recipe_1936_1",
+                        "recipe_17448_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "天下宏愿#43553 (27500 特效 会心 破防 加速)": {
@@ -64908,6 +68439,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "凤鸣岐山·衔书_测试用#44220 (25600 特效 会心 破防 加速)": {
+                    "id": 44220,
+                    "name": "凤鸣岐山·衔书_测试用",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8271,
+                        "weapon_damage_rand": 5514
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 11180,
+                        "physical_overcome_base": 10115,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "横夜雪#42829 (35300 破招 无双)": {
                     "id": 42829,
@@ -65148,6 +68712,39 @@ EQUIPMENTS = {
                         "gain_25780_1",
                         "gain_39088_6",
                         "gain_13410_15"
+                    ]
+                },
+                "凤鸣岐山·衔书_测试用#44187 (23600 特效 会心 破防 加速)": {
+                    "id": 44187,
+                    "name": "凤鸣岐山·衔书_测试用",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7625,
+                        "weapon_damage_rand": 5083
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 9345,
+                        "physical_critical_strike_base": 10306,
+                        "physical_overcome_base": 9325,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄燕盾刀#43790 (32500 会心 无双)": {
@@ -65472,6 +69069,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "凤鸣岐山·衔书_测试用#44154 (21600 特效 会心 破防 加速)": {
+                    "id": 44154,
+                    "name": "凤鸣岐山·衔书_测试用",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6979,
+                        "weapon_damage_rand": 4652
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 8553,
+                        "physical_critical_strike_base": 9433,
+                        "physical_overcome_base": 8534,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "圈圈三色杯#44052 (29800 破防 无双)": {
                     "id": 44052,
                     "name": "圈圈三色杯",
@@ -65553,11 +69183,123 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_13410_15"
                     ]
+                },
+                "凤鸣岐山·衔书_测试用#44121 (19600 特效 会心 破防 加速)": {
+                    "id": 44121,
+                    "name": "凤鸣岐山·衔书_测试用",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6332,
+                        "weapon_damage_rand": 4222
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7761,
+                        "physical_critical_strike_base": 8559,
+                        "physical_overcome_base": 7744,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "天下宏愿#40245 (19500 特效 会心 破防 加速)": {
+                    "id": 40245,
+                    "name": "天下宏愿",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6300,
+                        "weapon_damage_rand": 4200
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7721,
+                        "physical_critical_strike_base": 8516,
+                        "physical_overcome_base": 7705,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1937_1",
+                        "recipe_1938_1",
+                        "recipe_17447_1",
+                        "recipe_17239_1",
+                        "recipe_17450_1",
+                        "recipe_17451_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25780_1",
+                        "gain_39088_4",
+                        "gain_13410_15"
+                    ]
                 }
             }
         },
         "明教": {
             "防御": {
+                "封霜曲刃·初_测试用#44285 (31800 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44285,
+                    "name": "封霜曲刃·初_测试用",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 42984,
+                        "physical_shield_base": 30060,
+                        "magical_shield_base": 30060,
+                        "haste_base": 24048,
+                        "surplus_base": 24048,
+                        "toughness_base": 6012,
+                        "strain_base": 24048
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1150_1",
+                        "recipe_1151_1",
+                        "recipe_17335_1"
+                    ],
+                    "gains": []
+                },
                 "圣辉月雪#43585 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43585,
                     "name": "圣辉月雪",
@@ -65600,6 +69342,42 @@ EQUIPMENTS = {
                         "gain_25796_1",
                         "gain_4941_8"
                     ]
+                },
+                "封霜曲刃·初_测试用#44252 (28000 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44252,
+                    "name": "封霜曲刃·初_测试用",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 37848,
+                        "physical_shield_base": 26468,
+                        "magical_shield_base": 26468,
+                        "haste_base": 21175,
+                        "surplus_base": 21175,
+                        "toughness_base": 5294,
+                        "strain_base": 21175
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1150_1",
+                        "recipe_1151_1",
+                        "recipe_17335_1"
+                    ],
+                    "gains": []
                 },
                 "圣辉月雪#43552 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43552,
@@ -65669,6 +69447,38 @@ EQUIPMENTS = {
                         "vitality_base": 161,
                         "physical_shield_base": 161,
                         "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "封霜曲刃·初_测试用#44219 (25600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44219,
+                    "name": "封霜曲刃·初_测试用",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 34604,
+                        "physical_shield_base": 24199,
+                        "magical_shield_base": 24199,
+                        "haste_base": 19360,
+                        "surplus_base": 19360,
+                        "toughness_base": 4840,
+                        "strain_base": 19360
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
                     },
                     "set_id": 0,
                     "sets": {},
@@ -65920,6 +69730,38 @@ EQUIPMENTS = {
                         "gain_25796_1",
                         "gain_4941_8"
                     ]
+                },
+                "封霜曲刃·初_测试用#44186 (23600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44186,
+                    "name": "封霜曲刃·初_测试用",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 31900,
+                        "physical_shield_base": 22309,
+                        "magical_shield_base": 22309,
+                        "haste_base": 17847,
+                        "surplus_base": 17847,
+                        "toughness_base": 4462,
+                        "strain_base": 17847
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄赫双刀#43789 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 43789,
@@ -66248,6 +70090,38 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "封霜曲刃·初_测试用#44153 (21600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44153,
+                    "name": "封霜曲刃·初_测试用",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 29197,
+                        "physical_shield_base": 20418,
+                        "magical_shield_base": 20418,
+                        "haste_base": 16335,
+                        "surplus_base": 16335,
+                        "toughness_base": 4084,
+                        "strain_base": 16335
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "棉花糖串#44051 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 44051,
                     "name": "棉花糖串",
@@ -66329,9 +70203,121 @@ EQUIPMENTS = {
                         "gain_25796_1",
                         "gain_4941_8"
                     ]
+                },
+                "封霜曲刃·初_测试用#44120 (19600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44120,
+                    "name": "封霜曲刃·初_测试用",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 26493,
+                        "physical_shield_base": 18528,
+                        "magical_shield_base": 18528,
+                        "haste_base": 14822,
+                        "surplus_base": 14822,
+                        "toughness_base": 3706,
+                        "strain_base": 14822
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "圣辉月雪#40244 (19500 特效 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 40244,
+                    "name": "圣辉月雪",
+                    "school": "明教",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 26358,
+                        "physical_shield_base": 18433,
+                        "magical_shield_base": 18433,
+                        "haste_base": 14747,
+                        "surplus_base": 14747,
+                        "toughness_base": 3687,
+                        "strain_base": 14747
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "dodge": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1544_1",
+                        "recipe_1545_1",
+                        "recipe_17333_1",
+                        "recipe_17246_1",
+                        "recipe_17337_1",
+                        "recipe_17343_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25796_1",
+                        "gain_4941_8"
+                    ]
                 }
             },
             "内功": {
+                "封霜曲刃·忆_测试用#44284 (31800 特效 会心 破防 加速)": {
+                    "id": 44284,
+                    "name": "封霜曲刃·忆_测试用",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spunk_base": 2374,
+                        "solar_and_lunar_attack_power_base": 12802,
+                        "solar_and_lunar_critical_strike_base": 13887,
+                        "solar_and_lunar_overcome_base": 15871,
+                        "haste_base": 7274
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1148_1",
+                        "recipe_1149_1",
+                        "recipe_17334_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "瀚海引#43584 (29700 特效 会心 破防 加速)": {
                     "id": 43584,
                     "name": "瀚海引",
@@ -66373,6 +70359,43 @@ EQUIPMENTS = {
                         "gain_25777_1",
                         "gain_39088_9",
                         "gain_4940_8"
+                    ]
+                },
+                "封霜曲刃·忆_测试用#44251 (28000 特效 会心 破防 加速)": {
+                    "id": 44251,
+                    "name": "封霜曲刃·忆_测试用",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spunk_base": 2090,
+                        "solar_and_lunar_attack_power_base": 11272,
+                        "solar_and_lunar_critical_strike_base": 12228,
+                        "solar_and_lunar_overcome_base": 13975,
+                        "haste_base": 6405
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1148_1",
+                        "recipe_1149_1",
+                        "recipe_17334_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "瀚海引#43551 (27500 特效 会心 破防 加速)": {
@@ -66447,6 +70470,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "封霜曲刃·忆_测试用#44218 (25600 特效 会心 破防 加速)": {
+                    "id": 44218,
+                    "name": "封霜曲刃·忆_测试用",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spunk_base": 1911,
+                        "solar_and_lunar_attack_power_base": 10306,
+                        "solar_and_lunar_critical_strike_base": 11180,
+                        "solar_and_lunar_overcome_base": 12777,
+                        "haste_base": 5856
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "大漠横斜#42827 (35300 破招 无双)": {
                     "id": 42827,
@@ -66687,6 +70743,39 @@ EQUIPMENTS = {
                         "gain_25777_1",
                         "gain_39088_6",
                         "gain_4940_8"
+                    ]
+                },
+                "封霜曲刃·忆_测试用#44185 (23600 特效 会心 破防 加速)": {
+                    "id": 44185,
+                    "name": "封霜曲刃·忆_测试用",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spunk_base": 1762,
+                        "solar_and_lunar_attack_power_base": 9501,
+                        "solar_and_lunar_critical_strike_base": 10306,
+                        "solar_and_lunar_overcome_base": 11779,
+                        "haste_base": 5398
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄影双刀#43788 (32500 会心 无双)": {
@@ -67011,6 +71100,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "封霜曲刃·忆_测试用#44152 (21600 特效 会心 破防 加速)": {
+                    "id": 44152,
+                    "name": "封霜曲刃·忆_测试用",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spunk_base": 1612,
+                        "solar_and_lunar_attack_power_base": 8696,
+                        "solar_and_lunar_critical_strike_base": 9433,
+                        "solar_and_lunar_overcome_base": 10780,
+                        "haste_base": 4941
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "棉花糖串#44050 (29800 破防 无双)": {
                     "id": 44050,
                     "name": "棉花糖串",
@@ -67092,11 +71214,122 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_4940_8"
                     ]
+                },
+                "封霜曲刃·忆_测试用#44119 (19600 特效 会心 破防 加速)": {
+                    "id": 44119,
+                    "name": "封霜曲刃·忆_测试用",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spunk_base": 1463,
+                        "solar_and_lunar_attack_power_base": 7890,
+                        "solar_and_lunar_critical_strike_base": 8559,
+                        "solar_and_lunar_overcome_base": 9782,
+                        "haste_base": 4483
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "瀚海引#40243 (19500 特效 会心 破防 加速)": {
+                    "id": 40243,
+                    "name": "瀚海引",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spunk_base": 1456,
+                        "solar_and_lunar_attack_power_base": 7850,
+                        "solar_and_lunar_critical_strike_base": 8516,
+                        "solar_and_lunar_overcome_base": 9732,
+                        "haste_base": 4461
+                    },
+                    "embed": {
+                        "solar_and_lunar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_and_lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1542_1",
+                        "recipe_1543_1",
+                        "recipe_17332_1",
+                        "recipe_17239_1",
+                        "recipe_17336_1",
+                        "recipe_17342_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25777_1",
+                        "gain_39088_4",
+                        "gain_4940_8"
+                    ]
                 }
             }
         },
         "丐帮": {
             "外功": {
+                "雾卷澜阖_测试用#44283 (31800 特效 会心 破防)": {
+                    "id": 44283,
+                    "name": "雾卷澜阖_测试用",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11645,
+                        "weapon_damage_rand": 7763
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "strength_base": 2374,
+                        "physical_attack_power_base": 11873,
+                        "physical_critical_strike_base": 15210,
+                        "physical_overcome_base": 16532
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6244_1",
+                        "recipe_17442_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "暴龙震江#43583 (29700 特效 会心 破防)": {
                     "id": 43583,
                     "name": "暴龙震江",
@@ -67137,6 +71370,41 @@ EQUIPMENTS = {
                         "gain_25779_1",
                         "gain_39088_9",
                         "gain_6950_8"
+                    ]
+                },
+                "雾卷澜阖_测试用#44250 (28000 特效 会心 破防)": {
+                    "id": 44250,
+                    "name": "雾卷澜阖_测试用",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10253,
+                        "weapon_damage_rand": 6835
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "strength_base": 2090,
+                        "physical_attack_power_base": 10454,
+                        "physical_critical_strike_base": 13392,
+                        "physical_overcome_base": 14557
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_6244_1",
+                        "recipe_17442_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "暴龙震江#43550 (27500 特效 会心 破防)": {
@@ -67210,6 +71478,38 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "雾卷澜阖_测试用#44217 (25600 特效 会心 破防)": {
+                    "id": 44217,
+                    "name": "雾卷澜阖_测试用",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9374,
+                        "weapon_damage_rand": 6249
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "strength_base": 1911,
+                        "physical_attack_power_base": 9558,
+                        "physical_critical_strike_base": 12244,
+                        "physical_overcome_base": 13309
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "呼酒登舟#42826 (35300 破招 无双)": {
                     "id": 42826,
@@ -67448,6 +71748,38 @@ EQUIPMENTS = {
                         "gain_25779_1",
                         "gain_39088_6",
                         "gain_6950_8"
+                    ]
+                },
+                "雾卷澜阖_测试用#44184 (23600 特效 会心 破防)": {
+                    "id": 44184,
+                    "name": "雾卷澜阖_测试用",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8642,
+                        "weapon_damage_rand": 5761
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "strength_base": 1762,
+                        "physical_attack_power_base": 8811,
+                        "physical_critical_strike_base": 11288,
+                        "physical_overcome_base": 12269
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄狂棒#43787 (32500 会心 无双)": {
@@ -67771,6 +72103,38 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "雾卷澜阖_测试用#44151 (21600 特效 会心 破防)": {
+                    "id": 44151,
+                    "name": "雾卷澜阖_测试用",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7909,
+                        "weapon_damage_rand": 5273
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "strength_base": 1612,
+                        "physical_attack_power_base": 8064,
+                        "physical_critical_strike_base": 10331,
+                        "physical_overcome_base": 11230
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "西瓜刨冰#44049 (29800 破防 无双)": {
                     "id": 44049,
                     "name": "西瓜刨冰",
@@ -67851,11 +72215,121 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_6950_8"
                     ]
+                },
+                "雾卷澜阖_测试用#44118 (19600 特效 会心 破防)": {
+                    "id": 44118,
+                    "name": "雾卷澜阖_测试用",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7177,
+                        "weapon_damage_rand": 4784
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "strength_base": 1463,
+                        "physical_attack_power_base": 7318,
+                        "physical_critical_strike_base": 9375,
+                        "physical_overcome_base": 10190
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "暴龙震江#40242 (19500 特效 会心 破防)": {
+                    "id": 40242,
+                    "name": "暴龙震江",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7140,
+                        "weapon_damage_rand": 4760
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "strength_base": 1456,
+                        "physical_attack_power_base": 7280,
+                        "physical_critical_strike_base": 9327,
+                        "physical_overcome_base": 10138
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1540_1",
+                        "recipe_1541_1",
+                        "recipe_17441_1",
+                        "recipe_17239_1",
+                        "recipe_17444_1",
+                        "recipe_17445_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25779_1",
+                        "gain_39088_4",
+                        "gain_6950_8"
+                    ]
                 }
             }
         },
         "藏剑": {
             "外功": {
+                "金山月·寒晖_测试用#44281 (31800 特效 会心 破防 加速)": {
+                    "id": 44281,
+                    "name": "金山月·寒晖_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8905,
+                        "weapon_damage_rand": 5937
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 11513,
+                        "physical_critical_strike_base": 17194,
+                        "physical_overcome_base": 13226,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1141_1",
+                        "recipe_17369_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "伏魔悲音#43581 (29700 特效 会心 破防 加速)": {
                     "id": 43581,
                     "name": "伏魔悲音",
@@ -67897,6 +72371,42 @@ EQUIPMENTS = {
                         "gain_25785_1",
                         "gain_39088_9",
                         "gain_1881_8"
+                    ]
+                },
+                "金山月·寒晖_测试用#44248 (28000 特效 会心 破防 加速)": {
+                    "id": 44248,
+                    "name": "金山月·寒晖_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7841,
+                        "weapon_damage_rand": 5227
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 15139,
+                        "physical_overcome_base": 11645,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1141_1",
+                        "recipe_17369_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "伏魔悲音#43548 (27500 特效 会心 破防 加速)": {
@@ -67971,6 +72481,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "金山月·寒晖_测试用#44215 (25600 特效 会心 破防 加速)": {
+                    "id": 44215,
+                    "name": "金山月·寒晖_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7168,
+                        "weapon_damage_rand": 4779
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 9268,
+                        "physical_critical_strike_base": 13841,
+                        "physical_overcome_base": 10647,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "月明渔火#42824 (35300 破招 无双)": {
                     "id": 42824,
@@ -68271,6 +72814,39 @@ EQUIPMENTS = {
                         "gain_25785_1",
                         "gain_39088_6",
                         "gain_1881_8"
+                    ]
+                },
+                "金山月·寒晖_测试用#44182 (23600 特效 会心 破防 加速)": {
+                    "id": 44182,
+                    "name": "金山月·寒晖_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6608,
+                        "weapon_damage_rand": 4406
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 8544,
+                        "physical_critical_strike_base": 12760,
+                        "physical_overcome_base": 9815,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄泉轻剑#43785 (32500 会心 无双)": {
@@ -68650,6 +73226,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "金山月·寒晖_测试用#44149 (21600 特效 会心 破防 加速)": {
+                    "id": 44149,
+                    "name": "金山月·寒晖_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6048,
+                        "weapon_damage_rand": 4032
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 7820,
+                        "physical_critical_strike_base": 11679,
+                        "physical_overcome_base": 8984,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "柠檬冰棍签#44047 (29800 破防 无双)": {
                     "id": 44047,
                     "name": "柠檬冰棍签",
@@ -68731,11 +73340,124 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1881_8"
                     ]
+                },
+                "金山月·寒晖_测试用#44116 (19600 特效 会心 破防 加速)": {
+                    "id": 44116,
+                    "name": "金山月·寒晖_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5488,
+                        "weapon_damage_rand": 3659
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7096,
+                        "physical_critical_strike_base": 10597,
+                        "physical_overcome_base": 8152,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "伏魔悲音#40240 (19500 特效 会心 破防 加速)": {
+                    "id": 40240,
+                    "name": "伏魔悲音",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5460,
+                        "weapon_damage_rand": 3640
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7060,
+                        "physical_critical_strike_base": 10543,
+                        "physical_overcome_base": 8110,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1536_1",
+                        "recipe_1537_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25785_1",
+                        "gain_39088_4",
+                        "gain_1881_8"
+                    ]
                 }
             }
         },
         "唐门": {
             "外功": {
+                "清渊玉骨·寒弦_测试用#44280 (31800 特效 会心 破防 加速)": {
+                    "id": 44280,
+                    "name": "清渊玉骨·寒弦_测试用",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "strength_base": 2374,
+                        "physical_attack_power_base": 11154,
+                        "physical_critical_strike_base": 15210,
+                        "physical_overcome_base": 16532,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1145_1",
+                        "recipe_1978_1",
+                        "recipe_17436_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "银羽雪辉#43580 (29700 特效 会心 破防 加速)": {
                     "id": 43580,
                     "name": "银羽雪辉",
@@ -68777,6 +73499,43 @@ EQUIPMENTS = {
                         "gain_25775_1",
                         "gain_39088_9",
                         "gain_3476_8"
+                    ]
+                },
+                "清渊玉骨·寒弦_测试用#44247 (28000 特效 会心 破防 加速)": {
+                    "id": 44247,
+                    "name": "清渊玉骨·寒弦_测试用",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "strength_base": 2090,
+                        "physical_attack_power_base": 9821,
+                        "physical_critical_strike_base": 13392,
+                        "physical_overcome_base": 14557,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1145_1",
+                        "recipe_1978_1",
+                        "recipe_17436_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "银羽雪辉#43547 (27500 特效 会心 破防 加速)": {
@@ -68851,6 +73610,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "清渊玉骨·寒弦_测试用#44214 (25600 特效 会心 破防 加速)": {
+                    "id": 44214,
+                    "name": "清渊玉骨·寒弦_测试用",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "strength_base": 1911,
+                        "physical_attack_power_base": 8979,
+                        "physical_critical_strike_base": 12244,
+                        "physical_overcome_base": 13309,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "寒星拂夜#42823 (35300 破招 无双)": {
                     "id": 42823,
@@ -69091,6 +73883,39 @@ EQUIPMENTS = {
                         "gain_25775_1",
                         "gain_39088_6",
                         "gain_3476_8"
+                    ]
+                },
+                "清渊玉骨·寒弦_测试用#44181 (23600 特效 会心 破防 加速)": {
+                    "id": 44181,
+                    "name": "清渊玉骨·寒弦_测试用",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "strength_base": 1762,
+                        "physical_attack_power_base": 8278,
+                        "physical_critical_strike_base": 11288,
+                        "physical_overcome_base": 12269,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄星弩#43784 (32500 会心 无双)": {
@@ -69415,6 +74240,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "清渊玉骨·寒弦_测试用#44148 (21600 特效 会心 破防 加速)": {
+                    "id": 44148,
+                    "name": "清渊玉骨·寒弦_测试用",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "strength_base": 1612,
+                        "physical_attack_power_base": 7576,
+                        "physical_critical_strike_base": 10331,
+                        "physical_overcome_base": 11230,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "波子气泡水#44046 (29800 破防 无双)": {
                     "id": 44046,
                     "name": "波子气泡水",
@@ -69496,9 +74354,122 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_3476_8"
                     ]
+                },
+                "清渊玉骨·寒弦_测试用#44115 (19600 特效 会心 破防 加速)": {
+                    "id": 44115,
+                    "name": "清渊玉骨·寒弦_测试用",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "strength_base": 1463,
+                        "physical_attack_power_base": 6875,
+                        "physical_critical_strike_base": 9375,
+                        "physical_overcome_base": 10190,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "银羽雪辉#40239 (19500 特效 会心 破防 加速)": {
+                    "id": 40239,
+                    "name": "银羽雪辉",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "strength_base": 1456,
+                        "physical_attack_power_base": 6840,
+                        "physical_critical_strike_base": 9327,
+                        "physical_overcome_base": 10138,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1534_1",
+                        "recipe_1535_1",
+                        "recipe_17435_1",
+                        "recipe_17239_1",
+                        "recipe_17438_1",
+                        "recipe_17439_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25775_1",
+                        "gain_39088_4",
+                        "gain_3476_8"
+                    ]
                 }
             },
             "内功": {
+                "清渊玉骨·霜锋_测试用#44279 (31800 特效 会心 破防 加速)": {
+                    "id": 44279,
+                    "name": "清渊玉骨·霜锋_测试用",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6850,
+                        "weapon_damage_rand": 4567
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spunk_base": 2374,
+                        "poison_attack_power_base": 12802,
+                        "physical_critical_strike_base": 13887,
+                        "poison_overcome_base": 16532,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1146_1",
+                        "recipe_1978_1",
+                        "recipe_17430_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "碧岚幽炎#43579 (29700 特效 会心 破防 加速)": {
                     "id": 43579,
                     "name": "碧岚幽炎",
@@ -69540,6 +74511,43 @@ EQUIPMENTS = {
                         "gain_25774_1",
                         "gain_39088_9",
                         "gain_3477_8"
+                    ]
+                },
+                "清渊玉骨·霜锋_测试用#44246 (28000 特效 会心 破防 加速)": {
+                    "id": 44246,
+                    "name": "清渊玉骨·霜锋_测试用",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6031,
+                        "weapon_damage_rand": 4021
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spunk_base": 2090,
+                        "poison_attack_power_base": 11272,
+                        "physical_critical_strike_base": 12228,
+                        "poison_overcome_base": 14557,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1146_1",
+                        "recipe_1978_1",
+                        "recipe_17430_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "碧岚幽炎#43546 (27500 特效 会心 破防 加速)": {
@@ -69614,6 +74622,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "清渊玉骨·霜锋_测试用#44213 (25600 特效 会心 破防 加速)": {
+                    "id": 44213,
+                    "name": "清渊玉骨·霜锋_测试用",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5514,
+                        "weapon_damage_rand": 3676
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spunk_base": 1911,
+                        "poison_attack_power_base": 10306,
+                        "physical_critical_strike_base": 11180,
+                        "poison_overcome_base": 13309,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "南行万壑#42822 (35300 破招 无双)": {
                     "id": 42822,
@@ -69854,6 +74895,39 @@ EQUIPMENTS = {
                         "gain_25774_1",
                         "gain_39088_6",
                         "gain_3477_8"
+                    ]
+                },
+                "清渊玉骨·霜锋_测试用#44180 (23600 特效 会心 破防 加速)": {
+                    "id": 44180,
+                    "name": "清渊玉骨·霜锋_测试用",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5083,
+                        "weapon_damage_rand": 3389
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spunk_base": 1762,
+                        "poison_attack_power_base": 9501,
+                        "physical_critical_strike_base": 10306,
+                        "poison_overcome_base": 12269,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄机弩#43783 (32500 会心 无双)": {
@@ -70178,6 +75252,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "清渊玉骨·霜锋_测试用#44147 (21600 特效 会心 破防 加速)": {
+                    "id": 44147,
+                    "name": "清渊玉骨·霜锋_测试用",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4652,
+                        "weapon_damage_rand": 3102
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spunk_base": 1612,
+                        "poison_attack_power_base": 8696,
+                        "physical_critical_strike_base": 9433,
+                        "poison_overcome_base": 11230,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "波子气泡水#44045 (29800 破防 无双)": {
                     "id": 44045,
                     "name": "波子气泡水",
@@ -70259,11 +75366,120 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_3477_8"
                     ]
+                },
+                "清渊玉骨·霜锋_测试用#44114 (19600 特效 会心 破防 加速)": {
+                    "id": 44114,
+                    "name": "清渊玉骨·霜锋_测试用",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4222,
+                        "weapon_damage_rand": 2814
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spunk_base": 1463,
+                        "poison_attack_power_base": 7890,
+                        "physical_critical_strike_base": 8559,
+                        "poison_overcome_base": 10190,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "碧岚幽炎#40238 (19500 特效 会心 破防 加速)": {
+                    "id": 40238,
+                    "name": "碧岚幽炎",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4200,
+                        "weapon_damage_rand": 2800
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spunk_base": 1456,
+                        "poison_attack_power_base": 7850,
+                        "physical_critical_strike_base": 8516,
+                        "poison_overcome_base": 10138,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1532_1",
+                        "recipe_1533_1",
+                        "recipe_17429_1",
+                        "recipe_17239_1",
+                        "recipe_17432_1",
+                        "recipe_17433_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25774_1",
+                        "gain_39088_4",
+                        "gain_3477_8"
+                    ]
                 }
             }
         },
         "五毒": {
             "治疗": {
+                "死生往复·魂引_测试用#44278 (31800 会心 加速)": {
+                    "id": 44278,
+                    "name": "死生往复·魂引_测试用",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3425,
+                        "weapon_damage_rand": 2283
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2628,
+                        "therapy_power_base": 25947,
+                        "poison_critical_strike_base": 13226,
+                        "haste_base": 10581
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1144_1",
+                        "recipe_17323_1"
+                    ],
+                    "gains": []
+                },
                 "逾潮声#43578 (29700 特效 会心 加速)": {
                     "id": 43578,
                     "name": "逾潮声",
@@ -70304,6 +75520,39 @@ EQUIPMENTS = {
                         "gain_25790_1",
                         "gain_33318_2"
                     ]
+                },
+                "死生往复·魂引_测试用#44245 (28000 会心 加速)": {
+                    "id": 44245,
+                    "name": "死生往复·魂引_测试用",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3016,
+                        "weapon_damage_rand": 2010
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2314,
+                        "therapy_power_base": 22847,
+                        "poison_critical_strike_base": 11645,
+                        "haste_base": 9316
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1144_1",
+                        "recipe_17323_1"
+                    ],
+                    "gains": []
                 },
                 "逾潮声#43545 (27500 特效 会心 加速)": {
                     "id": 43545,
@@ -70368,6 +75617,36 @@ EQUIPMENTS = {
                     "embed": {
                         "poison_critical_strike_base": 321,
                         "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "死生往复·魂引_测试用#44212 (25600 会心 加速)": {
+                    "id": 44212,
+                    "name": "死生往复·魂引_测试用",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2757,
+                        "weapon_damage_rand": 1838
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 2116,
+                        "therapy_power_base": 20888,
+                        "poison_critical_strike_base": 10647,
+                        "haste_base": 8518
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
                         "therapy_power_base": 156
                     },
                     "set_id": 0,
@@ -70605,6 +75884,36 @@ EQUIPMENTS = {
                         "gain_25790_1",
                         "gain_33318_2"
                     ]
+                },
+                "死生往复·魂引_测试用#44179 (23600 会心 加速)": {
+                    "id": 44179,
+                    "name": "死生往复·魂引_测试用",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2542,
+                        "weapon_damage_rand": 1694
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1951,
+                        "therapy_power_base": 19256,
+                        "poison_critical_strike_base": 9815,
+                        "haste_base": 7852
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄蝶笛#43782 (32500 会心)": {
                     "id": 43782,
@@ -70916,6 +76225,36 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "死生往复·魂引_测试用#44146 (21600 会心 加速)": {
+                    "id": 44146,
+                    "name": "死生往复·魂引_测试用",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2326,
+                        "weapon_damage_rand": 1551
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1785,
+                        "therapy_power_base": 17624,
+                        "poison_critical_strike_base": 8984,
+                        "haste_base": 7187
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "紫阳芭菲杯#44044 (29800 加速)": {
                     "id": 44044,
                     "name": "紫阳芭菲杯",
@@ -70994,9 +76333,116 @@ EQUIPMENTS = {
                         "gain_25790_1",
                         "gain_33318_2"
                     ]
+                },
+                "死生往复·魂引_测试用#44113 (19600 会心 加速)": {
+                    "id": 44113,
+                    "name": "死生往复·魂引_测试用",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2111,
+                        "weapon_damage_rand": 1407
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1620,
+                        "therapy_power_base": 15993,
+                        "poison_critical_strike_base": 8152,
+                        "haste_base": 6521
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "逾潮声#40237 (19500 特效 会心 加速)": {
+                    "id": 40237,
+                    "name": "逾潮声",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2100,
+                        "weapon_damage_rand": 1400
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1612,
+                        "therapy_power_base": 15911,
+                        "poison_critical_strike_base": 8110,
+                        "haste_base": 6488
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "poison_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1530_1",
+                        "recipe_1531_1",
+                        "recipe_17317_1",
+                        "recipe_17243_1",
+                        "recipe_17319_1",
+                        "recipe_17331_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25790_1",
+                        "gain_33318_2"
+                    ]
                 }
             },
             "内功": {
+                "死生往复·牵丝_测试用#44277 (31800 特效 会心 破防 加速)": {
+                    "id": 44277,
+                    "name": "死生往复·牵丝_测试用",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3425,
+                        "weapon_damage_rand": 2283
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2374,
+                        "poison_attack_power_base": 13002,
+                        "poison_critical_strike_base": 13887,
+                        "poison_overcome_base": 15871,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1143_1",
+                        "recipe_17322_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "蜕骨#43577 (29700 特效 会心 破防 加速)": {
                     "id": 43577,
                     "name": "蜕骨",
@@ -71038,6 +76484,42 @@ EQUIPMENTS = {
                         "gain_25773_1",
                         "gain_39088_9",
                         "gain_3065_8"
+                    ]
+                },
+                "死生往复·牵丝_测试用#44244 (28000 特效 会心 破防 加速)": {
+                    "id": 44244,
+                    "name": "死生往复·牵丝_测试用",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3016,
+                        "weapon_damage_rand": 2010
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2090,
+                        "poison_attack_power_base": 11448,
+                        "poison_critical_strike_base": 12228,
+                        "poison_overcome_base": 13975,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1143_1",
+                        "recipe_17322_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "蜕骨#43544 (27500 特效 会心 破防 加速)": {
@@ -71112,6 +76594,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "死生往复·牵丝_测试用#44211 (25600 特效 会心 破防 加速)": {
+                    "id": 44211,
+                    "name": "死生往复·牵丝_测试用",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2757,
+                        "weapon_damage_rand": 1838
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 1911,
+                        "poison_attack_power_base": 10467,
+                        "poison_critical_strike_base": 11180,
+                        "poison_overcome_base": 12777,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "阴岭云凝#42820 (35300 破招 无双)": {
                     "id": 42820,
@@ -71352,6 +76867,39 @@ EQUIPMENTS = {
                         "gain_25773_1",
                         "gain_39088_6",
                         "gain_3065_8"
+                    ]
+                },
+                "死生往复·牵丝_测试用#44178 (23600 特效 会心 破防 加速)": {
+                    "id": 44178,
+                    "name": "死生往复·牵丝_测试用",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2542,
+                        "weapon_damage_rand": 1694
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1762,
+                        "poison_attack_power_base": 9649,
+                        "poison_critical_strike_base": 10306,
+                        "poison_overcome_base": 11779,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄蚀笛#43781 (32500 会心 无双)": {
@@ -71676,6 +77224,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "死生往复·牵丝_测试用#44145 (21600 特效 会心 破防 加速)": {
+                    "id": 44145,
+                    "name": "死生往复·牵丝_测试用",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2326,
+                        "weapon_damage_rand": 1551
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "poison_attack_power_base": 8831,
+                        "poison_critical_strike_base": 9433,
+                        "poison_overcome_base": 10780,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "紫阳芭菲杯#44043 (29800 破防 无双)": {
                     "id": 44043,
                     "name": "紫阳芭菲杯",
@@ -71757,11 +77338,120 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_3065_8"
                     ]
+                },
+                "死生往复·牵丝_测试用#44112 (19600 特效 会心 破防 加速)": {
+                    "id": 44112,
+                    "name": "死生往复·牵丝_测试用",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2111,
+                        "weapon_damage_rand": 1407
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1463,
+                        "poison_attack_power_base": 8014,
+                        "poison_critical_strike_base": 8559,
+                        "poison_overcome_base": 9782,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "蜕骨#40236 (19500 特效 会心 破防 加速)": {
+                    "id": 40236,
+                    "name": "蜕骨",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2100,
+                        "weapon_damage_rand": 1400
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1456,
+                        "poison_attack_power_base": 7973,
+                        "poison_critical_strike_base": 8516,
+                        "poison_overcome_base": 9732,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "poison_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "poison_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1528_1",
+                        "recipe_1529_1",
+                        "recipe_17316_1",
+                        "recipe_17239_1",
+                        "recipe_17318_1",
+                        "recipe_17329_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25773_1",
+                        "gain_39088_4",
+                        "gain_3065_8"
+                    ]
                 }
             }
         },
         "七秀": {
             "治疗": {
+                "鳞海人间·云起_测试用#44276 (31800 会心 加速)": {
+                    "id": 44276,
+                    "name": "鳞海人间·云起_测试用",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4452,
+                        "weapon_damage_rand": 2968
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2628,
+                        "therapy_power_base": 25947,
+                        "lunar_critical_strike_base": 13226,
+                        "haste_base": 10581
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1138_1",
+                        "recipe_17387_1"
+                    ],
+                    "gains": []
+                },
                 "钗蝶语双#43576 (29700 特效 会心 加速)": {
                     "id": 43576,
                     "name": "钗蝶语双",
@@ -71802,6 +77492,39 @@ EQUIPMENTS = {
                         "gain_25789_1",
                         "gain_33324_2"
                     ]
+                },
+                "鳞海人间·云起_测试用#44243 (28000 会心 加速)": {
+                    "id": 44243,
+                    "name": "鳞海人间·云起_测试用",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3920,
+                        "weapon_damage_rand": 2614
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2314,
+                        "therapy_power_base": 22847,
+                        "lunar_critical_strike_base": 11645,
+                        "haste_base": 9316
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1138_1",
+                        "recipe_17387_1"
+                    ],
+                    "gains": []
                 },
                 "钗蝶语双#43543 (27500 特效 会心 加速)": {
                     "id": 43543,
@@ -71866,6 +77589,36 @@ EQUIPMENTS = {
                     "embed": {
                         "lunar_critical_strike_base": 321,
                         "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "鳞海人间·云起_测试用#44210 (25600 会心 加速)": {
+                    "id": 44210,
+                    "name": "鳞海人间·云起_测试用",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3584,
+                        "weapon_damage_rand": 2389
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 2116,
+                        "therapy_power_base": 20888,
+                        "lunar_critical_strike_base": 10647,
+                        "haste_base": 8518
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
                         "therapy_power_base": 156
                     },
                     "set_id": 0,
@@ -72103,6 +77856,36 @@ EQUIPMENTS = {
                         "gain_25789_1",
                         "gain_33324_2"
                     ]
+                },
+                "鳞海人间·云起_测试用#44177 (23600 会心 加速)": {
+                    "id": 44177,
+                    "name": "鳞海人间·云起_测试用",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3304,
+                        "weapon_damage_rand": 2203
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1951,
+                        "therapy_power_base": 19256,
+                        "lunar_critical_strike_base": 9815,
+                        "haste_base": 7852
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄琼双剑#43780 (32500 会心)": {
                     "id": 43780,
@@ -72414,6 +78197,36 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "鳞海人间·云起_测试用#44144 (21600 会心 加速)": {
+                    "id": 44144,
+                    "name": "鳞海人间·云起_测试用",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3024,
+                        "weapon_damage_rand": 2016
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1785,
+                        "therapy_power_base": 17624,
+                        "lunar_critical_strike_base": 8984,
+                        "haste_base": 7187
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "蜜桃棒棒糖#44042 (29800 加速)": {
                     "id": 44042,
                     "name": "蜜桃棒棒糖",
@@ -72492,9 +78305,117 @@ EQUIPMENTS = {
                         "gain_25789_1",
                         "gain_33324_2"
                     ]
+                },
+                "鳞海人间·云起_测试用#44111 (19600 会心 加速)": {
+                    "id": 44111,
+                    "name": "鳞海人间·云起_测试用",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2744,
+                        "weapon_damage_rand": 1829
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1620,
+                        "therapy_power_base": 15993,
+                        "lunar_critical_strike_base": 8152,
+                        "haste_base": 6521
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "钗蝶语双#40235 (19500 特效 会心 加速)": {
+                    "id": 40235,
+                    "name": "钗蝶语双",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2730,
+                        "weapon_damage_rand": 1820
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1612,
+                        "therapy_power_base": 15911,
+                        "lunar_critical_strike_base": 8110,
+                        "haste_base": 6488
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "lunar_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1526_1",
+                        "recipe_1527_1",
+                        "recipe_17386_1",
+                        "recipe_17243_1",
+                        "recipe_17390_1",
+                        "recipe_17389_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25789_1",
+                        "gain_33324_2"
+                    ]
                 }
             },
             "内功": {
+                "鳞海人间·水穷_测试用#44275 (31800 特效 会心 破防 加速)": {
+                    "id": 44275,
+                    "name": "鳞海人间·水穷_测试用",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4452,
+                        "weapon_damage_rand": 2968
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2374,
+                        "lunar_attack_power_base": 13202,
+                        "lunar_critical_strike_base": 13887,
+                        "lunar_overcome_base": 14549,
+                        "haste_base": 7274
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1137_1",
+                        "recipe_1977_1",
+                        "recipe_17381_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "龙鲤#43575 (29700 特效 会心 破防 加速)": {
                     "id": 43575,
                     "name": "龙鲤",
@@ -72536,6 +78457,43 @@ EQUIPMENTS = {
                         "gain_25769_1",
                         "gain_39088_9",
                         "gain_1858_8"
+                    ]
+                },
+                "鳞海人间·水穷_测试用#44242 (28000 特效 会心 破防 加速)": {
+                    "id": 44242,
+                    "name": "鳞海人间·水穷_测试用",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3920,
+                        "weapon_damage_rand": 2614
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2090,
+                        "lunar_attack_power_base": 11624,
+                        "lunar_critical_strike_base": 12228,
+                        "lunar_overcome_base": 12810,
+                        "haste_base": 6405
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1137_1",
+                        "recipe_1977_1",
+                        "recipe_17381_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "龙鲤#43542 (27500 特效 会心 破防 加速)": {
@@ -72610,6 +78568,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "鳞海人间·水穷_测试用#44209 (25600 特效 会心 破防 加速)": {
+                    "id": 44209,
+                    "name": "鳞海人间·水穷_测试用",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3584,
+                        "weapon_damage_rand": 2389
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 1911,
+                        "lunar_attack_power_base": 10628,
+                        "lunar_critical_strike_base": 11180,
+                        "lunar_overcome_base": 11712,
+                        "haste_base": 5856
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "箫鼓笙歌#42818 (35300 破招 无双)": {
                     "id": 42818,
@@ -72850,6 +78841,39 @@ EQUIPMENTS = {
                         "gain_25769_1",
                         "gain_39088_6",
                         "gain_1858_8"
+                    ]
+                },
+                "鳞海人间·水穷_测试用#44176 (23600 特效 会心 破防 加速)": {
+                    "id": 44176,
+                    "name": "鳞海人间·水穷_测试用",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3304,
+                        "weapon_damage_rand": 2203
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1762,
+                        "lunar_attack_power_base": 9797,
+                        "lunar_critical_strike_base": 10306,
+                        "lunar_overcome_base": 10797,
+                        "haste_base": 5398
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄月双剑#43779 (32500 会心 无双)": {
@@ -73174,6 +79198,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "鳞海人间·水穷_测试用#44143 (21600 特效 会心 破防 加速)": {
+                    "id": 44143,
+                    "name": "鳞海人间·水穷_测试用",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3024,
+                        "weapon_damage_rand": 2016
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "lunar_attack_power_base": 8967,
+                        "lunar_critical_strike_base": 9433,
+                        "lunar_overcome_base": 9882,
+                        "haste_base": 4941
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "蜜桃棒棒糖#44041 (29800 破防 无双)": {
                     "id": 44041,
                     "name": "蜜桃棒棒糖",
@@ -73255,11 +79312,123 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1858_8"
                     ]
+                },
+                "鳞海人间·水穷_测试用#44110 (19600 特效 会心 破防 加速)": {
+                    "id": 44110,
+                    "name": "鳞海人间·水穷_测试用",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2744,
+                        "weapon_damage_rand": 1829
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1463,
+                        "lunar_attack_power_base": 8137,
+                        "lunar_critical_strike_base": 8559,
+                        "lunar_overcome_base": 8967,
+                        "haste_base": 4483
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "龙鲤#40234 (19500 特效 会心 破防 加速)": {
+                    "id": 40234,
+                    "name": "龙鲤",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2730,
+                        "weapon_damage_rand": 1820
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1456,
+                        "lunar_attack_power_base": 8095,
+                        "lunar_critical_strike_base": 8516,
+                        "lunar_overcome_base": 8921,
+                        "haste_base": 4461
+                    },
+                    "embed": {
+                        "lunar_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "lunar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1524_1",
+                        "recipe_1525_1",
+                        "recipe_17380_1",
+                        "recipe_17239_1",
+                        "recipe_17384_1",
+                        "recipe_17383_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25769_1",
+                        "gain_39088_4",
+                        "gain_1858_8"
+                    ]
                 }
             }
         },
         "纯阳": {
             "外功": {
+                "愧琼瑰·玉碎_测试用#44274 (31800 特效 会心 破防 加速)": {
+                    "id": 44274,
+                    "name": "愧琼瑰·玉碎_测试用",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8905,
+                        "weapon_damage_rand": 5937
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 11513,
+                        "physical_critical_strike_base": 16532,
+                        "physical_overcome_base": 13887,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1135_1",
+                        "recipe_17313_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "镇恶#43574 (29700 特效 会心 破防 加速)": {
                     "id": 43574,
                     "name": "镇恶",
@@ -73301,6 +79470,42 @@ EQUIPMENTS = {
                         "gain_25771_1",
                         "gain_39088_9",
                         "gain_1852_8"
+                    ]
+                },
+                "愧琼瑰·玉碎_测试用#44241 (28000 特效 会心 破防 加速)": {
+                    "id": 44241,
+                    "name": "愧琼瑰·玉碎_测试用",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7841,
+                        "weapon_damage_rand": 5227
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 14557,
+                        "physical_overcome_base": 12228,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1135_1",
+                        "recipe_17313_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "镇恶#43541 (27500 特效 会心 破防 加速)": {
@@ -73375,6 +79580,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "愧琼瑰·玉碎_测试用#44208 (25600 特效 会心 破防 加速)": {
+                    "id": 44208,
+                    "name": "愧琼瑰·玉碎_测试用",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7168,
+                        "weapon_damage_rand": 4779
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 9268,
+                        "physical_critical_strike_base": 13309,
+                        "physical_overcome_base": 11180,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "流云紫府#42817 (35300 破招 无双)": {
                     "id": 42817,
@@ -73615,6 +79853,39 @@ EQUIPMENTS = {
                         "gain_25771_1",
                         "gain_39088_6",
                         "gain_1852_8"
+                    ]
+                },
+                "愧琼瑰·玉碎_测试用#44175 (23600 特效 会心 破防 加速)": {
+                    "id": 44175,
+                    "name": "愧琼瑰·玉碎_测试用",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6608,
+                        "weapon_damage_rand": 4406
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 8544,
+                        "physical_critical_strike_base": 12269,
+                        "physical_overcome_base": 10306,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄霜剑#43778 (32500 会心 无双)": {
@@ -73939,6 +80210,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "愧琼瑰·玉碎_测试用#44142 (21600 特效 会心 破防 加速)": {
+                    "id": 44142,
+                    "name": "愧琼瑰·玉碎_测试用",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 6048,
+                        "weapon_damage_rand": 4032
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 7820,
+                        "physical_critical_strike_base": 11230,
+                        "physical_overcome_base": 9433,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "咩咩糖葫芦#44040 (29800 破防 无双)": {
                     "id": 44040,
                     "name": "咩咩糖葫芦",
@@ -74020,9 +80324,121 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1852_8"
                     ]
+                },
+                "愧琼瑰·玉碎_测试用#44109 (19600 特效 会心 破防 加速)": {
+                    "id": 44109,
+                    "name": "愧琼瑰·玉碎_测试用",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5488,
+                        "weapon_damage_rand": 3659
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7096,
+                        "physical_critical_strike_base": 10190,
+                        "physical_overcome_base": 8559,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "镇恶#40233 (19500 特效 会心 破防 加速)": {
+                    "id": 40233,
+                    "name": "镇恶",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 5460,
+                        "weapon_damage_rand": 3640
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7060,
+                        "physical_critical_strike_base": 10138,
+                        "physical_overcome_base": 8516,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1522_1",
+                        "recipe_1523_1",
+                        "recipe_17301_1",
+                        "recipe_17239_1",
+                        "recipe_17305_1",
+                        "recipe_17341_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25771_1",
+                        "gain_39088_4",
+                        "gain_1852_8"
+                    ]
                 }
             },
             "内功": {
+                "愧琼瑰·珠沉_测试用#44273 (31800 特效 会心 破防 加速)": {
+                    "id": 44273,
+                    "name": "愧琼瑰·珠沉_测试用",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 4452,
+                        "weapon_damage_rand": 2968
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2374,
+                        "neutral_attack_power_base": 12802,
+                        "neutral_critical_strike_base": 16532,
+                        "neutral_overcome_base": 13887,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1136_1",
+                        "recipe_17312_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "仙灵#43573 (29700 特效 会心 破防 加速)": {
                     "id": 43573,
                     "name": "仙灵",
@@ -74064,6 +80480,42 @@ EQUIPMENTS = {
                         "gain_25770_1",
                         "gain_39088_9",
                         "gain_1853_8"
+                    ]
+                },
+                "愧琼瑰·珠沉_测试用#44240 (28000 特效 会心 破防 加速)": {
+                    "id": 44240,
+                    "name": "愧琼瑰·珠沉_测试用",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3920,
+                        "weapon_damage_rand": 2614
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2090,
+                        "neutral_attack_power_base": 11272,
+                        "neutral_critical_strike_base": 14557,
+                        "neutral_overcome_base": 12228,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1136_1",
+                        "recipe_17312_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "仙灵#43540 (27500 特效 会心 破防 加速)": {
@@ -74138,6 +80590,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "愧琼瑰·珠沉_测试用#44207 (25600 特效 会心 破防 加速)": {
+                    "id": 44207,
+                    "name": "愧琼瑰·珠沉_测试用",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3584,
+                        "weapon_damage_rand": 2389
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 1911,
+                        "neutral_attack_power_base": 10306,
+                        "neutral_critical_strike_base": 13309,
+                        "neutral_overcome_base": 11180,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "长汀缺月#42816 (35300 破招 无双)": {
                     "id": 42816,
@@ -74378,6 +80863,39 @@ EQUIPMENTS = {
                         "gain_25770_1",
                         "gain_39088_6",
                         "gain_1853_8"
+                    ]
+                },
+                "愧琼瑰·珠沉_测试用#44174 (23600 特效 会心 破防 加速)": {
+                    "id": 44174,
+                    "name": "愧琼瑰·珠沉_测试用",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3304,
+                        "weapon_damage_rand": 2203
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1762,
+                        "neutral_attack_power_base": 9501,
+                        "neutral_critical_strike_base": 12269,
+                        "neutral_overcome_base": 10306,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄鹤剑#43777 (32500 会心 无双)": {
@@ -74702,6 +81220,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "愧琼瑰·珠沉_测试用#44141 (21600 特效 会心 破防 加速)": {
+                    "id": 44141,
+                    "name": "愧琼瑰·珠沉_测试用",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3024,
+                        "weapon_damage_rand": 2016
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1612,
+                        "neutral_attack_power_base": 8696,
+                        "neutral_critical_strike_base": 11230,
+                        "neutral_overcome_base": 9433,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "咩咩糖葫芦#44039 (29800 破防 无双)": {
                     "id": 44039,
                     "name": "咩咩糖葫芦",
@@ -74783,11 +81334,122 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1853_8"
                     ]
+                },
+                "愧琼瑰·珠沉_测试用#44108 (19600 特效 会心 破防 加速)": {
+                    "id": 44108,
+                    "name": "愧琼瑰·珠沉_测试用",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2744,
+                        "weapon_damage_rand": 1829
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1463,
+                        "neutral_attack_power_base": 7890,
+                        "neutral_critical_strike_base": 10190,
+                        "neutral_overcome_base": 8559,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "仙灵#40232 (19500 特效 会心 破防 加速)": {
+                    "id": 40232,
+                    "name": "仙灵",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2730,
+                        "weapon_damage_rand": 1820
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1456,
+                        "neutral_attack_power_base": 7850,
+                        "neutral_critical_strike_base": 10138,
+                        "neutral_overcome_base": 8516,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spirit_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1520_1",
+                        "recipe_1521_1",
+                        "recipe_17300_1",
+                        "recipe_17239_1",
+                        "recipe_17304_1",
+                        "recipe_17340_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25770_1",
+                        "gain_39088_4",
+                        "gain_1853_8"
+                    ]
                 }
             }
         },
         "天策": {
             "防御": {
+                "沙场闲客·人间_测试用#44272 (31800 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44272,
+                    "name": "沙场闲客·人间_测试用",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11645,
+                        "weapon_damage_rand": 7763
+                    },
+                    "magic": {
+                        "vitality_base": 42984,
+                        "physical_shield_base": 30060,
+                        "magical_shield_base": 30060,
+                        "haste_base": 24048,
+                        "surplus_base": 24048,
+                        "toughness_base": 6012,
+                        "strain_base": 24048
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1134_1",
+                        "recipe_17396_1"
+                    ],
+                    "gains": []
+                },
                 "朱曦重明#43572 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43572,
                     "name": "朱曦重明",
@@ -74830,6 +81492,41 @@ EQUIPMENTS = {
                         "gain_25795_1",
                         "gain_1851_8"
                     ]
+                },
+                "沙场闲客·人间_测试用#44239 (28000 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44239,
+                    "name": "沙场闲客·人间_测试用",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10253,
+                        "weapon_damage_rand": 6835
+                    },
+                    "magic": {
+                        "vitality_base": 37848,
+                        "physical_shield_base": 26468,
+                        "magical_shield_base": 26468,
+                        "haste_base": 21175,
+                        "surplus_base": 21175,
+                        "toughness_base": 5294,
+                        "strain_base": 21175
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1134_1",
+                        "recipe_17396_1"
+                    ],
+                    "gains": []
                 },
                 "朱曦重明#43539 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43539,
@@ -74899,6 +81596,38 @@ EQUIPMENTS = {
                         "vitality_base": 161,
                         "physical_shield_base": 161,
                         "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "沙场闲客·人间_测试用#44206 (25600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44206,
+                    "name": "沙场闲客·人间_测试用",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9374,
+                        "weapon_damage_rand": 6249
+                    },
+                    "magic": {
+                        "vitality_base": 34604,
+                        "physical_shield_base": 24199,
+                        "magical_shield_base": 24199,
+                        "haste_base": 19360,
+                        "surplus_base": 19360,
+                        "toughness_base": 4840,
+                        "strain_base": 19360
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
                     },
                     "set_id": 0,
                     "sets": {},
@@ -75150,6 +81879,38 @@ EQUIPMENTS = {
                         "gain_25795_1",
                         "gain_1851_8"
                     ]
+                },
+                "沙场闲客·人间_测试用#44173 (23600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44173,
+                    "name": "沙场闲客·人间_测试用",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8642,
+                        "weapon_damage_rand": 5761
+                    },
+                    "magic": {
+                        "vitality_base": 31900,
+                        "physical_shield_base": 22309,
+                        "magical_shield_base": 22309,
+                        "haste_base": 17847,
+                        "surplus_base": 17847,
+                        "toughness_base": 4462,
+                        "strain_base": 17847
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄旗枪#43776 (32500 外防 加速 破招 御劲 无双)": {
                     "id": 43776,
@@ -75478,6 +82239,38 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "沙场闲客·人间_测试用#44140 (21600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44140,
+                    "name": "沙场闲客·人间_测试用",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7909,
+                        "weapon_damage_rand": 5273
+                    },
+                    "magic": {
+                        "vitality_base": 29197,
+                        "physical_shield_base": 20418,
+                        "magical_shield_base": 20418,
+                        "haste_base": 16335,
+                        "surplus_base": 16335,
+                        "toughness_base": 4084,
+                        "strain_base": 16335
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "冰晶水果叉#44038 (29800 外防 加速 破招 御劲 无双)": {
                     "id": 44038,
                     "name": "冰晶水果叉",
@@ -75559,9 +82352,120 @@ EQUIPMENTS = {
                         "gain_25795_1",
                         "gain_1851_8"
                     ]
+                },
+                "沙场闲客·人间_测试用#44107 (19600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44107,
+                    "name": "沙场闲客·人间_测试用",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7177,
+                        "weapon_damage_rand": 4784
+                    },
+                    "magic": {
+                        "vitality_base": 26493,
+                        "physical_shield_base": 18528,
+                        "magical_shield_base": 18528,
+                        "haste_base": 14822,
+                        "surplus_base": 14822,
+                        "toughness_base": 3706,
+                        "strain_base": 14822
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "朱曦重明#40231 (19500 特效 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 40231,
+                    "name": "朱曦重明",
+                    "school": "天策",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7140,
+                        "weapon_damage_rand": 4760
+                    },
+                    "magic": {
+                        "vitality_base": 26358,
+                        "physical_shield_base": 18433,
+                        "magical_shield_base": 18433,
+                        "haste_base": 14747,
+                        "surplus_base": 14747,
+                        "toughness_base": 3687,
+                        "strain_base": 14747
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "parry_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1510_1",
+                        "recipe_1511_1",
+                        "recipe_17395_1",
+                        "recipe_17246_1",
+                        "recipe_17397_1",
+                        "recipe_17398_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25795_1",
+                        "gain_1851_8"
+                    ]
                 }
             },
             "外功": {
+                "沙场闲客·幽冥_测试用#44271 (31800 特效 会心 破防 加速)": {
+                    "id": 44271,
+                    "name": "沙场闲客·幽冥_测试用",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11645,
+                        "weapon_damage_rand": 7763
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "strength_base": 2374,
+                        "physical_attack_power_base": 11513,
+                        "physical_critical_strike_base": 15871,
+                        "physical_overcome_base": 14549,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1133_1",
+                        "recipe_17367_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "掠炎#43571 (29700 特效 会心 破防 加速)": {
                     "id": 43571,
                     "name": "掠炎",
@@ -75603,6 +82507,42 @@ EQUIPMENTS = {
                         "gain_25772_1",
                         "gain_39088_9",
                         "gain_1850_8"
+                    ]
+                },
+                "沙场闲客·幽冥_测试用#44238 (28000 特效 会心 破防 加速)": {
+                    "id": 44238,
+                    "name": "沙场闲客·幽冥_测试用",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10253,
+                        "weapon_damage_rand": 6835
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "strength_base": 2090,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 13975,
+                        "physical_overcome_base": 12810,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1133_1",
+                        "recipe_17367_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "掠炎#43538 (27500 特效 会心 破防 加速)": {
@@ -75677,6 +82617,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "沙场闲客·幽冥_测试用#44205 (25600 特效 会心 破防 加速)": {
+                    "id": 44205,
+                    "name": "沙场闲客·幽冥_测试用",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9374,
+                        "weapon_damage_rand": 6249
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "strength_base": 1911,
+                        "physical_attack_power_base": 9268,
+                        "physical_critical_strike_base": 12777,
+                        "physical_overcome_base": 11712,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "白骨黄埃#42814 (35300 破招 无双)": {
                     "id": 42814,
@@ -75917,6 +82890,39 @@ EQUIPMENTS = {
                         "gain_25772_1",
                         "gain_39088_6",
                         "gain_1850_8"
+                    ]
+                },
+                "沙场闲客·幽冥_测试用#44172 (23600 特效 会心 破防 加速)": {
+                    "id": 44172,
+                    "name": "沙场闲客·幽冥_测试用",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8642,
+                        "weapon_damage_rand": 5761
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "strength_base": 1762,
+                        "physical_attack_power_base": 8544,
+                        "physical_critical_strike_base": 11779,
+                        "physical_overcome_base": 10797,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄驰枪#43775 (32500 会心 无双)": {
@@ -76241,6 +83247,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "沙场闲客·幽冥_测试用#44139 (21600 特效 会心 破防 加速)": {
+                    "id": 44139,
+                    "name": "沙场闲客·幽冥_测试用",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7909,
+                        "weapon_damage_rand": 5273
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "strength_base": 1612,
+                        "physical_attack_power_base": 7820,
+                        "physical_critical_strike_base": 10780,
+                        "physical_overcome_base": 9882,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "冰晶水果叉#44037 (29800 破防 无双)": {
                     "id": 44037,
                     "name": "冰晶水果叉",
@@ -76322,11 +83361,120 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1850_8"
                     ]
+                },
+                "沙场闲客·幽冥_测试用#44106 (19600 特效 会心 破防 加速)": {
+                    "id": 44106,
+                    "name": "沙场闲客·幽冥_测试用",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7177,
+                        "weapon_damage_rand": 4784
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "strength_base": 1463,
+                        "physical_attack_power_base": 7096,
+                        "physical_critical_strike_base": 9782,
+                        "physical_overcome_base": 8967,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "掠炎#40230 (19500 特效 会心 破防 加速)": {
+                    "id": 40230,
+                    "name": "掠炎",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7140,
+                        "weapon_damage_rand": 4760
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "strength_base": 1456,
+                        "physical_attack_power_base": 7060,
+                        "physical_critical_strike_base": 9732,
+                        "physical_overcome_base": 8921,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "strength_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1508_1",
+                        "recipe_1509_1",
+                        "recipe_17362_1",
+                        "recipe_17239_1",
+                        "recipe_17393_1",
+                        "recipe_17394_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25772_1",
+                        "gain_39088_4",
+                        "gain_1850_8"
+                    ]
                 }
             }
         },
         "万花": {
             "治疗": {
+                "衔羽还·何夕_测试用#44270 (31800 会心 加速)": {
+                    "id": 44270,
+                    "name": "衔羽还·何夕_测试用",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3425,
+                        "weapon_damage_rand": 2283
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spirit_base": 2628,
+                        "therapy_power_base": 25947,
+                        "neutral_critical_strike_base": 13226,
+                        "haste_base": 10581
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1132_1",
+                        "recipe_17405_1"
+                    ],
+                    "gains": []
+                },
                 "折枝花满#43570 (29700 特效 会心 加速)": {
                     "id": 43570,
                     "name": "折枝花满",
@@ -76367,6 +83515,39 @@ EQUIPMENTS = {
                         "gain_25788_1",
                         "gain_33295_2"
                     ]
+                },
+                "衔羽还·何夕_测试用#44237 (28000 会心 加速)": {
+                    "id": 44237,
+                    "name": "衔羽还·何夕_测试用",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3016,
+                        "weapon_damage_rand": 2010
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spirit_base": 2314,
+                        "therapy_power_base": 22847,
+                        "neutral_critical_strike_base": 11645,
+                        "haste_base": 9316
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1132_1",
+                        "recipe_17405_1"
+                    ],
+                    "gains": []
                 },
                 "折枝花满#43537 (27500 特效 会心 加速)": {
                     "id": 43537,
@@ -76431,6 +83612,36 @@ EQUIPMENTS = {
                     "embed": {
                         "neutral_critical_strike_base": 321,
                         "spirit_base": 41,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "衔羽还·何夕_测试用#44204 (25600 会心 加速)": {
+                    "id": 44204,
+                    "name": "衔羽还·何夕_测试用",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2757,
+                        "weapon_damage_rand": 1838
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spirit_base": 2116,
+                        "therapy_power_base": 20888,
+                        "neutral_critical_strike_base": 10647,
+                        "haste_base": 8518
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
                         "therapy_power_base": 156
                     },
                     "set_id": 0,
@@ -76668,6 +83879,36 @@ EQUIPMENTS = {
                         "gain_25788_1",
                         "gain_33295_2"
                     ]
+                },
+                "衔羽还·何夕_测试用#44171 (23600 会心 加速)": {
+                    "id": 44171,
+                    "name": "衔羽还·何夕_测试用",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2542,
+                        "weapon_damage_rand": 1694
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spirit_base": 1951,
+                        "therapy_power_base": 19256,
+                        "neutral_critical_strike_base": 9815,
+                        "haste_base": 7852
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄脉笔#43774 (32500 会心)": {
                     "id": 43774,
@@ -76979,6 +84220,36 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "衔羽还·何夕_测试用#44138 (21600 会心 加速)": {
+                    "id": 44138,
+                    "name": "衔羽还·何夕_测试用",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2326,
+                        "weapon_damage_rand": 1551
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spirit_base": 1785,
+                        "therapy_power_base": 17624,
+                        "neutral_critical_strike_base": 8984,
+                        "haste_base": 7187
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "冰淇淋甜筒#44036 (29800 加速)": {
                     "id": 44036,
                     "name": "冰淇淋甜筒",
@@ -77057,9 +84328,117 @@ EQUIPMENTS = {
                         "gain_25788_1",
                         "gain_33295_2"
                     ]
+                },
+                "衔羽还·何夕_测试用#44105 (19600 会心 加速)": {
+                    "id": 44105,
+                    "name": "衔羽还·何夕_测试用",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2111,
+                        "weapon_damage_rand": 1407
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spirit_base": 1620,
+                        "therapy_power_base": 15993,
+                        "neutral_critical_strike_base": 8152,
+                        "haste_base": 6521
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "折枝花满#40229 (19500 特效 会心 加速)": {
+                    "id": 40229,
+                    "name": "折枝花满",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2100,
+                        "weapon_damage_rand": 1400
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spirit_base": 1612,
+                        "therapy_power_base": 15911,
+                        "neutral_critical_strike_base": 8110,
+                        "haste_base": 6488
+                    },
+                    "embed": {
+                        "spirit_base": 41,
+                        "neutral_critical_strike_base": 321,
+                        "therapy_power_base": 156
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1518_1",
+                        "recipe_1519_1",
+                        "recipe_17404_1",
+                        "recipe_17243_1",
+                        "recipe_17407_1",
+                        "recipe_17408_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25788_1",
+                        "gain_33295_2"
+                    ]
                 }
             },
             "内功": {
+                "衔羽还·今夕_测试用#44269 (31800 特效 会心 破防 加速)": {
+                    "id": 44269,
+                    "name": "衔羽还·今夕_测试用",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3425,
+                        "weapon_damage_rand": 2283
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spunk_base": 2374,
+                        "neutral_attack_power_base": 13202,
+                        "neutral_critical_strike_base": 13887,
+                        "neutral_overcome_base": 15210,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1131_1",
+                        "recipe_1979_1",
+                        "recipe_17400_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "意真#43569 (29700 特效 会心 破防 加速)": {
                     "id": 43569,
                     "name": "意真",
@@ -77101,6 +84480,43 @@ EQUIPMENTS = {
                         "gain_25768_1",
                         "gain_39088_9",
                         "gain_1856_8"
+                    ]
+                },
+                "衔羽还·今夕_测试用#44236 (28000 特效 会心 破防 加速)": {
+                    "id": 44236,
+                    "name": "衔羽还·今夕_测试用",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 3016,
+                        "weapon_damage_rand": 2010
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spunk_base": 2090,
+                        "neutral_attack_power_base": 11624,
+                        "neutral_critical_strike_base": 12228,
+                        "neutral_overcome_base": 13392,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1131_1",
+                        "recipe_1979_1",
+                        "recipe_17400_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "意真#43536 (27500 特效 会心 破防 加速)": {
@@ -77175,6 +84591,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "衔羽还·今夕_测试用#44203 (25600 特效 会心 破防 加速)": {
+                    "id": 44203,
+                    "name": "衔羽还·今夕_测试用",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2757,
+                        "weapon_damage_rand": 1838
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spunk_base": 1911,
+                        "neutral_attack_power_base": 10628,
+                        "neutral_critical_strike_base": 11180,
+                        "neutral_overcome_base": 12244,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "远壑疏烟#42812 (35300 破招 无双)": {
                     "id": 42812,
@@ -77415,6 +84864,39 @@ EQUIPMENTS = {
                         "gain_25768_1",
                         "gain_39088_6",
                         "gain_1856_8"
+                    ]
+                },
+                "衔羽还·今夕_测试用#44170 (23600 特效 会心 破防 加速)": {
+                    "id": 44170,
+                    "name": "衔羽还·今夕_测试用",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2542,
+                        "weapon_damage_rand": 1694
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spunk_base": 1762,
+                        "neutral_attack_power_base": 9797,
+                        "neutral_critical_strike_base": 10306,
+                        "neutral_overcome_base": 11288,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄墨笔#43773 (32500 会心 无双)": {
@@ -77739,6 +85221,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "衔羽还·今夕_测试用#44137 (21600 特效 会心 破防 加速)": {
+                    "id": 44137,
+                    "name": "衔羽还·今夕_测试用",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2326,
+                        "weapon_damage_rand": 1551
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spunk_base": 1612,
+                        "neutral_attack_power_base": 8967,
+                        "neutral_critical_strike_base": 9433,
+                        "neutral_overcome_base": 10331,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "冰淇淋甜筒#44035 (29800 破防 无双)": {
                     "id": 44035,
                     "name": "冰淇淋甜筒",
@@ -77820,11 +85335,122 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1856_8"
                     ]
+                },
+                "衔羽还·今夕_测试用#44104 (19600 特效 会心 破防 加速)": {
+                    "id": 44104,
+                    "name": "衔羽还·今夕_测试用",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2111,
+                        "weapon_damage_rand": 1407
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spunk_base": 1463,
+                        "neutral_attack_power_base": 8137,
+                        "neutral_critical_strike_base": 8559,
+                        "neutral_overcome_base": 9375,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "意真#40228 (19500 特效 会心 破防 加速)": {
+                    "id": 40228,
+                    "name": "意真",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 2100,
+                        "weapon_damage_rand": 1400
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spunk_base": 1456,
+                        "neutral_attack_power_base": 8095,
+                        "neutral_critical_strike_base": 8516,
+                        "neutral_overcome_base": 9327,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "neutral_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "neutral_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1516_1",
+                        "recipe_1517_1",
+                        "recipe_17399_1",
+                        "recipe_17239_1",
+                        "recipe_17402_1",
+                        "recipe_17403_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25768_1",
+                        "gain_39088_4",
+                        "gain_1856_8"
+                    ]
                 }
             }
         },
         "少林": {
             "防御": {
+                "慈悲音·谛听_测试用#44268 (31800 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44268,
+                    "name": "慈悲音·谛听_测试用",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11645,
+                        "weapon_damage_rand": 7763
+                    },
+                    "magic": {
+                        "vitality_base": 42984,
+                        "physical_shield_base": 30060,
+                        "magical_shield_base": 30060,
+                        "haste_base": 24048,
+                        "surplus_base": 24048,
+                        "toughness_base": 6012,
+                        "strain_base": 24048
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1140_1",
+                        "recipe_17357_1"
+                    ],
+                    "gains": []
+                },
                 "降魔境#43568 (29700 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43568,
                     "name": "降魔境",
@@ -77867,6 +85493,41 @@ EQUIPMENTS = {
                         "gain_25794_1",
                         "gain_1855_8"
                     ]
+                },
+                "慈悲音·谛听_测试用#44235 (28000 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44235,
+                    "name": "慈悲音·谛听_测试用",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10253,
+                        "weapon_damage_rand": 6835
+                    },
+                    "magic": {
+                        "vitality_base": 37848,
+                        "physical_shield_base": 26468,
+                        "magical_shield_base": 26468,
+                        "haste_base": 21175,
+                        "surplus_base": 21175,
+                        "toughness_base": 5294,
+                        "strain_base": 21175
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1140_1",
+                        "recipe_17357_1"
+                    ],
+                    "gains": []
                 },
                 "降魔境#43535 (27500 特效 外防 内防 加速 破招 御劲 无双)": {
                     "id": 43535,
@@ -77931,6 +85592,38 @@ EQUIPMENTS = {
                         "surplus_base": 9774,
                         "toughness_base": 4887,
                         "strain_base": 19547
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "慈悲音·谛听_测试用#44202 (25600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44202,
+                    "name": "慈悲音·谛听_测试用",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9374,
+                        "weapon_damage_rand": 6249
+                    },
+                    "magic": {
+                        "vitality_base": 34604,
+                        "physical_shield_base": 24199,
+                        "magical_shield_base": 24199,
+                        "haste_base": 19360,
+                        "surplus_base": 19360,
+                        "toughness_base": 4840,
+                        "strain_base": 19360
                     },
                     "embed": {
                         "vitality_base": 161,
@@ -78187,6 +85880,38 @@ EQUIPMENTS = {
                         "gain_25794_1",
                         "gain_1855_8"
                     ]
+                },
+                "慈悲音·谛听_测试用#44169 (23600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44169,
+                    "name": "慈悲音·谛听_测试用",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8642,
+                        "weapon_damage_rand": 5761
+                    },
+                    "magic": {
+                        "vitality_base": 31900,
+                        "physical_shield_base": 22309,
+                        "magical_shield_base": 22309,
+                        "haste_base": 17847,
+                        "surplus_base": 17847,
+                        "toughness_base": 4462,
+                        "strain_base": 17847
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
                 },
                 "娄觉棍#43772 (32500 内防 加速 破招 御劲 无双)": {
                     "id": 43772,
@@ -78515,6 +86240,38 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "慈悲音·谛听_测试用#44136 (21600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44136,
+                    "name": "慈悲音·谛听_测试用",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7909,
+                        "weapon_damage_rand": 5273
+                    },
+                    "magic": {
+                        "vitality_base": 29197,
+                        "physical_shield_base": 20418,
+                        "magical_shield_base": 20418,
+                        "haste_base": 16335,
+                        "surplus_base": 16335,
+                        "toughness_base": 4084,
+                        "strain_base": 16335
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "小猴刨冰机#44034 (29800 内防 加速 破招 御劲 无双)": {
                     "id": 44034,
                     "name": "小猴刨冰机",
@@ -78596,9 +86353,120 @@ EQUIPMENTS = {
                         "gain_25794_1",
                         "gain_1855_8"
                     ]
+                },
+                "慈悲音·谛听_测试用#44103 (19600 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 44103,
+                    "name": "慈悲音·谛听_测试用",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7177,
+                        "weapon_damage_rand": 4784
+                    },
+                    "magic": {
+                        "vitality_base": 26493,
+                        "physical_shield_base": 18528,
+                        "magical_shield_base": 18528,
+                        "haste_base": 14822,
+                        "surplus_base": 14822,
+                        "toughness_base": 3706,
+                        "strain_base": 14822
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "降魔境#40227 (19500 特效 外防 内防 加速 破招 御劲 无双)": {
+                    "id": 40227,
+                    "name": "降魔境",
+                    "school": "少林",
+                    "kind": "防御",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7140,
+                        "weapon_damage_rand": 4760
+                    },
+                    "magic": {
+                        "vitality_base": 26358,
+                        "physical_shield_base": 18433,
+                        "magical_shield_base": 18433,
+                        "haste_base": 14747,
+                        "surplus_base": 14747,
+                        "toughness_base": 3687,
+                        "strain_base": 14747
+                    },
+                    "embed": {
+                        "vitality_base": 161,
+                        "physical_shield_base": 161,
+                        "magical_shield_base": 161
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1514_1",
+                        "recipe_1515_1",
+                        "recipe_17356_1",
+                        "recipe_17246_1",
+                        "recipe_17360_1",
+                        "recipe_17361_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25794_1",
+                        "gain_1855_8"
+                    ]
                 }
             },
             "内功": {
+                "慈悲音·观照_测试用#44267 (31800 特效 会心 破防 加速)": {
+                    "id": 44267,
+                    "name": "慈悲音·观照_测试用",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11645,
+                        "weapon_damage_rand": 7763
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "spunk_base": 2374,
+                        "solar_attack_power_base": 13601,
+                        "solar_critical_strike_base": 13226,
+                        "solar_overcome_base": 14549,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1139_1",
+                        "recipe_17352_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "昭佛光#43567 (29700 特效 会心 破防 加速)": {
                     "id": 43567,
                     "name": "昭佛光",
@@ -78640,6 +86508,42 @@ EQUIPMENTS = {
                         "gain_25766_1",
                         "gain_39088_9",
                         "gain_1854_8"
+                    ]
+                },
+                "慈悲音·观照_测试用#44234 (28000 特效 会心 破防 加速)": {
+                    "id": 44234,
+                    "name": "慈悲音·观照_测试用",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10253,
+                        "weapon_damage_rand": 6835
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "spunk_base": 2090,
+                        "solar_attack_power_base": 11976,
+                        "solar_critical_strike_base": 11645,
+                        "solar_overcome_base": 12810,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1139_1",
+                        "recipe_17352_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "昭佛光#43534 (27500 特效 会心 破防 加速)": {
@@ -78714,6 +86618,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "慈悲音·观照_测试用#44201 (25600 特效 会心 破防 加速)": {
+                    "id": 44201,
+                    "name": "慈悲音·观照_测试用",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9374,
+                        "weapon_damage_rand": 6249
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "spunk_base": 1911,
+                        "solar_attack_power_base": 10949,
+                        "solar_critical_strike_base": 10647,
+                        "solar_overcome_base": 11712,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "云水禅心#42810 (35300 破招 无双)": {
                     "id": 42810,
@@ -78954,6 +86891,39 @@ EQUIPMENTS = {
                         "gain_25766_1",
                         "gain_39088_6",
                         "gain_1854_8"
+                    ]
+                },
+                "慈悲音·观照_测试用#44168 (23600 特效 会心 破防 加速)": {
+                    "id": 44168,
+                    "name": "慈悲音·观照_测试用",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8642,
+                        "weapon_damage_rand": 5761
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "spunk_base": 1762,
+                        "solar_attack_power_base": 10094,
+                        "solar_critical_strike_base": 9815,
+                        "solar_overcome_base": 10797,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄煌棍#43771 (32500 会心 无双)": {
@@ -79278,6 +87248,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "慈悲音·观照_测试用#44135 (21600 特效 会心 破防 加速)": {
+                    "id": 44135,
+                    "name": "慈悲音·观照_测试用",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7909,
+                        "weapon_damage_rand": 5273
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "spunk_base": 1612,
+                        "solar_attack_power_base": 9239,
+                        "solar_critical_strike_base": 8984,
+                        "solar_overcome_base": 9882,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "小猴刨冰机#44033 (29800 破防 无双)": {
                     "id": 44033,
                     "name": "小猴刨冰机",
@@ -79359,6 +87362,82 @@ EQUIPMENTS = {
                         "gain_39088_5",
                         "gain_1854_8"
                     ]
+                },
+                "慈悲音·观照_测试用#44102 (19600 特效 会心 破防 加速)": {
+                    "id": 44102,
+                    "name": "慈悲音·观照_测试用",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7177,
+                        "weapon_damage_rand": 4784
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "spunk_base": 1463,
+                        "solar_attack_power_base": 8383,
+                        "solar_critical_strike_base": 8152,
+                        "solar_overcome_base": 8967,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "昭佛光#40226 (19500 特效 会心 破防 加速)": {
+                    "id": 40226,
+                    "name": "昭佛光",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 7140,
+                        "weapon_damage_rand": 4760
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "spunk_base": 1456,
+                        "solar_attack_power_base": 8340,
+                        "solar_critical_strike_base": 8110,
+                        "solar_overcome_base": 8921,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "solar_attack_power_base": 97,
+                        "spunk_base": 41,
+                        "solar_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1512_1",
+                        "recipe_1513_1",
+                        "recipe_17351_1",
+                        "recipe_17239_1",
+                        "recipe_17354_1",
+                        "recipe_17355_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25766_1",
+                        "gain_39088_4",
+                        "gain_1854_8"
+                    ]
                 }
             }
         }
@@ -79366,6 +87445,42 @@ EQUIPMENTS = {
     "big_sword": {
         "藏剑": {
             "外功": {
+                "金山月·夕照_测试用#44282 (31800 特效 会心 破防 加速)": {
+                    "id": 44282,
+                    "name": "金山月·夕照_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 31800,
+                    "score": 95400,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 13700,
+                        "weapon_damage_rand": 9133
+                    },
+                    "magic": {
+                        "vitality_base": 29097,
+                        "agility_base": 2374,
+                        "physical_attack_power_base": 11513,
+                        "physical_critical_strike_base": 17194,
+                        "physical_overcome_base": 13226,
+                        "haste_base": 6613
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1142_1",
+                        "recipe_17369_1"
+                    ],
+                    "gains": [
+                        "gain_39088_15"
+                    ]
+                },
                 "寂夜听雷#43582 (29700 特效 会心 破防 加速)": {
                     "id": 43582,
                     "name": "寂夜听雷",
@@ -79407,6 +87522,42 @@ EQUIPMENTS = {
                         "gain_25776_1",
                         "gain_39088_9",
                         "gain_1882_8"
+                    ]
+                },
+                "金山月·夕照_测试用#44249 (28000 特效 会心 破防 加速)": {
+                    "id": 44249,
+                    "name": "金山月·夕照_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 28000,
+                    "score": 84000,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 12062,
+                        "weapon_damage_rand": 8042
+                    },
+                    "magic": {
+                        "vitality_base": 25620,
+                        "agility_base": 2090,
+                        "physical_attack_power_base": 10137,
+                        "physical_critical_strike_base": 15139,
+                        "physical_overcome_base": 11645,
+                        "haste_base": 5823
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1142_1",
+                        "recipe_17369_1"
+                    ],
+                    "gains": [
+                        "gain_39088_14"
                     ]
                 },
                 "寂夜听雷#43549 (27500 特效 会心 破防 加速)": {
@@ -79481,6 +87632,39 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "金山月·夕照_测试用#44216 (25600 特效 会心 破防 加速)": {
+                    "id": 44216,
+                    "name": "金山月·夕照_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 25600,
+                    "score": 76800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 11028,
+                        "weapon_damage_rand": 7352
+                    },
+                    "magic": {
+                        "vitality_base": 23424,
+                        "agility_base": 1911,
+                        "physical_attack_power_base": 9268,
+                        "physical_critical_strike_base": 13841,
+                        "physical_overcome_base": 10647,
+                        "haste_base": 5324
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_13"
+                    ]
                 },
                 "波光浮槛#42825 (35300 破招 无双)": {
                     "id": 42825,
@@ -79781,6 +87965,39 @@ EQUIPMENTS = {
                         "gain_25776_1",
                         "gain_39088_6",
                         "gain_1882_8"
+                    ]
+                },
+                "金山月·夕照_测试用#44183 (23600 特效 会心 破防 加速)": {
+                    "id": 44183,
+                    "name": "金山月·夕照_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 23600,
+                    "score": 70800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 10167,
+                        "weapon_damage_rand": 6778
+                    },
+                    "magic": {
+                        "vitality_base": 21594,
+                        "agility_base": 1762,
+                        "physical_attack_power_base": 8544,
+                        "physical_critical_strike_base": 12760,
+                        "physical_overcome_base": 9815,
+                        "haste_base": 4908
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_12"
                     ]
                 },
                 "娄泉重剑#43786 (32500 会心 无双)": {
@@ -80165,6 +88382,39 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
+                "金山月·夕照_测试用#44150 (21600 特效 会心 破防 加速)": {
+                    "id": 44150,
+                    "name": "金山月·夕照_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 21600,
+                    "score": 64800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 9305,
+                        "weapon_damage_rand": 6203
+                    },
+                    "magic": {
+                        "vitality_base": 19764,
+                        "agility_base": 1612,
+                        "physical_attack_power_base": 7820,
+                        "physical_critical_strike_base": 11679,
+                        "physical_overcome_base": 8984,
+                        "haste_base": 4492
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_11"
+                    ]
+                },
                 "柠檬大冰棍#44048 (29800 破防 无双)": {
                     "id": 44048,
                     "name": "柠檬大冰棍",
@@ -80244,6 +88494,82 @@ EQUIPMENTS = {
                         "",
                         "gain_25776_1",
                         "gain_39088_5",
+                        "gain_1882_8"
+                    ]
+                },
+                "金山月·夕照_测试用#44117 (19600 特效 会心 破防 加速)": {
+                    "id": 44117,
+                    "name": "金山月·夕照_测试用",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 19600,
+                    "score": 58800,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8443,
+                        "weapon_damage_rand": 5629
+                    },
+                    "magic": {
+                        "vitality_base": 17934,
+                        "agility_base": 1463,
+                        "physical_attack_power_base": 7096,
+                        "physical_critical_strike_base": 10597,
+                        "physical_overcome_base": 8152,
+                        "haste_base": 4076
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_10"
+                    ]
+                },
+                "寂夜听雷#40241 (19500 特效 会心 破防 加速)": {
+                    "id": 40241,
+                    "name": "寂夜听雷",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 19500,
+                    "score": 58500,
+                    "max_strength": 8,
+                    "base": {
+                        "weapon_damage_base": 8400,
+                        "weapon_damage_rand": 5600
+                    },
+                    "magic": {
+                        "vitality_base": 17843,
+                        "agility_base": 1456,
+                        "physical_attack_power_base": 7060,
+                        "physical_critical_strike_base": 10543,
+                        "physical_overcome_base": 8110,
+                        "haste_base": 4055
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 87,
+                        "agility_base": 41,
+                        "physical_overcome_base": 321
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [
+                        "recipe_1538_1",
+                        "recipe_1539_1",
+                        "recipe_17368_1",
+                        "recipe_17239_1",
+                        "recipe_17372_1",
+                        "recipe_17371_1"
+                    ],
+                    "gains": [
+                        "",
+                        "gain_25776_1",
+                        "gain_39088_4",
                         "gain_1882_8"
                     ]
                 }

@@ -1,3 +1,6 @@
+from base.expression import Min, Variable
+
+
 def get_comments():
     levels = [1, 5, 6, 7, 8, 9, 12]
     combos = [0, 3, 8, 12, 15, 18, 20]
@@ -68,7 +71,9 @@ SKILLS = {
         4: {},
         5: {}
     },
-    6824: dict(dest_rollback_attributes=[("coming_damage_cof", 308)], dest_rollback_skills=[19435, 8491]),
+    6824: dict(dest_rollback_attributes=[(
+        "coming_damage_cof", 102.4 + 460.8 * Min(Variable("buff_32180_1"), 1) + 102.4 * Variable("buff_32180_1")
+    )], dest_rollback_skills=[19435, 8491]),
     19435: dict(comment="1-2段"), 8491: dict(comment="3段"),
     14633: dict(comment="{}0%内力"),
     37397: {1: {}},
