@@ -4945,8 +4945,11 @@
                     }
                 ],
                 "critical": {
-                    "critical_strike": "neutral_critical_strike",
-                    "critical_power": "neutral_critical_power"
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_6258_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_6258_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_6258_1"
+                    }
                 },
                 "skill_attribute": {
                     "frames": "int(222.3203598 * (1 + 0.3999999999999999 * recipe_5831_1))",
@@ -5078,8 +5081,11 @@
                     }
                 ],
                 "critical": {
-                    "critical_strike": "neutral_critical_strike",
-                    "critical_power": "neutral_critical_power"
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_5497_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_5497_1"
+                    }
                 },
                 "skill_attribute": {
                     "frames": "int(222.3203598 * (1 + 0.3999999999999999 * recipe_5832_1))",
@@ -5100,8 +5106,11 @@
                     }
                 ],
                 "critical": {
-                    "critical_strike": "neutral_critical_strike",
-                    "critical_power": "neutral_critical_power"
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_5497_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_5497_1"
+                    }
                 },
                 "skill_attribute": {
                     "frames": "int(333.4805397 * (1 + 0.3999999999999999 * recipe_5832_1))",
@@ -5122,8 +5131,11 @@
                     }
                 ],
                 "critical": {
-                    "critical_strike": "neutral_critical_strike",
-                    "critical_power": "neutral_critical_power"
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_5497_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_5497_1"
+                    }
                 },
                 "skill_attribute": {
                     "frames": "int(444.6407196 * (1 + 0.3999999999999999 * recipe_5832_1))",
@@ -5144,8 +5156,11 @@
                     }
                 ],
                 "critical": {
-                    "critical_strike": "neutral_critical_strike",
-                    "critical_power": "neutral_critical_power"
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_5497_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_5497_1"
+                    }
                 },
                 "skill_attribute": {
                     "frames": "int(555.8008995 * (1 + 0.3999999999999999 * recipe_5832_1))",
@@ -5166,8 +5181,11 @@
                     }
                 ],
                 "critical": {
-                    "critical_strike": "neutral_critical_strike",
-                    "critical_power": "neutral_critical_power"
+                    "critical_strike": "neutral_critical_strike + 2000 * recipe_5497_1 / 10000",
+                    "critical_power": "min(3,neutral_critical_power_percent + (205 * recipe_5497_1 + neutral_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                    "source_attribute": {
+                        "neutral_critical_strike_rate": "2000 * recipe_5497_1"
+                    }
                 },
                 "skill_attribute": {
                     "frames": "int(666.9610794 * (1 + 0.3999999999999999 * recipe_5832_1))",
@@ -22102,13 +22120,13 @@
                 "comment": "1-2段",
                 "damages": [
                     {
-                        "damage": "(101 + rand * 15 + physical_attack_power * 1.8687500000000001) * (1 + physical_damage_addition + (205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil((102.4 + 460.8 * min(buff_32180_1,1) + 102.4 * buff_32180_1) * belong_6824) / 1024)",
+                        "damage": "(101 + rand * 15 + physical_attack_power * 1.8687500000000001) * (1 + physical_damage_addition + (205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil((102.4 + 460.8 * min(buff_32828_1,1) + 102.4 * buff_32828_1) * belong_6824) / 1024)",
                         "source_attribute": {
                             "physical_damage_base": "101",
                             "physical_damage_rand": "15"
                         },
                         "target_attribute": {
-                            "coming_damage_cof": "ceil((102.4 + 460.8 * min(buff_32180_1,1) + 102.4 * buff_32180_1) * belong_6824)"
+                            "coming_damage_cof": "ceil((102.4 + 460.8 * min(buff_32828_1,1) + 102.4 * buff_32828_1) * belong_6824)"
                         }
                     }
                 ],
@@ -22132,13 +22150,13 @@
                 "comment": "3段",
                 "damages": [
                     {
-                        "damage": "(135 + rand * 20 + physical_attack_power * 3.34375) * (1 + physical_damage_addition + (205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil((102.4 + 460.8 * min(buff_32180_1,1) + 102.4 * buff_32180_1) * belong_6824) / 1024)",
+                        "damage": "(135 + rand * 20 + physical_attack_power * 3.34375) * (1 + physical_damage_addition + (205 * recipe_1548_1 + 51 * recipe_1541_1 + 31 * recipe_1372_1 + 41 * recipe_1373_1 + 51 * recipe_1374_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil((102.4 + 460.8 * min(buff_32828_1,1) + 102.4 * buff_32828_1) * belong_6824) / 1024)",
                         "source_attribute": {
                             "physical_damage_base": "135",
                             "physical_damage_rand": "20"
                         },
                         "target_attribute": {
-                            "coming_damage_cof": "ceil((102.4 + 460.8 * min(buff_32180_1,1) + 102.4 * buff_32180_1) * belong_6824)"
+                            "coming_damage_cof": "ceil((102.4 + 460.8 * min(buff_32828_1,1) + 102.4 * buff_32828_1) * belong_6824)"
                         }
                     }
                 ],
@@ -30828,13 +30846,13 @@
                 "comment": "主动",
                 "damages": [
                     {
-                        "damage": "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(153.6 * buff_30434_1) / 1024)",
+                        "damage": "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
                         "source_attribute": {
                             "neutral_damage_base": "60",
                             "neutral_damage_rand": "20"
                         },
                         "target_attribute": {
-                            "coming_damage_cof": "ceil(153.6 * buff_30434_1)"
+                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -30852,13 +30870,13 @@
                 "comment": "主动12尺",
                 "damages": [
                     {
-                        "damage": "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(153.6 * buff_30434_1) / 1024)",
+                        "damage": "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
                         "source_attribute": {
                             "neutral_damage_base": "90",
                             "neutral_damage_rand": "30"
                         },
                         "target_attribute": {
-                            "coming_damage_cof": "ceil(153.6 * buff_30434_1)"
+                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -31317,13 +31335,13 @@
                 "comment": "连极阵",
                 "damages": [
                     {
-                        "damage": "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(153.6 * buff_30434_1) / 1024)",
+                        "damage": "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
                         "source_attribute": {
                             "neutral_damage_base": "60",
                             "neutral_damage_rand": "20"
                         },
                         "target_attribute": {
-                            "coming_damage_cof": "ceil(153.6 * buff_30434_1)"
+                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -31341,13 +31359,13 @@
                 "comment": "12尺连极阵",
                 "damages": [
                     {
-                        "damage": "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(153.6 * buff_30434_1) / 1024)",
+                        "damage": "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
                         "source_attribute": {
                             "neutral_damage_base": "90",
                             "neutral_damage_rand": "30"
                         },
                         "target_attribute": {
-                            "coming_damage_cof": "ceil(153.6 * buff_30434_1)"
+                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],

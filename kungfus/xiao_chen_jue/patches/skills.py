@@ -72,7 +72,7 @@ SKILLS = {
         5: {}
     },
     6824: dict(dest_rollback_attributes=[(
-        "coming_damage_cof", 102.4 + 460.8 * Min(Variable("buff_32180_1"), 1) + 102.4 * Variable("buff_32180_1")
+        "coming_damage_cof", 102.4 + 460.8 * Min(Variable("buff_32828_1"), 1) + 102.4 * Variable("buff_32828_1")
     )], dest_rollback_skills=[19435, 8491]),
     19435: dict(comment="1-2段"), 8491: dict(comment="3段"),
     14633: dict(comment="{}0%内力"),

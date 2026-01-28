@@ -114,7 +114,7 @@ def get_recipe_desc(recipe_id, recipe_level):
 
 def get_event_desc(event_id):
     event_rows = READER.query("event_txts", dict(ID=event_id))
-    if not event_rows:
+    if event_rows:
         desc = event_rows[0]['Desc']
     else:
         desc = ""

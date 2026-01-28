@@ -3108,11 +3108,11 @@ BUFFS = {
                 }
             }
         },
-        32180: {
-            1: {
+        32828: {
+            5: {
                 "name": "驯致",
                 "interval": 720,
-                "max_stack": 45,
+                "max_stack": 1,
                 "max_tick": 1
             }
         },
