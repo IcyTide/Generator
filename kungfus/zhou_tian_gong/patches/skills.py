@@ -5,6 +5,7 @@ SKILLS = {
         25: dict(comment="/神门")
     },
     38438: dict(comment="{level-1}点任脉能量"),
+    38085: dict(comment="{}层绝脉"),
     37804: dict(comment="{}"),
     38016: dict(comment="1段"),
     **{

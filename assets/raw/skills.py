@@ -16048,9 +16048,135 @@ SKILLS = {
             }
         },
         38085: {
+            1: {
+                "name": "绝脉",
+                "comment": "1层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 0.546875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            2: {
+                "name": "绝脉",
+                "comment": "2层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 1.0989583333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            3: {
+                "name": "绝脉",
+                "comment": "3层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 1.6510416666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            4: {
+                "name": "绝脉",
+                "comment": "4层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 2.203125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            5: {
+                "name": "绝脉",
+                "comment": "5层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 2.755208333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            6: {
+                "name": "绝脉",
+                "comment": "6层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 3.302083333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            7: {
+                "name": "绝脉",
+                "comment": "7层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 3.8541666666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            8: {
+                "name": "绝脉",
+                "comment": "8层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 4.40625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            9: {
+                "name": "绝脉",
+                "comment": "9层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 4.958333333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            10: {
+                "name": "绝脉",
+                "comment": "10层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 5.510416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            11: {
+                "name": "绝脉",
+                "comment": "11层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 6.057291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            12: {
+                "name": "绝脉",
+                "comment": "12层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 6.609375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            13: {
+                "name": "绝脉",
+                "comment": "13层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 7.161458333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
+            14: {
+                "name": "绝脉",
+                "comment": "14层绝脉",
+                "damages": [
+                    "(20 + neutral_attack_power * 7.713541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            },
             15: {
                 "name": "绝脉",
-                "comment": "",
+                "comment": "15层绝脉",
                 "damages": [
                     "(20 + neutral_attack_power * 8.260416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
