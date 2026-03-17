@@ -11399,7 +11399,7 @@ SKILLS = {
                 "name": "照雪",
                 "comment": "",
                 "damages": [
-                    "(100 + rand * 100 + lunar_attack_power * 2.578125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                    "(100 + rand * 100 + lunar_attack_power * 1.8020833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
                 ],
                 "critical_strike": "lunar_critical_strike",
                 "critical_power": "lunar_critical_power"
@@ -11865,7 +11865,7 @@ SKILLS = {
                 "name": "惊燕式",
                 "comment": "1段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 0.9812500000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 0.9812500000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11876,7 +11876,7 @@ SKILLS = {
                 "name": "惊燕式",
                 "comment": "2段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.225 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.225 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11887,7 +11887,7 @@ SKILLS = {
                 "name": "逐鹰式",
                 "comment": "1段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 0.9812500000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 0.9812500000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11898,7 +11898,7 @@ SKILLS = {
                 "name": "逐鹰式",
                 "comment": "2段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.46875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.46875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11909,7 +11909,7 @@ SKILLS = {
                 "name": "控鹤式",
                 "comment": "1段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.225 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.225 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11920,7 +11920,7 @@ SKILLS = {
                 "name": "控鹤式",
                 "comment": "2段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.59375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.59375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11931,7 +11931,7 @@ SKILLS = {
                 "name": "起凤式",
                 "comment": "1段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.46875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.46875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11942,7 +11942,7 @@ SKILLS = {
                 "name": "起凤式",
                 "comment": "2段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.8375000000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.8375000000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11953,7 +11953,7 @@ SKILLS = {
                 "name": "腾蛟式",
                 "comment": "1段",
                 "damages": [
-                    "(80 + rand * 10 + physical_attack_power * 1.71875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(80 + rand * 10 + physical_attack_power * 1.71875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11964,7 +11964,7 @@ SKILLS = {
                 "name": "腾蛟式",
                 "comment": "2段",
                 "damages": [
-                    "(85 + rand * 15 + physical_attack_power * 1.9625000000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(85 + rand * 15 + physical_attack_power * 1.9625000000000001 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11975,7 +11975,7 @@ SKILLS = {
                 "name": "擒龙式",
                 "comment": "1段",
                 "damages": [
-                    "(90 + rand * 15 + physical_attack_power * 1.71875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(90 + rand * 15 + physical_attack_power * 1.71875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -11986,7 +11986,7 @@ SKILLS = {
                 "name": "擒龙式",
                 "comment": "2段",
                 "damages": [
-                    "(95 + rand * 15 + physical_attack_power * 2.2062500000000003 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(512 * buff_31782_1) / 1024)"
+                    "(95 + rand * 15 + physical_attack_power * 2.2062500000000003 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_4183_1 + 41 * recipe_4184_1 + 51 * recipe_4185_1 + 31 * recipe_4187_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale + ceil(307.2 * buff_31782_1) / 1024)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_4180_1 + 300 * recipe_4181_1 + 400 * recipe_4182_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -14253,239 +14253,6 @@ SKILLS = {
             }
         }
     },
-    10756: {
-        35894: {
-            1: {
-                "name": "风矢",
-                "comment": "",
-                "damages": [
-                    "(physical_attack_power * 0.15000000000000002 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 205 * recipe_1711_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36177: {
-            1: {
-                "name": "破",
-                "comment": "",
-                "damages": [
-                    "surplus * 7.421 * 0.3600006103515625 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36157: {
-            1: {
-                "name": "标鹄",
-                "comment": "",
-                "damages": [
-                    "(30 + rand * 20 + physical_attack_power * 3.4562500000000003) * (1 + physical_damage_addition + 52 * recipe_5461_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition + 338 * recipe_5422_1 / 1024) * (1 + physical_damage_scale + ceil(205 * buff_31940_1) / 1024)"
-                ],
-                "critical_strike": "physical_critical_strike + 500 * recipe_5463_1 / 10000",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36579: {
-            1: {
-                "name": "劲风簇·神兵",
-                "comment": "",
-                "damages": [
-                    "(rand * 2 + physical_attack_power * 0.375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36580: {
-            1: {
-                "name": "月弦激星",
-                "comment": "",
-                "damages": [
-                    "(rand * 2 + physical_attack_power * 2.36875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        35866: {
-            15: {
-                "name": "劲风簇",
-                "comment": "",
-                "damages": [
-                    "(333 + rand * 5 + physical_attack_power * 1.15625 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (1536 * recipe_5384_1 + 20 * recipe_5408_1 + 31 * recipe_5409_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike + (300 * recipe_5394_1 + 400 * recipe_5407_1) / 10000",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36004: {
-            15: {
-                "name": "霖集簇",
-                "comment": "",
-                "damages": [
-                    "(285 + rand * 10 + physical_attack_power * 1.64375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (20 * recipe_5412_1 + 31 * recipe_5413_1 + 41 * recipe_5431_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike + (300 * recipe_5410_1 + 400 * recipe_5411_1 + 500 * recipe_5430_1) / 10000",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        39092: {
-            15: {
-                "name": "饮羽簇",
-                "comment": "",
-                "damages": [
-                    "(732 + rand * 10 + physical_attack_power * 2.4937500000000004 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition + (102 * recipe_5438_1 + 52 * recipe_5462_1 + 20 * recipe_5416_1 + 31 * recipe_5417_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike + (300 * recipe_5414_1 + 400 * recipe_5415_1) / 10000",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36111: {
-            11: {
-                "name": "攻击",
-                "comment": "狼(x3)",
-                "damages": [
-                    "(296 + rand * 20 + physical_attack_power * 1.8062500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36056: {
-            11: {
-                "name": "践踏",
-                "comment": "大象",
-                "damages": [
-                    "(296 + rand * 20 + physical_attack_power * 3.98125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36057: {
-            11: {
-                "name": "重击",
-                "comment": "野猪",
-                "damages": [
-                    "(296 + rand * 20 + physical_attack_power * 1.8062500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36112: {
-            11: {
-                "name": "攻击",
-                "comment": "虎",
-                "damages": [
-                    "(296 + rand * 20 + physical_attack_power * 5.43125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36113: {
-            11: {
-                "name": "攻击",
-                "comment": "鹰",
-                "damages": [
-                    "(296 + rand * 20 + physical_attack_power * 3.98125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36114: {
-            11: {
-                "name": "攻击",
-                "comment": "熊",
-                "damages": [
-                    "(296 + rand * 20 + physical_attack_power * 1.08125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36022: {
-            11: {
-                "name": "归平野·一",
-                "comment": "1段(6)帧",
-                "damages": [
-                    "(740 + rand * 10 + physical_attack_power * 1.1875) * (1 + physical_damage_addition + (512 * recipe_5377_1 + 204 * recipe_6084_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36023: {
-            11: {
-                "name": "归平野·二",
-                "comment": "2段(22)帧",
-                "damages": [
-                    "(1480 + rand * 10 + physical_attack_power * 1.78125) * (1 + physical_damage_addition + (512 * recipe_5377_1 + 204 * recipe_6084_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36024: {
-            11: {
-                "name": "汇山岚",
-                "comment": "",
-                "damages": [
-                    "(666 + rand * 10 + physical_attack_power * 2.5812500000000003) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        40347: {
-            1: {
-                "name": "聚势摧霆",
-                "comment": "",
-                "damages": [
-                    "(35 + rand * 5 + physical_attack_power * 1.81875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (pve_damage_addition + 3.650390625) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        36173: {
-            4: {
-                "name": "白虹贯日",
-                "comment": "",
-                "damages": [
-                    "(37 + rand * 5 + physical_attack_power * 8.700000000000001 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        40717: {
-            1: {
-                "name": "于狩",
-                "comment": "",
-                "damages": [
-                    "(30 + rand * 20 + physical_attack_power * 1.875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        },
-        40329: {
-            1: {
-                "name": "狩印",
-                "comment": "",
-                "damages": [
-                    "(35 + rand * 5 + physical_attack_power * 1.16875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                ],
-                "critical_strike": "physical_critical_strike",
-                "critical_power": "physical_critical_power"
-            }
-        }
-    },
     10698: {
         32974: {
             1: {
@@ -15063,6 +14830,239 @@ SKILLS = {
                 "comment": "",
                 "damages": [
                     "(35 + rand * 5 + physical_attack_power * 0.2) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        }
+    },
+    10756: {
+        35894: {
+            1: {
+                "name": "风矢",
+                "comment": "",
+                "damages": [
+                    "(physical_attack_power * 0.15000000000000002 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 205 * recipe_1711_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36177: {
+            1: {
+                "name": "破",
+                "comment": "",
+                "damages": [
+                    "surplus * 7.421 * 0.3600006103515625 * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36157: {
+            1: {
+                "name": "标鹄",
+                "comment": "",
+                "damages": [
+                    "(30 + rand * 20 + physical_attack_power * 3.4562500000000003) * (1 + physical_damage_addition + 52 * recipe_5461_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition + 338 * recipe_5422_1 / 1024) * (1 + physical_damage_scale + ceil(205 * buff_31940_1) / 1024)"
+                ],
+                "critical_strike": "physical_critical_strike + 500 * recipe_5463_1 / 10000",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36579: {
+            1: {
+                "name": "劲风簇·神兵",
+                "comment": "",
+                "damages": [
+                    "(rand * 2 + physical_attack_power * 0.375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36580: {
+            1: {
+                "name": "月弦激星",
+                "comment": "",
+                "damages": [
+                    "(rand * 2 + physical_attack_power * 3.31875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        35866: {
+            15: {
+                "name": "劲风簇",
+                "comment": "",
+                "damages": [
+                    "(333 + rand * 5 + physical_attack_power * 1.15625 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (1536 * recipe_5384_1 + 20 * recipe_5408_1 + 31 * recipe_5409_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike + (300 * recipe_5394_1 + 400 * recipe_5407_1) / 10000",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36004: {
+            15: {
+                "name": "霖集簇",
+                "comment": "",
+                "damages": [
+                    "(285 + rand * 10 + physical_attack_power * 1.64375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (20 * recipe_5412_1 + 31 * recipe_5413_1 + 41 * recipe_5431_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike + (300 * recipe_5410_1 + 400 * recipe_5411_1 + 500 * recipe_5430_1) / 10000",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        39092: {
+            15: {
+                "name": "饮羽簇",
+                "comment": "",
+                "damages": [
+                    "(732 + rand * 10 + physical_attack_power * 2.4937500000000004 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition + (102 * recipe_5438_1 + 52 * recipe_5462_1 + 20 * recipe_5416_1 + 31 * recipe_5417_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike + (300 * recipe_5414_1 + 400 * recipe_5415_1) / 10000",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36111: {
+            11: {
+                "name": "攻击",
+                "comment": "狼(x3)",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 1.8062500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36056: {
+            11: {
+                "name": "践踏",
+                "comment": "大象",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 3.98125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36057: {
+            11: {
+                "name": "重击",
+                "comment": "野猪",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 1.8062500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36112: {
+            11: {
+                "name": "攻击",
+                "comment": "虎",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 5.43125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36113: {
+            11: {
+                "name": "攻击",
+                "comment": "鹰",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 3.98125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36114: {
+            11: {
+                "name": "攻击",
+                "comment": "熊",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 1.08125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36022: {
+            11: {
+                "name": "归平野·一",
+                "comment": "1段(6)帧",
+                "damages": [
+                    "(740 + rand * 10 + physical_attack_power * 1.1875) * (1 + physical_damage_addition + (512 * recipe_5377_1 + 204 * recipe_6084_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36023: {
+            11: {
+                "name": "归平野·二",
+                "comment": "2段(22)帧",
+                "damages": [
+                    "(1480 + rand * 10 + physical_attack_power * 1.78125) * (1 + physical_damage_addition + (512 * recipe_5377_1 + 204 * recipe_6084_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36024: {
+            11: {
+                "name": "汇山岚",
+                "comment": "",
+                "damages": [
+                    "(666 + rand * 10 + physical_attack_power * 2.5812500000000003) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        40347: {
+            1: {
+                "name": "聚势摧霆",
+                "comment": "",
+                "damages": [
+                    "(35 + rand * 5 + physical_attack_power * 1.81875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (pve_damage_addition + 3.650390625) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        36173: {
+            4: {
+                "name": "白虹贯日",
+                "comment": "",
+                "damages": [
+                    "(37 + rand * 5 + physical_attack_power * 8.700000000000001 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        40717: {
+            1: {
+                "name": "于狩",
+                "comment": "",
+                "damages": [
+                    "(30 + rand * 20 + physical_attack_power * 1.875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        40329: {
+            1: {
+                "name": "狩印",
+                "comment": "",
+                "damages": [
+                    "(35 + rand * 5 + physical_attack_power * 1.16875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"

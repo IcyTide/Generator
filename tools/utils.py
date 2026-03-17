@@ -98,7 +98,8 @@ def set_patches(instance, patch_map, key, sub_key):
     instance.levels = levels
 
 
-BASE_DIR = "../jx3-package"
+# BASE_DIR = "../jx3-package"
+BASE_DIR = "../JX3Tabs"
 SAVE_DIR = "assets/raw"
 JSON_DIR = "assets/json"
 

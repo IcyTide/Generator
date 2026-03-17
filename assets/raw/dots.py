@@ -2301,30 +2301,6 @@ DOTS = {
             }
         }
     },
-    10756: {
-        26856: {
-            1: {
-                "name": "贯穿(DOT)",
-                "comment": "",
-                "interval": "8",
-                "max_stack": 6,
-                "max_tick": 4,
-                "skills": {
-                    35771: {
-                        6: {
-                            "name": "",
-                            "comment": "",
-                            "damages": [
-                                "(32 + physical_attack_power * 0.23750000000000002) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
-                            ],
-                            "critical_strike": "physical_critical_strike",
-                            "critical_power": "physical_critical_power"
-                        }
-                    }
-                }
-            }
-        }
-    },
     10698: {
         24132: {
             17: {
@@ -2395,6 +2371,30 @@ DOTS = {
                             "comment": "",
                             "damages": [
                                 "(102 + physical_attack_power * 0.34375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                            ],
+                            "critical_strike": "physical_critical_strike",
+                            "critical_power": "physical_critical_power"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    10756: {
+        26856: {
+            1: {
+                "name": "贯穿(DOT)",
+                "comment": "",
+                "interval": "8",
+                "max_stack": 6,
+                "max_tick": 4,
+                "skills": {
+                    35771: {
+                        6: {
+                            "name": "",
+                            "comment": "",
+                            "damages": [
+                                "(32 + physical_attack_power * 0.23750000000000002) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                             ],
                             "critical_strike": "physical_critical_strike",
                             "critical_power": "physical_critical_power"

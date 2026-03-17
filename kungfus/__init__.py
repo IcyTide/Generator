@@ -53,8 +53,8 @@ SUPPORT_KUNGFUS: list[Kungfu] = [
     Kungfu(tai_xuan_jing),
     Kungfu(ling_su),
     Kungfu(wu_fang),
-    Kungfu(shan_hai_xin_jue),
     Kungfu(gu_feng_jue),
+    Kungfu(shan_hai_xin_jue),
     Kungfu(zhou_tian_gong),
     Kungfu(you_luo_yin),
 
