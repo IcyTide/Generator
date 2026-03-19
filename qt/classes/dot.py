@@ -48,7 +48,7 @@ class Dot:
         return f"{self.dot_id}-{self.dot_level}"
 
     def copy(self):
-        dot = Dot(self.belong, self.dot_id,  self.dot_level, self.count, **self.kwargs)
+        dot = Dot(self.belong, self.dot_id, self.dot_level, self.count, **self.kwargs)
         dot.source = self.source.copy()
         dot.consume_tick = self.consume_tick
         dot.current_tick = self.current_tick

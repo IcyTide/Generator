@@ -10,7 +10,7 @@ class Buff(AliasBase):
     txt = buff_txts
     id_column = "BuffID"
     _aliases = {
-        "Name": "buff_name",
+        "Name": "alias_name",
         "Level": "buff_level",
         "MaxStackNum": "max_stack",
         "Count": "max_tick"
@@ -46,16 +46,22 @@ class Buff(AliasBase):
     def __init__(self, buff_id: int, buff_level: int = 0, patches: dict = None):
         self.buff_id = buff_id
         self.attributes, self.recipes, self.skills = [], [], []
-        setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
-        self.max_level = setting_rows["Level"].max()
-        if buff_level:
-            self.buff_level = buff_level
-            setting_row = setting_rows[setting_rows["Level"] == self.buff_level].iloc[0]
-            for k, v in setting_row.items():
-                setattr(self, k, v)
-            self.get_attributes(self.attributes_prefix)
-            self.buff_key = Variable(get_variable("buff", self.buff_id, self.buff_level))
+        if buff_id < 100:
+            self.max_level, self.levels = 1, []
+            if buff_level:
+                self.buff_level = buff_level
+                self.max_stack = self.max_tick = self.interval = 1
+        else:
+            setting_rows = buff_settings[buff_settings['ID'] == self.buff_id]
+            self.max_level, self.levels = setting_rows["Level"].max(), []
+            if buff_level:
+                self.buff_level = buff_level
+                setting_row = setting_rows[setting_rows["Level"] == self.buff_level].iloc[0]
+                for k, v in setting_row.items():
+                    setattr(self, k, v)
+                self.get_attributes(self.attributes_prefix)
 
+        self.buff_key = Variable(get_variable("buff", self.buff_id, self.buff_level))
         self.patches = patches if patches else {}
         set_patches(self, self.patches, buff_id, buff_level)
 

@@ -32,7 +32,6 @@ class AttributeDialog(QDialog):
                 snapshot_layout.addWidget(LabelRow("秘籍:", QLabel(recipe)))
             toolbox.addItem(snapshot_page, "快照秘籍")
 
-
     @staticmethod
     def display_attribute(layout: QVBoxLayout, attribute: Attribute):
         major = f"{attribute.base_major}/{attribute.major}"

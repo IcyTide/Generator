@@ -15,6 +15,7 @@ class Skill(AliasBase):
     txt = skill_txts
     id_column = "SkillID"
     _aliases = {
+        "SkillName": "alias_name",
         "dwSkillID": "skill_id",
         "dwLevel": "skill_level",
         "nHeight": "zero",
@@ -26,7 +27,6 @@ class Skill(AliasBase):
     }
     skill_id: int
     skill_level: int = 0
-    skill_name: str
 
     max_level: int
     kind_type: str | SKILL_KIND_TYPE
@@ -59,6 +59,7 @@ class Skill(AliasBase):
 
     custom_damage_base: int = 0
     custom_damage_type: SKILL_KIND_TYPE = ""
+    custom_damage_source: int = 0
 
     interval: int = 0
     tick: int = 1
@@ -73,13 +74,17 @@ class Skill(AliasBase):
     def level(self):
         return self.skill_level
 
+    @property
+    def is_custom_damage(self):
+        return self.custom_damage_base or self.custom_damage_source
+
     def __init__(self, skill_id: int, skill_level: int = 0, patches: dict = None):
         self.skill_id = skill_id
         self.skill_level = skill_level
         setting_row = skill_settings[skill_settings['SkillID'] == self.skill_id].iloc[0]
         for k, v in setting_row.items():
             setattr(self, k, v)
-        self.max_level = max(1, self.max_level)
+        self.max_level, self.levels = max(1, self.max_level), []
         self.kind_type = SKILL_KIND_TYPE[camel_to_capital(self.kind_type)] if self.kind_type else None  # noqa
         self.self_rollback_attributes, self.dest_rollback_attributes = [], []
         self.self_attributes, self.dest_attributes = [], []
@@ -182,7 +187,7 @@ class Skill(AliasBase):
         for attr, param in self.dest_rollback_attributes:
             target[attr] += param
         # self not rollback attributes no meaning
-        if self.custom_damage_base:
+        if self.is_custom_damage:
             target.custom_damage_call()
         else:
             for attr, param in self.dest_attributes:

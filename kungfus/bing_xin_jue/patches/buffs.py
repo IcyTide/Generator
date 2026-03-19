@@ -10,5 +10,6 @@ BUFFS: dict[int, dict] = {
     25435: {2: {}},
     30273: dict(name="霜降", comment="{level-1}层剑舞"),
     30274: dict(name="新妆霜降", comment="{level-1}层剑舞"),
-    12571: dict(name="朝露")
+    12571: dict(name="朝露"),
+    1: dict(name="玉素", attributes=[("coming_damage_cof", 1024)], skills=[6559])
 }

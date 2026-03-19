@@ -11,11 +11,11 @@ BUFFS: dict[int, dict] = {
         2: dict(comment="裂云")
     },
     2757: {
-        1: dict(comment="原始"),
+        1: dict(comment="原始/无为"),
         2: dict(comment="若水"),
-        3: dict(comment="固本"),
-        4: dict(comment="无为"),
-        5: dict(comment="无欲")
+        5: dict(comment="无欲"),
+        6: dict(comment="负阴"),
+        7: dict(comment="无欲+负阴")
     },
     29451: dict(attributes=[("coming_damage_cof", 512)], skills=[4954]),
     30766: dict(attributes=[("coming_damage_cof", 307.2)], skills=[21979]),

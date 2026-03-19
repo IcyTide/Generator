@@ -1,8 +1,8 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        38773: dict(skills=[38773]),
+        38773: dict(skills=[38776]),
         23971: dict(skills=[24165, 24166]),
-        25304: {},
+        44545: dict(skills=[44545]),
         29166: dict(skills=[29751, 40156])
     },
     {
@@ -13,7 +13,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         22571: dict(skills=[34981]),
-        22573: {},
+        22582: dict(skills=[22702]),
         22973: {},
         42419: {}
     },
@@ -21,7 +21,7 @@ TALENTS: list[dict[int, dict]] = [
         26760: dict(skills=[25314]),
         22568: {},
         40161: {},
-        40173: {}
+        40173: dict(buffs=[1])
     },
     {
         42416: {},
@@ -30,14 +30,8 @@ TALENTS: list[dict[int, dict]] = [
         22574: {}
     },
     {
-        22579: {},
-        23480: {},
-        22581: {},
-        22582: dict(skills=[22702])
-    },
-    {
         22603: dict(skills=[22761]),
-        29173: dict(skills=[37389]),
+        44543: {},
         22602: dict(skills=[42924]),
         42429: {}
     },
@@ -46,13 +40,13 @@ TALENTS: list[dict[int, dict]] = [
         25310: dict(skills=[25311, 25312]),
         22975: dict(buffs=[15845]),
         22564: {},
-        22591: {},
+        22591: dict(buffs=[15621]),
         40164: dict(skills=[40287]),
         22587: dict(buffs=[15893]),
         30849: dict(buffs=[21588]),
         22580: {},
         22595: {},
         22596: dict(buffs=[15932]),
-        22586: {}
+        23480: {}
     },
 ]

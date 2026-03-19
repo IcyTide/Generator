@@ -17,7 +17,7 @@ class Kungfu:
 
     gear_attributes: dict[str, int] = {}
     gear_recipes: list[str] = []
-    gear_gains: list[GearGain] = {}
+    gear_gains: list[GearGain] = []
 
     build_attributes: dict[str, int] = {}
     build_recipes: list[str] = []

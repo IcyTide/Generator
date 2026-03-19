@@ -48,9 +48,15 @@ def bottom_attribute(self: "GearGain", attribute: Attribute):
 def belt_attribute(self: "GearGain", attribute: Attribute):
     buff_id = self.buffs[0]
     buff_level_bias = (self.gain_level - 1) * 3
-    add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute, 1 / 3)
-    add_buff_to_attribute(buff_id, 2 + buff_level_bias, attribute, 1 / 3)
-    add_buff_to_attribute(buff_id, 3 + buff_level_bias, attribute, 1 / 3)
+    if buff_level_bias <= 2:
+        add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute, 1 / 3)
+        add_buff_to_attribute(buff_id, 2 + buff_level_bias, attribute, 1 / 3)
+        add_buff_to_attribute(buff_id, 3 + buff_level_bias, attribute, 1 / 3)
+    else:
+        if attribute.overcome_base <= attribute.critical_strike_base:
+            add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute)
+        else:
+            add_buff_to_attribute(buff_id, 2 + buff_level_bias, attribute)
 
 
 def hat_attribute(self: "GearGain", attribute: Attribute):

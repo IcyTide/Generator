@@ -159,4 +159,3 @@ class BuildScript:
         self.kungfu.build_attributes = attributes
         self.kungfu.build_recipes = recipes
         self.kungfu.talents = talents
-

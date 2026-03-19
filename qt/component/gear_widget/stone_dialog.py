@@ -52,7 +52,7 @@ class StoneDialog(QDialog):
         if stone:
             node = self.stone_data
             for attr, attr_combo in zip(stone.attributes, self.attr_combos):
-                translates, _  = get_translates(node)
+                translates, _ = get_translates(node)
                 attr_combo.setCurrentText(translates[attr])
                 node = node[attr]
             self.level_combo.setCurrentText(str(stone.level))

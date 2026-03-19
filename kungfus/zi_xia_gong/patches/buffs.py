@@ -9,13 +9,12 @@ BUFFS: dict[int, dict] = {
     1908: {1: {}},
     2757: {
         1: dict(comment="原始"),
-        2: dict(comment="若水"),
         3: dict(comment="固本"),
-        4: dict(comment="无为"),
-        5: dict(comment="无欲")
+        6: dict(comment="抱阳"),
+        8: dict(comment="固本+抱阳")
     },
     30137: {1: {}},
-    31729: dict(name="洞渊", comment="{}"),
+    31729: dict(name="洞渊", comment="{}层"),
     9966: dict(name="同尘", comment="{}"),
     **{
         buff_id: dict(name="跬步", comment=comment + "{}")

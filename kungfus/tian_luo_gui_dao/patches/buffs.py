@@ -4,7 +4,7 @@ BUFFS: dict[int, dict] = {
         2: dict(comment="原始"),
         3: dict(comment="天幕藏锋")
     },
-31800: dict(name="暗藏杀机连续命中"),
+    31800: dict(name="暗藏杀机连续命中"),
     3221: {
         1: dict(comment="原始"),
         2: dict(comment="千秋万劫"),
@@ -13,5 +13,5 @@ BUFFS: dict[int, dict] = {
     },
     23081: dict(name="擘两分星", comment="低于80"), 23082: dict(name="擘两分星", comment="高于20"),
     29361: {1: dict(attributes=[("coming_damage_cof", 102.4)], skills=[3401, 3404, 31026, 31027, 26900])},
-    24668: dict(name="杀机断魂")
+    24668: dict(name="杀机断魂", comment="10%")
 }

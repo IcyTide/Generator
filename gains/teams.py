@@ -20,6 +20,7 @@ GAINS: dict[int, dict] = {
     3985: dict(buffs=[4246]),
     14678: dict(buffs=[4246]),
     13050: dict(buffs=[8248]),
+    44566: dict(buffs=[8248]),
     13422: dict(buffs=[8504]),
     15072: dict(buffs=[10031]),
     18819: dict(buffs=[23543]),  # 16911

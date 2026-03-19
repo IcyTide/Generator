@@ -11,7 +11,7 @@ SKILLS = {
         1: dict(comment="浮空"),
         2: dict(comment="")
     },
-    30503: {i + 1: dict(comment=f"{i + 1}段") for i in range(2)},
+    30503: {1: {}},
     20605: dict(comment="1段"),
     20632: dict(comment="2段"),
     36417: {

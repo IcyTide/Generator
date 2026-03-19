@@ -60,3 +60,6 @@ class Engine(BaseEngine):
         if func := self.engine.globals().GetSkillRecipeData:
             return func(skill, recipe_id, recipe_level)
         return None
+
+    def get_custom_damages(self):
+        return [e['nDamageBase'] for e in self.engine.globals()['tSkillData'].values()]

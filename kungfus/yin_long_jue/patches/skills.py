@@ -18,8 +18,5 @@ SKILLS = {
         3: dict(comment="4段")
     },
     24166: dict(comment="3段"),
-    40173: dict(
-        dest_rollback_attributes=[("coming_damage_cof", 308)], dest_rollback_skills=[22489, 22490, 22553, 22554]
-    ),
     25311: dict(comment="1段"), 25312: dict(comment="2段")
 }

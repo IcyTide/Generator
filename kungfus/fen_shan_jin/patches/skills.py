@@ -17,8 +17,11 @@ SKILLS = {
         1: dict(comment="原始盾舞"),
         2: dict(comment="惊涌盾舞")
     },
-    36065: {1: {}},
+    41738: dict(comment="崩血"),
+    36065: {1: {}}, 36482: {1: dict(comment="原始"), 2: dict(comment="血怒")},
     13143: dict(comment="流血"), 13144: dict(comment="原始"),
-    41737: dict(comment="登锋"), 41738: dict(comment="崩血+登锋"),
-    **{skill_id: {1: dict(comment=f"{i + 1}段")} for i, skill_id in enumerate([30925, 30926, 30857])}
+    41737: dict(comment="崩血+登锋"),
+    **{skill_id: {1: dict(comment=f"{i + 1}段")} for i, skill_id in enumerate([30925, 30926, 30857])},
+    25215: {i + 1: dict(comment=f"{i * 50}点额外怒气") for i in range(3)},
+    33097: dict(comment="{}层流血")
 }

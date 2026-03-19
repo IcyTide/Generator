@@ -1,5 +1,4 @@
 from tools.classes.buff import Buff
-from tools.classes.skill import Skill
 
 
 class Dot(Buff):

@@ -36,6 +36,7 @@ TRANSLATE_MAP = {
     "toughness": "御劲"
 }
 
+
 def get_translates(names: list | dict):
     translates = {}
     for name in names:
