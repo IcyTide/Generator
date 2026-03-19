@@ -1,6 +1,5 @@
 import json
 
-
 STONES = json.load(open("assets/json/stones.json", encoding="utf-8"))
 EQUIPMENT_BY_POSITIONS = {
     0: "weapon_settings",

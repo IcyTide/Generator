@@ -26,14 +26,15 @@ SKILLS = {
         3: dict(comment="2段(PVP)")
     },
     42456: dict(comment="{}层"),
-    42520: {
-        1: dict(comment="PVP"), 
-        2: dict(comment="PVE")
-    },
     28815: {
         2: dict(comment="连极阵"),
         3: dict(comment="12尺连极阵")
     },
-    25031: dict(comment="焚如")
+    25150: dict(dest_rollback_attributes=[("coming_damage_cof", 614.4)]),
+    25031: dict(comment="焚如"),
+    42520: {
+        1: dict(comment="PVP"),
+        2: dict(comment="PVE")
+    }
 
 }

@@ -88,18 +88,18 @@ def set_patches(instance, patch_map, key, sub_key):
         for _, field, _, _ in formatter.parse(instance.comment):
             if not field:
                 continue
-            args[field] = eval(field, dict(level=sub_key))
+            args[field] = eval(field, dict(level=sub_key, alias=instance.alias_name))
         if args:
             instance.comment = instance.comment.format(**args)
         else:
             instance.comment = instance.comment.format(sub_key)
     if not levels:
         levels = [instance.max_level]
-    instance.levels = levels
+    if not instance.levels:
+        instance.levels = levels
 
 
-# BASE_DIR = "../jx3-package"
-BASE_DIR = "../JX3Tabs"
+BASE_DIR = "../jx3-package"
 SAVE_DIR = "assets/raw"
 JSON_DIR = "assets/json"
 

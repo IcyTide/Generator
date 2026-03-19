@@ -388,7 +388,7 @@ class DamageChain(DamageCallChain, SurplusCallChain):
             return {}
         self.source.critical_type = self.skill.kind_type
         self.init_critical()
-        if self.skill.custom_damage_base or not self.source.critical_type:
+        if self.skill.is_custom_damage or not self.source.critical_type:
             critical_strike, critical_power = 0, 0
         else:
             critical_strike = self.cal_critical_strike()

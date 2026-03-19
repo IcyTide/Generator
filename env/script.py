@@ -1,6 +1,0 @@
-class Script:
-    def apply(self):
-        ...
-
-    def unapply(self):
-        ...

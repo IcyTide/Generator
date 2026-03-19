@@ -54,4 +54,3 @@ class CacheDialog(QDialog):
         for item in selected_items:
             item = item.text()
             self.need_content[kungfu][item] = self.cache_content[kungfu][item]
-

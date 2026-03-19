@@ -5,5 +5,8 @@ BUFFS: dict[int, dict] = {
         for i, buff_id in enumerate([15927, 15928, 15929])
     },
     15896: dict(name="飞琼"),
+    1: dict(name="反斩杀", comment=">50%", attributes=[("coming_damage_cof", 308)],
+            skills=[22489, 22490, 22553, 22554]),
+    15621: {4: {}},
     21588: dict(name="孤路", comment="{}次递增")
 }

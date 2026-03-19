@@ -4,7 +4,6 @@ from qt.classes.gear import Enchant, Gear, Gears, Stone
 from tools.generate import *
 
 
-
 class ExtraGear(Gear):
     id: int = 0
     temp_enchant: Enchant = None

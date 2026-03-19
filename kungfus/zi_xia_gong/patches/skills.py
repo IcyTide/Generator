@@ -18,16 +18,11 @@ SKILLS = {
         for i, skill_id in enumerate([3439, 3440, 3441, 3442, 3443, 3444, 3445, 3446, 3447, 3448])
     },
     **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([18649, 18650, 18651, 18652, 18653])},
-    22014: {
-        1: dict(comment="原始"),
-        2: dict(comment="万物")
-    },
-    40158: dict(comment="{level+10}豆"),
+    22014: {1: {}},
     28590: {
         1: dict(comment="连续命中"),
         2: dict(comment="首次")
     },
-    21860: dict(comment="自化"),
     36102: {
         1: dict(comment="原始"),
         2: dict(comment="70%血量以上")

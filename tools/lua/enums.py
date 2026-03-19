@@ -90,19 +90,19 @@ class MOVE_STATE(IntEnum):
     ON_JUMP = 4
 
     ON_SIT = 8
-    ON_KNOCKED_DOWN = 9 # 击倒
+    ON_KNOCKED_DOWN = 9  # 击倒
 
-    ON_HALT = 12 # 眩晕
-    ON_FREEZE = 13 # 定身
-    ON_ENTRAP = 14 # 锁足
+    ON_HALT = 12  # 眩晕
+    ON_FREEZE = 13  # 定身
+    ON_ENTRAP = 14  # 锁足
 
-    ON_DEATH = 16 # 死亡
-    ON_DASH = 17 # 冲刺
-    ON_PULL = 18 # 被拉
-    ON_KNOCKED_BACK = 20 # 被击退
-    ON_REPULSED = 21 # 被击退
+    ON_DEATH = 16  # 死亡
+    ON_DASH = 17  # 冲刺
+    ON_PULL = 18  # 被拉
+    ON_KNOCKED_BACK = 20  # 被击退
+    ON_REPULSED = 21  # 被击退
 
-    ON_BE_HIT = 27 # 被击僵直
+    ON_BE_HIT = 27  # 被击僵直
 
 
 class ATTRIBUTE_EFFECT_MODE(IntEnum):
@@ -178,12 +178,16 @@ class ATTRIBUTE_TYPE(StrEnum):
     REVIVE = ""
     SILENCE = ""
     IMMUNITY = ""
+    IMMORTAL = ""
+    PULL_RATE = ""
     BEAT_BACK_RATE = ""
     KNOCKED_DOWN_RATE = ""
     KNOCKED_BACK_RATE = ""
+    SET_HIT_REDUCE_RATE = ""
     REPULSED_RATE = ""
     IMMUNITY_COMBO = ""
     IMMUNITY_COMBO_ALL = ""
+    IMMUNE_SKILL_MOVE = ""
 
     # Absorb Attribute
     REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""
@@ -219,8 +223,12 @@ class ATTRIBUTE_TYPE(StrEnum):
     CURRENT_ENERGY = ""
     MAX_ENERGY = ""
     ENERGY_REPLENISH = ""
+    MAX_QI_ENERGY = ""
+    QI_ENERGY_REPLENISH = ""
     MODIFY_COST_ENERGY_PERCENT = ""
     DISBLE_SCRIPT_SET_ENERGY = ""
+    MAX_QI_CONTROL_COUNT = ""
+    STOP_MAKE_QI_CONTROL_CANCEL = ""
     ACCUMULATE = ""
     MAX_ACCUMULATE_VALUE = ""
     CURRENT_SUN_ENERGY = ""
@@ -513,6 +521,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     VITALITY_TO_PHYSICS_OVER_COME_COF = "vitality_to_physical_overcome"
     VITALITY_TO_MAGIC_OVER_COME_COF = "vitality_to_magical_overcome"
     VITALITY_TO_MAGIC_CRITICAL_STRIKE_COF = "vitality_to_magical_critical_strike"
+
 
 class BUFF_COMPARE_FLAG(IntEnum):
     EQUAL = auto()

@@ -10,7 +10,6 @@ def get_damage():
 
 
 SKILLS = {
-    # Belongs
     # Gear
     40788: dict(name="输出护手特效"),
     42895: dict(name="英雄防御护手特效"),
@@ -55,55 +54,23 @@ SKILLS = {
     102268: dict(name="江湖行侠阵"),
 
     # Damages
-    40789: {
-        1: dict(custom_damage_base=403200),
-        2: dict(custom_damage_base=601965)
-    },
-    42898: {
-        1: dict(custom_damage_base=458640)
-    },
-    41069: {
-        1: dict(custom_damage_base=352800)
-    },
-    41073: {
-        1: dict(custom_damage_base=Variable("max_life") * 0.065)
-    },
-    42837: {
-        # 12跳(9232)15跳(19285)17跳(30158)22跳(42057)
-        1: dict(custom_damage_base=141600),
-    },
-    38966: {
-        1: dict(custom_damage_base=86500),
-        2: dict(custom_damage_base=90000),
-        3: dict(custom_damage_base=320423),
-        4: dict(custom_damage_base=345600),
-        5: dict(custom_damage_base=475043),
-        6: dict(custom_damage_base=515970),
-    },
-    37562: {
-        1: dict(custom_damage_base=244355),
-        2: dict(custom_damage_base=281280),
-        3: dict(custom_damage_base=748100),
-        4: dict(custom_damage_base=1276500)
-    },
-    37561: {
-        1: dict(custom_damage_base=162903),
-        2: dict(custom_damage_base=187520),
-        3: dict(custom_damage_base=498800),
-        4: dict(custom_damage_base=851000)
-    },
-    22151: dict(comment="{}"),
-    38787: {
-        1: dict(custom_damage_base=800000),
-        2: dict(custom_damage_base=400000),
-        3: dict(custom_damage_base=920000),
-        4: dict(custom_damage_base=460000),
-        5: dict(custom_damage_base=1104000),
-        6: dict(custom_damage_base=552000)
-    },
-    29532: {
-        1: dict(custom_damage_base=get_damage(), custom_damage_type="poison")
-    },
+    40789: dict(levels=[1, 2, 3], custom_damage_source=40788),
+    41069: dict(levels=[1], custom_damage_source=41062),
+    42898: dict(levels=[1, 2], custom_damage_source=42897),
+
+    41073: dict(levels=[1, 2, 3], custom_damage_base=Variable("max_life") * 0.065),
+
+    42837: dict(levels=[1, 2], custom_damage_source=42768),
+    38966: dict(levels=[4, 5, 6, 7, 8], custom_damage_source=38950),
+    37562: dict(levels=[3, 4, 5], custom_damage_source=38984),
+    37561: dict(levels=[3, 4, 5], custom_damage_source=38985),
+    22151: dict(levels=[15, 16, 17]),
+    38787: dict(
+        levels=[3, 4, 5, 6, 7, 8], comment="{(level+1)//2}级{'精准反击'if level%2 else ''}",
+        custom_damage_source=38787
+    ),
+    29532: dict(levels=[1], custom_damage_base=get_damage(), custom_damage_type="poison"),
+
     23104: {24: {}},
     23107: {24: {}},
     23177: {4: {}},

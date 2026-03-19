@@ -6,7 +6,7 @@ from extra.gear import ExtraGears
 
 def main(info):
     # gears = ExtraGears.from_item(info) # stone in item_id
-    gears = ExtraGears.from_enchant(info) # stone in enchant_id
+    gears = ExtraGears.from_enchant(info)  # stone in enchant_id
     if kungfu_info := gears.kungfu_info:
         attribute = ExtraAttribute(*kungfu_info)
         attributes, _, _ = gears.content

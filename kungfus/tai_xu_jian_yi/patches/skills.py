@@ -22,6 +22,7 @@ SKILLS = {
     18528: dict(comment="{}"),
     21979: dict(comment="{}"),
     40752: {1: {}, 2: {}},
+    44586: dict(comment="{}"),
     42061: dict(comment="{}层叠刃"),
     30828: dict(comment="{}层"),
 }

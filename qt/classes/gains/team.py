@@ -13,7 +13,8 @@ TEAM_GAINS = {
 
 GAIN_PRIORITY = dict(
     劲风=2,
-    圣浴明心=2
+    圣浴明心=2,
+    戍边=2
 )
 """
 Buff to Attribute Funcs
@@ -45,10 +46,20 @@ def buff_4246_2(self: "TeamGain", attribute: Attribute):
     add_buff_to_attributes(self.buffs[0], 2, attribute, self.stack * self.rate)
 
 
+def buff_8248_1(self: "TeamGain", attribute: Attribute):
+    add_buff_to_attributes(self.buffs[0], 1, attribute, self.stack * self.rate)
+
+
+def buff_8248_2(self: "TeamGain", attribute: Attribute):
+    add_buff_to_attributes(self.buffs[0], 2, attribute, self.stack * self.rate)
+
+
 ATTRIBUTE_FUNCS = dict(
     号令三军=buff_23107,
     朝圣言=buff_4246_1,
-    圣浴明心=buff_4246_2
+    圣浴明心=buff_4246_2,
+    盾飞=buff_8248_1,
+    戍边=buff_8248_2
 )
 
 """
@@ -121,6 +132,7 @@ class TeamGain:
     @classmethod
     def from_dict(cls, json: dict):
         return TeamGain(**json)
+
 
 class TeamGains:
     gains: dict[str, TeamGain]

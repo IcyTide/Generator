@@ -11,7 +11,5 @@ BUFFS: dict[int, dict] = {
     },
     18036: {2: {}},
     10169: dict(name="空山独立"),
-    3223: {3: {}},
-    31825: dict(name="追锋断念"),
     8210: dict(comment="聚精凝神")
 }

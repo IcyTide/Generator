@@ -2,6 +2,7 @@ from tools.classes.belong import Belong
 from tools.classes.skill import Skill
 from tools.lua.engine import Engine
 
+
 def set_belong_to_skill(belong: Belong, skills: dict[int, dict[int, Skill]]):
     if not belong.dest_rollback_attributes:
         return
