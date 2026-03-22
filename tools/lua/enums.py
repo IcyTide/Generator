@@ -265,7 +265,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     ACTIVE_THREAT_COEFFICIENT = ""
     EXTRA_THREAT_COEFFICIENT = ""
 
-    DODGE = "dodge"
+    DODGE = "dodge_base"
     DODGE_BASE_RATE = "dodge_rate"
     PARRY_BASE = "parry_base"
     PARRY_PERCENT = "parry_gain"
@@ -319,6 +319,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     SKILL_LUNAR_DAMAGE_RAND = "lunar_damage_rand"
     SKILL_NEUTRAL_DAMAGE_RAND = "neutral_damage_rand"
     SKILL_POISON_DAMAGE_RAND = "poison_damage_rand"
+    SKILL_THERAPY_RAND = ""
 
     CALL_PHYSICS_DAMAGE = "call_physical_damage"
     CALL_SOLAR_DAMAGE = "call_solar_damage"
