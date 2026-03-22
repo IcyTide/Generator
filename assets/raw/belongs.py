@@ -6284,7 +6284,7 @@ BELONGS = {
                 "vitality_to_solar_attack_power": 51,
                 "vitality_to_lunar_attack_power": 51,
                 "max_life_gain": 307,
-                "dodge": 6522
+                "dodge_base": 6522
             },
             "recipes": [
                 "recipe_1711_1",

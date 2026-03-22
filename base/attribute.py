@@ -1110,6 +1110,11 @@ class TherapyPower(Major):
         return therapy + self.extra_therapy_power
 
 
+class TherapyBase:
+    therapy_base: int = 0
+    therapy_rand: int = 0
+
+
 class Life(Major):
     max_life_base: int = 0
     max_life_add: int = 0
@@ -1226,7 +1231,8 @@ class Other:
 
 class BaseAttribute(
     AttackPower, CriticalStrike, Overcome, CriticalPower, Shield, DamageBase, DamageCof,
-    WeaponDamage, Haste, Surplus, Strain, Dodge, Parry, TherapyPower, Life, Mana, DecriticalPower, Toughness, Other
+    WeaponDamage, Haste, Surplus, Strain, Dodge, Parry, TherapyPower, TherapyBase,
+    Life, Mana, DecriticalPower, Toughness, Other
 ):
     level: int = 0
 

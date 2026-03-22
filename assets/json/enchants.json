@@ -1208,7 +1208,7 @@
         "attributes": [
             {
                 "attr": "atDodge",
-                "attr_type": "dodge",
+                "attr_type": "dodge_base",
                 "value": 1401,
                 "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
             }
@@ -1576,7 +1576,7 @@
         "attributes": [
             {
                 "attr": "atDodge",
-                "attr_type": "dodge",
+                "attr_type": "dodge_base",
                 "value": 1401,
                 "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
             }
@@ -2024,7 +2024,7 @@
         "attributes": [
             {
                 "attr": "atDodge",
-                "attr_type": "dodge",
+                "attr_type": "dodge_base",
                 "value": 700,
                 "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
             }
@@ -2472,7 +2472,7 @@
         "attributes": [
             {
                 "attr": "atDodge",
-                "attr_type": "dodge",
+                "attr_type": "dodge_base",
                 "value": 700,
                 "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
             }
@@ -3166,6 +3166,2470 @@
             }
         ],
         "temporary": false
+    },
+    "16383": {
+        "id": 16383,
+        "name": "昆仑玄石·暗器（加速）",
+        "desc": "加速提升3279点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 3279,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16382": {
+        "id": 16382,
+        "name": "昆仑玄石·暗器（内破）",
+        "desc": "内功破防等级提升3279点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 3279,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16381": {
+        "id": 16381,
+        "name": "昆仑玄石·暗器（外破）",
+        "desc": "外功破防等级提升3279点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 3279,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16380": {
+        "id": 16380,
+        "name": "昆仑玄石·暗器（身法）",
+        "desc": "身法提升420点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 420,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16379": {
+        "id": 16379,
+        "name": "昆仑玄石·暗器（元气）",
+        "desc": "元气提升420点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 420,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16378": {
+        "id": 16378,
+        "name": "昆仑玄石·暗器（力道）",
+        "desc": "力道提升420点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 420,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16377": {
+        "id": 16377,
+        "name": "昆仑玄石·暗器（根骨）",
+        "desc": "根骨提升420点",
+        "position": "tertiary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 420,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16376": {
+        "id": 16376,
+        "name": "昆仑玄石·戒指（破招）",
+        "desc": "破招等级提升3279点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 3279,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16375": {
+        "id": 16375,
+        "name": "昆仑玄石·戒指（内伤）",
+        "desc": "内功攻击提升994点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 994,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16374": {
+        "id": 16374,
+        "name": "昆仑玄石·戒指（外伤）",
+        "desc": "外功攻击提升891点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 891,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16373": {
+        "id": 16373,
+        "name": "昆仑玄石·戒指（身法）",
+        "desc": "身法提升420点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 420,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16372": {
+        "id": 16372,
+        "name": "昆仑玄石·戒指（元气）",
+        "desc": "元气提升420点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 420,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16371": {
+        "id": 16371,
+        "name": "昆仑玄石·戒指（力道）",
+        "desc": "力道提升420点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 420,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16370": {
+        "id": 16370,
+        "name": "昆仑玄石·戒指（根骨）",
+        "desc": "根骨提升420点",
+        "position": "ring",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 420,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16369": {
+        "id": 16369,
+        "name": "昆仑玄石·腰坠（化劲）",
+        "desc": "化劲提升1640点",
+        "position": "pendant",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 1640,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16368": {
+        "id": 16368,
+        "name": "昆仑玄石·腰坠（体质）",
+        "desc": "体质提升1215点",
+        "position": "pendant",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 1215,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16367": {
+        "id": 16367,
+        "name": "昆仑玄石·项链（御劲）",
+        "desc": "御劲提升1640点",
+        "position": "necklace",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1640,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16366": {
+        "id": 16366,
+        "name": "昆仑玄石·项链（体质）",
+        "desc": "体质提升1215点",
+        "position": "necklace",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 1215,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16365": {
+        "id": 16365,
+        "name": "远风·腰·无双",
+        "desc": "腰带无双等级提高978",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 978,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16364": {
+        "id": 16364,
+        "name": "远风·衣·无双",
+        "desc": "上衣无双等级提高978",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 978,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16363": {
+        "id": 16363,
+        "name": "远风·鞋·内功",
+        "desc": "鞋子内功攻击提高397",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 397,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16362": {
+        "id": 16362,
+        "name": "远风·鞋·外功",
+        "desc": "鞋子外功攻击提高356",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 356,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16361": {
+        "id": 16361,
+        "name": "远风·鞋·破招",
+        "desc": "鞋子破招等级提高1312",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 1312,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16360": {
+        "id": 16360,
+        "name": "远风·鞋·急速",
+        "desc": "鞋子加速等级提高1312",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1312,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16359": {
+        "id": 16359,
+        "name": "远风·腰·内防",
+        "desc": "腰带内功防御等级提高656",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 656,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16358": {
+        "id": 16358,
+        "name": "远风·腰·外防",
+        "desc": "腰带外功防御等级提高656",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 656,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16357": {
+        "id": 16357,
+        "name": "远风·腰·御劲",
+        "desc": "腰带御劲等级提高656",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 656,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16356": {
+        "id": 16356,
+        "name": "远风·腰·化劲",
+        "desc": "腰带化劲等级提高656",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 656,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16355": {
+        "id": 16355,
+        "name": "远风·衣·内防",
+        "desc": "上衣内功防御等级提高656",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 656,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16354": {
+        "id": 16354,
+        "name": "远风·衣·外防",
+        "desc": "上衣外功防御等级提高656",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 656,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16353": {
+        "id": 16353,
+        "name": "远风·衣·御劲",
+        "desc": "上衣御劲等级提高656",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 656,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16352": {
+        "id": 16352,
+        "name": "远风·衣·化劲",
+        "desc": "上衣化劲等级提高656",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 656,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16351": {
+        "id": 16351,
+        "name": "远风·腕·无双",
+        "desc": "护腕无双等级提高1312",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 1312,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16350": {
+        "id": 16350,
+        "name": "远风·腕·内破",
+        "desc": "护腕内功破防等级提高1312",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 1312,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16349": {
+        "id": 16349,
+        "name": "远风·腕·外破",
+        "desc": "护腕外功破防等级提高1312",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 1312,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16348": {
+        "id": 16348,
+        "name": "远风·头·治疗",
+        "desc": "帽子治疗成效提高637",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 637,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16347": {
+        "id": 16347,
+        "name": "远风·头·内攻",
+        "desc": "帽子内功攻击提高397",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 397,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16346": {
+        "id": 16346,
+        "name": "远风·头·外攻",
+        "desc": "帽子外功攻击提高356",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 356,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16345": {
+        "id": 16345,
+        "name": "远风·裤·无双",
+        "desc": "下装无双等级提高1312",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 1312,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16344": {
+        "id": 16344,
+        "name": "远风·裤·内破",
+        "desc": "下装内功破防等级提高1312",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 1312,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16343": {
+        "id": 16343,
+        "name": "远风·裤·外破",
+        "desc": "下装外功破防等级提高1312",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 1312,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16342": {
+        "id": 16342,
+        "name": "远风·头·急速",
+        "desc": "帽子加速等级提高1312",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1312,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16341": {
+        "id": 16341,
+        "name": "远风·腕·会心",
+        "desc": "护腕全会心等级提高1312",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 1312,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16340": {
+        "id": 16340,
+        "name": "远风·裤·会心",
+        "desc": "下装全会心等级提高1312",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 1312,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16339": {
+        "id": 16339,
+        "name": "风语·衣·染（御劲）",
+        "desc": "御劲提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 820,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16338": {
+        "id": 16338,
+        "name": "风语·衣·染（化劲）",
+        "desc": "化劲提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 820,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16337": {
+        "id": 16337,
+        "name": "风语·衣·染（招架）",
+        "desc": "招架提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryBase",
+                "attr_type": "parry_base",
+                "value": 820,
+                "desc": "<text>text=\"招架等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16336": {
+        "id": 16336,
+        "name": "风语·衣·染（内防）",
+        "desc": "内功防御提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 820,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16335": {
+        "id": 16335,
+        "name": "风语·衣·染（外防）",
+        "desc": "外功防御提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsShieldAdditional",
+                "attr_type": "physical_shield_add",
+                "value": 820,
+                "desc": "<text>text=\"外功防御等级额外提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16334": {
+        "id": 16334,
+        "name": "风语·衣·染（闪避）",
+        "desc": "闪避提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDodge",
+                "attr_type": "dodge_base",
+                "value": 820,
+                "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16333": {
+        "id": 16333,
+        "name": "风语·衣·染（格挡）",
+        "desc": "拆招提升820点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryValueBase",
+                "attr_type": "parry_value_base",
+                "value": 820,
+                "desc": "<text>text=\"拆招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16332": {
+        "id": 16332,
+        "name": "风语·衣·染（气血）",
+        "desc": "最大气血值提升8198点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMaxLifeBase",
+                "attr_type": "max_life_base",
+                "value": 8198,
+                "desc": "<text>text=\"气血上限提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16331": {
+        "id": 16331,
+        "name": "风语·衣·染（体质）",
+        "desc": "体质提升608点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 608,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16330": {
+        "id": 16330,
+        "name": "风语·鞋·染（急速）",
+        "desc": "加速提升1640点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1640,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16329": {
+        "id": 16329,
+        "name": "风语·鞋·染（破招）",
+        "desc": "破招提升1640点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 1640,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16328": {
+        "id": 16328,
+        "name": "风语·鞋·染（治疗）",
+        "desc": "疗伤成效提升796点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 796,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16327": {
+        "id": 16327,
+        "name": "风语·鞋·染（内功）",
+        "desc": "内功攻击提升497点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 497,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16326": {
+        "id": 16326,
+        "name": "风语·鞋·染（外攻）",
+        "desc": "外功攻击提升446点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 446,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16325": {
+        "id": 16325,
+        "name": "风语·腕·染（无双）",
+        "desc": "无双等级提升1640点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 1640,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16324": {
+        "id": 16324,
+        "name": "风语·腕·染（会心）",
+        "desc": "全会心提升1640点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 1640,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16323": {
+        "id": 16323,
+        "name": "风语·腕·染（内破）",
+        "desc": "内功破防等级提升1640点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 1640,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16322": {
+        "id": 16322,
+        "name": "风语·腕·染（外破）",
+        "desc": "外功破防等级提升1640点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 1640,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16321": {
+        "id": 16321,
+        "name": "风语·腕·染（仇恨）",
+        "desc": "仇恨百分比提升10%点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16320": {
+        "id": 16320,
+        "name": "风语·腕·染（根骨）",
+        "desc": "根骨提升210点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 210,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16319": {
+        "id": 16319,
+        "name": "风语·腕·染（力道）",
+        "desc": "力道提升210点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 210,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16318": {
+        "id": 16318,
+        "name": "风语·腕·染（元气）",
+        "desc": "元气提升210点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 210,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16317": {
+        "id": 16317,
+        "name": "风语·腕·染（身法）",
+        "desc": "身法提升210点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 210,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16316": {
+        "id": 16316,
+        "name": "风语·衣·绣（御劲）",
+        "desc": "御劲提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1640,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16315": {
+        "id": 16315,
+        "name": "风语·衣·绣（化劲）",
+        "desc": "化劲提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 1640,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16314": {
+        "id": 16314,
+        "name": "风语·衣·绣（招架）",
+        "desc": "招架提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryBase",
+                "attr_type": "parry_base",
+                "value": 1640,
+                "desc": "<text>text=\"招架等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16313": {
+        "id": 16313,
+        "name": "风语·衣·绣（内防）",
+        "desc": "内功防御提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 1640,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16312": {
+        "id": 16312,
+        "name": "风语·衣·绣（外防）",
+        "desc": "外功防御提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsShieldAdditional",
+                "attr_type": "physical_shield_add",
+                "value": 1640,
+                "desc": "<text>text=\"外功防御等级额外提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16311": {
+        "id": 16311,
+        "name": "风语·衣·绣（闪避）",
+        "desc": "闪避提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDodge",
+                "attr_type": "dodge_base",
+                "value": 1640,
+                "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16310": {
+        "id": 16310,
+        "name": "风语·衣·绣（格挡）",
+        "desc": "拆招提升1640点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryValueBase",
+                "attr_type": "parry_value_base",
+                "value": 1640,
+                "desc": "<text>text=\"拆招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16309": {
+        "id": 16309,
+        "name": "风语·衣·绣（气血）",
+        "desc": "最大气血值提升16397点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMaxLifeBase",
+                "attr_type": "max_life_base",
+                "value": 16397,
+                "desc": "<text>text=\"气血上限提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16308": {
+        "id": 16308,
+        "name": "风语·衣·绣（体质）",
+        "desc": "体质提升1215点",
+        "position": "jacket",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 1215,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16307": {
+        "id": 16307,
+        "name": "风语·鞋·绣（急速）",
+        "desc": "加速提升3279点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 3279,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16306": {
+        "id": 16306,
+        "name": "风语·鞋·绣（破招）",
+        "desc": "破招提升3279点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 3279,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16305": {
+        "id": 16305,
+        "name": "风语·鞋·绣（治疗）",
+        "desc": "疗伤成效提升1592点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1592,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16304": {
+        "id": 16304,
+        "name": "风语·鞋·绣（内功）",
+        "desc": "内功攻击提升994点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 994,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16303": {
+        "id": 16303,
+        "name": "风语·鞋·绣（外攻）",
+        "desc": "外功攻击提升891点",
+        "position": "shoes",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 891,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16302": {
+        "id": 16302,
+        "name": "风语·腕·绣（无双）",
+        "desc": "无双等级提升3279点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 3279,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16301": {
+        "id": 16301,
+        "name": "风语·腕·绣（会心）",
+        "desc": "全会心提升3279点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 3279,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16300": {
+        "id": 16300,
+        "name": "风语·腕·绣（内破）",
+        "desc": "内功破防等级提升3279点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 3279,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16299": {
+        "id": 16299,
+        "name": "风语·腕·绣（外破）",
+        "desc": "外功破防等级提升3279点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 3279,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16298": {
+        "id": 16298,
+        "name": "风语·腕·绣（仇恨）",
+        "desc": "仇恨百分比提升23%",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16297": {
+        "id": 16297,
+        "name": "风语·腕·绣（根骨）",
+        "desc": "根骨提升420点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 420,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16296": {
+        "id": 16296,
+        "name": "风语·腕·绣（力道）",
+        "desc": "力道提升420点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 420,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16295": {
+        "id": 16295,
+        "name": "风语·腕·绣（元气）",
+        "desc": "元气提升420点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 420,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16294": {
+        "id": 16294,
+        "name": "风语·腕·绣（身法）",
+        "desc": "身法提升420点",
+        "position": "wrist",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 420,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16293": {
+        "id": 16293,
+        "name": "风语·巨灵磨石（仇恨）",
+        "desc": "仇恨百分比提升17%点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16292": {
+        "id": 16292,
+        "name": "风语·絮泊磨石（疗伤）",
+        "desc": "疗伤成效提升1194点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1194,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16291": {
+        "id": 16291,
+        "name": "风语·坠宵磨石（内伤）",
+        "desc": "内功攻击提升746点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 746,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16290": {
+        "id": 16290,
+        "name": "风语·瀑沙磨石（外伤）",
+        "desc": "外功攻击提升669点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 669,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16289": {
+        "id": 16289,
+        "name": "风语·兵·甲（仇恨）",
+        "desc": "仇恨百分比提升11%点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16288": {
+        "id": 16288,
+        "name": "风语·兵·甲（武伤）",
+        "desc": "武器伤害提升672点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMeleeWeaponDamageBase",
+                "attr_type": "weapon_damage_base",
+                "value": 672,
+                "desc": "<text>text=\"武器伤害提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16287": {
+        "id": 16287,
+        "name": "风语·兵·甲（疗伤）",
+        "desc": "疗伤成效提升796点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 796,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16286": {
+        "id": 16286,
+        "name": "风语·兵·甲（内攻）",
+        "desc": "内功攻击提升497点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 497,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16285": {
+        "id": 16285,
+        "name": "风语·兵·甲（外攻）",
+        "desc": "外功攻击提升446点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 446,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16284": {
+        "id": 16284,
+        "name": "风语·腰·甲（化劲）",
+        "desc": "化劲提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 820,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16283": {
+        "id": 16283,
+        "name": "风语·腰·甲（御劲）",
+        "desc": "御劲提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 820,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16282": {
+        "id": 16282,
+        "name": "风语·腰·甲（招架）",
+        "desc": "招架提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryBase",
+                "attr_type": "parry_base",
+                "value": 820,
+                "desc": "<text>text=\"招架等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16281": {
+        "id": 16281,
+        "name": "风语·腰·甲（内防）",
+        "desc": "内功防御提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 820,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16280": {
+        "id": 16280,
+        "name": "风语·腰·甲（外防）",
+        "desc": "外功防御提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsShieldAdditional",
+                "attr_type": "physical_shield_add",
+                "value": 820,
+                "desc": "<text>text=\"外功防御等级额外提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16279": {
+        "id": 16279,
+        "name": "风语·腰·甲（闪避）",
+        "desc": "闪避提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDodge",
+                "attr_type": "dodge_base",
+                "value": 820,
+                "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16278": {
+        "id": 16278,
+        "name": "风语·腰·甲（格挡）",
+        "desc": "拆招提升820点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryValueBase",
+                "attr_type": "parry_value_base",
+                "value": 820,
+                "desc": "<text>text=\"拆招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16277": {
+        "id": 16277,
+        "name": "风语·腰·甲（气血）",
+        "desc": "最大气血值提升8199点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMaxLifeBase",
+                "attr_type": "max_life_base",
+                "value": 8199,
+                "desc": "<text>text=\"气血上限提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16276": {
+        "id": 16276,
+        "name": "风语·腰·甲（体质）",
+        "desc": "体质提升608点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 608,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16275": {
+        "id": 16275,
+        "name": "风语·头·甲（急速）",
+        "desc": "加速提升1640点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1640,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16274": {
+        "id": 16274,
+        "name": "风语·头·甲（破招）",
+        "desc": "破招提升1640点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 1640,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16273": {
+        "id": 16273,
+        "name": "风语·头·甲（治疗）",
+        "desc": "疗伤成效提升796点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 796,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16272": {
+        "id": 16272,
+        "name": "风语·头·甲（内攻）",
+        "desc": "内功攻击提升497点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 497,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16271": {
+        "id": 16271,
+        "name": "风语·头·甲（外攻）",
+        "desc": "外功攻击提升446点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 446,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16270": {
+        "id": 16270,
+        "name": "风语·裤·甲（无双）",
+        "desc": "无双等级提升1640点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 1640,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16269": {
+        "id": 16269,
+        "name": "风语·裤·甲（会心）",
+        "desc": "全会心提升1640点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 1640,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16268": {
+        "id": 16268,
+        "name": "风语·裤·甲（内破）",
+        "desc": "内功破防等级提升1640点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 1640,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16267": {
+        "id": 16267,
+        "name": "风语·裤·甲（外破）",
+        "desc": "外功破防等级提升1640点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 1640,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16266": {
+        "id": 16266,
+        "name": "风语·裤·甲（仇恨）",
+        "desc": "仇恨百分比提升11%",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16265": {
+        "id": 16265,
+        "name": "风语·裤·甲（根骨）",
+        "desc": "根骨提升210点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 210,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16264": {
+        "id": 16264,
+        "name": "风语·裤·甲（力道）",
+        "desc": "力道提升210点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 210,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16263": {
+        "id": 16263,
+        "name": "风语·裤·甲（元气）",
+        "desc": "元气提升210点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 210,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16262": {
+        "id": 16262,
+        "name": "风语·裤·甲（身法）",
+        "desc": "身法提升210点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 210,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16261": {
+        "id": 16261,
+        "name": "风语·腰·铸（化劲）",
+        "desc": "化劲提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDecriticalDamagePowerBase",
+                "attr_type": "decritical_power_base",
+                "value": 1640,
+                "desc": "<text>text=\"化劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16260": {
+        "id": 16260,
+        "name": "风语·腰·铸（御劲）",
+        "desc": "御劲提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1640,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16259": {
+        "id": 16259,
+        "name": "风语·腰·铸（招架）",
+        "desc": "招架提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryBase",
+                "attr_type": "parry_base",
+                "value": 1640,
+                "desc": "<text>text=\"招架等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16258": {
+        "id": 16258,
+        "name": "风语·腰·铸（内防）",
+        "desc": "内功防御提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 1640,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16257": {
+        "id": 16257,
+        "name": "风语·腰·铸（外防）",
+        "desc": "外功防御提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsShieldAdditional",
+                "attr_type": "physical_shield_add",
+                "value": 1640,
+                "desc": "<text>text=\"外功防御等级额外提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16256": {
+        "id": 16256,
+        "name": "风语·腰·铸（闪避）",
+        "desc": "闪避提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atDodge",
+                "attr_type": "dodge_base",
+                "value": 1640,
+                "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16255": {
+        "id": 16255,
+        "name": "风语·腰·铸（格挡）",
+        "desc": "拆招提升1640点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atParryValueBase",
+                "attr_type": "parry_value_base",
+                "value": 1640,
+                "desc": "<text>text=\"拆招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16254": {
+        "id": 16254,
+        "name": "风语·腰·铸（气血）",
+        "desc": "最大气血值提升16397点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMaxLifeBase",
+                "attr_type": "max_life_base",
+                "value": 16397,
+                "desc": "<text>text=\"气血上限提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16253": {
+        "id": 16253,
+        "name": "风语·腰·铸（体质）",
+        "desc": "体质提升1215点",
+        "position": "belt",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 1215,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16252": {
+        "id": 16252,
+        "name": "风语·头·铸（急速）",
+        "desc": "加速提升3279点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 3279,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16251": {
+        "id": 16251,
+        "name": "风语·头·铸（破招）",
+        "desc": "破招提升3279点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 3279,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16250": {
+        "id": 16250,
+        "name": "风语·头·铸（治疗）",
+        "desc": "疗伤成效提升1592点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1592,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16249": {
+        "id": 16249,
+        "name": "风语·头·铸（内攻）",
+        "desc": "内功攻击提升994点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 994,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16248": {
+        "id": 16248,
+        "name": "风语·头·铸（外攻）",
+        "desc": "外功攻击提升891点",
+        "position": "hat",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 891,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16247": {
+        "id": 16247,
+        "name": "风语·裤·铸（无双）",
+        "desc": "无双等级提升3279点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 3279,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16246": {
+        "id": 16246,
+        "name": "风语·裤·铸（会心）",
+        "desc": "全会心提升3279点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 3279,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16245": {
+        "id": 16245,
+        "name": "风语·裤·铸（内破）",
+        "desc": "内功破防等级提升3279点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 3279,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16244": {
+        "id": 16244,
+        "name": "风语·裤·铸（外破）",
+        "desc": "外功破防等级提升3279点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 3279,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16243": {
+        "id": 16243,
+        "name": "风语·裤·铸（仇恨）",
+        "desc": "仇恨百分比提升23%",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16242": {
+        "id": 16242,
+        "name": "风语·裤·铸（根骨）",
+        "desc": "根骨提升420点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 420,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16241": {
+        "id": 16241,
+        "name": "风语·裤·铸（力道）",
+        "desc": "力道提升420点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 420,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16240": {
+        "id": 16240,
+        "name": "风语·裤·铸（元气）",
+        "desc": "元气提升420点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 420,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16239": {
+        "id": 16239,
+        "name": "风语·裤·铸（身法）",
+        "desc": "身法提升420点",
+        "position": "bottoms",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 420,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16238": {
+        "id": 16238,
+        "name": "风语·兵·铸（仇恨）",
+        "desc": "仇恨百分比提升23%",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16237": {
+        "id": 16237,
+        "name": "风语·兵·铸（武伤）",
+        "desc": "武器伤害提升1344点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMeleeWeaponDamageBase",
+                "attr_type": "weapon_damage_base",
+                "value": 1344,
+                "desc": "<text>text=\"武器伤害提高{}\" font=106 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16236": {
+        "id": 16236,
+        "name": "风语·兵·铸（疗伤）",
+        "desc": "疗伤成效提升1592点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1592,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16235": {
+        "id": 16235,
+        "name": "风语·兵·铸（内攻）",
+        "desc": "内功攻击提升994点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 994,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16234": {
+        "id": 16234,
+        "name": "风语·兵·铸（外攻）",
+        "desc": "外功攻击提升891点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 891,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": false
+    },
+    "16233": {
+        "id": 16233,
+        "name": "风语·巨灵熔锭（仇恨）",
+        "desc": "仇恨百分比提升34%",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16232": {
+        "id": 16232,
+        "name": "风语·絮泊熔锭（疗伤）",
+        "desc": "疗伤成效提升2388点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 2388,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16231": {
+        "id": 16231,
+        "name": "风语·坠宵熔锭（内攻）",
+        "desc": "内功攻击提升1491点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 1491,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": true
+    },
+    "16230": {
+        "id": 16230,
+        "name": "风语·瀑沙熔锭（外攻）",
+        "desc": "外功攻击提升1337点",
+        "position": "primary_weapon",
+        "score": 0,
+        "attributes": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1337,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "temporary": true
     },
     "16229": {
         "id": 16229,

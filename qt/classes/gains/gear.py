@@ -108,8 +108,8 @@ def dps_special_enchant_jacket(self: "GearGain", attribute: Attribute):
 
 
 def tank_special_enchant_wrist(self: "GearGain", attribute: Attribute):
-    self.weight = 5 / 30
-    default_attribute(self, attribute)
+    rate = 5 / 30
+    add_buff_to_attribute(self.buffs[0], 1, attribute, rate)
 
 
 ATTRIBUTE_FUNCS = {
@@ -184,7 +184,7 @@ def belt_record(self: "GearGain", record: Record, attribute: Attribute):
 
 
 def wind_record(self: "GearGain", record: Record, attribute: Attribute):
-    add_skill_to_record(self.gain_id, self.gain_level * 2, record)
+    add_skill_to_record(self.skills[0], self.gain_level * 2, record)
 
 
 RECORD_FUNCS = {

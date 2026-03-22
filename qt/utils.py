@@ -1,4 +1,4 @@
-from base.expression import Constant, Min
+from base.expression import Constant, Expression, Min
 from qt.classes.dot import Dot
 from qt.classes.skill import Skill
 
@@ -10,7 +10,10 @@ def percent(num):
 def evaluate_skill(skill: Skill, variables: dict, count: float = 1):
     hit_damage = 0
     for damage in skill.damages:
-        hit_damage += damage.evaluate(variables)
+        if isinstance(damage, Expression):
+            hit_damage += damage.evaluate(variables)
+        else:
+            hit_damage += damage
     hit_damage *= count
     if skill.critical_strike == 0:
         critical_strike = Constant(0)
