@@ -157,6 +157,8 @@ STONE_POSITIONS = [
     "primary_weapon"
 ]
 
+VERSION_SCALE = 43900 / 27800
+
 
 def ROUND(num):
     return int(num + 0.5)
@@ -167,7 +169,7 @@ def EMBED_COF(level):
         cof = (level * 0.65 - 3.2) * 1.3
     else:
         cof = level * 0.195
-    return cof * 1.345
+    return cof * VERSION_SCALE
 
 
 def STRENGTH_COF(level):
@@ -211,16 +213,16 @@ EXTRA_VARIABLES = {
     "rand": 0.5
 }
 GRAD_VARIABLES = {
-    "major_base": 359,
-    "vitality_base": 1037,
-    "physical_attack_power_base": 761,
-    "magical_attack_power_base": 849,
-    "weapon_damage_base": 1148,
-    "surplus_base": 2801,
-    "strain_base": 2801,
-    "all_overcome_base": 2801,
-    "all_critical_strike_base": 2801,
-    "all_critical_power_base": 2801
+    "major_base": 420,
+    "vitality_base": 1215,
+    "physical_attack_power_base": 891,
+    "magical_attack_power_base": 994,
+    "weapon_damage_base": 1344,
+    "surplus_base": 3279,
+    "strain_base": 3279,
+    "all_overcome_base": 3279,
+    "all_critical_strike_base": 3279,
+    "all_critical_power_base": 3279
 }
 
 

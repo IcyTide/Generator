@@ -1098,20 +1098,20 @@ DOTS = {
                 }
             }
         },
-        22730: {
+        22731: {
             34: {
                 "name": "百足(DOT)",
                 "comment": "不僵",
-                "interval": "48",
+                "interval": "32",
                 "max_stack": 1,
-                "max_tick": 6,
+                "max_tick": 9,
                 "skills": {
-                    30578: {
+                    30579: {
                         34: {
                             "name": "",
                             "comment": "不僵",
                             "damages": [
-                                "(92 + poison_attack_power * int(1358.4266498880004 * (1 + 0.10000000000000009 * recipe_773_1) * (1 + 0.050000000000000044 * recipe_774_1) * (1 + 0.10000000000000009 * recipe_775_1) * 0.94 ** (tick - 1)) * 0.0013020833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)"
+                                "(55 + poison_attack_power * int(2445.1679697984005 * (1 + 0.10000000000000009 * recipe_773_1) * (1 + 0.050000000000000044 * recipe_774_1) * (1 + 0.10000000000000009 * recipe_775_1) * 0.94 ** (tick - 1)) * 0.0008680555555555555) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)"
                             ],
                             "critical_strike": "poison_critical_strike",
                             "critical_power": "poison_critical_power"

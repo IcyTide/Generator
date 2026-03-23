@@ -510,7 +510,7 @@
                 "max_tick": 1,
                 "attributes": {
                     "magical_critical_power_rate": 512,
-                    "neutral_attack_power_gain": 512,
+                    "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 512
                 }
@@ -523,7 +523,7 @@
                 "max_tick": 1,
                 "attributes": {
                     "magical_critical_power_rate": 512,
-                    "neutral_attack_power_gain": 512,
+                    "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 512,
                     "strain_gain": 154
@@ -946,7 +946,7 @@
                 "max_tick": 1,
                 "attributes": {
                     "magical_critical_power_rate": 512,
-                    "neutral_attack_power_gain": 512,
+                    "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "physical_critical_power_rate": 512
                 }
@@ -959,8 +959,8 @@
                 "max_tick": 1,
                 "attributes": {
                     "magical_critical_power_rate": 512,
-                    "neutral_attack_power_gain": 512,
-                    "physical_attack_power_gain": 256,
+                    "neutral_attack_power_gain": 256,
+                    "physical_attack_power_gain": 512,
                     "physical_critical_power_rate": 512,
                     "strain_gain": 307
                 }

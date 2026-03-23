@@ -11,7 +11,7 @@ SKILLS = {
     25044: dict(comment="持续"), 30918: dict(comment="结算{level-1}层增伤"),
     30090: dict(comment="嗜蛊"),
     25019: {1: {}},
-    30578: dict(comment="不僵"),
+    30579: dict(comment="不僵"),
     37358: dict(comment="腾影"),
     **{skill_id: dict(comment="{}层") for skill_id in [42295, 42296]},
     36044: dict(comment="{(level-1)*4}尺")
