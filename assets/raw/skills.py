@@ -893,7 +893,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "1层贪破",
                 "damages": [
-                    "solar_attack_power * 2.864583333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 1.40625 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -902,7 +902,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "2层贪破",
                 "damages": [
-                    "solar_attack_power * 3.645833333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 2.8125 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -911,7 +911,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "3层贪破",
                 "damages": [
-                    "solar_attack_power * 4.427083333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 4.21875 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -920,7 +920,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "4层贪破",
                 "damages": [
-                    "solar_attack_power * 5.208333333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 5.625 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -929,7 +929,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "5层贪破",
                 "damages": [
-                    "solar_attack_power * 5.989583333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 7.03125 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -938,7 +938,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "6层贪破",
                 "damages": [
-                    "solar_attack_power * 6.770833333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 8.4375 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -947,7 +947,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "7层贪破",
                 "damages": [
-                    "solar_attack_power * 7.552083333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 9.84375 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -956,7 +956,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "8层贪破",
                 "damages": [
-                    "solar_attack_power * 8.333333333333332 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 11.25 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -965,7 +965,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "9层贪破",
                 "damages": [
-                    "solar_attack_power * 9.114583333333332 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 12.65625 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -974,7 +974,7 @@ SKILLS = {
                 "name": "布泽",
                 "comment": "10层贪破",
                 "damages": [
-                    "solar_attack_power * 9.895833333333332 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
+                    "solar_attack_power * 14.0625 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale + ceil(512 * buff_2_1) / 1024)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -1790,7 +1790,7 @@ SKILLS = {
                 "name": "云中剑·生太极",
                 "comment": "",
                 "damages": [
-                    "(40 + rand * 17 + physical_attack_power * 0.7937500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(40 + rand * 17 + physical_attack_power * 1.03125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -1799,7 +1799,7 @@ SKILLS = {
                 "name": "云中剑·碎星辰",
                 "comment": "",
                 "damages": [
-                    "(40 + rand * 17 + physical_attack_power * 0.7937500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(40 + rand * 17 + physical_attack_power * 1.03125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -1808,7 +1808,7 @@ SKILLS = {
                 "name": "云中剑·吞日月",
                 "comment": "",
                 "damages": [
-                    "(40 + rand * 17 + physical_attack_power * 0.7937500000000001) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(40 + rand * 17 + physical_attack_power * 1.03125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -4220,7 +4220,7 @@ SKILLS = {
                 "name": "松舍问霞",
                 "comment": "原始",
                 "damages": [
-                    "(240 + rand * 15 + physical_attack_power * 9.15 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(240 + rand * 15 + physical_attack_power * 10.525 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -4231,7 +4231,7 @@ SKILLS = {
                 "name": "松舍问霞",
                 "comment": "击落",
                 "damages": [
-                    "(240 + rand * 15 + physical_attack_power * 11.9 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(240 + rand * 15 + physical_attack_power * 13.68125 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -5763,7 +5763,7 @@ SKILLS = {
                 "name": "万翎逐鸿",
                 "comment": "1层断续鸿声",
                 "damages": [
-                    "(15 + rand + physical_attack_power * 3.4375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(15 + rand + physical_attack_power * 3.09375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -5772,7 +5772,7 @@ SKILLS = {
                 "name": "万翎逐鸿",
                 "comment": "2层断续鸿声",
                 "damages": [
-                    "(20 + rand * 2 + physical_attack_power * 4.125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(20 + rand * 2 + physical_attack_power * 3.7125000000000004) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -5781,7 +5781,7 @@ SKILLS = {
                 "name": "万翎逐鸿",
                 "comment": "3层断续鸿声",
                 "damages": [
-                    "(15 + rand + physical_attack_power * 4.95) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(15 + rand + physical_attack_power * 4.45) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -5790,7 +5790,7 @@ SKILLS = {
                 "name": "万翎逐鸿",
                 "comment": "4层断续鸿声",
                 "damages": [
-                    "(20 + rand * 2 + physical_attack_power * 5.9375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(20 + rand * 2 + physical_attack_power * 5.34375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -5799,7 +5799,7 @@ SKILLS = {
                 "name": "万翎逐鸿",
                 "comment": "5层断续鸿声",
                 "damages": [
-                    "(15 + rand + physical_attack_power * 7.125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(15 + rand + physical_attack_power * 6.4125000000000005) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -5808,7 +5808,7 @@ SKILLS = {
                 "name": "万翎逐鸿",
                 "comment": "6层断续鸿声",
                 "damages": [
-                    "(20 + rand * 2 + physical_attack_power * 8.55) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(20 + rand * 2 + physical_attack_power * 7.6937500000000005) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"
@@ -15048,7 +15048,7 @@ SKILLS = {
                 "critical_power": "physical_critical_power"
             }
         },
-        36024: {
+        44687: {
             11: {
                 "name": "汇山岚",
                 "comment": "",

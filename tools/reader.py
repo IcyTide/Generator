@@ -1,5 +1,6 @@
 import re
 
+from base.constant import VERSION_SCALE
 from tools.lua.enums import ATTRIBUTE_TYPE
 from tools.utils import camel_to_capital, get_variable, read_tab
 
@@ -8,11 +9,11 @@ class BaseReader:
     TABLES: dict = {}
 
     QUALITY_COF = {
-        1: 1,
-        2: 1.4,
-        3: 1.6,
-        4: 1.8,
-        5: 2.5
+        1: 1 * VERSION_SCALE,
+        2: 1.4 * VERSION_SCALE,
+        3: 1.6 * VERSION_SCALE,
+        4: 1.8 * VERSION_SCALE,
+        5: 2.5 * VERSION_SCALE
     }
     POSITION_COF = {
         0: 1.2,
