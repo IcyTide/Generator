@@ -4138,6 +4138,17 @@ BUFFS = {
                 }
             }
         },
+        18039: {
+            1: {
+                "name": "龙马出河",
+                "interval": 32,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_gain": 102
+                }
+            }
+        },
         31907: {
             1: {
                 "name": "镇星",
@@ -5351,7 +5362,7 @@ BUFFS = {
                 "name": "灵灯·悟",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 25,
+                "max_tick": 35,
                 "attributes": {
                     "neutral_critical_strike_rate": 1000,
                     "magical_critical_power_rate": 100
@@ -6696,7 +6707,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 126
+                    "strain_base": 139
                 }
             }
         },
@@ -6729,7 +6740,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 715
+                    "strain_base": 826
                 }
             }
         },
@@ -6766,8 +6777,8 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "max_life_add": 2226,
-                    "strain_base": 126
+                    "max_life_add": 2493,
+                    "strain_base": 139
                 }
             }
         },
@@ -6778,7 +6789,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 126
+                    "strain_base": 139
                 }
             }
         },
@@ -6789,7 +6800,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 278
+                    "strain_base": 306
                 }
             }
         },
@@ -6800,7 +6811,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 63
+                    "strain_base": 69
                 }
             }
         },
@@ -6811,7 +6822,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 101
+                    "strain_base": 111
                 }
             }
         },
@@ -6833,7 +6844,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 126
+                    "strain_base": 139
                 }
             }
         },
@@ -6855,7 +6866,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 90,
                 "attributes": {
-                    "strain_base": 126
+                    "strain_base": 139
                 }
             }
         },
