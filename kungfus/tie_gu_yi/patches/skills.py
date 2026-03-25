@@ -11,6 +11,5 @@ SKILLS = {
     },
     38971: {1: {}},
     25208: dict(comment="冲锋"), 25205: dict(comment="终点"),
-    13308: dict(comment="割裂"), 20989: dict(comment="割裂+炼狱"),
-    29185: dict(comment="割裂+炼狱"), 29186: dict(comment="割裂"), 29187: dict(comment="炼狱")
+    13308: dict(comment="割裂"), 29186: dict(comment="割裂"),
 }

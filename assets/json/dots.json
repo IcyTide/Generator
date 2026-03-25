@@ -876,8 +876,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -898,8 +901,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -920,8 +926,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(835.9351879149925 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -940,8 +949,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(766.27392225541 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -962,8 +974,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -984,8 +999,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(1532.54784451082 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1006,8 +1024,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1037,8 +1058,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1059,8 +1083,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1081,8 +1108,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(835.9351879149925 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1101,8 +1131,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(766.27392225541 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1123,8 +1156,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1145,8 +1181,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(1532.54784451082 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1167,8 +1206,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6312_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.050000000000000044 * recipe_1302_1))",
@@ -1200,8 +1242,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1222,8 +1267,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1244,8 +1292,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(962.613323538015 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1264,8 +1315,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(882.395546576514 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1286,8 +1340,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1308,8 +1365,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(1764.791093153028 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1330,8 +1390,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1361,8 +1424,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1383,8 +1449,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1405,8 +1474,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(962.613323538015 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1425,8 +1497,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(882.395546576514 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1447,8 +1522,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1469,8 +1547,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(1764.791093153028 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1491,8 +1572,11 @@
                                 }
                             ],
                             "critical": {
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_power": "neutral_critical_power"
+                                "critical_strike": "neutral_critical_strike + 1000 * recipe_6311_1 / 10000",
+                                "critical_power": "neutral_critical_power",
+                                "source_attribute": {
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                }
                             },
                             "skill_attribute": {
                                 "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.050000000000000044 * recipe_1303_1))",
@@ -1766,7 +1850,7 @@
                     "18716": {
                         "28": {
                             "name": "",
-                            "comment": "剑气长江/琼霄/霜天剑泠/钗燕/镜花",
+                            "comment": "剑气长江/琼霄/霜天剑泠/钗燕",
                             "damages": [
                                 {
                                     "damage": "(100 + lunar_attack_power * 0.17838541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
@@ -2814,51 +2898,6 @@
                             }
                         }
                     },
-                    "20989": {
-                        "22": {
-                            "name": "",
-                            "comment": "割裂+炼狱",
-                            "damages": [
-                                {
-                                    "damage": "(47 + physical_attack_power * 0.4740384615384616 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                                    "source_attribute": {
-                                        "physical_damage_base": "47"
-                                    }
-                                }
-                            ],
-                            "critical": {
-                                "critical_strike": "physical_critical_strike",
-                                "critical_power": "physical_critical_power"
-                            },
-                            "skill_attribute": {
-                                "frames": "464",
-                                "physical_attack_power_cof": "0.4740384615384616",
-                                "weapon_damage_cof": "1.0"
-                            }
-                        }
-                    },
-                    "29185": {
-                        "28": {
-                            "name": "",
-                            "comment": "割裂+炼狱",
-                            "damages": [
-                                {
-                                    "damage": "(47 + physical_attack_power * 0.5210336538461539) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                                    "source_attribute": {
-                                        "physical_damage_base": "47"
-                                    }
-                                }
-                            ],
-                            "critical": {
-                                "critical_strike": "physical_critical_strike",
-                                "critical_power": "physical_critical_power"
-                            },
-                            "skill_attribute": {
-                                "frames": "510",
-                                "physical_attack_power_cof": "0.5210336538461539"
-                            }
-                        }
-                    },
                     "29186": {
                         "28": {
                             "name": "",
@@ -2878,28 +2917,6 @@
                             "skill_attribute": {
                                 "frames": "232",
                                 "physical_attack_power_cof": "0.2370192307692308"
-                            }
-                        }
-                    },
-                    "29187": {
-                        "28": {
-                            "name": "",
-                            "comment": "炼狱",
-                            "damages": [
-                                {
-                                    "damage": "(47 + physical_attack_power * 0.24927884615384616) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                                    "source_attribute": {
-                                        "physical_damage_base": "47"
-                                    }
-                                }
-                            ],
-                            "critical": {
-                                "critical_strike": "physical_critical_strike",
-                                "critical_power": "physical_critical_power"
-                            },
-                            "skill_attribute": {
-                                "frames": "244",
-                                "physical_attack_power_cof": "0.24927884615384616"
                             }
                         }
                     }
@@ -2957,51 +2974,6 @@
                             }
                         }
                     },
-                    "20989": {
-                        "22": {
-                            "name": "",
-                            "comment": "割裂+炼狱",
-                            "damages": [
-                                {
-                                    "damage": "(47 + physical_attack_power * 0.2370192307692308 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                                    "source_attribute": {
-                                        "physical_damage_base": "47"
-                                    }
-                                }
-                            ],
-                            "critical": {
-                                "critical_strike": "physical_critical_strike",
-                                "critical_power": "physical_critical_power"
-                            },
-                            "skill_attribute": {
-                                "frames": "464",
-                                "physical_attack_power_cof": "0.2370192307692308",
-                                "weapon_damage_cof": "1.0"
-                            }
-                        }
-                    },
-                    "29185": {
-                        "28": {
-                            "name": "",
-                            "comment": "割裂+炼狱",
-                            "damages": [
-                                {
-                                    "damage": "(47 + physical_attack_power * 0.2605168269230769) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                                    "source_attribute": {
-                                        "physical_damage_base": "47"
-                                    }
-                                }
-                            ],
-                            "critical": {
-                                "critical_strike": "physical_critical_strike",
-                                "critical_power": "physical_critical_power"
-                            },
-                            "skill_attribute": {
-                                "frames": "510",
-                                "physical_attack_power_cof": "0.2605168269230769"
-                            }
-                        }
-                    },
                     "29186": {
                         "28": {
                             "name": "",
@@ -3021,28 +2993,6 @@
                             "skill_attribute": {
                                 "frames": "232",
                                 "physical_attack_power_cof": "0.1185096153846154"
-                            }
-                        }
-                    },
-                    "29187": {
-                        "28": {
-                            "name": "",
-                            "comment": "炼狱",
-                            "damages": [
-                                {
-                                    "damage": "(47 + physical_attack_power * 0.12463942307692308) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                                    "source_attribute": {
-                                        "physical_damage_base": "47"
-                                    }
-                                }
-                            ],
-                            "critical": {
-                                "critical_strike": "physical_critical_strike",
-                                "critical_power": "physical_critical_power"
-                            },
-                            "skill_attribute": {
-                                "frames": "244",
-                                "physical_attack_power_cof": "0.12463942307692308"
                             }
                         }
                     }
@@ -4302,7 +4252,7 @@
                             "comment": "",
                             "damages": [
                                 {
-                                    "damage": "(1 + neutral_attack_power * 1.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
+                                    "damage": "(1 + neutral_attack_power * 1.5) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
                                     "source_attribute": {
                                         "neutral_damage_base": "1"
                                     }
@@ -4313,8 +4263,8 @@
                                 "critical_power": "neutral_critical_power"
                             },
                             "skill_attribute": {
-                                "frames": "1440",
-                                "magical_attack_power_cof": "1.25",
+                                "frames": "1728",
+                                "magical_attack_power_cof": "1.5",
                                 "damage_gain": "55 * recipe_17250_1 + 21 * recipe_17239_1"
                             }
                         }

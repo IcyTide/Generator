@@ -20,11 +20,6 @@ SKILLS = {
         2: dict(comment="主动"),
         3: dict(comment="主动12尺")
     },
-    42509: {
-        1: dict(comment="1段"),
-        2: dict(comment="2段(PVE)"),
-        3: dict(comment="2段(PVP)")
-    },
     42456: dict(comment="{}层"),
     28815: {
         2: dict(comment="连极阵"),
