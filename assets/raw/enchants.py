@@ -261,6 +261,174 @@ ENCHANTS = {
             "attributes": {
                 "spirit_base": 359
             }
+        },
+        "阆风仙玉·暗器（加速） 加速提升4099点": {
+            "id": 16438,
+            "name": "阆风仙玉·暗器（加速）",
+            "score": 0,
+            "attributes": {
+                "haste_base": 4099
+            }
+        },
+        "阆风仙玉·暗器（内破） 内功破防等级提升4099点": {
+            "id": 16437,
+            "name": "阆风仙玉·暗器（内破）",
+            "score": 0,
+            "attributes": {
+                "magical_overcome_base": 4099
+            }
+        },
+        "阆风仙玉·暗器（外破） 外功破防等级提升4099点": {
+            "id": 16436,
+            "name": "阆风仙玉·暗器（外破）",
+            "score": 0,
+            "attributes": {
+                "physical_overcome_base": 4099
+            }
+        },
+        "阆风仙玉·暗器（身法） 身法提升526点": {
+            "id": 16435,
+            "name": "阆风仙玉·暗器（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 526
+            }
+        },
+        "阆风仙玉·暗器（元气） 元气提升526点": {
+            "id": 16434,
+            "name": "阆风仙玉·暗器（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 526
+            }
+        },
+        "阆风仙玉·暗器（力道） 力道提升526点": {
+            "id": 16433,
+            "name": "阆风仙玉·暗器（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 526
+            }
+        },
+        "阆风仙玉·暗器（根骨） 根骨提升526点": {
+            "id": 16432,
+            "name": "阆风仙玉·暗器（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 526
+            }
+        },
+        "暗影·荆岫·暗器（加速） 加速提升5739点": {
+            "id": 16420,
+            "name": "暗影·荆岫·暗器（加速）",
+            "score": 0,
+            "attributes": {
+                "haste_base": 5739
+            }
+        },
+        "暗影·荆岫·暗器（内破） 内功破防等级提升5739点": {
+            "id": 16419,
+            "name": "暗影·荆岫·暗器（内破）",
+            "score": 0,
+            "attributes": {
+                "magical_overcome_base": 5739
+            }
+        },
+        "暗影·荆岫·暗器（外破） 外功破防等级提升5739点": {
+            "id": 16418,
+            "name": "暗影·荆岫·暗器（外破）",
+            "score": 0,
+            "attributes": {
+                "physical_overcome_base": 5739
+            }
+        },
+        "暗影·荆岫·暗器（身法） 身法提升736点": {
+            "id": 16417,
+            "name": "暗影·荆岫·暗器（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·荆岫·暗器（元气） 元气提升736点": {
+            "id": 16416,
+            "name": "暗影·荆岫·暗器（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·荆岫·暗器（力道） 力道提升736点": {
+            "id": 16415,
+            "name": "暗影·荆岫·暗器（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·荆岫·暗器（根骨） 根骨提升736点": {
+            "id": 16414,
+            "name": "暗影·荆岫·暗器（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
+        "暗影·白虹·暗器（加速） 加速提升5739点": {
+            "id": 16403,
+            "name": "暗影·白虹·暗器（加速）",
+            "score": 0,
+            "attributes": {
+                "haste_base": 5739
+            }
+        },
+        "暗影·白虹·暗器（内破） 内功破防等级提升5739点": {
+            "id": 16402,
+            "name": "暗影·白虹·暗器（内破）",
+            "score": 0,
+            "attributes": {
+                "magical_overcome_base": 5739
+            }
+        },
+        "暗影·白虹·暗器（外破） 外功破防等级提升5739点": {
+            "id": 16401,
+            "name": "暗影·白虹·暗器（外破）",
+            "score": 0,
+            "attributes": {
+                "physical_overcome_base": 5739
+            }
+        },
+        "暗影·白虹·暗器（身法） 身法提升736点": {
+            "id": 16400,
+            "name": "暗影·白虹·暗器（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·白虹·暗器（元气） 元气提升736点": {
+            "id": 16399,
+            "name": "暗影·白虹·暗器（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·白虹·暗器（力道） 力道提升736点": {
+            "id": 16398,
+            "name": "暗影·白虹·暗器（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·白虹·暗器（根骨） 根骨提升736点": {
+            "id": 16397,
+            "name": "暗影·白虹·暗器（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 736
+            }
         }
     },
     "ring": {
@@ -471,6 +639,158 @@ ENCHANTS = {
             "attributes": {
                 "spirit_base": 359
             }
+        },
+        "阆风仙玉·戒指（破招） 破招等级提升4099点": {
+            "id": 16431,
+            "name": "阆风仙玉·戒指（破招）",
+            "score": 0,
+            "attributes": {
+                "surplus_base": 4099
+            }
+        },
+        "阆风仙玉·戒指（内伤） 内功攻击提升1242点": {
+            "id": 16430,
+            "name": "阆风仙玉·戒指（内伤）",
+            "score": 0,
+            "attributes": {
+                "magical_attack_power_base": 1242
+            }
+        },
+        "阆风仙玉·戒指（外伤） 外功攻击提升1114点": {
+            "id": 16429,
+            "name": "阆风仙玉·戒指（外伤）",
+            "score": 0,
+            "attributes": {
+                "physical_attack_power_base": 1114
+            }
+        },
+        "阆风仙玉·戒指（身法） 身法提升526点": {
+            "id": 16428,
+            "name": "阆风仙玉·戒指（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 526
+            }
+        },
+        "阆风仙玉·戒指（元气） 元气提升526点": {
+            "id": 16427,
+            "name": "阆风仙玉·戒指（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 526
+            }
+        },
+        "阆风仙玉·戒指（力道） 力道提升526点": {
+            "id": 16426,
+            "name": "阆风仙玉·戒指（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 526
+            }
+        },
+        "阆风仙玉·戒指（根骨） 根骨提升526点": {
+            "id": 16425,
+            "name": "阆风仙玉·戒指（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 526
+            }
+        },
+        "暗影·荆岫·戒指（内攻） 内功攻击提升1739点": {
+            "id": 16413,
+            "name": "暗影·荆岫·戒指（内攻）",
+            "score": 0,
+            "attributes": {
+                "magical_attack_power_base": 1739
+            }
+        },
+        "暗影·荆岫·戒指（外攻） 外功攻击提升1559点": {
+            "id": 16412,
+            "name": "暗影·荆岫·戒指（外攻）",
+            "score": 0,
+            "attributes": {
+                "physical_attack_power_base": 1559
+            }
+        },
+        "暗影·荆岫·戒指（身法） 身法提升736点": {
+            "id": 16411,
+            "name": "暗影·荆岫·戒指（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·荆岫·戒指（元气） 元气提升736点": {
+            "id": 16410,
+            "name": "暗影·荆岫·戒指（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·荆岫·戒指（力道） 力道提升736点": {
+            "id": 16409,
+            "name": "暗影·荆岫·戒指（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·荆岫·戒指（根骨） 根骨提升736点": {
+            "id": 16408,
+            "name": "暗影·荆岫·戒指（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
+        "暗影·白虹·戒指（内攻） 内功攻击提升1739点": {
+            "id": 16396,
+            "name": "暗影·白虹·戒指（内攻）",
+            "score": 0,
+            "attributes": {
+                "magical_attack_power_base": 1739
+            }
+        },
+        "暗影·白虹·戒指（外攻） 外功攻击提升1559点": {
+            "id": 16395,
+            "name": "暗影·白虹·戒指（外攻）",
+            "score": 0,
+            "attributes": {
+                "physical_attack_power_base": 1559
+            }
+        },
+        "暗影·白虹·戒指（身法） 身法提升736点": {
+            "id": 16394,
+            "name": "暗影·白虹·戒指（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·白虹·戒指（元气） 元气提升736点": {
+            "id": 16393,
+            "name": "暗影·白虹·戒指（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·白虹·戒指（力道） 力道提升736点": {
+            "id": 16392,
+            "name": "暗影·白虹·戒指（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·白虹·戒指（根骨） 根骨提升736点": {
+            "id": 16391,
+            "name": "暗影·白虹·戒指（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 736
+            }
         }
     },
     "pendant": {
@@ -536,6 +856,54 @@ ENCHANTS = {
             "score": 2877,
             "attributes": {
                 "vitality_base": 1037
+            }
+        },
+        "阆风仙玉·腰坠（化劲） 化劲提升2050点": {
+            "id": 16424,
+            "name": "阆风仙玉·腰坠（化劲）",
+            "score": 0,
+            "attributes": {
+                "decritical_power_base": 2050
+            }
+        },
+        "阆风仙玉·腰坠（体质） 体质提升1518点": {
+            "id": 16423,
+            "name": "阆风仙玉·腰坠（体质）",
+            "score": 0,
+            "attributes": {
+                "vitality_base": 1518
+            }
+        },
+        "暗影·荆岫·腰坠（化劲） 化劲提升2869点": {
+            "id": 16407,
+            "name": "暗影·荆岫·腰坠（化劲）",
+            "score": 0,
+            "attributes": {
+                "decritical_power_base": 2869
+            }
+        },
+        "暗影·荆岫·腰坠（体质） 体质提升2126点": {
+            "id": 16406,
+            "name": "暗影·荆岫·腰坠（体质）",
+            "score": 0,
+            "attributes": {
+                "vitality_base": 2126
+            }
+        },
+        "暗影·白虹·腰坠（会心） 全会心提升5739点": {
+            "id": 16390,
+            "name": "暗影·白虹·腰坠（会心）",
+            "score": 0,
+            "attributes": {
+                "all_critical_strike_base": 5739
+            }
+        },
+        "暗影·白虹·腰坠（体质） 体质提升2126点": {
+            "id": 16389,
+            "name": "暗影·白虹·腰坠（体质）",
+            "score": 0,
+            "attributes": {
+                "vitality_base": 2126
             }
         }
     },
@@ -626,6 +994,78 @@ ENCHANTS = {
             "score": 2877,
             "attributes": {
                 "vitality_base": 1037
+            }
+        },
+        "阆风仙玉·项链（御劲） 御劲提升2050点": {
+            "id": 16422,
+            "name": "阆风仙玉·项链（御劲）",
+            "score": 0,
+            "attributes": {
+                "toughness_base": 2050
+            }
+        },
+        "阆风仙玉·项链（体质） 体质提升1518点": {
+            "id": 16421,
+            "name": "阆风仙玉·项链（体质）",
+            "score": 0,
+            "attributes": {
+                "vitality_base": 1518
+            }
+        },
+        "暗影·荆岫·项链（御劲） 御劲提升2869点": {
+            "id": 16405,
+            "name": "暗影·荆岫·项链（御劲）",
+            "score": 0,
+            "attributes": {
+                "toughness_base": 2869
+            }
+        },
+        "暗影·荆岫·项链（体质） 体质提升2126点": {
+            "id": 16404,
+            "name": "暗影·荆岫·项链（体质）",
+            "score": 0,
+            "attributes": {
+                "vitality_base": 2126
+            }
+        },
+        "暗影·白虹·项链（身法） 身法提升736点": {
+            "id": 16388,
+            "name": "暗影·白虹·项链（身法）",
+            "score": 0,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·白虹·项链（元气） 元气提升736点": {
+            "id": 16387,
+            "name": "暗影·白虹·项链（元气）",
+            "score": 0,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·白虹·项链（力道） 力道提升736点": {
+            "id": 16386,
+            "name": "暗影·白虹·项链（力道）",
+            "score": 0,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·白虹·项链（根骨） 根骨提升736点": {
+            "id": 16385,
+            "name": "暗影·白虹·项链（根骨）",
+            "score": 0,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
+        "暗影·白虹·项链（体质） 体质提升2126点": {
+            "id": 16384,
+            "name": "暗影·白虹·项链（体质）",
+            "score": 0,
+            "attributes": {
+                "vitality_base": 2126
             }
         }
     },
