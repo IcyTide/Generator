@@ -1,5 +1,6 @@
 SKILLS = {
     35894: dict(channel_interval=24),
+    36004: dict(comment="{}枚箭矢", max_level=4),
     36177: {1: {}},
     **{
         skill_id: dict(comment=f"{i + 1}段({delay})帧")

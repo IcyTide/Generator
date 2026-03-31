@@ -199,45 +199,32 @@ BUFFS = {
                 }
             }
         },
-        13910: {
+        33522: {
             1: {
                 "name": "众嗔",
-                "interval": 4,
+                "interval": 480,
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
-                    "recipe_5779_1",
-                    "recipe_5780_1"
+                    "recipe_6392_1",
+                    "recipe_6393_1",
+                    "recipe_6394_1"
                 ]
             }
         },
-        12590: {
+        1: {
             1: {
-                "name": "三生",
-                "interval": 16,
+                "name": "六度净果斩杀",
+                "comment": "<30%血量",
+                "interval": 1,
                 "max_stack": 1,
                 "max_tick": 1,
-                "attributes": {
-                    "strain_gain": 102
-                }
-            },
-            2: {
-                "name": "三生",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_gain": 205
-                }
-            },
-            3: {
-                "name": "三生",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_gain": 307
-                }
+                "skills": [
+                    44421,
+                    44422,
+                    44423
+                ],
+                "buff_key": "buff_1_1"
             }
         },
         31804: {
@@ -279,19 +266,33 @@ BUFFS = {
                 }
             }
         },
-        1: {
+        12590: {
             1: {
-                "name": "六度净果斩杀",
-                "comment": "<30%血量",
-                "interval": 1,
+                "name": "三生",
+                "interval": 16,
                 "max_stack": 1,
                 "max_tick": 1,
-                "skills": [
-                    44421,
-                    44422,
-                    44423
-                ],
-                "buff_key": "buff_1_1"
+                "attributes": {
+                    "strain_gain": 102
+                }
+            },
+            2: {
+                "name": "三生",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 205
+                }
+            },
+            3: {
+                "name": "三生",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "strain_gain": 307
+                }
             }
         },
         29304: {
@@ -479,10 +480,9 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "neutral_critical_strike_rate": 2500,
-                    "magical_critical_power_rate": 250,
+                    "unlimit_critical_power_rate": 256,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
                 }
             },
@@ -494,12 +494,11 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "neutral_critical_strike_rate": 2500,
-                    "magical_critical_power_rate": 256,
+                    "strain_gain": 154,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 256,
-                    "physical_critical_strike_rate": 2500,
-                    "strain_gain": 154
+                    "unlimit_critical_power_rate": 256,
+                    "physical_critical_strike_rate": 2500
                 }
             },
             6: {
@@ -509,10 +508,11 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_critical_power_rate": 512,
+                    "unlimit_critical_power_rate": 563,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 512
+                    "neutral_critical_strike_rate": 1000,
+                    "physical_critical_strike_rate": 1000
                 }
             },
             8: {
@@ -522,11 +522,12 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_critical_power_rate": 512,
+                    "unlimit_critical_power_rate": 563,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 512,
-                    "strain_gain": 154
+                    "strain_gain": 154,
+                    "neutral_critical_strike_rate": 1000,
+                    "physical_critical_strike_rate": 1000
                 }
             }
         },
@@ -894,10 +895,9 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "neutral_critical_strike_rate": 2500,
-                    "magical_critical_power_rate": 250,
+                    "unlimit_critical_power_rate": 256,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 250,
                     "physical_critical_strike_rate": 2500
                 }
             },
@@ -909,11 +909,10 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "neutral_critical_strike_rate": 2500,
-                    "magical_critical_power_rate": 250,
+                    "physical_critical_strike_rate": 2500,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 250,
-                    "physical_critical_strike_rate": 2500
+                    "unlimit_critical_power_rate": 256
                 }
             },
             5: {
@@ -924,12 +923,11 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "neutral_critical_strike_rate": 2500,
-                    "magical_critical_power_rate": 256,
+                    "unlimit_critical_power_rate": 256,
                     "neutral_attack_power_gain": 512,
                     "physical_attack_power_gain": 512,
-                    "physical_critical_power_rate": 256,
-                    "physical_critical_strike_rate": 2500,
-                    "strain_gain": 307
+                    "strain_gain": 307,
+                    "physical_critical_strike_rate": 2500
                 }
             },
             6: {
@@ -939,10 +937,11 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_critical_power_rate": 512,
+                    "unlimit_critical_power_rate": 563,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "physical_critical_power_rate": 512
+                    "neutral_critical_strike_rate": 1000,
+                    "physical_critical_strike_rate": 1000
                 }
             },
             7: {
@@ -952,11 +951,12 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_critical_power_rate": 512,
+                    "unlimit_critical_power_rate": 563,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 512,
-                    "physical_critical_power_rate": 512,
-                    "strain_gain": 307
+                    "strain_gain": 307,
+                    "neutral_critical_strike_rate": 1000,
+                    "physical_critical_strike_rate": 1000
                 }
             }
         },
@@ -978,7 +978,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_attack_power_gain": 51
+                    "physical_attack_power_gain": 102
                 }
             }
         },
@@ -1285,8 +1285,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_critical_strike_rate": 1200,
-                    "physical_critical_power_rate": 408,
+                    "physical_critical_strike_rate": 600,
+                    "physical_critical_power_rate": 256,
                     "strain_gain": 204
                 }
             }
@@ -2503,8 +2503,8 @@ BUFFS = {
         3281: {
             1: {
                 "name": "击搏挽裂",
-                "interval": 320,
-                "max_stack": 6,
+                "interval": 16,
+                "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
                     "recipe_1943_1"
@@ -2549,6 +2549,19 @@ BUFFS = {
                 ]
             }
         },
+        1: {
+            1: {
+                "name": "斩杀",
+                "comment": "<30%血量",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    44463
+                ],
+                "buff_key": "buff_1_1"
+            }
+        },
         33107: {
             1: {
                 "name": "日月连璧",
@@ -2564,6 +2577,17 @@ BUFFS = {
                     4026
                 ],
                 "buff_key": "buff_33107_1"
+            }
+        },
+        33518: {
+            1: {
+                "name": "月朔",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6303_1"
+                ]
             }
         },
         31456: {
@@ -2589,7 +2613,7 @@ BUFFS = {
                 }
             }
         },
-        1: {
+        2: {
             1: {
                 "name": "净体不畏",
                 "interval": 1,
@@ -2599,7 +2623,7 @@ BUFFS = {
                     40088,
                     40089
                 ],
-                "buff_key": "buff_1_1"
+                "buff_key": "buff_2_1"
             }
         },
         33108: {
@@ -2822,7 +2846,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_damage_gain": 92
+                    "all_damage_gain": 113
                 }
             }
         },
@@ -2937,14 +2961,15 @@ BUFFS = {
                 }
             }
         },
-        8448: {
-            11: {
-                "name": "盾挡",
+        33532: {
+            1: {
+                "name": "蔑视",
                 "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1,
+                "max_tick": 30,
                 "attributes": {
-                    "vitality_to_parry_value": 563
+                    "physical_critical_strike_rate": 1100,
+                    "physical_critical_power_rate": 112
                 }
             }
         },
@@ -3083,6 +3108,17 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "physical_damage_cof": 123
+                }
+            }
+        },
+        33520: {
+            1: {
+                "name": "碾尘",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 8,
+                "attributes": {
+                    "physical_critical_strike_rate": 2500
                 }
             }
         },
@@ -4143,14 +4179,14 @@ BUFFS = {
                 }
             }
         },
-        31907: {
+        30430: {
             1: {
                 "name": "镇星",
-                "interval": 16,
+                "interval": 4,
                 "max_stack": 1,
-                "max_tick": 30,
+                "max_tick": 192,
                 "attributes": {
-                    "all_damage_gain": 154
+                    "all_damage_gain": 102
                 }
             }
         },
@@ -4368,6 +4404,7 @@ BUFFS = {
     10698: {
         32797: {
             1: {
+                "name": "橙武增伤",
                 "interval": 4,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -4428,7 +4465,7 @@ BUFFS = {
         },
         33181: {
             2: {
-                "name": "潋风",
+                "name": "潋行",
                 "interval": 640,
                 "max_stack": 1,
                 "max_tick": 1,
@@ -4444,7 +4481,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_shield_ignore": 256
+                    "all_shield_ignore": 768
                 }
             }
         }
@@ -4522,7 +4559,7 @@ BUFFS = {
     10786: {
         33154: {
             1: {
-                "name": "绝脉增伤",
+                "name": "督脉能量增伤",
                 "interval": 1,
                 "max_stack": 100,
                 "max_tick": 1,
@@ -4532,25 +4569,11 @@ BUFFS = {
             },
             2: {
                 "name": "涣风增伤",
-                "comment": "蛰微DOT",
                 "interval": 1,
                 "max_stack": 3,
                 "max_tick": 1,
-                "skills": [
-                    44511
-                ],
-                "buff_key": "buff_33154_2"
-            }
-        },
-        28756: {
-            2: {
-                "name": "玉枕",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 9999,
                 "attributes": {
-                    "all_shield_ignore": 410,
-                    "magical_attack_power_gain": 205
+                    "all_damage_gain": 307
                 }
             }
         },
@@ -4561,7 +4584,8 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_gain": 154
+                    "strain_gain": 154,
+                    "magical_attack_power_gain": 154
                 }
             }
         },
@@ -4573,12 +4597,28 @@ BUFFS = {
                 "max_tick": 1
             }
         },
+        28756: {
+            2: {
+                "name": "玉枕",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 9999,
+                "attributes": {
+                    "all_shield_ignore": 512
+                }
+            }
+        },
         33157: {
             1: {
                 "name": "涣风",
-                "interval": 32,
+                "interval": 24,
                 "max_stack": 3,
-                "max_tick": 1
+                "max_tick": 1,
+                "skills": [
+                    38083,
+                    38438
+                ],
+                "buff_key": "buff_33157_1"
             }
         },
         30667: {

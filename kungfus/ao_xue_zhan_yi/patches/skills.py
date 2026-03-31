@@ -9,6 +9,7 @@ SKILLS = {
     15163: {i + 1: dict(comment=f"{i + 1}段({delay}帧)") for i, delay in enumerate([10, *range(16, 27), 40])},
     6525: dict(comment="破楼兰(自身50%气血以下)"), 6526: dict(comment="破楼兰(自身50%血量以上)"),
     20778: {i + 1: dict(comment=f"飞将{i + 1}段({delay}帧)") for i, delay in enumerate([10, *range(16, 27), 40])},
+    37350: dict(comment="命中{}目标"),
     24843: {
         **{i + 1: dict(comment=f"蓄力{i + 1}段({delay}帧)") for i, delay in enumerate([0, 12, 23])},
         **{i + 4: dict(comment=f"高血量蓄力{i + 1}段({delay}帧)") for i, delay in enumerate([0, 12, 23])}

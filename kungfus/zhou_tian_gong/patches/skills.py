@@ -7,14 +7,7 @@ SKILLS = {
         1: dict(comment="劈风令"),
         25: dict(comment="神门")
     },
-    38083: dict(dest_rollback_attributes=[(
-        "coming_damage_cof",
-        307.2 * Variable("buff_33157")
-    )]),
-    38438: dict(comment="{level-1}点任脉能量", dest_rollback_attributes=[(
-        "coming_damage_cof",
-        (1.4 * (1 + 0.03 * Variable("buff_29205")) * (1 + 0.3 * Variable("buff_33157")) - 1) * BINARY_SCALE
-    )]),
+    38438: dict(comment="{level-1}点任脉能量"),
     38085: dict(comment="{}层绝脉"),
     37804: dict(comment="{}"),
     37816: dict(comment="弹射{level-1}次"),
