@@ -1618,7 +1618,7 @@ SKILLS = {
                 "name": "三环套月",
                 "comment": "1段",
                 "damages": [
-                    "(123 + rand * 13 + physical_attack_power * 2.7625 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (307 * recipe_5772_1 + 31 * recipe_70_1 + 41 * recipe_71_1 + 51 * recipe_72_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(123 + rand * 13 + physical_attack_power * 2.7625 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_70_1 + 41 * recipe_71_1 + 51 * recipe_72_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_65_1 + 300 * recipe_66_1 + 400 * recipe_67_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -1629,7 +1629,7 @@ SKILLS = {
                 "name": "三环套月",
                 "comment": "2段",
                 "damages": [
-                    "(123 + rand * 13 + physical_attack_power * 2.7625 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (307 * recipe_5772_1 + 31 * recipe_70_1 + 41 * recipe_71_1 + 51 * recipe_72_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    "(123 + rand * 13 + physical_attack_power * 2.7625 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + (31 * recipe_70_1 + 41 * recipe_71_1 + 51 * recipe_72_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike + (200 * recipe_65_1 + 300 * recipe_66_1 + 400 * recipe_67_1) / 10000",
                 "critical_power": "physical_critical_power"
@@ -12791,7 +12791,7 @@ SKILLS = {
         },
         30503: {
             1: {
-                "name": "破云",
+                "name": "风掣",
                 "comment": "",
                 "damages": [
                     "(67 + rand * 5 + physical_attack_power * 2.025) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"

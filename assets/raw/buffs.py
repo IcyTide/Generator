@@ -870,10 +870,7 @@ BUFFS = {
                     "physical_critical_power_rate": 100,
                     "physical_critical_strike_rate": 500,
                     "all_shield_ignore": 614
-                },
-                "recipes": [
-                    "recipe_5772_1"
-                ]
+                }
             },
             11: {
                 "name": "碎星辰",
@@ -885,10 +882,7 @@ BUFFS = {
                     "physical_critical_power_rate": 204,
                     "physical_critical_strike_rate": 1000,
                     "all_shield_ignore": 614
-                },
-                "recipes": [
-                    "recipe_5772_1"
-                ]
+                }
             }
         },
         2757: {
