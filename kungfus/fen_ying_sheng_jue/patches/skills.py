@@ -10,20 +10,8 @@ SKILLS = {
         5: dict(comment="崇光斩恶")
     },
     35065: {1: {}},
-    **{
-        skill_id: dict(
-            comment=f"{i + 1}段",
-            dest_rollback_attributes=[("coming_damage_cof", i * 409.6 * Variable("belong_5979"))]
-        )
-        for i, skill_id in enumerate([4024, 4025, 4026])
-    },
-    **{
-        skill_id: dict(
-            comment=f"{i + 1}段",
-            dest_rollback_attributes=[("coming_damage_cof", i * 409.6 * Variable("belong_5979"))]
-        )
-        for i, skill_id in enumerate([4028, 4029, 4030])
-    },
+    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([4024, 4025, 4026])},
+    **{skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([4028, 4029, 4030])},
     4480: {
         29: dict(comment="原始"),
         58: dict(comment="背后")
@@ -35,6 +23,7 @@ SKILLS = {
         3: dict(comment="明赦尊谕/生死劫日+净世破魔击月"),
         4: dict(comment="明赦尊谕/生死劫日+明赦尊谕/生死劫月")
     },
+    34985: dict(comment="{level*20}点能量"),
     40209: {
         **{i + 1: dict(comment=f"{15 * i}最大气血") for i in range(10)},
         **{i + 11: dict(comment=f"{15 * i}最大气血(范围外)") for i in range(10)},

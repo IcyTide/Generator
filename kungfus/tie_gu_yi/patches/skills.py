@@ -10,6 +10,7 @@ SKILLS = {
         i + 1: dict(comment=f"额外{(i + 1) * 10}怒气绝刀") for i in range(5)
     },
     38971: {1: {}},
+    34673: {1: {}},
     25208: dict(comment="冲锋"), 25205: dict(comment="终点"),
     13308: dict(comment="割裂"), 29186: dict(comment="割裂"),
 }

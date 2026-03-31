@@ -25,7 +25,6 @@ SKILLS = {
     **{skill_id: dict(comment=f"六度{i + 4}豆") for i, skill_id in enumerate([44416, 44417, 44418])},
     **{skill_id: dict(comment=f"六度原始{i + 4}豆") for i, skill_id in enumerate([44421, 44422, 44423])},
     43592: {1: {}}, 42407: dict(comment="{level-1}层藏识"),
-    3814: dict(comment="众嗔"),
     **{skill_id: dict(comment=f"净果{i + 1}豆") for i, skill_id in enumerate([13681, 13683, 13685])},
     **{skill_id: dict(comment=f"净果{i + 1}豆斩杀") for i, skill_id in enumerate([36049, 36050, 36051])},
     44394: dict(comment="收缩{}次"),

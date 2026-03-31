@@ -8,6 +8,5 @@ SKILLS = {
     42491: {
         1: dict(comment="追命箭"),
         2: dict(comment="夺魄箭")
-    },
-    29148: dict(comment="鹰扬虎视"), 29154: dict(comment="鹰扬虎视")
+    }
 }

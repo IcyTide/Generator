@@ -6,13 +6,13 @@ TALENTS: list[dict[int, dict]] = [
         42405: dict(skills=[43592, 42407])
     },
     {
-        6596: dict(buffs=[13910], skills=[3814]),
+        44994: dict(buffs=[33522]),
         6595: {},
         37369: dict(skills=[37374]),
         240: {}
     },
     {
-        6586: dict(buffs=[12590]),
+        6590: dict(buffs=[1], skills=[13681, 13683, 13685, 36049, 36050, 36051]),
         42406: dict(buffs=[31804]),
         14758: {},
         18623: {},
@@ -24,7 +24,7 @@ TALENTS: list[dict[int, dict]] = [
         259: {}
     },
     {
-        6590: dict(buffs=[1], skills=[13681, 13683, 13685, 36049, 36050, 36051]),
+        6586: dict(buffs=[12590]),
         44441: dict(skills=[44449]),
         32647: {},
         38623: dict(buffs=[29304])

@@ -11,7 +11,7 @@ BUFFS: dict[int, dict] = {
     },
     12590: dict(name="三生", comment="{}"),
     11979: dict(comment="金刚怒目"),
-    13910: dict(name="众嗔"),
+    33522: dict(name="众嗔"),
     14916: {1: dict(name="缘觉")},
     9809: {1: dict(comment="五识")},
     11981: dict(comment="金刚怒目+五识"),

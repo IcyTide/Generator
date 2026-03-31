@@ -218,7 +218,10 @@ def get_equip_detail(row):
         "position": POSITION_MAP[row['SubType']], "usage": USAGE_MAP[row['EquipUsage']],
         "level": int(row['Level']), "score": int(row['Score']), "max_strength": int(row['MaxStrengthLevel'])
     }
-    item_row = READER.query("item_txts", dict(ItemID=row['UiID']))[0]
+    try:
+        item_row = READER.query("item_txts", dict(ItemID=row['UiID']))[0]
+    except IndexError:
+        item_row = {"IconID": 0, "Desc": ""}
     detail['icon_id'] = int(item_row['IconID'])
     detail['desc'] = item_row['Desc']
     detail['base'] = get_base_attrs(row)
@@ -255,8 +258,7 @@ def build_equip_code(details: dict[int, dict]):
     results = {}
     for detail in details.values():
         position, school, kind, usage = detail['position'], detail['school'], detail['kind'], detail['usage']
-        if usage in ["PVP", "PVX"]:
-            continue
+
         if position not in results:
             results[position] = {}
         if school not in results[position]:
@@ -271,9 +273,9 @@ def build_equip_code(details: dict[int, dict]):
 def get_equip_list(equip_tab):
     equip_tab = equip_tab[equip_tab.SubType.isin(MIN_EQUIP_SCORE)]
     equip_tab = equip_tab[equip_tab.Score >= equip_tab.SubType.map(MIN_EQUIP_SCORE)]
+    equip_tab = equip_tab[equip_tab.EquipUsage.isin([1, 3])]
     equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
     equip_tab = equip_tab.sort_values(["SubType", "Score", "ID"], ascending=False)
-
     results = {}
     for row in tqdm(equip_tab.to_dict("records")):
         detail = get_equip_detail(row)
