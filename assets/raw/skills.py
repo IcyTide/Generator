@@ -566,7 +566,7 @@ SKILLS = {
                 "name": "果报",
                 "comment": "",
                 "damages": [
-                    "solar_attack_power * 5.96875 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "solar_attack_power * 6.567708333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7178,7 +7178,7 @@ SKILLS = {
                 "name": "圣焰",
                 "comment": "",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 5.942708333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 4.244791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7189,7 +7189,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "1秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 33.947916666666664) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 40.5) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7198,7 +7198,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "2秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 34.859375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 41.58333333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7207,7 +7207,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "3秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 36.33333333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 43.34375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7216,7 +7216,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "4秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 38.69270833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 46.151041666666664) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7225,7 +7225,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "5秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 42.390625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 50.56770833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7234,7 +7234,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "6秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 48.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 57.291666666666664) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7243,7 +7243,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "7秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 56.25520833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 67.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7252,7 +7252,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "8秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 67.51041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 80.53125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7261,7 +7261,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "9秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 81.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 97.38020833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7270,7 +7270,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "10秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 97.56770833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 116.38541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7279,7 +7279,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "11秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 108.72916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 129.69791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7288,7 +7288,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "12秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 115.0) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 137.17708333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7297,7 +7297,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "13秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 119.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 142.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7306,7 +7306,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "14秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 122.41666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 146.02604166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7315,7 +7315,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "15秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 124.90104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 148.98958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7324,7 +7324,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "16秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 126.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 151.41145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7333,7 +7333,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "17秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 128.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 153.44270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7342,7 +7342,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "18秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 130.09375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 155.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7351,7 +7351,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "19秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 131.359375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 156.69270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7360,7 +7360,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "20秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 132.47916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 158.02604166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7369,7 +7369,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "21秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 133.47395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 159.21354166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7378,7 +7378,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "22秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 134.36979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 160.28125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7387,7 +7387,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "23秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 135.17708333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 161.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7396,7 +7396,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "24秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 135.91666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 162.13020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7405,7 +7405,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "25秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 136.59895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 162.94270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7414,7 +7414,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "26秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 137.22395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 163.6875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7423,7 +7423,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "27秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 137.80208333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 164.38020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7432,7 +7432,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "28秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 138.33854166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 165.02083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7441,7 +7441,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "29秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 138.84375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 165.61979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7450,7 +7450,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "30秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 139.3125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 166.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7459,7 +7459,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "31秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 139.75520833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 166.70833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7468,7 +7468,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "32秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 140.171875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 167.203125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7477,7 +7477,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "33秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 140.5625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 167.671875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7486,7 +7486,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "34秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 140.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 168.11458333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7495,7 +7495,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "35秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 141.28645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 168.53645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7504,7 +7504,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "36秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 141.61979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 168.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7513,7 +7513,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "37秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 141.9375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 169.3125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7522,7 +7522,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "38秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 142.23958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 169.671875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7531,7 +7531,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "39秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 142.53125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 170.02083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7540,7 +7540,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "40秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 142.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 170.34895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7549,7 +7549,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "41秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 143.07291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 170.66666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7558,7 +7558,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "42秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 143.328125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 170.96875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7567,7 +7567,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "43秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 143.57291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 171.26041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7576,7 +7576,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "44秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 143.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 171.54166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7585,7 +7585,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "45秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 144.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 171.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7594,7 +7594,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "46秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 144.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 172.06770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7603,7 +7603,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "47秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 144.45833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 172.31770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7612,7 +7612,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "48秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 144.66145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 172.55729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7621,7 +7621,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "49秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 144.85416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 172.79166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7630,7 +7630,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "50秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 145.04166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 173.015625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7639,7 +7639,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "51秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 145.22395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 173.234375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7648,7 +7648,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "52秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 145.40104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 173.44270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7657,7 +7657,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "53秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 145.57291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 173.64583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7666,7 +7666,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "54秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 145.73958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 173.84375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7675,7 +7675,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "55秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 145.90104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 174.03645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7684,7 +7684,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "56秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.05729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 174.22395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7693,7 +7693,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "57秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.20833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 174.40625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7702,7 +7702,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "58秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.35416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 174.578125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7711,7 +7711,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "59秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.5) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 174.75) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7720,7 +7720,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "60秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 174.91666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7729,7 +7729,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "61秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.77083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.078125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7738,7 +7738,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "62秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 146.90625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.234375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7747,7 +7747,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "63秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.390625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7756,7 +7756,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "64秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.15625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.54166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7765,7 +7765,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "65秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.28125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.6875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7774,7 +7774,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "66秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.40104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.828125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7783,7 +7783,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "67秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.515625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 175.96875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7792,7 +7792,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "68秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.63020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7801,7 +7801,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "69秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.73958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.234375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7810,7 +7810,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "70秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.84895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.36458333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7819,7 +7819,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "71秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 147.95833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.48958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7828,7 +7828,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "72秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.05729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.61458333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7837,7 +7837,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "73秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.16145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.734375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7846,7 +7846,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "74秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.26041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.85416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7855,7 +7855,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "75秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.359375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 176.96875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7864,7 +7864,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "76秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.453125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.08333333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7873,7 +7873,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "77秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.546875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.19270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7882,7 +7882,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "78秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.30208333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7891,7 +7891,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "79秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.72916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.41145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7900,7 +7900,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "80秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.8125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.515625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7909,7 +7909,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "81秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.90104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.61979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7918,7 +7918,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "82秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 148.984375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.71875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7927,7 +7927,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "83秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.06770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.81770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7936,7 +7936,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "84秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.15104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 177.91666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7945,7 +7945,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "85秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.22916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.01041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7954,7 +7954,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "86秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.30729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7963,7 +7963,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "87秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.38541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.19270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7972,7 +7972,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "88秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.45833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.28645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7981,7 +7981,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "89秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.53125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7990,7 +7990,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "90秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.60416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.45833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -7999,7 +7999,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "91秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.67708333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.546875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8008,7 +8008,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "92秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.75) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.63020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8017,7 +8017,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "93秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.81770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.71354166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8026,7 +8026,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "94秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.88541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.79166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8035,7 +8035,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "95秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 149.953125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8044,7 +8044,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "96秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.02083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 178.953125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8053,7 +8053,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "97秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.08333333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8062,7 +8062,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "98秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.14583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8071,7 +8071,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "99秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.20833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8080,7 +8080,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "100秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.27083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.25520833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8089,7 +8089,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "101秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.33333333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.328125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8098,7 +8098,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "102秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.39583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.39583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8107,7 +8107,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "103秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.453125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.46875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8116,7 +8116,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "104秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.51041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.53645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8125,7 +8125,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "105秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.56770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.60416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8134,7 +8134,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "106秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.671875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8143,7 +8143,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "107秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.68229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.73958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8152,7 +8152,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "108秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.734375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8161,7 +8161,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "109秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.79166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.86979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8170,7 +8170,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "110秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.84375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8179,7 +8179,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "111秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.89583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 179.99479166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8188,7 +8188,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "112秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 150.94791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.05729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8197,7 +8197,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "113秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.0) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.11979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8206,7 +8206,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "114秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.046875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8215,7 +8215,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "115秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.09895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.23958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8224,7 +8224,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "116秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.14583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.296875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8233,7 +8233,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "117秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.19791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.35416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8242,7 +8242,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "118秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.24479166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.41145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8251,7 +8251,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "119秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.29166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.46875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -8260,7 +8260,7 @@ SKILLS = {
                 "name": "涤罪",
                 "comment": "120秒",
                 "damages": [
-                    "(100 + rand * 100 + solar_attack_power * 151.33854166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                    "(100 + rand * 100 + solar_attack_power * 180.52604166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                 ],
                 "critical_strike": "solar_critical_strike",
                 "critical_power": "solar_critical_power"
@@ -13625,6 +13625,15 @@ SKILLS = {
                 ],
                 "critical_strike": "neutral_critical_strike",
                 "critical_power": "neutral_critical_power"
+            },
+            4: {
+                "name": "破",
+                "comment": "逐光",
+                "damages": [
+                    "surplus * 8.534 * 0.5118675231933594 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
             }
         },
         25837: {
@@ -13817,7 +13826,7 @@ SKILLS = {
                 "name": "纵横三才",
                 "comment": "主动",
                 "damages": [
-                    "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)"
+                    "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
                 "critical_strike": "neutral_critical_strike",
                 "critical_power": "neutral_critical_power"
@@ -13826,7 +13835,7 @@ SKILLS = {
                 "name": "纵横三才",
                 "comment": "主动12尺",
                 "damages": [
-                    "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)"
+                    "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
                 "critical_strike": "neutral_critical_strike",
                 "critical_power": "neutral_critical_power"
@@ -13889,17 +13898,6 @@ SKILLS = {
                     "(33 + rand * 5 + neutral_attack_power * 1.3541666666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
                 "critical_strike": "neutral_critical_strike",
-                "critical_power": "neutral_critical_power"
-            }
-        },
-        44510: {
-            5: {
-                "name": "鬼星开穴",
-                "comment": "",
-                "damages": [
-                    "(1456 + rand * 997 + neutral_attack_power * 2.083333333333333) * (1 + magical_damage_addition + (41 * recipe_5274_1 + 51 * recipe_5275_1) / 1024) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
-                ],
-                "critical_strike": "neutral_critical_strike + (300 * recipe_5272_1 + 400 * recipe_5273_1) / 10000",
                 "critical_power": "neutral_critical_power"
             }
         },
@@ -13995,7 +13993,7 @@ SKILLS = {
                 "name": "纵横三才",
                 "comment": "连极阵",
                 "damages": [
-                    "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)"
+                    "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
                 "critical_strike": "neutral_critical_strike",
                 "critical_power": "neutral_critical_power"
@@ -14004,7 +14002,7 @@ SKILLS = {
                 "name": "纵横三才",
                 "comment": "12尺连极阵",
                 "damages": [
-                    "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)"
+                    "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
                 "critical_strike": "neutral_critical_strike",
                 "critical_power": "neutral_critical_power"
@@ -14016,6 +14014,17 @@ SKILLS = {
                 "comment": "",
                 "damages": [
                     "(275 + rand * 30 + neutral_attack_power * 2.6041666666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (neutral_damage_scale + 1.6005859375)"
+                ],
+                "critical_strike": "neutral_critical_strike",
+                "critical_power": "neutral_critical_power"
+            }
+        },
+        45032: {
+            3: {
+                "name": "镇星入舆",
+                "comment": "",
+                "damages": [
+                    "(100 + rand * 100 + neutral_attack_power * 5.729166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                 ],
                 "critical_strike": "neutral_critical_strike",
                 "critical_power": "neutral_critical_power"
@@ -18964,7 +18973,7 @@ SKILLS = {
                 "critical_power": "0"
             },
             7: {
-                "name": "无修·荒",
+                "name": "无修·天",
                 "comment": "",
                 "damages": [
                     "0"
@@ -18973,7 +18982,7 @@ SKILLS = {
                 "critical_power": "0"
             },
             8: {
-                "name": "无修·荒",
+                "name": "无修·天",
                 "comment": "",
                 "damages": [
                     "0"

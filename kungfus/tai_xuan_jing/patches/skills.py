@@ -1,7 +1,8 @@
 SKILLS = {
     32886: {
         1: dict(comment="兵主逆"),
-        3: dict(comment="天斗旋")
+        3: dict(comment="天斗旋"),
+        4: dict(comment="逐光")
     },
     33588: {
         1: dict(comment="兵主逆"),
@@ -26,6 +27,7 @@ SKILLS = {
         3: dict(comment="12尺连极阵")
     },
     25150: dict(dest_rollback_attributes=[("coming_damage_cof", 614.4)]),
+    45032: {3: {}},
     25031: dict(comment="焚如"),
     42520: {
         1: dict(comment="PVP"),
