@@ -11,7 +11,7 @@ BUFFS = {
     30756: dict(levels=[1, 3, 5], comment="{alias}"),
     30757: dict(levels=[1, 3, 5], comment="{alias}"),
     30950: dict(levels=[1, 3, 5], comment="{alias}"),
-    29519: dict(levels=[10, 11, 12, 13, 14, 15, 16, 17, 18], comment="{alias}"),
+    29519: dict(levels=[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24], comment="{alias}"),
     29524: dict(levels=[4, 5, 6, 7, 8], comment="{alias}"),
     29526: dict(levels=[4, 5, 6, 7, 8], comment="{alias}"),
     29528: dict(levels=[4, 5, 6, 7, 8], comment="{alias}"),

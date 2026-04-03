@@ -1188,7 +1188,7 @@ BUFFS = {
         32022: {
             1: {
                 "name": "青歌",
-                "interval": 240,
+                "interval": 288,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
@@ -4133,19 +4133,6 @@ BUFFS = {
         }
     },
     10615: {
-        30434: {
-            1: {
-                "name": "踏斗",
-                "interval": 320,
-                "max_stack": 4,
-                "max_tick": 1,
-                "skills": [
-                    28815,
-                    42423
-                ],
-                "buff_key": "buff_30434_1"
-            }
-        },
         33198: {
             1: {
                 "name": "鬼遁",
@@ -4187,6 +4174,17 @@ BUFFS = {
                 "max_tick": 192,
                 "attributes": {
                     "all_damage_gain": 102
+                }
+            }
+        },
+        31907: {
+            1: {
+                "name": "镇星",
+                "interval": 96,
+                "max_stack": 1,
+                "max_tick": 9999,
+                "attributes": {
+                    "all_damage_gain": 154
                 }
             }
         },
@@ -4481,7 +4479,7 @@ BUFFS = {
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_shield_ignore": 768
+                    "all_shield_ignore": 666
                 }
             }
         }
@@ -6730,7 +6728,7 @@ BUFFS = {
                 "max_stack": 100,
                 "max_tick": 30,
                 "attributes": {
-                    "strain_base": 148
+                    "strain_base": 163
                 }
             }
         },
@@ -8351,6 +8349,60 @@ BUFFS = {
                 "max_tick": 1,
                 "attributes": {
                     "surplus_base": 2971
+                }
+            },
+            19: {
+                "comment": "黄字帽子适应之力_暗影千机低品",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3194
+                }
+            },
+            20: {
+                "comment": "黄字帽子适应之力_暗影千机低品",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 3194
+                }
+            },
+            21: {
+                "comment": "黄字帽子适应之力_暗影千机低品",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 3194
+                }
+            },
+            22: {
+                "comment": "黄字帽子适应之力_暗影千机高品",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_overcome_base": 3471
+                }
+            },
+            23: {
+                "comment": "黄字帽子适应之力_暗影千机高品",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_critical_strike_base": 3471
+                }
+            },
+            24: {
+                "comment": "黄字帽子适应之力_暗影千机高品",
+                "interval": 1,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "surplus_base": 3471
                 }
             }
         },

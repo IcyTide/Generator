@@ -1250,7 +1250,7 @@
                 "name": "果报",
                 "damages": [
                     {
-                        "damage": "solar_attack_power * 5.96875 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                        "damage": "solar_attack_power * 6.567708333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                     }
                 ],
                 "critical": {
@@ -1258,8 +1258,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "1146",
-                    "magical_attack_power_cof": "5.96875"
+                    "frames": "1261",
+                    "magical_attack_power_cof": "6.567708333333333"
                 }
             }
         },
@@ -15945,7 +15945,7 @@
                 "name": "圣焰",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 5.942708333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 4.244791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -15957,8 +15957,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "1141",
-                    "magical_attack_power_cof": "5.942708333333333"
+                    "frames": "815",
+                    "magical_attack_power_cof": "4.244791666666666"
                 }
             }
         },
@@ -15968,7 +15968,7 @@
                 "comment": "1秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 33.947916666666664) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 40.5) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -15980,8 +15980,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "6518",
-                    "magical_attack_power_cof": "33.947916666666664"
+                    "frames": "7776",
+                    "magical_attack_power_cof": "40.5"
                 }
             },
             "2": {
@@ -15989,7 +15989,7 @@
                 "comment": "2秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 34.859375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 41.58333333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16001,8 +16001,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "6693",
-                    "magical_attack_power_cof": "34.859375"
+                    "frames": "7984",
+                    "magical_attack_power_cof": "41.58333333333333"
                 }
             },
             "3": {
@@ -16010,7 +16010,7 @@
                 "comment": "3秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 36.33333333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 43.34375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16022,8 +16022,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "6976",
-                    "magical_attack_power_cof": "36.33333333333333"
+                    "frames": "8322",
+                    "magical_attack_power_cof": "43.34375"
                 }
             },
             "4": {
@@ -16031,7 +16031,7 @@
                 "comment": "4秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 38.69270833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 46.151041666666664) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16043,8 +16043,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "7429",
-                    "magical_attack_power_cof": "38.69270833333333"
+                    "frames": "8861",
+                    "magical_attack_power_cof": "46.151041666666664"
                 }
             },
             "5": {
@@ -16052,7 +16052,7 @@
                 "comment": "5秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 42.390625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 50.56770833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16064,8 +16064,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "8139",
-                    "magical_attack_power_cof": "42.390625"
+                    "frames": "9709",
+                    "magical_attack_power_cof": "50.56770833333333"
                 }
             },
             "6": {
@@ -16073,7 +16073,7 @@
                 "comment": "6秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 48.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 57.291666666666664) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16085,8 +16085,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "9222",
-                    "magical_attack_power_cof": "48.03125"
+                    "frames": "11000",
+                    "magical_attack_power_cof": "57.291666666666664"
                 }
             },
             "7": {
@@ -16094,7 +16094,7 @@
                 "comment": "7秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 56.25520833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 67.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16106,8 +16106,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "10801",
-                    "magical_attack_power_cof": "56.25520833333333"
+                    "frames": "12884",
+                    "magical_attack_power_cof": "67.10416666666666"
                 }
             },
             "8": {
@@ -16115,7 +16115,7 @@
                 "comment": "8秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 67.51041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 80.53125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16127,8 +16127,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "12962",
-                    "magical_attack_power_cof": "67.51041666666666"
+                    "frames": "15462",
+                    "magical_attack_power_cof": "80.53125"
                 }
             },
             "9": {
@@ -16136,7 +16136,7 @@
                 "comment": "9秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 81.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 97.38020833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16148,8 +16148,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "15674",
-                    "magical_attack_power_cof": "81.63541666666666"
+                    "frames": "18697",
+                    "magical_attack_power_cof": "97.38020833333333"
                 }
             },
             "10": {
@@ -16157,7 +16157,7 @@
                 "comment": "10秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 97.56770833333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 116.38541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16169,8 +16169,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "18733",
-                    "magical_attack_power_cof": "97.56770833333333"
+                    "frames": "22346",
+                    "magical_attack_power_cof": "116.38541666666666"
                 }
             },
             "11": {
@@ -16178,7 +16178,7 @@
                 "comment": "11秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 108.72916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 129.69791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16190,8 +16190,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "20876",
-                    "magical_attack_power_cof": "108.72916666666666"
+                    "frames": "24902",
+                    "magical_attack_power_cof": "129.69791666666666"
                 }
             },
             "12": {
@@ -16199,7 +16199,7 @@
                 "comment": "12秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 115.0) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 137.17708333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16211,8 +16211,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "22080",
-                    "magical_attack_power_cof": "115.0"
+                    "frames": "26338",
+                    "magical_attack_power_cof": "137.17708333333331"
                 }
             },
             "13": {
@@ -16220,7 +16220,7 @@
                 "comment": "13秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 119.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 142.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16232,8 +16232,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "22896",
-                    "magical_attack_power_cof": "119.25"
+                    "frames": "27312",
+                    "magical_attack_power_cof": "142.25"
                 }
             },
             "14": {
@@ -16241,7 +16241,7 @@
                 "comment": "14秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 122.41666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 146.02604166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16253,8 +16253,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "23504",
-                    "magical_attack_power_cof": "122.41666666666666"
+                    "frames": "28037",
+                    "magical_attack_power_cof": "146.02604166666666"
                 }
             },
             "15": {
@@ -16262,7 +16262,7 @@
                 "comment": "15秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 124.90104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 148.98958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16274,8 +16274,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "23981",
-                    "magical_attack_power_cof": "124.90104166666666"
+                    "frames": "28606",
+                    "magical_attack_power_cof": "148.98958333333331"
                 }
             },
             "16": {
@@ -16283,7 +16283,7 @@
                 "comment": "16秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 126.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 151.41145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16295,8 +16295,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "24371",
-                    "magical_attack_power_cof": "126.93229166666666"
+                    "frames": "29071",
+                    "magical_attack_power_cof": "151.41145833333331"
                 }
             },
             "17": {
@@ -16304,7 +16304,7 @@
                 "comment": "17秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 128.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 153.44270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16316,8 +16316,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "24698",
-                    "magical_attack_power_cof": "128.63541666666666"
+                    "frames": "29461",
+                    "magical_attack_power_cof": "153.44270833333331"
                 }
             },
             "18": {
@@ -16325,7 +16325,7 @@
                 "comment": "18秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 130.09375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 155.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16337,8 +16337,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "24978",
-                    "magical_attack_power_cof": "130.09375"
+                    "frames": "29795",
+                    "magical_attack_power_cof": "155.18229166666666"
                 }
             },
             "19": {
@@ -16346,7 +16346,7 @@
                 "comment": "19秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 131.359375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 156.69270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16358,8 +16358,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "25221",
-                    "magical_attack_power_cof": "131.359375"
+                    "frames": "30085",
+                    "magical_attack_power_cof": "156.69270833333331"
                 }
             },
             "20": {
@@ -16367,7 +16367,7 @@
                 "comment": "20秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 132.47916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 158.02604166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16379,8 +16379,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "25436",
-                    "magical_attack_power_cof": "132.47916666666666"
+                    "frames": "30341",
+                    "magical_attack_power_cof": "158.02604166666666"
                 }
             },
             "21": {
@@ -16388,7 +16388,7 @@
                 "comment": "21秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 133.47395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 159.21354166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16400,8 +16400,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "25627",
-                    "magical_attack_power_cof": "133.47395833333331"
+                    "frames": "30569",
+                    "magical_attack_power_cof": "159.21354166666666"
                 }
             },
             "22": {
@@ -16409,7 +16409,7 @@
                 "comment": "22秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 134.36979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 160.28125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16421,8 +16421,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "25799",
-                    "magical_attack_power_cof": "134.36979166666666"
+                    "frames": "30774",
+                    "magical_attack_power_cof": "160.28125"
                 }
             },
             "23": {
@@ -16430,7 +16430,7 @@
                 "comment": "23秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 135.17708333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 161.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16442,8 +16442,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "25954",
-                    "magical_attack_power_cof": "135.17708333333331"
+                    "frames": "30960",
+                    "magical_attack_power_cof": "161.25"
                 }
             },
             "24": {
@@ -16451,7 +16451,7 @@
                 "comment": "24秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 135.91666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 162.13020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16463,8 +16463,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26096",
-                    "magical_attack_power_cof": "135.91666666666666"
+                    "frames": "31129",
+                    "magical_attack_power_cof": "162.13020833333331"
                 }
             },
             "25": {
@@ -16472,7 +16472,7 @@
                 "comment": "25秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 136.59895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 162.94270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16484,8 +16484,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26227",
-                    "magical_attack_power_cof": "136.59895833333331"
+                    "frames": "31285",
+                    "magical_attack_power_cof": "162.94270833333331"
                 }
             },
             "26": {
@@ -16493,7 +16493,7 @@
                 "comment": "26秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 137.22395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 163.6875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16505,8 +16505,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26347",
-                    "magical_attack_power_cof": "137.22395833333331"
+                    "frames": "31428",
+                    "magical_attack_power_cof": "163.6875"
                 }
             },
             "27": {
@@ -16514,7 +16514,7 @@
                 "comment": "27秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 137.80208333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 164.38020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16526,8 +16526,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26458",
-                    "magical_attack_power_cof": "137.80208333333331"
+                    "frames": "31561",
+                    "magical_attack_power_cof": "164.38020833333331"
                 }
             },
             "28": {
@@ -16535,7 +16535,7 @@
                 "comment": "28秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 138.33854166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 165.02083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16547,8 +16547,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26561",
-                    "magical_attack_power_cof": "138.33854166666666"
+                    "frames": "31684",
+                    "magical_attack_power_cof": "165.02083333333331"
                 }
             },
             "29": {
@@ -16556,7 +16556,7 @@
                 "comment": "29秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 138.84375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 165.61979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16568,8 +16568,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26658",
-                    "magical_attack_power_cof": "138.84375"
+                    "frames": "31799",
+                    "magical_attack_power_cof": "165.61979166666666"
                 }
             },
             "30": {
@@ -16577,7 +16577,7 @@
                 "comment": "30秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 139.3125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 166.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16589,8 +16589,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26748",
-                    "magical_attack_power_cof": "139.3125"
+                    "frames": "31907",
+                    "magical_attack_power_cof": "166.18229166666666"
                 }
             },
             "31": {
@@ -16598,7 +16598,7 @@
                 "comment": "31秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 139.75520833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 166.70833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16610,8 +16610,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26833",
-                    "magical_attack_power_cof": "139.75520833333331"
+                    "frames": "32008",
+                    "magical_attack_power_cof": "166.70833333333331"
                 }
             },
             "32": {
@@ -16619,7 +16619,7 @@
                 "comment": "32秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 140.171875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 167.203125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16631,8 +16631,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26913",
-                    "magical_attack_power_cof": "140.171875"
+                    "frames": "32103",
+                    "magical_attack_power_cof": "167.203125"
                 }
             },
             "33": {
@@ -16640,7 +16640,7 @@
                 "comment": "33秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 140.5625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 167.671875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16652,8 +16652,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "26988",
-                    "magical_attack_power_cof": "140.5625"
+                    "frames": "32193",
+                    "magical_attack_power_cof": "167.671875"
                 }
             },
             "34": {
@@ -16661,7 +16661,7 @@
                 "comment": "34秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 140.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 168.11458333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16673,8 +16673,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27059",
-                    "magical_attack_power_cof": "140.93229166666666"
+                    "frames": "32278",
+                    "magical_attack_power_cof": "168.11458333333331"
                 }
             },
             "35": {
@@ -16682,7 +16682,7 @@
                 "comment": "35秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 141.28645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 168.53645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16694,8 +16694,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27127",
-                    "magical_attack_power_cof": "141.28645833333331"
+                    "frames": "32359",
+                    "magical_attack_power_cof": "168.53645833333331"
                 }
             },
             "36": {
@@ -16703,7 +16703,7 @@
                 "comment": "36秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 141.61979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 168.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16715,8 +16715,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27191",
-                    "magical_attack_power_cof": "141.61979166666666"
+                    "frames": "32435",
+                    "magical_attack_power_cof": "168.93229166666666"
                 }
             },
             "37": {
@@ -16724,7 +16724,7 @@
                 "comment": "37秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 141.9375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 169.3125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16736,8 +16736,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27252",
-                    "magical_attack_power_cof": "141.9375"
+                    "frames": "32508",
+                    "magical_attack_power_cof": "169.3125"
                 }
             },
             "38": {
@@ -16745,7 +16745,7 @@
                 "comment": "38秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 142.23958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 169.671875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16757,8 +16757,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27310",
-                    "magical_attack_power_cof": "142.23958333333331"
+                    "frames": "32577",
+                    "magical_attack_power_cof": "169.671875"
                 }
             },
             "39": {
@@ -16766,7 +16766,7 @@
                 "comment": "39秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 142.53125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 170.02083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16778,8 +16778,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27366",
-                    "magical_attack_power_cof": "142.53125"
+                    "frames": "32644",
+                    "magical_attack_power_cof": "170.02083333333331"
                 }
             },
             "40": {
@@ -16787,7 +16787,7 @@
                 "comment": "40秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 142.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 170.34895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16799,8 +16799,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27419",
-                    "magical_attack_power_cof": "142.80729166666666"
+                    "frames": "32707",
+                    "magical_attack_power_cof": "170.34895833333331"
                 }
             },
             "41": {
@@ -16808,7 +16808,7 @@
                 "comment": "41秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 143.07291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 170.66666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16820,8 +16820,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27470",
-                    "magical_attack_power_cof": "143.07291666666666"
+                    "frames": "32768",
+                    "magical_attack_power_cof": "170.66666666666666"
                 }
             },
             "42": {
@@ -16829,7 +16829,7 @@
                 "comment": "42秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 143.328125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 170.96875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16841,8 +16841,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27519",
-                    "magical_attack_power_cof": "143.328125"
+                    "frames": "32826",
+                    "magical_attack_power_cof": "170.96875"
                 }
             },
             "43": {
@@ -16850,7 +16850,7 @@
                 "comment": "43秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 143.57291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 171.26041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16862,8 +16862,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27566",
-                    "magical_attack_power_cof": "143.57291666666666"
+                    "frames": "32882",
+                    "magical_attack_power_cof": "171.26041666666666"
                 }
             },
             "44": {
@@ -16871,7 +16871,7 @@
                 "comment": "44秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 143.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 171.54166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16883,8 +16883,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27611",
-                    "magical_attack_power_cof": "143.80729166666666"
+                    "frames": "32936",
+                    "magical_attack_power_cof": "171.54166666666666"
                 }
             },
             "45": {
@@ -16892,7 +16892,7 @@
                 "comment": "45秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 144.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 171.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16904,8 +16904,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27654",
-                    "magical_attack_power_cof": "144.03125"
+                    "frames": "32987",
+                    "magical_attack_power_cof": "171.80729166666666"
                 }
             },
             "46": {
@@ -16913,7 +16913,7 @@
                 "comment": "46秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 144.25) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 172.06770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16925,8 +16925,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27696",
-                    "magical_attack_power_cof": "144.25"
+                    "frames": "33037",
+                    "magical_attack_power_cof": "172.06770833333331"
                 }
             },
             "47": {
@@ -16934,7 +16934,7 @@
                 "comment": "47秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 144.45833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 172.31770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16946,8 +16946,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27736",
-                    "magical_attack_power_cof": "144.45833333333331"
+                    "frames": "33085",
+                    "magical_attack_power_cof": "172.31770833333331"
                 }
             },
             "48": {
@@ -16955,7 +16955,7 @@
                 "comment": "48秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 144.66145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 172.55729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16967,8 +16967,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27775",
-                    "magical_attack_power_cof": "144.66145833333331"
+                    "frames": "33131",
+                    "magical_attack_power_cof": "172.55729166666666"
                 }
             },
             "49": {
@@ -16976,7 +16976,7 @@
                 "comment": "49秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 144.85416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 172.79166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -16988,8 +16988,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27812",
-                    "magical_attack_power_cof": "144.85416666666666"
+                    "frames": "33176",
+                    "magical_attack_power_cof": "172.79166666666666"
                 }
             },
             "50": {
@@ -16997,7 +16997,7 @@
                 "comment": "50秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 145.04166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 173.015625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17009,8 +17009,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27848",
-                    "magical_attack_power_cof": "145.04166666666666"
+                    "frames": "33219",
+                    "magical_attack_power_cof": "173.015625"
                 }
             },
             "51": {
@@ -17018,7 +17018,7 @@
                 "comment": "51秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 145.22395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 173.234375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17030,8 +17030,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27883",
-                    "magical_attack_power_cof": "145.22395833333331"
+                    "frames": "33261",
+                    "magical_attack_power_cof": "173.234375"
                 }
             },
             "52": {
@@ -17039,7 +17039,7 @@
                 "comment": "52秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 145.40104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 173.44270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17051,8 +17051,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27917",
-                    "magical_attack_power_cof": "145.40104166666666"
+                    "frames": "33301",
+                    "magical_attack_power_cof": "173.44270833333331"
                 }
             },
             "53": {
@@ -17060,7 +17060,7 @@
                 "comment": "53秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 145.57291666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 173.64583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17072,8 +17072,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27950",
-                    "magical_attack_power_cof": "145.57291666666666"
+                    "frames": "33340",
+                    "magical_attack_power_cof": "173.64583333333331"
                 }
             },
             "54": {
@@ -17081,7 +17081,7 @@
                 "comment": "54秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 145.73958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 173.84375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17093,8 +17093,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "27982",
-                    "magical_attack_power_cof": "145.73958333333331"
+                    "frames": "33378",
+                    "magical_attack_power_cof": "173.84375"
                 }
             },
             "55": {
@@ -17102,7 +17102,7 @@
                 "comment": "55秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 145.90104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 174.03645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17114,8 +17114,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28013",
-                    "magical_attack_power_cof": "145.90104166666666"
+                    "frames": "33415",
+                    "magical_attack_power_cof": "174.03645833333331"
                 }
             },
             "56": {
@@ -17123,7 +17123,7 @@
                 "comment": "56秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.05729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 174.22395833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17135,8 +17135,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28043",
-                    "magical_attack_power_cof": "146.05729166666666"
+                    "frames": "33451",
+                    "magical_attack_power_cof": "174.22395833333331"
                 }
             },
             "57": {
@@ -17144,7 +17144,7 @@
                 "comment": "57秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.20833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 174.40625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17156,8 +17156,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28072",
-                    "magical_attack_power_cof": "146.20833333333331"
+                    "frames": "33486",
+                    "magical_attack_power_cof": "174.40625"
                 }
             },
             "58": {
@@ -17165,7 +17165,7 @@
                 "comment": "58秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.35416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 174.578125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17177,8 +17177,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28100",
-                    "magical_attack_power_cof": "146.35416666666666"
+                    "frames": "33519",
+                    "magical_attack_power_cof": "174.578125"
                 }
             },
             "59": {
@@ -17186,7 +17186,7 @@
                 "comment": "59秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.5) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 174.75) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17198,8 +17198,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28128",
-                    "magical_attack_power_cof": "146.5"
+                    "frames": "33552",
+                    "magical_attack_power_cof": "174.75"
                 }
             },
             "60": {
@@ -17207,7 +17207,7 @@
                 "comment": "60秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 174.91666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17219,8 +17219,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28154",
-                    "magical_attack_power_cof": "146.63541666666666"
+                    "frames": "33584",
+                    "magical_attack_power_cof": "174.91666666666666"
                 }
             },
             "61": {
@@ -17228,7 +17228,7 @@
                 "comment": "61秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.77083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.078125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17240,8 +17240,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28180",
-                    "magical_attack_power_cof": "146.77083333333331"
+                    "frames": "33615",
+                    "magical_attack_power_cof": "175.078125"
                 }
             },
             "62": {
@@ -17249,7 +17249,7 @@
                 "comment": "62秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 146.90625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.234375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17261,8 +17261,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28206",
-                    "magical_attack_power_cof": "146.90625"
+                    "frames": "33645",
+                    "magical_attack_power_cof": "175.234375"
                 }
             },
             "63": {
@@ -17270,7 +17270,7 @@
                 "comment": "63秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.390625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17282,8 +17282,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28230",
-                    "magical_attack_power_cof": "147.03125"
+                    "frames": "33675",
+                    "magical_attack_power_cof": "175.390625"
                 }
             },
             "64": {
@@ -17291,7 +17291,7 @@
                 "comment": "64秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.15625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.54166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17303,8 +17303,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28254",
-                    "magical_attack_power_cof": "147.15625"
+                    "frames": "33704",
+                    "magical_attack_power_cof": "175.54166666666666"
                 }
             },
             "65": {
@@ -17312,7 +17312,7 @@
                 "comment": "65秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.28125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.6875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17324,8 +17324,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28278",
-                    "magical_attack_power_cof": "147.28125"
+                    "frames": "33732",
+                    "magical_attack_power_cof": "175.6875"
                 }
             },
             "66": {
@@ -17333,7 +17333,7 @@
                 "comment": "66秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.40104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.828125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17345,8 +17345,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28301",
-                    "magical_attack_power_cof": "147.40104166666666"
+                    "frames": "33759",
+                    "magical_attack_power_cof": "175.828125"
                 }
             },
             "67": {
@@ -17354,7 +17354,7 @@
                 "comment": "67秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.515625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 175.96875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17366,8 +17366,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28323",
-                    "magical_attack_power_cof": "147.515625"
+                    "frames": "33786",
+                    "magical_attack_power_cof": "175.96875"
                 }
             },
             "68": {
@@ -17375,7 +17375,7 @@
                 "comment": "68秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.63020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17387,8 +17387,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28345",
-                    "magical_attack_power_cof": "147.63020833333331"
+                    "frames": "33812",
+                    "magical_attack_power_cof": "176.10416666666666"
                 }
             },
             "69": {
@@ -17396,7 +17396,7 @@
                 "comment": "69秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.73958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.234375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17408,8 +17408,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28366",
-                    "magical_attack_power_cof": "147.73958333333331"
+                    "frames": "33837",
+                    "magical_attack_power_cof": "176.234375"
                 }
             },
             "70": {
@@ -17417,7 +17417,7 @@
                 "comment": "70秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.84895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.36458333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17429,8 +17429,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28387",
-                    "magical_attack_power_cof": "147.84895833333331"
+                    "frames": "33862",
+                    "magical_attack_power_cof": "176.36458333333331"
                 }
             },
             "71": {
@@ -17438,7 +17438,7 @@
                 "comment": "71秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 147.95833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.48958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17450,8 +17450,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28408",
-                    "magical_attack_power_cof": "147.95833333333331"
+                    "frames": "33886",
+                    "magical_attack_power_cof": "176.48958333333331"
                 }
             },
             "72": {
@@ -17459,7 +17459,7 @@
                 "comment": "72秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.05729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.61458333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17471,8 +17471,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28427",
-                    "magical_attack_power_cof": "148.05729166666666"
+                    "frames": "33910",
+                    "magical_attack_power_cof": "176.61458333333331"
                 }
             },
             "73": {
@@ -17480,7 +17480,7 @@
                 "comment": "73秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.16145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.734375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17492,8 +17492,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28447",
-                    "magical_attack_power_cof": "148.16145833333331"
+                    "frames": "33933",
+                    "magical_attack_power_cof": "176.734375"
                 }
             },
             "74": {
@@ -17501,7 +17501,7 @@
                 "comment": "74秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.26041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.85416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17513,8 +17513,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28466",
-                    "magical_attack_power_cof": "148.26041666666666"
+                    "frames": "33956",
+                    "magical_attack_power_cof": "176.85416666666666"
                 }
             },
             "75": {
@@ -17522,7 +17522,7 @@
                 "comment": "75秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.359375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 176.96875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17534,8 +17534,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28485",
-                    "magical_attack_power_cof": "148.359375"
+                    "frames": "33978",
+                    "magical_attack_power_cof": "176.96875"
                 }
             },
             "76": {
@@ -17543,7 +17543,7 @@
                 "comment": "76秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.453125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.08333333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17555,8 +17555,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28503",
-                    "magical_attack_power_cof": "148.453125"
+                    "frames": "34000",
+                    "magical_attack_power_cof": "177.08333333333331"
                 }
             },
             "77": {
@@ -17564,7 +17564,7 @@
                 "comment": "77秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.546875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.19270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17576,8 +17576,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28521",
-                    "magical_attack_power_cof": "148.546875"
+                    "frames": "34021",
+                    "magical_attack_power_cof": "177.19270833333331"
                 }
             },
             "78": {
@@ -17585,7 +17585,7 @@
                 "comment": "78秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.63541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.30208333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17597,8 +17597,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28538",
-                    "magical_attack_power_cof": "148.63541666666666"
+                    "frames": "34042",
+                    "magical_attack_power_cof": "177.30208333333331"
                 }
             },
             "79": {
@@ -17606,7 +17606,7 @@
                 "comment": "79秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.72916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.41145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17618,8 +17618,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28556",
-                    "magical_attack_power_cof": "148.72916666666666"
+                    "frames": "34063",
+                    "magical_attack_power_cof": "177.41145833333331"
                 }
             },
             "80": {
@@ -17627,7 +17627,7 @@
                 "comment": "80秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.8125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.515625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17639,8 +17639,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28572",
-                    "magical_attack_power_cof": "148.8125"
+                    "frames": "34083",
+                    "magical_attack_power_cof": "177.515625"
                 }
             },
             "81": {
@@ -17648,7 +17648,7 @@
                 "comment": "81秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.90104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.61979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17660,8 +17660,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28589",
-                    "magical_attack_power_cof": "148.90104166666666"
+                    "frames": "34103",
+                    "magical_attack_power_cof": "177.61979166666666"
                 }
             },
             "82": {
@@ -17669,7 +17669,7 @@
                 "comment": "82秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 148.984375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.71875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17681,8 +17681,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28605",
-                    "magical_attack_power_cof": "148.984375"
+                    "frames": "34122",
+                    "magical_attack_power_cof": "177.71875"
                 }
             },
             "83": {
@@ -17690,7 +17690,7 @@
                 "comment": "83秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.06770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.81770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17702,8 +17702,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28621",
-                    "magical_attack_power_cof": "149.06770833333331"
+                    "frames": "34141",
+                    "magical_attack_power_cof": "177.81770833333331"
                 }
             },
             "84": {
@@ -17711,7 +17711,7 @@
                 "comment": "84秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.15104166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 177.91666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17723,8 +17723,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28637",
-                    "magical_attack_power_cof": "149.15104166666666"
+                    "frames": "34160",
+                    "magical_attack_power_cof": "177.91666666666666"
                 }
             },
             "85": {
@@ -17732,7 +17732,7 @@
                 "comment": "85秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.22916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.01041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17744,8 +17744,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28652",
-                    "magical_attack_power_cof": "149.22916666666666"
+                    "frames": "34178",
+                    "magical_attack_power_cof": "178.01041666666666"
                 }
             },
             "86": {
@@ -17753,7 +17753,7 @@
                 "comment": "86秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.30729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17765,8 +17765,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28667",
-                    "magical_attack_power_cof": "149.30729166666666"
+                    "frames": "34196",
+                    "magical_attack_power_cof": "178.10416666666666"
                 }
             },
             "87": {
@@ -17774,7 +17774,7 @@
                 "comment": "87秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.38541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.19270833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17786,8 +17786,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28682",
-                    "magical_attack_power_cof": "149.38541666666666"
+                    "frames": "34213",
+                    "magical_attack_power_cof": "178.19270833333331"
                 }
             },
             "88": {
@@ -17795,7 +17795,7 @@
                 "comment": "88秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.45833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.28645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17807,8 +17807,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28696",
-                    "magical_attack_power_cof": "149.45833333333331"
+                    "frames": "34231",
+                    "magical_attack_power_cof": "178.28645833333331"
                 }
             },
             "89": {
@@ -17816,7 +17816,7 @@
                 "comment": "89秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.53125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17828,8 +17828,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28710",
-                    "magical_attack_power_cof": "149.53125"
+                    "frames": "34248",
+                    "magical_attack_power_cof": "178.375"
                 }
             },
             "90": {
@@ -17837,7 +17837,7 @@
                 "comment": "90秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.60416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.45833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17849,8 +17849,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28724",
-                    "magical_attack_power_cof": "149.60416666666666"
+                    "frames": "34264",
+                    "magical_attack_power_cof": "178.45833333333331"
                 }
             },
             "91": {
@@ -17858,7 +17858,7 @@
                 "comment": "91秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.67708333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.546875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17870,8 +17870,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28738",
-                    "magical_attack_power_cof": "149.67708333333331"
+                    "frames": "34281",
+                    "magical_attack_power_cof": "178.546875"
                 }
             },
             "92": {
@@ -17879,7 +17879,7 @@
                 "comment": "92秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.75) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.63020833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17891,8 +17891,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28752",
-                    "magical_attack_power_cof": "149.75"
+                    "frames": "34297",
+                    "magical_attack_power_cof": "178.63020833333331"
                 }
             },
             "93": {
@@ -17900,7 +17900,7 @@
                 "comment": "93秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.81770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.71354166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17912,8 +17912,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28765",
-                    "magical_attack_power_cof": "149.81770833333331"
+                    "frames": "34313",
+                    "magical_attack_power_cof": "178.71354166666666"
                 }
             },
             "94": {
@@ -17921,7 +17921,7 @@
                 "comment": "94秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.88541666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.79166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17933,8 +17933,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28778",
-                    "magical_attack_power_cof": "149.88541666666666"
+                    "frames": "34328",
+                    "magical_attack_power_cof": "178.79166666666666"
                 }
             },
             "95": {
@@ -17942,7 +17942,7 @@
                 "comment": "95秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 149.953125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17954,8 +17954,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28791",
-                    "magical_attack_power_cof": "149.953125"
+                    "frames": "34344",
+                    "magical_attack_power_cof": "178.875"
                 }
             },
             "96": {
@@ -17963,7 +17963,7 @@
                 "comment": "96秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.02083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 178.953125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17975,8 +17975,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28804",
-                    "magical_attack_power_cof": "150.02083333333331"
+                    "frames": "34359",
+                    "magical_attack_power_cof": "178.953125"
                 }
             },
             "97": {
@@ -17984,7 +17984,7 @@
                 "comment": "97秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.08333333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.03125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -17996,8 +17996,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28816",
-                    "magical_attack_power_cof": "150.08333333333331"
+                    "frames": "34374",
+                    "magical_attack_power_cof": "179.03125"
                 }
             },
             "98": {
@@ -18005,7 +18005,7 @@
                 "comment": "98秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.14583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.10416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18017,8 +18017,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28828",
-                    "magical_attack_power_cof": "150.14583333333331"
+                    "frames": "34388",
+                    "magical_attack_power_cof": "179.10416666666666"
                 }
             },
             "99": {
@@ -18026,7 +18026,7 @@
                 "comment": "99秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.20833333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18038,8 +18038,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28840",
-                    "magical_attack_power_cof": "150.20833333333331"
+                    "frames": "34403",
+                    "magical_attack_power_cof": "179.18229166666666"
                 }
             },
             "100": {
@@ -18047,7 +18047,7 @@
                 "comment": "100秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.27083333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.25520833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18059,8 +18059,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28852",
-                    "magical_attack_power_cof": "150.27083333333331"
+                    "frames": "34417",
+                    "magical_attack_power_cof": "179.25520833333331"
                 }
             },
             "101": {
@@ -18068,7 +18068,7 @@
                 "comment": "101秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.33333333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.328125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18080,8 +18080,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28864",
-                    "magical_attack_power_cof": "150.33333333333331"
+                    "frames": "34431",
+                    "magical_attack_power_cof": "179.328125"
                 }
             },
             "102": {
@@ -18089,7 +18089,7 @@
                 "comment": "102秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.39583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.39583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18101,8 +18101,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28876",
-                    "magical_attack_power_cof": "150.39583333333331"
+                    "frames": "34444",
+                    "magical_attack_power_cof": "179.39583333333331"
                 }
             },
             "103": {
@@ -18110,7 +18110,7 @@
                 "comment": "103秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.453125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.46875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18122,8 +18122,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28887",
-                    "magical_attack_power_cof": "150.453125"
+                    "frames": "34458",
+                    "magical_attack_power_cof": "179.46875"
                 }
             },
             "104": {
@@ -18131,7 +18131,7 @@
                 "comment": "104秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.51041666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.53645833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18143,8 +18143,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28898",
-                    "magical_attack_power_cof": "150.51041666666666"
+                    "frames": "34471",
+                    "magical_attack_power_cof": "179.53645833333331"
                 }
             },
             "105": {
@@ -18152,7 +18152,7 @@
                 "comment": "105秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.56770833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.60416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18164,8 +18164,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28909",
-                    "magical_attack_power_cof": "150.56770833333331"
+                    "frames": "34484",
+                    "magical_attack_power_cof": "179.60416666666666"
                 }
             },
             "106": {
@@ -18173,7 +18173,7 @@
                 "comment": "106秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.625) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.671875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18185,8 +18185,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28920",
-                    "magical_attack_power_cof": "150.625"
+                    "frames": "34497",
+                    "magical_attack_power_cof": "179.671875"
                 }
             },
             "107": {
@@ -18194,7 +18194,7 @@
                 "comment": "107秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.68229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.73958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18206,8 +18206,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28931",
-                    "magical_attack_power_cof": "150.68229166666666"
+                    "frames": "34510",
+                    "magical_attack_power_cof": "179.73958333333331"
                 }
             },
             "108": {
@@ -18215,7 +18215,7 @@
                 "comment": "108秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.734375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.80729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18227,8 +18227,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28941",
-                    "magical_attack_power_cof": "150.734375"
+                    "frames": "34523",
+                    "magical_attack_power_cof": "179.80729166666666"
                 }
             },
             "109": {
@@ -18236,7 +18236,7 @@
                 "comment": "109秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.79166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.86979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18248,8 +18248,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28952",
-                    "magical_attack_power_cof": "150.79166666666666"
+                    "frames": "34535",
+                    "magical_attack_power_cof": "179.86979166666666"
                 }
             },
             "110": {
@@ -18257,7 +18257,7 @@
                 "comment": "110秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.84375) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.93229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18269,8 +18269,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28962",
-                    "magical_attack_power_cof": "150.84375"
+                    "frames": "34547",
+                    "magical_attack_power_cof": "179.93229166666666"
                 }
             },
             "111": {
@@ -18278,7 +18278,7 @@
                 "comment": "111秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.89583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 179.99479166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18290,8 +18290,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28972",
-                    "magical_attack_power_cof": "150.89583333333331"
+                    "frames": "34559",
+                    "magical_attack_power_cof": "179.99479166666666"
                 }
             },
             "112": {
@@ -18299,7 +18299,7 @@
                 "comment": "112秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 150.94791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.05729166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18311,8 +18311,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28982",
-                    "magical_attack_power_cof": "150.94791666666666"
+                    "frames": "34571",
+                    "magical_attack_power_cof": "180.05729166666666"
                 }
             },
             "113": {
@@ -18320,7 +18320,7 @@
                 "comment": "113秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.0) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.11979166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18332,8 +18332,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "28992",
-                    "magical_attack_power_cof": "151.0"
+                    "frames": "34583",
+                    "magical_attack_power_cof": "180.11979166666666"
                 }
             },
             "114": {
@@ -18341,7 +18341,7 @@
                 "comment": "114秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.046875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.18229166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18353,8 +18353,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29001",
-                    "magical_attack_power_cof": "151.046875"
+                    "frames": "34595",
+                    "magical_attack_power_cof": "180.18229166666666"
                 }
             },
             "115": {
@@ -18362,7 +18362,7 @@
                 "comment": "115秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.09895833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.23958333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18374,8 +18374,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29011",
-                    "magical_attack_power_cof": "151.09895833333331"
+                    "frames": "34606",
+                    "magical_attack_power_cof": "180.23958333333331"
                 }
             },
             "116": {
@@ -18383,7 +18383,7 @@
                 "comment": "116秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.14583333333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.296875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18395,8 +18395,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29020",
-                    "magical_attack_power_cof": "151.14583333333331"
+                    "frames": "34617",
+                    "magical_attack_power_cof": "180.296875"
                 }
             },
             "117": {
@@ -18404,7 +18404,7 @@
                 "comment": "117秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.19791666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.35416666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18416,8 +18416,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29030",
-                    "magical_attack_power_cof": "151.19791666666666"
+                    "frames": "34628",
+                    "magical_attack_power_cof": "180.35416666666666"
                 }
             },
             "118": {
@@ -18425,7 +18425,7 @@
                 "comment": "118秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.24479166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.41145833333331) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18437,8 +18437,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29039",
-                    "magical_attack_power_cof": "151.24479166666666"
+                    "frames": "34639",
+                    "magical_attack_power_cof": "180.41145833333331"
                 }
             },
             "119": {
@@ -18446,7 +18446,7 @@
                 "comment": "119秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.29166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.46875) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18458,8 +18458,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29048",
-                    "magical_attack_power_cof": "151.29166666666666"
+                    "frames": "34650",
+                    "magical_attack_power_cof": "180.46875"
                 }
             },
             "120": {
@@ -18467,7 +18467,7 @@
                 "comment": "120秒",
                 "damages": [
                     {
-                        "damage": "(100 + rand * 100 + solar_attack_power * 151.33854166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                        "damage": "(100 + rand * 100 + solar_attack_power * 180.52604166666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                         "source_attribute": {
                             "solar_damage_base": "100",
                             "solar_damage_rand": "100"
@@ -18479,8 +18479,8 @@
                     "critical_power": "solar_critical_power"
                 },
                 "skill_attribute": {
-                    "frames": "29057",
-                    "magical_attack_power_cof": "151.33854166666666"
+                    "frames": "34661",
+                    "magical_attack_power_cof": "180.52604166666666"
                 }
             }
         },
@@ -30714,6 +30714,26 @@
                 "skill_attribute": {
                     "surplus_cof": "8.534"
                 }
+            },
+            "4": {
+                "name": "破",
+                "comment": "逐光",
+                "damages": [
+                    {
+                        "damage": "surplus * 8.534 * 0.5118675231933594 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
+                        "target_attribute": {
+                            "global_damage_scale": "0.5118675231933594",
+                            "global_damage_factor": "-511844"
+                        }
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "surplus_cof": "8.534"
+                }
             }
         },
         "25837": {
@@ -31153,13 +31173,10 @@
                 "comment": "主动",
                 "damages": [
                     {
-                        "damage": "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
+                        "damage": "(60 + rand * 20 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
                         "source_attribute": {
                             "neutral_damage_base": "60",
                             "neutral_damage_rand": "20"
-                        },
-                        "target_attribute": {
-                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -31177,13 +31194,10 @@
                 "comment": "主动12尺",
                 "damages": [
                     {
-                        "damage": "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
+                        "damage": "(90 + rand * 30 + neutral_attack_power * 4.791666666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
                         "source_attribute": {
                             "neutral_damage_base": "90",
                             "neutral_damage_rand": "30"
-                        },
-                        "target_attribute": {
-                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -31343,32 +31357,6 @@
                 "skill_attribute": {
                     "frames": "260",
                     "magical_attack_power_cof": "1.3541666666666665"
-                }
-            }
-        },
-        "44510": {
-            "5": {
-                "name": "鬼星开穴",
-                "damages": [
-                    {
-                        "damage": "(1456 + rand * 997 + neutral_attack_power * 2.083333333333333) * (1 + magical_damage_addition + (41 * recipe_5274_1 + 51 * recipe_5275_1) / 1024) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
-                        "source_attribute": {
-                            "neutral_damage_base": "1456",
-                            "neutral_damage_rand": "997"
-                        }
-                    }
-                ],
-                "critical": {
-                    "critical_strike": "neutral_critical_strike + (300 * recipe_5272_1 + 400 * recipe_5273_1) / 10000",
-                    "critical_power": "neutral_critical_power",
-                    "source_attribute": {
-                        "neutral_critical_strike_rate": "300 * recipe_5272_1 + 400 * recipe_5273_1"
-                    }
-                },
-                "skill_attribute": {
-                    "frames": "400",
-                    "magical_attack_power_cof": "2.083333333333333",
-                    "damage_gain": "41 * recipe_5274_1 + 51 * recipe_5275_1"
                 }
             }
         },
@@ -31571,13 +31559,10 @@
                 "comment": "连极阵",
                 "damages": [
                     {
-                        "damage": "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
+                        "damage": "(60 + rand * 20 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
                         "source_attribute": {
                             "neutral_damage_base": "60",
                             "neutral_damage_rand": "20"
-                        },
-                        "target_attribute": {
-                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -31595,13 +31580,10 @@
                 "comment": "12尺连极阵",
                 "damages": [
                     {
-                        "damage": "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale + ceil(76.8 * buff_30434_1) / 1024)",
+                        "damage": "(90 + rand * 30 + neutral_attack_power * 2.395833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
                         "source_attribute": {
                             "neutral_damage_base": "90",
                             "neutral_damage_rand": "30"
-                        },
-                        "target_attribute": {
-                            "coming_damage_cof": "ceil(76.8 * buff_30434_1)"
                         }
                     }
                 ],
@@ -31637,6 +31619,28 @@
                 "skill_attribute": {
                     "frames": "500",
                     "magical_attack_power_cof": "2.6041666666666665"
+                }
+            }
+        },
+        "45032": {
+            "3": {
+                "name": "镇星入舆",
+                "damages": [
+                    {
+                        "damage": "(100 + rand * 100 + neutral_attack_power * 5.729166666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)",
+                        "source_attribute": {
+                            "neutral_damage_base": "100",
+                            "neutral_damage_rand": "100"
+                        }
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "1100",
+                    "magical_attack_power_cof": "5.729166666666666"
                 }
             }
         },
@@ -43213,7 +43217,7 @@
                 }
             },
             "7": {
-                "name": "无修·荒",
+                "name": "无修·天",
                 "damages": [
                     {
                         "damage": "0"
@@ -43225,7 +43229,7 @@
                 }
             },
             "8": {
-                "name": "无修·荒",
+                "name": "无修·天",
                 "damages": [
                     {
                         "damage": "0"
