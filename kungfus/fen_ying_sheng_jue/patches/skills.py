@@ -1,5 +1,3 @@
-from base.expression import Variable
-
 SKILLS = {
     19055: dict(comment="{}"),
     32816: {

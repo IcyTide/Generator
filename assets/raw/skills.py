@@ -15279,6 +15279,17 @@ SKILLS = {
                 "critical_power": "physical_critical_power"
             }
         },
+        40720: {
+            1: {
+                "name": "聚势",
+                "comment": "",
+                "damages": [
+                    "(35 + rand * 5 + physical_attack_power * 0.9625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
         36173: {
             1: {
                 "name": "白虹贯日",
@@ -15312,6 +15323,17 @@ SKILLS = {
                 "comment": "蓄力4段(25)帧",
                 "damages": [
                     "(37 + rand * 5 + physical_attack_power * 8.700000000000001 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                ],
+                "critical_strike": "physical_critical_strike",
+                "critical_power": "physical_critical_power"
+            }
+        },
+        44361: {
+            11: {
+                "name": "命俦",
+                "comment": "",
+                "damages": [
+                    "(296 + rand * 20 + physical_attack_power * 3.8000000000000003) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                 ],
                 "critical_strike": "physical_critical_strike",
                 "critical_power": "physical_critical_power"

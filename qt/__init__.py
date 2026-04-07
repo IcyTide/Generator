@@ -1,8 +1,9 @@
 from typing import List
 
 from PySide6.QtCore import Qt
-from PySide6.QtWidgets import QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QTableWidgetItem, QVBoxLayout, \
-    QWidget
+from PySide6.QtGui import QKeySequence, QShortcut
+from PySide6.QtWidgets import QApplication, QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QTableWidgetItem, \
+    QVBoxLayout, QWidget
 
 
 class LabelRow(QWidget):
@@ -59,6 +60,9 @@ class Table(QTableWidget):
         self.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)  # 禁止自动编辑
         self.verticalHeader().setVisible(False)
 
+        copy_shortcut = QShortcut(QKeySequence.StandardKey.Copy, self)
+        copy_shortcut.activated.connect(self.copy_selection)
+
     def refresh_table(self, data, index=False):
         self.setRowCount(0)
         for i, row in enumerate(data):
@@ -72,3 +76,19 @@ class Table(QTableWidget):
         if row < 0:
             row += self.rowCount()
         self.setCurrentCell(row, 0)
+
+    def copy_selection(self):
+        selected = self.selectedRanges()
+        if not selected:
+            return
+
+        text = ""
+        for r in range(selected[0].topRow(), selected[0].bottomRow() + 1):
+            row_data = []
+            for c in range(selected[0].leftColumn(), selected[0].rightColumn() + 1):
+                item = self.item(r, c)
+                row_data.append(item.text() if item else "")
+            text += "\t".join(row_data) + "\n"
+
+        clipboard = QApplication.clipboard()
+        clipboard.setText(text.strip())
