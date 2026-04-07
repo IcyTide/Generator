@@ -2590,15 +2590,6 @@ BUFFS = {
                 ]
             }
         },
-        31456: {
-            1: {
-                "name": "无明业火",
-                "comment": "常驻",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1
-            }
-        },
         6277: {
             1: {
                 "name": "无明业火",
@@ -4540,6 +4531,19 @@ BUFFS = {
                 "recipes": [
                     "recipe_5384_1"
                 ]
+            }
+        },
+        27099: {
+            1: {
+                "name": "卢令",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 999,
+                "attributes": {
+                    "physical_attack_power_gain": 154,
+                    "all_shield_ignore": 205,
+                    "strain_gain": 102
+                }
             }
         },
         32136: {

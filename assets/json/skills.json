@@ -34411,6 +34411,28 @@
                 }
             }
         },
+        "40720": {
+            "1": {
+                "name": "聚势",
+                "damages": [
+                    {
+                        "damage": "(35 + rand * 5 + physical_attack_power * 0.9625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                        "source_attribute": {
+                            "physical_damage_base": "35",
+                            "physical_damage_rand": "5"
+                        }
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "physical_critical_strike",
+                    "critical_power": "physical_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "154",
+                    "physical_attack_power_cof": "0.9625"
+                }
+            }
+        },
         "36173": {
             "1": {
                 "name": "白虹贯日",
@@ -34498,6 +34520,28 @@
                     "frames": "1392",
                     "physical_attack_power_cof": "8.700000000000001",
                     "weapon_damage_cof": "2.0"
+                }
+            }
+        },
+        "44361": {
+            "11": {
+                "name": "命俦",
+                "damages": [
+                    {
+                        "damage": "(296 + rand * 20 + physical_attack_power * 3.8000000000000003) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                        "source_attribute": {
+                            "physical_damage_base": "296",
+                            "physical_damage_rand": "20"
+                        }
+                    }
+                ],
+                "critical": {
+                    "critical_strike": "physical_critical_strike",
+                    "critical_power": "physical_critical_power"
+                },
+                "skill_attribute": {
+                    "frames": "608",
+                    "physical_attack_power_cof": "3.8000000000000003"
                 }
             }
         },
