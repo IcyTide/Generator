@@ -1,13 +1,13 @@
 {
     "49079": {
         "id": 49079,
-        "name": "郁垒坠_测试用",
+        "name": "玄毅佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37900,
-        "score": 74812,
+        "level": 38500,
+        "score": 75996,
         "max_strength": 8,
         "icon_id": 4254,
         "desc": "",
@@ -35,37 +35,37 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 21346,
+                "value": 17347,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsShieldBase",
                 "attr_type": "physical_shield_base",
-                "value": 9195,
+                "value": 7473,
                 "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicShield",
                 "attr_type": "magical_shield_base",
-                "value": 9195,
+                "value": 7473,
                 "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 3941,
+                "value": 3203,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atToughnessBase",
                 "attr_type": "toughness_base",
-                "value": 1970,
+                "value": 1601,
                 "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7881,
+                "value": 6405,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -82,13 +82,13 @@
     },
     "49078": {
         "id": 49078,
-        "name": "连娟坠_测试用",
+        "name": "圣怜佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37900,
-        "score": 74812,
+        "level": 38500,
+        "score": 75996,
         "max_strength": 8,
         "icon_id": 4254,
         "desc": "",
@@ -116,25 +116,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14449,
+                "value": 11743,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1305,
+                "value": 1061,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atTherapyPowerBase",
                 "attr_type": "therapy_power_base",
-                "value": 8106,
+                "value": 6588,
                 "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicCriticalStrike",
                 "attr_type": "magical_critical_strike_base",
-                "value": 9852,
+                "value": 8006,
                 "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
             }
         ],
@@ -151,13 +151,13 @@
     },
     "49077": {
         "id": 49077,
-        "name": "崔错坠_测试用",
+        "name": "洄浏佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37900,
-        "score": 74812,
+        "level": 38500,
+        "score": 75996,
         "max_strength": 8,
         "icon_id": 4254,
         "desc": "",
@@ -185,31 +185,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14449,
+                "value": 11743,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atAgilityBase",
                 "attr_type": "agility_base",
-                "value": 1179,
+                "value": 958,
                 "desc": "<text>text=\"身法提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2677,
+                "value": 2176,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsCriticalStrike",
                 "attr_type": "physical_critical_strike_base",
-                "value": 9852,
+                "value": 8006,
                 "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7881,
+                "value": 6405,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -226,13 +226,13 @@
     },
     "49076": {
         "id": 49076,
-        "name": "弥山坠_测试用",
+        "name": "裂贞佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37900,
-        "score": 74812,
+        "level": 38500,
+        "score": 75996,
         "max_strength": 8,
         "icon_id": 4254,
         "desc": "",
@@ -260,31 +260,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14449,
+                "value": 11743,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atStrengthBase",
                 "attr_type": "strength_base",
-                "value": 1179,
+                "value": 958,
                 "desc": "<text>text=\"力道提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2677,
+                "value": 2176,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsCriticalStrike",
                 "attr_type": "physical_critical_strike_base",
-                "value": 9852,
+                "value": 8006,
                 "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7881,
+                "value": 6405,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -301,13 +301,13 @@
     },
     "49075": {
         "id": 49075,
-        "name": "旋还坠_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37900,
-        "score": 74812,
+        "level": 38500,
+        "score": 75996,
         "max_strength": 8,
         "icon_id": 4254,
         "desc": "",
@@ -335,31 +335,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14449,
+                "value": 11743,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpunkBase",
                 "attr_type": "spunk_base",
-                "value": 1179,
+                "value": 958,
                 "desc": "<text>text=\"元气提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2977,
+                "value": 2419,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atAllTypeCriticalStrike",
                 "attr_type": "all_critical_strike_base",
-                "value": 9852,
+                "value": 8006,
                 "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7881,
+                "value": 6405,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -376,13 +376,13 @@
     },
     "49074": {
         "id": 49074,
-        "name": "宛虹坠_测试用",
+        "name": "玄根佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37900,
-        "score": 74812,
+        "level": 38500,
+        "score": 75996,
         "max_strength": 8,
         "icon_id": 4254,
         "desc": "",
@@ -410,31 +410,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14449,
+                "value": 11743,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1179,
+                "value": 958,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2977,
+                "value": 2419,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicCriticalStrike",
                 "attr_type": "magical_critical_strike_base",
-                "value": 9852,
+                "value": 8006,
                 "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7881,
+                "value": 6405,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -451,13 +451,13 @@
     },
     "49091": {
         "id": 49091,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -485,25 +485,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 1757,
+                "value": 1428,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsCriticalStrike",
                 "attr_type": "physical_critical_strike_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -526,13 +526,13 @@
     },
     "49090": {
         "id": 49090,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -560,25 +560,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 1757,
+                "value": 1428,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 25856,
+                "value": 21017,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -601,13 +601,13 @@
     },
     "49089": {
         "id": 49089,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -635,25 +635,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 1757,
+                "value": 1428,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsOvercomeBase",
                 "attr_type": "physical_overcome_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -676,13 +676,13 @@
     },
     "49088": {
         "id": 49088,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -710,25 +710,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 1953,
+                "value": 1588,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atAllTypeCriticalStrike",
                 "attr_type": "all_critical_strike_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -751,13 +751,13 @@
     },
     "49087": {
         "id": 49087,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -785,25 +785,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 1953,
+                "value": 1588,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 25856,
+                "value": 21017,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -826,13 +826,13 @@
     },
     "49086": {
         "id": 49086,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -860,25 +860,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 1953,
+                "value": 1588,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicOvercome",
                 "attr_type": "magical_overcome_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -901,13 +901,13 @@
     },
     "49085": {
         "id": 49085,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -935,25 +935,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 1757,
+                "value": 1428,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsCriticalStrike",
                 "attr_type": "physical_critical_strike_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -976,13 +976,13 @@
     },
     "49084": {
         "id": 49084,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -1010,25 +1010,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 1757,
+                "value": 1428,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 25856,
+                "value": 21017,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -1051,13 +1051,13 @@
     },
     "49083": {
         "id": 49083,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -1085,25 +1085,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 1757,
+                "value": 1428,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsOvercomeBase",
                 "attr_type": "physical_overcome_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -1126,13 +1126,13 @@
     },
     "49082": {
         "id": 49082,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -1160,25 +1160,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 1953,
+                "value": 1588,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atAllTypeCriticalStrike",
                 "attr_type": "all_critical_strike_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -1201,13 +1201,13 @@
     },
     "49081": {
         "id": 49081,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -1235,25 +1235,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 1953,
+                "value": 1588,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 25856,
+                "value": 21017,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -1276,13 +1276,13 @@
     },
     "49080": {
         "id": 49080,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1215,
         "desc": "",
@@ -1310,25 +1310,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 1953,
+                "value": 1588,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicOvercome",
                 "attr_type": "magical_overcome_base",
-                "value": 25209,
+                "value": 20492,
                 "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
@@ -1351,16 +1351,16 @@
     },
     "49073": {
         "id": 49073,
-        "name": "绝沧溟_测试用",
+        "name": "风鹤鸣",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 22905,
-        "desc": "<Text>text=\"横绝沧溟渺四空，扶桑枝上晓暾红。\" font=100 </text>",
+        "desc": "<Text>text=\"剑啸霜天惊晓月，风穿枯木作刀鸣。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1385,37 +1385,37 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 21008,
+                "value": 17077,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsShieldBase",
                 "attr_type": "physical_shield_base",
-                "value": 12928,
+                "value": 10509,
                 "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 2586,
+                "value": 2102,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 2586,
+                "value": 2102,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atToughnessBase",
                 "attr_type": "toughness_base",
-                "value": 1939,
+                "value": 1576,
                 "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -1428,24 +1428,20 @@
             }
         ],
         "set_id": 0,
-        "sets": {},
-        "skill": [
-            38786,
-            4
-        ]
+        "sets": {}
     },
     "49072": {
         "id": 49072,
-        "name": "碧澜深_测试用",
+        "name": "云栖吟",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 22904,
-        "desc": "<Text>text=\"长桥横截碧澜深，涛过风生翠满林。\" font=100 </text>",
+        "desc": "<Text>text=\"清风入怀解尘烦，淡云轻绕意自宽。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1470,25 +1466,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1284,
+                "value": 1044,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atTherapyPowerBase",
                 "attr_type": "therapy_power_base",
-                "value": 7978,
+                "value": 6485,
                 "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicCriticalStrike",
                 "attr_type": "magical_critical_strike_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
             }
         ],
@@ -1501,24 +1497,20 @@
             }
         ],
         "set_id": 0,
-        "sets": {},
-        "skill": [
-            38784,
-            4
-        ]
+        "sets": {}
     },
     "49071": {
         "id": 49071,
-        "name": "九衢交驰_测试用",
+        "name": "掠影凰",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 22903,
-        "desc": "<Text>text=\"四极茫茫绝路岐，九衢车马任交驰。\" font=100 </text>",
+        "desc": "<Text>text=\"丹羽凌霄耀九天，清音一唳破云烟。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1543,31 +1535,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atAgilityBase",
                 "attr_type": "agility_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"身法提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2635,
+                "value": 2142,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsOvercomeBase",
                 "attr_type": "physical_overcome_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -1580,24 +1572,20 @@
             }
         ],
         "set_id": 0,
-        "sets": {},
-        "skill": [
-            38578,
-            29
-        ]
+        "sets": {}
     },
     "49070": {
         "id": 49070,
-        "name": "关河春到_测试用",
+        "name": "贯天虹",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 22902,
-        "desc": "<Text>text=\"关河春到雪犹残，山店萧条酒易寒。\" font=100 </text>",
+        "desc": "<Text>text=\"踏破崎岖路万重，一身浩气破长虹。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1622,31 +1610,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atStrengthBase",
                 "attr_type": "strength_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"力道提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2635,
+                "value": 2142,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atPhysicsOvercomeBase",
                 "attr_type": "physical_overcome_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -1659,24 +1647,20 @@
             }
         ],
         "set_id": 0,
-        "sets": {},
-        "skill": [
-            38578,
-            29
-        ]
+        "sets": {}
     },
     "49069": {
         "id": 49069,
-        "name": "风雨阑乾_测试用",
+        "name": "霜星魄",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 22901,
-        "desc": "<Text>text=\"风雨萧骚又一年，江南春事已阑乾。\" font=100 </text>",
+        "desc": "<Text>text=\"寒星凝夜色，孤灯照客程。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1701,31 +1685,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpunkBase",
                 "attr_type": "spunk_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"元气提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2930,
+                "value": 2382,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicOvercome",
                 "attr_type": "magical_overcome_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -1738,24 +1722,20 @@
             }
         ],
         "set_id": 0,
-        "sets": {},
-        "skill": [
-            38578,
-            28
-        ]
+        "sets": {}
     },
     "49068": {
         "id": 49068,
-        "name": "冷韵幽怀_测试用",
+        "name": "雨夜禅",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 22900,
-        "desc": "<Text>text=\"高枝饮露意难休，冷韵幽怀岁月愁。\" font=100 </text>",
+        "desc": "<Text>text=\"夜雨听根醒，新芽破暗生。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1780,31 +1760,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2930,
+                "value": 2382,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicOvercome",
                 "attr_type": "magical_overcome_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -1817,21 +1797,17 @@
             }
         ],
         "set_id": 0,
-        "sets": {},
-        "skill": [
-            38578,
-            28
-        ]
+        "sets": {}
     },
     "49067": {
         "id": 49067,
-        "name": "穹石佩_测试用",
+        "name": "固岚佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1216,
         "desc": "",
@@ -1859,37 +1835,37 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 21008,
+                "value": 17077,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsShieldBase",
                 "attr_type": "physical_shield_base",
-                "value": 9049,
+                "value": 7356,
                 "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atMagicShield",
                 "attr_type": "magical_shield_base",
-                "value": 9049,
+                "value": 7356,
                 "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 3878,
+                "value": 3153,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atToughnessBase",
                 "attr_type": "toughness_base",
-                "value": 1939,
+                "value": 1576,
                 "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -1906,13 +1882,13 @@
     },
     "49066": {
         "id": 49066,
-        "name": "仁心佩_测试用",
+        "name": "慈愈佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1216,
         "desc": "",
@@ -1940,25 +1916,25 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1284,
+                "value": 1044,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atTherapyPowerBase",
                 "attr_type": "therapy_power_base",
-                "value": 7978,
+                "value": 6485,
                 "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             }
         ],
@@ -1975,13 +1951,13 @@
     },
     "49065": {
         "id": 49065,
-        "name": "晚风佩_测试用",
+        "name": "流漓佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1216,
         "desc": "",
@@ -2009,31 +1985,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atAgilityBase",
                 "attr_type": "agility_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"身法提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2635,
+                "value": 2142,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2050,13 +2026,13 @@
     },
     "49064": {
         "id": 49064,
-        "name": "震烁佩_测试用",
+        "name": "劲威佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1216,
         "desc": "",
@@ -2084,31 +2060,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atStrengthBase",
                 "attr_type": "strength_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"力道提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2635,
+                "value": 2142,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2125,13 +2101,13 @@
     },
     "49063": {
         "id": 49063,
-        "name": "河汉佩_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1216,
         "desc": "",
@@ -2159,31 +2135,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpunkBase",
                 "attr_type": "spunk_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"元气提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2930,
+                "value": 2382,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2200,13 +2176,13 @@
     },
     "49062": {
         "id": 49062,
-        "name": "椒丘佩_测试用",
+        "name": "玄脉佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1216,
         "desc": "",
@@ -2234,31 +2210,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2930,
+                "value": 2382,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2275,13 +2251,13 @@
     },
     "49061": {
         "id": 49061,
-        "name": "洪涌佩_测试用",
+        "name": "不摧佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1214,
         "desc": "",
@@ -2309,37 +2285,37 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 21008,
+                "value": 17077,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicShield",
                 "attr_type": "magical_shield_base",
-                "value": 12928,
+                "value": 10509,
                 "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 2586,
+                "value": 2102,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSurplusValueBase",
                 "attr_type": "surplus_base",
-                "value": 2586,
+                "value": 2102,
                 "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             },
             {
                 "attr": "atToughnessBase",
                 "attr_type": "toughness_base",
-                "value": 1939,
+                "value": 1576,
                 "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2356,13 +2332,13 @@
     },
     "49060": {
         "id": 49060,
-        "name": "拂煦佩_测试用",
+        "name": "回霖佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1214,
         "desc": "",
@@ -2390,19 +2366,19 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1284,
+                "value": 1044,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atTherapyPowerBase",
                 "attr_type": "therapy_power_base",
-                "value": 12671,
+                "value": 10300,
                 "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
             }
         ],
@@ -2419,13 +2395,13 @@
     },
     "49059": {
         "id": 49059,
-        "name": "天风佩_测试用",
+        "name": "尘隐佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1214,
         "desc": "",
@@ -2453,31 +2429,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atAgilityBase",
                 "attr_type": "agility_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"身法提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2635,
+                "value": 2142,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2494,13 +2470,13 @@
     },
     "49058": {
         "id": 49058,
-        "name": "断霄佩_测试用",
+        "name": "虎祭佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1214,
         "desc": "",
@@ -2528,31 +2504,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atStrengthBase",
                 "attr_type": "strength_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"力道提高{}\" font=106 </text>"
             },
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 2635,
+                "value": 2142,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2569,13 +2545,13 @@
     },
     "49057": {
         "id": 49057,
-        "name": "骀荡佩_测试用",
+        "name": "朝元佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1214,
         "desc": "",
@@ -2603,31 +2579,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpunkBase",
                 "attr_type": "spunk_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"元气提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2930,
+                "value": 2382,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -2644,13 +2620,13 @@
     },
     "49056": {
         "id": 49056,
-        "name": "香丹佩_测试用",
+        "name": "神藏佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
         "usage": "PVE",
-        "level": 37300,
-        "score": 73627,
+        "level": 37900,
+        "score": 74812,
         "max_strength": 8,
         "icon_id": 1214,
         "desc": "",
@@ -2678,31 +2654,31 @@
             {
                 "attr": "atVitalityBase",
                 "attr_type": "vitality_base",
-                "value": 14221,
+                "value": 11559,
                 "desc": "<text>text=\"体质提高{}\" font=106 </text>"
             },
             {
                 "attr": "atSpiritBase",
                 "attr_type": "spirit_base",
-                "value": 1160,
+                "value": 943,
                 "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
             },
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 2930,
+                "value": 2382,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 9696,
+                "value": 7881,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
-                "value": 7757,
+                "value": 6305,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -5485,7 +5461,7 @@
     },
     "48001": {
         "id": 48001,
-        "name": "郁垒坠_测试用",
+        "name": "玄毅佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -5566,7 +5542,7 @@
     },
     "48000": {
         "id": 48000,
-        "name": "连娟坠_测试用",
+        "name": "圣怜佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -5635,7 +5611,7 @@
     },
     "47999": {
         "id": 47999,
-        "name": "崔错坠_测试用",
+        "name": "洄浏佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -5710,7 +5686,7 @@
     },
     "47998": {
         "id": 47998,
-        "name": "弥山坠_测试用",
+        "name": "裂贞佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -5785,7 +5761,7 @@
     },
     "47997": {
         "id": 47997,
-        "name": "旋还坠_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -5860,7 +5836,7 @@
     },
     "47996": {
         "id": 47996,
-        "name": "宛虹坠_测试用",
+        "name": "玄根佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -5935,7 +5911,7 @@
     },
     "48055": {
         "id": 48055,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -6010,7 +5986,7 @@
     },
     "48054": {
         "id": 48054,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -6085,7 +6061,7 @@
     },
     "48053": {
         "id": 48053,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -6160,7 +6136,7 @@
     },
     "48052": {
         "id": 48052,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -6235,7 +6211,7 @@
     },
     "48051": {
         "id": 48051,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -6310,7 +6286,7 @@
     },
     "48050": {
         "id": 48050,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -6385,7 +6361,7 @@
     },
     "48031": {
         "id": 48031,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -6460,7 +6436,7 @@
     },
     "48030": {
         "id": 48030,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -6535,7 +6511,7 @@
     },
     "48029": {
         "id": 48029,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -6610,7 +6586,7 @@
     },
     "48028": {
         "id": 48028,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -6685,7 +6661,7 @@
     },
     "48027": {
         "id": 48027,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -6760,7 +6736,7 @@
     },
     "48026": {
         "id": 48026,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -6835,7 +6811,7 @@
     },
     "47918": {
         "id": 47918,
-        "name": "绝沧溟_测试用",
+        "name": "风鹤鸣",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -6844,7 +6820,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22905,
-        "desc": "<Text>text=\"横绝沧溟渺四空，扶桑枝上晓暾红。\" font=100 </text>",
+        "desc": "<Text>text=\"剑啸霜天惊晓月，风穿枯木作刀鸣。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -6920,7 +6896,7 @@
     },
     "47917": {
         "id": 47917,
-        "name": "碧澜深_测试用",
+        "name": "云栖吟",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -6929,7 +6905,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22904,
-        "desc": "<Text>text=\"长桥横截碧澜深，涛过风生翠满林。\" font=100 </text>",
+        "desc": "<Text>text=\"清风入怀解尘烦，淡云轻绕意自宽。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -6993,7 +6969,7 @@
     },
     "47916": {
         "id": 47916,
-        "name": "九衢交驰_测试用",
+        "name": "掠影凰",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -7002,7 +6978,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22903,
-        "desc": "<Text>text=\"四极茫茫绝路岐，九衢车马任交驰。\" font=100 </text>",
+        "desc": "<Text>text=\"丹羽凌霄耀九天，清音一唳破云烟。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7072,7 +7048,7 @@
     },
     "47915": {
         "id": 47915,
-        "name": "关河春到_测试用",
+        "name": "贯天虹",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -7081,7 +7057,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22902,
-        "desc": "<Text>text=\"关河春到雪犹残，山店萧条酒易寒。\" font=100 </text>",
+        "desc": "<Text>text=\"踏破崎岖路万重，一身浩气破长虹。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7151,7 +7127,7 @@
     },
     "47914": {
         "id": 47914,
-        "name": "风雨阑乾_测试用",
+        "name": "霜星魄",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -7160,7 +7136,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22901,
-        "desc": "<Text>text=\"风雨萧骚又一年，江南春事已阑乾。\" font=100 </text>",
+        "desc": "<Text>text=\"寒星凝夜色，孤灯照客程。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7230,7 +7206,7 @@
     },
     "47913": {
         "id": 47913,
-        "name": "冷韵幽怀_测试用",
+        "name": "雨夜禅",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -7239,7 +7215,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22900,
-        "desc": "<Text>text=\"高枝饮露意难休，冷韵幽怀岁月愁。\" font=100 </text>",
+        "desc": "<Text>text=\"夜雨听根醒，新芽破暗生。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7309,7 +7285,7 @@
     },
     "47894": {
         "id": 47894,
-        "name": "穹石佩_测试用",
+        "name": "固岚佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -7390,7 +7366,7 @@
     },
     "47893": {
         "id": 47893,
-        "name": "仁心佩_测试用",
+        "name": "慈愈佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -7459,7 +7435,7 @@
     },
     "47892": {
         "id": 47892,
-        "name": "晚风佩_测试用",
+        "name": "流漓佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -7534,7 +7510,7 @@
     },
     "47891": {
         "id": 47891,
-        "name": "震烁佩_测试用",
+        "name": "劲威佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -7609,7 +7585,7 @@
     },
     "47890": {
         "id": 47890,
-        "name": "河汉佩_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -7684,7 +7660,7 @@
     },
     "47889": {
         "id": 47889,
-        "name": "椒丘佩_测试用",
+        "name": "玄脉佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -7759,7 +7735,7 @@
     },
     "47876": {
         "id": 47876,
-        "name": "洪涌佩_测试用",
+        "name": "不摧佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -7840,7 +7816,7 @@
     },
     "47875": {
         "id": 47875,
-        "name": "拂煦佩_测试用",
+        "name": "回霖佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -7903,7 +7879,7 @@
     },
     "47874": {
         "id": 47874,
-        "name": "天风佩_测试用",
+        "name": "尘隐佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -7978,7 +7954,7 @@
     },
     "47873": {
         "id": 47873,
-        "name": "断霄佩_测试用",
+        "name": "虎祭佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -8053,7 +8029,7 @@
     },
     "47872": {
         "id": 47872,
-        "name": "骀荡佩_测试用",
+        "name": "朝元佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -8128,7 +8104,7 @@
     },
     "47871": {
         "id": 47871,
-        "name": "香丹佩_测试用",
+        "name": "神藏佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -8203,7 +8179,7 @@
     },
     "47989": {
         "id": 47989,
-        "name": "郁垒坠_测试用",
+        "name": "玄毅佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -8284,7 +8260,7 @@
     },
     "47988": {
         "id": 47988,
-        "name": "连娟坠_测试用",
+        "name": "圣怜佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -8353,7 +8329,7 @@
     },
     "47987": {
         "id": 47987,
-        "name": "崔错坠_测试用",
+        "name": "洄浏佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -8428,7 +8404,7 @@
     },
     "47986": {
         "id": 47986,
-        "name": "弥山坠_测试用",
+        "name": "裂贞佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -8503,7 +8479,7 @@
     },
     "47985": {
         "id": 47985,
-        "name": "旋还坠_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -8578,7 +8554,7 @@
     },
     "47984": {
         "id": 47984,
-        "name": "宛虹坠_测试用",
+        "name": "玄根佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -8653,7 +8629,7 @@
     },
     "48043": {
         "id": 48043,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -8740,7 +8716,7 @@
     },
     "48042": {
         "id": 48042,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -8821,7 +8797,7 @@
     },
     "48041": {
         "id": 48041,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -8902,7 +8878,7 @@
     },
     "48040": {
         "id": 48040,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -8989,7 +8965,7 @@
     },
     "48039": {
         "id": 48039,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -9070,7 +9046,7 @@
     },
     "48038": {
         "id": 48038,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -9151,7 +9127,7 @@
     },
     "48019": {
         "id": 48019,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -9238,7 +9214,7 @@
     },
     "48018": {
         "id": 48018,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -9319,7 +9295,7 @@
     },
     "48017": {
         "id": 48017,
-        "name": "无修坠·外·天_测试用",
+        "name": "无修坠·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "pendant",
@@ -9400,7 +9376,7 @@
     },
     "48016": {
         "id": 48016,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -9487,7 +9463,7 @@
     },
     "48015": {
         "id": 48015,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -9568,7 +9544,7 @@
     },
     "48014": {
         "id": 48014,
-        "name": "无修坠·内·天_测试用",
+        "name": "无修坠·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "pendant",
@@ -10099,7 +10075,7 @@
     },
     "47977": {
         "id": 47977,
-        "name": "郁垒坠_测试用",
+        "name": "玄毅佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -10180,7 +10156,7 @@
     },
     "47976": {
         "id": 47976,
-        "name": "连娟坠_测试用",
+        "name": "圣怜佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -10249,7 +10225,7 @@
     },
     "47975": {
         "id": 47975,
-        "name": "崔错坠_测试用",
+        "name": "洄浏佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -10324,7 +10300,7 @@
     },
     "47974": {
         "id": 47974,
-        "name": "弥山坠_测试用",
+        "name": "裂贞佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -10399,7 +10375,7 @@
     },
     "47973": {
         "id": 47973,
-        "name": "旋还坠_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -10474,7 +10450,7 @@
     },
     "47972": {
         "id": 47972,
-        "name": "宛虹坠_测试用",
+        "name": "玄根佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -14239,7 +14215,7 @@
     },
     "47965": {
         "id": 47965,
-        "name": "郁垒坠_测试用",
+        "name": "玄毅佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -14320,7 +14296,7 @@
     },
     "47964": {
         "id": 47964,
-        "name": "连娟坠_测试用",
+        "name": "圣怜佩",
         "school": "通用",
         "kind": "治疗",
         "position": "pendant",
@@ -14389,7 +14365,7 @@
     },
     "47963": {
         "id": 47963,
-        "name": "崔错坠_测试用",
+        "name": "洄浏佩",
         "school": "通用",
         "kind": "身法",
         "position": "pendant",
@@ -14464,7 +14440,7 @@
     },
     "47962": {
         "id": 47962,
-        "name": "弥山坠_测试用",
+        "name": "裂贞佩",
         "school": "通用",
         "kind": "力道",
         "position": "pendant",
@@ -14539,7 +14515,7 @@
     },
     "47961": {
         "id": 47961,
-        "name": "旋还坠_测试用",
+        "name": "元灵佩",
         "school": "通用",
         "kind": "元气",
         "position": "pendant",
@@ -14614,7 +14590,7 @@
     },
     "47960": {
         "id": 47960,
-        "name": "宛虹坠_测试用",
+        "name": "玄根佩",
         "school": "通用",
         "kind": "根骨",
         "position": "pendant",
@@ -15582,6 +15558,87 @@
                 "attr_type": "strain_base",
                 "value": 321,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49351": {
+        "id": 49351,
+        "name": "辰沙佩_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4254,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 12246,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 5275,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 5275,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 2261,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1130,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 161,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
             }
         ],
         "set_id": 0,
@@ -18899,6 +18956,444 @@
         "set_id": 0,
         "sets": {}
     },
+    "42744": {
+        "id": 42744,
+        "name": "灵空·磐石坠",
+        "school": "通用",
+        "kind": "防御",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4246,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 12246,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 7536,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1130,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 161,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42743": {
+        "id": 42743,
+        "name": "灵空·长青坠",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4246,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 749,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 4651,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 5652,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 41,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42742": {
+        "id": 42742,
+        "name": "灵空·风行坠",
+        "school": "通用",
+        "kind": "身法",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4246,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 676,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1536,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 5652,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42741": {
+        "id": 42741,
+        "name": "灵空·撼地坠",
+        "school": "通用",
+        "kind": "力道",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4246,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 676,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1536,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 5652,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42740": {
+        "id": 42740,
+        "name": "灵空·未判坠",
+        "school": "通用",
+        "kind": "元气",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4246,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 676,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 1708,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 5652,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42739": {
+        "id": 42739,
+        "name": "灵空·心斋坠",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4246,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 676,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 1708,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 5652,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "42631": {
         "id": 42631,
         "name": "六穗坠",
@@ -20821,7 +21316,7 @@
     },
     "49055": {
         "id": 49055,
-        "name": "千嶂飞云_测试用",
+        "name": "凤来吟",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -20830,7 +21325,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 4258,
-        "desc": "<Text>text=\"风啸群崖如阵马，千嶂飞云散绮霞。\" font=100 </text>",
+        "desc": "<Text>text=\"龙影起时惊四野，凤声来处动群山。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -20883,7 +21378,7 @@
     },
     "49054": {
         "id": 49054,
-        "name": "风啸群崖_测试用",
+        "name": "龙影起",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -20892,7 +21387,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1234,
-        "desc": "<Text>text=\"风啸群崖如阵马，千嶂飞云散绮霞。\" font=100 </text>",
+        "desc": "<Text>text=\"龙影起时惊四野，凤声来处动群山。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -20945,7 +21440,7 @@
     },
     "48007": {
         "id": 48007,
-        "name": "客行江湖·嵯峨指环_测试用",
+        "name": "客行江湖·峙岳指环",
         "school": "通用",
         "kind": "防御",
         "position": "ring",
@@ -21019,7 +21514,7 @@
     },
     "48006": {
         "id": 48006,
-        "name": "客行江湖·寒调指环_测试用",
+        "name": "客行江湖·濡泽指环",
         "school": "通用",
         "kind": "治疗",
         "position": "ring",
@@ -21081,7 +21576,7 @@
     },
     "48005": {
         "id": 48005,
-        "name": "客行江湖·离帆指环_测试用",
+        "name": "客行江湖·霁影指环",
         "school": "通用",
         "kind": "身法",
         "position": "ring",
@@ -21149,7 +21644,7 @@
     },
     "48004": {
         "id": 48004,
-        "name": "客行江湖·孤馆指环_测试用",
+        "name": "客行江湖·摧锋指环",
         "school": "通用",
         "kind": "力道",
         "position": "ring",
@@ -21217,7 +21712,7 @@
     },
     "48003": {
         "id": 48003,
-        "name": "客行江湖·阳关指环_测试用",
+        "name": "客行江湖·淬魄指环",
         "school": "通用",
         "kind": "元气",
         "position": "ring",
@@ -21285,7 +21780,7 @@
     },
     "48002": {
         "id": 48002,
-        "name": "客行江湖·歧路指环_测试用",
+        "name": "客行江湖·锻骸指环",
         "school": "通用",
         "kind": "根骨",
         "position": "ring",
@@ -21353,7 +21848,7 @@
     },
     "47953": {
         "id": 47953,
-        "name": "青瑛缀_测试用",
+        "name": "气海沉",
         "school": "精简",
         "kind": "防御",
         "position": "ring",
@@ -21362,7 +21857,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1233,
-        "desc": "<Text>text=\"青瑛微芒起，寸许晶光护。\" font=100 </text>",
+        "desc": "<Text>text=\"夜锁乾坤沉气海，星沉血脉定魂台。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21433,7 +21928,7 @@
     },
     "47952": {
         "id": 47952,
-        "name": "纹守隅_测试用",
+        "name": "天色稳",
         "school": "精简",
         "kind": "防御",
         "position": "ring",
@@ -21442,7 +21937,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1229,
-        "desc": "<Text>text=\"纹刻微隅，指端藏力。\" font=100 </text>",
+        "desc": "<Text>text=\"云卷仍留天色稳，浪翻犹见岛峰安。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21513,7 +22008,7 @@
     },
     "47951": {
         "id": 47951,
-        "name": "凝珀心_测试用",
+        "name": "松心定",
         "school": "精简",
         "kind": "防御",
         "position": "ring",
@@ -21522,7 +22017,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1228,
-        "desc": "<Text>text=\"珀凝方寸拦微刃，指畔光生护本心。\" font=100 </text>",
+        "desc": "<Text>text=\"寒霜不改松心硬，烈火难摧石胆坚。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21593,7 +22088,7 @@
     },
     "47950": {
         "id": 47950,
-        "name": "承竹韧_测试用",
+        "name": "青山固",
         "school": "精简",
         "kind": "防御",
         "position": "ring",
@@ -21602,7 +22097,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 4258,
-        "desc": "<Text>text=\"承得重击落，竹韧不折身。\" font=100 </text>",
+        "desc": "<Text>text=\"铁壁青山藏劲骨，金钟碧海纳长鸣。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21673,7 +22168,7 @@
     },
     "47949": {
         "id": 47949,
-        "name": "惠风暖_测试用",
+        "name": "桃花映",
         "school": "精简",
         "kind": "治疗",
         "position": "ring",
@@ -21682,7 +22177,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1231,
-        "desc": "<Text>text=\"惠风轻拂，暖入筋骸。\" font=100 </text>",
+        "desc": "<Text>text=\"桃花映面香盈袖，柳絮随波意自柔。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21735,7 +22230,7 @@
     },
     "47948": {
         "id": 47948,
-        "name": "松风酿_测试用",
+        "name": "紫霞隐",
         "school": "精简",
         "kind": "治疗",
         "position": "ring",
@@ -21744,7 +22239,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1234,
-        "desc": "<Text>text=\"松风酿得生机酒，一酌能引万物生。\" font=100 </text>",
+        "desc": "<Text>text=\"明月入怀清似水，紫霞凝掌暖如风。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21803,7 +22298,7 @@
     },
     "47947": {
         "id": 47947,
-        "name": "静影安_测试用",
+        "name": "流泉护",
         "school": "精简",
         "kind": "治疗",
         "position": "ring",
@@ -21812,7 +22307,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 1227,
-        "desc": "<Text>text=\"静影沉潭，一线安康。\" font=100 </text>",
+        "desc": "<Text>text=\"春雨无声滋白草，流泉有意洗红尘。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21871,7 +22366,7 @@
     },
     "47946": {
         "id": 47946,
-        "name": "天开月影_测试用",
+        "name": "碧海听",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -21880,7 +22375,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22894,
-        "desc": "<Text>text=\"晓来一枕梦魂惊，云散天开月影迟。\" font=100 </text>",
+        "desc": "<Text>text=\"朝踏赤阳焚万象，夜临碧海听三更。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -21939,7 +22434,7 @@
     },
     "47945": {
         "id": 47945,
-        "name": "岁寒时_测试用",
+        "name": "血魄寒",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -21948,7 +22443,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22893,
-        "desc": "<Text>text=\"莫怪吟人频怅望，等闲辜负岁寒时。\" font=100 </text>",
+        "desc": "<Text>text=\"墨染青锋开岁月，血凝寒魄守乾坤。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22007,7 +22502,7 @@
     },
     "47944": {
         "id": 47944,
-        "name": "一渔蓑_测试用",
+        "name": "孤雁回",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22016,7 +22511,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22892,
-        "desc": "<Text>text=\"无限兴邦戎马略，只今烟雨一渔蓑。\" font=100 </text>",
+        "desc": "<Text>text=\"江上长歌随浪远，天边孤雁带云回。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22075,7 +22570,7 @@
     },
     "47943": {
         "id": 47943,
-        "name": "淡云微月_测试用",
+        "name": "鹤声遥",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22084,7 +22579,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22891,
-        "desc": "<Text>text=\"烟柳萧疏古驿楼，淡云微月冷如秋。\" font=100 </text>",
+        "desc": "<Text>text=\"松影半遮山色老，鹤声遥破晚云空。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22155,7 +22650,7 @@
     },
     "47942": {
         "id": 47942,
-        "name": "水接天门_测试用",
+        "name": "雪封光",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22164,7 +22659,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22890,
-        "desc": "<Text>text=\"云连海国三千界，水接天门十二重。\" font=100 </text>",
+        "desc": "<Text>text=\"星坠荒原惊梦冷，雪封古道映刀光。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22229,7 +22724,7 @@
     },
     "47941": {
         "id": 47941,
-        "name": "第一尊_测试用",
+        "name": "孤叶沉",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22238,7 +22733,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22889,
-        "desc": "<Text>text=\"黄河九曲出昆仑，自是人间第一尊。\" font=100 </text>",
+        "desc": "<Text>text=\"风卷残霞归远岫，雨沉孤叶入流年。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22303,7 +22798,7 @@
     },
     "47940": {
         "id": 47940,
-        "name": "客愁戒·迅_测试用",
+        "name": "逐电戒·迅",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22359,7 +22854,7 @@
     },
     "47939": {
         "id": 47939,
-        "name": "颠陨戒·绝_测试用",
+        "name": "霸魄戒·绝",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22427,7 +22922,7 @@
     },
     "47938": {
         "id": 47938,
-        "name": "箫鼓戒·明_测试用",
+        "name": "狂岚戒·明",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22495,7 +22990,7 @@
     },
     "47937": {
         "id": 47937,
-        "name": "高牙戒·觉_测试用",
+        "name": "裂锋戒·觉",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22563,7 +23058,7 @@
     },
     "47936": {
         "id": 47936,
-        "name": "云涛戒·引_测试用",
+        "name": "枕流戒·引",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22625,7 +23120,7 @@
     },
     "47935": {
         "id": 47935,
-        "name": "玉宇戒·破_测试用",
+        "name": "漱岩戒·破",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22687,7 +23182,7 @@
     },
     "47934": {
         "id": 47934,
-        "name": "蓬舟戒·悟_测试用",
+        "name": "熊咆戒·悟",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22749,7 +23244,7 @@
     },
     "47933": {
         "id": 47933,
-        "name": "都护戒·尊_测试用",
+        "name": "菁雨戒·尊",
         "school": "精简",
         "kind": "外功",
         "position": "ring",
@@ -22805,7 +23300,7 @@
     },
     "47932": {
         "id": 47932,
-        "name": "一枕梦魂_测试用",
+        "name": "赤阳踏",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -22814,7 +23309,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22894,
-        "desc": "<Text>text=\"晓来一枕梦魂惊，云散天开月影迟。\" font=100 </text>",
+        "desc": "<Text>text=\"朝踏赤阳焚万象，夜临碧海听三更。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22873,7 +23368,7 @@
     },
     "47931": {
         "id": 47931,
-        "name": "频怅望_测试用",
+        "name": "墨锋隐",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -22882,7 +23377,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 2851,
-        "desc": "<Text>text=\"莫怪吟人频怅望，等闲辜负岁寒时。\" font=100 </text>",
+        "desc": "<Text>text=\"墨染青锋开岁月，血凝寒魄守乾坤。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -22941,7 +23436,7 @@
     },
     "47930": {
         "id": 47930,
-        "name": "戎马略_测试用",
+        "name": "浪歌行",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -22950,7 +23445,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 2847,
-        "desc": "<Text>text=\"无限兴邦戎马略，只今烟雨一渔蓑。\" font=100 </text>",
+        "desc": "<Text>text=\"江上长歌随浪远，天边孤雁带云回。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -23009,7 +23504,7 @@
     },
     "47929": {
         "id": 47929,
-        "name": "烟柳萧疏_测试用",
+        "name": "松影静",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23018,7 +23513,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 2855,
-        "desc": "<Text>text=\"烟柳萧疏古驿楼，淡云微月冷如秋。\" font=100 </text>",
+        "desc": "<Text>text=\"松影半遮山色老，鹤声遥破晚云空。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -23089,7 +23584,7 @@
     },
     "47928": {
         "id": 47928,
-        "name": "云连海国_测试用",
+        "name": "梦冷星",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23098,7 +23593,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 24367,
-        "desc": "<Text>text=\"云连海国三千界，水接天门十二重。\" font=100 </text>",
+        "desc": "<Text>text=\"星坠荒原惊梦冷，雪封古道映刀光。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -23163,7 +23658,7 @@
     },
     "47927": {
         "id": 47927,
-        "name": "出昆仑_测试用",
+        "name": "残霞卷",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23172,7 +23667,7 @@
         "score": 58839,
         "max_strength": 6,
         "icon_id": 22893,
-        "desc": "<Text>text=\"黄河九曲出昆仑，自是人间第一尊。\" font=100 </text>",
+        "desc": "<Text>text=\"风卷残霞归远岫，雨沉孤叶入流年。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -23237,7 +23732,7 @@
     },
     "47926": {
         "id": 47926,
-        "name": "红药戒·迅_测试用",
+        "name": "愁予戒·迅",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23293,7 +23788,7 @@
     },
     "47925": {
         "id": 47925,
-        "name": "断雁戒·绝_测试用",
+        "name": "寂光戒·绝",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23361,7 +23856,7 @@
     },
     "47924": {
         "id": 47924,
-        "name": "雨客戒·明_测试用",
+        "name": "真寰戒·明",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23429,7 +23924,7 @@
     },
     "47923": {
         "id": 47923,
-        "name": "汀洲戒·觉_测试用",
+        "name": "荟茫戒·觉",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23497,7 +23992,7 @@
     },
     "47922": {
         "id": 47922,
-        "name": "朱阁戒·引_测试用",
+        "name": "真寰戒·引",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23559,7 +24054,7 @@
     },
     "47921": {
         "id": 47921,
-        "name": "琼楼戒·破_测试用",
+        "name": "毋垢戒·破",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23621,7 +24116,7 @@
     },
     "47920": {
         "id": 47920,
-        "name": "萧瑟戒·悟_测试用",
+        "name": "灵寂戒·悟",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23683,7 +24178,7 @@
     },
     "47919": {
         "id": 47919,
-        "name": "轩窗戒·尊_测试用",
+        "name": "玄溟戒·尊",
         "school": "精简",
         "kind": "内功",
         "position": "ring",
@@ -23739,7 +24234,7 @@
     },
     "47912": {
         "id": 47912,
-        "name": "深岩指环_测试用",
+        "name": "玉蛇指环",
         "school": "通用",
         "kind": "防御",
         "position": "ring",
@@ -23813,7 +24308,7 @@
     },
     "47911": {
         "id": 47911,
-        "name": "延曼指环_测试用",
+        "name": "猩袍指环",
         "school": "通用",
         "kind": "治疗",
         "position": "ring",
@@ -23875,7 +24370,7 @@
     },
     "47910": {
         "id": 47910,
-        "name": "临坻指环_测试用",
+        "name": "虎帐指环",
         "school": "通用",
         "kind": "身法",
         "position": "ring",
@@ -23943,7 +24438,7 @@
     },
     "47909": {
         "id": 47909,
-        "name": "逾波指环_测试用",
+        "name": "流尘指环",
         "school": "通用",
         "kind": "力道",
         "position": "ring",
@@ -24011,7 +24506,7 @@
     },
     "47908": {
         "id": 47908,
-        "name": "灼玉指环_测试用",
+        "name": "断弦指环",
         "school": "通用",
         "kind": "元气",
         "position": "ring",
@@ -24079,7 +24574,7 @@
     },
     "47907": {
         "id": 47907,
-        "name": "噙香指环_测试用",
+        "name": "鹊角指环",
         "school": "通用",
         "kind": "根骨",
         "position": "ring",
@@ -24147,7 +24642,7 @@
     },
     "47900": {
         "id": 47900,
-        "name": "穹石指环_测试用",
+        "name": "固岚指环",
         "school": "通用",
         "kind": "防御",
         "position": "ring",
@@ -24221,7 +24716,7 @@
     },
     "47899": {
         "id": 47899,
-        "name": "仁心指环_测试用",
+        "name": "慈愈指环",
         "school": "通用",
         "kind": "治疗",
         "position": "ring",
@@ -24277,7 +24772,7 @@
     },
     "47898": {
         "id": 47898,
-        "name": "晚风指环_测试用",
+        "name": "流漓指环",
         "school": "通用",
         "kind": "身法",
         "position": "ring",
@@ -24345,7 +24840,7 @@
     },
     "47897": {
         "id": 47897,
-        "name": "震烁指环_测试用",
+        "name": "劲威指环",
         "school": "通用",
         "kind": "力道",
         "position": "ring",
@@ -24413,7 +24908,7 @@
     },
     "47896": {
         "id": 47896,
-        "name": "河汉指环_测试用",
+        "name": "元灵指环",
         "school": "通用",
         "kind": "元气",
         "position": "ring",
@@ -24481,7 +24976,7 @@
     },
     "47895": {
         "id": 47895,
-        "name": "椒丘指环_测试用",
+        "name": "玄脉指环",
         "school": "通用",
         "kind": "根骨",
         "position": "ring",
@@ -24549,7 +25044,7 @@
     },
     "47882": {
         "id": 47882,
-        "name": "洪涌指环_测试用",
+        "name": "不摧指环",
         "school": "通用",
         "kind": "防御",
         "position": "ring",
@@ -24623,7 +25118,7 @@
     },
     "47881": {
         "id": 47881,
-        "name": "拂煦指环_测试用",
+        "name": "回霖指环",
         "school": "通用",
         "kind": "治疗",
         "position": "ring",
@@ -24685,7 +25180,7 @@
     },
     "47880": {
         "id": 47880,
-        "name": "天风指环_测试用",
+        "name": "尘隐指环",
         "school": "通用",
         "kind": "身法",
         "position": "ring",
@@ -24753,7 +25248,7 @@
     },
     "47879": {
         "id": 47879,
-        "name": "断霄指环_测试用",
+        "name": "虎祭指环",
         "school": "通用",
         "kind": "力道",
         "position": "ring",
@@ -24821,7 +25316,7 @@
     },
     "47878": {
         "id": 47878,
-        "name": "骀荡指环_测试用",
+        "name": "朝元指环",
         "school": "通用",
         "kind": "元气",
         "position": "ring",
@@ -24889,7 +25384,7 @@
     },
     "47877": {
         "id": 47877,
-        "name": "香丹指环_测试用",
+        "name": "神藏指环",
         "school": "通用",
         "kind": "根骨",
         "position": "ring",
@@ -24948,6 +25443,414 @@
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
                 "value": 6199,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49097": {
+        "id": 49097,
+        "name": "胃擎指环",
+        "school": "通用",
+        "kind": "防御",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 38100,
+        "score": 54149,
+        "max_strength": 6,
+        "icon_id": 2845,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 15450,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 9508,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1902,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 1902,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1426,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 5705,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49096": {
+        "id": 49096,
+        "name": "胃沐指环",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 38100,
+        "score": 54149,
+        "max_strength": 6,
+        "icon_id": 2845,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 10458,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 945,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 5867,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 7131,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49095": {
+        "id": 49095,
+        "name": "胃霆指环",
+        "school": "通用",
+        "kind": "身法",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 38100,
+        "score": 54149,
+        "max_strength": 6,
+        "icon_id": 2845,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 10458,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 853,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1938,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 7131,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 5705,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49094": {
+        "id": 49094,
+        "name": "胃刃指环",
+        "school": "通用",
+        "kind": "力道",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 38100,
+        "score": 54149,
+        "max_strength": 6,
+        "icon_id": 2845,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 10458,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 853,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1938,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 7131,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 5705,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49093": {
+        "id": 49093,
+        "name": "胃罡指环",
+        "school": "通用",
+        "kind": "元气",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 38100,
+        "score": 54149,
+        "max_strength": 6,
+        "icon_id": 2845,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 10458,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 853,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 2155,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 7131,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 5705,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49092": {
+        "id": 49092,
+        "name": "胃梵指环",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 38100,
+        "score": 54149,
+        "max_strength": 6,
+        "icon_id": 2845,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 10458,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 853,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 2155,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 7131,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 5705,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -29137,6 +30040,18 @@
                 "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
             },
             {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1702,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 1702,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            },
+            {
                 "attr": "atToughnessBase",
                 "attr_type": "toughness_base",
                 "value": 1276,
@@ -29888,6 +30803,80 @@
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
                 "value": 4866,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49357": {
+        "id": 49357,
+        "name": "辰沙戒_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2847,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 12246,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 5275,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 5275,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 2261,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1130,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -36533,7 +37522,7 @@
     },
     "47995": {
         "id": 47995,
-        "name": "雉楼链_测试用",
+        "name": "镇甲链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -36614,7 +37603,7 @@
     },
     "47994": {
         "id": 47994,
-        "name": "纯茂链_测试用",
+        "name": "养息链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -36677,7 +37666,7 @@
     },
     "47993": {
         "id": 47993,
-        "name": "斜月链_测试用",
+        "name": "腾掠链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -36752,7 +37741,7 @@
     },
     "47992": {
         "id": 47992,
-        "name": "乱峰链_测试用",
+        "name": "罡威链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -36827,7 +37816,7 @@
     },
     "47991": {
         "id": 47991,
-        "name": "销沉链_测试用",
+        "name": "元炁链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -36902,7 +37891,7 @@
     },
     "47990": {
         "id": 47990,
-        "name": "孟陬链_测试用",
+        "name": "灵质链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -36977,7 +37966,7 @@
     },
     "48049": {
         "id": 48049,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -37052,7 +38041,7 @@
     },
     "48048": {
         "id": 48048,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -37127,7 +38116,7 @@
     },
     "48047": {
         "id": 48047,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -37202,7 +38191,7 @@
     },
     "48046": {
         "id": 48046,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -37277,7 +38266,7 @@
     },
     "48045": {
         "id": 48045,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -37352,7 +38341,7 @@
     },
     "48044": {
         "id": 48044,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -37427,7 +38416,7 @@
     },
     "48025": {
         "id": 48025,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -37502,7 +38491,7 @@
     },
     "48024": {
         "id": 48024,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -37577,7 +38566,7 @@
     },
     "48023": {
         "id": 48023,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -37652,7 +38641,7 @@
     },
     "48022": {
         "id": 48022,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -37727,7 +38716,7 @@
     },
     "48021": {
         "id": 48021,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -37802,7 +38791,7 @@
     },
     "48020": {
         "id": 48020,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -37877,7 +38866,7 @@
     },
     "47906": {
         "id": 47906,
-        "name": "深岩链_测试用",
+        "name": "玉蛇链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -37958,7 +38947,7 @@
     },
     "47905": {
         "id": 47905,
-        "name": "延曼链_测试用",
+        "name": "猩袍链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -38021,7 +39010,7 @@
     },
     "47904": {
         "id": 47904,
-        "name": "临坻链_测试用",
+        "name": "虎帐链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -38096,7 +39085,7 @@
     },
     "47903": {
         "id": 47903,
-        "name": "逾波链_测试用",
+        "name": "流尘链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -38171,7 +39160,7 @@
     },
     "47902": {
         "id": 47902,
-        "name": "灼玉链_测试用",
+        "name": "断弦链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -38246,7 +39235,7 @@
     },
     "47901": {
         "id": 47901,
-        "name": "噙香链_测试用",
+        "name": "鹊角链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -38321,7 +39310,7 @@
     },
     "47888": {
         "id": 47888,
-        "name": "穹石链_测试用",
+        "name": "固岚链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -38402,7 +39391,7 @@
     },
     "47887": {
         "id": 47887,
-        "name": "仁心链_测试用",
+        "name": "慈愈链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -38471,7 +39460,7 @@
     },
     "47886": {
         "id": 47886,
-        "name": "晚风链_测试用",
+        "name": "流漓链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -38546,7 +39535,7 @@
     },
     "47885": {
         "id": 47885,
-        "name": "震烁链_测试用",
+        "name": "劲威链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -38621,7 +39610,7 @@
     },
     "47884": {
         "id": 47884,
-        "name": "河汉链_测试用",
+        "name": "元灵链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -38696,7 +39685,7 @@
     },
     "47883": {
         "id": 47883,
-        "name": "椒丘链_测试用",
+        "name": "玄脉链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -38771,7 +39760,7 @@
     },
     "47870": {
         "id": 47870,
-        "name": "洪涌链_测试用",
+        "name": "不摧链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -38852,7 +39841,7 @@
     },
     "47869": {
         "id": 47869,
-        "name": "拂煦链_测试用",
+        "name": "回霖链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -38921,7 +39910,7 @@
     },
     "47868": {
         "id": 47868,
-        "name": "天风链_测试用",
+        "name": "尘隐链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -38996,7 +39985,7 @@
     },
     "47867": {
         "id": 47867,
-        "name": "断霄链_测试用",
+        "name": "虎祭链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -39071,7 +40060,7 @@
     },
     "47866": {
         "id": 47866,
-        "name": "骀荡链_测试用",
+        "name": "朝元链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -39146,7 +40135,7 @@
     },
     "47865": {
         "id": 47865,
-        "name": "香丹链_测试用",
+        "name": "神藏链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -39221,7 +40210,7 @@
     },
     "47983": {
         "id": 47983,
-        "name": "雉楼链_测试用",
+        "name": "镇甲链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -39302,7 +40291,7 @@
     },
     "47982": {
         "id": 47982,
-        "name": "纯茂链_测试用",
+        "name": "养息链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -39365,7 +40354,7 @@
     },
     "47981": {
         "id": 47981,
-        "name": "斜月链_测试用",
+        "name": "腾掠链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -39440,7 +40429,7 @@
     },
     "47980": {
         "id": 47980,
-        "name": "乱峰链_测试用",
+        "name": "罡威链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -39515,7 +40504,7 @@
     },
     "47979": {
         "id": 47979,
-        "name": "销沉链_测试用",
+        "name": "元炁链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -39590,7 +40579,7 @@
     },
     "47978": {
         "id": 47978,
-        "name": "孟陬链_测试用",
+        "name": "灵质链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -39665,7 +40654,7 @@
     },
     "48037": {
         "id": 48037,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -39746,7 +40735,7 @@
     },
     "48036": {
         "id": 48036,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -39815,7 +40804,7 @@
     },
     "48035": {
         "id": 48035,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -39902,7 +40891,7 @@
     },
     "48034": {
         "id": 48034,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -39983,7 +40972,7 @@
     },
     "48033": {
         "id": 48033,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -40052,7 +41041,7 @@
     },
     "48032": {
         "id": 48032,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -40139,7 +41128,7 @@
     },
     "48013": {
         "id": 48013,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -40220,7 +41209,7 @@
     },
     "48012": {
         "id": 48012,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -40289,7 +41278,7 @@
     },
     "48011": {
         "id": 48011,
-        "name": "无修链·外·天_测试用",
+        "name": "无修链·外·天",
         "school": "精简",
         "kind": "外功",
         "position": "necklace",
@@ -40376,7 +41365,7 @@
     },
     "48010": {
         "id": 48010,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -40457,7 +41446,7 @@
     },
     "48009": {
         "id": 48009,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -40526,7 +41515,7 @@
     },
     "48008": {
         "id": 48008,
-        "name": "无修链·内·天_测试用",
+        "name": "无修链·内·天",
         "school": "精简",
         "kind": "内功",
         "position": "necklace",
@@ -41057,7 +42046,7 @@
     },
     "47971": {
         "id": 47971,
-        "name": "雉楼链_测试用",
+        "name": "镇甲链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -41138,7 +42127,7 @@
     },
     "47970": {
         "id": 47970,
-        "name": "纯茂链_测试用",
+        "name": "养息链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -41201,7 +42190,7 @@
     },
     "47969": {
         "id": 47969,
-        "name": "斜月链_测试用",
+        "name": "腾掠链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -41276,7 +42265,7 @@
     },
     "47968": {
         "id": 47968,
-        "name": "乱峰链_测试用",
+        "name": "罡威链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -41351,7 +42340,7 @@
     },
     "47967": {
         "id": 47967,
-        "name": "销沉链_测试用",
+        "name": "元炁链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -41426,7 +42415,7 @@
     },
     "47966": {
         "id": 47966,
-        "name": "孟陬链_测试用",
+        "name": "灵质链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -45137,7 +46126,7 @@
     },
     "47959": {
         "id": 47959,
-        "name": "雉楼链_测试用",
+        "name": "镇甲链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",
@@ -45218,7 +46207,7 @@
     },
     "47958": {
         "id": 47958,
-        "name": "纯茂链_测试用",
+        "name": "养息链",
         "school": "通用",
         "kind": "治疗",
         "position": "necklace",
@@ -45281,7 +46270,7 @@
     },
     "47957": {
         "id": 47957,
-        "name": "斜月链_测试用",
+        "name": "腾掠链",
         "school": "通用",
         "kind": "身法",
         "position": "necklace",
@@ -45356,7 +46345,7 @@
     },
     "47956": {
         "id": 47956,
-        "name": "乱峰链_测试用",
+        "name": "罡威链",
         "school": "通用",
         "kind": "力道",
         "position": "necklace",
@@ -45431,7 +46420,7 @@
     },
     "47955": {
         "id": 47955,
-        "name": "销沉链_测试用",
+        "name": "元炁链",
         "school": "通用",
         "kind": "元气",
         "position": "necklace",
@@ -45506,7 +46495,7 @@
     },
     "47954": {
         "id": 47954,
-        "name": "孟陬链_测试用",
+        "name": "灵质链",
         "school": "通用",
         "kind": "根骨",
         "position": "necklace",
@@ -46462,6 +47451,87 @@
                 "attr_type": "magical_attack_power_base",
                 "value": 97,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "49345": {
+        "id": 49345,
+        "name": "辰沙链_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 4248,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 12246,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 7536,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 1507,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSurplusValueBase",
+                "attr_type": "surplus_base",
+                "value": 1507,
+                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1130,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 161,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
             }
         ],
         "set_id": 0,
@@ -49742,6 +50812,444 @@
                 "attr_type": "haste_base",
                 "value": 5652,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42738": {
+        "id": 42738,
+        "name": "灵空·磐石链",
+        "school": "通用",
+        "kind": "防御",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2833,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 12246,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 7536,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 1130,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 161,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42737": {
+        "id": 42737,
+        "name": "灵空·长青链",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2833,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 749,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 4651,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 5652,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 321,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42736": {
+        "id": 42736,
+        "name": "灵空·风行链",
+        "school": "通用",
+        "kind": "身法",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2833,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 676,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1536,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 5652,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42735": {
+        "id": 42735,
+        "name": "灵空·撼地链",
+        "school": "通用",
+        "kind": "力道",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2833,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 676,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 1536,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 5652,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42734": {
+        "id": 42734,
+        "name": "灵空·未判链",
+        "school": "通用",
+        "kind": "元气",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2833,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 676,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 1708,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 5652,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 4522,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "42733": {
+        "id": 42733,
+        "name": "灵空·心斋链",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 30200,
+        "score": 42921,
+        "max_strength": 6,
+        "icon_id": 2833,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 8290,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 676,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 1708,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 5652,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",

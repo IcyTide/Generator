@@ -2549,6 +2549,17 @@
                 ]
             }
         },
+        "33108": {
+            "1": {
+                "name": "五明乐见",
+                "interval": 80,
+                "max_stack": 1,
+                "max_tick": 1,
+                "attributes": {
+                    "all_damage_gain": 102
+                }
+            }
+        },
         "1": {
             "1": {
                 "name": "斩杀",
@@ -2560,23 +2571,6 @@
                     44463
                 ],
                 "buff_key": "buff_1_1"
-            }
-        },
-        "33107": {
-            "1": {
-                "name": "日月连璧",
-                "interval": 4,
-                "max_stack": 1,
-                "max_tick": 1,
-                "skills": [
-                    4028,
-                    4029,
-                    4030,
-                    4024,
-                    4025,
-                    4026
-                ],
-                "buff_key": "buff_33107_1"
             }
         },
         "33518": {
@@ -2617,17 +2611,6 @@
                 "buff_key": "buff_2_1"
             }
         },
-        "33108": {
-            "1": {
-                "name": "五明乐见",
-                "interval": 80,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "all_damage_gain": 102
-                }
-            }
-        },
         "25716": {
             "1": {
                 "name": "影子层数",
@@ -2640,6 +2623,23 @@
                     34985
                 ],
                 "buff_key": "buff_25716_1"
+            }
+        },
+        "33107": {
+            "1": {
+                "name": "日月连璧",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 1,
+                "skills": [
+                    4028,
+                    4029,
+                    4030,
+                    4024,
+                    4025,
+                    4026
+                ],
+                "buff_key": "buff_33107_1"
             }
         },
         "25758": {
@@ -4163,9 +4163,9 @@
                 "interval": 4,
                 "max_stack": 1,
                 "max_tick": 192,
-                "attributes": {
-                    "all_damage_gain": 102
-                }
+                "recipes": [
+                    "recipe_6399_1"
+                ]
             }
         },
         "31907": {
@@ -6269,7 +6269,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "surplus_base": 3409
+                    "surplus_base": 3991
                 }
             }
         },
@@ -6280,7 +6280,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "strain_base": 3409
+                    "strain_base": 3991
                 }
             }
         },
@@ -6291,7 +6291,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_base": 1029
+                    "magical_attack_power_base": 1206
                 }
             }
         },
@@ -6302,7 +6302,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_overcome_base": 3409
+                    "all_overcome_base": 3991
                 }
             }
         },
@@ -6313,7 +6313,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_critical_strike_base": 3409
+                    "all_critical_strike_base": 3991
                 }
             }
         },
@@ -6324,7 +6324,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_attack_power_base": 925
+                    "physical_attack_power_base": 1084
                 }
             }
         },
@@ -6335,7 +6335,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "strength_base": 464
+                    "strength_base": 544
                 }
             }
         },
@@ -6346,7 +6346,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "agility_base": 464
+                    "agility_base": 544
                 }
             }
         },
@@ -6357,7 +6357,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "spirit_base": 464
+                    "spirit_base": 544
                 }
             }
         },
@@ -6368,7 +6368,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "spunk_base": 464
+                    "spunk_base": 544
                 }
             }
         },
@@ -6379,7 +6379,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "haste_base": 3636
+                    "haste_base": 4256
                 }
             }
         },
@@ -6390,8 +6390,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "max_life_add": -40914,
-                    "all_critical_strike_base": 6136
+                    "max_life_add": -47900,
+                    "all_critical_strike_base": 7184
                 }
             },
             "59": {
@@ -6400,8 +6400,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "max_life_add": -40914,
-                    "all_overcome_base": 6136
+                    "max_life_add": -47900,
+                    "all_overcome_base": 7184
                 }
             },
             "58": {
@@ -6410,8 +6410,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "max_life_add": -40914,
-                    "physical_attack_power_base": 1666
+                    "max_life_add": -47900,
+                    "physical_attack_power_base": 1952
                 }
             },
             "57": {
@@ -6420,8 +6420,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "max_life_add": -40914,
-                    "magical_attack_power_base": 1854
+                    "max_life_add": -47900,
+                    "magical_attack_power_base": 2170
                 }
             },
             "56": {
@@ -6430,8 +6430,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "max_life_add": -40914,
-                    "strain_base": 6136
+                    "max_life_add": -47900,
+                    "strain_base": 7184
                 }
             }
         },
