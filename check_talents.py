@@ -17,8 +17,6 @@ def main():
                 if not skill_id:
                     break
                 talents.append(skill_id)
-        if len(all_talents) > 4:
-            all_talents.pop(-4)
         # for talent in all_talents:
         #     print(talent)
         for i in range(len(kungfu.talents)):
