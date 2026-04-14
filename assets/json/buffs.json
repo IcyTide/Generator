@@ -206,9 +206,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "recipes": [
-                    "recipe_6392_1",
-                    "recipe_6393_1",
-                    "recipe_6394_1"
+                    "recipe_6394_1",
+                    "recipe_6393_1"
                 ]
             }
         },
@@ -266,28 +265,10 @@
                 }
             }
         },
-        "12590": {
+        "33672": {
             "1": {
                 "name": "三生",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_gain": 102
-                }
-            },
-            "2": {
-                "name": "三生",
-                "interval": 16,
-                "max_stack": 1,
-                "max_tick": 1,
-                "attributes": {
-                    "strain_gain": 205
-                }
-            },
-            "3": {
-                "name": "三生",
-                "interval": 16,
+                "interval": 480,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
@@ -494,7 +475,7 @@
                 "max_tick": 1,
                 "attributes": {
                     "neutral_critical_strike_rate": 2500,
-                    "strain_gain": 154,
+                    "strain_gain": 307,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
                     "unlimit_critical_power_rate": 256,
@@ -525,7 +506,7 @@
                     "unlimit_critical_power_rate": 563,
                     "neutral_attack_power_gain": 256,
                     "physical_attack_power_gain": 256,
-                    "strain_gain": 154,
+                    "strain_gain": 307,
                     "neutral_critical_strike_rate": 1000,
                     "physical_critical_strike_rate": 1000
                 }
@@ -1126,7 +1107,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "magical_attack_power_gain": 205
+                    "magical_attack_power_gain": 154
                 }
             }
         },
@@ -2304,13 +2285,13 @@
             "1": {
                 "name": "心无旁骛",
                 "comment": "聚精凝神",
-                "interval": 240,
+                "interval": 208,
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
                     "physical_critical_strike_rate": 1500,
                     "physical_critical_power_rate": 300,
-                    "unlimit_haste_rate": 204
+                    "unlimit_haste_rate": 123
                 }
             }
         },
@@ -2350,8 +2331,8 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "physical_critical_power_rate": 70,
-                    "physical_critical_strike_rate": 700
+                    "physical_critical_power_rate": 80,
+                    "physical_critical_strike_rate": 800
                 }
             }
         }
@@ -2611,20 +2592,6 @@
                 "buff_key": "buff_2_1"
             }
         },
-        "25716": {
-            "1": {
-                "name": "影子层数",
-                "interval": 160,
-                "max_stack": 6,
-                "max_tick": 1,
-                "skills": [
-                    19055,
-                    35065,
-                    34985
-                ],
-                "buff_key": "buff_25716_1"
-            }
-        },
         "33107": {
             "1": {
                 "name": "日月连璧",
@@ -2848,7 +2815,7 @@
                 "max_tick": 1,
                 "attributes": {
                     "all_shield_ignore": 512,
-                    "pve_damage_cof": 164
+                    "pve_damage_cof": 133
                 }
             }
         }
@@ -4160,11 +4127,32 @@
         "30430": {
             "1": {
                 "name": "镇星",
+                "comment": "兵主逆",
                 "interval": 4,
                 "max_stack": 1,
                 "max_tick": 192,
                 "recipes": [
                     "recipe_6399_1"
+                ]
+            },
+            "2": {
+                "name": "镇星",
+                "comment": "天斗旋",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 192,
+                "recipes": [
+                    "recipe_6400_1"
+                ]
+            },
+            "3": {
+                "name": "镇星",
+                "comment": "三星临",
+                "interval": 4,
+                "max_stack": 1,
+                "max_tick": 1,
+                "recipes": [
+                    "recipe_6398_1"
                 ]
             }
         },
@@ -4470,7 +4458,7 @@
                 "max_stack": 1,
                 "max_tick": 1,
                 "attributes": {
-                    "all_shield_ignore": 666
+                    "all_shield_ignore": 614
                 }
             }
         }
@@ -4509,6 +4497,17 @@
                 }
             }
         },
+        "33689": {
+            "1": {
+                "name": "连珠",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 18,
+                "attributes": {
+                    "physical_attack_power_gain": 154
+                }
+            }
+        },
         "31940": {
             "1": {
                 "name": "连珠",
@@ -4533,6 +4532,17 @@
                 ]
             }
         },
+        "33688": {
+            "1": {
+                "name": "领胡",
+                "interval": 16,
+                "max_stack": 1,
+                "max_tick": 10,
+                "attributes": {
+                    "all_damage_gain": 205
+                }
+            }
+        },
         "27099": {
             "1": {
                 "name": "卢令",
@@ -4540,9 +4550,8 @@
                 "max_stack": 1,
                 "max_tick": 999,
                 "attributes": {
-                    "physical_attack_power_gain": 154,
-                    "all_shield_ignore": 205,
-                    "strain_gain": 102
+                    "strain_gain": 102,
+                    "all_shield_ignore": 205
                 }
             }
         },
@@ -4563,7 +4572,7 @@
             "1": {
                 "name": "督脉能量增伤",
                 "interval": 1,
-                "max_stack": 100,
+                "max_stack": 255,
                 "max_tick": 1,
                 "attributes": {
                     "skill_damage_final_cof": 41
@@ -5170,9 +5179,9 @@
         "71516": {
             "1": {
                 "name": "钩吻断肠",
-                "interval": 160,
+                "interval": 16,
                 "max_stack": 1,
-                "max_tick": 1,
+                "max_tick": 10,
                 "attributes": {
                     "magical_attack_power_gain": 154
                 }

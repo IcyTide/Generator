@@ -72,7 +72,7 @@ SKILLS = {
     6824: dict(dest_rollback_attributes=[("coming_damage_cof", 819.2)], dest_rollback_skills=[19435, 8491]),
     19435: dict(comment="1-2段"), 8491: dict(comment="3段"),
     14633: dict(comment="{}0%内力"),
-    37397: {1: {}},
+    37397: {},
     41057: {
         i + 1: dict(comment=f"{i + 1}段({delay}帧)") for i, delay in enumerate([0, 9, 12, 23])
     },

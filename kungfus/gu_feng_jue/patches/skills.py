@@ -19,6 +19,5 @@ SKILLS = {
         2: dict(comment="引爆")
     },
     32616: dict(comment="单持"), 33163: dict(comment="双持"),
-    44538: dict(comment="{}层破绽"),
     32510: dict(comment="{level+2}层破绽")
 }
