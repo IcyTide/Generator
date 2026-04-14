@@ -1275,7 +1275,7 @@ ENCHANTS = {
             "name": "风语·衣·染（气血）",
             "score": 1436,
             "attributes": {
-                "max_life_base": 8198
+                "max_life_base": 8199
             }
         },
         "风语·衣·染（体质） 体质提升608点": {
@@ -1464,9 +1464,9 @@ ENCHANTS = {
                 "therapy_power_base": 1592
             }
         },
-        "风语·鞋·绣（内功） 内功攻击提升994点": {
+        "风语·鞋·绣（内攻） 内功攻击提升994点": {
             "id": 16304,
-            "name": "风语·鞋·绣（内功）",
+            "name": "风语·鞋·绣（内攻）",
             "score": 2877,
             "attributes": {
                 "magical_attack_power_base": 994
@@ -1504,9 +1504,9 @@ ENCHANTS = {
                 "therapy_power_base": 1360
             }
         },
-        "风语·鞋·绣（内功） 内功攻击提升849点": {
+        "风语·鞋·绣（内攻） 内功攻击提升849点": {
             "id": 16078,
-            "name": "风语·鞋·绣（内功）",
+            "name": "风语·鞋·绣（内攻）",
             "score": 2877,
             "attributes": {
                 "magical_attack_power_base": 849
@@ -1544,9 +1544,9 @@ ENCHANTS = {
                 "therapy_power_base": 796
             }
         },
-        "风语·鞋·染（内功） 内功攻击提升497点": {
+        "风语·鞋·染（内攻） 内功攻击提升497点": {
             "id": 16327,
-            "name": "风语·鞋·染（内功）",
+            "name": "风语·鞋·染（内攻）",
             "score": 1436,
             "attributes": {
                 "magical_attack_power_base": 497
@@ -1584,9 +1584,9 @@ ENCHANTS = {
                 "therapy_power_base": 680
             }
         },
-        "风语·鞋·染（内功） 内功攻击提升424点": {
+        "风语·鞋·染（内攻） 内功攻击提升424点": {
             "id": 16101,
-            "name": "风语·鞋·染（内功）",
+            "name": "风语·鞋·染（内攻）",
             "score": 1436,
             "attributes": {
                 "magical_attack_power_base": 424
@@ -1600,17 +1600,17 @@ ENCHANTS = {
                 "physical_attack_power_base": 381
             }
         },
-        "远风·鞋·内功 鞋子内功攻击提高397": {
+        "远风·鞋·内攻 鞋子内功攻击提高397": {
             "id": 16363,
-            "name": "远风·鞋·内功",
+            "name": "远风·鞋·内攻",
             "score": 1146,
             "attributes": {
                 "magical_attack_power_base": 397
             }
         },
-        "远风·鞋·外功 鞋子外功攻击提高356": {
+        "远风·鞋·外攻 鞋子外功攻击提高356": {
             "id": 16362,
-            "name": "远风·鞋·外功",
+            "name": "远风·鞋·外攻",
             "score": 1146,
             "attributes": {
                 "physical_attack_power_base": 356
@@ -1632,17 +1632,17 @@ ENCHANTS = {
                 "haste_base": 1312
             }
         },
-        "远风·鞋·内功 鞋子内功攻击提高340": {
+        "远风·鞋·内攻 鞋子内功攻击提高340": {
             "id": 16137,
-            "name": "远风·鞋·内功",
+            "name": "远风·鞋·内攻",
             "score": 1146,
             "attributes": {
                 "magical_attack_power_base": 340
             }
         },
-        "远风·鞋·外功 鞋子外功攻击提高304": {
+        "远风·鞋·外攻 鞋子外功攻击提高304": {
             "id": 16136,
-            "name": "远风·鞋·外功",
+            "name": "远风·鞋·外攻",
             "score": 1146,
             "attributes": {
                 "physical_attack_power_base": 304

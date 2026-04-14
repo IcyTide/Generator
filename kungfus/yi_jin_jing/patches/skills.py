@@ -32,5 +32,5 @@ SKILLS = {
         1: dict(comment="韦陀献杵"),
         5: dict(comment="拿云式"),
     },
-    38615: dict(comment="{}层贪破")
+    38615: dict(max_level=6, comment="{}层贪破")
 }

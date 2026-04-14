@@ -24,5 +24,5 @@ SKILLS = {
     41737: dict(comment="崩血+登锋"),
     **{skill_id: {1: dict(comment=f"{i + 1}段")} for i, skill_id in enumerate([30925, 30926, 30857])},
     25215: {i + 1: dict(comment=f"{i * 50}点额外怒气") for i in range(3)},
-    33097: dict(comment="{}层流血")
+    33097: {**{i + 1: dict(comment=f"{i + 1}层流血") for i in range(3)}, 4: {}}
 }

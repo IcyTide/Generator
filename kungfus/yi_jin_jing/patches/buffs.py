@@ -9,7 +9,6 @@ BUFFS: dict[int, dict] = {
         59: dict(comment="原始"),
         60: dict(comment="我闻")
     },
-    12590: dict(name="三生", comment="{}"),
     11979: dict(comment="金刚怒目"),
     33522: dict(name="众嗔"),
     14916: {1: dict(name="缘觉")},

@@ -21,7 +21,7 @@ SKILLS = {
         3: dict(comment="明赦尊谕/生死劫日+净世破魔击月"),
         4: dict(comment="明赦尊谕/生死劫日+明赦尊谕/生死劫月")
     },
-    34985: dict(comment="{level*20}点能量"),
+    34985: {},
     40209: {
         **{i + 1: dict(comment=f"{15 * i}最大气血") for i in range(10)},
         **{i + 11: dict(comment=f"{15 * i}最大气血(范围外)") for i in range(10)},
@@ -31,9 +31,5 @@ SKILLS = {
         **{i + 4: dict(comment=f"{i + 1}段高血量") for i in range(3)}
     },
     41765: dict(comment="{}秒"),
-    34510: dict(comment="命中{level-1}次"),
-    **{
-        skill_id: {i + 1: dict(comment=f"{i + 1}层影子") for i in range(4)}
-        for skill_id in [34353, 34354, 34355, 34356, 34359, 34361, 34362, 34363]
-    }
+    34510: dict(comment="命中{level-1}次")
 }

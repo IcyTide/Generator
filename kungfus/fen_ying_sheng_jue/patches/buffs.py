@@ -7,16 +7,6 @@ BUFFS: dict[int, dict] = {
     31456: dict(comment="常驻"), 6277: dict(comment="背后"),
     1: dict(name="斩杀", comment="<30%血量", attributes=[("coming_damage_cof", 512)], skills=[44463]),
     2: dict(name="净体不畏", attributes=[("coming_damage_cof", 512)], skills=[40088, 40089]),
-    25716: {
-        1: dict(
-            name="影子层数",
-            attributes=[(
-                "global_damage_factor",
-                (-1 << 20) * (1 - 0.84 * Variable("buff_key") * 0.6)
-            )],
-            skills=[19055, 35065, 34985]
-        )
-    },
     12575: {
         "name": "用晦而明",
         1: dict(comment="原始"),

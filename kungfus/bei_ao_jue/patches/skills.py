@@ -19,7 +19,7 @@ SKILLS = {
     16758: dict(comment="1段"), 16759: dict(comment="2段"), 16760: dict(comment="3段"), 16382: dict(comment="风车"),
     **{
         skill_id: dict(comment=f"连续命中{i}次") for i, skill_id in
-        enumerate([16803, 16802, 16801, 16800, 17043])
+        enumerate([16803, 16802, 16801, 16800, 17043, 19423, 19424])
     },
     16992: dict(comment="1段"), 16994: dict(comment="2段"), 16996: dict(comment="3段"),
     **{
