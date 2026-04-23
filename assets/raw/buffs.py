@@ -960,7 +960,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "pve_damage_cof": 410
+                        "pve_damage_cof": 614
                     }
                 }
             }
@@ -2642,6 +2642,19 @@ BUFFS = {
                     }
                 }
             }
+        },
+        14698: {
+            19514: {
+                1: {
+                    "name": "驱夷逐法",
+                    "interval": 14,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2517_1"
+                    ]
+                }
+            }
         }
     },
     10268: {
@@ -2814,8 +2827,8 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 30,
                     "attributes": {
-                        "physical_critical_strike_rate": 1100,
-                        "physical_critical_power_rate": 112
+                        "physical_critical_strike_rate": 700,
+                        "physical_critical_power_rate": 72
                     }
                 }
             }
@@ -3865,7 +3878,7 @@ BUFFS = {
                     "max_tick": 1,
                     "attributes": {
                         "physical_attack_power_gain": 154,
-                        "strain_gain": 102
+                        "strain_gain": 154
                     }
                 }
             }
@@ -4453,6 +4466,10 @@ BUFFS = {
                     "interval": 16,
                     "max_stack": 2,
                     "max_tick": 18,
+                    "recipes": [
+                        "recipe_6414_1",
+                        "recipe_6415_1"
+                    ],
                     "skills": [
                         36157
                     ],
@@ -4481,7 +4498,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 10,
                     "attributes": {
-                        "all_damage_gain": 205
+                        "all_damage_gain": 307
                     }
                 }
             }
@@ -4517,25 +4534,25 @@ BUFFS = {
     10786: {
         38009: {
             33154: {
-                2: {
+                1: {
                     "name": "督脉增伤",
                     "interval": 1,
-                    "max_stack": 3,
+                    "max_stack": 255,
                     "max_tick": 1,
                     "attributes": {
-                        "all_damage_gain": 307
+                        "skill_damage_final_cof": 41
                     }
                 }
             }
         },
         38490: {
             33154: {
-                2: {
+                1: {
                     "interval": 1,
-                    "max_stack": 3,
+                    "max_stack": 255,
                     "max_tick": 1,
                     "attributes": {
-                        "all_damage_gain": 307
+                        "skill_damage_final_cof": 41
                     }
                 }
             }
@@ -4573,6 +4590,19 @@ BUFFS = {
                     "max_tick": 9999,
                     "attributes": {
                         "all_shield_ignore": 512
+                    }
+                }
+            }
+        },
+        44516: {
+            33774: {
+                1: {
+                    "name": "涣风",
+                    "interval": 1,
+                    "max_stack": 3,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 154
                     }
                 }
             }

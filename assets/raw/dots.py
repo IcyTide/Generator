@@ -994,7 +994,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(100 + physical_attack_power * int(550.6562231434689 * (1 + 0.10000000000000009 * recipe_6078_1) * (1 + 0.050000000000000044 * recipe_859_1) * (1 + 0.10000000000000009 * recipe_860_1) * (1 + 0.10000000000000009 * recipe_6387_1) * (1 + 0.5 * recipe_2864_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                    "(100 + physical_attack_power * int(642.432260334047 * (1 + 0.10000000000000009 * recipe_6078_1) * (1 + 0.050000000000000044 * recipe_859_1) * (1 + 0.10000000000000009 * recipe_860_1) * (1 + 0.10000000000000009 * recipe_6387_1) * (1 + 0.5 * recipe_2864_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                                 ],
                                 "critical_strike": "physical_critical_strike",
                                 "critical_power": "physical_critical_power"
@@ -1018,7 +1018,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(48 + physical_attack_power * int(550.6562231434689 * (1 + 0.10000000000000009 * recipe_6078_1) * (1 + 0.050000000000000044 * recipe_859_1) * (1 + 0.10000000000000009 * recipe_860_1) * (1 + 0.10000000000000009 * recipe_6387_1) * (1 + 0.5 * recipe_2864_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                    "(48 + physical_attack_power * int(642.432260334047 * (1 + 0.10000000000000009 * recipe_6078_1) * (1 + 0.050000000000000044 * recipe_859_1) * (1 + 0.10000000000000009 * recipe_860_1) * (1 + 0.10000000000000009 * recipe_6387_1) * (1 + 0.5 * recipe_2864_1)) * 0.0015625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                                 ],
                                 "critical_strike": "physical_critical_strike",
                                 "critical_power": "physical_critical_power"
@@ -1162,7 +1162,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(30 + (solar_attack_power + base_solar_attack_power * 184 * recipe_3222_1 / 1024) * 2.5263671875) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                                    "(30 + (solar_attack_power + base_solar_attack_power * 184 * recipe_3222_1 / 1024) * 2.246223958333333) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                                 ],
                                 "critical_strike": "solar_critical_strike + 10000 * recipe_4545_1 / 10000",
                                 "critical_power": "solar_critical_power"
@@ -1184,7 +1184,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(30 + (lunar_attack_power + base_lunar_attack_power * 184 * recipe_3225_1 / 1024) * 2.5263671875) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                    "(30 + (lunar_attack_power + base_lunar_attack_power * 184 * recipe_3225_1 / 1024) * 2.246223958333333) * (1 + magical_damage_addition + (31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 - 31 * recipe_1621_1 + 31 * recipe_1621_1 + 41 * recipe_1622_1 + 51 * recipe_1623_1 - 31 * recipe_1621_1 + 41 * recipe_1622_1) / 1024) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
                                 ],
                                 "critical_strike": "lunar_critical_strike + 10000 * recipe_4545_1 / 10000",
                                 "critical_power": "lunar_critical_power"
@@ -1898,7 +1898,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(10 + neutral_attack_power * 1.0614583333333334) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                                    "(10 + neutral_attack_power * 1.2520833333333332) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                                 ],
                                 "critical_strike": "neutral_critical_strike",
                                 "critical_power": "neutral_critical_power"

@@ -37,15 +37,15 @@ class Kungfu:
         self.belong2id = {v: k for k, v in self.id2belong.items()}
 
         self.kungfu_buffs = {
-            self.id2belong[belong_id]: {buff_id: BUFFS[self.kungfu_id][buff_id] for buff_id in buff_ids}
+            self.id2belong[belong_id]: {buff_id: BUFFS[self.kungfu_id][belong_id][buff_id] for buff_id in buff_ids}
             for belong_id, buff_ids in kungfu.buffs.items()
         }
         self.kungfu_skills = {
-            self.id2belong[belong_id]: {skill_id: SKILLS[self.kungfu_id][skill_id] for skill_id in skill_ids}
+            self.id2belong[belong_id]: {skill_id: SKILLS[self.kungfu_id][belong_id][skill_id] for skill_id in skill_ids}
             for belong_id, skill_ids in kungfu.skills.items()
         }
         self.kungfu_dots = {
-            self.id2belong[belong_id]: {dot_id: DOTS[self.kungfu_id][dot_id] for dot_id in dot_ids}
+            self.id2belong[belong_id]: {dot_id: DOTS[self.kungfu_id][belong_id][dot_id] for dot_id in dot_ids}
             for belong_id, dot_ids in kungfu.dots.items()
         }
 
@@ -57,11 +57,11 @@ class Kungfu:
                 self.talent_choices[-1][self.id2belong[talent_id]] = BELONGS[self.kungfu_id][talent_id]
                 belong = self.id2belong[talent_id]
                 if buffs := params.get("buffs"):
-                    self.talent_buffs[belong] = {buff_id: BUFFS[self.kungfu_id][buff_id] for buff_id in buffs}
+                    self.talent_buffs[belong] = {buff_id: BUFFS[self.kungfu_id][talent_id][buff_id] for buff_id in buffs}
                 if skills := params.get("skills"):
-                    self.talent_skills[belong] = {skill_id: SKILLS[self.kungfu_id][skill_id] for skill_id in skills}
+                    self.talent_skills[belong] = {skill_id: SKILLS[self.kungfu_id][talent_id][skill_id] for skill_id in skills}
                 if dots := params.get("dots"):
-                    self.talent_dots[belong] = {dot_id: DOTS[self.kungfu_id][dot_id] for dot_id in dots}
+                    self.talent_dots[belong] = {dot_id: DOTS[self.kungfu_id][talent_id][dot_id] for dot_id in dots}
 
         self.recipe_choices = {
             self.id2belong[belong_id]: recipes for belong_id, recipes in RECIPES[self.kungfu_id].items()

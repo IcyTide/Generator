@@ -2,6 +2,7 @@ from assets.raw.buffs import BUFFS
 from assets.raw.enchants import ENCHANTS
 from base.translate import get_translates
 
+BUFFS = {k: v for buffs in BUFFS[0].values() for k, v in buffs.items()}
 
 def parse_content(content: dict):
     if "attributes" not in content:
@@ -18,7 +19,7 @@ def create_consumable(buff_ids: int | list):
     if isinstance(buff_ids, int):
         buff_ids = [buff_ids]
     for buff_id in buff_ids:
-        for buff_level, content in BUFFS[0][buff_id].items():
+        for buff_level, content in BUFFS[buff_id].items():
             name, attributes = parse_content(content)
             if not name:
                 continue

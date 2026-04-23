@@ -22,7 +22,7 @@ TALENTS: list[dict[int, dict]] = [
         ),
         18625: dict(buffs={11222: dict(name="沧雪", comment="递增{}次")}),
         42410: dict(buffs={31782: dict(
-            levels=[2], attributes=[("coming_damage_cof", 153.6)],
+            levels=[2], attributes=[("coming_damage_cof", 204.8)],
             skills=[16933, 16934, 16935, 16936, 16937, 16938, 16939, 16940, 16941, 16942, 16943, 16944]
         )})
     },
