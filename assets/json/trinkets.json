@@ -9,7 +9,7 @@
         "level": 38500,
         "score": 75996,
         "max_strength": 8,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -90,7 +90,7 @@
         "level": 38500,
         "score": 75996,
         "max_strength": 8,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -159,7 +159,7 @@
         "level": 38500,
         "score": 75996,
         "max_strength": 8,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -234,7 +234,7 @@
         "level": 38500,
         "score": 75996,
         "max_strength": 8,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -309,7 +309,7 @@
         "level": 38500,
         "score": 75996,
         "max_strength": 8,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -384,7 +384,7 @@
         "level": 38500,
         "score": 75996,
         "max_strength": 8,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -1359,8 +1359,8 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 22905,
-        "desc": "<Text>text=\"剑啸霜天惊晓月，风穿枯木作刀鸣。\" font=100 </text>",
+        "icon_id": 27026,
+        "desc": "<Text>text=\"使用：获得持续5秒的护盾，护盾破碎或时间结束后对自身8尺范围内最多5个敌对目标造成一段伤害，若主动开启1秒内受到伤害则该次护盾伤害提高100%。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"剑啸霜天惊晓月，风穿枯木作刀鸣。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1428,7 +1428,11 @@
             }
         ],
         "set_id": 0,
-        "sets": {}
+        "sets": {},
+        "skill": [
+            38786,
+            4
+        ]
     },
     "49072": {
         "id": 49072,
@@ -1440,8 +1444,8 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 22904,
-        "desc": "<Text>text=\"清风入怀解尘烦，淡云轻绕意自宽。\" font=100 </text>",
+        "icon_id": 27025,
+        "desc": "<Text>text=\"使用：每2秒对自身20尺内最多25个团队成员造成一次治疗效果，若周围20尺内友方目标不超过10人则该次治疗效果提升100%，持续10秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"清风入怀解尘烦，淡云轻绕意自宽。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1497,7 +1501,11 @@
             }
         ],
         "set_id": 0,
-        "sets": {}
+        "sets": {},
+        "skill": [
+            38784,
+            4
+        ]
     },
     "49071": {
         "id": 49071,
@@ -1509,8 +1517,8 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 22903,
-        "desc": "<Text>text=\"丹羽凌霄耀九天，清音一唳破云烟。\" font=100 </text>",
+        "icon_id": 27024,
+        "desc": "<Text>text=\"使用：大幅度提升自身外功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"丹羽凌霄耀九天，清音一唳破云烟。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1572,7 +1580,11 @@
             }
         ],
         "set_id": 0,
-        "sets": {}
+        "sets": {},
+        "skill": [
+            38578,
+            29
+        ]
     },
     "49070": {
         "id": 49070,
@@ -1584,8 +1596,8 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 22902,
-        "desc": "<Text>text=\"踏破崎岖路万重，一身浩气破长虹。\" font=100 </text>",
+        "icon_id": 27023,
+        "desc": "<Text>text=\"使用：大幅度提升自身外功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"踏破崎岖路万重，一身浩气破长虹。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1647,7 +1659,11 @@
             }
         ],
         "set_id": 0,
-        "sets": {}
+        "sets": {},
+        "skill": [
+            38578,
+            29
+        ]
     },
     "49069": {
         "id": 49069,
@@ -1659,8 +1675,8 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 22901,
-        "desc": "<Text>text=\"寒星凝夜色，孤灯照客程。\" font=100 </text>",
+        "icon_id": 27022,
+        "desc": "<Text>text=\"使用：大幅度提升自身内功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"寒星凝夜色，孤灯照客程。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1722,7 +1738,11 @@
             }
         ],
         "set_id": 0,
-        "sets": {}
+        "sets": {},
+        "skill": [
+            38578,
+            28
+        ]
     },
     "49068": {
         "id": 49068,
@@ -1734,8 +1754,8 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 22900,
-        "desc": "<Text>text=\"夜雨听根醒，新芽破暗生。\" font=100 </text>",
+        "icon_id": 27021,
+        "desc": "<Text>text=\"使用：大幅度提升自身内功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"夜雨听根醒，新芽破暗生。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -1797,7 +1817,11 @@
             }
         ],
         "set_id": 0,
-        "sets": {}
+        "sets": {},
+        "skill": [
+            38578,
+            28
+        ]
     },
     "49067": {
         "id": 49067,
@@ -1809,7 +1833,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -1890,7 +1914,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -1959,7 +1983,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -2034,7 +2058,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -2109,7 +2133,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -2184,7 +2208,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -2259,7 +2283,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -2340,7 +2364,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -2403,7 +2427,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -2478,7 +2502,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -2553,7 +2577,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -2628,7 +2652,7 @@
         "level": 37900,
         "score": 74812,
         "max_strength": 8,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -5469,7 +5493,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -5550,7 +5574,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -5619,7 +5643,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -5694,7 +5718,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -5769,7 +5793,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -5844,7 +5868,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -6819,8 +6843,8 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22905,
-        "desc": "<Text>text=\"剑啸霜天惊晓月，风穿枯木作刀鸣。\" font=100 </text>",
+        "icon_id": 27026,
+        "desc": "<Text>text=\"使用：获得持续5秒的护盾，护盾破碎或时间结束后对自身8尺范围内最多5个敌对目标造成一段伤害，若主动开启1秒内受到伤害则该次护盾伤害提高100%。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"剑啸霜天惊晓月，风穿枯木作刀鸣。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -6904,8 +6928,8 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22904,
-        "desc": "<Text>text=\"清风入怀解尘烦，淡云轻绕意自宽。\" font=100 </text>",
+        "icon_id": 27025,
+        "desc": "<Text>text=\"使用：每2秒对自身20尺内最多25个团队成员造成一次治疗效果，若周围20尺内友方目标不超过10人则该次治疗效果提升100%，持续10秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"清风入怀解尘烦，淡云轻绕意自宽。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -6977,8 +7001,8 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22903,
-        "desc": "<Text>text=\"丹羽凌霄耀九天，清音一唳破云烟。\" font=100 </text>",
+        "icon_id": 27024,
+        "desc": "<Text>text=\"使用：大幅度提升自身外功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"丹羽凌霄耀九天，清音一唳破云烟。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7056,8 +7080,8 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22902,
-        "desc": "<Text>text=\"踏破崎岖路万重，一身浩气破长虹。\" font=100 </text>",
+        "icon_id": 27023,
+        "desc": "<Text>text=\"使用：大幅度提升自身外功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"踏破崎岖路万重，一身浩气破长虹。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7135,8 +7159,8 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22901,
-        "desc": "<Text>text=\"寒星凝夜色，孤灯照客程。\" font=100 </text>",
+        "icon_id": 27022,
+        "desc": "<Text>text=\"使用：大幅度提升自身内功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"寒星凝夜色，孤灯照客程。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7214,8 +7238,8 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22900,
-        "desc": "<Text>text=\"夜雨听根醒，新芽破暗生。\" font=100 </text>",
+        "icon_id": 27021,
+        "desc": "<Text>text=\"使用：大幅度提升自身内功破防等级，持续15秒。名剑大会中无法生效。\\n\" font=105 </text><Text>text=\"夜雨听根醒，新芽破暗生。\" font=100 </text>",
         "base": [
             {
                 "attr": "atInvalid",
@@ -7293,7 +7317,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -7374,7 +7398,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -7443,7 +7467,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -7518,7 +7542,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -7593,7 +7617,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -7668,7 +7692,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1216,
+        "icon_id": 1219,
         "desc": "",
         "base": [
             {
@@ -7743,7 +7767,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -7824,7 +7848,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -7887,7 +7911,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -7962,7 +7986,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -8037,7 +8061,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -8112,7 +8136,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1214,
+        "icon_id": 1218,
         "desc": "",
         "base": [
             {
@@ -8187,7 +8211,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -8268,7 +8292,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -8337,7 +8361,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -8412,7 +8436,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -8487,7 +8511,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -8562,7 +8586,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -10083,7 +10107,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -10164,7 +10188,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -10233,7 +10257,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -10308,7 +10332,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -10383,7 +10407,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -10458,7 +10482,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -14223,7 +14247,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -14304,7 +14328,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -14373,7 +14397,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -14448,7 +14472,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -14523,7 +14547,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -14598,7 +14622,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4254,
+        "icon_id": 1221,
         "desc": "",
         "base": [
             {
@@ -15565,7 +15589,7 @@
     },
     "49351": {
         "id": 49351,
-        "name": "辰沙佩_测试用",
+        "name": "罔尘佩",
         "school": "通用",
         "kind": "防御",
         "position": "pendant",
@@ -21324,7 +21348,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 4258,
+        "icon_id": 2845,
         "desc": "<Text>text=\"龙影起时惊四野，凤声来处动群山。\" font=100 </text>",
         "base": [
             {
@@ -21386,7 +21410,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1234,
+        "icon_id": 1236,
         "desc": "<Text>text=\"龙影起时惊四野，凤声来处动群山。\" font=100 </text>",
         "base": [
             {
@@ -21448,7 +21472,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1237,
+        "icon_id": 1227,
         "desc": "",
         "base": [
             {
@@ -21522,7 +21546,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1237,
+        "icon_id": 1227,
         "desc": "",
         "base": [
             {
@@ -21584,7 +21608,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1237,
+        "icon_id": 1227,
         "desc": "",
         "base": [
             {
@@ -21652,7 +21676,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1237,
+        "icon_id": 1227,
         "desc": "",
         "base": [
             {
@@ -21720,7 +21744,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1237,
+        "icon_id": 1227,
         "desc": "",
         "base": [
             {
@@ -21788,7 +21812,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1237,
+        "icon_id": 1227,
         "desc": "",
         "base": [
             {
@@ -22306,7 +22330,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1227,
+        "icon_id": 1230,
         "desc": "<Text>text=\"春雨无声滋白草，流泉有意洗红尘。\" font=100 </text>",
         "base": [
             {
@@ -22374,7 +22398,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22894,
+        "icon_id": 27014,
         "desc": "<Text>text=\"朝踏赤阳焚万象，夜临碧海听三更。\" font=100 </text>",
         "base": [
             {
@@ -22578,7 +22602,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22891,
+        "icon_id": 27010,
         "desc": "<Text>text=\"松影半遮山色老，鹤声遥破晚云空。\" font=100 </text>",
         "base": [
             {
@@ -22806,7 +22830,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22891,
+        "icon_id": 4258,
         "desc": "",
         "base": [
             {
@@ -22862,7 +22886,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22890,
+        "icon_id": 4257,
         "desc": "",
         "base": [
             {
@@ -22930,7 +22954,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1236,
+        "icon_id": 22892,
         "desc": "",
         "base": [
             {
@@ -22998,7 +23022,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2856,
+        "icon_id": 2853,
         "desc": "",
         "base": [
             {
@@ -23066,7 +23090,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2853,
+        "icon_id": 2845,
         "desc": "",
         "base": [
             {
@@ -23128,7 +23152,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22889,
+        "icon_id": 1238,
         "desc": "",
         "base": [
             {
@@ -23190,7 +23214,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2848,
+        "icon_id": 1237,
         "desc": "",
         "base": [
             {
@@ -23252,7 +23276,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1238,
+        "icon_id": 1236,
         "desc": "",
         "base": [
             {
@@ -23376,7 +23400,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2851,
+        "icon_id": 27013,
         "desc": "<Text>text=\"墨染青锋开岁月，血凝寒魄守乾坤。\" font=100 </text>",
         "base": [
             {
@@ -23444,7 +23468,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2847,
+        "icon_id": 27011,
         "desc": "<Text>text=\"江上长歌随浪远，天边孤雁带云回。\" font=100 </text>",
         "base": [
             {
@@ -23512,7 +23536,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2855,
+        "icon_id": 27009,
         "desc": "<Text>text=\"松影半遮山色老，鹤声遥破晚云空。\" font=100 </text>",
         "base": [
             {
@@ -23740,7 +23764,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22891,
+        "icon_id": 1234,
         "desc": "",
         "base": [
             {
@@ -23796,7 +23820,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 22890,
+        "icon_id": 2852,
         "desc": "",
         "base": [
             {
@@ -23864,7 +23888,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1236,
+        "icon_id": 1238,
         "desc": "",
         "base": [
             {
@@ -23932,7 +23956,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 2856,
+        "icon_id": 2854,
         "desc": "",
         "base": [
             {
@@ -24186,7 +24210,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1238,
+        "icon_id": 1233,
         "desc": "",
         "base": [
             {
@@ -24242,7 +24266,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1235,
+        "icon_id": 2846,
         "desc": "",
         "base": [
             {
@@ -24316,7 +24340,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1235,
+        "icon_id": 2846,
         "desc": "",
         "base": [
             {
@@ -24378,7 +24402,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1235,
+        "icon_id": 2846,
         "desc": "",
         "base": [
             {
@@ -24446,7 +24470,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1235,
+        "icon_id": 2846,
         "desc": "",
         "base": [
             {
@@ -24514,7 +24538,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1235,
+        "icon_id": 2846,
         "desc": "",
         "base": [
             {
@@ -24582,7 +24606,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1235,
+        "icon_id": 2846,
         "desc": "",
         "base": [
             {
@@ -24650,7 +24674,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1233,
+        "icon_id": 1231,
         "desc": "",
         "base": [
             {
@@ -24724,7 +24748,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1233,
+        "icon_id": 1231,
         "desc": "",
         "base": [
             {
@@ -24780,7 +24804,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1233,
+        "icon_id": 1231,
         "desc": "",
         "base": [
             {
@@ -24848,7 +24872,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1233,
+        "icon_id": 1231,
         "desc": "",
         "base": [
             {
@@ -24916,7 +24940,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1233,
+        "icon_id": 1231,
         "desc": "",
         "base": [
             {
@@ -24984,7 +25008,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1233,
+        "icon_id": 1231,
         "desc": "",
         "base": [
             {
@@ -25052,7 +25076,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1228,
+        "icon_id": 1230,
         "desc": "",
         "base": [
             {
@@ -25126,7 +25150,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1228,
+        "icon_id": 1230,
         "desc": "",
         "base": [
             {
@@ -25188,7 +25212,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1228,
+        "icon_id": 1230,
         "desc": "",
         "base": [
             {
@@ -25256,7 +25280,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1228,
+        "icon_id": 1230,
         "desc": "",
         "base": [
             {
@@ -25324,7 +25348,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1228,
+        "icon_id": 1230,
         "desc": "",
         "base": [
             {
@@ -25392,7 +25416,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1228,
+        "icon_id": 1230,
         "desc": "",
         "base": [
             {
@@ -30812,7 +30836,7 @@
     },
     "49357": {
         "id": 49357,
-        "name": "辰沙戒_测试用",
+        "name": "罔尘戒",
         "school": "通用",
         "kind": "防御",
         "position": "ring",
@@ -37530,7 +37554,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -37611,7 +37635,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -37674,7 +37698,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -37749,7 +37773,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -37824,7 +37848,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -37899,7 +37923,7 @@
         "level": 42100,
         "score": 59833,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -38874,7 +38898,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1207,
+        "icon_id": 24373,
         "desc": "",
         "base": [
             {
@@ -38955,7 +38979,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1207,
+        "icon_id": 24373,
         "desc": "",
         "base": [
             {
@@ -39018,7 +39042,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1207,
+        "icon_id": 24373,
         "desc": "",
         "base": [
             {
@@ -39093,7 +39117,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1207,
+        "icon_id": 24373,
         "desc": "",
         "base": [
             {
@@ -39168,7 +39192,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1207,
+        "icon_id": 24373,
         "desc": "",
         "base": [
             {
@@ -39243,7 +39267,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1207,
+        "icon_id": 24373,
         "desc": "",
         "base": [
             {
@@ -39318,7 +39342,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1201,
+        "icon_id": 2837,
         "desc": "",
         "base": [
             {
@@ -39399,7 +39423,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1201,
+        "icon_id": 2837,
         "desc": "",
         "base": [
             {
@@ -39468,7 +39492,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1201,
+        "icon_id": 2837,
         "desc": "",
         "base": [
             {
@@ -39543,7 +39567,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1201,
+        "icon_id": 2837,
         "desc": "",
         "base": [
             {
@@ -39618,7 +39642,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1201,
+        "icon_id": 2837,
         "desc": "",
         "base": [
             {
@@ -39693,7 +39717,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1201,
+        "icon_id": 2837,
         "desc": "",
         "base": [
             {
@@ -39768,7 +39792,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1200,
+        "icon_id": 1911,
         "desc": "",
         "base": [
             {
@@ -39849,7 +39873,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1200,
+        "icon_id": 1911,
         "desc": "",
         "base": [
             {
@@ -39918,7 +39942,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1200,
+        "icon_id": 1911,
         "desc": "",
         "base": [
             {
@@ -39993,7 +40017,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1200,
+        "icon_id": 1911,
         "desc": "",
         "base": [
             {
@@ -40068,7 +40092,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1200,
+        "icon_id": 1911,
         "desc": "",
         "base": [
             {
@@ -40143,7 +40167,7 @@
         "level": 41400,
         "score": 58839,
         "max_strength": 6,
-        "icon_id": 1200,
+        "icon_id": 1911,
         "desc": "",
         "base": [
             {
@@ -40218,7 +40242,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -40299,7 +40323,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -40362,7 +40386,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -40437,7 +40461,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -40512,7 +40536,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -40587,7 +40611,7 @@
         "level": 38800,
         "score": 55143,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -42054,7 +42078,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -42135,7 +42159,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -42198,7 +42222,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -42273,7 +42297,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -42348,7 +42372,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -42423,7 +42447,7 @@
         "level": 35500,
         "score": 50453,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -46134,7 +46158,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -46215,7 +46239,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -46278,7 +46302,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -46353,7 +46377,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -46428,7 +46452,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -46503,7 +46527,7 @@
         "level": 32200,
         "score": 45763,
         "max_strength": 6,
-        "icon_id": 4248,
+        "icon_id": 24371,
         "desc": "",
         "base": [
             {
@@ -47458,7 +47482,7 @@
     },
     "49345": {
         "id": 49345,
-        "name": "辰沙链_测试用",
+        "name": "罔尘链",
         "school": "通用",
         "kind": "防御",
         "position": "necklace",

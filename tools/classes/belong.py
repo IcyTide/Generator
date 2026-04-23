@@ -6,10 +6,6 @@ from tools.utils import get_variable, process_attr_param
 
 
 class Belong(Skill):
-    buffs: list[int] = []
-    dots: dict[int, list[int]] = {}
-    skills: list[int] = []
-
     recipes: list[tuple[int, int]]
 
     dest_rollback_skills: list[int] = []
@@ -21,7 +17,6 @@ class Belong(Skill):
         self.dest_rollback_skills = []
         super().__init__(*args, **kwargs)
         self.recipes = []
-        self.buffs, self.skills, self.dots = [], [], {}
         self.belong_key = Variable(get_variable("belong", self.skill_id))
         txt_rows = recipe_txts[recipe_txts.SkillID == self.skill_id]
         for row in txt_rows.itertuples():
@@ -51,9 +46,6 @@ class Belong(Skill):
                 "name": self.name or self.get_name(self.skill_id, self.skill_level),
                 "attributes": {attr: param for attr, param in self.self_rollback_attributes},
                 "recipes": [get_variable("recipe", *keys) for keys in self.recipes],
-                "buffs": self.buffs,
-                "dots": self.dots,
-                "skills": self.skills,
                 "desc": self.get_desc(self.skill_id, self.skill_level),
                 "critical_type": self.critical_type,
                 "damage_type": self.damage_type,

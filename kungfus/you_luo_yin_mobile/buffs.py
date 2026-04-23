@@ -1,4 +1,4 @@
-BUFFS: dict[int, list[int]] = {
+BUFFS: dict[int, dict[int, dict]] = {
     102393: [71590],
     102402: [71559],
     102403: [71616],

@@ -1,3 +1,5 @@
+import logging
+
 from tqdm import tqdm
 
 from gains import GAIN
@@ -13,6 +15,8 @@ from tools.parser.dot import parse_dot
 from tools.parser.recipe import parse_recipe
 from tools.parser.skill import parse_skill
 from tools.utils import save_code, save_json
+
+logging.basicConfig(level=logging.INFO)
 
 
 class Builder:
@@ -49,7 +53,7 @@ class Builder:
         self.all_skill_recipes = {}
         for kungfu in SUPPORT_KUNGFUS + [GAIN]:
             self.kungfu: Kungfu = kungfu
-            print(f"Start parsing {kungfu.kungfu_id}")
+            logging.info(f"Start parsing {kungfu.kungfu_id}")
             self.init_all()
             self.build_all()
             self.parse_all()
@@ -71,49 +75,49 @@ class Builder:
         self.build_talents(self.kungfu.talents)
         self.build_recipes(self.kungfu.recipes)
 
-    def build_buffs(self, buffs: dict[int, list[int]]):
+    def build_buffs(self, buffs: dict[int, dict[int, dict]], build_skill_recipes: bool = True):
         for category, buff_ids in buffs.items():
             if category not in self.belongs:
                 self.belongs[category] = Belong(category)
-            self.belongs[category].buffs += buff_ids
-            if category in self.kungfu.buffs:
+            if category not in self.buffs:
+                self.buffs[category] = {}
+            if build_skill_recipes:
                 self.skill_recipes[category] = self.belongs[category]
-            for buff_id in buff_ids:
-                self.buffs[buff_id] = Buff(buff_id, patches=self.kungfu.buff_patches)
+            for buff_id, patches in buff_ids.items():
+                self.buffs[category][buff_id] = Buff(buff_id, patches=patches)
 
-    def build_dots(self, dots: dict[int, dict[int, list]]):
+    def build_dots(self, dots: dict[int, dict[int, dict]], build_skill_recipes: bool = True):
         for category, dot_ids in dots.items():
             if category not in self.belongs:
                 self.belongs[category] = Belong(category)
-            self.belongs[category].dots.update(dot_ids)
-            if category in self.kungfu.dots:
+            if category not in self.dots:
+                self.dots[category] = {}
+            if build_skill_recipes:
                 self.skill_recipes[category] = self.belongs[category]
-            for dot_id, skill_ids in dot_ids.items():
-                skills = {skill_id: Skill(skill_id, patches=self.kungfu.skill_patches) for skill_id in skill_ids}
-                if dot_id not in self.dots:
-                    self.dots[dot_id] = Dot(dot_id, patches=self.kungfu.buff_patches)
-                self.dots[dot_id].skills.update(skills)
+            for dot_id, patches in dot_ids.items():
+                self.dots[category][dot_id] = Dot(dot_id, patches=patches)
 
-    def build_skills(self, skills: dict[int, list[int]]):
+    def build_skills(self, skills: dict[int, dict[int, dict]], build_skill_recipes: bool = True):
         for category, skill_ids in skills.items():
             if category not in self.belongs:
                 self.belongs[category] = Belong(category)
-            self.belongs[category].skills += skill_ids
-            if category in self.kungfu.skills:
+            if category not in self.skills:
+                self.skills[category] = {}
+            if build_skill_recipes:
                 self.skill_recipes[category] = self.belongs[category]
-            for skill_id in skill_ids:
-                self.skills[skill_id] = Skill(skill_id, patches=self.kungfu.skill_patches)
+            for skill_id, patches in skill_ids.items():
+                self.skills[category][skill_id] = Skill(skill_id, patches=patches)
 
     def build_talents(self, talents: list[dict[int, dict]]):
         for talent_items in talents:
             for talent_id, params in talent_items.items():
-                self.belongs[talent_id] = Belong(talent_id, patches=self.kungfu.skill_patches)
-                if buffs := params.get("buffs"):
-                    self.build_buffs({talent_id: buffs})
-                if skills := params.get("skills"):
-                    self.build_skills({talent_id: skills})
-                if dots := params.get("dots"):
-                    self.build_dots({talent_id: dots})
+                if buffs := params.pop("buffs", {}):
+                    self.build_buffs({talent_id: buffs}, False)
+                if skills := params.pop("skills", {}):
+                    self.build_skills({talent_id: skills}, False)
+                if dots := params.pop("dots", {}):
+                    self.build_dots({talent_id: dots}, False)
+                self.belongs[talent_id] = Belong(talent_id, patches=params)
 
     def build_recipes(self, recipes: list[tuple[int, int]]):
         for recipe_key in recipes:
@@ -128,18 +132,21 @@ class Builder:
         self.parse_skill_recipes()
 
     def parse_buffs(self):
-        for buff_id, buff in tqdm(self.buffs.items()):
-            buffs = self.buffs[buff_id] = parse_buff(buff, self.skills)
-            for sub_buff in buffs.values():
-                self.build_recipes(sub_buff.recipes)
+        for category, buff_ids in tqdm(self.buffs.items()):
+            for buff_id, buff in tqdm(buff_ids.items()):
+                buffs = self.buffs[category][buff_id] = parse_buff(buff, self.skills)
+                for sub_buff in buffs.values():
+                    self.build_recipes(sub_buff.recipes)
 
     def parse_dots(self):
-        for dot_id, dot in tqdm(self.dots.items()):
-            self.dots[dot_id] = parse_dot(dot)
+        for category, dot_ids in tqdm(self.dots.items()):
+            for dot_id, dot in tqdm(dot_ids.items()):
+                self.dots[category][dot_id] = parse_dot(dot)
 
     def parse_skills(self):
-        for skill_id, skill in tqdm(self.skills.items()):
-            self.skills[skill_id] = parse_skill(skill)
+        for category, skill_ids in tqdm(self.skills.items()):
+            for skill_id, skill in tqdm(skill_ids.items()):
+                self.skills[category][skill_id] = parse_skill(skill)
 
     def parse_belongs(self):
         for belong_id, belong in tqdm(self.belongs.items()):
@@ -161,9 +168,9 @@ class Builder:
             self.skill_recipes.pop(skill_id, None)
 
     @staticmethod
-    def build_skill_code(skills):
+    def build_skill_code(skill_ids: dict[int, dict[int, Skill]]):
         code = {}
-        for skill_id, skill_levels in skills.items():
+        for skill_id, skill_levels in skill_ids.items():
             code[skill_id] = {}
             for skill_level, item in skill_levels.items():
                 content = code[skill_id][skill_level] = item.to_dict()
@@ -178,20 +185,24 @@ class Builder:
     @property
     def dot_code(self):
         code = {}
-        for kungfu_id, dot_ids in self.all_dots.items():
+        for kungfu_id, dots in self.all_dots.items():
             code[kungfu_id] = {}
-            for dot_id, dot_levels in dot_ids.items():
-                code[kungfu_id][dot_id] = {}
-                for dot_level, item in dot_levels.items():
-                    content = code[kungfu_id][dot_id][dot_level] = item.to_dict()
-                    content['skills'] = self.build_skill_code(item.skills)
+            for category, dot_ids in dots.items():
+                code[kungfu_id][category] = {}
+                for dot_id, dot_levels in dot_ids.items():
+                    code[kungfu_id][category][dot_id] = {}
+                    for dot_level, item in dot_levels.items():
+                        content = code[kungfu_id][category][dot_id][dot_level] = item.to_dict()
+                        content['skills'] = self.build_skill_code(item.skills)
         return code
 
     @property
     def skill_code(self):
         code = {}
         for kungfu_id, skills in self.all_skills.items():
-            code[kungfu_id] = self.build_skill_code(skills)
+            code[kungfu_id] = {}
+            for category, skill_ids in skills.items():
+                code[kungfu_id][category] = self.build_skill_code(skill_ids)
         return code
 
     def save(self):

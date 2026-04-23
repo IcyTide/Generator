@@ -38,6 +38,118 @@ ENCHANTS = {
         }
     },
     "tertiary_weapon": {
+        "暗影·荆岫·暗器（加速） 加速提升5739点": {
+            "id": 16420,
+            "name": "暗影·荆岫·暗器（加速）",
+            "score": 5052,
+            "attributes": {
+                "haste_base": 5739
+            }
+        },
+        "暗影·荆岫·暗器（内破） 内功破防等级提升5739点": {
+            "id": 16419,
+            "name": "暗影·荆岫·暗器（内破）",
+            "score": 5052,
+            "attributes": {
+                "magical_overcome_base": 5739
+            }
+        },
+        "暗影·荆岫·暗器（外破） 外功破防等级提升5739点": {
+            "id": 16418,
+            "name": "暗影·荆岫·暗器（外破）",
+            "score": 5052,
+            "attributes": {
+                "physical_overcome_base": 5739
+            }
+        },
+        "暗影·荆岫·暗器（身法） 身法提升736点": {
+            "id": 16417,
+            "name": "暗影·荆岫·暗器（身法）",
+            "score": 5052,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·荆岫·暗器（元气） 元气提升736点": {
+            "id": 16416,
+            "name": "暗影·荆岫·暗器（元气）",
+            "score": 5052,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·荆岫·暗器（力道） 力道提升736点": {
+            "id": 16415,
+            "name": "暗影·荆岫·暗器（力道）",
+            "score": 5052,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·荆岫·暗器（根骨） 根骨提升736点": {
+            "id": 16414,
+            "name": "暗影·荆岫·暗器（根骨）",
+            "score": 5052,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
+        "暗影·白虹·暗器（加速） 加速提升5739点": {
+            "id": 16403,
+            "name": "暗影·白虹·暗器（加速）",
+            "score": 5052,
+            "attributes": {
+                "haste_base": 5739
+            }
+        },
+        "暗影·白虹·暗器（内破） 内功破防等级提升5739点": {
+            "id": 16402,
+            "name": "暗影·白虹·暗器（内破）",
+            "score": 5052,
+            "attributes": {
+                "magical_overcome_base": 5739
+            }
+        },
+        "暗影·白虹·暗器（外破） 外功破防等级提升5739点": {
+            "id": 16401,
+            "name": "暗影·白虹·暗器（外破）",
+            "score": 5052,
+            "attributes": {
+                "physical_overcome_base": 5739
+            }
+        },
+        "暗影·白虹·暗器（身法） 身法提升736点": {
+            "id": 16400,
+            "name": "暗影·白虹·暗器（身法）",
+            "score": 5052,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·白虹·暗器（元气） 元气提升736点": {
+            "id": 16399,
+            "name": "暗影·白虹·暗器（元气）",
+            "score": 5052,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·白虹·暗器（力道） 力道提升736点": {
+            "id": 16398,
+            "name": "暗影·白虹·暗器（力道）",
+            "score": 5052,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·白虹·暗器（根骨） 根骨提升736点": {
+            "id": 16397,
+            "name": "暗影·白虹·暗器（根骨）",
+            "score": 5052,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
         "山海·荆岫·暗器（加速） 加速提升4902点": {
             "id": 16209,
             "name": "山海·荆岫·暗器（加速）",
@@ -150,10 +262,66 @@ ENCHANTS = {
                 "spirit_base": 628
             }
         },
+        "阆风仙玉·暗器（加速） 加速提升4099点": {
+            "id": 16438,
+            "name": "阆风仙玉·暗器（加速）",
+            "score": 3907,
+            "attributes": {
+                "haste_base": 4099
+            }
+        },
+        "阆风仙玉·暗器（内破） 内功破防等级提升4099点": {
+            "id": 16437,
+            "name": "阆风仙玉·暗器（内破）",
+            "score": 3907,
+            "attributes": {
+                "magical_overcome_base": 4099
+            }
+        },
+        "阆风仙玉·暗器（外破） 外功破防等级提升4099点": {
+            "id": 16436,
+            "name": "阆风仙玉·暗器（外破）",
+            "score": 3907,
+            "attributes": {
+                "physical_overcome_base": 4099
+            }
+        },
+        "阆风仙玉·暗器（身法） 身法提升526点": {
+            "id": 16435,
+            "name": "阆风仙玉·暗器（身法）",
+            "score": 3907,
+            "attributes": {
+                "agility_base": 526
+            }
+        },
+        "阆风仙玉·暗器（元气） 元气提升526点": {
+            "id": 16434,
+            "name": "阆风仙玉·暗器（元气）",
+            "score": 3907,
+            "attributes": {
+                "spunk_base": 526
+            }
+        },
+        "阆风仙玉·暗器（力道） 力道提升526点": {
+            "id": 16433,
+            "name": "阆风仙玉·暗器（力道）",
+            "score": 3907,
+            "attributes": {
+                "strength_base": 526
+            }
+        },
+        "阆风仙玉·暗器（根骨） 根骨提升526点": {
+            "id": 16432,
+            "name": "阆风仙玉·暗器（根骨）",
+            "score": 3907,
+            "attributes": {
+                "spirit_base": 526
+            }
+        },
         "昆仑玄石·暗器（加速） 加速提升3279点": {
             "id": 16383,
             "name": "昆仑玄石·暗器（加速）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "haste_base": 3279
             }
@@ -161,7 +329,7 @@ ENCHANTS = {
         "昆仑玄石·暗器（内破） 内功破防等级提升3279点": {
             "id": 16382,
             "name": "昆仑玄石·暗器（内破）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_overcome_base": 3279
             }
@@ -169,7 +337,7 @@ ENCHANTS = {
         "昆仑玄石·暗器（外破） 外功破防等级提升3279点": {
             "id": 16381,
             "name": "昆仑玄石·暗器（外破）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_overcome_base": 3279
             }
@@ -177,7 +345,7 @@ ENCHANTS = {
         "昆仑玄石·暗器（身法） 身法提升420点": {
             "id": 16380,
             "name": "昆仑玄石·暗器（身法）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "agility_base": 420
             }
@@ -185,7 +353,7 @@ ENCHANTS = {
         "昆仑玄石·暗器（元气） 元气提升420点": {
             "id": 16379,
             "name": "昆仑玄石·暗器（元气）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spunk_base": 420
             }
@@ -193,7 +361,7 @@ ENCHANTS = {
         "昆仑玄石·暗器（力道） 力道提升420点": {
             "id": 16378,
             "name": "昆仑玄石·暗器（力道）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "strength_base": 420
             }
@@ -201,7 +369,7 @@ ENCHANTS = {
         "昆仑玄石·暗器（根骨） 根骨提升420点": {
             "id": 16377,
             "name": "昆仑玄石·暗器（根骨）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spirit_base": 420
             }
@@ -261,177 +429,105 @@ ENCHANTS = {
             "attributes": {
                 "spirit_base": 359
             }
-        },
-        "阆风仙玉·暗器（加速） 加速提升4099点": {
-            "id": 16438,
-            "name": "阆风仙玉·暗器（加速）",
-            "score": 0,
-            "attributes": {
-                "haste_base": 4099
-            }
-        },
-        "阆风仙玉·暗器（内破） 内功破防等级提升4099点": {
-            "id": 16437,
-            "name": "阆风仙玉·暗器（内破）",
-            "score": 0,
-            "attributes": {
-                "magical_overcome_base": 4099
-            }
-        },
-        "阆风仙玉·暗器（外破） 外功破防等级提升4099点": {
-            "id": 16436,
-            "name": "阆风仙玉·暗器（外破）",
-            "score": 0,
-            "attributes": {
-                "physical_overcome_base": 4099
-            }
-        },
-        "阆风仙玉·暗器（身法） 身法提升526点": {
-            "id": 16435,
-            "name": "阆风仙玉·暗器（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 526
-            }
-        },
-        "阆风仙玉·暗器（元气） 元气提升526点": {
-            "id": 16434,
-            "name": "阆风仙玉·暗器（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 526
-            }
-        },
-        "阆风仙玉·暗器（力道） 力道提升526点": {
-            "id": 16433,
-            "name": "阆风仙玉·暗器（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 526
-            }
-        },
-        "阆风仙玉·暗器（根骨） 根骨提升526点": {
-            "id": 16432,
-            "name": "阆风仙玉·暗器（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 526
-            }
-        },
-        "暗影·荆岫·暗器（加速） 加速提升5739点": {
-            "id": 16420,
-            "name": "暗影·荆岫·暗器（加速）",
-            "score": 0,
-            "attributes": {
-                "haste_base": 5739
-            }
-        },
-        "暗影·荆岫·暗器（内破） 内功破防等级提升5739点": {
-            "id": 16419,
-            "name": "暗影·荆岫·暗器（内破）",
-            "score": 0,
-            "attributes": {
-                "magical_overcome_base": 5739
-            }
-        },
-        "暗影·荆岫·暗器（外破） 外功破防等级提升5739点": {
-            "id": 16418,
-            "name": "暗影·荆岫·暗器（外破）",
-            "score": 0,
-            "attributes": {
-                "physical_overcome_base": 5739
-            }
-        },
-        "暗影·荆岫·暗器（身法） 身法提升736点": {
-            "id": 16417,
-            "name": "暗影·荆岫·暗器（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 736
-            }
-        },
-        "暗影·荆岫·暗器（元气） 元气提升736点": {
-            "id": 16416,
-            "name": "暗影·荆岫·暗器（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 736
-            }
-        },
-        "暗影·荆岫·暗器（力道） 力道提升736点": {
-            "id": 16415,
-            "name": "暗影·荆岫·暗器（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 736
-            }
-        },
-        "暗影·荆岫·暗器（根骨） 根骨提升736点": {
-            "id": 16414,
-            "name": "暗影·荆岫·暗器（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 736
-            }
-        },
-        "暗影·白虹·暗器（加速） 加速提升5739点": {
-            "id": 16403,
-            "name": "暗影·白虹·暗器（加速）",
-            "score": 0,
-            "attributes": {
-                "haste_base": 5739
-            }
-        },
-        "暗影·白虹·暗器（内破） 内功破防等级提升5739点": {
-            "id": 16402,
-            "name": "暗影·白虹·暗器（内破）",
-            "score": 0,
-            "attributes": {
-                "magical_overcome_base": 5739
-            }
-        },
-        "暗影·白虹·暗器（外破） 外功破防等级提升5739点": {
-            "id": 16401,
-            "name": "暗影·白虹·暗器（外破）",
-            "score": 0,
-            "attributes": {
-                "physical_overcome_base": 5739
-            }
-        },
-        "暗影·白虹·暗器（身法） 身法提升736点": {
-            "id": 16400,
-            "name": "暗影·白虹·暗器（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 736
-            }
-        },
-        "暗影·白虹·暗器（元气） 元气提升736点": {
-            "id": 16399,
-            "name": "暗影·白虹·暗器（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 736
-            }
-        },
-        "暗影·白虹·暗器（力道） 力道提升736点": {
-            "id": 16398,
-            "name": "暗影·白虹·暗器（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 736
-            }
-        },
-        "暗影·白虹·暗器（根骨） 根骨提升736点": {
-            "id": 16397,
-            "name": "暗影·白虹·暗器（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 736
-            }
         }
     },
     "ring": {
+        "暗影·荆岫·戒指（内攻） 内功攻击提升1739点": {
+            "id": 16413,
+            "name": "暗影·荆岫·戒指（内攻）",
+            "score": 5052,
+            "attributes": {
+                "magical_attack_power_base": 1739
+            }
+        },
+        "暗影·荆岫·戒指（外攻） 外功攻击提升1559点": {
+            "id": 16412,
+            "name": "暗影·荆岫·戒指（外攻）",
+            "score": 5052,
+            "attributes": {
+                "physical_attack_power_base": 1559
+            }
+        },
+        "暗影·荆岫·戒指（身法） 身法提升736点": {
+            "id": 16411,
+            "name": "暗影·荆岫·戒指（身法）",
+            "score": 5052,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·荆岫·戒指（元气） 元气提升736点": {
+            "id": 16410,
+            "name": "暗影·荆岫·戒指（元气）",
+            "score": 5052,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·荆岫·戒指（力道） 力道提升736点": {
+            "id": 16409,
+            "name": "暗影·荆岫·戒指（力道）",
+            "score": 5052,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·荆岫·戒指（根骨） 根骨提升736点": {
+            "id": 16408,
+            "name": "暗影·荆岫·戒指（根骨）",
+            "score": 5052,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
+        "暗影·白虹·戒指（内攻） 内功攻击提升1739点": {
+            "id": 16396,
+            "name": "暗影·白虹·戒指（内攻）",
+            "score": 5052,
+            "attributes": {
+                "magical_attack_power_base": 1739
+            }
+        },
+        "暗影·白虹·戒指（外攻） 外功攻击提升1559点": {
+            "id": 16395,
+            "name": "暗影·白虹·戒指（外攻）",
+            "score": 5052,
+            "attributes": {
+                "physical_attack_power_base": 1559
+            }
+        },
+        "暗影·白虹·戒指（身法） 身法提升736点": {
+            "id": 16394,
+            "name": "暗影·白虹·戒指（身法）",
+            "score": 5052,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·白虹·戒指（元气） 元气提升736点": {
+            "id": 16393,
+            "name": "暗影·白虹·戒指（元气）",
+            "score": 5052,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·白虹·戒指（力道） 力道提升736点": {
+            "id": 16392,
+            "name": "暗影·白虹·戒指（力道）",
+            "score": 5052,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·白虹·戒指（根骨） 根骨提升736点": {
+            "id": 16391,
+            "name": "暗影·白虹·戒指（根骨）",
+            "score": 5052,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
         "山海·荆岫·戒指（内攻） 内功攻击提升1485点": {
             "id": 16202,
             "name": "山海·荆岫·戒指（内攻）",
@@ -528,10 +624,66 @@ ENCHANTS = {
                 "spirit_base": 628
             }
         },
+        "阆风仙玉·戒指（破招） 破招等级提升4099点": {
+            "id": 16431,
+            "name": "阆风仙玉·戒指（破招）",
+            "score": 3907,
+            "attributes": {
+                "surplus_base": 4099
+            }
+        },
+        "阆风仙玉·戒指（内伤） 内功攻击提升1242点": {
+            "id": 16430,
+            "name": "阆风仙玉·戒指（内伤）",
+            "score": 3907,
+            "attributes": {
+                "magical_attack_power_base": 1242
+            }
+        },
+        "阆风仙玉·戒指（外伤） 外功攻击提升1114点": {
+            "id": 16429,
+            "name": "阆风仙玉·戒指（外伤）",
+            "score": 3907,
+            "attributes": {
+                "physical_attack_power_base": 1114
+            }
+        },
+        "阆风仙玉·戒指（身法） 身法提升526点": {
+            "id": 16428,
+            "name": "阆风仙玉·戒指（身法）",
+            "score": 3907,
+            "attributes": {
+                "agility_base": 526
+            }
+        },
+        "阆风仙玉·戒指（元气） 元气提升526点": {
+            "id": 16427,
+            "name": "阆风仙玉·戒指（元气）",
+            "score": 3907,
+            "attributes": {
+                "spunk_base": 526
+            }
+        },
+        "阆风仙玉·戒指（力道） 力道提升526点": {
+            "id": 16426,
+            "name": "阆风仙玉·戒指（力道）",
+            "score": 3907,
+            "attributes": {
+                "strength_base": 526
+            }
+        },
+        "阆风仙玉·戒指（根骨） 根骨提升526点": {
+            "id": 16425,
+            "name": "阆风仙玉·戒指（根骨）",
+            "score": 3907,
+            "attributes": {
+                "spirit_base": 526
+            }
+        },
         "昆仑玄石·戒指（破招） 破招等级提升3279点": {
             "id": 16376,
             "name": "昆仑玄石·戒指（破招）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "surplus_base": 3279
             }
@@ -539,7 +691,7 @@ ENCHANTS = {
         "昆仑玄石·戒指（内伤） 内功攻击提升994点": {
             "id": 16375,
             "name": "昆仑玄石·戒指（内伤）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_attack_power_base": 994
             }
@@ -547,7 +699,7 @@ ENCHANTS = {
         "昆仑玄石·戒指（外伤） 外功攻击提升891点": {
             "id": 16374,
             "name": "昆仑玄石·戒指（外伤）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_attack_power_base": 891
             }
@@ -555,7 +707,7 @@ ENCHANTS = {
         "昆仑玄石·戒指（身法） 身法提升420点": {
             "id": 16373,
             "name": "昆仑玄石·戒指（身法）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "agility_base": 420
             }
@@ -563,7 +715,7 @@ ENCHANTS = {
         "昆仑玄石·戒指（元气） 元气提升420点": {
             "id": 16372,
             "name": "昆仑玄石·戒指（元气）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spunk_base": 420
             }
@@ -571,7 +723,7 @@ ENCHANTS = {
         "昆仑玄石·戒指（力道） 力道提升420点": {
             "id": 16371,
             "name": "昆仑玄石·戒指（力道）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "strength_base": 420
             }
@@ -579,7 +731,7 @@ ENCHANTS = {
         "昆仑玄石·戒指（根骨） 根骨提升420点": {
             "id": 16370,
             "name": "昆仑玄石·戒指（根骨）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spirit_base": 420
             }
@@ -639,161 +791,41 @@ ENCHANTS = {
             "attributes": {
                 "spirit_base": 359
             }
-        },
-        "阆风仙玉·戒指（破招） 破招等级提升4099点": {
-            "id": 16431,
-            "name": "阆风仙玉·戒指（破招）",
-            "score": 0,
-            "attributes": {
-                "surplus_base": 4099
-            }
-        },
-        "阆风仙玉·戒指（内伤） 内功攻击提升1242点": {
-            "id": 16430,
-            "name": "阆风仙玉·戒指（内伤）",
-            "score": 0,
-            "attributes": {
-                "magical_attack_power_base": 1242
-            }
-        },
-        "阆风仙玉·戒指（外伤） 外功攻击提升1114点": {
-            "id": 16429,
-            "name": "阆风仙玉·戒指（外伤）",
-            "score": 0,
-            "attributes": {
-                "physical_attack_power_base": 1114
-            }
-        },
-        "阆风仙玉·戒指（身法） 身法提升526点": {
-            "id": 16428,
-            "name": "阆风仙玉·戒指（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 526
-            }
-        },
-        "阆风仙玉·戒指（元气） 元气提升526点": {
-            "id": 16427,
-            "name": "阆风仙玉·戒指（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 526
-            }
-        },
-        "阆风仙玉·戒指（力道） 力道提升526点": {
-            "id": 16426,
-            "name": "阆风仙玉·戒指（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 526
-            }
-        },
-        "阆风仙玉·戒指（根骨） 根骨提升526点": {
-            "id": 16425,
-            "name": "阆风仙玉·戒指（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 526
-            }
-        },
-        "暗影·荆岫·戒指（内攻） 内功攻击提升1739点": {
-            "id": 16413,
-            "name": "暗影·荆岫·戒指（内攻）",
-            "score": 0,
-            "attributes": {
-                "magical_attack_power_base": 1739
-            }
-        },
-        "暗影·荆岫·戒指（外攻） 外功攻击提升1559点": {
-            "id": 16412,
-            "name": "暗影·荆岫·戒指（外攻）",
-            "score": 0,
-            "attributes": {
-                "physical_attack_power_base": 1559
-            }
-        },
-        "暗影·荆岫·戒指（身法） 身法提升736点": {
-            "id": 16411,
-            "name": "暗影·荆岫·戒指（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 736
-            }
-        },
-        "暗影·荆岫·戒指（元气） 元气提升736点": {
-            "id": 16410,
-            "name": "暗影·荆岫·戒指（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 736
-            }
-        },
-        "暗影·荆岫·戒指（力道） 力道提升736点": {
-            "id": 16409,
-            "name": "暗影·荆岫·戒指（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 736
-            }
-        },
-        "暗影·荆岫·戒指（根骨） 根骨提升736点": {
-            "id": 16408,
-            "name": "暗影·荆岫·戒指（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 736
-            }
-        },
-        "暗影·白虹·戒指（内攻） 内功攻击提升1739点": {
-            "id": 16396,
-            "name": "暗影·白虹·戒指（内攻）",
-            "score": 0,
-            "attributes": {
-                "magical_attack_power_base": 1739
-            }
-        },
-        "暗影·白虹·戒指（外攻） 外功攻击提升1559点": {
-            "id": 16395,
-            "name": "暗影·白虹·戒指（外攻）",
-            "score": 0,
-            "attributes": {
-                "physical_attack_power_base": 1559
-            }
-        },
-        "暗影·白虹·戒指（身法） 身法提升736点": {
-            "id": 16394,
-            "name": "暗影·白虹·戒指（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 736
-            }
-        },
-        "暗影·白虹·戒指（元气） 元气提升736点": {
-            "id": 16393,
-            "name": "暗影·白虹·戒指（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 736
-            }
-        },
-        "暗影·白虹·戒指（力道） 力道提升736点": {
-            "id": 16392,
-            "name": "暗影·白虹·戒指（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 736
-            }
-        },
-        "暗影·白虹·戒指（根骨） 根骨提升736点": {
-            "id": 16391,
-            "name": "暗影·白虹·戒指（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 736
-            }
         }
     },
     "pendant": {
+        "暗影·荆岫·腰坠（化劲） 化劲提升2869点": {
+            "id": 16407,
+            "name": "暗影·荆岫·腰坠（化劲）",
+            "score": 5052,
+            "attributes": {
+                "decritical_power_base": 2869
+            }
+        },
+        "暗影·荆岫·腰坠（体质） 体质提升2126点": {
+            "id": 16406,
+            "name": "暗影·荆岫·腰坠（体质）",
+            "score": 5052,
+            "attributes": {
+                "vitality_base": 2126
+            }
+        },
+        "暗影·白虹·腰坠（会心） 全会心提升5739点": {
+            "id": 16390,
+            "name": "暗影·白虹·腰坠（会心）",
+            "score": 5052,
+            "attributes": {
+                "all_critical_strike_base": 5739
+            }
+        },
+        "暗影·白虹·腰坠（体质） 体质提升2126点": {
+            "id": 16389,
+            "name": "暗影·白虹·腰坠（体质）",
+            "score": 5052,
+            "attributes": {
+                "vitality_base": 2126
+            }
+        },
         "山海·荆岫·腰坠（化劲） 化劲提升2451点": {
             "id": 16196,
             "name": "山海·荆岫·腰坠（化劲）",
@@ -826,10 +858,26 @@ ENCHANTS = {
                 "vitality_base": 1816
             }
         },
+        "阆风仙玉·腰坠（化劲） 化劲提升2050点": {
+            "id": 16424,
+            "name": "阆风仙玉·腰坠（化劲）",
+            "score": 3907,
+            "attributes": {
+                "decritical_power_base": 2050
+            }
+        },
+        "阆风仙玉·腰坠（体质） 体质提升1518点": {
+            "id": 16423,
+            "name": "阆风仙玉·腰坠（体质）",
+            "score": 3907,
+            "attributes": {
+                "vitality_base": 1518
+            }
+        },
         "昆仑玄石·腰坠（化劲） 化劲提升1640点": {
             "id": 16369,
             "name": "昆仑玄石·腰坠（化劲）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "decritical_power_base": 1640
             }
@@ -837,7 +885,7 @@ ENCHANTS = {
         "昆仑玄石·腰坠（体质） 体质提升1215点": {
             "id": 16368,
             "name": "昆仑玄石·腰坠（体质）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "vitality_base": 1215
             }
@@ -857,57 +905,65 @@ ENCHANTS = {
             "attributes": {
                 "vitality_base": 1037
             }
-        },
-        "阆风仙玉·腰坠（化劲） 化劲提升2050点": {
-            "id": 16424,
-            "name": "阆风仙玉·腰坠（化劲）",
-            "score": 0,
-            "attributes": {
-                "decritical_power_base": 2050
-            }
-        },
-        "阆风仙玉·腰坠（体质） 体质提升1518点": {
-            "id": 16423,
-            "name": "阆风仙玉·腰坠（体质）",
-            "score": 0,
-            "attributes": {
-                "vitality_base": 1518
-            }
-        },
-        "暗影·荆岫·腰坠（化劲） 化劲提升2869点": {
-            "id": 16407,
-            "name": "暗影·荆岫·腰坠（化劲）",
-            "score": 0,
-            "attributes": {
-                "decritical_power_base": 2869
-            }
-        },
-        "暗影·荆岫·腰坠（体质） 体质提升2126点": {
-            "id": 16406,
-            "name": "暗影·荆岫·腰坠（体质）",
-            "score": 0,
-            "attributes": {
-                "vitality_base": 2126
-            }
-        },
-        "暗影·白虹·腰坠（会心） 全会心提升5739点": {
-            "id": 16390,
-            "name": "暗影·白虹·腰坠（会心）",
-            "score": 0,
-            "attributes": {
-                "all_critical_strike_base": 5739
-            }
-        },
-        "暗影·白虹·腰坠（体质） 体质提升2126点": {
-            "id": 16389,
-            "name": "暗影·白虹·腰坠（体质）",
-            "score": 0,
-            "attributes": {
-                "vitality_base": 2126
-            }
         }
     },
     "necklace": {
+        "暗影·荆岫·项链（御劲） 御劲提升2869点": {
+            "id": 16405,
+            "name": "暗影·荆岫·项链（御劲）",
+            "score": 5052,
+            "attributes": {
+                "toughness_base": 2869
+            }
+        },
+        "暗影·荆岫·项链（体质） 体质提升2126点": {
+            "id": 16404,
+            "name": "暗影·荆岫·项链（体质）",
+            "score": 5052,
+            "attributes": {
+                "vitality_base": 2126
+            }
+        },
+        "暗影·白虹·项链（身法） 身法提升736点": {
+            "id": 16388,
+            "name": "暗影·白虹·项链（身法）",
+            "score": 5052,
+            "attributes": {
+                "agility_base": 736
+            }
+        },
+        "暗影·白虹·项链（元气） 元气提升736点": {
+            "id": 16387,
+            "name": "暗影·白虹·项链（元气）",
+            "score": 5052,
+            "attributes": {
+                "spunk_base": 736
+            }
+        },
+        "暗影·白虹·项链（力道） 力道提升736点": {
+            "id": 16386,
+            "name": "暗影·白虹·项链（力道）",
+            "score": 5052,
+            "attributes": {
+                "strength_base": 736
+            }
+        },
+        "暗影·白虹·项链（根骨） 根骨提升736点": {
+            "id": 16385,
+            "name": "暗影·白虹·项链（根骨）",
+            "score": 5052,
+            "attributes": {
+                "spirit_base": 736
+            }
+        },
+        "暗影·白虹·项链（体质） 体质提升2126点": {
+            "id": 16384,
+            "name": "暗影·白虹·项链（体质）",
+            "score": 5052,
+            "attributes": {
+                "vitality_base": 2126
+            }
+        },
         "山海·荆岫·项链（御劲） 御劲提升2451点": {
             "id": 16194,
             "name": "山海·荆岫·项链（御劲）",
@@ -964,10 +1020,26 @@ ENCHANTS = {
                 "vitality_base": 1816
             }
         },
+        "阆风仙玉·项链（御劲） 御劲提升2050点": {
+            "id": 16422,
+            "name": "阆风仙玉·项链（御劲）",
+            "score": 3907,
+            "attributes": {
+                "toughness_base": 2050
+            }
+        },
+        "阆风仙玉·项链（体质） 体质提升1518点": {
+            "id": 16421,
+            "name": "阆风仙玉·项链（体质）",
+            "score": 3907,
+            "attributes": {
+                "vitality_base": 1518
+            }
+        },
         "昆仑玄石·项链（御劲） 御劲提升1640点": {
             "id": 16367,
             "name": "昆仑玄石·项链（御劲）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "toughness_base": 1640
             }
@@ -975,7 +1047,7 @@ ENCHANTS = {
         "昆仑玄石·项链（体质） 体质提升1215点": {
             "id": 16366,
             "name": "昆仑玄石·项链（体质）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "vitality_base": 1215
             }
@@ -995,85 +1067,13 @@ ENCHANTS = {
             "attributes": {
                 "vitality_base": 1037
             }
-        },
-        "阆风仙玉·项链（御劲） 御劲提升2050点": {
-            "id": 16422,
-            "name": "阆风仙玉·项链（御劲）",
-            "score": 0,
-            "attributes": {
-                "toughness_base": 2050
-            }
-        },
-        "阆风仙玉·项链（体质） 体质提升1518点": {
-            "id": 16421,
-            "name": "阆风仙玉·项链（体质）",
-            "score": 0,
-            "attributes": {
-                "vitality_base": 1518
-            }
-        },
-        "暗影·荆岫·项链（御劲） 御劲提升2869点": {
-            "id": 16405,
-            "name": "暗影·荆岫·项链（御劲）",
-            "score": 0,
-            "attributes": {
-                "toughness_base": 2869
-            }
-        },
-        "暗影·荆岫·项链（体质） 体质提升2126点": {
-            "id": 16404,
-            "name": "暗影·荆岫·项链（体质）",
-            "score": 0,
-            "attributes": {
-                "vitality_base": 2126
-            }
-        },
-        "暗影·白虹·项链（身法） 身法提升736点": {
-            "id": 16388,
-            "name": "暗影·白虹·项链（身法）",
-            "score": 0,
-            "attributes": {
-                "agility_base": 736
-            }
-        },
-        "暗影·白虹·项链（元气） 元气提升736点": {
-            "id": 16387,
-            "name": "暗影·白虹·项链（元气）",
-            "score": 0,
-            "attributes": {
-                "spunk_base": 736
-            }
-        },
-        "暗影·白虹·项链（力道） 力道提升736点": {
-            "id": 16386,
-            "name": "暗影·白虹·项链（力道）",
-            "score": 0,
-            "attributes": {
-                "strength_base": 736
-            }
-        },
-        "暗影·白虹·项链（根骨） 根骨提升736点": {
-            "id": 16385,
-            "name": "暗影·白虹·项链（根骨）",
-            "score": 0,
-            "attributes": {
-                "spirit_base": 736
-            }
-        },
-        "暗影·白虹·项链（体质） 体质提升2126点": {
-            "id": 16384,
-            "name": "暗影·白虹·项链（体质）",
-            "score": 0,
-            "attributes": {
-                "vitality_base": 2126
-            }
         }
     },
     "jacket": {
         "风语·衣·绣（御劲） 御劲提升1640点": {
             "id": 16316,
             "name": "风语·衣·绣（御劲）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "toughness_base": 1640
             }
@@ -1081,7 +1081,7 @@ ENCHANTS = {
         "风语·衣·绣（化劲） 化劲提升1640点": {
             "id": 16315,
             "name": "风语·衣·绣（化劲）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "decritical_power_base": 1640
             }
@@ -1089,7 +1089,7 @@ ENCHANTS = {
         "风语·衣·绣（招架） 招架提升1640点": {
             "id": 16314,
             "name": "风语·衣·绣（招架）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "parry_base": 1640
             }
@@ -1097,7 +1097,7 @@ ENCHANTS = {
         "风语·衣·绣（内防） 内功防御提升1640点": {
             "id": 16313,
             "name": "风语·衣·绣（内防）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_shield_base": 1640
             }
@@ -1105,7 +1105,7 @@ ENCHANTS = {
         "风语·衣·绣（外防） 外功防御提升1640点": {
             "id": 16312,
             "name": "风语·衣·绣（外防）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_shield_add": 1640
             }
@@ -1113,7 +1113,7 @@ ENCHANTS = {
         "风语·衣·绣（闪避） 闪避提升1640点": {
             "id": 16311,
             "name": "风语·衣·绣（闪避）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "dodge_base": 1640
             }
@@ -1121,7 +1121,7 @@ ENCHANTS = {
         "风语·衣·绣（格挡） 拆招提升1640点": {
             "id": 16310,
             "name": "风语·衣·绣（格挡）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "parry_value_base": 1640
             }
@@ -1129,7 +1129,7 @@ ENCHANTS = {
         "风语·衣·绣（气血） 最大气血值提升16397点": {
             "id": 16309,
             "name": "风语·衣·绣（气血）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "max_life_base": 16397
             }
@@ -1137,7 +1137,7 @@ ENCHANTS = {
         "风语·衣·绣（体质） 体质提升1215点": {
             "id": 16308,
             "name": "风语·衣·绣（体质）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "vitality_base": 1215
             }
@@ -1217,7 +1217,7 @@ ENCHANTS = {
         "风语·衣·染（御劲） 御劲提升820点": {
             "id": 16339,
             "name": "风语·衣·染（御劲）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "toughness_base": 820
             }
@@ -1225,7 +1225,7 @@ ENCHANTS = {
         "风语·衣·染（化劲） 化劲提升820点": {
             "id": 16338,
             "name": "风语·衣·染（化劲）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "decritical_power_base": 820
             }
@@ -1233,7 +1233,7 @@ ENCHANTS = {
         "风语·衣·染（招架） 招架提升820点": {
             "id": 16337,
             "name": "风语·衣·染（招架）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "parry_base": 820
             }
@@ -1241,7 +1241,7 @@ ENCHANTS = {
         "风语·衣·染（内防） 内功防御提升820点": {
             "id": 16336,
             "name": "风语·衣·染（内防）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_shield_base": 820
             }
@@ -1249,7 +1249,7 @@ ENCHANTS = {
         "风语·衣·染（外防） 外功防御提升820点": {
             "id": 16335,
             "name": "风语·衣·染（外防）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_shield_add": 820
             }
@@ -1257,7 +1257,7 @@ ENCHANTS = {
         "风语·衣·染（闪避） 闪避提升820点": {
             "id": 16334,
             "name": "风语·衣·染（闪避）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "dodge_base": 820
             }
@@ -1265,7 +1265,7 @@ ENCHANTS = {
         "风语·衣·染（格挡） 拆招提升820点": {
             "id": 16333,
             "name": "风语·衣·染（格挡）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "parry_value_base": 820
             }
@@ -1273,7 +1273,7 @@ ENCHANTS = {
         "风语·衣·染（气血） 最大气血值提升8198点": {
             "id": 16332,
             "name": "风语·衣·染（气血）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "max_life_base": 8199
             }
@@ -1281,7 +1281,7 @@ ENCHANTS = {
         "风语·衣·染（体质） 体质提升608点": {
             "id": 16331,
             "name": "风语·衣·染（体质）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "vitality_base": 608
             }
@@ -1361,7 +1361,7 @@ ENCHANTS = {
         "远风·衣·无双 上衣无双等级提高978": {
             "id": 16364,
             "name": "远风·衣·无双",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "strain_base": 978
             }
@@ -1369,7 +1369,7 @@ ENCHANTS = {
         "远风·衣·内防 上衣内功防御等级提高656": {
             "id": 16355,
             "name": "远风·衣·内防",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "magical_shield_base": 656
             }
@@ -1377,7 +1377,7 @@ ENCHANTS = {
         "远风·衣·外防 上衣外功防御等级提高656": {
             "id": 16354,
             "name": "远风·衣·外防",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "physical_shield_base": 656
             }
@@ -1385,7 +1385,7 @@ ENCHANTS = {
         "远风·衣·御劲 上衣御劲等级提高656": {
             "id": 16353,
             "name": "远风·衣·御劲",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "toughness_base": 656
             }
@@ -1393,7 +1393,7 @@ ENCHANTS = {
         "远风·衣·化劲 上衣化劲等级提高656": {
             "id": 16352,
             "name": "远风·衣·化劲",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "decritical_power_base": 656
             }
@@ -1443,7 +1443,7 @@ ENCHANTS = {
         "风语·鞋·绣（急速） 加速提升3279点": {
             "id": 16307,
             "name": "风语·鞋·绣（急速）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "haste_base": 3279
             }
@@ -1451,7 +1451,7 @@ ENCHANTS = {
         "风语·鞋·绣（破招） 破招提升3279点": {
             "id": 16306,
             "name": "风语·鞋·绣（破招）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "surplus_base": 3279
             }
@@ -1459,7 +1459,7 @@ ENCHANTS = {
         "风语·鞋·绣（治疗） 疗伤成效提升1592点": {
             "id": 16305,
             "name": "风语·鞋·绣（治疗）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "therapy_power_base": 1592
             }
@@ -1467,7 +1467,7 @@ ENCHANTS = {
         "风语·鞋·绣（内攻） 内功攻击提升994点": {
             "id": 16304,
             "name": "风语·鞋·绣（内攻）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_attack_power_base": 994
             }
@@ -1475,7 +1475,7 @@ ENCHANTS = {
         "风语·鞋·绣（外攻） 外功攻击提升891点": {
             "id": 16303,
             "name": "风语·鞋·绣（外攻）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_attack_power_base": 891
             }
@@ -1523,7 +1523,7 @@ ENCHANTS = {
         "风语·鞋·染（急速） 加速提升1640点": {
             "id": 16330,
             "name": "风语·鞋·染（急速）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "haste_base": 1640
             }
@@ -1531,7 +1531,7 @@ ENCHANTS = {
         "风语·鞋·染（破招） 破招提升1640点": {
             "id": 16329,
             "name": "风语·鞋·染（破招）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "surplus_base": 1640
             }
@@ -1539,7 +1539,7 @@ ENCHANTS = {
         "风语·鞋·染（治疗） 疗伤成效提升796点": {
             "id": 16328,
             "name": "风语·鞋·染（治疗）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "therapy_power_base": 796
             }
@@ -1547,7 +1547,7 @@ ENCHANTS = {
         "风语·鞋·染（内攻） 内功攻击提升497点": {
             "id": 16327,
             "name": "风语·鞋·染（内攻）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_attack_power_base": 497
             }
@@ -1555,7 +1555,7 @@ ENCHANTS = {
         "风语·鞋·染（外攻） 外功攻击提升446点": {
             "id": 16326,
             "name": "风语·鞋·染（外攻）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_attack_power_base": 446
             }
@@ -1603,7 +1603,7 @@ ENCHANTS = {
         "远风·鞋·内攻 鞋子内功攻击提高397": {
             "id": 16363,
             "name": "远风·鞋·内攻",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "magical_attack_power_base": 397
             }
@@ -1611,7 +1611,7 @@ ENCHANTS = {
         "远风·鞋·外攻 鞋子外功攻击提高356": {
             "id": 16362,
             "name": "远风·鞋·外攻",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "physical_attack_power_base": 356
             }
@@ -1619,7 +1619,7 @@ ENCHANTS = {
         "远风·鞋·破招 鞋子破招等级提高1312": {
             "id": 16361,
             "name": "远风·鞋·破招",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "surplus_base": 1312
             }
@@ -1627,7 +1627,7 @@ ENCHANTS = {
         "远风·鞋·急速 鞋子加速等级提高1312": {
             "id": 16360,
             "name": "远风·鞋·急速",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "haste_base": 1312
             }
@@ -1669,7 +1669,7 @@ ENCHANTS = {
         "风语·腕·绣（无双） 无双等级提升3279点": {
             "id": 16302,
             "name": "风语·腕·绣（无双）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "strain_base": 3279
             }
@@ -1677,7 +1677,7 @@ ENCHANTS = {
         "风语·腕·绣（会心） 全会心提升3279点": {
             "id": 16301,
             "name": "风语·腕·绣（会心）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "all_critical_strike_base": 3279
             }
@@ -1685,7 +1685,7 @@ ENCHANTS = {
         "风语·腕·绣（内破） 内功破防等级提升3279点": {
             "id": 16300,
             "name": "风语·腕·绣（内破）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_overcome_base": 3279
             }
@@ -1693,7 +1693,7 @@ ENCHANTS = {
         "风语·腕·绣（外破） 外功破防等级提升3279点": {
             "id": 16299,
             "name": "风语·腕·绣（外破）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_overcome_base": 3279
             }
@@ -1701,7 +1701,7 @@ ENCHANTS = {
         "风语·腕·绣（根骨） 根骨提升420点": {
             "id": 16297,
             "name": "风语·腕·绣（根骨）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spirit_base": 420
             }
@@ -1709,7 +1709,7 @@ ENCHANTS = {
         "风语·腕·绣（力道） 力道提升420点": {
             "id": 16296,
             "name": "风语·腕·绣（力道）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "strength_base": 420
             }
@@ -1717,7 +1717,7 @@ ENCHANTS = {
         "风语·腕·绣（元气） 元气提升420点": {
             "id": 16295,
             "name": "风语·腕·绣（元气）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spunk_base": 420
             }
@@ -1725,7 +1725,7 @@ ENCHANTS = {
         "风语·腕·绣（身法） 身法提升420点": {
             "id": 16294,
             "name": "风语·腕·绣（身法）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "agility_base": 420
             }
@@ -1797,7 +1797,7 @@ ENCHANTS = {
         "风语·腕·染（无双） 无双等级提升1640点": {
             "id": 16325,
             "name": "风语·腕·染（无双）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "strain_base": 1640
             }
@@ -1805,7 +1805,7 @@ ENCHANTS = {
         "风语·腕·染（会心） 全会心提升1640点": {
             "id": 16324,
             "name": "风语·腕·染（会心）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "all_critical_strike_base": 1640
             }
@@ -1813,7 +1813,7 @@ ENCHANTS = {
         "风语·腕·染（内破） 内功破防等级提升1640点": {
             "id": 16323,
             "name": "风语·腕·染（内破）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_overcome_base": 1640
             }
@@ -1821,7 +1821,7 @@ ENCHANTS = {
         "风语·腕·染（外破） 外功破防等级提升1640点": {
             "id": 16322,
             "name": "风语·腕·染（外破）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_overcome_base": 1640
             }
@@ -1829,7 +1829,7 @@ ENCHANTS = {
         "风语·腕·染（根骨） 根骨提升210点": {
             "id": 16320,
             "name": "风语·腕·染（根骨）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "spirit_base": 210
             }
@@ -1837,7 +1837,7 @@ ENCHANTS = {
         "风语·腕·染（力道） 力道提升210点": {
             "id": 16319,
             "name": "风语·腕·染（力道）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "strength_base": 210
             }
@@ -1845,7 +1845,7 @@ ENCHANTS = {
         "风语·腕·染（元气） 元气提升210点": {
             "id": 16318,
             "name": "风语·腕·染（元气）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "spunk_base": 210
             }
@@ -1853,7 +1853,7 @@ ENCHANTS = {
         "风语·腕·染（身法） 身法提升210点": {
             "id": 16317,
             "name": "风语·腕·染（身法）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "agility_base": 210
             }
@@ -1925,7 +1925,7 @@ ENCHANTS = {
         "远风·腕·无双 护腕无双等级提高1312": {
             "id": 16351,
             "name": "远风·腕·无双",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "strain_base": 1312
             }
@@ -1933,7 +1933,7 @@ ENCHANTS = {
         "远风·腕·内破 护腕内功破防等级提高1312": {
             "id": 16350,
             "name": "远风·腕·内破",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "magical_overcome_base": 1312
             }
@@ -1941,7 +1941,7 @@ ENCHANTS = {
         "远风·腕·外破 护腕外功破防等级提高1312": {
             "id": 16349,
             "name": "远风·腕·外破",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "physical_overcome_base": 1312
             }
@@ -1949,7 +1949,7 @@ ENCHANTS = {
         "远风·腕·会心 护腕全会心等级提高1312": {
             "id": 16341,
             "name": "远风·腕·会心",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "all_critical_strike_base": 1312
             }
@@ -1991,7 +1991,7 @@ ENCHANTS = {
         "风语·腰·铸（化劲） 化劲提升1640点": {
             "id": 16261,
             "name": "风语·腰·铸（化劲）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "decritical_power_base": 1640
             }
@@ -1999,7 +1999,7 @@ ENCHANTS = {
         "风语·腰·铸（御劲） 御劲提升1640点": {
             "id": 16260,
             "name": "风语·腰·铸（御劲）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "toughness_base": 1640
             }
@@ -2007,7 +2007,7 @@ ENCHANTS = {
         "风语·腰·铸（招架） 招架提升1640点": {
             "id": 16259,
             "name": "风语·腰·铸（招架）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "parry_base": 1640
             }
@@ -2015,7 +2015,7 @@ ENCHANTS = {
         "风语·腰·铸（内防） 内功防御提升1640点": {
             "id": 16258,
             "name": "风语·腰·铸（内防）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_shield_base": 1640
             }
@@ -2023,7 +2023,7 @@ ENCHANTS = {
         "风语·腰·铸（外防） 外功防御提升1640点": {
             "id": 16257,
             "name": "风语·腰·铸（外防）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_shield_add": 1640
             }
@@ -2031,7 +2031,7 @@ ENCHANTS = {
         "风语·腰·铸（闪避） 闪避提升1640点": {
             "id": 16256,
             "name": "风语·腰·铸（闪避）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "dodge_base": 1640
             }
@@ -2039,7 +2039,7 @@ ENCHANTS = {
         "风语·腰·铸（格挡） 拆招提升1640点": {
             "id": 16255,
             "name": "风语·腰·铸（格挡）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "parry_value_base": 1640
             }
@@ -2047,7 +2047,7 @@ ENCHANTS = {
         "风语·腰·铸（气血） 最大气血值提升16397点": {
             "id": 16254,
             "name": "风语·腰·铸（气血）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "max_life_base": 16397
             }
@@ -2055,7 +2055,7 @@ ENCHANTS = {
         "风语·腰·铸（体质） 体质提升1215点": {
             "id": 16253,
             "name": "风语·腰·铸（体质）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "vitality_base": 1215
             }
@@ -2135,7 +2135,7 @@ ENCHANTS = {
         "风语·腰·甲（化劲） 化劲提升820点": {
             "id": 16284,
             "name": "风语·腰·甲（化劲）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "toughness_base": 820
             }
@@ -2143,7 +2143,7 @@ ENCHANTS = {
         "风语·腰·甲（御劲） 御劲提升820点": {
             "id": 16283,
             "name": "风语·腰·甲（御劲）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "decritical_power_base": 820
             }
@@ -2151,7 +2151,7 @@ ENCHANTS = {
         "风语·腰·甲（招架） 招架提升820点": {
             "id": 16282,
             "name": "风语·腰·甲（招架）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "parry_base": 820
             }
@@ -2159,7 +2159,7 @@ ENCHANTS = {
         "风语·腰·甲（内防） 内功防御提升820点": {
             "id": 16281,
             "name": "风语·腰·甲（内防）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_shield_base": 820
             }
@@ -2167,7 +2167,7 @@ ENCHANTS = {
         "风语·腰·甲（外防） 外功防御提升820点": {
             "id": 16280,
             "name": "风语·腰·甲（外防）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_shield_add": 820
             }
@@ -2175,7 +2175,7 @@ ENCHANTS = {
         "风语·腰·甲（闪避） 闪避提升820点": {
             "id": 16279,
             "name": "风语·腰·甲（闪避）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "dodge_base": 820
             }
@@ -2183,7 +2183,7 @@ ENCHANTS = {
         "风语·腰·甲（格挡） 拆招提升820点": {
             "id": 16278,
             "name": "风语·腰·甲（格挡）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "parry_value_base": 820
             }
@@ -2191,7 +2191,7 @@ ENCHANTS = {
         "风语·腰·甲（气血） 最大气血值提升8199点": {
             "id": 16277,
             "name": "风语·腰·甲（气血）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "max_life_base": 8199
             }
@@ -2199,7 +2199,7 @@ ENCHANTS = {
         "风语·腰·甲（体质） 体质提升608点": {
             "id": 16276,
             "name": "风语·腰·甲（体质）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "vitality_base": 608
             }
@@ -2279,7 +2279,7 @@ ENCHANTS = {
         "远风·腰·无双 腰带无双等级提高978": {
             "id": 16365,
             "name": "远风·腰·无双",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "strain_base": 978
             }
@@ -2287,7 +2287,7 @@ ENCHANTS = {
         "远风·腰·内防 腰带内功防御等级提高656": {
             "id": 16359,
             "name": "远风·腰·内防",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "magical_shield_base": 656
             }
@@ -2295,7 +2295,7 @@ ENCHANTS = {
         "远风·腰·外防 腰带外功防御等级提高656": {
             "id": 16358,
             "name": "远风·腰·外防",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "physical_shield_base": 656
             }
@@ -2303,7 +2303,7 @@ ENCHANTS = {
         "远风·腰·御劲 腰带御劲等级提高656": {
             "id": 16357,
             "name": "远风·腰·御劲",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "toughness_base": 656
             }
@@ -2311,7 +2311,7 @@ ENCHANTS = {
         "远风·腰·化劲 腰带化劲等级提高656": {
             "id": 16356,
             "name": "远风·腰·化劲",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "decritical_power_base": 656
             }
@@ -2361,7 +2361,7 @@ ENCHANTS = {
         "风语·头·铸（急速） 加速提升3279点": {
             "id": 16252,
             "name": "风语·头·铸（急速）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "haste_base": 3279
             }
@@ -2369,7 +2369,7 @@ ENCHANTS = {
         "风语·头·铸（破招） 破招提升3279点": {
             "id": 16251,
             "name": "风语·头·铸（破招）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "surplus_base": 3279
             }
@@ -2377,7 +2377,7 @@ ENCHANTS = {
         "风语·头·铸（治疗） 疗伤成效提升1592点": {
             "id": 16250,
             "name": "风语·头·铸（治疗）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "therapy_power_base": 1592
             }
@@ -2385,7 +2385,7 @@ ENCHANTS = {
         "风语·头·铸（内攻） 内功攻击提升994点": {
             "id": 16249,
             "name": "风语·头·铸（内攻）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_attack_power_base": 994
             }
@@ -2393,7 +2393,7 @@ ENCHANTS = {
         "风语·头·铸（外攻） 外功攻击提升891点": {
             "id": 16248,
             "name": "风语·头·铸（外攻）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_attack_power_base": 891
             }
@@ -2441,7 +2441,7 @@ ENCHANTS = {
         "风语·头·甲（急速） 加速提升1640点": {
             "id": 16275,
             "name": "风语·头·甲（急速）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "haste_base": 1640
             }
@@ -2449,7 +2449,7 @@ ENCHANTS = {
         "风语·头·甲（破招） 破招提升1640点": {
             "id": 16274,
             "name": "风语·头·甲（破招）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "surplus_base": 1640
             }
@@ -2457,7 +2457,7 @@ ENCHANTS = {
         "风语·头·甲（治疗） 疗伤成效提升796点": {
             "id": 16273,
             "name": "风语·头·甲（治疗）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "therapy_power_base": 796
             }
@@ -2465,7 +2465,7 @@ ENCHANTS = {
         "风语·头·甲（内攻） 内功攻击提升497点": {
             "id": 16272,
             "name": "风语·头·甲（内攻）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_attack_power_base": 497
             }
@@ -2473,7 +2473,7 @@ ENCHANTS = {
         "风语·头·甲（外攻） 外功攻击提升446点": {
             "id": 16271,
             "name": "风语·头·甲（外攻）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_attack_power_base": 446
             }
@@ -2521,7 +2521,7 @@ ENCHANTS = {
         "远风·头·治疗 帽子治疗成效提高637": {
             "id": 16348,
             "name": "远风·头·治疗",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "therapy_power_base": 637
             }
@@ -2529,7 +2529,7 @@ ENCHANTS = {
         "远风·头·内攻 帽子内功攻击提高397": {
             "id": 16347,
             "name": "远风·头·内攻",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "magical_attack_power_base": 397
             }
@@ -2537,7 +2537,7 @@ ENCHANTS = {
         "远风·头·外攻 帽子外功攻击提高356": {
             "id": 16346,
             "name": "远风·头·外攻",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "physical_attack_power_base": 356
             }
@@ -2545,7 +2545,7 @@ ENCHANTS = {
         "远风·头·急速 帽子加速等级提高1312": {
             "id": 16342,
             "name": "远风·头·急速",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "haste_base": 1312
             }
@@ -2587,7 +2587,7 @@ ENCHANTS = {
         "风语·裤·铸（无双） 无双等级提升3279点": {
             "id": 16247,
             "name": "风语·裤·铸（无双）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "strain_base": 3279
             }
@@ -2595,7 +2595,7 @@ ENCHANTS = {
         "风语·裤·铸（会心） 全会心提升3279点": {
             "id": 16246,
             "name": "风语·裤·铸（会心）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "all_critical_strike_base": 3279
             }
@@ -2603,7 +2603,7 @@ ENCHANTS = {
         "风语·裤·铸（内破） 内功破防等级提升3279点": {
             "id": 16245,
             "name": "风语·裤·铸（内破）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_overcome_base": 3279
             }
@@ -2611,7 +2611,7 @@ ENCHANTS = {
         "风语·裤·铸（外破） 外功破防等级提升3279点": {
             "id": 16244,
             "name": "风语·裤·铸（外破）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_overcome_base": 3279
             }
@@ -2619,7 +2619,7 @@ ENCHANTS = {
         "风语·裤·铸（根骨） 根骨提升420点": {
             "id": 16242,
             "name": "风语·裤·铸（根骨）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spirit_base": 420
             }
@@ -2627,7 +2627,7 @@ ENCHANTS = {
         "风语·裤·铸（力道） 力道提升420点": {
             "id": 16241,
             "name": "风语·裤·铸（力道）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "strength_base": 420
             }
@@ -2635,7 +2635,7 @@ ENCHANTS = {
         "风语·裤·铸（元气） 元气提升420点": {
             "id": 16240,
             "name": "风语·裤·铸（元气）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "spunk_base": 420
             }
@@ -2643,7 +2643,7 @@ ENCHANTS = {
         "风语·裤·铸（身法） 身法提升420点": {
             "id": 16239,
             "name": "风语·裤·铸（身法）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "agility_base": 420
             }
@@ -2715,7 +2715,7 @@ ENCHANTS = {
         "风语·裤·甲（无双） 无双等级提升1640点": {
             "id": 16270,
             "name": "风语·裤·甲（无双）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "strain_base": 1640
             }
@@ -2723,7 +2723,7 @@ ENCHANTS = {
         "风语·裤·甲（会心） 全会心提升1640点": {
             "id": 16269,
             "name": "风语·裤·甲（会心）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "all_critical_strike_base": 1640
             }
@@ -2731,7 +2731,7 @@ ENCHANTS = {
         "风语·裤·甲（内破） 内功破防等级提升1640点": {
             "id": 16268,
             "name": "风语·裤·甲（内破）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_overcome_base": 1640
             }
@@ -2739,7 +2739,7 @@ ENCHANTS = {
         "风语·裤·甲（外破） 外功破防等级提升1640点": {
             "id": 16267,
             "name": "风语·裤·甲（外破）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_overcome_base": 1640
             }
@@ -2747,7 +2747,7 @@ ENCHANTS = {
         "风语·裤·甲（根骨） 根骨提升210点": {
             "id": 16265,
             "name": "风语·裤·甲（根骨）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "spirit_base": 210
             }
@@ -2755,7 +2755,7 @@ ENCHANTS = {
         "风语·裤·甲（力道） 力道提升210点": {
             "id": 16264,
             "name": "风语·裤·甲（力道）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "strength_base": 210
             }
@@ -2763,7 +2763,7 @@ ENCHANTS = {
         "风语·裤·甲（元气） 元气提升210点": {
             "id": 16263,
             "name": "风语·裤·甲（元气）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "spunk_base": 210
             }
@@ -2771,7 +2771,7 @@ ENCHANTS = {
         "风语·裤·甲（身法） 身法提升210点": {
             "id": 16262,
             "name": "风语·裤·甲（身法）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "agility_base": 210
             }
@@ -2843,7 +2843,7 @@ ENCHANTS = {
         "远风·裤·无双 下装无双等级提高1312": {
             "id": 16345,
             "name": "远风·裤·无双",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "strain_base": 1312
             }
@@ -2851,7 +2851,7 @@ ENCHANTS = {
         "远风·裤·内破 下装内功破防等级提高1312": {
             "id": 16344,
             "name": "远风·裤·内破",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "magical_overcome_base": 1312
             }
@@ -2859,7 +2859,7 @@ ENCHANTS = {
         "远风·裤·外破 下装外功破防等级提高1312": {
             "id": 16343,
             "name": "远风·裤·外破",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "physical_overcome_base": 1312
             }
@@ -2867,7 +2867,7 @@ ENCHANTS = {
         "远风·裤·会心 下装全会心等级提高1312": {
             "id": 16340,
             "name": "远风·裤·会心",
-            "score": 1146,
+            "score": 1341,
             "attributes": {
                 "all_critical_strike_base": 1312
             }
@@ -2909,7 +2909,7 @@ ENCHANTS = {
         "风语·兵·铸（武伤） 武器伤害提升1344点": {
             "id": 16237,
             "name": "风语·兵·铸（武伤）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "weapon_damage_base": 1344
             }
@@ -2917,7 +2917,7 @@ ENCHANTS = {
         "风语·兵·铸（疗伤） 疗伤成效提升1592点": {
             "id": 16236,
             "name": "风语·兵·铸（疗伤）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "therapy_power_base": 1592
             }
@@ -2925,7 +2925,7 @@ ENCHANTS = {
         "风语·兵·铸（内攻） 内功攻击提升994点": {
             "id": 16235,
             "name": "风语·兵·铸（内攻）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "magical_attack_power_base": 994
             }
@@ -2933,7 +2933,7 @@ ENCHANTS = {
         "风语·兵·铸（外攻） 外功攻击提升891点": {
             "id": 16234,
             "name": "风语·兵·铸（外攻）",
-            "score": 2877,
+            "score": 3368,
             "attributes": {
                 "physical_attack_power_base": 891
             }
@@ -2973,7 +2973,7 @@ ENCHANTS = {
         "风语·兵·甲（武伤） 武器伤害提升672点": {
             "id": 16288,
             "name": "风语·兵·甲（武伤）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "weapon_damage_base": 672
             }
@@ -2981,7 +2981,7 @@ ENCHANTS = {
         "风语·兵·甲（疗伤） 疗伤成效提升796点": {
             "id": 16287,
             "name": "风语·兵·甲（疗伤）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "therapy_power_base": 796
             }
@@ -2989,7 +2989,7 @@ ENCHANTS = {
         "风语·兵·甲（内攻） 内功攻击提升497点": {
             "id": 16286,
             "name": "风语·兵·甲（内攻）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "magical_attack_power_base": 497
             }
@@ -2997,7 +2997,7 @@ ENCHANTS = {
         "风语·兵·甲（外攻） 外功攻击提升446点": {
             "id": 16285,
             "name": "风语·兵·甲（外攻）",
-            "score": 1436,
+            "score": 1681,
             "attributes": {
                 "physical_attack_power_base": 446
             }

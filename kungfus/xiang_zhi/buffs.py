@@ -1,1 +1,1 @@
-BUFFS: dict[int, list[int]] = {}
+BUFFS: dict[int, dict[int, dict]] = {}

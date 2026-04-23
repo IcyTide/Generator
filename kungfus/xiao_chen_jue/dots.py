@@ -1,3 +1,5 @@
-DOTS: dict[int, dict[int, list[int]]] = {
-    5262: {6367: [6853]}
+DOTS: dict[int, dict[int, dict]] = {
+    5262: {
+        6367: dict(skills={6853: {}})
+    }
 }

@@ -11,8 +11,6 @@ from kungfus import wu_fang_mobile, you_luo_yin_mobile, zi_xia_gong_mobile
 
 class Kungfu:
     def __init__(self, kungfu):
-        self.buff_patches = kungfu.BUFF_PATCHES
-        self.skill_patches = kungfu.SKILL_PATCHES
         self.kungfu_id = self.attribute = kungfu.ATTRIBUTE
         self.kind = kungfu.KIND
         self.major = kungfu.MAJOR
@@ -57,11 +55,11 @@ SUPPORT_KUNGFUS: list[Kungfu] = [
     Kungfu(shan_hai_xin_jue),
     Kungfu(zhou_tian_gong),
     Kungfu(you_luo_yin),
-
-    Kungfu(zi_xia_gong_mobile),
-    Kungfu(bei_ao_jue_mobile),
-    Kungfu(wu_fang_mobile),
-    Kungfu(tai_xuan_jing_mobile),
-    Kungfu(zhou_tian_gong_mobile),
-    Kungfu(you_luo_yin_mobile)
+    #
+    # Kungfu(zi_xia_gong_mobile),
+    # Kungfu(bei_ao_jue_mobile),
+    # Kungfu(wu_fang_mobile),
+    # Kungfu(tai_xuan_jing_mobile),
+    # Kungfu(zhou_tian_gong_mobile),
+    # Kungfu(you_luo_yin_mobile)
 ]

@@ -93,7 +93,7 @@ class Skill(AliasBase):
             self.script_path = Path(self.path) / self.script_file
 
         self.patches = patches if patches else {}
-        set_patches(self, self.patches, skill_id, skill_level)
+        set_patches(self, self.patches, skill_level)
 
     def __getattr__(self, item):
         if self.recipe_key and item == "nChannelInterval":

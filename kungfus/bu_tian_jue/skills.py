@@ -1,1 +1,1 @@
-SKILLS: dict[int, list[int]] = {}
+SKILLS: dict[int, dict[int, dict]] = {}

@@ -1,13 +1,13 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        25203: dict(skills=[25208, 25205]),
+        25203: dict(skills={25208: dict(comment="冲锋"), 25205: dict(comment="终点")}),
         14849: {},
         15072: {},
-        25213: dict(skills=[25215])
+        25213: dict(skills={25215: {}})
     },
     {
         26729: {},
-        26897: dict(skills=[26898]),
+        26897: dict(skills={26898: {}}),
         25216: {},
         13071: {}
     },
@@ -15,31 +15,31 @@ TALENTS: list[dict[int, dict]] = [
         14840: {},
         13171: {},
         13420: {},
-        13134: dict(buffs=[8271, 17772])
+        13134: dict(buffs={8271: dict(comment="150"), 17772: dict(name="寒甲", comment="15000")})
     },
     {
-        13421: dict(buffs=[33532]),
+        13421: dict(buffs={8448: {}}),
         13422: {},
-        13418: dict(skills=[21431]),
+        13418: dict(skills={21431: {}}),
         13113: {}
     },
     {
         44566: {},
         13364: {},
-        39045: dict(buffs=[9889]),
+        39045: dict(buffs={33532: {}}),
         13138: {}
     },
     {
-        13132: dict(dots={8249: [13308, 29186]}),
+        13132: dict(dots={8249: dict(levels=[22], skills={13308: dict(comment="闪刀"), 29186: dict(comment="斩刀")})}),
         13133: {},
-        34912: dict(skills=[34674, 37448]),
+        34912: dict(skills={34674: {}, 34673: dict(levels=[1])}),
         13124: {}
     },
     {
         34540: {},
         13363: {},
-        13356: dict(buffs=[8418]),
-        13366: dict(buffs=[8423]),
+        13356: dict(buffs={8418: {}}),
+        13366: dict(buffs={8423: {}}),
         13367: {},
         13321: {},
         13073: {},

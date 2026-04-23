@@ -1,10 +1,8 @@
-from gains import consumables, formations, gears, patches, teams
+from gains import consumables, formations, gears, teams
 from kungfus import Kungfu
 
 
 class Gain:
-    BUFF_PATCHES = patches.BUFF_PATCHES
-    SKILL_PATCHES = patches.SKILL_PATCHES
     ATTRIBUTE: int = 0
     KIND: str = ""
     MAJOR: str = ""
