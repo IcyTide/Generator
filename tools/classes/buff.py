@@ -63,7 +63,7 @@ class Buff(AliasBase):
 
         self.buff_key = Variable(get_variable("buff", self.buff_id, self.buff_level))
         self.patches = patches if patches else {}
-        set_patches(self, self.patches, buff_id, buff_level)
+        set_patches(self, self.patches, buff_level)
 
     def get_attributes(self, prefix):
         i = 0

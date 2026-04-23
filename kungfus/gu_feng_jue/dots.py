@@ -1,5 +1,7 @@
-DOTS: dict[int, dict[int, list[int]]] = {
+DOTS: dict[int, dict[int, dict]] = {
     32144: {
-        24132: [32369, 32370, 32371, 32372]
+        24132: dict(skills={
+            skill_id: dict(comment=f"{i + 1}层流血") for i, skill_id in enumerate([32372, 32371, 32370, 32369])
+        })
     }
 }

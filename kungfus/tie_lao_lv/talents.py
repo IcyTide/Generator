@@ -3,13 +3,21 @@ TALENTS: list[dict[int, dict]] = [
         14804: {},
         14826: {},
         15115: {},
-        44599: dict(buffs=[33234], skills=[24843])
+        44599: dict(
+            buffs={33234: {}},
+            skills={
+                24843: {
+                    **{i + 1: dict(comment=f"蓄力{delay}帧") for i, delay in enumerate([0, 12, 23])},
+                    **{i + 4: dict(comment=f"蓄力{delay}帧(<80%血量)") for i, delay in enumerate([0, 12, 23])}
+                }
+            }
+        )
     },
     {
         14822: {},
         14802: {},
         24902: {},
-        6781: dict(buffs=[26008])
+        6781: dict(buffs={26008: dict(name="战心")})
     },
     {
         14799: {},
@@ -20,14 +28,14 @@ TALENTS: list[dict[int, dict]] = [
     {
         42574: {},
         6514: {},
-        25354: dict(buffs=[18222]),
+        25354: dict(buffs={18222: dict(levels=[2])}),
         44373: {}
     },
     {
         14827: {},
         18487: {},
         5700: {},
-        24895: dict(skills=[24894])
+        24895: dict(skills={24894: {}})
     },
     {
         5669: {},
@@ -38,12 +46,15 @@ TALENTS: list[dict[int, dict]] = [
     {
         18602: {},
         5658: {},
-        5659: dict(skills=[37618]),
-        402: dict(skills=[402]),
-        18226: dict(dots={12461: [401]}, skills=[36568]),
+        5659: dict(skills={37618: {}}),
+        402: dict(skills={402: {}}),
+        18226: dict(
+            dots={12461: dict(skills={401: {}})},
+            skills={36568: {}}
+        ),
         5682: {},
         5695: {},
-        482: dict(skills=[483]),
+        482: dict(skills={483: {}}),
         18238: {},
         5702: {},
         40300: {},

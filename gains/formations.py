@@ -26,4 +26,19 @@ FORMATIONS: dict[int, list] = {
     # mobile
     102268: [71338, 0, 0, 0]
 }
-GAINS: dict[int, dict] = {k: dict(buffs=[e for e in v if e]) for k, v in FORMATIONS.items()}
+GAIN_PATCHES = {
+    102268: dict(name="江湖行侠阵")
+}
+BUFF_PATCHES = {
+    **{
+        buff_id: dict(levels=[6]) for buff_id in [
+            919, 938, 947, 934, 930, 952, 1924, 2512, 3306, 3307, 4579, 6342, 10954, 14074, 15957, 18335, 21035, 24578,
+            27236, 29481, 31962
+        ]
+    },
+    18336: dict(comment="{}")
+}
+GAINS: dict[int, dict] = {
+    k: GAIN_PATCHES.get(k, {}) | dict(buffs={e: BUFF_PATCHES.get(e, {}) for e in v if e})
+    for k, v in FORMATIONS.items()
+}

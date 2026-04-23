@@ -1,4 +1,5 @@
 import json
+import logging
 import os
 import re
 import string
@@ -9,7 +10,7 @@ import pandas as pd
 from tools.lua.enums import ATTRIBUTE_TYPE
 
 formatter = string.Formatter()
-
+logging.basicConfig(level=logging.INFO)
 
 def camel_to_snake(s):
     s1 = re.sub(r'^[a-z0-9]+', '', s)
@@ -56,26 +57,26 @@ def process_attr_param(attr, param_1, param_2):
     return param_1 or param_2
 
 
-def set_patches(instance, patch_map, key, sub_key):
+def set_patches(instance, patches, level):
     levels = []
-    sub_patch_map = {}
-    for k, v in patch_map.get(key, {}).items():
+    sub_patches = {}
+    for k, v in patches.items():
         if isinstance(k, int):
             if k <= 0:
                 k += instance.max_level
-            sub_patch_map[k] = v
+            sub_patches[k] = v
             levels.append(k)
             continue
         elif isinstance(k, float):
             k = int(instance.max_level * k)
-            sub_patch_map[k] = v
+            sub_patches[k] = v
             levels.append(k)
             continue
         if isinstance(v, (list, str)):
             instance[k] += v
         else:
             instance[k] = v
-    for k, v in sub_patch_map.get(sub_key, {}).items():
+    for k, v in sub_patches.get(level, {}).items():
         if isinstance(v, (list, str)):
             instance[k] += v
         else:
@@ -88,11 +89,11 @@ def set_patches(instance, patch_map, key, sub_key):
         for _, field, _, _ in formatter.parse(instance.comment):
             if not field:
                 continue
-            args[field] = eval(field, dict(level=sub_key, alias=instance.alias_name))
+            args[field] = eval(field, dict(level=level, alias=instance.alias_name))
         if args:
             instance.comment = instance.comment.format(**args)
         else:
-            instance.comment = instance.comment.format(sub_key)
+            instance.comment = instance.comment.format(level)
     if not levels:
         levels = [instance.max_level]
     if not instance.levels:
@@ -127,7 +128,7 @@ def read_tab(*files):
 
 
 def save_code(prefix, data):
-    print(f"Saving {prefix} asset code")
+    logging.info(f"Saving {prefix} asset code")
     code = json.dumps(
         data, indent=4, ensure_ascii=False, default=lambda x: {k: v for k, v in x.to_dict().items() if v}
     )
@@ -137,6 +138,6 @@ def save_code(prefix, data):
 
 
 def save_json(prefix, data):
-    print(f"Saving {prefix} asset json")
+    logging.info(f"Saving {prefix} asset json")
     with open(os.path.join(JSON_DIR, f"{prefix.lower()}.json"), "w", encoding="utf-8") as f:
         json.dump(data, f, indent=4, ensure_ascii=False, default=lambda x: {k: v for k, v in x.to_dict().items() if v})

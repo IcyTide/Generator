@@ -3,13 +3,13 @@ TALENTS: list[dict[int, dict]] = [
         14678: {},
         14679: {},
         14680: {},
-        14922: dict(skills=[14922])
+        14922: dict(skills={14922: {}})
     },
     {
-        5990: dict(skills=[6734]),
+        5990: dict(skills={6734: {}}),
         6743: {},
         6896: {},
-        25355: dict(buffs=[18222])
+        25355: dict(buffs={18222: dict(levels=[3])})
     },
     {
         26717: {},
@@ -18,27 +18,30 @@ TALENTS: list[dict[int, dict]] = [
         3981: {}
     },
     {
-        25166: dict(buffs=[1], skills=[26708, 26709]),
+        25166: dict(
+            buffs={1: dict(name="净体不畏", attributes=[("coming_damage_cof", 512)], skills=[40088, 40089])},
+            skills={26708: {}, 26709: {}}
+        ),
         14675: {},
         14674: {},
-        18296: dict(skills=[42566])
+        18296: dict(skills={42565: {}, 42566: {}, 32816: {6: dict(comment="阳性"), 7: dict(comment="阴性")}})
     },
     {
         6895: {},
         14677: {},
-        25160: dict(buffs=[33108]),
+        25160: dict(buffs={33108: {}}),
         18298: {}
     },
     {
-        6760: dict(skills=[40255]),
+        6760: dict(skills={40255: {}}),
         6898: {},
         21835: {},
         6771: {}
     },
     {
-        3961: dict(skills=[3961]),
+        3961: dict(skills={3961: {}}),
         5974: {},
-        18279: dict(skills=[40931, 40932]),
+        18279: dict(skills={40931: {}, 40932: {}}),
         6718: {},
         6766: {},
         6897: {},
@@ -46,7 +49,7 @@ TALENTS: list[dict[int, dict]] = [
         6763: {},
         6753: {},
         6000: {},
-        25178: dict(skills=[25179]),
+        25178: dict(skills={25179: {}}),
         44569: {}
     }
 ]

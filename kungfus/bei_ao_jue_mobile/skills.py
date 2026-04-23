@@ -1,4 +1,4 @@
-SKILLS: dict[int, list[int]] = {
+SKILLS: dict[int, dict[int, dict]] = {
     100999: [100999, 101000, 101001, 101050],
     101002: [101002],
     101003: [101003],

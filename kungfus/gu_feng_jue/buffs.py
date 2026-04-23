@@ -1,4 +1,5 @@
-BUFFS: dict[int, list[int]] = {
-    10698: [32797],
-    32419: [24168]
+BUFFS: dict[int, dict[int, dict]] = {
+    32419: {
+        24168: dict(levels=[4])
+    }
 }

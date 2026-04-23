@@ -8,8 +8,8 @@ class Dot(Buff):
     active_coefficient = 0
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
         self.skills = {}
+        super().__init__(*args, **kwargs)
 
     @property
     def sources(self):

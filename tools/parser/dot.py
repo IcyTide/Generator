@@ -1,14 +1,16 @@
 from base.expression import Variable
-from qt.classes.skill import Skill
+from tools.classes.skill import Skill
 from tools.classes.dot import Dot
 from tools.parser.skill import parse_skill
 
 
 def parse_dot(dot: Dot):
     result = {}
-    skill_ids: dict[int, Skill] = dot.skills
     for buff_level in dot.levels:
-        dot, dot.skills = Dot(dot.buff_id, buff_level, dot.patches), {}
+        dot = Dot(dot.buff_id, buff_level, dot.patches)
+        skill_ids: dict[int, Skill] = {
+            skill_id: Skill(skill_id, patches=patches) for skill_id, patches in dot.skills.items()
+        }
         for skill_id in skill_ids:
             dot.skills[skill_id] = skill_levels = parse_skill(skill_ids[skill_id])
             for skill_level, skill in skill_levels.items():
