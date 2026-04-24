@@ -4955,6 +4955,87 @@ BUFFS = {
         },
         10067: {
             29274: {
+                1: {
+                    "name": "风语·皮蛋瘦肉粥",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 2126
+                    }
+                },
+                2: {
+                    "name": "风语·杂锦鱼球粥",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "agility_base": 736
+                    }
+                },
+                3: {
+                    "name": "风语·鱼片砂锅粥",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_base": 736
+                    }
+                },
+                4: {
+                    "name": "风语·三鲜粥",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strength_base": 736
+                    }
+                },
+                5: {
+                    "name": "风语·咸骨粥",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spirit_base": 736
+                    }
+                },
+                6: {
+                    "name": "风语·贡丸汤",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 1063
+                    }
+                },
+                7: {
+                    "name": "风语·杂碎汤",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "agility_base": 368
+                    }
+                },
+                8: {
+                    "name": "风语·鱼头豆腐汤",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_base": 368
+                    }
+                },
+                9: {
+                    "name": "风语·三鲜汤",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strength_base": 368
+                    }
+                },
                 10: {
                     "name": "风语·老火骨汤",
                     "interval": 28800,
@@ -4966,6 +5047,138 @@ BUFFS = {
                 }
             },
             29276: {
+                1: {
+                    "name": "风语·酸菜鱼",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 5739
+                    }
+                },
+                2: {
+                    "name": "风语·红烧排骨",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 5739
+                    }
+                },
+                3: {
+                    "name": "风语·白肉血肠",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 5739
+                    }
+                },
+                4: {
+                    "name": "风语·红烧扣肉",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "haste_base": 5739
+                    }
+                },
+                5: {
+                    "name": "风语·太后饼",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 1559
+                    }
+                },
+                6: {
+                    "name": "风语·灌汤包",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 1739
+                    }
+                },
+                7: {
+                    "name": "风语·骨肉相连",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 2786
+                    }
+                },
+                8: {
+                    "name": "风语·炸酱面",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1
+                },
+                9: {
+                    "name": "风语·鱼香肉丝",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 2869
+                    }
+                },
+                10: {
+                    "name": "风语·水煮肉片",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 2869
+                    }
+                },
+                11: {
+                    "name": "风语·毛血旺",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 2869
+                    }
+                },
+                12: {
+                    "name": "风语·栗子烧肉",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "haste_base": 2869
+                    }
+                },
+                13: {
+                    "name": "风语·煎饼果子",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 779
+                    }
+                },
+                14: {
+                    "name": "风语·鲜肉包子",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 869
+                    }
+                },
+                15: {
+                    "name": "风语·白汁芦筋",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 1393
+                    }
+                },
                 16: {
                     "name": "风语·杂碎面",
                     "interval": 28800,
@@ -4974,6 +5187,60 @@ BUFFS = {
                 }
             },
             29284: {
+                1: {
+                    "name": "风语·玉笛谁家听落梅",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 891,
+                        "all_critical_strike_base": 3280,
+                        "surplus_base": 3280
+                    }
+                },
+                2: {
+                    "name": "风语·二十四桥明月夜",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 994,
+                        "all_critical_strike_base": 3280,
+                        "surplus_base": 3280
+                    }
+                },
+                3: {
+                    "name": "风语·鸳鸯烩珍宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 1592,
+                        "all_critical_strike_base": 3280,
+                        "haste_base": 3280
+                    }
+                },
+                4: {
+                    "name": "风语·蜀味烘焙宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 1215,
+                        "max_life_add": 16397
+                    }
+                },
+                5: {
+                    "name": "风语·鸿门宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 1215,
+                        "decritical_power_base": 1640,
+                        "toughness_base": 1640
+                    }
+                },
                 6: {
                     "name": "风语·团圆宴",
                     "interval": 57600,
@@ -4985,6 +5252,42 @@ BUFFS = {
                 }
             },
             29285: {
+                1: {
+                    "name": "风语·水晶芙蓉宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 2429
+                    }
+                },
+                2: {
+                    "name": "风语·水晶芙蓉宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "agility_base": 841
+                    }
+                },
+                3: {
+                    "name": "风语·水晶芙蓉宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_base": 841
+                    }
+                },
+                4: {
+                    "name": "风语·水晶芙蓉宴",
+                    "interval": 57600,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strength_base": 841
+                    }
+                },
                 5: {
                     "name": "风语·水晶芙蓉宴",
                     "interval": 57600,
@@ -4998,6 +5301,87 @@ BUFFS = {
         },
         10071: {
             29288: {
+                1: {
+                    "name": "风语·上品健体丸",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 2733
+                    }
+                },
+                2: {
+                    "name": "风语·上品轻身丹",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "agility_base": 946
+                    }
+                },
+                3: {
+                    "name": "风语·上品聚魂丹",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_base": 946
+                    }
+                },
+                4: {
+                    "name": "风语·上品大力丸",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strength_base": 946
+                    }
+                },
+                5: {
+                    "name": "风语·上品静心丸",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spirit_base": 946
+                    }
+                },
+                6: {
+                    "name": "风语·中品健体丸",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_base": 1366
+                    }
+                },
+                7: {
+                    "name": "风语·中品轻身丹",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "agility_base": 473
+                    }
+                },
+                8: {
+                    "name": "风语·中品聚魂丹",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_base": 473
+                    }
+                },
+                9: {
+                    "name": "风语·中品大力丸",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strength_base": 473
+                    }
+                },
                 10: {
                     "name": "风语·中品静心丸",
                     "interval": 28800,
@@ -5009,6 +5393,138 @@ BUFFS = {
                 }
             },
             29289: {
+                1: {
+                    "name": "风语·上品玉璃散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 7379
+                    }
+                },
+                2: {
+                    "name": "风语·上品破秽散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 7379
+                    }
+                },
+                3: {
+                    "name": "风语·上品凝神散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 7379
+                    }
+                },
+                4: {
+                    "name": "风语·上品活气散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "haste_base": 7379
+                    }
+                },
+                5: {
+                    "name": "风语·上品亢龙散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 2005
+                    }
+                },
+                6: {
+                    "name": "风语·上品展凤散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 2236
+                    }
+                },
+                7: {
+                    "name": "风语·上品益气散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 3582
+                    }
+                },
+                8: {
+                    "name": "风语·上品长恨散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1
+                },
+                9: {
+                    "name": "风语·中品玉璃散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 3689
+                    }
+                },
+                10: {
+                    "name": "风语·中品破秽散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 3689
+                    }
+                },
+                11: {
+                    "name": "风语·中品凝神散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 3689
+                    }
+                },
+                12: {
+                    "name": "风语·中品活气散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "haste_base": 3689
+                    }
+                },
+                13: {
+                    "name": "风语·中品亢龙散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 1002
+                    }
+                },
+                14: {
+                    "name": "风语·中品展凤散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 1118
+                    }
+                },
+                15: {
+                    "name": "风语·中品益气散",
+                    "interval": 28800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 1791
+                    }
+                },
                 16: {
                     "name": "风语·中品长恨散",
                     "interval": 28800,
@@ -6781,6 +7297,150 @@ BUFFS = {
         },
         39088: {
             29608: {
+                1: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 864
+                    }
+                },
+                2: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 671
+                    }
+                },
+                3: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 718
+                    }
+                },
+                4: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 765
+                    }
+                },
+                5: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 814
+                    }
+                },
+                6: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 930
+                    }
+                },
+                7: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 997
+                    }
+                },
+                8: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1080
+                    }
+                },
+                9: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1166
+                    }
+                },
+                10: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 769
+                    }
+                },
+                11: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 848
+                    }
+                },
+                12: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 926
+                    }
+                },
+                13: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1005
+                    }
+                },
+                14: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1099
+                    }
+                },
+                15: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1241
+                    }
+                },
+                16: {
+                    "name": "神兵·无双",
+                    "interval": 96,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1272
+                    }
+                },
                 17: {
                     "name": "神兵·无双",
                     "interval": 96,
@@ -7191,6 +7851,22 @@ BUFFS = {
         },
         41063: {
             30946: {
+                1: {
+                    "name": "防御腰带特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 2196
+                    }
+                },
+                2: {
+                    "name": "防御腰带特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 2568
+                    }
+                },
                 3: {
                     "name": "防御腰带特效",
                     "max_stack": 1,
@@ -7203,51 +7879,121 @@ BUFFS = {
         },
         40802: {
             30755: {
-                6: {
+                1: {
                     "name": "破防戒指特效",
                     "interval": 160,
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_overcome_base": 3856
+                        "all_overcome_base": 1412
+                    }
+                },
+                3: {
+                    "name": "破防戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 1650
+                    }
+                },
+                5: {
+                    "name": "破防戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 1928
                     }
                 }
             }
         },
         40803: {
             30756: {
-                6: {
+                1: {
                     "name": "会心戒指特效",
                     "interval": 160,
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_critical_strike_base": 3856
+                        "all_critical_strike_base": 1412
+                    }
+                },
+                3: {
+                    "name": "会心戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 1650
+                    }
+                },
+                5: {
+                    "name": "会心戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 1928
                     }
                 }
             }
         },
         40804: {
             30757: {
-                6: {
+                1: {
                     "name": "破招戒指特效",
                     "interval": 160,
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "surplus_base": 3856
+                        "surplus_base": 1412
+                    }
+                },
+                3: {
+                    "name": "破招戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 1650
+                    }
+                },
+                5: {
+                    "name": "破招戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "surplus_base": 1928
                     }
                 }
             }
         },
         41065: {
             30950: {
-                6: {
+                1: {
                     "name": "防御戒指特效",
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 3856
+                        "strain_base": 1412
+                    }
+                },
+                3: {
+                    "name": "防御戒指特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1650
+                    }
+                },
+                5: {
+                    "name": "防御戒指特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 1928
                     }
                 }
             }
@@ -7408,6 +8154,42 @@ BUFFS = {
         },
         38939: {
             29524: {
+                4: {
+                    "name": "会心鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 4393
+                    }
+                },
+                5: {
+                    "name": "会心鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 4728
+                    }
+                },
+                6: {
+                    "name": "会心鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 5136
+                    }
+                },
+                7: {
+                    "name": "会心鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 5521
+                    }
+                },
                 8: {
                     "name": "会心鞋子特效",
                     "interval": 160,
@@ -7421,6 +8203,42 @@ BUFFS = {
         },
         38944: {
             29526: {
+                4: {
+                    "name": "破防鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 4393
+                    }
+                },
+                5: {
+                    "name": "破防鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 4728
+                    }
+                },
+                6: {
+                    "name": "破防鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 5136
+                    }
+                },
+                7: {
+                    "name": "破防鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 5521
+                    }
+                },
                 8: {
                     "name": "破防鞋子特效",
                     "interval": 160,
@@ -7434,6 +8252,42 @@ BUFFS = {
         },
         38945: {
             29528: {
+                4: {
+                    "name": "会心项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 141
+                    }
+                },
+                5: {
+                    "name": "会心项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 151
+                    }
+                },
+                6: {
+                    "name": "会心项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 165
+                    }
+                },
+                7: {
+                    "name": "会心项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 176
+                    }
+                },
                 8: {
                     "name": "会心项链特效",
                     "interval": 1,
@@ -7447,6 +8301,46 @@ BUFFS = {
         },
         38946: {
             29529: {
+                4: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 38,
+                        "magical_attack_power_base": 4
+                    }
+                },
+                5: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 41,
+                        "magical_attack_power_base": 5
+                    }
+                },
+                6: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 45,
+                        "magical_attack_power_base": 5
+                    }
+                },
+                7: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 48,
+                        "magical_attack_power_base": 5
+                    }
+                },
                 8: {
                     "name": "破防项链特效",
                     "interval": 1,
@@ -7461,6 +8355,42 @@ BUFFS = {
         },
         38948: {
             29536: {
+                4: {
+                    "name": "会心腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 282
+                    }
+                },
+                5: {
+                    "name": "会心腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 303
+                    }
+                },
+                6: {
+                    "name": "会心腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 330
+                    }
+                },
+                7: {
+                    "name": "会心腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 354
+                    }
+                },
                 8: {
                     "name": "会心腰坠特效",
                     "interval": 192,
@@ -7474,6 +8404,42 @@ BUFFS = {
         },
         38949: {
             29537: {
+                4: {
+                    "name": "破防腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 282
+                    }
+                },
+                5: {
+                    "name": "破防腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 303
+                    }
+                },
+                6: {
+                    "name": "破防腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 330
+                    }
+                },
+                7: {
+                    "name": "破防腰坠特效",
+                    "interval": 192,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 354
+                    }
+                },
                 8: {
                     "name": "破防腰坠特效",
                     "interval": 192,
@@ -7659,7 +8625,7 @@ BUFFS = {
                 }
             }
         },
-        22169: {
+        10106: {
             15436: {
                 15: {
                     "name": "输出头大附魔",
@@ -7690,7 +8656,7 @@ BUFFS = {
                 }
             }
         },
-        10106: {
+        22169: {
             15455: {
                 1: {
                     "name": "输出腰大附魔",

@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from typing import List
 
 from qt.classes.record import Record
 
@@ -10,7 +9,7 @@ class Section:
     count: int = 1
     duration: float = 0.
 
-    records: List[Record] = None
+    records: list[Record] = None
 
     def __post_init__(self):
         if not self.records:

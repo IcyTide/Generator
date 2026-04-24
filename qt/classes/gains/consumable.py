@@ -1,8 +1,9 @@
 from assets.raw.buffs import BUFFS
 from assets.raw.enchants import ENCHANTS
 from base.translate import get_translates
+from gains.consumables import GAINS
 
-BUFFS = {k: v for buffs in BUFFS[0].values() for k, v in buffs.items()}
+RAW_CONSUMABLES = {k: v for belong_id in GAINS for k, v in BUFFS[0][belong_id].items()}
 
 def parse_content(content: dict):
     if "attributes" not in content:
@@ -19,7 +20,7 @@ def create_consumable(buff_ids: int | list):
     if isinstance(buff_ids, int):
         buff_ids = [buff_ids]
     for buff_id in buff_ids:
-        for buff_level, content in BUFFS[buff_id].items():
+        for buff_level, content in RAW_CONSUMABLES[buff_id].items():
             name, attributes = parse_content(content)
             if not name:
                 continue
@@ -73,6 +74,8 @@ class Consumable:
 
     @classmethod
     def from_dict(cls, name: str):
+        if name not in CONSUMABLES:
+            return None
         return cls(name)
 
 
@@ -118,4 +121,5 @@ class Consumables:
 
     @classmethod
     def from_dict(cls, consumables: dict[str, str]):
-        return Consumables({k: Consumable.from_dict(v) for k, v in consumables.items()})
+        consumables = {k: Consumable.from_dict(v) for k, v in consumables.items()}
+        return Consumables({k: v for k, v in consumables.items() if v})

@@ -4,7 +4,7 @@ from base.utils import parse_expr
 
 
 class Skill:
-    belong: str
+    belong_id: int
     skill_id: int
     skill_level: int
     count: float
@@ -16,8 +16,8 @@ class Skill:
     critical_power: str | Expression = ""
     attributes: dict[str, int] = {}
 
-    def __init__(self, belong: str, skill_id: int, skill_level: int, count: float = 1., **kwargs):
-        self.belong = belong
+    def __init__(self, belong_id: int, skill_id: int, skill_level: int, count: float = 1., **kwargs):
+        self.belong_id = belong_id
         self.skill_id = skill_id
         self.skill_level = skill_level
         self.count = count
@@ -44,25 +44,30 @@ class Skill:
         return f"{self.skill_id}-{self.skill_level}"
 
     def copy(self):
-        return Skill(self.belong, self.skill_id, self.skill_level, self.count, **self.kwargs)
+        return Skill(self.belong_id, self.skill_id, self.skill_level, self.count, **self.kwargs)
 
     def to_dict(self):
         return dict(
-            belong=self.belong,
+            belong_id=self.belong_id,
             skill_id=self.skill_id,
             skill_level=self.skill_level,
             count=self.count
         )
 
     @classmethod
-    def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
-        if not kwargs:
-            if json["skill_id"] in SKILLS[kungfu_id]:
-                kwargs = SKILLS[kungfu_id][json["skill_id"]][json["skill_level"]]
-            else:
-                kwargs = SKILLS[0][json["skill_id"]][json["skill_level"]]
+    def from_dict(cls, kungfu_id: int, json: dict):
+        kungfu_skills = SKILLS[kungfu_id] | SKILLS[0]
+        if json["belong_id"] not in kungfu_skills:
+            return None
+        belong_skills = kungfu_skills[json["belong_id"]]
+        if json["skill_id"] not in belong_skills:
+            return None
+        skills = belong_skills[json["skill_id"]]
+        if json["skill_level"] not in skills:
+            return None
+        kwargs = skills[json["skill_level"]]
         return cls(
-            belong=json["belong"],
+            belong_id=json["belong_id"],
             skill_id=json["skill_id"],
             skill_level=json["skill_level"],
             count=json["count"],

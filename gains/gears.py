@@ -2,7 +2,7 @@ from base.expression import Variable
 
 DIVINE_WEAPON_GAINS: dict[int, dict] = {
     # divine strain
-    39088: dict(name="橙武无双", buffs={29608: {}}),
+    39088: dict(name="橙武无双", buffs={29608: dict(comment="{}")}),
 
     # kungfu
     25794: dict(buffs={1920: {}}, skills={25794: {}}),
@@ -106,14 +106,14 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
     ),
     42767: dict(name="加速腰带特效", skills={42837: dict(levels=[1, 2], custom_damage_source=42768)}),
     # tank belt
-    41063: dict(name="防御腰带特效", buffs={30946: dict(name="防御腰带特效")}),
+    41063: dict(name="防御腰带特效", buffs={30946: dict(levels=[1, 2, 3], name="防御腰带特效")}),
 
     # dps ring
-    40802: dict(name="破防戒指特效", buffs={30755: dict(name="破防戒指特效")}),
-    40803: dict(name="会心戒指特效", buffs={30756: dict(name="会心戒指特效")}),
-    40804: dict(name="破招戒指特效", buffs={30757: dict(name="破招戒指特效")}),
+    40802: dict(name="破防戒指特效", buffs={30755: dict(levels=[1, 3, 5], name="破防戒指特效")}),
+    40803: dict(name="会心戒指特效", buffs={30756: dict(levels=[1, 3, 5], name="会心戒指特效")}),
+    40804: dict(name="破招戒指特效", buffs={30757: dict(levels=[1, 3, 5], name="破招戒指特效")}),
     # tank ring
-    41065: dict(name="防御戒指特效", buffs={30950: dict(name="防御戒指特效")}),
+    41065: dict(name="防御戒指特效", buffs={30950: dict(levels=[1, 3, 5], name="防御戒指特效")}),
 
     # dps hat
     38934: dict(
@@ -127,15 +127,15 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
     ),
 
     # dps shoes
-    38939: dict(name="会心鞋子特效", buffs={29524: dict(name="会心鞋子特效")}),
-    38944: dict(name="破防鞋子特效", buffs={29526: dict(name="破防鞋子特效")}),
+    38939: dict(name="会心鞋子特效", buffs={29524: dict(levels=[4, 5, 6, 7, 8], name="会心鞋子特效")}),
+    38944: dict(name="破防鞋子特效", buffs={29526: dict(levels=[4, 5, 6, 7, 8], name="破防鞋子特效")}),
 
     # dps necklace
-    38945: dict(name="会心项链特效", buffs={29528: dict(name="会心项链特效")}),
-    38946: dict(name="破防项链特效", buffs={29529: dict(name="破防项链特效")}),
+    38945: dict(name="会心项链特效", buffs={29528: dict(levels=[4, 5, 6, 7, 8], name="会心项链特效")}),
+    38946: dict(name="破防项链特效", buffs={29529: dict(levels=[4, 5, 6, 7, 8], name="破防项链特效")}),
     # dps pendant
-    38948: dict(name="会心腰坠特效", buffs={29536: dict(name="会心腰坠特效")}),
-    38949: dict(name="破防腰坠特效", buffs={29537: dict(name="破防腰坠特效")}),
+    38948: dict(name="会心腰坠特效", buffs={29536: dict(levels=[4, 5, 6, 7, 8], name="会心腰坠特效")}),
+    38949: dict(name="破防腰坠特效", buffs={29537: dict(levels=[4, 5, 6, 7, 8], name="破防腰坠特效")}),
     # dps tertiary_weapon
     38950: dict(name="暗器特效", skills={38966: dict(levels=[4, 5, 6, 7, 8], custom_damage_source=38950)}),
 }
@@ -158,11 +158,11 @@ ELEMENT_GAINS = {
 }
 SPECIAL_ENCHANT_GAINS = {
     # dps
-    22169: dict(name="输出头大附魔", buffs={15436: dict(name="输出头大附魔", levels=[15, 16, 17])}),
+    10106: dict(name="输出头大附魔", buffs={15436: dict(name="输出头大附魔", levels=[15, 16, 17])}),
     38984: dict(name="输出手大附魔", skills={37562: dict(levels=[3, 4, 5], custom_damage_source=38984)}),
     38985: dict(name="输出脚大附魔", skills={37561: dict(levels=[3, 4, 5], custom_damage_source=38985)}),
     22151: dict(skills={22151: dict(levels=[15, 16, 17])}),
-    10106: dict(name="输出腰大附魔", buffs={
+    22169: dict(name="输出腰大附魔", buffs={
         15455: {1: dict(name="输出腰大附魔", comment="1%"), 2: dict(name="输出腰大附魔", comment="5%")}
     }),
 

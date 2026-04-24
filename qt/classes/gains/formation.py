@@ -5,32 +5,33 @@ from qt.classes.attribute import Attribute
 from qt.classes.buff import Buff, BuffType
 from qt.classes.record import Record
 
+FORMATIONS = {
+    BELONGS[0][k]["name"]: v for k, v in RAW_FORMATIONS.items()
+}
+BELONG2ID = {BELONGS[0][k]["name"]: k for k in RAW_FORMATIONS}
 
-def add_buff_to_attributes(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
-    buff = Buff("阵眼", buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][buff_id][buff_level])
+
+def add_buff_to_attributes(belong_id: int, buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
+    buff = Buff(belong_id, buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][belong_id][buff_id][buff_level])
     buff.stack *= buff.max_stack
     attribute.add_buff(buff)
 
 
-def default_attribute(self: "FormationGain", attribute: Attribute):
-    buff_level = list(BUFFS[0][self.buff_id])[0]
-    add_buff_to_attributes(self.buff_id, buff_level, attribute, self.rate)
+def default_attribute(self: "FormationGains", buff_id: int, rate: float, attribute: Attribute):
+    buff_level = list(BUFFS[0][self.belong_id][buff_id])[0]
+    add_buff_to_attributes(self.belong_id, buff_id, buff_level, attribute, rate)
 
 
-def buff_18336(self: "FormationGain", attribute: Attribute):
-    buff_levels = list(BUFFS[0][self.buff_id])
+def buff_18336(self: "FormationGains", buff_id: int, rate: float, attribute: Attribute):
+    buff_levels = list(BUFFS[0][self.belong_id][buff_id])
     for buff_level in buff_levels:
-        add_buff_to_attributes(self.buff_id, buff_level, attribute, self.rate / len(buff_levels))
+        add_buff_to_attributes(self.belong_id, buff_id, buff_level, attribute, rate / len(buff_levels))
 
 
-def buff_18337(self: "FormationGain", attribute: Attribute):
-    buff_level = list(BUFFS[0][self.buff_id])[0]
-    add_buff_to_attributes(self.buff_id, buff_level, attribute, self.rate / 2)
+def buff_18337(self: "FormationGains", buff_id: int, rate: float, attribute: Attribute):
+    buff_level = list(BUFFS[0][self.belong_id][buff_id])[0]
+    add_buff_to_attributes(self.belong_id, buff_id, buff_level, attribute, rate / 2)
 
-
-FORMATIONS = {
-    BELONGS[0][k]["name"]: v for k, v in RAW_FORMATIONS.items()
-}
 
 ATTRIBUTE_FUNCS = {
     18336: buff_18336,
@@ -38,61 +39,61 @@ ATTRIBUTE_FUNCS = {
 }
 
 
-class FormationGain:
-    buff_id: int
-    rate: float = 0.
+class FormationGains:
+    name: str = ""
+    rates: dict[str, list[float]]
 
     average: bool = True
 
-    def __init__(self, buff_id, rate):
-        self.buff_id = buff_id
-        self.rate = rate
-
-    def set_attribute(self, attribute: Attribute):
-        if self.average:
-            ATTRIBUTE_FUNCS.get(self.buff_id, default_attribute)(self, attribute)
-
-    def set_record(self, record: Record):
-        ...
-
-
-class FormationGains:
-    formation: str = ""
-    rates: dict[str, list[float]]
-
-    def __init__(self, formation: str = "", rates: dict = None):
-        self.formation = formation
+    def __init__(self, name: str = "", rates: dict = None):
+        self.name = name
         if not rates:
             self.rates = {}
         else:
             self.rates = rates
 
     def __bool__(self):
-        return bool(self.formation)
+        return bool(self.name)
 
-    def get(self, formation: str):
-        if formation not in self.rates:
-            self.rates[formation] = [0, 0, 0]
-        return self.rates[formation]
+    def get(self, name: str):
+        if name not in self.rates:
+            self.rates[name] = [0, 0, 0]
+        return self.rates[name]
+
+    @property
+    def belong_id(self):
+        return BELONG2ID[self.name]
+
+    @property
+    def buffs(self):
+        return [buff_id for buff_id in FORMATIONS[self.name][1:] if buff_id]
+
+    @property
+    def skills(self):
+        return []
 
     @property
     def content(self):
-        if self.formation:
-            buffs, rates = FORMATIONS[self.formation], self.rates[self.formation]
-            gains = dict(
-                前三重=FormationGain(buffs[0], 1),
-            )
-            for name, buff_id, rate in zip(["四重", "五重", "六重"], buffs[1:], rates):
-                if not buff_id:
-                    continue
-                gains[name] = FormationGain(buff_id, rate)
-            return gains
+        if self.name:
+            return {self.name: self}
         else:
             return {}
 
+    def set_attribute(self, attribute: Attribute):
+        default_attribute(self, self.buffs[0], 1, attribute)
+        if not self.average:
+            return
+        for buff_id, rate in zip(self.buffs[1:], self.rates[self.name]):
+            if not buff_id:
+                continue
+            ATTRIBUTE_FUNCS.get(buff_id, default_attribute)(self, buff_id, rate, attribute)
+
+    def set_record(self, record: Record):
+        ...
+
     def to_dict(self):
         return dict(
-            formation=self.formation,
+            name=self.name,
             rates=self.rates
         )
 

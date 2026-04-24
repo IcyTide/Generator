@@ -10661,9 +10661,9 @@
             "name": "防御风特效",
             "belong_key": "belong_38786"
         },
-        "22169": {
+        "10106": {
             "name": "输出头大附魔",
-            "belong_key": "belong_22169"
+            "belong_key": "belong_10106"
         },
         "38984": {
             "name": "输出手大附魔",
@@ -10680,9 +10680,9 @@
             },
             "belong_key": "belong_22151"
         },
-        "10106": {
+        "22169": {
             "name": "输出腰大附魔",
-            "belong_key": "belong_10106"
+            "belong_key": "belong_22169"
         },
         "22129": {
             "name": "昆吾·清晖",

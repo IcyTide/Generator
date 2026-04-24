@@ -3,7 +3,9 @@ from PySide6.QtWidgets import QDialog, QDoubleSpinBox, QHBoxLayout, QLabel, QPus
 from base.constant import LEVEL_VARIABLES, SHIELD_BASE_MAP
 from qt import ComboBox, LabelRow
 from qt.classes.attribute import Attribute
+from qt.classes.dot import Dot
 from qt.classes.skill import Skill
+from qt.classes.kungfu import Kungfu
 from qt.component.loop_widget.widget import LoopWidget
 from qt.utils import evaluate_skill
 
@@ -12,11 +14,11 @@ class SkillEditorDialog(QDialog):
     skills: dict[str, dict[int, dict[int, dict]]] = {}
     skill: Skill = None
 
-    def __init__(self, skills: dict = None, skill: Skill = None, parent: LoopWidget = None):
+    def __init__(self, source: Kungfu | Dot, skill: Skill = None, parent: LoopWidget = None):
         super().__init__(parent)
         self.setWindowTitle("编辑技能伤害")
         layout = QVBoxLayout(self)
-        self.skills = skills
+        self.belong2id, self.id2belong, self.skills = source.belong2id, source.id2belong, source.skills
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
         self.level_combo = ComboBox()
@@ -44,10 +46,10 @@ class SkillEditorDialog(QDialog):
         self.level_combo.currentTextChanged.connect(self.select_level)
         self.count_spin.valueChanged.connect(self.select_count)
 
-        if skills:
-            self.belong_combo.set_items(list(skills))
+        if self.skills:
+            self.belong_combo.set_items(list(self.skills))
         if skill:
-            self.belong_combo.setCurrentText(skill.belong)
+            self.belong_combo.setCurrentText(self.id2belong[skill.belong_id])
             self.id_combo.setCurrentText(str(skill.skill_id))
             self.level_combo.setCurrentText(str(skill.skill_level))
             self.count_spin.setValue(skill.count)
@@ -72,7 +74,9 @@ class SkillEditorDialog(QDialog):
         skill_level = int(skill_level)
         count = self.count_spin.value()
         count = int(count) if int(count) == count else count
-        self.skill = Skill(belong, skill_id, skill_level, count, **self.skills[belong][skill_id][skill_level])
+        self.skill = Skill(
+            self.belong2id[belong], skill_id, skill_level, count, **self.skills[belong][skill_id][skill_level]
+        )
 
         self.name_label.setText(self.skill.name)
         self.comment_label.setText(self.skill.comment)

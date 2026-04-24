@@ -4,6 +4,7 @@ from base.constant import LEVEL_VARIABLES, SHIELD_BASE_MAP
 from qt import ComboBox, LabelRow
 from qt.classes.attribute import Attribute
 from qt.classes.dot import Dot
+from qt.classes.kungfu import Kungfu
 from qt.component.loop_widget.skill_dialog import SkillEditorDialog
 from qt.component.loop_widget.widget import LoopWidget
 from qt.utils import evaluate_dot
@@ -21,11 +22,11 @@ class DotEditorDialog(QDialog):
     dots: dict[str, dict[int, dict[int, dict]]]
     dot: Dot = None
 
-    def __init__(self, dots: dict = None, dot: Dot = None, parent: LoopWidget = None):
+    def __init__(self, kungfu: Kungfu, dot: Dot = None, parent: LoopWidget = None):
         super().__init__(parent)
         self.setWindowTitle("编辑持续伤害")
         layout = QVBoxLayout(self)
-        self.dots = dots
+        self.belong2id, self.id2belong, self.dots = kungfu.belong2id, kungfu.id2belong, kungfu.dots
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
         self.level_combo = ComboBox()
@@ -61,10 +62,10 @@ class DotEditorDialog(QDialog):
         self.current_tick_spin.valueChanged.connect(self.select_current_tick)
         self.count_spin.valueChanged.connect(self.select_count)
 
-        if dots:
-            self.belong_combo.set_items(list(dots))
+        if self.dots:
+            self.belong_combo.set_items(list(self.dots))
         if dot:
-            self.belong_combo.setCurrentText(dot.belong)
+            self.belong_combo.setCurrentText(self.id2belong[dot.belong_id])
             self.id_combo.setCurrentText(str(dot.dot_id))
             self.level_combo.setCurrentText(str(dot.dot_level))
             if dot.source:
@@ -96,7 +97,7 @@ class DotEditorDialog(QDialog):
         consume_tick = self.consume_tick_spin.value()
         current_tick = self.current_tick_spin.value()
 
-        self.dot = Dot(belong, dot_id, dot_level, count, **self.dots[belong][dot_id][dot_level])
+        self.dot = Dot(self.belong2id[belong], dot_id, dot_level, count, **self.dots[belong][dot_id][dot_level])
         self.dot.consume_tick = min(consume_tick, self.dot.max_tick)
         self.dot.current_tick = min(current_tick, self.dot.max_tick)
 
@@ -111,8 +112,7 @@ class DotEditorDialog(QDialog):
     def select_source(self):
         if not self.dot:
             return
-        skills = {self.dot.name: self.dot.skills}
-        dialog = SourceSkillEditorDialog(self.dot.max_stack, skill=self.dot.source, skills=skills, parent=self)
+        dialog = SourceSkillEditorDialog(self.dot.max_stack, self.dot, skill=self.dot.source, parent=self)
         if dialog.exec() == QDialog.DialogCode.Accepted and (skill := dialog.skill):
             self.dot.source = skill
             self.source_button.setText(str(skill))

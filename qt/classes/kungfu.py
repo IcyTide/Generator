@@ -5,6 +5,7 @@ from assets.raw.recipes import RECIPES
 from assets.raw.skills import SKILLS
 from base.constant import MAJOR_TYPES
 from qt.classes.attribute import Attribute, Target
+from qt.classes.gains.formation import FormationGains
 from qt.classes.gains.gear import GearGain
 from qt.classes.gains.team import TeamGain
 from qt.classes.record import Record
@@ -24,7 +25,7 @@ class Kungfu:
     talents: dict[str, str] = {}
 
     bonus_attributes: dict[str, int] = {}
-    bonus_gains: dict[str, TeamGain] = {}
+    bonus_gains: dict[str, TeamGain | FormationGains] = {}
 
     def __init__(self, kungfu):
         self.kungfu_id = kungfu.attribute
@@ -34,6 +35,7 @@ class Kungfu:
         self.major = kungfu.major
         self.school = kungfu.school
         self.id2belong = {belong_id: belong["name"] for belong_id, belong in BELONGS[self.kungfu_id].items()}
+        self.id2belong |= {belong_id: belong["name"] for belong_id, belong in BELONGS[0].items() if belong.get("name")}
         self.belong2id = {v: k for k, v in self.id2belong.items()}
 
         self.kungfu_buffs = {
@@ -57,9 +59,11 @@ class Kungfu:
                 self.talent_choices[-1][self.id2belong[talent_id]] = BELONGS[self.kungfu_id][talent_id]
                 belong = self.id2belong[talent_id]
                 if buffs := params.get("buffs"):
-                    self.talent_buffs[belong] = {buff_id: BUFFS[self.kungfu_id][talent_id][buff_id] for buff_id in buffs}
+                    self.talent_buffs[belong] = {buff_id: BUFFS[self.kungfu_id][talent_id][buff_id] for buff_id in
+                                                 buffs}
                 if skills := params.get("skills"):
-                    self.talent_skills[belong] = {skill_id: SKILLS[self.kungfu_id][talent_id][skill_id] for skill_id in skills}
+                    self.talent_skills[belong] = {skill_id: SKILLS[self.kungfu_id][talent_id][skill_id] for skill_id in
+                                                  skills}
                 if dots := params.get("dots"):
                     self.talent_dots[belong] = {dot_id: DOTS[self.kungfu_id][talent_id][dot_id] for dot_id in dots}
 
@@ -120,16 +124,16 @@ class Kungfu:
     @property
     def buffs(self):
         talent_buffs = {k: v for k, v in self.talent_buffs.items() if k in self.talents}
-        gear_buffs = {buff_id: BUFFS[0][buff_id] for gain in self.gear_gains for buff_id in gain.buffs}
-        gear_buffs = dict(装备=gear_buffs) if gear_buffs else {}
-        return self.kungfu_buffs | talent_buffs | gear_buffs
+        gear_buffs = {gain.name: BUFFS[0][gain.gain_id] for gain in self.gear_gains if gain.buffs}
+        team_buffs = {gain.name: BUFFS[0][gain.belong_id] for gain in self.bonus_gains.values() if gain.buffs}
+        return self.kungfu_buffs | talent_buffs | gear_buffs | team_buffs
 
     @property
     def skills(self):
         talent_skills = {k: v for k, v in self.talent_skills.items() if k in self.talents}
-        gear_skills = {skill_id: SKILLS[0][skill_id] for gain in self.gear_gains for skill_id in gain.skills}
-        gear_skills = dict(装备=gear_skills) if gear_skills else {}
-        return self.kungfu_skills | talent_skills | gear_skills
+        gear_skills = {gain.name: SKILLS[0][gain.gain_id] for gain in self.gear_gains if gain.skills}
+        team_skills = {gain.name: SKILLS[0][gain.belong_id] for gain in self.bonus_gains.values() if gain.skills}
+        return self.kungfu_skills | talent_skills | gear_skills | team_skills
 
     @property
     def dots(self):

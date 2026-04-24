@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from typing import List
 
 from qt.classes.buff import Buff
 from qt.classes.dot import Dot
@@ -12,9 +11,9 @@ class Record:
     count: int = 1
     duration: float = 0.
 
-    buffs: List[Buff] = None
-    skills: List[Skill] = None
-    dots: List[Dot] = None
+    buffs: list[Buff] = None
+    skills: list[Skill] = None
+    dots: list[Dot] = None
 
     def __post_init__(self):
         if not self.buffs:
@@ -54,10 +53,13 @@ class Record:
 
     @classmethod
     def from_dict(cls, kungfu_id: int, json: dict):
+        buffs = [Buff.from_dict(kungfu_id, buff) for buff in json["buffs"]]
+        skills = [Skill.from_dict(kungfu_id, skill) for skill in json["skills"]]
+        dots = [Dot.from_dict(kungfu_id, dot) for dot in json["dots"]]
         record = cls(
             json["name"], json["count"], json["duration"],
-            [Buff.from_dict(kungfu_id, buff) for buff in json["buffs"]],
-            [Skill.from_dict(kungfu_id, skill) for skill in json["skills"]],
-            [Dot.from_dict(kungfu_id, dot) for dot in json["dots"]]
+            [buff for buff in buffs if buff],
+            [skill for skill in skills if skill],
+            [dot for dot in dots if dot]
         )
         return record

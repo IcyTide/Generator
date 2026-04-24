@@ -1,5 +1,3 @@
-from typing import List
-
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QKeySequence, QShortcut
 from PySide6.QtWidgets import QApplication, QComboBox, QHBoxLayout, QHeaderView, QLabel, QTableWidget, QTableWidgetItem, \
@@ -52,7 +50,7 @@ class ComboBox(QComboBox):
 
 
 class Table(QTableWidget):
-    def __init__(self, headers: List[str]):
+    def __init__(self, headers: list[str]):
         super().__init__(0, len(headers))
         self.setHorizontalHeaderLabels(headers)
         self.setSelectionBehavior(QTableWidget.SelectionBehavior.SelectRows)  # 整行选择

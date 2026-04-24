@@ -1,12 +1,12 @@
 from PySide6.QtWidgets import QCheckBox, QDialog, QVBoxLayout, QWidget
 
 from qt import LabelRow
-from qt.classes.gains.formation import FormationGain
+from qt.classes.gains.formation import FormationGains
 from qt.classes.gains.team import TeamGain
 
 
 class GainDialog(QDialog):
-    def __init__(self, gains: dict[str, FormationGain | TeamGain], parent: QWidget = None):
+    def __init__(self, gains: dict[str, FormationGains | TeamGain], parent: QWidget = None):
         super().__init__(parent)
         self.setWindowTitle("均摊选项")
 
@@ -17,7 +17,8 @@ class GainDialog(QDialog):
             check_box.setChecked(gain.average)
             check_box.stateChanged.connect(self.set_gain_average(gain))
 
-    def set_gain_average(self, gain: FormationGain | TeamGain):
+    @staticmethod
+    def set_gain_average(gain: FormationGains | TeamGain):
         def inner(state):
             gain.average = state
 

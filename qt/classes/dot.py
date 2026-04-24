@@ -3,6 +3,7 @@ from qt.classes.skill import Skill
 
 
 class Dot:
+    belong_id: int
     dot_id: int
     dot_level: int
     count: float
@@ -24,14 +25,17 @@ class Dot:
     def total(self):
         return f"{self.stack}/{self.consume_tick}"
 
-    def __init__(self, belong: str, dot_id: int, dot_level: int, count: float = 1., **kwargs):
-        self.belong = belong
+    def __init__(self, belong_id: int, dot_id: int, dot_level: int, count: float = 1., **kwargs):
+        self.belong_id = belong_id
         self.dot_id = dot_id
         self.dot_level = dot_level
         self.count = count
         self.kwargs = kwargs
         for k, v in kwargs.items():
             setattr(self, k, v)
+        self.belong2id = {self.name: self.belong_id}
+        self.id2belong = {v: k for k, v in self.belong2id.items()}
+        self.skills = {self.name: self.skills}
 
     def __iter__(self):
         yield str(self)
@@ -48,7 +52,7 @@ class Dot:
         return f"{self.dot_id}-{self.dot_level}"
 
     def copy(self):
-        dot = Dot(self.belong, self.dot_id, self.dot_level, self.count, **self.kwargs)
+        dot = Dot(self.belong_id, self.dot_id, self.dot_level, self.count, **self.kwargs)
         dot.source = self.source.copy()
         dot.consume_tick = self.consume_tick
         dot.current_tick = self.current_tick
@@ -56,7 +60,7 @@ class Dot:
 
     def to_dict(self):
         return dict(
-            belong=self.belong,
+            belong_id=self.belong_id,
             dot_id=self.dot_id,
             dot_level=self.dot_level,
             source=self.source.to_dict(),
@@ -66,25 +70,38 @@ class Dot:
         )
 
     @classmethod
-    def from_dict(cls, kungfu_id: int, json: dict, **kwargs):
-        if not kwargs:
-            if json["dot_id"] in DOTS[kungfu_id]:
-                kwargs = DOTS[kungfu_id][json["dot_id"]][json["dot_level"]]
-            else:
-                kwargs = DOTS[0][json["dot_id"]][json["dot_level"]]
+    def from_dict(cls, kungfu_id: int, json: dict):
+        kungfu_dots = DOTS.get(kungfu_id, {})
+        if json["belong_id"] not in kungfu_dots:
+            return None
+        belong_dots = kungfu_dots[json["belong_id"]]
+        if json["dot_id"] not in belong_dots:
+            return None
+        dots = belong_dots[json["dot_id"]]
+        if json["dot_level"] not in dots:
+            return None
+        kwargs = dots[json["dot_level"]]
         dot = cls(
-            belong=json["belong"],
+            belong_id=json["belong_id"],
             dot_id=json["dot_id"],
             dot_level=json["dot_level"],
             count=json["count"],
             **kwargs
         )
-        source = json["source"]
-        skill_kwargs = dot.skills[source["skill_id"]][source["skill_level"]]
-        dot.source = Skill.from_dict(
-            kungfu_id,
-            source,
-            **skill_kwargs
+        source_json = json["source"]
+        source_skills = dot.skills[dot.name]
+        if source_json["skill_id"] not in source_skills:
+            return None
+        skills = source_skills[source_json["skill_id"]]
+        if source_json["skill_level"] not in skills:
+            return None
+        source_kwargs = skills[source_json["skill_level"]]
+        dot.source = Skill(
+            belong_id=source_json["belong_id"],
+            skill_id=source_json["skill_id"],
+            skill_level=source_json["skill_level"],
+            count=source_json["count"],
+            **source_kwargs
         )
         dot.consume_tick = json["consume_tick"]
         dot.current_tick = json["current_tick"]

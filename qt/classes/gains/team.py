@@ -8,8 +8,9 @@ from qt.classes.record import Record
 from qt.classes.skill import Skill
 
 TEAM_GAINS = {
-    BELONGS[0][k]["name"]: v for k, v in list(RAW_TEAMS.items())
+    BELONGS[0][k]["name"]: v for k, v in RAW_TEAMS.items()
 }
+BELONG2ID = {BELONGS[0][k]["name"]: k for k in RAW_TEAMS}
 
 GAIN_PRIORITY = dict(
     劲风=2,
@@ -21,15 +22,15 @@ Buff to Attribute Funcs
 """
 
 
-def add_buff_to_attributes(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
-    buff = Buff("团队", buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][buff_id][buff_level])
+def add_buff_to_attributes(belong_id: int, buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
+    buff = Buff(belong_id, buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][belong_id][buff_id][buff_level])
     attribute.add_buff(buff)
 
 
 def default_attribute(self: "TeamGain", attribute: Attribute):
     for buff_id in self.buffs:
-        buff_level = list(BUFFS[0][buff_id])[0]
-        add_buff_to_attributes(buff_id, buff_level, attribute, self.stack * self.rate)
+        buff_level = list(BUFFS[0][self.belong_id][buff_id])[0]
+        add_buff_to_attributes(self.belong_id, buff_id, buff_level, attribute, self.stack * self.rate)
 
 
 def buff_23107(self: "TeamGain", attribute: Attribute):
@@ -39,19 +40,19 @@ def buff_23107(self: "TeamGain", attribute: Attribute):
 
 
 def buff_4246_1(self: "TeamGain", attribute: Attribute):
-    add_buff_to_attributes(self.buffs[0], 1, attribute, self.stack * self.rate)
+    add_buff_to_attributes(self.belong_id, self.buff_id, 1, attribute, self.stack * self.rate)
 
 
 def buff_4246_2(self: "TeamGain", attribute: Attribute):
-    add_buff_to_attributes(self.buffs[0], 2, attribute, self.stack * self.rate)
+    add_buff_to_attributes(self.belong_id, self.buff_id, 2, attribute, self.stack * self.rate)
 
 
 def buff_8248_1(self: "TeamGain", attribute: Attribute):
-    add_buff_to_attributes(self.buffs[0], 1, attribute, self.stack * self.rate)
+    add_buff_to_attributes(self.belong_id, self.buff_id, 1, attribute, self.stack * self.rate)
 
 
 def buff_8248_2(self: "TeamGain", attribute: Attribute):
-    add_buff_to_attributes(self.buffs[0], 2, attribute, self.stack * self.rate)
+    add_buff_to_attributes(self.belong_id, self.buff_id, 2, attribute, self.stack * self.rate)
 
 
 ATTRIBUTE_FUNCS = dict(
@@ -70,8 +71,8 @@ SKILL_FREQ = {
 }
 
 
-def add_skill_to_record(skill_id: int, skill_level: int, record: Record, count: float = 1.):
-    skill = Skill("团队", skill_id, skill_level, count, **SKILLS[0][skill_id][skill_level])
+def add_skill_to_record(belong_id: int, skill_id: int, skill_level: int, record: Record, count: float = 1.):
+    skill = Skill(belong_id, skill_id, skill_level, count, **SKILLS[0][belong_id][skill_id][skill_level])
     record.skills.append(skill)
 
 
@@ -80,15 +81,15 @@ def default_record(self: "TeamGain", record: Record):
         if skill_id not in SKILL_FREQ:
             return
         count = record.duration / SKILL_FREQ[skill_id]
-        add_skill_to_record(skill_id, 1, record, count)
+        add_skill_to_record(self.belong_id, skill_id, 1, record, count)
 
 
 RECORD_FUNCS = {}
 
 
 class TeamGain:
-    buffs: list[int]
-    skills: list[int]
+    buffs: dict[int, dict]
+    skills: dict[int, dict]
 
     max_stack: int = 0
 
@@ -101,13 +102,14 @@ class TeamGain:
         self.name = name
         self.stack = stack
         self.rate = rate
-        self.buffs, self.skills = [], []
+        self.buffs, self.skills = {}, {}
         for k, v in TEAM_GAINS[name].items():
             setattr(self, k, v)
 
-        buff_id = self.buffs[0]
-        buff_level = list(BUFFS[0][buff_id])[0]
-        buff_kwargs = BUFFS[0][buff_id][buff_level]
+        self.buff_id = list(self.buffs)[0]
+        self.belong_id = BELONG2ID[self.name]
+        buff_level = list(BUFFS[0][self.belong_id][self.buff_id])[0]
+        buff_kwargs = BUFFS[0][self.belong_id][self.buff_id][buff_level]
         self.buff_name = buff_kwargs['name']
         self.max_stack = buff_kwargs['max_stack']
 
@@ -151,7 +153,7 @@ class TeamGains:
     @property
     def content(self):
         items = sorted(self.gains.items(), key=lambda x: GAIN_PRIORITY.get(x[0], 1))
-        return {gain.buff_name: gain for gain_name, gain in items if gain}
+        return {gain_name: gain for gain_name, gain in items if gain}
 
     def to_dict(self):
         return {gain_name: gain.to_dict() for gain_name, gain in self.gains.items() if gain}

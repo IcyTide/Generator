@@ -2,17 +2,19 @@ from PySide6.QtWidgets import QDialog, QHBoxLayout, QLabel, QPushButton, QSpinBo
 
 from qt import ComboBox, LabelRow
 from qt.classes.buff import Buff, BuffType
+from qt.classes.kungfu import Kungfu
 
 
 class BuffEditorDialog(QDialog):
+    belong2id: dict[str, int]
     buffs: dict[str, dict[int, dict[int, dict]]] = {}
     buff: Buff = None
 
-    def __init__(self, buffs: dict = None, buff: Buff = None, parent: QWidget = None):
+    def __init__(self, kungfu: Kungfu, buff: Buff = None, parent: QWidget = None):
         super().__init__(parent)
         self.setWindowTitle("编辑增益")
         layout = QVBoxLayout(self)
-        self.buffs = buffs
+        self.belong2id, self.id2belong, self.buffs = kungfu.belong2id, kungfu.id2belong, kungfu.buffs
         self.belong_combo = ComboBox()
         self.id_combo = ComboBox()
         self.level_combo = ComboBox()
@@ -43,10 +45,10 @@ class BuffEditorDialog(QDialog):
         self.stack_spin.valueChanged.connect(self.select_stack)
         self.type_combo.currentTextChanged.connect(self.select_type)
 
-        if buffs:
-            self.belong_combo.set_items(list(buffs))
+        if self.buffs:
+            self.belong_combo.set_items(list(self.buffs))
         if buff:
-            self.belong_combo.setCurrentText(buff.belong)
+            self.belong_combo.setCurrentText(self.id2belong[buff.belong_id])
             self.id_combo.setCurrentText(str(buff.buff_id))
             self.level_combo.setCurrentText(str(buff.buff_level))
             self.stack_spin.setValue(buff.stack)
@@ -74,7 +76,9 @@ class BuffEditorDialog(QDialog):
         stack = self.stack_spin.value()
         stack = int(stack) if int(stack) == stack else stack
 
-        self.buff = Buff(belong, buff_id, buff_level, buff_type, **self.buffs[belong][buff_id][buff_level])
+        self.buff = Buff(
+            self.belong2id[belong], buff_id, buff_level, buff_type, **self.buffs[belong][buff_id][buff_level]
+        )
         self.buff.stack = min(stack, self.buff.max_stack)
 
         self.stack_spin.setMaximum(self.buff.max_stack)

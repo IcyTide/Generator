@@ -143,11 +143,21 @@ class Gear:
     def from_dict(cls, position: str, json: dict):
         if not json:
             return None
+        details = EQUIPMENTS[POSITIONS[position]]
+        if json["school"] not in details:
+            return None
+        details = details[json["school"]]
+        if json["kind"] not in details:
+            return None
+        details = details[json["kind"]]
+        if json["equipment"] not in details:
+            return None
+        detail = details[json["equipment"]]
         instance = cls(
             json["school"],
             json["kind"],
             json["equipment"],
-            EQUIPMENTS[POSITIONS[position]][json["school"]][json["kind"]][json["equipment"]]
+            detail
         )
         instance.strength_level = json["strength_level"]
         instance.embed_levels = {int(k): v for k, v in json["embed_levels"].items()}
@@ -224,8 +234,9 @@ class Gears:
     def from_dict(cls, json: dict):
         if not json:
             return cls()
-        instance = cls({
+        gears = {
             position: Gear.from_dict(position, gear)
             for position, gear in json.items()
-        })
+        }
+        instance = cls({k: v for k, v in gears.items() if v})
         return instance

@@ -52,13 +52,13 @@ class FormationScript:
 
     def select_formation(self, formation: str):
         if not formation:
-            self.parent.formation_gains.formation = ""
+            self.parent.formation_gains.name = ""
             self.widget.level_4_spin.setValue(0)
             self.widget.level_5_spin.setValue(0)
             self.widget.level_6_spin.setValue(0)
             self.parent.update_kungfu()
             return
-        self.parent.formation_gains.formation = formation
+        self.parent.formation_gains.name = formation
         level_4_rate, level_5_rate, level_6_rate = self.parent.formation_gains.get(formation)
         self.widget.level_4_spin.setValue(level_4_rate)
         self.widget.level_5_spin.setValue(level_5_rate)
@@ -67,25 +67,25 @@ class FormationScript:
         self.parent.update_kungfu()
 
     def select_level_4(self, level_4_rate: float):
-        if not self.parent.formation_gains.formation:
+        if not self.parent.formation_gains.name:
             return
-        self.parent.formation_gains.rates[self.parent.formation_gains.formation][0] = level_4_rate
+        self.parent.formation_gains.rates[self.parent.formation_gains.name][0] = level_4_rate
         self.parent.update_kungfu()
 
     def select_level_5(self, level_5_rate: float):
-        if not self.parent.formation_gains.formation:
+        if not self.parent.formation_gains.name:
             return
-        self.parent.formation_gains.rates[self.parent.formation_gains.formation][1] = level_5_rate
+        self.parent.formation_gains.rates[self.parent.formation_gains.name][1] = level_5_rate
         self.parent.update_kungfu()
 
     def select_level_6(self, level_6_rate: float):
-        if not self.parent.formation_gains.formation:
+        if not self.parent.formation_gains.name:
             return
-        self.parent.formation_gains.rates[self.parent.formation_gains.formation][2] = level_6_rate
+        self.parent.formation_gains.rates[self.parent.formation_gains.name][2] = level_6_rate
         self.parent.update_kungfu()
 
     def init(self, formation_gains: FormationGains):
-        if formation := formation_gains.formation:
+        if formation := formation_gains.name:
             self.widget.belong_combo.setCurrentText(formation)
         else:
             self.widget.belong_combo.setCurrentText("")

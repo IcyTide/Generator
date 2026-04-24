@@ -1,9 +1,8 @@
-import json
+from assets.raw.belongs import BELONGS
 
 from base.attribute import BaseAttribute
 from kungfus import SUPPORT_KUNGFUS
 
-BELONGS = json.load(open("assets/json/belongs.json", encoding="utf-8"))
 SCHOOL_KIND_KUNGFUS = {(kungfu.school, kungfu.kind): kungfu for kungfu in SUPPORT_KUNGFUS}
 
 

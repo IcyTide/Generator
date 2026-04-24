@@ -13,15 +13,15 @@ Buff to Attribute Funcs
 """
 
 
-def add_buff_to_attribute(buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
-    buff = Buff("装备", buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][buff_id][buff_level])
+def add_buff_to_attribute(gain_id: int, buff_id: int, buff_level: int, attribute: Attribute, weight: float = 1.):
+    buff = Buff(gain_id, buff_id, buff_level, BuffType.Both, weight, **BUFFS[0][gain_id][buff_id][buff_level])
     buff.stack = buff.max_stack * weight
     attribute.add_buff(buff)
 
 
 def default_attribute(self: "GearGain", attribute: Attribute):
     for buff_id in self.buffs:
-        add_buff_to_attribute(buff_id, self.gain_level, attribute, self.weight)
+        add_buff_to_attribute(self.gain_id, buff_id, self.gain_level, attribute, self.weight)
 
 
 def tank_wrist_attribute(self: "GearGain", attribute: Attribute):
@@ -35,47 +35,47 @@ def shoes_attribute(self: "GearGain", attribute: Attribute):
 
 
 def bottom_attribute(self: "GearGain", attribute: Attribute):
-    buff_id = self.buffs[(self.gain_level - 1) % 2]
+    buff_id = list(self.buffs)[(self.gain_level - 1) % 2]
     buff_level = (self.gain_level - 1) // 2 * 2 + 1
-    strain_buff = Buff("装备", buff_id, buff_level, BuffType.Both, 1, **BUFFS[0][buff_id][buff_level])
+    strain_buff = Buff("", buff_id, buff_level, "", 1, **BUFFS[0][self.gain_id][buff_id][buff_level])
     threshold = strain_buff.attributes["strain_rate"] / BINARY_SCALE
     if attribute.strain <= 0.9 + threshold:
-        add_buff_to_attribute(buff_id, buff_level, attribute)
+        add_buff_to_attribute(self.gain_id, buff_id, buff_level, attribute)
     else:
-        add_buff_to_attribute(buff_id, buff_level + 1, attribute)
+        add_buff_to_attribute(self.gain_id, buff_id, buff_level + 1, attribute)
 
 
 def belt_attribute(self: "GearGain", attribute: Attribute):
-    buff_id = self.buffs[0]
+    buff_id = list(self.buffs)[0]
     buff_level_bias = (self.gain_level - 1) * 3
     if buff_level_bias <= 2:
-        add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute, 1 / 3)
-        add_buff_to_attribute(buff_id, 2 + buff_level_bias, attribute, 1 / 3)
-        add_buff_to_attribute(buff_id, 3 + buff_level_bias, attribute, 1 / 3)
+        add_buff_to_attribute(self.gain_id, buff_id, 1 + buff_level_bias, attribute, 1 / 3)
+        add_buff_to_attribute(self.gain_id, buff_id, 2 + buff_level_bias, attribute, 1 / 3)
+        add_buff_to_attribute(self.gain_id, buff_id, 3 + buff_level_bias, attribute, 1 / 3)
     else:
         if attribute.overcome_base <= attribute.critical_strike_base:
-            add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute)
+            add_buff_to_attribute(self.gain_id, buff_id, 1 + buff_level_bias, attribute)
         else:
-            add_buff_to_attribute(buff_id, 2 + buff_level_bias, attribute)
+            add_buff_to_attribute(self.gain_id, buff_id, 2 + buff_level_bias, attribute)
 
 
 def hat_attribute(self: "GearGain", attribute: Attribute):
-    buff_id = self.buffs[0]
+    buff_id = list(self.buffs)[0]
     buff_level_bias = (self.gain_level - 1) * 3
     overcome, critical_strike, surplus = attribute.overcome_base, attribute.critical_strike_base, attribute.surplus_base
     max_value = max(overcome, critical_strike, surplus)
     if max_value == overcome:
-        add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute)
+        add_buff_to_attribute(self.gain_id, buff_id, 1 + buff_level_bias, attribute)
     elif max_value == critical_strike:
-        add_buff_to_attribute(buff_id, 2 + buff_level_bias, attribute)
+        add_buff_to_attribute(self.gain_id, buff_id, 2 + buff_level_bias, attribute)
     else:
-        add_buff_to_attribute(buff_id, 3 + buff_level_bias, attribute)
+        add_buff_to_attribute(self.gain_id, buff_id, 3 + buff_level_bias, attribute)
 
 
 def ring_attribute(self: "GearGain", attribute: Attribute):
-    buff_id = self.buffs[0]
+    buff_id = list(self.buffs)[0]
     buff_level_bias = (self.gain_level - 1) * 2
-    add_buff_to_attribute(buff_id, 1 + buff_level_bias, attribute)
+    add_buff_to_attribute(self.gain_id, buff_id, buff_level_bias + 1, attribute)
 
 
 def necklace_attribute(target: str, thresholds: list[int]):
@@ -94,22 +94,22 @@ def wind_attribute(self: "GearGain", attribute: Attribute):
 
 
 def dps_special_enchant_belt(self: "GearGain", attribute: Attribute):
-    buff_id = self.buffs[0]
+    buff_id = list(self.buffs)[0]
     rate = 8 / 32
-    add_buff_to_attribute(buff_id, 1, attribute, 0.3 * rate)
-    add_buff_to_attribute(buff_id, 2, attribute, 0.7 * rate)
+    add_buff_to_attribute(self.gain_id, buff_id, 1, attribute, 0.3 * rate)
+    add_buff_to_attribute(self.gain_id, buff_id, 2, attribute, 0.7 * rate)
 
 
 def dps_special_enchant_jacket(self: "GearGain", attribute: Attribute):
     skill_id = self.gain_id
-    skill = SKILLS[0][skill_id][self.gain_level]
+    skill = SKILLS[0][self.gain_id][skill_id][self.gain_level]
     for k, v in skill["attributes"].items():
         attribute[k] += v
 
 
 def tank_special_enchant_wrist(self: "GearGain", attribute: Attribute):
     rate = 5 / 30
-    add_buff_to_attribute(self.buffs[0], 1, attribute, rate)
+    add_buff_to_attribute(self.gain_id, list(self.buffs)[0], 1, attribute, rate)
 
 
 ATTRIBUTE_FUNCS = {
@@ -148,8 +148,8 @@ SKILL_FREQ = {
 }
 
 
-def add_skill_to_record(skill_id: int, skill_level: int, record: Record, count: float = 1.):
-    skill = Skill("装备", skill_id, skill_level, count, **SKILLS[0][skill_id][skill_level])
+def add_skill_to_record(gain_id: int, skill_id: int, skill_level: int, record: Record, count: float = 1.):
+    skill = Skill(gain_id, skill_id, skill_level, count, **SKILLS[0][gain_id][skill_id][skill_level])
     record.skills.append(skill)
 
 
@@ -158,7 +158,7 @@ def default_record(self: "GearGain", record: Record, attribute: Attribute):
         if skill_id not in SKILL_FREQ:
             return
         count = record.duration / SKILL_FREQ[skill_id]
-        add_skill_to_record(skill_id, self.gain_level, record, count)
+        add_skill_to_record(self.gain_id, skill_id, self.gain_level, record, count)
 
 
 def belt_record(self: "GearGain", record: Record, attribute: Attribute):
@@ -184,7 +184,7 @@ def belt_record(self: "GearGain", record: Record, attribute: Attribute):
 
 
 def wind_record(self: "GearGain", record: Record, attribute: Attribute):
-    add_skill_to_record(self.skills[0], self.gain_level * 2, record)
+    add_skill_to_record(self.gain_id, list(self.skills)[0], self.gain_level * 2, record)
 
 
 RECORD_FUNCS = {
@@ -194,9 +194,8 @@ RECORD_FUNCS = {
 
 
 class GearGain:
-    skills: list[int]
-    buffs: list[int]
-    dots: dict[int, list[int]]
+    skills: dict[int, dict]
+    buffs: dict[int, dict]
 
     weight: float = 1.
 
@@ -209,10 +208,10 @@ class GearGain:
         _, self.gain_id, self.gain_level = gain_str.split("_")
         self.gain_id = int(self.gain_id)
         self.gain_level = int(self.gain_level)
-        self.buffs, self.skills, self.dots = [], [], {}
+        self.buffs, self.skills, self.dots = {}, {}, {}
         for k, v in GAINS.get(self.gain_id, {}).items():
             setattr(self, k, v)
-        self.skills = [skill_id for skill_id in self.skills if skill_id != self.gain_id]
+        self.skills = {k: v for k, v in self.skills.items() if k != self.gain_id}
 
         self.name = BELONGS[0].get(self.gain_id, {}).get("name")
 

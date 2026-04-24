@@ -250,7 +250,7 @@ class LoopScript:
     def add_buff(self):
         if not (record := self.record):
             return
-        dialog = BuffEditorDialog(buffs=self.kungfu.buffs, parent=self.widget)
+        dialog = BuffEditorDialog(self.kungfu, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and (buff := dialog.buff):
             record.buffs.append(buff)
             self.widget.buff_table.refresh_table(record.buffs)
@@ -262,7 +262,7 @@ class LoopScript:
         if buff_index < 0:
             return
         buff = record.buffs[buff_index]
-        dialog = BuffEditorDialog(buffs=self.kungfu.buffs, buff=buff, parent=self.widget)
+        dialog = BuffEditorDialog(self.kungfu, buff=buff, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             record.buffs[buff_index] = dialog.buff
             self.widget.buff_table.refresh_table(record.buffs)
@@ -296,7 +296,7 @@ class LoopScript:
     def add_skill(self):
         if not (record := self.record):
             return
-        dialog = SkillEditorDialog(skills=self.kungfu.skills, parent=self.widget)
+        dialog = SkillEditorDialog(self.kungfu, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and (skill := dialog.skill):
             record.skills.append(skill)
             self.widget.skill_table.refresh_table(record.skills)
@@ -309,7 +309,7 @@ class LoopScript:
         if skill_index < 0:
             return
         skill = record.skills[skill_index]
-        dialog = SkillEditorDialog(skills=self.kungfu.skills, skill=skill, parent=self.widget)
+        dialog = SkillEditorDialog(self.kungfu, skill=skill, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted:
             record.skills[skill_index] = dialog.skill
             self.widget.skill_table.refresh_table(record.skills)
@@ -346,7 +346,7 @@ class LoopScript:
     def add_dot(self):
         if not (record := self.record):
             return
-        dialog = DotEditorDialog(dots=self.kungfu.dots, parent=self.widget)
+        dialog = DotEditorDialog(self.kungfu, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and (dot := dialog.dot) and dot.source:
             record.dots.append(dot)
             self.widget.dot_table.refresh_table(record.dots)
@@ -359,7 +359,7 @@ class LoopScript:
         if dot_index < 0:
             return
         dot = record.dots[dot_index]
-        dialog = DotEditorDialog(dots=self.kungfu.dots, dot=dot, parent=self.widget)
+        dialog = DotEditorDialog(self.kungfu, dot=dot, parent=self.widget)
         if dialog.exec() == QDialog.DialogCode.Accepted and dot.source:
             record.dots[dot_index] = dialog.dot
             self.widget.dot_table.refresh_table(record.dots)
