@@ -61,5 +61,6 @@ class Engine(BaseEngine):
             return func(skill, recipe_id, recipe_level)
         return None
 
-    def get_custom_damages(self):
-        return [e['nDamageBase'] for e in self.engine.globals()['tSkillData'].values()]
+    def get_custom_damages(self, table_name: str):
+        self.execute(Path("scripts") / "include" / "newskill.lh")
+        return [e['nDamageBase'] for e in self.engine.globals()[table_name].values()]

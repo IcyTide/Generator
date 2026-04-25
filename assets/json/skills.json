@@ -40123,12 +40123,15 @@
                     "name": "巽",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "1138846 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "1138846"
                     }
                 }
             }
@@ -40173,12 +40176,15 @@
                     "name": "御·击破",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "715478 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "715478"
                     }
                 }
             }
@@ -40253,12 +40259,15 @@
                     "name": "速·震",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "268000 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "268000"
                     }
                 }
             }
@@ -40314,24 +40323,30 @@
                     "name": "无修·天",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "898344 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "898344"
                     }
                 },
                 "8": {
                     "name": "无修·天",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "976154 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "976154"
                     }
                 }
             }
@@ -40451,12 +40466,15 @@
                     "name": "昆吾·弦刃",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "2415000 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "2415000"
                     }
                 }
             }
@@ -40497,12 +40515,15 @@
                     "name": "刃凌",
                     "damages": [
                         {
-                            "damage": "0"
+                            "damage": "1610000 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                         }
                     ],
                     "critical": {
                         "critical_strike": "0",
                         "critical_power": "0"
+                    },
+                    "skill_attribute": {
+                        "custom_damage_base": "1610000"
                     }
                 }
             }

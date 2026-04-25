@@ -18369,7 +18369,7 @@ SKILLS = {
                     "name": "巽",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "1138846 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"
@@ -18404,7 +18404,7 @@ SKILLS = {
                     "name": "御·击破",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "715478 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"
@@ -18457,7 +18457,7 @@ SKILLS = {
                     "name": "速·震",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "268000 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"
@@ -18497,7 +18497,7 @@ SKILLS = {
                     "name": "无修·天",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "898344 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"
@@ -18506,7 +18506,7 @@ SKILLS = {
                     "name": "无修·天",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "976154 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"
@@ -18595,7 +18595,7 @@ SKILLS = {
                     "name": "昆吾·弦刃",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "2415000 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"
@@ -18626,7 +18626,7 @@ SKILLS = {
                     "name": "刃凌",
                     "comment": "",
                     "damages": [
-                        "0"
+                        "1610000 * (1 - (level - 130) * 0.05) * (1 + damage_scale)"
                     ],
                     "critical_strike": "0",
                     "critical_power": "0"

@@ -61,12 +61,12 @@ DIVINE_WEAPON_GAINS: dict[int, dict] = {
 }
 SPECIAL_GEAR_GAINS: dict[int, dict] = {
     # dps wrist
-    40788: dict(name="输出护手特效", skills={40789: dict(levels=[1, 2, 3], custom_damage_source=40788)}),
+    40788: dict(name="输出护手特效", skills={40789: dict(levels=[1, 2, 3], custom_damage_source="tDPSJingJianHuShouData")}),
     # tank wrist
-    41062: dict(name="防御护手特效", skills={41069: dict(levels=[1], custom_damage_source=41062)}),
+    41062: dict(name="防御护手特效", skills={41069: dict(levels=[1], custom_damage_source="tTJingJianHuShouData")}),
     42895: dict(
         name="防御护手特效", buffs={32019: {}},
-        skills={42898: dict(levels=[1, 2], custom_damage_source=42897)}
+        skills={42898: dict(levels=[1, 2], custom_damage_source="tTJingJianHuShouNewData")}
     ),
 
     # dps bottom
@@ -104,7 +104,7 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
             }
         }
     ),
-    42767: dict(name="加速腰带特效", skills={42837: dict(levels=[1, 2], custom_damage_source=42768)}),
+    42767: dict(name="加速腰带特效", skills={42837: dict(levels=[1, 2], custom_damage_source="tDPSJingJianYaoDaiData")}),
     # tank belt
     41063: dict(name="防御腰带特效", buffs={30946: dict(levels=[1, 2, 3], name="防御腰带特效")}),
 
@@ -137,7 +137,9 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
     38948: dict(name="会心腰坠特效", buffs={29536: dict(levels=[4, 5, 6, 7, 8], name="会心腰坠特效")}),
     38949: dict(name="破防腰坠特效", buffs={29537: dict(levels=[4, 5, 6, 7, 8], name="破防腰坠特效")}),
     # dps tertiary_weapon
-    38950: dict(name="暗器特效", skills={38966: dict(levels=[4, 5, 6, 7, 8], custom_damage_source=38950)}),
+    38950: dict(
+        name="暗器特效", skills={38966: dict(levels=[4, 5, 6, 7, 8], custom_damage_source="tDPSJingJianAnQiData")}
+    ),
 }
 SPECIAL_WEAPON_GAINS: dict[int, dict] = {
 }
@@ -159,8 +161,12 @@ ELEMENT_GAINS = {
 SPECIAL_ENCHANT_GAINS = {
     # dps
     10106: dict(name="输出头大附魔", buffs={15436: dict(name="输出头大附魔", levels=[15, 16, 17])}),
-    38984: dict(name="输出手大附魔", skills={37562: dict(levels=[3, 4, 5], custom_damage_source=38984)}),
-    38985: dict(name="输出脚大附魔", skills={37561: dict(levels=[3, 4, 5], custom_damage_source=38985)}),
+    38984: dict(
+        name="输出手大附魔", skills={37562: dict(levels=[3, 4, 5], custom_damage_source="tDPSPVEEnchantHuShouData")}
+    ),
+    38985: dict(
+        name="输出脚大附魔", skills={37561: dict(levels=[3, 4, 5], custom_damage_source="tDPSPVEEnchantXieZiData")}
+    ),
     22151: dict(skills={22151: dict(levels=[15, 16, 17])}),
     22169: dict(name="输出腰大附魔", buffs={
         15455: {1: dict(name="输出腰大附魔", comment="1%"), 2: dict(name="输出腰大附魔", comment="5%")}

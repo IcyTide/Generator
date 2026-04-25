@@ -59,7 +59,7 @@ class Skill(AliasBase):
 
     custom_damage_base: int = 0
     custom_damage_type: SKILL_KIND_TYPE = ""
-    custom_damage_source: int = 0
+    custom_damage_source: str = ""
 
     interval: int = 0
     tick: int = 1

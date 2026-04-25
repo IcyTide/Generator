@@ -80,10 +80,11 @@ class FormationGains:
             return {}
 
     def set_attribute(self, attribute: Attribute):
-        default_attribute(self, self.buffs[0], 1, attribute)
+        buffs = self.buffs
+        default_attribute(self, buffs[0], 1, attribute)
         if not self.average:
             return
-        for buff_id, rate in zip(self.buffs[1:], self.rates[self.name]):
+        for buff_id, rate in zip(buffs[1:], self.rates[self.name]):
             if not buff_id:
                 continue
             ATTRIBUTE_FUNCS.get(buff_id, default_attribute)(self, buff_id, rate, attribute)

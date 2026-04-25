@@ -37,7 +37,7 @@ def shoes_attribute(self: "GearGain", attribute: Attribute):
 def bottom_attribute(self: "GearGain", attribute: Attribute):
     buff_id = list(self.buffs)[(self.gain_level - 1) % 2]
     buff_level = (self.gain_level - 1) // 2 * 2 + 1
-    strain_buff = Buff("", buff_id, buff_level, "", 1, **BUFFS[0][self.gain_id][buff_id][buff_level])
+    strain_buff = Buff(self.gain_id, buff_id, buff_level, "", 1, **BUFFS[0][self.gain_id][buff_id][buff_level])
     threshold = strain_buff.attributes["strain_rate"] / BINARY_SCALE
     if attribute.strain <= 0.9 + threshold:
         add_buff_to_attribute(self.gain_id, buff_id, buff_level, attribute)
@@ -123,8 +123,8 @@ ATTRIBUTE_FUNCS = {
     40804: ring_attribute,
     40802: ring_attribute,
     40803: ring_attribute,
-    38946: necklace_attribute(target="overcome", thresholds=[5427, 5648, 6060, 6496, 6864, 7456]),
-    38945: necklace_attribute(target="critical_strike", thresholds=[4748, 4942, 5302, 5683, 6006, 6526]),
+    38946: necklace_attribute(target="overcome", thresholds=[5427, 5648, 6060, 6496, 6864, 7456, 7901, 8586]),
+    38945: necklace_attribute(target="critical_strike", thresholds=[4748, 4942, 5302, 5683, 6006, 6526, 7901, 8586]),
     38578: wind_attribute,
     22169: dps_special_enchant_belt,
     22151: dps_special_enchant_jacket,
@@ -192,6 +192,10 @@ RECORD_FUNCS = {
     38786: wind_record
 }
 
+
+"""
+Filter Level Funcs
+"""
 
 class GearGain:
     skills: dict[int, dict]
