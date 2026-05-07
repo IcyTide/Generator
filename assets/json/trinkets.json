@@ -27375,7 +27375,7 @@
         "score": 50169,
         "max_strength": 6,
         "icon_id": 22891,
-        "desc": "<Text>text=\"云雾缭绕藏仙迹，登临此境忘蹉跎。\" font=100 </text>",
+        "desc": "",
         "base": [
             {
                 "attr": "atInvalid",
@@ -28309,7 +28309,7 @@
         "score": 50169,
         "max_strength": 6,
         "icon_id": 22891,
-        "desc": "<Text>text=\"登高远眺家何处？烟树迷茫一望穷。\" font=100 </text>",
+        "desc": "",
         "base": [
             {
                 "attr": "atInvalid",

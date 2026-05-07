@@ -54,7 +54,12 @@ TALENTS: list[dict[int, dict]] = [
             **{i + 1: dict(comment=f"连续施展{i}次") for i in range(3)},
             **{i + 4: dict(comment=f"连续施展{i}次高血量") for i in range(3)}
         }}),
-        41762: dict(skills={43410: {}, 41765: dict(max_level=6, comment="{}秒")}),
+        41762: dict(
+            buffs={
+                33828: dict(attributes=[("coming_damage_cof", 716.8)], skills=[14701, 4476])
+            },
+            skills={43410: {}, 41765: dict(max_level=6, comment="{}秒")}
+        ),
         18626: {}
     },
     {
