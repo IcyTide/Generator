@@ -130,12 +130,12 @@ class BaseAttackPower(Major):
     @property
     def base_solar_attack_power(self):
         base_attack_power = self.solar_attack_power_base + self.solar_and_lunar_attack_power_base
-        return base_attack_power + self.magical_attack_power_base
+        return base_attack_power + self.base_magical_attack_power
 
     @property
     def base_lunar_attack_power(self):
         base_attack_power = self.lunar_attack_power_base + self.solar_and_lunar_attack_power_base
-        return base_attack_power + self.base_solar_attack_power
+        return base_attack_power + self.base_magical_attack_power
 
     @property
     def base_neutral_attack_power(self):
