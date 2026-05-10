@@ -1,7 +1,11 @@
 TALENTS: list[dict[int, dict]] = [
     {
         6818: dict(dots={6401: dict(skills={6867: {}})}),
-        6824: dict(skills={19435: dict(comment="1-2段"), 8491: dict(comment="3段")}),
+        6824: dict(
+            skills={19435: dict(comment="1-2段"), 8491: dict(comment="3段")},
+            dest_rollback_attributes=[("coming_damage_cof", 614.4)],
+            dest_rollback_skills=[19435, 8491]
+        ),
         14633: dict(skills={18913: {
             1: dict(comment="0-50%蓝量"),
             **{i + 1: dict(comment=f"{(i + 6) * 10}%蓝量") for i in range(5)}

@@ -3,9 +3,9 @@ SKILLS: dict[int, dict[int, dict]] = {
         4326: {}
     },
     3962: {
-        4024: dict(comment="1段"),
-        4025: dict(comment="2段"),
-        4026: dict(comment="3段"),
+        4028: dict(comment="1段"),
+        4029: dict(comment="2段"),
+        4030: dict(comment="3段"),
         19055: dict(levels=[1])
     },
     3963: {
