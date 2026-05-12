@@ -39,8 +39,13 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         41988: dict(skills={
-            skill_id: dict(max_level=4, comment="{}层影子")
-            for skill_id in [34353, 34354, 34355, 34356, 34359, 34361, 34362, 34363]
+            **{
+                skill_id: dict(max_level=4, comment="{}层影子")
+                for skill_id in [34353, 34354, 34355, 34356, 34359, 34361, 34362, 34363]
+            },
+            35056: {},
+            35057: {},
+            19055: dict(levels=[10, 11])
         }),
         34511: dict(skills={34510: dict(comment="命中{level-1}次")}),
         44446: dict(buffs={33107: dict(

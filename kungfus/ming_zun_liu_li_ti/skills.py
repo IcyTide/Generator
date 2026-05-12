@@ -27,12 +27,12 @@ SKILLS: dict[int, dict[int, dict]] = {
         4024: dict(comment="1段"),
         4025: dict(comment="2段"),
         4026: dict(comment="3段"),
-        19055: dict(levels=[7, 8])
+        19055: dict(levels=[7])
     },
     3960: {
         40089: {},
         32816: dict(levels=[2]),
-        19055: dict(levels=[9, 10])
+        19055: dict(levels=[8])
     },
     3980: {
         44567: dict(comment="伤害提高{(level - 1)*100}%")

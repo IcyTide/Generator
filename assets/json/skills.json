@@ -14510,26 +14510,6 @@
                         "physical_attack_power_cof": "0.1",
                         "weapon_damage_cof": "1.0"
                     }
-                },
-                "8": {
-                    "name": "武伤·银月斩",
-                    "damages": [
-                        {
-                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                            "source_attribute": {
-                                "physical_attack_power_gain": "-1024"
-                            }
-                        }
-                    ],
-                    "critical": {
-                        "critical_strike": "physical_critical_strike",
-                        "critical_power": "physical_critical_power"
-                    },
-                    "skill_attribute": {
-                        "frames": "16",
-                        "physical_attack_power_cof": "0.1",
-                        "weapon_damage_cof": "1.0"
-                    }
                 }
             }
         },
@@ -14585,28 +14565,8 @@
                 }
             },
             "19055": {
-                "9": {
-                    "name": "武伤·驱夜断愁",
-                    "damages": [
-                        {
-                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                            "source_attribute": {
-                                "physical_attack_power_gain": "-1024"
-                            }
-                        }
-                    ],
-                    "critical": {
-                        "critical_strike": "physical_critical_strike",
-                        "critical_power": "physical_critical_power"
-                    },
-                    "skill_attribute": {
-                        "frames": "16",
-                        "physical_attack_power_cof": "0.1",
-                        "weapon_damage_cof": "2.0"
-                    }
-                },
-                "10": {
-                    "name": "武伤·悬象著明·日",
+                "8": {
+                    "name": "武伤·银月斩",
                     "damages": [
                         {
                             "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
@@ -14676,6 +14636,28 @@
                         "frames": "1059",
                         "magical_attack_power_cof": "5.515625",
                         "damage_gain": "51 * recipe_1542_1 + 31 * recipe_1051_1 + 41 * recipe_1052_1 + 51 * recipe_1053_1"
+                    }
+                }
+            },
+            "19055": {
+                "9": {
+                    "name": "武伤·驱夜断愁",
+                    "damages": [
+                        {
+                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "source_attribute": {
+                                "physical_attack_power_gain": "-1024"
+                            }
+                        }
+                    ],
+                    "critical": {
+                        "critical_strike": "physical_critical_strike",
+                        "critical_power": "physical_critical_power"
+                    },
+                    "skill_attribute": {
+                        "frames": "16",
+                        "physical_attack_power_cof": "0.1",
+                        "weapon_damage_cof": "2.0"
                     }
                 }
             }
@@ -16276,6 +16258,92 @@
                         "magical_attack_power_cof": "0.3489583333333333"
                     }
                 }
+            },
+            "35056": {
+                "1": {
+                    "name": "明赦尊谕·日",
+                    "damages": [
+                        {
+                            "damage": "(70 + rand * 10 + solar_attack_power * 0.3489583333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "source_attribute": {
+                                "solar_damage_base": "70",
+                                "solar_damage_rand": "10"
+                            }
+                        }
+                    ],
+                    "critical": {
+                        "critical_strike": "solar_critical_strike",
+                        "critical_power": "solar_critical_power"
+                    },
+                    "skill_attribute": {
+                        "frames": "67",
+                        "magical_attack_power_cof": "0.3489583333333333"
+                    }
+                }
+            },
+            "35057": {
+                "1": {
+                    "name": "明赦尊谕·月",
+                    "damages": [
+                        {
+                            "damage": "(70 + rand * 10 + lunar_attack_power * 0.3489583333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
+                            "source_attribute": {
+                                "lunar_damage_base": "70",
+                                "lunar_damage_rand": "10"
+                            }
+                        }
+                    ],
+                    "critical": {
+                        "critical_strike": "lunar_critical_strike",
+                        "critical_power": "lunar_critical_power"
+                    },
+                    "skill_attribute": {
+                        "frames": "67",
+                        "magical_attack_power_cof": "0.3489583333333333"
+                    }
+                }
+            },
+            "19055": {
+                "10": {
+                    "name": "武伤·悬象著明·日",
+                    "damages": [
+                        {
+                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "source_attribute": {
+                                "physical_attack_power_gain": "-1024"
+                            }
+                        }
+                    ],
+                    "critical": {
+                        "critical_strike": "physical_critical_strike",
+                        "critical_power": "physical_critical_power"
+                    },
+                    "skill_attribute": {
+                        "frames": "16",
+                        "physical_attack_power_cof": "0.1",
+                        "weapon_damage_cof": "1.0"
+                    }
+                },
+                "11": {
+                    "name": "武伤·悬象著明·月",
+                    "damages": [
+                        {
+                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "source_attribute": {
+                                "physical_attack_power_gain": "-1024"
+                            }
+                        }
+                    ],
+                    "critical": {
+                        "critical_strike": "physical_critical_strike",
+                        "critical_power": "physical_critical_power"
+                    },
+                    "skill_attribute": {
+                        "frames": "16",
+                        "physical_attack_power_cof": "0.1",
+                        "weapon_damage_cof": "1.0"
+                    }
+                }
             }
         },
         "34511": {
@@ -17512,26 +17580,6 @@
                         "physical_attack_power_cof": "0.1",
                         "weapon_damage_cof": "1.0"
                     }
-                },
-                "8": {
-                    "name": "武伤·银月斩",
-                    "damages": [
-                        {
-                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                            "source_attribute": {
-                                "physical_attack_power_gain": "-1024"
-                            }
-                        }
-                    ],
-                    "critical": {
-                        "critical_strike": "physical_critical_strike",
-                        "critical_power": "physical_critical_power"
-                    },
-                    "skill_attribute": {
-                        "frames": "16",
-                        "physical_attack_power_cof": "0.1",
-                        "weapon_damage_cof": "1.0"
-                    }
                 }
             }
         },
@@ -17587,28 +17635,8 @@
                 }
             },
             "19055": {
-                "9": {
-                    "name": "武伤·驱夜断愁",
-                    "damages": [
-                        {
-                            "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + (weapon_damage + rand * weapon_damage_rand) * 2.0) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
-                            "source_attribute": {
-                                "physical_attack_power_gain": "-1024"
-                            }
-                        }
-                    ],
-                    "critical": {
-                        "critical_strike": "physical_critical_strike",
-                        "critical_power": "physical_critical_power"
-                    },
-                    "skill_attribute": {
-                        "frames": "16",
-                        "physical_attack_power_cof": "0.1",
-                        "weapon_damage_cof": "2.0"
-                    }
-                },
-                "10": {
-                    "name": "武伤·悬象著明·日",
+                "8": {
+                    "name": "武伤·银月斩",
                     "damages": [
                         {
                             "damage": "((physical_attack_power + base_physical_attack_power * -1024 / 1024) * 0.1 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
