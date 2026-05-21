@@ -1,67 +1,125 @@
 from base.expression import Variable
 
+KUNGFU_GAINS: dict[int, dict[int, dict]] = {
+    10002: {
+        25794: dict(buffs={1920: {}}, skills={25794: {}})
+    },
+    10003: {
+        25766: dict(buffs={1919: {}}, skills={25766: {}})
+    },
+    10014: {
+        25770: dict(buffs={1916: {}}, skills={25770: {}})
+    },
+    10015: {
+        25771: dict(buffs={1915: {}}, skills={25771: {}})
+    },
+    10021: {
+        25768: dict(
+            dots={
+                666: dict(levels=[29], skills={13849: {}}),
+                714: dict(levels=[24], skills={13847: {}}),
+                711: dict(levels=[19], skills={13848: {}})
+            },
+            skills={25768: {}}
+        )
+    },
+    10026: {
+        25772: dict(skills={25772: {}, 31031: {}})
+    },
+    10062: {
+        25795: dict(skills={25795: {}})
+    },
+    10081: {
+        25769: dict(dots={18512: dict(skills={25757: {}})}, skills={25769: {}})
+    },
+    10144: {
+        25785: dict(skills={25785: {}, 6954: {}}),
+        25776: dict(skills={
+            25776: {},
+            35051: {
+                1: dict(comment="夕照雷峰"),
+                2: dict(comment="云飞玉皇")
+            }
+        })
+    },
+    10175: {
+        25773: dict(skills={25773: {}, 39036: {}})
+    },
+    10224: {
+        25775: dict(skills={25775: {}, 43208: {}})
+    },
+    10225: {
+        25774: dict(skills={25774: {}, 3480: {}}),
+    },
+    10242: {
+        25777: dict(skills={25777: {}, 35065: dict(levels=[1])})
+    },
+    10243: {
+        25796: dict(skills={25796: {}, 35065: dict(levels=[2])})
+    },
+    10268: {
+        25779: dict(buffs={6466: {}}, skills={25779: {}, 32898: dict(levels=[4])})
+    },
+    10389: {
+        25797: dict(buffs={8474: dict(levels=[16])}, skills={25797: {}})
+    },
+    10390: {
+        25780: dict(buffs={8474: dict(levels=[16])}, skills={25780: {}})
+    },
+    10447: {
+        25781: dict(
+            dots={23187: {
+                1: dict(levels=[1], skills={40815: dict(levels=[1])}),
+                2: dict(levels=[2], skills={40815: dict(levels=[2])}),
+            }},
+            skills={25781: {}, 43294: dict(levels=[1, 2])}
+        )
+    },
+    10464: {
+        25782: dict(skills={25782: {}, 39106: {}})
+    },
+    10533: {
+        25783: dict(dots={19557: dict(skills={26935: {}})}, skills={25783: {}})
+    },
+    10585: {
+        25784: dict(dots={19626: dict(skills={26980: {}})}, skills={25784: {}})
+    },
+    10615: {
+        25837: dict(skills={
+            25837: {},
+            33588: {
+                1: dict(comment="兵主逆"),
+                2: dict(comment="天斗旋")
+            }
+        }),
+    },
+    10626: {
+        29698: dict(skills={29698: {}, 29695: {}})
+    },
+    10698: {
+        33239: dict(buffs={32797: dict(name="橙武增伤")}, skills={33239: {}})
+    },
+    10756: {
+        36579: dict(skills={36579: {}, 36580: {}})
+    },
+    10786: {
+        39081: dict(skills={39081: {}})
+    },
+    10821: {
+        43086: dict(dots={32145: dict(skills={43082: {}})}, skills={43086: {}, 43081: {}})
+    }
+}
+
+
 DIVINE_WEAPON_GAINS: dict[int, dict] = {
     # divine strain
     39088: dict(name="橙武无双", buffs={29608: dict(comment="{}")}),
-
-    # kungfu
-    25794: dict(buffs={1920: {}}, skills={25794: {}}),
-    25766: dict(buffs={1919: {}}, skills={25766: {}}),
-    25770: dict(buffs={1916: {}}, skills={25770: {}}),
-    25771: dict(buffs={1915: {}}, skills={25771: {}}),
-    25768: dict(
-        dots={
-            666: dict(levels=[29], skills={13849: {}}),
-            714: dict(levels=[24], skills={13847: {}}),
-            711: dict(levels=[19], skills={13848: {}})
-        },
-        skills={25768: {}}
-    ),
-    25772: dict(skills={25772: {}, 31031: {}}),
-    25795: dict(skills={25795: {}}),
-    25769: dict(dots={18512: dict(skills={25757: {}})}, skills={25769: {}}),
-    25785: dict(skills={25785: {}, 6954: {}}),
-    25776: dict(skills={
-        25776: {},
-        35051: {
-            1: dict(comment="夕照雷峰"),
-            2: dict(comment="云飞玉皇")
-        }
-    }),
-    25773: dict(skills={25773: {}, 39036: {}}),
-    25775: dict(skills={25775: {}, 43208: {}}),
-    25774: dict(skills={25774: {}, 3480: {}}),
-    25777: dict(skills={25777: {}, 35065: dict(levels=[1])}),
-    25796: dict(skills={25796: {}, 35065: dict(levels=[2])}),
-    25779: dict(skills={25779: {}, 32898: dict(levels=[4])}),
-    25797: dict(buffs={8474: {}}, skills={25797: {}}),
-    25780: dict(buffs={8474: {}}, skills={25780: {}}),
-    25781: dict(
-        dots={23187: {
-            1: dict(levels=[1], skills={40815: dict(levels=[1])}),
-            2: dict(levels=[2], skills={40815: dict(levels=[2])}),
-        }},
-        skills={25781: {}, 43294: dict(levels=[1, 2])}
-    ),
-    25782: dict(skills={25782: {}, 39106: {}}),
-    25783: dict(dots={19557: dict(skills={26935: {}})}, skills={25783: {}}),
-    25784: dict(dots={19626: dict(skills={26980: {}})}, skills={25784: {}}),
-    25837: dict(skills={
-        25837: {},
-        33588: {
-            1: dict(comment="兵主逆"),
-            2: dict(comment="天斗旋")
-        }
-    }),
-    29698: dict(skills={29698: {}, 29695: {}}),
-    33239: dict(buffs={32797: dict(name="橙武增伤")}, skills={33239: {}}),
-    36579: dict(skills={36579: {}, 36580: {}}),
-    39081: dict(skills={39081: {}}),
-    43086: dict(dots={32145: dict(skills={43082: {}})}, skills={43086: {}, 43081: {}})
+    **{k: v for gain in KUNGFU_GAINS.values() for k, v in gain.items()}
 }
 SPECIAL_GEAR_GAINS: dict[int, dict] = {
     # dps wrist
-    40788: dict(name="输出护手特效", skills={40789: dict(levels=[1, 2, 3], custom_damage_source="tDPSJingJianHuShouData")}),
+    40788: dict(name="输出护手特效",
+                skills={40789: dict(levels=[1, 2, 3], custom_damage_source="tDPSJingJianHuShouData")}),
     # tank wrist
     41062: dict(name="防御护手特效", skills={41069: dict(levels=[1], custom_damage_source="tTJingJianHuShouData")}),
     42895: dict(
@@ -104,7 +162,8 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
             }
         }
     ),
-    42767: dict(name="加速腰带特效", skills={42837: dict(levels=[1, 2], custom_damage_source="tDPSJingJianYaoDaiData")}),
+    42767: dict(name="加速腰带特效",
+                skills={42837: dict(levels=[1, 2], custom_damage_source="tDPSJingJianYaoDaiData")}),
     # tank belt
     41063: dict(name="防御腰带特效", buffs={30946: dict(levels=[1, 2, 3], name="防御腰带特效")}),
 

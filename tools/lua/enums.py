@@ -190,6 +190,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     IMMUNITY_COMBO_ALL = ""
     IMMUNE_SKILL_MOVE = ""
     IMMUNITY_BEAT_BREAK = ""
+    BAN_SKILL_MOVE = ""
 
     # Absorb Attribute
     REDUCE_DAMAGE_WHEN_LIFE_CHANGED = ""

@@ -9,7 +9,7 @@ TALENTS: list[dict[int, dict]] = [
             },
             24166: dict(comment="3段")
         }),
-        44545: dict(skills={44545: {}}),
+        44545: dict(skills={45279: {}}),
         29166: dict(skills={29751: {}, 40156: {}})
     },
     {

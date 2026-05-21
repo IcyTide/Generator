@@ -3,6 +3,7 @@ import logging
 from tqdm import tqdm
 
 from gains import GAIN
+from gains.gears import KUNGFU_GAINS
 from kungfus import Kungfu, SUPPORT_KUNGFUS
 from tools.classes.belong import Belong
 from tools.classes.buff import Buff
@@ -10,7 +11,7 @@ from tools.classes.dot import Dot
 from tools.classes.recipe import Recipe
 from tools.classes.skill import Skill
 from tools.parser.belong import parse_belong
-from tools.parser.buff import parse_buff
+from tools.parser.buff import set_buff_to_skill, parse_buff
 from tools.parser.dot import parse_dot
 from tools.parser.recipe import parse_recipe
 from tools.parser.skill import parse_skill
@@ -25,12 +26,26 @@ class Builder:
         return self.all_buffs[self.kungfu.kungfu_id]
 
     @property
+    def extra_buffs(self):
+        return {k: self.all_buffs[0][k] for k in KUNGFU_GAINS.get(self.kungfu.kungfu_id, {}) if k in self.all_buffs[0]}
+
+    @property
     def dots(self):
         return self.all_dots[self.kungfu.kungfu_id]
 
     @property
+    def extra_dots(self):
+        return {k: self.all_dots[0][k] for k in KUNGFU_GAINS.get(self.kungfu.kungfu_id, {}) if k in self.all_dots[0]}
+
+    @property
     def skills(self):
         return self.all_skills[self.kungfu.kungfu_id]
+
+    @property
+    def extra_skills(self):
+        return {
+            k: self.all_skills[0][k] for k in KUNGFU_GAINS.get(self.kungfu.kungfu_id, {}) if k in self.all_skills[0]
+        }
 
     @property
     def belongs(self):
@@ -51,7 +66,7 @@ class Builder:
         self.all_belongs = {}
         self.all_recipes = {}
         self.all_skill_recipes = {}
-        for kungfu in SUPPORT_KUNGFUS + [GAIN]:
+        for kungfu in [GAIN] + SUPPORT_KUNGFUS:
             self.kungfu: Kungfu = kungfu
             logging.info(f"Start parsing {kungfu.kungfu_id}")
             self.init_all()
@@ -132,30 +147,39 @@ class Builder:
         self.parse_skill_recipes()
 
     def parse_buffs(self):
+        all_skills = self.skills | self.extra_skills
         for category, buff_ids in tqdm(self.buffs.items()):
-            for buff_id, buff in tqdm(buff_ids.items()):
-                buffs = self.buffs[category][buff_id] = parse_buff(buff, self.skills)
+            for buff_id, buff in buff_ids.items():
+                buffs = self.buffs[category][buff_id] = parse_buff(buff, all_skills)
                 for sub_buff in buffs.values():
                     self.build_recipes(sub_buff.recipes)
+        for category, buff_ids in self.extra_buffs.items():
+            for buff_id, buff_levels in buff_ids.items():
+                for buff_level, buff in buff_levels.items():
+                    set_buff_to_skill(buff, all_skills)
+                    self.build_recipes(buff.recipes)
 
     def parse_dots(self):
         for category, dot_ids in tqdm(self.dots.items()):
-            for dot_id, dot in tqdm(dot_ids.items()):
+            for dot_id, dot in dot_ids.items():
                 self.dots[category][dot_id] = parse_dot(dot)
 
     def parse_skills(self):
         for category, skill_ids in tqdm(self.skills.items()):
-            for skill_id, skill in tqdm(skill_ids.items()):
+            for skill_id, skill in skill_ids.items():
                 self.skills[category][skill_id] = parse_skill(skill)
 
     def parse_belongs(self):
+        all_skills = self.skills | self.extra_skills
         for belong_id, belong in tqdm(self.belongs.items()):
-            belong = self.belongs[belong_id] = parse_belong(belong, self.skills)
+            belong = self.belongs[belong_id] = parse_belong(belong, all_skills)
             self.build_recipes(belong.recipes)
 
     def parse_recipes(self):
+        all_skills = self.skills | self.extra_skills
+        all_dots = self.dots | self.extra_dots
         for recipe in tqdm(self.recipes.values()):
-            parse_recipe(recipe, self.skills, self.dots)
+            parse_recipe(recipe, all_skills, all_dots)
 
     def parse_skill_recipes(self):
         pop_skills = [self.kungfu.kungfu_id]
