@@ -2,7 +2,7 @@ from assets.raw.belongs import BELONGS
 from assets.raw.buffs import BUFFS
 from assets.raw.skills import SKILLS
 from base.constant import BINARY_SCALE
-from gains.gears import GAINS
+from gains.gears import GAINS, KUNGFU_GAINS
 from qt.classes.attribute import Attribute
 from qt.classes.buff import Buff, BuffType
 from qt.classes.record import Record
@@ -22,6 +22,10 @@ def add_buff_to_attribute(gain_id: int, buff_id: int, buff_level: int, attribute
 def default_attribute(self: "GearGain", attribute: Attribute):
     for buff_id in self.buffs:
         add_buff_to_attribute(self.gain_id, buff_id, self.gain_level, attribute, self.weight)
+
+
+def empty_attribute(self: "GearGain", attribute: Attribute):
+    pass
 
 
 def tank_wrist_attribute(self: "GearGain", attribute: Attribute):
@@ -128,7 +132,8 @@ ATTRIBUTE_FUNCS = {
     38578: wind_attribute,
     22169: dps_special_enchant_belt,
     22151: dps_special_enchant_jacket,
-    33249: tank_special_enchant_wrist
+    33249: tank_special_enchant_wrist,
+    **{k: empty_attribute for gain in KUNGFU_GAINS.values() for k in gain}
 }
 
 """

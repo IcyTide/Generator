@@ -1185,7 +1185,7 @@ class Toughness:
 
 
 class Other:
-    _all_damage_gain: int = 0
+    all_damage_gain: int = 0
     physical_damage_gain: int = 0
     magical_damage_gain: int = 0
 
@@ -1198,23 +1198,12 @@ class Other:
     resist_critical_strike_rate: int = 0
 
     @property
-    def all_damage_gain(self):
-        return self._all_damage_gain
-
-    @all_damage_gain.setter
-    def all_damage_gain(self, value):
-        residual = value - self._all_damage_gain
-        self.physical_damage_gain += residual
-        self.magical_damage_gain += residual
-        self._all_damage_gain = value
-
-    @property
     def physical_damage_addition(self):
-        return self.physical_damage_gain / BINARY_SCALE
+        return (self.all_damage_gain + self.physical_damage_gain) / BINARY_SCALE
 
     @property
     def magical_damage_addition(self):
-        return self.magical_damage_gain / BINARY_SCALE
+        return (self.all_damage_gain + self.magical_damage_gain) / BINARY_SCALE
 
     @property
     def move_state_damage_addition(self):
