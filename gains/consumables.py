@@ -7,5 +7,6 @@ GAINS: dict[int, dict] = {
         **{buff_id: {} for buff_id in [27784, 27785, 27786, 27787, 27788, 27792]},
         **{buff_id: {} for buff_id in [17349, 17352, 17355, 17358, 17361]},
         17365: dict(levels=[56, 57, 58, 59, 60])
-    })
+    }),
+    10433: dict(buffs={buff_id: dict(levels=[1]) for buff_id in range(8937, 8947)})
 }

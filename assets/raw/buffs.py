@@ -794,6 +794,118 @@ BUFFS = {
                 }
             }
         },
+        10433: {
+            8937: {
+                1: {
+                    "name": "绿豆糕",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 655
+                    }
+                }
+            },
+            8938: {
+                1: {
+                    "name": "花生酥",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 587
+                    }
+                }
+            },
+            8939: {
+                1: {
+                    "name": "果味糖",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "weapon_damage_base": 886
+                    }
+                }
+            },
+            8940: {
+                1: {
+                    "name": "南瓜小点",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "max_life_add": 12733
+                    }
+                }
+            },
+            8941: {
+                1: {
+                    "name": "红豆糕",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 1049
+                    }
+                }
+            },
+            8942: {
+                1: {
+                    "name": "云片糕",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_base": 1762
+                    }
+                }
+            },
+            8943: {
+                1: {
+                    "name": "梅花糕",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "weapon_damage_base": 2657
+                    }
+                }
+            },
+            8944: {
+                1: {
+                    "name": "南瓜酥",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "max_life_add": 38200
+                    }
+                }
+            },
+            8945: {
+                1: {
+                    "name": "芝麻杆",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_base": 1964
+                    }
+                }
+            },
+            8946: {
+                1: {
+                    "name": "米花糖",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "therapy_power_base": 3146
+                    }
+                }
+            }
+        },
         545: {
             673: {
                 11: {
