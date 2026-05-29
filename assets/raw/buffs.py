@@ -857,7 +857,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "physical_attack_power_base": 1762
+                        "physical_attack_power_base": 2406
                     }
                 }
             },
@@ -868,7 +868,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "weapon_damage_base": 2657
+                        "weapon_damage_base": 3629
                     }
                 }
             },
@@ -879,7 +879,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "max_life_add": 38200
+                        "max_life_add": 52200
                     }
                 }
             },
@@ -890,7 +890,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "magical_attack_power_base": 1964
+                        "magical_attack_power_base": 2683
                     }
                 }
             },
@@ -901,7 +901,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "therapy_power_base": 3146
+                        "therapy_power_base": 4298
                     }
                 }
             }

@@ -15,7 +15,7 @@ BELONGS = {
         23768: {
             "belong_key": "belong_23768"
         },
-            10433: {
+        10433: {
             "belong_key": "belong_10433"
         },
         545: {
