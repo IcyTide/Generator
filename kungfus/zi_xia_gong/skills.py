@@ -13,7 +13,8 @@ SKILLS: dict[int, dict[int, dict]] = {
         32813: {
             1: dict(comment="6-7豆"),
             2: dict(comment="8豆"),
-            3: dict(comment="9-10豆")
+            3: dict(comment="9豆"),
+            7: dict(comment="10豆")
         }
     },
     306: {

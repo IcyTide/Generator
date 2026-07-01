@@ -2008,9 +2008,18 @@ SKILLS = {
                 },
                 3: {
                     "name": "破",
-                    "comment": "9-10豆",
+                    "comment": "9豆",
                     "damages": [
                         "surplus * 8.534 * 0.630000114440918 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
+                    ],
+                    "critical_strike": "neutral_critical_strike",
+                    "critical_power": "neutral_critical_power"
+                },
+                7: {
+                    "name": "破",
+                    "comment": "10豆",
+                    "damages": [
+                        "surplus * 8.534 * 0.7245006561279297 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                     ],
                     "critical_strike": "neutral_critical_strike",
                     "critical_power": "neutral_critical_power"
