@@ -61,10 +61,10 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
         25779: dict(buffs={6466: {}}, skills={25779: {}, 32898: dict(levels=[4])})
     },
     10389: {
-        25797: dict(buffs={8474: dict(levels=[16])}, skills={25797: {}})
+        25797: dict(buffs={8474: dict(levels=[16])}, dots={34108: dict(skills={45677: {}})}, skills={25797: {}})
     },
     10390: {
-        25780: dict(buffs={8474: dict(levels=[16])}, skills={25780: {}})
+        25780: dict(buffs={8474: dict(levels=[16])}, dots={34108: dict(skills={45677: {}})}, skills={25780: {}})
     },
     10447: {
         25781: dict(
@@ -76,7 +76,7 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
         )
     },
     10464: {
-        25782: dict(skills={25782: {}, 39106: {}})
+        25782: dict(dots={34119: dict(skills={45704: {}})}, skills={25782: {}, 39106: {}})
     },
     10533: {
         25783: dict(dots={19557: dict(skills={26935: {}})}, skills={25783: {}})
@@ -109,7 +109,6 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
         43086: dict(dots={32145: dict(skills={43082: {}})}, skills={43086: {}, 43081: {}})
     }
 }
-
 
 DIVINE_WEAPON_GAINS: dict[int, dict] = {
     # divine strain

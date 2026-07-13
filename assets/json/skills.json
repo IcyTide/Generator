@@ -303,7 +303,7 @@
                     "comment": "夕照雷峰",
                     "damages": [
                         {
-                            "damage": "(300 + rand * 35 + physical_attack_power * 1.6875 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(300 + rand * 35 + physical_attack_power * 2.53125 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "300",
                                 "physical_damage_rand": "35"
@@ -315,8 +315,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "270",
-                        "physical_attack_power_cof": "1.6875",
+                        "frames": "405",
+                        "physical_attack_power_cof": "2.53125",
                         "weapon_damage_cof": "1.0"
                     }
                 },
@@ -325,7 +325,7 @@
                     "comment": "云飞玉皇",
                     "damages": [
                         {
-                            "damage": "(300 + rand * 35 + physical_attack_power * 2.25 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(300 + rand * 35 + physical_attack_power * 3.375 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "300",
                                 "physical_damage_rand": "35"
@@ -337,8 +337,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "360",
-                        "physical_attack_power_cof": "2.25",
+                        "frames": "540",
+                        "physical_attack_power_cof": "3.375",
                         "weapon_damage_cof": "1.0"
                     }
                 }
@@ -461,7 +461,7 @@
                     "name": "暴雨梨花针",
                     "damages": [
                         {
-                            "damage": "(621 + rand * 65 + poison_attack_power * 1.7552083333333333) * (1 + magical_damage_addition + (102 * recipe_4120_1 + 31 * recipe_834_1 + 41 * recipe_835_1 + 51 * recipe_836_1) / 1024) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)",
+                            "damage": "(621 + rand * 65 + poison_attack_power * 1.6145833333333333) * (1 + magical_damage_addition + (102 * recipe_4120_1 + 31 * recipe_834_1 + 41 * recipe_835_1 + 51 * recipe_836_1) / 1024) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)",
                             "source_attribute": {
                                 "poison_damage_base": "621",
                                 "poison_damage_rand": "65"
@@ -476,8 +476,8 @@
                         }
                     },
                     "skill_attribute": {
-                        "frames": "337",
-                        "magical_attack_power_cof": "1.7552083333333333",
+                        "frames": "310",
+                        "magical_attack_power_cof": "1.6145833333333333",
                         "damage_gain": "102 * recipe_4120_1 + 31 * recipe_834_1 + 41 * recipe_835_1 + 51 * recipe_836_1"
                     }
                 }
@@ -2322,7 +2322,7 @@
                     "comment": "1豆",
                     "damages": [
                         {
-                            "damage": "(60 + solar_attack_power * 1.0572916666666665) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(60 + solar_attack_power * 1.0572916666666665) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "60"
                             }
@@ -2338,7 +2338,7 @@
                     "skill_attribute": {
                         "frames": "203",
                         "magical_attack_power_cof": "1.0572916666666665",
-                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
+                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
                     }
                 }
             },
@@ -2348,7 +2348,7 @@
                     "comment": "2豆",
                     "damages": [
                         {
-                            "damage": "(120 + solar_attack_power * 2.114583333333333) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(120 + solar_attack_power * 2.114583333333333) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "120"
                             }
@@ -2364,7 +2364,7 @@
                     "skill_attribute": {
                         "frames": "406",
                         "magical_attack_power_cof": "2.114583333333333",
-                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
+                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
                     }
                 }
             },
@@ -2374,7 +2374,7 @@
                     "comment": "3豆",
                     "damages": [
                         {
-                            "damage": "(174 + rand * 10 + solar_attack_power * 3.171875) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(174 + rand * 10 + solar_attack_power * 3.171875) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "174",
                                 "solar_damage_rand": "10"
@@ -2391,7 +2391,7 @@
                     "skill_attribute": {
                         "frames": "609",
                         "magical_attack_power_cof": "3.171875",
-                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
+                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
                     }
                 }
             },
@@ -2733,7 +2733,7 @@
                     "name": "六合棍意",
                     "damages": [
                         {
-                            "damage": "(75 + solar_attack_power * 0.6197916666666666) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(75 + solar_attack_power * 1.1822916666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "75"
                             }
@@ -2744,8 +2744,8 @@
                         "critical_power": "solar_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "119",
-                        "magical_attack_power_cof": "0.6197916666666666"
+                        "frames": "227",
+                        "magical_attack_power_cof": "1.1822916666666665"
                     }
                 }
             }
@@ -2757,7 +2757,7 @@
                     "comment": "4豆",
                     "damages": [
                         {
-                            "damage": "(174 + rand * 10 + solar_attack_power * 4.229166666666666) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(174 + rand * 10 + solar_attack_power * 4.229166666666666) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "174",
                                 "solar_damage_rand": "10"
@@ -2774,7 +2774,7 @@
                     "skill_attribute": {
                         "frames": "812",
                         "magical_attack_power_cof": "4.229166666666666",
-                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
+                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
                     }
                 }
             },
@@ -2784,7 +2784,7 @@
                     "comment": "5豆",
                     "damages": [
                         {
-                            "damage": "(174 + rand * 10 + solar_attack_power * 5.291666666666666) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(174 + rand * 10 + solar_attack_power * 5.291666666666666) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "174",
                                 "solar_damage_rand": "10"
@@ -2801,7 +2801,7 @@
                     "skill_attribute": {
                         "frames": "1016",
                         "magical_attack_power_cof": "5.291666666666666",
-                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
+                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
                     }
                 }
             },
@@ -2811,7 +2811,7 @@
                     "comment": "6豆",
                     "damages": [
                         {
-                            "damage": "(174 + rand * 10 + solar_attack_power * 6.348958333333333) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
+                            "damage": "(174 + rand * 10 + solar_attack_power * 6.348958333333333) * (1 + magical_damage_addition + (102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1) / 1024) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)",
                             "source_attribute": {
                                 "solar_damage_base": "174",
                                 "solar_damage_rand": "10"
@@ -2828,7 +2828,7 @@
                     "skill_attribute": {
                         "frames": "1219",
                         "magical_attack_power_cof": "6.348958333333333",
-                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 922 * recipe_2862_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
+                        "damage_gain": "102 * recipe_818_5 + 307 * recipe_6393_1 + 205 * recipe_6160_1 + 410 * recipe_5654_1 + 1536 * recipe_6434_1 + 31 * recipe_295_1 + 41 * recipe_296_1 + 51 * recipe_297_1"
                     }
                 }
             },
@@ -3147,7 +3147,7 @@
                     "name": "醍醐灌顶",
                     "damages": [
                         {
-                            "damage": "solar_attack_power * 4.088541666666666 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                            "damage": "solar_attack_power * 7.770833333333333 * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
                         }
                     ],
                     "critical": {
@@ -3155,8 +3155,8 @@
                         "critical_power": "solar_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "785",
-                        "magical_attack_power_cof": "4.088541666666666"
+                        "frames": "1492",
+                        "magical_attack_power_cof": "7.770833333333333"
                     }
                 }
             }
@@ -14552,7 +14552,7 @@
                     "name": "追命箭",
                     "damages": [
                         {
-                            "damage": "(1142 + rand * 120 + physical_attack_power * 3.475) * (1 + physical_damage_addition + (205 * recipe_5145_1 + 102 * recipe_6076_1 + 31 * recipe_853_1 + 41 * recipe_854_1 + 51 * recipe_855_1 + 102 * recipe_1201_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition + (512 * recipe_5945_1 + 461 * recipe_5946_1 + 410 * recipe_5947_1) / 1024) * (1 + physical_damage_scale)",
+                            "damage": "(1142 + rand * 120 + physical_attack_power * 3.9937500000000004) * (1 + physical_damage_addition + (205 * recipe_5145_1 + 102 * recipe_6076_1 + 31 * recipe_853_1 + 41 * recipe_854_1 + 51 * recipe_855_1 + 102 * recipe_1201_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition + (512 * recipe_5945_1 + 461 * recipe_5946_1 + 410 * recipe_5947_1) / 1024) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "1142",
                                 "physical_damage_rand": "120",
@@ -14568,8 +14568,8 @@
                         }
                     },
                     "skill_attribute": {
-                        "frames": "556",
-                        "physical_attack_power_cof": "3.475",
+                        "frames": "639",
+                        "physical_attack_power_cof": "3.9937500000000004",
                         "damage_gain": "205 * recipe_5145_1 + 102 * recipe_6076_1 + 31 * recipe_853_1 + 41 * recipe_854_1 + 51 * recipe_855_1 + 102 * recipe_1201_1"
                     }
                 }
@@ -15330,7 +15330,7 @@
                     "name": "狂雨穿心",
                     "damages": [
                         {
-                            "damage": "(50 + rand * 25 + poison_attack_power * 2.78125) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)",
+                            "damage": "(50 + rand * 25 + poison_attack_power * 2.9479166666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)",
                             "source_attribute": {
                                 "poison_damage_base": "50",
                                 "poison_damage_rand": "25"
@@ -15342,8 +15342,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "534",
-                        "magical_attack_power_cof": "2.78125"
+                        "frames": "566",
+                        "magical_attack_power_cof": "2.9479166666666665"
                     }
                 }
             }
@@ -16265,7 +16265,7 @@
                     "name": "极曜破妄",
                     "damages": [
                         {
-                            "damage": "(70 + rand * 10 + lunar_attack_power * 0.6145833333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
+                            "damage": "(70 + rand * 10 + lunar_attack_power * 0.2552083333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
                             "source_attribute": {
                                 "lunar_damage_base": "70",
                                 "lunar_damage_rand": "10"
@@ -16277,8 +16277,8 @@
                         "critical_power": "lunar_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "118",
-                        "magical_attack_power_cof": "0.6145833333333333"
+                        "frames": "49",
+                        "magical_attack_power_cof": "0.2552083333333333"
                     }
                 },
                 "2": {
@@ -16286,7 +16286,7 @@
                     "comment": "未递减",
                     "damages": [
                         {
-                            "damage": "(70 + rand * 10 + lunar_attack_power * 3.0729166666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
+                            "damage": "(70 + rand * 10 + lunar_attack_power * 2.5885416666666665) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)",
                             "source_attribute": {
                                 "lunar_damage_base": "70",
                                 "lunar_damage_rand": "10"
@@ -16298,8 +16298,8 @@
                         "critical_power": "lunar_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "590",
-                        "magical_attack_power_cof": "3.0729166666666665"
+                        "frames": "497",
+                        "magical_attack_power_cof": "2.5885416666666665"
                     }
                 }
             },
@@ -19763,10 +19763,10 @@
                         }
                     ],
                     "critical": {
-                        "critical_strike": "physical_critical_strike + (300 * recipe_1344_1 + 400 * recipe_1345_1 + 500 * recipe_1346_1 + 2000 * recipe_6217_1) / 10000",
+                        "critical_strike": "physical_critical_strike + (300 * recipe_1344_1 + 400 * recipe_1345_1 + 500 * recipe_1346_1) / 10000",
                         "critical_power": "physical_critical_power",
                         "source_attribute": {
-                            "physical_critical_strike_rate": "300 * recipe_1344_1 + 400 * recipe_1345_1 + 500 * recipe_1346_1 + 2000 * recipe_6217_1"
+                            "physical_critical_strike_rate": "300 * recipe_1344_1 + 400 * recipe_1345_1 + 500 * recipe_1346_1"
                         }
                     },
                     "skill_attribute": {
@@ -19792,10 +19792,10 @@
                         }
                     ],
                     "critical": {
-                        "critical_strike": "physical_critical_strike + (300 * recipe_1360_1 + 400 * recipe_1361_1 + 2000 * recipe_6218_1) / 10000",
+                        "critical_strike": "physical_critical_strike + (300 * recipe_1360_1 + 400 * recipe_1361_1) / 10000",
                         "critical_power": "physical_critical_power",
                         "source_attribute": {
-                            "physical_critical_strike_rate": "300 * recipe_1360_1 + 400 * recipe_1361_1 + 2000 * recipe_6218_1"
+                            "physical_critical_strike_rate": "300 * recipe_1360_1 + 400 * recipe_1361_1"
                         }
                     },
                     "skill_attribute": {
@@ -19819,10 +19819,10 @@
                         }
                     ],
                     "critical": {
-                        "critical_strike": "physical_critical_strike + (300 * recipe_1360_1 + 400 * recipe_1361_1 + 2000 * recipe_6218_1) / 10000",
+                        "critical_strike": "physical_critical_strike + (300 * recipe_1360_1 + 400 * recipe_1361_1) / 10000",
                         "critical_power": "physical_critical_power",
                         "source_attribute": {
-                            "physical_critical_strike_rate": "300 * recipe_1360_1 + 400 * recipe_1361_1 + 2000 * recipe_6218_1"
+                            "physical_critical_strike_rate": "300 * recipe_1360_1 + 400 * recipe_1361_1"
                         }
                     },
                     "skill_attribute": {
@@ -21434,7 +21434,7 @@
                     "comment": "1段",
                     "damages": [
                         {
-                            "damage": "(100 + rand * 20 + physical_attack_power * 5.7562500000000005) * (1 + physical_damage_addition + (31 * recipe_1413_1 + 41 * recipe_1414_1 + 51 * recipe_1415_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(100 + rand * 20 + physical_attack_power * 6.331250000000001) * (1 + physical_damage_addition + (31 * recipe_1413_1 + 41 * recipe_1414_1 + 51 * recipe_1415_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "100",
                                 "physical_damage_rand": "20"
@@ -21446,8 +21446,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "921",
-                        "physical_attack_power_cof": "5.7562500000000005",
+                        "frames": "1013",
+                        "physical_attack_power_cof": "6.331250000000001",
                         "damage_gain": "31 * recipe_1413_1 + 41 * recipe_1414_1 + 51 * recipe_1415_1"
                     }
                 }
@@ -27645,7 +27645,7 @@
                     "comment": "浮空",
                     "damages": [
                         {
-                            "damage": "(37 + rand * 5 + physical_attack_power * 7.45) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(37 + rand * 5 + physical_attack_power * 6.55625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "37",
                                 "physical_damage_rand": "5"
@@ -27657,15 +27657,15 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "1192",
-                        "physical_attack_power_cof": "7.45"
+                        "frames": "1049",
+                        "physical_attack_power_cof": "6.55625"
                     }
                 },
                 "2": {
                     "name": "飞倾列缺",
                     "damages": [
                         {
-                            "damage": "(67 + rand * 5 + physical_attack_power * 7.45) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(67 + rand * 5 + physical_attack_power * 6.55625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "67",
                                 "physical_damage_rand": "5"
@@ -27677,8 +27677,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "1192",
-                        "physical_attack_power_cof": "7.45"
+                        "frames": "1049",
+                        "physical_attack_power_cof": "6.55625"
                     }
                 }
             }
@@ -27761,11 +27761,11 @@
                     "name": "天行",
                     "damages": [
                         {
-                            "damage": "(33 + rand * 5 + physical_attack_power * 2.23125) * (1 + physical_damage_addition + (51 * recipe_4819_1 + 31 * recipe_4742_1 + 41 * recipe_4743_1 + 51 * recipe_4744_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (pve_damage_addition + 4.25) * (1 + physical_damage_scale)",
+                            "damage": "(33 + rand * 5 + physical_attack_power * 1.89375) * (1 + physical_damage_addition + (51 * recipe_4819_1 + 31 * recipe_4742_1 + 41 * recipe_4743_1 + 51 * recipe_4744_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (pve_damage_addition + 5.0) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "33",
                                 "physical_damage_rand": "5",
-                                "pve_damage_cof": "3328"
+                                "pve_damage_cof": "4096"
                             }
                         }
                     ],
@@ -27777,8 +27777,8 @@
                         }
                     },
                     "skill_attribute": {
-                        "frames": "357",
-                        "physical_attack_power_cof": "2.23125",
+                        "frames": "303",
+                        "physical_attack_power_cof": "1.89375",
                         "damage_gain": "51 * recipe_4819_1 + 31 * recipe_4742_1 + 41 * recipe_4743_1 + 51 * recipe_4744_1"
                     }
                 }
@@ -28822,7 +28822,7 @@
                     "comment": "1段",
                     "damages": [
                         {
-                            "damage": "(40 + rand * 5 + physical_attack_power * 2.5 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6071_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(40 + rand * 5 + physical_attack_power * 2.75 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6071_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "40",
                                 "physical_damage_rand": "5"
@@ -28834,8 +28834,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "400",
-                        "physical_attack_power_cof": "2.5",
+                        "frames": "440",
+                        "physical_attack_power_cof": "2.75",
                         "weapon_damage_cof": "1.0",
                         "damage_gain": "204 * recipe_6071_1"
                     }
@@ -28845,7 +28845,7 @@
                     "comment": "2段",
                     "damages": [
                         {
-                            "damage": "(55 + rand * 5 + physical_attack_power * 3.5 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6071_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(55 + rand * 5 + physical_attack_power * 3.85 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6071_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "55",
                                 "physical_damage_rand": "5"
@@ -28857,8 +28857,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "560",
-                        "physical_attack_power_cof": "3.5",
+                        "frames": "616",
+                        "physical_attack_power_cof": "3.85",
                         "weapon_damage_cof": "1.0",
                         "damage_gain": "204 * recipe_6071_1"
                     }
@@ -28868,7 +28868,7 @@
                     "comment": "4段",
                     "damages": [
                         {
-                            "damage": "(71 + rand * 5 + physical_attack_power * 4.5 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6071_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(71 + rand * 5 + physical_attack_power * 4.95 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6071_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "71",
                                 "physical_damage_rand": "5"
@@ -28880,8 +28880,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "720",
-                        "physical_attack_power_cof": "4.5",
+                        "frames": "792",
+                        "physical_attack_power_cof": "4.95",
                         "weapon_damage_cof": "1.0",
                         "damage_gain": "204 * recipe_6071_1"
                     }
@@ -28893,7 +28893,7 @@
                     "comment": "3段",
                     "damages": [
                         {
-                            "damage": "(40 + rand * 5 + physical_attack_power * 4.5 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6072_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
+                            "damage": "(40 + rand * 5 + physical_attack_power * 4.95 + weapon_damage + rand * weapon_damage_rand) * (1 + physical_damage_addition + 204 * recipe_6072_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)",
                             "source_attribute": {
                                 "physical_damage_base": "40",
                                 "physical_damage_rand": "5"
@@ -28905,8 +28905,8 @@
                         "critical_power": "physical_critical_power"
                     },
                     "skill_attribute": {
-                        "frames": "720",
-                        "physical_attack_power_cof": "4.5",
+                        "frames": "792",
+                        "physical_attack_power_cof": "4.95",
                         "weapon_damage_cof": "1.0",
                         "damage_gain": "204 * recipe_6072_1"
                     }
@@ -30350,7 +30350,7 @@
                     "name": "无方中和",
                     "damages": [
                         {
-                            "damage": "(100 + rand * 10 + poison_attack_power * 2.067708333333333) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)",
+                            "damage": "(100 + rand * 10 + poison_attack_power * 2.067708333333333) * (1 + magical_damage_addition + 205 * recipe_3362_1 / 1024) * (1 + skill_damage_final_addition) * (1 + poison_overcome) * (1 - poison_shield * (1 - all_shield_ignore / 1024) / (poison_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + poison_damage_scale)",
                             "source_attribute": {
                                 "poison_damage_base": "100",
                                 "poison_damage_rand": "10"
@@ -30363,7 +30363,8 @@
                     },
                     "skill_attribute": {
                         "frames": "397",
-                        "magical_attack_power_cof": "2.067708333333333"
+                        "magical_attack_power_cof": "2.067708333333333",
+                        "damage_gain": "205 * recipe_3362_1"
                     }
                 }
             },

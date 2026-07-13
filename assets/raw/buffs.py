@@ -2671,7 +2671,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 24,
                     "recipes": [
-                        "recipe_2862_1"
+                        "recipe_6434_1"
                     ]
                 }
             }
@@ -8078,6 +8078,20 @@ BUFFS = {
                     "recipes": [
                         "recipe_2731_1",
                         "recipe_2732_1"
+                    ]
+                }
+            }
+        },
+        28458: {
+            20718: {
+                1: {
+                    "name": "炮阳",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2579_1",
+                        "recipe_3362_1"
                     ]
                 }
             }

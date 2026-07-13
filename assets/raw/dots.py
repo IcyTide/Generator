@@ -92,6 +92,54 @@ DOTS = {
                 }
             }
         },
+        25797: {
+            34108: {
+                1: {
+                    "name": "裂伤(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 3,
+                    "max_tick": 6,
+                    "skills": {
+                        45677: {
+                            1: {
+                                "name": "",
+                                "comment": "",
+                                "damages": [
+                                    "(25 + physical_attack_power * 1.6328125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                ],
+                                "critical_strike": "physical_critical_strike",
+                                "critical_power": "physical_critical_power"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        25780: {
+            34108: {
+                1: {
+                    "name": "裂伤(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 3,
+                    "max_tick": 6,
+                    "skills": {
+                        45677: {
+                            1: {
+                                "name": "",
+                                "comment": "",
+                                "damages": [
+                                    "(25 + physical_attack_power * 1.6328125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                ],
+                                "critical_strike": "physical_critical_strike",
+                                "critical_power": "physical_critical_power"
+                            }
+                        }
+                    }
+                }
+            }
+        },
         25781: {
             23187: {
                 1: {
@@ -136,6 +184,30 @@ DOTS = {
                 }
             }
         },
+        25782: {
+            34119: {
+                1: {
+                    "name": "沉舟(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 3,
+                    "max_tick": 6,
+                    "skills": {
+                        45704: {
+                            1: {
+                                "name": "",
+                                "comment": "",
+                                "damages": [
+                                    "(25 + physical_attack_power * 0.1640625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                ],
+                                "critical_strike": "physical_critical_strike",
+                                "critical_power": "physical_critical_power"
+                            }
+                        }
+                    }
+                }
+            }
+        },
         25783: {
             19557: {
                 1: {
@@ -150,7 +222,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(25 + physical_attack_power * 1.0625) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                    "(25 + physical_attack_power * 0.53125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                                 ],
                                 "critical_strike": "physical_critical_strike",
                                 "critical_power": "physical_critical_power"
@@ -1870,7 +1942,7 @@ DOTS = {
                                 "name": "",
                                 "comment": "",
                                 "damages": [
-                                    "(50 + physical_attack_power * 1.01513671875) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                    "(50 + physical_attack_power * 1.16689453125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                                 ],
                                 "critical_strike": "physical_critical_strike",
                                 "critical_power": "physical_critical_power"
