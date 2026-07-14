@@ -24,10 +24,10 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
         )
     },
     10026: {
-        25772: dict(skills={25772: {}, 31031: {}})
+        25772: dict(buffs={1911: {}}, skills={25772: {}, 31031: {}})
     },
     10062: {
-        25795: dict(skills={25795: {}})
+        25795: dict(skills={25795: {}, 31031: {}})
     },
     10081: {
         25769: dict(dots={18512: dict(skills={25757: {}})}, skills={25769: {}})

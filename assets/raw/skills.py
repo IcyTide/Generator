@@ -95,7 +95,7 @@ SKILLS = {
                     "name": "画角闻龙",
                     "comment": "",
                     "damages": [
-                        "(496 + rand * 52 + physical_attack_power * 3.84375) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                        "(496 + rand * 52 + physical_attack_power * 3.84375) * (1 + physical_damage_addition + (512 * recipe_6442_1 + 512 * recipe_6442_1) / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                     ],
                     "critical_strike": "physical_critical_strike",
                     "critical_power": "physical_critical_power"
@@ -109,6 +109,17 @@ SKILLS = {
                     "comment": "",
                     "damages": [
                         "(rand * 2 + physical_attack_power * 0.3125) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                    ],
+                    "critical_strike": "physical_critical_strike",
+                    "critical_power": "physical_critical_power"
+                }
+            },
+            31031: {
+                1: {
+                    "name": "画角闻龙",
+                    "comment": "",
+                    "damages": [
+                        "(496 + rand * 52 + physical_attack_power * 3.84375) * (1 + physical_damage_addition + 512 * recipe_6442_1 / 1024) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 130) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
                     ],
                     "critical_strike": "physical_critical_strike",
                     "critical_power": "physical_critical_power"
