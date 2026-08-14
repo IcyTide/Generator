@@ -46,6 +46,7 @@ class Skill(AliasBase):
     weapon_damage_percent: int = BINARY_SCALE
     weapon_request: bool
     use_skill_coefficient: bool
+    is_frost: bool
 
     damage_gain: int = 0
 

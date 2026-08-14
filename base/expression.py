@@ -160,7 +160,8 @@ class Ceil(UnaryOperator):
         return super().__new__(cls).init(operand)
 
     def __str__(self):
-        return f"ceil({self.operand})"
+        # return f"ceil({self.operand})"
+        return str(self.operand)
 
     def evaluate(self, values=None):
         return Ceil(self.operand.evaluate(values))

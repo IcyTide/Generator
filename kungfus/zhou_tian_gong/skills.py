@@ -19,7 +19,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         38093: dict(comment="{level-1}点能量")
     },
     37779: {
-        37804: {}
+        37804: dict(levels=[1])
     },
     37780: {
         37816: dict(levels=[1]),

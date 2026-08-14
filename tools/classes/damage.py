@@ -1,7 +1,7 @@
 from typing import TYPE_CHECKING
 
 from base.constant import *
-from base.expression import Ceil, Expression, Int, Max, Min, Variable
+from base.expression import Ceil, Expression, Max, Min, Variable
 from tools.lua.enums import SKILL_KIND_TYPE
 
 if TYPE_CHECKING:
@@ -21,8 +21,6 @@ class BaseChain:
     def __init__(self):
         self.rand = Variable("rand")
 
-        self.need_int = False
-
     def cal_custom_damage(self):
         custom_damage_base = self.skill[custom_damage_base_key := "custom_damage_base"]
         self.skill_attribute[custom_damage_base_key] = custom_damage_base
@@ -38,22 +36,14 @@ class BaseChain:
     def cal_base_damage(self):
         damage_base, damage_rand = self.set_base_damage()
         damage = damage_base + self.rand * damage_rand
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_attack_damage(self):
         if attack_power_gain := self.source[attack_power_gain_key := f"{self.source.damage_type}_attack_power_gain"]:
             self.source_attribute[attack_power_gain_key] = attack_power_gain
             base_attack_power = Variable(f"base_{self.source.damage_type}_attack_power")
-            if self.need_int:
-                attack_power_gain += Variable(f"{self.source.damage_type}_attack_power_gain")
-                attack_power = Int(base_attack_power * (1 + attack_power_gain / BINARY_SCALE))
-                extra_attack_power = Variable(f"extra_{self.source.damage_type}_attack_power")
-                attack_power += extra_attack_power
-            else:
-                attack_power = Variable(f"{self.source.damage_type}_attack_power")
-                attack_power += base_attack_power * attack_power_gain / BINARY_SCALE
+            attack_power = Variable(f"{self.source.damage_type}_attack_power")
+            attack_power += base_attack_power * attack_power_gain / BINARY_SCALE
         else:
             attack_power = Variable(f"{self.source.damage_type}_attack_power")
         frames = self.skill[frames_key := "frames"]
@@ -65,8 +55,6 @@ class BaseChain:
     def cal_attack_damage(self):
         attack_power, attack_power_cof = self.set_attack_damage()
         damage = attack_power * attack_power_cof
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_surplus_damage(self):
@@ -79,8 +67,6 @@ class BaseChain:
     def cal_surplus_damage(self):
         surplus, surplus_cof = self.set_surplus_damage()
         damage = surplus * surplus_cof
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_weapon_damage(self):
@@ -95,11 +81,7 @@ class BaseChain:
         if self.source.damage_type != SKILL_KIND_TYPE.PHYSICS:
             return 0
         weapon_damage, weapon_damage_cof = self.set_weapon_damage()
-        if self.need_int:
-            weapon_damage = Int(weapon_damage)
         damage = weapon_damage * weapon_damage_cof
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_global_damage_scale(self):
@@ -113,8 +95,6 @@ class BaseChain:
     def cal_global_damage_scale(self, damage):
         global_damage_scale = self.set_global_damage_scale()
         damage = damage * global_damage_scale
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_damage_addition(self):
@@ -133,11 +113,7 @@ class BaseChain:
     def cal_damage_addition(self, damage: Expression):
         damage_addition, move_state_damage_addition = self.set_damage_addition()
         damage = damage * (1 + damage_addition)
-        if self.need_int:
-            damage = Int(damage)
         damage = damage * (1 + move_state_damage_addition)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_skill_damage_final_addition(self):
@@ -146,8 +122,6 @@ class BaseChain:
     def cal_skill_damage_final_addition(self, damage):
         skill_damage_final_addition = Variable("skill_damage_final_addition")
         damage = damage * (1 + skill_damage_final_addition)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_overcome(self):
@@ -156,48 +130,68 @@ class BaseChain:
     def cal_overcome(self, damage: Expression):
         overcome = Variable(f"{self.source.damage_type}_overcome")
         damage = damage * (1 + overcome)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_defense(self):
         if shield_gain := self.source[shield_gain_key := f"{self.target.damage_type}_shield_gain"]:
             self.target_attribute[shield_gain_key] = shield_gain
             base_shield = Variable(f"base_{self.target.damage_type}_shield")
-            if self.need_int:
-                shield_gain += Variable(f"{self.target.damage_type}_shield_gain")
-                shield = Int(base_shield * (1 + shield_gain / BINARY_SCALE))
-                extra_shield = Variable(f"extra_{self.target.damage_type}_shield")
-                shield = Max(shield, 0) + extra_shield
-            else:
-                shield = Variable(f"{self.target.damage_type}_shield")
-                shield += base_shield * shield_gain / BINARY_SCALE
-                shield = Max(shield, 0)
+            shield = Variable(f"{self.target.damage_type}_shield")
+            shield += base_shield * shield_gain / BINARY_SCALE
+            shield = Max(shield, 0)
         else:
             shield = Variable(f"{self.target.damage_type}_shield")
         all_shield_ignore = Variable("all_shield_ignore")
         shield = shield * (1 - all_shield_ignore / BINARY_SCALE)
-        if self.need_int:
-            shield = Int(shield)
         shield_constant = Variable("shield_constant")
         defense = shield / (shield + shield_constant)
         return defense
 
     def cal_defense(self, damage: Expression):
         defense = self.set_defense()
-        if self.need_int:
-            defense = Int(defense * BINARY_SCALE) / BINARY_SCALE
         damage = damage * (1 - defense)
-        if self.need_int:
-            damage = Int(damage)
         return damage
+
+    def set_critical_strike(self):
+        critical_strike = Variable(f"{self.source.critical_type}_critical_strike")
+        critical_strike_rate_key = f"{self.source.critical_type}_critical_strike_rate"
+        if critical_strike_rate := self.source[critical_strike_rate_key]:
+            self.source_attribute[critical_strike_rate_key] = critical_strike_rate
+            critical_strike += critical_strike_rate / DECIMAL_SCALE
+        resist_critical_strike_rate_key = "resist_critical_strike_rate"
+        if resist_critical_strike_rate := self.target[resist_critical_strike_rate_key]:
+            self.target_attribute[resist_critical_strike_rate_key] = resist_critical_strike_rate
+            critical_strike -= resist_critical_strike_rate / DECIMAL_SCALE
+        return critical_strike
+
+    def set_critical_power(self):
+        critical_power_rate_key = f"{self.source.critical_type}_critical_power_rate"
+        if critical_power_rate := self.source[critical_power_rate_key]:
+            self.source[critical_power_rate_key] = critical_power_rate
+            critical_power = Variable(f"{self.source.critical_type}_critical_power_percent")
+            critical_power_rate += Variable(f"{self.source.critical_type}_critical_power_rate")
+            critical_power += critical_power_rate / BINARY_SCALE
+            critical_power = Min(MAX_CRITICAL_POWER, critical_power)
+            unlimit_critical_power_rate = Variable(f"unlimit_critical_power_rate")
+            critical_power += unlimit_critical_power_rate / BINARY_SCALE
+        else:
+            critical_power = Variable(f"{self.source.critical_type}_critical_power")
+        return critical_power
+
+    def cal_critical(self, damage: Expression):
+        if not self.source.critical_type:
+            critical_strike, critical_power = 0, 0
+        else:
+            critical_strike, critical_power = self.set_critical_strike(), self.set_critical_power()
+            if self.skill.is_frost:
+                damage = damage * (1 + critical_strike * (critical_power - 1))
+                critical_strike, critical_power = 0, 0
+        return critical_strike, critical_power, damage
 
     def cal_level_reduction(self, damage: Expression):
         source_level, target_level = LEVEL, Variable("level")
         reduction = (target_level - source_level) * LEVEL_REDUCTION
         damage = damage * (1 - reduction)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_strain(self):
@@ -206,8 +200,6 @@ class BaseChain:
     def cal_strain(self, damage: Expression):
         strain = Variable("strain")
         damage = damage * (1 + strain)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_pve_damage(self):
@@ -220,8 +212,6 @@ class BaseChain:
     def cal_pve_damage(self, damage: Expression):
         pve_damage_addition = self.set_pve_damage()
         damage = damage * (1 + pve_damage_addition)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
     def set_damage_scale(self):
@@ -238,47 +228,21 @@ class BaseChain:
     def cal_damage_scale(self, damage: Expression):
         damage_scale = self.set_damage_scale()
         damage = damage * (1 + damage_scale)
-        if self.need_int:
-            damage = Int(damage)
         return damage
 
-    def cal_critical_strike(self):
-        critical_strike = Variable(f"{self.source.critical_type}_critical_strike")
-        critical_strike_rate_key = f"{self.source.critical_type}_critical_strike_rate"
-        if critical_strike_rate := self.source[critical_strike_rate_key]:
-            self.source_attribute[critical_strike_rate_key] = critical_strike_rate
-            critical_strike += critical_strike_rate / DECIMAL_SCALE
-        resist_critical_strike_rate_key = "resist_critical_strike_rate"
-        if resist_critical_strike_rate := self.target[resist_critical_strike_rate_key]:
-            self.target_attribute[resist_critical_strike_rate_key] = resist_critical_strike_rate
-            critical_strike -= resist_critical_strike_rate / DECIMAL_SCALE
-        return critical_strike
-
-    def cal_critical_power(self):
-        critical_power_rate_key = f"{self.source.critical_type}_critical_power_rate"
-        if critical_power_rate := self.source[critical_power_rate_key]:
-            self.source[critical_power_rate_key] = critical_power_rate
-            critical_power = Variable(f"{self.source.critical_type}_critical_power_percent")
-            critical_power_rate += Variable(f"{self.source.critical_type}_critical_power_rate")
-            critical_power += critical_power_rate / BINARY_SCALE
-            critical_power = Min(MAX_CRITICAL_POWER, critical_power)
-            unlimit_critical_power_rate = Variable(f"unlimit_critical_power_rate")
-            critical_power += unlimit_critical_power_rate / BINARY_SCALE
-        else:
-            critical_power = Variable(f"{self.source.critical_type}_critical_power")
-        return critical_power
 
 
 class BaseCallChain(BaseChain):
-    expressions: list[Expression]
+    formulas: list[tuple[int | Expression, int | Expression, int | Expression]]
     source_attributes: list[dict[str, int | Expression]]
     target_attributes: list[dict[str, int | Expression]]
 
     def __init__(self, source: "Attribute", target: "Attribute", skill: "Skill"):
         super().__init__()
         self.source, self.target, self.skill = source, target, skill
-        self.expressions, self.source_attributes, self.target_attributes = [], [], []
+        self.formulas, self.source_attributes, self.target_attributes = [], [], []
         self.skill_attribute = {}
+        self.source.critical_type = self.skill.kind_type
 
     def init_damage(self):
         self.source_attribute = {}
@@ -286,31 +250,28 @@ class BaseCallChain(BaseChain):
         self.target_attribute = {}
         self.target_attributes.append(self.target_attribute)
 
-    def init_critical(self):
-        self.source_attribute = {}
-        self.target_attribute = {}
-
     def chain_call(self, damage):
         damage = self.cal_global_damage_scale(damage)
         damage = self.cal_damage_addition(damage)
         damage = self.cal_skill_damage_final_addition(damage)
         damage = self.cal_overcome(damage)
         damage = self.cal_defense(damage)
+        critical_strike, critical_power, damage = self.cal_critical(damage)
         damage = self.cal_level_reduction(damage)
         damage = self.cal_strain(damage)
         damage = self.cal_pve_damage(damage)
         damage = self.cal_damage_scale(damage)
-        return damage
+        return critical_strike, critical_power, damage
 
 
 class DamageCallChain(BaseCallChain):
     def custom_damage_call(self):
         self.source.damage_type = self.target.damage_type = self.skill.custom_damage_type
         self.init_damage()
-        expression = self.cal_custom_damage()
-        expression = self.cal_level_reduction(expression)
-        expression = self.cal_damage_scale(expression)
-        self.expressions.append(expression)
+        damage = self.cal_custom_damage()
+        damage = self.cal_level_reduction(damage)
+        damage = self.cal_damage_scale(damage)
+        self.formulas.append((0, 0, damage))
 
     def damage_call(self, damage_base, damage_rand):
         self.init_damage()
@@ -320,100 +281,83 @@ class DamageCallChain(BaseCallChain):
         attack_damage = self.cal_attack_damage()
         weapon_damage = self.cal_weapon_damage()
         damage = base_damage + attack_damage + weapon_damage
-        damage = self.chain_call(damage)
-        return damage
+        return self.chain_call(damage)
 
     def physical_damage_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.PHYSICS
-        expression = self.damage_call(damage_base, damage_rand)
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.damage_call(damage_base, damage_rand)
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def solar_damage_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.SOLAR_MAGIC
-        expression = self.damage_call(damage_base, damage_rand)
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.damage_call(damage_base, damage_rand)
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def lunar_damage_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.LUNAR_MAGIC
-        expression = self.damage_call(damage_base, damage_rand)
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.damage_call(damage_base, damage_rand)
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def neutral_damage_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.NEUTRAL_MAGIC
-        expression = self.damage_call(damage_base, damage_rand)
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.damage_call(damage_base, damage_rand)
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def poison_damage_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.POISON
-        expression = self.damage_call(damage_base, damage_rand)
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.damage_call(damage_base, damage_rand)
+        self.formulas.append((critical_strike, critical_power, damage))
 
 
 class SurplusCallChain(BaseCallChain):
     def surplus_call(self):
         self.init_damage()
         damage = self.cal_surplus_damage()
-        damage = self.chain_call(damage)
-        return damage
+        return self.chain_call(damage)
 
     def physical_surplus_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.PHYSICS
-        expression = self.surplus_call()
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.surplus_call()
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def solar_surplus_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.SOLAR_MAGIC
-        expression = self.surplus_call()
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.surplus_call()
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def lunar_surplus_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.LUNAR_MAGIC
-        expression = self.surplus_call()
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.surplus_call()
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def neutral_surplus_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.NEUTRAL_MAGIC
-        expression = self.surplus_call()
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.surplus_call()
+        self.formulas.append((critical_strike, critical_power, damage))
 
     def poison_surplus_call(self, damage_base, damage_rand):
         self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.POISON
-        expression = self.surplus_call()
-        self.expressions.append(expression)
+        critical_strike, critical_power, damage = self.surplus_call()
+        self.formulas.append((critical_strike, critical_power, damage))
 
 
 class DamageChain(DamageCallChain, SurplusCallChain):
     def to_dict(self):
-        if not self.expressions:
-            return {}
-        self.source.critical_type = self.skill.kind_type
-        self.init_critical()
-        if self.skill.is_custom_damage or not self.source.critical_type:
-            critical_strike, critical_power = 0, 0
-        else:
-            critical_strike = self.cal_critical_strike()
-            critical_power = self.cal_critical_power()
         damage_dicts = []
-        for i, expression in enumerate(self.expressions):
+        for i, (critical_strike, critical_power, damage) in enumerate(self.formulas):
             source_attribute = self.source_attributes[i]
             target_attribute = self.target_attributes[i]
             damage_dict = dict(
-                damage=str(expression),
+                damage=str(damage),
+                critical_strike=str(critical_strike),
+                critical_power=str(critical_power),
                 source_attribute={k: str(v) for k, v in source_attribute.items() if v},
                 target_attribute={k: str(v) for k, v in target_attribute.items() if v}
             )
             damage_dict = {k: v for k, v in damage_dict.items() if v}
             damage_dicts.append(damage_dict)
-        critical_dict = dict(
-            critical_strike=str(critical_strike),
-            critical_power=str(critical_power),
-            source_attribute={k: str(v) for k, v in self.source_attribute.items() if v},
-            target_attribute={k: str(v) for k, v in self.target_attribute.items() if v}
-        )
-        critical_dict = {k: v for k, v in critical_dict.items() if v}
         skill_attribute = {k: str(v) for k, v in self.skill_attribute.items() if v}
         return dict(
             damages=damage_dicts,
-            critical=critical_dict,
             skill_attribute=skill_attribute
         )
