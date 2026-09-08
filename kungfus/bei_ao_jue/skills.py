@@ -28,8 +28,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         16382: dict(comment="3段后续")
     },
     16602: {
-        20991: {},
-        32823: dict(levels=[1])
+        20991: {}
     },
     16627: {
         skill_id: dict(comment=f"连续命中{i}次") for i, skill_id in
@@ -47,18 +46,14 @@ SKILLS: dict[int, dict[int, dict]] = {
         17092: {}
     },
     16870: {
-        **{
-            skill_id: dict(comment=f"{1 + i % 2}段") for i, skill_id in
-            enumerate([16933, 16934, 16935, 16936, 16937, 16938, 16939, 16940, 16941, 16942, 16943, 16944])
-        },
-        32823: dict(levels=[3])
+        skill_id: dict(comment=f"{1 + i % 2}段") for i, skill_id in
+        enumerate([16933, 16934, 16935, 16936, 16937, 16938, 16939, 16940, 16941, 16942, 16943, 16944])
     },
     16027: {
         **{
             skill_id: dict(comment=f"<{100 - i * 20}血量")
             for i, skill_id in enumerate([16610, 16611, 16612, 16613, 16614])
-        },
-        32823: dict(levels=[2])
+        }
     },
     16085: {
         skill_id: dict(comment=f"<{100 - i * 20}血量")
