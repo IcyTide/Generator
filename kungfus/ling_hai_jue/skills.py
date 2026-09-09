@@ -8,8 +8,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         20014: dict(comment="3段")
     },
     19818: {
-        19819: {},
-        32815: dict(levels=[6])
+        19819: {}
     },
     20245: {
         20250: {}
@@ -21,8 +20,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         31250: {}
     },
     20053: {
-        20054: {},
-        32815: dict(levels=[5])
+        20054: {}
     },
     19828: {
         20052: {}

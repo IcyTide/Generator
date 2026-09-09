@@ -1,7 +1,4 @@
 SKILLS: dict[int, dict[int, dict]] = {
-    10268: {
-        32908: {}
-    },
     5258: {
         13524: dict(comment="延迟6帧")
     },

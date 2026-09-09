@@ -120,12 +120,12 @@ class BaseAttackPower(Major):
     @property
     def base_physical_attack_power(self):
         base_attack_power = self.physical_attack_power_base + self.all_attack_power_base
-        return base_attack_power + Int(self.strength * STRENGTH_TO_ATTACK_POWER)
+        return base_attack_power + Int(self.strength * STRENGTH_TO_ATTACK_POWER / BINARY_SCALE)
 
     @property
     def base_magical_attack_power(self):
         base_attack_power = self.magical_attack_power_base + self.all_attack_power_base
-        return base_attack_power + Int(self.spunk * SPUNK_TO_ATTACK_POWER)
+        return base_attack_power + Int(self.spunk * SPUNK_TO_ATTACK_POWER / BINARY_SCALE)
 
     @property
     def base_solar_attack_power(self):
@@ -279,12 +279,12 @@ class BaseCriticalStrike(Major):
     @property
     def base_physical_critical_strike(self):
         base_critical_strike = self.physical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE)
+        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE / BINARY_SCALE)
 
     @property
     def base_magical_critical_strike(self):
         base_critical_strike = self.magical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
+        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE / BINARY_SCALE)
 
     @property
     def base_solar_critical_strike(self):
@@ -480,12 +480,12 @@ class BaseOvercome(Major):
     @property
     def base_physical_overcome(self):
         base_overcome = self.physical_overcome_base + self.all_overcome_base
-        return base_overcome + Int(self.strength * STRENGTH_TO_OVERCOME)
+        return base_overcome + Int(self.strength * STRENGTH_TO_OVERCOME / BINARY_SCALE)
 
     @property
     def base_magical_overcome(self):
         base_overcome = self.magical_overcome_base + self.all_overcome_base
-        return base_overcome + Int(self.spunk * SPUNK_TO_OVERCOME)
+        return base_overcome + Int(self.spunk * SPUNK_TO_OVERCOME / BINARY_SCALE)
 
     @property
     def base_solar_overcome(self):
@@ -990,19 +990,6 @@ class PvxRound:
     pvx_round_base: int = 0
 
 
-class Surplus(PvxRound):
-    surplus_base: int = 0
-    surplus_gain: int = 0
-
-    @property
-    def base_surplus(self):
-        return self.surplus_base + self.pvx_round_base
-
-    @property
-    def surplus(self):
-        return Int(self.base_surplus * (1 + self.surplus_gain / BINARY_SCALE))
-
-
 class Strain(PvxRound):
     strain_base: int = 0
     strain_gain: int = 0
@@ -1010,7 +997,7 @@ class Strain(PvxRound):
 
     @property
     def base_strain(self):
-        return self.strain_base + self.pvx_round_base
+        return self.strain_base + self.pvx_round_base * PVX_TO_STRAIN / BINARY_SCALE
 
     @property
     def final_strain(self):
@@ -1125,7 +1112,7 @@ class Life(Major):
 
     @property
     def base_max_life(self):
-        return self.max_life_base + self.vitality * VITALITY_TO_MAX_LIFE
+        return self.max_life_base + self.vitality * VITALITY_TO_MAX_LIFE / BINARY_SCALE
 
     @property
     def extra_max_life(self):
@@ -1220,7 +1207,7 @@ class Other:
 
 class BaseAttribute(
     AttackPower, CriticalStrike, Overcome, CriticalPower, Shield, DamageBase, DamageCof,
-    WeaponDamage, Haste, Surplus, Strain, Dodge, Parry, TherapyPower, TherapyBase,
+    WeaponDamage, Haste, Strain, Dodge, Parry, TherapyPower, TherapyBase,
     Life, Mana, DecriticalPower, Toughness, Other
 ):
     level: int = 0
@@ -1228,8 +1215,11 @@ class BaseAttribute(
     equip_score: int = 0
 
     def init(self):
+        self.agility_base = BASE_AGILITY
+        self.strength_base = BASE_STRENGTH
+        self.spirit_base = BASE_SPIRIT
+        self.spunk_base = BASE_SPUNK
         self.vitality_base = BASE_VITALITY
-        self.all_major_base = BASE_MAJOR
         self.all_critical_power_rate = BASE_CRITICAL_POWER
         self.physical_shield_base = BASE_PHYSICAL_SHIELD
         self.max_life_base = BASE_MAX_LIFE

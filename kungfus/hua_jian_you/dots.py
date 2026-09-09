@@ -8,7 +8,8 @@ DOTS: dict[int, dict[int, dict]] = {
         711: dict(levels=[19], skills={6136: {}})
     },
     2645: {
-        714: dict(levels=[24], skills={39907: {}}),
-        711: dict(levels=[19], skills={39906: {}})
+        666: dict(levels=[29], skills={46099: dict(levels=[1])}),
+        714: dict(levels=[24], skills={39907: dict(levels=[1])}),
+        711: dict(levels=[19], skills={39906: dict(levels=[1])})
     }
 }

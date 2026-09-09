@@ -3,10 +3,19 @@ TALENTS: list[dict[int, dict]] = [
         20747: dict(buffs={13966: {}}),
         32594: dict(skills={32595: {}}),
         20837: dict(skills={20838: {}, 20840: dict(comment="持续{level-1}层增伤")}),
-        41832: dict(skills={25299: {
-            1: dict(comment="浮空"),
-            2: {}
-        }})
+        41832: dict(skills={25299: {}})
+    },
+    {
+        20348: dict(buffs={29344: dict(comment="{}")}),
+        20741: {},
+        20351: {},
+        20718: {}
+    },
+    {
+        38667: dict(buffs={14321: dict(name="驰行")}),
+        20716: {},
+        46111: {},
+        20729: dict(buffs={26012: dict(comment="倒地{}秒")})
     },
     {
         38668: dict(buffs={30396: dict(levels=[2]), 29348: dict(name="游仙", comment="掌法")}),
@@ -15,41 +24,23 @@ TALENTS: list[dict[int, dict]] = [
         20700: dict(skills={34801: {}})
     },
     {
-        44500: {},
-        20759: dict(skills={22464: {}}),
-        28985: {},
-        32488: {},
-    },
-    {
-        45093: dict(skills={45100: {}}),
-        21293: dict(buffs={13966: {}}),
-        20351: {},
-        20718: {}
-    },
-    {
         32476: dict(buffs={31534: dict(comment="{}")}, skills={32478: {}}),
         20641: dict(skills={20642: {}, 35363: {}}),
         20065: dict(skills={19767: {}}),
         44499: {}
     },
     {
-        38667: dict(buffs={14321: dict(name="驰行")}),
-        20741: {},
-        20601: dict(
-            skills={
-                20605: dict(comment="1段"),
-                20632: dict(comment="2段"),
-                36417: {1: dict(comment="3段"), 2: dict(comment="3段击倒")}
-            }
-        ),
-        20729: dict(buffs={26012: dict(comment="{}")})
+        44500: {},
+        46124: dict(skills={skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([46125, 46126, 46127])}),
+        28985: {},
+        32488: {}
     },
     {
         41729: {},
-        20716: {},
-        41731: dict(skills={41836: {}}),
+        46107: dict(skills={46108: {}}),
+        41731: dict(buffs={26012: dict(comment="倒地{}秒")}, skills={41836: {}}),
         25267: {},
-        20348: dict(buffs={29344: dict(comment="{}")}),
+        45093: dict(skills={45100: {}}),
         44501: {},
         28987: dict(skills={34728: {
             1: dict(comment="1段"),

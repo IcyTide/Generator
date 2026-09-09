@@ -3,7 +3,7 @@ TALENTS: list[dict[int, dict]] = [
         35761: {},
         35762: dict(buffs={27116: {}}),
         40240: dict(skills={40347: {}, 40720: {}}),
-        42468: {}
+        42468: dict(skills={46136: {}})
     },
     {
         44346: {},
@@ -13,7 +13,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         35721: {},
-        35743: {},
+        46183: dict(buffs={34489: dict(name="乌烬", damage_cof=0.2, dots=[26856])}),
         44347: {},
         38664: {}
     },
@@ -21,16 +21,16 @@ TALENTS: list[dict[int, dict]] = [
         44350: dict(buffs={33026: {}}),
         35736: {},
         35759: {},
-        42470: {}
+        42470: dict(buffs={31832: dict(levels=[2])})
     },
     {
         42467: dict(buffs={
             33689: dict(name="连珠", comment="攻击"),
-            31940: dict(comment="标鹄", attributes=[("coming_damage_cof", 204.8)], skills=[36157])
+            31940: dict(comment="标鹄", coming_damage_cof=204.8, skills=[36157])
         }),
-        36449: {},
+        40239: {},
         35730: {},
-        35763: dict(buffs={26952: {}})
+        46242: dict(skills={46243: {}})
     },
     {
         35765: dict(skills={36173: {}}),
@@ -39,10 +39,7 @@ TALENTS: list[dict[int, dict]] = [
         35760: {}
     },
     {
-        45105: dict(
-            buffs={33688: {}},
-            skills={45107: {}}
-        ),
+        45105: dict(buffs={33688: {}}, skills={45107: {}}),
         40238: {},
         35731: {},
         35732: {},
@@ -51,7 +48,7 @@ TALENTS: list[dict[int, dict]] = [
         35756: dict(skills={44361: {}}),
         35745: dict(buffs={27099: {}}),
         35737: dict(skills={40717: {}}),
-        40239: dict(skills={40329: {}}),
+        36449: {},
         42471: dict(buffs={32136: dict(name="随袭")}),
         35740: {}
     }

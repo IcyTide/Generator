@@ -10,7 +10,6 @@ SKILLS: dict[int, dict[int, dict]] = {
     },
     3963: {
         40088: {},
-        32816: dict(levels=[1]),
         19055: dict(levels=[2])
     },
     3966: {
@@ -31,7 +30,6 @@ SKILLS: dict[int, dict[int, dict]] = {
     },
     3960: {
         40089: {},
-        32816: dict(levels=[2]),
         19055: dict(levels=[8])
     },
     3980: {

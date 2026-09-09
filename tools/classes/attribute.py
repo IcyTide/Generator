@@ -24,20 +24,5 @@ class Attribute(BaseAttribute):
     def call_poison_damage(self, damage_base, damage_rand):
         self.damage_chain.poison_damage_call(damage_base, damage_rand)
 
-    def call_physical_surplus(self, damage_base, damage_rand):
-        self.damage_chain.physical_surplus_call(damage_base, damage_rand)
-
-    def call_solar_surplus(self, damage_base, damage_rand):
-        self.damage_chain.solar_surplus_call(damage_base, damage_rand)
-
-    def call_lunar_surplus(self, damage_base, damage_rand):
-        self.damage_chain.lunar_surplus_call(damage_base, damage_rand)
-
-    def call_neutral_surplus(self, damage_base, damage_rand):
-        self.damage_chain.neutral_surplus_call(damage_base, damage_rand)
-
-    def call_poison_surplus(self, damage_base, damage_rand):
-        self.damage_chain.poison_surplus_call(damage_base, damage_rand)
-
     def custom_damage_call(self):
         self.damage_chain.custom_damage_call()

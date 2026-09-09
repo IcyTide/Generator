@@ -1,7 +1,6 @@
 SKILLS: dict[int, dict[int, dict]] = {
     10021: {
-        16: dict(channel_interval=16),
-        32467: {i + 1: dict(comment=f"吞噬{i + 1}跳") for i in range(7)},
+        16: dict(channel_interval=16)
     },
     179: {
         14941: {}
@@ -19,7 +18,6 @@ SKILLS: dict[int, dict[int, dict]] = {
         186: {}
     },
     2636: {
-        43935: {},
-        32467: dict(levels=[9])
+        43935: {}
     }
 }

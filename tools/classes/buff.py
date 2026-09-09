@@ -1,9 +1,14 @@
+from typing import TYPE_CHECKING
+
 from base.expression import Variable
 from tools.classes import AliasBase
 from tools.classes.skill import Skill
 from tools.lua.enums import ATTRIBUTE_TYPE
 from tools.settings import buff_settings, buff_txts
 from tools.utils import camel_to_capital, get_variable, process_attr_param, set_patches
+
+if TYPE_CHECKING:
+    from tools.classes.dot import Dot
 
 
 class Buff(AliasBase):
@@ -35,7 +40,12 @@ class Buff(AliasBase):
 
     attributes: list[tuple[ATTRIBUTE_TYPE, int]]
     recipes: list[tuple[int, int]]
+
+    damage_cof: float = 0.
+    coming_damage_cof: float = 0.
+
     skills: list[int]
+    dots: list[int]
     name: str = ""
     comment: str = ""
 
@@ -45,7 +55,7 @@ class Buff(AliasBase):
 
     def __init__(self, buff_id: int, buff_level: int = 0, patches: dict = None):
         self.buff_id = buff_id
-        self.attributes, self.recipes, self.skills = [], [], []
+        self.attributes, self.recipes, self.skills, self.dots = [], [], [], []
         if buff_id < 100:
             self.max_level, self.levels = 1, []
             if buff_level:
@@ -83,6 +93,9 @@ class Buff(AliasBase):
                 self.recipes.append((int(param_1), int(param_2)))
             elif param := process_attr_param(attr_type, param_1, param_2):
                 self.attributes.append((attr_type, param))
+
+    def check_dot(self, dot: "Dot"):
+        return dot.buff_id in self.dots
 
     def check_skill(self, skill: Skill):
         return skill.skill_id in self.skills

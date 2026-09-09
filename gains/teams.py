@@ -1,10 +1,10 @@
-from base.expression import Variable
+from base.expression import Max, Variable
 
 
 def get_damage():
     equip_score, buff_key = Variable("equip_score"), Variable("buff_20854_1")
-    damage_base = equip_score * 0.0080170644 - 1388.323959
-    # damage_base = max(damage_base, 1300)
+    damage_base = equip_score * 0.00125 + 32.5
+    damage_base = Max(damage_base, 40)
     # buff_key = max(buff_key, 1)
     return damage_base * buff_key * 1.25 * 1.3 * 1.15 * 0.5
 
@@ -37,19 +37,19 @@ GAINS: dict[int, dict] = {
     28678: dict(buffs={20854: {}}, skills={29532: dict(levels=[1], custom_damage_base=get_damage())}),
 
     # mobile
-    100460: dict(buffs={70684: {}}),
-    100424: dict(buffs={70021: {1: dict(comment="《龙吟·悟》奇卷"), 2: dict(comment="战锋·悟")}}),
-    100431: dict(buffs={70160: {}}),
-    102319: dict(buffs={70167: {2: dict(comment="无往不利·悟")}}),
-    101766: dict(buffs={71070: {}}),
-    101759: dict(buffs={71417: {}}),
-    100120: dict(buffs={71435: {}}),
-    100687: dict(buffs={71436: {}}),
-    100935: dict(buffs={71433: {}}),
-    100874: dict(buffs={71433: {}}),
-    101339: dict(buffs={70489: {}}),
-    101344: dict(buffs={70501: {}}),
-    101144: dict(buffs={71437: {}}),
-    101401: dict(buffs={71439: {}}),
-    101413: dict(buffs={71438: {}})
+    # 100460: dict(buffs={70684: {}}),
+    # 100424: dict(buffs={70021: {1: dict(comment="《龙吟·悟》奇卷"), 2: dict(comment="战锋·悟")}}),
+    # 100431: dict(buffs={70160: {}}),
+    # 102319: dict(buffs={70167: {2: dict(comment="无往不利·悟")}}),
+    # 101766: dict(buffs={71070: {}}),
+    # 101759: dict(buffs={71417: {}}),
+    # 100120: dict(buffs={71435: {}}),
+    # 100687: dict(buffs={71436: {}}),
+    # 100935: dict(buffs={71433: {}}),
+    # 100874: dict(buffs={71433: {}}),
+    # 101339: dict(buffs={70489: {}}),
+    # 101344: dict(buffs={70501: {}}),
+    # 101144: dict(buffs={71437: {}}),
+    # 101401: dict(buffs={71439: {}}),
+    # 101413: dict(buffs={71438: {}})
 }

@@ -1,13 +1,9 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        44528: {},
-        32498: {},
+        44534: {},
+        46109: {},
         42035: dict(skills={42036: {}}),
-        32500: dict(skills={
-            32891: dict(comment="5层破绽"),
-            32892: dict(comment="6层破绽"),
-            40645: {}
-        })
+        32500: dict(skills={40645: {}})
     },
     {
         32508: {},
@@ -18,7 +14,7 @@ TALENTS: list[dict[int, dict]] = [
     {
         44529: {},
         32497: {},
-        42233: {},
+        32498: {},
         32587: {}
     },
     {
@@ -37,21 +33,21 @@ TALENTS: list[dict[int, dict]] = [
         32613: {}
     },
     {
-        44534: dict(skills={44538: {}}),
+        44528: {},
         32586: dict(
             dots={24650: dict(skills={33133: {}})},
             skills={32591: {1: {}, 2: dict(comment="引爆")}}
         ),
-        32665: dict(skills={42235: {}}),
-        32614: dict(skills={32616: dict(comment="单持"), 33163: dict(comment="双持")})
+        46145: dict(skills={46159: {}, 46171: {}}),
+        32614: dict(skills={32616: {}})
     },
     {
         32493: dict(buffs={24209: {}}),
         44535: {},
-        32509: dict(skills={32510: dict(comment="{level+2}层破绽")}),
+        32509: dict(skills={32510: dict(comment="{level+2}层破绽", max_level=4)}),
         32459: {},
         32578: {},
-        42060: {},
+        42233: {},
         32491: {},
         32579: {},
         44536: dict(skills={44538: {}}),

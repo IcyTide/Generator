@@ -5,18 +5,20 @@ SKILLS: dict[int, dict[int, dict]] = {
         16822: dict(channel_interval=24, comment="雪絮金屏")
     },
     16028: {
-        16097: dict(comment="松烟竹雾"),
-        16774: dict(comment="秀明尘身1段"),
-        16775: dict(comment="秀明尘身2段")
+        16097: {}
+        # 16097: dict(comment="松烟竹雾"),
+        # 16774: dict(comment="秀明尘身1段"),
+        # 16775: dict(comment="秀明尘身2段")
     },
     16460: {
         17053: {}
     },
     16599: {
-        16599: dict(comment="松烟竹雾"),
-        16600: dict(comment="松烟竹雾打断"),
-        16631: dict(comment="秀明尘身"),
-        16632: dict(comment="秀明尘身打断"),
+        16599: {}
+        # 16599: dict(comment="松烟竹雾"),
+        # 16600: dict(comment="松烟竹雾打断"),
+        # 16631: dict(comment="秀明尘身"),
+        # 16632: dict(comment="秀明尘身打断"),
     },
     16454: {
         17006: dict(levels=[1])

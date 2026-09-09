@@ -3,13 +3,14 @@ DECIMAL_SCALE = 10000
 
 FRAME_PER_SECOND = 16
 
-AGILITY_TO_CRITICAL_STRIKE = 0.9
-STRENGTH_TO_ATTACK_POWER = 0.163
-STRENGTH_TO_OVERCOME = 0.3
-SPIRIT_TO_CRITICAL_STRIKE = 0.9
-SPUNK_TO_ATTACK_POWER = 0.181
-SPUNK_TO_OVERCOME = 0.3
-VITALITY_TO_MAX_LIFE = 10
+AGILITY_TO_CRITICAL_STRIKE = 250
+STRENGTH_TO_ATTACK_POWER = 195
+STRENGTH_TO_OVERCOME = 61
+SPIRIT_TO_CRITICAL_STRIKE = 250
+SPUNK_TO_ATTACK_POWER = 195
+SPUNK_TO_OVERCOME = 61
+PVX_TO_STRAIN = 1220
+VITALITY_TO_MAX_LIFE = 10000
 
 LEVEL = 50
 LEVEL_SCALE = 33
@@ -44,8 +45,11 @@ DECRITICAL_CONSTANT = 5.2 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 DODGE_CONSTANT = 13.491 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 PARRY_CONSTANT = 15.833 * (LEVEL_SCALE * LEVEL - LEVEL_CONSTANT)
 
-BASE_MAJOR = 44
-BASE_VITALITY = 1
+BASE_AGILITY = 18
+BASE_STRENGTH = 17
+BASE_SPIRIT = 18
+BASE_SPUNK = 17
+BASE_VITALITY = 18
 BASE_CRITICAL_POWER = 1792
 BASE_MAX_LIFE = 160878
 BASE_PHYSICAL_SHIELD = 2850
@@ -92,62 +96,32 @@ EMBED_POSITIONS = {
 SPECIAL_ENCHANT_MAP = {
     "hat": {
         "dps": {
-            26600: "gain_10106_15",
-            30800: "gain_10106_16",
-            35900: "gain_10106_17"
         },
         "tank": {
-            26600: "gain_22122_15",
-            30800: "gain_22122_16",
-            35900: "gain_22122_17"
         }
     },
     "jacket": {
         "dps": {
-            26600: "gain_22151_15",
-            30800: "gain_22151_16",
-            35900: "gain_22151_17"
         },
         "tank": {
-            26600: "gain_22128_15",
-            30800: "gain_22128_16",
-            35900: "gain_22128_17"
         }
     },
     "belt": {
         "dps": {
-            26600: "gain_22169_1",
-            30800: "gain_22169_1",
-            35900: "gain_22169_1"
         },
         "tank": {
-            26600: "gain_22129_15",
-            30800: "gain_22129_16",
-            35900: "gain_22129_17"
         }
     },
     "wrist": {
         "dps": {
-            26600: "gain_38984_3",
-            30800: "gain_38984_4",
-            35900: "gain_38984_5"
         },
         "tank": {
-            26600: "gain_33249_1",
-            30800: "gain_33249_2",
-            35900: "gain_33249_3"
         }
     },
     "shoes": {
         "dps": {
-            26600: "gain_38985_3",
-            30800: "gain_38985_4",
-            35900: "gain_38985_5"
         },
         "tank": {
-            26600: "gain_40512_1",
-            30800: "gain_40512_2",
-            35900: "gain_40512_3"
         }
     }
 }
@@ -188,7 +162,6 @@ MAJOR_TYPES = {
     "体质": "vitality"
 }
 CURRENT_VARIABLES = [
-    "surplus",
     "weapon_damage", "weapon_damage_rand",
     "{}_overcome",
     "all_shield_ignore",
@@ -217,7 +190,6 @@ GRAD_VARIABLES = {
     "physical_attack_power_base": 891,
     "magical_attack_power_base": 994,
     "weapon_damage_base": 1344,
-    "surplus_base": 3279,
     "strain_base": 3279,
     "all_overcome_base": 3279,
     "all_critical_strike_base": 3279,

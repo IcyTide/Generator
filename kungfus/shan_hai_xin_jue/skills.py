@@ -12,9 +12,6 @@ SKILLS: dict[int, dict[int, dict]] = {
     35661: {
         39092: {}
     },
-    35671: {
-        36177: dict(levels=[1])
-    },
     35695: {
         36111: dict(comment="狼(x3)"),
         36056: dict(comment="大象"),

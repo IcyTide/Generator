@@ -38,8 +38,6 @@ class AttributeDialog(QDialog):
         layout.addWidget(LabelRow("基础主属性/最终主属性:", QLabel(major)))
         attack_power = f"{attribute.base_attack_power}/{attribute.attack_power}"
         layout.addWidget(LabelRow("基础攻击/最终攻击:", QLabel(attack_power)))
-        surplus = f"{attribute.surplus_base}/{attribute.surplus}"
-        layout.addWidget(LabelRow("基础破招/最终破招:", QLabel(surplus)))
         strain = f"{attribute.strain_base}/{attribute.final_strain}"
         strain += f"({percent(attribute.strain_percent)}/{percent(attribute.strain)})"
         layout.addWidget(LabelRow("基础无双/最终无双(无双百分比/最终无双百分比):", QLabel(strain)))

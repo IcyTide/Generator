@@ -5,7 +5,8 @@ class Dot(Buff):
     skills: dict
     attributes_prefix = "active"
 
-    active_coefficient = 0
+    damage_cof: float = 1
+    active_coefficient: float = 1
 
     def __init__(self, *args, **kwargs):
         self.skills = {}

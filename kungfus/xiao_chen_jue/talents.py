@@ -2,9 +2,7 @@ TALENTS: list[dict[int, dict]] = [
     {
         6818: dict(dots={6401: dict(skills={6867: {}})}),
         6824: dict(
-            skills={19435: dict(comment="1-2段"), 8491: dict(comment="3段")},
-            dest_rollback_attributes=[("coming_damage_cof", 614.4)],
-            dest_rollback_skills=[19435, 8491]
+            skills={19435: dict(comment="1-2段", coming_damage_cof=614.4), 8491: dict(comment="3段", coming_damage_cof=614.4)}
         ),
         14633: dict(skills={18913: {
             1: dict(comment="0-50%蓝量"),
@@ -54,7 +52,7 @@ TALENTS: list[dict[int, dict]] = [
         6337: {},
         21284: {},
         6833: {},
-        6810: dict(skills={32898: dict(levels=[3])}),
+        6810: dict(skills={46373: {}}),
         6813: {},
         6842: {},
         6834: dict(skills={30300: {}}),

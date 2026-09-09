@@ -25,11 +25,12 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         42168: {},
-        21744: dict(skills={32501: {
-            1: dict(comment="钟林毓秀"),
-            2: dict(comment="商阳指"),
-            3: dict(comment="兰摧玉折"),
-        }}),
+        21744: dict(
+            skills={32501: {
+                1: dict(comment="钟林毓秀"),
+                2: dict(comment="商阳指"),
+                3: dict(comment="兰摧玉折"),
+            }}),
         40077: {},
         44339: {}
     },
@@ -44,32 +45,31 @@ TALENTS: list[dict[int, dict]] = [
     {
         28464: {},
         6682: dict(dots={711: dict(levels=[19], skills={13848: {}})}),
-        40075: dict(buffs={30444: dict(comment="沁逸")}),
+        40075: dict(skills={46225: {}}),
         6686: {}
     },
     {
         44358: {},
         23945: {},
         18259: {},
-        42164: {}
+        46157: dict(skills={30648: {}})
     },
     {
         26692: dict(buffs={28116: {}}),
-        28465: {},
-        24919: dict(skills={24920: {}, 24923: {}}),
+        28465: dict(skills={
+            46410: {}, 46412: {},
+            46433: {},
+            28463: {},
+            46219: {}
+        }),
+        24919: dict(skills={24920: dict(comment="1段"), 24923: dict(comment="2段")}),
         14965: {},
     },
     {
         133: {},
         183: dict(skills={144: {}}),
         34573: {},
-        37267: dict(skills={
-            37270: {
-                2: dict(comment="PVE"),
-                4: dict(comment="PVP")
-            },
-            32467: dict(levels=[8])
-        }),
+        37267: dict(skills={37270: {}}),
         24914: {},
         38595: {},
         5762: dict(buffs={32022: {}}),

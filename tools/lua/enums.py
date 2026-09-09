@@ -332,11 +332,11 @@ class ATTRIBUTE_TYPE(StrEnum):
     CALL_ADAPTIVE_DAMAGE = "call_adaptive_damage"
     CALL_THERAPY = ""
 
-    CALL_SURPLUS_PHYSICS_DAMAGE = "call_physical_surplus"
-    CALL_SURPLUS_SOLAR_DAMAGE = "call_solar_surplus"
-    CALL_SURPLUS_LUNAR_DAMAGE = "call_lunar_surplus"
-    CALL_SURPLUS_NEUTRAL_DAMAGE = "call_neutral_surplus"
-    CALL_SURPLUS_POISON_DAMAGE = "call_poison_surplus"
+    CALL_SURPLUS_PHYSICS_DAMAGE = ""
+    CALL_SURPLUS_SOLAR_DAMAGE = ""
+    CALL_SURPLUS_LUNAR_DAMAGE = ""
+    CALL_SURPLUS_NEUTRAL_DAMAGE = ""
+    CALL_SURPLUS_POISON_DAMAGE = ""
 
     # Major Attribute
     VITALITY_BASE = "vitality_base"
@@ -453,8 +453,8 @@ class ATTRIBUTE_TYPE(StrEnum):
     NONE_WEAPON_ATTACK_SPEED_BASE = ""
 
     # Minor Attribute
-    SURPLUS_VALUE_BASE = "surplus_base"
-    SURPLUS_VALUE_ADD_PERCENT = "surplus_gain"
+    SURPLUS_VALUE_BASE = ""
+    SURPLUS_VALUE_ADD_PERCENT = ""
     STRAIN_BASE = "strain_base"
     STRAIN_PERCENT = "strain_gain"
     STRAIN_RATE = "strain_rate"

@@ -57,18 +57,6 @@ class BaseChain:
         damage = attack_power * attack_power_cof
         return damage
 
-    def set_surplus_damage(self):
-        surplus = Variable(surplus_key := "surplus")
-        self.source_attribute[surplus_key] = self.source[surplus_key]
-        surplus_cof = self.skill[surplus_cof_key := "surplus_cof"]
-        self.skill_attribute[surplus_cof_key] = surplus_cof
-        return surplus, surplus_cof
-
-    def cal_surplus_damage(self):
-        surplus, surplus_cof = self.set_surplus_damage()
-        damage = surplus * surplus_cof
-        return damage
-
     def set_weapon_damage(self):
         weapon_damage = Variable("weapon_damage")
         weapon_damage_rand = Variable("weapon_damage_rand")
@@ -309,39 +297,7 @@ class DamageCallChain(BaseCallChain):
         self.formulas.append((critical_strike, critical_power, damage))
 
 
-class SurplusCallChain(BaseCallChain):
-    def surplus_call(self):
-        self.init_damage()
-        damage = self.cal_surplus_damage()
-        return self.chain_call(damage)
-
-    def physical_surplus_call(self, damage_base, damage_rand):
-        self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.PHYSICS
-        critical_strike, critical_power, damage = self.surplus_call()
-        self.formulas.append((critical_strike, critical_power, damage))
-
-    def solar_surplus_call(self, damage_base, damage_rand):
-        self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.SOLAR_MAGIC
-        critical_strike, critical_power, damage = self.surplus_call()
-        self.formulas.append((critical_strike, critical_power, damage))
-
-    def lunar_surplus_call(self, damage_base, damage_rand):
-        self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.LUNAR_MAGIC
-        critical_strike, critical_power, damage = self.surplus_call()
-        self.formulas.append((critical_strike, critical_power, damage))
-
-    def neutral_surplus_call(self, damage_base, damage_rand):
-        self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.NEUTRAL_MAGIC
-        critical_strike, critical_power, damage = self.surplus_call()
-        self.formulas.append((critical_strike, critical_power, damage))
-
-    def poison_surplus_call(self, damage_base, damage_rand):
-        self.source.damage_type = self.target.damage_type = SKILL_KIND_TYPE.POISON
-        critical_strike, critical_power, damage = self.surplus_call()
-        self.formulas.append((critical_strike, critical_power, damage))
-
-
-class DamageChain(DamageCallChain, SurplusCallChain):
+class DamageChain(DamageCallChain):
     def to_dict(self):
         damage_dicts = []
         for i, (critical_strike, critical_power, damage) in enumerate(self.formulas):

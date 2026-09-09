@@ -16,7 +16,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         6904: {},
-        34580: {},
+        34580: dict(skills={46142: dict(comment="剩余{}秒")}),
         5802: {},
         18695: dict(buffs={
             buff_id: dict(name="跬步", comment=comment + "{}柄气剑")
@@ -24,7 +24,7 @@ TALENTS: list[dict[int, dict]] = [
         })
     },
     {
-        38516: {},
+        38516: dict(skills={46143: dict(levels=[1])}),
         14836: dict(skills={20955: {}}),
         23614: dict(buffs={375: dict(levels=[13])}),
         5844: {}
@@ -51,9 +51,9 @@ TALENTS: list[dict[int, dict]] = [
         24953: {},
         6796: {},
         5828: {},
-        24945: dict(buffs={17918: {}}),
+        24945: dict(skills={46296: {}}),
         18798: {},
-        17747: {},
+        46150: {},
         5813: {},
         32411: dict(skills={36438: {}}),
         14834: dict(buffs={

@@ -1,7 +1,6 @@
 from pathlib import Path
 
-from base.constant import BINARY_SCALE, DEFAULT_SURPLUS_COF, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, \
-    PHYSICAL_DAMAGE_SCALE
+from base.constant import BINARY_SCALE, DOT_DAMAGE_SCALE, FRAME_PER_SECOND, MAGICAL_DAMAGE_SCALE, PHYSICAL_DAMAGE_SCALE
 from base.expression import Expression, Int
 from tools.classes import AliasBase
 from tools.classes.attribute import Attribute
@@ -52,7 +51,6 @@ class Skill(AliasBase):
 
     skill_coefficient: int = 0
     dot_coefficient: int = 0
-    surplus_coefficient: int = 0
 
     script_file: str
     path: str
@@ -65,6 +63,8 @@ class Skill(AliasBase):
     interval: int = 0
     tick: int = 1
     tick_cof: float = 1.
+    coming_damage_cof: float = 0.
+    damage_cof: float = 1.
 
     levels: list[int] = None
     recipe_key: Expression = None
@@ -140,7 +140,7 @@ class Skill(AliasBase):
         elif self.skill_coefficient:
             frames = self.skill_coefficient
         else:
-            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof)
+            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof * self.damage_cof)
         return frames
 
     @property
@@ -166,13 +166,6 @@ class Skill(AliasBase):
         return Int(self.weapon_damage_percent) / BINARY_SCALE
 
     @property
-    def surplus_cof(self):
-        if self.surplus_coefficient:
-            return self.surplus_coefficient / BINARY_SCALE
-        else:
-            return DEFAULT_SURPLUS_COF
-
-    @property
     def damage_addition(self):
         if self.interval:
             return 0
@@ -187,6 +180,7 @@ class Skill(AliasBase):
             source[attr] += param
         for attr, param in self.dest_rollback_attributes:
             target[attr] += param
+        target.coming_damage_cof += self.coming_damage_cof
         # self not rollback attributes no meaning
         if self.is_custom_damage:
             target.custom_damage_call()

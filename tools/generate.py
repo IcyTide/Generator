@@ -12,8 +12,8 @@ READER = DataFrameReader()
 KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], []))
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
-MIN_EQUIP_LEVEL = 30000
-ENCHANT_START_ID = 16004
+MIN_EQUIP_LEVEL = 740
+ENCHANT_START_ID = 16474
 
 MIN_EQUIP_SCORE = {
     k: round(MIN_EQUIP_LEVEL * READER.QUALITY_COF[4] * v) for k, v in READER.POSITION_COF.items()
@@ -52,7 +52,6 @@ ATTR_ABBR = {
     "critical_strike_base": "会心",
     "critical_power_base": "会效",
     "haste_base": "加速",
-    "surplus_base": "破招",
     "strain_base": "无双",
     "physical_shield": "外防",
     "magical_shield": "内防",
@@ -273,7 +272,7 @@ def build_equip_code(details: dict[int, dict]):
 def get_equip_list(equip_tab):
     equip_tab = equip_tab[equip_tab.SubType.isin(MIN_EQUIP_SCORE)]
     equip_tab = equip_tab[equip_tab.Score >= equip_tab.SubType.map(MIN_EQUIP_SCORE)]
-    equip_tab = equip_tab[equip_tab.EquipUsage.isin([1, 3])]
+    # equip_tab = equip_tab[equip_tab.EquipUsage.isin([1, 3])]
     equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
     equip_tab = equip_tab.sort_values(["SubType", "Score", "ID"], ascending=False)
     results = {}

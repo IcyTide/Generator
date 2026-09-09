@@ -28,13 +28,13 @@ def create_consumable(buff_ids: int | list):
     return result
 
 
-MAJOR_FOODS = create_consumable(29274)
-MINOR_FOODS = create_consumable(29276)
-MAJOR_POTIONS = create_consumable(29288)
-MINOR_POTIONS = create_consumable(29289)
+MAJOR_FOODS = create_consumable(34523)
+MINOR_FOODS = create_consumable(34522)
+MAJOR_POTIONS = create_consumable(34527)
+MINOR_POTIONS = create_consumable(34525)
 SPREADS = {
-    **create_consumable(29284),
-    **create_consumable(29285)
+    **create_consumable(34517),
+    **create_consumable(34516)
 }
 SNACKS = {
     **create_consumable(17365),

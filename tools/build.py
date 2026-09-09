@@ -11,7 +11,7 @@ from tools.classes.dot import Dot
 from tools.classes.recipe import Recipe
 from tools.classes.skill import Skill
 from tools.parser.belong import parse_belong
-from tools.parser.buff import set_buff_to_skill, parse_buff
+from tools.parser.buff import set_buff_to_skills, parse_buff
 from tools.parser.dot import parse_dot
 from tools.parser.recipe import parse_recipe
 from tools.parser.skill import parse_skill
@@ -83,7 +83,7 @@ class Builder:
 
     def build_all(self):
         if self.kungfu.kungfu_id:
-            self.belongs[self.kungfu.kungfu_id] = Belong(self.kungfu.kungfu_id)
+            self.belongs[self.kungfu.kungfu_id] = Belong(self.kungfu.kungfu_id, patches=dict(max_level=5)) # TODO: fix bug
         self.build_buffs(self.kungfu.buffs)
         self.build_dots(self.kungfu.dots)
         self.build_skills(self.kungfu.skills)
@@ -148,15 +148,16 @@ class Builder:
 
     def parse_buffs(self):
         all_skills = self.skills | self.extra_skills
+        all_dots = self.dots | self.extra_dots
         for category, buff_ids in tqdm(self.buffs.items()):
             for buff_id, buff in buff_ids.items():
-                buffs = self.buffs[category][buff_id] = parse_buff(buff, all_skills)
+                buffs = self.buffs[category][buff_id] = parse_buff(buff, all_skills, all_dots)
                 for sub_buff in buffs.values():
                     self.build_recipes(sub_buff.recipes)
         for category, buff_ids in self.extra_buffs.items():
             for buff_id, buff_levels in buff_ids.items():
                 for buff_level, buff in buff_levels.items():
-                    set_buff_to_skill(buff, all_skills)
+                    set_buff_to_skills(buff, all_skills, all_dots)
                     self.build_recipes(buff.recipes)
 
     def parse_dots(self):
@@ -198,11 +199,12 @@ class Builder:
             code[skill_id] = {}
             for skill_level, item in skill_levels.items():
                 content = code[skill_id][skill_level] = item.to_dict()
-                if damages := content.pop('damages', []):
-                    content['damages'] = [damage['damage'] for damage in damages]
-                if critical := content.pop('critical', {}):
-                    content['critical_strike'] = critical['critical_strike']
-                    content['critical_power'] = critical['critical_power']
+                damages = []
+                for damage in content.pop('damages', []):
+                    damages.append(damage['damage'])
+                    content['critical_strike'] = damage['critical_strike']
+                    content['critical_power'] = damage['critical_power']
+                content['damages'] = damages
                 content.pop('skill_attribute', None)
         return code
 

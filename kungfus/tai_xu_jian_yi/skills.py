@@ -10,21 +10,14 @@ SKILLS: dict[int, dict[int, dict]] = {
     },
     364: {
         17689: dict(comment="1段"),
-        17690: dict(comment="2段"),
-        32814: dict(levels=[1])
+        17690: dict(comment="2段")
     },
     311: {
         14975: {}
     },
     365: {
-        **{
-            skill_id: dict(comment=f"{i + 1}豆")
-            for i, skill_id in enumerate([386, 387, 388, 389, 390, 391, 392, 393, 394])
-        },
-        32814: {
-            2: dict(comment="6-8豆"),
-            3: dict(comment="9-10豆")
-        }
+        skill_id: dict(comment=f"{i + 1}豆")
+        for i, skill_id in enumerate([386, 387, 388, 389, 390, 391, 392, 393, 394])
     },
     2699: {
         4954: {
