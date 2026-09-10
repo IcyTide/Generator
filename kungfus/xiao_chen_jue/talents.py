@@ -39,7 +39,7 @@ TALENTS: list[dict[int, dict]] = [
         25197: dict(skills={25201: dict(comment="持续"), 25202: dict(comment="触发")}),
         14927: dict(
             dots={32041: dict(skills={42918: {}})},
-            skills={43085: dict(comment="1段"), 42917: dict(comment="2段")}
+            skills={43085: {}}
         ),
         28989: dict(skills={28952: {
             12: dict(comment="1段"),

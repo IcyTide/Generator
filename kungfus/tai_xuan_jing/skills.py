@@ -13,15 +13,13 @@ SKILLS: dict[int, dict[int, dict]] = {
         24811: {},
         24812: dict(comment="水坎"),
         24813: dict(comment="山艮"),
-        24814: dict(comment="火离"),
-        32886: dict(levels=[1])
+        24814: dict(comment="火离")
     },
     24372: {
         24824: {},
         24822: dict(comment="水坎"),
         24823: dict(comment="山艮"),
-        24821: dict(comment="火离"),
-        32886: dict(levels=[3])
+        24821: dict(comment="火离")
     },
     24373: {
         30026: {}
@@ -30,9 +28,6 @@ SKILLS: dict[int, dict[int, dict]] = {
         24454: {}
     },
     24379: {
-        42423: {}
-    },
-    24378: {
         25233: dict(levels=[18])
     }
 }

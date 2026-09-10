@@ -32,7 +32,7 @@ GAINS: dict[int, dict] = {
     13050: dict(buffs={8248: dict(levels=[1], on_target=1)}),
     44566: dict(buffs={8248: dict(levels=[2], on_target=1)}),
     13422: dict(buffs={8504: {}}),
-    15072: dict(buffs={10031: {}}),
+    15072: dict(buffs={33210: {}}),
     18819: dict(buffs={23543: {}}),  # 16911
     28678: dict(buffs={20854: {}}, skills={29532: dict(levels=[1], custom_damage_base=get_damage())}),
 

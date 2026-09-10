@@ -1,6 +1,6 @@
 BUFFS: dict[int, dict[int, dict]] = {
     10003: {
-        24453: {}
+        24453: dict(coming_damage_cof=-51.2)
     },
     235: {
         24285: {}

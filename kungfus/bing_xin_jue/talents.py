@@ -4,16 +4,13 @@ TALENTS: list[dict[int, dict]] = [
             buffs={28183: {}, 28184: {}, 28185: {}, 28186: {}},
             skills={37317: {}, 37318: {}, 37319: {}, 37320: {}}
         ),
-        40177: dict(skills={40182: {
-            2: dict(comment="1层"),
-            3: dict(comment="2层")
-        }}),
+        46198: dict(skills={46266: dict(comment="{}层")}),
         547: dict(skills={547: {}}),
         42516: dict(skills={42519: dict(levels=[1])})
     },
     {
-        5864: dict(buffs={5788: {}}),
-        21936: dict(buffs={15220: dict(name="灼桃", comment="{}")}),
+        5864: dict(buffs={5788: dict(levels=[1])}),
+        25000: {},
         6558: dict(skills={35366: {}}),
         14727: {}
     },
@@ -35,7 +32,7 @@ TALENTS: list[dict[int, dict]] = [
     {
         5852: dict(skills={6554: {}}),
         5854: dict(skills={18814: {}}),
-        5882: {},
+        21936: dict(buffs={15220: dict(name="灼桃", comment="{}")}),
         563: {}
     },
     {
@@ -50,10 +47,11 @@ TALENTS: list[dict[int, dict]] = [
         ),
         14715: {},
         21166: dict(
+            buffs={29462: dict(damage_cof=0.05, dots=[2920])},
             dots={2920: dict(skills={18716: {}})},
             skills={21170: {}}
         ),
-        32636: dict(skills={37310: {}, 32666: {}, 44573: {}})
+        32636: dict(skills={37310: {}, 32666: dict(comment="{}层"), 44573: {}})
     },
     {
         24996: dict(buffs={17969: {}}, skills={24999: {}}),
@@ -66,7 +64,7 @@ TALENTS: list[dict[int, dict]] = [
         ),
         22732: dict(
             dots={2920: dict(skills={18716: {}})},
-            skills={30532: {}, 34611: {}}
+            skills={30532: {}}
         ),
         6567: {},
         18620: {},
@@ -74,13 +72,10 @@ TALENTS: list[dict[int, dict]] = [
         18468: {},
         6907: {},
         18202: dict(
-            buffs={1: dict(name="玉素", attributes=[("coming_damage_cof", 1024)], skills=[6559])},
             dots={2920: dict(skills={6207: {}})},
             skills={18203: {}}
         ),
-        25000: dict(
-            buffs={29297: {}},
-        ),
+        5882: {},
         36013: {},
         6779: dict(buffs={12571: dict(name="朝露")})
     }

@@ -1,3 +1,4 @@
+from base.constant import BINARY_SCALE
 from base.expression import Expression
 from tools.classes.buff import Buff
 from tools.classes.dot import Dot

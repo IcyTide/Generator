@@ -1,5 +1,105 @@
 DOTS = {
     0: {},
+    10002: {
+        235: {
+            743: {
+                29: {
+                    "name": "横扫六合(DOT)",
+                    "comment": "",
+                    "interval": "32",
+                    "max_stack": 1,
+                    "max_tick": 6,
+                    "skills": {
+                        43073: {
+                            29: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "solar_critical_strike",
+                                "critical_power": "solar_critical_power",
+                                "damages": [
+                                    "(1 + solar_attack_power * 0.08125322501241575) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    10003: {
+        235: {
+            743: {
+                29: {
+                    "name": "横扫六合(DOT)",
+                    "comment": "",
+                    "interval": "32",
+                    "max_stack": 1,
+                    "max_tick": 6,
+                    "skills": {
+                        43073: {
+                            29: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
+                                "critical_power": "min(3,solar_critical_power_percent + (205 * recipe_5157_1 + solar_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                                "damages": [
+                                    "(1 + solar_attack_power * 0.08125322501241575) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        32649: {
+            743: {
+                29: {
+                    "name": "横扫六合(DOT)",
+                    "comment": "",
+                    "interval": "32",
+                    "max_stack": 1,
+                    "max_tick": 6,
+                    "skills": {
+                        28539: {
+                            29: {
+                                "name": "无执六合环绕",
+                                "comment": "",
+                                "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
+                                "critical_power": "min(3,solar_critical_power_percent + (205 * recipe_5157_1 + solar_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                                "damages": [
+                                    "(1 + solar_attack_power * 0.022755196436766364) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        24884: {
+            743: {
+                58: {
+                    "name": "横扫六合(DOT)",
+                    "comment": "",
+                    "interval": "32",
+                    "max_stack": 2,
+                    "max_tick": 6,
+                    "skills": {
+                        43073: {
+                            58: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "solar_critical_strike + 1000 * recipe_5157_1 / 10000",
+                                "critical_power": "min(3,solar_critical_power_percent + (205 * recipe_5157_1 + solar_critical_power_rate) / 1024) + unlimit_critical_power_rate / 1024",
+                                "damages": [
+                                    "(1 + solar_attack_power * 0.08125322501241575) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + solar_overcome) * (1 - solar_shield * (1 - all_shield_ignore / 1024) / (solar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + solar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
     10014: {},
     10015: {
         588: {
@@ -387,6 +487,225 @@ DOTS = {
         }
     },
     10028: {},
+    10080: {},
+    10081: {
+        2707: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        3009: {
+                            28: {
+                                "name": "玳弦急曲",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        561: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        18716: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6530_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        2716: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        6207: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6508_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        23457: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        18716: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6530_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        6572: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        6207: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6508_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        21166: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        18716: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6530_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        24995: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        3009: {
+                            28: {
+                                "name": "玳弦急曲",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        22732: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        18716: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6530_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        18202: {
+            2920: {
+                28: {
+                    "name": "急曲(DOT)",
+                    "comment": "",
+                    "interval": "48",
+                    "max_stack": 6,
+                    "max_tick": 6,
+                    "skills": {
+                        6207: {
+                            28: {
+                                "name": "",
+                                "comment": "",
+                                "critical_strike": "lunar_critical_strike",
+                                "critical_power": "lunar_critical_power",
+                                "damages": [
+                                    "(1 + lunar_attack_power * int(137.18133000000003 * (1 + recipe_6508_1) * (1.0 + 0.05 * buff_29462_1)) * 0.0001610037483733469) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + lunar_overcome) * (1 - lunar_shield * (1 - all_shield_ignore / 1024) / (lunar_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + lunar_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
     10175: {
         2211: {
             2296: {
@@ -933,6 +1252,32 @@ DOTS = {
                                 "critical_power": "physical_critical_power",
                                 "damages": [
                                     "(1 + physical_attack_power * 0.12976259319675634) * (1 + physical_damage_addition) * (1 + skill_damage_final_addition) * (1 + physical_overcome) * (1 - physical_shield * (1 - all_shield_ignore / 1024) / (physical_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + physical_damage_scale)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    10615: {
+        25382: {
+            31796: {
+                1: {
+                    "name": "知微(DOT)",
+                    "comment": "",
+                    "interval": "32",
+                    "max_stack": 2,
+                    "max_tick": 15,
+                    "skills": {
+                        42432: {
+                            1: {
+                                "name": "知微",
+                                "comment": "",
+                                "critical_strike": "neutral_critical_strike",
+                                "critical_power": "neutral_critical_power",
+                                "damages": [
+                                    "(1 + neutral_attack_power * 0.15027016514845712) * (1 + magical_damage_addition) * (1 + skill_damage_final_addition) * (1 + neutral_overcome) * (1 - neutral_shield * (1 - all_shield_ignore / 1024) / (neutral_shield * (1 - all_shield_ignore / 1024) + shield_constant)) * (1 - (level - 50) * 0.05) * (1 + strain) * (1 + pve_damage_addition) * (1 + neutral_damage_scale)"
                                 ]
                             }
                         }

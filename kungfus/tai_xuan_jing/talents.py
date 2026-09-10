@@ -2,7 +2,7 @@ TALENTS: list[dict[int, dict]] = [
     {
         25368: dict(skills={34683: {}}),
         37456: {},
-        25026: dict(skills={28815: dict(levels=[2])}),
+        25026: dict(skills={28815: dict(comment="{7+level}尺")}),
         44478: dict(skills={45094: {}})
     },
     {
@@ -15,7 +15,7 @@ TALENTS: list[dict[int, dict]] = [
         25028: {},
         25367: {},
         25137: {},
-        25072: dict(buffs={33198: {}})
+        25072: {}
     },
     {
         25034: {},
@@ -24,13 +24,10 @@ TALENTS: list[dict[int, dict]] = [
         42492: {}
     },
     {
-        25087: {},
-        25011: dict(skills={25011: {}}),
-        32791: dict(
-            buffs={31805: {}},
-            skills={32791: {}}
-        ),
-        25114: dict(buffs={18039: {}})
+        46240: dict(skills={46241: {1: dict(comment="PVP"), 2: dict(comment="PVE")}}),
+        25011: {},
+        32791: dict(skills={33236: {}}),
+        25114: {}
     },
     {
         42455: dict(skills={42456: dict(comment="{}层")}),
@@ -59,7 +56,10 @@ TALENTS: list[dict[int, dict]] = [
         24949: {},
         25148: {},
         32794: {},
-        42511: dict(skills={42520: dict(levels=[2])}),
+        42511: dict(skills={
+            42520: {1: dict(comment="PVP"), 2: dict(comment="PVE")},
+            46458: {1: dict(comment="火离PVP"), 2: dict(comment="火离PVE")}
+        }),
         42926: {}
     }
 ]

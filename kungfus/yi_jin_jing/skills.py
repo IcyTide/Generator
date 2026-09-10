@@ -11,7 +11,6 @@ SKILLS: dict[int, dict[int, dict]] = {
         3849: dict(comment="1豆"),
         3850: dict(comment="2豆"),
         3848: dict(comment="3豆"),
-        32887: dict(levels=[1]),
         19090: dict(levels=[2])
     },
     235: {
@@ -31,10 +30,16 @@ SKILLS: dict[int, dict[int, dict]] = {
     243: {
         13682: dict(comment="1豆"),
         13684: dict(comment="2豆"),
-        13686: dict(comment="3豆"),
-        32887: dict(levels=[2])
+        13686: dict(comment="3豆")
     },
     18604: {
         28619: {}
+    },
+    5913: {
+        271: {
+            1: dict(comment="韦陀献杵"),
+            5: dict(comment="拿云式"),
+            9: {}
+        }
     }
 }
