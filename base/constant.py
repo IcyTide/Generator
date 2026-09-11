@@ -130,7 +130,7 @@ STONE_POSITIONS = [
     "primary_weapon"
 ]
 
-VERSION_SCALE = 43900 / 27800
+VERSION_SCALE = 1355 / 27800
 
 
 def ROUND(num):

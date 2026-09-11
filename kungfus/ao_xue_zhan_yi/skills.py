@@ -10,8 +10,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         18603: {}
     },
     415: {
-        18773: {},
-        32820: dict(levels=[1])
+        18773: {}
     },
     480: {
         21251: {}
@@ -28,7 +27,9 @@ SKILLS: dict[int, dict[int, dict]] = {
         702: dict(comment="自身>50%血量")
     },
     427: {
-        14887: {}
+        14887: dict(comment="1段"),
+        46148: dict(comment="延迟4帧2段"),
+        46149: dict(comment="延迟8帧3段")
     },
     428: {
         409: {}

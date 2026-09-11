@@ -18,12 +18,10 @@ SKILLS: dict[int, dict[int, dict]] = {
     1593: {
         1595: {},
         1594: dict(levels=[1], comment="4尺内"),
-        18317: dict(comment="峰插云景"),
-        32821: dict(levels=[1])
+        18317: dict(comment="峰插云景")
     },
     1600: {
-        2896: {},
-        32821: dict(levels=[2])
+        2896: {}
     },
     18322: {
         1598: {},

@@ -13,7 +13,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         35721: {},
-        46183: dict(buffs={34489: dict(name="乌烬", damage_cof=0.2, dots=[26856])}),
+        46183: dict(buffs={34489: dict(name="乌烬", damage_cof=0.2, dots={26856: {}})}),
         44347: {},
         38664: {}
     },
@@ -26,7 +26,7 @@ TALENTS: list[dict[int, dict]] = [
     {
         42467: dict(buffs={
             33689: dict(name="连珠", comment="攻击"),
-            31940: dict(comment="标鹄", coming_damage_cof=204.8, skills=[36157])
+            31940: dict(comment="标鹄", coming_damage_cof=204.8, skills={36157: {}})
         }),
         40239: {},
         35730: {},

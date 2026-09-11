@@ -9,7 +9,7 @@ TALENTS: list[dict[int, dict]] = [
         }),
         40190: dict(
             buffs={
-                30349: dict(levels=[1], coming_damage_cof=204.8, skills=[4480, 14701, 4476]),
+                30349: dict(levels=[1], coming_damage_cof=204.8, skills={4480: {}, 14701: {}, 4476: {}}),
                 30350: dict(name="寂灭劫灰", comment="生死劫·月", levels=[3])
             }
         ),
@@ -35,7 +35,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         25166: dict(
-            buffs={1: dict(name="净体不畏", coming_damage_cof=512, skills=[40088, 40089])},
+            buffs={1: dict(name="净体不畏", coming_damage_cof=512, skills={40088: {}, 40089: {}})},
             skills={26708: {}, 26709: {}}
         ),
         34372: dict(dots={25725: dict(skills={34373: {}}), 25726: dict(skills={34374: {}})}),
@@ -46,9 +46,14 @@ TALENTS: list[dict[int, dict]] = [
         32622: {}
     },
     {
-        25160: dict(buffs={33108: {}}),
+        34383: dict(
+            buffs={
+                25758: dict(name="月灵", comment="招式"), 25759: dict(name="日灵", comment="招式"),
+                34605: dict(name="日灵", comment="阳性"), 34606: dict(name="月灵", comment="阴性")
+            }
+        ),
         46263: {},
-        32661: dict(buffs={2: dict(name="30%斩杀", coming_damage_cof=512, skills=[44463])},skills={44463: {}}),
+        32661: dict(buffs={2: dict(name="30%斩杀", coming_damage_cof=512, skills={44463: {}})}, skills={44463: {}}),
         18629: dict(skills={44488: {}})
     },
     {
@@ -69,7 +74,7 @@ TALENTS: list[dict[int, dict]] = [
         36093: {},
         41888: {},
         34511: dict(skills={34510: dict(comment="命中{level-1}次")}),
-        34383: dict(buffs={25758: {}, 25759: {}}),
+        25160: {},
         46195: {},
         46269: {}
     }

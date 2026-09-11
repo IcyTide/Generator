@@ -1253,7 +1253,7 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 10
+                        "strain_base": 7
                     }
                 }
             }
@@ -1380,7 +1380,7 @@ BUFFS = {
                     "max_tick": 1,
                     "attributes": {
                         "max_life_add": 56,
-                        "strain_base": 10
+                        "strain_base": 5
                     }
                 }
             }
@@ -1393,7 +1393,7 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 10
+                        "strain_base": 7
                     }
                 }
             }
@@ -1459,7 +1459,7 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 16,
                     "attributes": {
-                        "strain_base": 36
+                        "strain_base": 28
                     }
                 }
             }
@@ -1570,7 +1570,7 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 60,
                     "attributes": {
-                        "strain_base": 10
+                        "strain_base": 7
                     }
                 }
             }
@@ -1583,7 +1583,7 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 30,
                     "attributes": {
-                        "strain_base": 10
+                        "strain_base": 8
                     }
                 }
             }
@@ -2606,6 +2606,125 @@ BUFFS = {
                     }
                 }
             }
+        },
+        25794: {
+            1920: {
+                8: {
+                    "name": "降魔境",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 24,
+                    "recipes": [
+                        "recipe_2862_1"
+                    ]
+                }
+            }
+        },
+        25766: {
+            1919: {
+                8: {
+                    "name": "昭佛光",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 24,
+                    "recipes": [
+                        "recipe_6434_1"
+                    ]
+                }
+            }
+        },
+        25770: {
+            1916: {
+                8: {
+                    "name": "仙灵",
+                    "interval": 96,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_5756_1"
+                    ]
+                }
+            }
+        },
+        25771: {
+            1915: {
+                8: {
+                    "name": "镇恶",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 24,
+                    "recipes": [
+                        "recipe_5758_1"
+                    ]
+                }
+            }
+        },
+        25772: {
+            1911: {
+                8: {
+                    "name": "掠炎",
+                    "interval": 96,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6442_1"
+                    ]
+                }
+            }
+        },
+        25779: {
+            6466: {
+                8: {
+                    "name": "暴龙震江",
+                    "interval": 96,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_5569_1",
+                        "recipe_5570_1",
+                        "recipe_5571_1"
+                    ]
+                }
+            }
+        },
+        25797: {
+            8474: {
+                16: {
+                    "name": "驭焰",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 16,
+                    "recipes": [
+                        "recipe_1941_1"
+                    ]
+                }
+            }
+        },
+        25780: {
+            8474: {
+                16: {
+                    "name": "驭焰",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 16,
+                    "recipes": [
+                        "recipe_1941_1"
+                    ]
+                }
+            }
+        },
+        33239: {
+            32797: {
+                1: {
+                    "name": "橙武增伤",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6255_1"
+                    ]
+                }
+            }
         }
     },
     10002: {
@@ -2806,11 +2925,11 @@ BUFFS = {
                     "interval": 1,
                     "max_stack": 1,
                     "max_tick": 1,
-                    "skills": [
-                        44421,
-                        44422,
-                        44423
-                    ],
+                    "skills": {
+                        44421: {},
+                        44422: {},
+                        44423: {}
+                    },
                     "buff_key": "buff_1_1"
                 }
             }
@@ -2949,9 +3068,9 @@ BUFFS = {
                     "interval": 1,
                     "max_stack": 1,
                     "max_tick": 1,
-                    "skills": [
-                        38615
-                    ],
+                    "skills": {
+                        38615: {}
+                    },
                     "buff_key": "buff_2_1"
                 }
             }
@@ -3458,9 +3577,9 @@ BUFFS = {
                     "interval": 80,
                     "max_stack": 4,
                     "max_tick": 1,
-                    "skills": [
-                        4954
-                    ],
+                    "skills": {
+                        4954: {}
+                    },
                     "buff_key": "buff_29451_1"
                 }
             }
@@ -3611,7 +3730,239 @@ BUFFS = {
             }
         }
     },
+    10026: {
+        404: {
+            6363: {
+                2: {
+                    "name": "激雷",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 24,
+                    "attributes": {
+                        "physical_critical_strike_rate": 3000
+                    }
+                }
+            }
+        },
+        433: {
+            6121: {
+                1: {
+                    "name": "驰骋",
+                    "interval": 80,
+                    "max_stack": 1,
+                    "max_tick": 3,
+                    "attributes": {
+                        "physical_attack_power_gain": 154
+                    }
+                }
+            }
+        },
+        24896: {
+            21638: {
+                1: {
+                    "name": "龙驭",
+                    "interval": 9999,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        18773: {}
+                    },
+                    "buff_key": "buff_21638_1"
+                }
+            }
+        },
+        6511: {
+            7671: {
+                1: {
+                    "name": "牧云",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_critical_strike_rate": 600,
+                        "physical_critical_power_rate": 256,
+                        "strain_gain": 204
+                    }
+                }
+            }
+        },
+        6806: {
+            6363: {
+                3: {
+                    "name": "激雷",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 24,
+                    "attributes": {
+                        "physical_overcome_gain": 205,
+                        "physical_attack_power_gain": 205,
+                        "physical_critical_strike_rate": 3000
+                    }
+                }
+            }
+        },
+        5678: {
+            6363: {
+                4: {
+                    "name": "激雷",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 72,
+                    "attributes": {
+                        "all_shield_ignore": 717,
+                        "physical_critical_strike_rate": 3000
+                    }
+                }
+            }
+        },
+        5666: {
+            12608: {
+                1: {
+                    "name": "风虎",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4504_1",
+                        "recipe_4505_1",
+                        "recipe_4506_1",
+                        "recipe_4507_1"
+                    ]
+                },
+                2: {
+                    "name": "风虎",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4504_2",
+                        "recipe_4505_2",
+                        "recipe_4506_2",
+                        "recipe_4507_2"
+                    ]
+                },
+                3: {
+                    "name": "风虎",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4504_3",
+                        "recipe_4505_3",
+                        "recipe_4506_3",
+                        "recipe_4507_3"
+                    ]
+                },
+                4: {
+                    "name": "风虎",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4504_4",
+                        "recipe_4505_4",
+                        "recipe_4506_4",
+                        "recipe_4507_4"
+                    ]
+                },
+                5: {
+                    "name": "风虎",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4504_5",
+                        "recipe_4505_5",
+                        "recipe_4506_5",
+                        "recipe_4507_5"
+                    ]
+                }
+            }
+        }
+    },
     10028: {},
+    10062: {
+        10062: {
+            17885: {
+                3: {
+                    "name": "铁牢·宿敌",
+                    "comment": "主T",
+                    "interval": 1200,
+                    "max_stack": 1,
+                    "max_tick": 4,
+                    "attributes": {
+                        "vitality_to_physical_attack_power": 1979,
+                        "vitality_to_physical_overcome": 459
+                    }
+                }
+            },
+            29938: {
+                3: {
+                    "name": "铁牢",
+                    "comment": "副T",
+                    "interval": 4800,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "vitality_to_physical_attack_power": 653,
+                        "vitality_to_physical_overcome": 154
+                    }
+                }
+            }
+        },
+        404: {
+            6363: {
+                2: {
+                    "name": "激雷",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 24,
+                    "attributes": {
+                        "physical_critical_strike_rate": 3000
+                    }
+                }
+            }
+        },
+        433: {
+            6121: {
+                1: {
+                    "name": "驰骋",
+                    "interval": 80,
+                    "max_stack": 1,
+                    "max_tick": 3,
+                    "attributes": {
+                        "physical_attack_power_gain": 154
+                    }
+                }
+            }
+        },
+        44599: {
+            33234: {
+                1: {
+                    "name": "破军突阵",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "attributes": {
+                        "strain_gain": 205
+                    }
+                }
+            }
+        },
+        25354: {
+            34567: {
+                1: {
+                    "name": "崩决",
+                    "interval": 240,
+                    "max_stack": 7,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 61
+                    }
+                }
+            }
+        }
+    },
     10080: {},
     10081: {
         537: {
@@ -3983,6 +4334,233 @@ BUFFS = {
             }
         }
     },
+    10144: {
+        1663: {
+            1728: {
+                3: {
+                    "name": "莺鸣",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 8,
+                    "attributes": {
+                        "physical_critical_strike_rate": 2000
+                    }
+                }
+            }
+        },
+        42179: {
+            31637: {
+                2: {
+                    "name": "重剑无锋",
+                    "interval": 16,
+                    "max_stack": 15,
+                    "max_tick": 9,
+                    "attributes": {
+                        "unlimit_haste_rate": 26
+                    }
+                }
+            }
+        },
+        40178: {
+            1728: {
+                7: {
+                    "name": "莺鸣",
+                    "interval": 16,
+                    "max_stack": 3,
+                    "max_tick": 8,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1000,
+                        "unlimit_critical_power_rate": 256
+                    }
+                }
+            }
+        },
+        5957: {
+            9714: {
+                1: {
+                    "name": "雾锁",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_shield_ignore": 461,
+                        "physical_attack_power_gain": 205
+                    }
+                }
+            }
+        },
+        6545: {
+            21640: {
+                1: {
+                    "name": "层云",
+                    "comment": "0次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1
+                },
+                2: {
+                    "name": "层云",
+                    "comment": "1次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2817_1"
+                    ]
+                },
+                3: {
+                    "name": "层云",
+                    "comment": "2次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2818_1"
+                    ]
+                },
+                4: {
+                    "name": "层云",
+                    "comment": "3次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2819_1"
+                    ]
+                },
+                5: {
+                    "name": "层云",
+                    "comment": "4次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2820_1"
+                    ]
+                },
+                6: {
+                    "name": "层云",
+                    "comment": "5次递增",
+                    "interval": 128,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2821_1"
+                    ]
+                }
+            }
+        },
+        23922: {
+            26988: {
+                1: {
+                    "name": "逍遥",
+                    "interval": 160,
+                    "max_stack": 2,
+                    "max_tick": 1,
+                    "attributes": {
+                        "weapon_damage_gain": 205,
+                        "physical_attack_power_gain": 51
+                    }
+                }
+            }
+        },
+        5952: {
+            22913: {
+                1: {
+                    "name": "岱宗",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_critical_power_rate": 246
+                    }
+                }
+            }
+        },
+        5959: {
+            19187: {
+                1: {
+                    "name": "凤鸣",
+                    "interval": 160,
+                    "max_stack": 2,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2445_1",
+                        "recipe_2446_1"
+                    ]
+                }
+            }
+        },
+        5964: {
+            9903: {
+                1: {
+                    "name": "造化",
+                    "comment": ">50剑气",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "recipes": [
+                        "recipe_2348_1",
+                        "recipe_4880_1"
+                    ]
+                },
+                2: {
+                    "name": "造化",
+                    "comment": ">75剑气",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "recipes": [
+                        "recipe_2882_1",
+                        "recipe_2883_1"
+                    ]
+                }
+            }
+        },
+        14604: {
+            17976: {
+                2: {
+                    "name": "桂雨",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "agility_gain": 307
+                    }
+                }
+            }
+        },
+        6548: {
+            26207: {
+                1: {
+                    "name": "碧归",
+                    "interval": 144,
+                    "max_stack": 4,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3280_1",
+                        "recipe_3281_1",
+                        "recipe_3282_1"
+                    ]
+                }
+            }
+        },
+        44470: {
+            31551: {
+                1: {
+                    "name": "截锋",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6474_1",
+                        "recipe_6475_1",
+                        "recipe_6476_1"
+                    ]
+                }
+            }
+        }
+    },
     10175: {
         2223: {
             2543: {
@@ -4101,6 +4679,419 @@ BUFFS = {
         }
     },
     10176: {},
+    10224: {
+        3093: {
+            3254: {
+                1: {
+                    "name": "气魄",
+                    "interval": 480,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_gain": 20,
+                        "strength_gain": 20
+                    }
+                }
+            },
+            7659: {
+                2: {
+                    "name": "命陨",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_gain": 205
+                    }
+                }
+            }
+        },
+        3096: {
+            17103: {
+                1: {
+                    "name": "追命无声",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_5145_1"
+                    ]
+                }
+            }
+        },
+        3094: {
+            3468: {
+                2: {
+                    "name": "心无旁骛",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1500,
+                        "physical_critical_power_rate": 300
+                    }
+                }
+            }
+        },
+        42927: {
+            32054: {
+                1: {
+                    "name": "寒江夜雨",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "attributes": {
+                        "skill_damage_final_cof": 102
+                    }
+                }
+            }
+        },
+        25119: {
+            18036: {
+                2: {
+                    "name": "锋锐",
+                    "interval": 480,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "attributes": {
+                        "weapon_damage_gain": 410
+                    }
+                }
+            }
+        },
+        45914: {
+            31349: {
+                1: {
+                    "name": "贯革梨花",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6471_1"
+                    ]
+                },
+                2: {
+                    "name": "贯革梨花",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6471_2"
+                    ]
+                },
+                3: {
+                    "name": "贯革梨花",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6471_3"
+                    ]
+                },
+                4: {
+                    "name": "贯革梨花",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6471_4"
+                    ]
+                },
+                5: {
+                    "name": "贯革梨花",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6471_5"
+                    ]
+                },
+                6: {
+                    "name": "贯革梨花",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6471_6"
+                    ]
+                }
+            }
+        },
+        45917: {
+            3276: {
+                1: {
+                    "name": "追命无声",
+                    "max_stack": 3,
+                    "max_tick": 120,
+                    "recipes": [
+                        "recipe_6458_1"
+                    ]
+                }
+            }
+        },
+        6473: {
+            7659: {
+                1: {
+                    "name": "命陨",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_gain": 307,
+                        "strain_gain": 256
+                    }
+                }
+            }
+        },
+        6451: {
+            8210: {
+                2: {
+                    "name": "心无旁骛",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 13,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1500,
+                        "physical_critical_power_rate": 300,
+                        "unlimit_haste_rate": 123
+                    }
+                }
+            }
+        },
+        42451: {
+            31816: {
+                1: {
+                    "name": "穿杨贯柳",
+                    "interval": 16,
+                    "max_stack": 2,
+                    "max_tick": 10,
+                    "recipes": [
+                        "recipe_6075_1",
+                        "recipe_6076_1",
+                        "recipe_6077_1",
+                        "recipe_6078_1",
+                        "recipe_6079_1",
+                        "recipe_6080_1",
+                        "recipe_6349_1"
+                    ]
+                }
+            }
+        },
+        6461: {
+            9981: {
+                1: {
+                    "name": "秋风散影",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1000,
+                        "physical_critical_power_rate": 102
+                    }
+                }
+            }
+        },
+        6439: {
+            9844: {
+                1: {
+                    "name": "夺魄之威",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 5,
+                    "attributes": {
+                        "physical_critical_power_rate": 80,
+                        "physical_critical_strike_rate": 800
+                    }
+                }
+            }
+        }
+    },
+    10225: {
+        3093: {
+            3254: {
+                1: {
+                    "name": "气魄",
+                    "interval": 480,
+                    "max_stack": 5,
+                    "max_tick": 1,
+                    "attributes": {
+                        "spunk_gain": 20,
+                        "strength_gain": 20
+                    }
+                }
+            }
+        },
+        3110: {
+            3316: {
+                1: {
+                    "name": "扬威",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "poison_attack_power_gain": 512
+                    }
+                }
+            }
+        },
+        3094: {
+            3468: {
+                2: {
+                    "name": "心无旁骛",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1500,
+                        "physical_critical_power_rate": 300
+                    }
+                }
+            }
+        },
+        20544: {
+            33690: {
+                1: {
+                    "name": "洞烛机微",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "attributes": {
+                        "all_damage_gain": 205
+                    }
+                }
+            }
+        },
+        6506: {
+            6112: {
+                1: {
+                    "name": "千机之威",
+                    "interval": 1920,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_gain": 154,
+                        "poison_attack_power_gain": 154,
+                        "all_shield_ignore": 512
+                    }
+                }
+            }
+        },
+        46138: {
+            30721: {
+                1: {
+                    "name": "专注",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 50,
+                    "attributes": {
+                        "all_damage_gain": 102
+                    }
+                }
+            }
+        },
+        30921: {
+            23081: {
+                1: {
+                    "name": "擘两分星",
+                    "comment": "<80神机",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 205
+                    }
+                }
+            },
+            23082: {
+                1: {
+                    "name": "擘两分星",
+                    "comment": ">20神机",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2960_1",
+                        "recipe_2961_1",
+                        "recipe_2962_1"
+                    ]
+                }
+            }
+        },
+        30723: {
+            29361: {
+                1: {
+                    "name": "易损",
+                    "interval": 96,
+                    "max_stack": 10,
+                    "max_tick": 1,
+                    "skills": {
+                        3401: {},
+                        3404: {},
+                        31026: {},
+                        31027: {},
+                        26900: {}
+                    },
+                    "buff_key": "buff_29361_1"
+                }
+            }
+        },
+        42479: {
+            1: {
+                1: {
+                    "name": "化血",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        42664: [
+                            2
+                        ]
+                    },
+                    "buff_key": "buff_1_1"
+                }
+            }
+        },
+        6461: {
+            9981: {
+                1: {
+                    "name": "秋风散影",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1000,
+                        "physical_critical_power_rate": 102
+                    }
+                }
+            }
+        },
+        6510: {
+            3281: {
+                1: {
+                    "name": "击搏挽裂",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_1943_1"
+                    ]
+                }
+            }
+        },
+        42472: {
+            31833: {
+                1: {
+                    "name": "汲雨",
+                    "interval": 400,
+                    "max_stack": 4,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_gain": 51,
+                        "poison_overcome_gain": 51
+                    }
+                }
+            }
+        }
+    },
     10242: {
         3962: {
             28355: {
@@ -4137,11 +5128,11 @@ BUFFS = {
                     "interval": 32,
                     "max_stack": 8,
                     "max_tick": 1,
-                    "skills": [
-                        4480,
-                        14701,
-                        4476
-                    ],
+                    "skills": {
+                        4480: {},
+                        14701: {},
+                        4476: {}
+                    },
                     "buff_key": "buff_30349_1"
                 }
             },
@@ -4180,23 +5171,64 @@ BUFFS = {
                     "interval": 1,
                     "max_stack": 1,
                     "max_tick": 1,
-                    "skills": [
-                        40088,
-                        40089
-                    ],
+                    "skills": {
+                        40088: {},
+                        40089: {}
+                    },
                     "buff_key": "buff_1_1"
                 }
             }
         },
-        25160: {
-            33108: {
+        34383: {
+            25758: {
                 1: {
-                    "name": "五明乐见",
-                    "interval": 80,
+                    "name": "月灵",
+                    "comment": "招式",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3225_1",
+                        "recipe_3226_1",
+                        "recipe_3227_1"
+                    ]
+                }
+            },
+            25759: {
+                1: {
+                    "name": "日灵",
+                    "comment": "招式",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3222_1",
+                        "recipe_3223_1",
+                        "recipe_3224_1"
+                    ]
+                }
+            },
+            34605: {
+                1: {
+                    "name": "日灵",
+                    "comment": "阳性",
+                    "interval": 32,
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_damage_gain": 102
+                        "solar_attack_power_gain": 184
+                    }
+                }
+            },
+            34606: {
+                1: {
+                    "name": "月灵",
+                    "comment": "阴性",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "lunar_attack_power_gain": 184
                     }
                 }
             }
@@ -4208,9 +5240,9 @@ BUFFS = {
                     "interval": 1,
                     "max_stack": 1,
                     "max_tick": 1,
-                    "skills": [
-                        44463
-                    ],
+                    "skills": {
+                        44463: {}
+                    },
                     "buff_key": "buff_2_1"
                 }
             }
@@ -4248,32 +5280,6 @@ BUFFS = {
                         "solar_attack_power_gain": 256,
                         "lunar_attack_power_gain": 256
                     }
-                }
-            }
-        },
-        34383: {
-            25758: {
-                1: {
-                    "interval": 960,
-                    "max_stack": 1,
-                    "max_tick": 1,
-                    "recipes": [
-                        "recipe_3225_1",
-                        "recipe_3226_1",
-                        "recipe_3227_1"
-                    ]
-                }
-            },
-            25759: {
-                1: {
-                    "interval": 960,
-                    "max_stack": 1,
-                    "max_tick": 1,
-                    "recipes": [
-                        "recipe_3222_1",
-                        "recipe_3223_1",
-                        "recipe_3224_1"
-                    ]
                 }
             }
         }
@@ -4370,24 +5376,11 @@ BUFFS = {
                     "interval": 1,
                     "max_stack": 1,
                     "max_tick": 1,
-                    "skills": [
-                        40088,
-                        40089
-                    ],
+                    "skills": {
+                        40088: {},
+                        40089: {}
+                    },
                     "buff_key": "buff_1_1"
-                }
-            }
-        },
-        25160: {
-            33108: {
-                1: {
-                    "name": "五明乐见",
-                    "interval": 80,
-                    "max_stack": 1,
-                    "max_tick": 1,
-                    "attributes": {
-                        "all_damage_gain": 102
-                    }
                 }
             }
         },
@@ -4602,8 +5595,8 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 1,
                     "attributes": {
-                        "parry_value_base": 3,
-                        "parry_base": 1
+                        "parry_value_base": 10,
+                        "parry_base": 3
                     }
                 }
             }
@@ -4751,9 +5744,9 @@ BUFFS = {
                     "interval": 480,
                     "max_stack": 8,
                     "max_tick": 1,
-                    "skills": [
-                        13099
-                    ],
+                    "skills": {
+                        13099: {}
+                    },
                     "buff_key": "buff_17056_1"
                 }
             }
@@ -4797,6 +5790,211 @@ BUFFS = {
             }
         }
     },
+    10447: {
+        45730: {
+            34135: {
+                1: {
+                    "name": "九衢闻曲",
+                    "interval": 4,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6444_1"
+                    ]
+                }
+            }
+        },
+        14871: {
+            30474: {
+                1: {
+                    "name": "绝弦",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 9999,
+                    "attributes": {
+                        "all_damage_gain": 154
+                    }
+                }
+            }
+        },
+        14466: {
+            12567: {
+                1: {
+                    "name": "凝眉",
+                    "interval": 8,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 154
+                    }
+                }
+            }
+        },
+        41837: {
+            34163: {
+                1: {
+                    "name": "参连",
+                    "interval": 30,
+                    "max_stack": 1,
+                    "max_tick": 32,
+                    "attributes": {
+                        "strain_gain": 102,
+                        "all_shield_ignore": 615
+                    }
+                }
+            }
+        },
+        37287: {
+            9570: {
+                1: {
+                    "name": "凌冬",
+                    "comment": "递增1次",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2203_1"
+                    ]
+                },
+                2: {
+                    "name": "凌冬",
+                    "comment": "递增2次",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2204_1"
+                    ]
+                },
+                3: {
+                    "name": "凌冬",
+                    "comment": "递增3次",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2205_1"
+                    ]
+                },
+                4: {
+                    "name": "凌冬",
+                    "comment": "递增4次",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2206_1"
+                    ]
+                },
+                5: {
+                    "name": "凌冬",
+                    "comment": "递增5次",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2207_1"
+                    ]
+                },
+                6: {
+                    "name": "凌冬",
+                    "comment": "递增6次",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_2208_1"
+                    ]
+                }
+            }
+        },
+        14282: {
+            34159: {
+                1: {
+                    "comment": "1层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 10
+                    }
+                },
+                2: {
+                    "comment": "2层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 20
+                    }
+                },
+                3: {
+                    "comment": "3层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 31
+                    }
+                },
+                4: {
+                    "comment": "4层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 41
+                    }
+                },
+                5: {
+                    "comment": "5层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 51
+                    }
+                },
+                6: {
+                    "comment": "6层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 61
+                    }
+                },
+                7: {
+                    "comment": "7层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 72
+                    }
+                },
+                8: {
+                    "comment": "8层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 82
+                    }
+                },
+                9: {
+                    "comment": "9层",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_critical_power_rate": 92
+                    }
+                }
+            }
+        }
+    },
+    10448: {},
     10464: {
         16870: {
             31782: {
@@ -4805,20 +6003,20 @@ BUFFS = {
                     "interval": 16,
                     "max_stack": 6,
                     "max_tick": 20,
-                    "skills": [
-                        16933,
-                        16934,
-                        16935,
-                        16936,
-                        16937,
-                        16938,
-                        16939,
-                        16940,
-                        16941,
-                        16942,
-                        16943,
-                        16944
-                    ],
+                    "skills": {
+                        16933: {},
+                        16934: {},
+                        16935: {},
+                        16936: {},
+                        16937: {},
+                        16938: {},
+                        16939: {},
+                        16940: {},
+                        16941: {},
+                        16942: {},
+                        16943: {},
+                        16944: {}
+                    },
                     "buff_key": "buff_31782_1"
                 }
             }
@@ -5185,20 +6383,20 @@ BUFFS = {
                     "interval": 16,
                     "max_stack": 6,
                     "max_tick": 20,
-                    "skills": [
-                        16933,
-                        16934,
-                        16935,
-                        16936,
-                        16937,
-                        16938,
-                        16939,
-                        16940,
-                        16941,
-                        16942,
-                        16943,
-                        16944
-                    ],
+                    "skills": {
+                        16933: {},
+                        16934: {},
+                        16935: {},
+                        16936: {},
+                        16937: {},
+                        16938: {},
+                        16939: {},
+                        16940: {},
+                        16941: {},
+                        16942: {},
+                        16943: {},
+                        16944: {}
+                    },
                     "buff_key": "buff_31782_2"
                 }
             }
@@ -5564,6 +6762,269 @@ BUFFS = {
             }
         }
     },
+    10585: {
+        22360: {
+            16596: {
+                1: {
+                    "name": "崔嵬鬼步",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 6,
+                    "attributes": {
+                        "physical_critical_strike_rate": 1500,
+                        "physical_critical_power_rate": 150,
+                        "physical_attack_power_gain": 154
+                    }
+                }
+            }
+        },
+        22593: {
+            15927: {
+                1: {
+                    "name": "百节",
+                    "comment": "1层",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4965_1",
+                        "recipe_4966_1",
+                        "recipe_4967_1",
+                        "recipe_4968_1"
+                    ]
+                }
+            },
+            15928: {
+                1: {
+                    "name": "百节",
+                    "comment": "2层",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4969_1",
+                        "recipe_4970_1",
+                        "recipe_4971_1",
+                        "recipe_4972_1"
+                    ]
+                }
+            },
+            15929: {
+                1: {
+                    "name": "百节",
+                    "comment": "3层",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4973_1",
+                        "recipe_4974_1",
+                        "recipe_4975_1",
+                        "recipe_4976_1"
+                    ]
+                }
+            }
+        },
+        22590: {
+            15896: {
+                1: {
+                    "name": "飞琼",
+                    "interval": 960,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_4959_1"
+                    ]
+                }
+            }
+        },
+        40173: {
+            1: {
+                1: {
+                    "name": "劲拔",
+                    "comment": "50%血量以上",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        22489: {},
+                        22490: {},
+                        22553: {},
+                        22554: {}
+                    },
+                    "buff_key": "buff_1_1"
+                }
+            }
+        },
+        22587: {
+            15893: {
+                1: {
+                    "name": "忘断",
+                    "interval": 400,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_attack_power_gain": 154,
+                        "strain_gain": 154
+                    }
+                }
+            }
+        },
+        30849: {
+            21588: {
+                1: {
+                    "name": "孤路",
+                    "comment": "1次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3154_1"
+                    ]
+                },
+                2: {
+                    "name": "孤路",
+                    "comment": "2次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3155_1"
+                    ]
+                },
+                3: {
+                    "name": "孤路",
+                    "comment": "3次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3156_1"
+                    ]
+                },
+                4: {
+                    "name": "孤路",
+                    "comment": "4次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3157_1"
+                    ]
+                },
+                5: {
+                    "name": "孤路",
+                    "comment": "5次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3158_1"
+                    ]
+                },
+                6: {
+                    "name": "孤路",
+                    "comment": "6次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3159_1"
+                    ]
+                },
+                7: {
+                    "name": "孤路",
+                    "comment": "7次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3160_1"
+                    ]
+                },
+                8: {
+                    "name": "孤路",
+                    "comment": "8次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3161_1"
+                    ]
+                },
+                9: {
+                    "name": "孤路",
+                    "comment": "9次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3162_1"
+                    ]
+                },
+                10: {
+                    "name": "孤路",
+                    "comment": "10次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3163_1"
+                    ]
+                },
+                11: {
+                    "name": "孤路",
+                    "comment": "11次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3164_1"
+                    ]
+                },
+                12: {
+                    "name": "孤路",
+                    "comment": "12次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3165_1"
+                    ]
+                },
+                13: {
+                    "name": "孤路",
+                    "comment": "13次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_3166_1"
+                    ]
+                },
+                14: {
+                    "name": "孤路",
+                    "comment": "14次递增",
+                    "interval": 32,
+                    "max_stack": 1,
+                    "max_tick": 1
+                }
+            }
+        },
+        22596: {
+            15932: {
+                1: {
+                    "name": "徵逐",
+                    "interval": 208,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_shield_ignore": 614
+                    }
+                }
+            }
+        }
+    },
     10615: {
         37505: {
             30430: {
@@ -5684,9 +7145,9 @@ BUFFS = {
                     "interval": 72,
                     "max_stack": 6,
                     "max_tick": 1,
-                    "skills": [
-                        27579
-                    ],
+                    "skills": {
+                        27579: {}
+                    },
                     "buff_key": "buff_34549_1"
                 }
             }
@@ -5912,9 +7373,9 @@ BUFFS = {
                         "recipe_6414_1",
                         "recipe_6415_1"
                     ],
-                    "skills": [
-                        36157
-                    ],
+                    "skills": {
+                        36157: {}
+                    },
                     "buff_key": "buff_31940_1"
                 }
             }
@@ -5956,6 +7417,412 @@ BUFFS = {
                         "physical_critical_strike_rate": 500,
                         "physical_critical_power_rate": 51
                     }
+                }
+            }
+        }
+    },
+    10786: {
+        38009: {
+            33154: {
+                1: {
+                    "name": "督脉增伤",
+                    "interval": 1,
+                    "max_stack": 255,
+                    "max_tick": 1,
+                    "attributes": {
+                        "skill_damage_final_cof": 41
+                    }
+                }
+            }
+        },
+        40242: {
+            34426: {
+                1: {
+                    "name": "风萦",
+                    "interval": 192,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        38452: {}
+                    },
+                    "buff_key": "buff_34426_1"
+                }
+            }
+        },
+        38481: {
+            29254: {
+                1: {
+                    "name": "神封",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_gain": 154,
+                        "magical_attack_power_gain": 154
+                    }
+                }
+            }
+        },
+        46258: {
+            34441: {
+                1: {
+                    "name": "飒飒",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        38452: {}
+                    },
+                    "buff_key": "buff_34441_1"
+                }
+            }
+        },
+        38500: {
+            28756: {
+                2: {
+                    "name": "玉枕",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 9999,
+                    "attributes": {
+                        "all_shield_ignore": 512
+                    }
+                }
+            }
+        },
+        44516: {
+            33774: {
+                1: {
+                    "name": "涣风",
+                    "interval": 1,
+                    "max_stack": 3,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 410
+                    }
+                }
+            }
+        },
+        38505: {
+            30667: {
+                1: {
+                    "name": "滃从",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 6,
+                    "attributes": {
+                        "all_damage_gain": 82
+                    }
+                }
+            }
+        }
+    },
+    10821: {
+        41437: {
+            31755: {
+                1: {
+                    "name": "连环慢",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6052_1",
+                        "recipe_6053_1",
+                        "recipe_6054_1"
+                    ]
+                }
+            }
+        },
+        41116: {
+            31624: {
+                1: {
+                    "name": "落笼簿",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6002_1",
+                        "recipe_6004_1",
+                        "recipe_6005_1"
+                    ]
+                }
+            }
+        },
+        41985: {
+            31519: {
+                1: {
+                    "name": "缠绞",
+                    "interval": 16,
+                    "max_stack": 5,
+                    "max_tick": 12,
+                    "skills": {
+                        41471: {},
+                        41472: {},
+                        41473: {},
+                        42384: {},
+                        46382: {},
+                        46383: {},
+                        46384: {},
+                        46385: {},
+                        42021: {},
+                        46390: {},
+                        42084: {},
+                        46387: {},
+                        42033: {},
+                        42247: {}
+                    },
+                    "buff_key": "buff_31519_1"
+                }
+            }
+        },
+        41451: {
+            31530: {
+                1: {
+                    "name": "虚影",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 10,
+                    "skills": {
+                        41471: {},
+                        41472: {},
+                        41473: {},
+                        42384: {},
+                        46382: {},
+                        46383: {},
+                        46384: {},
+                        46385: {},
+                        42021: {},
+                        46390: {},
+                        42084: {},
+                        46387: {},
+                        41465: {},
+                        46392: {},
+                        42265: {},
+                        46394: {},
+                        41486: {},
+                        46398: {},
+                        42098: {},
+                        42381: {},
+                        43081: {}
+                    },
+                    "buff_key": "buff_31530_1"
+                }
+            }
+        },
+        42114: {
+            32216: {
+                1: {
+                    "name": "联套",
+                    "comment": "1层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_1",
+                        "recipe_6220_1",
+                        "recipe_6221_1"
+                    ]
+                },
+                2: {
+                    "name": "联套",
+                    "comment": "2层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_2",
+                        "recipe_6220_2",
+                        "recipe_6221_2"
+                    ]
+                },
+                3: {
+                    "name": "联套",
+                    "comment": "3层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_3",
+                        "recipe_6220_3",
+                        "recipe_6221_3"
+                    ]
+                },
+                4: {
+                    "name": "联套",
+                    "comment": "4层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_4",
+                        "recipe_6220_4",
+                        "recipe_6221_4"
+                    ]
+                },
+                5: {
+                    "name": "联套",
+                    "comment": "5层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_5",
+                        "recipe_6220_5",
+                        "recipe_6221_5"
+                    ]
+                },
+                6: {
+                    "name": "联套",
+                    "comment": "6层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_6",
+                        "recipe_6220_6",
+                        "recipe_6221_6"
+                    ]
+                },
+                7: {
+                    "name": "联套",
+                    "comment": "7层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_7",
+                        "recipe_6220_7",
+                        "recipe_6221_7"
+                    ]
+                },
+                8: {
+                    "name": "联套",
+                    "comment": "8层",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6219_8",
+                        "recipe_6220_8",
+                        "recipe_6221_8"
+                    ]
+                }
+            }
+        },
+        42127: {
+            31870: {
+                1: {
+                    "name": "七撩",
+                    "interval": 80,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        41471: {},
+                        41472: {},
+                        41473: {},
+                        42384: {},
+                        46382: {},
+                        46383: {},
+                        46384: {},
+                        46385: {}
+                    },
+                    "buff_key": "buff_31870_1"
+                }
+            }
+        },
+        42149: {
+            32050: {
+                1: {
+                    "name": "缭乱·傀儡调",
+                    "interval": 88,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6174_1",
+                        "recipe_6175_1",
+                        "recipe_6176_1"
+                    ]
+                }
+            },
+            32051: {
+                1: {
+                    "name": "缭乱·织心谣",
+                    "interval": 80,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6177_1",
+                        "recipe_6178_1",
+                        "recipe_6179_1",
+                        "recipe_6180_1"
+                    ]
+                }
+            }
+        },
+        42119: {
+            31699: {
+                1: {
+                    "name": "钤束",
+                    "interval": 288,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "magical_attack_power_gain": 154,
+                        "strain_gain": 307
+                    }
+                }
+            }
+        },
+        42147: {
+            31889: {
+                1: {
+                    "name": "镜同",
+                    "comment": "1次衰减",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6182_1",
+                        "recipe_6183_1",
+                        "recipe_6184_1"
+                    ]
+                },
+                2: {
+                    "name": "镜同",
+                    "comment": "2次衰减",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6182_2",
+                        "recipe_6183_2",
+                        "recipe_6184_2"
+                    ]
+                }
+            }
+        },
+        42143: {
+            31765: {
+                1: {
+                    "name": "寡合",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_shield_ignore": 614
+                    }
+                }
+            }
+        },
+        42145: {
+            31767: {
+                1: {
+                    "name": "迭影",
+                    "interval": 80,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6057_1"
+                    ]
                 }
             }
         }

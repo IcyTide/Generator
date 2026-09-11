@@ -3,25 +3,35 @@ TALENTS: list[dict[int, dict]] = [
         42123: {},
         42113: {},
         42114: dict(buffs={32216: dict(name="联套", comment="{}层")}),
-        42115: dict(dest_rollback_attributes=[("coming_damage_cof", 1024)], dest_rollback_skills=[42098])
+        42115: dict(coming_damage_cof=1024, coming_damage_skills={42098: {}})
     },
     {
         42116: {},
-        42117: dict(skills={41486: dict(comment="递增{level-1}次"), 41994: dict(comment="递增{level-1}次")}),
+        42117: dict(skills={41486: dict(comment="递增{level-1}次")}),
         42144: {},
-        42119: dict(buffs={31699: {}})
+        42125: {}
     },
     {
         42120: dict(skills={42260: dict(levels=[1])}),
-        42127: dict(buffs={31870: dict(attributes=[("coming_damage_cof", 614)], skills=[41471, 41472, 41473, 42384])}),
+        42127: dict(
+            buffs={
+                31870: dict(
+                    coming_damage_cof=614,
+                    skills={skill_id: {} for skill_id in [41471, 41472, 41473, 42384, 46382, 46383, 46384, 46385]}
+                )
+            }
+        ),
         42149: dict(buffs={32050: {}, 32051: {}}),
         42122: {}
     },
     {
-        42132: {},
+        46370: dict(skills={
+            46382: {}, 46383: {}, 46384: {}, 46390: dict(levels=[1]), 46387: dict(levels=[1]),
+            46392: {}, 46394: {}, 46398: {},
+        }),
         42112: {},
         42124: {},
-        42125: {}
+        42119: dict(buffs={31699: {}})
     },
     {
         42415: dict(
@@ -36,7 +46,7 @@ TALENTS: list[dict[int, dict]] = [
         42126: {},
         41452: dict(skills={42033: {1: dict(comment="持续")}, 42247: {1: dict(comment="终结")}}),
         42148: {},
-        42137: dict(skills={42384: {}})
+        42137: dict(skills={42384: {}, 46385: {}})
     },
     {
         42136: {},

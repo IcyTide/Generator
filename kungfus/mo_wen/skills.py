@@ -44,8 +44,8 @@ SKILLS: dict[int, dict[int, dict]] = {
         18663: dict(comment="影子")
     },
     14070: {
-        14494: dict(levels=[1]),
-        30762: dict(levels=[1], comment="<50%血量")
+        45783: {},
+        45775: dict(comment="{}层")
     },
     14082: {
         15076: {}

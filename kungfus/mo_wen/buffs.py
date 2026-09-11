@@ -1,5 +1,5 @@
 BUFFS: dict[int, dict[int, dict]] = {
-    14070: {
-        9433: {}
+    45730: {
+        34135: dict(name="九衢闻曲")
     }
 }

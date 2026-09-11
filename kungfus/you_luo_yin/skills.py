@@ -20,12 +20,10 @@ SKILLS: dict[int, dict[int, dict]] = {
         42265: {}
     },
     41858: {
-        41486: dict(max_level=10, comment="递增{level-1}次"),
-        41994: dict(max_level=10, comment="递增{level-1}次")
+        41486: dict(max_level=10, comment="递增{level-1}次")
     },
     41986: {
-        42098: dict(levels=[1]),
-        42559: {}
+        42098: dict(levels=[1])
     },
     41451: {
         42576: {}

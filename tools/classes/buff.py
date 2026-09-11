@@ -44,8 +44,8 @@ class Buff(AliasBase):
     damage_cof: float = 0.
     coming_damage_cof: float = 0.
 
-    skills: list[int]
-    dots: list[int]
+    skills: dict[int, list[int]]
+    dots: dict[int, list[int]]
     name: str = ""
     comment: str = ""
 
@@ -55,7 +55,7 @@ class Buff(AliasBase):
 
     def __init__(self, buff_id: int, buff_level: int = 0, patches: dict = None):
         self.buff_id = buff_id
-        self.attributes, self.recipes, self.skills, self.dots = [], [], [], []
+        self.attributes, self.recipes, self.skills, self.dots = [], [], {}, {}
         if buff_id < 100:
             self.max_level, self.levels = 1, []
             if buff_level:
@@ -95,10 +95,20 @@ class Buff(AliasBase):
                 self.attributes.append((attr_type, param))
 
     def check_dot(self, dot: "Dot"):
-        return dot.buff_id in self.dots
+        if dot.buff_id not in self.dots:
+            return False
+        dot_levels = self.dots[dot.buff_id]
+        if not dot_levels:
+            return True
+        return dot.buff_level in dot_levels
 
     def check_skill(self, skill: Skill):
-        return skill.skill_id in self.skills
+        if skill.skill_id not in self.skills:
+            return False
+        skill_levels = self.skills[skill.skill_id]
+        if not skill_levels:
+            return True
+        return skill.skill_level in skill_levels
 
     def to_dict(self):
         if self.buff_level:

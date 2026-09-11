@@ -25,7 +25,7 @@ TALENTS: list[dict[int, dict]] = [
             buffs={
                 34421: dict(name="君佐"),
                 34415: dict(name="臣使", comment="川乌射罔"),
-                34549: dict(name="臣使", comment="沾衣未妨", coming_damage_cof=512, skills=[27579])
+                34549: dict(name="臣使", comment="沾衣未妨", coming_damage_cof=512, skills={27579: {}})
             })
     },
     {

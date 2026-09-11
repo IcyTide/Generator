@@ -1,7 +1,6 @@
 SKILLS: dict[int, dict[int, dict]] = {
     10224: {
-        3121: {},
-        32884: dict(levels=[1])
+        3121: {}
     },
     3091: {
         3222: {}
@@ -20,8 +19,5 @@ SKILLS: dict[int, dict[int, dict]] = {
     },
     3101: {
         3187: {}
-    },
-    3098: {
-        32884: dict(levels=[2])
     }
 }

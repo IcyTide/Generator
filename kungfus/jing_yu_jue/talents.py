@@ -1,9 +1,9 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        44456: dict(skills={44458: dict(comment="{}层")}),
+        44456: dict(skills={44458: dict(levels=[1])}),
         30588: {},
         25132: dict(skills={25133: {1: dict(comment="1段"), 2: dict(comment="2段")}}),
-        18672: dict(skills={33870: dict(comment="蓄力{}段")})
+        18672: dict(skills={33870: dict(comment="蓄力{}次", max_level=4)})
     },
     {
         5721: dict(skills={3291: {}}),
@@ -13,16 +13,13 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         42449: {},
-        37324: dict(buffs={
-            buff_id: dict(name=f"蹑景", comment=f"{i + 1}层")
-            for i, buff_id in enumerate([28225, 28226, 28227])
-        }),
+        46019: dict(skills={46018: dict(coming_damage_cof=768)}),
         6449: {},
         25119: dict(buffs={18036: dict(levels=[2])}, skills={25121: {}})
     },
     {
-        14851: dict(buffs={10169: dict(name="空山独立")}),
-        28905: dict({}),
+        45914: dict(buffs={31349: dict(name="贯革梨花", comment="{}")}),
+        28905: {},
         40218: dict(skills={40221: {}}),
         6775: dict(dots={12663: dict(skills={18815: {}})}),
     },
@@ -34,15 +31,15 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         42490: dict(skills={42491: {}}),
-        18664: {},
-        28599: {},
-        44459: {}
+        45915: {},
+        45917: dict(buffs={3276: dict(recipes=[(6458, 1)])}, skills={45919: {}}),
+        44459: dict(skills={44458: dict(comment="递增{level-1}次")})
     },
     {
-        44450: {},
+        28599: {},
         6473: dict(buffs={7659: dict(levels=[1])}),
         38678: {},
-        14811: {},
+        18664: {},
         6451: dict(buffs={8210: {}}),
         42451: dict(buffs={31816: {}}),
         28903: dict(skills={37616: {}}),

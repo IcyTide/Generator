@@ -15,19 +15,16 @@ SKILLS: dict[int, dict[int, dict]] = {
         38438: dict(comment="{level-1}点任脉"),
         38085: dict(comment="{}层绝脉")
     },
-    38014: {
-        38093: dict(comment="{level-1}点能量")
-    },
     37779: {
         37804: dict(levels=[1])
     },
     37780: {
         37816: dict(levels=[1]),
-        38093: dict(levels=[1]),
-        38452: {}
+        38452: dict(levels=[2])
     },
     37781: {
         38447: {},
+        37804: dict(levels=[2]),
         38453: {}
     },
     37808: {

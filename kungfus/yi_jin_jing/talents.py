@@ -16,7 +16,11 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         6590: dict(
-            buffs={1: dict(name="六度净果", comment="30%斩杀", coming_damage_cof=154, skills=[44421, 44422, 44423])},
+            buffs={
+                1: dict(
+                    name="六度净果", comment="30%斩杀", coming_damage_cof=154, skills={44421: {}, 44422: {}, 44423: {}}
+                )
+            },
             skills={
                 **{skill_id: dict(comment=f"净果{i + 1}豆") for i, skill_id in enumerate([13681, 13683, 13685])},
                 **{skill_id: dict(comment=f"净果{i + 1}豆斩杀") for i, skill_id in enumerate([36049, 36050, 36051])}
@@ -53,11 +57,11 @@ TALENTS: list[dict[int, dict]] = [
         16886: {},
         14752: dict(buffs={9809: dict(levels=[1]), 11981: dict(comment="金刚怒目+五识")}),
         24884: dict(
-            dots={743: dict(levels=[58], skills={43073: dict(levels=[58])}),},
+            dots={743: dict(levels=[58], skills={43073: dict(levels=[58])}), },
             skills={3830: {58: {}}}
         ),
         44365: dict(
-            buffs={2: dict(name="布泽", comment="30%斩杀",coming_damage_cof=512, skills=[38615])},
+            buffs={2: dict(name="布泽", comment="30%斩杀", coming_damage_cof=512, skills={38615: {}})},
             skills={38615: dict(max_level=6, comment="{}层贪破")}
         ),
         6587: {},

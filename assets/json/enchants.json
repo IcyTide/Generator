@@ -527,6 +527,198 @@
         ],
         "temporary": false
     },
+    "16693": {
+        "id": 16693,
+        "name": "定尘血玉·伤·衣",
+        "desc": "",
+        "position": "jacket",
+        "score": 141,
+        "attributes": [
+            {
+                "attr": "atExecuteScript",
+                "attr_type": "",
+                "value": "skill/装备/苍生铸世赛季输出衣服附魔_1280.lua",
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16688": {
+        "id": 16688,
+        "name": "定尘血玉·疗·衣",
+        "desc": "",
+        "position": "jacket",
+        "score": 141,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3219,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16683": {
+        "id": 16683,
+        "name": "定尘血玉·御·衣",
+        "desc": "",
+        "position": "jacket",
+        "score": 141,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3223,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16678": {
+        "id": 16678,
+        "name": "定尘血石·伤·衣",
+        "desc": "",
+        "position": "jacket",
+        "score": 141,
+        "attributes": [
+            {
+                "attr": "atExecuteScript",
+                "attr_type": "",
+                "value": "skill/装备/苍生铸世赛季输出衣服附魔_1110.lua",
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16673": {
+        "id": 16673,
+        "name": "定尘血石·疗·衣",
+        "desc": "",
+        "position": "jacket",
+        "score": 141,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3207,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16668": {
+        "id": 16668,
+        "name": "定尘血石·御·衣",
+        "desc": "",
+        "position": "jacket",
+        "score": 141,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3211,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16694": {
+        "id": 16694,
+        "name": "定尘血玉·伤·帽",
+        "desc": "",
+        "position": "hat",
+        "score": 127,
+        "attributes": [
+            {
+                "attr": "atExecuteScript",
+                "attr_type": "",
+                "value": "skill/装备/苍生铸世赛季输出帽子附魔_1280.lua",
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16689": {
+        "id": 16689,
+        "name": "定尘血玉·疗·帽",
+        "desc": "",
+        "position": "hat",
+        "score": 127,
+        "attributes": [
+            {
+                "attr": "atExecuteScript",
+                "attr_type": "",
+                "value": "skill/装备/帽子_新附魔_治疗非战斗附魔减读条.lua",
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16684": {
+        "id": 16684,
+        "name": "定尘血玉·御·帽",
+        "desc": "",
+        "position": "hat",
+        "score": 127,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3224,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16679": {
+        "id": 16679,
+        "name": "定尘血石·伤·帽",
+        "desc": "",
+        "position": "hat",
+        "score": 127,
+        "attributes": [
+            {
+                "attr": "atExecuteScript",
+                "attr_type": "",
+                "value": "skill/装备/苍生铸世赛季输出帽子附魔_1110.lua",
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16674": {
+        "id": 16674,
+        "name": "定尘血石·疗·帽",
+        "desc": "",
+        "position": "hat",
+        "score": 127,
+        "attributes": [
+            {
+                "attr": "atExecuteScript",
+                "attr_type": "",
+                "value": "skill/装备/帽子_新附魔_治疗非战斗附魔减读条.lua",
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16669": {
+        "id": 16669,
+        "name": "定尘血石·御·帽",
+        "desc": "",
+        "position": "hat",
+        "score": 127,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3212,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
     "16631": {
         "id": 16631,
         "name": "镇渊石·暗器（加速）",
@@ -2031,6 +2223,294 @@
         ],
         "temporary": false
     },
+    "16692": {
+        "id": 16692,
+        "name": "定尘血玉·伤·腕",
+        "desc": "",
+        "position": "wrist",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3216,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16691": {
+        "id": 16691,
+        "name": "定尘血玉·伤·鞋",
+        "desc": "",
+        "position": "shoes",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3217,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16690": {
+        "id": 16690,
+        "name": "定尘血玉·伤·腰",
+        "desc": "",
+        "position": "belt",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3215,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16687": {
+        "id": 16687,
+        "name": "定尘血玉·疗·腕",
+        "desc": "",
+        "position": "wrist",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3218,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16686": {
+        "id": 16686,
+        "name": "定尘血玉·疗·鞋",
+        "desc": "",
+        "position": "shoes",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3225,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16685": {
+        "id": 16685,
+        "name": "定尘血玉·疗·腰",
+        "desc": "",
+        "position": "belt",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3220,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16682": {
+        "id": 16682,
+        "name": "定尘血玉·御·腕",
+        "desc": "",
+        "position": "wrist",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3222,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16681": {
+        "id": 16681,
+        "name": "定尘血玉·御·鞋",
+        "desc": "",
+        "position": "shoes",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3226,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16680": {
+        "id": 16680,
+        "name": "定尘血玉·御·腰",
+        "desc": "",
+        "position": "belt",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3221,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16677": {
+        "id": 16677,
+        "name": "定尘血石·伤·腕",
+        "desc": "",
+        "position": "wrist",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3204,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16676": {
+        "id": 16676,
+        "name": "定尘血石·伤·鞋",
+        "desc": "",
+        "position": "shoes",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3205,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16675": {
+        "id": 16675,
+        "name": "定尘血石·伤·腰",
+        "desc": "",
+        "position": "belt",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3203,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16672": {
+        "id": 16672,
+        "name": "定尘血石·疗·腕",
+        "desc": "",
+        "position": "wrist",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3206,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16671": {
+        "id": 16671,
+        "name": "定尘血石·疗·鞋",
+        "desc": "",
+        "position": "shoes",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3213,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16670": {
+        "id": 16670,
+        "name": "定尘血石·疗·腰",
+        "desc": "",
+        "position": "belt",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3208,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16667": {
+        "id": 16667,
+        "name": "定尘血石·御·腕",
+        "desc": "",
+        "position": "wrist",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3210,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16666": {
+        "id": 16666,
+        "name": "定尘血石·御·鞋",
+        "desc": "",
+        "position": "shoes",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3214,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
+    "16665": {
+        "id": 16665,
+        "name": "定尘血石·御·腰",
+        "desc": "",
+        "position": "belt",
+        "score": 98,
+        "attributes": [
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": 3209,
+                "desc": ""
+            }
+        ],
+        "temporary": true
+    },
     "16581": {
         "id": 16581,
         "name": "河洛纹·衣（御劲）",
@@ -2619,22 +3099,6 @@
                 "attr_type": "all_attack_power_base",
                 "value": 29,
                 "desc": "<text>text=\"全攻击提高{}\" font=105 </text>"
-            }
-        ],
-        "temporary": false
-    },
-    "16596": {
-        "id": 16596,
-        "name": "撑天·鞋·破招",
-        "desc": "鞋子破招等级提高29",
-        "position": "shoes",
-        "score": 42,
-        "attributes": [
-            {
-                "attr": "atSurplusValueBase",
-                "attr_type": "",
-                "value": 29,
-                "desc": "<text>text=\"破招值提高{}\" font=105 </text>"
             }
         ],
         "temporary": false

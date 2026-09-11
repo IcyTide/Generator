@@ -8,13 +8,14 @@ from tools.utils import get_variable, process_attr_param
 class Belong(Skill):
     recipes: list[tuple[int, int]]
 
-    dest_rollback_skills: list[int] = []
+    coming_damage_cof: float = 0.
+    coming_damage_skills: list[int] = []
 
     critical_type: str = ""
     damage_type: str = ""
 
     def __init__(self, *args, **kwargs):
-        self.dest_rollback_skills = []
+        self.coming_damage_skills = []
         super().__init__(*args, **kwargs)
         self.recipes = []
         self.belong_key = Variable(get_variable("belong", self.skill_id))
@@ -24,7 +25,12 @@ class Belong(Skill):
         self.skill_level = self.max_level
 
     def check_skill(self, skill: Skill):
-        return skill.skill_id in self.dest_rollback_skills
+        if skill.skill_id not in self.coming_damage_skills:
+            return False
+        skill_levels = self.coming_damage_skills[skill.skill_id]
+        if not skill_levels:
+            return True
+        return skill.skill_level in skill_levels
 
     def add_attribute(self, attr_effect_mode: ATTRIBUTE_EFFECT_MODE, attr_type: ATTRIBUTE_TYPE, param_1, param_2):
         if not attr_type:

@@ -67,13 +67,7 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
         25780: dict(buffs={8474: dict(levels=[16])}, dots={34108: dict(skills={45677: {}})}, skills={25780: {}})
     },
     10447: {
-        25781: dict(
-            dots={23187: {
-                1: dict(levels=[1], skills={40815: dict(levels=[1])}),
-                2: dict(levels=[2], skills={40815: dict(levels=[2])}),
-            }},
-            skills={25781: {}, 43294: dict(levels=[1, 2])}
-        )
+        25781: dict(skills={25781: {}, 43294: dict(comment="{}")})
     },
     10464: {
         25782: dict(dots={34119: dict(skills={45704: {}})}, skills={25782: {}, 39106: {}})
@@ -112,7 +106,7 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
 
 DIVINE_WEAPON_GAINS: dict[int, dict] = {
     # divine strain
-    39088: dict(name="橙武无双", buffs={29608: dict(comment="{}")}),
+    # 39088: dict(name="橙武无双", buffs={29608: dict(comment="{}")}),
     **{k: v for gain in KUNGFU_GAINS.values() for k, v in gain.items()}
 }
 SPECIAL_GEAR_GAINS: dict[int, dict] = {
@@ -202,19 +196,6 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
 SPECIAL_WEAPON_GAINS: dict[int, dict] = {
 }
 ELEMENT_GAINS = {
-    # weapon
-    4877: dict(name="水特效", buffs={4761: dict(levels=[74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85])}),
-    # pendant
-    38578: dict(name="输出风特效", buffs={29268: dict(levels=[12, 13, 20, 21, 28, 29])}),
-    38786: dict(
-        name="防御风特效",
-        skills={
-            38787: {
-                level: dict(comment='精准反击' if level % 2 else '', custom_damage_source=38787)
-                for level in [3, 4, 5, 6, 7, 8]
-            }
-        }
-    ),
 }
 SPECIAL_ENCHANT_GAINS = {
     # dps
@@ -239,7 +220,7 @@ SPECIAL_ENCHANT_GAINS = {
 
 }
 GAINS: dict[int, dict] = {
-    # **DIVINE_WEAPON_GAINS,
+    **DIVINE_WEAPON_GAINS,
     # **SPECIAL_GEAR_GAINS,
     # **SPECIAL_WEAPON_GAINS,
     # **ELEMENT_GAINS,

@@ -18,11 +18,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         22328: {},
         22329: dict(comment="额外"),
         22604: dict(comment="远距离"),
-        22605: dict(comment="远距离额外"),
-        32822: {
-            1: {},
-            2: dict(comment="远距离")
-        }
+        22605: dict(comment="远距离额外")
     },
     22320: {
         22489: {},
