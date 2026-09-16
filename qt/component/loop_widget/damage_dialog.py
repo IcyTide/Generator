@@ -75,12 +75,12 @@ class DamagesDialog(QDialog):
         if not level:
             return
         level = int(level)
-        variables = LEVEL_VARIABLES(level)
+        variables = LEVEL_VARIABLES(level) | dict(rand=0.5, is_critical=1)
         damages, grad_damages = {}, {attr: 0 for attr in GRAD_VARIABLES}
         for name, damage in self.damages.items():
-            damages[name] = int(damage.formula.evaluate(variables))
+            damages[name] = int(damage.total_damage.evaluate(variables))
             for attr, delta in GRAD_VARIABLES.items():
-                grad_damages[attr] += int(damage.formula.evaluate({**variables, attr: delta}))
+                grad_damages[attr] += int(damage.total_damage.evaluate({**variables, attr: delta}))
         total_damage = sum(damages.values())
 
         translates, _ = get_translates(GRAD_VARIABLES)
@@ -92,7 +92,7 @@ class DamagesDialog(QDialog):
             gradients.append((translates[attr], GRAD_VARIABLES[attr], gradient))
         self.grad_table.refresh_table(gradients)
         damages_data = [
-            (name, round(self.damages[name].count, 2), damage, percent(damage / total_damage))
+            (name, round(self.damages[name].total_count, 2), damage, percent(damage / total_damage))
             for name, damage in sorted(damages.items(), key=lambda x: x[1], reverse=True)
         ]
         self.damage_table.refresh_table(damages_data)

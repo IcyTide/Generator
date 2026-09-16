@@ -7,7 +7,7 @@ from qt.classes.dot import Dot
 from qt.classes.kungfu import Kungfu
 from qt.component.loop_widget.skill_dialog import SkillEditorDialog
 from qt.component.loop_widget.widget import LoopWidget
-from qt.utils import evaluate_dot
+from qt.utils import evaluate_skill
 
 
 class SourceSkillEditorDialog(SkillEditorDialog):
@@ -144,7 +144,7 @@ class DotDamageDialog(QDialog):
         layout = QVBoxLayout(self)
 
         variables = {**current.current, **snapshot.snapshot}
-        self.damage, self.critical_strike, self.critical_damage, self.expected_damage = evaluate_dot(dot, variables)
+        self.damage, self.critical_strike = evaluate_skill(dot.source, variables, dot.stack * dot.consume_tick)
         self.count = dot.count
 
         layout.addWidget(LabelRow("名称:", QLabel(dot.name)))
@@ -158,12 +158,16 @@ class DotDamageDialog(QDialog):
         layout.addWidget(LabelRow("目标等级:", self.target_level))
         self.critical_strike_label = QLabel("")
         layout.addWidget(LabelRow("期望会心:", self.critical_strike_label))
-        self.damage_label = QLabel("")
-        layout.addWidget(LabelRow("命中伤害:", self.damage_label))
-        self.critical_damage_label = QLabel("")
-        layout.addWidget(LabelRow("会心伤害:", self.critical_damage_label))
+        self.min_hit_damage_label = QLabel("")
+        layout.addWidget(LabelRow("最小命中伤害:", self.min_hit_damage_label))
+        self.max_hit_damage_label = QLabel("")
+        layout.addWidget(LabelRow("最大命中伤害:", self.max_hit_damage_label))
+        self.min_critical_damage_label = QLabel("")
+        layout.addWidget(LabelRow("最小会心伤害:", self.min_critical_damage_label))
+        self.max_critical_damage_label = QLabel("")
+        layout.addWidget(LabelRow("最大会心伤害:", self.max_critical_damage_label))
         self.expected_damage_label = QLabel("")
-        layout.addWidget(LabelRow("期望伤害:", self.expected_damage_label))
+        layout.addWidget(LabelRow("单次期望伤害:", self.expected_damage_label))
         self.total_damage_label = QLabel("")
         layout.addWidget(LabelRow("总期望伤害:", self.total_damage_label))
 
@@ -177,11 +181,14 @@ class DotDamageDialog(QDialog):
         variables = LEVEL_VARIABLES(level)
         critical_strike = self.critical_strike.evaluate(variables)
         self.critical_strike_label.setText(f"{round(critical_strike * 100, 2)}%")
-        damage = int(self.damage.evaluate(variables))
-        self.damage_label.setText(str(damage))
-        critical_damage = int(self.critical_damage.evaluate(variables))
-        self.critical_damage_label.setText(str(critical_damage))
-        expected_damage = int(self.expected_damage.evaluate(variables))
+        min_hit_damage = int(self.damage.evaluate(variables))
+        max_hit_damage = int(self.damage.evaluate(variables | dict(rand=1)))
+        min_critical_damage = int(self.damage.evaluate(variables | dict(is_critical=1)))
+        max_critical_damage = int(self.damage.evaluate(variables | dict(is_critical=1, rand=1)))
+        expected_damage = int(self.damage.evaluate(variables | dict(rand=0.5, is_critical=critical_strike)))
+        self.min_hit_damage_label.setText(str(min_hit_damage))
+        self.max_hit_damage_label.setText(str(max_hit_damage))
+        self.min_critical_damage_label.setText(str(min_critical_damage))
+        self.max_critical_damage_label.setText(str(max_critical_damage))
         self.expected_damage_label.setText(str(expected_damage))
-        total_damage = int(expected_damage * self.count)
-        self.total_damage_label.setText(str(total_damage))
+        self.total_damage_label.setText(str(int(expected_damage * self.count)))

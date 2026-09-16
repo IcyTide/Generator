@@ -18,6 +18,7 @@ def set_recipe_to_skill(engine: Engine, recipe, skills: dict[int, dict[int, dict
                 engine.get_skill_recipe_data(skill, recipe.recipe_id, recipe.recipe_level)
                 buff_recipes = buff_recipes.union(skill.buff_recipes)
                 skill.buff_recipes = set()
+                skill.skill_recipes.add((recipe.recipe_id, recipe.recipe_level))
     return buff_recipes
 
 

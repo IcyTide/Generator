@@ -41,7 +41,8 @@ class Buff(AliasBase):
     attributes: list[tuple[ATTRIBUTE_TYPE, int]]
     recipes: list[tuple[int, int]]
 
-    damage_cof: float = 0.
+    dot_damage_cof: float = 0.
+    skill_damage_cof: float = 0.
     coming_damage_cof: float = 0.
 
     skills: dict[int, list[int]]

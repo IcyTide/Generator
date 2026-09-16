@@ -26,7 +26,10 @@ TALENTS: list[dict[int, dict]] = [
         37338: dict(skills={37350: dict(comment="{}目标")})
     },
     {
-        46179: dict(skills={46180: {}, 46182: {}}),
+        46179: dict(
+            buffs={1: dict(name="斩杀", max_stack=9, skill_damage_cof=102, skills={46182: {}})},
+            skills={46180: {}, 46182: {}}
+        ),
         6530: dict(skills={32909: {}}),
         44372: {},
         6511: dict(buffs={7671: dict(levels=[1])})

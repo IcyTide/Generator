@@ -56,10 +56,13 @@ TALENTS: list[dict[int, dict]] = [
         24949: {},
         25148: {},
         32794: {},
-        42511: dict(skills={
-            42520: {1: dict(comment="PVP"), 2: dict(comment="PVE")},
-            46458: {1: dict(comment="火离PVP"), 2: dict(comment="火离PVE")}
-        }),
+        42511: dict(
+            buffs={17801: dict(skill_damage_cof=153.6, skills={42520: {}})},
+            skills={
+                42520: {1: dict(comment="PVP"), 2: dict(comment="PVE")},
+                46458: {1: dict(comment="火离PVP"), 2: dict(comment="火离PVE")}
+            }
+        ),
         42926: {}
     }
 ]

@@ -1,4 +1,5 @@
-from base.expression import Constant, Expression, Min
+from base.constant import EXTRA_VARIABLES
+from base.expression import Constant, Expression, Variable
 from qt.classes.dot import Dot
 from qt.classes.skill import Skill
 
@@ -7,27 +8,31 @@ def percent(num):
     return f"{round(num * 100, 2)}%"
 
 
-def evaluate_skill(skill: Skill, variables: dict, count: float = 1):
-    hit_damage = 0
+def evaluate_critical_strike(skill: Skill, variables: dict):
+    if skill.critical_strike == 0:
+        return Constant(0)
+    else:
+        return skill.critical_strike.evaluate(variables)
+
+
+def evaluate_damage(skill: Skill, variables: dict, count: float = 1):
+    total_damage = 0
     for damage in skill.damages:
         if isinstance(damage, Expression):
-            hit_damage += damage.evaluate(variables)
+            total_damage += damage.evaluate(variables)
         else:
-            hit_damage += damage
-    hit_damage *= count
-    if skill.critical_strike == 0:
-        critical_strike = Constant(0)
-    else:
-        critical_strike = Min(skill.critical_strike.evaluate(variables), 1)
-    if skill.critical_power == 0:
-        critical_power = Constant(0)
-    else:
-        critical_power = skill.critical_power.evaluate(variables)
-    critical_damage = hit_damage * critical_power
-    expected_damage = hit_damage * (1 - critical_strike) + critical_damage * critical_strike
-    return hit_damage, critical_strike, critical_damage, expected_damage
+            total_damage += damage
+    total_damage *= count
+    return total_damage
 
 
-def evaluate_dot(dot: Dot, variables: dict):
-    count = dot.stack * dot.consume_tick
-    return evaluate_skill(dot.source, variables, count)
+def evaluate_skill(skill: Skill, variables: dict, count: float = 1):
+    critical_strike = evaluate_critical_strike(skill, variables)
+    total_damage = evaluate_damage(skill, variables | {e: Variable(e) for e in EXTRA_VARIABLES}, count)
+    return total_damage, critical_strike
+
+
+def evaluate_skill_expectation(skill: Skill, variables: dict, count: float = 1):
+    critical_strike = evaluate_critical_strike(skill, variables)
+    total_damage = evaluate_damage(skill, variables | dict(rand=0.5, is_critical=critical_strike), count)
+    return total_damage

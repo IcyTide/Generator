@@ -924,7 +924,7 @@
         "10003": {
             "name": "易筋经",
             "attributes": {
-                "pve_damage_cof": 287,
+                "pve_damage_gain": 287,
                 "magical_shield_base": 147,
                 "physical_shield_base": 126,
                 "spunk_to_solar_attack_power": 666,
@@ -1315,7 +1315,7 @@
                 "spirit_to_neutral_critical_strike": 41,
                 "magical_attack_power_base": 2282,
                 "neutral_critical_strike_base": 363,
-                "pve_damage_cof": 870,
+                "pve_damage_gain": 870,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -1691,7 +1691,7 @@
                 "agility_to_physical_critical_strike": 41,
                 "physical_critical_strike_base": 401,
                 "physical_attack_power_base": 2408,
-                "pve_damage_cof": 471,
+                "pve_damage_gain": 471,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -2025,7 +2025,7 @@
                 "physical_shield_base": 280,
                 "spunk_to_neutral_attack_power": 686,
                 "spunk_to_neutral_overcome": 82,
-                "pve_damage_cof": 543,
+                "pve_damage_gain": 543,
                 "magical_attack_power_base": 2535,
                 "decritical_power_rate": 102
             },
@@ -2384,7 +2384,7 @@
                 "decritical_power_rate": 102,
                 "magical_shield_base": 280,
                 "physical_shield_base": 20,
-                "pve_damage_cof": 399,
+                "pve_damage_gain": 399,
                 "strength_to_physical_attack_power": 563,
                 "strength_to_physical_overcome": 205,
                 "physical_attack_power_base": 2789
@@ -2838,7 +2838,7 @@
                 "decritical_power_rate": 102,
                 "magical_shield_base": 280,
                 "physical_shield_base": 7,
-                "pve_damage_cof": 399,
+                "pve_damage_gain": 399,
                 "strength_to_physical_attack_power": 563,
                 "strength_to_physical_overcome": 205,
                 "physical_attack_power_base": 922
@@ -3209,7 +3209,7 @@
             "attributes": {
                 "magical_shield_base": 153,
                 "physical_shield_base": 120,
-                "pve_damage_cof": 246,
+                "pve_damage_gain": 246,
                 "spirit_to_lunar_attack_power": 748,
                 "spirit_to_lunar_critical_strike": 20,
                 "lunar_attack_power_base": 2586,
@@ -3532,7 +3532,7 @@
         "10144": {
             "name": "问水诀",
             "attributes": {
-                "pve_damage_cof": 154,
+                "pve_damage_gain": 154,
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
                 "agility_to_physical_attack_power": 717,
@@ -3917,7 +3917,7 @@
         "10175": {
             "name": "毒经",
             "attributes": {
-                "pve_damage_cof": 225,
+                "pve_damage_gain": 225,
                 "magical_shield_base": 274,
                 "physical_shield_base": 280,
                 "spirit_to_poison_attack_power": 748,
@@ -4273,7 +4273,7 @@
                 "decritical_power_rate": 102,
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
-                "pve_damage_cof": 195,
+                "pve_damage_gain": 195,
                 "strength_to_physical_attack_power": 584,
                 "strength_to_physical_critical_strike": 184,
                 "physical_overcome_base": 401,
@@ -4641,7 +4641,7 @@
         "10225": {
             "name": "天罗诡道",
             "attributes": {
-                "pve_damage_cof": 72,
+                "pve_damage_gain": 72,
                 "magical_shield_base": 219,
                 "physical_shield_base": 280,
                 "spunk_to_poison_attack_power": 543,
@@ -4989,7 +4989,7 @@
         "10242": {
             "name": "焚影圣诀",
             "attributes": {
-                "pve_damage_cof": 246,
+                "pve_damage_gain": 246,
                 "magical_shield_base": 147,
                 "physical_shield_base": 280,
                 "spunk_to_solar_and_lunar_attack_power": 635,
@@ -6240,7 +6240,7 @@
             "attributes": {
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
-                "pve_damage_cof": 154,
+                "pve_damage_gain": 154,
                 "agility_to_physical_attack_power": 768,
                 "agility_to_parry": 10,
                 "agility_to_parry_value": 102,
@@ -6575,7 +6575,7 @@
             "attributes": {
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
-                "pve_damage_cof": 154,
+                "pve_damage_gain": 154,
                 "agility_to_physical_attack_power": 768,
                 "agility_to_parry": 10,
                 "agility_to_parry_value": 102,
@@ -6957,7 +6957,7 @@
                 "lunar_critical_strike_base": 308,
                 "spirit_to_lunar_attack_power": 737,
                 "spirit_to_lunar_critical_strike": 31,
-                "pve_damage_cof": 61,
+                "pve_damage_gain": 61,
                 "decritical_power_rate": 102
             },
             "desc": "引气入声，共声和弦，拨弦成曲，凭曲定风。习此功者可以琴曲音波撩动敌人心脉，陷入幻境难以脱身。",
@@ -7333,7 +7333,7 @@
             "attributes": {
                 "magical_shield_base": 280,
                 "physical_shield_base": 71,
-                "pve_damage_cof": 276,
+                "pve_damage_gain": 276,
                 "strength_to_physical_attack_power": 553,
                 "strength_to_physical_overcome": 215,
                 "physical_attack_power_base": 2738,
@@ -7735,7 +7735,7 @@
         "10533": {
             "name": "凌海诀",
             "attributes": {
-                "pve_damage_cof": 389,
+                "pve_damage_gain": 389,
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
                 "agility_to_physical_attack_power": 707,
@@ -8085,7 +8085,7 @@
         "10585": {
             "name": "隐龙诀",
             "attributes": {
-                "pve_damage_cof": 369,
+                "pve_damage_gain": 369,
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
                 "agility_to_physical_attack_power": 737,
@@ -8438,7 +8438,7 @@
             "attributes": {
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
-                "pve_damage_cof": 246,
+                "pve_damage_gain": 246,
                 "spunk_to_neutral_attack_power": 645,
                 "spunk_to_neutral_critical_strike": 123,
                 "magical_attack_power_base": 2586,
@@ -8773,7 +8773,7 @@
                 "spirit_to_poison_overcome": 61,
                 "magical_attack_power_base": 2332,
                 "poison_overcome_base": 363,
-                "pve_damage_cof": 481,
+                "pve_damage_gain": 481,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -9112,7 +9112,7 @@
             "attributes": {
                 "magical_shield_base": 280,
                 "physical_shield_base": 280,
-                "pve_damage_cof": 102,
+                "pve_damage_gain": 102,
                 "strength_to_physical_attack_power": 604,
                 "strength_to_physical_critical_strike": 164,
                 "physical_attack_power_base": 2459,
@@ -9497,7 +9497,7 @@
                 "agility_to_physical_critical_strike": 51,
                 "physical_critical_strike_base": 401,
                 "physical_attack_power_base": 2408,
-                "pve_damage_cof": 82,
+                "pve_damage_gain": 82,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -9807,7 +9807,7 @@
                 "spunk_to_neutral_attack_power": 625,
                 "spunk_to_neutral_critical_strike": 143,
                 "magical_attack_power_base": 2282,
-                "pve_damage_cof": 471,
+                "pve_damage_gain": 471,
                 "decritical_power_rate": 102
             },
             "recipes": [
@@ -10129,7 +10129,7 @@
                 "spirit_to_lunar_attack_power": 717,
                 "spirit_to_lunar_critical_strike": 51,
                 "lunar_critical_strike_base": 34,
-                "pve_damage_cof": 420,
+                "pve_damage_gain": 420,
                 "decritical_power_rate": 102
             },
             "desc": "无相楼秘传心法，化气凝丝，绕指无形。无相楼弟子以内力为引，凝气成丝，藏于掌中方寸，刚则化刃疾攻，柔可织罗缚敌；协以牵丝伶影同战，丝牵影动，形影变换，杀机暗藏。",

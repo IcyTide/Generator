@@ -1,8 +1,9 @@
 from tools.classes.buff import Buff
+from tools.classes.skill import Skill
 
 
 class Dot(Buff):
-    skills: dict
+    skills: dict[int, dict[int, Skill]]
     attributes_prefix = "active"
 
     damage_cof: float = 1

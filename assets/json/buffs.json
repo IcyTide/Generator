@@ -3685,7 +3685,7 @@
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "pve_damage_cof": 614
+                        "pve_damage_gain": 614
                     }
                 }
             }
@@ -3768,6 +3768,20 @@
                         "18773": {}
                     },
                     "buff_key": "buff_21638_1"
+                }
+            }
+        },
+        "46179": {
+            "1": {
+                "1": {
+                    "name": "斩杀",
+                    "interval": 1,
+                    "max_stack": 9,
+                    "max_tick": 1,
+                    "skills": {
+                        "46182": {}
+                    },
+                    "buff_key": "buff_1_1"
                 }
             }
         },
@@ -4015,7 +4029,7 @@
                     "max_stack": 1,
                     "max_tick": 25,
                     "attributes": {
-                        "skill_damage_final_cof": 51
+                        "skill_damage_gain": 51
                     }
                 }
             },
@@ -4026,7 +4040,7 @@
                     "max_stack": 1,
                     "max_tick": 25,
                     "attributes": {
-                        "skill_damage_final_cof": 51
+                        "skill_damage_gain": 51
                     }
                 }
             },
@@ -4037,7 +4051,7 @@
                     "max_stack": 1,
                     "max_tick": 25,
                     "attributes": {
-                        "skill_damage_final_cof": 51
+                        "skill_damage_gain": 51
                     }
                 }
             },
@@ -4048,7 +4062,7 @@
                     "max_stack": 1,
                     "max_tick": 25,
                     "attributes": {
-                        "skill_damage_final_cof": 51
+                        "skill_damage_gain": 51
                     }
                 }
             }
@@ -4740,7 +4754,7 @@
                     "max_stack": 1,
                     "max_tick": 10,
                     "attributes": {
-                        "skill_damage_final_cof": 102
+                        "skill_damage_gain": 102
                     }
                 }
             }
@@ -5447,7 +5461,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "all_shield_ignore": 512,
-                        "pve_damage_cof": 133
+                        "pve_damage_gain": 133
                     }
                 }
             }
@@ -7084,6 +7098,20 @@
                     }
                 }
             }
+        },
+        "42511": {
+            "17801": {
+                "1": {
+                    "name": "山艮",
+                    "interval": 16,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "skills": {
+                        "42520": {}
+                    },
+                    "buff_key": "buff_17801_1"
+                }
+            }
         }
     },
     "10626": {},
@@ -7430,7 +7458,7 @@
                     "max_stack": 255,
                     "max_tick": 1,
                     "attributes": {
-                        "skill_damage_final_cof": 41
+                        "skill_damage_gain": 41
                     }
                 }
             }

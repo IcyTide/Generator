@@ -44,7 +44,7 @@ class Attribute(BaseAttribute):
 
     @property
     def current(self):
-        variables: dict = {**self.buffs, **EXTRA_VARIABLES}
+        variables: dict = {**self.buffs}
         for kind_type in self.kind_types:
             for template in CURRENT_VARIABLES:
                 attr = template.format(kind_type)

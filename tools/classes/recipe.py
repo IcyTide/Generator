@@ -42,6 +42,8 @@ class Recipe(AliasBase):
         self.recipe_key = Variable(get_variable("recipe", self.recipe_id, self.recipe_level))
 
     def check_skill(self, skill: Skill):
+        if (self.recipe_id, self.recipe_level) in skill.skill_recipes:
+            return False
         if skill.skill_id == RECIPE_COPY.get(self.skill_id):
             return True
         if self.skill_recipe_type:

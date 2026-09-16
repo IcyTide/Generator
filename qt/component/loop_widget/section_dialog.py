@@ -6,7 +6,7 @@ from qt.classes.attribute import Attribute
 from qt.classes.damage import Damage
 from qt.classes.section import Section, Sections
 from qt.component.loop_widget.damage_dialog import DamagesDialog, add_buffs_to_attributes, sub_buffs_to_attributes
-from qt.utils import evaluate_dot, evaluate_skill
+from qt.utils import evaluate_skill_expectation
 
 
 class SectionEditorDialog(QDialog):
@@ -65,9 +65,8 @@ class SectionDamageDialog(DamagesDialog):
                     damage = self.damages[skill.name]
                 else:
                     damage = self.damages[skill.name] = Damage(skill.name)
-                _, _, _, expected_damage = evaluate_skill(skill, variables)
-                damage.formula += expected_damage * count
-                damage.count += count
+                expected_damage = evaluate_skill_expectation(skill, variables)
+                damage.add_damage(expected_damage, count)
             variables = {**current.current, **snapshot.snapshot}
             for dot in record.dots:
                 count = record.count * dot.count
@@ -75,9 +74,8 @@ class SectionDamageDialog(DamagesDialog):
                     damage = self.damages[dot.name]
                 else:
                     damage = self.damages[dot.name] = Damage(dot.name)
-                _, _, _, expected_damage = evaluate_dot(dot, variables)
-                damage.formula += expected_damage * count
-                damage.count += count
+                expected_damage = evaluate_skill_expectation(dot.source, variables, dot.stack * dot.consume_tick)
+                damage.add_damage(expected_damage, count)
             sub_buffs_to_attributes(record.buffs, current, snapshot)
         super().__init__(section.name, section.count, parent)
 
@@ -99,9 +97,8 @@ class AllDamageDialog(DamagesDialog):
                         damage = self.damages[skill.name]
                     else:
                         damage = self.damages[skill.name] = Damage(skill.name)
-                    _, _, _, expected_damage = evaluate_skill(skill, variables)
-                    damage.formula += expected_damage * count
-                    damage.count += count
+                    expected_damage = evaluate_skill_expectation(skill, variables)
+                    damage.add_damage(expected_damage, count)
                 variables = {**current.current, **snapshot.snapshot}
                 for dot in record.dots:
                     count = section.count * record.count * dot.count
@@ -109,8 +106,7 @@ class AllDamageDialog(DamagesDialog):
                         damage = self.damages[dot.name]
                     else:
                         damage = self.damages[dot.name] = Damage(dot.name)
-                    _, _, _, expected_damage = evaluate_dot(dot, variables)
-                    damage.formula += expected_damage * count
-                    damage.count += count
+                    expected_damage = evaluate_skill_expectation(dot.source, variables, dot.stack * dot.consume_tick)
+                    damage.add_damage(expected_damage, count)
                 sub_buffs_to_attributes(record.buffs, current, snapshot)
         super().__init__("总计", 1, parent)

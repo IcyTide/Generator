@@ -2,11 +2,11 @@ TALENTS: list[dict[int, dict]] = [
     {
         38479: {},
         40242: dict(
-            buffs={34426: dict(coming_damage_cof=512, skills={38452: {}})},
+            buffs={34426: dict(skill_damage_cof=512, skills={38452: {}})},
             skills={37816: {2: dict(comment="弹射1次"), 3: dict(comment="弹射2次")}}
         ),
         38503: {},
-        38490: dict(skills={44511: dict(comment="{}层", coming_damage_cof=1024)})
+        38490: dict(skills={44511: dict(comment="{}层", skill_damage_cof=1024)})
     },
     {
         38497: {},
@@ -16,7 +16,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         38495: {},
-        46258: dict(buffs={34441: dict(coming_damage_cof=1536, skills={38452: {}})}),
+        46258: dict(buffs={34441: dict(skill_damage_cof=1536, skills={38452: {}})}),
         44517: {},
         38500: dict(buffs={28756: dict(name="玉枕")})
     },
@@ -40,7 +40,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         38488: {},
-        38501: dict(coming_damage_cof=358, coming_damage_skills={37804: {}}),
+        38501: dict(skill_damage_cof=358, skills={37804: {}}),
         40241: {},
         38476: {},
         38478: dict(skills={38531: {}}),

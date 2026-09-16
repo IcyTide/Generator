@@ -13,7 +13,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         35721: {},
-        46183: dict(buffs={34489: dict(name="乌烬", damage_cof=0.2, dots={26856: {}})}),
+        46183: dict(buffs={34489: dict(name="乌烬", dot_damage_cof=0.2, dots={26856: {}})}),
         44347: {},
         38664: {}
     },

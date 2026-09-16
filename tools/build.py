@@ -202,10 +202,9 @@ class Builder:
                 damages = []
                 for damage in content.pop('damages', []):
                     damages.append(damage['damage'])
-                    content['critical_strike'] = damage['critical_strike']
-                    content['critical_power'] = damage['critical_power']
                 content['damages'] = damages
                 content.pop('skill_attribute', None)
+                content.pop('critical_attribute', None)
         return code
 
     @property

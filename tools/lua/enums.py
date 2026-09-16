@@ -467,9 +467,8 @@ class ATTRIBUTE_TYPE(StrEnum):
     ALL_PHYSICS_DAMAGE_ADD_PERCENT = "physical_damage_gain"
     ALL_MAGIC_DAMAGE_ADD_PERCENT = "magical_damage_gain"
     ADD_DAMAGE_BY_DST_MOVE_STATE = "move_state_damage_gain"
-    DST_NPC_DAMAGE_COEFFICIENT = "pve_damage_cof"
-    GLOBAL_DAMGAGE_FACTOR = "global_damage_factor"
-    SKILL_DAMAGE_FINAL_COF = "skill_damage_final_cof"
+    DST_NPC_DAMAGE_COEFFICIENT = "pve_damage_gain"
+    SKILL_DAMAGE_FINAL_COF = "skill_damage_gain"
 
     # Coefficient Attribute
     PHYSICS_DAMAGE_COEFFICIENT = "physical_damage_cof"
@@ -477,6 +476,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     LUNAR_DAMAGE_COEFFICIENT = "lunar_damage_cof"
     NEUTRAL_DAMAGE_COEFFICIENT = "neutral_damage_cof"
     POISON_DAMAGE_COEFFICIENT = "poison_damage_cof"
+    GLOBAL_DAMGAGE_FACTOR = "global_damage_cof"
     THERAPY_COEFFICIENT = ""
     BE_THERAPY_COEFFICIENT = ""
 

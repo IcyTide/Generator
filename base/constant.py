@@ -3,14 +3,14 @@ DECIMAL_SCALE = 10000
 
 FRAME_PER_SECOND = 16
 
-AGILITY_TO_CRITICAL_STRIKE = 250
-STRENGTH_TO_ATTACK_POWER = 195
-STRENGTH_TO_OVERCOME = 61
-SPIRIT_TO_CRITICAL_STRIKE = 250
-SPUNK_TO_ATTACK_POWER = 195
-SPUNK_TO_OVERCOME = 61
-PVX_TO_STRAIN = 1220
-VITALITY_TO_MAX_LIFE = 10000
+AGILITY_TO_CRITICAL_STRIKE = 0.25
+STRENGTH_TO_ATTACK_POWER = 0.195
+STRENGTH_TO_OVERCOME = 0.061
+SPIRIT_TO_CRITICAL_STRIKE = 0.25
+SPUNK_TO_ATTACK_POWER = 0.195
+SPUNK_TO_OVERCOME = 0.061
+PVX_TO_STRAIN = 1.22
+VITALITY_TO_MAX_LIFE = 10
 
 LEVEL = 50
 LEVEL_SCALE = 33
@@ -50,9 +50,9 @@ BASE_STRENGTH = 17
 BASE_SPIRIT = 18
 BASE_SPUNK = 17
 BASE_VITALITY = 18
-BASE_CRITICAL_POWER = 1792
-BASE_MAX_LIFE = 160878
-BASE_PHYSICAL_SHIELD = 2850
+BASE_CRITICAL_POWER = 1.75 * BINARY_SCALE
+BASE_MAX_LIFE = 4136
+BASE_PHYSICAL_SHIELD = 280
 
 MAX_CRITICAL_STRIKE = 1
 MAX_CRITICAL_POWER = 3
@@ -167,33 +167,31 @@ CURRENT_VARIABLES = [
     "all_shield_ignore",
 ]
 SNAPSHOT_VARIABLES = [
-    "base_{}_attack_power", "{}_attack_power_gain", "extra_{}_attack_power", "{}_attack_power",
+    "base_{}_attack_power", "{}_attack_power_addition", "extra_{}_attack_power", "{}_attack_power",
     "{}_critical_strike",
-    "{}_critical_power_percent", "{}_critical_power_rate", "unlimit_critical_power_rate", "{}_critical_power",
+    "limit_{}_critical_power", "unlimit_critical_power_offset", "{}_critical_power",
     "strain",
-    "physical_damage_addition", "magical_damage_addition",
-    "skill_damage_final_addition",
+    "physical_damage_addition", "magical_damage_addition", "move_state_damage_addition", "skill_damage_addition",
     "pve_damage_addition",
 ]
 TARGET_VARIABLES = [
-    "base_{}_shield", "{}_shield_gain", "extra_{}_shield", "{}_shield",
+    "base_{}_shield", "{}_shield_addition", "{}_shield",
     "{}_damage_scale", "damage_scale",
     "level",
     "shield_constant"
 ]
-EXTRA_VARIABLES = {
-    "rand": 0.5
-}
+EXTRA_VARIABLES = ["rand", "is_critical"]
+
 GRAD_VARIABLES = {
-    "major_base": 420,
-    "vitality_base": 1215,
-    "physical_attack_power_base": 891,
-    "magical_attack_power_base": 994,
-    "weapon_damage_base": 1344,
-    "strain_base": 3279,
-    "all_overcome_base": 3279,
-    "all_critical_strike_base": 3279,
-    "all_critical_power_base": 3279
+    "major_base": 135,
+    "vitality_base": 135,
+    "physical_attack_power_base": 135,
+    "magical_attack_power_base": 135,
+    "weapon_damage_base": 22,
+    "strain_base": 135,
+    "all_overcome_base": 135,
+    "all_critical_strike_base": 135,
+    "all_critical_power_base": 126
 }
 
 

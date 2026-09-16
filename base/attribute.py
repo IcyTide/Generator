@@ -1,5 +1,5 @@
 from base.constant import *
-from base.expression import Ceil, Int, Max, Min
+from base.expression import Int, Max, Min
 from tools.lua.enums import SKILL_KIND_TYPE
 
 
@@ -120,12 +120,12 @@ class BaseAttackPower(Major):
     @property
     def base_physical_attack_power(self):
         base_attack_power = self.physical_attack_power_base + self.all_attack_power_base
-        return base_attack_power + Int(self.strength * STRENGTH_TO_ATTACK_POWER / BINARY_SCALE)
+        return base_attack_power + Int(self.strength * STRENGTH_TO_ATTACK_POWER)
 
     @property
     def base_magical_attack_power(self):
         base_attack_power = self.magical_attack_power_base + self.all_attack_power_base
-        return base_attack_power + Int(self.spunk * SPUNK_TO_ATTACK_POWER / BINARY_SCALE)
+        return base_attack_power + Int(self.spunk * SPUNK_TO_ATTACK_POWER)
 
     @property
     def base_solar_attack_power(self):
@@ -222,6 +222,26 @@ class AttackPowerGain(BaseType):
         self._magical_attack_power_gain = value
 
     @property
+    def physical_attack_power_addition(self):
+        return self.physical_attack_power_gain / BINARY_SCALE
+
+    @property
+    def solar_attack_power_addition(self):
+        return self.solar_attack_power_gain / BINARY_SCALE
+
+    @property
+    def lunar_attack_power_addition(self):
+        return self.lunar_attack_power_gain / BINARY_SCALE
+
+    @property
+    def neutral_attack_power_addition(self):
+        return self.neutral_attack_power_gain / BINARY_SCALE
+
+    @property
+    def poison_attack_power_addition(self):
+        return self.poison_attack_power_gain / BINARY_SCALE
+
+    @property
     def attack_power_gain(self):
         return self[f"{self.damage_type}_attack_power_gain"]
 
@@ -279,12 +299,12 @@ class BaseCriticalStrike(Major):
     @property
     def base_physical_critical_strike(self):
         base_critical_strike = self.physical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE / BINARY_SCALE)
+        return base_critical_strike + Int(self.agility * AGILITY_TO_CRITICAL_STRIKE)
 
     @property
     def base_magical_critical_strike(self):
         base_critical_strike = self.magical_critical_strike_base + self.all_critical_strike_base
-        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE / BINARY_SCALE)
+        return base_critical_strike + Int(self.spirit * SPIRIT_TO_CRITICAL_STRIKE)
 
     @property
     def base_solar_critical_strike(self):
@@ -423,6 +443,32 @@ class CriticalStrikeRate(BaseType):
     neutral_critical_strike_rate: int = 0
     poison_critical_strike_rate: int = 0
 
+    resist_critical_strike_rate: int = 0
+
+    @property
+    def physical_critical_strike_offset(self):
+        return self.physical_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def solar_critical_strike_offset(self):
+        return self.solar_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def lunar_critical_strike_offset(self):
+        return self.lunar_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def neutral_critical_strike_offset(self):
+        return self.neutral_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def poison_critical_strike_offset(self):
+        return self.poison_critical_strike_rate / DECIMAL_SCALE
+
+    @property
+    def resist_critical_strike_offset(self):
+        return self.resist_critical_strike_rate / DECIMAL_SCALE
+
     @property
     def critical_strike_rate(self):
         return self[f"{self.critical_type}_critical_strike_rate"]
@@ -431,28 +477,32 @@ class CriticalStrikeRate(BaseType):
 class CriticalStrike(CriticalStrikePercent, CriticalStrikeRate):
     @property
     def physical_critical_strike(self):
-        critical_strike = self.physical_critical_strike_percent + self.physical_critical_strike_rate / DECIMAL_SCALE
+        critical_strike = self.physical_critical_strike_percent + self.physical_critical_strike_offset
         return critical_strike
 
     @property
     def solar_critical_strike(self):
-        critical_strike = self.solar_critical_strike_percent + self.solar_critical_strike_rate / DECIMAL_SCALE
+        critical_strike = self.solar_critical_strike_percent + self.solar_critical_strike_offset
         return critical_strike
 
     @property
     def lunar_critical_strike(self):
-        critical_strike = self.lunar_critical_strike_percent + self.lunar_critical_strike_rate / DECIMAL_SCALE
+        critical_strike = self.lunar_critical_strike_percent + self.lunar_critical_strike_offset
         return critical_strike
 
     @property
     def neutral_critical_strike(self):
-        critical_strike = self.neutral_critical_strike_percent + self.neutral_critical_strike_rate / DECIMAL_SCALE
+        critical_strike = self.neutral_critical_strike_percent + self.neutral_critical_strike_offset
         return critical_strike
 
     @property
     def poison_critical_strike(self):
-        critical_strike = self.poison_critical_strike_percent + self.poison_critical_strike_rate / DECIMAL_SCALE
+        critical_strike = self.poison_critical_strike_percent + self.poison_critical_strike_offset
         return critical_strike
+
+    @property
+    def resist_critical_strike(self):
+        return self.resist_critical_strike_offset
 
     @property
     def critical_strike(self):
@@ -480,12 +530,12 @@ class BaseOvercome(Major):
     @property
     def base_physical_overcome(self):
         base_overcome = self.physical_overcome_base + self.all_overcome_base
-        return base_overcome + Int(self.strength * STRENGTH_TO_OVERCOME / BINARY_SCALE)
+        return base_overcome + Int(self.strength * STRENGTH_TO_OVERCOME)
 
     @property
     def base_magical_overcome(self):
         base_overcome = self.magical_overcome_base + self.all_overcome_base
-        return base_overcome + Int(self.spunk * SPUNK_TO_OVERCOME / BINARY_SCALE)
+        return base_overcome + Int(self.spunk * SPUNK_TO_OVERCOME)
 
     @property
     def base_solar_overcome(self):
@@ -708,6 +758,7 @@ class CriticalPowerRate(BaseType):
     poison_critical_power_rate: int = 0
     _magical_critical_power_rate: int = 0
     _all_critical_power_rate: int = 0
+
     unlimit_critical_power_rate: int = 0
 
     @property
@@ -734,37 +785,81 @@ class CriticalPowerRate(BaseType):
         self.magical_critical_power_rate += residual
         self._all_critical_power_rate = value
 
+    @property
+    def physical_critical_power_offset(self):
+        return self.physical_critical_power_rate / BINARY_SCALE
+
+    @property
+    def solar_critical_power_offset(self):
+        return self.solar_critical_power_rate / BINARY_SCALE
+
+    @property
+    def lunar_critical_power_offset(self):
+        return self.lunar_critical_power_rate / BINARY_SCALE
+
+    @property
+    def neutral_critical_power_offset(self):
+        return self.neutral_critical_power_rate / BINARY_SCALE
+
+    @property
+    def poison_critical_power_offset(self):
+        return self.poison_critical_power_rate / BINARY_SCALE
+
+    @property
+    def unlimit_critical_power_offset(self):
+        return self.unlimit_critical_power_rate / BINARY_SCALE
+
 
 class CriticalPower(CriticalPowerPercent, CriticalPowerRate):
     @property
+    def limit_physical_critical_power(self):
+        critical_power = self.physical_critical_power_percent + self.physical_critical_power_offset
+        return critical_power
+
+    @property
+    def limit_solar_critical_power(self):
+        critical_power = self.solar_critical_power_percent + self.solar_critical_power_offset
+        return critical_power
+
+    @property
+    def limit_lunar_critical_power(self):
+        critical_power = self.lunar_critical_power_percent + self.lunar_critical_power_offset
+        return critical_power
+
+    @property
+    def limit_neutral_critical_power(self):
+        critical_power = self.neutral_critical_power_percent + self.neutral_critical_power_offset
+        return critical_power
+
+    @property
+    def limit_poison_critical_power(self):
+        critical_power = self.poison_critical_power_percent + self.poison_critical_power_offset
+        return critical_power
+
+    @property
     def physical_critical_power(self):
-        critical_power = self.physical_critical_power_percent + self.physical_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
-        return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
+        critical_power = Min(self.limit_physical_critical_power, MAX_CRITICAL_POWER)
+        return critical_power + self.unlimit_critical_power_offset
 
     @property
     def solar_critical_power(self):
-        critical_power = self.solar_critical_power_percent + self.solar_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
-        return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
+        critical_power = Min(self.limit_solar_critical_power, MAX_CRITICAL_POWER)
+        return critical_power + self.unlimit_critical_power_offset
 
     @property
     def lunar_critical_power(self):
-        critical_power = self.lunar_critical_power_percent + self.lunar_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
-        return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
+        critical_power = Min(self.limit_lunar_critical_power, MAX_CRITICAL_POWER)
+        return critical_power + self.unlimit_critical_power_offset
 
     @property
     def neutral_critical_power(self):
-        critical_power = self.neutral_critical_power_percent + self.neutral_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
-        return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
+        critical_power = Min(self.limit_neutral_critical_power, MAX_CRITICAL_POWER)
+        return critical_power + self.unlimit_critical_power_offset
 
     @property
     def poison_critical_power(self):
-        critical_power = self.poison_critical_power_percent + self.poison_critical_power_rate / BINARY_SCALE
-        critical_power = Min(critical_power, MAX_CRITICAL_POWER)
-        return critical_power + self.unlimit_critical_power_rate / BINARY_SCALE
+        critical_power = Min(self.limit_poison_critical_power, MAX_CRITICAL_POWER)
+        return critical_power + self.unlimit_critical_power_offset
 
     @property
     def critical_power(self):
@@ -845,6 +940,26 @@ class ShieldGain(BaseType):
     poison_shield_gain: int = 0
 
     @property
+    def physical_shield_addition(self):
+        return self.physical_shield_gain / BINARY_SCALE
+
+    @property
+    def solar_shield_addition(self):
+        return self.solar_shield_gain / BINARY_SCALE
+
+    @property
+    def lunar_shield_addition(self):
+        return self.lunar_shield_gain / BINARY_SCALE
+
+    @property
+    def neutral_shield_addition(self):
+        return self.neutral_shield_gain / BINARY_SCALE
+
+    @property
+    def poison_shield_addition(self):
+        return self.poison_shield_gain / BINARY_SCALE
+
+    @property
     def shield_gain(self):
         return self[f"{self.damage_type}_shield_gain"]
 
@@ -917,10 +1032,7 @@ class DamageCof(BaseType):
 
     adaptive_damage_cof: int = 0
 
-    coming_damage_cof: int = 0
-
-    skill_damage_final_cof: int = 0
-    pve_damage_cof: int = 0
+    global_damage_cof: int = 0
 
     @property
     def damage_cof(self):
@@ -928,35 +1040,31 @@ class DamageCof(BaseType):
 
     @property
     def physical_damage_scale(self):
-        return (self.physical_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
+        return self.physical_damage_cof / BINARY_SCALE
 
     @property
     def solar_damage_scale(self):
-        return (self.solar_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
+        return self.solar_damage_cof / BINARY_SCALE
 
     @property
     def lunar_damage_scale(self):
-        return (self.lunar_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
+        return self.lunar_damage_cof / BINARY_SCALE
 
     @property
     def neutral_damage_scale(self):
-        return (self.neutral_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
+        return self.neutral_damage_cof / BINARY_SCALE
 
     @property
     def poison_damage_scale(self):
-        return (self.poison_damage_cof + Ceil(self.coming_damage_cof)) / BINARY_SCALE
+        return self.poison_damage_cof / BINARY_SCALE
 
     @property
     def damage_scale(self):
         return self[f"{self.damage_type}_damage_scale"]
 
     @property
-    def pve_damage_addition(self):
-        return self.pve_damage_cof / BINARY_SCALE
-
-    @property
-    def skill_damage_final_addition(self):
-        return self.skill_damage_final_cof / BINARY_SCALE
+    def global_damage_scale(self):
+        return (Int(self.global_damage_cof) + (1 << 20)) / (1 << 20)
 
 
 class WeaponDamage:
@@ -997,7 +1105,7 @@ class Strain(PvxRound):
 
     @property
     def base_strain(self):
-        return self.strain_base + self.pvx_round_base * PVX_TO_STRAIN / BINARY_SCALE
+        return self.strain_base + self.pvx_round_base * PVX_TO_STRAIN
 
     @property
     def final_strain(self):
@@ -1112,7 +1220,7 @@ class Life(Major):
 
     @property
     def base_max_life(self):
-        return self.max_life_base + self.vitality * VITALITY_TO_MAX_LIFE / BINARY_SCALE
+        return self.max_life_base + self.vitality * VITALITY_TO_MAX_LIFE
 
     @property
     def extra_max_life(self):
@@ -1178,11 +1286,11 @@ class Other:
 
     move_state_damage_gain: int = 0
 
+    skill_damage_gain: int = 0
+
+    pve_damage_gain: int = 0
+
     all_shield_ignore: int = 0
-
-    global_damage_factor: int = 0
-
-    resist_critical_strike_rate: int = 0
 
     @property
     def physical_damage_addition(self):
@@ -1197,12 +1305,12 @@ class Other:
         return self.move_state_damage_gain / BINARY_SCALE
 
     @property
-    def global_damage_scale(self):
-        return (Int(self.global_damage_factor) + (1 << 20)) / (1 << 20)
+    def skill_damage_addition(self):
+        return self.skill_damage_gain / BINARY_SCALE
 
     @property
-    def resist_critical_strike(self):
-        return self.resist_critical_strike_rate / DECIMAL_SCALE
+    def pve_damage_addition(self):
+        return self.pve_damage_gain / BINARY_SCALE
 
 
 class BaseAttribute(
@@ -1210,7 +1318,7 @@ class BaseAttribute(
     WeaponDamage, Haste, Strain, Dodge, Parry, TherapyPower, TherapyBase,
     Life, Mana, DecriticalPower, Toughness, Other
 ):
-    level: int = 0
+    level: int = LEVEL
 
     equip_score: int = 0
 
@@ -1223,4 +1331,3 @@ class BaseAttribute(
         self.all_critical_power_rate = BASE_CRITICAL_POWER
         self.physical_shield_base = BASE_PHYSICAL_SHIELD
         self.max_life_base = BASE_MAX_LIFE
-        self.level = LEVEL

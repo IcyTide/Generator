@@ -63,8 +63,9 @@ class Skill(AliasBase):
     interval: int = 0
     tick: int = 1
     tick_cof: float = 1.
+    dot_damage_cof: float = 1.
     coming_damage_cof: float = 0.
-    damage_cof: float = 1.
+    skill_damage_cof: float = 0.
 
     levels: list[int] = None
     recipe_key: Expression = None
@@ -79,6 +80,10 @@ class Skill(AliasBase):
     def is_custom_damage(self):
         return self.custom_damage_base or self.custom_damage_source
 
+    @property
+    def is_dot(self):
+        return bool(self.interval)
+
     def __init__(self, skill_id: int, skill_level: int = 0, patches: dict = None):
         self.skill_id = skill_id
         self.skill_level = skill_level
@@ -89,7 +94,7 @@ class Skill(AliasBase):
         self.kind_type = SKILL_KIND_TYPE[camel_to_capital(self.kind_type)] if self.kind_type else None  # noqa
         self.self_rollback_attributes, self.dest_rollback_attributes = [], []
         self.self_attributes, self.dest_attributes = [], []
-        self.buff_recipes = set()
+        self.buff_recipes, self.skill_recipes = set(), set()
         if self.script_file:
             self.script_path = Path(self.path) / self.script_file
 
@@ -135,12 +140,12 @@ class Skill(AliasBase):
     def frames(self):
         if not self.use_skill_coefficient:
             return 0
-        if self.dot_coefficient and self.interval:
+        if self.dot_coefficient and self.is_dot:
             frames = self.dot_coefficient
         elif self.skill_coefficient:
             frames = self.skill_coefficient
         else:
-            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof * self.damage_cof)
+            frames = Int(self.prepare_frames + self.channel_interval * self.tick_cof * self.dot_damage_cof)
         return frames
 
     @property
@@ -163,14 +168,27 @@ class Skill(AliasBase):
             return 0
         if not self.weapon_request:
             return 0
+        if self.is_dot:
+            return False
         return Int(self.weapon_damage_percent) / BINARY_SCALE
 
     @property
     def damage_addition(self):
-        if self.interval:
+        if self.is_dot:
             return 0
         else:
             return self.damage_gain / BINARY_SCALE
+
+    @property
+    def coming_damage_scale(self):
+        if self.is_dot:
+            return 0
+        else:
+            return self.coming_damage_cof / BINARY_SCALE
+
+    @property
+    def skill_damage_scale(self):
+        return self.skill_damage_cof / BINARY_SCALE
 
     @property
     def formula(self):
@@ -180,7 +198,6 @@ class Skill(AliasBase):
             source[attr] += param
         for attr, param in self.dest_rollback_attributes:
             target[attr] += param
-        target.coming_damage_cof += self.coming_damage_cof
         # self not rollback attributes no meaning
         if self.is_custom_damage:
             target.custom_damage_call()

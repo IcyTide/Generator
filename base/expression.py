@@ -76,7 +76,7 @@ class Variable(Expression):
 
     @property
     def terms(self):
-        return {self.name}
+        return {self.name: 1}
 
 
 class Constant(Expression):
@@ -97,6 +97,10 @@ class Constant(Expression):
 
     def __bool__(self):
         return bool(self.value)
+
+    @property
+    def terms(self):
+        return {1: self.value}
 
 
 class UnaryOperator(Expression):
@@ -132,6 +136,9 @@ class Neg(UnaryOperator):
     def derivative(self, var):
         return -self.operand.derivative(var)
 
+    @property
+    def terms(self):
+        return {k: -v for k, v in self.operand.terms.items()}
 
 class Int(UnaryOperator):
     def __new__(cls, operand):
@@ -150,6 +157,9 @@ class Int(UnaryOperator):
     def derivative(self, var):
         return self.operand.derivative(var)
 
+    @property
+    def terms(self):
+        return {str(self): 1}
 
 class Ceil(UnaryOperator):
     def __new__(cls, operand):
@@ -160,8 +170,8 @@ class Ceil(UnaryOperator):
         return super().__new__(cls).init(operand)
 
     def __str__(self):
-        # return f"ceil({self.operand})"
-        return str(self.operand)
+        return f"ceil({self.operand})"
+        # return str(self.operand)
 
     def evaluate(self, values=None):
         return Ceil(self.operand.evaluate(values))
@@ -296,6 +306,11 @@ class Mul(BinaryOperator):
             right = right.value
         if isinstance(left, (int, float)) and isinstance(right, (int, float)):
             return Constant(left * right)
+        if isinstance(left, Mul) and isinstance(right, (int, float)):
+            if isinstance(left.left, Constant):
+                return Mul(left.left.value * right, left.right)
+            if isinstance(left.right, Constant):
+                return Mul(left.left, left.right.value * right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):
@@ -327,6 +342,14 @@ class Div(BinaryOperator):
             right = right.value
         if isinstance(left, (int, float)) and isinstance(right, (int, float)):
             return Constant(left / right)
+        if isinstance(right, (int, float)):
+            if isinstance(left, (Add, Sub)):
+                return type(left)(Div(left.left, right), Div(left.right, right))
+            if isinstance(left, Mul):
+                if isinstance(left.left, Constant):
+                    return Mul(left.left.value / right, left.right)
+                if isinstance(left.right, Constant):
+                    return Mul(left.left, left.right.value / right)
         return super().__new__(cls).init(left, right)
 
     def __str__(self):

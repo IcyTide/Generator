@@ -1,5 +1,6 @@
 TRANSLATE_MAP = {
     "base": "基础",
+    "rand": "浮动",
     "gain": "百分比(乘算)",
     "rate": "百分比(加算)",
 
