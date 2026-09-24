@@ -2,7 +2,8 @@ TALENTS: list[dict[int, dict]] = [
     {
         6818: dict(dots={6401: dict(skills={6867: {}})}),
         6824: dict(
-            skills={19435: dict(comment="1-2段", coming_damage_cof=614.4), 8491: dict(comment="3段", coming_damage_cof=614.4)}
+            skills={19435: dict(comment="1-2段", coming_damage_cof=614.4),
+                    8491: dict(comment="3段", coming_damage_cof=614.4)}
         ),
         14633: dict(skills={18913: {
             1: dict(comment="0-50%蓝量"),
@@ -11,10 +12,10 @@ TALENTS: list[dict[int, dict]] = [
         40646: dict(skills={32898: dict(levels=[5])})
     },
     {
-        6822: dict(buffs={29341: {}}),
-        43059: {},
-        42099: {},
-        38878: dict(skills={38891: {}})
+        15212: {},
+        43206: {},
+        6830: {},
+        6845: {}
     },
     {
         15211: {},
@@ -23,10 +24,10 @@ TALENTS: list[dict[int, dict]] = [
         6832: dict(buffs={5994: {}})
     },
     {
-        15212: {},
-        43206: {},
-        6830: {},
-        6845: {}
+        6822: dict(buffs={29341: {}}),
+        43059: {},
+        42099: {},
+        38878: dict(skills={38891: {}})
     },
     {
         41993: {},

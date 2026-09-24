@@ -23,14 +23,14 @@ TALENTS: list[dict[int, dict]] = [
         14557: {},
         37287: dict(
             buffs={9570: dict(name="凌冬", comment="递增{}次")},
-            coming_damage_cof=512, coming_damage_skills={18859: {}}
+            coming_damage_cof=512, coming_damage_skills={14227: {}, 18859: {}}
         )
     },
     {
         14163: dict(skills={43043: {3: dict(comment="1段"), 4: dict(comment="2段")}}),
         30589: dict(skills={40330: {}}),
         41796: dict(skills={41791: {}}),
-        31157: {}
+        46501: {}
     },
     {
         30797: dict(skills={30833: {}}),
@@ -51,7 +51,7 @@ TALENTS: list[dict[int, dict]] = [
         29069: {},
         14146: {},
         32487: {},
-        45777: dict(coming_damage_cof=5120, coming_damage_skills={45775: {}}),
+        45777: dict(coming_damage_cof=4096, coming_damage_skills={45775: {}}),
         14441: {},
         14093: dict(skills={41871: {}})
     }

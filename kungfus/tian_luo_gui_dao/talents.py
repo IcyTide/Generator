@@ -1,12 +1,12 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        42482: {},
+        42482: {},  # TODO: 实现没找到
         42481: dict(skills={42483: {}}),
         20544: dict(
             buffs={33690: {}},
             skills={21963: {}, 21850: {}, 21852: {}, 21856: {}, 34672: {}}
         ),
-        46285: {}
+        46285: {}  # TODO: 同上
     },
     {
         42473: {},
@@ -27,7 +27,7 @@ TALENTS: list[dict[int, dict]] = [
         5719: {}
     },
     {
-        46033: dict(skills={46035: {1: {}, 2: dict(comment="翻倍")}}),
+        46608: dict(skills={46035: dict(levels=[1])}),
         3115: dict(skills={3221: {}}),
         30921: dict(buffs={
             23081: dict(name="擘两分星", comment="<80神机"),

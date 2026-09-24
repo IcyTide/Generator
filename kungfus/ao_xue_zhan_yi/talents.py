@@ -37,16 +37,16 @@ TALENTS: list[dict[int, dict]] = [
     {
         5669: {},
         24841: dict(skills={24843: {
-                **{i + 1: dict(comment=f"蓄力{delay}帧") for i, delay in enumerate([0, 12, 23])},
-                **{i + 4: dict(comment=f"蓄力{delay}帧(80%血量以下)") for i, delay in enumerate([0, 12, 23])}
-            }
+            **{i + 1: dict(comment=f"蓄力{delay}帧") for i, delay in enumerate([0, 12, 23])},
+            **{i + 4: dict(comment=f"蓄力{delay}帧(80%血量以下)") for i, delay in enumerate([0, 12, 23])}
+        }
         }),
         14824: {},
         2628: {}
     },
     {
         6806: dict(buffs={6363: dict(levels=[3])}),
-        5678: dict(buffs={6363: dict(levels=[4])}),
+        5678: dict(buffs={6363: dict(levels=[4])}, skills={46586: {}}),
         42671: {},
         24899: {}
     },

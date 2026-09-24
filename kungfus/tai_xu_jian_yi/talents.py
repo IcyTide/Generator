@@ -2,20 +2,14 @@ TALENTS: list[dict[int, dict]] = [
     {
         38539: dict(skills={713: {}, 903: dict(comment="增伤")}),
         38540: {},
-        14833: dict(skills={40752: dict(levels=[1])}),
+        14833: {},
         21725: {}
     },
     {
-        44381: dict(skills={46193: {}}),
-        6744: dict(buffs={31522: {}}),
-        20782: dict(skills={18528: dict(levels=[1])}),
-        18799: dict(buffs={378: dict(levels=[10])})
-    },
-    {
-        17731: dict(buffs={2757: dict(levels=[5])}),
-        6757: dict(skills={42061: dict(comment="{}层叠刃")}),
-        14832: {},
-        14835: {}
+        310: dict(skills={335: {}}),
+        5818: {},
+        44363: dict(skills={44586: dict(comment="{}")}),
+        34656: dict(skills={34693: {}, 34694: {}})
     },
     {
         14829: dict(buffs={
@@ -27,16 +21,22 @@ TALENTS: list[dict[int, dict]] = [
             17933: {}
         }),
         14598: {},
-        32403: dict(skills={46350: {}, 40752: dict(levels=[4])})
+        32403: dict(skills={46350: {}})
     },
     {
-        310: dict(skills={335: {}}),
-        5818: {},
-        44363: dict(skills={44586: dict(comment="{}")}),
-        34656: dict(skills={34693: {}, 34694: {}})
+        17731: dict(buffs={2757: dict(levels=[5])}),
+        6757: dict(skills={42061: dict(comment="{}层叠刃")}),
+        14832: {},
+        14835: {}
     },
     {
-        46184: dict(skills={46185: {}}),
+        46596: {},
+        6744: dict(buffs={31522: {}}),
+        20782: dict(skills={18528: dict(levels=[1])}),
+        18799: dict(buffs={378: dict(levels=[10])})
+    },
+    {
+        44381: dict(skills={46193: {}}),
         32447: {},
         17742: dict(buffs={29451: dict(skill_damage_cof=512, skills={4954: {}})}),
         15187: dict(skills={32780: {}})
@@ -47,12 +47,12 @@ TALENTS: list[dict[int, dict]] = [
         17743: {},
         43862: {},
         24961: dict(buffs={2757: dict(levels=[1])}),
-        30831: dict(skills={30828: dict(comment="{}层"),}),
+        30831: dict(skills={30828: dict(comment="{}层"), }),
         17747: {},
         40375: {},
         6758: {},
         32407: {},
-        24969: {},
+        24969: dict(skills={40752: dict(levels=[1])}),
         6481: dict(buffs={34331: {}})
     }
 ]

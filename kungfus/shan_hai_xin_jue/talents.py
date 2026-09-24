@@ -24,19 +24,19 @@ TALENTS: list[dict[int, dict]] = [
         42470: dict(buffs={31832: dict(levels=[2])})
     },
     {
-        42467: dict(buffs={
-            33689: dict(name="连珠", comment="攻击"),
-            31940: dict(comment="标鹄", coming_damage_cof=204.8, skills={36157: {}})
-        }),
-        40239: {},
-        35730: {},
+        35751: {},
+        35760: {},
+        42469: {},
         46242: dict(skills={46243: {}})
     },
     {
         35765: dict(skills={36173: {}}),
-        35751: {},
-        42469: {},
-        35760: {}
+        42467: dict(buffs={
+            33689: dict(name="连珠", comment="攻击"),
+            31940: dict(comment="标鹄", coming_damage_cof=204.8, skills={36157: {}})
+        }),
+        35730: {},
+        40239: {}
     },
     {
         45105: dict(buffs={33688: {}}, skills={45107: {}}),

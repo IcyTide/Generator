@@ -6,7 +6,7 @@ TALENTS: list[dict[int, dict]] = [
             skills={37816: {2: dict(comment="弹射1次"), 3: dict(comment="弹射2次")}}
         ),
         38503: {},
-        38490: dict(skills={44511: dict(comment="{}层", skill_damage_cof=1024)})
+        38490: dict(skills={44511: dict(comment="{}层")})
     },
     {
         38497: {},

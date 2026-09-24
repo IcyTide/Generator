@@ -7,7 +7,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         20348: dict(buffs={29344: dict(comment="{}")}),
-        20741: {},
+        28985: {},
         20351: {},
         20718: {}
     },
@@ -32,7 +32,7 @@ TALENTS: list[dict[int, dict]] = [
     {
         44500: {},
         46124: dict(skills={skill_id: dict(comment=f"{i + 1}段") for i, skill_id in enumerate([46125, 46126, 46127])}),
-        28985: {},
+        20741: {},
         32488: {}
     },
     {

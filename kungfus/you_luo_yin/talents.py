@@ -9,14 +9,23 @@ TALENTS: list[dict[int, dict]] = [
         42116: {},
         42117: dict(skills={41486: dict(comment="递增{level-1}次")}),
         42144: {},
-        42125: {}
+        42125: dict(buffs={31530: dict(
+            coming_damage_cof=307,
+            skills={
+                skill_id: {} for skill_id in [
+                    41471, 41472, 41473, 42384, 46382, 46383, 46384, 46385, 42021, 46390, 42084, 46387,
+                    41465, 46392, 42265, 46394, 41486, 46398, 42098,
+                    42381, 43081,
+                ]
+            }
+        )})
     },
     {
         42120: dict(skills={42260: dict(levels=[1])}),
         42127: dict(
             buffs={
                 31870: dict(
-                    coming_damage_cof=614,
+                    coming_damage_cof=819,
                     skills={skill_id: {} for skill_id in [41471, 41472, 41473, 42384, 46382, 46383, 46384, 46385]}
                 )
             }

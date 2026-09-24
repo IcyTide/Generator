@@ -12,15 +12,6 @@ TALENTS: list[dict[int, dict]] = [
         42218: dict(skills={1594: dict(levels=[9])})
     },
     {
-        6545: dict(
-            buffs={21640: dict(name="层云", comment="{level-1}次递增")},
-            skills={18991: {}}
-        ),
-        23922: dict(buffs={26988: {}}),
-        5956: {},
-        18682: dict(skills={18685: {}})
-    },
-    {
         29093: {},
         36274: dict(skills={
             36275: {i + 1: dict(comment=f"蓄力{delay}帧") for i, delay in enumerate([0, 16, 24, 41])},
@@ -28,6 +19,15 @@ TALENTS: list[dict[int, dict]] = [
         }),
         5952: dict(buffs={22913: {}}),
         1647: dict(skills={1709: {}})
+    },
+    {
+        6545: dict(
+            buffs={21640: dict(name="层云", comment="{level-1}次递增")},
+            skills={18991: {}}
+        ),
+        23922: dict(buffs={26988: {}}),
+        5956: {},
+        18682: dict(skills={18685: {}})
     },
     {
         5959: dict(buffs={19187: {}}),

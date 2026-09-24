@@ -1,9 +1,9 @@
 TALENTS: list[dict[int, dict]] = [
     {
-        25368: dict(skills={34683: {}}),
+        25368: dict(skill_damage_cof=716.8, skills={skill_id: {} for skill_id in [24824, 24822, 24823, 24821]}),
         37456: {},
         25026: dict(skills={28815: dict(comment="{7+level}尺")}),
-        44478: dict(skills={45094: {}})
+        44478: dict(skills={45094: {}}) # TODO: dot等级差别
     },
     {
         25173: dict(skills={25174: {}}),
@@ -12,10 +12,16 @@ TALENTS: list[dict[int, dict]] = [
         44479: {}
     },
     {
-        25028: {},
-        25367: {},
-        25137: {},
-        25072: {}
+        42511: dict(
+            buffs={17801: dict(skill_damage_cof=153.6, skills={42520: {}})},
+            skills={
+                42520: {1: dict(comment="PVP"), 2: dict(comment="PVE")},
+                46458: {1: dict(comment="火离PVP"), 2: dict(comment="火离PVE")}
+            }
+        ),
+        25011: {},
+        32791: dict(skills={33236: {}}),
+        25114: {}
     },
     {
         25034: {},
@@ -24,26 +30,16 @@ TALENTS: list[dict[int, dict]] = [
         42492: {}
     },
     {
-        46240: dict(skills={46241: {1: dict(comment="PVP"), 2: dict(comment="PVE")}}),
-        25011: {},
-        32791: dict(skills={33236: {}}),
-        25114: {}
+        25028: {},
+        25367: {},
+        25137: {},
+        25072: {}
     },
     {
         42455: dict(skills={42456: dict(comment="{}层")}),
         25383: {},
         25176: dict(skills={25150: {}}),
-        37505: dict(
-            buffs={
-                30430: {
-                    1: dict(comment="兵主逆"),
-                    2: dict(comment="天斗旋"),
-                    3: dict(comment="三星临")
-                },
-                31907: {}
-            },
-            skills={45032: dict(levels=[3])}
-        )
+        37505: dict(buffs={31907: {}})
     },
     {
         25074: {},
@@ -56,13 +52,7 @@ TALENTS: list[dict[int, dict]] = [
         24949: {},
         25148: {},
         32794: {},
-        42511: dict(
-            buffs={17801: dict(skill_damage_cof=153.6, skills={42520: {}})},
-            skills={
-                42520: {1: dict(comment="PVP"), 2: dict(comment="PVE")},
-                46458: {1: dict(comment="火离PVP"), 2: dict(comment="火离PVE")}
-            }
-        ),
+        46240: dict(skills={46241: {1: dict(comment="PVP"), 2: dict(comment="PVE")}}),
         42926: {}
     }
 ]

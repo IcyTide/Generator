@@ -6,12 +6,12 @@ TALENTS: list[dict[int, dict]] = [
             2: dict(comment="首次")
         }}),
         26684: dict(skills={28379: {}}),
-        18694: {}
+        18694: dict(skills={46674: dict(comment="{}")})  # TODO: 按气点划分等级应该是
     },
     {
         5819: dict(buffs={9966: dict(name="同尘", comment="命中{}次"), }),
         370: dict(skills={370: {}}),
-        44496: dict(skills={44497: {}, 44507: {}}),
+        24955: {},
         14837: {}
     },
     {
@@ -24,10 +24,10 @@ TALENTS: list[dict[int, dict]] = [
         })
     },
     {
-        38516: dict(skills={46143: dict(levels=[1])}),
+        38516: {},
         14836: dict(skills={20955: {}}),
         23614: dict(buffs={375: dict(levels=[13])}),
-        5844: {}
+        5828: dict(buffs={29183: dict(name="太牢")})
     },
     {
         42934: {},
@@ -42,7 +42,7 @@ TALENTS: list[dict[int, dict]] = [
             1: dict(comment="原始"),
             2: dict(comment="70%血量以上")
         }}),
-        24955: {}
+        46597: dict(skills={34633: {}})
     },
     {
         22703: {},
@@ -50,10 +50,10 @@ TALENTS: list[dict[int, dict]] = [
         21712: dict(skills={21716: {}}),
         24953: {},
         6796: {},
-        5828: {},
+        5844: {},
         24945: dict(skills={46296: {}}),
         18798: {},
-        46150: {},
+        44496: dict(skills={44497: {}, 44507: {}}),
         5813: {},
         32411: dict(skills={36438: {}}),
         14834: dict(buffs={

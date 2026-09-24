@@ -70,7 +70,7 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
         25781: dict(skills={25781: {}, 43294: dict(comment="{}")})
     },
     10464: {
-        25782: dict(dots={34119: dict(skills={45704: {}})}, skills={25782: {}, 39106: {}})
+        25782: dict(buffs={11376: {}}, dots={34119: dict(skills={45704: {}})}, skills={25782: {}, 39106: {}})
     },
     10533: {
         25783: dict(dots={19557: dict(skills={26935: {}})}, skills={25783: {}})
@@ -106,7 +106,7 @@ KUNGFU_GAINS: dict[int, dict[int, dict]] = {
 
 DIVINE_WEAPON_GAINS: dict[int, dict] = {
     # divine strain
-    # 39088: dict(name="橙武无双", buffs={29608: dict(comment="{}")}),
+    39088: dict(name="橙武无双", buffs={29608: dict(levels=list(range(18, 30)))}),
     **{k: v for gain in KUNGFU_GAINS.values() for k, v in gain.items()}
 }
 SPECIAL_GEAR_GAINS: dict[int, dict] = {
@@ -196,24 +196,27 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
 SPECIAL_WEAPON_GAINS: dict[int, dict] = {
 }
 ELEMENT_GAINS = {
+    4877: dict(name="水特效", buffs={4761: dict(levels=[87, 88])}),
+    # pendant
+    38578: dict(name="输出风特效", buffs={29268: dict(levels=[36, 37])}),
 }
 SPECIAL_ENCHANT_GAINS = {
     # dps
-    10106: dict(name="输出头大附魔", buffs={15436: dict(name="输出头大附魔", levels=[15, 16, 17])}),
-    38984: dict(
-        name="输出手大附魔", skills={37562: dict(levels=[3, 4, 5], custom_damage_source="tDPSPVEEnchantHuShouData")}
-    ),
-    38985: dict(
-        name="输出脚大附魔", skills={37561: dict(levels=[3, 4, 5], custom_damage_source="tDPSPVEEnchantXieZiData")}
-    ),
-    22151: dict(skills={22151: dict(levels=[15, 16, 17])}),
+    10106: dict(name="输出头大附魔", buffs={15436: dict(name="输出头大附魔", levels=[18, 19])}),
+    # 46463: dict(
+    #     name="输出手大附魔", skills={37562: dict(levels=[1, 2], custom_damage_base=1)}
+    # ),
+    # 46464: dict(
+    #     name="输出脚大附魔", skills={37561: dict(levels=[1, 2], custom_damage_base=1)}
+    # ),
+    22151: dict(skills={22151: dict(levels=[18, 19])}),
     22169: dict(name="输出腰大附魔", buffs={
         15455: {1: dict(name="输出腰大附魔", comment="1%"), 2: dict(name="输出腰大附魔", comment="5%")}
     }),
 
     # tank
     22129: {},
-    33249: dict(name="防御手大附魔", buffs={24767: {}}),
+    46465: dict(name="防御手大附魔", buffs={24767: {}}),
     22128: {},
     22122: {},
     40512: {}
@@ -223,6 +226,6 @@ GAINS: dict[int, dict] = {
     **DIVINE_WEAPON_GAINS,
     # **SPECIAL_GEAR_GAINS,
     # **SPECIAL_WEAPON_GAINS,
-    # **ELEMENT_GAINS,
+    **ELEMENT_GAINS,
     # **SPECIAL_ENCHANT_GAINS,
 }

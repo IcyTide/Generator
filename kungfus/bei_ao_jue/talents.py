@@ -23,7 +23,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         44396: {},
-        16779: dict(buffs={11221: dict(name="化蛟", comment="递增{}次")}),
+        16779: {},
         18625: dict(buffs={11222: dict(name="沧雪", comment="递增{}次")}),
         42410: dict(buffs={31782: dict(
             levels=[2], coming_damage_cof=204.8,
@@ -40,10 +40,10 @@ TALENTS: list[dict[int, dict]] = [
         21264: {}
     },
     {
-        17056: dict(
-            skills={34585: {}},
-            dots={11447: dict(skills={17060: {}})}
-        ),
+        17056: dict(buffs={
+            34673: dict(max_stack=1, skill_damage_cof=2048,
+                        skills={skill_id: {} for skill_id in [16615, 16616, 16617, 16618, 16619]})
+        }),
         32857: dict(skills={32859: {}}),
         16739: {},
         42564: {}
@@ -60,7 +60,7 @@ TALENTS: list[dict[int, dict]] = [
             buffs={11456: dict(levels=[1])},
             skills={17006: dict(levels=[2])}
         ),
-        26735: dict(buffs={19499: dict(name="砺锋")}),
+        26735: {},
         16957: {},
         46080: {},
         33123: dict(skills={33129: {}})

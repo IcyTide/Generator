@@ -12,7 +12,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -25,7 +25,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -38,7 +38,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -51,7 +51,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -64,7 +64,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -77,7 +77,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -254,7 +254,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -267,7 +267,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -280,7 +280,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -293,7 +293,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -306,7 +306,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -319,7 +319,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -496,7 +496,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -509,7 +509,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -522,7 +522,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -535,7 +535,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -548,7 +548,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -561,7 +561,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -738,7 +738,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -751,7 +751,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -764,7 +764,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -777,7 +777,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -790,7 +790,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -803,7 +803,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -2514,7 +2514,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -2527,7 +2527,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -2540,7 +2540,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -2553,7 +2553,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -2566,7 +2566,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -2579,7 +2579,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -2756,7 +2756,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -2769,7 +2769,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -2782,7 +2782,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -2795,7 +2795,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -2808,7 +2808,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -2821,7 +2821,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -2998,7 +2998,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -3011,7 +3011,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -3024,7 +3024,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -3037,7 +3037,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -3050,7 +3050,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -3063,7 +3063,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -3240,7 +3240,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -3253,7 +3253,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -3266,7 +3266,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -3279,7 +3279,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -3292,7 +3292,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -3305,7 +3305,7 @@ STONES = {
                     "attributes": {
                         "strength_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -4372,7 +4372,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -4385,7 +4385,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -4398,7 +4398,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -4411,7 +4411,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -4424,7 +4424,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -4437,7 +4437,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -4614,7 +4614,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -4627,7 +4627,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -4640,7 +4640,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -4653,7 +4653,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -4666,7 +4666,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -4679,7 +4679,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -4856,7 +4856,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -4869,7 +4869,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -4882,7 +4882,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -4895,7 +4895,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -4908,7 +4908,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -4921,7 +4921,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -5258,7 +5258,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -5271,7 +5271,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -5284,7 +5284,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -5297,7 +5297,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -5310,7 +5310,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -5323,7 +5323,7 @@ STONES = {
                     "attributes": {
                         "agility_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -7036,7 +7036,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -7049,7 +7049,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -7062,7 +7062,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -7075,7 +7075,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -7088,7 +7088,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -7101,7 +7101,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -7278,7 +7278,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -7291,7 +7291,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -7304,7 +7304,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -7317,7 +7317,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -7330,7 +7330,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -7343,7 +7343,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -7520,7 +7520,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -7533,7 +7533,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -7546,7 +7546,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -7559,7 +7559,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -7572,7 +7572,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -7585,7 +7585,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -7762,7 +7762,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -7775,7 +7775,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -7788,7 +7788,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -7801,7 +7801,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -7814,7 +7814,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -7827,7 +7827,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -14290,7 +14290,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -14303,7 +14303,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -14316,7 +14316,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -14329,7 +14329,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -14342,7 +14342,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -14355,7 +14355,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -14532,7 +14532,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -14545,7 +14545,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -14558,7 +14558,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -14571,7 +14571,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -14584,7 +14584,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -14597,7 +14597,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -14774,7 +14774,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -14787,7 +14787,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -14800,7 +14800,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -14813,7 +14813,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -14826,7 +14826,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -14839,7 +14839,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -15096,7 +15096,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 9,
                         "strain_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -15109,7 +15109,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 17,
                         "strain_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -15122,7 +15122,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 26,
                         "strain_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -15135,7 +15135,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 35,
                         "strain_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -15148,7 +15148,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 43,
                         "strain_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -15161,7 +15161,7 @@ STONES = {
                     "attributes": {
                         "physical_attack_power_base": 52,
                         "strain_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -15510,7 +15510,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69
                     }
                 },
@@ -15523,7 +15523,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "physical_attack_power_base": 26,
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104
                     }
                 },
@@ -15536,7 +15536,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11,
+                        "weapon_damage_base": 12,
                         "strain_base": 138
                     }
                 },
@@ -15562,7 +15562,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16,
+                        "weapon_damage_base": 17,
                         "strain_base": 208
                     }
                 }
@@ -15664,7 +15664,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -15677,7 +15677,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -15690,7 +15690,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -15703,7 +15703,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -15716,7 +15716,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -15729,7 +15729,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -15906,7 +15906,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -15919,7 +15919,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -15932,7 +15932,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -15945,7 +15945,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -15958,7 +15958,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -15971,7 +15971,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -16148,7 +16148,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -16161,7 +16161,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -16174,7 +16174,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -16187,7 +16187,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -16200,7 +16200,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -16213,7 +16213,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -16470,7 +16470,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 9,
                         "strain_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -16483,7 +16483,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 17,
                         "strain_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -16496,7 +16496,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 26,
                         "strain_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -16509,7 +16509,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 35,
                         "strain_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -16522,7 +16522,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 43,
                         "strain_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -16535,7 +16535,7 @@ STONES = {
                     "attributes": {
                         "physical_overcome_base": 52,
                         "strain_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -16804,7 +16804,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69
                     }
                 },
@@ -16817,7 +16817,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "physical_overcome_base": 26,
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104
                     }
                 },
@@ -16830,7 +16830,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11,
+                        "weapon_damage_base": 12,
                         "strain_base": 138
                     }
                 },
@@ -16856,7 +16856,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16,
+                        "weapon_damage_base": 17,
                         "strain_base": 208
                     }
                 }
@@ -16876,7 +16876,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -16889,7 +16889,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -16902,7 +16902,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -16915,7 +16915,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -16928,7 +16928,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -16941,7 +16941,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -17118,7 +17118,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -17131,7 +17131,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -17144,7 +17144,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -17157,7 +17157,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -17170,7 +17170,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -17183,7 +17183,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -17360,7 +17360,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -17373,7 +17373,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -17386,7 +17386,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -17399,7 +17399,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -17412,7 +17412,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -17425,7 +17425,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -17762,7 +17762,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -17775,7 +17775,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -17788,7 +17788,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -17801,7 +17801,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -17814,7 +17814,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -17827,7 +17827,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_strike_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -18892,7 +18892,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -18905,7 +18905,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -18918,7 +18918,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -18931,7 +18931,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -18944,7 +18944,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -18957,7 +18957,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -19134,7 +19134,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -19147,7 +19147,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -19160,7 +19160,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -19173,7 +19173,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -19186,7 +19186,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -19199,7 +19199,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -19376,7 +19376,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -19389,7 +19389,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -19402,7 +19402,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -19415,7 +19415,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -19428,7 +19428,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -19441,7 +19441,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -20344,7 +20344,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 9,
                         "strain_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -20357,7 +20357,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 17,
                         "strain_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -20370,7 +20370,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 26,
                         "strain_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -20383,7 +20383,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 35,
                         "strain_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -20396,7 +20396,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 43,
                         "strain_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -20409,7 +20409,7 @@ STONES = {
                     "attributes": {
                         "physical_critical_power_base": 52,
                         "strain_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -20838,7 +20838,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69
                     }
                 },
@@ -20851,7 +20851,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "physical_critical_power_base": 26,
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104
                     }
                 },
@@ -20864,7 +20864,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11,
+                        "weapon_damage_base": 12,
                         "strain_base": 138
                     }
                 },
@@ -20890,7 +20890,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16,
+                        "weapon_damage_base": 17,
                         "strain_base": 208
                     }
                 }
@@ -20910,7 +20910,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -20923,7 +20923,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -20936,7 +20936,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -20949,7 +20949,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -20962,7 +20962,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -20975,7 +20975,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -21152,7 +21152,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -21165,7 +21165,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -21178,7 +21178,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -21191,7 +21191,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -21204,7 +21204,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -21217,7 +21217,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -21394,7 +21394,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -21407,7 +21407,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -21420,7 +21420,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -21433,7 +21433,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -21446,7 +21446,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -21459,7 +21459,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -21796,7 +21796,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -21809,7 +21809,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -21822,7 +21822,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -21835,7 +21835,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -21848,7 +21848,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -21861,7 +21861,7 @@ STONES = {
                     "attributes": {
                         "strain_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -27280,7 +27280,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -27293,7 +27293,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -27306,7 +27306,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -27319,7 +27319,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -27332,7 +27332,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -27345,7 +27345,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -27522,7 +27522,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -27535,7 +27535,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -27548,7 +27548,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -27561,7 +27561,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -27574,7 +27574,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -27587,7 +27587,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -27764,7 +27764,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -27777,7 +27777,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -27790,7 +27790,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -27803,7 +27803,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -27816,7 +27816,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -27829,7 +27829,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -28166,7 +28166,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 9,
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -28179,7 +28179,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 17,
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -28192,7 +28192,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 26,
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -28205,7 +28205,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 35,
                         "decritical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -28218,7 +28218,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 43,
                         "decritical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -28231,7 +28231,7 @@ STONES = {
                     "attributes": {
                         "toughness_base": 52,
                         "decritical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -34050,7 +34050,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 9,
                         "physical_attack_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -34063,7 +34063,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 17,
                         "physical_attack_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -34076,7 +34076,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 26,
                         "physical_attack_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -34089,7 +34089,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 35,
                         "physical_attack_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -34102,7 +34102,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 43,
                         "physical_attack_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -34115,7 +34115,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 52,
                         "physical_attack_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -34372,7 +34372,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 9,
                         "physical_overcome_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -34385,7 +34385,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 17,
                         "physical_overcome_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -34398,7 +34398,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 26,
                         "physical_overcome_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -34411,7 +34411,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 35,
                         "physical_overcome_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -34424,7 +34424,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 43,
                         "physical_overcome_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -34437,7 +34437,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 52,
                         "physical_overcome_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -34694,7 +34694,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 9,
                         "physical_critical_power_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -34707,7 +34707,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 17,
                         "physical_critical_power_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -34720,7 +34720,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 26,
                         "physical_critical_power_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -34733,7 +34733,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 35,
                         "physical_critical_power_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -34746,7 +34746,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 43,
                         "physical_critical_power_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -34759,7 +34759,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 52,
                         "physical_critical_power_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -40656,7 +40656,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 9,
                         "strain_base": 17,
-                        "weapon_damage_base": 5
+                        "weapon_damage_base": 6
                     }
                 },
                 2: {
@@ -40669,7 +40669,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 17,
                         "strain_base": 35,
-                        "weapon_damage_base": 11
+                        "weapon_damage_base": 12
                     }
                 },
                 3: {
@@ -40682,7 +40682,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 26,
                         "strain_base": 52,
-                        "weapon_damage_base": 16
+                        "weapon_damage_base": 17
                     }
                 },
                 4: {
@@ -40695,7 +40695,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 35,
                         "strain_base": 69,
-                        "weapon_damage_base": 22
+                        "weapon_damage_base": 23
                     }
                 },
                 5: {
@@ -40708,7 +40708,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 43,
                         "strain_base": 87,
-                        "weapon_damage_base": 27
+                        "weapon_damage_base": 29
                     }
                 },
                 6: {
@@ -40721,7 +40721,7 @@ STONES = {
                     "attributes": {
                         "decritical_power_base": 52,
                         "strain_base": 104,
-                        "weapon_damage_base": 33
+                        "weapon_damage_base": 35
                     }
                 }
             },
@@ -42430,7 +42430,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "decritical_power_base": 17,
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69
                     }
                 },
@@ -42443,7 +42443,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "decritical_power_base": 26,
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104
                     }
                 },
@@ -42456,7 +42456,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "decritical_power_base": 35,
-                        "weapon_damage_base": 11,
+                        "weapon_damage_base": 12,
                         "strain_base": 138
                     }
                 },
@@ -42482,7 +42482,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "decritical_power_base": 52,
-                        "weapon_damage_base": 16,
+                        "weapon_damage_base": 17,
                         "strain_base": 208
                     }
                 }
@@ -76647,7 +76647,7 @@ STONES = {
                 "name": "彩·守护·固本·健体(肆)",
                 "level": 4,
                 "attributes": {
-                    "all_major_base": 69,
+                    "all_major_base": 31,
                     "vitality_gain": 61
                 }
             },
@@ -76659,7 +76659,7 @@ STONES = {
                 "name": "彩·守护·固本·健体(伍)",
                 "level": 5,
                 "attributes": {
-                    "all_major_base": 87,
+                    "all_major_base": 38,
                     "vitality_gain": 71
                 }
             },
@@ -76671,7 +76671,7 @@ STONES = {
                 "name": "彩·守护·固本·健体(陆)",
                 "level": 6,
                 "attributes": {
-                    "all_major_base": 104,
+                    "all_major_base": 46,
                     "vitality_gain": 81
                 }
             }
@@ -76685,7 +76685,7 @@ STONES = {
                 "name": "彩·击破·固本·刚烈(肆)",
                 "level": 4,
                 "attributes": {
-                    "all_major_base": 69,
+                    "all_major_base": 31,
                     "all_critical_power_base": 138
                 }
             },
@@ -76697,7 +76697,7 @@ STONES = {
                 "name": "彩·击破·固本·刚烈(伍)",
                 "level": 5,
                 "attributes": {
-                    "all_major_base": 87,
+                    "all_major_base": 38,
                     "all_critical_power_base": 173
                 }
             },
@@ -76709,7 +76709,7 @@ STONES = {
                 "name": "彩·击破·固本·刚烈(陆)",
                 "level": 6,
                 "attributes": {
-                    "all_major_base": 104,
+                    "all_major_base": 46,
                     "all_critical_power_base": 208
                 }
             }
@@ -78377,7 +78377,7 @@ STONES = {
                     "name": "彩·狂攻·无双·锐刃(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69,
                         "physical_attack_power_base": 138
                     }
@@ -78403,7 +78403,7 @@ STONES = {
                     "name": "彩·狂攻·无双·锐刃(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104,
                         "physical_attack_power_base": 208
                     }
@@ -78457,7 +78457,7 @@ STONES = {
                     "name": "彩·狂攻·无双·斩铁(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69,
                         "physical_overcome_base": 138
                     }
@@ -78483,7 +78483,7 @@ STONES = {
                     "name": "彩·狂攻·无双·斩铁(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104,
                         "physical_overcome_base": 208
                     }
@@ -78537,7 +78537,7 @@ STONES = {
                     "name": "彩·狂攻·无双·痛击(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69,
                         "physical_critical_power_base": 138
                     }
@@ -78563,7 +78563,7 @@ STONES = {
                     "name": "彩·狂攻·无双·痛击(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104,
                         "physical_critical_power_base": 208
                     }
@@ -78617,7 +78617,7 @@ STONES = {
                     "name": "彩·狂攻·无双·大化(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "strain_base": 69,
                         "decritical_power_base": 138
                     }
@@ -78643,7 +78643,7 @@ STONES = {
                     "name": "彩·狂攻·无双·大化(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "strain_base": 104,
                         "decritical_power_base": 208
                     }
@@ -78699,7 +78699,7 @@ STONES = {
                     "name": "彩·狂攻·锐刃·无双(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "physical_attack_power_base": 69,
                         "strain_base": 138
                     }
@@ -78725,7 +78725,7 @@ STONES = {
                     "name": "彩·狂攻·锐刃·无双(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "physical_attack_power_base": 104,
                         "strain_base": 208
                     }
@@ -78781,7 +78781,7 @@ STONES = {
                     "name": "彩·狂攻·斩铁·无双(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "physical_overcome_base": 69,
                         "strain_base": 138
                     }
@@ -78807,7 +78807,7 @@ STONES = {
                     "name": "彩·狂攻·斩铁·无双(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "physical_overcome_base": 104,
                         "strain_base": 208
                     }
@@ -78863,7 +78863,7 @@ STONES = {
                     "name": "彩·狂攻·痛击·无双(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "physical_critical_power_base": 69,
                         "strain_base": 138
                     }
@@ -78889,7 +78889,7 @@ STONES = {
                     "name": "彩·狂攻·痛击·无双(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "physical_critical_power_base": 104,
                         "strain_base": 208
                     }
@@ -78945,7 +78945,7 @@ STONES = {
                     "name": "彩·狂攻·大化·无双(肆)",
                     "level": 4,
                     "attributes": {
-                        "weapon_damage_base": 5,
+                        "weapon_damage_base": 6,
                         "decritical_power_base": 69,
                         "strain_base": 138
                     }
@@ -78971,7 +78971,7 @@ STONES = {
                     "name": "彩·狂攻·大化·无双(陆)",
                     "level": 6,
                     "attributes": {
-                        "weapon_damage_base": 8,
+                        "weapon_damage_base": 9,
                         "decritical_power_base": 104,
                         "strain_base": 208
                     }
