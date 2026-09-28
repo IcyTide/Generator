@@ -6599,12 +6599,8 @@ BUFFS = {
                         "physical_attack_power_gain": 154
                     },
                     "recipes": [
-                        "recipe_6556_1",
-                        "recipe_6557_1",
                         "recipe_6558_1",
-                        "recipe_6559_1",
-                        "recipe_6560_1",
-                        "recipe_6572_1"
+                        "recipe_6559_1"
                     ]
                 }
             }
@@ -7230,7 +7226,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 9999,
                     "attributes": {
-                        "neutral_attack_power_gain": 256
+                        "neutral_attack_power_gain": 184
                     }
                 }
             }
