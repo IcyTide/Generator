@@ -532,6 +532,26 @@ SKILLS = {
                     ]
                 }
             }
+        },
+        22151: {
+            22151: {
+                18: {
+                    "name": "",
+                    "comment": "",
+                    "attributes": {
+                        "all_attack_power_base": 81
+                    },
+                    "damages": []
+                },
+                19: {
+                    "name": "",
+                    "comment": "",
+                    "attributes": {
+                        "all_attack_power_base": 90
+                    },
+                    "damages": []
+                }
+            }
         }
     },
     10002: {
@@ -3138,12 +3158,14 @@ SKILLS = {
                     ]
                 }
             },
-            28463: {
+            28481: {
                 1: {
                     "name": "浊玉乱红",
                     "comment": "",
                     "critical_strike": "neutral_critical_strike",
-                    "damages": []
+                    "damages": [
+                        "int(int(int(int(int(int(int(int(int(int(int(int(20 + rand + int(neutral_attack_power * 0.12880299869867753))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + neutral_overcome)) * shield_constant / (int(neutral_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (neutral_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + neutral_damage_scale))"
+                    ]
                 }
             },
             46219: {
@@ -7000,6 +7022,28 @@ SKILLS = {
                 }
             }
         },
+        46285: {
+            3819: {
+                2: {
+                    "name": "重弩",
+                    "comment": "",
+                    "critical_strike": "physical_critical_strike",
+                    "damages": [
+                        "int(int(int(int(int(int(int(int(int(int(int(int(13 + rand + int(poison_attack_power * 0.2672662222997559))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + poison_damage_scale))"
+                    ]
+                }
+            },
+            3824: {
+                2: {
+                    "name": "重弩",
+                    "comment": "鬼斧弹药",
+                    "critical_strike": "physical_critical_strike",
+                    "damages": [
+                        "int(int(int(int(int(int(int(int(int(int(int(int(19 + rand + int(poison_attack_power * 0.4797911701525738))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + poison_damage_scale))"
+                    ]
+                }
+            }
+        },
         24037: {
             26900: {
                 1: {
@@ -8343,7 +8387,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "solar_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(9 + rand + int(solar_attack_power * 0.5203641147426572))) * (1 + 0.0302734375 * recipe_1014_1 + 0.0400390625 * recipe_1015_1 + 0.0498046875 * recipe_1016_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(9 + rand + int(solar_attack_power * 0.5203641147426572))) * (1 + 0.400390625 * recipe_4489_1 + 0.0302734375 * recipe_1014_1 + 0.0400390625 * recipe_1015_1 + 0.0498046875 * recipe_1016_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                     ]
                 }
             },
@@ -8353,7 +8397,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "lunar_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(7 + int(lunar_attack_power * 0.1732400332497213))) * (1 + 0.0302734375 * recipe_1014_1 + 0.0400390625 * recipe_1015_1 + 0.0498046875 * recipe_1016_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(7 + int(lunar_attack_power * 0.1732400332497213))) * (1 + 0.400390625 * recipe_4489_1 + 0.0302734375 * recipe_1014_1 + 0.0400390625 * recipe_1015_1 + 0.0498046875 * recipe_1016_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
                     ]
                 }
             },
@@ -8552,6 +8596,18 @@ SKILLS = {
                     "critical_strike": "lunar_critical_strike",
                     "damages": [
                         "int(int(int(int(int(int(int(int(int(int(int(int(29 + rand + int(lunar_attack_power * 0.06440149934933877))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
+                    ]
+                }
+            }
+        },
+        25355: {
+            4480: {
+                58: {
+                    "name": "驱夜断愁",
+                    "comment": "",
+                    "critical_strike": "lunar_critical_strike",
+                    "damages": [
+                        "int(int(int(int(int(int(int(int(int(int(int(int(12 + rand + int(lunar_attack_power * 0.6820118781094975))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
                     ]
                 }
             }
@@ -9187,16 +9243,6 @@ SKILLS = {
                 }
             }
         },
-        40264: {
-            40264: {
-                1: {
-                    "name": "断江流",
-                    "comment": "",
-                    "critical_strike": "physical_critical_strike",
-                    "damages": []
-                }
-            }
-        },
         6824: {
             19435: {
                 20: {
@@ -9570,7 +9616,7 @@ SKILLS = {
                     "comment": "1段",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(13 + rand + int(physical_attack_power * int(225 * (1 + 0.050000000000000044 * recipe_2342_1)) * 0.0006950210029786932) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1860_1 + 0.0400390625 * recipe_1861_1 + 0.0498046875 * recipe_1862_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(80 + rand * 8 + int(physical_attack_power * int(225 * (1 + 0.050000000000000044 * recipe_2342_1)) * 0.0006950210029786932) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1860_1 + 0.0400390625 * recipe_1861_1 + 0.0498046875 * recipe_1862_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             },
@@ -9658,7 +9704,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(11 + rand * 2 + int(physical_attack_power * 0.5393362983114659) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1830_1 + 0.0400390625 * recipe_1831_1 + 0.0498046875 * recipe_1832_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(105 + rand * 8 + int(physical_attack_power * 0.5393362983114659) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1830_1 + 0.0400390625 * recipe_1831_1 + 0.0498046875 * recipe_1832_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -9706,7 +9752,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(2 + int(physical_attack_power * 0.04448134419063637) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1953_1 + 0.0400390625 * recipe_1954_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(4 + int(physical_attack_power * 0.04448134419063637) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1953_1 + 0.0400390625 * recipe_1954_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -9848,7 +9894,7 @@ SKILLS = {
                     "comment": "1段",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(13 + rand + int(physical_attack_power * 0.15637972567020597) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1860_1 + 0.0400390625 * recipe_1861_1 + 0.0498046875 * recipe_1862_1 + 1.1201171875 * recipe_6542_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(80 + rand * 8 + int(physical_attack_power * 0.15637972567020597) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1860_1 + 0.0400390625 * recipe_1861_1 + 0.0498046875 * recipe_1862_1 + 1.1201171875 * recipe_6542_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             },
@@ -9936,7 +9982,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(11 + rand * 2 + int(physical_attack_power * 0.5393362983114659) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1830_1 + 0.0400390625 * recipe_1831_1 + 0.0498046875 * recipe_1832_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(105 + rand * 8 + int(physical_attack_power * 0.5393362983114659) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_1830_1 + 0.0400390625 * recipe_1831_1 + 0.0498046875 * recipe_1832_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -9984,7 +10030,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(2 + int(physical_attack_power * 0.04448134419063637) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0498046875 * recipe_1937_1 + 0.0302734375 * recipe_1953_1 + 0.0400390625 * recipe_1954_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(4 + int(physical_attack_power * 0.04448134419063637) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0498046875 * recipe_1937_1 + 0.0302734375 * recipe_1953_1 + 0.0400390625 * recipe_1954_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -10192,7 +10238,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "lunar_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(170 + rand * 10 + int(lunar_attack_power * 0.3226515117401872))) * (1 + 0.0302734375 * recipe_2045_1 + 0.0400390625 * recipe_2046_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(80 + rand * 10 + int(lunar_attack_power * 0.3226515117401872))) * (1 + 0.0302734375 * recipe_2045_1 + 0.0400390625 * recipe_2046_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
                     ]
                 }
             }
@@ -10328,7 +10374,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "lunar_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(260 + rand * 19 + int(lunar_attack_power * 0.3220074967466938))) * (1 + 0.029296875 * recipe_2089_1 + 0.0400390625 * recipe_2090_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(156 + rand * 19 + int(lunar_attack_power * 0.3220074967466938))) * (1 + 0.029296875 * recipe_2089_1 + 0.0400390625 * recipe_2090_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
                     ]
                 }
             }
@@ -10796,7 +10842,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "lunar_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(300 + rand * 25 + int(lunar_attack_power * 0.09016209908907427))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(200 + rand * 25 + int(lunar_attack_power * 0.09016209908907427))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
                     ]
                 }
             }
@@ -11074,7 +11120,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "lunar_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(4 + rand + int(lunar_attack_power * 0.5409725945344456))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(4 + rand + int(lunar_attack_power * 1.2171883377025026))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + lunar_overcome)) * shield_constant / (int(lunar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (lunar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + lunar_damage_scale))"
                     ]
                 }
             }
@@ -11801,7 +11847,7 @@ SKILLS = {
                     "comment": "1段",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(50 + rand + int(physical_attack_power * 0.22310174195616053) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(120 + rand * 5 + int(physical_attack_power * 0.22310174195616053) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             },
@@ -11811,7 +11857,7 @@ SKILLS = {
                     "comment": "2段",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(50 + rand + int(physical_attack_power * 0.19252081782509803) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(130 + rand * 5 + int(physical_attack_power * 0.19252081782509803) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             },
@@ -11821,7 +11867,7 @@ SKILLS = {
                     "comment": "3段",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(50 + rand + int(physical_attack_power * 0.21406646891743752) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(150 + rand * 5 + int(physical_attack_power * 0.21406646891743752) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -11857,7 +11903,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(41 + rand + int(physical_attack_power * 0.10633821345574006))) * (1 + 0.0498046875 * recipe_4819_1 + 0.0302734375 * recipe_4742_1 + 0.0400390625 * recipe_4743_1 + 0.0498046875 * recipe_4744_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(100 + rand * 5 + int(physical_attack_power * 0.10633821345574006))) * (1 + 0.0498046875 * recipe_4819_1 + 0.0302734375 * recipe_4742_1 + 0.0400390625 * recipe_4743_1 + 0.0498046875 * recipe_4744_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -11881,7 +11927,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(162 + rand + int(physical_attack_power * 0.2578527921050952))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(270 + rand * 20 + int(physical_attack_power * 0.2578527921050952))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -12079,7 +12125,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(50 + rand + int(physical_attack_power * 0.19252081782509803) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(130 + rand * 5 + int(physical_attack_power * 0.19252081782509803) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.0302734375 * recipe_4717_1 + 0.0400390625 * recipe_4718_1 + 0.0498046875 * recipe_4719_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }
@@ -14064,7 +14110,7 @@ SKILLS = {
                     "comment": "",
                     "critical_strike": "physical_critical_strike",
                     "damages": [
-                        "int(int(int(int(int(int(int(int(int(int(int(int(33 + rand + int(physical_attack_power * 0.12857888555105826) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.01953125 * recipe_5408_1 + 0.0302734375 * recipe_5409_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                        "int(int(int(int(int(int(int(int(int(int(int(int(180 + rand * 15 + int(physical_attack_power * 0.12857888555105826) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + 0.01953125 * recipe_5408_1 + 0.0302734375 * recipe_5409_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
                     ]
                 }
             }

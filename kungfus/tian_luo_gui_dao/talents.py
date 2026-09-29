@@ -6,7 +6,7 @@ TALENTS: list[dict[int, dict]] = [
             buffs={33690: {}},
             skills={21963: {}, 21850: {}, 21852: {}, 21856: {}, 34672: {}}
         ),
-        46285: {}  # TODO: 同上
+        46285: dict(skills={3819: dict(levels=[2]), 3824: dict(levels=[2], comment="鬼斧弹药")})
     },
     {
         42473: {},

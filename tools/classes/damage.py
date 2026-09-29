@@ -411,6 +411,9 @@ class DamageCallChain(BaseCallChain):
 
 class DamageChain(DamageCallChain):
     def to_dict(self):
+        if not self.damages:
+            return {}
+
         damage_dicts = []
         for i, damage in enumerate(self.damages):
             source_attribute = self.source_attributes[i]

@@ -3214,7 +3214,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "枯叶知秋_测试用#112503 (1280 精简)": {
+                "枯叶知秋_测试用#112503 (1280 精简 加速 无双)": {
                     "id": 112503,
                     "name": "枯叶知秋_测试用",
                     "school": "精简",
@@ -3227,14 +3227,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "千里无鸦_测试用#112502 (1280 精简)": {
+                "千里无鸦_测试用#112502 (1280 精简 会心 破防 无双)": {
                     "id": 112502,
                     "name": "千里无鸦_测试用",
                     "school": "精简",
@@ -3247,14 +3255,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 438,
+                        "physical_critical_strike_base": 188,
+                        "physical_overcome_base": 188,
+                        "strain_base": 301
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "残月如钩_测试用#112501 (1280 精简)": {
+                "残月如钩_测试用#112501 (1280 精简 破防)": {
                     "id": 112501,
                     "name": "残月如钩_测试用",
                     "school": "精简",
@@ -3267,14 +3284,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 438,
+                        "physical_overcome_base": 438
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "断魂无迹_测试用#112500 (1280 精简)": {
+                "断魂无迹_测试用#112500 (1280 精简 破防 无双)": {
                     "id": 112500,
                     "name": "断魂无迹_测试用",
                     "school": "精简",
@@ -3287,14 +3311,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 250,
+                        "physical_overcome_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "蛇行影没_测试用#112499 (1280 精简)": {
+                "蛇行影没_测试用#112499 (1280 精简 会心 无双)": {
                     "id": 112499,
                     "name": "蛇行影没_测试用",
                     "school": "精简",
@@ -3307,14 +3339,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 250,
+                        "physical_critical_strike_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "白骨成霜_测试用#112498 (1280 精简)": {
+                "白骨成霜_测试用#112498 (1280 精简 会心 会效 无双)": {
                     "id": 112498,
                     "name": "白骨成霜_测试用",
                     "school": "精简",
@@ -3327,14 +3367,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 172,
+                        "physical_critical_power_base": 157,
+                        "strain_base": 551
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "孤灯灭处_测试用#112497 (1280 精简)": {
+                "孤灯灭处_测试用#112497 (1280 精简 会心)": {
                     "id": 112497,
                     "name": "孤灯灭处_测试用",
                     "school": "精简",
@@ -3347,14 +3396,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 438,
+                        "physical_critical_strike_base": 438
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "吹霞护腕·迅_测试用#112496 (1280 精简)": {
+                "吹霞护腕·迅_测试用#112496 (1280 精简 加速 无双)": {
                     "id": 112496,
                     "name": "吹霞护腕·迅_测试用",
                     "school": "精简",
@@ -3367,8 +3423,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -3414,7 +3478,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "荒泽护腕·觉_测试用#112493 (1280 精简)": {
+                "荒泽护腕·觉_测试用#112493 (1280 精简 会心 破防 无双)": {
                     "id": 112493,
                     "name": "荒泽护腕·觉_测试用",
                     "school": "精简",
@@ -3427,8 +3491,17 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 407,
+                        "physical_critical_strike_base": 297,
+                        "physical_overcome_base": 297,
+                        "strain_base": 501
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -3454,7 +3527,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "苍刃护腕·破_测试用#112491 (1280 精简)": {
+                "苍刃护腕·破_测试用#112491 (1280 精简 破防 无双)": {
                     "id": 112491,
                     "name": "苍刃护腕·破_测试用",
                     "school": "精简",
@@ -3467,14 +3540,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_overcome_base": 470,
+                        "strain_base": 601
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "孤煞护腕·悟_测试用#112490 (1280 精简)": {
+                "孤煞护腕·悟_测试用#112490 (1280 精简 会心 无双)": {
                     "id": 112490,
                     "name": "孤煞护腕·悟_测试用",
                     "school": "精简",
@@ -3487,14 +3568,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 470,
+                        "strain_base": 601
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "寒戾护腕·尊_测试用#112489 (1280 精简)": {
+                "寒戾护腕·尊_测试用#112489 (1280 精简 无双)": {
                     "id": 112489,
                     "name": "寒戾护腕·尊_测试用",
                     "school": "精简",
@@ -3507,8 +3596,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 37,
                         "magical_shield_base": 29
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -3516,7 +3612,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "一息归尘_测试用#112488 (1280 精简)": {
+                "一息归尘_测试用#112488 (1280 精简 加速 无双)": {
                     "id": 112488,
                     "name": "一息归尘_测试用",
                     "school": "精简",
@@ -3529,14 +3625,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "幽壑藏身_测试用#112487 (1280 精简)": {
+                "幽壑藏身_测试用#112487 (1280 精简 会心 破防 无双)": {
                     "id": 112487,
                     "name": "幽壑藏身_测试用",
                     "school": "精简",
@@ -3549,14 +3653,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 438,
+                        "all_critical_strike_base": 188,
+                        "magical_overcome_base": 188,
+                        "strain_base": 301
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "夜分刀气_测试用#112486 (1280 精简)": {
+                "夜分刀气_测试用#112486 (1280 精简 破防)": {
                     "id": 112486,
                     "name": "夜分刀气_测试用",
                     "school": "精简",
@@ -3569,14 +3682,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 438,
+                        "magical_overcome_base": 438
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "缚风锁云_测试用#112485 (1280 精简)": {
+                "缚风锁云_测试用#112485 (1280 精简 破防 无双)": {
                     "id": 112485,
                     "name": "缚风锁云_测试用",
                     "school": "精简",
@@ -3589,14 +3709,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 250,
+                        "magical_overcome_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "毒雾藏针_测试用#112484 (1280 精简)": {
+                "毒雾藏针_测试用#112484 (1280 精简 会心 无双)": {
                     "id": 112484,
                     "name": "毒雾藏针_测试用",
                     "school": "精简",
@@ -3609,14 +3737,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 250,
+                        "all_critical_strike_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "寒鸦啼血_测试用#112483 (1280 精简)": {
+                "寒鸦啼血_测试用#112483 (1280 精简 会心 会效 无双)": {
                     "id": 112483,
                     "name": "寒鸦啼血_测试用",
                     "school": "精简",
@@ -3629,14 +3765,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 172,
+                        "all_critical_power_base": 157,
+                        "strain_base": 551
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "暗渡无声_测试用#112482 (1280 精简)": {
+                "暗渡无声_测试用#112482 (1280 精简 会心)": {
                     "id": 112482,
                     "name": "暗渡无声_测试用",
                     "school": "精简",
@@ -3649,14 +3794,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 438,
+                        "all_critical_strike_base": 438
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "谷息护腕·迅_测试用#112481 (1280 精简)": {
+                "谷息护腕·迅_测试用#112481 (1280 精简 加速 无双)": {
                     "id": 112481,
                     "name": "谷息护腕·迅_测试用",
                     "school": "精简",
@@ -3669,8 +3821,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -3716,7 +3876,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "尘霜护腕·觉_测试用#112478 (1280 精简)": {
+                "尘霜护腕·觉_测试用#112478 (1280 精简 会心 破防 无双)": {
                     "id": 112478,
                     "name": "尘霜护腕·觉_测试用",
                     "school": "精简",
@@ -3729,8 +3889,17 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 407,
+                        "all_critical_strike_base": 297,
+                        "magical_overcome_base": 297,
+                        "strain_base": 501
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -3756,7 +3925,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "冷骨护腕·破_测试用#112476 (1280 精简)": {
+                "冷骨护腕·破_测试用#112476 (1280 精简 破防 无双)": {
                     "id": 112476,
                     "name": "冷骨护腕·破_测试用",
                     "school": "精简",
@@ -3769,14 +3938,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "magical_overcome_base": 470,
+                        "strain_base": 601
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "寒蚀护腕·悟_测试用#112475 (1280 精简)": {
+                "寒蚀护腕·悟_测试用#112475 (1280 精简 会心 无双)": {
                     "id": 112475,
                     "name": "寒蚀护腕·悟_测试用",
                     "school": "精简",
@@ -3789,14 +3966,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 470,
+                        "strain_base": 601
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "烬燃护腕·尊_测试用#112474 (1280 精简)": {
+                "烬燃护腕·尊_测试用#112474 (1280 精简 无双)": {
                     "id": 112474,
                     "name": "烬燃护腕·尊_测试用",
                     "school": "精简",
@@ -3809,8 +3994,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -9873,7 +10065,7 @@ EQUIPMENTS = {
         },
         "精简": {
             "外功": {
-                "无修鞋·外·天_测试用#114864 (1280 精简 会心 无双)": {
+                "无修鞋·外·天_测试用#114864 (1280 精简 无双)": {
                     "id": 114864,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -9887,13 +10079,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 21
                     },
                     "magic": {
-                        "vitality_base": 742,
-                        "physical_attack_power_base": 157,
-                        "physical_critical_strike_base": 610,
-                        "strain_base": 301
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 563,
+                        "strain_base": 1152
                     },
                     "embed": {
-                        "physical_attack_power_base": 225,
+                        "physical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -9901,7 +10092,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#114863 (1280 精简 会心 会效 破防)": {
+                "无修鞋·外·天_测试用#114863 (1280 精简 会心 无双)": {
                     "id": 114863,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -9915,15 +10106,14 @@ EQUIPMENTS = {
                         "magical_shield_base": 21
                     },
                     "magic": {
-                        "vitality_base": 742,
-                        "physical_attack_power_base": 454,
-                        "physical_critical_strike_base": 282,
-                        "physical_critical_power_base": 117,
-                        "physical_overcome_base": 117
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 376,
+                        "strain_base": 751
                     },
                     "embed": {
-                        "physical_overcome_base": 225,
-                        "physical_attack_power_base": 225
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
@@ -9944,10 +10134,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 21
                     },
                     "magic": {
-                        "vitality_base": 742,
-                        "physical_attack_power_base": 157,
-                        "physical_overcome_base": 610,
-                        "strain_base": 301
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_overcome_base": 376,
+                        "strain_base": 751
                     },
                     "embed": {
                         "physical_overcome_base": 225,
@@ -9958,7 +10148,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112794 (1280 精简)": {
+                "无修鞋·外·天_测试用#112794 (1280 精简 无双)": {
                     "id": 112794,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -9971,14 +10161,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112793 (1280 精简)": {
+                "无修鞋·外·天_测试用#112793 (1280 精简 会心 无双)": {
                     "id": 112793,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -9991,14 +10188,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112792 (1280 精简)": {
+                "无修鞋·外·天_测试用#112792 (1280 精简 破防 无双)": {
                     "id": 112792,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10011,14 +10216,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_overcome_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112710 (1280 精简)": {
+                "无修鞋·外·天_测试用#112710 (1280 精简 无双)": {
                     "id": 112710,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10031,14 +10244,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112709 (1280 精简)": {
+                "无修鞋·外·天_测试用#112709 (1280 精简 会心 无双)": {
                     "id": 112709,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10051,14 +10271,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112708 (1280 精简)": {
+                "无修鞋·外·天_测试用#112708 (1280 精简 破防 无双)": {
                     "id": 112708,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10071,14 +10299,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_overcome_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#114852 (1220 精简 会心 无双)": {
+                "无修鞋·外·天_测试用#114852 (1220 精简 会心 破防 无双)": {
                     "id": 114852,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10092,21 +10328,22 @@ EQUIPMENTS = {
                         "magical_shield_base": 20
                     },
                     "magic": {
-                        "vitality_base": 705,
-                        "physical_attack_power_base": 149,
-                        "physical_critical_strike_base": 582,
-                        "strain_base": 280
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 388,
+                        "physical_critical_strike_base": 283,
+                        "physical_overcome_base": 283,
+                        "strain_base": 466
                     },
                     "embed": {
-                        "physical_attack_power_base": 225,
-                        "strain_base": 225
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#114851 (1220 精简 会心 会效 破防)": {
+                "无修鞋·外·天_测试用#114851 (1220 精简 会心 无双)": {
                     "id": 114851,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10120,15 +10357,14 @@ EQUIPMENTS = {
                         "magical_shield_base": 20
                     },
                     "magic": {
-                        "vitality_base": 705,
-                        "physical_attack_power_base": 433,
-                        "physical_critical_strike_base": 269,
-                        "physical_critical_power_base": 112,
-                        "physical_overcome_base": 112
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 448,
+                        "physical_critical_strike_base": 448,
+                        "strain_base": 559
                     },
                     "embed": {
-                        "physical_overcome_base": 225,
-                        "physical_attack_power_base": 225
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
@@ -10149,10 +10385,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 20
                     },
                     "magic": {
-                        "vitality_base": 705,
-                        "physical_attack_power_base": 149,
-                        "physical_overcome_base": 582,
-                        "strain_base": 280
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 448,
+                        "physical_overcome_base": 448,
+                        "strain_base": 559
                     },
                     "embed": {
                         "physical_overcome_base": 225,
@@ -10163,7 +10399,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112782 (1220 精简)": {
+                "无修鞋·外·天_测试用#112782 (1220 精简 会心 破防 无双)": {
                     "id": 112782,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10176,14 +10412,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 25,
                         "magical_shield_base": 20
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 388,
+                        "physical_critical_strike_base": 283,
+                        "physical_overcome_base": 283,
+                        "strain_base": 466
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112781 (1220 精简)": {
+                "无修鞋·外·天_测试用#112781 (1220 精简 会心 无双)": {
                     "id": 112781,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10196,14 +10441,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 25,
                         "magical_shield_base": 20
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 448,
+                        "physical_critical_strike_base": 448,
+                        "strain_base": 559
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112780 (1220 精简)": {
+                "无修鞋·外·天_测试用#112780 (1220 精简 破防 无双)": {
                     "id": 112780,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10216,14 +10469,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 25,
                         "magical_shield_base": 20
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 448,
+                        "physical_overcome_base": 448,
+                        "strain_base": 559
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112698 (1220 精简)": {
+                "无修鞋·外·天_测试用#112698 (1220 精简 会心 破防 无双)": {
                     "id": 112698,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10236,14 +10497,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 25,
                         "magical_shield_base": 20
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 388,
+                        "physical_critical_strike_base": 283,
+                        "physical_overcome_base": 283,
+                        "strain_base": 466
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112697 (1220 精简)": {
+                "无修鞋·外·天_测试用#112697 (1220 精简 会心 无双)": {
                     "id": 112697,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10256,14 +10526,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 25,
                         "magical_shield_base": 20
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 448,
+                        "physical_critical_strike_base": 448,
+                        "strain_base": 559
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112696 (1220 精简)": {
+                "无修鞋·外·天_测试用#112696 (1220 精简 破防 无双)": {
                     "id": 112696,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10276,488 +10554,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 25,
                         "magical_shield_base": 20
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112770 (1160 精简)": {
-                    "id": 112770,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 24,
-                        "magical_shield_base": 19
+                    "magic": {
+                        "vitality_base": 449,
+                        "physical_attack_power_base": 448,
+                        "physical_overcome_base": 448,
+                        "strain_base": 559
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112769 (1160 精简)": {
-                    "id": 112769,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 24,
-                        "magical_shield_base": 19
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112768 (1160 精简)": {
-                    "id": 112768,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 24,
-                        "magical_shield_base": 19
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112686 (1160 精简)": {
-                    "id": 112686,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 24,
-                        "magical_shield_base": 19
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112685 (1160 精简)": {
-                    "id": 112685,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 24,
-                        "magical_shield_base": 19
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112684 (1160 精简)": {
-                    "id": 112684,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 24,
-                        "magical_shield_base": 19
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112758 (1100 精简)": {
-                    "id": 112758,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 23,
-                        "magical_shield_base": 18
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112757 (1100 精简)": {
-                    "id": 112757,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 23,
-                        "magical_shield_base": 18
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112756 (1100 精简)": {
-                    "id": 112756,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 23,
-                        "magical_shield_base": 18
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112674 (1100 精简)": {
-                    "id": 112674,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 23,
-                        "magical_shield_base": 18
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112673 (1100 精简)": {
-                    "id": 112673,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 23,
-                        "magical_shield_base": 18
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112672 (1100 精简)": {
-                    "id": 112672,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 23,
-                        "magical_shield_base": 18
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112746 (1040 精简)": {
-                    "id": 112746,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 17
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112745 (1040 精简)": {
-                    "id": 112745,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 17
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112744 (1040 精简)": {
-                    "id": 112744,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 17
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112662 (1040 精简)": {
-                    "id": 112662,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 17
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112661 (1040 精简)": {
-                    "id": 112661,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 17
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112660 (1040 精简)": {
-                    "id": 112660,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 17
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112734 (980 精简)": {
-                    "id": 112734,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 20,
-                        "magical_shield_base": 16
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112733 (980 精简)": {
-                    "id": 112733,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 20,
-                        "magical_shield_base": 16
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112732 (980 精简)": {
-                    "id": 112732,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 20,
-                        "magical_shield_base": 16
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112650 (980 精简)": {
-                    "id": 112650,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 20,
-                        "magical_shield_base": 16
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112649 (980 精简)": {
-                    "id": 112649,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 20,
-                        "magical_shield_base": 16
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·外·天_测试用#112648 (980 精简)": {
-                    "id": 112648,
-                    "name": "无修鞋·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 20,
-                        "magical_shield_base": 16
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -10765,7 +10571,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "无修鞋·内·天_测试用#114861 (1280 精简 会心 无双)": {
+                "无修鞋·内·天_测试用#114861 (1280 精简 无双)": {
                     "id": 114861,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10779,13 +10585,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 26
                     },
                     "magic": {
-                        "vitality_base": 742,
-                        "magical_attack_power_base": 157,
-                        "all_critical_strike_base": 610,
-                        "strain_base": 301
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 563,
+                        "strain_base": 1152
                     },
                     "embed": {
-                        "magical_attack_power_base": 225,
+                        "all_critical_strike_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -10793,7 +10598,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#114860 (1280 精简 会心 会效 破防)": {
+                "无修鞋·内·天_测试用#114860 (1280 精简 会心 无双)": {
                     "id": 114860,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10807,15 +10612,14 @@ EQUIPMENTS = {
                         "magical_shield_base": 26
                     },
                     "magic": {
-                        "vitality_base": 742,
-                        "magical_attack_power_base": 454,
-                        "all_critical_strike_base": 282,
-                        "all_critical_power_base": 117,
-                        "magical_overcome_base": 117
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 376,
+                        "strain_base": 751
                     },
                     "embed": {
-                        "magical_overcome_base": 225,
-                        "magical_attack_power_base": 225
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
@@ -10836,10 +10640,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 26
                     },
                     "magic": {
-                        "vitality_base": 742,
-                        "magical_attack_power_base": 157,
-                        "magical_overcome_base": 610,
-                        "strain_base": 301
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "magical_overcome_base": 376,
+                        "strain_base": 751
                     },
                     "embed": {
                         "magical_overcome_base": 225,
@@ -10850,7 +10654,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112791 (1280 精简)": {
+                "无修鞋·内·天_测试用#112791 (1280 精简 无双)": {
                     "id": 112791,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10863,14 +10667,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112790 (1280 精简)": {
+                "无修鞋·内·天_测试用#112790 (1280 精简 会心 无双)": {
                     "id": 112790,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10883,14 +10694,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112789 (1280 精简)": {
+                "无修鞋·内·天_测试用#112789 (1280 精简 破防 无双)": {
                     "id": 112789,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10903,14 +10722,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "magical_overcome_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112707 (1280 精简)": {
+                "无修鞋·内·天_测试用#112707 (1280 精简 无双)": {
                     "id": 112707,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10923,14 +10750,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112706 (1280 精简)": {
+                "无修鞋·内·天_测试用#112706 (1280 精简 会心 无双)": {
                     "id": 112706,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10943,14 +10777,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112705 (1280 精简)": {
+                "无修鞋·内·天_测试用#112705 (1280 精简 破防 无双)": {
                     "id": 112705,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10963,14 +10805,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "magical_overcome_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#114849 (1220 精简 会心 无双)": {
+                "无修鞋·内·天_测试用#114849 (1220 精简 会心 破防 无双)": {
                     "id": 114849,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -10984,21 +10834,22 @@ EQUIPMENTS = {
                         "magical_shield_base": 25
                     },
                     "magic": {
-                        "vitality_base": 705,
-                        "magical_attack_power_base": 149,
-                        "all_critical_strike_base": 582,
-                        "strain_base": 280
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 388,
+                        "all_critical_strike_base": 283,
+                        "magical_overcome_base": 283,
+                        "strain_base": 466
                     },
                     "embed": {
-                        "magical_attack_power_base": 225,
-                        "strain_base": 225
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#114848 (1220 精简 会心 会效 破防)": {
+                "无修鞋·内·天_测试用#114848 (1220 精简 会心 无双)": {
                     "id": 114848,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11012,15 +10863,14 @@ EQUIPMENTS = {
                         "magical_shield_base": 25
                     },
                     "magic": {
-                        "vitality_base": 705,
-                        "magical_attack_power_base": 433,
-                        "all_critical_strike_base": 269,
-                        "all_critical_power_base": 112,
-                        "magical_overcome_base": 112
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 448,
+                        "all_critical_strike_base": 448,
+                        "strain_base": 559
                     },
                     "embed": {
-                        "magical_overcome_base": 225,
-                        "magical_attack_power_base": 225
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
@@ -11041,10 +10891,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 25
                     },
                     "magic": {
-                        "vitality_base": 705,
-                        "magical_attack_power_base": 149,
-                        "magical_overcome_base": 582,
-                        "strain_base": 280
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 448,
+                        "magical_overcome_base": 448,
+                        "strain_base": 559
                     },
                     "embed": {
                         "magical_overcome_base": 225,
@@ -11055,7 +10905,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112779 (1220 精简)": {
+                "无修鞋·内·天_测试用#112779 (1220 精简 会心 破防 无双)": {
                     "id": 112779,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11068,14 +10918,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 20,
                         "magical_shield_base": 25
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 388,
+                        "all_critical_strike_base": 283,
+                        "magical_overcome_base": 283,
+                        "strain_base": 466
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112778 (1220 精简)": {
+                "无修鞋·内·天_测试用#112778 (1220 精简 会心 无双)": {
                     "id": 112778,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11088,14 +10947,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 20,
                         "magical_shield_base": 25
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 448,
+                        "all_critical_strike_base": 448,
+                        "strain_base": 559
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112777 (1220 精简)": {
+                "无修鞋·内·天_测试用#112777 (1220 精简 破防 无双)": {
                     "id": 112777,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11108,14 +10975,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 20,
                         "magical_shield_base": 25
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 448,
+                        "magical_overcome_base": 448,
+                        "strain_base": 559
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112695 (1220 精简)": {
+                "无修鞋·内·天_测试用#112695 (1220 精简 会心 破防 无双)": {
                     "id": 112695,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11128,14 +11003,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 20,
                         "magical_shield_base": 25
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 388,
+                        "all_critical_strike_base": 283,
+                        "magical_overcome_base": 283,
+                        "strain_base": 466
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112694 (1220 精简)": {
+                "无修鞋·内·天_测试用#112694 (1220 精简 会心 无双)": {
                     "id": 112694,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11148,14 +11032,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 20,
                         "magical_shield_base": 25
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 448,
+                        "all_critical_strike_base": 448,
+                        "strain_base": 559
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112693 (1220 精简)": {
+                "无修鞋·内·天_测试用#112693 (1220 精简 破防 无双)": {
                     "id": 112693,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11168,488 +11060,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 20,
                         "magical_shield_base": 25
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112767 (1160 精简)": {
-                    "id": 112767,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 19,
-                        "magical_shield_base": 24
+                    "magic": {
+                        "vitality_base": 449,
+                        "magical_attack_power_base": 448,
+                        "magical_overcome_base": 448,
+                        "strain_base": 559
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112766 (1160 精简)": {
-                    "id": 112766,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 19,
-                        "magical_shield_base": 24
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112765 (1160 精简)": {
-                    "id": 112765,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 19,
-                        "magical_shield_base": 24
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112683 (1160 精简)": {
-                    "id": 112683,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 19,
-                        "magical_shield_base": 24
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112682 (1160 精简)": {
-                    "id": 112682,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 19,
-                        "magical_shield_base": 24
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112681 (1160 精简)": {
-                    "id": 112681,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1160,
-                    "score": 71,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 19,
-                        "magical_shield_base": 24
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112755 (1100 精简)": {
-                    "id": 112755,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 18,
-                        "magical_shield_base": 23
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112754 (1100 精简)": {
-                    "id": 112754,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 18,
-                        "magical_shield_base": 23
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112753 (1100 精简)": {
-                    "id": 112753,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 18,
-                        "magical_shield_base": 23
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112671 (1100 精简)": {
-                    "id": 112671,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 18,
-                        "magical_shield_base": 23
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112670 (1100 精简)": {
-                    "id": 112670,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 18,
-                        "magical_shield_base": 23
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112669 (1100 精简)": {
-                    "id": 112669,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1100,
-                    "score": 68,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 18,
-                        "magical_shield_base": 23
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112743 (1040 精简)": {
-                    "id": 112743,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 17,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112742 (1040 精简)": {
-                    "id": 112742,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 17,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112741 (1040 精简)": {
-                    "id": 112741,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 17,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112659 (1040 精简)": {
-                    "id": 112659,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 17,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112658 (1040 精简)": {
-                    "id": 112658,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 17,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112657 (1040 精简)": {
-                    "id": 112657,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 1040,
-                    "score": 64,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 17,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112731 (980 精简)": {
-                    "id": 112731,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 16,
-                        "magical_shield_base": 20
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112730 (980 精简)": {
-                    "id": 112730,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 16,
-                        "magical_shield_base": 20
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112729 (980 精简)": {
-                    "id": 112729,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 16,
-                        "magical_shield_base": 20
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112647 (980 精简)": {
-                    "id": 112647,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 16,
-                        "magical_shield_base": 20
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112646 (980 精简)": {
-                    "id": 112646,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 16,
-                        "magical_shield_base": 20
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修鞋·内·天_测试用#112645 (980 精简)": {
-                    "id": 112645,
-                    "name": "无修鞋·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "shoes",
-                    "level": 980,
-                    "score": 60,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 16,
-                        "magical_shield_base": 20
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -17712,147 +17132,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "转星河_测试用#112533 (1280 精简)": {
-                    "id": 112533,
-                    "name": "转星河_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "归江湖_测试用#112532 (1280 精简)": {
-                    "id": 112532,
-                    "name": "归江湖_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "远近游_测试用#112531 (1280 精简)": {
-                    "id": 112531,
-                    "name": "远近游_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "一剑边城_测试用#112530 (1280 精简)": {
-                    "id": 112530,
-                    "name": "一剑边城_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "浮沉客_测试用#112529 (1280 精简)": {
-                    "id": 112529,
-                    "name": "浮沉客_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "明月归人_测试用#112528 (1280 精简)": {
-                    "id": 112528,
-                    "name": "明月归人_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "风入城_测试用#112527 (1280 精简)": {
-                    "id": 112527,
-                    "name": "风入城_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "识狂裤·迅_测试用#112526 (1280 精简)": {
+                "识狂裤·迅_测试用#112526 (1280 精简 加速)": {
                     "id": 112526,
                     "name": "识狂裤·迅_测试用",
                     "school": "精简",
@@ -17865,8 +17145,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 47,
                         "magical_shield_base": 38
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "physical_attack_power_base": 850,
+                        "haste_base": 816
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225,
+                        "physical_overcome_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -17912,7 +17199,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "风歇裤·觉_测试用#112523 (1280 精简)": {
+                "风歇裤·觉_测试用#112523 (1280 精简 会心 破防 无双)": {
                     "id": 112523,
                     "name": "风歇裤·觉_测试用",
                     "school": "精简",
@@ -17925,8 +17212,17 @@ EQUIPMENTS = {
                         "physical_shield_base": 47,
                         "magical_shield_base": 38
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "physical_attack_power_base": 581,
+                        "physical_critical_strike_base": 425,
+                        "physical_overcome_base": 425,
+                        "strain_base": 715
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -17952,7 +17248,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "破霭裤·破_测试用#112521 (1280 精简)": {
+                "破霭裤·破_测试用#112521 (1280 精简 破防 无双)": {
                     "id": 112521,
                     "name": "破霭裤·破_测试用",
                     "school": "精简",
@@ -17965,14 +17261,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 47,
                         "magical_shield_base": 38
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "physical_attack_power_base": 671,
+                        "physical_overcome_base": 537,
+                        "strain_base": 1073
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "分霄裤·悟_测试用#112520 (1280 精简)": {
+                "分霄裤·悟_测试用#112520 (1280 精简 会心 无双)": {
                     "id": 112520,
                     "name": "分霄裤·悟_测试用",
                     "school": "精简",
@@ -17985,14 +17289,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 47,
                         "magical_shield_base": 38
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "physical_attack_power_base": 671,
+                        "physical_critical_strike_base": 537,
+                        "strain_base": 1073
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "休莫裤·尊_测试用#112519 (1280 精简)": {
+                "休莫裤·尊_测试用#112519 (1280 精简 无双)": {
                     "id": 112519,
                     "name": "休莫裤·尊_测试用",
                     "school": "精简",
@@ -18005,8 +17317,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 47,
                         "magical_shield_base": 38
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "physical_attack_power_base": 805,
+                        "strain_base": 1646
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -18014,147 +17333,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "凭危楼_测试用#112518 (1280 精简)": {
-                    "id": 112518,
-                    "name": "凭危楼_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "辞红尘_测试用#112517 (1280 精简)": {
-                    "id": 112517,
-                    "name": "辞红尘_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "醉醒间_测试用#112516 (1280 精简)": {
-                    "id": 112516,
-                    "name": "醉醒间_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "一醉天涯_测试用#112515 (1280 精简)": {
-                    "id": 112515,
-                    "name": "一醉天涯_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "空林鸟_测试用#112514 (1280 精简)": {
-                    "id": 112514,
-                    "name": "空林鸟_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "山色秋分_测试用#112513 (1280 精简)": {
-                    "id": 112513,
-                    "name": "山色秋分_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "秋映月_测试用#112512 (1280 精简)": {
-                    "id": 112512,
-                    "name": "秋映月_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "话情裤·迅_测试用#112511 (1280 精简)": {
+                "话情裤·迅_测试用#112511 (1280 精简 加速)": {
                     "id": 112511,
                     "name": "话情裤·迅_测试用",
                     "school": "精简",
@@ -18167,8 +17346,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "magical_attack_power_base": 850,
+                        "haste_base": 816
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -18214,7 +17400,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "芳生裤·觉_测试用#112508 (1280 精简)": {
+                "芳生裤·觉_测试用#112508 (1280 精简 会心 破防 无双)": {
                     "id": 112508,
                     "name": "芳生裤·觉_测试用",
                     "school": "精简",
@@ -18227,8 +17413,17 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "magical_attack_power_base": 581,
+                        "all_critical_strike_base": 425,
+                        "magical_overcome_base": 425,
+                        "strain_base": 715
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -18254,7 +17449,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无愁裤·破_测试用#112506 (1280 精简)": {
+                "无愁裤·破_测试用#112506 (1280 精简 破防 无双)": {
                     "id": 112506,
                     "name": "无愁裤·破_测试用",
                     "school": "精简",
@@ -18267,14 +17462,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "magical_attack_power_base": 671,
+                        "magical_overcome_base": 537,
+                        "strain_base": 1073
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "皎然裤·悟_测试用#112505 (1280 精简)": {
+                "皎然裤·悟_测试用#112505 (1280 精简 会心 无双)": {
                     "id": 112505,
                     "name": "皎然裤·悟_测试用",
                     "school": "精简",
@@ -18287,14 +17490,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "magical_attack_power_base": 671,
+                        "all_critical_strike_base": 537,
+                        "strain_base": 1073
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "蕴元裤·尊_测试用#112504 (1280 精简)": {
+                "蕴元裤·尊_测试用#112504 (1280 精简 无双)": {
                     "id": 112504,
                     "name": "蕴元裤·尊_测试用",
                     "school": "精简",
@@ -18307,8 +17518,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "magical_attack_power_base": 805,
+                        "strain_base": 1646
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -21539,7 +20757,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "尽苍茫_测试用#112473 (1280 精简)": {
+                "尽苍茫_测试用#112473 (1280 精简 加速 无双)": {
                     "id": 112473,
                     "name": "尽苍茫_测试用",
                     "school": "精简",
@@ -21552,14 +20770,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "锁千秋_测试用#112472 (1280 精简)": {
+                "锁千秋_测试用#112472 (1280 精简 会心 破防 无双)": {
                     "id": 112472,
                     "name": "锁千秋_测试用",
                     "school": "精简",
@@ -21572,14 +20798,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 438,
+                        "physical_critical_strike_base": 188,
+                        "physical_overcome_base": 188,
+                        "strain_base": 301
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "世外身_测试用#112471 (1280 精简)": {
+                "世外身_测试用#112471 (1280 精简 破防)": {
                     "id": 112471,
                     "name": "世外身_测试用",
                     "school": "精简",
@@ -21592,14 +20827,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 438,
+                        "physical_overcome_base": 438
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "凌月游_测试用#112470 (1280 精简)": {
+                "凌月游_测试用#112470 (1280 精简 破防 无双)": {
                     "id": 112470,
                     "name": "凌月游_测试用",
                     "school": "精简",
@@ -21612,14 +20854,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 250,
+                        "physical_overcome_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "碧落谣_测试用#112469 (1280 精简)": {
+                "碧落谣_测试用#112469 (1280 精简 会心 无双)": {
                     "id": 112469,
                     "name": "碧落谣_测试用",
                     "school": "精简",
@@ -21632,14 +20882,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 250,
+                        "physical_critical_strike_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "孤寒劲_测试用#112468 (1280 精简)": {
+                "孤寒劲_测试用#112468 (1280 精简 会心)": {
                     "id": 112468,
                     "name": "孤寒劲_测试用",
                     "school": "精简",
@@ -21652,14 +20910,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 438,
+                        "physical_critical_strike_base": 438
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "贯日虹_测试用#112467 (1280 精简)": {
+                "贯日虹_测试用#112467 (1280 精简 会心 会效 无双)": {
                     "id": 112467,
                     "name": "贯日虹_测试用",
                     "school": "精简",
@@ -21672,14 +20937,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 172,
+                        "physical_critical_power_base": 157,
+                        "strain_base": 551
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "映霭护腰·迅_测试用#112466 (1280 精简)": {
+                "映霭护腰·迅_测试用#112466 (1280 精简 加速 无双)": {
                     "id": 112466,
                     "name": "映霭护腰·迅_测试用",
                     "school": "精简",
@@ -21692,8 +20966,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -21739,7 +21021,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "沧陵护腰·觉_测试用#112463 (1280 精简)": {
+                "沧陵护腰·觉_测试用#112463 (1280 精简 会心 破防 无双)": {
                     "id": 112463,
                     "name": "沧陵护腰·觉_测试用",
                     "school": "精简",
@@ -21752,8 +21034,17 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 407,
+                        "physical_critical_strike_base": 297,
+                        "physical_overcome_base": 297,
+                        "strain_base": 501
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -21779,7 +21070,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "岷峨护腰·破_测试用#112461 (1280 精简)": {
+                "岷峨护腰·破_测试用#112461 (1280 精简 破防 无双)": {
                     "id": 112461,
                     "name": "岷峨护腰·破_测试用",
                     "school": "精简",
@@ -21792,14 +21083,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_overcome_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "瞿如护腰·悟_测试用#112460 (1280 精简)": {
+                "瞿如护腰·悟_测试用#112460 (1280 精简 会心 无双)": {
                     "id": 112460,
                     "name": "瞿如护腰·悟_测试用",
                     "school": "精简",
@@ -21812,14 +21111,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 470,
+                        "physical_critical_strike_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "棨戟护腰·尊_测试用#112459 (1280 精简)": {
+                "棨戟护腰·尊_测试用#112459 (1280 精简 无双)": {
                     "id": 112459,
                     "name": "棨戟护腰·尊_测试用",
                     "school": "精简",
@@ -21832,8 +21139,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 26,
                         "magical_shield_base": 21
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "physical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -21841,7 +21155,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "凌顶观_测试用#112458 (1280 精简)": {
+                "凌顶观_测试用#112458 (1280 精简 加速 无双)": {
                     "id": 112458,
                     "name": "凌顶观_测试用",
                     "school": "精简",
@@ -21854,14 +21168,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "覆乾坤_测试用#112457 (1280 精简)": {
+                "覆乾坤_测试用#112457 (1280 精简 会心 破防 无双)": {
                     "id": 112457,
                     "name": "覆乾坤_测试用",
                     "school": "精简",
@@ -21874,14 +21196,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 438,
+                        "all_critical_strike_base": 188,
+                        "magical_overcome_base": 188,
+                        "strain_base": 301
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "烟霞客_测试用#112456 (1280 精简)": {
+                "烟霞客_测试用#112456 (1280 精简 破防)": {
                     "id": 112456,
                     "name": "烟霞客_测试用",
                     "school": "精简",
@@ -21894,14 +21225,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 438,
+                        "magical_overcome_base": 438
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "连九霄_测试用#112455 (1280 精简)": {
+                "连九霄_测试用#112455 (1280 精简 破防 无双)": {
                     "id": 112455,
                     "name": "连九霄_测试用",
                     "school": "精简",
@@ -21914,14 +21252,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 250,
+                        "magical_overcome_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "苍茫渡_测试用#112454 (1280 精简)": {
+                "苍茫渡_测试用#112454 (1280 精简 会心 无双)": {
                     "id": 112454,
                     "name": "苍茫渡_测试用",
                     "school": "精简",
@@ -21934,14 +21280,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 250,
+                        "all_critical_strike_base": 516,
+                        "strain_base": 651
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "素影寒_测试用#112453 (1280 精简)": {
+                "素影寒_测试用#112453 (1280 精简 会心)": {
                     "id": 112453,
                     "name": "素影寒_测试用",
                     "school": "精简",
@@ -21954,14 +21308,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 438,
+                        "all_critical_strike_base": 438
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "霜锋引_测试用#112452 (1280 精简)": {
+                "霜锋引_测试用#112452 (1280 精简 会心 会效 无双)": {
                     "id": 112452,
                     "name": "霜锋引_测试用",
                     "school": "精简",
@@ -21974,14 +21335,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 172,
+                        "all_critical_power_base": 157,
+                        "strain_base": 551
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "钦原护腰·迅_测试用#112451 (1280 精简)": {
+                "钦原护腰·迅_测试用#112451 (1280 精简 加速 无双)": {
                     "id": 112451,
                     "name": "钦原护腰·迅_测试用",
                     "school": "精简",
@@ -21994,8 +21364,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "haste_base": 423,
+                        "strain_base": 626
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -22041,7 +21419,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "长右护腰·觉_测试用#112448 (1280 精简)": {
+                "长右护腰·觉_测试用#112448 (1280 精简 会心 破防 无双)": {
                     "id": 112448,
                     "name": "长右护腰·觉_测试用",
                     "school": "精简",
@@ -22054,8 +21432,17 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 407,
+                        "all_critical_strike_base": 297,
+                        "magical_overcome_base": 297,
+                        "strain_base": 501
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -22081,7 +21468,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "蛊雕护腰·破_测试用#112446 (1280 精简)": {
+                "蛊雕护腰·破_测试用#112446 (1280 精简 破防 无双)": {
                     "id": 112446,
                     "name": "蛊雕护腰·破_测试用",
                     "school": "精简",
@@ -22094,14 +21481,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "magical_overcome_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "鹤芝护腰·悟_测试用#112445 (1280 精简)": {
+                "鹤芝护腰·悟_测试用#112445 (1280 精简 会心 无双)": {
                     "id": 112445,
                     "name": "鹤芝护腰·悟_测试用",
                     "school": "精简",
@@ -22114,14 +21509,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 470,
+                        "all_critical_strike_base": 376,
+                        "strain_base": 751
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "清岳护腰·尊_测试用#112444 (1280 精简)": {
+                "清岳护腰·尊_测试用#112444 (1280 精简 无双)": {
                     "id": 112444,
                     "name": "清岳护腰·尊_测试用",
                     "school": "精简",
@@ -22134,8 +21537,15 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "magical_attack_power_base": 563,
+                        "strain_base": 1152
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -28204,7 +27614,7 @@ EQUIPMENTS = {
         },
         "精简": {
             "外功": {
-                "无修冠·外·天_测试用#114858 (1280 精简 破防 无双)": {
+                "无修冠·外·天_测试用#114858 (1280 精简 会心 破防 无双)": {
                     "id": 114858,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28218,21 +27628,22 @@ EQUIPMENTS = {
                         "magical_shield_base": 34
                     },
                     "magic": {
-                        "vitality_base": 955,
-                        "physical_attack_power_base": 201,
-                        "physical_overcome_base": 805,
-                        "strain_base": 386
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 523,
+                        "physical_critical_strike_base": 382,
+                        "physical_overcome_base": 382,
+                        "strain_base": 644
                     },
                     "embed": {
-                        "physical_overcome_base": 225,
-                        "strain_base": 225
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#114857 (1280 精简 会心 会效 无双)": {
+                "无修冠·外·天_测试用#114857 (1280 精简 会心 无双)": {
                     "id": 114857,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28246,14 +27657,13 @@ EQUIPMENTS = {
                         "magical_shield_base": 34
                     },
                     "magic": {
-                        "vitality_base": 955,
-                        "physical_attack_power_base": 584,
-                        "physical_critical_strike_base": 362,
-                        "physical_critical_power_base": 151,
-                        "strain_base": 241
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 604,
+                        "physical_critical_strike_base": 604,
+                        "strain_base": 773
                     },
                     "embed": {
-                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -28275,10 +27685,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 34
                     },
                     "magic": {
-                        "vitality_base": 955,
-                        "physical_attack_power_base": 201,
-                        "physical_overcome_base": 785,
-                        "strain_base": 386
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 604,
+                        "physical_overcome_base": 604,
+                        "strain_base": 773
                     },
                     "embed": {
                         "physical_overcome_base": 225,
@@ -28289,7 +27699,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112788 (1280 精简)": {
+                "无修冠·外·天_测试用#112788 (1280 精简 会心 破防 无双)": {
                     "id": 112788,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28302,14 +27712,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 42,
                         "magical_shield_base": 34
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 523,
+                        "physical_critical_strike_base": 382,
+                        "physical_overcome_base": 382,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112787 (1280 精简)": {
+                "无修冠·外·天_测试用#112787 (1280 精简 会心 无双)": {
                     "id": 112787,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28322,14 +27741,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 42,
                         "magical_shield_base": 34
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 604,
+                        "physical_critical_strike_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112786 (1280 精简)": {
+                "无修冠·外·天_测试用#112786 (1280 精简 破防 无双)": {
                     "id": 112786,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28342,14 +27769,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 42,
                         "magical_shield_base": 34
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 604,
+                        "physical_overcome_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112704 (1280 精简)": {
+                "无修冠·外·天_测试用#112704 (1280 精简 会心 破防 无双)": {
                     "id": 112704,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28362,14 +27797,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 42,
                         "magical_shield_base": 34
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 523,
+                        "physical_critical_strike_base": 382,
+                        "physical_overcome_base": 382,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112703 (1280 精简)": {
+                "无修冠·外·天_测试用#112703 (1280 精简 会心 无双)": {
                     "id": 112703,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28382,14 +27826,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 42,
                         "magical_shield_base": 34
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 604,
+                        "physical_critical_strike_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112702 (1280 精简)": {
+                "无修冠·外·天_测试用#112702 (1280 精简 破防 无双)": {
                     "id": 112702,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28402,14 +27854,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 42,
                         "magical_shield_base": 34
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "physical_attack_power_base": 604,
+                        "physical_overcome_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#114846 (1220 精简 破防 无双)": {
+                "无修冠·外·天_测试用#114846 (1220 精简 无双)": {
                     "id": 114846,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28423,10 +27883,9 @@ EQUIPMENTS = {
                         "magical_shield_base": 32
                     },
                     "magic": {
-                        "vitality_base": 906,
-                        "physical_attack_power_base": 192,
-                        "physical_overcome_base": 767,
-                        "strain_base": 360
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 690,
+                        "strain_base": 1378
                     },
                     "embed": {
                         "physical_overcome_base": 225,
@@ -28437,7 +27896,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#114845 (1220 精简 会心 会效 无双)": {
+                "无修冠·外·天_测试用#114845 (1220 精简 会心 无双)": {
                     "id": 114845,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28451,14 +27910,13 @@ EQUIPMENTS = {
                         "magical_shield_base": 32
                     },
                     "magic": {
-                        "vitality_base": 906,
-                        "physical_attack_power_base": 556,
-                        "physical_critical_strike_base": 345,
-                        "physical_critical_power_base": 144,
-                        "strain_base": 225
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 575,
+                        "physical_critical_strike_base": 460,
+                        "strain_base": 899
                     },
                     "embed": {
-                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -28480,10 +27938,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 32
                     },
                     "magic": {
-                        "vitality_base": 906,
-                        "physical_attack_power_base": 192,
-                        "physical_overcome_base": 748,
-                        "strain_base": 360
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 575,
+                        "physical_overcome_base": 460,
+                        "strain_base": 899
                     },
                     "embed": {
                         "physical_overcome_base": 225,
@@ -28494,7 +27952,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112776 (1220 精简)": {
+                "无修冠·外·天_测试用#112776 (1220 精简 无双)": {
                     "id": 112776,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28507,14 +27965,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 40,
                         "magical_shield_base": 32
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 690,
+                        "strain_base": 1378
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112775 (1220 精简)": {
+                "无修冠·外·天_测试用#112775 (1220 精简 会心 无双)": {
                     "id": 112775,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28527,14 +27992,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 40,
                         "magical_shield_base": 32
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 575,
+                        "physical_critical_strike_base": 460,
+                        "strain_base": 899
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112774 (1220 精简)": {
+                "无修冠·外·天_测试用#112774 (1220 精简 破防 无双)": {
                     "id": 112774,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28547,14 +28020,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 40,
                         "magical_shield_base": 32
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 575,
+                        "physical_overcome_base": 460,
+                        "strain_base": 899
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112692 (1220 精简)": {
+                "无修冠·外·天_测试用#112692 (1220 精简 无双)": {
                     "id": 112692,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28567,14 +28048,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 40,
                         "magical_shield_base": 32
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 690,
+                        "strain_base": 1378
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112691 (1220 精简)": {
+                "无修冠·外·天_测试用#112691 (1220 精简 会心 无双)": {
                     "id": 112691,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28587,14 +28075,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 40,
                         "magical_shield_base": 32
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 575,
+                        "physical_critical_strike_base": 460,
+                        "strain_base": 899
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112690 (1220 精简)": {
+                "无修冠·外·天_测试用#112690 (1220 精简 破防 无双)": {
                     "id": 112690,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28607,488 +28103,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 40,
                         "magical_shield_base": 32
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112764 (1160 精简)": {
-                    "id": 112764,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 30
+                    "magic": {
+                        "vitality_base": 577,
+                        "physical_attack_power_base": 575,
+                        "physical_overcome_base": 460,
+                        "strain_base": 899
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112763 (1160 精简)": {
-                    "id": 112763,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 30
+                    "embed": {
+                        "physical_overcome_base": 225,
+                        "physical_attack_power_base": 225
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112762 (1160 精简)": {
-                    "id": 112762,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 30
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112680 (1160 精简)": {
-                    "id": 112680,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 30
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112679 (1160 精简)": {
-                    "id": 112679,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 30
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112678 (1160 精简)": {
-                    "id": 112678,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 30
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112752 (1100 精简)": {
-                    "id": 112752,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 36,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112751 (1100 精简)": {
-                    "id": 112751,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 36,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112750 (1100 精简)": {
-                    "id": 112750,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 36,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112668 (1100 精简)": {
-                    "id": 112668,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 36,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112667 (1100 精简)": {
-                    "id": 112667,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 36,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112666 (1100 精简)": {
-                    "id": 112666,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 36,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112740 (1040 精简)": {
-                    "id": 112740,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 34,
-                        "magical_shield_base": 27
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112739 (1040 精简)": {
-                    "id": 112739,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 34,
-                        "magical_shield_base": 27
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112738 (1040 精简)": {
-                    "id": 112738,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 34,
-                        "magical_shield_base": 27
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112656 (1040 精简)": {
-                    "id": 112656,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 34,
-                        "magical_shield_base": 27
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112655 (1040 精简)": {
-                    "id": 112655,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 34,
-                        "magical_shield_base": 27
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112654 (1040 精简)": {
-                    "id": 112654,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 34,
-                        "magical_shield_base": 27
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112728 (980 精简)": {
-                    "id": 112728,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 32,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112727 (980 精简)": {
-                    "id": 112727,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 32,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112726 (980 精简)": {
-                    "id": 112726,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 32,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112644 (980 精简)": {
-                    "id": 112644,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 32,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112643 (980 精简)": {
-                    "id": 112643,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 32,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·外·天_测试用#112642 (980 精简)": {
-                    "id": 112642,
-                    "name": "无修冠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 32,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -29096,7 +28120,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "无修冠·内·天_测试用#114855 (1280 精简 破防 无双)": {
+                "无修冠·内·天_测试用#114855 (1280 精简 会心 破防 无双)": {
                     "id": 114855,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29110,21 +28134,22 @@ EQUIPMENTS = {
                         "magical_shield_base": 42
                     },
                     "magic": {
-                        "vitality_base": 955,
-                        "magical_attack_power_base": 201,
-                        "magical_overcome_base": 805,
-                        "strain_base": 386
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 523,
+                        "all_critical_strike_base": 382,
+                        "magical_overcome_base": 382,
+                        "strain_base": 644
                     },
                     "embed": {
-                        "magical_overcome_base": 225,
-                        "strain_base": 225
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#114854 (1280 精简 会心 会效 无双)": {
+                "无修冠·内·天_测试用#114854 (1280 精简 会心 无双)": {
                     "id": 114854,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29138,14 +28163,13 @@ EQUIPMENTS = {
                         "magical_shield_base": 42
                     },
                     "magic": {
-                        "vitality_base": 955,
-                        "magical_attack_power_base": 584,
-                        "all_critical_strike_base": 362,
-                        "all_critical_power_base": 151,
-                        "strain_base": 241
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 604,
+                        "all_critical_strike_base": 604,
+                        "strain_base": 773
                     },
                     "embed": {
-                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -29167,10 +28191,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 42
                     },
                     "magic": {
-                        "vitality_base": 955,
-                        "magical_attack_power_base": 201,
-                        "magical_overcome_base": 785,
-                        "strain_base": 386
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 604,
+                        "magical_overcome_base": 604,
+                        "strain_base": 773
                     },
                     "embed": {
                         "magical_overcome_base": 225,
@@ -29181,7 +28205,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112785 (1280 精简)": {
+                "无修冠·内·天_测试用#112785 (1280 精简 会心 破防 无双)": {
                     "id": 112785,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29194,14 +28218,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 34,
                         "magical_shield_base": 42
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 523,
+                        "all_critical_strike_base": 382,
+                        "magical_overcome_base": 382,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112784 (1280 精简)": {
+                "无修冠·内·天_测试用#112784 (1280 精简 会心 无双)": {
                     "id": 112784,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29214,14 +28247,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 34,
                         "magical_shield_base": 42
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 604,
+                        "all_critical_strike_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112783 (1280 精简)": {
+                "无修冠·内·天_测试用#112783 (1280 精简 破防 无双)": {
                     "id": 112783,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29234,14 +28275,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 34,
                         "magical_shield_base": 42
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 604,
+                        "magical_overcome_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112701 (1280 精简)": {
+                "无修冠·内·天_测试用#112701 (1280 精简 会心 破防 无双)": {
                     "id": 112701,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29254,14 +28303,23 @@ EQUIPMENTS = {
                         "physical_shield_base": 34,
                         "magical_shield_base": 42
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 523,
+                        "all_critical_strike_base": 382,
+                        "magical_overcome_base": 382,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112700 (1280 精简)": {
+                "无修冠·内·天_测试用#112700 (1280 精简 会心 无双)": {
                     "id": 112700,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29274,14 +28332,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 34,
                         "magical_shield_base": 42
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 604,
+                        "all_critical_strike_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112699 (1280 精简)": {
+                "无修冠·内·天_测试用#112699 (1280 精简 破防 无双)": {
                     "id": 112699,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29294,14 +28360,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 34,
                         "magical_shield_base": 42
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 607,
+                        "magical_attack_power_base": 604,
+                        "magical_overcome_base": 604,
+                        "strain_base": 773
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#114843 (1220 精简 破防 无双)": {
+                "无修冠·内·天_测试用#114843 (1220 精简 无双)": {
                     "id": 114843,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29315,13 +28389,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 40
                     },
                     "magic": {
-                        "vitality_base": 906,
-                        "magical_attack_power_base": 192,
-                        "magical_overcome_base": 767,
-                        "strain_base": 360
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 690,
+                        "strain_base": 1378
                     },
                     "embed": {
-                        "magical_overcome_base": 225,
+                        "all_critical_strike_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -29329,7 +28402,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#114842 (1220 精简 会心 会效 无双)": {
+                "无修冠·内·天_测试用#114842 (1220 精简 会心 无双)": {
                     "id": 114842,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29343,14 +28416,13 @@ EQUIPMENTS = {
                         "magical_shield_base": 40
                     },
                     "magic": {
-                        "vitality_base": 906,
-                        "magical_attack_power_base": 556,
-                        "all_critical_strike_base": 345,
-                        "all_critical_power_base": 144,
-                        "strain_base": 225
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 575,
+                        "all_critical_strike_base": 460,
+                        "strain_base": 899
                     },
                     "embed": {
-                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -29372,10 +28444,10 @@ EQUIPMENTS = {
                         "magical_shield_base": 40
                     },
                     "magic": {
-                        "vitality_base": 906,
-                        "magical_attack_power_base": 192,
-                        "magical_overcome_base": 748,
-                        "strain_base": 360
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 575,
+                        "magical_overcome_base": 460,
+                        "strain_base": 899
                     },
                     "embed": {
                         "magical_overcome_base": 225,
@@ -29386,7 +28458,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112773 (1220 精简)": {
+                "无修冠·内·天_测试用#112773 (1220 精简 无双)": {
                     "id": 112773,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29399,14 +28471,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 32,
                         "magical_shield_base": 40
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 690,
+                        "strain_base": 1378
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112772 (1220 精简)": {
+                "无修冠·内·天_测试用#112772 (1220 精简 会心 无双)": {
                     "id": 112772,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29419,14 +28498,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 32,
                         "magical_shield_base": 40
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 575,
+                        "all_critical_strike_base": 460,
+                        "strain_base": 899
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112771 (1220 精简)": {
+                "无修冠·内·天_测试用#112771 (1220 精简 破防 无双)": {
                     "id": 112771,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29439,14 +28526,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 32,
                         "magical_shield_base": 40
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 575,
+                        "magical_overcome_base": 460,
+                        "strain_base": 899
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112689 (1220 精简)": {
+                "无修冠·内·天_测试用#112689 (1220 精简 无双)": {
                     "id": 112689,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29459,14 +28554,21 @@ EQUIPMENTS = {
                         "physical_shield_base": 32,
                         "magical_shield_base": 40
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 690,
+                        "strain_base": 1378
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112688 (1220 精简)": {
+                "无修冠·内·天_测试用#112688 (1220 精简 会心 无双)": {
                     "id": 112688,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29479,14 +28581,22 @@ EQUIPMENTS = {
                         "physical_shield_base": 32,
                         "magical_shield_base": 40
                     },
-                    "magic": {},
-                    "embed": {},
+                    "magic": {
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 575,
+                        "all_critical_strike_base": 460,
+                        "strain_base": 899
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225,
+                        "strain_base": 225
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112687 (1220 精简)": {
+                "无修冠·内·天_测试用#112687 (1220 精简 破防 无双)": {
                     "id": 112687,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29499,488 +28609,16 @@ EQUIPMENTS = {
                         "physical_shield_base": 32,
                         "magical_shield_base": 40
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112761 (1160 精简)": {
-                    "id": 112761,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 30,
-                        "magical_shield_base": 38
+                    "magic": {
+                        "vitality_base": 577,
+                        "magical_attack_power_base": 575,
+                        "magical_overcome_base": 460,
+                        "strain_base": 899
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112760 (1160 精简)": {
-                    "id": 112760,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 30,
-                        "magical_shield_base": 38
+                    "embed": {
+                        "magical_overcome_base": 225,
+                        "magical_attack_power_base": 225
                     },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112759 (1160 精简)": {
-                    "id": 112759,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 30,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112677 (1160 精简)": {
-                    "id": 112677,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 30,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112676 (1160 精简)": {
-                    "id": 112676,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 30,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112675 (1160 精简)": {
-                    "id": 112675,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1160,
-                    "score": 92,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 30,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112749 (1100 精简)": {
-                    "id": 112749,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 36
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112748 (1100 精简)": {
-                    "id": 112748,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 36
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112747 (1100 精简)": {
-                    "id": 112747,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 36
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112665 (1100 精简)": {
-                    "id": 112665,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 36
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112664 (1100 精简)": {
-                    "id": 112664,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 36
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112663 (1100 精简)": {
-                    "id": 112663,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1100,
-                    "score": 87,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 36
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112737 (1040 精简)": {
-                    "id": 112737,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 27,
-                        "magical_shield_base": 34
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112736 (1040 精简)": {
-                    "id": 112736,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 27,
-                        "magical_shield_base": 34
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112735 (1040 精简)": {
-                    "id": 112735,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 27,
-                        "magical_shield_base": 34
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112653 (1040 精简)": {
-                    "id": 112653,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 27,
-                        "magical_shield_base": 34
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112652 (1040 精简)": {
-                    "id": 112652,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 27,
-                        "magical_shield_base": 34
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112651 (1040 精简)": {
-                    "id": 112651,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 1040,
-                    "score": 82,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 27,
-                        "magical_shield_base": 34
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112725 (980 精简)": {
-                    "id": 112725,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 32
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112724 (980 精简)": {
-                    "id": 112724,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 32
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112723 (980 精简)": {
-                    "id": 112723,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 32
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112641 (980 精简)": {
-                    "id": 112641,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 32
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112640 (980 精简)": {
-                    "id": 112640,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 32
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修冠·内·天_测试用#112639 (980 精简)": {
-                    "id": 112639,
-                    "name": "无修冠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "hat",
-                    "level": 980,
-                    "score": 77,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 32
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -41572,1536 +40210,6 @@ EQUIPMENTS = {
                     "gains": []
                 }
             }
-        },
-        "精简": {
-            "外功": {
-                "无修坠·外·天_测试用#51406 (1280 精简 会心 破防 无双)": {
-                    "id": 51406,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 530,
-                        "physical_attack_power_base": 263,
-                        "physical_critical_strike_base": 112,
-                        "physical_overcome_base": 224,
-                        "strain_base": 179
-                    },
-                    "embed": {
-                        "physical_critical_strike_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#51405 (1280 精简 会心 会效 破防)": {
-                    "id": 51405,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 530,
-                        "physical_attack_power_base": 324,
-                        "physical_critical_strike_base": 201,
-                        "physical_critical_power_base": 84,
-                        "physical_overcome_base": 84
-                    },
-                    "embed": {
-                        "physical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#51404 (1280 精简 会心 会效 无双)": {
-                    "id": 51404,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 530,
-                        "physical_attack_power_base": 324,
-                        "physical_critical_strike_base": 201,
-                        "physical_critical_power_base": 84,
-                        "strain_base": 134
-                    },
-                    "embed": {
-                        "physical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50102 (1280 精简)": {
-                    "id": 50102,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50101 (1280 精简)": {
-                    "id": 50101,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50100 (1280 精简)": {
-                    "id": 50100,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50060 (1280 精简)": {
-                    "id": 50060,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50059 (1280 精简)": {
-                    "id": 50059,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50058 (1280 精简)": {
-                    "id": 50058,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#51400 (1220 精简 会心 破防 无双)": {
-                    "id": 51400,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 504,
-                        "physical_attack_power_base": 250,
-                        "physical_critical_strike_base": 107,
-                        "physical_overcome_base": 213,
-                        "strain_base": 166
-                    },
-                    "embed": {
-                        "physical_critical_strike_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#51399 (1220 精简 会心 会效 破防)": {
-                    "id": 51399,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 504,
-                        "physical_attack_power_base": 309,
-                        "physical_critical_strike_base": 192,
-                        "physical_critical_power_base": 80,
-                        "physical_overcome_base": 80
-                    },
-                    "embed": {
-                        "physical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#51398 (1220 精简 会心 会效 无双)": {
-                    "id": 51398,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 504,
-                        "physical_attack_power_base": 309,
-                        "physical_critical_strike_base": 192,
-                        "physical_critical_power_base": 80,
-                        "strain_base": 125
-                    },
-                    "embed": {
-                        "physical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50096 (1220 精简)": {
-                    "id": 50096,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50095 (1220 精简)": {
-                    "id": 50095,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50094 (1220 精简)": {
-                    "id": 50094,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50054 (1220 精简)": {
-                    "id": 50054,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50053 (1220 精简)": {
-                    "id": 50053,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50052 (1220 精简)": {
-                    "id": 50052,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50090 (1160 精简)": {
-                    "id": 50090,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50089 (1160 精简)": {
-                    "id": 50089,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50088 (1160 精简)": {
-                    "id": 50088,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50048 (1160 精简)": {
-                    "id": 50048,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50047 (1160 精简)": {
-                    "id": 50047,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50046 (1160 精简)": {
-                    "id": 50046,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50084 (1100 精简)": {
-                    "id": 50084,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50083 (1100 精简)": {
-                    "id": 50083,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50082 (1100 精简)": {
-                    "id": 50082,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50042 (1100 精简)": {
-                    "id": 50042,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50041 (1100 精简)": {
-                    "id": 50041,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50040 (1100 精简)": {
-                    "id": 50040,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50078 (1040 精简)": {
-                    "id": 50078,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50077 (1040 精简)": {
-                    "id": 50077,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50076 (1040 精简)": {
-                    "id": 50076,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50036 (1040 精简)": {
-                    "id": 50036,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50035 (1040 精简)": {
-                    "id": 50035,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50034 (1040 精简)": {
-                    "id": 50034,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50072 (980 精简)": {
-                    "id": 50072,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50071 (980 精简)": {
-                    "id": 50071,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50070 (980 精简)": {
-                    "id": 50070,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50030 (980 精简)": {
-                    "id": 50030,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50029 (980 精简)": {
-                    "id": 50029,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·外·天_测试用#50028 (980 精简)": {
-                    "id": 50028,
-                    "name": "无修坠·外·天_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                }
-            },
-            "内功": {
-                "无修坠·内·天_测试用#51403 (1280 精简 会心 破防 无双)": {
-                    "id": 51403,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 530,
-                        "magical_attack_power_base": 263,
-                        "all_critical_strike_base": 112,
-                        "magical_overcome_base": 224,
-                        "strain_base": 179
-                    },
-                    "embed": {
-                        "all_critical_strike_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#51402 (1280 精简 会心 会效 破防)": {
-                    "id": 51402,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 530,
-                        "magical_attack_power_base": 324,
-                        "all_critical_strike_base": 201,
-                        "all_critical_power_base": 84,
-                        "magical_overcome_base": 84
-                    },
-                    "embed": {
-                        "magical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#51401 (1280 精简 会心 会效 无双)": {
-                    "id": 51401,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 530,
-                        "magical_attack_power_base": 324,
-                        "all_critical_strike_base": 201,
-                        "all_critical_power_base": 84,
-                        "strain_base": 134
-                    },
-                    "embed": {
-                        "magical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50099 (1280 精简)": {
-                    "id": 50099,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50098 (1280 精简)": {
-                    "id": 50098,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50097 (1280 精简)": {
-                    "id": 50097,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50057 (1280 精简)": {
-                    "id": 50057,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50056 (1280 精简)": {
-                    "id": 50056,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50055 (1280 精简)": {
-                    "id": 50055,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#51397 (1220 精简 会心 破防 无双)": {
-                    "id": 51397,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 504,
-                        "magical_attack_power_base": 250,
-                        "all_critical_strike_base": 107,
-                        "magical_overcome_base": 213,
-                        "strain_base": 166
-                    },
-                    "embed": {
-                        "all_critical_strike_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#51396 (1220 精简 会心 会效 破防)": {
-                    "id": 51396,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 504,
-                        "magical_attack_power_base": 309,
-                        "all_critical_strike_base": 192,
-                        "all_critical_power_base": 80,
-                        "magical_overcome_base": 80
-                    },
-                    "embed": {
-                        "magical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#51395 (1220 精简 会心 会效 无双)": {
-                    "id": 51395,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {
-                        "vitality_base": 504,
-                        "magical_attack_power_base": 309,
-                        "all_critical_strike_base": 192,
-                        "all_critical_power_base": 80,
-                        "strain_base": 125
-                    },
-                    "embed": {
-                        "magical_overcome_base": 225
-                    },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50093 (1220 精简)": {
-                    "id": 50093,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50092 (1220 精简)": {
-                    "id": 50092,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50091 (1220 精简)": {
-                    "id": 50091,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50051 (1220 精简)": {
-                    "id": 50051,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50050 (1220 精简)": {
-                    "id": 50050,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50049 (1220 精简)": {
-                    "id": 50049,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1220,
-                    "score": 54,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50087 (1160 精简)": {
-                    "id": 50087,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50086 (1160 精简)": {
-                    "id": 50086,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50085 (1160 精简)": {
-                    "id": 50085,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50045 (1160 精简)": {
-                    "id": 50045,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50044 (1160 精简)": {
-                    "id": 50044,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50043 (1160 精简)": {
-                    "id": 50043,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1160,
-                    "score": 51,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50081 (1100 精简)": {
-                    "id": 50081,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50080 (1100 精简)": {
-                    "id": 50080,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50079 (1100 精简)": {
-                    "id": 50079,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50039 (1100 精简)": {
-                    "id": 50039,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50038 (1100 精简)": {
-                    "id": 50038,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50037 (1100 精简)": {
-                    "id": 50037,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1100,
-                    "score": 48,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50075 (1040 精简)": {
-                    "id": 50075,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50074 (1040 精简)": {
-                    "id": 50074,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50073 (1040 精简)": {
-                    "id": 50073,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50033 (1040 精简)": {
-                    "id": 50033,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50032 (1040 精简)": {
-                    "id": 50032,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50031 (1040 精简)": {
-                    "id": 50031,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 1040,
-                    "score": 46,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50069 (980 精简)": {
-                    "id": 50069,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50068 (980 精简)": {
-                    "id": 50068,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50067 (980 精简)": {
-                    "id": 50067,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50027 (980 精简)": {
-                    "id": 50027,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50026 (980 精简)": {
-                    "id": 50026,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "无修坠·内·天_测试用#50025 (980 精简)": {
-                    "id": 50025,
-                    "name": "无修坠·内·天_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "pendant",
-                    "level": 980,
-                    "score": 43,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                }
-            }
         }
     },
     "ring": {
@@ -43254,7 +40362,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "凤来吟_测试用#49951 (1280 精简)": {
+                "凤来吟_测试用#49951 (1280 精简 加速)": {
                     "id": 49951,
                     "name": "凤来吟_测试用",
                     "school": "精简",
@@ -43264,14 +40372,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "碧海听_测试用#49950 (1280 精简)": {
+                "碧海听_测试用#49950 (1280 精简 会心 破防 无双)": {
                     "id": 49950,
                     "name": "碧海听_测试用",
                     "school": "精简",
@@ -43281,14 +40393,20 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 313,
+                        "physical_critical_strike_base": 134,
+                        "physical_overcome_base": 134,
+                        "strain_base": 215
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "血魄寒_测试用#49949 (1280 精简)": {
+                "血魄寒_测试用#49949 (1280 精简 破防 无双)": {
                     "id": 49949,
                     "name": "血魄寒_测试用",
                     "school": "精简",
@@ -43298,14 +40416,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 179,
+                        "physical_overcome_base": 369,
+                        "strain_base": 465
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "孤雁回_测试用#49948 (1280 精简)": {
+                "孤雁回_测试用#49948 (1280 精简 会心 无双)": {
                     "id": 49948,
                     "name": "孤雁回_测试用",
                     "school": "精简",
@@ -43315,14 +40438,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 179,
+                        "physical_critical_strike_base": 369,
+                        "strain_base": 465
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "鹤声遥_测试用#49947 (1280 精简)": {
+                "鹤声遥_测试用#49947 (1280 精简 破防)": {
                     "id": 49947,
                     "name": "鹤声遥_测试用",
                     "school": "精简",
@@ -43332,14 +40460,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 313,
+                        "physical_overcome_base": 313
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "雪封光_测试用#49946 (1280 精简)": {
+                "雪封光_测试用#49946 (1280 精简 会心 会效 无双)": {
                     "id": 49946,
                     "name": "雪封光_测试用",
                     "school": "精简",
@@ -43349,14 +40481,20 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_critical_strike_base": 123,
+                        "physical_critical_power_base": 112,
+                        "strain_base": 394
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "孤叶沉_测试用#49945 (1280 精简)": {
+                "孤叶沉_测试用#49945 (1280 精简 会心)": {
                     "id": 49945,
                     "name": "孤叶沉_测试用",
                     "school": "精简",
@@ -43366,14 +40504,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 313,
+                        "physical_critical_strike_base": 313
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "逐电戒·迅_测试用#49944 (1280 精简)": {
+                "逐电戒·迅_测试用#49944 (1280 精简 加速)": {
                     "id": 49944,
                     "name": "逐电戒·迅_测试用",
                     "school": "精简",
@@ -43383,7 +40525,11 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -43424,7 +40570,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "裂锋戒·觉_测试用#49941 (1280 精简)": {
+                "裂锋戒·觉_测试用#49941 (1280 精简 会心 破防 无双)": {
                     "id": 49941,
                     "name": "裂锋戒·觉_测试用",
                     "school": "精简",
@@ -43434,7 +40580,13 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 291,
+                        "physical_critical_strike_base": 212,
+                        "physical_overcome_base": 212,
+                        "strain_base": 358
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -43458,7 +40610,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "漱岩戒·破_测试用#49939 (1280 精简)": {
+                "漱岩戒·破_测试用#49939 (1280 精简 破防 无双)": {
                     "id": 49939,
                     "name": "漱岩戒·破_测试用",
                     "school": "精简",
@@ -43468,14 +40620,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_overcome_base": 335,
+                        "strain_base": 429
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "熊咆戒·悟_测试用#49938 (1280 精简)": {
+                "熊咆戒·悟_测试用#49938 (1280 精简 会心 无双)": {
                     "id": 49938,
                     "name": "熊咆戒·悟_测试用",
                     "school": "精简",
@@ -43485,14 +40642,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_critical_strike_base": 335,
+                        "strain_base": 429
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "菁雨戒·尊_测试用#49937 (1280 精简)": {
+                "菁雨戒·尊_测试用#49937 (1280 精简 无双)": {
                     "id": 49937,
                     "name": "菁雨戒·尊_测试用",
                     "school": "精简",
@@ -43502,7 +40664,11 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 402,
+                        "strain_base": 823
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -43511,7 +40677,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "龙影起_测试用#49936 (1280 精简)": {
+                "龙影起_测试用#49936 (1280 精简 加速)": {
                     "id": 49936,
                     "name": "龙影起_测试用",
                     "school": "精简",
@@ -43521,14 +40687,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "赤阳踏_测试用#49935 (1280 精简)": {
+                "赤阳踏_测试用#49935 (1280 精简 会心 破防 无双)": {
                     "id": 49935,
                     "name": "赤阳踏_测试用",
                     "school": "精简",
@@ -43538,14 +40708,20 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 313,
+                        "all_critical_strike_base": 134,
+                        "magical_overcome_base": 134,
+                        "strain_base": 215
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "墨锋隐_测试用#49934 (1280 精简)": {
+                "墨锋隐_测试用#49934 (1280 精简 破防 无双)": {
                     "id": 49934,
                     "name": "墨锋隐_测试用",
                     "school": "精简",
@@ -43555,14 +40731,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 179,
+                        "magical_overcome_base": 369,
+                        "strain_base": 465
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "浪歌行_测试用#49933 (1280 精简)": {
+                "浪歌行_测试用#49933 (1280 精简 会心 无双)": {
                     "id": 49933,
                     "name": "浪歌行_测试用",
                     "school": "精简",
@@ -43572,14 +40753,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 179,
+                        "all_critical_strike_base": 369,
+                        "strain_base": 465
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "松影静_测试用#49932 (1280 精简)": {
+                "松影静_测试用#49932 (1280 精简 破防)": {
                     "id": 49932,
                     "name": "松影静_测试用",
                     "school": "精简",
@@ -43589,14 +40775,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 313,
+                        "magical_overcome_base": 313
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "梦冷星_测试用#49931 (1280 精简)": {
+                "梦冷星_测试用#49931 (1280 精简 会心 会效 无双)": {
                     "id": 49931,
                     "name": "梦冷星_测试用",
                     "school": "精简",
@@ -43606,14 +40796,20 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "all_critical_strike_base": 123,
+                        "all_critical_power_base": 112,
+                        "strain_base": 394
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "残霞卷_测试用#49930 (1280 精简)": {
+                "残霞卷_测试用#49930 (1280 精简 会心)": {
                     "id": 49930,
                     "name": "残霞卷_测试用",
                     "school": "精简",
@@ -43623,14 +40819,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 313,
+                        "all_critical_strike_base": 313
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "愁予戒·迅_测试用#49929 (1280 精简)": {
+                "愁予戒·迅_测试用#49929 (1280 精简 加速)": {
                     "id": 49929,
                     "name": "愁予戒·迅_测试用",
                     "school": "精简",
@@ -43640,7 +40840,11 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -43681,7 +40885,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "荟茫戒·觉_测试用#49926 (1280 精简)": {
+                "荟茫戒·觉_测试用#49926 (1280 精简 会心 破防 无双)": {
                     "id": 49926,
                     "name": "荟茫戒·觉_测试用",
                     "school": "精简",
@@ -43691,7 +40895,13 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 291,
+                        "all_critical_strike_base": 212,
+                        "magical_overcome_base": 212,
+                        "strain_base": 358
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -43715,7 +40925,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "毋垢戒·破_测试用#49924 (1280 精简)": {
+                "毋垢戒·破_测试用#49924 (1280 精简 破防 无双)": {
                     "id": 49924,
                     "name": "毋垢戒·破_测试用",
                     "school": "精简",
@@ -43725,14 +40935,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "magical_overcome_base": 335,
+                        "strain_base": 429
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "灵寂戒·悟_测试用#49923 (1280 精简)": {
+                "灵寂戒·悟_测试用#49923 (1280 精简 会心 无双)": {
                     "id": 49923,
                     "name": "灵寂戒·悟_测试用",
                     "school": "精简",
@@ -43742,14 +40957,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "all_critical_strike_base": 335,
+                        "strain_base": 429
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "玄溟戒·尊_测试用#49922 (1280 精简)": {
+                "玄溟戒·尊_测试用#49922 (1280 精简 无双)": {
                     "id": 49922,
                     "name": "玄溟戒·尊_测试用",
                     "school": "精简",
@@ -43759,7 +40979,11 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 402,
+                        "strain_base": 823
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -48421,9 +45645,4629 @@ EQUIPMENTS = {
                     "gains": []
                 }
             }
+        },
+        "精简": {
+            "外功": {
+                "无修项链·外·天_测试用#51518 (1280 精简 加速)": {
+                    "id": 51518,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51504 (1280 精简 加速)": {
+                    "id": 51504,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51490 (1280 精简 会心 破防 无双)": {
+                    "id": 51490,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 313,
+                        "physical_critical_strike_base": 134,
+                        "physical_overcome_base": 134,
+                        "strain_base": 215
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51489 (1280 精简 破防 无双)": {
+                    "id": 51489,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_overcome_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51488 (1280 精简 会心 无双)": {
+                    "id": 51488,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_critical_strike_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51448 (1280 精简 会心 破防 无双)": {
+                    "id": 51448,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 313,
+                        "physical_critical_strike_base": 134,
+                        "physical_overcome_base": 134,
+                        "strain_base": 215
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51447 (1280 精简 破防 无双)": {
+                    "id": 51447,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_overcome_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51446 (1280 精简 会心 无双)": {
+                    "id": 51446,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "physical_attack_power_base": 335,
+                        "physical_critical_strike_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51516 (1220 精简 加速)": {
+                    "id": 51516,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 405,
+                        "haste_base": 389
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51502 (1220 精简 加速)": {
+                    "id": 51502,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 405,
+                        "haste_base": 389
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51484 (1220 精简 会心 破防 无双)": {
+                    "id": 51484,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 298,
+                        "physical_critical_strike_base": 128,
+                        "physical_overcome_base": 128,
+                        "strain_base": 200
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51483 (1220 精简 破防 无双)": {
+                    "id": 51483,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 170,
+                        "physical_overcome_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51482 (1220 精简 会心 无双)": {
+                    "id": 51482,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 170,
+                        "physical_critical_strike_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51442 (1220 精简 会心 破防 无双)": {
+                    "id": 51442,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 298,
+                        "physical_critical_strike_base": 128,
+                        "physical_overcome_base": 128,
+                        "strain_base": 200
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51441 (1220 精简 破防 无双)": {
+                    "id": 51441,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 170,
+                        "physical_overcome_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51440 (1220 精简 会心 无双)": {
+                    "id": 51440,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "physical_attack_power_base": 170,
+                        "physical_critical_strike_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51514 (1160 精简 加速)": {
+                    "id": 51514,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 385,
+                        "haste_base": 370
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51500 (1160 精简 加速)": {
+                    "id": 51500,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 385,
+                        "haste_base": 370
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51478 (1160 精简 会心 破防 无双)": {
+                    "id": 51478,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 284,
+                        "physical_critical_strike_base": 122,
+                        "physical_overcome_base": 122,
+                        "strain_base": 185
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51477 (1160 精简 破防 无双)": {
+                    "id": 51477,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 304,
+                        "physical_overcome_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51476 (1160 精简 会心 无双)": {
+                    "id": 51476,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51436 (1160 精简 会心 破防 无双)": {
+                    "id": 51436,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 284,
+                        "physical_critical_strike_base": 122,
+                        "physical_overcome_base": 122,
+                        "strain_base": 185
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51435 (1160 精简 破防 无双)": {
+                    "id": 51435,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 304,
+                        "physical_overcome_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51434 (1160 精简 会心 无双)": {
+                    "id": 51434,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "physical_attack_power_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51512 (1100 精简 加速)": {
+                    "id": 51512,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 365,
+                        "haste_base": 351
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51498 (1100 精简 加速)": {
+                    "id": 51498,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 365,
+                        "haste_base": 351
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51472 (1100 精简 会心 破防 无双)": {
+                    "id": 51472,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 269,
+                        "physical_critical_strike_base": 115,
+                        "physical_overcome_base": 115,
+                        "strain_base": 171
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51471 (1100 精简 破防 无双)": {
+                    "id": 51471,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 288,
+                        "physical_overcome_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51470 (1100 精简 会心 无双)": {
+                    "id": 51470,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 288,
+                        "physical_critical_strike_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51430 (1100 精简 会心 破防 无双)": {
+                    "id": 51430,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 269,
+                        "physical_critical_strike_base": 115,
+                        "physical_overcome_base": 115,
+                        "strain_base": 171
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51429 (1100 精简 破防 无双)": {
+                    "id": 51429,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 288,
+                        "physical_overcome_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51428 (1100 精简 会心 无双)": {
+                    "id": 51428,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "physical_attack_power_base": 288,
+                        "physical_critical_strike_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51510 (1040 精简 加速)": {
+                    "id": 51510,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 345,
+                        "haste_base": 332
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51496 (1040 精简 加速)": {
+                    "id": 51496,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 345,
+                        "haste_base": 332
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51466 (1040 精简 会心 破防 无双)": {
+                    "id": 51466,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 254,
+                        "physical_critical_strike_base": 109,
+                        "physical_overcome_base": 109,
+                        "strain_base": 157
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51465 (1040 精简 破防 无双)": {
+                    "id": 51465,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 145,
+                        "physical_overcome_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51464 (1040 精简 会心 无双)": {
+                    "id": 51464,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 145,
+                        "physical_critical_strike_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51424 (1040 精简 会心 破防 无双)": {
+                    "id": 51424,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 254,
+                        "physical_critical_strike_base": 109,
+                        "physical_overcome_base": 109,
+                        "strain_base": 157
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51423 (1040 精简 破防 无双)": {
+                    "id": 51423,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 145,
+                        "physical_overcome_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51422 (1040 精简 会心 无双)": {
+                    "id": 51422,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "physical_attack_power_base": 145,
+                        "physical_critical_strike_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51508 (980 精简 加速)": {
+                    "id": 51508,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 325,
+                        "haste_base": 312
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51494 (980 精简 加速)": {
+                    "id": 51494,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 325,
+                        "haste_base": 312
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51460 (980 精简 会心 破防 无双)": {
+                    "id": 51460,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 240,
+                        "physical_critical_strike_base": 103,
+                        "physical_overcome_base": 103,
+                        "strain_base": 144
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51459 (980 精简 破防 无双)": {
+                    "id": 51459,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 257,
+                        "physical_overcome_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51458 (980 精简 会心 无双)": {
+                    "id": 51458,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 257,
+                        "physical_critical_strike_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51418 (980 精简 会心 破防 无双)": {
+                    "id": 51418,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 240,
+                        "physical_critical_strike_base": 103,
+                        "physical_overcome_base": 103,
+                        "strain_base": 144
+                    },
+                    "embed": {
+                        "physical_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51417 (980 精简 破防 无双)": {
+                    "id": 51417,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 257,
+                        "physical_overcome_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·外·天_测试用#51416 (980 精简 会心 无双)": {
+                    "id": 51416,
+                    "name": "无修项链·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "physical_attack_power_base": 257,
+                        "physical_critical_strike_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "无修项链·内·天_测试用#51517 (1280 精简 加速)": {
+                    "id": 51517,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51503 (1280 精简 加速)": {
+                    "id": 51503,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 425,
+                        "haste_base": 408
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51487 (1280 精简 会心 破防 无双)": {
+                    "id": 51487,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 313,
+                        "all_critical_strike_base": 134,
+                        "magical_overcome_base": 134,
+                        "strain_base": 215
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51486 (1280 精简 破防 无双)": {
+                    "id": 51486,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "magical_overcome_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51485 (1280 精简 会心 无双)": {
+                    "id": 51485,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "all_critical_strike_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51445 (1280 精简 会心 破防 无双)": {
+                    "id": 51445,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 313,
+                        "all_critical_strike_base": 134,
+                        "magical_overcome_base": 134,
+                        "strain_base": 215
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51444 (1280 精简 破防 无双)": {
+                    "id": 51444,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "magical_overcome_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51443 (1280 精简 会心 无双)": {
+                    "id": 51443,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1280,
+                    "score": 56,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "magical_attack_power_base": 335,
+                        "all_critical_strike_base": 268,
+                        "strain_base": 537
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51515 (1220 精简 加速)": {
+                    "id": 51515,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 405,
+                        "haste_base": 389
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51501 (1220 精简 加速)": {
+                    "id": 51501,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 405,
+                        "haste_base": 389
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51481 (1220 精简 会心 破防 无双)": {
+                    "id": 51481,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 298,
+                        "all_critical_strike_base": 128,
+                        "magical_overcome_base": 128,
+                        "strain_base": 200
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51480 (1220 精简 破防 无双)": {
+                    "id": 51480,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 170,
+                        "magical_overcome_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51479 (1220 精简 会心 无双)": {
+                    "id": 51479,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 170,
+                        "all_critical_strike_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51439 (1220 精简 会心 破防 无双)": {
+                    "id": 51439,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 298,
+                        "all_critical_strike_base": 128,
+                        "magical_overcome_base": 128,
+                        "strain_base": 200
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51438 (1220 精简 破防 无双)": {
+                    "id": 51438,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 170,
+                        "magical_overcome_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51437 (1220 精简 会心 无双)": {
+                    "id": 51437,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1220,
+                    "score": 54,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 320,
+                        "magical_attack_power_base": 170,
+                        "all_critical_strike_base": 352,
+                        "strain_base": 433
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51513 (1160 精简 加速)": {
+                    "id": 51513,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 385,
+                        "haste_base": 370
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51499 (1160 精简 加速)": {
+                    "id": 51499,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 385,
+                        "haste_base": 370
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51475 (1160 精简 会心 破防 无双)": {
+                    "id": 51475,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 284,
+                        "all_critical_strike_base": 122,
+                        "magical_overcome_base": 122,
+                        "strain_base": 185
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51474 (1160 精简 破防 无双)": {
+                    "id": 51474,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 304,
+                        "magical_overcome_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51473 (1160 精简 会心 无双)": {
+                    "id": 51473,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 304,
+                        "all_critical_strike_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51433 (1160 精简 会心 破防 无双)": {
+                    "id": 51433,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 284,
+                        "all_critical_strike_base": 122,
+                        "magical_overcome_base": 122,
+                        "strain_base": 185
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51432 (1160 精简 破防 无双)": {
+                    "id": 51432,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 304,
+                        "magical_overcome_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51431 (1160 精简 会心 无双)": {
+                    "id": 51431,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1160,
+                    "score": 51,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 303,
+                        "magical_attack_power_base": 304,
+                        "all_critical_strike_base": 304,
+                        "strain_base": 370
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51511 (1100 精简 加速)": {
+                    "id": 51511,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 365,
+                        "haste_base": 351
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51497 (1100 精简 加速)": {
+                    "id": 51497,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 365,
+                        "haste_base": 351
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51469 (1100 精简 会心 破防 无双)": {
+                    "id": 51469,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 269,
+                        "all_critical_strike_base": 115,
+                        "magical_overcome_base": 115,
+                        "strain_base": 171
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51468 (1100 精简 破防 无双)": {
+                    "id": 51468,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 288,
+                        "magical_overcome_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51467 (1100 精简 会心 无双)": {
+                    "id": 51467,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 288,
+                        "all_critical_strike_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51427 (1100 精简 会心 破防 无双)": {
+                    "id": 51427,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 269,
+                        "all_critical_strike_base": 115,
+                        "magical_overcome_base": 115,
+                        "strain_base": 171
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51426 (1100 精简 破防 无双)": {
+                    "id": 51426,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 288,
+                        "magical_overcome_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51425 (1100 精简 会心 无双)": {
+                    "id": 51425,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1100,
+                    "score": 48,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 287,
+                        "magical_attack_power_base": 288,
+                        "all_critical_strike_base": 231,
+                        "strain_base": 428
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51509 (1040 精简 加速)": {
+                    "id": 51509,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 345,
+                        "haste_base": 332
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51495 (1040 精简 加速)": {
+                    "id": 51495,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 345,
+                        "haste_base": 332
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51463 (1040 精简 会心 破防 无双)": {
+                    "id": 51463,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 254,
+                        "all_critical_strike_base": 109,
+                        "magical_overcome_base": 109,
+                        "strain_base": 157
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51462 (1040 精简 破防 无双)": {
+                    "id": 51462,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 145,
+                        "magical_overcome_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51461 (1040 精简 会心 无双)": {
+                    "id": 51461,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 145,
+                        "all_critical_strike_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51421 (1040 精简 会心 破防 无双)": {
+                    "id": 51421,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 254,
+                        "all_critical_strike_base": 109,
+                        "magical_overcome_base": 109,
+                        "strain_base": 157
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51420 (1040 精简 破防 无双)": {
+                    "id": 51420,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 145,
+                        "magical_overcome_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51419 (1040 精简 会心 无双)": {
+                    "id": 51419,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 1040,
+                    "score": 46,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 270,
+                        "magical_attack_power_base": 145,
+                        "all_critical_strike_base": 300,
+                        "strain_base": 341
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51507 (980 精简 加速)": {
+                    "id": 51507,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 325,
+                        "haste_base": 312
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51493 (980 精简 加速)": {
+                    "id": 51493,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 325,
+                        "haste_base": 312
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51457 (980 精简 会心 破防 无双)": {
+                    "id": 51457,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 240,
+                        "all_critical_strike_base": 103,
+                        "magical_overcome_base": 103,
+                        "strain_base": 144
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51456 (980 精简 破防 无双)": {
+                    "id": 51456,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 257,
+                        "magical_overcome_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51455 (980 精简 会心 无双)": {
+                    "id": 51455,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 257,
+                        "all_critical_strike_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51415 (980 精简 会心 破防 无双)": {
+                    "id": 51415,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 240,
+                        "all_critical_strike_base": 103,
+                        "magical_overcome_base": 103,
+                        "strain_base": 144
+                    },
+                    "embed": {
+                        "all_critical_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51414 (980 精简 破防 无双)": {
+                    "id": 51414,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 257,
+                        "magical_overcome_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修项链·内·天_测试用#51413 (980 精简 会心 无双)": {
+                    "id": 51413,
+                    "name": "无修项链·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "necklace",
+                    "level": 980,
+                    "score": 43,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 253,
+                        "magical_attack_power_base": 257,
+                        "all_critical_strike_base": 257,
+                        "strain_base": 288
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                }
+            }
         }
     },
     "tertiary_weapon": {
+        "精简": {
+            "外功": {
+                "无修囊·外·天_测试用#48053 (1280 精简 加速)": {
+                    "id": 48053,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 510,
+                        "haste_base": 490
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48039 (1280 精简 加速)": {
+                    "id": 48039,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 510,
+                        "haste_base": 490
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48025 (1280 精简 会心 会效 无双)": {
+                    "id": 48025,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 402,
+                        "physical_critical_strike_base": 148,
+                        "physical_critical_power_base": 134,
+                        "strain_base": 472
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48024 (1280 精简 破防 无双)": {
+                    "id": 48024,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 402,
+                        "physical_overcome_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48023 (1280 精简 会心 无双)": {
+                    "id": 48023,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 402,
+                        "physical_critical_strike_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47983 (1280 精简 会心 会效 无双)": {
+                    "id": 47983,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 402,
+                        "physical_critical_strike_base": 148,
+                        "physical_critical_power_base": 134,
+                        "strain_base": 472
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47982 (1280 精简 破防 无双)": {
+                    "id": 47982,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 402,
+                        "physical_overcome_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47981 (1280 精简 会心 无双)": {
+                    "id": 47981,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "physical_attack_power_base": 402,
+                        "physical_critical_strike_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48051 (1220 精简 加速)": {
+                    "id": 48051,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 486,
+                        "haste_base": 467
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48037 (1220 精简 加速)": {
+                    "id": 48037,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 486,
+                        "haste_base": 467
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48019 (1220 精简 会心 会效 无双)": {
+                    "id": 48019,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 384,
+                        "physical_critical_strike_base": 141,
+                        "physical_critical_power_base": 128,
+                        "strain_base": 439
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48018 (1220 精简 破防 无双)": {
+                    "id": 48018,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 205,
+                        "physical_overcome_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48017 (1220 精简 会心 无双)": {
+                    "id": 48017,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 205,
+                        "physical_critical_strike_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47977 (1220 精简 会心 会效 无双)": {
+                    "id": 47977,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 384,
+                        "physical_critical_strike_base": 141,
+                        "physical_critical_power_base": 128,
+                        "strain_base": 439
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47976 (1220 精简 破防 无双)": {
+                    "id": 47976,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 205,
+                        "physical_overcome_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47975 (1220 精简 会心 无双)": {
+                    "id": 47975,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "physical_attack_power_base": 205,
+                        "physical_critical_strike_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48049 (1160 精简 加速)": {
+                    "id": 48049,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 462,
+                        "haste_base": 444
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48035 (1160 精简 加速)": {
+                    "id": 48035,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 462,
+                        "haste_base": 444
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48013 (1160 精简 会心 会效 无双)": {
+                    "id": 48013,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 365,
+                        "physical_critical_strike_base": 134,
+                        "physical_critical_power_base": 122,
+                        "strain_base": 407
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48012 (1160 精简 破防 无双)": {
+                    "id": 48012,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 365,
+                        "physical_overcome_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48011 (1160 精简 会心 无双)": {
+                    "id": 48011,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 365,
+                        "physical_critical_strike_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47971 (1160 精简 会心 会效 无双)": {
+                    "id": 47971,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 365,
+                        "physical_critical_strike_base": 134,
+                        "physical_critical_power_base": 122,
+                        "strain_base": 407
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47970 (1160 精简 破防 无双)": {
+                    "id": 47970,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 365,
+                        "physical_overcome_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47969 (1160 精简 会心 无双)": {
+                    "id": 47969,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "physical_attack_power_base": 365,
+                        "physical_critical_strike_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48047 (1100 精简 加速)": {
+                    "id": 48047,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 438,
+                        "haste_base": 421
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48033 (1100 精简 加速)": {
+                    "id": 48033,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 438,
+                        "haste_base": 421
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48007 (1100 精简 会心 会效 无双)": {
+                    "id": 48007,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 346,
+                        "physical_critical_strike_base": 127,
+                        "physical_critical_power_base": 115,
+                        "strain_base": 376
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48006 (1100 精简 破防 无双)": {
+                    "id": 48006,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 346,
+                        "physical_overcome_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48005 (1100 精简 会心 无双)": {
+                    "id": 48005,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 346,
+                        "physical_critical_strike_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47965 (1100 精简 会心 会效 无双)": {
+                    "id": 47965,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 346,
+                        "physical_critical_strike_base": 127,
+                        "physical_critical_power_base": 115,
+                        "strain_base": 376
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47964 (1100 精简 破防 无双)": {
+                    "id": 47964,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 346,
+                        "physical_overcome_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47963 (1100 精简 会心 无双)": {
+                    "id": 47963,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "physical_attack_power_base": 346,
+                        "physical_critical_strike_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48045 (1040 精简 加速)": {
+                    "id": 48045,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 414,
+                        "haste_base": 398
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48031 (1040 精简 加速)": {
+                    "id": 48031,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 414,
+                        "haste_base": 398
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48001 (1040 精简 会心 会效 无双)": {
+                    "id": 48001,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 327,
+                        "physical_critical_strike_base": 120,
+                        "physical_critical_power_base": 109,
+                        "strain_base": 346
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48000 (1040 精简 破防 无双)": {
+                    "id": 48000,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 174,
+                        "physical_overcome_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47999 (1040 精简 会心 无双)": {
+                    "id": 47999,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 174,
+                        "physical_critical_strike_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47959 (1040 精简 会心 会效 无双)": {
+                    "id": 47959,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 327,
+                        "physical_critical_strike_base": 120,
+                        "physical_critical_power_base": 109,
+                        "strain_base": 346
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47958 (1040 精简 破防 无双)": {
+                    "id": 47958,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 174,
+                        "physical_overcome_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47957 (1040 精简 会心 无双)": {
+                    "id": 47957,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "physical_attack_power_base": 174,
+                        "physical_critical_strike_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48043 (980 精简 加速)": {
+                    "id": 48043,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 390,
+                        "haste_base": 375
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#48029 (980 精简 加速)": {
+                    "id": 48029,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 390,
+                        "haste_base": 375
+                    },
+                    "embed": {
+                        "physical_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47995 (980 精简 会心 会效 无双)": {
+                    "id": 47995,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 308,
+                        "physical_critical_strike_base": 113,
+                        "physical_critical_power_base": 103,
+                        "strain_base": 316
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47994 (980 精简 破防 无双)": {
+                    "id": 47994,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 308,
+                        "physical_overcome_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47993 (980 精简 会心 无双)": {
+                    "id": 47993,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 308,
+                        "physical_critical_strike_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47953 (980 精简 会心 会效 无双)": {
+                    "id": 47953,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 308,
+                        "physical_critical_strike_base": 113,
+                        "physical_critical_power_base": 103,
+                        "strain_base": 316
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47952 (980 精简 破防 无双)": {
+                    "id": 47952,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 308,
+                        "physical_overcome_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "physical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·外·天_测试用#47951 (980 精简 会心 无双)": {
+                    "id": 47951,
+                    "name": "无修囊·外·天_测试用",
+                    "school": "精简",
+                    "kind": "外功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "physical_attack_power_base": 308,
+                        "physical_critical_strike_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "physical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                }
+            },
+            "内功": {
+                "无修囊·内·天_测试用#48052 (1280 精简 加速)": {
+                    "id": 48052,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 510,
+                        "haste_base": 490
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48038 (1280 精简 加速)": {
+                    "id": 48038,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 510,
+                        "haste_base": 490
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48022 (1280 精简 会心 会效 无双)": {
+                    "id": 48022,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 402,
+                        "all_critical_strike_base": 148,
+                        "all_critical_power_base": 134,
+                        "strain_base": 472
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48021 (1280 精简 破防 无双)": {
+                    "id": 48021,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 402,
+                        "magical_overcome_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48020 (1280 精简 会心 无双)": {
+                    "id": 48020,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 402,
+                        "all_critical_strike_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47980 (1280 精简 会心 会效 无双)": {
+                    "id": 47980,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 402,
+                        "all_critical_strike_base": 148,
+                        "all_critical_power_base": 134,
+                        "strain_base": 472
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47979 (1280 精简 破防 无双)": {
+                    "id": 47979,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 402,
+                        "magical_overcome_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47978 (1280 精简 会心 无双)": {
+                    "id": 47978,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1280,
+                    "score": 67,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 405,
+                        "magical_attack_power_base": 402,
+                        "all_critical_strike_base": 322,
+                        "strain_base": 644
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48050 (1220 精简 加速)": {
+                    "id": 48050,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 486,
+                        "haste_base": 467
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48036 (1220 精简 加速)": {
+                    "id": 48036,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 486,
+                        "haste_base": 467
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48016 (1220 精简 会心 会效 无双)": {
+                    "id": 48016,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 384,
+                        "all_critical_strike_base": 141,
+                        "all_critical_power_base": 128,
+                        "strain_base": 439
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48015 (1220 精简 破防 无双)": {
+                    "id": 48015,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 205,
+                        "magical_overcome_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48014 (1220 精简 会心 无双)": {
+                    "id": 48014,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 205,
+                        "all_critical_strike_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47974 (1220 精简 会心 会效 无双)": {
+                    "id": 47974,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 384,
+                        "all_critical_strike_base": 141,
+                        "all_critical_power_base": 128,
+                        "strain_base": 439
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47973 (1220 精简 破防 无双)": {
+                    "id": 47973,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 205,
+                        "magical_overcome_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47972 (1220 精简 会心 无双)": {
+                    "id": 47972,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1220,
+                    "score": 64,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 385,
+                        "magical_attack_power_base": 205,
+                        "all_critical_strike_base": 422,
+                        "strain_base": 519
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48048 (1160 精简 加速)": {
+                    "id": 48048,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 462,
+                        "haste_base": 444
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48034 (1160 精简 加速)": {
+                    "id": 48034,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 462,
+                        "haste_base": 444
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48010 (1160 精简 会心 会效 无双)": {
+                    "id": 48010,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 365,
+                        "all_critical_strike_base": 134,
+                        "all_critical_power_base": 122,
+                        "strain_base": 407
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48009 (1160 精简 破防 无双)": {
+                    "id": 48009,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 365,
+                        "magical_overcome_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48008 (1160 精简 会心 无双)": {
+                    "id": 48008,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 365,
+                        "all_critical_strike_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47968 (1160 精简 会心 会效 无双)": {
+                    "id": 47968,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 365,
+                        "all_critical_strike_base": 134,
+                        "all_critical_power_base": 122,
+                        "strain_base": 407
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47967 (1160 精简 破防 无双)": {
+                    "id": 47967,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 365,
+                        "magical_overcome_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47966 (1160 精简 会心 无双)": {
+                    "id": 47966,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1160,
+                    "score": 61,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 364,
+                        "magical_attack_power_base": 365,
+                        "all_critical_strike_base": 365,
+                        "strain_base": 444
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48046 (1100 精简 加速)": {
+                    "id": 48046,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 438,
+                        "haste_base": 421
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48032 (1100 精简 加速)": {
+                    "id": 48032,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 438,
+                        "haste_base": 421
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48004 (1100 精简 会心 会效 无双)": {
+                    "id": 48004,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 346,
+                        "all_critical_strike_base": 127,
+                        "all_critical_power_base": 115,
+                        "strain_base": 376
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48003 (1100 精简 破防 无双)": {
+                    "id": 48003,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 346,
+                        "magical_overcome_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48002 (1100 精简 会心 无双)": {
+                    "id": 48002,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 346,
+                        "all_critical_strike_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47962 (1100 精简 会心 会效 无双)": {
+                    "id": 47962,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 346,
+                        "all_critical_strike_base": 127,
+                        "all_critical_power_base": 115,
+                        "strain_base": 376
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47961 (1100 精简 破防 无双)": {
+                    "id": 47961,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 346,
+                        "magical_overcome_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47960 (1100 精简 会心 无双)": {
+                    "id": 47960,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1100,
+                    "score": 58,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 344,
+                        "magical_attack_power_base": 346,
+                        "all_critical_strike_base": 277,
+                        "strain_base": 513
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48044 (1040 精简 加速)": {
+                    "id": 48044,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 414,
+                        "haste_base": 398
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48030 (1040 精简 加速)": {
+                    "id": 48030,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 414,
+                        "haste_base": 398
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47998 (1040 精简 会心 会效 无双)": {
+                    "id": 47998,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 327,
+                        "all_critical_strike_base": 120,
+                        "all_critical_power_base": 109,
+                        "strain_base": 346
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47997 (1040 精简 破防 无双)": {
+                    "id": 47997,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 174,
+                        "magical_overcome_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47996 (1040 精简 会心 无双)": {
+                    "id": 47996,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 174,
+                        "all_critical_strike_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47956 (1040 精简 会心 会效 无双)": {
+                    "id": 47956,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 327,
+                        "all_critical_strike_base": 120,
+                        "all_critical_power_base": 109,
+                        "strain_base": 346
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47955 (1040 精简 破防 无双)": {
+                    "id": 47955,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 174,
+                        "magical_overcome_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47954 (1040 精简 会心 无双)": {
+                    "id": 47954,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 1040,
+                    "score": 55,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 324,
+                        "magical_attack_power_base": 174,
+                        "all_critical_strike_base": 360,
+                        "strain_base": 409
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48042 (980 精简 加速)": {
+                    "id": 48042,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 390,
+                        "haste_base": 375
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#48028 (980 精简 加速)": {
+                    "id": 48028,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 390,
+                        "haste_base": 375
+                    },
+                    "embed": {
+                        "all_critical_strike_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47992 (980 精简 会心 会效 无双)": {
+                    "id": 47992,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 308,
+                        "all_critical_strike_base": 113,
+                        "all_critical_power_base": 103,
+                        "strain_base": 316
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47991 (980 精简 破防 无双)": {
+                    "id": 47991,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 308,
+                        "magical_overcome_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47990 (980 精简 会心 无双)": {
+                    "id": 47990,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 308,
+                        "all_critical_strike_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47950 (980 精简 会心 会效 无双)": {
+                    "id": 47950,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 308,
+                        "all_critical_strike_base": 113,
+                        "all_critical_power_base": 103,
+                        "strain_base": 316
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47949 (980 精简 破防 无双)": {
+                    "id": 47949,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 308,
+                        "magical_overcome_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "magical_overcome_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无修囊·内·天_测试用#47948 (980 精简 会心 无双)": {
+                    "id": 47948,
+                    "name": "无修囊·内·天_测试用",
+                    "school": "精简",
+                    "kind": "内功",
+                    "position": "tertiary_weapon",
+                    "level": 980,
+                    "score": 52,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 304,
+                        "magical_attack_power_base": 308,
+                        "all_critical_strike_base": 308,
+                        "strain_base": 345
+                    },
+                    "embed": {
+                        "magical_attack_power_base": 225
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                }
+            }
+        },
         "通用": {
             "防御": {
                 "暮山重_测试用#46745 (1280 外防 内防 加速 御劲 无双)": {
@@ -51800,10 +53644,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "neutral_attack_power_base": 620,
-                        "neutral_critical_strike_base": 243,
-                        "neutral_overcome_base": 243,
-                        "haste_base": 84
+                        "neutral_attack_power_base": 719,
+                        "neutral_critical_strike_base": 239,
+                        "neutral_overcome_base": 239,
+                        "haste_base": 75
                     },
                     "embed": {
                         "neutral_attack_power_base": 225,
@@ -52591,10 +54435,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 629,
-                        "physical_critical_strike_base": 251,
+                        "physical_attack_power_base": 729,
+                        "physical_critical_strike_base": 243,
                         "physical_overcome_base": 226,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -53382,10 +55226,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "strength_base": 234,
-                        "physical_attack_power_base": 620,
-                        "physical_critical_strike_base": 251,
+                        "physical_attack_power_base": 721,
+                        "physical_critical_strike_base": 243,
                         "physical_overcome_base": 234,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -54928,10 +56772,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spirit_base": 234,
-                        "poison_attack_power_base": 620,
+                        "poison_attack_power_base": 721,
                         "poison_critical_strike_base": 226,
-                        "poison_overcome_base": 260,
-                        "haste_base": 84
+                        "poison_overcome_base": 251,
+                        "haste_base": 75
                     },
                     "embed": {
                         "poison_attack_power_base": 225,
@@ -55719,10 +57563,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "neutral_attack_power_base": 629,
+                        "neutral_attack_power_base": 729,
                         "neutral_critical_strike_base": 218,
-                        "neutral_overcome_base": 243,
-                        "haste_base": 100
+                        "neutral_overcome_base": 234,
+                        "haste_base": 92
                     },
                     "embed": {
                         "neutral_attack_power_base": 225,
@@ -56510,10 +58354,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 629,
-                        "physical_critical_strike_base": 251,
+                        "physical_attack_power_base": 729,
+                        "physical_critical_strike_base": 243,
                         "physical_overcome_base": 226,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -57301,10 +59145,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 603,
+                        "physical_attack_power_base": 704,
                         "physical_critical_strike_base": 260,
-                        "physical_overcome_base": 243,
-                        "haste_base": 84
+                        "physical_overcome_base": 234,
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -58092,10 +59936,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "strength_base": 234,
-                        "physical_attack_power_base": 603,
-                        "physical_critical_strike_base": 243,
+                        "physical_attack_power_base": 704,
+                        "physical_critical_strike_base": 234,
                         "physical_overcome_base": 260,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -59638,10 +61482,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spirit_base": 234,
-                        "lunar_attack_power_base": 603,
-                        "lunar_critical_strike_base": 243,
+                        "lunar_attack_power_base": 704,
+                        "lunar_critical_strike_base": 234,
                         "lunar_overcome_base": 251,
-                        "haste_base": 92
+                        "haste_base": 84
                     },
                     "embed": {
                         "lunar_attack_power_base": 225,
@@ -60425,12 +62269,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 59
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -60467,12 +62311,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 59
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -61337,10 +63181,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 670,
-                        "physical_critical_strike_base": 226,
-                        "physical_overcome_base": 209,
-                        "haste_base": 84
+                        "physical_attack_power_base": 746,
+                        "physical_critical_strike_base": 234,
+                        "physical_overcome_base": 218,
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -62124,12 +63968,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 40
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -62166,12 +64010,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 40
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -63036,10 +64880,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "solar_and_lunar_attack_power_base": 603,
+                        "solar_and_lunar_attack_power_base": 704,
                         "solar_and_lunar_critical_strike_base": 226,
-                        "solar_and_lunar_overcome_base": 268,
-                        "haste_base": 92
+                        "solar_and_lunar_overcome_base": 260,
+                        "haste_base": 84
                     },
                     "embed": {
                         "solar_and_lunar_attack_power_base": 225,
@@ -63827,10 +65671,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "strength_base": 234,
-                        "physical_attack_power_base": 612,
+                        "physical_attack_power_base": 712,
                         "physical_critical_strike_base": 234,
-                        "physical_overcome_base": 260,
-                        "haste_base": 84
+                        "physical_overcome_base": 251,
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -64738,10 +66582,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 603,
-                        "physical_critical_strike_base": 285,
+                        "physical_attack_power_base": 704,
+                        "physical_critical_strike_base": 276,
                         "physical_overcome_base": 218,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -65529,10 +67373,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "strength_base": 234,
-                        "physical_attack_power_base": 578,
-                        "physical_critical_strike_base": 251,
-                        "physical_overcome_base": 276,
-                        "haste_base": 84
+                        "physical_attack_power_base": 696,
+                        "physical_critical_strike_base": 243,
+                        "physical_overcome_base": 260,
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -66318,10 +68162,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "poison_attack_power_base": 603,
+                        "poison_attack_power_base": 704,
                         "physical_critical_strike_base": 226,
-                        "poison_overcome_base": 276,
-                        "haste_base": 84
+                        "poison_overcome_base": 268,
+                        "haste_base": 75
                     },
                     "embed": {
                         "poison_attack_power_base": 225,
@@ -67864,10 +69708,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spirit_base": 234,
-                        "poison_attack_power_base": 620,
+                        "poison_attack_power_base": 721,
                         "poison_critical_strike_base": 226,
-                        "poison_overcome_base": 260,
-                        "haste_base": 84
+                        "poison_overcome_base": 251,
+                        "haste_base": 75
                     },
                     "embed": {
                         "poison_attack_power_base": 225,
@@ -69410,10 +71254,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spirit_base": 234,
-                        "lunar_attack_power_base": 629,
+                        "lunar_attack_power_base": 729,
                         "lunar_critical_strike_base": 226,
-                        "lunar_overcome_base": 243,
-                        "haste_base": 92
+                        "lunar_overcome_base": 234,
+                        "haste_base": 84
                     },
                     "embed": {
                         "lunar_attack_power_base": 225,
@@ -70201,10 +72045,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 603,
-                        "physical_critical_strike_base": 276,
+                        "physical_attack_power_base": 704,
+                        "physical_critical_strike_base": 268,
                         "physical_overcome_base": 226,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -70990,10 +72834,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spirit_base": 234,
-                        "neutral_attack_power_base": 603,
-                        "neutral_critical_strike_base": 276,
+                        "neutral_attack_power_base": 704,
+                        "neutral_critical_strike_base": 268,
                         "neutral_overcome_base": 226,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "neutral_attack_power_base": 225,
@@ -71777,12 +73621,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 67
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -71819,12 +73663,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 67
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -72689,10 +74533,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "strength_base": 234,
-                        "physical_attack_power_base": 603,
+                        "physical_attack_power_base": 704,
                         "physical_critical_strike_base": 260,
-                        "physical_overcome_base": 243,
-                        "haste_base": 84
+                        "physical_overcome_base": 234,
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -72732,10 +74576,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "strength_base": 234,
-                        "physical_attack_power_base": 603,
+                        "physical_attack_power_base": 704,
                         "physical_critical_strike_base": 260,
-                        "physical_overcome_base": 243,
-                        "haste_base": 84
+                        "physical_overcome_base": 234,
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,
@@ -74235,10 +76079,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "neutral_attack_power_base": 629,
+                        "neutral_attack_power_base": 729,
                         "neutral_critical_strike_base": 226,
-                        "neutral_overcome_base": 251,
-                        "haste_base": 84
+                        "neutral_overcome_base": 243,
+                        "haste_base": 75
                     },
                     "embed": {
                         "neutral_attack_power_base": 225,
@@ -74278,10 +76122,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "neutral_attack_power_base": 629,
+                        "neutral_attack_power_base": 729,
                         "neutral_critical_strike_base": 226,
-                        "neutral_overcome_base": 251,
-                        "haste_base": 84
+                        "neutral_overcome_base": 243,
+                        "haste_base": 75
                     },
                     "embed": {
                         "neutral_attack_power_base": 225,
@@ -75022,12 +76866,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 67
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -75064,12 +76908,12 @@ EQUIPMENTS = {
                         "weapon_damage_rand": 67
                     },
                     "magic": {
-                        "vitality_base": 655,
-                        "physical_shield_base": 1038,
-                        "magical_shield_base": 1038,
-                        "haste_base": 346,
-                        "toughness_base": 173,
-                        "strain_base": 311
+                        "vitality_base": 793,
+                        "physical_shield_base": 1072,
+                        "magical_shield_base": 1072,
+                        "haste_base": 357,
+                        "toughness_base": 179,
+                        "strain_base": 482
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -75934,10 +77778,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "solar_attack_power_base": 654,
+                        "solar_attack_power_base": 737,
                         "solar_critical_strike_base": 218,
-                        "solar_overcome_base": 234,
-                        "haste_base": 84
+                        "solar_overcome_base": 243,
+                        "haste_base": 75
                     },
                     "embed": {
                         "solar_attack_power_base": 225,
@@ -75977,10 +77821,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "spunk_base": 234,
-                        "solar_attack_power_base": 654,
+                        "solar_attack_power_base": 737,
                         "solar_critical_strike_base": 218,
-                        "solar_overcome_base": 234,
-                        "haste_base": 84
+                        "solar_overcome_base": 243,
+                        "haste_base": 75
                     },
                     "embed": {
                         "solar_attack_power_base": 225,
@@ -76847,10 +78691,10 @@ EQUIPMENTS = {
                     "magic": {
                         "vitality_base": 483,
                         "agility_base": 234,
-                        "physical_attack_power_base": 603,
-                        "physical_critical_strike_base": 285,
+                        "physical_attack_power_base": 704,
+                        "physical_critical_strike_base": 276,
                         "physical_overcome_base": 218,
-                        "haste_base": 84
+                        "haste_base": 75
                     },
                     "embed": {
                         "physical_attack_power_base": 225,

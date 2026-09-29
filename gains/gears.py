@@ -227,5 +227,5 @@ GAINS: dict[int, dict] = {
     # **SPECIAL_GEAR_GAINS,
     # **SPECIAL_WEAPON_GAINS,
     **ELEMENT_GAINS,
-    # **SPECIAL_ENCHANT_GAINS,
+    **SPECIAL_ENCHANT_GAINS,
 }

@@ -2894,6 +2894,66 @@ BUFFS = {
                     }
                 }
             }
+        },
+        10106: {
+            15436: {
+                18: {
+                    "name": "输出头大附魔",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 81
+                    }
+                },
+                19: {
+                    "name": "输出头大附魔",
+                    "interval": 480,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 90
+                    }
+                }
+            }
+        },
+        22169: {
+            15455: {
+                1: {
+                    "name": "输出腰大附魔",
+                    "comment": "1%",
+                    "interval": 128,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 10
+                    }
+                },
+                2: {
+                    "name": "输出腰大附魔",
+                    "comment": "5%",
+                    "interval": 128,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_damage_gain": 51
+                    }
+                }
+            }
+        },
+        46465: {
+            24767: {
+                2: {
+                    "name": "昆吾·御·腕",
+                    "interval": 80,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "physical_damage_gain": 50,
+                        "magical_damage_gain": 50
+                    }
+                }
+            }
         }
     },
     10002: {
@@ -5581,14 +5641,14 @@ BUFFS = {
             }
         },
         14698: {
-            19514: {
-                1: {
+            12578: {
+                2: {
                     "name": "驱夷逐法",
                     "interval": 14,
                     "max_stack": 1,
                     "max_tick": 1,
                     "recipes": [
-                        "recipe_2517_1"
+                        "recipe_4489_1"
                     ]
                 }
             }
