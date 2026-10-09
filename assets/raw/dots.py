@@ -1250,7 +1250,7 @@ DOTS = {
                                 "comment": "",
                                 "critical_strike": "physical_critical_strike",
                                 "damages": [
-                                    "int(int(int(int(int(int(int(int(int(int(int(int(1 + int(poison_attack_power * 0.07695979172245983))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + poison_damage_scale))"
+                                    "int(int(int(int(int(int(int(int(int(int(int(int(1 + int(poison_attack_power * 0.06150343187861852))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + poison_damage_scale))"
                                 ]
                             }
                         }
@@ -1273,7 +1273,7 @@ DOTS = {
                                 "comment": "",
                                 "critical_strike": "physical_critical_strike",
                                 "damages": [
-                                    "int(int(int(int(int(int(int(int(int(int(int(int(1 + int(poison_attack_power * 0.07701345963858428))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + poison_damage_scale))"
+                                    "int(int(int(int(int(int(int(int(int(int(int(int(1 + int(poison_attack_power * 0.06161076771086742))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + poison_damage_scale))"
                                 ]
                             }
                         }

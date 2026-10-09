@@ -2615,7 +2615,7 @@
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 15
+                        "strain_base": 13
                     }
                 },
                 "19": {
@@ -2624,7 +2624,7 @@
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 16
+                        "strain_base": 14
                     }
                 },
                 "20": {
@@ -2633,7 +2633,7 @@
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 17
+                        "strain_base": 16
                     }
                 },
                 "21": {
@@ -2642,7 +2642,7 @@
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 18
+                        "strain_base": 16
                     }
                 },
                 "22": {
@@ -2651,7 +2651,7 @@
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 19
+                        "strain_base": 17
                     }
                 },
                 "23": {

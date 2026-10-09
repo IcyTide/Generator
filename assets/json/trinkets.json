@@ -1,4 +1,454 @@
 {
+    "51370": {
+        "id": 51370,
+        "name": "玄毅佩_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1190,
+        "score": 73,
+        "max_strength": 8,
+        "icon_id": 1221,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 470,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 208,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 300,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 92,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 92,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 321,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 225,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51369": {
+        "id": 51369,
+        "name": "圣怜佩_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1190,
+        "score": 73,
+        "max_strength": 8,
+        "icon_id": 1221,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 347,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 185,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 293,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 239,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51368": {
+        "id": 51368,
+        "name": "洄浏佩_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1190,
+        "score": 73,
+        "max_strength": 8,
+        "icon_id": 1221,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 347,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 162,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 223,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 223,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 337,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51367": {
+        "id": 51367,
+        "name": "裂贞佩_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1190,
+        "score": 73,
+        "max_strength": 8,
+        "icon_id": 1221,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 347,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 162,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 223,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 223,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 337,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51366": {
+        "id": 51366,
+        "name": "元灵佩_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1190,
+        "score": 73,
+        "max_strength": 8,
+        "icon_id": 1221,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 347,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 162,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 223,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 223,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 337,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51365": {
+        "id": 51365,
+        "name": "玄根佩_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1190,
+        "score": 73,
+        "max_strength": 8,
+        "icon_id": 1221,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 347,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 162,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 223,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 223,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 337,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "51364": {
         "id": 51364,
         "name": "风鹤鸣_测试用",

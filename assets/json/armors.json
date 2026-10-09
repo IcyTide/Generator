@@ -593,6 +593,486 @@
             ]
         }
     },
+    "112800": {
+        "id": 112800,
+        "name": "曜护护手_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "wrist",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13280,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 641,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 814,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 125,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 451,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 225,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112799": {
+        "id": 112799,
+        "name": "曜愈护手_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "wrist",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13280,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 29,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 324,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112798": {
+        "id": 112798,
+        "name": "曜影护手_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "wrist",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13280,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 29,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 219,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 225,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112797": {
+        "id": 112797,
+        "name": "曜劲护手_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "wrist",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13280,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 29,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 219,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 225,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112796": {
+        "id": 112796,
+        "name": "曜元护手_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "wrist",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13280,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 29,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 219,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 225,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112795": {
+        "id": 112795,
+        "name": "曜骨护手_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "wrist",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13280,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 29,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 37,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 219,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 225,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "112546": {
         "id": 112546,
         "name": "虚实相生_测试用",
@@ -18889,6 +19369,486 @@
         "set_id": 0,
         "sets": {}
     },
+    "112812": {
+        "id": 112812,
+        "name": "曜护鞋_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "shoes",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13283,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 641,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 814,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 125,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 451,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atDodge",
+                "attr_type": "dodge_base",
+                "value": 225,
+                "desc": "<text>text=\"闪避等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112811": {
+        "id": 112811,
+        "name": "曜愈鞋_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "shoes",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13283,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 324,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112810": {
+        "id": 112810,
+        "name": "曜影鞋_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "shoes",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13283,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 219,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 225,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112809": {
+        "id": 112809,
+        "name": "曜劲鞋_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "shoes",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13283,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 219,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 225,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112808": {
+        "id": 112808,
+        "name": "曜元鞋_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "shoes",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13283,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 219,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 225,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112807": {
+        "id": 112807,
+        "name": "曜骨鞋_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "shoes",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13283,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 219,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 302,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "112794": {
         "id": 112794,
         "name": "无修鞋·外·天_测试用",
@@ -36573,6 +37533,492 @@
             ]
         }
     },
+    "112818": {
+        "id": 112818,
+        "name": "曜护下裳_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "bottoms",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13282,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 916,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 402,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 581,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 179,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 179,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 644,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 225,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112817": {
+        "id": 112817,
+        "name": "曜愈下裳_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "bottoms",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13282,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 38,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 358,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1031,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112816": {
+        "id": 112816,
+        "name": "曜影下裳_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "bottoms",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13282,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 38,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 313,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 432,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112815": {
+        "id": 112815,
+        "name": "曜劲下裳_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "bottoms",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13282,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 38,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 313,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 432,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112814": {
+        "id": 112814,
+        "name": "曜元下裳_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "bottoms",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13282,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 38,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 313,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 432,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112813": {
+        "id": 112813,
+        "name": "曜骨下裳_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "bottoms",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13282,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 38,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 47,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 313,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 432,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "112554": {
         "id": 112554,
         "name": "上林月_测试用",
@@ -45740,6 +47186,486 @@
                 }
             ]
         }
+    },
+    "112806": {
+        "id": 112806,
+        "name": "曜护护腰_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "belt",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13284,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 641,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 814,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 125,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 451,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 225,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 225,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112805": {
+        "id": 112805,
+        "name": "曜愈护腰_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "belt",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13284,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 324,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112804": {
+        "id": 112804,
+        "name": "曜影护腰_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "belt",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13284,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 219,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 302,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112803": {
+        "id": 112803,
+        "name": "曜劲护腰_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "belt",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13284,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 219,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 302,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112802": {
+        "id": 112802,
+        "name": "曜元护腰_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "belt",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13284,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 219,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 302,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112801": {
+        "id": 112801,
+        "name": "曜骨护腰_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "belt",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 79,
+        "max_strength": 6,
+        "icon_id": 13284,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 21,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 26,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 219,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 302,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 302,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 473,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
     },
     "112550": {
         "id": 112550,
@@ -64085,6 +66011,498 @@
         "set_id": 0,
         "sets": {}
     },
+    "112824": {
+        "id": 112824,
+        "name": "曜护冠_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "hat",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 101,
+        "max_strength": 6,
+        "icon_id": 13281,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 824,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 523,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 362,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 161,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 161,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 580,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 225,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112823": {
+        "id": 112823,
+        "name": "曜愈冠_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "hat",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 101,
+        "max_strength": 6,
+        "icon_id": 13281,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 34,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 607,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 322,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 511,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 417,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112822": {
+        "id": 112822,
+        "name": "曜影冠_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "hat",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 101,
+        "max_strength": 6,
+        "icon_id": 13281,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 34,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 607,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 282,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 388,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 388,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 609,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 225,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 225,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112821": {
+        "id": 112821,
+        "name": "曜劲冠_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "hat",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 101,
+        "max_strength": 6,
+        "icon_id": 13281,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 34,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 607,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 282,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 388,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 388,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 609,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 225,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 225,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112820": {
+        "id": 112820,
+        "name": "曜元冠_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "hat",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 101,
+        "max_strength": 6,
+        "icon_id": 13281,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 34,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 607,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 282,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 388,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 388,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 609,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 225,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 225,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112819": {
+        "id": 112819,
+        "name": "曜骨冠_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "hat",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 101,
+        "max_strength": 6,
+        "icon_id": 13281,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 34,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 607,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 282,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 388,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 388,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 609,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 225,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "112788": {
         "id": 112788,
         "name": "无修冠·外·天_测试用",
@@ -81702,6 +84120,480 @@
                 }
             ]
         }
+    },
+    "112830": {
+        "id": 112830,
+        "name": "曜护衫_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "jacket",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13285,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 916,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 1163,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 179,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 644,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atActiveThreatCoefficient",
+                "attr_type": "",
+                "value": 0,
+                "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 225,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112829": {
+        "id": 112829,
+        "name": "曜愈衫_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "jacket",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13285,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 358,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1031,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112828": {
+        "id": 112828,
+        "name": "曜影衫_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "jacket",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13285,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 313,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 432,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalDamagePowerBase",
+                "attr_type": "physical_critical_power_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112827": {
+        "id": 112827,
+        "name": "曜劲衫_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "jacket",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13285,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 313,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 432,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalDamagePowerBase",
+                "attr_type": "physical_critical_power_base",
+                "value": 225,
+                "desc": "<text>text=\"外功会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112826": {
+        "id": 112826,
+        "name": "曜元衫_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "jacket",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13285,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 313,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 432,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalDamagePowerBase",
+                "attr_type": "all_critical_power_base",
+                "value": 225,
+                "desc": "<text>text=\"全会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "112825": {
+        "id": 112825,
+        "name": "曜骨衫_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "jacket",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 112,
+        "max_strength": 6,
+        "icon_id": 13285,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 42,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 52,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 313,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 432,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 432,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 676,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalDamagePowerBase",
+                "attr_type": "magical_critical_power_base",
+                "value": 225,
+                "desc": "<text>text=\"内功会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
     },
     "112437": {
         "id": 112437,
