@@ -3327,7 +3327,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "spirit_base": 250,
+                        "therapy_power_base": 722
+                    },
                     "embed": {
                         "therapy_power_base": 225,
                         "magical_critical_strike_base": 225
@@ -3337,7 +3341,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "引毒归元_测试用#112535 (1280 精简)": {
+                "引毒归元_测试用#112535 (1280 精简 会心)": {
                     "id": 112535,
                     "name": "引毒归元_测试用",
                     "school": "精简",
@@ -3350,7 +3354,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "spirit_base": 250,
+                        "therapy_power_base": 398,
+                        "magical_critical_strike_base": 324
+                    },
                     "embed": {
                         "magical_critical_strike_base": 225,
                         "therapy_power_base": 225
@@ -3360,7 +3369,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "枯髓回春_测试用#112534 (1280 精简)": {
+                "枯髓回春_测试用#112534 (1280 精简 加速)": {
                     "id": 112534,
                     "name": "枯髓回春_测试用",
                     "school": "精简",
@@ -3373,7 +3382,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 29,
                         "magical_shield_base": 37
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "spirit_base": 250,
+                        "therapy_power_base": 398,
+                        "haste_base": 324
+                    },
                     "embed": {
                         "spirit_base": 225,
                         "therapy_power_base": 225
@@ -3385,7 +3399,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "枯叶知秋_测试用#112503 (1280 精简 加速 无双)": {
+                "枯叶知秋_测试用#112503 (1280 精简 特效 加速 无双)": {
                     "id": 112503,
                     "name": "枯叶知秋_测试用",
                     "school": "精简",
@@ -3411,9 +3425,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_42767_3"
+                    ]
                 },
-                "千里无鸦_测试用#112502 (1280 精简 会心 破防 无双)": {
+                "千里无鸦_测试用#112502 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112502,
                     "name": "千里无鸦_测试用",
                     "school": "精简",
@@ -3440,9 +3456,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_5"
+                    ]
                 },
-                "残月如钩_测试用#112501 (1280 精简 破防)": {
+                "残月如钩_测试用#112501 (1280 精简 特效 破防)": {
                     "id": 112501,
                     "name": "残月如钩_测试用",
                     "school": "精简",
@@ -3467,9 +3485,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_7"
+                    ]
                 },
-                "断魂无迹_测试用#112500 (1280 精简 破防 无双)": {
+                "断魂无迹_测试用#112500 (1280 精简 特效 破防 无双)": {
                     "id": 112500,
                     "name": "断魂无迹_测试用",
                     "school": "精简",
@@ -3495,9 +3515,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_7"
+                    ]
                 },
-                "蛇行影没_测试用#112499 (1280 精简 会心 无双)": {
+                "蛇行影没_测试用#112499 (1280 精简 特效 会心 无双)": {
                     "id": 112499,
                     "name": "蛇行影没_测试用",
                     "school": "精简",
@@ -3523,9 +3545,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_6"
+                    ]
                 },
-                "白骨成霜_测试用#112498 (1280 精简 会心 会效 无双)": {
+                "白骨成霜_测试用#112498 (1280 精简 特效 会心 会效 无双)": {
                     "id": 112498,
                     "name": "白骨成霜_测试用",
                     "school": "精简",
@@ -3552,9 +3576,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_4"
+                    ]
                 },
-                "孤灯灭处_测试用#112497 (1280 精简 会心)": {
+                "孤灯灭处_测试用#112497 (1280 精简 特效 会心)": {
                     "id": 112497,
                     "name": "孤灯灭处_测试用",
                     "school": "精简",
@@ -3579,7 +3605,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_6"
+                    ]
                 },
                 "吹霞护腕·迅_测试用#112496 (1280 精简 加速 无双)": {
                     "id": 112496,
@@ -3609,46 +3637,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "斜空护腕·绝_测试用#112495 (1280 精简)": {
-                    "id": 112495,
-                    "name": "斜空护腕·绝_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "wrist",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 37,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "肃寒护腕·明_测试用#112494 (1280 精简)": {
-                    "id": 112494,
-                    "name": "肃寒护腕·明_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "wrist",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 37,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "荒泽护腕·觉_测试用#112493 (1280 精简 会心 破防 无双)": {
                     "id": 112493,
                     "name": "荒泽护腕·觉_测试用",
@@ -3673,26 +3661,6 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 225,
                         "physical_attack_power_base": 225
                     },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "野渡护腕·引_测试用#112492 (1280 精简)": {
-                    "id": 112492,
-                    "name": "野渡护腕·引_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "wrist",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 37,
-                        "magical_shield_base": 29
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -3783,7 +3751,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "一息归尘_测试用#112488 (1280 精简 加速 无双)": {
+                "一息归尘_测试用#112488 (1280 精简 特效 加速 无双)": {
                     "id": 112488,
                     "name": "一息归尘_测试用",
                     "school": "精简",
@@ -3809,9 +3777,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_42767_3"
+                    ]
                 },
-                "幽壑藏身_测试用#112487 (1280 精简 会心 破防 无双)": {
+                "幽壑藏身_测试用#112487 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112487,
                     "name": "幽壑藏身_测试用",
                     "school": "精简",
@@ -3838,9 +3808,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_5"
+                    ]
                 },
-                "夜分刀气_测试用#112486 (1280 精简 破防)": {
+                "夜分刀气_测试用#112486 (1280 精简 特效 破防)": {
                     "id": 112486,
                     "name": "夜分刀气_测试用",
                     "school": "精简",
@@ -3865,9 +3837,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_7"
+                    ]
                 },
-                "缚风锁云_测试用#112485 (1280 精简 破防 无双)": {
+                "缚风锁云_测试用#112485 (1280 精简 特效 破防 无双)": {
                     "id": 112485,
                     "name": "缚风锁云_测试用",
                     "school": "精简",
@@ -3893,9 +3867,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_7"
+                    ]
                 },
-                "毒雾藏针_测试用#112484 (1280 精简 会心 无双)": {
+                "毒雾藏针_测试用#112484 (1280 精简 特效 会心 无双)": {
                     "id": 112484,
                     "name": "毒雾藏针_测试用",
                     "school": "精简",
@@ -3921,9 +3897,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_6"
+                    ]
                 },
-                "寒鸦啼血_测试用#112483 (1280 精简 会心 会效 无双)": {
+                "寒鸦啼血_测试用#112483 (1280 精简 特效 会心 会效 无双)": {
                     "id": 112483,
                     "name": "寒鸦啼血_测试用",
                     "school": "精简",
@@ -3950,9 +3928,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_4"
+                    ]
                 },
-                "暗渡无声_测试用#112482 (1280 精简 会心)": {
+                "暗渡无声_测试用#112482 (1280 精简 特效 会心)": {
                     "id": 112482,
                     "name": "暗渡无声_测试用",
                     "school": "精简",
@@ -3977,7 +3957,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40788_6"
+                    ]
                 },
                 "谷息护腕·迅_测试用#112481 (1280 精简 加速 无双)": {
                     "id": 112481,
@@ -4007,46 +3989,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "暗涌护腕·绝_测试用#112480 (1280 精简)": {
-                    "id": 112480,
-                    "name": "暗涌护腕·绝_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "wrist",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 37
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "哭雾护腕·明_测试用#112479 (1280 精简)": {
-                    "id": 112479,
-                    "name": "哭雾护腕·明_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "wrist",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 37
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "尘霜护腕·觉_测试用#112478 (1280 精简 会心 破防 无双)": {
                     "id": 112478,
                     "name": "尘霜护腕·觉_测试用",
@@ -4071,26 +4013,6 @@ EQUIPMENTS = {
                         "all_critical_power_base": 225,
                         "magical_attack_power_base": 225
                     },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "夜冤护腕·引_测试用#112477 (1280 精简)": {
-                    "id": 112477,
-                    "name": "夜冤护腕·引_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "wrist",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 29,
-                        "magical_shield_base": 37
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -4171,7 +4093,7 @@ EQUIPMENTS = {
                         "strain_base": 1152
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -10490,7 +10412,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112794 (1280 精简 无双)": {
+                "无修鞋·外·天_测试用#112794 (1280 精简 特效 无双)": {
                     "id": 112794,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10515,9 +10437,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112793 (1280 精简 会心 无双)": {
+                "无修鞋·外·天_测试用#112793 (1280 精简 特效 会心 无双)": {
                     "id": 112793,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10543,9 +10467,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_10"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112792 (1280 精简 破防 无双)": {
+                "无修鞋·外·天_测试用#112792 (1280 精简 特效 破防 无双)": {
                     "id": 112792,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10571,9 +10497,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112710 (1280 精简 无双)": {
+                "无修鞋·外·天_测试用#112710 (1280 精简 特效 无双)": {
                     "id": 112710,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10598,9 +10526,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112709 (1280 精简 会心 无双)": {
+                "无修鞋·外·天_测试用#112709 (1280 精简 特效 会心 无双)": {
                     "id": 112709,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10626,9 +10556,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_10"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112708 (1280 精简 破防 无双)": {
+                "无修鞋·外·天_测试用#112708 (1280 精简 特效 破防 无双)": {
                     "id": 112708,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10654,7 +10586,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
                 "无修鞋·外·天_测试用#114852 (1220 精简 会心 破防 无双)": {
                     "id": 114852,
@@ -10741,7 +10675,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·外·天_测试用#112782 (1220 精简 会心 破防 无双)": {
+                "无修鞋·外·天_测试用#112782 (1220 精简 特效 会心 破防 无双)": {
                     "id": 112782,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10768,9 +10702,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112781 (1220 精简 会心 无双)": {
+                "无修鞋·外·天_测试用#112781 (1220 精简 特效 会心 无双)": {
                     "id": 112781,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10796,9 +10732,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_9"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112780 (1220 精简 破防 无双)": {
+                "无修鞋·外·天_测试用#112780 (1220 精简 特效 破防 无双)": {
                     "id": 112780,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10824,9 +10762,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112698 (1220 精简 会心 破防 无双)": {
+                "无修鞋·外·天_测试用#112698 (1220 精简 特效 会心 破防 无双)": {
                     "id": 112698,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10853,9 +10793,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112697 (1220 精简 会心 无双)": {
+                "无修鞋·外·天_测试用#112697 (1220 精简 特效 会心 无双)": {
                     "id": 112697,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10881,9 +10823,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_9"
+                    ]
                 },
-                "无修鞋·外·天_测试用#112696 (1220 精简 破防 无双)": {
+                "无修鞋·外·天_测试用#112696 (1220 精简 特效 破防 无双)": {
                     "id": 112696,
                     "name": "无修鞋·外·天_测试用",
                     "school": "精简",
@@ -10909,7 +10853,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 }
             },
             "内功": {
@@ -10932,7 +10878,7 @@ EQUIPMENTS = {
                         "strain_base": 1152
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -10996,7 +10942,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112791 (1280 精简 无双)": {
+                "无修鞋·内·天_测试用#112791 (1280 精简 特效 无双)": {
                     "id": 112791,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11015,15 +10961,17 @@ EQUIPMENTS = {
                         "strain_base": 1152
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112790 (1280 精简 会心 无双)": {
+                "无修鞋·内·天_测试用#112790 (1280 精简 特效 会心 无双)": {
                     "id": 112790,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11049,9 +10997,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_10"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112789 (1280 精简 破防 无双)": {
+                "无修鞋·内·天_测试用#112789 (1280 精简 特效 破防 无双)": {
                     "id": 112789,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11077,9 +11027,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112707 (1280 精简 无双)": {
+                "无修鞋·内·天_测试用#112707 (1280 精简 特效 无双)": {
                     "id": 112707,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11098,15 +11050,17 @@ EQUIPMENTS = {
                         "strain_base": 1152
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112706 (1280 精简 会心 无双)": {
+                "无修鞋·内·天_测试用#112706 (1280 精简 特效 会心 无双)": {
                     "id": 112706,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11132,9 +11086,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_10"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112705 (1280 精简 破防 无双)": {
+                "无修鞋·内·天_测试用#112705 (1280 精简 特效 破防 无双)": {
                     "id": 112705,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11160,7 +11116,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_10"
+                    ]
                 },
                 "无修鞋·内·天_测试用#114849 (1220 精简 会心 破防 无双)": {
                     "id": 114849,
@@ -11247,7 +11205,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修鞋·内·天_测试用#112779 (1220 精简 会心 破防 无双)": {
+                "无修鞋·内·天_测试用#112779 (1220 精简 特效 会心 破防 无双)": {
                     "id": 112779,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11274,9 +11232,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112778 (1220 精简 会心 无双)": {
+                "无修鞋·内·天_测试用#112778 (1220 精简 特效 会心 无双)": {
                     "id": 112778,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11302,9 +11262,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_9"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112777 (1220 精简 破防 无双)": {
+                "无修鞋·内·天_测试用#112777 (1220 精简 特效 破防 无双)": {
                     "id": 112777,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11330,9 +11292,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112695 (1220 精简 会心 破防 无双)": {
+                "无修鞋·内·天_测试用#112695 (1220 精简 特效 会心 破防 无双)": {
                     "id": 112695,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11359,9 +11323,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112694 (1220 精简 会心 无双)": {
+                "无修鞋·内·天_测试用#112694 (1220 精简 特效 会心 无双)": {
                     "id": 112694,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11387,9 +11353,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38939_9"
+                    ]
                 },
-                "无修鞋·内·天_测试用#112693 (1220 精简 破防 无双)": {
+                "无修鞋·内·天_测试用#112693 (1220 精简 特效 破防 无双)": {
                     "id": 112693,
                     "name": "无修鞋·内·天_测试用",
                     "school": "精简",
@@ -11415,7 +11383,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38944_9"
+                    ]
                 }
             }
         },
@@ -17588,7 +17558,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "spirit_base": 358,
+                        "therapy_power_base": 1031
+                    },
                     "embed": {
                         "magical_critical_strike_base": 225,
                         "therapy_power_base": 225
@@ -17598,7 +17572,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "辞梦闻花_测试用#112541 (1280 精简)": {
+                "辞梦闻花_测试用#112541 (1280 精简 会心)": {
                     "id": 112541,
                     "name": "辞梦闻花_测试用",
                     "school": "精简",
@@ -17611,7 +17585,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "spirit_base": 358,
+                        "therapy_power_base": 568,
+                        "magical_critical_strike_base": 463
+                    },
                     "embed": {
                         "therapy_power_base": 225,
                         "magical_critical_strike_base": 225
@@ -17621,7 +17600,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "别春难_测试用#112540 (1280 精简)": {
+                "别春难_测试用#112540 (1280 精简 加速)": {
                     "id": 112540,
                     "name": "别春难_测试用",
                     "school": "精简",
@@ -17634,7 +17613,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 38,
                         "magical_shield_base": 47
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 675,
+                        "spirit_base": 358,
+                        "therapy_power_base": 568,
+                        "haste_base": 463
+                    },
                     "embed": {
                         "therapy_power_base": 225,
                         "spirit_base": 225
@@ -17673,46 +17657,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "花杀裤·绝_测试用#112525 (1280 精简)": {
-                    "id": 112525,
-                    "name": "花杀裤·绝_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "停日裤·明_测试用#112524 (1280 精简)": {
-                    "id": 112524,
-                    "name": "停日裤·明_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "风歇裤·觉_测试用#112523 (1280 精简 会心 破防 无双)": {
                     "id": 112523,
                     "name": "风歇裤·觉_测试用",
@@ -17737,26 +17681,6 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 225,
                         "physical_attack_power_base": 225
                     },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "乱烟裤·引_测试用#112522 (1280 精简)": {
-                    "id": 112522,
-                    "name": "乱烟裤·引_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 47,
-                        "magical_shield_base": 38
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -17874,46 +17798,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "故春裤·绝_测试用#112510 (1280 精简)": {
-                    "id": 112510,
-                    "name": "故春裤·绝_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "日易裤·明_测试用#112509 (1280 精简)": {
-                    "id": 112509,
-                    "name": "日易裤·明_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "芳生裤·觉_测试用#112508 (1280 精简 会心 破防 无双)": {
                     "id": 112508,
                     "name": "芳生裤·觉_测试用",
@@ -17938,26 +17822,6 @@ EQUIPMENTS = {
                         "all_critical_power_base": 225,
                         "magical_attack_power_base": 225
                     },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "渡月裤·引_测试用#112507 (1280 精简)": {
-                    "id": 112507,
-                    "name": "渡月裤·引_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "bottoms",
-                    "level": 1280,
-                    "score": 112,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 38,
-                        "magical_shield_base": 47
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -18038,7 +17902,7 @@ EQUIPMENTS = {
                         "strain_base": 1646
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -21385,7 +21249,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "spirit_base": 250,
+                        "therapy_power_base": 722
+                    },
                     "embed": {
                         "therapy_power_base": 225,
                         "spirit_base": 225
@@ -21395,7 +21263,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "万籁千山_测试用#112538 (1280 精简)": {
+                "万籁千山_测试用#112538 (1280 精简 会心)": {
                     "id": 112538,
                     "name": "万籁千山_测试用",
                     "school": "精简",
@@ -21408,7 +21276,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "spirit_base": 250,
+                        "therapy_power_base": 398,
+                        "magical_critical_strike_base": 324
+                    },
                     "embed": {
                         "magical_critical_power_base": 225,
                         "magical_critical_strike_base": 225
@@ -21418,7 +21291,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "千山沐_测试用#112537 (1280 精简)": {
+                "千山沐_测试用#112537 (1280 精简 加速)": {
                     "id": 112537,
                     "name": "千山沐_测试用",
                     "school": "精简",
@@ -21431,7 +21304,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 21,
                         "magical_shield_base": 26
                     },
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 472,
+                        "spirit_base": 250,
+                        "therapy_power_base": 398,
+                        "haste_base": 324
+                    },
                     "embed": {
                         "spirit_base": 225,
                         "magical_critical_strike_base": 225
@@ -21443,7 +21321,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "尽苍茫_测试用#112473 (1280 精简 加速 无双)": {
+                "尽苍茫_测试用#112473 (1280 精简 特效 加速 无双)": {
                     "id": 112473,
                     "name": "尽苍茫_测试用",
                     "school": "精简",
@@ -21469,9 +21347,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_42767_3"
+                    ]
                 },
-                "锁千秋_测试用#112472 (1280 精简 会心 破防 无双)": {
+                "锁千秋_测试用#112472 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112472,
                     "name": "锁千秋_测试用",
                     "school": "精简",
@@ -21498,9 +21378,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_5"
+                    ]
                 },
-                "世外身_测试用#112471 (1280 精简 破防)": {
+                "世外身_测试用#112471 (1280 精简 特效 破防)": {
                     "id": 112471,
                     "name": "世外身_测试用",
                     "school": "精简",
@@ -21525,9 +21407,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40791_4"
+                    ]
                 },
-                "凌月游_测试用#112470 (1280 精简 破防 无双)": {
+                "凌月游_测试用#112470 (1280 精简 特效 破防 无双)": {
                     "id": 112470,
                     "name": "凌月游_测试用",
                     "school": "精简",
@@ -21553,9 +21437,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_6"
+                    ]
                 },
-                "碧落谣_测试用#112469 (1280 精简 会心 无双)": {
+                "碧落谣_测试用#112469 (1280 精简 特效 会心 无双)": {
                     "id": 112469,
                     "name": "碧落谣_测试用",
                     "school": "精简",
@@ -21581,9 +21467,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_6"
+                    ]
                 },
-                "孤寒劲_测试用#112468 (1280 精简 会心)": {
+                "孤寒劲_测试用#112468 (1280 精简 特效 会心)": {
                     "id": 112468,
                     "name": "孤寒劲_测试用",
                     "school": "精简",
@@ -21608,9 +21496,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40791_4"
+                    ]
                 },
-                "贯日虹_测试用#112467 (1280 精简 会心 会效 无双)": {
+                "贯日虹_测试用#112467 (1280 精简 特效 会心 会效 无双)": {
                     "id": 112467,
                     "name": "贯日虹_测试用",
                     "school": "精简",
@@ -21637,7 +21527,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_4"
+                    ]
                 },
                 "映霭护腰·迅_测试用#112466 (1280 精简 加速 无双)": {
                     "id": 112466,
@@ -21667,46 +21559,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "鸢啼护腰·绝_测试用#112465 (1280 精简)": {
-                    "id": 112465,
-                    "name": "鸢啼护腰·绝_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "belt",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "鸾旌护腰·明_测试用#112464 (1280 精简)": {
-                    "id": 112464,
-                    "name": "鸾旌护腰·明_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "belt",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "沧陵护腰·觉_测试用#112463 (1280 精简 会心 破防 无双)": {
                     "id": 112463,
                     "name": "沧陵护腰·觉_测试用",
@@ -21731,26 +21583,6 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 225,
                         "physical_attack_power_base": 225
                     },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "寒霄护腰·引_测试用#112462 (1280 精简)": {
-                    "id": 112462,
-                    "name": "寒霄护腰·引_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "belt",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 26,
-                        "magical_shield_base": 21
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -21841,7 +21673,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "凌顶观_测试用#112458 (1280 精简 加速 无双)": {
+                "凌顶观_测试用#112458 (1280 精简 特效 加速 无双)": {
                     "id": 112458,
                     "name": "凌顶观_测试用",
                     "school": "精简",
@@ -21867,9 +21699,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_42767_3"
+                    ]
                 },
-                "覆乾坤_测试用#112457 (1280 精简 会心 破防 无双)": {
+                "覆乾坤_测试用#112457 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112457,
                     "name": "覆乾坤_测试用",
                     "school": "精简",
@@ -21896,9 +21730,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_5"
+                    ]
                 },
-                "烟霞客_测试用#112456 (1280 精简 破防)": {
+                "烟霞客_测试用#112456 (1280 精简 特效 破防)": {
                     "id": 112456,
                     "name": "烟霞客_测试用",
                     "school": "精简",
@@ -21923,9 +21759,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40791_4"
+                    ]
                 },
-                "连九霄_测试用#112455 (1280 精简 破防 无双)": {
+                "连九霄_测试用#112455 (1280 精简 特效 破防 无双)": {
                     "id": 112455,
                     "name": "连九霄_测试用",
                     "school": "精简",
@@ -21951,9 +21789,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_6"
+                    ]
                 },
-                "苍茫渡_测试用#112454 (1280 精简 会心 无双)": {
+                "苍茫渡_测试用#112454 (1280 精简 特效 会心 无双)": {
                     "id": 112454,
                     "name": "苍茫渡_测试用",
                     "school": "精简",
@@ -21979,9 +21819,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_6"
+                    ]
                 },
-                "素影寒_测试用#112453 (1280 精简 会心)": {
+                "素影寒_测试用#112453 (1280 精简 特效 会心)": {
                     "id": 112453,
                     "name": "素影寒_测试用",
                     "school": "精简",
@@ -22006,9 +21848,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40791_4"
+                    ]
                 },
-                "霜锋引_测试用#112452 (1280 精简 会心 会效 无双)": {
+                "霜锋引_测试用#112452 (1280 精简 特效 会心 会效 无双)": {
                     "id": 112452,
                     "name": "霜锋引_测试用",
                     "school": "精简",
@@ -22035,7 +21879,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40790_4"
+                    ]
                 },
                 "钦原护腰·迅_测试用#112451 (1280 精简 加速 无双)": {
                     "id": 112451,
@@ -22065,46 +21911,6 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "姑洗护腰·绝_测试用#112450 (1280 精简)": {
-                    "id": 112450,
-                    "name": "姑洗护腰·绝_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "belt",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "应钟护腰·明_测试用#112449 (1280 精简)": {
-                    "id": 112449,
-                    "name": "应钟护腰·明_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "belt",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
                 "长右护腰·觉_测试用#112448 (1280 精简 会心 破防 无双)": {
                     "id": 112448,
                     "name": "长右护腰·觉_测试用",
@@ -22129,26 +21935,6 @@ EQUIPMENTS = {
                         "all_critical_power_base": 225,
                         "magical_attack_power_base": 225
                     },
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "寂歌护腰·引_测试用#112447 (1280 精简)": {
-                    "id": 112447,
-                    "name": "寂歌护腰·引_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "belt",
-                    "level": 1280,
-                    "score": 79,
-                    "max_strength": 6,
-                    "base": {
-                        "physical_shield_base": 21,
-                        "magical_shield_base": 26
-                    },
-                    "magic": {},
-                    "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -22229,7 +22015,7 @@ EQUIPMENTS = {
                         "strain_base": 1152
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -28558,7 +28344,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112788 (1280 精简 会心 破防 无双)": {
+                "无修冠·外·天_测试用#112788 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112788,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28585,9 +28371,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·外·天_测试用#112787 (1280 精简 会心 无双)": {
+                "无修冠·外·天_测试用#112787 (1280 精简 特效 会心 无双)": {
                     "id": 112787,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28613,9 +28401,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·外·天_测试用#112786 (1280 精简 破防 无双)": {
+                "无修冠·外·天_测试用#112786 (1280 精简 特效 破防 无双)": {
                     "id": 112786,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28641,9 +28431,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·外·天_测试用#112704 (1280 精简 会心 破防 无双)": {
+                "无修冠·外·天_测试用#112704 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112704,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28670,9 +28462,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·外·天_测试用#112703 (1280 精简 会心 无双)": {
+                "无修冠·外·天_测试用#112703 (1280 精简 特效 会心 无双)": {
                     "id": 112703,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28698,9 +28492,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·外·天_测试用#112702 (1280 精简 破防 无双)": {
+                "无修冠·外·天_测试用#112702 (1280 精简 特效 破防 无双)": {
                     "id": 112702,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28726,7 +28522,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
                 "无修冠·外·天_测试用#114846 (1220 精简 无双)": {
                     "id": 114846,
@@ -28811,7 +28609,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·外·天_测试用#112776 (1220 精简 无双)": {
+                "无修冠·外·天_测试用#112776 (1220 精简 特效 无双)": {
                     "id": 112776,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28836,9 +28634,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·外·天_测试用#112775 (1220 精简 会心 无双)": {
+                "无修冠·外·天_测试用#112775 (1220 精简 特效 会心 无双)": {
                     "id": 112775,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28864,9 +28664,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·外·天_测试用#112774 (1220 精简 破防 无双)": {
+                "无修冠·外·天_测试用#112774 (1220 精简 特效 破防 无双)": {
                     "id": 112774,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28892,9 +28694,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·外·天_测试用#112692 (1220 精简 无双)": {
+                "无修冠·外·天_测试用#112692 (1220 精简 特效 无双)": {
                     "id": 112692,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28919,9 +28723,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·外·天_测试用#112691 (1220 精简 会心 无双)": {
+                "无修冠·外·天_测试用#112691 (1220 精简 特效 会心 无双)": {
                     "id": 112691,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28947,9 +28753,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·外·天_测试用#112690 (1220 精简 破防 无双)": {
+                "无修冠·外·天_测试用#112690 (1220 精简 特效 破防 无双)": {
                     "id": 112690,
                     "name": "无修冠·外·天_测试用",
                     "school": "精简",
@@ -28975,7 +28783,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 }
             },
             "内功": {
@@ -29064,7 +28874,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112785 (1280 精简 会心 破防 无双)": {
+                "无修冠·内·天_测试用#112785 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112785,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29091,9 +28901,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·内·天_测试用#112784 (1280 精简 会心 无双)": {
+                "无修冠·内·天_测试用#112784 (1280 精简 特效 会心 无双)": {
                     "id": 112784,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29119,9 +28931,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·内·天_测试用#112783 (1280 精简 破防 无双)": {
+                "无修冠·内·天_测试用#112783 (1280 精简 特效 破防 无双)": {
                     "id": 112783,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29147,9 +28961,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·内·天_测试用#112701 (1280 精简 会心 破防 无双)": {
+                "无修冠·内·天_测试用#112701 (1280 精简 特效 会心 破防 无双)": {
                     "id": 112701,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29176,9 +28992,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·内·天_测试用#112700 (1280 精简 会心 无双)": {
+                "无修冠·内·天_测试用#112700 (1280 精简 特效 会心 无双)": {
                     "id": 112700,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29204,9 +29022,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
-                "无修冠·内·天_测试用#112699 (1280 精简 破防 无双)": {
+                "无修冠·内·天_测试用#112699 (1280 精简 特效 破防 无双)": {
                     "id": 112699,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29232,7 +29052,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_10"
+                    ]
                 },
                 "无修冠·内·天_测试用#114843 (1220 精简 无双)": {
                     "id": 114843,
@@ -29253,7 +29075,7 @@ EQUIPMENTS = {
                         "strain_base": 1378
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
@@ -29317,7 +29139,7 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "无修冠·内·天_测试用#112773 (1220 精简 无双)": {
+                "无修冠·内·天_测试用#112773 (1220 精简 特效 无双)": {
                     "id": 112773,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29336,15 +29158,17 @@ EQUIPMENTS = {
                         "strain_base": 1378
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·内·天_测试用#112772 (1220 精简 会心 无双)": {
+                "无修冠·内·天_测试用#112772 (1220 精简 特效 会心 无双)": {
                     "id": 112772,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29370,9 +29194,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·内·天_测试用#112771 (1220 精简 破防 无双)": {
+                "无修冠·内·天_测试用#112771 (1220 精简 特效 破防 无双)": {
                     "id": 112771,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29398,9 +29224,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·内·天_测试用#112689 (1220 精简 无双)": {
+                "无修冠·内·天_测试用#112689 (1220 精简 特效 无双)": {
                     "id": 112689,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29419,15 +29247,17 @@ EQUIPMENTS = {
                         "strain_base": 1378
                     },
                     "embed": {
-                        "all_critical_strike_base": 225,
+                        "magical_overcome_base": 225,
                         "strain_base": 225
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·内·天_测试用#112688 (1220 精简 会心 无双)": {
+                "无修冠·内·天_测试用#112688 (1220 精简 特效 会心 无双)": {
                     "id": 112688,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29453,9 +29283,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 },
-                "无修冠·内·天_测试用#112687 (1220 精简 破防 无双)": {
+                "无修冠·内·天_测试用#112687 (1220 精简 特效 破防 无双)": {
                     "id": 112687,
                     "name": "无修冠·内·天_测试用",
                     "school": "精简",
@@ -29481,7 +29313,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38934_9"
+                    ]
                 }
             }
         },
@@ -39615,7 +39449,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_38578_37"
+                        "gain_38578_36"
                     ]
                 },
                 "洄浏佩_测试用#50004 (1300 会心 无双)": {
@@ -39667,7 +39501,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_38578_37"
+                        "gain_38578_36"
                     ]
                 },
                 "流漓佩_测试用#49895 (1280 会心 无双)": {
@@ -40071,7 +39905,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_38578_37"
+                        "gain_38578_36"
                     ]
                 },
                 "裂贞佩_测试用#50003 (1300 会心 无双)": {
@@ -40123,7 +39957,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_38578_37"
+                        "gain_38578_36"
                     ]
                 },
                 "劲威佩_测试用#49894 (1280 会心 无双)": {
@@ -41498,14 +41332,18 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "spirit_base": 179,
+                        "therapy_power_base": 515
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "紫霞隐_测试用#49953 (1280 精简)": {
+                "紫霞隐_测试用#49953 (1280 精简 会心)": {
                     "id": 49953,
                     "name": "紫霞隐_测试用",
                     "school": "精简",
@@ -41515,14 +41353,19 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "spirit_base": 179,
+                        "therapy_power_base": 284,
+                        "magical_critical_strike_base": 231
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "流泉护_测试用#49952 (1280 精简)": {
+                "流泉护_测试用#49952 (1280 精简 加速)": {
                     "id": 49952,
                     "name": "流泉护_测试用",
                     "school": "精简",
@@ -41532,7 +41375,12 @@ EQUIPMENTS = {
                     "score": 56,
                     "max_strength": 6,
                     "base": {},
-                    "magic": {},
+                    "magic": {
+                        "vitality_base": 337,
+                        "spirit_base": 179,
+                        "therapy_power_base": 284,
+                        "haste_base": 231
+                    },
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -41541,7 +41389,7 @@ EQUIPMENTS = {
                 }
             },
             "外功": {
-                "凤来吟_测试用#49951 (1280 精简 加速)": {
+                "凤来吟_测试用#49951 (1280 精简 特效 加速)": {
                     "id": 49951,
                     "name": "凤来吟_测试用",
                     "school": "精简",
@@ -41560,9 +41408,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_41065_4"
+                    ]
                 },
-                "碧海听_测试用#49950 (1280 精简 会心 破防 无双)": {
+                "碧海听_测试用#49950 (1280 精简 特效 会心 破防 无双)": {
                     "id": 49950,
                     "name": "碧海听_测试用",
                     "school": "精简",
@@ -41583,9 +41433,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40802_4"
+                    ]
                 },
-                "血魄寒_测试用#49949 (1280 精简 破防 无双)": {
+                "血魄寒_测试用#49949 (1280 精简 特效 破防 无双)": {
                     "id": 49949,
                     "name": "血魄寒_测试用",
                     "school": "精简",
@@ -41605,9 +41457,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40802_5"
+                    ]
                 },
-                "孤雁回_测试用#49948 (1280 精简 会心 无双)": {
+                "孤雁回_测试用#49948 (1280 精简 特效 会心 无双)": {
                     "id": 49948,
                     "name": "孤雁回_测试用",
                     "school": "精简",
@@ -41627,9 +41481,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40803_5"
+                    ]
                 },
-                "鹤声遥_测试用#49947 (1280 精简 破防)": {
+                "鹤声遥_测试用#49947 (1280 精简 特效 破防)": {
                     "id": 49947,
                     "name": "鹤声遥_测试用",
                     "school": "精简",
@@ -41648,9 +41504,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40802_5"
+                    ]
                 },
-                "雪封光_测试用#49946 (1280 精简 会心 会效 无双)": {
+                "雪封光_测试用#49946 (1280 精简 特效 会心 会效 无双)": {
                     "id": 49946,
                     "name": "雪封光_测试用",
                     "school": "精简",
@@ -41671,9 +41529,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40803_4"
+                    ]
                 },
-                "孤叶沉_测试用#49945 (1280 精简 会心)": {
+                "孤叶沉_测试用#49945 (1280 精简 特效 会心)": {
                     "id": 49945,
                     "name": "孤叶沉_测试用",
                     "school": "精简",
@@ -41692,7 +41552,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40803_5"
+                    ]
                 },
                 "逐电戒·迅_测试用#49944 (1280 精简 加速)": {
                     "id": 49944,
@@ -41709,40 +41571,6 @@ EQUIPMENTS = {
                         "physical_attack_power_base": 425,
                         "haste_base": 408
                     },
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "霸魄戒·绝_测试用#49943 (1280 精简)": {
-                    "id": 49943,
-                    "name": "霸魄戒·绝_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "ring",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "狂岚戒·明_测试用#49942 (1280 精简)": {
-                    "id": 49942,
-                    "name": "狂岚戒·明_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "ring",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -41766,23 +41594,6 @@ EQUIPMENTS = {
                         "physical_overcome_base": 212,
                         "strain_base": 358
                     },
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "枕流戒·引_测试用#49940 (1280 精简)": {
-                    "id": 49940,
-                    "name": "枕流戒·引_测试用",
-                    "school": "精简",
-                    "kind": "外功",
-                    "position": "ring",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -41856,7 +41667,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "龙影起_测试用#49936 (1280 精简 加速)": {
+                "龙影起_测试用#49936 (1280 精简 特效 加速)": {
                     "id": 49936,
                     "name": "龙影起_测试用",
                     "school": "精简",
@@ -41875,9 +41686,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_41065_4"
+                    ]
                 },
-                "赤阳踏_测试用#49935 (1280 精简 会心 破防 无双)": {
+                "赤阳踏_测试用#49935 (1280 精简 特效 会心 破防 无双)": {
                     "id": 49935,
                     "name": "赤阳踏_测试用",
                     "school": "精简",
@@ -41898,9 +41711,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40802_4"
+                    ]
                 },
-                "墨锋隐_测试用#49934 (1280 精简 破防 无双)": {
+                "墨锋隐_测试用#49934 (1280 精简 特效 破防 无双)": {
                     "id": 49934,
                     "name": "墨锋隐_测试用",
                     "school": "精简",
@@ -41920,9 +41735,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40802_5"
+                    ]
                 },
-                "浪歌行_测试用#49933 (1280 精简 会心 无双)": {
+                "浪歌行_测试用#49933 (1280 精简 特效 会心 无双)": {
                     "id": 49933,
                     "name": "浪歌行_测试用",
                     "school": "精简",
@@ -41942,9 +41759,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40803_5"
+                    ]
                 },
-                "松影静_测试用#49932 (1280 精简 破防)": {
+                "松影静_测试用#49932 (1280 精简 特效 破防)": {
                     "id": 49932,
                     "name": "松影静_测试用",
                     "school": "精简",
@@ -41963,9 +41782,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40802_5"
+                    ]
                 },
-                "梦冷星_测试用#49931 (1280 精简 会心 会效 无双)": {
+                "梦冷星_测试用#49931 (1280 精简 特效 会心 会效 无双)": {
                     "id": 49931,
                     "name": "梦冷星_测试用",
                     "school": "精简",
@@ -41986,9 +41807,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40803_4"
+                    ]
                 },
-                "残霞卷_测试用#49930 (1280 精简 会心)": {
+                "残霞卷_测试用#49930 (1280 精简 特效 会心)": {
                     "id": 49930,
                     "name": "残霞卷_测试用",
                     "school": "精简",
@@ -42007,7 +41830,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_40803_5"
+                    ]
                 },
                 "愁予戒·迅_测试用#49929 (1280 精简 加速)": {
                     "id": 49929,
@@ -42024,40 +41849,6 @@ EQUIPMENTS = {
                         "magical_attack_power_base": 425,
                         "haste_base": 408
                     },
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "寂光戒·绝_测试用#49928 (1280 精简)": {
-                    "id": 49928,
-                    "name": "寂光戒·绝_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "ring",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "真寰戒·明_测试用#49927 (1280 精简)": {
-                    "id": 49927,
-                    "name": "真寰戒·明_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "ring",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -42081,23 +41872,6 @@ EQUIPMENTS = {
                         "magical_overcome_base": 212,
                         "strain_base": 358
                     },
-                    "embed": {},
-                    "set_id": 0,
-                    "sets": {},
-                    "recipes": [],
-                    "gains": []
-                },
-                "真寰戒·引_测试用#49925 (1280 精简)": {
-                    "id": 49925,
-                    "name": "真寰戒·引_测试用",
-                    "school": "精简",
-                    "kind": "内功",
-                    "position": "ring",
-                    "level": 1280,
-                    "score": 56,
-                    "max_strength": 6,
-                    "base": {},
-                    "magic": {},
                     "embed": {},
                     "set_id": 0,
                     "sets": {},
@@ -46827,7 +46601,7 @@ EQUIPMENTS = {
         },
         "精简": {
             "外功": {
-                "无修项链·外·天_测试用#51518 (1280 精简 加速)": {
+                "无修项链·外·天_测试用#51518 (1280 精简 特效 加速)": {
                     "id": 51518,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46848,9 +46622,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·外·天_测试用#51504 (1280 精简 加速)": {
+                "无修项链·外·天_测试用#51504 (1280 精简 特效 加速)": {
                     "id": 51504,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46871,9 +46647,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·外·天_测试用#51490 (1280 精简 会心 破防 无双)": {
+                "无修项链·外·天_测试用#51490 (1280 精简 特效 会心 破防 无双)": {
                     "id": 51490,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46896,9 +46674,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_12"
+                    ]
                 },
-                "无修项链·外·天_测试用#51489 (1280 精简 破防 无双)": {
+                "无修项链·外·天_测试用#51489 (1280 精简 特效 破防 无双)": {
                     "id": 51489,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46920,9 +46700,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·外·天_测试用#51488 (1280 精简 会心 无双)": {
+                "无修项链·外·天_测试用#51488 (1280 精简 特效 会心 无双)": {
                     "id": 51488,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46944,9 +46726,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_10"
+                    ]
                 },
-                "无修项链·外·天_测试用#51448 (1280 精简 会心 破防 无双)": {
+                "无修项链·外·天_测试用#51448 (1280 精简 特效 会心 破防 无双)": {
                     "id": 51448,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46969,9 +46753,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_12"
+                    ]
                 },
-                "无修项链·外·天_测试用#51447 (1280 精简 破防 无双)": {
+                "无修项链·外·天_测试用#51447 (1280 精简 特效 破防 无双)": {
                     "id": 51447,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -46993,9 +46779,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·外·天_测试用#51446 (1280 精简 会心 无双)": {
+                "无修项链·外·天_测试用#51446 (1280 精简 特效 会心 无双)": {
                     "id": 51446,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47017,9 +46805,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_10"
+                    ]
                 },
-                "无修项链·外·天_测试用#51516 (1220 精简 加速)": {
+                "无修项链·外·天_测试用#51516 (1220 精简 特效 加速)": {
                     "id": 51516,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47040,9 +46830,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_11"
+                    ]
                 },
-                "无修项链·外·天_测试用#51502 (1220 精简 加速)": {
+                "无修项链·外·天_测试用#51502 (1220 精简 特效 加速)": {
                     "id": 51502,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47063,9 +46855,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_11"
+                    ]
                 },
-                "无修项链·外·天_测试用#51484 (1220 精简 会心 破防 无双)": {
+                "无修项链·外·天_测试用#51484 (1220 精简 特效 会心 破防 无双)": {
                     "id": 51484,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47088,9 +46882,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_9"
+                    ]
                 },
-                "无修项链·外·天_测试用#51483 (1220 精简 破防 无双)": {
+                "无修项链·外·天_测试用#51483 (1220 精简 特效 破防 无双)": {
                     "id": 51483,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47112,9 +46908,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_10"
+                    ]
                 },
-                "无修项链·外·天_测试用#51482 (1220 精简 会心 无双)": {
+                "无修项链·外·天_测试用#51482 (1220 精简 特效 会心 无双)": {
                     "id": 51482,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47136,9 +46934,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_9"
+                    ]
                 },
-                "无修项链·外·天_测试用#51442 (1220 精简 会心 破防 无双)": {
+                "无修项链·外·天_测试用#51442 (1220 精简 特效 会心 破防 无双)": {
                     "id": 51442,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47161,9 +46961,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_9"
+                    ]
                 },
-                "无修项链·外·天_测试用#51441 (1220 精简 破防 无双)": {
+                "无修项链·外·天_测试用#51441 (1220 精简 特效 破防 无双)": {
                     "id": 51441,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47185,9 +46987,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_10"
+                    ]
                 },
-                "无修项链·外·天_测试用#51440 (1220 精简 会心 无双)": {
+                "无修项链·外·天_测试用#51440 (1220 精简 特效 会心 无双)": {
                     "id": 51440,
                     "name": "无修项链·外·天_测试用",
                     "school": "精简",
@@ -47209,7 +47013,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_9"
+                    ]
                 },
                 "无修项链·外·天_测试用#51514 (1160 精简 加速)": {
                     "id": 51514,
@@ -47981,7 +47787,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "无修项链·内·天_测试用#51517 (1280 精简 加速)": {
+                "无修项链·内·天_测试用#51517 (1280 精简 特效 加速)": {
                     "id": 51517,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48002,9 +47808,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·内·天_测试用#51503 (1280 精简 加速)": {
+                "无修项链·内·天_测试用#51503 (1280 精简 特效 加速)": {
                     "id": 51503,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48025,9 +47833,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·内·天_测试用#51487 (1280 精简 会心 破防 无双)": {
+                "无修项链·内·天_测试用#51487 (1280 精简 特效 会心 破防 无双)": {
                     "id": 51487,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48050,9 +47860,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_12"
+                    ]
                 },
-                "无修项链·内·天_测试用#51486 (1280 精简 破防 无双)": {
+                "无修项链·内·天_测试用#51486 (1280 精简 特效 破防 无双)": {
                     "id": 51486,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48074,9 +47886,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·内·天_测试用#51485 (1280 精简 会心 无双)": {
+                "无修项链·内·天_测试用#51485 (1280 精简 特效 会心 无双)": {
                     "id": 51485,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48098,9 +47912,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_10"
+                    ]
                 },
-                "无修项链·内·天_测试用#51445 (1280 精简 会心 破防 无双)": {
+                "无修项链·内·天_测试用#51445 (1280 精简 特效 会心 破防 无双)": {
                     "id": 51445,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48123,9 +47939,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_12"
+                    ]
                 },
-                "无修项链·内·天_测试用#51444 (1280 精简 破防 无双)": {
+                "无修项链·内·天_测试用#51444 (1280 精简 特效 破防 无双)": {
                     "id": 51444,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48147,9 +47965,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_13"
+                    ]
                 },
-                "无修项链·内·天_测试用#51443 (1280 精简 会心 无双)": {
+                "无修项链·内·天_测试用#51443 (1280 精简 特效 会心 无双)": {
                     "id": 51443,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48171,9 +47991,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_10"
+                    ]
                 },
-                "无修项链·内·天_测试用#51515 (1220 精简 加速)": {
+                "无修项链·内·天_测试用#51515 (1220 精简 特效 加速)": {
                     "id": 51515,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48194,9 +48016,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_11"
+                    ]
                 },
-                "无修项链·内·天_测试用#51501 (1220 精简 加速)": {
+                "无修项链·内·天_测试用#51501 (1220 精简 特效 加速)": {
                     "id": 51501,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48217,9 +48041,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_11"
+                    ]
                 },
-                "无修项链·内·天_测试用#51481 (1220 精简 会心 破防 无双)": {
+                "无修项链·内·天_测试用#51481 (1220 精简 特效 会心 破防 无双)": {
                     "id": 51481,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48242,9 +48068,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_9"
+                    ]
                 },
-                "无修项链·内·天_测试用#51480 (1220 精简 破防 无双)": {
+                "无修项链·内·天_测试用#51480 (1220 精简 特效 破防 无双)": {
                     "id": 51480,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48266,9 +48094,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_10"
+                    ]
                 },
-                "无修项链·内·天_测试用#51479 (1220 精简 会心 无双)": {
+                "无修项链·内·天_测试用#51479 (1220 精简 特效 会心 无双)": {
                     "id": 51479,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48290,9 +48120,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_9"
+                    ]
                 },
-                "无修项链·内·天_测试用#51439 (1220 精简 会心 破防 无双)": {
+                "无修项链·内·天_测试用#51439 (1220 精简 特效 会心 破防 无双)": {
                     "id": 51439,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48315,9 +48147,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_9"
+                    ]
                 },
-                "无修项链·内·天_测试用#51438 (1220 精简 破防 无双)": {
+                "无修项链·内·天_测试用#51438 (1220 精简 特效 破防 无双)": {
                     "id": 51438,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48339,9 +48173,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38946_10"
+                    ]
                 },
-                "无修项链·内·天_测试用#51437 (1220 精简 会心 无双)": {
+                "无修项链·内·天_测试用#51437 (1220 精简 特效 会心 无双)": {
                     "id": 51437,
                     "name": "无修项链·内·天_测试用",
                     "school": "精简",
@@ -48363,7 +48199,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38945_9"
+                    ]
                 },
                 "无修项链·内·天_测试用#51513 (1160 精简 加速)": {
                     "id": 51513,
@@ -49139,7 +48977,7 @@ EQUIPMENTS = {
     "tertiary_weapon": {
         "精简": {
             "外功": {
-                "无修囊·外·天_测试用#48053 (1280 精简 加速)": {
+                "无修囊·外·天_测试用#48053 (1280 精简 特效 加速)": {
                     "id": 48053,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49160,9 +48998,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·外·天_测试用#48039 (1280 精简 加速)": {
+                "无修囊·外·天_测试用#48039 (1280 精简 特效 加速)": {
                     "id": 48039,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49183,9 +49023,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·外·天_测试用#48025 (1280 精简 会心 会效 无双)": {
+                "无修囊·外·天_测试用#48025 (1280 精简 特效 会心 会效 无双)": {
                     "id": 48025,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49208,9 +49050,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_13"
+                    ]
                 },
-                "无修囊·外·天_测试用#48024 (1280 精简 破防 无双)": {
+                "无修囊·外·天_测试用#48024 (1280 精简 特效 破防 无双)": {
                     "id": 48024,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49232,9 +49076,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·外·天_测试用#48023 (1280 精简 会心 无双)": {
+                "无修囊·外·天_测试用#48023 (1280 精简 特效 会心 无双)": {
                     "id": 48023,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49256,9 +49102,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·外·天_测试用#47983 (1280 精简 会心 会效 无双)": {
+                "无修囊·外·天_测试用#47983 (1280 精简 特效 会心 会效 无双)": {
                     "id": 47983,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49281,9 +49129,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_13"
+                    ]
                 },
-                "无修囊·外·天_测试用#47982 (1280 精简 破防 无双)": {
+                "无修囊·外·天_测试用#47982 (1280 精简 特效 破防 无双)": {
                     "id": 47982,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49305,9 +49155,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·外·天_测试用#47981 (1280 精简 会心 无双)": {
+                "无修囊·外·天_测试用#47981 (1280 精简 特效 会心 无双)": {
                     "id": 47981,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49329,9 +49181,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·外·天_测试用#48051 (1220 精简 加速)": {
+                "无修囊·外·天_测试用#48051 (1220 精简 特效 加速)": {
                     "id": 48051,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49352,9 +49206,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_12"
+                    ]
                 },
-                "无修囊·外·天_测试用#48037 (1220 精简 加速)": {
+                "无修囊·外·天_测试用#48037 (1220 精简 特效 加速)": {
                     "id": 48037,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49375,9 +49231,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_12"
+                    ]
                 },
-                "无修囊·外·天_测试用#48019 (1220 精简 会心 会效 无双)": {
+                "无修囊·外·天_测试用#48019 (1220 精简 特效 会心 会效 无双)": {
                     "id": 48019,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49400,9 +49258,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_9"
+                    ]
                 },
-                "无修囊·外·天_测试用#48018 (1220 精简 破防 无双)": {
+                "无修囊·外·天_测试用#48018 (1220 精简 特效 破防 无双)": {
                     "id": 48018,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49424,9 +49284,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_11"
+                    ]
                 },
-                "无修囊·外·天_测试用#48017 (1220 精简 会心 无双)": {
+                "无修囊·外·天_测试用#48017 (1220 精简 特效 会心 无双)": {
                     "id": 48017,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49448,9 +49310,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_10"
+                    ]
                 },
-                "无修囊·外·天_测试用#47977 (1220 精简 会心 会效 无双)": {
+                "无修囊·外·天_测试用#47977 (1220 精简 特效 会心 会效 无双)": {
                     "id": 47977,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49473,9 +49337,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_9"
+                    ]
                 },
-                "无修囊·外·天_测试用#47976 (1220 精简 破防 无双)": {
+                "无修囊·外·天_测试用#47976 (1220 精简 特效 破防 无双)": {
                     "id": 47976,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49497,9 +49363,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_11"
+                    ]
                 },
-                "无修囊·外·天_测试用#47975 (1220 精简 会心 无双)": {
+                "无修囊·外·天_测试用#47975 (1220 精简 特效 会心 无双)": {
                     "id": 47975,
                     "name": "无修囊·外·天_测试用",
                     "school": "精简",
@@ -49521,7 +49389,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_10"
+                    ]
                 },
                 "无修囊·外·天_测试用#48049 (1160 精简 加速)": {
                     "id": 48049,
@@ -50293,7 +50163,7 @@ EQUIPMENTS = {
                 }
             },
             "内功": {
-                "无修囊·内·天_测试用#48052 (1280 精简 加速)": {
+                "无修囊·内·天_测试用#48052 (1280 精简 特效 加速)": {
                     "id": 48052,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50314,9 +50184,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·内·天_测试用#48038 (1280 精简 加速)": {
+                "无修囊·内·天_测试用#48038 (1280 精简 特效 加速)": {
                     "id": 48038,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50337,9 +50209,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·内·天_测试用#48022 (1280 精简 会心 会效 无双)": {
+                "无修囊·内·天_测试用#48022 (1280 精简 特效 会心 会效 无双)": {
                     "id": 48022,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50362,9 +50236,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_13"
+                    ]
                 },
-                "无修囊·内·天_测试用#48021 (1280 精简 破防 无双)": {
+                "无修囊·内·天_测试用#48021 (1280 精简 特效 破防 无双)": {
                     "id": 48021,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50386,9 +50262,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·内·天_测试用#48020 (1280 精简 会心 无双)": {
+                "无修囊·内·天_测试用#48020 (1280 精简 特效 会心 无双)": {
                     "id": 48020,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50410,9 +50288,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·内·天_测试用#47980 (1280 精简 会心 会效 无双)": {
+                "无修囊·内·天_测试用#47980 (1280 精简 特效 会心 会效 无双)": {
                     "id": 47980,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50435,9 +50315,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_13"
+                    ]
                 },
-                "无修囊·内·天_测试用#47979 (1280 精简 破防 无双)": {
+                "无修囊·内·天_测试用#47979 (1280 精简 特效 破防 无双)": {
                     "id": 47979,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50459,9 +50341,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·内·天_测试用#47978 (1280 精简 会心 无双)": {
+                "无修囊·内·天_测试用#47978 (1280 精简 特效 会心 无双)": {
                     "id": 47978,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50483,9 +50367,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_14"
+                    ]
                 },
-                "无修囊·内·天_测试用#48050 (1220 精简 加速)": {
+                "无修囊·内·天_测试用#48050 (1220 精简 特效 加速)": {
                     "id": 48050,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50506,9 +50392,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_12"
+                    ]
                 },
-                "无修囊·内·天_测试用#48036 (1220 精简 加速)": {
+                "无修囊·内·天_测试用#48036 (1220 精简 特效 加速)": {
                     "id": 48036,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50529,9 +50417,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_12"
+                    ]
                 },
-                "无修囊·内·天_测试用#48016 (1220 精简 会心 会效 无双)": {
+                "无修囊·内·天_测试用#48016 (1220 精简 特效 会心 会效 无双)": {
                     "id": 48016,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50554,9 +50444,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_9"
+                    ]
                 },
-                "无修囊·内·天_测试用#48015 (1220 精简 破防 无双)": {
+                "无修囊·内·天_测试用#48015 (1220 精简 特效 破防 无双)": {
                     "id": 48015,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50578,9 +50470,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_11"
+                    ]
                 },
-                "无修囊·内·天_测试用#48014 (1220 精简 会心 无双)": {
+                "无修囊·内·天_测试用#48014 (1220 精简 特效 会心 无双)": {
                     "id": 48014,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50602,9 +50496,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_10"
+                    ]
                 },
-                "无修囊·内·天_测试用#47974 (1220 精简 会心 会效 无双)": {
+                "无修囊·内·天_测试用#47974 (1220 精简 特效 会心 会效 无双)": {
                     "id": 47974,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50627,9 +50523,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_9"
+                    ]
                 },
-                "无修囊·内·天_测试用#47973 (1220 精简 破防 无双)": {
+                "无修囊·内·天_测试用#47973 (1220 精简 特效 破防 无双)": {
                     "id": 47973,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50651,9 +50549,11 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_11"
+                    ]
                 },
-                "无修囊·内·天_测试用#47972 (1220 精简 会心 无双)": {
+                "无修囊·内·天_测试用#47972 (1220 精简 特效 会心 无双)": {
                     "id": 47972,
                     "name": "无修囊·内·天_测试用",
                     "school": "精简",
@@ -50675,7 +50575,9 @@ EQUIPMENTS = {
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
-                    "gains": []
+                    "gains": [
+                        "gain_38950_10"
+                    ]
                 },
                 "无修囊·内·天_测试用#48048 (1160 精简 加速)": {
                     "id": 48048,
@@ -55617,7 +55519,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "操术弓_测试用#46702 (1280 加速 无双)": {
@@ -56438,7 +56340,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "哀霜刀_测试用#46701 (1280 加速 无双)": {
@@ -59685,7 +59587,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "神行链刃_测试用#46697 (1280 加速 无双)": {
@@ -60506,7 +60408,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "玄篁伞_测试用#46696 (1280 加速 无双)": {
@@ -61327,7 +61229,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "诸刃刀_测试用#46695 (1280 加速 无双)": {
@@ -64690,7 +64592,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "铁衣盾刀_测试用#46691 (1280 加速 无双)": {
@@ -67269,7 +67171,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "百衲棒_测试用#46688 (1280 加速 无双)": {
@@ -68090,7 +67992,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "金铮轻剑_测试用#46705 (1280 加速 无双)": {
@@ -69031,7 +68933,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "幽伏弩_测试用#46685 (1280 加速 无双)": {
@@ -73881,7 +73783,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "破法剑_测试用#46679 (1280 加速 无双)": {
@@ -76458,7 +76360,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "汗青枪_测试用#46676 (1280 加速 无双)": {
@@ -80644,7 +80546,7 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": [
-                        "gain_4877_88"
+                        "gain_4877_87"
                     ]
                 },
                 "金铮重剑_测试用#46706 (1280 加速 无双)": {

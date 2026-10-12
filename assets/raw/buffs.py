@@ -2719,7 +2719,7 @@ BUFFS = {
                 }
             }
         },
-        25794: {
+        1855: {
             1920: {
                 9: {
                     "name": "降魔境",
@@ -2732,7 +2732,7 @@ BUFFS = {
                 }
             }
         },
-        25766: {
+        1854: {
             1919: {
                 9: {
                     "name": "昭佛光",
@@ -2745,7 +2745,7 @@ BUFFS = {
                 }
             }
         },
-        25770: {
+        1853: {
             1916: {
                 9: {
                     "name": "仙灵",
@@ -2758,7 +2758,7 @@ BUFFS = {
                 }
             }
         },
-        25771: {
+        1852: {
             1915: {
                 9: {
                     "name": "镇恶",
@@ -2771,7 +2771,7 @@ BUFFS = {
                 }
             }
         },
-        25772: {
+        1850: {
             1911: {
                 9: {
                     "name": "掠炎",
@@ -2784,7 +2784,7 @@ BUFFS = {
                 }
             }
         },
-        25779: {
+        6950: {
             6466: {
                 9: {
                     "name": "暴龙震江",
@@ -2799,9 +2799,9 @@ BUFFS = {
                 }
             }
         },
-        25797: {
+        13410: {
             8474: {
-                16: {
+                20: {
                     "name": "驭焰",
                     "interval": 4,
                     "max_stack": 1,
@@ -2812,20 +2812,7 @@ BUFFS = {
                 }
             }
         },
-        25780: {
-            8474: {
-                16: {
-                    "name": "驭焰",
-                    "interval": 4,
-                    "max_stack": 1,
-                    "max_tick": 16,
-                    "recipes": [
-                        "recipe_1941_1"
-                    ]
-                }
-            }
-        },
-        25782: {
+        16984: {
             11376: {
                 9: {
                     "name": "碧血豪侠",
@@ -2838,7 +2825,7 @@ BUFFS = {
                 }
             }
         },
-        33239: {
+        33238: {
             32797: {
                 1: {
                     "name": "橙武增伤",
@@ -2851,6 +2838,276 @@ BUFFS = {
                 }
             }
         },
+        38939: {
+            29524: {
+                9: {
+                    "name": "会心鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 124
+                    }
+                },
+                10: {
+                    "name": "会心鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 130
+                    }
+                }
+            }
+        },
+        38944: {
+            29526: {
+                9: {
+                    "name": "破防鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 124
+                    }
+                },
+                10: {
+                    "name": "破防鞋子特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 130
+                    }
+                }
+            }
+        },
+        40790: {
+            30742: {
+                4: {
+                    "name": "多属性腰带特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 188,
+                        "all_overcome_base": 188
+                    }
+                },
+                5: {
+                    "name": "多属性腰带特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 235,
+                        "all_overcome_base": 235
+                    }
+                },
+                6: {
+                    "name": "多属性腰带特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 258,
+                        "all_overcome_base": 258
+                    }
+                }
+            }
+        },
+        40791: {
+            30743: {
+                9: {
+                    "name": "单属性腰带特效",
+                    "comment": "会心",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 516
+                    }
+                },
+                10: {
+                    "name": "单属性腰带特效",
+                    "comment": "破防",
+                    "interval": 320,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 516
+                    }
+                }
+            }
+        },
+        38934: {
+            29519: {
+                25: {
+                    "name": "帽子特效",
+                    "comment": "破防",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 72
+                    }
+                },
+                26: {
+                    "name": "帽子特效",
+                    "comment": "会心",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 72
+                    }
+                },
+                28: {
+                    "name": "帽子特效",
+                    "comment": "破防",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 75
+                    }
+                },
+                29: {
+                    "name": "帽子特效",
+                    "comment": "会心",
+                    "interval": 1,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 75
+                    }
+                }
+            }
+        },
+        41065: {
+            30950: {
+                7: {
+                    "name": "加速戒指特效",
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "strain_base": 42
+                    }
+                }
+            }
+        },
+        40802: {
+            30755: {
+                7: {
+                    "name": "破防戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 335
+                    }
+                },
+                9: {
+                    "name": "破防戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_overcome_base": 369
+                    }
+                }
+            }
+        },
+        40803: {
+            30756: {
+                7: {
+                    "name": "会心戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 268
+                    }
+                },
+                9: {
+                    "name": "会心戒指特效",
+                    "interval": 160,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_strike_base": 369
+                    }
+                }
+            }
+        },
+        38946: {
+            29529: {
+                9: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 160,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 2
+                    }
+                },
+                10: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 175,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 2
+                    }
+                },
+                11: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 40,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 1
+                    }
+                },
+                12: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 170,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 2
+                    }
+                },
+                13: {
+                    "name": "破防项链特效",
+                    "interval": 1,
+                    "max_stack": 40,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 1
+                    }
+                }
+            }
+        },
+        38945: {
+            29528: {
+                9: {
+                    "name": "会心项链特效",
+                    "interval": 1,
+                    "max_stack": 175,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 2
+                    }
+                },
+                10: {
+                    "name": "会心项链特效",
+                    "interval": 1,
+                    "max_stack": 40,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_critical_power_base": 1
+                    }
+                }
+            }
+        },
         4877: {
             4761: {
                 87: {
@@ -2859,7 +3116,7 @@ BUFFS = {
                     "max_stack": 10,
                     "max_tick": 1,
                     "attributes": {
-                        "magical_attack_power_base": 22
+                        "all_attack_power_base": 22
                     }
                 },
                 88: {
@@ -2881,16 +3138,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "magical_overcome_base": 931
-                    }
-                },
-                37: {
-                    "name": "风·斩流",
-                    "interval": 240,
-                    "max_stack": 1,
-                    "max_tick": 1,
-                    "attributes": {
-                        "physical_overcome_base": 931
+                        "all_overcome_base": 931
                     }
                 }
             }
@@ -2898,7 +3146,7 @@ BUFFS = {
         10106: {
             15436: {
                 18: {
-                    "name": "输出头大附魔",
+                    "name": "头大附魔",
                     "interval": 480,
                     "max_stack": 1,
                     "max_tick": 1,
@@ -2907,7 +3155,7 @@ BUFFS = {
                     }
                 },
                 19: {
-                    "name": "输出头大附魔",
+                    "name": "头大附魔",
                     "interval": 480,
                     "max_stack": 1,
                     "max_tick": 1,
@@ -2920,7 +3168,7 @@ BUFFS = {
         22169: {
             15455: {
                 1: {
-                    "name": "输出腰大附魔",
+                    "name": "腰大附魔",
                     "comment": "1%",
                     "interval": 128,
                     "max_stack": 1,
@@ -2930,27 +3178,13 @@ BUFFS = {
                     }
                 },
                 2: {
-                    "name": "输出腰大附魔",
+                    "name": "腰大附魔",
                     "comment": "5%",
                     "interval": 128,
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
                         "all_damage_gain": 51
-                    }
-                }
-            }
-        },
-        46465: {
-            24767: {
-                2: {
-                    "name": "昆吾·御·腕",
-                    "interval": 80,
-                    "max_stack": 1,
-                    "max_tick": 1,
-                    "attributes": {
-                        "physical_damage_gain": 50,
-                        "magical_damage_gain": 50
                     }
                 }
             }

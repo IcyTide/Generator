@@ -67,6 +67,12 @@
                 "attr_type": "haste_base",
                 "value": 490,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -148,6 +154,12 @@
                 "attr_type": "haste_base",
                 "value": 490,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -229,6 +241,12 @@
                 "attr_type": "haste_base",
                 "value": 490,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -310,6 +328,12 @@
                 "attr_type": "haste_base",
                 "value": 490,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -403,6 +427,12 @@
                 "attr_type": "strain_base",
                 "value": 472,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_13",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -490,6 +520,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -577,6 +613,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -670,6 +712,12 @@
                 "attr_type": "strain_base",
                 "value": 472,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_13",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -757,6 +805,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -844,6 +898,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -937,6 +997,12 @@
                 "attr_type": "strain_base",
                 "value": 472,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_13",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1024,6 +1090,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1111,6 +1183,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1204,6 +1282,12 @@
                 "attr_type": "strain_base",
                 "value": 472,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_13",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1291,6 +1375,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1378,6 +1468,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_14",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3223,6 +3319,12 @@
                 "attr_type": "haste_base",
                 "value": 467,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_12",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3304,6 +3406,12 @@
                 "attr_type": "haste_base",
                 "value": 467,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_12",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3385,6 +3493,12 @@
                 "attr_type": "haste_base",
                 "value": 467,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_12",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3466,6 +3580,12 @@
                 "attr_type": "haste_base",
                 "value": 467,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_12",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3559,6 +3679,12 @@
                 "attr_type": "strain_base",
                 "value": 439,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_9",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3646,6 +3772,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_11",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3733,6 +3865,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_10",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3826,6 +3964,12 @@
                 "attr_type": "strain_base",
                 "value": 439,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_9",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3913,6 +4057,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_11",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4000,6 +4150,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_10",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4093,6 +4249,12 @@
                 "attr_type": "strain_base",
                 "value": 439,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_9",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4180,6 +4342,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_11",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4267,6 +4435,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_10",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4360,6 +4534,12 @@
                 "attr_type": "strain_base",
                 "value": 439,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_9",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4447,6 +4627,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_11",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -4534,6 +4720,12 @@
                 "attr_type": "strain_base",
                 "value": 519,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38950_10",
+                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -45537,7 +45729,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -45630,7 +45822,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -45722,8 +45914,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -45815,8 +46007,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -45996,7 +46188,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46089,7 +46281,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46181,8 +46373,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46274,8 +46466,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46367,8 +46559,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46548,7 +46740,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46727,8 +46919,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -46908,7 +47100,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47000,8 +47192,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47093,8 +47285,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47186,8 +47378,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47279,8 +47471,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47373,7 +47565,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47553,7 +47745,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47733,7 +47925,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47825,8 +48017,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -47919,7 +48111,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48098,8 +48290,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_4877_88",
-                "desc": "<Text>text=\"装备：命中后获得水·斩流气劲，自身提升外功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "value": "gain_4877_87",
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48279,7 +48471,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48459,7 +48651,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4877_87",
-                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升内功攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
+                "desc": "<Text>text=\"装备：命中后获得水·灭虚气劲，自身提升全攻击，可叠加十层，持续6秒。不可与该类其他气劲并存。名剑大会中无法生效。\\\\\" font=101 </text>"
             }
         ],
         "embed": [

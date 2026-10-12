@@ -14,8 +14,8 @@ class BaseChain:
     target: "Attribute"
     skill: "Skill"
 
-    critical_strike: float | Expression
-    critical_power: float | Expression
+    critical_strike: float | Expression = 0.
+    critical_power: float | Expression = 0.
     skill_attribute: dict[str, int | float | Expression]
     critical_attribute: dict[str, int | float | Expression]
     source_attribute: dict[str, int | Expression]
@@ -40,7 +40,7 @@ class BaseChain:
         critical_strike = Variable(f"{self.source.critical_type}_critical_strike")
         if offset or resist_offset:
             critical_strike += offset - resist_offset
-            critical_strike = Min(critical_strike, MAX_CRITICAL_STRIKE)
+            # critical_strike = Min(critical_strike, MAX_CRITICAL_STRIKE)
         return critical_strike
 
     def set_custom_damage(self):
@@ -254,6 +254,7 @@ class BaseChain:
     def cal_critical_power(self, damage: Expression):
         if not self.source.critical_type:
             return damage
+        self.critical_strike = self.set_critical_strike()
         critical_power = self.set_critical_power()
         if self.skill.is_frost:
             damage = damage * (1 + self.critical_strike * (critical_power - 1))
@@ -336,10 +337,6 @@ class BaseCallChain(BaseChain):
         self.damages, self.source_attributes, self.target_attributes = [], [], []
         self.skill_attribute, self.critical_attribute = {}, {}
         self.source.critical_type = self.skill.kind_type
-        if self.source.critical_type:
-            self.critical_strike = self.set_critical_strike()
-        else:
-            self.critical_strike = 0
 
     def init_damage(self):
         self.source_attribute = {}

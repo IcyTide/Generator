@@ -1453,7 +1453,26 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 722,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atTherapyPowerBase",
@@ -1503,7 +1522,32 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 324,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atMagicCriticalStrike",
@@ -1553,7 +1597,32 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 324,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atSpiritBase",
@@ -1627,6 +1696,12 @@
                 "attr_type": "strain_base",
                 "value": 626,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_42767_3",
+                "desc": "<Text>text=\"命中目标将附带一段持续伤害，持续10秒，且会根据自身加速等级延长持续伤害时间（存在上限），该效果每40秒最多且同类效果只触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1708,6 +1783,12 @@
                 "attr_type": "strain_base",
                 "value": 301,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_5",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1777,6 +1858,12 @@
                 "attr_type": "physical_overcome_base",
                 "value": 438,
                 "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_7",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1852,6 +1939,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_7",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -1927,6 +2020,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_6",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2008,6 +2107,12 @@
                 "attr_type": "strain_base",
                 "value": 551,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_4",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2077,6 +2182,12 @@
                 "attr_type": "physical_critical_strike_base",
                 "value": 438,
                 "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_6",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2171,80 +2282,6 @@
         "set_id": 0,
         "sets": {}
     },
-    "112495": {
-        "id": 112495,
-        "name": "斜空护腕·绝_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "wrist",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27407,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 37,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 29,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112494": {
-        "id": 112494,
-        "name": "肃寒护腕·明_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "wrist",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27407,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 37,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 29,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
     "112493": {
         "id": 112493,
         "name": "荒泽护腕·觉_测试用",
@@ -2323,43 +2360,6 @@
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             }
         ],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112492": {
-        "id": 112492,
-        "name": "野渡护腕·引_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "wrist",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27407,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 37,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 29,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
         "set_id": 0,
         "sets": {}
     },
@@ -2638,6 +2638,12 @@
                 "attr_type": "strain_base",
                 "value": 626,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_42767_3",
+                "desc": "<Text>text=\"命中目标将附带一段持续伤害，持续10秒，且会根据自身加速等级延长持续伤害时间（存在上限），该效果每40秒最多且同类效果只触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2719,6 +2725,12 @@
                 "attr_type": "strain_base",
                 "value": 301,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_5",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2788,6 +2800,12 @@
                 "attr_type": "magical_overcome_base",
                 "value": 438,
                 "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_7",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2863,6 +2881,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_7",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -2938,6 +2962,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_6",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3019,6 +3049,12 @@
                 "attr_type": "strain_base",
                 "value": 551,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_4",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3088,6 +3124,12 @@
                 "attr_type": "all_critical_strike_base",
                 "value": 438,
                 "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40788_6",
+                "desc": "<Text>text=\"若自身生命值高于最大生命值的75%，则命中目标后对目标造成一次伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3182,80 +3224,6 @@
         "set_id": 0,
         "sets": {}
     },
-    "112480": {
-        "id": 112480,
-        "name": "暗涌护腕·绝_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "wrist",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27407,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 29,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 37,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112479": {
-        "id": 112479,
-        "name": "哭雾护腕·明_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "wrist",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27407,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 29,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 37,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
     "112478": {
         "id": 112478,
         "name": "尘霜护腕·觉_测试用",
@@ -3334,43 +3302,6 @@
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             }
         ],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112477": {
-        "id": 112477,
-        "name": "夜冤护腕·引_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "wrist",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27407,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 29,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 37,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
         "set_id": 0,
         "sets": {}
     },
@@ -3578,10 +3509,10 @@
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -19168,10 +19099,10 @@
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -19899,6 +19830,12 @@
                 "attr_type": "strain_base",
                 "value": 1152,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19974,6 +19911,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20049,6 +19992,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20118,14 +20067,20 @@
                 "attr_type": "strain_base",
                 "value": 1152,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -20193,6 +20148,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20268,6 +20229,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20337,6 +20304,12 @@
                 "attr_type": "strain_base",
                 "value": 1152,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20412,6 +20385,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20487,6 +20466,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20556,14 +20541,20 @@
                 "attr_type": "strain_base",
                 "value": 1152,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -20631,6 +20622,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20706,6 +20703,12 @@
                 "attr_type": "strain_base",
                 "value": 751,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_10",
+                "desc": "<Text>text=\"命中目标后提升自身130点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -25903,6 +25906,12 @@
                 "attr_type": "strain_base",
                 "value": 466,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -25978,6 +25987,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26053,6 +26068,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26134,6 +26155,12 @@
                 "attr_type": "strain_base",
                 "value": 466,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26209,6 +26236,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26284,6 +26317,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26365,6 +26404,12 @@
                 "attr_type": "strain_base",
                 "value": 466,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26440,6 +26485,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26515,6 +26566,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26596,6 +26653,12 @@
                 "attr_type": "strain_base",
                 "value": 466,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26671,6 +26734,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38939_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点会心等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -26746,6 +26815,12 @@
                 "attr_type": "strain_base",
                 "value": 559,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38944_9",
+                "desc": "<Text>text=\"命中目标后提升自身124点破防等级，持续10秒，持续期间受到超过最大气血值30%的伤害则效果提前结束，该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -38399,7 +38474,26 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 358,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 1031,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atMagicCriticalStrike",
@@ -38449,7 +38543,32 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 358,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 568,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 463,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atTherapyPowerBase",
@@ -38499,7 +38618,32 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 675,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 358,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 568,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 463,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atTherapyPowerBase",
@@ -38586,80 +38730,6 @@
         "set_id": 0,
         "sets": {}
     },
-    "112525": {
-        "id": 112525,
-        "name": "花杀裤·绝_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "bottoms",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 112,
-        "max_strength": 6,
-        "icon_id": 27409,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 47,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 38,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112524": {
-        "id": 112524,
-        "name": "停日裤·明_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "bottoms",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 112,
-        "max_strength": 6,
-        "icon_id": 27409,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 47,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 38,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
     "112523": {
         "id": 112523,
         "name": "风歇裤·觉_测试用",
@@ -38738,43 +38808,6 @@
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             }
         ],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112522": {
-        "id": 112522,
-        "name": "乱烟裤·引_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "bottoms",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 112,
-        "max_strength": 6,
-        "icon_id": 27409,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 47,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 38,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
         "set_id": 0,
         "sets": {}
     },
@@ -39066,80 +39099,6 @@
         "set_id": 0,
         "sets": {}
     },
-    "112510": {
-        "id": 112510,
-        "name": "故春裤·绝_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "bottoms",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 112,
-        "max_strength": 6,
-        "icon_id": 27409,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 38,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 47,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112509": {
-        "id": 112509,
-        "name": "日易裤·明_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "bottoms",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 112,
-        "max_strength": 6,
-        "icon_id": 27409,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 38,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 47,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
     "112508": {
         "id": 112508,
         "name": "芳生裤·觉_测试用",
@@ -39218,43 +39177,6 @@
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             }
         ],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112507": {
-        "id": 112507,
-        "name": "渡月裤·引_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "bottoms",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 112,
-        "max_strength": 6,
-        "icon_id": 27409,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 38,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 47,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
         "set_id": 0,
         "sets": {}
     },
@@ -39462,10 +39384,10 @@
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -48047,7 +47969,26 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 722,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atTherapyPowerBase",
@@ -48097,7 +48038,32 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 324,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atMagicCriticalDamagePowerBase",
@@ -48147,7 +48113,32 @@
                 "desc": ""
             }
         ],
-        "magic": [],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 472,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 250,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 398,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 324,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
         "embed": [
             {
                 "attr": "atSpiritBase",
@@ -48221,6 +48212,12 @@
                 "attr_type": "strain_base",
                 "value": 626,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_42767_3",
+                "desc": "<Text>text=\"命中目标将附带一段持续伤害，持续10秒，且会根据自身加速等级延长持续伤害时间（存在上限），该效果每40秒最多且同类效果只触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48302,6 +48299,12 @@
                 "attr_type": "strain_base",
                 "value": 301,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_5",
+                "desc": "<Text>text=\"进入战斗后，提高自身235点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48371,6 +48374,12 @@
                 "attr_type": "physical_overcome_base",
                 "value": 438,
                 "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40791_4",
+                "desc": "<Text>text=\"命中目标后，自身破防等级、会心等级中最低的属性将获得516点增幅，持续20秒，该效果每20秒最多生效一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48446,6 +48455,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_6",
+                "desc": "<Text>text=\"进入战斗后，提高自身258点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48521,6 +48536,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_6",
+                "desc": "<Text>text=\"进入战斗后，提高自身258点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48590,6 +48611,12 @@
                 "attr_type": "physical_critical_strike_base",
                 "value": 438,
                 "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40791_4",
+                "desc": "<Text>text=\"命中目标后，自身破防等级、会心等级中最低的属性将获得516点增幅，持续20秒，该效果每20秒最多生效一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48671,6 +48698,12 @@
                 "attr_type": "strain_base",
                 "value": 551,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_4",
+                "desc": "<Text>text=\"进入战斗后，提高自身188点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -48765,80 +48798,6 @@
         "set_id": 0,
         "sets": {}
     },
-    "112465": {
-        "id": 112465,
-        "name": "鸢啼护腰·绝_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "belt",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27411,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 26,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 21,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112464": {
-        "id": 112464,
-        "name": "鸾旌护腰·明_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "belt",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27411,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 26,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 21,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
     "112463": {
         "id": 112463,
         "name": "沧陵护腰·觉_测试用",
@@ -48917,43 +48876,6 @@
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             }
         ],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112462": {
-        "id": 112462,
-        "name": "寒霄护腰·引_测试用",
-        "school": "精简",
-        "kind": "外功",
-        "position": "belt",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27411,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 26,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 21,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
         "set_id": 0,
         "sets": {}
     },
@@ -49232,6 +49154,12 @@
                 "attr_type": "strain_base",
                 "value": 626,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_42767_3",
+                "desc": "<Text>text=\"命中目标将附带一段持续伤害，持续10秒，且会根据自身加速等级延长持续伤害时间（存在上限），该效果每40秒最多且同类效果只触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49313,6 +49241,12 @@
                 "attr_type": "strain_base",
                 "value": 301,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_5",
+                "desc": "<Text>text=\"进入战斗后，提高自身235点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49382,6 +49316,12 @@
                 "attr_type": "magical_overcome_base",
                 "value": 438,
                 "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40791_4",
+                "desc": "<Text>text=\"命中目标后，自身破防等级、会心等级中最低的属性将获得516点增幅，持续20秒，该效果每20秒最多生效一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49457,6 +49397,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_6",
+                "desc": "<Text>text=\"进入战斗后，提高自身258点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49532,6 +49478,12 @@
                 "attr_type": "strain_base",
                 "value": 651,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_6",
+                "desc": "<Text>text=\"进入战斗后，提高自身258点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49601,6 +49553,12 @@
                 "attr_type": "all_critical_strike_base",
                 "value": 438,
                 "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40791_4",
+                "desc": "<Text>text=\"命中目标后，自身破防等级、会心等级中最低的属性将获得516点增幅，持续20秒，该效果每20秒最多生效一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49682,6 +49640,12 @@
                 "attr_type": "strain_base",
                 "value": 551,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_40790_4",
+                "desc": "<Text>text=\"进入战斗后，提高自身188点破防等级和会心等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -49776,80 +49740,6 @@
         "set_id": 0,
         "sets": {}
     },
-    "112450": {
-        "id": 112450,
-        "name": "姑洗护腰·绝_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "belt",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27411,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 21,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 26,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112449": {
-        "id": 112449,
-        "name": "应钟护腰·明_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "belt",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27411,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 21,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 26,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
-        "set_id": 0,
-        "sets": {}
-    },
     "112448": {
         "id": 112448,
         "name": "长右护腰·觉_测试用",
@@ -49928,43 +49818,6 @@
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             }
         ],
-        "set_id": 0,
-        "sets": {}
-    },
-    "112447": {
-        "id": 112447,
-        "name": "寂歌护腰·引_测试用",
-        "school": "精简",
-        "kind": "内功",
-        "position": "belt",
-        "usage": "PVE",
-        "level": 1280,
-        "score": 79,
-        "max_strength": 6,
-        "icon_id": 27411,
-        "desc": "",
-        "base": [
-            {
-                "attr": "atPhysicsShieldBase",
-                "attr_type": "physical_shield_base",
-                "value": 21,
-                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atMagicShield",
-                "attr_type": "magical_shield_base",
-                "value": 26,
-                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
-            },
-            {
-                "attr": "atInvalid",
-                "attr_type": "",
-                "value": 0,
-                "desc": ""
-            }
-        ],
-        "magic": [],
-        "embed": [],
         "set_id": 0,
         "sets": {}
     },
@@ -50172,10 +50025,10 @@
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -66565,6 +66418,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -66640,6 +66499,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -66715,6 +66580,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -66796,6 +66667,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -66871,6 +66748,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -66946,6 +66829,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -67027,6 +66916,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -67102,6 +66997,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -67177,6 +67078,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -67258,6 +67165,12 @@
                 "attr_type": "strain_base",
                 "value": 644,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -67333,6 +67246,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -67408,6 +67327,12 @@
                 "attr_type": "strain_base",
                 "value": 773,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_10",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高75点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -72294,10 +72219,10 @@
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -72545,6 +72470,12 @@
                 "attr_type": "strain_base",
                 "value": 1378,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -72620,6 +72551,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -72695,6 +72632,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -72764,14 +72707,20 @@
                 "attr_type": "strain_base",
                 "value": 1378,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -72839,6 +72788,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -72914,6 +72869,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -72983,6 +72944,12 @@
                 "attr_type": "strain_base",
                 "value": 1378,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -73058,6 +73025,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -73133,6 +73106,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -73202,14 +73181,20 @@
                 "attr_type": "strain_base",
                 "value": 1378,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
             {
-                "attr": "atAllTypeCriticalStrike",
-                "attr_type": "all_critical_strike_base",
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
                 "value": 225,
-                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atStrainBase",
@@ -73277,6 +73262,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -73352,6 +73343,12 @@
                 "attr_type": "strain_base",
                 "value": 899,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_38934_9",
+                "desc": "<Text>text=\"进入战斗后使当前破防等级、会心等级中最高的属性提高72点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [

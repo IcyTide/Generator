@@ -1,6 +1,6 @@
 {
     "0": {
-        "25768": {
+        "1856": {
             "666": {
                 "29": {
                     "name": "商阳指(DOT)",
@@ -50,8 +50,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6312_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6312_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1))",
                                     "magical_attack_power_cof": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1)) * 0.0001610037483733469"
@@ -80,8 +83,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -92,7 +98,7 @@
                 }
             }
         },
-        "25769": {
+        "1858": {
             "18512": {
                 "1": {
                     "name": "气吞长江(DOT)",
@@ -124,7 +130,7 @@
                 }
             }
         },
-        "25797": {
+        "13410": {
             "34108": {
                 "1": {
                     "name": "裂伤(DOT)",
@@ -156,39 +162,7 @@
                 }
             }
         },
-        "25780": {
-            "34108": {
-                "1": {
-                    "name": "裂伤(DOT)",
-                    "interval": "48",
-                    "max_stack": 3,
-                    "max_tick": 6,
-                    "skills": {
-                        "45677": {
-                            "1": {
-                                "name": "",
-                                "comment": "",
-                                "damages": [
-                                    {
-                                        "damage": "int(int(int(int(int(int(int(int(int(int(int(int(25 + int(physical_attack_power * 0.1815742370281836))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
-                                        "source_attribute": {
-                                            "physical_damage_base": "25"
-                                        }
-                                    }
-                                ],
-                                "critical_strike": "physical_critical_strike",
-                                "critical_attribute": {},
-                                "skill_attribute": {
-                                    "frames": "1045",
-                                    "physical_attack_power_cof": "0.1815742370281836"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        "25782": {
+        "16984": {
             "34119": {
                 "1": {
                     "name": "沉舟(DOT)",
@@ -220,7 +194,7 @@
                 }
             }
         },
-        "25783": {
+        "21185": {
             "19557": {
                 "1": {
                     "name": "御波驾澜(DOT)",
@@ -252,7 +226,7 @@
                 }
             }
         },
-        "25784": {
+        "23396": {
             "19626": {
                 "1": {
                     "name": "乍起狂澜(DOT)",
@@ -284,7 +258,7 @@
                 }
             }
         },
-        "43086": {
+        "43080": {
             "32145": {
                 "1": {
                     "name": "刻木(DOT)",
@@ -372,8 +346,10 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "solar_critical_strike",
+                                "critical_strike": "solar_critical_strike + 0.1 * recipe_5157_1",
                                 "critical_attribute": {
+                                    "solar_critical_strike_offset": "0.1 * recipe_5157_1",
+                                    "solar_critical_strike_rate": "1000 * recipe_5157_1",
                                     "solar_critical_power_offset": "0.2001953125 * recipe_5157_1",
                                     "solar_critical_power_rate": "205 * recipe_5157_1"
                                 },
@@ -407,8 +383,10 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "solar_critical_strike",
+                                "critical_strike": "solar_critical_strike + 0.1 * recipe_5157_1",
                                 "critical_attribute": {
+                                    "solar_critical_strike_offset": "0.1 * recipe_5157_1",
+                                    "solar_critical_strike_rate": "1000 * recipe_5157_1",
                                     "solar_critical_power_offset": "0.2001953125 * recipe_5157_1",
                                     "solar_critical_power_rate": "205 * recipe_5157_1"
                                 },
@@ -442,8 +420,10 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "solar_critical_strike",
+                                "critical_strike": "solar_critical_strike + 0.1 * recipe_5157_1",
                                 "critical_attribute": {
+                                    "solar_critical_strike_offset": "0.1 * recipe_5157_1",
+                                    "solar_critical_strike_rate": "1000 * recipe_5157_1",
                                     "solar_critical_power_offset": "0.2001953125 * recipe_5157_1",
                                     "solar_critical_power_rate": "205 * recipe_5157_1"
                                 },
@@ -578,8 +558,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6312_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6312_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1))",
                                     "magical_attack_power_cof": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1)) * 0.0001610037483733469"
@@ -610,8 +593,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -672,8 +658,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6312_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6312_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1))",
                                     "magical_attack_power_cof": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1)) * 0.0001610037483733469"
@@ -702,8 +691,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -764,8 +756,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6312_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6312_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(835.9351879149925 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1))",
                                     "magical_attack_power_cof": "int(835.9351879149925 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1)) * 0.0001610037483733469"
@@ -794,8 +789,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(962.613323538015 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(962.613323538015 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -876,8 +874,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6312_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6312_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1))",
                                     "magical_attack_power_cof": "int(696.6126565958272 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1)) * 0.0001610037483733469"
@@ -896,8 +897,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6312_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6312_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6312_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(1685.802628961902 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1))",
                                     "magical_attack_power_cof": "int(1685.802628961902 * (1 + 0.1499999999999999 * recipe_817_1) * (1 + 1.2000000000000002 * recipe_2942_1) * (1 + 0.1499999999999999 * recipe_1302_1)) * 0.0001610037483733469"
@@ -926,8 +930,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -946,8 +953,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(1941.270202468331 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(1941.270202468331 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -978,8 +988,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "neutral_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "neutral_critical_strike + 0.1 * recipe_6311_1",
+                                "critical_attribute": {
+                                    "neutral_critical_strike_offset": "0.1 * recipe_6311_1",
+                                    "neutral_critical_strike_rate": "1000 * recipe_6311_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1))",
                                     "magical_attack_power_cof": "int(802.1777696150126 * (1 + 1.2000000000000002 * recipe_2940_1) * (1 + 0.1499999999999999 * recipe_1303_1)) * 0.0001610037483733469"
@@ -1470,8 +1483,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "poison_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "poison_critical_strike + 0.02 * recipe_762_1 + 0.03 * recipe_763_1 + 0.04 * recipe_764_1",
+                                "critical_attribute": {
+                                    "poison_critical_strike_offset": "0.02 * recipe_762_1 + 0.03 * recipe_763_1 + 0.04 * recipe_764_1",
+                                    "poison_critical_strike_rate": "200 * recipe_762_1 + 300 * recipe_763_1 + 400 * recipe_764_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(573.07536 * (1 + 0.10000000000000009 * recipe_4678_1) * (1 + 0.040000000000000036 * recipe_767_1) * (1 + 0.050000000000000044 * recipe_768_1))",
                                     "magical_attack_power_cof": "int(573.07536 * (1 + 0.10000000000000009 * recipe_4678_1) * (1 + 0.040000000000000036 * recipe_767_1) * (1 + 0.050000000000000044 * recipe_768_1)) * 0.00010733583224889795"
@@ -1566,8 +1582,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "poison_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "poison_critical_strike + 0.02 * recipe_794_1 + 0.03 * recipe_795_1",
+                                "critical_attribute": {
+                                    "poison_critical_strike_offset": "0.02 * recipe_794_1 + 0.03 * recipe_795_1",
+                                    "poison_critical_strike_rate": "200 * recipe_794_1 + 300 * recipe_795_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(889.6994963999999 * (1 + 0.19999999999999996 * recipe_818_7) * (1 + 0.050000000000000044 * recipe_1528_1) * (1 + 0.030000000000000027 * recipe_796_1) * (1 + 0.040000000000000036 * recipe_797_1))",
                                     "magical_attack_power_cof": "int(889.6994963999999 * (1 + 0.19999999999999996 * recipe_818_7) * (1 + 0.050000000000000044 * recipe_1528_1) * (1 + 0.030000000000000027 * recipe_796_1) * (1 + 0.040000000000000036 * recipe_797_1)) * 0.00010733583224889795"
@@ -1598,8 +1617,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "poison_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "poison_critical_strike + 0.02 * recipe_762_1 + 0.03 * recipe_763_1 + 0.04 * recipe_764_1",
+                                "critical_attribute": {
+                                    "poison_critical_strike_offset": "0.02 * recipe_762_1 + 0.03 * recipe_763_1 + 0.04 * recipe_764_1",
+                                    "poison_critical_strike_rate": "200 * recipe_762_1 + 300 * recipe_763_1 + 400 * recipe_764_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(573.07536 * (1 + 0.10000000000000009 * recipe_4678_1) * (1 + 0.040000000000000036 * recipe_767_1) * (1 + 0.050000000000000044 * recipe_768_1))",
                                     "magical_attack_power_cof": "int(573.07536 * (1 + 0.10000000000000009 * recipe_4678_1) * (1 + 0.040000000000000036 * recipe_767_1) * (1 + 0.050000000000000044 * recipe_768_1)) * 0.00010733583224889795"
@@ -1830,8 +1852,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "lunar_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "lunar_critical_strike + 0.05 * recipe_1148_1 + 0.03 * recipe_992_1 + 0.04 * recipe_993_1 + 0.05 * recipe_994_1",
+                                "critical_attribute": {
+                                    "lunar_critical_strike_offset": "0.05 * recipe_1148_1 + 0.03 * recipe_992_1 + 0.04 * recipe_993_1 + 0.05 * recipe_994_1",
+                                    "lunar_critical_strike_rate": "500 * recipe_1148_1 + 300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "344",
                                     "magical_attack_power_cof": "0.0369235262936209"
@@ -1865,8 +1890,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "solar_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "solar_critical_strike + recipe_4545_1",
+                                "critical_attribute": {
+                                    "solar_critical_strike_offset": "recipe_4545_1",
+                                    "solar_critical_strike_rate": "10000 * recipe_4545_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "3317",
                                     "magical_attack_power_cof": "0.3471321316803546"
@@ -1898,8 +1926,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "lunar_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "lunar_critical_strike + recipe_4545_1",
+                                "critical_attribute": {
+                                    "lunar_critical_strike_offset": "recipe_4545_1",
+                                    "lunar_critical_strike_rate": "10000 * recipe_4545_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "3317",
                                     "magical_attack_power_cof": "0.3471321316803546"
@@ -1932,8 +1963,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "lunar_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "lunar_critical_strike + 0.03 * recipe_992_1 + 0.04 * recipe_993_1 + 0.05 * recipe_994_1",
+                                "critical_attribute": {
+                                    "lunar_critical_strike_offset": "0.03 * recipe_992_1 + 0.04 * recipe_993_1 + 0.05 * recipe_994_1",
+                                    "lunar_critical_strike_rate": "300 * recipe_992_1 + 400 * recipe_993_1 + 500 * recipe_994_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "344",
                                     "magical_attack_power_cof": "0.0369235262936209"
@@ -2248,8 +2282,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "lunar_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "lunar_critical_strike + 0.02 * recipe_2063_1 + 0.03 * recipe_2064_1 + 0.04 * recipe_2065_1",
+                                "critical_attribute": {
+                                    "lunar_critical_strike_offset": "0.02 * recipe_2063_1 + 0.03 * recipe_2064_1 + 0.04 * recipe_2065_1",
+                                    "lunar_critical_strike_rate": "200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(553 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1))",
                                     "magical_attack_power_cof": "int(553 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1)) * 0.0001610037483733469"
@@ -2312,8 +2349,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "lunar_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "lunar_critical_strike + 0.02 * recipe_2063_1 + 0.03 * recipe_2064_1 + 0.04 * recipe_2065_1",
+                                "critical_attribute": {
+                                    "lunar_critical_strike_offset": "0.02 * recipe_2063_1 + 0.03 * recipe_2064_1 + 0.04 * recipe_2065_1",
+                                    "lunar_critical_strike_rate": "200 * recipe_2063_1 + 300 * recipe_2064_1 + 400 * recipe_2065_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "int(829.5 * (1 + 0.030000000000000027 * recipe_2058_1) * (1 + 0.040000000000000036 * recipe_2059_1) * (1 + 0.050000000000000044 * recipe_2060_1) * 1.12 ** (tick - 1))",
                                     "tick_cof": "1.12 ** (tick - 1)",
@@ -2573,8 +2613,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "physical_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "physical_critical_strike + 0.05 * recipe_5093_1 + 0.03 * recipe_6059_1",
+                                "critical_attribute": {
+                                    "physical_critical_strike_offset": "0.05 * recipe_5093_1 + 0.03 * recipe_6059_1",
+                                    "physical_critical_strike_rate": "500 * recipe_5093_1 + 300 * recipe_6059_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "476",
                                     "physical_attack_power_cof": "0.08270749935446449"
@@ -2708,8 +2751,11 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "physical_critical_strike",
-                                "critical_attribute": {},
+                                "critical_strike": "physical_critical_strike + 0.03 * recipe_3055_1 + 0.04 * recipe_3056_1",
+                                "critical_attribute": {
+                                    "physical_critical_strike_offset": "0.03 * recipe_3055_1 + 0.04 * recipe_3056_1",
+                                    "physical_critical_strike_rate": "300 * recipe_3055_1 + 400 * recipe_3056_1"
+                                },
                                 "skill_attribute": {
                                     "frames": "165",
                                     "physical_attack_power_cof": "0.03822615516382813"
@@ -2809,8 +2855,10 @@
                                         }
                                     }
                                 ],
-                                "critical_strike": "lunar_critical_strike",
+                                "critical_strike": "lunar_critical_strike + 0.02 * recipe_6143_1 + 0.03 * recipe_6144_1 + 0.15 * recipe_6087_1",
                                 "critical_attribute": {
+                                    "lunar_critical_strike_offset": "0.02 * recipe_6143_1 + 0.03 * recipe_6144_1 + 0.15 * recipe_6087_1",
+                                    "lunar_critical_strike_rate": "200 * recipe_6143_1 + 300 * recipe_6144_1 + 1500 * recipe_6087_1",
                                     "lunar_critical_power_offset": "0.1533203125 * recipe_6087_1",
                                     "lunar_critical_power_rate": "157 * recipe_6087_1"
                                 },

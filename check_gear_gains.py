@@ -9,6 +9,8 @@ for position, schools in EQUIPMENTS.items():
         for kind, equipments in kinds.items():
             for equipment, detail in equipments.items():
                 for gain in detail['gains']:
+                    if "_" not in gain:
+                        continue
                     _, skill_id, skill_level = gain.split("_")
                     if skill_id not in gains:
                         gains[skill_id] = {}

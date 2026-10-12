@@ -1,32 +1,31 @@
-x = 9763
+from base.constant import BINARY_SCALE, LEVEL_VARIABLES, OVERCOME_SCALE, STRAIN_SCALE
+from qt.classes.skill import Skill
 
-w_ys = {
-    805: 5462,
-    1112: 7545,
-    880: 5971,
-    319: 2165,
-    425: 2884,
-    295: 2002,
-    136: 923,
-    189: 1282,
-    314: 2131,
-    722: 4899
-}
+level_variables = LEVEL_VARIABLES(54)
+variables = dict(
+    physical_attack_power=7290,
+    weapon_damage=17,
+    weapon_damage_rand=3,
+    physical_overcome=2008 / OVERCOME_SCALE,
+    strain=3701 / STRAIN_SCALE,
+    pve_damage_addition=399 / BINARY_SCALE,
+    recipe_369_1=1,
+    recipe_370_1=1,
+    physical_shield=level_variables["shield_base"] - 280
+) | level_variables
 
+skill = Skill.from_dict(
+    kungfu_id=10026,
+    json=dict(
+        belong_id=6524,
+        skill_id=6526,
+        skill_level=19,
+        count=1
+    )
+)
 
-a_min = 0
-a_max = float('inf')
-
-for w, y in w_ys.items():
-    denom = x * w
-    lo = (y - 0.5) / denom
-    hi = (y + 0.5) / denom
-
-    print(f"w={w}, y={y}  =>  a ∈ [{lo:.10f}, {hi:.10f})")
-
-    a_min = max(a_min, lo)
-    a_max = min(a_max, hi)
-
-print(f"定义 y = x * w * a")
-print(f"\n最终交集: a ∈ [{a_min:.10f}, {a_max:.10f})")
-print(f"\n最终交集: 1 / a ∈ [{1 / a_min:.10f}, {1 / a_max:.10f})")
+damage = sum(skill.damages)
+min_hit_damage = damage.evaluate(variables)
+print(f"min_hit_damage: {int(min_hit_damage)}")
+max_hit_damage = damage.evaluate(variables | dict(rand=1))
+print(f"max_hit_damage: {int(max_hit_damage)}")

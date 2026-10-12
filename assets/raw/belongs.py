@@ -314,6 +314,9 @@ BELONGS = {
             "name": "橙武无双",
             "belong_key": "belong_39088"
         },
+        1855: {
+            "belong_key": "belong_1855"
+        },
         25794: {
             "name": "韦陀献杵·神兵",
             "attributes": {
@@ -322,6 +325,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25794"
+        },
+        1854: {
+            "belong_key": "belong_1854"
         },
         25766: {
             "name": "守缺式·神兵",
@@ -332,6 +338,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25766"
         },
+        1853: {
+            "belong_key": "belong_1853"
+        },
         25770: {
             "name": "四象轮回·神兵",
             "attributes": {
@@ -340,6 +349,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25770"
+        },
+        1852: {
+            "belong_key": "belong_1852"
         },
         25771: {
             "name": "八荒归元·神兵",
@@ -350,6 +362,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25771"
         },
+        1856: {
+            "belong_key": "belong_1856"
+        },
         25768: {
             "name": "兰摧玉折·神兵",
             "attributes": {
@@ -358,6 +373,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25768"
+        },
+        1850: {
+            "belong_key": "belong_1850"
         },
         25772: {
             "name": "龙牙·神兵",
@@ -368,6 +386,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25772"
         },
+        1851: {
+            "belong_key": "belong_1851"
+        },
         25795: {
             "name": "龙吟·神兵",
             "attributes": {
@@ -376,6 +397,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25795"
+        },
+        1858: {
+            "belong_key": "belong_1858"
         },
         25769: {
             "name": "剑破虚空·神兵",
@@ -386,6 +410,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25769"
         },
+        18881: {
+            "belong_key": "belong_18881"
+        },
         25785: {
             "name": "听雷·神兵",
             "attributes": {
@@ -394,6 +421,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25785"
+        },
+        1882: {
+            "belong_key": "belong_1882"
         },
         25776: {
             "name": "云飞玉皇·神兵",
@@ -404,6 +434,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25776"
         },
+        3065: {
+            "belong_key": "belong_3065"
+        },
         25773: {
             "name": "蛇影·神兵",
             "attributes": {
@@ -412,6 +445,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25773"
+        },
+        3477: {
+            "belong_key": "belong_3477"
         },
         25775: {
             "name": "夺魄箭·神兵",
@@ -422,6 +458,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25775"
         },
+        3476: {
+            "belong_key": "belong_3476"
+        },
         25774: {
             "name": "蚀肌弹·神兵",
             "attributes": {
@@ -431,6 +470,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25774"
         },
+        4940: {
+            "belong_key": "belong_4940"
+        },
         25777: {
             "name": "驱夜断愁·神兵",
             "attributes": {
@@ -439,6 +481,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25777"
+        },
+        4941: {
+            "belong_key": "belong_4941"
         },
         25796: {
             "name": "日月斩·神兵",
@@ -451,6 +496,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25796"
         },
+        6950: {
+            "belong_key": "belong_6950"
+        },
         25779: {
             "name": "龙战于野·神兵",
             "attributes": {
@@ -459,6 +507,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25779"
+        },
+        13410: {
+            "belong_key": "belong_13410"
         },
         25797: {
             "name": "盾压·神兵",
@@ -478,6 +529,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25780"
         },
+        15183: {
+            "belong_key": "belong_15183"
+        },
         25781: {
             "name": "羽·神兵",
             "attributes": {
@@ -486,6 +540,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25781"
+        },
+        16984: {
+            "belong_key": "belong_16984"
         },
         25782: {
             "name": "上将军印·神兵",
@@ -496,6 +553,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25782"
         },
+        21185: {
+            "belong_key": "belong_21185"
+        },
         25783: {
             "name": "木落雁归·神兵",
             "attributes": {
@@ -504,6 +564,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25783"
+        },
+        23396: {
+            "belong_key": "belong_23396"
         },
         25784: {
             "name": "寂洪荒·神兵",
@@ -514,6 +577,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_25784"
         },
+        25831: {
+            "belong_key": "belong_25831"
+        },
         25837: {
             "name": "三星临·神兵",
             "attributes": {
@@ -522,6 +588,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_25837"
+        },
+        29694: {
+            "belong_key": "belong_29694"
         },
         29698: {
             "name": "商陆缀寒·神兵",
@@ -532,6 +601,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_29698"
         },
+        33238: {
+            "belong_key": "belong_33238"
+        },
         33239: {
             "name": "行云势·神兵",
             "attributes": {
@@ -540,6 +612,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_33239"
+        },
+        36578: {
+            "belong_key": "belong_36578"
         },
         36579: {
             "name": "劲风簇·神兵",
@@ -550,6 +625,9 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_36579"
         },
+        39078: {
+            "belong_key": "belong_39078"
+        },
         39081: {
             "name": "断脉·神兵",
             "attributes": {
@@ -558,6 +636,9 @@ BELONGS = {
             },
             "desc": "测试技能",
             "belong_key": "belong_39081"
+        },
+        43080: {
+            "belong_key": "belong_43080"
         },
         43086: {
             "name": "绊线·神兵",
@@ -568,17 +649,77 @@ BELONGS = {
             "desc": "测试技能",
             "belong_key": "belong_43086"
         },
+        42767: {
+            "name": "加速护手特效",
+            "belong_key": "belong_42767"
+        },
+        40788: {
+            "name": "输出护手特效",
+            "belong_key": "belong_40788"
+        },
+        38939: {
+            "name": "会心鞋子特效",
+            "belong_key": "belong_38939"
+        },
+        38944: {
+            "name": "破防鞋子特效",
+            "belong_key": "belong_38944"
+        },
+        40790: {
+            "name": "多属性腰带特效",
+            "belong_key": "belong_40790"
+        },
+        40791: {
+            "name": "单属性腰带特效",
+            "belong_key": "belong_40791"
+        },
+        38934: {
+            "name": "帽子特效",
+            "belong_key": "belong_38934"
+        },
+        41065: {
+            "name": "加速戒指特效",
+            "belong_key": "belong_41065"
+        },
+        40802: {
+            "name": "破防戒指特效",
+            "belong_key": "belong_40802"
+        },
+        40803: {
+            "name": "会心戒指特效",
+            "belong_key": "belong_40803"
+        },
+        38946: {
+            "name": "破防项链特效",
+            "belong_key": "belong_38946"
+        },
+        38945: {
+            "name": "会心项链特效",
+            "belong_key": "belong_38945"
+        },
+        38950: {
+            "name": "暗器特效",
+            "belong_key": "belong_38950"
+        },
         4877: {
             "name": "水特效",
             "belong_key": "belong_4877"
         },
         38578: {
-            "name": "输出风特效",
+            "name": "风特效",
             "belong_key": "belong_38578"
         },
         10106: {
-            "name": "输出头大附魔",
+            "name": "头大附魔",
             "belong_key": "belong_10106"
+        },
+        46463: {
+            "name": "手大附魔",
+            "belong_key": "belong_46463"
+        },
+        46464: {
+            "name": "脚大附魔",
+            "belong_key": "belong_46464"
         },
         22151: {
             "attributes": {
@@ -587,28 +728,8 @@ BELONGS = {
             "belong_key": "belong_22151"
         },
         22169: {
-            "name": "输出腰大附魔",
+            "name": "腰大附魔",
             "belong_key": "belong_22169"
-        },
-        22129: {
-            "name": "昆吾·清晖",
-            "desc": "测试技能",
-            "belong_key": "belong_22129"
-        },
-        46465: {
-            "name": "防御手大附魔",
-            "belong_key": "belong_46465"
-        },
-        22128: {
-            "name": "愈",
-            "desc": "测试技能",
-            "belong_key": "belong_22128"
-        },
-        22122: {
-            "belong_key": "belong_22122"
-        },
-        40512: {
-            "belong_key": "belong_40512"
         }
     },
     10002: {
