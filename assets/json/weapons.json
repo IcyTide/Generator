@@ -59,20 +59,26 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 510,
+                "value": 389,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 490,
+                "value": 416,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 472,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_14",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_2",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高537点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -146,20 +152,26 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 510,
+                "value": 389,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 490,
+                "value": 416,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 472,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_14",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_2",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高537点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -233,20 +245,26 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 510,
+                "value": 389,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 490,
+                "value": 416,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 472,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_14",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_2",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高537点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -320,20 +338,26 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 510,
+                "value": 389,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 490,
+                "value": 416,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 472,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_14",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_2",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高537点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3311,20 +3335,26 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 486,
+                "value": 371,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 467,
+                "value": 396,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 439,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_12",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_1",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高511点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3398,20 +3428,26 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 486,
+                "value": 371,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 467,
+                "value": 396,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 439,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_12",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_1",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高511点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3485,20 +3521,26 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 486,
+                "value": 371,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 467,
+                "value": 396,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 439,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_12",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_1",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高511点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3572,20 +3614,26 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 486,
+                "value": 371,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 467,
+                "value": 396,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 439,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_12",
-                "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_46727_1",
+                "desc": "<Text>text=\"命中目标后，使自身全攻击提高511点，持续6至11秒。加速等级越高，持续时间越长，达到2024点加速等级时持续11秒。该效果每20秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -3776,7 +3824,7 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_11",
+                "value": "gain_38950_10",
                 "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
@@ -4061,7 +4109,7 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_11",
+                "value": "gain_38950_10",
                 "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
@@ -4346,7 +4394,7 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_11",
+                "value": "gain_38950_10",
                 "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
@@ -4631,7 +4679,7 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38950_11",
+                "value": "gain_38950_10",
                 "desc": "<Text>text=\"命中目标后对目标造成一段伤害，该效果每10秒最多触发一次。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
@@ -5243,14 +5291,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 462,
+                "value": 353,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 444,
+                "value": 377,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 407,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -5324,14 +5378,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 462,
+                "value": 353,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 444,
+                "value": 377,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 407,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -5405,14 +5465,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 462,
+                "value": 353,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 444,
+                "value": 377,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 407,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -5486,14 +5552,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 462,
+                "value": 353,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 444,
+                "value": 377,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 407,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -6635,14 +6707,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 438,
+                "value": 334,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 421,
+                "value": 357,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 376,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -6716,14 +6794,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 438,
+                "value": 334,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 421,
+                "value": 357,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 376,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -6797,14 +6881,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 438,
+                "value": 334,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 421,
+                "value": 357,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 376,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -6878,14 +6968,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 438,
+                "value": 334,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 421,
+                "value": 357,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 376,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -9365,14 +9461,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 414,
+                "value": 316,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 398,
+                "value": 338,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 346,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -9446,14 +9548,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 414,
+                "value": 316,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 398,
+                "value": 338,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 346,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -9527,14 +9635,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 414,
+                "value": 316,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 398,
+                "value": 338,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 346,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -9608,14 +9722,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 414,
+                "value": 316,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 398,
+                "value": 338,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 346,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -10757,14 +10877,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 390,
+                "value": 298,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 375,
+                "value": 318,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 316,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -10838,14 +10964,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 390,
+                "value": 298,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 375,
+                "value": 318,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 316,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -10919,14 +11051,20 @@
             {
                 "attr": "atPhysicsAttackPowerBase",
                 "attr_type": "physical_attack_power_base",
-                "value": 390,
+                "value": 298,
                 "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 375,
+                "value": 318,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 316,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -11000,14 +11138,20 @@
             {
                 "attr": "atMagicAttackPowerBase",
                 "attr_type": "magical_attack_power_base",
-                "value": 390,
+                "value": 298,
                 "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
             },
             {
                 "attr": "atHasteBase",
                 "attr_type": "haste_base",
-                "value": 375,
+                "value": 318,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 316,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
         "embed": [
@@ -15721,7 +15865,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_39078_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -16464,7 +16608,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_25831_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -17207,7 +17351,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_15183_9",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -17799,7 +17943,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4940_9",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -18403,7 +18547,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_3476_9",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -19285,7 +19429,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1852_9",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -19436,7 +19580,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1853_9",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -20620,7 +20764,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_39078_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -21363,7 +21507,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_25831_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -22106,7 +22250,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_15183_9",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -22698,7 +22842,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4940_9",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -23302,7 +23446,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_3476_9",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -24184,7 +24328,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1852_9",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -24335,7 +24479,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1853_9",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -25519,7 +25663,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_39078_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -26262,7 +26406,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_25831_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -27005,7 +27149,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_15183_9",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -27597,7 +27741,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4940_9",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -28201,7 +28345,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_3476_9",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -29083,7 +29227,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1852_9",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -29234,7 +29378,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1853_9",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -30418,7 +30562,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_39078_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -31161,7 +31305,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_25831_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -31904,7 +32048,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_15183_9",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -32496,7 +32640,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4940_9",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -33100,7 +33244,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_3476_9",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -33982,7 +34126,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1852_9",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -34133,7 +34277,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1853_9",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -35317,7 +35461,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_39078_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -36060,7 +36204,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_25831_9",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -36803,7 +36947,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_15183_9",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -37395,7 +37539,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_4940_9",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -37999,7 +38143,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_3476_9",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -38881,7 +39025,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1852_9",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -39032,7 +39176,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_1853_9",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -70347,7 +70491,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -70794,7 +70938,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展治疗招式命中后，一定几率重置“当归四逆”调息时间，8秒内“当归四逆”治疗量提高20%，调息时间降至6秒，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展治疗招式命中后，一定几率重置“当归四逆”调息时间，6秒内“赤芍寒香”附带50%的“龙葵”伤害吸收盾效果，并对目标区域8尺内最多7个目标恢复气血值，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -70939,7 +71083,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展毒性内功招式命中后，一定几率重置“川乌射罔”调息时间。6秒内下一次“川乌射罔”无调息时间，每跳获得2点寒性，完整运功附带一段额外伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展毒性内功招式命中后，一定几率重置“川乌射罔”调息时间。6秒内下一次“川乌射罔”无调息时间，每跳额外附带一次“商陆缀寒”，完整运功附带一段额外伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -71090,7 +71234,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -71833,7 +71977,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -72425,7 +72569,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -73029,7 +73173,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -73911,7 +74055,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -74062,7 +74206,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -75227,7 +75371,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任脉、督脉能量，使自身8秒内“引窍”能量加成效果提高60%且命中后回复30点任脉、督脉能量，并可施展一次额外的“破穴”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率回复100点任督二脉能量，使自身10秒内下3次“引窍”或“破穴”伤害提高100%，施展后回复30点任督二脉能量。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -75674,7 +75818,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展治疗招式命中后，一定几率重置“当归四逆”调息时间，8秒内“当归四逆”治疗量提高20%，调息时间降至6秒，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展治疗招式命中后，一定几率重置“当归四逆”调息时间，6秒内“赤芍寒香”附带50%的“龙葵”伤害吸收盾效果，并对目标区域8尺内最多7个目标恢复气血值，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -75819,7 +75963,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展毒性内功招式命中后，一定几率重置“川乌射罔”调息时间。6秒内下一次“川乌射罔”无调息时间，每跳获得2点寒性，完整运功附带一段额外伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展毒性内功招式命中后，一定几率重置“川乌射罔”调息时间。6秒内下一次“川乌射罔”无调息时间，每跳额外附带一次“商陆缀寒”，完整运功附带一段额外伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -75970,7 +76114,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使5秒内“兵主逆”“天斗旋”无调息时间；施展“天斗旋”无需运功，施展“兵主逆”“天斗旋”命中当前目标额外触发一次伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展内功招式命中后，一定几率使自身10秒内下3次施展“兵主逆”或“天斗旋”不触发调息时间且命中目标后额外触发一次伤害，期间“天斗旋”无需运功。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -76713,7 +76857,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；6秒内施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴性伤害招式命中后，一定几率重置“羽”“剑·羽”调息时间；10秒内前3次施展“羽”“剑·羽”无调息时间，并附带阴性内功伤害，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -77305,7 +77449,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使5秒内施展招式对当前目标造成伤害时附带一段额外“愿火长燃”伤害和“烈日”“银月斩”效果，并根据招式属性类型额外获得100点异色灵魂，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展阴阳性伤害招式命中后，一定几率使自身10秒内下3次施展《日月净世》套路招式不触发调息时间，若消耗满灵则获得异色满灵。该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -77909,7 +78053,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使6秒内施展“追命箭”无需运功、无调息时间、不消耗神机值，附带一段额外伤害且获得一层“无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功伤害招式命中后，一定几率使10秒内下3次施展“追命箭”无需运功、无调息时间，附带一段额外伤害且获得一层“追命无声”效果，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -78791,7 +78935,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高100%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展外功招式命中后，一定几率使6秒内施展“八荒归元”伤害提高65%且无调息时间，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",
@@ -78942,7 +79086,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_19_1",
-                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且6秒内施展“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
+                "desc": "<Text>text=\"装备：施展混元招式命中后，一定几率立刻获得5柄“气剑”，且10秒内下3个“万世不竭·二段”伤害提高50%，命中目标后再次获得5柄“气剑”，该效果最多30秒触发一次。\\n在秘境、主城、试炼之地和帮会领地场景，可主动使用武器触发上述效果，不再由被动触发，调息时间50秒。名剑大会中无法触发。\" font=101 </text>"
             },
             {
                 "attr": "atSkillEventHandler",

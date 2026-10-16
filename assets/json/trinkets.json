@@ -911,6 +911,888 @@
             36
         ]
     },
+    "51358": {
+        "id": 51358,
+        "name": "固岚佩_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1219,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 462,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 295,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 204,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 91,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 91,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 313,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 225,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51357": {
+        "id": 51357,
+        "name": "慈愈佩_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1219,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 182,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 288,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 235,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51356": {
+        "id": 51356,
+        "name": "流漓佩_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1219,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 159,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 219,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51355": {
+        "id": 51355,
+        "name": "劲威佩_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1219,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 159,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 219,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51354": {
+        "id": 51354,
+        "name": "元灵佩_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1219,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 159,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 219,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51353": {
+        "id": 51353,
+        "name": "玄脉佩_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1219,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 159,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 219,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51352": {
+        "id": 51352,
+        "name": "不摧佩_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1218,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 462,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 590,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 91,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 313,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 225,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51351": {
+        "id": 51351,
+        "name": "回霖佩_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1218,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 182,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 523,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 225,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51350": {
+        "id": 51350,
+        "name": "尘隐佩_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1218,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 159,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 219,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 225,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51349": {
+        "id": 51349,
+        "name": "虎祭佩_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1218,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 159,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 219,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 225,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51348": {
+        "id": 51348,
+        "name": "朝元佩_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1218,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 159,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 219,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 225,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51347": {
+        "id": 51347,
+        "name": "神藏佩_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "pendant",
+        "usage": "PVE",
+        "level": 1170,
+        "score": 71,
+        "max_strength": 8,
+        "icon_id": 1218,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 340,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 159,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 219,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 219,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 328,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 225,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
     "50006": {
         "id": 50006,
         "name": "玄毅佩_测试用",
@@ -8321,6 +9203,414 @@
         "set_id": 0,
         "sets": {}
     },
+    "50018": {
+        "id": 50018,
+        "name": "不摧指环_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 56,
+        "max_strength": 6,
+        "icon_id": 0,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 458,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 201,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 291,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 89,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 89,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 322,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50017": {
+        "id": 50017,
+        "name": "猩袍指环_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 56,
+        "max_strength": 6,
+        "icon_id": 0,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 337,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 179,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 284,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 231,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50016": {
+        "id": 50016,
+        "name": "流漓指环_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 56,
+        "max_strength": 6,
+        "icon_id": 0,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 337,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 157,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 216,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 216,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 338,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50015": {
+        "id": 50015,
+        "name": "劲威指环_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 56,
+        "max_strength": 6,
+        "icon_id": 0,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 337,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 157,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 216,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 216,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 338,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50014": {
+        "id": 50014,
+        "name": "元灵指环_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 56,
+        "max_strength": 6,
+        "icon_id": 0,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 337,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 157,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 216,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 216,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 338,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50013": {
+        "id": 50013,
+        "name": "玄脉指环_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1280,
+        "score": 56,
+        "max_strength": 6,
+        "icon_id": 0,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 337,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 157,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 216,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 216,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 338,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
     "49958": {
         "id": 49958,
         "name": "气海沉_测试用",
@@ -8389,6 +9679,12 @@
                 "attr_type": "strain_base",
                 "value": 322,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41065_5",
+                "desc": "<Text>text=\"进入战斗后额外提高100点无双等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8463,6 +9759,12 @@
                 "attr_type": "strain_base",
                 "value": 322,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41065_5",
+                "desc": "<Text>text=\"进入战斗后额外提高100点无双等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8525,6 +9827,12 @@
                 "attr_type": "strain_base",
                 "value": 322,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41065_5",
+                "desc": "<Text>text=\"进入战斗后额外提高100点无双等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8587,6 +9895,12 @@
                 "attr_type": "strain_base",
                 "value": 322,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41065_5",
+                "desc": "<Text>text=\"进入战斗后额外提高100点无双等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8643,6 +9957,12 @@
                 "attr_type": "therapy_power_base",
                 "value": 515,
                 "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41061_5",
+                "desc": "<Text>text=\"进入战斗后额外提高60点治疗成效。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8705,6 +10025,12 @@
                 "attr_type": "magical_critical_strike_base",
                 "value": 231,
                 "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41061_4",
+                "desc": "<Text>text=\"进入战斗后额外提高53点治疗成效。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8767,6 +10093,12 @@
                 "attr_type": "haste_base",
                 "value": 231,
                 "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atSkillEventHandler",
+                "attr_type": "event",
+                "value": "gain_41061_4",
+                "desc": "<Text>text=\"进入战斗后额外提高53点治疗成效。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8828,7 +10160,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_41065_4",
-                "desc": "<Text>text=\"进入战斗后额外提高42点无双等级。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后额外提高313点无双等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8902,7 +10234,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_40802_4",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身335点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身313点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -8970,7 +10302,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_40802_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身313点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9038,7 +10370,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_40803_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身313点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9099,8 +10431,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_40802_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_40802_6",
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身391点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9235,8 +10567,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_40803_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_40803_6",
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身391点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9602,7 +10934,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_41065_4",
-                "desc": "<Text>text=\"进入战斗后额外提高42点无双等级。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后额外提高313点无双等级。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9676,7 +11008,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_40802_4",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身335点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身313点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9744,7 +11076,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_40802_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身313点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9812,7 +11144,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_40803_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身313点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -9873,8 +11205,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_40802_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_40802_6",
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身391点破防等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -10009,8 +11341,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_40803_5",
-                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身369点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_40803_6",
+                "desc": "<Text>text=\"招式命中生命值百分比低于自身的目标时，提高自身391点会心等级，持续10秒。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [],
@@ -11904,6 +13236,414 @@
                 "attr": "atStrainBase",
                 "attr_type": "strain_base",
                 "value": 307,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50012": {
+        "id": 50012,
+        "name": "棘心戒指_测试用",
+        "school": "通用",
+        "kind": "防御",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1110,
+        "score": 49,
+        "max_strength": 6,
+        "icon_id": 1227,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 393,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsShieldBase",
+                "attr_type": "physical_shield_base",
+                "value": 175,
+                "desc": "<text>text=\"外功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicShield",
+                "attr_type": "magical_shield_base",
+                "value": 252,
+                "desc": "<text>text=\"内功防御等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 78,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atToughnessBase",
+                "attr_type": "toughness_base",
+                "value": 78,
+                "desc": "<text>text=\"御劲等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 260,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50011": {
+        "id": 50011,
+        "name": "明庐戒_测试用",
+        "school": "通用",
+        "kind": "治疗",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1110,
+        "score": 49,
+        "max_strength": 6,
+        "icon_id": 1227,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 289,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 155,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atTherapyPowerBase",
+                "attr_type": "therapy_power_base",
+                "value": 246,
+                "desc": "<text>text=\"治疗成效提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 201,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50010": {
+        "id": 50010,
+        "name": "扬明戒_测试用",
+        "school": "通用",
+        "kind": "身法",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1110,
+        "score": 49,
+        "max_strength": 6,
+        "icon_id": 1227,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 289,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atAgilityBase",
+                "attr_type": "agility_base",
+                "value": 136,
+                "desc": "<text>text=\"身法提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 187,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 187,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 273,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50009": {
+        "id": 50009,
+        "name": "重悬戒_测试用",
+        "school": "通用",
+        "kind": "力道",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1110,
+        "score": 49,
+        "max_strength": 6,
+        "icon_id": 1227,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 289,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atStrengthBase",
+                "attr_type": "strength_base",
+                "value": 136,
+                "desc": "<text>text=\"力道提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 187,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 187,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 273,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50008": {
+        "id": 50008,
+        "name": "映宵戒_测试用",
+        "school": "通用",
+        "kind": "元气",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1110,
+        "score": 49,
+        "max_strength": 6,
+        "icon_id": 1227,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 289,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpunkBase",
+                "attr_type": "spunk_base",
+                "value": 136,
+                "desc": "<text>text=\"元气提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 187,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 187,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 273,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [],
+        "set_id": 0,
+        "sets": {}
+    },
+    "50007": {
+        "id": 50007,
+        "name": "云眷戒_测试用",
+        "school": "通用",
+        "kind": "根骨",
+        "position": "ring",
+        "usage": "PVE",
+        "level": 1110,
+        "score": 49,
+        "max_strength": 6,
+        "icon_id": 1227,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 289,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atSpiritBase",
+                "attr_type": "spirit_base",
+                "value": 136,
+                "desc": "<text>text=\"根骨提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 187,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicCriticalStrike",
+                "attr_type": "magical_critical_strike_base",
+                "value": 187,
+                "desc": "<text>text=\"内功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 273,
                 "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
             }
         ],
@@ -16689,8 +18429,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_38946_14",
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高190点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -16776,8 +18516,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_38946_14",
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高190点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -16863,8 +18603,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_38946_14",
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高190点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -16950,8 +18690,8 @@
             {
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
-                "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "value": "gain_38946_14",
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高190点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17050,7 +18790,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_12",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多170层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高268点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17143,7 +18883,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每66点基础破防等级将提高1点全攻击，最多提高28点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17236,7 +18976,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高1点，最多40层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高470点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17335,7 +19075,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_12",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多170层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高268点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17428,7 +19168,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每66点基础破防等级将提高1点全攻击，最多提高28点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17521,7 +19261,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高1点，最多40层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高470点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17620,7 +19360,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_12",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多170层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高268点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17713,7 +19453,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每66点基础破防等级将提高1点全攻击，最多提高28点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17806,7 +19546,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高1点，最多40层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高470点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17905,7 +19645,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_12",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多170层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高268点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -17998,7 +19738,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_13",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每66点基础破防等级将提高1点全攻击，最多提高28点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -18091,7 +19831,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高1点，最多40层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高470点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19498,7 +21238,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_11",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高182点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19585,7 +21325,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_11",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高182点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19672,7 +21412,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_11",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高182点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19759,7 +21499,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_11",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高1点，最多40层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高182点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19858,7 +21598,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多160层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -19951,7 +21691,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多175层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20044,7 +21784,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高2点，最多175层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高448点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20143,7 +21883,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多160层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20236,7 +21976,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多175层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20329,7 +22069,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高2点，最多175层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高448点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20428,7 +22168,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多160层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20521,7 +22261,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多175层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20614,7 +22354,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高2点，最多175层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高448点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20713,7 +22453,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多160层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20806,7 +22546,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38946_10",
-                "desc": "<Text>text=\"进入战斗后，根据自身基础破防等级按比例提高全攻击，每层提高2点，最多175层；基础破防等级达到2649点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点基础破防等级将提高2点全攻击，最多提高256点，名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
@@ -20899,7 +22639,7 @@
                 "attr": "atSkillEventHandler",
                 "attr_type": "event",
                 "value": "gain_38945_9",
-                "desc": "<Text>text=\"进入战斗后，根据自身会心等级按比例提高会心效果等级，每层提高2点，最多175层；会心等级达到1756点时获得最大提升。名剑大会中无法生效。\" font=101 </text>"
+                "desc": "<Text>text=\"进入战斗后，自身每10点会心等级提高2点无双等级，最多提高448点。名剑大会中无法生效。\" font=101 </text>"
             }
         ],
         "embed": [
