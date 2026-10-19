@@ -12,7 +12,7 @@ SKILLS: dict[int, dict[int, dict]] = {
         27557: {}
     },
     27578: {
-        27579: {}
+        27579: dict(comment="{6-level}跳", max_level=5)
     },
     27582: {
         27584: {}

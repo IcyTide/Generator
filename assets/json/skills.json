@@ -8701,6 +8701,114 @@
                 }
             }
         },
+        "18226": {
+            "36568": {
+                "1": {
+                    "name": "击水",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(7 + rand + int(physical_attack_power * 0.16611001971190767))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "7",
+                                "physical_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike",
+                    "skill_attribute": {
+                        "frames": "239",
+                        "physical_attack_power_cof": "0.16611001971190767"
+                    }
+                }
+            }
+        },
+        "46587": {
+            "46588": {
+                "1": {
+                    "name": "列甲",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(16 + rand * 31 + int(physical_attack_power * 0.9035273038723012))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "16",
+                                "physical_damage_rand": "31"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike",
+                    "skill_attribute": {
+                        "frames": "1300",
+                        "physical_attack_power_cof": "0.9035273038723012"
+                    }
+                }
+            }
+        },
+        "5659": {
+            "37618": {
+                "1": {
+                    "name": "龙吟·大漠",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(7 + rand + int(physical_attack_power * 0.24325735104254262) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "7",
+                                "physical_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike",
+                    "skill_attribute": {
+                        "frames": "350",
+                        "physical_attack_power_cof": "0.24325735104254262",
+                        "weapon_damage_cof": "1.0"
+                    }
+                }
+            }
+        },
+        "24895": {
+            "24894": {
+                "1": {
+                    "name": "乘龙箭",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(21 + rand * 2 + int(physical_attack_power * 0.2376971830187131))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "21",
+                                "physical_damage_rand": "2"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike",
+                    "skill_attribute": {
+                        "frames": "342",
+                        "physical_attack_power_cof": "0.2376971830187131"
+                    }
+                }
+            }
+        },
+        "402": {
+            "402": {
+                "1": {
+                    "name": "定军",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(2 + rand + int((int(base_physical_attack_power * physical_attack_power_addition) + extra_physical_attack_power) * 0.011120336047659092))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "2",
+                                "physical_damage_rand": "1",
+                                "physical_attack_power_addition": "-1.0",
+                                "physical_attack_power_gain": "-1024"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike",
+                    "skill_attribute": {
+                        "frames": "16",
+                        "physical_attack_power_cof": "0.011120336047659092"
+                    }
+                }
+            }
+        },
         "44599": {
             "24843": {
                 "1": {
@@ -8821,114 +8929,6 @@
                     "skill_attribute": {
                         "frames": "2192",
                         "physical_attack_power_cof": "1.5234860385292956"
-                    }
-                }
-            }
-        },
-        "46587": {
-            "46588": {
-                "1": {
-                    "name": "列甲",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(16 + rand * 31 + int(physical_attack_power * 0.9035273038723012))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
-                            "source_attribute": {
-                                "physical_damage_base": "16",
-                                "physical_damage_rand": "31"
-                            }
-                        }
-                    ],
-                    "critical_strike": "physical_critical_strike",
-                    "skill_attribute": {
-                        "frames": "1300",
-                        "physical_attack_power_cof": "0.9035273038723012"
-                    }
-                }
-            }
-        },
-        "5659": {
-            "37618": {
-                "1": {
-                    "name": "龙吟·大漠",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(7 + rand + int(physical_attack_power * 0.24325735104254262) + int(weapon_damage + rand * weapon_damage_rand))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
-                            "source_attribute": {
-                                "physical_damage_base": "7",
-                                "physical_damage_rand": "1"
-                            }
-                        }
-                    ],
-                    "critical_strike": "physical_critical_strike",
-                    "skill_attribute": {
-                        "frames": "350",
-                        "physical_attack_power_cof": "0.24325735104254262",
-                        "weapon_damage_cof": "1.0"
-                    }
-                }
-            }
-        },
-        "24895": {
-            "24894": {
-                "1": {
-                    "name": "乘龙箭",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(21 + rand * 2 + int(physical_attack_power * 0.2376971830187131))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
-                            "source_attribute": {
-                                "physical_damage_base": "21",
-                                "physical_damage_rand": "2"
-                            }
-                        }
-                    ],
-                    "critical_strike": "physical_critical_strike",
-                    "skill_attribute": {
-                        "frames": "342",
-                        "physical_attack_power_cof": "0.2376971830187131"
-                    }
-                }
-            }
-        },
-        "402": {
-            "402": {
-                "1": {
-                    "name": "定军",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(2 + rand + int((int(base_physical_attack_power * physical_attack_power_addition) + extra_physical_attack_power) * 0.011120336047659092))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
-                            "source_attribute": {
-                                "physical_damage_base": "2",
-                                "physical_damage_rand": "1",
-                                "physical_attack_power_addition": "-1.0",
-                                "physical_attack_power_gain": "-1024"
-                            }
-                        }
-                    ],
-                    "critical_strike": "physical_critical_strike",
-                    "skill_attribute": {
-                        "frames": "16",
-                        "physical_attack_power_cof": "0.011120336047659092"
-                    }
-                }
-            }
-        },
-        "18226": {
-            "36568": {
-                "1": {
-                    "name": "击水",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(7 + rand + int(physical_attack_power * 0.16611001971190767))) * (1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
-                            "source_attribute": {
-                                "physical_damage_base": "7",
-                                "physical_damage_rand": "1"
-                            }
-                        }
-                    ],
-                    "critical_strike": "physical_critical_strike",
-                    "skill_attribute": {
-                        "frames": "239",
-                        "physical_attack_power_cof": "0.16611001971190767"
                     }
                 }
             }
@@ -16882,286 +16882,160 @@
                 }
             }
         },
-        "21174": {
-            "40209": {
+        "34511": {
+            "34510": {
                 "1": {
-                    "name": "圣裁",
-                    "comment": "0%血量(圣裁庭内)",
+                    "name": "灼业焚心",
+                    "comment": "命中0次",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.08114588918016684))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.07728179921920651))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "0",
+                    "critical_strike": "solar_critical_strike",
                     "skill_attribute": {
-                        "frames": "126",
-                        "magical_attack_power_cof": "0.08114588918016684"
+                        "frames": "120",
+                        "magical_attack_power_cof": "0.07728179921920651"
                     }
                 },
                 "2": {
-                    "name": "圣裁",
-                    "comment": "15%血量(圣裁庭内)",
+                    "name": "灼业焚心",
+                    "comment": "命中1次",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.16229177836033368))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.09273815906304782))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "0",
+                    "critical_strike": "solar_critical_strike",
                     "skill_attribute": {
-                        "frames": "252",
-                        "magical_attack_power_cof": "0.16229177836033368"
+                        "frames": "144",
+                        "magical_attack_power_cof": "0.09273815906304782"
                     }
                 },
                 "3": {
-                    "name": "圣裁",
-                    "comment": "30%血量(圣裁庭内)",
+                    "name": "灼业焚心",
+                    "comment": "命中2次",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.24343766754050053))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.10819451890688912))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "378",
-                        "magical_attack_power_cof": "0.24343766754050053"
-                    }
-                },
-                "4": {
-                    "name": "圣裁",
-                    "comment": "45%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.32458355672066735))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "504",
-                        "magical_attack_power_cof": "0.32458355672066735"
-                    }
-                },
-                "5": {
-                    "name": "圣裁",
-                    "comment": "60%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.4057294459008342))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "630",
-                        "magical_attack_power_cof": "0.4057294459008342"
-                    }
-                },
-                "6": {
-                    "name": "圣裁",
-                    "comment": "75%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.48687533508100106))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "756",
-                        "magical_attack_power_cof": "0.48687533508100106"
-                    }
-                },
-                "7": {
-                    "name": "圣裁",
-                    "comment": "90%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.5680212242611679))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "882",
-                        "magical_attack_power_cof": "0.5680212242611679"
-                    }
-                },
-                "8": {
-                    "name": "圣裁",
-                    "comment": "105%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.6491671134413347))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "1008",
-                        "magical_attack_power_cof": "0.6491671134413347"
-                    }
-                },
-                "9": {
-                    "name": "圣裁",
-                    "comment": "120%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.7303130026215016))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "1134",
-                        "magical_attack_power_cof": "0.7303130026215016"
-                    }
-                },
-                "10": {
-                    "name": "圣裁",
-                    "comment": "135%血量(圣裁庭内)",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.8114588918016684))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "1260",
-                        "magical_attack_power_cof": "0.8114588918016684"
-                    }
-                },
-                "11": {
-                    "name": "圣裁",
-                    "comment": "0%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.05409725945344456))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "84",
-                        "magical_attack_power_cof": "0.05409725945344456"
-                    }
-                },
-                "12": {
-                    "name": "圣裁",
-                    "comment": "15%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.10819451890688912))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
+                    "critical_strike": "solar_critical_strike",
                     "skill_attribute": {
                         "frames": "168",
                         "magical_attack_power_cof": "0.10819451890688912"
                     }
                 },
-                "13": {
-                    "name": "圣裁",
-                    "comment": "30%血量",
+                "4": {
+                    "name": "灼业焚心",
+                    "comment": "命中3次",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.16229177836033368))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.12365087875073043))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "0",
+                    "critical_strike": "solar_critical_strike",
                     "skill_attribute": {
-                        "frames": "252",
-                        "magical_attack_power_cof": "0.16229177836033368"
+                        "frames": "192",
+                        "magical_attack_power_cof": "0.12365087875073043"
                     }
                 },
-                "14": {
-                    "name": "圣裁",
-                    "comment": "45%血量",
+                "5": {
+                    "name": "灼业焚心",
+                    "comment": "命中4次",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.21638903781377825))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.13910723859457172))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "0",
+                    "critical_strike": "solar_critical_strike",
+                    "skill_attribute": {
+                        "frames": "216",
+                        "magical_attack_power_cof": "0.13910723859457172"
+                    }
+                },
+                "6": {
+                    "name": "灼业焚心",
+                    "comment": "命中5次",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.15456359843841302))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "solar_critical_strike",
+                    "skill_attribute": {
+                        "frames": "240",
+                        "magical_attack_power_cof": "0.15456359843841302"
+                    }
+                },
+                "7": {
+                    "name": "灼业焚心",
+                    "comment": "命中6次",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.17001995828225433))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "solar_critical_strike",
+                    "skill_attribute": {
+                        "frames": "264",
+                        "magical_attack_power_cof": "0.17001995828225433"
+                    }
+                },
+                "8": {
+                    "name": "灼业焚心",
+                    "comment": "命中7次",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.18547631812609564))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "solar_critical_strike",
+                    "skill_attribute": {
+                        "frames": "288",
+                        "magical_attack_power_cof": "0.18547631812609564"
+                    }
+                },
+                "9": {
+                    "name": "灼业焚心",
+                    "comment": "命中8次",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.20093267796993694))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "solar_critical_strike",
+                    "skill_attribute": {
+                        "frames": "312",
+                        "magical_attack_power_cof": "0.20093267796993694"
+                    }
+                },
+                "10": {
+                    "name": "灼业焚心",
+                    "comment": "命中9次",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.21638903781377825))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "solar_critical_strike",
                     "skill_attribute": {
                         "frames": "336",
                         "magical_attack_power_cof": "0.21638903781377825"
                     }
                 },
-                "15": {
-                    "name": "圣裁",
-                    "comment": "60%血量",
+                "11": {
+                    "name": "灼业焚心",
+                    "comment": "命中10次",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.2704862972672228))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.23184539765761955))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "0",
+                    "critical_strike": "solar_critical_strike",
                     "skill_attribute": {
-                        "frames": "420",
-                        "magical_attack_power_cof": "0.2704862972672228"
-                    }
-                },
-                "16": {
-                    "name": "圣裁",
-                    "comment": "75%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.32458355672066735))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "504",
-                        "magical_attack_power_cof": "0.32458355672066735"
-                    }
-                },
-                "17": {
-                    "name": "圣裁",
-                    "comment": "90%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.3786808161741119))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "588",
-                        "magical_attack_power_cof": "0.3786808161741119"
-                    }
-                },
-                "18": {
-                    "name": "圣裁",
-                    "comment": "105%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.4327780756275565))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "672",
-                        "magical_attack_power_cof": "0.4327780756275565"
-                    }
-                },
-                "19": {
-                    "name": "圣裁",
-                    "comment": "120%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.48687533508100106))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "756",
-                        "magical_attack_power_cof": "0.48687533508100106"
-                    }
-                },
-                "20": {
-                    "name": "圣裁",
-                    "comment": "135%血量",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.5409725945344456))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "0",
-                    "skill_attribute": {
-                        "frames": "840",
-                        "magical_attack_power_cof": "0.5409725945344456"
+                        "frames": "360",
+                        "magical_attack_power_cof": "0.23184539765761955"
                     }
                 }
             }
@@ -17467,160 +17341,286 @@
                 }
             }
         },
-        "34511": {
-            "34510": {
+        "21174": {
+            "40209": {
                 "1": {
-                    "name": "灼业焚心",
-                    "comment": "命中0次",
+                    "name": "圣裁",
+                    "comment": "0%血量(圣裁庭内)",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.07728179921920651))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.08114588918016684))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "solar_critical_strike",
+                    "critical_strike": "0",
                     "skill_attribute": {
-                        "frames": "120",
-                        "magical_attack_power_cof": "0.07728179921920651"
+                        "frames": "126",
+                        "magical_attack_power_cof": "0.08114588918016684"
                     }
                 },
                 "2": {
-                    "name": "灼业焚心",
-                    "comment": "命中1次",
+                    "name": "圣裁",
+                    "comment": "15%血量(圣裁庭内)",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.09273815906304782))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.16229177836033368))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "solar_critical_strike",
+                    "critical_strike": "0",
                     "skill_attribute": {
-                        "frames": "144",
-                        "magical_attack_power_cof": "0.09273815906304782"
+                        "frames": "252",
+                        "magical_attack_power_cof": "0.16229177836033368"
                     }
                 },
                 "3": {
-                    "name": "灼业焚心",
-                    "comment": "命中2次",
+                    "name": "圣裁",
+                    "comment": "30%血量(圣裁庭内)",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.10819451890688912))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.24343766754050053))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "solar_critical_strike",
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "378",
+                        "magical_attack_power_cof": "0.24343766754050053"
+                    }
+                },
+                "4": {
+                    "name": "圣裁",
+                    "comment": "45%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.32458355672066735))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "504",
+                        "magical_attack_power_cof": "0.32458355672066735"
+                    }
+                },
+                "5": {
+                    "name": "圣裁",
+                    "comment": "60%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.4057294459008342))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "630",
+                        "magical_attack_power_cof": "0.4057294459008342"
+                    }
+                },
+                "6": {
+                    "name": "圣裁",
+                    "comment": "75%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.48687533508100106))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "756",
+                        "magical_attack_power_cof": "0.48687533508100106"
+                    }
+                },
+                "7": {
+                    "name": "圣裁",
+                    "comment": "90%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.5680212242611679))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "882",
+                        "magical_attack_power_cof": "0.5680212242611679"
+                    }
+                },
+                "8": {
+                    "name": "圣裁",
+                    "comment": "105%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.6491671134413347))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "1008",
+                        "magical_attack_power_cof": "0.6491671134413347"
+                    }
+                },
+                "9": {
+                    "name": "圣裁",
+                    "comment": "120%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.7303130026215016))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "1134",
+                        "magical_attack_power_cof": "0.7303130026215016"
+                    }
+                },
+                "10": {
+                    "name": "圣裁",
+                    "comment": "135%血量(圣裁庭内)",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.8114588918016684))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "1260",
+                        "magical_attack_power_cof": "0.8114588918016684"
+                    }
+                },
+                "11": {
+                    "name": "圣裁",
+                    "comment": "0%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.05409725945344456))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "84",
+                        "magical_attack_power_cof": "0.05409725945344456"
+                    }
+                },
+                "12": {
+                    "name": "圣裁",
+                    "comment": "15%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.10819451890688912))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
                     "skill_attribute": {
                         "frames": "168",
                         "magical_attack_power_cof": "0.10819451890688912"
                     }
                 },
-                "4": {
-                    "name": "灼业焚心",
-                    "comment": "命中3次",
+                "13": {
+                    "name": "圣裁",
+                    "comment": "30%血量",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.12365087875073043))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.16229177836033368))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "solar_critical_strike",
+                    "critical_strike": "0",
                     "skill_attribute": {
-                        "frames": "192",
-                        "magical_attack_power_cof": "0.12365087875073043"
+                        "frames": "252",
+                        "magical_attack_power_cof": "0.16229177836033368"
                     }
                 },
-                "5": {
-                    "name": "灼业焚心",
-                    "comment": "命中4次",
+                "14": {
+                    "name": "圣裁",
+                    "comment": "45%血量",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.13910723859457172))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.21638903781377825))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "solar_critical_strike",
-                    "skill_attribute": {
-                        "frames": "216",
-                        "magical_attack_power_cof": "0.13910723859457172"
-                    }
-                },
-                "6": {
-                    "name": "灼业焚心",
-                    "comment": "命中5次",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.15456359843841302))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "solar_critical_strike",
-                    "skill_attribute": {
-                        "frames": "240",
-                        "magical_attack_power_cof": "0.15456359843841302"
-                    }
-                },
-                "7": {
-                    "name": "灼业焚心",
-                    "comment": "命中6次",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.17001995828225433))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "solar_critical_strike",
-                    "skill_attribute": {
-                        "frames": "264",
-                        "magical_attack_power_cof": "0.17001995828225433"
-                    }
-                },
-                "8": {
-                    "name": "灼业焚心",
-                    "comment": "命中7次",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.18547631812609564))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "solar_critical_strike",
-                    "skill_attribute": {
-                        "frames": "288",
-                        "magical_attack_power_cof": "0.18547631812609564"
-                    }
-                },
-                "9": {
-                    "name": "灼业焚心",
-                    "comment": "命中8次",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.20093267796993694))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "solar_critical_strike",
-                    "skill_attribute": {
-                        "frames": "312",
-                        "magical_attack_power_cof": "0.20093267796993694"
-                    }
-                },
-                "10": {
-                    "name": "灼业焚心",
-                    "comment": "命中9次",
-                    "damages": [
-                        {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.21638903781377825))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
-                        }
-                    ],
-                    "critical_strike": "solar_critical_strike",
+                    "critical_strike": "0",
                     "skill_attribute": {
                         "frames": "336",
                         "magical_attack_power_cof": "0.21638903781377825"
                     }
                 },
-                "11": {
-                    "name": "灼业焚心",
-                    "comment": "命中10次",
+                "15": {
+                    "name": "圣裁",
+                    "comment": "60%血量",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.23184539765761955))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.2704862972672228))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
                         }
                     ],
-                    "critical_strike": "solar_critical_strike",
+                    "critical_strike": "0",
                     "skill_attribute": {
-                        "frames": "360",
-                        "magical_attack_power_cof": "0.23184539765761955"
+                        "frames": "420",
+                        "magical_attack_power_cof": "0.2704862972672228"
+                    }
+                },
+                "16": {
+                    "name": "圣裁",
+                    "comment": "75%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.32458355672066735))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "504",
+                        "magical_attack_power_cof": "0.32458355672066735"
+                    }
+                },
+                "17": {
+                    "name": "圣裁",
+                    "comment": "90%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.3786808161741119))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "588",
+                        "magical_attack_power_cof": "0.3786808161741119"
+                    }
+                },
+                "18": {
+                    "name": "圣裁",
+                    "comment": "105%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.4327780756275565))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "672",
+                        "magical_attack_power_cof": "0.4327780756275565"
+                    }
+                },
+                "19": {
+                    "name": "圣裁",
+                    "comment": "120%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.48687533508100106))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "756",
+                        "magical_attack_power_cof": "0.48687533508100106"
+                    }
+                },
+                "20": {
+                    "name": "圣裁",
+                    "comment": "135%血量",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(int(solar_attack_power * 0.5409725945344456))) * (1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + solar_overcome)) * shield_constant / (int(solar_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + solar_critical_strike * (solar_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + solar_damage_scale))"
+                        }
+                    ],
+                    "critical_strike": "0",
+                    "skill_attribute": {
+                        "frames": "840",
+                        "magical_attack_power_cof": "0.5409725945344456"
                     }
                 }
             }
@@ -29102,14 +29102,103 @@
         },
         "27578": {
             "27579": {
-                "12": {
+                "1": {
                     "name": "沾衣未妨",
+                    "comment": "5跳",
                     "damages": [
                         {
-                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(24 + rand * 2 + int(poison_attack_power * 0.07728179921920651))) * (1 + 0.099609375 * recipe_2555_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (poison_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + 0.5 * buff_34549_1 + poison_damage_scale))",
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(12 + rand + int(poison_attack_power * 0.07728179921920651))) * (1 + 0.099609375 * recipe_2555_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (poison_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + 0.5 * buff_34549_1 + poison_damage_scale))",
                             "source_attribute": {
-                                "poison_damage_base": "24",
-                                "poison_damage_rand": "2"
+                                "poison_damage_base": "12",
+                                "poison_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "poison_critical_strike",
+                    "skill_attribute": {
+                        "frames": "120",
+                        "magical_attack_power_cof": "0.07728179921920651",
+                        "damage_addition": "0.099609375 * recipe_2555_1",
+                        "damage_gain": "102 * recipe_2555_1",
+                        "coming_damage_scale": "0.5 * buff_34549_1",
+                        "coming_damage_cof": "512 * buff_34549_1"
+                    }
+                },
+                "2": {
+                    "name": "沾衣未妨",
+                    "comment": "4跳",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(12 + rand + int(poison_attack_power * 0.07728179921920651))) * (1 + 0.099609375 * recipe_2555_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (poison_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + 0.5 * buff_34549_1 + poison_damage_scale))",
+                            "source_attribute": {
+                                "poison_damage_base": "12",
+                                "poison_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "poison_critical_strike",
+                    "skill_attribute": {
+                        "frames": "120",
+                        "magical_attack_power_cof": "0.07728179921920651",
+                        "damage_addition": "0.099609375 * recipe_2555_1",
+                        "damage_gain": "102 * recipe_2555_1",
+                        "coming_damage_scale": "0.5 * buff_34549_1",
+                        "coming_damage_cof": "512 * buff_34549_1"
+                    }
+                },
+                "3": {
+                    "name": "沾衣未妨",
+                    "comment": "3跳",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(12 + rand + int(poison_attack_power * 0.07728179921920651))) * (1 + 0.099609375 * recipe_2555_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (poison_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + 0.5 * buff_34549_1 + poison_damage_scale))",
+                            "source_attribute": {
+                                "poison_damage_base": "12",
+                                "poison_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "poison_critical_strike",
+                    "skill_attribute": {
+                        "frames": "120",
+                        "magical_attack_power_cof": "0.07728179921920651",
+                        "damage_addition": "0.099609375 * recipe_2555_1",
+                        "damage_gain": "102 * recipe_2555_1",
+                        "coming_damage_scale": "0.5 * buff_34549_1",
+                        "coming_damage_cof": "512 * buff_34549_1"
+                    }
+                },
+                "4": {
+                    "name": "沾衣未妨",
+                    "comment": "2跳",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(12 + rand + int(poison_attack_power * 0.07728179921920651))) * (1 + 0.099609375 * recipe_2555_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (poison_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + 0.5 * buff_34549_1 + poison_damage_scale))",
+                            "source_attribute": {
+                                "poison_damage_base": "12",
+                                "poison_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "poison_critical_strike",
+                    "skill_attribute": {
+                        "frames": "120",
+                        "magical_attack_power_cof": "0.07728179921920651",
+                        "damage_addition": "0.099609375 * recipe_2555_1",
+                        "damage_gain": "102 * recipe_2555_1",
+                        "coming_damage_scale": "0.5 * buff_34549_1",
+                        "coming_damage_cof": "512 * buff_34549_1"
+                    }
+                },
+                "5": {
+                    "name": "沾衣未妨",
+                    "comment": "1跳",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(12 + rand + int(poison_attack_power * 0.07728179921920651))) * (1 + 0.099609375 * recipe_2555_1 + magical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + poison_overcome)) * shield_constant / (int(poison_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (poison_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + 0.5 * buff_34549_1 + poison_damage_scale))",
+                            "source_attribute": {
+                                "poison_damage_base": "12",
+                                "poison_damage_rand": "1"
                             }
                         }
                     ],

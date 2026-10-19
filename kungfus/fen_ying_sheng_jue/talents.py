@@ -39,10 +39,7 @@ TALENTS: list[dict[int, dict]] = [
             skills={26708: {}, 26709: {}}
         ),
         34372: dict(dots={25725: dict(skills={34373: {}}), 25726: dict(skills={34374: {}})}),
-        21174: dict(skills={40209: {
-            **{i + 1: dict(comment=f"{15 * i}%血量(圣裁庭内)") for i in range(10)},
-            **{i + 11: dict(comment=f"{15 * i}%血量") for i in range(10)},
-        }}),
+        34511: dict(skills={34510: dict(comment="命中{level-1}次")}),
         32622: {}
     },
     {
@@ -72,8 +69,10 @@ TALENTS: list[dict[int, dict]] = [
         46265: {},
         6893: {},
         36093: {},
-        41888: {},
-        34511: dict(skills={34510: dict(comment="命中{level-1}次")}),
+        41888: {},21174: dict(skills={40209: {
+            **{i + 1: dict(comment=f"{15 * i}%血量(圣裁庭内)") for i in range(10)},
+            **{i + 11: dict(comment=f"{15 * i}%血量") for i in range(10)},
+        }}),
         25160: {},
         46195: {},
         46269: {}

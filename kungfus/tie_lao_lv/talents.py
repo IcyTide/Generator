@@ -3,14 +3,9 @@ TALENTS: list[dict[int, dict]] = [
         14804: {},
         14826: {},
         15115: {},
-        44599: dict(
-            buffs={33234: {}},
-            skills={
-                24843: {
-                    **{i + 1: dict(comment=f"蓄力{delay}帧") for i, delay in enumerate([0, 12, 23])},
-                    **{i + 4: dict(comment=f"蓄力{delay}帧(80%血量以下)") for i, delay in enumerate([0, 12, 23])}
-                }
-            }
+        18226: dict(
+            dots={12461: dict(skills={401: {}})},
+            skills={36568: {}}
         )
     },
     {
@@ -48,9 +43,14 @@ TALENTS: list[dict[int, dict]] = [
         5658: {},
         6514: {},
         402: dict(skills={402: {}}),
-        18226: dict(
-            dots={12461: dict(skills={401: {}})},
-            skills={36568: {}}
+        44599: dict(
+            buffs={33234: {}},
+            skills={
+                24843: {
+                    **{i + 1: dict(comment=f"蓄力{delay}帧") for i, delay in enumerate([0, 12, 23])},
+                    **{i + 4: dict(comment=f"蓄力{delay}帧(80%血量以下)") for i, delay in enumerate([0, 12, 23])}
+                }
+            }
         ),
         5682: {},
         5695: {},
