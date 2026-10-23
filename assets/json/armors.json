@@ -70,8 +70,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 208,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -84,8 +84,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -652,8 +652,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 112,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -666,8 +666,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -1132,8 +1132,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -1618,8 +1618,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -1638,8 +1638,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -1717,8 +1717,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -1804,8 +1804,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -1824,8 +1824,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -1891,8 +1891,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -4111,8 +4111,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -4603,8 +4603,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -4617,8 +4617,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -6421,8 +6421,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -6641,8 +6641,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -7943,8 +7943,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -8371,8 +8371,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -8385,8 +8385,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -8597,8 +8597,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -8611,8 +8611,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -9077,8 +9077,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -9563,8 +9563,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -10055,8 +10055,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -10069,8 +10069,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -11873,8 +11873,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -12093,8 +12093,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -13395,8 +13395,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -13823,8 +13823,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -13837,8 +13837,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -14049,8 +14049,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -14075,8 +14075,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -14763,8 +14763,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 156,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -14777,8 +14777,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -15243,8 +15243,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -15269,8 +15269,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -15945,8 +15945,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -16437,8 +16437,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -16923,8 +16923,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -16937,8 +16937,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -17397,8 +17397,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -17889,8 +17889,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18375,8 +18375,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18389,8 +18389,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18861,8 +18861,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18954,8 +18954,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18968,8 +18968,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19047,8 +19047,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19140,8 +19140,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19154,8 +19154,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19221,8 +19221,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 208,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19235,8 +19235,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -20349,8 +20349,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 112,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -20363,8 +20363,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -21777,8 +21777,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -22269,16 +22269,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -24099,8 +24099,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -24331,8 +24331,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -25657,8 +25657,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -26097,8 +26097,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -26323,8 +26323,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -26337,8 +26337,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -26803,8 +26803,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -27295,16 +27295,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -29125,8 +29125,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -29357,8 +29357,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -30683,8 +30683,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -31123,8 +31123,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -31349,8 +31349,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -31375,8 +31375,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -32051,8 +32051,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 156,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -32531,8 +32531,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -32557,8 +32557,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -33227,8 +33227,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -33707,8 +33707,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -33721,8 +33721,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -34199,16 +34199,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -34679,8 +34679,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -35159,8 +35159,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -35173,8 +35173,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -35651,16 +35651,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -36143,8 +36143,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -36236,16 +36236,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -36329,8 +36329,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -36422,16 +36422,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -36515,8 +36515,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 208,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -36529,8 +36529,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37103,8 +37103,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 112,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37117,8 +37117,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37589,8 +37589,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37603,8 +37603,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -38081,8 +38081,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -38095,8 +38095,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -38174,8 +38174,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -38255,8 +38255,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -38269,8 +38269,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -38336,8 +38336,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -39386,8 +39386,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -39860,8 +39860,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -39874,8 +39874,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -40340,8 +40340,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -40820,8 +40820,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 192,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -41312,8 +41312,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -41326,8 +41326,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -41798,8 +41798,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -41812,8 +41812,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -42290,8 +42290,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -42764,8 +42764,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -42778,8 +42778,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -43244,8 +43244,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -43730,8 +43730,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -43744,8 +43744,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -44222,8 +44222,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -44702,8 +44702,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -44716,8 +44716,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -45182,8 +45182,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -45196,8 +45196,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -45674,8 +45674,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46154,8 +46154,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46168,8 +46168,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46640,8 +46640,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46733,8 +46733,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46747,8 +46747,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46826,8 +46826,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46919,8 +46919,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46933,8 +46933,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -47000,8 +47000,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 208,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -47576,8 +47576,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 112,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -48068,8 +48068,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -48167,8 +48167,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -48254,8 +48254,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -48341,8 +48341,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -48361,8 +48361,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -50561,8 +50561,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -51047,8 +51047,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -52865,8 +52865,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -52879,8 +52879,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -53085,8 +53085,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -53099,8 +53099,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -54393,8 +54393,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -54407,8 +54407,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -54821,8 +54821,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -55047,8 +55047,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -55539,8 +55539,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -56025,8 +56025,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -57843,8 +57843,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -57857,8 +57857,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -58063,8 +58063,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -58077,8 +58077,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -59371,8 +59371,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -59385,8 +59385,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -59799,8 +59799,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -60037,8 +60037,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -60745,8 +60745,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 156,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -60759,8 +60759,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -61237,8 +61237,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -61945,8 +61945,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -61959,8 +61959,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -62431,8 +62431,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -62445,8 +62445,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -62917,8 +62917,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -63403,8 +63403,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -63417,8 +63417,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -63889,8 +63889,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -63903,8 +63903,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -64375,8 +64375,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -64867,8 +64867,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -64960,8 +64960,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -65053,8 +65053,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -65146,8 +65146,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -65227,8 +65227,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 208,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -66385,8 +66385,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 112,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -66399,8 +66399,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -67861,8 +67861,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -68353,8 +68353,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -68833,8 +68833,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -70663,8 +70663,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -70677,8 +70677,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -70895,8 +70895,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -70909,8 +70909,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72209,8 +72209,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72223,8 +72223,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72643,8 +72643,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72657,8 +72657,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72881,8 +72881,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72895,8 +72895,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -73361,8 +73361,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -73853,8 +73853,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -74333,8 +74333,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -76163,8 +76163,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -76177,8 +76177,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -76395,8 +76395,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -76409,8 +76409,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -77709,8 +77709,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -77723,8 +77723,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -78143,8 +78143,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -78157,8 +78157,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -78381,8 +78381,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -78407,8 +78407,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -79083,8 +79083,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 156,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -79575,8 +79575,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -79601,8 +79601,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -80277,8 +80277,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -80757,8 +80757,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -81249,8 +81249,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -81263,8 +81263,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -81735,8 +81735,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -82215,8 +82215,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -82707,8 +82707,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -82721,8 +82721,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -83187,8 +83187,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -83268,8 +83268,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -83349,8 +83349,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -83430,8 +83430,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -83523,8 +83523,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 208,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -84105,16 +84105,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 112,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -84591,16 +84591,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -85071,16 +85071,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -86889,16 +86889,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -87109,16 +87109,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -88423,16 +88423,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -88851,16 +88851,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 205,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -89077,16 +89077,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -89563,16 +89563,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -90043,16 +90043,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -91861,16 +91861,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -92081,16 +92081,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -93395,16 +93395,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -93823,16 +93823,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -94049,8 +94049,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 178,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -94069,8 +94069,8 @@
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -94751,8 +94751,8 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -94771,8 +94771,8 @@
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -95459,16 +95459,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -95939,16 +95939,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -96431,16 +96431,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -96917,16 +96917,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -97397,16 +97397,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -97889,16 +97889,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -98369,16 +98369,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -98450,16 +98450,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -98531,16 +98531,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -98612,16 +98612,16 @@
             },
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 155,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
         "embed": [
             {
                 "attr": "atActiveThreatCoefficient",
-                "attr_type": "",
-                "value": 0,
+                "attr_type": "threat_gain",
+                "value": 21,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {

@@ -141,7 +141,7 @@ def get_attr(attr_id: int = None, attr: str = None, param_1: int = None, param_2
     elif attr_type == ATTRIBUTE_TYPE.SET_EQUIPMENT_RECIPE:
         desc, value = get_recipe_desc(param_1, param_2)
     else:
-        desc, value = get_attr_desc(attr), param_1
+        desc, value = get_attr_desc(attr), param_1 if param_1 else param_2
     return {
         "attr": attr,
         "attr_type": attr_type,

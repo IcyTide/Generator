@@ -34,7 +34,8 @@ TRANSLATE_MAP = {
     "parry_value": "拆招值",
     "parry": "拆招",
     "decritical_power": "化劲",
-    "toughness": "御劲"
+    "toughness": "御劲",
+    "threat": "威胁"
 }
 
 

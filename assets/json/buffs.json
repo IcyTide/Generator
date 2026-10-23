@@ -225,7 +225,10 @@
                     "name": "菹菜拌腱肉",
                     "interval": 28800,
                     "max_stack": 1,
-                    "max_tick": 1
+                    "max_tick": 1,
+                    "attributes": {
+                        "threat_gain": 246
+                    }
                 },
                 "7": {
                     "name": "渝州小面·精",
@@ -276,7 +279,10 @@
                     "name": "菹菜拌腱肉·精",
                     "interval": 28800,
                     "max_stack": 1,
-                    "max_tick": 1
+                    "max_tick": 1,
+                    "attributes": {
+                        "threat_gain": 308
+                    }
                 },
                 "13": {
                     "name": "渝州酸辣粉",
@@ -327,7 +333,10 @@
                     "name": "曲香蒸肉",
                     "interval": 28800,
                     "max_stack": 1,
-                    "max_tick": 1
+                    "max_tick": 1,
+                    "attributes": {
+                        "threat_gain": 123
+                    }
                 }
             },
             "34517": {
@@ -508,6 +517,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "vitality_base": 72,
+                        "threat_gain": 143,
                         "max_life_add": 718
                     }
                 },
@@ -562,6 +572,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "vitality_base": 90,
+                        "threat_gain": 179,
                         "max_life_add": 897
                     }
                 },
@@ -616,6 +627,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "vitality_base": 36,
+                        "threat_gain": 72,
                         "max_life_add": 359
                     }
                 },
@@ -838,7 +850,10 @@
                     "name": "云州固阵丹",
                     "interval": 28800,
                     "max_stack": 1,
-                    "max_tick": 1
+                    "max_tick": 1,
+                    "attributes": {
+                        "threat_gain": 308
+                    }
                 },
                 "7": {
                     "name": "巴山凝神丹·精",
@@ -889,7 +904,10 @@
                     "name": "云州固阵丹·精",
                     "interval": 28800,
                     "max_stack": 1,
-                    "max_tick": 1
+                    "max_tick": 1,
+                    "attributes": {
+                        "threat_gain": 385
+                    }
                 },
                 "13": {
                     "name": "巴山凝神散",
@@ -940,7 +958,10 @@
                     "name": "云州固阵散",
                     "interval": 28800,
                     "max_stack": 1,
-                    "max_tick": 1
+                    "max_tick": 1,
+                    "attributes": {
+                        "threat_gain": 154
+                    }
                 }
             }
         },
@@ -3348,7 +3369,8 @@
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_damage_gain": 154
+                        "all_damage_gain": 154,
+                        "threat_gain": -205
                     }
                 }
             }
@@ -3552,7 +3574,8 @@
                         "solar_critical_strike_rate": 500,
                         "neutral_critical_strike_rate": 500,
                         "lunar_critical_strike_rate": 500,
-                        "magical_critical_power_rate": 100
+                        "magical_critical_power_rate": 100,
+                        "threat_gain": -205
                     }
                 }
             }
@@ -3787,6 +3810,7 @@
                         "neutral_critical_strike_rate": 500,
                         "lunar_critical_strike_rate": 500,
                         "magical_critical_power_rate": 100,
+                        "threat_gain": -205,
                         "all_shield_ignore": 615
                     }
                 }
@@ -3835,7 +3859,8 @@
                         "solar_critical_strike_rate": 1000,
                         "neutral_critical_strike_rate": 1000,
                         "lunar_critical_strike_rate": 1000,
-                        "magical_critical_power_rate": 204
+                        "magical_critical_power_rate": 204,
+                        "threat_gain": -205
                     }
                 },
                 "14": {
@@ -3850,6 +3875,7 @@
                         "neutral_critical_strike_rate": 1000,
                         "lunar_critical_strike_rate": 1000,
                         "magical_critical_power_rate": 204,
+                        "threat_gain": -205,
                         "all_shield_ignore": 615
                     }
                 }
@@ -3896,7 +3922,8 @@
                     "max_tick": 1,
                     "attributes": {
                         "physical_critical_power_rate": 100,
-                        "physical_critical_strike_rate": 500
+                        "physical_critical_strike_rate": 500,
+                        "threat_gain": -205
                     }
                 }
             }
@@ -3928,7 +3955,8 @@
                     "max_tick": 1,
                     "attributes": {
                         "physical_critical_power_rate": 204,
-                        "physical_critical_strike_rate": 1000
+                        "physical_critical_strike_rate": 1000,
+                        "threat_gain": -205
                     }
                 },
                 "11": {
@@ -3940,6 +3968,7 @@
                     "attributes": {
                         "physical_critical_power_rate": 204,
                         "physical_critical_strike_rate": 1000,
+                        "threat_gain": -205,
                         "all_shield_ignore": 614
                     }
                 }
@@ -4041,6 +4070,7 @@
                     "attributes": {
                         "physical_critical_power_rate": 100,
                         "physical_critical_strike_rate": 500,
+                        "threat_gain": -205,
                         "all_shield_ignore": 614
                     }
                 }
@@ -4100,6 +4130,7 @@
                     "max_stack": 2,
                     "max_tick": 1,
                     "attributes": {
+                        "threat_gain": -819,
                         "neutral_attack_power_gain": 307,
                         "therapy_power_gain": 307
                     }
@@ -4271,7 +4302,8 @@
                     "attributes": {
                         "physical_critical_strike_rate": 600,
                         "physical_critical_power_rate": 256,
-                        "strain_gain": 204
+                        "strain_gain": 204,
+                        "threat_gain": -408
                     }
                 }
             }
@@ -4833,7 +4865,8 @@
                     "max_stack": 1,
                     "max_tick": 8,
                     "attributes": {
-                        "physical_critical_strike_rate": 2000
+                        "physical_critical_strike_rate": 2000,
+                        "threat_gain": -512
                     }
                 }
             }
@@ -4860,6 +4893,7 @@
                     "max_tick": 8,
                     "attributes": {
                         "physical_critical_strike_rate": 1000,
+                        "threat_gain": -512,
                         "unlimit_critical_power_rate": 256
                     }
                 }
@@ -5061,7 +5095,8 @@
                     "max_tick": 1,
                     "attributes": {
                         "poison_attack_power_gain": 512,
-                        "therapy_power_gain": 512
+                        "therapy_power_gain": 512,
+                        "threat_gain": -410
                     }
                 }
             }
@@ -5190,7 +5225,8 @@
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "physical_attack_power_gain": 205
+                        "physical_attack_power_gain": 205,
+                        "threat_gain": -205
                     }
                 }
             }
@@ -5327,6 +5363,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "physical_attack_power_gain": 307,
+                        "threat_gain": -205,
                         "strain_gain": 256
                     }
                 }
@@ -5418,7 +5455,8 @@
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "poison_attack_power_gain": 512
+                        "poison_attack_power_gain": 512,
+                        "threat_gain": -512
                     }
                 }
             }
@@ -5898,6 +5936,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "physical_critical_strike_rate": 2000,
+                        "threat_gain": -512,
                         "physical_critical_power_rate": 205,
                         "physical_attack_power_gain": 154
                     }
@@ -6156,7 +6195,8 @@
                     "max_stack": 3,
                     "max_tick": 1,
                     "attributes": {
-                        "physical_attack_power_gain": 102
+                        "physical_attack_power_gain": 102,
+                        "threat_gain": -204
                     }
                 }
             }
@@ -6169,7 +6209,8 @@
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "physical_attack_power_gain": 102
+                        "physical_attack_power_gain": 102,
+                        "threat_gain": -204
                     },
                     "recipes": [
                         "recipe_6526_1",
@@ -6948,7 +6989,8 @@
                     "max_stack": 1,
                     "max_tick": 10,
                     "attributes": {
-                        "all_shield_ignore": 512
+                        "all_shield_ignore": 512,
+                        "threat_gain": -1024
                     }
                 }
             }
@@ -7499,7 +7541,8 @@
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_shield_ignore": 614
+                        "all_shield_ignore": 614,
+                        "threat_gain": -512
                     }
                 }
             }
@@ -7542,6 +7585,7 @@
                     "max_tick": 1,
                     "attributes": {
                         "all_shield_ignore": 512,
+                        "threat_gain": -512,
                         "strain_gain": 205
                     }
                 }
@@ -7703,7 +7747,8 @@
                     "attributes": {
                         "physical_critical_power_rate": 100,
                         "physical_critical_strike_rate": 1000,
-                        "physical_overcome_gain": 102
+                        "physical_overcome_gain": 102,
+                        "threat_gain": -717
                     }
                 }
             }
@@ -7757,7 +7802,8 @@
                     "max_stack": 5,
                     "max_tick": 19,
                     "attributes": {
-                        "all_damage_gain": 41
+                        "all_damage_gain": 41,
+                        "threat_gain": -82
                     }
                 }
             }

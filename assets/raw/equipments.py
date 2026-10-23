@@ -21,10 +21,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 413,
                         "haste_base": 127,
                         "toughness_base": 127,
-                        "strain_base": 461
+                        "strain_base": 461,
+                        "threat_gain": 208
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7019,
                     "sets": {
@@ -63,10 +65,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 112
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -90,7 +94,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -120,7 +125,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 282,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -150,10 +156,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -177,10 +185,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "magical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -204,7 +214,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -234,7 +245,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 244,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -264,10 +276,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 353,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -291,10 +305,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "magical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6981,
                     "sets": {
@@ -338,10 +354,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 310,
                         "haste_base": 95,
                         "toughness_base": 95,
-                        "strain_base": 300
+                        "strain_base": 300,
+                        "threat_gain": 156
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -365,10 +383,12 @@ EQUIPMENTS = {
                         "vitality_base": 473,
                         "magical_shield_base": 614,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6975,
                     "sets": {
@@ -410,7 +430,8 @@ EQUIPMENTS = {
                         "vitality_base": 473,
                         "physical_shield_base": 614,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -440,7 +461,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -469,10 +491,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 519,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -496,7 +520,8 @@ EQUIPMENTS = {
                         "vitality_base": 473,
                         "physical_shield_base": 614,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -526,7 +551,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -555,10 +581,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 519,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -584,7 +612,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -614,10 +643,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -643,7 +674,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -673,10 +705,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -3559,10 +3593,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -3590,7 +3626,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 282,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -3620,10 +3657,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -3649,7 +3688,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -5632,7 +5672,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -5676,7 +5717,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -5820,7 +5862,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -5864,7 +5907,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -6954,7 +6998,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -6998,7 +7043,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -7328,10 +7374,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6983,
                     "sets": {
@@ -7372,10 +7420,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "magical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6983,
                     "sets": {
@@ -7518,10 +7568,12 @@ EQUIPMENTS = {
                         "vitality_base": 652,
                         "physical_shield_base": 827,
                         "toughness_base": 127,
-                        "strain_base": 461
+                        "strain_base": 461,
+                        "threat_gain": 208
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7019,
                     "sets": {
@@ -7560,10 +7612,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 112
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7587,7 +7641,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -7617,9 +7672,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 282,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "physical_shield_base": 225
                     },
                     "set_id": 0,
@@ -7644,10 +7701,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7671,7 +7730,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "magical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -7701,9 +7761,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 244,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "physical_shield_base": 225
                     },
                     "set_id": 0,
@@ -7728,10 +7790,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6981,
                     "sets": {
@@ -7774,7 +7838,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 525,
                         "haste_base": 95,
                         "toughness_base": 95,
-                        "strain_base": 300
+                        "strain_base": 300,
+                        "threat_gain": 156
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -7802,10 +7867,12 @@ EQUIPMENTS = {
                         "vitality_base": 473,
                         "physical_shield_base": 614,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6975,
                     "sets": {
@@ -7847,7 +7914,8 @@ EQUIPMENTS = {
                         "vitality_base": 473,
                         "magical_shield_base": 614,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -7876,10 +7944,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 519,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7905,9 +7975,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "physical_shield_base": 225
                     },
                     "set_id": 0,
@@ -7932,7 +8004,8 @@ EQUIPMENTS = {
                         "vitality_base": 473,
                         "magical_shield_base": 614,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -7961,10 +8034,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 519,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "dodge_base": 225
+                        "dodge_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7990,9 +8065,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "physical_shield_base": 225
                     },
                     "set_id": 0,
@@ -8019,7 +8096,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -8049,9 +8127,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "physical_shield_base": 225
                     },
                     "set_id": 0,
@@ -8078,7 +8158,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -8108,9 +8189,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "physical_shield_base": 225
                     },
                     "set_id": 0,
@@ -12388,7 +12471,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -12434,7 +12518,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 353,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -12580,7 +12665,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -12626,7 +12712,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 353,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -13722,7 +13809,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -13768,7 +13856,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 353,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14100,7 +14189,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14147,7 +14237,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 353,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14296,10 +14387,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 590,
                         "haste_base": 182,
                         "toughness_base": 182,
-                        "strain_base": 659
+                        "strain_base": 659,
+                        "threat_gain": 208
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7019,
                     "sets": {
@@ -14340,10 +14433,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 581,
                         "haste_base": 179,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 112
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14369,10 +14464,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 581,
                         "haste_base": 179,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14398,7 +14495,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 402,
                         "haste_base": 179,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14426,10 +14524,12 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "magical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14453,7 +14553,8 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "physical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -14481,7 +14582,8 @@ EQUIPMENTS = {
                         "vitality_base": 854,
                         "physical_shield_base": 1090,
                         "toughness_base": 168,
-                        "strain_base": 585
+                        "strain_base": 585,
+                        "threat_gain": 192
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -14511,10 +14613,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 504,
                         "haste_base": 155,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14540,10 +14644,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 504,
                         "haste_base": 155,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14569,7 +14675,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 349,
                         "haste_base": 155,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14597,10 +14704,12 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "magical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14624,7 +14733,8 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "physical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -14653,10 +14763,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 742,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14682,7 +14794,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 303,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14710,10 +14823,12 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "magical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14738,10 +14853,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 742,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14767,7 +14884,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 303,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14795,10 +14913,12 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "magical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14824,7 +14944,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 303,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14854,10 +14975,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 438,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14883,7 +15006,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 303,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -14913,10 +15037,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 438,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -17616,10 +17742,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 581,
                         "haste_base": 179,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -17645,7 +17773,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 402,
                         "haste_base": 179,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -17673,10 +17802,12 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "magical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "physical_shield_base": 225
+                        "physical_shield_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -17700,7 +17831,8 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "physical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "dodge_base": 225,
@@ -18101,7 +18233,8 @@ EQUIPMENTS = {
                         "vitality_base": 652,
                         "magical_shield_base": 827,
                         "toughness_base": 127,
-                        "strain_base": 461
+                        "strain_base": 461,
+                        "threat_gain": 208
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18144,7 +18277,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 112
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18174,7 +18308,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18204,7 +18339,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 282,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -18232,7 +18368,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "magical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18262,7 +18399,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 353,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18292,7 +18430,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 244,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -18322,7 +18461,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 244,
                         "haste_base": 109,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -18369,10 +18509,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 405,
                         "magical_shield_base": 215,
                         "toughness_base": 95,
-                        "strain_base": 300
+                        "strain_base": 300,
+                        "threat_gain": 156
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18398,7 +18540,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -18445,10 +18588,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 519,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18473,10 +18618,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 401,
                         "magical_shield_base": 212,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18502,7 +18649,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18531,10 +18679,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 519,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18559,10 +18709,12 @@ EQUIPMENTS = {
                         "physical_shield_base": 401,
                         "magical_shield_base": 212,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18588,7 +18740,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18618,7 +18771,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18648,7 +18802,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -18678,7 +18833,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 307,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -18708,7 +18864,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 212,
                         "haste_base": 94,
                         "toughness_base": 94,
-                        "strain_base": 295
+                        "strain_base": 295,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -21306,7 +21463,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 407,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -21338,7 +21496,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 282,
                         "haste_base": 125,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "magical_shield_base": 225,
@@ -21368,7 +21527,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -21398,10 +21558,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -23380,10 +23542,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7001,
                     "sets": {
@@ -23423,10 +23587,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7001,
                     "sets": {
@@ -23566,10 +23732,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6999,
                     "sets": {
@@ -23609,10 +23777,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6999,
                     "sets": {
@@ -24700,10 +24870,12 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "physical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6987,
                     "sets": {
@@ -24743,10 +24915,12 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "physical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6987,
                     "sets": {
@@ -25072,7 +25246,8 @@ EQUIPMENTS = {
                         "vitality_base": 641,
                         "magical_shield_base": 814,
                         "toughness_base": 125,
-                        "strain_base": 451
+                        "strain_base": 451,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -25117,7 +25292,8 @@ EQUIPMENTS = {
                         "vitality_base": 550,
                         "magical_shield_base": 706,
                         "toughness_base": 109,
-                        "strain_base": 364
+                        "strain_base": 364,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -25264,7 +25440,8 @@ EQUIPMENTS = {
                         "vitality_base": 838,
                         "magical_shield_base": 1063,
                         "toughness_base": 164,
-                        "strain_base": 593
+                        "strain_base": 593,
+                        "threat_gain": 208
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25309,10 +25486,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 362,
                         "haste_base": 161,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 112
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -25336,7 +25515,8 @@ EQUIPMENTS = {
                         "vitality_base": 824,
                         "magical_shield_base": 1046,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25366,7 +25546,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 523,
                         "haste_base": 161,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25394,7 +25575,8 @@ EQUIPMENTS = {
                         "vitality_base": 824,
                         "physical_shield_base": 1046,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25424,10 +25606,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 314,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -25451,7 +25635,8 @@ EQUIPMENTS = {
                         "vitality_base": 707,
                         "magical_shield_base": 907,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25481,7 +25666,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 454,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25509,7 +25695,8 @@ EQUIPMENTS = {
                         "vitality_base": 707,
                         "physical_shield_base": 907,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25539,10 +25726,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 314,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6981,
                     "sets": {
@@ -25585,7 +25774,8 @@ EQUIPMENTS = {
                         "physical_shield_base": 674,
                         "haste_base": 123,
                         "toughness_base": 123,
-                        "strain_base": 385
+                        "strain_base": 385,
+                        "threat_gain": 156
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25615,10 +25805,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 273,
                         "haste_base": 121,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6975,
                     "sets": {
@@ -25661,7 +25853,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 668,
                         "haste_base": 121,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25690,7 +25883,8 @@ EQUIPMENTS = {
                         "physical_shield_base": 273,
                         "magical_shield_base": 516,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25720,10 +25914,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 273,
                         "haste_base": 121,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -25748,7 +25944,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 668,
                         "haste_base": 121,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25777,7 +25974,8 @@ EQUIPMENTS = {
                         "physical_shield_base": 273,
                         "magical_shield_base": 516,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25807,10 +26005,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 273,
                         "haste_base": 121,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 0,
                     "sets": {},
@@ -25834,7 +26034,8 @@ EQUIPMENTS = {
                         "vitality_base": 608,
                         "physical_shield_base": 789,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25862,7 +26063,8 @@ EQUIPMENTS = {
                         "vitality_base": 608,
                         "magical_shield_base": 789,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25890,7 +26092,8 @@ EQUIPMENTS = {
                         "vitality_base": 608,
                         "physical_shield_base": 789,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -25918,7 +26121,8 @@ EQUIPMENTS = {
                         "vitality_base": 608,
                         "magical_shield_base": 789,
                         "toughness_base": 121,
-                        "strain_base": 379
+                        "strain_base": 379,
+                        "threat_gain": 155
                     },
                     "embed": {
                         "vitality_base": 225,
@@ -30498,10 +30702,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 362,
                         "haste_base": 161,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7001,
                     "sets": {
@@ -30543,10 +30749,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 314,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 7001,
                     "sets": {
@@ -30688,10 +30896,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 362,
                         "haste_base": 161,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6999,
                     "sets": {
@@ -30733,10 +30943,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 314,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6999,
                     "sets": {
@@ -31824,10 +32036,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 362,
                         "haste_base": 161,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6987,
                     "sets": {
@@ -31869,10 +32083,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 314,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6987,
                     "sets": {
@@ -32198,10 +32414,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 362,
                         "haste_base": 161,
                         "toughness_base": 161,
-                        "strain_base": 580
+                        "strain_base": 580,
+                        "threat_gain": 205
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6983,
                     "sets": {
@@ -32244,10 +32462,12 @@ EQUIPMENTS = {
                         "magical_shield_base": 314,
                         "haste_base": 140,
                         "toughness_base": 140,
-                        "strain_base": 468
+                        "strain_base": 468,
+                        "threat_gain": 178
                     },
                     "embed": {
-                        "vitality_base": 225
+                        "vitality_base": 225,
+                        "threat_gain": 21
                     },
                     "set_id": 6983,
                     "sets": {
@@ -32392,7 +32612,8 @@ EQUIPMENTS = {
                         "magical_shield_base": 409,
                         "haste_base": 182,
                         "toughness_base": 182,
-                        "strain_base": 659
+                        "strain_base": 659,
+                        "threat_gain": 208
                     },
                     "embed": {
                         "physical_shield_base": 225,
@@ -32435,9 +32656,11 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "magical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 112
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32464,9 +32687,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 581,
                         "haste_base": 179,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32491,9 +32716,11 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "physical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 0,
@@ -32518,9 +32745,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "magical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32547,9 +32776,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 504,
                         "haste_base": 155,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32574,9 +32805,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "physical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 0,
@@ -32601,9 +32834,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "physical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 6981,
@@ -32646,9 +32881,11 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "physical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 6975,
@@ -32692,9 +32929,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 303,
                         "magical_shield_base": 573,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32720,9 +32959,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 742,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 0,
@@ -32749,9 +32990,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 438,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32777,9 +33020,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 303,
                         "magical_shield_base": 573,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32805,9 +33050,11 @@ EQUIPMENTS = {
                         "physical_shield_base": 742,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 0,
@@ -32834,9 +33081,11 @@ EQUIPMENTS = {
                         "magical_shield_base": 438,
                         "haste_base": 135,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32861,9 +33110,11 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "physical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 0,
@@ -32888,9 +33139,11 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "magical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -32915,9 +33168,11 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "physical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 0,
@@ -32942,9 +33197,11 @@ EQUIPMENTS = {
                         "vitality_base": 675,
                         "magical_shield_base": 877,
                         "toughness_base": 135,
-                        "strain_base": 422
+                        "strain_base": 422,
+                        "threat_gain": 155
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 0,
@@ -36548,9 +36805,11 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "magical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 7001,
@@ -36591,9 +36850,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "magical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 7001,
@@ -36734,9 +36995,11 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "magical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 6999,
@@ -36777,9 +37040,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "magical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 6999,
@@ -37870,9 +38135,11 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "physical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 6987,
@@ -37913,9 +38180,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "physical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "vitality_base": 225
                     },
                     "set_id": 6987,
@@ -38242,9 +38511,11 @@ EQUIPMENTS = {
                         "vitality_base": 916,
                         "magical_shield_base": 1163,
                         "toughness_base": 179,
-                        "strain_base": 644
+                        "strain_base": 644,
+                        "threat_gain": 205
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 6983,
@@ -38286,9 +38557,11 @@ EQUIPMENTS = {
                         "vitality_base": 785,
                         "magical_shield_base": 1008,
                         "toughness_base": 155,
-                        "strain_base": 520
+                        "strain_base": 520,
+                        "threat_gain": 178
                     },
                     "embed": {
+                        "threat_gain": 21,
                         "magical_shield_base": 225
                     },
                     "set_id": 6983,
@@ -52010,7 +52283,9 @@ EQUIPMENTS = {
                         "toughness_base": 107,
                         "strain_base": 386
                     },
-                    "embed": {},
+                    "embed": {
+                        "threat_gain": 21
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -52084,7 +52359,9 @@ EQUIPMENTS = {
                         "toughness_base": 101,
                         "strain_base": 351
                     },
-                    "embed": {},
+                    "embed": {
+                        "threat_gain": 21
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -52108,7 +52385,9 @@ EQUIPMENTS = {
                         "toughness_base": 93,
                         "strain_base": 312
                     },
-                    "embed": {},
+                    "embed": {
+                        "threat_gain": 21
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -52332,7 +52611,9 @@ EQUIPMENTS = {
                         "toughness_base": 81,
                         "strain_base": 253
                     },
-                    "embed": {},
+                    "embed": {
+                        "threat_gain": 21
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
@@ -52380,7 +52661,9 @@ EQUIPMENTS = {
                         "toughness_base": 81,
                         "strain_base": 253
                     },
-                    "embed": {},
+                    "embed": {
+                        "threat_gain": 21
+                    },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],

@@ -265,7 +265,7 @@ class ATTRIBUTE_TYPE(StrEnum):
     TOUGHNESS_BASE_RATE = "toughness_rate"
 
     # Tank Attribute
-    ACTIVE_THREAT_COEFFICIENT = ""
+    ACTIVE_THREAT_COEFFICIENT = "threat_gain"
     EXTRA_THREAT_COEFFICIENT = ""
 
     DODGE = "dodge_base"

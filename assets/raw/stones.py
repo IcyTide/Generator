@@ -76638,6 +76638,44 @@ STONES = {
         }
     },
     "all_major_base": {
+        "threat_gain": {
+            4: {
+                "enchant_id": 5594,
+                "item_ids": [
+                    25438
+                ],
+                "name": "彩·守护·固本·忘我(肆)",
+                "level": 4,
+                "attributes": {
+                    "all_major_base": 31,
+                    "threat_gain": 13
+                }
+            },
+            5: {
+                "enchant_id": 5595,
+                "item_ids": [
+                    25439
+                ],
+                "name": "彩·守护·固本·忘我(伍)",
+                "level": 5,
+                "attributes": {
+                    "all_major_base": 38,
+                    "threat_gain": 16
+                }
+            },
+            6: {
+                "enchant_id": 5596,
+                "item_ids": [
+                    25440
+                ],
+                "name": "彩·守护·固本·忘我(陆)",
+                "level": 6,
+                "attributes": {
+                    "all_major_base": 46,
+                    "threat_gain": 20
+                }
+            }
+        },
         "vitality_gain": {
             4: {
                 "enchant_id": 5597,

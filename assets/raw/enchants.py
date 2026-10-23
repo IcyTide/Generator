@@ -1,5 +1,8 @@
 ENCHANTS = {
     "consumables": {
+        "苍生·巨灵磨石（仇恨） 仇恨百分比提升10%点": {
+            "threat_gain": 0
+        },
         "苍生·絮泊磨石（疗伤） 疗伤成效提升54点": {
             "therapy_power_base": 54
         },
@@ -9,6 +12,9 @@ ENCHANTS = {
         "苍生·瀑沙磨石（武伤） 武器伤害提升9点": {
             "weapon_damage_base": 9
         },
+        "苍生·巨灵焠晶（仇恨） 仇恨百分比提升25%": {
+            "threat_gain": 0
+        },
         "苍生·絮泊焠晶（疗伤） 疗伤成效提升135点": {
             "therapy_power_base": 135
         },
@@ -17,6 +23,9 @@ ENCHANTS = {
         },
         "苍生·瀑沙焠晶（武伤） 武器伤害提升22点": {
             "weapon_damage_base": 22
+        },
+        "苍生·巨灵熔锭（仇恨） 仇恨百分比提升20%": {
+            "threat_gain": 0
         },
         "苍生·絮泊熔锭（疗伤） 疗伤成效提升108点": {
             "therapy_power_base": 108
@@ -613,6 +622,14 @@ ENCHANTS = {
                 "vitality_base": 36
             }
         },
+        "撑天·衣·减仇 上衣招式产生威胁降低4%": {
+            "id": 16599,
+            "name": "撑天·衣·减仇",
+            "score": 42,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "撑天·衣·无双 上衣无双等级提高22": {
             "id": 16598,
             "name": "撑天·衣·无双",
@@ -753,6 +770,14 @@ ENCHANTS = {
                 "all_overcome_base": 90
             }
         },
+        "云锦绣·腕（仇恨） 仇恨百分比提升17%": {
+            "id": 16558,
+            "name": "云锦绣·腕（仇恨）",
+            "score": 122,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "云锦绣·腕（根骨） 根骨提升90点": {
             "id": 16557,
             "name": "云锦绣·腕（根骨）",
@@ -809,6 +834,14 @@ ENCHANTS = {
                 "all_overcome_base": 72
             }
         },
+        "蜀锦绣·腕（仇恨） 仇恨百分比提升13%": {
+            "id": 16544,
+            "name": "蜀锦绣·腕（仇恨）",
+            "score": 105,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "蜀锦绣·腕（根骨） 根骨提升72点": {
             "id": 16543,
             "name": "蜀锦绣·腕（根骨）",
@@ -863,6 +896,14 @@ ENCHANTS = {
             "score": 52,
             "attributes": {
                 "all_overcome_base": 36
+            }
+        },
+        "河洛纹·腕（仇恨） 仇恨百分比提升7%点": {
+            "id": 16572,
+            "name": "河洛纹·腕（仇恨）",
+            "score": 52,
+            "attributes": {
+                "threat_gain": 0
             }
         },
         "河洛纹·腕（根骨） 根骨提升36点": {
@@ -993,6 +1034,14 @@ ENCHANTS = {
             "score": 52,
             "attributes": {
                 "vitality_base": 36
+            }
+        },
+        "撑天·腰·减仇 腰带招式产生威胁降低4%": {
+            "id": 16601,
+            "name": "撑天·腰·减仇",
+            "score": 42,
+            "attributes": {
+                "threat_gain": 0
             }
         },
         "撑天·腰·无双 腰带无双等级提高22": {
@@ -1143,6 +1192,14 @@ ENCHANTS = {
                 "all_overcome_base": 90
             }
         },
+        "峡金焠·裤（仇恨） 仇恨百分比提升17%": {
+            "id": 16512,
+            "name": "峡金焠·裤（仇恨）",
+            "score": 122,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "峡金焠·裤（根骨） 根骨提升90点": {
             "id": 16511,
             "name": "峡金焠·裤（根骨）",
@@ -1199,6 +1256,14 @@ ENCHANTS = {
                 "all_overcome_base": 72
             }
         },
+        "峡金铸·裤（仇恨） 仇恨百分比提升13%": {
+            "id": 16494,
+            "name": "峡金铸·裤（仇恨）",
+            "score": 105,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "峡金铸·裤（根骨） 根骨提升72点": {
             "id": 16493,
             "name": "峡金铸·裤（根骨）",
@@ -1253,6 +1318,14 @@ ENCHANTS = {
             "score": 52,
             "attributes": {
                 "all_overcome_base": 36
+            }
+        },
+        "云冈石·裤（仇恨） 仇恨百分比提升7%": {
+            "id": 16526,
+            "name": "云冈石·裤（仇恨）",
+            "score": 52,
+            "attributes": {
+                "threat_gain": 0
             }
         },
         "云冈石·裤（根骨） 根骨提升36点": {
@@ -1313,6 +1386,14 @@ ENCHANTS = {
         }
     },
     "primary_weapon": {
+        "峡金焠·兵（仇恨） 仇恨百分比提升17%": {
+            "id": 16507,
+            "name": "峡金焠·兵（仇恨）",
+            "score": 122,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "峡金焠·兵（武伤） 武器伤害提升15点": {
             "id": 16506,
             "name": "峡金焠·兵（武伤）",
@@ -1337,6 +1418,14 @@ ENCHANTS = {
                 "all_attack_power_base": 90
             }
         },
+        "峡金铸·兵（仇恨） 仇恨百分比提升13%": {
+            "id": 16489,
+            "name": "峡金铸·兵（仇恨）",
+            "score": 105,
+            "attributes": {
+                "threat_gain": 0
+            }
+        },
         "峡金铸·兵（武伤） 武器伤害提升12点": {
             "id": 16488,
             "name": "峡金铸·兵（武伤）",
@@ -1359,6 +1448,14 @@ ENCHANTS = {
             "score": 105,
             "attributes": {
                 "all_attack_power_base": 72
+            }
+        },
+        "云冈石·兵（仇恨） 仇恨百分比提升7%点": {
+            "id": 16539,
+            "name": "云冈石·兵（仇恨）",
+            "score": 52,
+            "attributes": {
+                "threat_gain": 0
             }
         },
         "云冈石·兵（武伤） 武器伤害提升6点": {

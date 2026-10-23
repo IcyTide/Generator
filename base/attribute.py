@@ -1279,6 +1279,10 @@ class Toughness:
         return self.toughness_percent + self.toughness_rate / DECIMAL_SCALE
 
 
+class Threat:
+    threat_gain: int
+
+
 class Other:
     all_damage_gain: int = 0
     physical_damage_gain: int = 0
@@ -1315,7 +1319,7 @@ class Other:
 
 class BaseAttribute(
     AttackPower, CriticalStrike, Overcome, CriticalPower, Shield, DamageBase, DamageCof,
-    WeaponDamage, Haste, Strain, Dodge, Parry, TherapyPower, TherapyBase,
+    WeaponDamage, Haste, Strain, Dodge, Parry, TherapyPower, TherapyBase, Threat,
     Life, Mana, DecriticalPower, Toughness, Other
 ):
     level: int = LEVEL
