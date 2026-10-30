@@ -34142,5 +34142,1397 @@
         ],
         "set_id": 0,
         "sets": {}
+    },
+    "51508": {
+        "id": 51508,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 353,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 320,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 304,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51507": {
+        "id": 51507,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 353,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 320,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 304,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51494": {
+        "id": 51494,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 353,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 320,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 304,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51493": {
+        "id": 51493,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 353,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atHasteBase",
+                "attr_type": "haste_base",
+                "value": 320,
+                "desc": "<text>text=\"加速等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 304,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51460": {
+        "id": 51460,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 213,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 156,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 156,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalDamagePowerBase",
+                "attr_type": "physical_critical_power_base",
+                "value": 304,
+                "desc": "<text>text=\"外功会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51459": {
+        "id": 51459,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 246,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 304,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51458": {
+        "id": 51458,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 246,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 304,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51457": {
+        "id": 51457,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 213,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 156,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 156,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAllTypeCriticalDamagePowerBase",
+                "attr_type": "all_critical_power_base",
+                "value": 304,
+                "desc": "<text>text=\"全会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51456": {
+        "id": 51456,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 246,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 304,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51455": {
+        "id": 51455,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 246,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 304,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51418": {
+        "id": 51418,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 213,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 156,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 156,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsCriticalDamagePowerBase",
+                "attr_type": "physical_critical_power_base",
+                "value": 304,
+                "desc": "<text>text=\"外功会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51417": {
+        "id": 51417,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 246,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsOvercomeBase",
+                "attr_type": "physical_overcome_base",
+                "value": 304,
+                "desc": "<text>text=\"外功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51416": {
+        "id": 51416,
+        "name": "无观项链·外·荒",
+        "school": "精简",
+        "kind": "外功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atPhysicsCriticalStrike",
+                "attr_type": "physical_critical_strike_base",
+                "value": 246,
+                "desc": "<text>text=\"外功会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atPhysicsAttackPowerBase",
+                "attr_type": "physical_attack_power_base",
+                "value": 304,
+                "desc": "<text>text=\"外功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51415": {
+        "id": 51415,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 213,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 156,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 156,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 225,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atAllTypeCriticalDamagePowerBase",
+                "attr_type": "all_critical_power_base",
+                "value": 304,
+                "desc": "<text>text=\"全会心效果等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51414": {
+        "id": 51414,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 246,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicOvercome",
+                "attr_type": "magical_overcome_base",
+                "value": 304,
+                "desc": "<text>text=\"内功破防等级提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
+    },
+    "51413": {
+        "id": 51413,
+        "name": "无观项链·内·荒",
+        "school": "精简",
+        "kind": "内功",
+        "position": "necklace",
+        "usage": "PVE",
+        "level": 940,
+        "score": 41,
+        "max_strength": 6,
+        "icon_id": 2838,
+        "desc": "",
+        "base": [
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            },
+            {
+                "attr": "atInvalid",
+                "attr_type": "",
+                "value": 0,
+                "desc": ""
+            }
+        ],
+        "magic": [
+            {
+                "attr": "atVitalityBase",
+                "attr_type": "vitality_base",
+                "value": 242,
+                "desc": "<text>text=\"体质提高{}\" font=106 </text>"
+            },
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 246,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atAllTypeCriticalStrike",
+                "attr_type": "all_critical_strike_base",
+                "value": 246,
+                "desc": "<text>text=\"全会心等级提高{}\" font=105 </text>"
+            },
+            {
+                "attr": "atStrainBase",
+                "attr_type": "strain_base",
+                "value": 270,
+                "desc": "<text>text=\"无双等级提高{}\" font=105 </text>"
+            }
+        ],
+        "embed": [
+            {
+                "attr": "atMagicAttackPowerBase",
+                "attr_type": "magical_attack_power_base",
+                "value": 304,
+                "desc": "<text>text=\"内功攻击提高{}\" font=105 </text>"
+            }
+        ],
+        "set_id": 0,
+        "sets": {}
     }
 }
