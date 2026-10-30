@@ -1280,7 +1280,7 @@ class Toughness:
 
 
 class Threat:
-    threat_gain: int
+    threat_gain: int = 0
 
 
 class Other:

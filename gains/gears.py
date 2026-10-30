@@ -168,7 +168,8 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
     # dps tertiary_weapon
     38950: dict(
         name="暗器特效", skills={38966: dict(levels=list(range(9, 15)), custom_damage_source="tDPSJingJianAnQiData")}
-    )
+    ),
+    34831: dict(name="暗器特效", buffs={34831: dict(levels=[1, 2], name="加速暗器特效")})
 }
 SPECIAL_WEAPON_GAINS: dict[int, dict] = {
 }
@@ -182,13 +183,13 @@ SPECIAL_ENCHANT_GAINS = {
     10106: dict(name="头大附魔", buffs={15436: dict(name="头大附魔", levels=[18, 19])}),
     46463: dict(
         name="手大附魔", skills={37562: {
-            1: dict(custom_damage_base=7414),
-            2: dict(custom_damage_base=8550)
+            1: dict(custom_damage_base=13524),
+            2: dict(custom_damage_base=19745)
         }}),
     46464: dict(
         name="脚大附魔", skills={37561: {
-            1: dict(custom_damage_base=4943),
-            2: dict(custom_damage_base=5700)
+            1: dict(custom_damage_base=9017),
+            2: dict(custom_damage_base=13164)
         }}),
     22151: dict(skills={22151: dict(levels=[18, 19])}),
     22169: dict(name="腰大附魔", buffs={

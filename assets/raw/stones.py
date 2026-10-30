@@ -1048,7 +1048,7 @@ STONES = {
                 }
             }
         },
-        "physical_shield_add": {
+        "physical_shield_base": {
             "max_life_add": {
                 1: {
                     "enchant_id": 4012,
@@ -1059,7 +1059,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "vitality_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346
                     }
                 },
@@ -1072,7 +1072,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "vitality_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692
                     }
                 },
@@ -1085,7 +1085,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "vitality_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039
                     }
                 },
@@ -1098,7 +1098,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "vitality_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "max_life_add": 1385
                     }
                 },
@@ -1111,7 +1111,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "vitality_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "max_life_add": 1731
                     }
                 },
@@ -1124,7 +1124,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "vitality_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "max_life_add": 2077
                     }
                 }
@@ -1139,7 +1139,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "vitality_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200
                     }
                 },
@@ -1152,7 +1152,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "vitality_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400
                     }
                 },
@@ -1165,7 +1165,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "vitality_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601
                     }
                 },
@@ -1178,7 +1178,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "vitality_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "parry_value_base": 801
                     }
                 },
@@ -1191,7 +1191,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "vitality_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "parry_value_base": 1001
                     }
                 },
@@ -1204,7 +1204,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "vitality_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "parry_value_base": 1201
                     }
                 }
@@ -1219,7 +1219,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "vitality_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35
                     }
                 },
@@ -1232,7 +1232,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "vitality_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69
                     }
                 },
@@ -1245,7 +1245,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "vitality_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104
                     }
                 },
@@ -1258,7 +1258,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "vitality_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "magical_shield_base": 138
                     }
                 },
@@ -1271,7 +1271,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "vitality_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "magical_shield_base": 173
                     }
                 },
@@ -1284,7 +1284,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "vitality_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "magical_shield_base": 208
                     }
                 }
@@ -1371,7 +1371,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4036,
                     "item_ids": [
@@ -1382,7 +1382,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "parry_value_base": 100,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -1395,7 +1395,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "parry_value_base": 200,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -1408,7 +1408,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "parry_value_base": 300,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -1421,7 +1421,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "parry_value_base": 400,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -1434,7 +1434,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "parry_value_base": 500,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -1447,7 +1447,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "parry_value_base": 601,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -1693,7 +1693,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4060,
                     "item_ids": [
@@ -1704,7 +1704,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "dodge_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -1717,7 +1717,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "dodge_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -1730,7 +1730,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "dodge_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -1743,7 +1743,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "dodge_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -1756,7 +1756,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "dodge_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -1769,7 +1769,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "dodge_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -2015,7 +2015,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4084,
                     "item_ids": [
@@ -2026,7 +2026,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -2039,7 +2039,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -2052,7 +2052,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -2065,7 +2065,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "magical_shield_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -2078,7 +2078,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "magical_shield_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -2091,7 +2091,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "magical_shield_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -2177,7 +2177,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4096,
                     "item_ids": [
@@ -2188,7 +2188,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "max_life_add": 173,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -2201,7 +2201,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "max_life_add": 346,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -2214,7 +2214,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "max_life_add": 519,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -2227,7 +2227,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "max_life_add": 692,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -2240,7 +2240,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "max_life_add": 865,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -2253,7 +2253,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "max_life_add": 1039,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -2339,7 +2339,7 @@ STONES = {
             }
         },
         "toughness_base": {
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 5665,
                     "item_ids": [
@@ -2350,7 +2350,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 9,
                         "toughness_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -2363,7 +2363,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 17,
                         "toughness_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -2376,7 +2376,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 26,
                         "toughness_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -2389,7 +2389,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 35,
                         "toughness_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -2402,7 +2402,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 43,
                         "toughness_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -2415,7 +2415,7 @@ STONES = {
                     "attributes": {
                         "vitality_base": 52,
                         "toughness_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -12584,7 +12584,7 @@ STONES = {
                 }
             }
         },
-        "physical_shield_add": {
+        "physical_shield_base": {
             "max_life_add": {
                 1: {
                     "enchant_id": 4108,
@@ -12595,7 +12595,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "spirit_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346
                     }
                 },
@@ -12608,7 +12608,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "spirit_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692
                     }
                 },
@@ -12621,7 +12621,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "spirit_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039
                     }
                 },
@@ -12634,7 +12634,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "spirit_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "max_life_add": 1385
                     }
                 },
@@ -12647,7 +12647,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "spirit_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "max_life_add": 1731
                     }
                 },
@@ -12660,7 +12660,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "spirit_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "max_life_add": 2077
                     }
                 }
@@ -12675,7 +12675,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "spirit_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200
                     }
                 },
@@ -12688,7 +12688,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "spirit_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400
                     }
                 },
@@ -12701,7 +12701,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "spirit_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601
                     }
                 },
@@ -12714,7 +12714,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "spirit_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "parry_value_base": 801
                     }
                 },
@@ -12727,7 +12727,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "spirit_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "parry_value_base": 1001
                     }
                 },
@@ -12740,7 +12740,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "spirit_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "parry_value_base": 1201
                     }
                 }
@@ -12755,7 +12755,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "spirit_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35
                     }
                 },
@@ -12768,7 +12768,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "spirit_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69
                     }
                 },
@@ -12781,7 +12781,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "spirit_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104
                     }
                 },
@@ -12794,7 +12794,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "spirit_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "magical_shield_base": 138
                     }
                 },
@@ -12807,7 +12807,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "spirit_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "magical_shield_base": 173
                     }
                 },
@@ -12820,7 +12820,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "spirit_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "magical_shield_base": 208
                     }
                 }
@@ -12907,7 +12907,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4132,
                     "item_ids": [
@@ -12918,7 +12918,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "parry_value_base": 100,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -12931,7 +12931,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "parry_value_base": 200,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -12944,7 +12944,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "parry_value_base": 300,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -12957,7 +12957,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "parry_value_base": 400,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -12970,7 +12970,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "parry_value_base": 500,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -12983,7 +12983,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "parry_value_base": 601,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -13229,7 +13229,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4156,
                     "item_ids": [
@@ -13240,7 +13240,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "dodge_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -13253,7 +13253,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "dodge_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -13266,7 +13266,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "dodge_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -13279,7 +13279,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "dodge_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -13292,7 +13292,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "dodge_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -13305,7 +13305,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "dodge_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -13551,7 +13551,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4180,
                     "item_ids": [
@@ -13562,7 +13562,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -13575,7 +13575,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -13588,7 +13588,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -13601,7 +13601,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "magical_shield_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -13614,7 +13614,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "magical_shield_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -13627,7 +13627,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "magical_shield_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -13713,7 +13713,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4192,
                     "item_ids": [
@@ -13724,7 +13724,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 9,
                         "max_life_add": 173,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -13737,7 +13737,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 17,
                         "max_life_add": 346,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -13750,7 +13750,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 26,
                         "max_life_add": 519,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -13763,7 +13763,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 35,
                         "max_life_add": 692,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -13776,7 +13776,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 43,
                         "max_life_add": 865,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -13789,7 +13789,7 @@ STONES = {
                     "attributes": {
                         "spirit_base": 52,
                         "max_life_add": 1039,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -67805,7 +67805,7 @@ STONES = {
             }
         }
     },
-    "physical_shield_add": {
+    "physical_shield_base": {
         "parry_value_base": {
             "max_life_add": {
                 1: {
@@ -67816,7 +67816,7 @@ STONES = {
                     "name": "彩·守御·破势·血魂(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "parry_value_base": 100,
                         "max_life_add": 346
                     }
@@ -67829,7 +67829,7 @@ STONES = {
                     "name": "彩·守御·破势·血魂(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200,
                         "max_life_add": 692
                     }
@@ -67842,7 +67842,7 @@ STONES = {
                     "name": "彩·守御·破势·血魂(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "parry_value_base": 300,
                         "max_life_add": 1039
                     }
@@ -67855,7 +67855,7 @@ STONES = {
                     "name": "彩·守御·破势·血魂(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400,
                         "max_life_add": 1385
                     }
@@ -67868,7 +67868,7 @@ STONES = {
                     "name": "彩·守御·破势·血魂(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "parry_value_base": 500,
                         "max_life_add": 1731
                     }
@@ -67881,7 +67881,7 @@ STONES = {
                     "name": "彩·守御·破势·血魂(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601,
                         "max_life_add": 2077
                     }
@@ -67896,7 +67896,7 @@ STONES = {
                     "name": "彩·守御·破势·耐受(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "parry_value_base": 100,
                         "magical_shield_base": 35
                     }
@@ -67909,7 +67909,7 @@ STONES = {
                     "name": "彩·守御·破势·耐受(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200,
                         "magical_shield_base": 69
                     }
@@ -67922,7 +67922,7 @@ STONES = {
                     "name": "彩·守御·破势·耐受(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "parry_value_base": 300,
                         "magical_shield_base": 104
                     }
@@ -67935,7 +67935,7 @@ STONES = {
                     "name": "彩·守御·破势·耐受(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400,
                         "magical_shield_base": 138
                     }
@@ -67948,7 +67948,7 @@ STONES = {
                     "name": "彩·守御·破势·耐受(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "parry_value_base": 500,
                         "magical_shield_base": 173
                     }
@@ -67961,7 +67961,7 @@ STONES = {
                     "name": "彩·守御·破势·耐受(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601,
                         "magical_shield_base": 208
                     }
@@ -67978,7 +67978,7 @@ STONES = {
                     "name": "彩·守御·灵动·血魂(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "dodge_base": 17,
                         "max_life_add": 346
                     }
@@ -67991,7 +67991,7 @@ STONES = {
                     "name": "彩·守御·灵动·血魂(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "dodge_base": 35,
                         "max_life_add": 692
                     }
@@ -68004,7 +68004,7 @@ STONES = {
                     "name": "彩·守御·灵动·血魂(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "dodge_base": 52,
                         "max_life_add": 1039
                     }
@@ -68017,7 +68017,7 @@ STONES = {
                     "name": "彩·守御·灵动·血魂(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "dodge_base": 69,
                         "max_life_add": 1385
                     }
@@ -68030,7 +68030,7 @@ STONES = {
                     "name": "彩·守御·灵动·血魂(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "dodge_base": 87,
                         "max_life_add": 1731
                     }
@@ -68043,7 +68043,7 @@ STONES = {
                     "name": "彩·守御·灵动·血魂(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "dodge_base": 104,
                         "max_life_add": 2077
                     }
@@ -68058,7 +68058,7 @@ STONES = {
                     "name": "彩·守御·灵动·破势(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "dodge_base": 17,
                         "parry_value_base": 200
                     }
@@ -68071,7 +68071,7 @@ STONES = {
                     "name": "彩·守御·灵动·破势(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "dodge_base": 35,
                         "parry_value_base": 400
                     }
@@ -68084,7 +68084,7 @@ STONES = {
                     "name": "彩·守御·灵动·破势(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "dodge_base": 52,
                         "parry_value_base": 601
                     }
@@ -68097,7 +68097,7 @@ STONES = {
                     "name": "彩·守御·灵动·破势(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "dodge_base": 69,
                         "parry_value_base": 801
                     }
@@ -68110,7 +68110,7 @@ STONES = {
                     "name": "彩·守御·灵动·破势(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "dodge_base": 87,
                         "parry_value_base": 1001
                     }
@@ -68123,7 +68123,7 @@ STONES = {
                     "name": "彩·守御·灵动·破势(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "dodge_base": 104,
                         "parry_value_base": 1201
                     }
@@ -68138,7 +68138,7 @@ STONES = {
                     "name": "彩·守御·灵动·耐受(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "dodge_base": 17,
                         "magical_shield_base": 35
                     }
@@ -68151,7 +68151,7 @@ STONES = {
                     "name": "彩·守御·灵动·耐受(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "dodge_base": 35,
                         "magical_shield_base": 69
                     }
@@ -68164,7 +68164,7 @@ STONES = {
                     "name": "彩·守御·灵动·耐受(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "dodge_base": 52,
                         "magical_shield_base": 104
                     }
@@ -68177,7 +68177,7 @@ STONES = {
                     "name": "彩·守御·灵动·耐受(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "dodge_base": 69,
                         "magical_shield_base": 138
                     }
@@ -68190,7 +68190,7 @@ STONES = {
                     "name": "彩·守御·灵动·耐受(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "dodge_base": 87,
                         "magical_shield_base": 173
                     }
@@ -68203,7 +68203,7 @@ STONES = {
                     "name": "彩·守御·灵动·耐受(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "dodge_base": 104,
                         "magical_shield_base": 208
                     }
@@ -68220,7 +68220,7 @@ STONES = {
                     "name": "彩·守御·耐受·血魂(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "magical_shield_base": 17,
                         "max_life_add": 346
                     }
@@ -68233,7 +68233,7 @@ STONES = {
                     "name": "彩·守御·耐受·血魂(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35,
                         "max_life_add": 692
                     }
@@ -68246,7 +68246,7 @@ STONES = {
                     "name": "彩·守御·耐受·血魂(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "magical_shield_base": 52,
                         "max_life_add": 1039
                     }
@@ -68259,7 +68259,7 @@ STONES = {
                     "name": "彩·守御·耐受·血魂(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69,
                         "max_life_add": 1385
                     }
@@ -68272,7 +68272,7 @@ STONES = {
                     "name": "彩·守御·耐受·血魂(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "magical_shield_base": 87,
                         "max_life_add": 1731
                     }
@@ -68285,7 +68285,7 @@ STONES = {
                     "name": "彩·守御·耐受·血魂(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104,
                         "max_life_add": 2077
                     }
@@ -68300,7 +68300,7 @@ STONES = {
                     "name": "彩·守御·耐受·破势(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "magical_shield_base": 17,
                         "parry_value_base": 200
                     }
@@ -68313,7 +68313,7 @@ STONES = {
                     "name": "彩·守御·耐受·破势(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35,
                         "parry_value_base": 400
                     }
@@ -68326,7 +68326,7 @@ STONES = {
                     "name": "彩·守御·耐受·破势(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "magical_shield_base": 52,
                         "parry_value_base": 601
                     }
@@ -68339,7 +68339,7 @@ STONES = {
                     "name": "彩·守御·耐受·破势(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69,
                         "parry_value_base": 801
                     }
@@ -68352,7 +68352,7 @@ STONES = {
                     "name": "彩·守御·耐受·破势(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "magical_shield_base": 87,
                         "parry_value_base": 1001
                     }
@@ -68365,7 +68365,7 @@ STONES = {
                     "name": "彩·守御·耐受·破势(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104,
                         "parry_value_base": 1201
                     }
@@ -68382,7 +68382,7 @@ STONES = {
                     "name": "彩·守御·血魂·破势(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "max_life_add": 173,
                         "parry_value_base": 200
                     }
@@ -68395,7 +68395,7 @@ STONES = {
                     "name": "彩·守御·血魂·破势(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346,
                         "parry_value_base": 400
                     }
@@ -68408,7 +68408,7 @@ STONES = {
                     "name": "彩·守御·血魂·破势(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "max_life_add": 519,
                         "parry_value_base": 601
                     }
@@ -68421,7 +68421,7 @@ STONES = {
                     "name": "彩·守御·血魂·破势(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692,
                         "parry_value_base": 801
                     }
@@ -68434,7 +68434,7 @@ STONES = {
                     "name": "彩·守御·血魂·破势(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "max_life_add": 865,
                         "parry_value_base": 1001
                     }
@@ -68447,7 +68447,7 @@ STONES = {
                     "name": "彩·守御·血魂·破势(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039,
                         "parry_value_base": 1201
                     }
@@ -68462,7 +68462,7 @@ STONES = {
                     "name": "彩·守御·血魂·耐受(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "max_life_add": 173,
                         "magical_shield_base": 35
                     }
@@ -68475,7 +68475,7 @@ STONES = {
                     "name": "彩·守御·血魂·耐受(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346,
                         "magical_shield_base": 69
                     }
@@ -68488,7 +68488,7 @@ STONES = {
                     "name": "彩·守御·血魂·耐受(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "max_life_add": 519,
                         "magical_shield_base": 104
                     }
@@ -68501,7 +68501,7 @@ STONES = {
                     "name": "彩·守御·血魂·耐受(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692,
                         "magical_shield_base": 138
                     }
@@ -68514,7 +68514,7 @@ STONES = {
                     "name": "彩·守御·血魂·耐受(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "max_life_add": 865,
                         "magical_shield_base": 173
                     }
@@ -68527,7 +68527,7 @@ STONES = {
                     "name": "彩·守御·血魂·耐受(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039,
                         "magical_shield_base": 208
                     }
@@ -68544,7 +68544,7 @@ STONES = {
                     "name": "彩·守御·大御·血魂(壹)",
                     "level": 1,
                     "attributes": {
-                        "physical_shield_add": 9,
+                        "physical_shield_base": 9,
                         "toughness_base": 17,
                         "max_life_add": 346
                     }
@@ -68557,7 +68557,7 @@ STONES = {
                     "name": "彩·守御·大御·血魂(贰)",
                     "level": 2,
                     "attributes": {
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "toughness_base": 35,
                         "max_life_add": 692
                     }
@@ -68570,7 +68570,7 @@ STONES = {
                     "name": "彩·守御·大御·血魂(叁)",
                     "level": 3,
                     "attributes": {
-                        "physical_shield_add": 26,
+                        "physical_shield_base": 26,
                         "toughness_base": 52,
                         "max_life_add": 1039
                     }
@@ -68583,7 +68583,7 @@ STONES = {
                     "name": "彩·守御·大御·血魂(肆)",
                     "level": 4,
                     "attributes": {
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "toughness_base": 69,
                         "max_life_add": 1385
                     }
@@ -68596,7 +68596,7 @@ STONES = {
                     "name": "彩·守御·大御·血魂(伍)",
                     "level": 5,
                     "attributes": {
-                        "physical_shield_add": 43,
+                        "physical_shield_base": 43,
                         "toughness_base": 87,
                         "max_life_add": 1731
                     }
@@ -68609,7 +68609,7 @@ STONES = {
                     "name": "彩·守御·大御·血魂(陆)",
                     "level": 6,
                     "attributes": {
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "toughness_base": 104,
                         "max_life_add": 2077
                     }
@@ -68618,7 +68618,7 @@ STONES = {
         }
     },
     "parry_base": {
-        "physical_shield_add": {
+        "physical_shield_base": {
             "max_life_add": {
                 1: {
                     "enchant_id": 4258,
@@ -68629,7 +68629,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "parry_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346
                     }
                 },
@@ -68642,7 +68642,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "parry_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692
                     }
                 },
@@ -68655,7 +68655,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "parry_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039
                     }
                 },
@@ -68668,7 +68668,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "parry_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "max_life_add": 1385
                     }
                 },
@@ -68681,7 +68681,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "parry_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "max_life_add": 1731
                     }
                 },
@@ -68694,7 +68694,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "parry_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "max_life_add": 2077
                     }
                 }
@@ -68709,7 +68709,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "parry_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200
                     }
                 },
@@ -68722,7 +68722,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "parry_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400
                     }
                 },
@@ -68735,7 +68735,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "parry_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601
                     }
                 },
@@ -68748,7 +68748,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "parry_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "parry_value_base": 801
                     }
                 },
@@ -68761,7 +68761,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "parry_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "parry_value_base": 1001
                     }
                 },
@@ -68774,7 +68774,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "parry_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "parry_value_base": 1201
                     }
                 }
@@ -68789,7 +68789,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "parry_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35
                     }
                 },
@@ -68802,7 +68802,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "parry_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69
                     }
                 },
@@ -68815,7 +68815,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "parry_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104
                     }
                 },
@@ -68828,7 +68828,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "parry_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "magical_shield_base": 138
                     }
                 },
@@ -68841,7 +68841,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "parry_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "magical_shield_base": 173
                     }
                 },
@@ -68854,7 +68854,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "parry_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "magical_shield_base": 208
                     }
                 }
@@ -68941,7 +68941,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4282,
                     "item_ids": [
@@ -68952,7 +68952,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 9,
                         "parry_value_base": 100,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -68965,7 +68965,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 17,
                         "parry_value_base": 200,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -68978,7 +68978,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 26,
                         "parry_value_base": 300,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -68991,7 +68991,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 35,
                         "parry_value_base": 400,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -69004,7 +69004,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 43,
                         "parry_value_base": 500,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -69017,7 +69017,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 52,
                         "parry_value_base": 601,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -69263,7 +69263,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4306,
                     "item_ids": [
@@ -69274,7 +69274,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 9,
                         "dodge_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -69287,7 +69287,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 17,
                         "dodge_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -69300,7 +69300,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 26,
                         "dodge_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -69313,7 +69313,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 35,
                         "dodge_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -69326,7 +69326,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 43,
                         "dodge_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -69339,7 +69339,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 52,
                         "dodge_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -69585,7 +69585,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4330,
                     "item_ids": [
@@ -69596,7 +69596,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 9,
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -69609,7 +69609,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 17,
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -69622,7 +69622,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 26,
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -69635,7 +69635,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 35,
                         "magical_shield_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -69648,7 +69648,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 43,
                         "magical_shield_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -69661,7 +69661,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 52,
                         "magical_shield_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -69747,7 +69747,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4342,
                     "item_ids": [
@@ -69758,7 +69758,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 9,
                         "max_life_add": 173,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -69771,7 +69771,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 17,
                         "max_life_add": 346,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -69784,7 +69784,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 26,
                         "max_life_add": 519,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -69797,7 +69797,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 35,
                         "max_life_add": 692,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -69810,7 +69810,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 43,
                         "max_life_add": 865,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -69823,7 +69823,7 @@ STONES = {
                     "attributes": {
                         "parry_base": 52,
                         "max_life_add": 1039,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -69992,7 +69992,7 @@ STONES = {
         }
     },
     "parry_value_base": {
-        "physical_shield_add": {
+        "physical_shield_base": {
             "max_life_add": {
                 1: {
                     "enchant_id": 4354,
@@ -70003,7 +70003,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "parry_value_base": 50,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346
                     }
                 },
@@ -70016,7 +70016,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "parry_value_base": 100,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692
                     }
                 },
@@ -70029,7 +70029,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "parry_value_base": 150,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039
                     }
                 },
@@ -70042,7 +70042,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "parry_value_base": 200,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "max_life_add": 1385
                     }
                 },
@@ -70055,7 +70055,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "parry_value_base": 250,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "max_life_add": 1731
                     }
                 },
@@ -70068,7 +70068,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "parry_value_base": 300,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "max_life_add": 2077
                     }
                 }
@@ -70083,7 +70083,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "parry_value_base": 50,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35
                     }
                 },
@@ -70096,7 +70096,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "parry_value_base": 100,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69
                     }
                 },
@@ -70109,7 +70109,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "parry_value_base": 150,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104
                     }
                 },
@@ -70122,7 +70122,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "parry_value_base": 200,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "magical_shield_base": 138
                     }
                 },
@@ -70135,7 +70135,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "parry_value_base": 250,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "magical_shield_base": 173
                     }
                 },
@@ -70148,7 +70148,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "parry_value_base": 300,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "magical_shield_base": 208
                     }
                 }
@@ -70235,7 +70235,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4372,
                     "item_ids": [
@@ -70246,7 +70246,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 50,
                         "dodge_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -70259,7 +70259,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 100,
                         "dodge_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -70272,7 +70272,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 150,
                         "dodge_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -70285,7 +70285,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 200,
                         "dodge_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -70298,7 +70298,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 250,
                         "dodge_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -70311,7 +70311,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 300,
                         "dodge_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -70477,7 +70477,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4390,
                     "item_ids": [
@@ -70488,7 +70488,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 50,
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -70501,7 +70501,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 100,
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -70514,7 +70514,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 150,
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -70527,7 +70527,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 200,
                         "magical_shield_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -70540,7 +70540,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 250,
                         "magical_shield_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -70553,13 +70553,13 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 300,
                         "magical_shield_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
         },
         "max_life_add": {
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4396,
                     "item_ids": [
@@ -70570,7 +70570,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 50,
                         "max_life_add": 173,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -70583,7 +70583,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 100,
                         "max_life_add": 346,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -70596,7 +70596,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 150,
                         "max_life_add": 519,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -70609,7 +70609,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 200,
                         "max_life_add": 692,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -70622,7 +70622,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 250,
                         "max_life_add": 865,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -70635,7 +70635,7 @@ STONES = {
                     "attributes": {
                         "parry_value_base": 300,
                         "max_life_add": 1039,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -70722,7 +70722,7 @@ STONES = {
         }
     },
     "dodge_base": {
-        "physical_shield_add": {
+        "physical_shield_base": {
             "max_life_add": {
                 1: {
                     "enchant_id": 4408,
@@ -70733,7 +70733,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "dodge_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346
                     }
                 },
@@ -70746,7 +70746,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "dodge_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692
                     }
                 },
@@ -70759,7 +70759,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "dodge_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039
                     }
                 },
@@ -70772,7 +70772,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "dodge_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "max_life_add": 1385
                     }
                 },
@@ -70785,7 +70785,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "dodge_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "max_life_add": 1731
                     }
                 },
@@ -70798,7 +70798,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "dodge_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "max_life_add": 2077
                     }
                 }
@@ -70813,7 +70813,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "dodge_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200
                     }
                 },
@@ -70826,7 +70826,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "dodge_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400
                     }
                 },
@@ -70839,7 +70839,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "dodge_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601
                     }
                 },
@@ -70852,7 +70852,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "dodge_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "parry_value_base": 801
                     }
                 },
@@ -70865,7 +70865,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "dodge_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "parry_value_base": 1001
                     }
                 },
@@ -70878,7 +70878,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "dodge_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "parry_value_base": 1201
                     }
                 }
@@ -70893,7 +70893,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "dodge_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35
                     }
                 },
@@ -70906,7 +70906,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "dodge_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69
                     }
                 },
@@ -70919,7 +70919,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "dodge_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104
                     }
                 },
@@ -70932,7 +70932,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "dodge_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "magical_shield_base": 138
                     }
                 },
@@ -70945,7 +70945,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "dodge_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "magical_shield_base": 173
                     }
                 },
@@ -70958,7 +70958,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "dodge_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "magical_shield_base": 208
                     }
                 }
@@ -71045,7 +71045,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4432,
                     "item_ids": [
@@ -71056,7 +71056,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 9,
                         "parry_value_base": 100,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -71069,7 +71069,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 17,
                         "parry_value_base": 200,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -71082,7 +71082,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 26,
                         "parry_value_base": 300,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -71095,7 +71095,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 35,
                         "parry_value_base": 400,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -71108,7 +71108,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 43,
                         "parry_value_base": 500,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -71121,7 +71121,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 52,
                         "parry_value_base": 601,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -71367,7 +71367,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4456,
                     "item_ids": [
@@ -71378,7 +71378,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 9,
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -71391,7 +71391,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 17,
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -71404,7 +71404,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 26,
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -71417,7 +71417,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 35,
                         "magical_shield_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -71430,7 +71430,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 43,
                         "magical_shield_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -71443,7 +71443,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 52,
                         "magical_shield_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -71529,7 +71529,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4468,
                     "item_ids": [
@@ -71540,7 +71540,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 9,
                         "max_life_add": 173,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -71553,7 +71553,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 17,
                         "max_life_add": 346,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -71566,7 +71566,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 26,
                         "max_life_add": 519,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -71579,7 +71579,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 35,
                         "max_life_add": 692,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -71592,7 +71592,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 43,
                         "max_life_add": 865,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -71605,7 +71605,7 @@ STONES = {
                     "attributes": {
                         "dodge_base": 52,
                         "max_life_add": 1039,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -71774,7 +71774,7 @@ STONES = {
         }
     },
     "magical_shield_base": {
-        "physical_shield_add": {
+        "physical_shield_base": {
             "max_life_add": {
                 1: {
                     "enchant_id": 4480,
@@ -71785,7 +71785,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "magical_shield_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "max_life_add": 346
                     }
                 },
@@ -71798,7 +71798,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "max_life_add": 692
                     }
                 },
@@ -71811,7 +71811,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "magical_shield_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "max_life_add": 1039
                     }
                 },
@@ -71824,7 +71824,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "max_life_add": 1385
                     }
                 },
@@ -71837,7 +71837,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "magical_shield_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "max_life_add": 1731
                     }
                 },
@@ -71850,7 +71850,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "max_life_add": 2077
                     }
                 }
@@ -71865,7 +71865,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "magical_shield_base": 9,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200
                     }
                 },
@@ -71878,7 +71878,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400
                     }
                 },
@@ -71891,7 +71891,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "magical_shield_base": 26,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601
                     }
                 },
@@ -71904,7 +71904,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "parry_value_base": 801
                     }
                 },
@@ -71917,7 +71917,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "magical_shield_base": 43,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "parry_value_base": 1001
                     }
                 },
@@ -71930,7 +71930,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "parry_value_base": 1201
                     }
                 }
@@ -72017,7 +72017,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4498,
                     "item_ids": [
@@ -72028,7 +72028,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 9,
                         "parry_value_base": 100,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -72041,7 +72041,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 17,
                         "parry_value_base": 200,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -72054,7 +72054,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 26,
                         "parry_value_base": 300,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -72067,7 +72067,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 35,
                         "parry_value_base": 400,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -72080,7 +72080,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 43,
                         "parry_value_base": 500,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -72093,7 +72093,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 52,
                         "parry_value_base": 601,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -72259,7 +72259,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4516,
                     "item_ids": [
@@ -72270,7 +72270,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 9,
                         "dodge_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -72283,7 +72283,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 17,
                         "dodge_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -72296,7 +72296,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 26,
                         "dodge_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -72309,7 +72309,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 35,
                         "dodge_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -72322,7 +72322,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 43,
                         "dodge_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -72335,7 +72335,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 52,
                         "dodge_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -72421,7 +72421,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4528,
                     "item_ids": [
@@ -72432,7 +72432,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 9,
                         "max_life_add": 173,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -72445,7 +72445,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 17,
                         "max_life_add": 346,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -72458,7 +72458,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 26,
                         "max_life_add": 519,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -72471,7 +72471,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 35,
                         "max_life_add": 692,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -72484,7 +72484,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 43,
                         "max_life_add": 865,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -72497,7 +72497,7 @@ STONES = {
                     "attributes": {
                         "magical_shield_base": 52,
                         "max_life_add": 1039,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }
@@ -72586,7 +72586,7 @@ STONES = {
         }
     },
     "max_life_add": {
-        "physical_shield_add": {
+        "physical_shield_base": {
             "parry_value_base": {
                 1: {
                     "enchant_id": 4534,
@@ -72597,7 +72597,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "max_life_add": 87,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "parry_value_base": 200
                     }
                 },
@@ -72610,7 +72610,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "max_life_add": 173,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "parry_value_base": 400
                     }
                 },
@@ -72623,7 +72623,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "max_life_add": 260,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "parry_value_base": 601
                     }
                 },
@@ -72636,7 +72636,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "max_life_add": 346,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "parry_value_base": 801
                     }
                 },
@@ -72649,7 +72649,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "max_life_add": 433,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "parry_value_base": 1001
                     }
                 },
@@ -72662,7 +72662,7 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "max_life_add": 519,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "parry_value_base": 1201
                     }
                 }
@@ -72677,7 +72677,7 @@ STONES = {
                     "level": 1,
                     "attributes": {
                         "max_life_add": 87,
-                        "physical_shield_add": 17,
+                        "physical_shield_base": 17,
                         "magical_shield_base": 35
                     }
                 },
@@ -72690,7 +72690,7 @@ STONES = {
                     "level": 2,
                     "attributes": {
                         "max_life_add": 173,
-                        "physical_shield_add": 35,
+                        "physical_shield_base": 35,
                         "magical_shield_base": 69
                     }
                 },
@@ -72703,7 +72703,7 @@ STONES = {
                     "level": 3,
                     "attributes": {
                         "max_life_add": 260,
-                        "physical_shield_add": 52,
+                        "physical_shield_base": 52,
                         "magical_shield_base": 104
                     }
                 },
@@ -72716,7 +72716,7 @@ STONES = {
                     "level": 4,
                     "attributes": {
                         "max_life_add": 346,
-                        "physical_shield_add": 69,
+                        "physical_shield_base": 69,
                         "magical_shield_base": 138
                     }
                 },
@@ -72729,7 +72729,7 @@ STONES = {
                     "level": 5,
                     "attributes": {
                         "max_life_add": 433,
-                        "physical_shield_add": 87,
+                        "physical_shield_base": 87,
                         "magical_shield_base": 173
                     }
                 },
@@ -72742,14 +72742,14 @@ STONES = {
                     "level": 6,
                     "attributes": {
                         "max_life_add": 519,
-                        "physical_shield_add": 104,
+                        "physical_shield_base": 104,
                         "magical_shield_base": 208
                     }
                 }
             }
         },
         "parry_value_base": {
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4546,
                     "item_ids": [
@@ -72760,7 +72760,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 87,
                         "parry_value_base": 100,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -72773,7 +72773,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 173,
                         "parry_value_base": 200,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -72786,7 +72786,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 260,
                         "parry_value_base": 300,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -72799,7 +72799,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 346,
                         "parry_value_base": 400,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -72812,7 +72812,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 433,
                         "parry_value_base": 500,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -72825,7 +72825,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 519,
                         "parry_value_base": 601,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -72991,7 +72991,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4564,
                     "item_ids": [
@@ -73002,7 +73002,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 87,
                         "dodge_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -73015,7 +73015,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 173,
                         "dodge_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -73028,7 +73028,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 260,
                         "dodge_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -73041,7 +73041,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 346,
                         "dodge_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -73054,7 +73054,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 433,
                         "dodge_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -73067,7 +73067,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 519,
                         "dodge_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             },
@@ -73233,7 +73233,7 @@ STONES = {
                     }
                 }
             },
-            "physical_shield_add": {
+            "physical_shield_base": {
                 1: {
                     "enchant_id": 4582,
                     "item_ids": [
@@ -73244,7 +73244,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 87,
                         "magical_shield_base": 17,
-                        "physical_shield_add": 35
+                        "physical_shield_base": 35
                     }
                 },
                 2: {
@@ -73257,7 +73257,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 173,
                         "magical_shield_base": 35,
-                        "physical_shield_add": 69
+                        "physical_shield_base": 69
                     }
                 },
                 3: {
@@ -73270,7 +73270,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 260,
                         "magical_shield_base": 52,
-                        "physical_shield_add": 104
+                        "physical_shield_base": 104
                     }
                 },
                 4: {
@@ -73283,7 +73283,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 346,
                         "magical_shield_base": 69,
-                        "physical_shield_add": 138
+                        "physical_shield_base": 138
                     }
                 },
                 5: {
@@ -73296,7 +73296,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 433,
                         "magical_shield_base": 87,
-                        "physical_shield_add": 173
+                        "physical_shield_base": 173
                     }
                 },
                 6: {
@@ -73309,7 +73309,7 @@ STONES = {
                     "attributes": {
                         "max_life_add": 519,
                         "magical_shield_base": 104,
-                        "physical_shield_add": 208
+                        "physical_shield_base": 208
                     }
                 }
             }

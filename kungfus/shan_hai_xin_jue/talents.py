@@ -33,7 +33,7 @@ TALENTS: list[dict[int, dict]] = [
         35765: dict(skills={36173: {}}),
         42467: dict(buffs={
             33689: dict(name="连珠", comment="攻击"),
-            31940: dict(comment="标鹄", coming_damage_cof=204.8, skills={36157: {}})
+            31940: dict(comment="标鹄", coming_damage_cof=409.6, skills={36157: {}})
         }),
         35730: {},
         40239: {}

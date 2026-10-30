@@ -183,15 +183,15 @@ TARGET_VARIABLES = [
 EXTRA_VARIABLES = ["rand", "is_critical"]
 
 GRAD_VARIABLES = {
-    "major_base": 135,
-    "vitality_base": 135,
-    "physical_attack_power_base": 135,
-    "magical_attack_power_base": 135,
-    "weapon_damage_base": 22,
-    "strain_base": 135,
-    "all_overcome_base": 135,
-    "all_critical_strike_base": 135,
-    "all_critical_power_base": 126
+    "major_base": 90,
+    "vitality_base": 90,
+    "physical_attack_power_base": 90,
+    "magical_attack_power_base": 90,
+    "weapon_damage_base": 15,
+    "strain_base": 90,
+    "all_overcome_base": 90,
+    "all_critical_strike_base": 90,
+    "all_critical_power_base": 90
 }
 
 

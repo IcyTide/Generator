@@ -32,7 +32,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 15
+                        "strain_base": 70
                     }
                 }
             }
@@ -2636,7 +2636,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 13
+                        "strain_base": 20
                     }
                 },
                 19: {
@@ -2645,7 +2645,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 14
+                        "strain_base": 22
                     }
                 },
                 20: {
@@ -2654,7 +2654,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 16
+                        "strain_base": 25
                     }
                 },
                 21: {
@@ -2663,7 +2663,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 16
+                        "strain_base": 27
                     }
                 },
                 22: {
@@ -2672,7 +2672,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 17
+                        "strain_base": 29
                     }
                 },
                 23: {
@@ -2681,7 +2681,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 2
+                        "strain_base": 1
                     }
                 },
                 24: {
@@ -2690,7 +2690,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 6
+                        "strain_base": 3
                     }
                 },
                 25: {
@@ -2699,7 +2699,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 11
+                        "strain_base": 7
                     }
                 },
                 26: {
@@ -2708,7 +2708,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 16
+                        "strain_base": 12
                     }
                 },
                 27: {
@@ -2717,7 +2717,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 20
+                        "strain_base": 17
                     }
                 },
                 28: {
@@ -2726,7 +2726,7 @@ BUFFS = {
                     "max_stack": 5,
                     "max_tick": 1,
                     "attributes": {
-                        "strain_base": 23
+                        "strain_base": 21
                     }
                 },
                 29: {
@@ -2743,7 +2743,7 @@ BUFFS = {
         1855: {
             1920: {
                 9: {
-                    "name": "降魔境",
+                    "name": "海印三昧",
                     "interval": 4,
                     "max_stack": 1,
                     "max_tick": 24,
@@ -2756,7 +2756,7 @@ BUFFS = {
         1854: {
             1919: {
                 9: {
-                    "name": "昭佛光",
+                    "name": "万骨回澜",
                     "interval": 4,
                     "max_stack": 1,
                     "max_tick": 24,
@@ -2769,7 +2769,7 @@ BUFFS = {
         1853: {
             1916: {
                 9: {
-                    "name": "仙灵",
+                    "name": "赤瞳照业",
                     "interval": 160,
                     "max_stack": 3,
                     "max_tick": 1,
@@ -2782,7 +2782,7 @@ BUFFS = {
         1852: {
             1915: {
                 9: {
-                    "name": "镇恶",
+                    "name": "寒崖听籁",
                     "interval": 4,
                     "max_stack": 1,
                     "max_tick": 24,
@@ -2795,7 +2795,7 @@ BUFFS = {
         1850: {
             1911: {
                 9: {
-                    "name": "掠炎",
+                    "name": "寒锋凌日",
                     "interval": 96,
                     "max_stack": 1,
                     "max_tick": 1,
@@ -2808,7 +2808,7 @@ BUFFS = {
         6950: {
             6466: {
                 9: {
-                    "name": "暴龙震江",
+                    "name": "青龙映夜",
                     "interval": 96,
                     "max_stack": 1,
                     "max_tick": 1,
@@ -2823,7 +2823,7 @@ BUFFS = {
         13410: {
             8474: {
                 20: {
-                    "name": "驭焰",
+                    "name": "孤照",
                     "interval": 4,
                     "max_stack": 1,
                     "max_tick": 16,
@@ -2836,7 +2836,7 @@ BUFFS = {
         16984: {
             11376: {
                 9: {
-                    "name": "碧血豪侠",
+                    "name": "悬翎在握",
                     "interval": 128,
                     "max_stack": 1,
                     "max_tick": 1,
@@ -2876,7 +2876,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_critical_strike_base": 130
+                        "all_critical_strike_base": 974
                     }
                 }
             }
@@ -2898,7 +2898,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_overcome_base": 130
+                        "all_overcome_base": 974
                     }
                 }
             }
@@ -2943,7 +2943,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_critical_strike_base": 548
+                        "all_critical_strike_base": 595
                     }
                 },
                 10: {
@@ -2953,7 +2953,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_overcome_base": 548
+                        "all_overcome_base": 595
                     }
                 }
             }
@@ -2987,7 +2987,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_overcome_base": 75
+                        "all_overcome_base": 563
                     }
                 },
                 29: {
@@ -2997,7 +2997,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_critical_strike_base": 75
+                        "all_critical_strike_base": 563
                     }
                 }
             }
@@ -3081,7 +3081,7 @@ BUFFS = {
                 11: {
                     "name": "破防项链特效",
                     "interval": 1,
-                    "max_stack": 91,
+                    "max_stack": 32,
                     "max_tick": 1,
                     "attributes": {
                         "all_attack_power_base": 2
@@ -3099,10 +3099,10 @@ BUFFS = {
                 13: {
                     "name": "破防项链特效",
                     "interval": 1,
-                    "max_stack": 28,
+                    "max_stack": 134,
                     "max_tick": 1,
                     "attributes": {
-                        "all_attack_power_base": 1
+                        "all_attack_power_base": 2
                     }
                 }
             }
@@ -3125,6 +3125,28 @@ BUFFS = {
                     "max_tick": 1,
                     "attributes": {
                         "strain_base": 2
+                    }
+                }
+            }
+        },
+        34831: {
+            34831: {
+                1: {
+                    "name": "加速暗器特效",
+                    "interval": 176,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 181
+                    }
+                },
+                2: {
+                    "name": "加速暗器特效",
+                    "interval": 176,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 189
                     }
                 }
             }
@@ -4205,7 +4227,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_damage_gain": 154
+                        "all_damage_gain": 205
                     }
                 }
             }
@@ -4850,7 +4872,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "lunar_attack_power_gain": 102
+                        "lunar_attack_power_gain": 51
                     }
                 }
             }
@@ -5964,7 +5986,7 @@ BUFFS = {
                     "max_tick": 1,
                     "attributes": {
                         "all_shield_ignore": 512,
-                        "pve_damage_gain": 133
+                        "pve_damage_gain": 175
                     }
                 }
             }
@@ -6073,7 +6095,7 @@ BUFFS = {
                     "max_stack": 125,
                     "max_tick": 1,
                     "attributes": {
-                        "physical_attack_power_base": 150
+                        "physical_attack_power_base": 7
                     }
                 }
             },
@@ -6085,7 +6107,7 @@ BUFFS = {
                     "max_stack": 125,
                     "max_tick": 1,
                     "attributes": {
-                        "physical_attack_power_base": 15000
+                        "physical_attack_power_base": 700
                     }
                 }
             }
@@ -6111,8 +6133,8 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 30,
                     "attributes": {
-                        "physical_critical_strike_rate": 300,
-                        "physical_critical_power_rate": 31
+                        "physical_critical_strike_rate": 700,
+                        "physical_critical_power_rate": 72
                     }
                 }
             }
@@ -6125,8 +6147,8 @@ BUFFS = {
                     "max_stack": 100,
                     "max_tick": 1,
                     "attributes": {
-                        "parry_value_base": 10,
-                        "parry_base": 3
+                        "parry_value_base": 3,
+                        "parry_base": 10
                     }
                 }
             }
@@ -6139,7 +6161,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_damage_gain": 184,
+                        "all_damage_gain": 143,
                         "strain_gain": 154
                     }
                 }
@@ -6313,7 +6335,7 @@ BUFFS = {
         45804: {
             17056: {
                 1: {
-                    "name": "威压",
+                    "name": "斗塞",
                     "interval": 480,
                     "max_stack": 8,
                     "max_tick": 1,
@@ -6583,7 +6605,7 @@ BUFFS = {
         45923: {
             30738: {
                 1: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6599,7 +6621,7 @@ BUFFS = {
                     ]
                 },
                 2: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6615,7 +6637,7 @@ BUFFS = {
                     ]
                 },
                 3: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6631,7 +6653,7 @@ BUFFS = {
                     ]
                 },
                 4: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6647,7 +6669,7 @@ BUFFS = {
                     ]
                 },
                 5: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6680,7 +6702,7 @@ BUFFS = {
         46078: {
             34323: {
                 1: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6696,7 +6718,7 @@ BUFFS = {
                     ]
                 },
                 2: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6712,7 +6734,7 @@ BUFFS = {
                     ]
                 },
                 3: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6728,7 +6750,7 @@ BUFFS = {
                     ]
                 },
                 4: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -6744,7 +6766,7 @@ BUFFS = {
                     ]
                 },
                 5: {
-                    "name": "蓄势",
+                    "name": "荡岳",
                     "interval": 480,
                     "max_stack": 5,
                     "max_tick": 1,
@@ -7787,7 +7809,7 @@ BUFFS = {
                     "max_stack": 1,
                     "max_tick": 1,
                     "attributes": {
-                        "all_shield_ignore": 614
+                        "all_shield_ignore": 512
                     }
                 }
             }
@@ -7874,9 +7896,9 @@ BUFFS = {
                 1: {
                     "name": "连珠",
                     "comment": "标鹄",
-                    "interval": 16,
-                    "max_stack": 2,
-                    "max_tick": 18,
+                    "interval": 304,
+                    "max_stack": 1,
+                    "max_tick": 1,
                     "recipes": [
                         "recipe_6414_1",
                         "recipe_6415_1"
