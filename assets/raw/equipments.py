@@ -26,7 +26,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7019,
                     "sets": {
@@ -70,16 +70,16 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "抱火袖#112614 (1280 外防 御劲 无双)": {
+                "固岭袖#112614 (1280 外防 御劲 无双)": {
                     "id": 112614,
-                    "name": "抱火袖",
+                    "name": "固岭袖",
                     "school": "通用",
                     "kind": "防御",
                     "position": "wrist",
@@ -161,7 +161,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -190,16 +190,16 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "隐寥护手#112596 (1110 外防 御劲 无双)": {
+                "守川护手#112596 (1110 外防 御劲 无双)": {
                     "id": 112596,
-                    "name": "隐寥护手",
+                    "name": "守川护手",
                     "school": "通用",
                     "kind": "防御",
                     "position": "wrist",
@@ -281,7 +281,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -310,7 +310,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6981,
                     "sets": {
@@ -359,7 +359,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -388,7 +388,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6975,
                     "sets": {
@@ -496,7 +496,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -586,7 +586,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -648,7 +648,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -710,7 +710,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -790,9 +790,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "蘅回袖#112613 (1280 )": {
+                "暖舟袖#112613 (1280 )": {
                     "id": 112613,
-                    "name": "蘅回袖",
+                    "name": "暖舟袖",
                     "school": "通用",
                     "kind": "治疗",
                     "position": "wrist",
@@ -901,9 +901,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "答踪护手#112595 (1110 )": {
+                "暖林护手#112595 (1110 )": {
                     "id": 112595,
-                    "name": "答踪护手",
+                    "name": "暖林护手",
                     "school": "通用",
                     "kind": "治疗",
                     "position": "wrist",
@@ -1345,9 +1345,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "笃心袖#112612 (1280 会心 无双)": {
+                "寻岭袖#112612 (1280 会心 无双)": {
                     "id": 112612,
-                    "name": "笃心袖",
+                    "name": "寻岭袖",
                     "school": "通用",
                     "kind": "身法",
                     "position": "wrist",
@@ -1461,9 +1461,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "蹈丘护手#112594 (1110 会心 无双)": {
+                "踏溪护手#112594 (1110 会心 无双)": {
                     "id": 112594,
-                    "name": "蹈丘护手",
+                    "name": "踏溪护手",
                     "school": "通用",
                     "kind": "身法",
                     "position": "wrist",
@@ -1920,9 +1920,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "劲远袖#112611 (1280 会心 无双)": {
+                "长坡袖#112611 (1280 会心 无双)": {
                     "id": 112611,
-                    "name": "劲远袖",
+                    "name": "长坡袖",
                     "school": "通用",
                     "kind": "力道",
                     "position": "wrist",
@@ -2036,9 +2036,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "斧正护手#112593 (1110 会心 无双)": {
+                "过岭护手#112593 (1110 会心 无双)": {
                     "id": 112593,
-                    "name": "斧正护手",
+                    "name": "过岭护手",
                     "school": "通用",
                     "kind": "力道",
                     "position": "wrist",
@@ -2495,9 +2495,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "夕迟袖#112610 (1280 会心 无双)": {
+                "泉风袖#112610 (1280 会心 无双)": {
                     "id": 112610,
-                    "name": "夕迟袖",
+                    "name": "泉风袖",
                     "school": "通用",
                     "kind": "元气",
                     "position": "wrist",
@@ -2611,9 +2611,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "晓阴护手#112592 (1110 会心 无双)": {
+                "晴岸护手#112592 (1110 会心 无双)": {
                     "id": 112592,
-                    "name": "晓阴护手",
+                    "name": "晴岸护手",
                     "school": "通用",
                     "kind": "元气",
                     "position": "wrist",
@@ -3070,9 +3070,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "清暮袖#112609 (1280 会心 无双)": {
+                "竹渡袖#112609 (1280 会心 无双)": {
                     "id": 112609,
-                    "name": "清暮袖",
+                    "name": "竹渡袖",
                     "school": "通用",
                     "kind": "根骨",
                     "position": "wrist",
@@ -3186,9 +3186,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "言苦护手#112591 (1110 会心 无双)": {
+                "松渡护手#112591 (1110 会心 无双)": {
                     "id": 112591,
-                    "name": "言苦护手",
+                    "name": "松渡护手",
                     "school": "通用",
                     "kind": "根骨",
                     "position": "wrist",
@@ -3598,7 +3598,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -3662,7 +3662,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7379,7 +7379,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6983,
                     "sets": {
@@ -7425,7 +7425,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6983,
                     "sets": {
@@ -7573,7 +7573,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7019,
                     "sets": {
@@ -7617,7 +7617,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7676,7 +7676,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "physical_shield_base": 304
                     },
                     "set_id": 0,
@@ -7706,7 +7706,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7765,7 +7765,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "physical_shield_base": 304
                     },
                     "set_id": 0,
@@ -7795,7 +7795,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6981,
                     "sets": {
@@ -7872,7 +7872,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6975,
                     "sets": {
@@ -7949,7 +7949,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -7979,7 +7979,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "physical_shield_base": 304
                     },
                     "set_id": 0,
@@ -8039,7 +8039,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "dodge_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -8069,7 +8069,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "physical_shield_base": 304
                     },
                     "set_id": 0,
@@ -8131,7 +8131,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "physical_shield_base": 304
                     },
                     "set_id": 0,
@@ -8193,7 +8193,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "physical_shield_base": 304
                     },
                     "set_id": 0,
@@ -14222,7 +14222,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7019,
                     "sets": {
@@ -14268,16 +14268,16 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "抱火裤#112620 (1280 外防 内防 加速 御劲 无双)": {
+                "固岭裤#112620 (1280 外防 内防 加速 御劲 无双)": {
                     "id": 112620,
-                    "name": "抱火裤",
+                    "name": "固岭裤",
                     "school": "通用",
                     "kind": "防御",
                     "position": "bottoms",
@@ -14299,7 +14299,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14359,7 +14359,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14448,16 +14448,16 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "隐寥下裳#112602 (1110 外防 内防 加速 御劲 无双)": {
+                "守川下裳#112602 (1110 外防 内防 加速 御劲 无双)": {
                     "id": 112602,
-                    "name": "隐寥下裳",
+                    "name": "守川下裳",
                     "school": "通用",
                     "kind": "防御",
                     "position": "bottoms",
@@ -14479,7 +14479,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14539,7 +14539,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14598,7 +14598,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14658,7 +14658,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14688,7 +14688,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14748,7 +14748,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14810,7 +14810,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -14872,7 +14872,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -17577,7 +17577,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -17637,7 +17637,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "physical_shield_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18344,7 +18344,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18423,7 +18423,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18453,7 +18453,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18514,7 +18514,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -18544,7 +18544,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -21393,7 +21393,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -23377,7 +23377,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7001,
                     "sets": {
@@ -23422,7 +23422,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7001,
                     "sets": {
@@ -23567,7 +23567,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6999,
                     "sets": {
@@ -23612,7 +23612,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6999,
                     "sets": {
@@ -24705,7 +24705,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6987,
                     "sets": {
@@ -24750,7 +24750,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6987,
                     "sets": {
@@ -25321,16 +25321,16 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "抱火冠#112626 (1280 内防 御劲 无双)": {
+                "固岭冠#112626 (1280 内防 御劲 无双)": {
                     "id": 112626,
-                    "name": "抱火冠",
+                    "name": "固岭冠",
                     "school": "通用",
                     "kind": "防御",
                     "position": "hat",
@@ -25441,16 +25441,16 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
                     "recipes": [],
                     "gains": []
                 },
-                "隐寥冠#112608 (1110 内防 御劲 无双)": {
+                "守川冠#112608 (1110 内防 御劲 无双)": {
                     "id": 112608,
-                    "name": "隐寥冠",
+                    "name": "守川冠",
                     "school": "通用",
                     "kind": "防御",
                     "position": "hat",
@@ -25561,7 +25561,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6981,
                     "sets": {
@@ -25640,7 +25640,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6975,
                     "sets": {
@@ -25749,7 +25749,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -25840,7 +25840,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -30355,7 +30355,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7001,
                     "sets": {
@@ -30402,7 +30402,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 7001,
                     "sets": {
@@ -30549,7 +30549,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6999,
                     "sets": {
@@ -30596,7 +30596,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6999,
                     "sets": {
@@ -31689,7 +31689,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6987,
                     "sets": {
@@ -31736,7 +31736,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6987,
                     "sets": {
@@ -32067,7 +32067,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6983,
                     "sets": {
@@ -32115,7 +32115,7 @@ EQUIPMENTS = {
                     },
                     "embed": {
                         "vitality_base": 304,
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 6983,
                     "sets": {
@@ -32308,7 +32308,7 @@ EQUIPMENTS = {
                         "threat_gain": 112
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32339,7 +32339,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32368,7 +32368,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 0,
@@ -32397,7 +32397,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32428,7 +32428,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32457,7 +32457,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 0,
@@ -32486,7 +32486,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 6981,
@@ -32533,7 +32533,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 6975,
@@ -32581,7 +32581,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32611,7 +32611,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 0,
@@ -32642,7 +32642,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32672,7 +32672,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32702,7 +32702,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 0,
@@ -32733,7 +32733,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32762,7 +32762,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 0,
@@ -32791,7 +32791,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -32820,7 +32820,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 0,
@@ -32849,7 +32849,7 @@ EQUIPMENTS = {
                         "threat_gain": 155
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 0,
@@ -36457,7 +36457,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 7001,
@@ -36502,7 +36502,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 7001,
@@ -36647,7 +36647,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 6999,
@@ -36692,7 +36692,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 6999,
@@ -37787,7 +37787,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 6987,
@@ -37832,7 +37832,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "vitality_base": 304
                     },
                     "set_id": 6987,
@@ -38163,7 +38163,7 @@ EQUIPMENTS = {
                         "threat_gain": 205
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 6983,
@@ -38209,7 +38209,7 @@ EQUIPMENTS = {
                         "threat_gain": 178
                     },
                     "embed": {
-                        "threat_gain": 29,
+                        "threat_gain": 389,
                         "magical_shield_base": 304
                     },
                     "set_id": 6983,
@@ -41601,9 +41601,9 @@ EQUIPMENTS = {
     "ring": {
         "通用": {
             "防御": {
-                "抱火指环#50018 (1280 外防 内防 加速 御劲 无双)": {
+                "固岭指环#50018 (1280 外防 内防 加速 御劲 无双)": {
                     "id": 50018,
-                    "name": "抱火指环",
+                    "name": "固岭指环",
                     "school": "通用",
                     "kind": "防御",
                     "position": "ring",
@@ -41715,9 +41715,9 @@ EQUIPMENTS = {
                     "recipes": [],
                     "gains": []
                 },
-                "隐寥戒指#50012 (1110 外防 内防 加速 御劲 无双)": {
+                "守川戒指#50012 (1110 外防 内防 加速 御劲 无双)": {
                     "id": 50012,
-                    "name": "隐寥戒指",
+                    "name": "守川戒指",
                     "school": "通用",
                     "kind": "防御",
                     "position": "ring",
@@ -52336,7 +52336,7 @@ EQUIPMENTS = {
                         "strain_base": 386
                     },
                     "embed": {
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -52412,7 +52412,7 @@ EQUIPMENTS = {
                         "strain_base": 351
                     },
                     "embed": {
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -52438,7 +52438,7 @@ EQUIPMENTS = {
                         "strain_base": 312
                     },
                     "embed": {
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -52464,7 +52464,7 @@ EQUIPMENTS = {
                         "strain_base": 312
                     },
                     "embed": {
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -52690,7 +52690,7 @@ EQUIPMENTS = {
                         "strain_base": 253
                     },
                     "embed": {
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},
@@ -52740,7 +52740,7 @@ EQUIPMENTS = {
                         "strain_base": 253
                     },
                     "embed": {
-                        "threat_gain": 29
+                        "threat_gain": 389
                     },
                     "set_id": 0,
                     "sets": {},

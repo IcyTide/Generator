@@ -5520,7 +5520,7 @@ BUFFS = {
                     "attributes": {
                         "physical_attack_power_gain": 154,
                         "poison_attack_power_gain": 154,
-                        "all_shield_ignore": 512
+                        "all_shield_ignore": 389
                     }
                 }
             }
@@ -7772,6 +7772,19 @@ BUFFS = {
                         "physical_overcome_gain": 102,
                         "threat_gain": -717
                     }
+                }
+            }
+        },
+        33027: {
+            35908: {
+                1: {
+                    "name": "威声",
+                    "interval": 192,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "recipes": [
+                        "recipe_6605_1"
+                    ]
                 }
             }
         },

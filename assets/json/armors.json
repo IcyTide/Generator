@@ -85,7 +85,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -667,7 +667,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -1075,7 +1075,7 @@
     },
     "112614": {
         "id": 112614,
-        "name": "抱火袖",
+        "name": "固岭袖",
         "school": "通用",
         "kind": "防御",
         "position": "wrist",
@@ -1156,7 +1156,7 @@
     },
     "112613": {
         "id": 112613,
-        "name": "蘅回袖",
+        "name": "暖舟袖",
         "school": "通用",
         "kind": "治疗",
         "position": "wrist",
@@ -1225,7 +1225,7 @@
     },
     "112612": {
         "id": 112612,
-        "name": "笃心袖",
+        "name": "寻岭袖",
         "school": "通用",
         "kind": "身法",
         "position": "wrist",
@@ -1306,7 +1306,7 @@
     },
     "112611": {
         "id": 112611,
-        "name": "劲远袖",
+        "name": "长坡袖",
         "school": "通用",
         "kind": "力道",
         "position": "wrist",
@@ -1387,7 +1387,7 @@
     },
     "112610": {
         "id": 112610,
-        "name": "夕迟袖",
+        "name": "泉风袖",
         "school": "通用",
         "kind": "元气",
         "position": "wrist",
@@ -1468,7 +1468,7 @@
     },
     "112609": {
         "id": 112609,
-        "name": "清暮袖",
+        "name": "竹渡袖",
         "school": "通用",
         "kind": "根骨",
         "position": "wrist",
@@ -1639,7 +1639,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -1825,7 +1825,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -2167,7 +2167,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"一息归尘人已远，枯叶知秋不回头。\" font=100 </text>",
+        "desc": "<Text>text=\"月照孤窗霜满庭，砧声入夜动寒星。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -2248,7 +2248,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"幽壑藏身气若无，千里无鸦静如死。\" font=100 </text>",
+        "desc": "<Text>text=\"檐铃初歇暮云低，雨过空阶晚山青。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -2335,7 +2335,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"夜分刀气透重帘，残月如钩照杀场。\" font=100 </text>",
+        "desc": "<Text>text=\"云起青冥开远岫，江天浩荡任孤舟。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -2410,7 +2410,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"缚风锁云手势成，断魂无迹刹那间。\" font=100 </text>",
+        "desc": "<Text>text=\"笑看风云千里阔，独凭侠气镇八方。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -2491,7 +2491,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"毒雾藏针三尺内，蛇行影没不留踪。\" font=100 </text>",
+        "desc": "<Text>text=\"云野风起吹芦荡，霜落长川照远荒。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -2572,7 +2572,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"寒鸦啼血落荒原，白骨成霜夜未央。\" font=100 </text>",
+        "desc": "<Text>text=\"松影横窗侵夜色，夜雨敲窗惊梦客。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -2659,7 +2659,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"暗渡无声入夜深，孤灯灭处见刀痕。\" font=100 </text>",
+        "desc": "<Text>text=\"清风细雨洗尘痕，花明小径待归人。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3109,7 +3109,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"一息归尘人已远，枯叶知秋不回头。\" font=100 </text>",
+        "desc": "<Text>text=\"月照孤窗霜满庭，砧声入夜动寒星。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3190,7 +3190,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"幽壑藏身气若无，千里无鸦静如死。\" font=100 </text>",
+        "desc": "<Text>text=\"檐铃初歇暮云低，雨过空阶晚山青。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3277,7 +3277,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"夜分刀气透重帘，残月如钩照杀场。\" font=100 </text>",
+        "desc": "<Text>text=\"云起青冥开远岫，江天浩荡任孤舟。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3352,7 +3352,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"缚风锁云手势成，断魂无迹刹那间。\" font=100 </text>",
+        "desc": "<Text>text=\"笑看风云千里阔，独凭侠气镇八方。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3433,7 +3433,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"毒雾藏针三尺内，蛇行影没不留踪。\" font=100 </text>",
+        "desc": "<Text>text=\"云野风起吹芦荡，霜落长川照远荒。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3514,7 +3514,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"寒鸦啼血落荒原，白骨成霜夜未央。\" font=100 </text>",
+        "desc": "<Text>text=\"松影横窗侵夜色，夜雨敲窗惊梦客。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -3601,7 +3601,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 28477,
-        "desc": "<Text>text=\"暗渡无声入夜深，孤灯灭处见刀痕。\" font=100 </text>",
+        "desc": "<Text>text=\"清风细雨洗尘痕，花明小径待归人。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -4618,7 +4618,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -8386,7 +8386,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -8612,7 +8612,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -9020,7 +9020,7 @@
     },
     "112596": {
         "id": 112596,
-        "name": "隐寥护手",
+        "name": "守川护手",
         "school": "通用",
         "kind": "防御",
         "position": "wrist",
@@ -9101,7 +9101,7 @@
     },
     "112595": {
         "id": 112595,
-        "name": "答踪护手",
+        "name": "暖林护手",
         "school": "通用",
         "kind": "治疗",
         "position": "wrist",
@@ -9170,7 +9170,7 @@
     },
     "112594": {
         "id": 112594,
-        "name": "蹈丘护手",
+        "name": "踏溪护手",
         "school": "通用",
         "kind": "身法",
         "position": "wrist",
@@ -9251,7 +9251,7 @@
     },
     "112593": {
         "id": 112593,
-        "name": "斧正护手",
+        "name": "过岭护手",
         "school": "通用",
         "kind": "力道",
         "position": "wrist",
@@ -9332,7 +9332,7 @@
     },
     "112592": {
         "id": 112592,
-        "name": "晓阴护手",
+        "name": "晴岸护手",
         "school": "通用",
         "kind": "元气",
         "position": "wrist",
@@ -9413,7 +9413,7 @@
     },
     "112591": {
         "id": 112591,
-        "name": "言苦护手",
+        "name": "松渡护手",
         "school": "通用",
         "kind": "根骨",
         "position": "wrist",
@@ -10070,7 +10070,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -13838,7 +13838,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -14076,7 +14076,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -14778,7 +14778,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -15270,7 +15270,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -16938,7 +16938,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18390,7 +18390,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -18969,7 +18969,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19155,7 +19155,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19173,7 +19173,7 @@
         "score": 80,
         "max_strength": 6,
         "icon_id": 28456,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19236,7 +19236,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -19271,7 +19271,7 @@
         "score": 80,
         "max_strength": 6,
         "icon_id": 28456,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19363,7 +19363,7 @@
         "score": 80,
         "max_strength": 6,
         "icon_id": 28456,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19461,7 +19461,7 @@
         "score": 80,
         "max_strength": 6,
         "icon_id": 28456,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19559,7 +19559,7 @@
         "score": 80,
         "max_strength": 6,
         "icon_id": 28456,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19657,7 +19657,7 @@
         "score": 80,
         "max_strength": 6,
         "icon_id": 28456,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19755,7 +19755,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19854,7 +19854,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -19947,7 +19947,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -20040,7 +20040,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -20139,7 +20139,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -20232,7 +20232,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -20388,7 +20388,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -20805,7 +20805,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -20892,7 +20892,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -20973,7 +20973,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -21054,7 +21054,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -21141,7 +21141,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -21222,7 +21222,7 @@
         "score": 79,
         "max_strength": 6,
         "icon_id": 9245,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -21852,7 +21852,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -25912,7 +25912,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -26878,7 +26878,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -30950,7 +30950,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -32132,7 +32132,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -33296,7 +33296,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -33782,7 +33782,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -34748,7 +34748,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -35234,7 +35234,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -35819,7 +35819,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -36005,7 +36005,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -36104,7 +36104,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -36692,7 +36692,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37094,7 +37094,7 @@
     },
     "112620": {
         "id": 112620,
-        "name": "抱火裤",
+        "name": "固岭裤",
         "school": "通用",
         "kind": "防御",
         "position": "bottoms",
@@ -37178,7 +37178,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37670,7 +37670,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -37844,7 +37844,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -39449,7 +39449,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -40901,7 +40901,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -41303,7 +41303,7 @@
     },
     "112602": {
         "id": 112602,
-        "name": "隐寥下裳",
+        "name": "守川下裳",
         "school": "通用",
         "kind": "防御",
         "position": "bottoms",
@@ -41387,7 +41387,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -42353,7 +42353,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -43319,7 +43319,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -44291,7 +44291,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -44771,7 +44771,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -45743,7 +45743,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46322,7 +46322,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -46508,7 +46508,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -47936,7 +47936,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -52454,7 +52454,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -52674,7 +52674,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -53982,7 +53982,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -57432,7 +57432,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -57652,7 +57652,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -58960,7 +58960,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -60334,7 +60334,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -61534,7 +61534,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -62020,7 +62020,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -62992,7 +62992,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -63478,7 +63478,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -64753,7 +64753,7 @@
         "score": 103,
         "max_strength": 6,
         "icon_id": 28454,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -64851,7 +64851,7 @@
         "score": 103,
         "max_strength": 6,
         "icon_id": 28454,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -64937,7 +64937,7 @@
         "score": 103,
         "max_strength": 6,
         "icon_id": 28454,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65035,7 +65035,7 @@
         "score": 103,
         "max_strength": 6,
         "icon_id": 28454,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65133,7 +65133,7 @@
         "score": 103,
         "max_strength": 6,
         "icon_id": 28454,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65231,7 +65231,7 @@
         "score": 103,
         "max_strength": 6,
         "icon_id": 28454,
-        "desc": "<Text>text=\"可以被拆解并获得绑定的“地脉玄元”一枚。\" font=100 </text>",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65329,7 +65329,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65428,7 +65428,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65521,7 +65521,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65614,7 +65614,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65713,7 +65713,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65806,7 +65806,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -65974,7 +65974,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -66391,7 +66391,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -66478,7 +66478,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -66559,7 +66559,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -66640,7 +66640,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -66727,7 +66727,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -66808,7 +66808,7 @@
         "score": 101,
         "max_strength": 6,
         "icon_id": 9240,
-        "desc": "可以被拆解并获得绑定的“地脉玄元”一枚。",
+        "desc": "<Text>text=\"可以被拆解并获得“地脉玄元”一枚，绑定状态与拆解时的装备一致。\" font=100 </text>",
         "base": [
             {
                 "attr": "atPhysicsShieldBase",
@@ -66880,7 +66880,7 @@
     },
     "112626": {
         "id": 112626,
-        "name": "抱火冠",
+        "name": "固岭冠",
         "school": "通用",
         "kind": "防御",
         "position": "hat",
@@ -69754,7 +69754,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -69986,7 +69986,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -71300,7 +71300,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -71734,7 +71734,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -71972,7 +71972,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -72380,7 +72380,7 @@
     },
     "112608": {
         "id": 112608,
-        "name": "隐寥冠",
+        "name": "守川冠",
         "school": "通用",
         "kind": "防御",
         "position": "hat",
@@ -75254,7 +75254,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -75486,7 +75486,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -76800,7 +76800,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -77234,7 +77234,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -77484,7 +77484,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -78678,7 +78678,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -80340,7 +80340,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -81798,7 +81798,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             }
         ],
@@ -83190,7 +83190,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -83676,7 +83676,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -84156,7 +84156,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -85974,7 +85974,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -86194,7 +86194,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -87508,7 +87508,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -87936,7 +87936,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -88162,7 +88162,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -88648,7 +88648,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -89128,7 +89128,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -90946,7 +90946,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -91166,7 +91166,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -92480,7 +92480,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -92908,7 +92908,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -93146,7 +93146,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -93848,7 +93848,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -94544,7 +94544,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -95024,7 +95024,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -95516,7 +95516,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -96002,7 +96002,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -96482,7 +96482,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -96974,7 +96974,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -97454,7 +97454,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -97535,7 +97535,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -97616,7 +97616,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {
@@ -97697,7 +97697,7 @@
             {
                 "attr": "atActiveThreatCoefficient",
                 "attr_type": "threat_gain",
-                "value": 29,
+                "value": 389,
                 "desc": "<text>text=\"招式产生威胁{}%\" font=105 </text>"
             },
             {

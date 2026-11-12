@@ -7,7 +7,7 @@ TALENTS: list[dict[int, dict]] = [
     },
     {
         32508: {},
-        33027: dict(skills={34695: {}}),
+        33027: dict(buffs={35908: dict(name="威声", max_stack=1)}, skills={34695: {}}),
         32492: {},
         32588: dict(buffs={24236: {}})
     },

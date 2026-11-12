@@ -1394,12 +1394,12 @@ ENCHANTS = {
                 "threat_gain": 0
             }
         },
-        "峡金焠·兵（武伤） 武器伤害提升15点": {
+        "峡金焠·兵（武伤） 武器伤害提升16点": {
             "id": 16506,
             "name": "峡金焠·兵（武伤）",
             "score": 122,
             "attributes": {
-                "weapon_damage_base": 15
+                "weapon_damage_base": 16
             }
         },
         "峡金焠·兵（疗伤） 疗伤成效提升90点": {
@@ -1426,12 +1426,12 @@ ENCHANTS = {
                 "threat_gain": 0
             }
         },
-        "峡金铸·兵（武伤） 武器伤害提升12点": {
+        "峡金铸·兵（武伤） 武器伤害提升14点": {
             "id": 16488,
             "name": "峡金铸·兵（武伤）",
             "score": 105,
             "attributes": {
-                "weapon_damage_base": 12
+                "weapon_damage_base": 14
             }
         },
         "峡金铸·兵（疗伤） 疗伤成效提升72点": {
@@ -1458,12 +1458,12 @@ ENCHANTS = {
                 "threat_gain": 0
             }
         },
-        "云冈石·兵（武伤） 武器伤害提升6点": {
+        "云冈石·兵（武伤） 武器伤害提升8点": {
             "id": 16538,
             "name": "云冈石·兵（武伤）",
             "score": 52,
             "attributes": {
-                "weapon_damage_base": 6
+                "weapon_damage_base": 8
             }
         },
         "云冈石·兵（疗伤） 疗伤成效提升36点": {

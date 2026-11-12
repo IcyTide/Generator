@@ -18,7 +18,7 @@ TALENTS: list[dict[int, dict]] = [
         25119: dict(buffs={18036: dict(levels=[2])}, skills={25121: {}})
     },
     {
-        45914: dict(buffs={31349: dict(name="贯革梨花", comment="{}")}),
+        45914: dict(buffs={31349: dict(name="贯革梨花", comment="{}")}, skills={47037: {}}),
         28905: {},
         40218: dict(skills={40221: {}}),
         6775: dict(dots={12663: dict(skills={18815: {}})}),

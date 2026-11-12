@@ -1426,14 +1426,14 @@
     "16506": {
         "id": 16506,
         "name": "峡金焠·兵（武伤）",
-        "desc": "武器伤害提升15点",
+        "desc": "武器伤害提升16点",
         "position": "primary_weapon",
         "score": 122,
         "attributes": [
             {
                 "attr": "atMeleeWeaponDamageBase",
                 "attr_type": "weapon_damage_base",
-                "value": 15,
+                "value": 16,
                 "desc": "<text>text=\"武器伤害提高{}\" font=106 </text>"
             }
         ],
@@ -2178,14 +2178,14 @@
     "16488": {
         "id": 16488,
         "name": "峡金铸·兵（武伤）",
-        "desc": "武器伤害提升12点",
+        "desc": "武器伤害提升14点",
         "position": "primary_weapon",
         "score": 105,
         "attributes": [
             {
                 "attr": "atMeleeWeaponDamageBase",
                 "attr_type": "weapon_damage_base",
-                "value": 12,
+                "value": 14,
                 "desc": "<text>text=\"武器伤害提高{}\" font=106 </text>"
             }
         ],
@@ -2754,14 +2754,14 @@
     "16538": {
         "id": 16538,
         "name": "云冈石·兵（武伤）",
-        "desc": "武器伤害提升6点",
+        "desc": "武器伤害提升8点",
         "position": "primary_weapon",
         "score": 52,
         "attributes": [
             {
                 "attr": "atMeleeWeaponDamageBase",
                 "attr_type": "weapon_damage_base",
-                "value": 6,
+                "value": 8,
                 "desc": "<text>text=\"武器伤害提高{}\" font=106 </text>"
             }
         ],
