@@ -3129,7 +3129,7 @@ BUFFS = {
                 }
             }
         },
-        34831: {
+        46727: {
             34831: {
                 1: {
                     "name": "加速暗器特效",
@@ -3147,6 +3147,40 @@ BUFFS = {
                     "max_tick": 1,
                     "attributes": {
                         "all_attack_power_base": 189
+                    }
+                }
+            }
+        },
+        4876: {
+            4759: {
+                82: {
+                    "name": "雷·灭气",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 539,
+                        "all_critical_strike_base": 231
+                    }
+                },
+                85: {
+                    "name": "雷·灭气",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 778,
+                        "all_critical_strike_base": 333
+                    }
+                },
+                88: {
+                    "name": "雷·灭气",
+                    "interval": 240,
+                    "max_stack": 1,
+                    "max_tick": 1,
+                    "attributes": {
+                        "all_attack_power_base": 798,
+                        "all_critical_strike_base": 342
                     }
                 }
             }

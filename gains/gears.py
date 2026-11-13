@@ -169,11 +169,12 @@ SPECIAL_GEAR_GAINS: dict[int, dict] = {
     38950: dict(
         name="暗器特效", skills={38966: dict(levels=list(range(9, 15)), custom_damage_source="tDPSJingJianAnQiData")}
     ),
-    34831: dict(name="暗器特效", buffs={34831: dict(levels=[1, 2], name="加速暗器特效")})
+    46727: dict(name="暗器特效", buffs={34831: dict(levels=[1, 2], name="加速暗器特效")})
 }
 SPECIAL_WEAPON_GAINS: dict[int, dict] = {
 }
 ELEMENT_GAINS = {
+    4876: dict(name="雷特效", buffs={4759: dict(levels=[82, 85, 88])}),
     4877: dict(name="水特效", buffs={4761: dict(levels=[87, 88])}),
     # pendant
     38578: dict(name="风特效", buffs={29268: dict(levels=[36])}),

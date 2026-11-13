@@ -69,6 +69,13 @@ def necklace_attribute(target: str, thresholds: list[int]):
     return inner
 
 
+def thunder_attribute(self: "GearGain", attribute: Attribute):
+    weight = 16 / 100
+    buff_id = list(self.buffs)[0]
+    buff_level = self.gain_level - 3 + self.gain_level
+    add_buff_to_attribute(self.gain_id, buff_id, buff_level, attribute, weight)
+
+
 def wind_attribute(self: "GearGain", attribute: Attribute):
     self.weight = 15 / 180
     default_attribute(self, attribute)
@@ -98,6 +105,7 @@ ATTRIBUTE_FUNCS = {
     40803: ring_attribute,
     38946: necklace_attribute(target="overcome", thresholds=[0] * 8 + [2649] * 5),
     38945: necklace_attribute(target="critical_strike", thresholds=[0] * 8 + [1756] * 2),
+
 
     38578: wind_attribute,
     22169: special_enchant_belt,

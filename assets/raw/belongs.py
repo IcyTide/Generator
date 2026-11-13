@@ -701,10 +701,13 @@ BELONGS = {
             "name": "暗器特效",
             "belong_key": "belong_38950"
         },
-        34831: {
+        46727: {
             "name": "暗器特效",
-            "desc": "测试技能",
-            "belong_key": "belong_34831"
+            "belong_key": "belong_46727"
+        },
+        4876: {
+            "name": "雷特效",
+            "belong_key": "belong_4876"
         },
         4877: {
             "name": "水特效",

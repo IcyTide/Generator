@@ -13,6 +13,7 @@ KINDS = set(sum([[kungfu.kind, kungfu.major] for kungfu in SUPPORT_KUNGFUS], [])
 SCHOOLS = set(["精简", "通用"] + [kungfu.school for kungfu in SUPPORT_KUNGFUS])
 
 MIN_EQUIP_LEVEL = 940
+WEAPON_MIN_EQUIP_LEVEL = 1260
 ENCHANT_START_ID = 16474
 
 MIN_EQUIP_SCORE = {
@@ -272,7 +273,8 @@ def build_equip_code(details: dict[int, dict]):
 def get_equip_list(equip_tab):
     equip_tab = equip_tab[equip_tab.SubType.isin(MIN_EQUIP_SCORE)]
     equip_tab = equip_tab[equip_tab.Score >= equip_tab.SubType.map(MIN_EQUIP_SCORE)]
-    equip_tab = equip_tab[equip_tab.EquipUsage.isin([1, 3])]
+    weapon_extra_cond = (equip_tab.Level >= WEAPON_MIN_EQUIP_LEVEL) & (equip_tab.SubType == 0) & (equip_tab.EquipUsage.isin([0, 2]))
+    equip_tab = equip_tab[equip_tab.EquipUsage.isin([1, 3]) | weapon_extra_cond]
     equip_tab = equip_tab[(equip_tab.MagicKind.isin(KINDS)) & (equip_tab.BelongSchool.isin(SCHOOLS))]
     equip_tab = equip_tab.sort_values(["SubType", "Score", "ID"], ascending=False)
     results = {}

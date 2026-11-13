@@ -54950,6 +54950,199 @@ EQUIPMENTS = {
                         "gain_43080_2"
                     ]
                 },
+                "天阙遗珍·语人心#48315 (1355 会心 会效)": {
+                    "id": 48315,
+                    "name": "天阙遗珍·语人心",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·弄浮生#48218 (1355 特效 会心 会效)": {
+                    "id": 48218,
+                    "name": "枭鸣堕夜·弄浮生",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·无人盼#48121 (1355 特效 会心 会效)": {
+                    "id": 48121,
+                    "name": "征雁同霄·无人盼",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·傀月丝轮#47510 (1355 破防 会效)": {
+                    "id": 47510,
+                    "name": "一诺霜明·傀月丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·罢戏丝轮#47481 (1355 御劲 会效)": {
+                    "id": 47481,
+                    "name": "妄戏浮屠·罢戏丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·虚宴丝轮#47452 (1355 御劲 会效)": {
+                    "id": 47452,
+                    "name": "独镇乾坤·虚宴丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "戏幕影#46914 (1355 会心 会效)": {
+                    "id": 46914,
+                    "name": "戏幕影",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "天羊盏#47764 (960 特效 会心 破防 加速)": {
                     "id": 47764,
                     "name": "天羊盏",
@@ -54990,6 +55183,143 @@ EQUIPMENTS = {
                         "gain_43080_2"
                     ]
                 },
+                "一诺霜明·傀月丝轮#47423 (1320 破防 会效)": {
+                    "id": 47423,
+                    "name": "一诺霜明·傀月丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1232,
+                        "lunar_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·罢戏丝轮#47309 (1320 御劲 会效)": {
+                    "id": 47309,
+                    "name": "妄戏浮屠·罢戏丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·虚宴丝轮#47252 (1320 御劲 会效)": {
+                    "id": 47252,
+                    "name": "独镇乾坤·虚宴丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "戏幕影#46885 (1320 会心 会效)": {
+                    "id": 46885,
+                    "name": "戏幕影",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1232,
+                        "lunar_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·辞相丝轮#47731 (1300 特效 破防)": {
+                    "id": 47731,
+                    "name": "陶然意·辞相丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "lunar_attack_power_base": 1118,
+                        "lunar_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "浮光幻影#46778 (1300 会心 无双)": {
                     "id": 46778,
                     "name": "浮光幻影",
@@ -55016,6 +55346,91 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·语人心#48281 (1280 会心 会效)": {
+                    "id": 48281,
+                    "name": "天阙遗珍·语人心",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·弄浮生#48184 (1280 特效 会心 会效)": {
+                    "id": 48184,
+                    "name": "枭鸣堕夜·弄浮生",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·无人盼#48087 (1280 特效 会心 会效)": {
+                    "id": 48087,
+                    "name": "征雁同霄·无人盼",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "百傀入梦#46817 (1280 破防 无双)": {
                     "id": 46817,
@@ -55121,6 +55536,141 @@ EQUIPMENTS = {
                         "lunar_critical_power_base": 304,
                         "lunar_critical_strike_base": 304,
                         "spirit_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·帷游丝轮#47617 (1260 会心 会效)": {
+                    "id": 47617,
+                    "name": "问渡何方·帷游丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·傀月丝轮#47366 (1260 破防 会效)": {
+                    "id": 47366,
+                    "name": "一诺霜明·傀月丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·罢戏丝轮#47195 (1260 御劲 会效)": {
+                    "id": 47195,
+                    "name": "妄戏浮屠·罢戏丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·虚宴丝轮#47138 (1260 御劲 会效)": {
+                    "id": 47138,
+                    "name": "独镇乾坤·虚宴丝轮",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "戏幕影#46851 (1260 会心 会效)": {
+                    "id": 46851,
+                    "name": "戏幕影",
+                    "school": "无相",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {},
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -55711,6 +56261,220 @@ EQUIPMENTS = {
                         "gain_39078_9"
                     ]
                 },
+                "天阙遗珍·寄流风#48314 (1355 会心 会效)": {
+                    "id": 48314,
+                    "name": "天阙遗珍·寄流风",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·往苍山#48217 (1355 特效 会心 会效)": {
+                    "id": 48217,
+                    "name": "枭鸣堕夜·往苍山",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·锦诏开#48120 (1355 特效 会心 会效)": {
+                    "id": 48120,
+                    "name": "征雁同霄·锦诏开",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·照微扇#47509 (1355 破防 会效)": {
+                    "id": 47509,
+                    "name": "一诺霜明·照微扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·辞权扇#47480 (1355 御劲 会效)": {
+                    "id": 47480,
+                    "name": "妄戏浮屠·辞权扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·澄峰扇#47451 (1355 御劲 会效)": {
+                    "id": 47451,
+                    "name": "独镇乾坤·澄峰扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "卧云间#46913 (1355 会心 会效)": {
+                    "id": 46913,
+                    "name": "卧云间",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "龙影蔷微#47763 (960 特效 会心 破防 加速)": {
                     "id": 47763,
                     "name": "龙影蔷微",
@@ -55754,6 +56518,158 @@ EQUIPMENTS = {
                         "gain_39078_9"
                     ]
                 },
+                "一诺霜明·照微扇#47422 (1320 破防 会效)": {
+                    "id": 47422,
+                    "name": "一诺霜明·照微扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·辞权扇#47308 (1320 御劲 会效)": {
+                    "id": 47308,
+                    "name": "妄戏浮屠·辞权扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·澄峰扇#47251 (1320 御劲 会效)": {
+                    "id": 47251,
+                    "name": "独镇乾坤·澄峰扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "卧云间#46884 (1320 会心 会效)": {
+                    "id": 46884,
+                    "name": "卧云间",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·品芽扇#47730 (1300 特效 破防)": {
+                    "id": 47730,
+                    "name": "陶然意·品芽扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spunk_base": 382,
+                        "neutral_attack_power_base": 1118,
+                        "neutral_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "枕月眠#46777 (1300 会心 无双)": {
                     "id": 46777,
                     "name": "枕月眠",
@@ -55783,6 +56699,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·寄流风#48280 (1280 会心 会效)": {
+                    "id": 48280,
+                    "name": "天阙遗珍·寄流风",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·往苍山#48183 (1280 特效 会心 会效)": {
+                    "id": 48183,
+                    "name": "枭鸣堕夜·往苍山",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·锦诏开#48086 (1280 特效 会心 会效)": {
+                    "id": 48086,
+                    "name": "征雁同霄·锦诏开",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "苍落洱月#46816 (1280 破防 无双)": {
                     "id": 46816,
@@ -55900,6 +56910,156 @@ EQUIPMENTS = {
                         "neutral_critical_power_base": 304,
                         "neutral_critical_strike_base": 304,
                         "spunk_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·潜风扇#47616 (1260 会心 会效)": {
+                    "id": 47616,
+                    "name": "问渡何方·潜风扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·照微扇#47365 (1260 破防 会效)": {
+                    "id": 47365,
+                    "name": "一诺霜明·照微扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·辞权扇#47194 (1260 御劲 会效)": {
+                    "id": 47194,
+                    "name": "妄戏浮屠·辞权扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·澄峰扇#47137 (1260 御劲 会效)": {
+                    "id": 47137,
+                    "name": "独镇乾坤·澄峰扇",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "卧云间#46850 (1260 会心 会效)": {
+                    "id": 46850,
+                    "name": "卧云间",
+                    "school": "段氏",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -56575,6 +57735,220 @@ EQUIPMENTS = {
                         "gain_36578_9"
                     ]
                 },
+                "天阙遗珍·月栖野#48313 (1355 会心 会效)": {
+                    "id": 48313,
+                    "name": "天阙遗珍·月栖野",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·酌生灵#48216 (1355 特效 会心 会效)": {
+                    "id": 48216,
+                    "name": "枭鸣堕夜·酌生灵",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·梧栖风#48119 (1355 特效 会心 会效)": {
+                    "id": 48119,
+                    "name": "征雁同霄·梧栖风",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·驭荒弓#47508 (1355 破防 会效)": {
+                    "id": 47508,
+                    "name": "一诺霜明·驭荒弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·栖冬弓#47479 (1355 御劲 会效)": {
+                    "id": 47479,
+                    "name": "妄戏浮屠·栖冬弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·语春弓#47450 (1355 御劲 会效)": {
+                    "id": 47450,
+                    "name": "独镇乾坤·语春弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "影朝夕#46912 (1355 会心 会效)": {
+                    "id": 46912,
+                    "name": "影朝夕",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "穹霄待游#47762 (960 特效 会心 破防 加速)": {
                     "id": 47762,
                     "name": "穹霄待游",
@@ -56618,6 +57992,158 @@ EQUIPMENTS = {
                         "gain_36578_9"
                     ]
                 },
+                "一诺霜明·驭荒弓#47421 (1320 破防 会效)": {
+                    "id": 47421,
+                    "name": "一诺霜明·驭荒弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·栖冬弓#47307 (1320 御劲 会效)": {
+                    "id": 47307,
+                    "name": "妄戏浮屠·栖冬弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·语春弓#47250 (1320 御劲 会效)": {
+                    "id": 47250,
+                    "name": "独镇乾坤·语春弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "影朝夕#46883 (1320 会心 会效)": {
+                    "id": 46883,
+                    "name": "影朝夕",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·采灵弓#47729 (1300 特效 破防)": {
+                    "id": 47729,
+                    "name": "陶然意·采灵弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 193,
+                        "weapon_damage_rand": 128
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "星汀鹿语#46776 (1300 会心 无双)": {
                     "id": 46776,
                     "name": "星汀鹿语",
@@ -56647,6 +58173,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·月栖野#48279 (1280 会心 会效)": {
+                    "id": 48279,
+                    "name": "天阙遗珍·月栖野",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·酌生灵#48182 (1280 特效 会心 会效)": {
+                    "id": 48182,
+                    "name": "枭鸣堕夜·酌生灵",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·梧栖风#48085 (1280 特效 会心 会效)": {
+                    "id": 48085,
+                    "name": "征雁同霄·梧栖风",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "孤鹘凌朔#46815 (1280 破防 无双)": {
                     "id": 46815,
@@ -56764,6 +58384,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·野岚弓#47615 (1260 会心 会效)": {
+                    "id": 47615,
+                    "name": "问渡何方·野岚弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·驭荒弓#47364 (1260 破防 会效)": {
+                    "id": 47364,
+                    "name": "一诺霜明·驭荒弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·栖冬弓#47193 (1260 御劲 会效)": {
+                    "id": 47193,
+                    "name": "妄戏浮屠·栖冬弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·语春弓#47136 (1260 御劲 会效)": {
+                    "id": 47136,
+                    "name": "独镇乾坤·语春弓",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "影朝夕#46849 (1260 会心 会效)": {
+                    "id": 46849,
+                    "name": "影朝夕",
+                    "school": "万灵",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -57439,6 +59209,220 @@ EQUIPMENTS = {
                         "gain_33238_9"
                     ]
                 },
+                "天阙遗珍·孤心明#48312 (1355 会心 会效)": {
+                    "id": 48312,
+                    "name": "天阙遗珍·孤心明",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·载秋宵#48215 (1355 特效 会心 会效)": {
+                    "id": 48215,
+                    "name": "枭鸣堕夜·载秋宵",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·立雨歇#48118 (1355 特效 会心 会效)": {
+                    "id": 48118,
+                    "name": "征雁同霄·立雨歇",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·斫海刀#47507 (1355 破防 会效)": {
+                    "id": 47507,
+                    "name": "一诺霜明·斫海刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·俯天刀#47478 (1355 御劲 会效)": {
+                    "id": 47478,
+                    "name": "妄戏浮屠·俯天刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·问锈刀#47449 (1355 御劲 会效)": {
+                    "id": 47449,
+                    "name": "独镇乾坤·问锈刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "孤月听潮#46911 (1355 会心 会效)": {
+                    "id": 46911,
+                    "name": "孤月听潮",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "一隙见瀚#47761 (960 特效 会心 破防 加速)": {
                     "id": 47761,
                     "name": "一隙见瀚",
@@ -57482,6 +59466,158 @@ EQUIPMENTS = {
                         "gain_33238_9"
                     ]
                 },
+                "一诺霜明·斫海刀#47420 (1320 破防 会效)": {
+                    "id": 47420,
+                    "name": "一诺霜明·斫海刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·俯天刀#47306 (1320 御劲 会效)": {
+                    "id": 47306,
+                    "name": "妄戏浮屠·俯天刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·问锈刀#47249 (1320 御劲 会效)": {
+                    "id": 47249,
+                    "name": "独镇乾坤·问锈刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "孤月听潮#46882 (1320 会心 会效)": {
+                    "id": 46882,
+                    "name": "孤月听潮",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·痕决刀#47728 (1300 特效 破防)": {
+                    "id": 47728,
+                    "name": "陶然意·痕决刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 193,
+                        "weapon_damage_rand": 128
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "strength_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "斩浪歌#46775 (1300 会心 无双)": {
                     "id": 46775,
                     "name": "斩浪歌",
@@ -57511,6 +59647,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·孤心明#48278 (1280 会心 会效)": {
+                    "id": 48278,
+                    "name": "天阙遗珍·孤心明",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·载秋宵#48181 (1280 特效 会心 会效)": {
+                    "id": 48181,
+                    "name": "枭鸣堕夜·载秋宵",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·立雨歇#48084 (1280 特效 会心 会效)": {
+                    "id": 48084,
+                    "name": "征雁同霄·立雨歇",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "渊默寒霜#46814 (1280 破防 无双)": {
                     "id": 46814,
@@ -57628,6 +59858,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "strength_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·流霁刀#47614 (1260 会心 会效)": {
+                    "id": 47614,
+                    "name": "问渡何方·流霁刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·斫海刀#47363 (1260 破防 会效)": {
+                    "id": 47363,
+                    "name": "一诺霜明·斫海刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·俯天刀#47192 (1260 御劲 会效)": {
+                    "id": 47192,
+                    "name": "妄戏浮屠·俯天刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·问锈刀#47135 (1260 御劲 会效)": {
+                    "id": 47135,
+                    "name": "独镇乾坤·问锈刀",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "孤月听潮#46848 (1260 会心 会效)": {
+                    "id": 46848,
+                    "name": "孤月听潮",
+                    "school": "刀宗",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -58295,6 +60675,219 @@ EQUIPMENTS = {
                         "gain_33316_3"
                     ]
                 },
+                "天阙遗珍·诉熙愿#48311 (1355 会心 会效)": {
+                    "id": 48311,
+                    "name": "天阙遗珍·诉熙愿",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·垄上春#48214 (1355 特效 会心 会效)": {
+                    "id": 48214,
+                    "name": "枭鸣堕夜·垄上春",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "征雁同霄·溪润青#48117 (1355 特效 会心 会效)": {
+                    "id": 48117,
+                    "name": "征雁同霄·溪润青",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "一诺霜明·禳星卷#47506 (1355 会效)": {
+                    "id": 47506,
+                    "name": "一诺霜明·禳星卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 2160,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·解疾卷#47477 (1355 御劲 会效)": {
+                    "id": 47477,
+                    "name": "妄戏浮屠·解疾卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·云芷卷#47448 (1355 御劲 会效)": {
+                    "id": 47448,
+                    "name": "独镇乾坤·云芷卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一寸晖#46910 (1355 会心 会效)": {
+                    "id": 46910,
+                    "name": "一寸晖",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "天仙子#47760 (960 特效 会心 加速)": {
                     "id": 47760,
                     "name": "天仙子",
@@ -58336,6 +60929,154 @@ EQUIPMENTS = {
                         "gain_33316_3"
                     ]
                 },
+                "一诺霜明·禳星卷#47419 (1320 会效)": {
+                    "id": 47419,
+                    "name": "一诺霜明·禳星卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 2104,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·解疾卷#47305 (1320 御劲 会效)": {
+                    "id": 47305,
+                    "name": "妄戏浮屠·解疾卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·云芷卷#47248 (1320 御劲 会效)": {
+                    "id": 47248,
+                    "name": "独镇乾坤·云芷卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一寸晖#46881 (1320 会心 会效)": {
+                    "id": 46881,
+                    "name": "一寸晖",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1465,
+                        "poison_critical_strike_base": 639,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·点翠卷#47727 (1300 )": {
+                    "id": 47727,
+                    "name": "陶然意·点翠卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "therapy_power_base": 1936,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "max_life_add": 3037,
+                        "spirit_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "和月声#46774 (1300 会心)": {
                     "id": 46774,
                     "name": "和月声",
@@ -58364,6 +61105,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·诉熙愿#48277 (1280 会心 会效)": {
+                    "id": 48277,
+                    "name": "天阙遗珍·诉熙愿",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "poison_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·垄上春#48180 (1280 特效 会心 会效)": {
+                    "id": 48180,
+                    "name": "枭鸣堕夜·垄上春",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "poison_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
+                },
+                "征雁同霄·溪润青#48083 (1280 特效 会心 会效)": {
+                    "id": 48083,
+                    "name": "征雁同霄·溪润青",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "poison_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
                 },
                 "灵泽生春#46813 (1280 加速)": {
                     "id": 46813,
@@ -58476,6 +61311,155 @@ EQUIPMENTS = {
                         "spirit_base": 304,
                         "poison_critical_strike_base": 304,
                         "therapy_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·素蕙卷#47613 (1260 会心 会效)": {
+                    "id": 47613,
+                    "name": "问渡何方·素蕙卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "poison_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·禳星卷#47362 (1260 会效)": {
+                    "id": 47362,
+                    "name": "一诺霜明·禳星卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 2008,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·解疾卷#47191 (1260 御劲 会效)": {
+                    "id": 47191,
+                    "name": "妄戏浮屠·解疾卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·云芷卷#47134 (1260 御劲 会效)": {
+                    "id": 47134,
+                    "name": "独镇乾坤·云芷卷",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一寸晖#46847 (1260 会心 会效)": {
+                    "id": 46847,
+                    "name": "一寸晖",
+                    "school": "药宗",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "poison_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -59128,6 +62112,220 @@ EQUIPMENTS = {
                         "gain_29694_9"
                     ]
                 },
+                "天阙遗珍·裁春叶#48310 (1355 会心 会效)": {
+                    "id": 48310,
+                    "name": "天阙遗珍·裁春叶",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·涉暮春#48213 (1355 特效 会心 会效)": {
+                    "id": 48213,
+                    "name": "枭鸣堕夜·涉暮春",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·鸩雪寒#48116 (1355 特效 会心 会效)": {
+                    "id": 48116,
+                    "name": "征雁同霄·鸩雪寒",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·尝冥卷#47505 (1355 破防 会效)": {
+                    "id": 47505,
+                    "name": "一诺霜明·尝冥卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·愿乡卷#47476 (1355 御劲 会效)": {
+                    "id": 47476,
+                    "name": "妄戏浮屠·愿乡卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·浮央卷#47447 (1355 御劲 会效)": {
+                    "id": 47447,
+                    "name": "独镇乾坤·浮央卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枕云霞#46909 (1355 会心 会效)": {
+                    "id": 46909,
+                    "name": "枕云霞",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "鉴魄证身#47759 (960 特效 会心 破防 加速)": {
                     "id": 47759,
                     "name": "鉴魄证身",
@@ -59171,6 +62369,158 @@ EQUIPMENTS = {
                         "gain_29694_9"
                     ]
                 },
+                "一诺霜明·尝冥卷#47418 (1320 破防 会效)": {
+                    "id": 47418,
+                    "name": "一诺霜明·尝冥卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1232,
+                        "poison_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·愿乡卷#47304 (1320 御劲 会效)": {
+                    "id": 47304,
+                    "name": "妄戏浮屠·愿乡卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·浮央卷#47247 (1320 御劲 会效)": {
+                    "id": 47247,
+                    "name": "独镇乾坤·浮央卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枕云霞#46880 (1320 会心 会效)": {
+                    "id": 46880,
+                    "name": "枕云霞",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1232,
+                        "poison_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·闻青卷#47726 (1300 特效 破防)": {
+                    "id": 47726,
+                    "name": "陶然意·闻青卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "poison_attack_power_base": 1118,
+                        "poison_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "方寸生灭#46773 (1300 会心 无双)": {
                     "id": 46773,
                     "name": "方寸生灭",
@@ -59200,6 +62550,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·裁春叶#48276 (1280 会心 会效)": {
+                    "id": 48276,
+                    "name": "天阙遗珍·裁春叶",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "poison_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·涉暮春#48179 (1280 特效 会心 会效)": {
+                    "id": 48179,
+                    "name": "枭鸣堕夜·涉暮春",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "poison_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·鸩雪寒#48082 (1280 特效 会心 会效)": {
+                    "id": 48082,
+                    "name": "征雁同霄·鸩雪寒",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "poison_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "寒岫藏辛#46812 (1280 破防 无双)": {
                     "id": 46812,
@@ -59317,6 +62761,156 @@ EQUIPMENTS = {
                         "poison_critical_power_base": 304,
                         "poison_critical_strike_base": 304,
                         "spirit_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·青霁卷#47612 (1260 会心 会效)": {
+                    "id": 47612,
+                    "name": "问渡何方·青霁卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·尝冥卷#47361 (1260 破防 会效)": {
+                    "id": 47361,
+                    "name": "一诺霜明·尝冥卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·愿乡卷#47190 (1260 御劲 会效)": {
+                    "id": 47190,
+                    "name": "妄戏浮屠·愿乡卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·浮央卷#47133 (1260 御劲 会效)": {
+                    "id": 47133,
+                    "name": "独镇乾坤·浮央卷",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枕云霞#46846 (1260 会心 会效)": {
+                    "id": 46846,
+                    "name": "枕云霞",
+                    "school": "药宗",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -59992,6 +63586,220 @@ EQUIPMENTS = {
                         "gain_25831_9"
                     ]
                 },
+                "天阙遗珍·寰尘心#48309 (1355 会心 会效)": {
+                    "id": 48309,
+                    "name": "天阙遗珍·寰尘心",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·荣歇岁#48212 (1355 特效 会心 会效)": {
+                    "id": 48212,
+                    "name": "枭鸣堕夜·荣歇岁",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·垂数子#48115 (1355 特效 会心 会效)": {
+                    "id": 48115,
+                    "name": "征雁同霄·垂数子",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·河纪灯#47504 (1355 破防 会效)": {
+                    "id": 47504,
+                    "name": "一诺霜明·河纪灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·问岁灯#47475 (1355 御劲 会效)": {
+                    "id": 47475,
+                    "name": "妄戏浮屠·问岁灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·默山灯#47446 (1355 御劲 会效)": {
+                    "id": 47446,
+                    "name": "独镇乾坤·默山灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "衍星溯#46908 (1355 会心 会效)": {
+                    "id": 46908,
+                    "name": "衍星溯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "葛天八阕#47758 (960 特效 会心 破防 加速)": {
                     "id": 47758,
                     "name": "葛天八阕",
@@ -60035,6 +63843,158 @@ EQUIPMENTS = {
                         "gain_25831_9"
                     ]
                 },
+                "一诺霜明·河纪灯#47417 (1320 破防 会效)": {
+                    "id": 47417,
+                    "name": "一诺霜明·河纪灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·问岁灯#47303 (1320 御劲 会效)": {
+                    "id": 47303,
+                    "name": "妄戏浮屠·问岁灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·默山灯#47246 (1320 御劲 会效)": {
+                    "id": 47246,
+                    "name": "独镇乾坤·默山灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "衍星溯#46879 (1320 会心 会效)": {
+                    "id": 46879,
+                    "name": "衍星溯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·算星灯#47725 (1300 特效 破防)": {
+                    "id": 47725,
+                    "name": "陶然意·算星灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spunk_base": 382,
+                        "neutral_attack_power_base": 1118,
+                        "neutral_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "照玄微#46772 (1300 会心 无双)": {
                     "id": 46772,
                     "name": "照玄微",
@@ -60064,6 +64024,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·寰尘心#48275 (1280 会心 会效)": {
+                    "id": 48275,
+                    "name": "天阙遗珍·寰尘心",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·荣歇岁#48178 (1280 特效 会心 会效)": {
+                    "id": 48178,
+                    "name": "枭鸣堕夜·荣歇岁",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·垂数子#48081 (1280 特效 会心 会效)": {
+                    "id": 48081,
+                    "name": "征雁同霄·垂数子",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "星轨窥天#46811 (1280 破防 无双)": {
                     "id": 46811,
@@ -60181,6 +64235,156 @@ EQUIPMENTS = {
                         "neutral_critical_power_base": 304,
                         "neutral_critical_strike_base": 304,
                         "spunk_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·化星灯#47611 (1260 会心 会效)": {
+                    "id": 47611,
+                    "name": "问渡何方·化星灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·河纪灯#47360 (1260 破防 会效)": {
+                    "id": 47360,
+                    "name": "一诺霜明·河纪灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·问岁灯#47189 (1260 御劲 会效)": {
+                    "id": 47189,
+                    "name": "妄戏浮屠·问岁灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·默山灯#47132 (1260 御劲 会效)": {
+                    "id": 47132,
+                    "name": "独镇乾坤·默山灯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "衍星溯#46845 (1260 会心 会效)": {
+                    "id": 46845,
+                    "name": "衍星溯",
+                    "school": "衍天",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -60856,6 +65060,220 @@ EQUIPMENTS = {
                         "gain_23396_9"
                     ]
                 },
+                "天阙遗珍·雪封喉#48308 (1355 会心 会效)": {
+                    "id": 48308,
+                    "name": "天阙遗珍·雪封喉",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·试九幽#48211 (1355 特效 会心 会效)": {
+                    "id": 48211,
+                    "name": "枭鸣堕夜·试九幽",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·雪未惊#48114 (1355 特效 会心 会效)": {
+                    "id": 48114,
+                    "name": "征雁同霄·雪未惊",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·悬缨链刃#47503 (1355 破防 会效)": {
+                    "id": 47503,
+                    "name": "一诺霜明·悬缨链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·酬怨链刃#47474 (1355 御劲 会效)": {
+                    "id": 47474,
+                    "name": "妄戏浮屠·酬怨链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·叩关链刃#47445 (1355 御劲 会效)": {
+                    "id": 47445,
+                    "name": "独镇乾坤·叩关链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "影未明#46907 (1355 会心 会效)": {
+                    "id": 46907,
+                    "name": "影未明",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "绝翳曜明#47757 (960 特效 会心 破防 加速)": {
                     "id": 47757,
                     "name": "绝翳曜明",
@@ -60899,6 +65317,158 @@ EQUIPMENTS = {
                         "gain_23396_9"
                     ]
                 },
+                "一诺霜明·悬缨链刃#47416 (1320 破防 会效)": {
+                    "id": 47416,
+                    "name": "一诺霜明·悬缨链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·酬怨链刃#47302 (1320 御劲 会效)": {
+                    "id": 47302,
+                    "name": "妄戏浮屠·酬怨链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·叩关链刃#47245 (1320 御劲 会效)": {
+                    "id": 47245,
+                    "name": "独镇乾坤·叩关链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "影未明#46878 (1320 会心 会效)": {
+                    "id": 46878,
+                    "name": "影未明",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·链暗链刃#47724 (1300 特效 破防)": {
+                    "id": 47724,
+                    "name": "陶然意·链暗链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 193,
+                        "weapon_damage_rand": 128
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "孤梦眠#46771 (1300 会心 无双)": {
                     "id": 46771,
                     "name": "孤梦眠",
@@ -60928,6 +65498,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·雪封喉#48274 (1280 会心 会效)": {
+                    "id": 48274,
+                    "name": "天阙遗珍·雪封喉",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·试九幽#48177 (1280 特效 会心 会效)": {
+                    "id": 48177,
+                    "name": "枭鸣堕夜·试九幽",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·雪未惊#48080 (1280 特效 会心 会效)": {
+                    "id": 48080,
+                    "name": "征雁同霄·雪未惊",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "帝阙吞影#46810 (1280 破防 无双)": {
                     "id": 46810,
@@ -61045,6 +65709,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·翳寂链刃#47610 (1260 会心 会效)": {
+                    "id": 47610,
+                    "name": "问渡何方·翳寂链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·悬缨链刃#47359 (1260 破防 会效)": {
+                    "id": 47359,
+                    "name": "一诺霜明·悬缨链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·酬怨链刃#47188 (1260 御劲 会效)": {
+                    "id": 47188,
+                    "name": "妄戏浮屠·酬怨链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·叩关链刃#47131 (1260 御劲 会效)": {
+                    "id": 47131,
+                    "name": "独镇乾坤·叩关链刃",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "影未明#46844 (1260 会心 会效)": {
+                    "id": 46844,
+                    "name": "影未明",
+                    "school": "凌雪",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -61720,6 +66534,220 @@ EQUIPMENTS = {
                         "gain_21185_9"
                     ]
                 },
+                "天阙遗珍·任潮生#48307 (1355 会心 会效)": {
+                    "id": 48307,
+                    "name": "天阙遗珍·任潮生",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·阙千秋#48210 (1355 特效 会心 会效)": {
+                    "id": 48210,
+                    "name": "枭鸣堕夜·阙千秋",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·潮波渡#48113 (1355 特效 会心 会效)": {
+                    "id": 48113,
+                    "name": "征雁同霄·潮波渡",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·归溟伞#47502 (1355 破防 会效)": {
+                    "id": 47502,
+                    "name": "一诺霜明·归溟伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·梦尧伞#47473 (1355 御劲 会效)": {
+                    "id": 47473,
+                    "name": "妄戏浮屠·梦尧伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·八千伞#47444 (1355 御劲 会效)": {
+                    "id": 47444,
+                    "name": "独镇乾坤·八千伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "望沧溟#46906 (1355 会心 会效)": {
+                    "id": 46906,
+                    "name": "望沧溟",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "孤游万里#47756 (960 特效 会心 破防 加速)": {
                     "id": 47756,
                     "name": "孤游万里",
@@ -61763,6 +66791,158 @@ EQUIPMENTS = {
                         "gain_21185_9"
                     ]
                 },
+                "一诺霜明·归溟伞#47415 (1320 破防 会效)": {
+                    "id": 47415,
+                    "name": "一诺霜明·归溟伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·梦尧伞#47301 (1320 御劲 会效)": {
+                    "id": 47301,
+                    "name": "妄戏浮屠·梦尧伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·八千伞#47244 (1320 御劲 会效)": {
+                    "id": 47244,
+                    "name": "独镇乾坤·八千伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "望沧溟#46877 (1320 会心 会效)": {
+                    "id": 46877,
+                    "name": "望沧溟",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·浮渊伞#47723 (1300 特效 破防)": {
+                    "id": 47723,
+                    "name": "陶然意·浮渊伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 193,
+                        "weapon_damage_rand": 128
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "凌青霄#46770 (1300 会心 无双)": {
                     "id": 46770,
                     "name": "凌青霄",
@@ -61792,6 +66972,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·任潮生#48273 (1280 会心 会效)": {
+                    "id": 48273,
+                    "name": "天阙遗珍·任潮生",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·阙千秋#48176 (1280 特效 会心 会效)": {
+                    "id": 48176,
+                    "name": "枭鸣堕夜·阙千秋",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·潮波渡#48079 (1280 特效 会心 会效)": {
+                    "id": 48079,
+                    "name": "征雁同霄·潮波渡",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "云舸凌潮#46809 (1280 破防 无双)": {
                     "id": 46809,
@@ -61909,6 +67183,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·岚霄伞#47609 (1260 会心 会效)": {
+                    "id": 47609,
+                    "name": "问渡何方·岚霄伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·归溟伞#47358 (1260 破防 会效)": {
+                    "id": 47358,
+                    "name": "一诺霜明·归溟伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·梦尧伞#47187 (1260 御劲 会效)": {
+                    "id": 47187,
+                    "name": "妄戏浮屠·梦尧伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·八千伞#47130 (1260 御劲 会效)": {
+                    "id": 47130,
+                    "name": "独镇乾坤·八千伞",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "望沧溟#46843 (1260 会心 会效)": {
+                    "id": 46843,
+                    "name": "望沧溟",
+                    "school": "蓬莱",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -62584,6 +68008,220 @@ EQUIPMENTS = {
                         "gain_16984_9"
                     ]
                 },
+                "天阙遗珍·酹狂澜#48306 (1355 会心 会效)": {
+                    "id": 48306,
+                    "name": "天阙遗珍·酹狂澜",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·孤旗雪#48209 (1355 特效 会心 会效)": {
+                    "id": 48209,
+                    "name": "枭鸣堕夜·孤旗雪",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·崖赤行#48112 (1355 特效 会心 会效)": {
+                    "id": 48112,
+                    "name": "征雁同霄·崖赤行",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·铸雪刀#47501 (1355 破防 会效)": {
+                    "id": 47501,
+                    "name": "一诺霜明·铸雪刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·觞东刀#47472 (1355 御劲 会效)": {
+                    "id": 47472,
+                    "name": "妄戏浮屠·觞东刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·辟野刀#47443 (1355 御劲 会效)": {
+                    "id": 47443,
+                    "name": "独镇乾坤·辟野刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "雪拥寒啸#46905 (1355 会心 会效)": {
+                    "id": 46905,
+                    "name": "雪拥寒啸",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "悬翎在握#47755 (960 特效 会心 破防 加速)": {
                     "id": 47755,
                     "name": "悬翎在握",
@@ -62627,6 +68265,158 @@ EQUIPMENTS = {
                         "gain_16984_9"
                     ]
                 },
+                "一诺霜明·铸雪刀#47414 (1320 破防 会效)": {
+                    "id": 47414,
+                    "name": "一诺霜明·铸雪刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·觞东刀#47300 (1320 御劲 会效)": {
+                    "id": 47300,
+                    "name": "妄戏浮屠·觞东刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·辟野刀#47243 (1320 御劲 会效)": {
+                    "id": 47243,
+                    "name": "独镇乾坤·辟野刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "雪拥寒啸#46876 (1320 会心 会效)": {
+                    "id": 46876,
+                    "name": "雪拥寒啸",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·削砺刀#47722 (1300 特效 破防)": {
+                    "id": 47722,
+                    "name": "陶然意·削砺刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 193,
+                        "weapon_damage_rand": 128
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "strength_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "朔壑沉锋#46769 (1300 会心 无双)": {
                     "id": 46769,
                     "name": "朔壑沉锋",
@@ -62656,6 +68446,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·酹狂澜#48272 (1280 会心 会效)": {
+                    "id": 48272,
+                    "name": "天阙遗珍·酹狂澜",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·孤旗雪#48175 (1280 特效 会心 会效)": {
+                    "id": 48175,
+                    "name": "枭鸣堕夜·孤旗雪",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·崖赤行#48078 (1280 特效 会心 会效)": {
+                    "id": 48078,
+                    "name": "征雁同霄·崖赤行",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "北地锻魂#46808 (1280 破防 无双)": {
                     "id": 46808,
@@ -62773,6 +68657,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "strength_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·暝关刀#47608 (1260 会心 会效)": {
+                    "id": 47608,
+                    "name": "问渡何方·暝关刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·铸雪刀#47357 (1260 破防 会效)": {
+                    "id": 47357,
+                    "name": "一诺霜明·铸雪刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·觞东刀#47186 (1260 御劲 会效)": {
+                    "id": 47186,
+                    "name": "妄戏浮屠·觞东刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·辟野刀#47129 (1260 御劲 会效)": {
+                    "id": 47129,
+                    "name": "独镇乾坤·辟野刀",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "雪拥寒啸#46842 (1260 会心 会效)": {
+                    "id": 46842,
+                    "name": "雪拥寒啸",
+                    "school": "霸刀",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -63440,6 +69474,219 @@ EQUIPMENTS = {
                         "gain_33317_3"
                     ]
                 },
+                "天阙遗珍·出尘音#48305 (1355 会心 会效)": {
+                    "id": 48305,
+                    "name": "天阙遗珍·出尘音",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·数天骄#48208 (1355 特效 会心 会效)": {
+                    "id": 48208,
+                    "name": "枭鸣堕夜·数天骄",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "征雁同霄·松韵长#48111 (1355 特效 会心 会效)": {
+                    "id": 48111,
+                    "name": "征雁同霄·松韵长",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "一诺霜明·朔歌琴#47500 (1355 会效)": {
+                    "id": 47500,
+                    "name": "一诺霜明·朔歌琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 2160,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·叹旧琴#47471 (1355 御劲 会效)": {
+                    "id": 47471,
+                    "name": "妄戏浮屠·叹旧琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·籁生琴#47442 (1355 御劲 会效)": {
+                    "id": 47442,
+                    "name": "独镇乾坤·籁生琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "知音寻#46904 (1355 会心 会效)": {
+                    "id": 46904,
+                    "name": "知音寻",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "不复#47754 (960 特效 会心 加速)": {
                     "id": 47754,
                     "name": "不复",
@@ -63481,6 +69728,154 @@ EQUIPMENTS = {
                         "gain_33317_3"
                     ]
                 },
+                "一诺霜明·朔歌琴#47413 (1320 会效)": {
+                    "id": 47413,
+                    "name": "一诺霜明·朔歌琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 2104,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·叹旧琴#47299 (1320 御劲 会效)": {
+                    "id": 47299,
+                    "name": "妄戏浮屠·叹旧琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·籁生琴#47242 (1320 御劲 会效)": {
+                    "id": 47242,
+                    "name": "独镇乾坤·籁生琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "知音寻#46875 (1320 会心 会效)": {
+                    "id": 46875,
+                    "name": "知音寻",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1465,
+                        "lunar_critical_strike_base": 639,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·怀歌琴#47721 (1300 )": {
+                    "id": 47721,
+                    "name": "陶然意·怀歌琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 64,
+                        "weapon_damage_rand": 43
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "therapy_power_base": 1936,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "max_life_add": 3037,
+                        "spirit_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "瑶魄汀#46768 (1300 会心)": {
                     "id": 46768,
                     "name": "瑶魄汀",
@@ -63509,6 +69904,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·出尘音#48271 (1280 会心 会效)": {
+                    "id": 48271,
+                    "name": "天阙遗珍·出尘音",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "lunar_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·数天骄#48174 (1280 特效 会心 会效)": {
+                    "id": 48174,
+                    "name": "枭鸣堕夜·数天骄",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "lunar_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
+                },
+                "征雁同霄·松韵长#48077 (1280 特效 会心 会效)": {
+                    "id": 48077,
+                    "name": "征雁同霄·松韵长",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "lunar_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
                 },
                 "斋醮玄音#46807 (1280 加速)": {
                     "id": 46807,
@@ -63621,6 +70110,155 @@ EQUIPMENTS = {
                         "spirit_base": 304,
                         "lunar_critical_strike_base": 304,
                         "therapy_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·远素琴#47607 (1260 会心 会效)": {
+                    "id": 47607,
+                    "name": "问渡何方·远素琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "lunar_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·朔歌琴#47356 (1260 会效)": {
+                    "id": 47356,
+                    "name": "一诺霜明·朔歌琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 2008,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·叹旧琴#47185 (1260 御劲 会效)": {
+                    "id": 47185,
+                    "name": "妄戏浮屠·叹旧琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·籁生琴#47128 (1260 御劲 会效)": {
+                    "id": 47128,
+                    "name": "独镇乾坤·籁生琴",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "知音寻#46841 (1260 会心 会效)": {
+                    "id": 46841,
+                    "name": "知音寻",
+                    "school": "长歌",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "lunar_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -64273,6 +70911,220 @@ EQUIPMENTS = {
                         "gain_15183_9"
                     ]
                 },
+                "天阙遗珍·万籁听#48304 (1355 会心 会效)": {
+                    "id": 48304,
+                    "name": "天阙遗珍·万籁听",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·迟归人#48207 (1355 特效 会心 会效)": {
+                    "id": 48207,
+                    "name": "枭鸣堕夜·迟归人",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·清商起#48110 (1355 特效 会心 会效)": {
+                    "id": 48110,
+                    "name": "征雁同霄·清商起",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·鸾律琴#47499 (1355 破防 会效)": {
+                    "id": 47499,
+                    "name": "一诺霜明·鸾律琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·骋芳琴#47470 (1355 御劲 会效)": {
+                    "id": 47470,
+                    "name": "妄戏浮屠·骋芳琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·漫春琴#47441 (1355 御劲 会效)": {
+                    "id": 47441,
+                    "name": "独镇乾坤·漫春琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "秋水清音#46903 (1355 会心 会效)": {
+                    "id": 46903,
+                    "name": "秋水清音",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "志介#47753 (960 特效 会心 破防 加速)": {
                     "id": 47753,
                     "name": "志介",
@@ -64316,6 +71168,158 @@ EQUIPMENTS = {
                         "gain_15183_9"
                     ]
                 },
+                "一诺霜明·鸾律琴#47412 (1320 破防 会效)": {
+                    "id": 47412,
+                    "name": "一诺霜明·鸾律琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1232,
+                        "lunar_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·骋芳琴#47298 (1320 御劲 会效)": {
+                    "id": 47298,
+                    "name": "妄戏浮屠·骋芳琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·漫春琴#47241 (1320 御劲 会效)": {
+                    "id": 47241,
+                    "name": "独镇乾坤·漫春琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "秋水清音#46874 (1320 会心 会效)": {
+                    "id": 46874,
+                    "name": "秋水清音",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1232,
+                        "lunar_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·逢瑶琴#47720 (1300 特效 破防)": {
+                    "id": 47720,
+                    "name": "陶然意·逢瑶琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 64,
+                        "weapon_damage_rand": 43
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "lunar_attack_power_base": 1118,
+                        "lunar_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "渡千山#46767 (1300 会心 无双)": {
                     "id": 46767,
                     "name": "渡千山",
@@ -64345,6 +71349,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·万籁听#48270 (1280 会心 会效)": {
+                    "id": 48270,
+                    "name": "天阙遗珍·万籁听",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·迟归人#48173 (1280 特效 会心 会效)": {
+                    "id": 48173,
+                    "name": "枭鸣堕夜·迟归人",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·清商起#48076 (1280 特效 会心 会效)": {
+                    "id": 48076,
+                    "name": "征雁同霄·清商起",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "桐籁写秋#46806 (1280 破防 无双)": {
                     "id": 46806,
@@ -64462,6 +71560,156 @@ EQUIPMENTS = {
                         "lunar_critical_power_base": 304,
                         "lunar_critical_strike_base": 304,
                         "spirit_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·漱清琴#47606 (1260 会心 会效)": {
+                    "id": 47606,
+                    "name": "问渡何方·漱清琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·鸾律琴#47355 (1260 破防 会效)": {
+                    "id": 47355,
+                    "name": "一诺霜明·鸾律琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·骋芳琴#47184 (1260 御劲 会效)": {
+                    "id": 47184,
+                    "name": "妄戏浮屠·骋芳琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·漫春琴#47127 (1260 御劲 会效)": {
+                    "id": 47127,
+                    "name": "独镇乾坤·漫春琴",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "秋水清音#46840 (1260 会心 会效)": {
+                    "id": 46840,
+                    "name": "秋水清音",
+                    "school": "长歌",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -66116,6 +73364,220 @@ EQUIPMENTS = {
                         "gain_13410_19"
                     ]
                 },
+                "天阙遗珍·照关河#48303 (1355 会心 会效)": {
+                    "id": 48303,
+                    "name": "天阙遗珍·照关河",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·关山白#48206 (1355 特效 会心 会效)": {
+                    "id": 48206,
+                    "name": "枭鸣堕夜·关山白",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·霜见天#48109 (1355 特效 会心 会效)": {
+                    "id": 48109,
+                    "name": "征雁同霄·霜见天",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·雪旌盾刀#47498 (1355 破防 会效)": {
+                    "id": 47498,
+                    "name": "一诺霜明·雪旌盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·还信盾刀#47469 (1355 御劲 会效)": {
+                    "id": 47469,
+                    "name": "妄戏浮屠·还信盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·照甲盾刀#47440 (1355 御劲 会效)": {
+                    "id": 47440,
+                    "name": "独镇乾坤·照甲盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "角声尽#46902 (1355 会心 会效)": {
+                    "id": 46902,
+                    "name": "角声尽",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 203,
+                        "weapon_damage_rand": 135
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "边魂不寐#47751 (960 特效 会心 破防 加速)": {
                     "id": 47751,
                     "name": "边魂不寐",
@@ -66159,6 +73621,158 @@ EQUIPMENTS = {
                         "gain_13410_19"
                     ]
                 },
+                "一诺霜明·雪旌盾刀#47411 (1320 破防 会效)": {
+                    "id": 47411,
+                    "name": "一诺霜明·雪旌盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·还信盾刀#47297 (1320 御劲 会效)": {
+                    "id": 47297,
+                    "name": "妄戏浮屠·还信盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·照甲盾刀#47240 (1320 御劲 会效)": {
+                    "id": 47240,
+                    "name": "独镇乾坤·照甲盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "角声尽#46873 (1320 会心 会效)": {
+                    "id": 46873,
+                    "name": "角声尽",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 196,
+                        "weapon_damage_rand": 131
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·觉雪盾刀#47719 (1300 特效 破防)": {
+                    "id": 47719,
+                    "name": "陶然意·觉雪盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 193,
+                        "weapon_damage_rand": 128
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "霜雁尘#46765 (1300 会心 无双)": {
                     "id": 46765,
                     "name": "霜雁尘",
@@ -66188,6 +73802,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·照关河#48269 (1280 会心 会效)": {
+                    "id": 48269,
+                    "name": "天阙遗珍·照关河",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·关山白#48172 (1280 特效 会心 会效)": {
+                    "id": 48172,
+                    "name": "枭鸣堕夜·关山白",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·霜见天#48075 (1280 特效 会心 会效)": {
+                    "id": 48075,
+                    "name": "征雁同霄·霜见天",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 189,
+                        "weapon_damage_rand": 126
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "玄甲惊沙#46804 (1280 破防 无双)": {
                     "id": 46804,
@@ -66305,6 +74013,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·雁川盾刀#47605 (1260 会心 会效)": {
+                    "id": 47605,
+                    "name": "问渡何方·雁川盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·雪旌盾刀#47354 (1260 破防 会效)": {
+                    "id": 47354,
+                    "name": "一诺霜明·雪旌盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·还信盾刀#47183 (1260 御劲 会效)": {
+                    "id": 47183,
+                    "name": "妄戏浮屠·还信盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·照甲盾刀#47126 (1260 御劲 会效)": {
+                    "id": 47126,
+                    "name": "独镇乾坤·照甲盾刀",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "角声尽#46839 (1260 会心 会效)": {
+                    "id": 46839,
+                    "name": "角声尽",
+                    "school": "苍云",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 185,
+                        "weapon_damage_rand": 123
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -67959,6 +75817,220 @@ EQUIPMENTS = {
                         "gain_4940_9"
                     ]
                 },
+                "天阙遗珍·烬星河#48302 (1355 会心 会效)": {
+                    "id": 48302,
+                    "name": "天阙遗珍·烬星河",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1265,
+                        "solar_and_lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·焚长夜#48205 (1355 特效 会心 会效)": {
+                    "id": 48205,
+                    "name": "枭鸣堕夜·焚长夜",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1265,
+                        "solar_and_lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·赤昼临#48108 (1355 特效 会心 会效)": {
+                    "id": 48108,
+                    "name": "征雁同霄·赤昼临",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1265,
+                        "solar_and_lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·渡炽双刀#47497 (1355 破防 会效)": {
+                    "id": 47497,
+                    "name": "一诺霜明·渡炽双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1265,
+                        "solar_and_lunar_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·月杀双刀#47468 (1355 御劲 会效)": {
+                    "id": 47468,
+                    "name": "妄戏浮屠·月杀双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·朔怨双刀#47439 (1355 御劲 会效)": {
+                    "id": 47439,
+                    "name": "独镇乾坤·朔怨双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "明净火#46901 (1355 会心 会效)": {
+                    "id": 46901,
+                    "name": "明净火",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_and_lunar_attack_power_base": 1265,
+                        "solar_and_lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "圣火渡#47749 (960 特效 会心 破防 加速)": {
                     "id": 47749,
                     "name": "圣火渡",
@@ -68002,6 +76074,158 @@ EQUIPMENTS = {
                         "gain_4940_9"
                     ]
                 },
+                "一诺霜明·渡炽双刀#47410 (1320 破防 会效)": {
+                    "id": 47410,
+                    "name": "一诺霜明·渡炽双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "solar_and_lunar_attack_power_base": 1232,
+                        "solar_and_lunar_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·月杀双刀#47296 (1320 御劲 会效)": {
+                    "id": 47296,
+                    "name": "妄戏浮屠·月杀双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "solar_and_lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·朔怨双刀#47239 (1320 御劲 会效)": {
+                    "id": 47239,
+                    "name": "独镇乾坤·朔怨双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "solar_and_lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "明净火#46872 (1320 会心 会效)": {
+                    "id": 46872,
+                    "name": "明净火",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "solar_and_lunar_attack_power_base": 1232,
+                        "solar_and_lunar_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·劫焰双刀#47718 (1300 特效 破防)": {
+                    "id": 47718,
+                    "name": "陶然意·劫焰双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spunk_base": 382,
+                        "solar_and_lunar_attack_power_base": 1118,
+                        "solar_and_lunar_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "掠影断愁#46763 (1300 会心 无双)": {
                     "id": 46763,
                     "name": "掠影断愁",
@@ -68031,6 +76255,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·烬星河#48268 (1280 会心 会效)": {
+                    "id": 48268,
+                    "name": "天阙遗珍·烬星河",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "solar_and_lunar_attack_power_base": 1195,
+                        "solar_and_lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·焚长夜#48171 (1280 特效 会心 会效)": {
+                    "id": 48171,
+                    "name": "枭鸣堕夜·焚长夜",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "solar_and_lunar_attack_power_base": 1195,
+                        "solar_and_lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·赤昼临#48074 (1280 特效 会心 会效)": {
+                    "id": 48074,
+                    "name": "征雁同霄·赤昼临",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "solar_and_lunar_attack_power_base": 1195,
+                        "solar_and_lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "赤曜分昏#46802 (1280 破防 无双)": {
                     "id": 46802,
@@ -68148,6 +76466,156 @@ EQUIPMENTS = {
                         "solar_and_lunar_critical_power_base": 304,
                         "solar_and_lunar_critical_strike_base": 304,
                         "spunk_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·烬火双刀#47604 (1260 会心 会效)": {
+                    "id": 47604,
+                    "name": "问渡何方·烬火双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "solar_and_lunar_attack_power_base": 1176,
+                        "solar_and_lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·渡炽双刀#47353 (1260 破防 会效)": {
+                    "id": 47353,
+                    "name": "一诺霜明·渡炽双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "solar_and_lunar_attack_power_base": 1176,
+                        "solar_and_lunar_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·月杀双刀#47182 (1260 御劲 会效)": {
+                    "id": 47182,
+                    "name": "妄戏浮屠·月杀双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "solar_and_lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·朔怨双刀#47125 (1260 御劲 会效)": {
+                    "id": 47125,
+                    "name": "独镇乾坤·朔怨双刀",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "solar_and_lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_and_lunar_overcome_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "明净火#46838 (1260 会心 会效)": {
+                    "id": 46838,
+                    "name": "明净火",
+                    "school": "明教",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "solar_and_lunar_attack_power_base": 1176,
+                        "solar_and_lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_and_lunar_critical_strike_base": 304,
+                        "solar_and_lunar_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -68823,6 +77291,220 @@ EQUIPMENTS = {
                         "gain_6950_9"
                     ]
                 },
+                "天阙遗珍·醉江月#48301 (1355 会心 会效)": {
+                    "id": 48301,
+                    "name": "天阙遗珍·醉江月",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·逍遥年#48204 (1355 特效 会心 会效)": {
+                    "id": 48204,
+                    "name": "枭鸣堕夜·逍遥年",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·芦雪酣#48107 (1355 特效 会心 会效)": {
+                    "id": 48107,
+                    "name": "征雁同霄·芦雪酣",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·酹漪棒#47496 (1355 破防 会效)": {
+                    "id": 47496,
+                    "name": "一诺霜明·酹漪棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·宴春棒#47467 (1355 御劲 会效)": {
+                    "id": 47467,
+                    "name": "妄戏浮屠·宴春棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·薄愁棒#47438 (1355 御劲 会效)": {
+                    "id": 47438,
+                    "name": "独镇乾坤·薄愁棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "遥月饮#46900 (1355 会心 会效)": {
+                    "id": 46900,
+                    "name": "遥月饮",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "青龙映夜#47748 (960 特效 会心 破防 加速)": {
                     "id": 47748,
                     "name": "青龙映夜",
@@ -68866,6 +77548,158 @@ EQUIPMENTS = {
                         "gain_6950_9"
                     ]
                 },
+                "一诺霜明·酹漪棒#47409 (1320 破防 会效)": {
+                    "id": 47409,
+                    "name": "一诺霜明·酹漪棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·宴春棒#47295 (1320 御劲 会效)": {
+                    "id": 47295,
+                    "name": "妄戏浮屠·宴春棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·薄愁棒#47238 (1320 御劲 会效)": {
+                    "id": 47238,
+                    "name": "独镇乾坤·薄愁棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "遥月饮#46871 (1320 会心 会效)": {
+                    "id": 46871,
+                    "name": "遥月饮",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·问俗棒#47717 (1300 特效 破防)": {
+                    "id": 47717,
+                    "name": "陶然意·问俗棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 218,
+                        "weapon_damage_rand": 146
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "strength_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "醉望晴#46762 (1300 会心 无双)": {
                     "id": 46762,
                     "name": "醉望晴",
@@ -68895,6 +77729,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·醉江月#48267 (1280 会心 会效)": {
+                    "id": 48267,
+                    "name": "天阙遗珍·醉江月",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·逍遥年#48170 (1280 特效 会心 会效)": {
+                    "id": 48170,
+                    "name": "枭鸣堕夜·逍遥年",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·芦雪酣#48073 (1280 特效 会心 会效)": {
+                    "id": 48073,
+                    "name": "征雁同霄·芦雪酣",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "扁舟载酒#46801 (1280 破防 无双)": {
                     "id": 46801,
@@ -69012,6 +77940,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "strength_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·醉野棒#47603 (1260 会心 会效)": {
+                    "id": 47603,
+                    "name": "问渡何方·醉野棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·酹漪棒#47352 (1260 破防 会效)": {
+                    "id": 47352,
+                    "name": "一诺霜明·酹漪棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·宴春棒#47181 (1260 御劲 会效)": {
+                    "id": 47181,
+                    "name": "妄戏浮屠·宴春棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·薄愁棒#47124 (1260 御劲 会效)": {
+                    "id": 47124,
+                    "name": "独镇乾坤·薄愁棒",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "遥月饮#46837 (1260 会心 会效)": {
+                    "id": 46837,
+                    "name": "遥月饮",
+                    "school": "丐帮",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -69687,6 +78765,220 @@ EQUIPMENTS = {
                         "gain_1881_9"
                     ]
                 },
+                "天阙遗珍·远临风#48299 (1355 会心 会效)": {
+                    "id": 48299,
+                    "name": "天阙遗珍·远临风",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·置吾生#48202 (1355 特效 会心 会效)": {
+                    "id": 48202,
+                    "name": "枭鸣堕夜·置吾生",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·湖烟处#48105 (1355 特效 会心 会效)": {
+                    "id": 48105,
+                    "name": "征雁同霄·湖烟处",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·砺霜轻剑#47494 (1355 破防 会效)": {
+                    "id": 47494,
+                    "name": "一诺霜明·砺霜轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·剑冢轻剑#47465 (1355 御劲 会效)": {
+                    "id": 47465,
+                    "name": "妄戏浮屠·剑冢轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·铸峰轻剑#47436 (1355 御劲 会效)": {
+                    "id": 47436,
+                    "name": "独镇乾坤·铸峰轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "映晴岚#46898 (1355 会心 会效)": {
+                    "id": 46898,
+                    "name": "映晴岚",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "霜塞南还#47746 (960 特效 会心 破防 加速)": {
                     "id": 47746,
                     "name": "霜塞南还",
@@ -69730,6 +79022,158 @@ EQUIPMENTS = {
                         "gain_1881_9"
                     ]
                 },
+                "一诺霜明·砺霜轻剑#47407 (1320 破防 会效)": {
+                    "id": 47407,
+                    "name": "一诺霜明·砺霜轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·剑冢轻剑#47293 (1320 御劲 会效)": {
+                    "id": 47293,
+                    "name": "妄戏浮屠·剑冢轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·铸峰轻剑#47236 (1320 御劲 会效)": {
+                    "id": 47236,
+                    "name": "独镇乾坤·铸峰轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "映晴岚#46869 (1320 会心 会效)": {
+                    "id": 46869,
+                    "name": "映晴岚",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·蓬雨轻剑#47715 (1300 特效 破防)": {
+                    "id": 47715,
+                    "name": "陶然意·蓬雨轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 167,
+                        "weapon_damage_rand": 111
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "雪锋凝#46760 (1300 会心 无双)": {
                     "id": 46760,
                     "name": "雪锋凝",
@@ -69759,6 +79203,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·远临风#48265 (1280 会心 会效)": {
+                    "id": 48265,
+                    "name": "天阙遗珍·远临风",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 164,
+                        "weapon_damage_rand": 109
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·置吾生#48168 (1280 特效 会心 会效)": {
+                    "id": 48168,
+                    "name": "枭鸣堕夜·置吾生",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 164,
+                        "weapon_damage_rand": 109
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·湖烟处#48071 (1280 特效 会心 会效)": {
+                    "id": 48071,
+                    "name": "征雁同霄·湖烟处",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 164,
+                        "weapon_damage_rand": 109
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "漱玉鸣泉#46799 (1280 破防 无双)": {
                     "id": 46799,
@@ -69936,6 +79474,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·问岫轻剑#47601 (1260 会心 会效)": {
+                    "id": 47601,
+                    "name": "问渡何方·问岫轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·砺霜轻剑#47350 (1260 破防 会效)": {
+                    "id": 47350,
+                    "name": "一诺霜明·砺霜轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·剑冢轻剑#47179 (1260 御劲 会效)": {
+                    "id": 47179,
+                    "name": "妄戏浮屠·剑冢轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·铸峰轻剑#47122 (1260 御劲 会效)": {
+                    "id": 47122,
+                    "name": "独镇乾坤·铸峰轻剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "映晴岚#46835 (1260 会心 会效)": {
+                    "id": 46835,
+                    "name": "映晴岚",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -70671,6 +80359,220 @@ EQUIPMENTS = {
                         "gain_3476_9"
                     ]
                 },
+                "天阙遗珍·瞬影息#48298 (1355 会心 会效)": {
+                    "id": 48298,
+                    "name": "天阙遗珍·瞬影息",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·覆江湖#48201 (1355 特效 会心 会效)": {
+                    "id": 48201,
+                    "name": "枭鸣堕夜·覆江湖",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·翎逐电#48104 (1355 特效 会心 会效)": {
+                    "id": 48104,
+                    "name": "征雁同霄·翎逐电",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·归焰弩#47493 (1355 破防 会效)": {
+                    "id": 47493,
+                    "name": "一诺霜明·归焰弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·群鬼弩#47464 (1355 御劲 会效)": {
+                    "id": 47464,
+                    "name": "妄戏浮屠·群鬼弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·寥天弩#47435 (1355 御劲 会效)": {
+                    "id": 47435,
+                    "name": "独镇乾坤·寥天弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "银星落#46897 (1355 会心 会效)": {
+                    "id": 46897,
+                    "name": "银星落",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "烛钧#47745 (960 特效 会心 破防 加速)": {
                     "id": 47745,
                     "name": "烛钧",
@@ -70714,6 +80616,158 @@ EQUIPMENTS = {
                         "gain_3476_9"
                     ]
                 },
+                "一诺霜明·归焰弩#47406 (1320 破防 会效)": {
+                    "id": 47406,
+                    "name": "一诺霜明·归焰弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·群鬼弩#47292 (1320 御劲 会效)": {
+                    "id": 47292,
+                    "name": "妄戏浮屠·群鬼弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·寥天弩#47235 (1320 御劲 会效)": {
+                    "id": 47235,
+                    "name": "独镇乾坤·寥天弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "银星落#46868 (1320 会心 会效)": {
+                    "id": 46868,
+                    "name": "银星落",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·弄簧弩#47714 (1300 特效 破防)": {
+                    "id": 47714,
+                    "name": "陶然意·弄簧弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "strength_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "千里判#46759 (1300 会心 无双)": {
                     "id": 46759,
                     "name": "千里判",
@@ -70743,6 +80797,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·瞬影息#48264 (1280 会心 会效)": {
+                    "id": 48264,
+                    "name": "天阙遗珍·瞬影息",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·覆江湖#48167 (1280 特效 会心 会效)": {
+                    "id": 48167,
+                    "name": "枭鸣堕夜·覆江湖",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·翎逐电#48070 (1280 特效 会心 会效)": {
+                    "id": 48070,
+                    "name": "征雁同霄·翎逐电",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "骨面无形#46798 (1280 破防 无双)": {
                     "id": 46798,
@@ -70860,6 +81008,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "strength_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·暗渊弩#47600 (1260 会心 会效)": {
+                    "id": 47600,
+                    "name": "问渡何方·暗渊弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·归焰弩#47349 (1260 破防 会效)": {
+                    "id": 47349,
+                    "name": "一诺霜明·归焰弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·群鬼弩#47178 (1260 御劲 会效)": {
+                    "id": 47178,
+                    "name": "妄戏浮屠·群鬼弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·寥天弩#47121 (1260 御劲 会效)": {
+                    "id": 47121,
+                    "name": "独镇乾坤·寥天弩",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "银星落#46834 (1260 会心 会效)": {
+                    "id": 46834,
+                    "name": "银星落",
+                    "school": "唐门",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -71533,6 +81831,220 @@ EQUIPMENTS = {
                         "gain_3477_9"
                     ]
                 },
+                "天阙遗珍·暗星寒#48297 (1355 会心 会效)": {
+                    "id": 48297,
+                    "name": "天阙遗珍·暗星寒",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·抿山河#48200 (1355 特效 会心 会效)": {
+                    "id": 48200,
+                    "name": "枭鸣堕夜·抿山河",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·深院雨#48103 (1355 特效 会心 会效)": {
+                    "id": 48103,
+                    "name": "征雁同霄·深院雨",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·酬雪弩#47492 (1355 破防 会效)": {
+                    "id": 47492,
+                    "name": "一诺霜明·酬雪弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·见暮弩#47463 (1355 御劲 会效)": {
+                    "id": 47463,
+                    "name": "妄戏浮屠·见暮弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·千枢弩#47434 (1355 御劲 会效)": {
+                    "id": 47434,
+                    "name": "独镇乾坤·千枢弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "暗隐寒息#46896 (1355 会心 会效)": {
+                    "id": 46896,
+                    "name": "暗隐寒息",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 135,
+                        "weapon_damage_rand": 90
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "回霆#47744 (960 特效 会心 破防 加速)": {
                     "id": 47744,
                     "name": "回霆",
@@ -71576,6 +82088,158 @@ EQUIPMENTS = {
                         "gain_3477_9"
                     ]
                 },
+                "一诺霜明·酬雪弩#47405 (1320 破防 会效)": {
+                    "id": 47405,
+                    "name": "一诺霜明·酬雪弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "poison_attack_power_base": 1232,
+                        "poison_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·见暮弩#47291 (1320 御劲 会效)": {
+                    "id": 47291,
+                    "name": "妄戏浮屠·见暮弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "poison_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·千枢弩#47234 (1320 御劲 会效)": {
+                    "id": 47234,
+                    "name": "独镇乾坤·千枢弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "poison_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "暗隐寒息#46867 (1320 会心 会效)": {
+                    "id": 46867,
+                    "name": "暗隐寒息",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 131,
+                        "weapon_damage_rand": 87
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "poison_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·眠竹弩#47713 (1300 特效 破防)": {
+                    "id": 47713,
+                    "name": "陶然意·眠竹弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 128,
+                        "weapon_damage_rand": 86
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spunk_base": 382,
+                        "poison_attack_power_base": 1118,
+                        "poison_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "poison_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "夜霄匿#46758 (1300 会心 无双)": {
                     "id": 46758,
                     "name": "夜霄匿",
@@ -71605,6 +82269,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·暗星寒#48263 (1280 会心 会效)": {
+                    "id": 48263,
+                    "name": "天阙遗珍·暗星寒",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·抿山河#48166 (1280 特效 会心 会效)": {
+                    "id": 48166,
+                    "name": "枭鸣堕夜·抿山河",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·深院雨#48069 (1280 特效 会心 会效)": {
+                    "id": 48069,
+                    "name": "征雁同霄·深院雨",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 126,
+                        "weapon_damage_rand": 84
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "木鸢遁影#46797 (1280 破防 无双)": {
                     "id": 46797,
@@ -71722,6 +82480,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "spunk_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·觅隐弩#47599 (1260 会心 会效)": {
+                    "id": 47599,
+                    "name": "问渡何方·觅隐弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·酬雪弩#47348 (1260 破防 会效)": {
+                    "id": 47348,
+                    "name": "一诺霜明·酬雪弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·见暮弩#47177 (1260 御劲 会效)": {
+                    "id": 47177,
+                    "name": "妄戏浮屠·见暮弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "poison_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·千枢弩#47120 (1260 御劲 会效)": {
+                    "id": 47120,
+                    "name": "独镇乾坤·千枢弩",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "poison_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "暗隐寒息#46833 (1260 会心 会效)": {
+                    "id": 46833,
+                    "name": "暗隐寒息",
+                    "school": "唐门",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 123,
+                        "weapon_damage_rand": 82
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -72389,6 +83297,219 @@ EQUIPMENTS = {
                         "gain_33318_3"
                     ]
                 },
+                "天阙遗珍·灵霞祝#48296 (1355 会心 会效)": {
+                    "id": 48296,
+                    "name": "天阙遗珍·灵霞祝",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·渡昏鸦#48199 (1355 特效 会心 会效)": {
+                    "id": 48199,
+                    "name": "枭鸣堕夜·渡昏鸦",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "征雁同霄·鳞风幽#48102 (1355 特效 会心 会效)": {
+                    "id": 48102,
+                    "name": "征雁同霄·鳞风幽",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "一诺霜明·祀月笛#47491 (1355 会效)": {
+                    "id": 47491,
+                    "name": "一诺霜明·祀月笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 2160,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·惑生笛#47462 (1355 御劲 会效)": {
+                    "id": 47462,
+                    "name": "妄戏浮屠·惑生笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·仙蛊笛#47433 (1355 御劲 会效)": {
+                    "id": 47433,
+                    "name": "独镇乾坤·仙蛊笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "烟摇月#46895 (1355 会心 会效)": {
+                    "id": 46895,
+                    "name": "烟摇月",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "poison_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "觉梦吟#47743 (960 特效 会心 加速)": {
                     "id": 47743,
                     "name": "觉梦吟",
@@ -72430,6 +83551,154 @@ EQUIPMENTS = {
                         "gain_33318_3"
                     ]
                 },
+                "一诺霜明·祀月笛#47404 (1320 会效)": {
+                    "id": 47404,
+                    "name": "一诺霜明·祀月笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 2104,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·惑生笛#47290 (1320 御劲 会效)": {
+                    "id": 47290,
+                    "name": "妄戏浮屠·惑生笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·仙蛊笛#47233 (1320 御劲 会效)": {
+                    "id": 47233,
+                    "name": "独镇乾坤·仙蛊笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "烟摇月#46866 (1320 会心 会效)": {
+                    "id": 46866,
+                    "name": "烟摇月",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1465,
+                        "poison_critical_strike_base": 639,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·恙蛊笛#47712 (1300 )": {
+                    "id": 47712,
+                    "name": "陶然意·恙蛊笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 64,
+                        "weapon_damage_rand": 43
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "therapy_power_base": 1936,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "max_life_add": 3037,
+                        "spirit_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "幽芷蝶#46757 (1300 会心)": {
                     "id": 46757,
                     "name": "幽芷蝶",
@@ -72458,6 +83727,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·灵霞祝#48262 (1280 会心 会效)": {
+                    "id": 48262,
+                    "name": "天阙遗珍·灵霞祝",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "poison_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·渡昏鸦#48165 (1280 特效 会心 会效)": {
+                    "id": 48165,
+                    "name": "枭鸣堕夜·渡昏鸦",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "poison_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
+                },
+                "征雁同霄·鳞风幽#48068 (1280 特效 会心 会效)": {
+                    "id": 48068,
+                    "name": "征雁同霄·鳞风幽",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "poison_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
                 },
                 "绛蝶渡照#46796 (1280 加速)": {
                     "id": 46796,
@@ -72570,6 +83933,155 @@ EQUIPMENTS = {
                         "spirit_base": 304,
                         "poison_critical_strike_base": 304,
                         "therapy_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·岚济笛#47598 (1260 会心 会效)": {
+                    "id": 47598,
+                    "name": "问渡何方·岚济笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "poison_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·祀月笛#47347 (1260 会效)": {
+                    "id": 47347,
+                    "name": "一诺霜明·祀月笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 2008,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·惑生笛#47176 (1260 御劲 会效)": {
+                    "id": 47176,
+                    "name": "妄戏浮屠·惑生笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·仙蛊笛#47119 (1260 御劲 会效)": {
+                    "id": 47119,
+                    "name": "独镇乾坤·仙蛊笛",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "烟摇月#46832 (1260 会心 会效)": {
+                    "id": 46832,
+                    "name": "烟摇月",
+                    "school": "五毒",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "poison_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -73222,6 +84734,220 @@ EQUIPMENTS = {
                         "gain_3065_9"
                     ]
                 },
+                "天阙遗珍·杳无声#48295 (1355 会心 会效)": {
+                    "id": 48295,
+                    "name": "天阙遗珍·杳无声",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·神鬼哭#48198 (1355 特效 会心 会效)": {
+                    "id": 48198,
+                    "name": "枭鸣堕夜·神鬼哭",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·青岚蛰#48101 (1355 特效 会心 会效)": {
+                    "id": 48101,
+                    "name": "征雁同霄·青岚蛰",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·叩幽笛#47490 (1355 破防 会效)": {
+                    "id": 47490,
+                    "name": "一诺霜明·叩幽笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·戏骨笛#47461 (1355 御劲 会效)": {
+                    "id": 47461,
+                    "name": "妄戏浮屠·戏骨笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·幽幽笛#47432 (1355 御劲 会效)": {
+                    "id": 47432,
+                    "name": "独镇乾坤·幽幽笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "潜幽芜#46894 (1355 会心 会效)": {
+                    "id": 46894,
+                    "name": "潜幽芜",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "poison_attack_power_base": 1265,
+                        "poison_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "承瞑愿#47742 (960 特效 会心 破防 加速)": {
                     "id": 47742,
                     "name": "承瞑愿",
@@ -73265,6 +84991,158 @@ EQUIPMENTS = {
                         "gain_3065_9"
                     ]
                 },
+                "一诺霜明·叩幽笛#47403 (1320 破防 会效)": {
+                    "id": 47403,
+                    "name": "一诺霜明·叩幽笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1232,
+                        "poison_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·戏骨笛#47289 (1320 御劲 会效)": {
+                    "id": 47289,
+                    "name": "妄戏浮屠·戏骨笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·幽幽笛#47232 (1320 御劲 会效)": {
+                    "id": 47232,
+                    "name": "独镇乾坤·幽幽笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "潜幽芜#46865 (1320 会心 会效)": {
+                    "id": 46865,
+                    "name": "潜幽芜",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "poison_attack_power_base": 1232,
+                        "poison_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·冷蝶笛#47711 (1300 特效 破防)": {
+                    "id": 47711,
+                    "name": "陶然意·冷蝶笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 64,
+                        "weapon_damage_rand": 43
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "poison_attack_power_base": 1118,
+                        "poison_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "惑灵隐#46756 (1300 会心 无双)": {
                     "id": 46756,
                     "name": "惑灵隐",
@@ -73294,6 +85172,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·杳无声#48261 (1280 会心 会效)": {
+                    "id": 48261,
+                    "name": "天阙遗珍·杳无声",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "poison_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·神鬼哭#48164 (1280 特效 会心 会效)": {
+                    "id": 48164,
+                    "name": "枭鸣堕夜·神鬼哭",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "poison_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·青岚蛰#48067 (1280 特效 会心 会效)": {
+                    "id": 48067,
+                    "name": "征雁同霄·青岚蛰",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "poison_attack_power_base": 1195,
+                        "poison_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "啜刺惊林#46795 (1280 破防 无双)": {
                     "id": 46795,
@@ -73411,6 +85383,156 @@ EQUIPMENTS = {
                         "poison_critical_power_base": 304,
                         "poison_critical_strike_base": 304,
                         "spirit_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·蜃枝笛#47597 (1260 会心 会效)": {
+                    "id": 47597,
+                    "name": "问渡何方·蜃枝笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·叩幽笛#47346 (1260 破防 会效)": {
+                    "id": 47346,
+                    "name": "一诺霜明·叩幽笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·戏骨笛#47175 (1260 御劲 会效)": {
+                    "id": 47175,
+                    "name": "妄戏浮屠·戏骨笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·幽幽笛#47118 (1260 御劲 会效)": {
+                    "id": 47118,
+                    "name": "独镇乾坤·幽幽笛",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "poison_overcome_base": 304,
+                        "poison_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "潜幽芜#46831 (1260 会心 会效)": {
+                    "id": 46831,
+                    "name": "潜幽芜",
+                    "school": "五毒",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "poison_attack_power_base": 1176,
+                        "poison_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "poison_critical_strike_base": 304,
+                        "poison_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -74078,6 +86200,219 @@ EQUIPMENTS = {
                         "gain_33324_3"
                     ]
                 },
+                "天阙遗珍·曲终影#48294 (1355 会心 会效)": {
+                    "id": 48294,
+                    "name": "天阙遗珍·曲终影",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·孤风月#48197 (1355 特效 会心 会效)": {
+                    "id": 48197,
+                    "name": "枭鸣堕夜·孤风月",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "征雁同霄·晴意还#48100 (1355 特效 会心 会效)": {
+                    "id": 48100,
+                    "name": "征雁同霄·晴意还",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "一诺霜明·劫绡双剑#47489 (1355 会效)": {
+                    "id": 47489,
+                    "name": "一诺霜明·劫绡双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 2160,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·渡锦双剑#47460 (1355 御劲 会效)": {
+                    "id": 47460,
+                    "name": "妄戏浮屠·渡锦双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·挽芳双剑#47431 (1355 御劲 会效)": {
+                    "id": 47431,
+                    "name": "独镇乾坤·挽芳双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "照芳汀#46893 (1355 会心 会效)": {
+                    "id": 46893,
+                    "name": "照芳汀",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "lunar_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "游光引夜#47741 (960 特效 会心 加速)": {
                     "id": 47741,
                     "name": "游光引夜",
@@ -74119,6 +86454,154 @@ EQUIPMENTS = {
                         "gain_33324_3"
                     ]
                 },
+                "一诺霜明·劫绡双剑#47402 (1320 会效)": {
+                    "id": 47402,
+                    "name": "一诺霜明·劫绡双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 2104,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·渡锦双剑#47288 (1320 御劲 会效)": {
+                    "id": 47288,
+                    "name": "妄戏浮屠·渡锦双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·挽芳双剑#47231 (1320 御劲 会效)": {
+                    "id": 47231,
+                    "name": "独镇乾坤·挽芳双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "照芳汀#46864 (1320 会心 会效)": {
+                    "id": 46864,
+                    "name": "照芳汀",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1465,
+                        "lunar_critical_strike_base": 639,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·练裳双剑#47710 (1300 )": {
+                    "id": 47710,
+                    "name": "陶然意·练裳双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 83,
+                        "weapon_damage_rand": 56
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "therapy_power_base": 1936,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "max_life_add": 3037,
+                        "spirit_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "绡影回#46755 (1300 会心)": {
                     "id": 46755,
                     "name": "绡影回",
@@ -74147,6 +86630,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·曲终影#48260 (1280 会心 会效)": {
+                    "id": 48260,
+                    "name": "天阙遗珍·曲终影",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "lunar_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·孤风月#48163 (1280 特效 会心 会效)": {
+                    "id": 48163,
+                    "name": "枭鸣堕夜·孤风月",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "lunar_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
+                },
+                "征雁同霄·晴意还#48066 (1280 特效 会心 会效)": {
+                    "id": 48066,
+                    "name": "征雁同霄·晴意还",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "lunar_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
                 },
                 "五味承欢#46794 (1280 加速)": {
                     "id": 46794,
@@ -74259,6 +86836,155 @@ EQUIPMENTS = {
                         "spirit_base": 304,
                         "lunar_critical_strike_base": 304,
                         "therapy_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·拂舒双剑#47596 (1260 会心 会效)": {
+                    "id": 47596,
+                    "name": "问渡何方·拂舒双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "lunar_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·劫绡双剑#47345 (1260 会效)": {
+                    "id": 47345,
+                    "name": "一诺霜明·劫绡双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 2008,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·渡锦双剑#47174 (1260 御劲 会效)": {
+                    "id": 47174,
+                    "name": "妄戏浮屠·渡锦双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·挽芳双剑#47117 (1260 御劲 会效)": {
+                    "id": 47117,
+                    "name": "独镇乾坤·挽芳双剑",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "照芳汀#46830 (1260 会心 会效)": {
+                    "id": 46830,
+                    "name": "照芳汀",
+                    "school": "七秀",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "lunar_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -74911,6 +87637,220 @@ EQUIPMENTS = {
                         "gain_1858_9"
                     ]
                 },
+                "天阙遗珍·红袖风#48293 (1355 会心 会效)": {
+                    "id": 48293,
+                    "name": "天阙遗珍·红袖风",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·玉人面#48196 (1355 特效 会心 会效)": {
+                    "id": 48196,
+                    "name": "枭鸣堕夜·玉人面",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·红绡烈#48099 (1355 特效 会心 会效)": {
+                    "id": 48099,
+                    "name": "征雁同霄·红绡烈",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·星鼓双剑#47488 (1355 破防 会效)": {
+                    "id": 47488,
+                    "name": "一诺霜明·星鼓双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·觅春双剑#47459 (1355 御劲 会效)": {
+                    "id": 47459,
+                    "name": "妄戏浮屠·觅春双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·饮云双剑#47430 (1355 御劲 会效)": {
+                    "id": 47430,
+                    "name": "独镇乾坤·饮云双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "落飞蕊#46892 (1355 会心 会效)": {
+                    "id": 46892,
+                    "name": "落飞蕊",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "lunar_attack_power_base": 1265,
+                        "lunar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "冽心#47740 (960 特效 会心 破防 加速)": {
                     "id": 47740,
                     "name": "冽心",
@@ -74954,6 +87894,158 @@ EQUIPMENTS = {
                         "gain_1858_9"
                     ]
                 },
+                "一诺霜明·星鼓双剑#47401 (1320 破防 会效)": {
+                    "id": 47401,
+                    "name": "一诺霜明·星鼓双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1232,
+                        "lunar_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·觅春双剑#47287 (1320 御劲 会效)": {
+                    "id": 47287,
+                    "name": "妄戏浮屠·觅春双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·饮云双剑#47230 (1320 御劲 会效)": {
+                    "id": 47230,
+                    "name": "独镇乾坤·饮云双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "落飞蕊#46863 (1320 会心 会效)": {
+                    "id": 46863,
+                    "name": "落飞蕊",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "lunar_attack_power_base": 1232,
+                        "lunar_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·霓影双剑#47709 (1300 特效 破防)": {
+                    "id": 47709,
+                    "name": "陶然意·霓影双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 83,
+                        "weapon_damage_rand": 56
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "lunar_attack_power_base": 1118,
+                        "lunar_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "飞花入袖#46754 (1300 会心 无双)": {
                     "id": 46754,
                     "name": "飞花入袖",
@@ -74983,6 +88075,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·红袖风#48259 (1280 会心 会效)": {
+                    "id": 48259,
+                    "name": "天阙遗珍·红袖风",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·玉人面#48162 (1280 特效 会心 会效)": {
+                    "id": 48162,
+                    "name": "枭鸣堕夜·玉人面",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·红绡烈#48065 (1280 特效 会心 会效)": {
+                    "id": 48065,
+                    "name": "征雁同霄·红绡烈",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "lunar_attack_power_base": 1195,
+                        "lunar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "融金缀霞#46793 (1280 破防 无双)": {
                     "id": 46793,
@@ -75100,6 +88286,156 @@ EQUIPMENTS = {
                         "lunar_critical_power_base": 304,
                         "lunar_critical_strike_base": 304,
                         "spirit_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·锦影双剑#47595 (1260 会心 会效)": {
+                    "id": 47595,
+                    "name": "问渡何方·锦影双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·星鼓双剑#47344 (1260 破防 会效)": {
+                    "id": 47344,
+                    "name": "一诺霜明·星鼓双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·觅春双剑#47173 (1260 御劲 会效)": {
+                    "id": 47173,
+                    "name": "妄戏浮屠·觅春双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·饮云双剑#47116 (1260 御劲 会效)": {
+                    "id": 47116,
+                    "name": "独镇乾坤·饮云双剑",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "lunar_overcome_base": 304,
+                        "lunar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "落飞蕊#46829 (1260 会心 会效)": {
+                    "id": 46829,
+                    "name": "落飞蕊",
+                    "school": "七秀",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "lunar_attack_power_base": 1176,
+                        "lunar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "lunar_critical_strike_base": 304,
+                        "lunar_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -75775,6 +89111,220 @@ EQUIPMENTS = {
                         "gain_1852_9"
                     ]
                 },
+                "天阙遗珍·云外观#48292 (1355 会心 会效)": {
+                    "id": 48292,
+                    "name": "天阙遗珍·云外观",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·礼太一#48195 (1355 特效 会心 会效)": {
+                    "id": 48195,
+                    "name": "枭鸣堕夜·礼太一",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·霜意横#48098 (1355 特效 会心 会效)": {
+                    "id": 48098,
+                    "name": "征雁同霄·霜意横",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·鹤缘剑#47487 (1355 破防 会效)": {
+                    "id": 47487,
+                    "name": "一诺霜明·鹤缘剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·皆道剑#47458 (1355 御劲 会效)": {
+                    "id": 47458,
+                    "name": "妄戏浮屠·皆道剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·观真剑#47429 (1355 御劲 会效)": {
+                    "id": 47429,
+                    "name": "独镇乾坤·观真剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "鹤隐何处#46891 (1355 会心 会效)": {
+                    "id": 46891,
+                    "name": "鹤隐何处",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 176,
+                        "weapon_damage_rand": 117
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "寒崖听籁#47739 (960 特效 会心 破防 加速)": {
                     "id": 47739,
                     "name": "寒崖听籁",
@@ -75818,6 +89368,158 @@ EQUIPMENTS = {
                         "gain_1852_9"
                     ]
                 },
+                "一诺霜明·鹤缘剑#47400 (1320 破防 会效)": {
+                    "id": 47400,
+                    "name": "一诺霜明·鹤缘剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·皆道剑#47286 (1320 御劲 会效)": {
+                    "id": 47286,
+                    "name": "妄戏浮屠·皆道剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·观真剑#47229 (1320 御劲 会效)": {
+                    "id": 47229,
+                    "name": "独镇乾坤·观真剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "鹤隐何处#46862 (1320 会心 会效)": {
+                    "id": 46862,
+                    "name": "鹤隐何处",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 170,
+                        "weapon_damage_rand": 114
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·华雷剑#47708 (1300 特效 破防)": {
+                    "id": 47708,
+                    "name": "陶然意·华雷剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 167,
+                        "weapon_damage_rand": 111
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "问穹苍#46753 (1300 会心 无双)": {
                     "id": 46753,
                     "name": "问穹苍",
@@ -75847,6 +89549,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·云外观#48258 (1280 会心 会效)": {
+                    "id": 48258,
+                    "name": "天阙遗珍·云外观",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 164,
+                        "weapon_damage_rand": 109
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·礼太一#48161 (1280 特效 会心 会效)": {
+                    "id": 48161,
+                    "name": "枭鸣堕夜·礼太一",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 164,
+                        "weapon_damage_rand": 109
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·霜意横#48064 (1280 特效 会心 会效)": {
+                    "id": 48064,
+                    "name": "征雁同霄·霜意横",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 164,
+                        "weapon_damage_rand": 109
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "符箓惊霜#46792 (1280 破防 无双)": {
                     "id": 46792,
@@ -75964,6 +89760,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·曦雾剑#47594 (1260 会心 会效)": {
+                    "id": 47594,
+                    "name": "问渡何方·曦雾剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·鹤缘剑#47343 (1260 破防 会效)": {
+                    "id": 47343,
+                    "name": "一诺霜明·鹤缘剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·皆道剑#47172 (1260 御劲 会效)": {
+                    "id": 47172,
+                    "name": "妄戏浮屠·皆道剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·观真剑#47115 (1260 御劲 会效)": {
+                    "id": 47115,
+                    "name": "独镇乾坤·观真剑",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "鹤隐何处#46828 (1260 会心 会效)": {
+                    "id": 46828,
+                    "name": "鹤隐何处",
+                    "school": "纯阳",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 160,
+                        "weapon_damage_rand": 107
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -76637,6 +90583,220 @@ EQUIPMENTS = {
                         "gain_1853_9"
                     ]
                 },
+                "天阙遗珍·坐忘尘#48291 (1355 会心 会效)": {
+                    "id": 48291,
+                    "name": "天阙遗珍·坐忘尘",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·忘稚耋#48194 (1355 特效 会心 会效)": {
+                    "id": 48194,
+                    "name": "枭鸣堕夜·忘稚耋",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·云岫定#48097 (1355 特效 会心 会效)": {
+                    "id": 48097,
+                    "name": "征雁同霄·云岫定",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·息籁剑#47486 (1355 破防 会效)": {
+                    "id": 47486,
+                    "name": "一诺霜明·息籁剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·契然剑#47457 (1355 御劲 会效)": {
+                    "id": 47457,
+                    "name": "妄戏浮屠·契然剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·系风剑#47428 (1355 御劲 会效)": {
+                    "id": 47428,
+                    "name": "独镇乾坤·系风剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无言观#46890 (1355 会心 会效)": {
+                    "id": 46890,
+                    "name": "无言观",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 88,
+                        "weapon_damage_rand": 59
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "赤瞳照业#47738 (960 特效 会心 破防 加速)": {
                     "id": 47738,
                     "name": "赤瞳照业",
@@ -76680,6 +90840,158 @@ EQUIPMENTS = {
                         "gain_1853_9"
                     ]
                 },
+                "一诺霜明·息籁剑#47399 (1320 破防 会效)": {
+                    "id": 47399,
+                    "name": "一诺霜明·息籁剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·契然剑#47285 (1320 御劲 会效)": {
+                    "id": 47285,
+                    "name": "妄戏浮屠·契然剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·系风剑#47228 (1320 御劲 会效)": {
+                    "id": 47228,
+                    "name": "独镇乾坤·系风剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无言观#46861 (1320 会心 会效)": {
+                    "id": 46861,
+                    "name": "无言观",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 85,
+                        "weapon_damage_rand": 57
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·紫蕴剑#47707 (1300 特效 破防)": {
+                    "id": 47707,
+                    "name": "陶然意·紫蕴剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 83,
+                        "weapon_damage_rand": 56
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "neutral_attack_power_base": 1118,
+                        "neutral_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "霜芒澈念#46752 (1300 会心 无双)": {
                     "id": 46752,
                     "name": "霜芒澈念",
@@ -76709,6 +91021,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·坐忘尘#48257 (1280 会心 会效)": {
+                    "id": 48257,
+                    "name": "天阙遗珍·坐忘尘",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·忘稚耋#48160 (1280 特效 会心 会效)": {
+                    "id": 48160,
+                    "name": "枭鸣堕夜·忘稚耋",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·云岫定#48063 (1280 特效 会心 会效)": {
+                    "id": 48063,
+                    "name": "征雁同霄·云岫定",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 82,
+                        "weapon_damage_rand": 55
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "紫照真尘#46791 (1280 破防 无双)": {
                     "id": 46791,
@@ -76826,6 +91232,156 @@ EQUIPMENTS = {
                         "neutral_critical_power_base": 304,
                         "neutral_critical_strike_base": 304,
                         "spirit_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·镜云剑#47593 (1260 会心 会效)": {
+                    "id": 47593,
+                    "name": "问渡何方·镜云剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·息籁剑#47342 (1260 破防 会效)": {
+                    "id": 47342,
+                    "name": "一诺霜明·息籁剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·契然剑#47171 (1260 御劲 会效)": {
+                    "id": 47171,
+                    "name": "妄戏浮屠·契然剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·系风剑#47114 (1260 御劲 会效)": {
+                    "id": 47114,
+                    "name": "独镇乾坤·系风剑",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "无言观#46827 (1260 会心 会效)": {
+                    "id": 46827,
+                    "name": "无言观",
+                    "school": "纯阳",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 80,
+                        "weapon_damage_rand": 53
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -78480,6 +93036,220 @@ EQUIPMENTS = {
                         "gain_1850_9"
                     ]
                 },
+                "天阙遗珍·丹心烈#48290 (1355 会心 会效)": {
+                    "id": 48290,
+                    "name": "天阙遗珍·丹心烈",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·厌伶仃#48193 (1355 特效 会心 会效)": {
+                    "id": 48193,
+                    "name": "枭鸣堕夜·厌伶仃",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·龙骑令#48096 (1355 特效 会心 会效)": {
+                    "id": 48096,
+                    "name": "征雁同霄·龙骑令",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·苍钺枪#47485 (1355 破防 会效)": {
+                    "id": 47485,
+                    "name": "一诺霜明·苍钺枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·大弥枪#47456 (1355 御劲 会效)": {
+                    "id": 47456,
+                    "name": "妄戏浮屠·大弥枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·远陌枪#47427 (1355 御劲 会效)": {
+                    "id": 47427,
+                    "name": "独镇乾坤·远陌枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "驰旸骥歌#46889 (1355 会心 会效)": {
+                    "id": 46889,
+                    "name": "驰旸骥歌",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "strength_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "寒锋凌日#47736 (960 特效 会心 破防 加速)": {
                     "id": 47736,
                     "name": "寒锋凌日",
@@ -78523,6 +93293,158 @@ EQUIPMENTS = {
                         "gain_1850_9"
                     ]
                 },
+                "一诺霜明·苍钺枪#47398 (1320 破防 会效)": {
+                    "id": 47398,
+                    "name": "一诺霜明·苍钺枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·大弥枪#47284 (1320 御劲 会效)": {
+                    "id": 47284,
+                    "name": "妄戏浮屠·大弥枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·远陌枪#47227 (1320 御劲 会效)": {
+                    "id": 47227,
+                    "name": "独镇乾坤·远陌枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "驰旸骥歌#46860 (1320 会心 会效)": {
+                    "id": 46860,
+                    "name": "驰旸骥歌",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "strength_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·雪澌枪#47706 (1300 特效 破防)": {
+                    "id": 47706,
+                    "name": "陶然意·雪澌枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 218,
+                        "weapon_damage_rand": 146
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "strength_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "影云擎#46750 (1300 会心 无双)": {
                     "id": 46750,
                     "name": "影云擎",
@@ -78552,6 +93474,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·丹心烈#48256 (1280 会心 会效)": {
+                    "id": 48256,
+                    "name": "天阙遗珍·丹心烈",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·厌伶仃#48159 (1280 特效 会心 会效)": {
+                    "id": 48159,
+                    "name": "枭鸣堕夜·厌伶仃",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·龙骑令#48062 (1280 特效 会心 会效)": {
+                    "id": 48062,
+                    "name": "征雁同霄·龙骑令",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "strength_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "煞骨啸云#46789 (1280 破防 无双)": {
                     "id": 46789,
@@ -78669,6 +93685,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "strength_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·烽关枪#47592 (1260 会心 会效)": {
+                    "id": 47592,
+                    "name": "问渡何方·烽关枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·苍钺枪#47341 (1260 破防 会效)": {
+                    "id": 47341,
+                    "name": "一诺霜明·苍钺枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·大弥枪#47170 (1260 御劲 会效)": {
+                    "id": 47170,
+                    "name": "妄戏浮屠·大弥枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·远陌枪#47113 (1260 御劲 会效)": {
+                    "id": 47113,
+                    "name": "独镇乾坤·远陌枪",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "驰旸骥歌#46826 (1260 会心 会效)": {
+                    "id": 46826,
+                    "name": "驰旸骥歌",
+                    "school": "天策",
+                    "kind": "外功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "strength_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "strength_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -79336,6 +94502,219 @@ EQUIPMENTS = {
                         "gain_33295_3"
                     ]
                 },
+                "天阙遗珍·春无迹#48289 (1355 会心 会效)": {
+                    "id": 48289,
+                    "name": "天阙遗珍·春无迹",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "neutral_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·裁山河#48192 (1355 特效 会心 会效)": {
+                    "id": 48192,
+                    "name": "枭鸣堕夜·裁山河",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "neutral_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "征雁同霄·杏墨温#48095 (1355 特效 会心 会效)": {
+                    "id": 48095,
+                    "name": "征雁同霄·杏墨温",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "neutral_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_87"
+                    ]
+                },
+                "一诺霜明·春燧笔#47484 (1355 会效)": {
+                    "id": 47484,
+                    "name": "一诺霜明·春燧笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 2160,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·授生笔#47455 (1355 御劲 会效)": {
+                    "id": 47455,
+                    "name": "妄戏浮屠·授生笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·逆川笔#47426 (1355 御劲 会效)": {
+                    "id": 47426,
+                    "name": "独镇乾坤·逆川笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1790,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "素手春#46888 (1355 会心 会效)": {
+                    "id": 46888,
+                    "name": "素手春",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spirit_base": 398,
+                        "therapy_power_base": 1503,
+                        "neutral_critical_strike_base": 656,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "白鹭忘言#47735 (960 特效 会心 加速)": {
                     "id": 47735,
                     "name": "白鹭忘言",
@@ -79377,6 +94756,154 @@ EQUIPMENTS = {
                         "gain_33295_3"
                     ]
                 },
+                "一诺霜明·春燧笔#47397 (1320 会效)": {
+                    "id": 47397,
+                    "name": "一诺霜明·春燧笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 2104,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·授生笔#47283 (1320 御劲 会效)": {
+                    "id": 47283,
+                    "name": "妄戏浮屠·授生笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·逆川笔#47226 (1320 御劲 会效)": {
+                    "id": 47226,
+                    "name": "独镇乾坤·逆川笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1744,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "素手春#46859 (1320 会心 会效)": {
+                    "id": 46859,
+                    "name": "素手春",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spirit_base": 387,
+                        "therapy_power_base": 1465,
+                        "neutral_critical_strike_base": 639,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·墨漾笔#47705 (1300 )": {
+                    "id": 47705,
+                    "name": "陶然意·墨漾笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 64,
+                        "weapon_damage_rand": 43
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spirit_base": 382,
+                        "therapy_power_base": 1936,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "max_life_add": 3037,
+                        "spirit_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "向冥关#46749 (1300 会心)": {
                     "id": 46749,
                     "name": "向冥关",
@@ -79405,6 +94932,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·春无迹#48255 (1280 会心 会效)": {
+                    "id": 48255,
+                    "name": "天阙遗珍·春无迹",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "neutral_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·裁山河#48158 (1280 特效 会心 会效)": {
+                    "id": 48158,
+                    "name": "枭鸣堕夜·裁山河",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "neutral_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
+                },
+                "征雁同霄·杏墨温#48061 (1280 特效 会心 会效)": {
+                    "id": 48061,
+                    "name": "征雁同霄·杏墨温",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spirit_base": 376,
+                        "therapy_power_base": 1420,
+                        "neutral_critical_strike_base": 620,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_84"
+                    ]
                 },
                 "调鼎回元#46788 (1280 加速)": {
                     "id": 46788,
@@ -79517,6 +95138,155 @@ EQUIPMENTS = {
                         "spirit_base": 304,
                         "neutral_critical_strike_base": 304,
                         "therapy_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·苏晖笔#47591 (1260 会心 会效)": {
+                    "id": 47591,
+                    "name": "问渡何方·苏晖笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "neutral_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·春燧笔#47340 (1260 会效)": {
+                    "id": 47340,
+                    "name": "一诺霜明·春燧笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 2008,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·授生笔#47169 (1260 御劲 会效)": {
+                    "id": 47169,
+                    "name": "妄戏浮屠·授生笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·逆川笔#47112 (1260 御劲 会效)": {
+                    "id": 47112,
+                    "name": "独镇乾坤·逆川笔",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1665,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spirit_base": 304,
+                        "therapy_power_base": 304,
+                        "toughness_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "素手春#46825 (1260 会心 会效)": {
+                    "id": 46825,
+                    "name": "素手春",
+                    "school": "万花",
+                    "kind": "治疗",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spirit_base": 370,
+                        "therapy_power_base": 1398,
+                        "neutral_critical_strike_base": 610,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "max_life_add": 4556,
+                        "spirit_base": 304,
+                        "decritical_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -80169,6 +95939,220 @@ EQUIPMENTS = {
                         "gain_1856_9"
                     ]
                 },
+                "天阙遗珍·世万象#48288 (1355 会心 会效)": {
+                    "id": 48288,
+                    "name": "天阙遗珍·世万象",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·蘸云涛#48191 (1355 特效 会心 会效)": {
+                    "id": 48191,
+                    "name": "枭鸣堕夜·蘸云涛",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·砚底雷#48094 (1355 特效 会心 会效)": {
+                    "id": 48094,
+                    "name": "征雁同霄·砚底雷",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·惊毫笔#47483 (1355 破防 会效)": {
+                    "id": 47483,
+                    "name": "一诺霜明·惊毫笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·木阅笔#47454 (1355 御劲 会效)": {
+                    "id": 47454,
+                    "name": "妄戏浮屠·木阅笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·逐泉笔#47425 (1355 御劲 会效)": {
+                    "id": 47425,
+                    "name": "独镇乾坤·逐泉笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "墨壑洄澜#46887 (1355 会心 会效)": {
+                    "id": 46887,
+                    "name": "墨壑洄澜",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 68,
+                        "weapon_damage_rand": 45
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "neutral_attack_power_base": 1265,
+                        "neutral_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "烂柯#47734 (960 特效 会心 破防 加速)": {
                     "id": 47734,
                     "name": "烂柯",
@@ -80212,6 +96196,158 @@ EQUIPMENTS = {
                         "gain_1856_9"
                     ]
                 },
+                "一诺霜明·惊毫笔#47396 (1320 破防 会效)": {
+                    "id": 47396,
+                    "name": "一诺霜明·惊毫笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·木阅笔#47282 (1320 御劲 会效)": {
+                    "id": 47282,
+                    "name": "妄戏浮屠·木阅笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·逐泉笔#47225 (1320 御劲 会效)": {
+                    "id": 47225,
+                    "name": "独镇乾坤·逐泉笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "墨壑洄澜#46858 (1320 会心 会效)": {
+                    "id": 46858,
+                    "name": "墨壑洄澜",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 65,
+                        "weapon_damage_rand": 44
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "neutral_attack_power_base": 1232,
+                        "neutral_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·书律笔#47704 (1300 特效 破防)": {
+                    "id": 47704,
+                    "name": "陶然意·书律笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 64,
+                        "weapon_damage_rand": 43
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spunk_base": 382,
+                        "neutral_attack_power_base": 1118,
+                        "neutral_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "书毫意#46748 (1300 会心 无双)": {
                     "id": 46748,
                     "name": "书毫意",
@@ -80241,6 +96377,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·世万象#48254 (1280 会心 会效)": {
+                    "id": 48254,
+                    "name": "天阙遗珍·世万象",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·蘸云涛#48157 (1280 特效 会心 会效)": {
+                    "id": 48157,
+                    "name": "枭鸣堕夜·蘸云涛",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·砚底雷#48060 (1280 特效 会心 会效)": {
+                    "id": 48060,
+                    "name": "征雁同霄·砚底雷",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 63,
+                        "weapon_damage_rand": 42
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "neutral_attack_power_base": 1195,
+                        "neutral_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "砚雨惊苔#46787 (1280 破防 无双)": {
                     "id": 46787,
@@ -80358,6 +96588,156 @@ EQUIPMENTS = {
                         "neutral_critical_power_base": 304,
                         "neutral_critical_strike_base": 304,
                         "spunk_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·杏微笔#47590 (1260 会心 会效)": {
+                    "id": 47590,
+                    "name": "问渡何方·杏微笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·惊毫笔#47339 (1260 破防 会效)": {
+                    "id": 47339,
+                    "name": "一诺霜明·惊毫笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·木阅笔#47168 (1260 御劲 会效)": {
+                    "id": 47168,
+                    "name": "妄戏浮屠·木阅笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·逐泉笔#47111 (1260 御劲 会效)": {
+                    "id": 47111,
+                    "name": "独镇乾坤·逐泉笔",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "neutral_overcome_base": 304,
+                        "neutral_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "墨壑洄澜#46824 (1260 会心 会效)": {
+                    "id": 46824,
+                    "name": "墨壑洄澜",
+                    "school": "万花",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 62,
+                        "weapon_damage_rand": 41
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "neutral_attack_power_base": 1176,
+                        "neutral_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "neutral_critical_strike_base": 304,
+                        "neutral_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -82012,6 +98392,220 @@ EQUIPMENTS = {
                         "gain_1854_9"
                     ]
                 },
+                "天阙遗珍·念勿执#48287 (1355 会心 会效)": {
+                    "id": 48287,
+                    "name": "天阙遗珍·念勿执",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1265,
+                        "solar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·拜袈裟#48190 (1355 特效 会心 会效)": {
+                    "id": 48190,
+                    "name": "枭鸣堕夜·拜袈裟",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1265,
+                        "solar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·伏尘关#48093 (1355 特效 会心 会效)": {
+                    "id": 48093,
+                    "name": "征雁同霄·伏尘关",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1265,
+                        "solar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·谛烛棍#47482 (1355 破防 会效)": {
+                    "id": 47482,
+                    "name": "一诺霜明·谛烛棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1265,
+                        "solar_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·忘寒棍#47453 (1355 御劲 会效)": {
+                    "id": 47453,
+                    "name": "妄戏浮屠·忘寒棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·雪苔棍#47424 (1355 御劲 会效)": {
+                    "id": 47424,
+                    "name": "独镇乾坤·雪苔棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "梵水迟#46886 (1355 会心 会效)": {
+                    "id": 46886,
+                    "name": "梵水迟",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 230,
+                        "weapon_damage_rand": 154
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "spunk_base": 398,
+                        "solar_attack_power_base": 1265,
+                        "solar_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "万骨回澜#47732 (960 特效 会心 破防 加速)": {
                     "id": 47732,
                     "name": "万骨回澜",
@@ -82055,6 +98649,158 @@ EQUIPMENTS = {
                         "gain_1854_9"
                     ]
                 },
+                "一诺霜明·谛烛棍#47395 (1320 破防 会效)": {
+                    "id": 47395,
+                    "name": "一诺霜明·谛烛棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "solar_attack_power_base": 1232,
+                        "solar_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·忘寒棍#47281 (1320 御劲 会效)": {
+                    "id": 47281,
+                    "name": "妄戏浮屠·忘寒棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "solar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·雪苔棍#47224 (1320 御劲 会效)": {
+                    "id": 47224,
+                    "name": "独镇乾坤·雪苔棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "spunk_base": 387,
+                        "solar_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "梵水迟#46857 (1320 会心 会效)": {
+                    "id": 46857,
+                    "name": "梵水迟",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 223,
+                        "weapon_damage_rand": 148
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "spunk_base": 387,
+                        "solar_attack_power_base": 1232,
+                        "solar_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·禅一棍#47703 (1300 特效 破防)": {
+                    "id": 47703,
+                    "name": "陶然意·禅一棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 218,
+                        "weapon_damage_rand": 146
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "spunk_base": 382,
+                        "solar_attack_power_base": 1118,
+                        "solar_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "惊晓梦#46746 (1300 会心 无双)": {
                     "id": 46746,
                     "name": "惊晓梦",
@@ -82084,6 +98830,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·念勿执#48253 (1280 会心 会效)": {
+                    "id": 48253,
+                    "name": "天阙遗珍·念勿执",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "solar_attack_power_base": 1195,
+                        "solar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·拜袈裟#48156 (1280 特效 会心 会效)": {
+                    "id": 48156,
+                    "name": "枭鸣堕夜·拜袈裟",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "solar_attack_power_base": 1195,
+                        "solar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·伏尘关#48059 (1280 特效 会心 会效)": {
+                    "id": 48059,
+                    "name": "征雁同霄·伏尘关",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 214,
+                        "weapon_damage_rand": 143
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "spunk_base": 376,
+                        "solar_attack_power_base": 1195,
+                        "solar_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "镇岳归真#46785 (1280 破防 无双)": {
                     "id": 46785,
@@ -82201,6 +99041,156 @@ EQUIPMENTS = {
                         "solar_critical_power_base": 304,
                         "solar_critical_strike_base": 304,
                         "spunk_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·净照棍#47589 (1260 会心 会效)": {
+                    "id": 47589,
+                    "name": "问渡何方·净照棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "solar_attack_power_base": 1176,
+                        "solar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·谛烛棍#47338 (1260 破防 会效)": {
+                    "id": 47338,
+                    "name": "一诺霜明·谛烛棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "solar_attack_power_base": 1176,
+                        "solar_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·忘寒棍#47167 (1260 御劲 会效)": {
+                    "id": 47167,
+                    "name": "妄戏浮屠·忘寒棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "solar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·雪苔棍#47110 (1260 御劲 会效)": {
+                    "id": 47110,
+                    "name": "独镇乾坤·雪苔棍",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "spunk_base": 370,
+                        "solar_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "solar_overcome_base": 304,
+                        "solar_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "梵水迟#46823 (1260 会心 会效)": {
+                    "id": 46823,
+                    "name": "梵水迟",
+                    "school": "少林",
+                    "kind": "内功",
+                    "position": "primary_weapon",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 209,
+                        "weapon_damage_rand": 140
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "spunk_base": 370,
+                        "solar_attack_power_base": 1176,
+                        "solar_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "spunk_base": 304,
+                        "solar_critical_strike_base": 304,
+                        "solar_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
@@ -82878,6 +99868,220 @@ EQUIPMENTS = {
                         "gain_1882_9"
                     ]
                 },
+                "天阙遗珍·落金枝#48300 (1355 会心 会效)": {
+                    "id": 48300,
+                    "name": "天阙遗珍·落金枝",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·游玉京#48203 (1355 特效 会心 会效)": {
+                    "id": 48203,
+                    "name": "枭鸣堕夜·游玉京",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "征雁同霄·山炉鸣#48106 (1355 特效 会心 会效)": {
+                    "id": 48106,
+                    "name": "征雁同霄·山炉鸣",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_88"
+                    ]
+                },
+                "一诺霜明·砺霜重剑#47495 (1355 破防 会效)": {
+                    "id": 47495,
+                    "name": "一诺霜明·砺霜重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_overcome_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·剑冢重剑#47466 (1355 御劲 会效)": {
+                    "id": 47466,
+                    "name": "妄戏浮屠·剑冢重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·铸峰重剑#47437 (1355 御劲 会效)": {
+                    "id": 47437,
+                    "name": "独镇乾坤·铸峰重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 1015,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1577,
+                        "toughness_base": 227,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "道不孤#46899 (1355 会心 会效)": {
+                    "id": 46899,
+                    "name": "道不孤",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1355,
+                    "score": 143,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 271,
+                        "weapon_damage_rand": 181
+                    },
+                    "magic": {
+                        "vitality_base": 861,
+                        "agility_base": 398,
+                        "physical_attack_power_base": 1265,
+                        "physical_critical_strike_base": 753,
+                        "decritical_power_base": 142
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
                 "京江北誓#47747 (960 特效 会心 破防 加速)": {
                     "id": 47747,
                     "name": "京江北誓",
@@ -82921,6 +100125,158 @@ EQUIPMENTS = {
                         "gain_1882_9"
                     ]
                 },
+                "一诺霜明·砺霜重剑#47408 (1320 破防 会效)": {
+                    "id": 47408,
+                    "name": "一诺霜明·砺霜重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 262,
+                        "weapon_damage_rand": 175
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_overcome_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·剑冢重剑#47294 (1320 御劲 会效)": {
+                    "id": 47294,
+                    "name": "妄戏浮屠·剑冢重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 262,
+                        "weapon_damage_rand": 175
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·铸峰重剑#47237 (1320 御劲 会效)": {
+                    "id": 47237,
+                    "name": "独镇乾坤·铸峰重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 262,
+                        "weapon_damage_rand": 175
+                    },
+                    "magic": {
+                        "vitality_base": 987,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1537,
+                        "toughness_base": 221,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "道不孤#46870 (1320 会心 会效)": {
+                    "id": 46870,
+                    "name": "道不孤",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1320,
+                    "score": 139,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 262,
+                        "weapon_damage_rand": 175
+                    },
+                    "magic": {
+                        "vitality_base": 837,
+                        "agility_base": 387,
+                        "physical_attack_power_base": 1232,
+                        "physical_critical_strike_base": 733,
+                        "decritical_power_base": 138
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "陶然意·蓬雨重剑#47716 (1300 特效 破防)": {
+                    "id": 47716,
+                    "name": "陶然意·蓬雨重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1300,
+                    "score": 137,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 257,
+                        "weapon_damage_rand": 171
+                    },
+                    "magic": {
+                        "vitality_base": 824,
+                        "agility_base": 382,
+                        "physical_attack_power_base": 1118,
+                        "physical_overcome_base": 627,
+                        "pvx_round_base": 136
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "pvx_round_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_39088_29"
+                    ]
+                },
                 "霁怀偕月#46761 (1300 会心 无双)": {
                     "id": 46761,
                     "name": "霁怀偕月",
@@ -82950,6 +100306,100 @@ EQUIPMENTS = {
                     "sets": {},
                     "recipes": [],
                     "gains": []
+                },
+                "天阙遗珍·落金枝#48266 (1280 会心 会效)": {
+                    "id": 48266,
+                    "name": "天阙遗珍·落金枝",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 252,
+                        "weapon_damage_rand": 168
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "枭鸣堕夜·游玉京#48169 (1280 特效 会心 会效)": {
+                    "id": 48169,
+                    "name": "枭鸣堕夜·游玉京",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 252,
+                        "weapon_damage_rand": 168
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
+                },
+                "征雁同霄·山炉鸣#48072 (1280 特效 会心 会效)": {
+                    "id": 48072,
+                    "name": "征雁同霄·山炉鸣",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1280,
+                    "score": 135,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 252,
+                        "weapon_damage_rand": 168
+                    },
+                    "magic": {
+                        "vitality_base": 810,
+                        "agility_base": 376,
+                        "physical_attack_power_base": 1195,
+                        "physical_critical_strike_base": 711,
+                        "decritical_power_base": 134
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": [
+                        "gain_4876_85"
+                    ]
                 },
                 "玄砧镇壑#46800 (1280 破防 无双)": {
                     "id": 46800,
@@ -83127,6 +100577,156 @@ EQUIPMENTS = {
                         "physical_critical_power_base": 304,
                         "physical_critical_strike_base": 304,
                         "agility_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "问渡何方·问岫重剑#47602 (1260 会心 会效)": {
+                    "id": 47602,
+                    "name": "问渡何方·问岫重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 246,
+                        "weapon_damage_rand": 164
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "一诺霜明·砺霜重剑#47351 (1260 破防 会效)": {
+                    "id": 47351,
+                    "name": "一诺霜明·砺霜重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 246,
+                        "weapon_damage_rand": 164
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_overcome_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "妄戏浮屠·剑冢重剑#47180 (1260 御劲 会效)": {
+                    "id": 47180,
+                    "name": "妄戏浮屠·剑冢重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 246,
+                        "weapon_damage_rand": 164
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "独镇乾坤·铸峰重剑#47123 (1260 御劲 会效)": {
+                    "id": 47123,
+                    "name": "独镇乾坤·铸峰重剑",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 246,
+                        "weapon_damage_rand": 164
+                    },
+                    "magic": {
+                        "vitality_base": 938,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1467,
+                        "toughness_base": 211,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "toughness_base": 304,
+                        "physical_overcome_base": 304,
+                        "physical_attack_power_base": 304
+                    },
+                    "set_id": 0,
+                    "sets": {},
+                    "recipes": [],
+                    "gains": []
+                },
+                "道不孤#46836 (1260 会心 会效)": {
+                    "id": 46836,
+                    "name": "道不孤",
+                    "school": "藏剑",
+                    "kind": "外功",
+                    "position": "big_sword",
+                    "level": 1260,
+                    "score": 133,
+                    "max_strength": 6,
+                    "base": {
+                        "weapon_damage_base": 246,
+                        "weapon_damage_rand": 164
+                    },
+                    "magic": {
+                        "vitality_base": 796,
+                        "agility_base": 370,
+                        "physical_attack_power_base": 1176,
+                        "physical_critical_strike_base": 700,
+                        "decritical_power_base": 132
+                    },
+                    "embed": {
+                        "agility_base": 304,
+                        "physical_critical_strike_base": 304,
+                        "physical_attack_power_base": 304
                     },
                     "set_id": 0,
                     "sets": {},
