@@ -25860,6 +25860,58 @@
                 }
             }
         },
+        "46080": {
+            "46733": {
+                "1": {
+                    "name": "掠野",
+                    "comment": "PVE",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(10 + rand + int(physical_attack_power * 0.30580924131062504))) * (1 + 0.0302734375 * recipe_4159_1 + 0.0400390625 * recipe_4160_1 + 0.0498046875 * recipe_4161_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "10",
+                                "physical_damage_rand": "1"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike + 0.02 * recipe_4156_1 + 0.03 * recipe_4157_1 + 0.04 * recipe_4158_1",
+                    "critical_attribute": {
+                        "physical_critical_strike_offset": "0.02 * recipe_4156_1 + 0.03 * recipe_4157_1 + 0.04 * recipe_4158_1",
+                        "physical_critical_strike_rate": "200 * recipe_4156_1 + 300 * recipe_4157_1 + 400 * recipe_4158_1"
+                    },
+                    "skill_attribute": {
+                        "frames": "440",
+                        "physical_attack_power_cof": "0.30580924131062504",
+                        "damage_addition": "0.0302734375 * recipe_4159_1 + 0.0400390625 * recipe_4160_1 + 0.0498046875 * recipe_4161_1",
+                        "damage_gain": "31 * recipe_4159_1 + 41 * recipe_4160_1 + 51 * recipe_4161_1"
+                    }
+                },
+                "2": {
+                    "name": "掠野",
+                    "comment": "PVP",
+                    "damages": [
+                        {
+                            "damage": "int(int(int(int(int(int(int(int(int(int(int(int(20 + rand * 2 + int(physical_attack_power * 0.6123135036242288))) * (1 + 0.0302734375 * recipe_4159_1 + 0.0400390625 * recipe_4160_1 + 0.0498046875 * recipe_4161_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))",
+                            "source_attribute": {
+                                "physical_damage_base": "20",
+                                "physical_damage_rand": "2"
+                            }
+                        }
+                    ],
+                    "critical_strike": "physical_critical_strike + 0.02 * recipe_4156_1 + 0.03 * recipe_4157_1 + 0.04 * recipe_4158_1",
+                    "critical_attribute": {
+                        "physical_critical_strike_offset": "0.02 * recipe_4156_1 + 0.03 * recipe_4157_1 + 0.04 * recipe_4158_1",
+                        "physical_critical_strike_rate": "200 * recipe_4156_1 + 300 * recipe_4157_1 + 400 * recipe_4158_1"
+                    },
+                    "skill_attribute": {
+                        "frames": "881",
+                        "physical_attack_power_cof": "0.6123135036242288",
+                        "damage_addition": "0.0302734375 * recipe_4159_1 + 0.0400390625 * recipe_4160_1 + 0.0498046875 * recipe_4161_1",
+                        "damage_gain": "31 * recipe_4159_1 + 41 * recipe_4160_1 + 51 * recipe_4161_1"
+                    }
+                }
+            }
+        },
         "33123": {
             "33129": {
                 "1": {

@@ -62,7 +62,7 @@ TALENTS: list[dict[int, dict]] = [
         ),
         26735: {},
         16957: {},
-        46080: {},
+        46080: dict(skills={46733: {1: dict(comment="PVE"), 2: dict(comment="PVP")}}),
         33123: dict(skills={33129: {}})
     }
 ]

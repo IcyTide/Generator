@@ -12198,6 +12198,26 @@ SKILLS = {
                 }
             }
         },
+        46080: {
+            46733: {
+                1: {
+                    "name": "掠野",
+                    "comment": "PVE",
+                    "critical_strike": "physical_critical_strike + 0.02 * recipe_4156_1 + 0.03 * recipe_4157_1 + 0.04 * recipe_4158_1",
+                    "damages": [
+                        "int(int(int(int(int(int(int(int(int(int(int(int(10 + rand + int(physical_attack_power * 0.30580924131062504))) * (1 + 0.0302734375 * recipe_4159_1 + 0.0400390625 * recipe_4160_1 + 0.0498046875 * recipe_4161_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                    ]
+                },
+                2: {
+                    "name": "掠野",
+                    "comment": "PVP",
+                    "critical_strike": "physical_critical_strike + 0.02 * recipe_4156_1 + 0.03 * recipe_4157_1 + 0.04 * recipe_4158_1",
+                    "damages": [
+                        "int(int(int(int(int(int(int(int(int(int(int(int(20 + rand * 2 + int(physical_attack_power * 0.6123135036242288))) * (1 + 0.0302734375 * recipe_4159_1 + 0.0400390625 * recipe_4160_1 + 0.0498046875 * recipe_4161_1 + physical_damage_addition)) * (1 + skill_damage_addition)) * (1 + move_state_damage_addition)) * (1 + physical_overcome)) * shield_constant / (int(physical_shield * (1 - all_shield_ignore / 1024)) + shield_constant)) * (1 + is_critical * (physical_critical_power - 1))) * (1 - (level - 50) * 0.05)) * (1 + strain)) * (1 + pve_damage_addition)) * (1 + physical_damage_scale))"
+                    ]
+                }
+            }
+        },
         33123: {
             33129: {
                 1: {
